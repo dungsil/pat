@@ -1,0 +1,7 @@
+﻿l_korean:
+  appeasement_support_expansion_agreement_formed: "$military_support$ [concept_diplomatic_pact]을(를) 체결했습니다." # 12136006399390141403
+  appeasement_support_expansion_agreement_formed_desc: "$military_support$ [concept_diplomatic_pact]을 결성합니다" # 16002610924487325332
+  appeasement_support_expansion_agreement_broken: "$military_support$ [concept_diplomatic_pact] 파기" # 13979591818684584455
+  appeasement_support_expansion_agreement_broken_desc: "$military_support$ [concept_diplomatic_pact] 파기" # 8793662125821371220
+  appeasement_industry_banned: "산업이 금지되었습니다" # 897392127032547410
+  appeasement_industry_banned_desc: "법률로써 중공업 금지" # 16108146912958042950

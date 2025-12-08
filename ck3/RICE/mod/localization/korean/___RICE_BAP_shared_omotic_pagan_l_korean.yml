@@ -1,0 +1,63 @@
+﻿l_korean:
+  omotic_religion: "오모트족" # 6785606133096826890
+  omotic_religion_adj: "오모트족" # 6785606133096826890
+  omotic_religion_adherent: "오모트족" # 6785606133096826890
+  omotic_religion_adherent_plural: "오모틱스" # 6950462197095165101
+  omotic_religion_desc: "그들의 차이점에도 불구하고, 에티오피아 남서부 고원의 사람들의 전통 신앙은 최고 천신에 대한 숭배와 같이 여러 유사점을 공유합니다." # 7632747040788838243
+  south_omotic_pagan: "카르타파파교" # 14247126916200319617
+  south_omotic_pagan_adj: "카르타이스트" # 14102347324493681867
+  south_omotic_pagan_adherent: "카르타이스트" # 14102347324493681867
+  south_omotic_pagan_adherent_plural: "카르타이스트" # 15878145481105417889
+  south_omotic_pagan_desc: "카르타는 우리 선조들의 전통적인 방식입니다. 존중이야말로 가장 중요한 가치이니, 우리는 서로를 존중해야 할 뿐만 아니라 많은 것을 아시는 연장자와 점술가들 또한 존중해야 합니다." # 11105941468204359633
+  south_omotic_pagan_old: "옛 카르타이즘" # 8134722624229024943
+  south_omotic_pagan_old_adj: "오래된 카르타이스트" # 3320033963272094221
+  south_omotic_pagan_old_adherent: "오래된 카르타이스트" # 3320033963272094221
+  south_omotic_pagan_old_adherent_plural: "옛 카르타이파" # 937121587357452375
+  south_omotic_pagan_old_desc: "$south_omotic_pagan_desc$" # 5866550936683060429
+  welayta_pagan: "혹스주의" # 11809745461062908909
+  welayta_pagan_adj: "소스시스트" # 16759034892426287987
+  welayta_pagan_adherent: "소스시스트" # 16759034892426287987
+  welayta_pagan_adherent_plural: "코시스트" # 5261061001927627417
+  welayta_pagan_desc: "혹싸는 영원히 존재하는 지고신이자 창조주입니다. 그분은 지구에서 멀리 떨어져 사시기 때문에, 사람들은 혹싸의 중재자 역할을 하는 선한 영들과 조상들에게 경배하고 제사를 드려야 합니다." # 12276827659648931299
+  welayta_pagan_old: "오래된 크소스주의" # 5372061827781794348
+  welayta_pagan_old_adj: "오래된 코시스인" # 16729368996729434772
+  welayta_pagan_old_adherent: "오래된 코시스인" # 16729368996729434772
+  welayta_pagan_old_adherent_plural: "옛 코시스인들" # 9712701180207379930
+  welayta_pagan_old_desc: "$welayta_pagan_desc$" # 18177642536466331815
+  welayta_high_god_name: "호사" # 10939487105673263650
+  welayta_high_god_name_2: "$welayta_high_god_name$" # 6042262205318252224
+  welayta_high_god_name_3: "$welayta_high_god_name$" # 6042262205318252224
+  welayta_creator_god_name: "$welayta_high_god_name$" # 6042262205318252224
+  welayta_creator_god_name_possessive: "$welayta_high_god_name_possessive$" # 6433035333542668225
+  welayta_good_god_name: "실로-아야나" # 16241055744988035921
+  welayta_good_god_name_possessive: "실로-아야나 족의" # 17364968442155046151
+  welayta_ancestor_god_name: "아와-호사" # 9477630646624092222
+  welayta_ancestor_god_name_possessive: "아와-호사족의" # 2249580088845316531
+  welayta_health_god_name: "$welayta_good_god_name$" # 17560133785214168826
+  welayta_health_god_name_possessive: "$welayta_good_god_name_possessive$" # 5694394060249537113
+  welayta_fertility_god_name: "$welayta_good_god_name$" # 17560133785214168826
+  welayta_fertility_god_name_possessive: "$welayta_good_god_name_possessive$" # 5694394060249537113
+  welayta_wealth_god_name: "$welayta_good_god_name$" # 17560133785214168826
+  welayta_wealth_god_name_possessive: "$welayta_good_god_name_possessive$" # 5694394060249537113
+  welayta_household_god_name: "$welayta_ancestor_god_name$" # 16976441460239001624
+  welayta_household_god_name_possessive: "$welayta_ancestor_god_name_possessive$" # 14638606807981902914
+  welayta_fate_god_name: "$paganism_fate_god_name$" # 9464664914535910014
+  welayta_fate_god_name_possessive: "$paganism_fate_god_name_possessive$" # 10342465265797791752
+  welayta_knowledge_god_name: "$welayta_ancestor_god_name$" # 16976441460239001624
+  welayta_knowledge_god_name_possessive: "$welayta_ancestor_god_name_possessive$" # 14638606807981902914
+  welayta_war_god_name: "$welayta_good_god_name$" # 17560133785214168826
+  welayta_war_god_name_possessive: "$welayta_good_god_name_possessive$" # 5694394060249537113
+  welayta_trickster_god_name: "이타-아야나" # 9173913992076228490
+  welayta_trickster_god_name_possessive: "이타-아야나의" # 13562275985048465380
+  welayta_night_god_name: "$welayta_good_god_name$" # 17560133785214168826
+  welayta_night_god_name_possessive: "$welayta_good_god_name_possessive$" # 5694394060249537113
+  welayta_water_god_name: "$welayta_good_god_name$" # 17560133785214168826
+  welayta_water_god_name_possessive: "$welayta_good_god_name_possessive$" # 5694394060249537113
+  welayta_house_of_worship: "성소" # 2303695743383420811
+  welayta_house_of_worship_2: "$welayta_house_of_worship$" # 3305860092191401920
+  welayta_house_of_worship_3: "$welayta_house_of_worship$" # 3305860092191401920
+  welayta_house_of_worship_plural: "성소들" # 17142390693193914587
+  welayta_priest: "샤레추와" # 2209089725573278505
+  welayta_priest_plural: "샤레추와스" # 8324850043163789715
+  welayta_high_priest: "고위 샤르추와" # 605720758329973925
+  welayta_high_priest_plural: "고위 셰르추와스" # 5464217383121234387

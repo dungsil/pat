@@ -1,0 +1,8 @@
+﻿l_korean:
+  at_aniconists_wont_trade_artifacts_first: "당신의 무상숭배 신앙은 유물 매매를 허용하지 않습니다."
+  at_aniconists_wont_trade_artifacts_third: "그들의 우상파괴주의 신앙은 유물 매매를 허용하지 않습니다."
+  at_not_enough_short_term_gold_tt: "그들의 단기 예산으로는 유물 구매에 턱없이 부족합니다."
+  at_valid_buyer_or_seller_tt: "그들은 유물을 거래하기에는 너무 멀리 떨어져 있습니다."
+  at_any_artifact_can_be_sold_and_bought_by_first_tt: "당신은 팔 수 있고 그들이 살 수 있는 [artifact|E]를 가지고 있어야 합니다."
+  at_any_artifact_can_be_sold_and_bought_by_third_tt: "그들은 팔 수 있고 당신이 살 수 있는 [artifact|E]를 소유하고 있어야 합니다."
+  at_any_artifact_can_be_destroyed_tt: "파괴할 수 있는 [artifact|E]를 보유하고 있어야 합니다."

@@ -1,0 +1,505 @@
+/**
+ * upstream 리포지토리 관리 유틸리티
+ * 
+ * git submodule 대신 sparse checkout과 partial clone을 사용하여
+ * 필요한 localization 파일만 효율적으로 다운로드합니다.
+ * 
+ * meta.toml 파일에서 모든 설정 정보 (URL, localization 경로)를 읽어옵니다.
+ */
+
+import { exec } from 'node:child_process'
+import { promisify } from 'node:util'
+import { access, mkdir, readFile, writeFile, readdir } from 'node:fs/promises'
+import { join, dirname } from 'pathe'
+import { log } from './logger'
+import { parseToml } from '../parser/toml'
+
+const execAsync = promisify(exec)
+
+interface UpstreamConfig {
+  url: string
+  path: string
+  localizationPaths: string[]
+}
+
+interface MetaTomlConfig {
+  upstream: {
+    url?: string
+    localization: string[]
+    language: string
+  }
+}
+
+/**
+ * meta.toml 파일을 기반으로 upstream 설정을 추출합니다
+ */
+export async function parseUpstreamConfigs(rootPath: string, targetGameType?: string, targetMod?: string): Promise<UpstreamConfig[]> {
+  const configs: UpstreamConfig[] = []
+  
+  // meta.toml 파일들을 찾아서 처리
+  const metaConfigs = await findMetaTomlConfigs(rootPath, targetGameType, targetMod)
+  configs.push(...metaConfigs)
+  
+  if (configs.length === 0) {
+    const gameMessage = targetGameType ? `${targetGameType} 게임의 ` : ''
+    const modMessage = targetMod ? `${targetMod} 모드의 ` : ''
+    log.error(`${gameMessage}${modMessage}meta.toml 파일이 없습니다. 모든 모드 디렉토리에 meta.toml 파일이 필요합니다.`)
+    throw new Error('meta.toml 파일이 없습니다')
+  }
+  
+  return configs
+}
+
+/**
+ * 모든 meta.toml 파일을 찾아서 upstream 설정을 추출합니다
+ */
+async function findMetaTomlConfigs(rootPath: string, targetGameType?: string, targetMod?: string): Promise<UpstreamConfig[]> {
+  const configs: UpstreamConfig[] = []
+  const gameDirectories = targetGameType ? [targetGameType] : ['ck3', 'vic3', 'stellaris']
+  
+  for (const gameDir of gameDirectories) {
+    const gamePath = join(rootPath, gameDir)
+    
+    try {
+      await access(gamePath)
+      const modDirs = await readdir(gamePath, { withFileTypes: true })
+      
+      for (const modDir of modDirs) {
+        if (modDir.isDirectory()) {
+          // 특정 모드가 지정된 경우 해당 모드만 처리
+          if (targetMod && modDir.name !== targetMod) {
+            continue
+          }
+          
+          const metaPath = join(gamePath, modDir.name, 'meta.toml')
+          
+          try {
+            await access(metaPath)
+            const config = await parseMetaTomlConfig(metaPath, gameDir, modDir.name)
+            if (config) {
+              configs.push(config)
+            }
+          } catch {
+            log.info(`[${gameDir}/${modDir.name}] meta.toml 파일이 없음`)
+          }
+        }
+      }
+    } catch {
+      log.info(`[${gameDir}] 게임 디렉토리가 존재하지 않음`)
+    }
+  }
+  
+  return configs
+}
+
+/**
+ * 개별 meta.toml 파일을 파싱하여 upstream 설정을 생성합니다
+ */
+async function parseMetaTomlConfig(metaPath: string, gameDir: string, modName: string): Promise<UpstreamConfig | null> {
+  try {
+    const content = await readFile(metaPath, 'utf-8')
+    const config = parseToml(content) as MetaTomlConfig
+    
+    if (!config.upstream?.localization || !Array.isArray(config.upstream.localization)) {
+      return null
+    }
+    
+    const upstreamPath = `${gameDir}/${modName}/upstream`
+    
+    // meta.toml에서 URL을 직접 읽어옴
+    if (!config.upstream.url) {
+      log.info(`[${upstreamPath}] meta.toml에 URL이 없음, 일반 파일 기반 upstream으로 처리`)
+      return {
+        url: '', // 빈 URL로 일반 파일 기반임을 표시
+        path: upstreamPath,
+        localizationPaths: config.upstream.localization
+      }
+    }
+    
+    return {
+      url: config.upstream.url,
+      path: upstreamPath,
+      localizationPaths: config.upstream.localization
+    }
+  } catch (error) {
+    log.warn(`Failed to parse meta.toml: ${metaPath}`, error)
+    return null
+  }
+}
+
+
+/**
+ * 효율적인 방식으로 upstream 리포지토리를 클론하고 localization 파일만 체크아웃합니다
+ */
+export async function updateUpstreamOptimized(config: UpstreamConfig, rootPath: string): Promise<void> {
+  const fullPath = join(rootPath, config.path)
+  
+  // git 기반이 아닌 일반 파일 업스트림인 경우 건너뛰기
+  if (!config.url) {
+    log.info(`[${config.path}] 일반 파일 기반 upstream, git 업데이트 건너뛰기`)
+    return
+  }
+  
+  try {
+    // 이미 존재하는지 확인
+    await access(fullPath)
+    log.info(`[${config.path}] 이미 존재함, 업데이트 확인 중...`)
+    await updateExistingRepository(fullPath, config)
+  } catch {
+    log.info(`[${config.path}] 새로 클론 중...`)
+    await cloneOptimizedRepository(fullPath, config)
+  }
+}
+
+/**
+ * GitHub URL에서 owner/repo를 추출합니다
+ * HTTPS (https://github.com/owner/repo) 및 SSH (git@github.com:owner/repo) 형식을 지원합니다.
+ * @internal 테스트 목적으로 export됨
+ */
+export function parseGitHubUrl(url: string): { owner: string, repo: string } | null {
+  // GitHub URL 패턴: HTTPS 또는 SSH 형식만 매칭
+  const match = url.match(/(?:https?:\/\/github\.com\/|git@github\.com:)([^/]+)\/([^/]+?)(?:\.git)?$/)
+  if (!match) return null
+  return { owner: match[1], repo: match[2] }
+}
+
+/**
+ * GitHub API 요청에 사용할 헤더를 생성합니다.
+ * GITHUB_TOKEN 환경변수가 있으면 인증 헤더를 추가합니다 (API 요청 제한 완화).
+ */
+function getGitHubApiHeaders(): Record<string, string> {
+  const headers: Record<string, string> = {
+    'Accept': 'application/vnd.github.v3+json',
+    'User-Agent': 'paradox-auto-translate'
+  }
+  
+  // GITHUB_TOKEN이 있으면 인증 헤더 추가 (시간당 60회 -> 1000회로 제한 증가)
+  if (process.env.GITHUB_TOKEN) {
+    headers['Authorization'] = `Bearer ${process.env.GITHUB_TOKEN}`
+  }
+  
+  return headers
+}
+
+/**
+ * GitHub Releases API를 사용하여 최신 릴리즈 태그를 가져옵니다
+ * 비개발자가 만든 다양한 형식의 태그도 지원합니다.
+ * @internal 테스트 목적으로 export됨
+ */
+export async function getLatestReleaseFromGitHub(owner: string, repo: string, configPath: string): Promise<string | null> {
+  try {
+    // GitHub API로 최신 릴리즈 가져오기
+    const apiUrl = `https://api.github.com/repos/${owner}/${repo}/releases/latest`
+    log.info(`[${configPath}] GitHub Releases API 확인 중...`)
+    
+    const headers = getGitHubApiHeaders()
+    const response = await fetch(apiUrl, { headers })
+    
+    if (response.ok) {
+      const data = await response.json() as { tag_name: string }
+      if (data.tag_name) {
+        log.info(`[${configPath}] GitHub 최신 릴리즈 발견: ${data.tag_name}`)
+        return data.tag_name
+      }
+    }
+    
+    // 최신 릴리즈가 없으면 모든 릴리즈 목록에서 첫 번째 가져오기
+    const allReleasesUrl = `https://api.github.com/repos/${owner}/${repo}/releases`
+    const allResponse = await fetch(allReleasesUrl, { headers })
+    
+    if (allResponse.ok) {
+      const releases = await allResponse.json() as Array<{ tag_name: string }>
+      if (releases.length > 0 && releases[0].tag_name) {
+        log.info(`[${configPath}] GitHub 릴리즈 발견: ${releases[0].tag_name}`)
+        return releases[0].tag_name
+      }
+    } else {
+      log.debug(`[${configPath}] GitHub Releases 목록 API 실패 (HTTP ${allResponse.status}): ${allResponse.statusText}`)
+    }
+    
+    return null
+  } catch (error) {
+    // 에러 유형에 따라 상세한 로깅
+    if (error instanceof Error) {
+      log.debug(`[${configPath}] GitHub Releases API 실패: ${error.message}`, error)
+    } else {
+      log.debug(`[${configPath}] GitHub Releases API 실패:`, error)
+    }
+    return null
+  }
+}
+
+/**
+ * 원격 리포지토리에서 최신 참조(태그 또는 브랜치)를 가져옵니다
+ * 
+ * GitHub 리포지토리인 경우 Releases API를 우선 사용합니다 (가장 정확한 방법).
+ * Releases API 실패 시 git ls-remote로 폴백합니다.
+ * 
+ * 주의: git ls-remote의 태그 정렬 순서는 보장되지 않습니다.
+ * GitHub가 아닌 리포지토리의 경우, 마지막 태그가 최신이 아닐 수 있습니다.
+ * 가능하면 GitHub Releases를 사용하는 것을 권장합니다.
+ * 
+ * @internal 테스트 목적으로 export됨
+ */
+export async function getLatestRefFromRemote(repoUrl: string, configPath: string): Promise<{ type: 'tag' | 'branch', name: string }> {
+  try {
+    log.info(`[${configPath}] 원격 태그 확인 중...`)
+    
+    // GitHub URL인 경우 Releases API 사용 (가장 신뢰성 높음)
+    const githubInfo = parseGitHubUrl(repoUrl)
+    if (githubInfo) {
+      const latestRelease = await getLatestReleaseFromGitHub(githubInfo.owner, githubInfo.repo, configPath)
+      if (latestRelease) {
+        return { type: 'tag', name: latestRelease }
+      }
+      log.info(`[${configPath}] GitHub Releases에서 릴리즈를 찾지 못함, git ls-remote로 폴백...`)
+    }
+    
+    // GitHub가 아니거나 Releases API 실패 시 git ls-remote 사용
+    // 주의: git ls-remote의 정렬 순서는 보장되지 않음
+    const { stdout: tagsOutput } = await execAsync(`git ls-remote --tags --refs "${repoUrl}"`, {
+      timeout: 30000 // 30초 타임아웃
+    })
+    
+    if (tagsOutput.trim()) {
+      // 태그 이름만 추출 (refs/tags/ 접두사 제거)
+      const tags = tagsOutput.trim().split('\n')
+        .map(line => {
+          const match = line.match(/refs\/tags\/(.+)$/)
+          return match ? match[1] : null
+        })
+        .filter((tag): tag is string => tag !== null && tag.length > 0)
+      
+      if (tags.length > 0) {
+        // 마지막 태그 반환 (정렬 순서가 보장되지 않으므로 최신이 아닐 수 있음)
+        const latestTag = tags[tags.length - 1]
+        log.warn(`[${configPath}] git ls-remote 폴백 사용: 태그 정렬이 보장되지 않으므로 최신이 아닐 수 있음`)
+        log.info(`[${configPath}] 태그 발견 (git ls-remote 폴백): ${latestTag}`)
+        return { type: 'tag', name: latestTag }
+      }
+    }
+    
+    // 태그가 없는 경우, 기본 브랜치를 확인
+    log.info(`[${configPath}] 태그 없음, 기본 브랜치 확인 중...`)
+    const { stdout: headOutput } = await execAsync(`git ls-remote --symref "${repoUrl}" HEAD`, {
+      timeout: 10000 // 10초 타임아웃
+    })
+    
+    // 출력 형식: ref: refs/heads/<branch-name>\tHEAD
+    const match = headOutput.match(/ref: refs\/heads\/([^\s]+)/)
+    const branchName = match?.[1] || 'main'
+    
+    log.info(`[${configPath}] 기본 브랜치: ${branchName}`)
+    return { type: 'branch', name: branchName }
+    
+  } catch (error) {
+    // 오류 발생 시 기본값으로 main 브랜치 반환
+    log.warn(`[${configPath}] 원격 참조 확인 실패, 기본 브랜치(main) 사용:`, error)
+    return { type: 'branch', name: 'main' }
+  }
+}
+
+/**
+ * 새 리포지토리를 효율적으로 클론합니다
+ */
+async function cloneOptimizedRepository(targetPath: string, config: UpstreamConfig): Promise<void> {
+  const startTime = Date.now()
+  
+  // 디렉토리 생성
+  await mkdir(dirname(targetPath), { recursive: true })
+  
+  try {
+    // 1. 먼저 태그 정보만 가져와서 최신 태그를 확인
+    log.start(`[${config.path}] 리포지토리 정보 확인 중...`)
+    const latestRef = await getLatestRefFromRemote(config.url, config.path)
+    
+    // 2. Partial clone (blob 없이 메타데이터만) + shallow clone으로 디스크 공간 최소화
+    // 최신 태그나 기본 브랜치를 명시적으로 지정하여 클론
+    log.start(`[${config.path}] Partial clone 시작 (${latestRef.type}: ${latestRef.name})...`)
+    if (latestRef.type === 'tag') {
+      // 태그가 있는 경우, 해당 태그를 기준으로 shallow clone
+      await execAsync(`git clone --filter=blob:none --depth=1 --branch "${latestRef.name}" --no-checkout "${config.url}" "${targetPath}"`)
+    } else {
+      // 태그가 없는 경우, 기본 브랜치로 shallow clone
+      await execAsync(`git clone --filter=blob:none --depth=1 --no-checkout "${config.url}" "${targetPath}"`)
+    }
+    
+    // 3. Sparse checkout 설정
+    log.start(`[${config.path}] Sparse checkout 설정 중...`)
+    await execAsync('git sparse-checkout init', { cwd: targetPath })
+    
+    // 4. Localization 경로만 설정 (파일에 직접 작성)
+    const sparseCheckoutPath = join(targetPath, '.git', 'info', 'sparse-checkout')
+    const sparseCheckoutContent = config.localizationPaths.join('\n')
+    await writeFile(sparseCheckoutPath, sparseCheckoutContent)
+    
+    // 5. 파일 체크아웃
+    log.start(`[${config.path}] 파일 체크아웃 중...`)
+    await checkoutLatestVersionForShallowClone(targetPath, config.path)
+    
+    const duration = Date.now() - startTime
+    log.success(`[${config.path}] 클론 완료 (${duration}ms)`)
+    
+  } catch (error) {
+    log.error(`[${config.path}] 클론 실패:`, error)
+    throw error
+  }
+}
+
+/**
+ * 리포지토리가 shallow clone인지 확인합니다
+ * @internal 테스트 목적으로 export됨
+ */
+export async function isShallowRepository(repositoryPath: string): Promise<boolean> {
+  try {
+    // .git/shallow 파일이 존재하면 shallow clone입니다
+    await access(join(repositoryPath, '.git', 'shallow'))
+    return true
+  } catch {
+    return false
+  }
+}
+
+/**
+ * 기존 리포지토리를 업데이트합니다
+ */
+async function updateExistingRepository(repositoryPath: string, config: UpstreamConfig): Promise<void> {
+  try {
+    // Git 상태 확인
+    const { stdout: status } = await execAsync('git status --porcelain', { cwd: repositoryPath })
+    
+    if (status.trim()) {
+      log.warn(`[${config.path}] 로컬 변경사항이 있어 업데이트를 건너뜁니다`)
+      return
+    }
+    
+    // shallow clone 여부 확인
+    const isShallow = await isShallowRepository(repositoryPath)
+    
+    // 원격 최신 참조 확인
+    log.start(`[${config.path}] 원격 최신 버전 확인 중...`)
+    const latestRef = await getLatestRefFromRemote(config.url, config.path)
+    
+    // 현재 체크아웃된 참조 확인
+    let current: string
+    let currentType: 'tag' | 'branch'
+    try {
+      // 먼저 태그인지 확인
+      const { stdout } = await execAsync('git describe --tags --exact-match', { cwd: repositoryPath })
+      current = stdout.trim()
+      currentType = 'tag'
+    } catch {
+      // 태그가 아니면 브랜치 이름 가져오기
+      const { stdout } = await execAsync('git rev-parse --abbrev-ref HEAD', { cwd: repositoryPath })
+      current = stdout.trim()
+      currentType = 'branch'
+    }
+    
+    if (current === latestRef.name && currentType === latestRef.type) {
+      log.info(`[${config.path}] 이미 최신 버전입니다 (${latestRef.type}: ${latestRef.name})`)
+      return
+    }
+    
+    // 원격 변경사항 가져오기
+    log.start(`[${config.path}] 원격 변경사항 가져오는 중...`)
+    if (isShallow) {
+      if (latestRef.type === 'tag') {
+        // shallow clone에서 특정 태그로 업데이트하려면 해당 태그를 fetch
+        await execAsync(`git fetch --depth=1 origin tag "${latestRef.name}"`, { cwd: repositoryPath })
+      } else {
+        // 브랜치의 경우 기존 방식대로
+        await execAsync(`git fetch --depth=1 origin "${latestRef.name}"`, { cwd: repositoryPath })
+      }
+    } else {
+      // 일반 clone의 경우 모든 변경사항 가져오기
+      await execAsync('git fetch --tags', { cwd: repositoryPath })
+    }
+    
+    // 최신 버전으로 체크아웃
+    log.start(`[${config.path}] ${latestRef.type} ${latestRef.name}(으)로 업데이트 중...`)
+    await execAsync(`git checkout "${latestRef.name}"`, { cwd: repositoryPath })
+    
+    if (latestRef.type === 'branch') {
+      // 브랜치의 경우 원격 상태로 강제 리셋 (브랜치는 변경 가능하므로)
+      // 태그는 불변이므로 checkout만으로 충분함
+      // upstream 리포지토리는 읽기 전용이므로 로컬 변경사항은 무시하고 원격 상태로 리셋
+      await execAsync(`git reset --hard "origin/${latestRef.name}"`, { cwd: repositoryPath })
+    }
+    
+    log.success(`[${config.path}] 업데이트 완료 (${latestRef.type}: ${latestRef.name})`)
+    
+  } catch (error) {
+    log.error(`[${config.path}] 업데이트 실패:`, error)
+    throw error
+  }
+}
+
+/**
+ * shallow clone에서 파일을 체크아웃합니다
+ * shallow clone은 이미 최신 커밋을 가져왔으므로 단순히 체크아웃만 수행합니다
+ * @internal 테스트 목적으로 export됨
+ */
+export async function checkoutLatestVersionForShallowClone(repositoryPath: string, configPath: string): Promise<void> {
+  try {
+    // shallow clone은 --depth=1로 이미 최신 커밋을 가져왔으므로
+    // 현재 브랜치(HEAD)를 체크아웃하면 됩니다
+    // git sparse-checkout reapply는 --no-checkout 이후 파일을 체크아웃하지 않으므로
+    // git checkout HEAD를 사용하여 sparse-checkout 패턴에 맞는 파일을 실제로 체크아웃합니다
+    await execAsync('git checkout HEAD', { cwd: repositoryPath })
+    log.info(`[${configPath}] 최신 버전 체크아웃 완료`)
+  } catch (error) {
+    log.error(`[${configPath}] 체크아웃 실패:`, error)
+    throw error
+  }
+}
+
+/**
+ * 모든 upstream 리포지토리를 병렬로 업데이트합니다
+ */
+export async function updateAllUpstreams(rootPath: string, targetGameType?: string, targetMod?: string): Promise<void> {
+  const configs = await parseUpstreamConfigs(rootPath, targetGameType, targetMod)
+  
+  if (configs.length === 0) {
+    const gameMessage = targetGameType ? `${targetGameType} 게임의 ` : ''
+    const modMessage = targetMod ? `${targetMod} 모드의 ` : ''
+    log.warn(`업데이트할 ${gameMessage}${modMessage}upstream 설정을 찾을 수 없습니다`)
+    return
+  }
+  
+  let scopeMessage = '모든 게임'
+  if (targetGameType && targetMod) {
+    scopeMessage = `${targetGameType.toUpperCase()} 게임의 ${targetMod} 모드`
+  } else if (targetGameType) {
+    scopeMessage = `${targetGameType.toUpperCase()} 게임`
+  } else if (targetMod) {
+    // 게임 타입 없이 모드만 지정된 경우, 모든 게임에서 해당 모드를 찾습니다
+    scopeMessage = `모든 게임의 ${targetMod} 모드`
+    log.warn(`게임 타입이 지정되지 않아 모든 게임에서 "${targetMod}" 모드를 검색합니다`)
+  }
+  
+  log.box(`
+    Upstream 최적화 업데이트 시작
+    - 범위: ${scopeMessage}
+    - 대상: ${configs.length}개 리포지토리
+    - 모드: 병렬 처리 (sparse checkout)
+    - 설정 소스: meta.toml 전용
+  `)
+  
+  const startTime = Date.now()
+  
+  // 병렬 처리
+  const promises = configs.map(config => updateUpstreamOptimized(config, rootPath))
+  await Promise.all(promises)
+  
+  const duration = Date.now() - startTime
+  let scopeMessageComplete = '모든 '
+  if (targetGameType && targetMod) {
+    scopeMessageComplete = `${targetGameType.toUpperCase()} 게임의 ${targetMod} 모드 `
+  } else if (targetGameType) {
+    scopeMessageComplete = `${targetGameType.toUpperCase()} `
+  } else if (targetMod) {
+    scopeMessageComplete = `모든 게임의 ${targetMod} 모드 `
+  }
+  
+  log.success(`${scopeMessageComplete}upstream 업데이트 완료! (${duration}ms)`)
+}

@@ -1,0 +1,345 @@
+﻿l_korean:
+  RICE_all_in_attendance: "행사에 참석하는 모든 이들" # 12280657639279470768
+  activity_venerate_ancestors: "조상 숭배 의식" # 10570401648515158897
+  activity_venerate_ancestors_name: "[ACTIVITY.GetOwner.GetNamePossessiveOrMy|U] 조상 현양 의식" # 5702792850503759320
+  activity_venerate_ancestors_owner: "주최자" # 5385116375296694859
+  activity_RICE_venerate_ancestors_host_an_a: "$host_activity_an$" # 2045561106244749009
+  activity_RICE_venerate_ancestors: "조상 숭배 의식" # 10254234159500489743
+  activity_RICE_venerate_ancestors_desc: "조상님께 사랑과 존경을 표함으로써, 우리는 가문을 묶는 유대를 강화할 수 있습니다. 조상님들께서는 긴 의식을 통해 존경과 숭배를 받으실 자격이 있습니다." # 2395268240684225065
+  activity_RICE_venerate_ancestors_selection_tooltip: "[court|E]에 있는 [dynasty_members|E]를 기리며 조상을 숭배하십시오.\n\n$RICE_misc_venerate_ancestors_context_tooltip$" # 12709753045563473381
+  activity_RICE_venerate_ancestors_host_desc: "$BULLET_WITH_TAB$무작위 양의 [piety_i|E][piety|E], [prestige_i|E][prestige|E], 그리고 [dynasty_prestige_i|E][dynasty_prestige|E] 획득\n$BULLET_WITH_TAB$획득할 수 있는 이 자원들의 최대량은 당신의 [dynasty_prestige_level|E], [virtues|E], 그리고 [sins|E]에 따라 결정됩니다" # 8706083852753075269
+  activity_RICE_venerate_ancestors_guest_desc: "$BULLET_WITH_TAB$무작위 양의 [piety_i|E][piety|E]와 [prestige_i|E][prestige|E] 획득" # 18408209090176114097
+  activity_RICE_venerate_ancestors_temple_holding_desc: "#P ++ [church_holding|E]#!\n#weak 이로 인해 이 [activity|E]의 [gold|E] 비용이 감소할 것입니다.#!" # 760848828324675447
+  activity_RICE_venerate_ancestors_temple_holding_reduced_cost: "[church_holding|E]" # 11786638095250541163
+  activity_RICE_venerate_ancestors_guest_help_text: "$activity_RICE_venerate_ancestors$" # 5337124454949629568
+  activity_RICE_venerate_ancestors_predicted_cost: "조상 숭배 비용은 선택하는 [activity_options|E]에 따라 달라집니다." # 1389936805388629928
+  activity_RICE_venerate_ancestors_conclusion_desc: "[GetActivityType( 'activity_RICE_venerate_ancestors' ).GetName] 행사가 끝났습니다. 조상님들께서 우리의 제물에 만족하셨기를 바랄 뿐입니다!" # 13607439729056775732
+  RICE_venerate_ancestors_type_secular: "평신도 의식" # 16032525652307626792
+  RICE_venerate_ancestors_type_secular_desc: "$EFFECT_LIST_BULLET$ 이 의식은 조상님들 그 자체에 초점을 맞추며, [GetPlayer.GetFaith.GetAdjective] [GetPlayer.Custom('DefaultPriestTitlePlural')]의 개입은 적습니다.\n$EFFECT_LIST_BULLET$ 무작위로 얻게 되는 최소한의 [prestige_i|E] [prestige|E] 양이 #bold 신성한#! 의식 때보다 높습니다.\n\n#weak 조상님을 기리는 일의 저승 차원을 부정하는 것은 어리석은 일이지만, 무엇보다도 그분들이 어떤 분들이셨는지에 집중하며 기억하고 기립시다!#!" # 13133574142807703050
+  RICE_venerate_ancestors_type_religious: "성스러운 의식" # 7182611436427569286
+  RICE_venerate_ancestors_type_religious_desc: "$EFFECT_LIST_BULLET$ 이 의식에는 [GetPlayer.GetFaith.GetAdjective] [GetPlayer.Custom('DefaultPriestTitlePlural')]이 대거 참여하여, 조상뿐만 아니라 [GetPlayer.GetFaith.PantheonTerm]께도 경의를 표하게 될 것입니다!\n$EFFECT_LIST_BULLET$ 당신이 무작위로 얻는 최소한의 [piety_i|E] [piety|E] 양이 #bold 세속적인#! 의식보다 높습니다.\n\n#weak 조상을 기림으로써 우리는 서로 간의 유대뿐만 아니라 우리 자신과 신성한 존재와의 유대도 다지게 됩니다.#" # 7471812783822799434
+  RICE_venerate_ancestors_cost_type: "봉헌물" # 1626538731888735885
+  RICE_venerate_ancestors_cost_type_small: "겸손한" # 9351313465329914901
+  RICE_venerate_ancestors_cost_type_small_desc: "$EFFECT_LIST_BULLET$ 조상들에게 소박하지만 존경스러운 제물을 바칩니다.\n$EFFECT_LIST_BULLET$ 귀하의 [dynasty|E]는 최대 #V [dynasty_prestige_i] [GetPlayer.MakeScope.ScriptValue('RICE_ancestor_max_dynasty_prestige_small_value')]#! 만큼의 위업만 얻게 됩니다.\n\n#weak 조상님들께 사치스럽고 경박한 선물을 잔뜩 바치기보다는, 신중하게 고르고 사려 깊은 제물을 바쳐 실제로 그분들을 기리는 데 집중해야 합니다.#" # 1697476946594286817
+  RICE_venerate_ancestors_cost_type_large: "거대한" # 2290692482761374841
+  RICE_venerate_ancestors_cost_type_large_desc: "$EFFECT_LIST_BULLET$ 조상님들께 성대하고 웅장한 제물을 바칩니다.\n$EFFECT_LIST_BULLET$ 귀하의 [dynasty|E]는 최대 #V [dynasty_prestige_i] [GetPlayer.MakeScope.ScriptValue('RICE_ancestor_max_dynasty_prestige_large_value')]#를 얻게 됩니다.\n\n#weak 우리는 조상님들 덕분에 이곳에 존재하니, 그분들께는 최고의 제물만을 바쳐야 마땅합니다!#" # 14967945333339072514
+  RICE_venerate_ancestors_veneration_phase: "숭배" # 14388067154218009764
+  RICE_venerate_ancestors_veneration_phase_desc: "우리는 조상 없이는 아무것도 아닙니다." # 12806773505277593078
+  RICE_venerate_ancestors_respect_intent_header: "존경:" # 18226717266321563071
+  RICE_venerate_ancestors_respect_intent: "존경:" # 2453150022979536680
+  RICE_venerate_ancestors_respect_intent_desc: "우리 조상들을 존중함으로써, 우리는 우리 자신을 존중하는 것입니다." # 14382335064697123726
+  RICE_venerate_ancestors_completed_log_title: "선조 숭배 의식을 완료했습니다." # 16196849616684927297
+  RICE_venerate_ancestors_completed_log: "[CHARACTER.GetShortUIName|U]께서 [CHARACTER.GetHerHis] 조상 숭배 의식을 완료하셨습니다." # 9407072681929578210
+  RICE_venerate_ancestors_offering_amount: "제공 규모" # 940769324945233210
+  TRAVEL_NAME_FOR_activity_RICE_venerate_ancestors: "[Character.GetFirstNamePossessiveNoTooltip] $activity_RICE_venerate_ancestors$" # 14248794298735307292
+  RICE_venerate_ancestors_host_memory: "[owner.GetHerHis] [GetActivityType('activity_RICE_venerate_ancestors').GetName]을 수행했습니다." # 17224313877148868016
+  RICE_venerate_ancestors_host_memory_first_perspective: "저는 [GetActivityType('activity_RICE_venerate_ancestors').GetName] 활동을 수행했습니다." # 14141997749775709748
+  RICE_venerate_ancestors_host_memory_second_perspective: "귀하는 [GetActivityType('activity_RICE_venerate_ancestors').GetName]을 수행했습니다." # 6365997476510516265
+  RICE_venerate_ancestors_host_memory_third_perspective: "[owner.GetName]께서 [GetActivityType('activity_RICE_venerate_ancestors').GetName]를 수행하셨습니다." # 11093325120745568984
+  RICE_venerate_ancestors_guest_memory: "[host.GetTitledFirstName]과 함께 [GetActivityType('activity_RICE_venerate_ancestors').GetName]을 수행하기 위해 합류했습니다." # 9576353623591687754
+  RICE_venerate_ancestors_guest_memory_first_perspective: "저는 [host.GetTitledFirstName]님과 함께 [GetActivityType('activity_RICE_venerate_ancestors').GetName] 행사에 참여했습니다." # 18123667603894862819
+  RICE_venerate_ancestors_guest_memory_second_perspective: "당신은 [host.GetTitledFirstName]와 함께 [GetActivityType('activity_RICE_venerate_ancestors').GetName]에 참여했습니다." # 6819393225349831948
+  RICE_venerate_ancestors_guest_memory_third_perspective: "[owner.GetName]께서 [host.GetTitledFirstName]와 함께 [GetActivityType('activity_RICE_venerate_ancestors').GetName]를 거행하기 위해 모였습니다." # 9812071848973562040
+  RICE_misc_venerate_ancestors: "조상 숭배 (가족과 함께)" # 9335487020661476640
+  RICE_misc_venerate_ancestors_tooltip: "[close_family|E]와 함께 의식을 통해 조상께 경의를 표하십시오." # 13693810721944067060
+  RICE_misc_venerate_ancestors_desc.religion: "저는 조상님들에 대한 사랑과 존경심을 표하고, 우리 가문을 묶어주는 유대를 강화하고 싶습니다. 전통적인 [ROOT.Char.GetFaith.GetAdjective] 방식으로 길고 엄숙한 의식을 통해 조상님들을 기리고 공경해야 합니다." # 8749218260745075034
+  RICE_misc_venerate_ancestors_desc.culture: "저는 조상님들에 대한 사랑과 존경심을 표하고, 우리 가문을 하나로 묶는 유대를 강화하고 싶습니다. 전통적인 [ROOT.Char.GetCulture.GetName] 방식으로 길고 엄숙한 의식을 통해 그분들을 기리고 숭배해야 합니다." # 2428211496876393650
+  RICE_misc_venerate_ancestors_effect_tooltip_1: "무작위로 [piety|E], [prestige|E], 그리고 [dynasty_prestige|E]를 획득합니다 (최대 #V [piety_i] [GetPlayer.MakeScope.ScriptValue('RICE_ancestor_max_bonus_value')]#!, #V [prestige_i] [GetPlayer.MakeScope.ScriptValue('RICE_ancestor_max_bonus_value')]#!, 그리고 #V [dynasty_prestige_i] [GetPlayer.MakeScope.ScriptValue('RICE_ancestor_max_dynasty_prestige_value')]#!)." # 11889307025086420060
+  RICE_misc_venerate_ancestors_effect_tooltip_2: "이러한 자원을 얻을 수 있는 최대량은 귀하의 [dynasty_prestige_level|E], [virtues|E], 그리고 [sins|E]에 따라 결정됩니다." # 12175955703154247097
+  RICE_misc_venerate_ancestors_effect_tooltip_3: "귀하의 [realm|E]에 있는 [family_members|E]가 의식에 참여할 것이며, 소량의 [piety|E]와 [prestige|E]를 얻을 수도 있습니다." # 3032305986671948367
+  RICE_misc_venerate_ancestors_confirm: "선조들을 기리세!" # 5115803437135761084
+  RICE_misc_venerate_ancestors_context_tooltip: "#emphasis 역사적 배경:#! 조상 숭배는 전 세계 많은 문화권의 중요한 부분입니다. 조상을 기리고 기억하기 위한 의식과 제례에 참여함으로써, 우리는 그들에게 축복, 조언 또는 도움을 구할 수 있으며, 살아있는 가족 구성원과의 유대를 강화하고 효심을 드러낼 수 있습니다." # 9940420654986638207
+  RICE_ancestor_worship.0001.t: "선조들" # 3210338663811548404
+  RICE_ancestor_worship.0002.t: "$RICE_ancestor_worship.0001.t$" # 17172972767800320771
+  RICE_ancestor_worship.0002.desc.culture: "오늘, 저는 가문의 구성원들을 모아 성대한 의식을 통해 조상님들께 경의를 표하고자 합니다. 이 의식의 전형적인 [ROOT.Char.GetCulture.GetName]의 전통적인 의례, 기원, 제물, 몸짓 등을 행하면서, 우리는 선조님들이 겪으셨던 고난과 그분들이 오늘날까지 우리에게 계속 베풀어주시는 지혜와 도움을 되새깁니다.\n\n의식이 끝난 후, 우리는 함께 가족 식사를 하며 시간을 보냅니다. 우리는 조상님의 기억이 잊혀져서는 안 되며, 올바른 행동으로 그분들의 유산을 기리기 위해 최선을 다해야 함을 마음속으로 재확인합니다. 혹시라도 저 너머에서 우리를 지켜보고 계시다면, [ROOT.Char.GetDynasty.GetNameNoTooltip] 가문의 최신 세대가 이룬 것에 대해 자랑스러워하시기를 바랄 뿐입니다." # 11222170272286018328
+  RICE_ancestor_worship.0002.desc.religion: "오늘, 저는 조상님들께 경의를 표하기 위해 성대한 의식을 거행하고자 가문 구성원들을 모았습니다. 이 의식들을 대표하는 전통적인 [ROOT.Char.GetFaith.GetAdjective] 의례, 기원, 제물 바치기, 그리고 몸짓을 수행하면서, 우리는 선조들이 겪었던 고난과 그분들이 오늘날까지도 우리에게 베풀어주시는 지혜와 도움을 되새깁니다.\n\n의식이 끝난 후, 우리는 함께 가족 식사를 하며 시간을 보냅니다. 우리는 조상님들의 기억이 잊혀져서는 안 되며, 올바른 행동으로 그분들의 유산을 기리기 위해 최선을 다해야 한다는 것을 마음속으로 재확인합니다. 부디 그분들이 저 너머에서 우리를 지켜보고 계신다면, [ROOT.Char.GetDynasty.GetNameNoTooltip] 가문의 최신 세대가 이룬 업적에 자랑스러워하시기를 바랄 뿐입니다." # 994905448303418576
+  RICE_ancestor_worship.0002.a: "조상께 경의를 표하는 것은 언제나 마땅한 도리입니다." # 7779784158216273177
+  RICE_ancestor_worship.0002.tooltip: "행사에 참석한 모든 [family_members|E]는 그들의 [virtues|E]와 [sins|E], 그리고 당신의 [dynasty|E]의 [dynasty_prestige_level|E]에 따라 무작위 양의 [prestige|E]와 [piety|E]를 얻습니다." # 8666108281258906816
+  RICE_ancestor_worship.0004.t: "조상님들을 위하여!" # 4366533453559738046
+  RICE_ancestor_worship.0004.desc: "저는 평소보다 더 큰 규모의 [ROOT.Char.GetInvolvedActivity.GetShortName]을 열기로 결정했습니다. 저는 그곳의 숙소가 이 행사에 적합하다고 생각하여 [ROOT.Char.GetTravelPlan.GetData.GetNextDestination.GetProvince.GetName]에서 개최할 것입니다.\n\n어쨌든, 저는 저를 섬기거나 제 영토에 거주하는 [ROOT.Char.GetDynasty.GetName] 왕조의 다른 구성원들에게 이 중요한 행사에 함께해 달라는 소식을 보냈습니다." # 11593852892829683698
+  RICE_ancestor_worship.0004.a: "선조들께서 매우 기뻐하실 것입니다." # 7183144672373540746
+  RICE_ancestor_worship.0005.t: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0005.desc: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0005.a: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0006.t: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0006.desc: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0006.a: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0007.t: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0007.desc: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0007.a: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0008.t: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0008.desc: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0008.a: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0009.t: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0009.desc: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0009.a: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0010.t: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0010.desc: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0010.a: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0011.t: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0011.desc: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0011.a: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0012.t: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0012.desc: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0012.a: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0013.t: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0013.desc: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0013.a: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0014.t: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0014.desc: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0014.a: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0015.t: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0015.desc: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0015.a: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0016.t: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0016.desc: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0016.a: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0017.t: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0017.desc: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0017.a: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0018.t: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0018.desc: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0018.a: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0019.t: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0019.desc: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0019.a: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0020.t: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0020.desc: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0020.a: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0021.t: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0021.desc: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0021.a: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0022.t: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0022.desc: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0022.a: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0023.t: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0023.desc: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0023.a: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0024.t: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0024.desc: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0024.a: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0025.t: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0025.desc: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0025.a: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0026.t: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0026.desc: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0026.a: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0027.t: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0027.desc: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0027.a: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0028.t: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0028.desc: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0028.a: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0029.t: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0029.desc: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0029.a: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0030.t: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0030.desc: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0030.a: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0031.t: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0031.desc: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0031.a: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0032.t: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0032.desc: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0032.a: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0033.t: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0033.desc: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0033.a: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0034.t: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0034.desc: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0034.a: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0035.t: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0035.desc: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0035.a: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0036.t: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0036.desc: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0036.a: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0037.t: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0037.desc: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0037.a: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0038.t: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0038.desc: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0038.a: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0039.t: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0039.desc: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0039.a: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0040.t: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0040.desc: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0040.a: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0041.t: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0041.desc: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0041.a: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0042.t: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0042.desc: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0042.a: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0043.t: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0043.desc: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0043.a: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0044.t: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0044.desc: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0044.a: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0045.t: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0045.desc: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0045.a: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0046.t: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0046.desc: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0046.a: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0047.t: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0047.desc: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0047.a: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0048.t: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0048.desc: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0048.a: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0049.t: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0049.desc: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0049.a: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0050.t: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0050.desc: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0050.a: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0051.t: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0051.desc: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0051.a: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0052.t: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0052.desc: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0052.a: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0053.t: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0053.desc: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0053.a: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0054.t: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0054.desc: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0054.a: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0055.t: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0055.desc: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0055.a: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0056.t: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0056.desc: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0056.a: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0057.t: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0057.desc: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0057.a: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0058.t: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0058.desc: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0058.a: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0059.t: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0059.desc: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0059.a: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0060.t: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0060.desc: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0060.a: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0061.t: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0061.desc: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0061.a: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0062.t: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0062.desc: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0062.a: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0063.t: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0063.desc: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0063.a: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0064.t: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0064.desc: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0064.a: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0065.t: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0065.desc: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0065.a: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0066.t: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0066.desc: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0066.a: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0067.t: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0067.desc: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0067.a: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0068.t: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0068.desc: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0068.a: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0069.t: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0069.desc: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0069.a: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0070.t: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0070.desc: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0070.a: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0071.t: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0071.desc: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0071.a: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0072.t: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0072.desc: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0072.a: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0073.t: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0073.desc: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0073.a: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0074.t: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0074.desc: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0074.a: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0075.t: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0075.desc: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0075.a: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0076.t: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0076.desc: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0076.a: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0077.t: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0077.desc: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0077.a: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0078.t: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0078.desc: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0078.a: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0079.t: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0079.desc: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0079.a: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0080.t: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0080.desc: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0080.a: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0081.t: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0081.desc: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0081.a: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0082.t: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0082.desc: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0082.a: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0083.t: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0083.desc: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0083.a: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0084.t: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0084.desc: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0084.a: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0085.t: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0085.desc: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0085.a: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0086.t: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0086.desc: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0086.a: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0087.t: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0087.desc: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0087.a: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0088.t: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0088.desc: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0088.a: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0089.t: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0089.desc: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0089.a: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0090.t: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0090.desc: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0090.a: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0091.t: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0091.desc: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0091.a: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0092.t: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0092.desc: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0092.a: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0093.t: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0093.desc: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0093.a: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0094.t: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0094.desc: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0094.a: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0095.t: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0095.desc: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0095.a: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0096.t: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0096.desc: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0096.a: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0097.t: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0097.desc: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0097.a: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0098.t: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0098.desc: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0098.a: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0099.t: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0099.desc: "xxxxx" # 1951045980481827005
+  RICE_ancestor_worship.0099.a: "xxxxx" # 1951045980481827005

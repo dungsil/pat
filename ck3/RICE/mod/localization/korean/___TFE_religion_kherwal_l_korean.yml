@@ -1,0 +1,48 @@
+﻿l_korean:
+  sarnaism_religion: "케르왈" # 3462103050904356051
+  sarnaism_religion_adj: "케르왈" # 3462103050904356051
+  sarnaism_religion_adherent: "케르왈리스트" # 13130062975999364091
+  sarnaism_religion_adherent_plural: "케르왈파" # 11235806752738581387
+  sarnaism: "사르나교" # 1085214771217232033
+  sarnaism_adj: "사르나이스트" # 10000072517664773032
+  sarnaism_adherent: "사르나이스트" # 10000072517664773032
+  sarnaism_adherent_plural: "사르나이스트교도" # 11883927973587998108
+  sarnaism_desc: "최고신 싱봉가는 우주와 크헤르왈 민족을 창조했습니다. 하지만 그들은 근친상간과 불필요한 살인의 죄를 저질러 고향인 쳇참파에서 추방당했고 서쪽으로 이주했습니다. 그들이 정착한 새로운 땅의 자연 정령들은 열등하지만 여전히 경배할 만하며, 깊은 숲속에 있는 #italic 사르나#!라고 불리는 비밀스러운 숲에서 숭배되어야 합니다." # 4082728085512328177
+  sarnaism_old: "고대 사르나이즘" # 8411163359908642362
+  sarnaism_old_adj: "고대 사르나이교" # 858854472089428903
+  sarnaism_old_adherent: "고대 사르나이교" # 858854472089428903
+  sarnaism_old_adherent_plural: "고대 사르나이파" # 17923261116215882798
+  sarnaism_old_desc: "$sarnaism_desc$" # 6209310096571852395
+  sarnaism_high_god_name: "싱가봉가" # 3506588484229363089
+  sarnaism_high_god_name_possessive: "싱가봉가스" # 3179789908331252627
+  sarnaism_health_god_name: "자헤르 부리" # 16300832204878455730
+  sarnaism_health_god_name_possessive: "자헤르 부리의" # 987522530186280654
+  sarnaism_household_god_name: "오라봉아코" # 7080293456901500320
+  sarnaism_household_god_name_possessive: "오라봉가코스" # 2558842549167909412
+  sarnaism_war_god_name: "마랑 바루" # 1995096158833458793
+  sarnaism_war_god_name_possessive: "마랑 바루의" # 11558480297081017966
+  sarnaism_house_of_worship: "사르나" # 6175272587406831475
+  sarnaism_house_of_worship_2: "$sarnaism_house_of_worship$" # 4953821190796780810
+  sarnaism_house_of_worship_3: "$sarnaism_house_of_worship$" # 4953821190796780810
+  sarnaism_house_of_worship_plural: "사르나스" # 14847566765962968364
+  sarnaism_religious_symbol: "살 나무" # 17179578472130221256
+  sarnaism_religious_symbol_2: "$sarnaism_religious_symbol$" # 13118165804145494950
+  sarnaism_religious_symbol_3: "$sarnaism_religious_symbol$" # 13118165804145494950
+  sarnaism_religious_text: "신성한 이야기들" # 1916157011032334391
+  sarnaism_religious_text_2: "$sarnaism_religious_symbol$" # 13118165804145494950
+  sarnaism_religious_text_3: "$sarnaism_religious_symbol$" # 13118165804145494950
+  sarnaism_priest_male: "파간" # 9007978800556840004
+  sarnaism_priest_male_plural: "파간스" # 6835861425382825168
+  sarnaism_priest_female: "응가무록" # 12027132404242901556
+  sarnaism_priest_female_plural: "응가무록스" # 11585048519176089952
+  sarnaism_priest_term_plural: "응이무오르크스" # 9397647452709722398
+  sarnaism_priest_alternate: "파간" # 9007978800556840004
+  sarnaism_priest_alternate_plural: "파간스" # 6835861425382825168
+  sarnaism_priest_neuter: "파간" # 9007978800556840004
+  sarnaism_priest_neuter_plural: "파간스" # 6835861425382825168
+  sarnaism_bishop_male: "위대한 파간" # 5941109582910897459
+  sarnaism_bishop_male_plural: "위대한 파간들" # 8237246564106628315
+  sarnaism_bishop_female: "위대한 응가무록이여" # 5110474297578584442
+  sarnaism_bishop_female_plural: "위대한 응가무로크스여" # 2464149318087464489
+  sarnaism_bishop_neuter: "위대한 파간" # 5941109582910897459
+  sarnaism_bishop_neuter_plural: "위대한 파간들" # 8237246564106628315

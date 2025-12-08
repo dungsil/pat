@@ -1,0 +1,539 @@
+﻿l_korean:
+  RICE_yazidi_high_god_name: "멜레크 타우스" # 10595491626642266289
+  RICE_yazidi_high_god_name_2: "$RICE_yazidi_high_god_name$" # 14601496949980983986
+  RICE_yazidi_high_god_name_possessive: "멜레크 타우스의" # 3160826938316234010
+  RICE_yazidi_high_god_name_alternate: "신의 빛" # 3433503836701891954
+  RICE_yazidi_high_god_name_alternate_possessive: "신의 빛" # 9769412384691042842
+  RICE_yazidi_good_god_peacock_angel: "공작 천사" # 14687204034914693626
+  RICE_yazidi_good_god_tawuse_melek: "타우세 멜렉" # 2402168083445681726
+  RICE_yazidi_good_god_seven_mysteries: "일곱 가지 신비" # 6192553256757474325
+  RICE_yazidi_good_god_azazil: "아자젤" # 2833564198884891986
+  RICE_yazidi_good_god_azazil_possessive: "아자질의" # 10511974803412617683
+  RICE_yazidi_good_god_jabrail: "자브라일" # 5331988500615388637
+  RICE_yazidi_good_god_mikhail: "미카일" # 8634331508144244637
+  RICE_yazidi_good_god_mikhail_possessive: "미카일의" # 2228738041716558896
+  RICE_yazidi_good_god_rafail: "라파일" # 13326079790127300342
+  RICE_yazidi_good_god_dadrail: "다드라일" # 9900221902437115796
+  RICE_yazidi_good_god_dadrail_possessive: "다드라일스" # 9765197021965491667
+  RICE_yazidi_good_god_azrafil: "아즈라필" # 3041209657705866744
+  RICE_yazidi_good_god_azrafil_possessive: "아즈라필의" # 18158863008318737946
+  RICE_yazidi_good_god_shemnail: "솀나일" # 15063873622396201499
+  RICE_yazidi_good_god_shemnail_possessive: "솀나일의" # 7099954065957694037
+  RICE_yazidi_creator_god_name: "크세데" # 9848973638782195921
+  RICE_yazidi_creator_god_name_possessive: "크세데의" # 13730868961938445802
+  RICE_yazidi_house_of_worship: "사원" # 6519563856123702153
+  RICE_yazidi_house_of_worship_2: "$RICE_yazidi_house_of_worship$" # 12059633706616081798
+  RICE_yazidi_house_of_worship_3: "$RICE_yazidi_house_of_worship$" # 12059633706616081798
+  RICE_yazidi_house_of_worship_plural: "신전" # 7805349845828344700
+  RICE_yazidi_religious_symbol: "신자크" # 4696852861667034735
+  RICE_yazidi_religious_symbol_2: "$RICE_yazidi_religious_symbol$" # 12488520858134947956
+  RICE_yazidi_religious_symbol_3: "$RICE_yazidi_religious_symbol$" # 12488520858134947956
+  RICE_yazidi_religious_text: "카울스" # 18296931592097394502
+  RICE_yazidi_religious_text_2: "$RICE_yazidi_religious_text$" # 11021538417456018393
+  RICE_yazidi_religious_text_3: "$RICE_yazidi_religious_text$" # 11021538417456018393
+  RICE_yazidi_religious_head_title: "미르" # 17566579506741289826
+  RICE_yazidi_religious_head_title_name: "미라테" # 14453851529604127438
+  RICE_yazidi_devotee: "코체크" # 5030402687476218541
+  RICE_yazidi_devotee_plural: "코체크스" # 15649941279086510888
+  RICE_yazidi_priest: "셰이크" # 1532997793019413716
+  RICE_yazidi_priest_plural: "셰이크들" # 2832283705899135683
+  RICE_yazidi_priest_alternate_plural: "성직자" # 12334302844998338703
+  RICE_yazidi_bishop: "바바 셰이크" # 3211106022119508441
+  RICE_yazidi_bishop_plural: "바바 셰이크들" # 11294748641210855903
+  RICE_yazidi_positive_afterlife: "다음 생" # 15959146020724090238
+  RICE_yazidi_positive_afterlife_2: "$RICE_yazidi_positive_afterlife$" # 7773695747640532992
+  RICE_yazidi_positive_afterlife_3: "$RICE_yazidi_positive_afterlife$" # 7773695747640532992
+  RICE_yazidi_negative_afterlife: "외부" # 17857162373568693833
+  RICE_yazidi_negative_afterlife_2: "$RICE_yazidi_negative_afterlife$" # 2934791795558137739
+  RICE_yazidi_negative_afterlife_3: "$RICE_yazidi_negative_afterlife$" # 2934791795558137739
+  d_yazidi_article: "그" # 8417196396288596625
+  d_yazidi: "야지디 미라테" # 15113323285077097100
+  d_yazidi_adj: "미라테" # 17679598142911738094
+  RICE_yazidi_truce: "[granter.GetTitledFirstName]께서 [yazidi_head.GetTitledFirstName]에게 [yazidi_county.GetNameNoTier] [county|E]를 승인하여 휴전 조약을 체결했습니다." # 1942240057895273976
+  RICE_yazidi_county_warning: "@warning_icon! #X 당신은 단 하나의 [county|E]만을 소유하고 있으므로, [yazidi_county.GetNameNoTier]를 하사하면 게임 오버가 됩니다!#!" # 16808498863490640202
+  RICE_yazidism_exists_tt: "[faith|E]가 야지디 신앙일 경우에만, 글로벌 이벤트를 통해 발생했을 때 이용 가능합니다." # 10577750806071235071
+  NOT_RICE_yazidism_exists_tt: "[faith|E]가 야지디 신앙일 경우에만, 글로벌 이벤트를 통해 발생했을 때 이용 가능합니다." # 10577750806071235071
+  RICE_yarsanism_exists_tt: "야르산 [faith|E]가 전역 이벤트로 등장했을 경우에만 사용 가능합니다." # 15362401050205855155
+  NOT_RICE_yarsanism_exists_tt: "야르산 [faith|E]가 전역 이벤트로 등장했을 경우에만 사용 가능합니다." # 15362401050205855155
+  dynn_Tirahaye: "티라하예" # 17403938503733704269
+  RICE_yazidi_bull_sacrifice_host_memory: "[GetActivityType( 'activity_RICE_yazidi_bull_sacrifice' ).GetName] 활동을 수행했습니다." # 3641944104946470663
+  RICE_yazidi_bull_sacrifice_host_memory_first_perspective: "저는 [GetActivityType( 'activity_RICE_yazidi_bull_sacrifice' ).GetName]을(를) 수행했습니다." # 8785676566831135854
+  RICE_yazidi_bull_sacrifice_host_memory_second_perspective: "귀하는 [GetActivityType( 'activity_RICE_yazidi_bull_sacrifice' ).GetName] 활동을 수행했습니다." # 2318508537021729971
+  RICE_yazidi_bull_sacrifice_host_memory_third_perspective: "[owner.GetName]께서 [GetActivityType(  'activity_RICE_yazidi_bull_sacrifice' ).GetName]를 거행하셨습니다." # 4922867688324381021
+  RICE_yazidi_bull_sacrifice_guest_memory: "[host.GetTitledFirstName]와 함께 [GetActivityType( 'activity_RICE_yazidi_bull_sacrifice' ).GetName]를 거행했습니다." # 11759796864402549944
+  RICE_yazidi_bull_sacrifice_guest_memory_first_perspective: "저는 [host.GetTitledFirstName]와 함께 [GetActivityType( 'activity_RICE_yazidi_bull_sacrifice' ).GetName]를 거행했습니다." # 16157821785578983159
+  RICE_yazidi_bull_sacrifice_guest_memory_second_perspective: "귀하는 [host.GetTitledFirstName]와 함께 [GetActivityType( 'activity_RICE_yazidi_bull_sacrifice' ).GetName]를 수행했습니다." # 4221380442390743263
+  RICE_yazidi_bull_sacrifice_guest_memory_third_perspective: "[owner.GetName]께서 [host.GetTitledFirstName]와 함께 [GetActivityType(  'activity_RICE_yazidi_bull_sacrifice' ).GetName]를 거행하셨습니다." # 17782762765250729070
+  RICE_yazidi_yarsani_jam_host_memory: "[GetActivityType( 'activity_RICE_yazidi_yarsani_jam' ).GetName]에 참여했습니다." # 4098320537786827600
+  RICE_yazidi_yarsani_jam_host_memory_first_perspective: "저는 [GetActivityType( 'activity_RICE_yazidi_yarsani_jam' ).GetName]에 참여했습니다." # 12595504317930125660
+  RICE_yazidi_yarsani_jam_host_memory_second_perspective: "당신은 [GetActivityType( 'activity_RICE_yazidi_yarsani_jam' ).GetName]에 참여했습니다." # 18359821929592382792
+  RICE_yazidi_yarsani_jam_host_memory_third_perspective: "[owner.GetName]께서 [GetActivityType(  'activity_RICE_yazidi_yarsani_jam' ).GetName]에 참여하셨습니다." # 9484096758422765018
+  RICE_yazidi_yarsani_jam_guest_memory: "[host.GetTitledFirstName]와 함께 [GetActivityType( 'activity_RICE_yazidi_yarsani_jam' ).GetName]에 참여했습니다." # 1049469434220077494
+  RICE_yazidi_yarsani_jam_guest_memory_first_perspective: "저는 [host.GetTitledFirstName]이 주최한 [GetActivityType( 'activity_RICE_yazidi_yarsani_jam' ).GetName]에 참여했습니다." # 9254343381725571971
+  RICE_yazidi_yarsani_jam_guest_memory_second_perspective: "[host.GetTitledFirstName]이 주최한 [GetActivityType( 'activity_RICE_yazidi_yarsani_jam' ).GetName]에 참여했습니다." # 4314344518887032165
+  RICE_yazidi_yarsani_jam_guest_memory_third_perspective: "[owner.GetName]께서 [host.GetTitledFirstName]와 함께 [GetActivityType(  'activity_RICE_yazidi_yarsani_jam' ).GetName]에 참여했습니다." # 17520094545666273312
+  RICE_yazidi_tiwaf_host_memory: "[GetActivityType( 'activity_RICE_yazidi_tiwaf' ).GetName]에 다녀왔습니다" # 14991736292932420186
+  RICE_yazidi_tiwaf_host_memory_first_perspective: "저는 [GetActivityType( 'activity_RICE_yazidi_tiwaf' ).GetName]에 다녀왔습니다." # 2203960131276128590
+  RICE_yazidi_tiwaf_host_memory_second_perspective: "당신은 [GetActivityType( 'activity_RICE_yazidi_tiwaf' ).GetName]에 참석했습니다." # 3337038290833297608
+  RICE_yazidi_tiwaf_host_memory_third_perspective: "[owner.GetName]께서 [GetActivityType(  'activity_RICE_yazidi_tiwaf' ).GetName]에 참석하셨습니다." # 7240122597488012972
+  RICE_yazidi_tiwaf_guest_memory: "[host.GetTitledFirstName]와 함께 [GetActivityType( 'activity_RICE_yazidi_tiwaf' ).GetName]에 참석했습니다." # 78174475547559383
+  RICE_yazidi_tiwaf_guest_memory_first_perspective: "저는 [host.GetTitledFirstName]와 함께 [GetActivityType( 'activity_RICE_yazidi_tiwaf' ).GetName]에 다녀왔습니다." # 11127155722955650905
+  RICE_yazidi_tiwaf_guest_memory_second_perspective: "[host.GetTitledFirstName]과 함께 [GetActivityType( 'activity_RICE_yazidi_tiwaf' ).GetName]에 다녀왔습니다." # 18407724817135082064
+  RICE_yazidi_tiwaf_guest_memory_third_perspective: "[owner.GetName]께서 [host.GetTitledFirstName]와 함께 [GetActivityType(  'activity_RICE_yazidi_tiwaf' ).GetName]에 참여했습니다." # 12772079698499845397
+  RICE_yazidi_tawus_geran_host_memory: "[GetActivityType( 'activity_RICE_yazidi_tawus_geran' ).GetName]에 참여했습니다." # 390828821774864427
+  RICE_yazidi_tawus_geran_host_memory_first_perspective: "저는 [GetActivityType( 'activity_RICE_yazidi_tawus_geran' ).GetName]에 참여했습니다." # 3738494951613767326
+  RICE_yazidi_tawus_geran_host_memory_second_perspective: "[GetActivityType( 'activity_RICE_yazidi_tawus_geran' ).GetName] 활동에 참여하셨습니다." # 1668077841096107605
+  RICE_yazidi_tawus_geran_host_memory_third_perspective: "[owner.GetName]께서 [GetActivityType(  'activity_RICE_yazidi_tawus_geran' ).GetName]에 참여하셨습니다." # 17048664359667053898
+  RICE_yazidi_tawus_geran_guest_memory: "[host.GetTitledFirstName]께서 주관하신 [GetActivityType( 'activity_RICE_yazidi_tawus_geran' ).GetName]에 참여했습니다." # 6345759560301830504
+  RICE_yazidi_tawus_geran_guest_memory_first_perspective: "저는 [host.GetTitledFirstName]와 함께 [GetActivityType( 'activity_RICE_yazidi_tawus_geran' ).GetName]에 참여했습니다." # 5154917045940800564
+  RICE_yazidi_tawus_geran_guest_memory_second_perspective: "[host.GetTitledFirstName]와 함께 [GetActivityType( 'activity_RICE_yazidi_tawus_geran' ).GetName]에 참여했습니다." # 5483589553710825857
+  RICE_yazidi_tawus_geran_guest_memory_third_perspective: "[owner.GetName]께서 [host.GetTitledFirstName]와 함께 [GetActivityType(  'activity_RICE_yazidi_tawus_geran' ).GetName]에 참여했습니다." # 1320331716233225592
+  activity_RICE_yazidi_bull_sacrifice_host_an_a: "$host_activity_a$" # 13713790857143020716
+  activity_RICE_yazidi_bull_sacrifice: "미트라에게 황소 제물 바치기" # 10753049529789311169
+  activity_RICE_yazidi_bull_sacrifice_desc: "미트라, 혹은 메흐르가 황소를 최초로 희생함으로써 우주가 창조되었습니다. 이제 황소의 제물 의식을 통해 이 우주적 사건을 재현해 봅시다." # 14055412509058127484
+  activity_RICE_yazidi_bull_sacrifice_selection_tooltip: "미트라에게 황소를 제물로 바칩니다.\n\n$activity_RICE_yazidi_bull_sacrifice_context_tooltip$" # 12277073924540057398
+  activity_RICE_yazidi_bull_sacrifice_context_tooltip: "#emphasis 역사적 배경:#! 북서 이란의 고대 서부 이란어 사용자들이, 쿠르드족의 조상을 포함하여, 조로아스터교와 관련은 있으나 구별되는 종교를 따랐으며, 이는 이 지역의 야지디교, 야르산교 및 기타 종파들의 종교적 기층을 형성했다는 이론이 있습니다. 사안을 더욱 복잡하게 만드는 것은, 정통 조로아스터교와 더 오래된 북서 이란 신앙이 공존했을 가능성입니다. 어쨌든, 이 종교가 정통 조로아스터교와 가졌던 핵심적인 차이점은, 황소의 태초 희생이 악의 존재 아흐리만(Ahriman)에 의한 사악한 행위가 아니라, 신 미트라(Mithra)에 의한 긍정적인 창조 행위였다는 점입니다. 이러한 사상은 로마의 미트라스 숭배에 영향을 미쳤을 수 있으며, 야지디교의 중요한 축제인 집회 축제의 중심이 되는 황소 희생의 선구자였을 수 있습니다. 따라서, 이 활동은 다소 허구적이지만, 고대 및 초기 중세 시기 쿠르드족과 같은 북서 이란인들 사이의 가능한 경향과 신념에 기반을 두고 있습니다." # 14472072453569021254
+  activity_RICE_yazidi_bull_sacrifice_host_desc: "$BULLET_WITH_TAB$무작위 [prestige|E] 획득: [prestige_i|E] #V 25#!에서 [prestige_i|E] #V 200#! 사이\n$BULLET_WITH_TAB$무작위 [piety|E] 획득: [piety_i|E] #V 25#!에서 [piety_i|E] #V 200#! 사이\n$BULLET_WITH_TAB$귀하의 [piety_level|E]에 따라 [GetPlayer.MakeScope.ScriptValue('RICE_yazidi_bull_sacrifice_chance')]%의 확률로 #P 긍정적인#! [character_modifier|E]를 받아 귀하의 [skills|E] 중 하나가 강화됩니다." # 18124202485604610573
+  activity_RICE_yazidi_bull_sacrifice_guest_desc: "$activity_RICE_yazidi_bull_sacrifice_host_desc$" # 14942810904141299018
+  activity_RICE_yazidi_bull_sacrifice_destination_selection: "$activity_RICE_yazidi_bull_sacrifice_province_desc$" # 7643857962260241976
+  activity_RICE_yazidi_bull_sacrifice_guest_help_text: "$activity_RICE_yazidi_bull_sacrifice$" # 10562992605494310062
+  activity_RICE_yazidi_bull_sacrifice_predicted_cost: "이 희생의 비용은 귀하의 [income|E]에 따라 결정됩니다." # 6596928120023183400
+  activity_RICE_yazidi_bull_sacrifice_conclusion_desc: "우리의 [GetActivityType( 'activity_RICE_yazidi_bull_sacrifice' ).GetName] 행사가 끝났습니다. 미트라에게 영광을!" # 12418816412155950005
+  RICE_yazidi_bull_sacrifice_sacrifice_phase: "희생" # 11421588474970910012
+  RICE_yazidi_bull_sacrifice_sacrifice_phase_desc: "황소를 희생시킬 시간입니다." # 310809037072741105
+  RICE_yazidi_bull_sacrifice_religious_intent_header: "종교적" # 17934580591002481013
+  RICE_yazidi_bull_sacrifice_religious_intent: "종교적" # 2133516543927886705
+  RICE_yazidi_bull_sacrifice_religious_intent_desc: "그대는 황소의 태고적 희생을 기념하며 이 신성한 드라마를 재연할 것입니다." # 17248504142971397745
+  RICE_yazidi_bull_sacrifice_completed_log_title: "미트라 신에게 황소 희생 완료" # 16187470542454780192
+  RICE_yazidi_bull_sacrifice_completed_log: "[CHARACTER.GetShortUIName|U]께서 미트라 신에게 바치는 황소 희생 의식을 마쳤습니다." # 2316933791884522482
+  TRAVEL_NAME_FOR_activity_RICE_yazidi_bull_sacrifice: "[Character.GetFirstNamePossessiveNoTooltip] $activity_RICE_yazidi_bull_sacrifice$" # 14600431124290158446
+  activity_RICE_yazidi_yarsani_jam_host_an_a: "$host_activity_a$" # 13713790857143020716
+  activity_RICE_yazidi_yarsani_jam: "잼 의식" # 13218821109580921810
+  activity_RICE_yazidi_yarsani_jam_desc: "잠 의식은 우리 종교 공동체의 구성원들이 #italic 탄부르#! 악기로 연주되는 성스러운 음악과 기도, 춤, 음식을 나누며 신성한 본질에 더 가까이 다가갈 수 있는 기회입니다." # 17263264226878851516
+  activity_RICE_yazidi_yarsani_jam_selection_tooltip: "지역 [GetPlayer.GetFaith.GetAdherentNamePlural]과 함께 얌(Jam) 의식에 참여하십시오.\n\n$activity_RICE_yazidi_yarsani_jam_context_tooltip$" # 11071698229933960970
+  activity_RICE_yazidi_yarsani_jam_context_tooltip: "#emphasis 역사적 배경:#! 잠 의식은 이라크와 이란의 야르산파라는 민족 종교 집단과 터키의 이슬람 비정통파인 알레비파가 행하는 일종의 종교 의식입니다. 이는 매우 구조화된 의식으로 중요한 영적 및 사회적 기능을 수행합니다." # 3665044655654805601
+  activity_RICE_yazidi_yarsani_jam_host_desc: "$BULLET_WITH_TAB$ [piety_i] [piety|E] 획득\n$BULLET_WITH_TAB$ [prestige_i|E][prestige|E] 획득\n$BULLET_WITH_TAB$ [stress_loss_i|E][stress|E] 감소\n$BULLET_WITH_TAB$ [courtiers|E], [guests|E], [vassals|E], 그리고 [liege|E]가 당신에게 가지는 [opinion_i|E] [opinion|E]를 개선하는 [character_modifier|E] 획득" # 9418692541620041924
+  activity_RICE_yazidi_yarsani_jam_guest_desc: "$activity_RICE_yazidi_yarsani_jam_host_desc$" # 16458635832788835101
+  activity_RICE_yazidi_yarsani_jam_destination_selection: "$activity_RICE_yazidi_yarsani_jam_province_desc$" # 11772220489184409325
+  activity_RICE_yazidi_yarsani_jam_guest_help_text: "$activity_RICE_yazidi_yarsani_jam$" # 15652160583102870262
+  activity_RICE_yazidi_yarsani_jam_predicted_cost: "이 [activity|E]의 비용은 주로 귀하의 [income|E]와 선택하는 [activity_options|E]에 따라 결정됩니다." # 1449348449211936643
+  activity_RICE_yazidi_yarsani_jam_conclusion_desc: "[GetActivityType( 'activity_RICE_yazidi_yarsani_jam' ).GetName] 행사가 막을 내렸습니다. 참가했던 모든 이들이 [GetPlayer.GetFaith.HighGodName]의 현존을 느꼈을 것이 분명합니다!" # 4291122753025902311
+  RICE_yarsani_jam_sacrifice_size_type: "희생 규모" # 18184838830433373665
+  RICE_yarsani_jam_sacrifice_size_type_small: "작은" # 11665425638542725414
+  RICE_yarsani_jam_sacrifice_size_type_small_desc: "$EFFECT_LIST_BULLET$모든 참가자는 [piety_i] #V 50#! [piety|E]와 [prestige_i] #V 50#! [prestige|E]를 얻습니다\n$EFFECT_LIST_BULLET$ [GetModifier('RICE_yarsani_jam_host_small_modifier').GetNameWithTooltip] [character_modifier|E]를 얻습니다\n\n#weak 내가 할 몫을 기꺼이 하겠다는 것을 보여주는 것이 중요합니다.#!" # 9079549563597553703
+  RICE_yarsani_jam_sacrifice_size_type_medium: "보통" # 7377651229498775580
+  RICE_yarsani_jam_sacrifice_size_type_medium_desc: "$EFFECT_LIST_BULLET$모든 참가자는 [piety_i] #V 100#! [piety|E]와 [prestige_i] #V 100#! [prestige|E]를 얻습니다.\n$EFFECT_LIST_BULLET$ [GetModifier('RICE_yarsani_jam_host_medium_modifier').GetNameWithTooltip] [character_modifier|E]를 얻습니다.\n\n#weak 이와 같은 공동체 모임은 저의 관대함을 보여줄 좋은 기회입니다.!" # 8852891405643098192
+  RICE_yarsani_jam_sacrifice_size_type_large: "거대한" # 2290692482761374841
+  RICE_yarsani_jam_sacrifice_size_type_large_desc: "$EFFECT_LIST_BULLET$모든 참가자는 #V 100#! [piety|E] [piety_i]와 #V 100#! [prestige|E] [prestige_i]를 얻습니다.\n$EFFECT_LIST_BULLET$ [GetModifier('RICE_yarsani_jam_host_large_modifier').GetNameWithTooltip] [character_modifier|E]를 얻습니다.\n\n#weak 이는 매우 중요한 영적이고 공동체적인 행사이니, 오직 위대한 희생만이 충분할 것입니다.#" # 6875634549873810126
+  RICE_yazidi_yarsani_jam_assembly_phase: "의회" # 2890068270613534547
+  RICE_yazidi_yarsani_jam_assembly_phase_desc: "우리 공동체로서 이 종교 의식을 위해 함께 모입시다." # 10262119913549984481
+  RICE_yazidi_yarsani_jam_purity_intent_header: "순수함:" # 12196709917658969266
+  RICE_yazidi_yarsani_jam_purity_intent: "순수함:" # 14530218518422920039
+  RICE_yazidi_yarsani_jam_purity_intent_desc: "추가 [piety_i|E] [piety|E]를 획득합니다. [GetTrait('zealous').GetName( GetNullCharacter )|U] 및 [GetTrait('temperate').GetName( GetNullCharacter )] 인물은 추가 [stress|E]를 잃습니다." # 224422748022009573
+  RICE_yazidi_yarsani_jam_equality_intent_header: "평등:" # 6848948721048628316
+  RICE_yazidi_yarsani_jam_equality_intent: "평등:" # 6484169810514881042
+  RICE_yazidi_yarsani_jam_equality_intent_desc: "추가 [prestige_i|E] [prestige|E]를 획득합니다. [GetTrait('humble').GetName( GetNullCharacter )|U] 및 [GetTrait('compassionate').GetName( GetNullCharacter )] 특성을 가진 인물들은 추가 [stress|E]를 잃습니다." # 11440818058934733187
+  RICE_yazidi_yarsani_jam_solidarity_intent_header: "연대감:" # 17609866373009725551
+  RICE_yazidi_yarsani_jam_solidarity_intent: "연대감:" # 13792881693039429751
+  RICE_yazidi_yarsani_jam_solidarity_intent_desc: "추가적인 [stress_loss_i|E][stress|E]를 잃습니다. [GetTrait('gregarious').GetName( GetNullCharacter )|U] 및 [GetTrait('generous').GetName( GetNullCharacter )] 특성을 가진 인물은 추가적인 [stress|E]를 잃게 됩니다." # 3417710935473658698
+  RICE_yazidi_yarsani_jam_completed_log_title: "잼 의식이 완료되었습니다" # 11672294424421640695
+  RICE_yazidi_yarsani_jam_completed_log: "[CHARACTER.GetShortUIName|U] 님께서 잼 의식을 마쳤습니다." # 7923510820683833824
+  TRAVEL_NAME_FOR_activity_RICE_yazidi_yarsani_jam: "[Character.GetFirstNamePossessiveNoTooltip] $activity_RICE_yazidi_yarsani_jam$" # 7197832601781261283
+  activity_RICE_yazidi_tiwaf_host_an_a: "$host_activity_a$" # 13713790857143020716
+  activity_RICE_yazidi_tiwaf: "티와프 축제" # 8391282740032518549
+  activity_RICE_yazidi_tiwaf_desc: "우리 [faith|E]의 마을에는 종종 여러 성스러운 존재에게 봉헌된 신사가 있습니다. 이 신사들에서 정기적으로 열리는 #italic 티와프#! 축제는 단순한 종교적 행사가 아니라, 우리 공동체를 하나로 묶고 사회적 유대를 강화하는 중요한 역할을 합니다." # 7580552224565009773
+  activity_RICE_yazidi_tiwaf_selection_tooltip: "지역 [GetPlayer.GetFaith.GetAdjective] 마을에서 티와프 축제에 참여합니다.\n\n$activity_RICE_yazidi_tiwaf_context_tooltip$" # 521575129552225061
+  activity_RICE_yazidi_tiwaf_context_tooltip: "#emphasis 역사적 배경:#! 모든 야지디 마을에는 신성한 존재에게 봉헌된 성소가 있으며, 매년 이 성소에서 그들을 기리는 티와프 축제가 열립니다. 이 축제는 종교적 기능 외에도 마을들이 자신들의 정체성을 재확인하고 사회적 유대를 강화하는 중요한 계기가 되며, 다른 마을에서 손님들이 찾아오는 것이 흔합니다. 야지디인들이 강제적이든 자발적이든 다른 땅에 정착하더라도, 그들은 조상의 전통을 이어가기 위해 종종 원래 마을의 티와프를 계속해서 개최합니다." # 12452226782993298340
+  activity_RICE_yazidi_tiwaf_host_desc: "$BULLET_WITH_TAB$ [piety_i] [piety|E] 획득\n$BULLET_WITH_TAB$ [prestige_i|E][prestige|E] 획득\n$BULLET_WITH_TAB$ [stress_loss_i|E][stress|E] 상실\n$BULLET_WITH_TAB$ 이 [activity|E]가 열리는 [county|E]는 당신의 [intent|E]에 따라 [GetModifier('RICE_yazidi_tiwaf_religious_modifier').GetNameWithTooltip] 또는 [GetModifier('RICE_yazidi_tiwaf_community_modifier').GetNameWithTooltip] [county_modifier|E]를 얻습니다" # 8974251237598622049
+  activity_RICE_yazidi_tiwaf_guest_desc: "$activity_RICE_yazidi_tiwaf_host_desc$" # 12069561625265537756
+  activity_RICE_yazidi_tiwaf_destination_selection: "$activity_RICE_yazidi_tiwaf_province_desc$" # 9766462479372970254
+  activity_RICE_yazidi_tiwaf_guest_help_text: "$activity_RICE_yazidi_tiwaf$" # 9152342328694039477
+  activity_RICE_yazidi_tiwaf_predicted_cost: "이 [activity|E]의 비용은 주로 귀하의 [income|E]에 따라 결정됩니다." # 10498845032472754788
+  activity_RICE_yazidi_tiwaf_conclusion_desc: "[GetActivityType( 'activity_RICE_yazidi_tiwaf' ).GetName] 행사가 종료되었습니다. 우리는 신앙심을 강화하고 공동체 간의 유대를 돈독히 했습니다." # 1208755520250212575
+  RICE_yazidi_tiwaf_ritual_phase: "의식" # 15674658978138415862
+  RICE_yazidi_tiwaf_ritual_phase_desc: "$RICE_yazidi_yarsani_jam_assembly_phase_desc$" # 9500970276032708162
+  RICE_yazidi_tiwaf_religious_intent_header: "종교적" # 17934580591002481013
+  RICE_yazidi_tiwaf_religious_intent: "종교적" # 2133516543927886705
+  RICE_yazidi_tiwaf_religious_intent_desc: "이것은 우리의 성스러운 인물들을 기리는 시간이 될 것입니다. 이 [activity|E]가 열리는 [county|E]는 [GetModifier('RICE_yazidi_tiwaf_religious_modifier').GetNameWithTooltip] 보너스를 얻습니다. [piety|E]를 두 배로 얻고 [piety_i|E]를 획득하십시오. 만약 그대가 [GetTrait('zealous').GetName( GetNullCharacter )]이거나 [GetTrait('diligent').GetName( GetNullCharacter )]라면 [stress|E]를 훨씬 더 많이 잃고 [stress_loss_i|E]를 겪게 될 것입니다." # 7406928676435998312
+  RICE_yazidi_tiwaf_community_intent_header: "커뮤니티:" # 7934550964328998982
+  RICE_yazidi_tiwaf_community_intent: "커뮤니티:" # 15637845118509028219
+  RICE_yazidi_tiwaf_community_intent_desc: "이것은 공동체적 연대를 실천할 시간입니다. 이 [activity|E]가 열리는 [county|E]는 [GetModifier('RICE_yazidi_tiwaf_community_modifier').GetNameWithTooltip]을 얻습니다. [prestige|E] [prestige_i|E]를 두 배로 얻습니다. 만약 그대가 [GetTrait('gregarious').GetName( GetNullCharacter )]이거나 [GetTrait('compassionate').GetName( GetNullCharacter )]이라면 [stress|E] [stress_loss_i|E]를 더욱 많이 잃습니다." # 9597095642924508920
+  RICE_yazidi_tiwaf_completed_log_title: "티와프 축제 완료" # 5712896703125999696
+  RICE_yazidi_tiwaf_completed_log: "[CHARACTER.GetShortUIName|U] 님께서 티와프 축제를 마치셨습니다." # 9683781256560876828
+  RICE_yazidi_tiwaf_relax_log_title: "휴식:" # 5134121907771394555
+  RICE_yazidi_tiwaf_relax_log: "[CHARACTER.GetShortUIName|U]는 마을 근처의 경치와 풍경을 즐기며 티와프 축제가 시작되기 전 휴식을 취했습니다." # 16316647977940546169
+  RICE_yazidi_tiwaf_chat_log_title: "잡담" # 18047628067464015559
+  RICE_yazidi_tiwaf_chat_log: "[CHARACTER.GetShortUIName|U]는 티와프 축제가 시작되기 전에 현지인들과 어울리며 시간을 보냈습니다." # 16129188143631546635
+  RICE_yazidi_tiwaf_pray_log_title: "기도" # 3105075337060657930
+  RICE_yazidi_tiwaf_pray_log: "[CHARACTER.GetShortUIName|U]께서는 티와프 축제가 시작되기 전 마을 신당에서 기도하는 데 집중하셨습니다." # 13119506741463272841
+  RICE_yazidi_tiwaf_buy_sacrifice_meat_log_title: "희생용 양을 구매했습니다" # 4870536949679104267
+  RICE_yazidi_tiwaf_buy_sacrifice_meat_log: "[CHARACTER.GetShortUIName|U]는 티와프 축제 참가자들에게 경매되던 제물용 양고기 한 덩이를 구매할 수 있었습니다." # 6396304237544360444
+  RICE_yazidi_tiwaf_hike_log_title: "고된 등반" # 13774920187691570679
+  RICE_yazidi_tiwaf_hike_log: "[CHARACTER.GetShortUIName|U]는 티와프 축제가 열리는 마을 사당까지 걸어 올라가야 해서 지쳐버렸습니다." # 5990755147176050943
+  RICE_yazidi_tiwaf_meet_others_log_title: "네트워킹:" # 391479207845626790
+  RICE_yazidi_tiwaf_meet_others_log: "[CHARACTER.GetShortUIName|U]가 티와프 축제에 참석한 다른 마을 사람들과 만났습니다." # 14183258212546107129
+  RICE_yazidi_tiwaf_music_and_dance_log_title: "영감을 주는 음악과 춤" # 13651905027587330807
+  RICE_yazidi_tiwaf_music_and_dance_log: "[CHARACTER.GetShortUIName|U]는 티와프 축제의 음악과 춤에 영감을 받았습니다." # 6387467517871436897
+  TRAVEL_NAME_FOR_activity_RICE_yazidi_tiwaf: "[Character.GetFirstNamePossessiveNoTooltip] $activity_RICE_yazidi_tiwaf$" # 1919328288186938812
+  activity_RICE_yazidi_tawus_geran_host_an_a: "$host_activity_a$" # 13713790857143020716
+  activity_RICE_yazidi_tawus_geran: "타우수스 게란" # 8138657825021867371
+  activity_RICE_yazidi_tawus_geran_desc: "내가 다스리는 [counties|E]의 여러 마을에 타우스를 위한 공작 깃발을 가져가서 그곳 주민들에게 우리의 [faith|E]에 대해 고취하고 깨우쳐야 합니다." # 11628549103136043296
+  activity_RICE_yazidi_tawus_geran_selection_tooltip: "귀하가 소유한 [county|E]로 공작 깃발을 가져와 [control|E]를 높이십시오.\n\n$activity_RICE_yazidi_tawus_geran_context_tooltip$" # 15289177731270063560
+  activity_RICE_yazidi_tawus_geran_context_tooltip: "#emphasis 역사적 배경:#! 타우스 게란, 즉\"타우스의 순\"는 야지디교 의식으로, 말렉 타우스(공작 천사)의 성물인 #italic 산자크#!를 행렬로 나르는 것을 포함합니다. 야지디교의 종교 찬송가를 대대로 전승하는 #italic 퀘왈#!들은 평화로운 시기이며 길이 안전하다고 확신하는 한, 이 #italic 산자크#!를 가지고 여러 야지디 마을을 순회할 것입니다. 이는 야지디인들이 자신들의 종교적 신념에 대해 배우고 종교적 헌신을 보일 기회입니다. 여기에 묘사된 내용은 주로 19세기 영국 선교사이자 오리엔탈리즘 학자인 조지 퍼시 배저(George Percy Badger)의 목격담에 기반을 두고 있습니다." # 7694996470139412224
+  activity_RICE_yazidi_tawus_geran_host_desc: "$BULLET_WITH_TAB$ [piety_i] [piety|E] 획득\n$BULLET_WITH_TAB$ [prestige_i|E][prestige|E] 획득\n$BULLET_WITH_TAB$ 이 [activity|E]가 일어나는 [county|E]의 [control_i|E] [control|E] 증가\n$BULLET_WITH_TAB$ 당신의 [lifestyle|E]에서 최소 #V [EmptyScope.ScriptValue('medium_lifestyle_xp')]#! [experience|E] 획득" # 10582155480001227020
+  activity_RICE_yazidi_tawus_geran_guest_desc: "$activity_RICE_yazidi_tawus_geran_host_desc$" # 11164488058001167938
+  activity_RICE_yazidi_tawus_geran_destination_selection: "$activity_RICE_yazidi_tawus_geran_province_desc$" # 9045691623249213888
+  activity_RICE_yazidi_tawus_geran_guest_help_text: "$activity_RICE_yazidi_tawus_geran$" # 6703817266468075065
+  activity_RICE_yazidi_tawus_geran_predicted_cost: "이 [activity|E]의 비용은 주로 귀하의 [income|E]와 선택하는 [activity_options|E]에 따라 결정됩니다." # 1449348449211936643
+  activity_RICE_yazidi_tawus_geran_conclusion_desc: "[GetActivityType( 'activity_RICE_yazidi_tawus_geran' ).GetName] 행사가 종료되었습니다. 참석한 모든 이들에게 경이로운 종교적 경험이었습니다." # 18352628528071286180
+  RICE_yazidi_tawus_geran_donation_size_type: "기부" # 14699178277888539766
+  RICE_yazidi_tawus_geran_donation_size_type_small: "작은" # 11665425638542725414
+  RICE_yazidi_tawus_geran_donation_size_type_small_desc: "$EFFECT_LIST_BULLET$ [piety_i] #V 50#! [piety|E] 및 [prestige_i] #V 50#! [prestige|E] 획득\n$EFFECT_LIST_BULLET$당신의 [intent|E]에 따라 이 [county|E]의 [control|E]가 [control_i|E] #V [EmptyScope.ScriptValue('RICE_yazidi_tawus_geran_control_gain_small')]#! 또는 [control_i|E] #V [EmptyScope.ScriptValue('RICE_yazidi_tawus_geran_control_gain_small_devotion')]#!만큼 증가합니다.\n\n#weak 나는 의무가 요구하는 만큼 타우스 천사에게 바치리라.#" # 15852962802630255541
+  RICE_yazidi_tawus_geran_donation_size_type_medium: "보통" # 7377651229498775580
+  RICE_yazidi_tawus_geran_donation_size_type_medium_desc: "$EFFECT_LIST_BULLET$ [piety_i] #V 100#! [piety|E] 및 [prestige_i] #V 100#! [prestige|E] 획득\n$EFFECT_LIST_BULLET$ 당신의 [intent|E]에 따라 이 [county|E]의 [control|E]가 [control_i|E] #V [EmptyScope.ScriptValue('RICE_yazidi_tawus_geran_control_gain_medium')]#! 또는 [control_i|E] #V [EmptyScope.ScriptValue('RICE_yazidi_tawus_geran_control_gain_medium_devotion')]#!만큼 증가합니다.\n\n#weak 멜락 타우스의 이름으로, 나는 막대한 양을 기부해야만 한다.#" # 4480340869290548036
+  RICE_yazidi_tawus_geran_donation_size_type_large: "거대한" # 2290692482761374841
+  RICE_yazidi_tawus_geran_donation_size_type_large_desc: "$EFFECT_LIST_BULLET$ [piety_i] #V 150#! [piety|E] 및 [prestige_i] #V 150#! [prestige|E] 획득\n$EFFECT_LIST_BULLET$ 귀하의 [intent|E]에 따라 이 [county|E]의 [control|E]를 [control_i|E] #V [EmptyScope.ScriptValue('RICE_yazidi_tawus_geran_control_gain_large')]#! 또는 [control_i|E] #V [EmptyScope.ScriptValue('RICE_yazidi_tawus_geran_control_gain_large_devotion')]#!만큼 증가시킵니다.\n\n#weak 말렉 타우스(Melek Taus)를 위해, 저는 무엇이든 바치겠습니다!#" # 7282032931044221725
+  RICE_yazidi_tawus_geran_worship_phase: "숭배:" # 7766295194512236388
+  RICE_yazidi_tawus_geran_worship_phase_desc: "#italic 산자크#!, 멜렉 타우스의 신성한 조각상이 여기 있소!" # 10044325434988960662
+  RICE_yazidi_tawus_geran_devotion_intent_header: "헌신:" # 4201487173289154186
+  RICE_yazidi_tawus_geran_devotion_intent: "헌신:" # 13046272498566933790
+  RICE_yazidi_tawus_geran_devotion_intent_desc: "그대는 자신의 신앙심과 공작 천사(Peacock Angel)에 대한 헌신을 보여주고 지역 주민들에게 영감을 주고자 합니다. [control_i|E] #P +50%#! [control|E] 획득. [GetTrait('zealous').GetName( GetNullCharacter )|U] 및 [GetTrait('humble').GetName( GetNullCharacter )] 특성을 가진 인물들은 추가적인 [stress|E]를 잃게 됩니다." # 7985585542051270775
+  RICE_yazidi_tawus_geran_learning_intent_header: "학습:" # 14845628025247794287
+  RICE_yazidi_tawus_geran_learning_intent: "학습:" # 1637989728253738608
+  RICE_yazidi_tawus_geran_learning_intent_desc: "#italic 퀘왈#!의 노래와 찬송에 귀 기울여 [faith|E]를 더 깊이 이해하고자 합니다. [lifestyle|E]에서 #V [EmptyScope.ScriptValue('medium_lifestyle_xp')]#! 대신 #V [EmptyScope.ScriptValue('major_lifestyle_xp')]#! [experience|E]를 얻습니다. [GetTrait('diligent').GetName( GetNullCharacter )|U] 및 [GetTrait('ambitious').GetName( GetNullCharacter )] 인물은 [stress|E]를 잃습니다." # 17821848422123079355
+  RICE_yazidi_tawus_geran_completed_log_title: "타우즈 게란 완료됨" # 13501913355392514295
+  RICE_yazidi_tawus_geran_completed_log: "[CHARACTER.GetShortUIName|U] 께서 타우즈 게란에 참여를 마쳤습니다." # 7246617673013017909
+  TRAVEL_NAME_FOR_activity_RICE_yazidi_tawus_geran: "[Character.GetFirstNamePossessiveNoTooltip] $activity_RICE_yazidi_tawus_geran$" # 8328154900389973241
+  RICE_yazidi_sheikh_adi_recently_died: "셰이크 아디의 죽음" # 702416277352803643
+  RICE_yazidi_sheikh_adi_recently_died_desc: "셰이크 아디는 수피 신비주의자로, 최근 이곳에 묻혔습니다. 그는 모든 신앙을 가진 지역 주민들에게 지혜, 금욕주의, 그리고 기적으로 존경받았습니다. 일부 비방자들은 주민들이 그를 지나치게 숭배하기 시작했다고 주장하지만, 다른 이들은 그를 그러한 숭배를 받을 자격이 있는 위대한 종교적 인물로 여깁니다.\n\n#EMP 이 지역에서 새로운 종교 체계가 발전하고 있으며, 이슬람, 고대 이란 신앙, 그리고 그 밖의 요소들이 혼합되고 있습니다. 새로운 #bold 야지디즘#! [faith|E]이 향후 수십 년 내에 이 지역에서 이벤트를 통해 나타날 가능성이 높습니다.#!" # 9656652138747191976
+  RICE_yarsani_sultan_sahak_here: "술탄 사하크의 기적들" # 7286950012179226287
+  RICE_yarsani_sultan_sahak_here_desc: "이 지역에 술탄 사하크라는 현명하고 위대한 종교 스승이 있다는 소문이 무성합니다. 그가 이 지역의 오래된 전통을 개혁하는 독자적인 영적 교리를 설파하고 있다고 합니다.\n\n#EMP 이 지역에서 이슬람, 고대 이란 신앙 및 기타 요소들이 혼합된 새로운 종교 체계가 발전하고 있습니다. 새로운 [faith|E], #bold 야르산교#!가 향후 수십 년 내에 이벤트를 통해 이곳에서 생겨날 가능성이 높습니다.#!" # 17914228623547822324
+  RICE_yazidi_tiwaf_religious_modifier: "티와프 축제 이후의 종교적 영감" # 16332652268117561906
+  RICE_yazidi_tiwaf_community_modifier: "티와프 축제 이후 공동체 유대가 강화됨" # 18272962214480120323
+  RICE_yarsani_jam_host_small_modifier: "소규모 잼 의식을 후원함" # 6628269587047003989
+  RICE_yarsani_jam_host_medium_modifier: "중규모 잼 의식을 후원했습니다." # 14126324047863418753
+  RICE_yarsani_jam_host_large_modifier: "대규모 잼 의식을 후원함" # 9389929180958739381
+  RICE_yarsani_jam_guest_modifier: "잼 의식에 참여했습니다" # 13550255538334761362
+  RICE_yazidi_bull_sacrifice_modifier_diplomacy: "미트라교 황소 희생(외교)에서 영감을 받음" # 3320800041284570169
+  RICE_yazidi_bull_sacrifice_modifier_martial: "미트라교 황소 희생(전투)에서 영감을 받음" # 5559362584075851987
+  RICE_yazidi_bull_sacrifice_modifier_stewardship: "미트라교 황소 희생(관리력)에서 영감을 받음" # 1823616186916954045
+  RICE_yazidi_bull_sacrifice_modifier_intrigue: "미트라교 황소 희생(음모)에서 영감을 받음" # 3492351309688404491
+  RICE_yazidi_bull_sacrifice_modifier_learning: "미트라교 황소 희생(학습)에서 영감을 받음" # 15585258281548669655
+  RICE_yazidi_tiwaf_sacrifice_meat: "티와프 축제의 제물 양고기" # 13556567497148996210
+  RICE_yazidi_tiwaf_hike: "티와프 축제를 위한 힘든 하이킹" # 963249306120789425
+  yazidi.0001.t: "셰이크 아디의 죽음" # 14695358894202590746
+  yazidi.0001.desc: "[lalish.GetNameNoTier]에 셰이크 아디라 불리는 위대한 성인이 살고 있다는 소문이 지역 전역에 퍼졌습니다. 그분은 독실한 수피즘 신비주의자로서 은둔을 선호했지만, 그의 흔들림 없는 금욕주의, 끝없는 지혜, 그리고 알려진 기적들로 인해 많은 추종자를 얻었습니다.\n\n셰이크 아디께서는 최근 세상을 떠나셨지만, 심지어 이것조차도 그분의 추종자들을 막지 못하고 있습니다. 그 추종자들 중에는 경건한 [islam.GetAdjective] 현지인들뿐만 아니라, 북서 이란 민족들이 오랫동안 간직해 온 고대 신앙을 따르는 이들도 있습니다. 비방자들에게는 그분의 추종자들이 지나치게 숭배하는 것처럼 보이지만, 현지인들은 그분이 진정 위대한 인물이며 어쩌면 평범함을 넘어선 존재로서 존경받아 마땅하다고 주장합니다.\n\n어느 쪽이든, 셰이크 아디의 가르침이 이 지역의 토착 영적 관습 및 사상과 융합되고 있는 듯합니다. 장기적으로 그분의 기억이 얼마나 큰 영향력을 가질지는 두고 볼 일입니다." # 7942638464227757455
+  yazidi.0001.a: "흥미롭군…." # 1733113532710551458
+  yazidi.0001.tooltip: "새로운 [faith|E], #bold [yazidi.GetName]#!가 향후 수십 년 내에 이벤트로 인해 [lalish.GetNameNoTier] [county|E] 근처에서 생겨날 가능성이 높습니다." # 17104714614207577815
+  yazidi.0002.t: "xxxxx" # 1951045980481827005
+  yazidi.0002.desc: "xxxxx" # 1951045980481827005
+  yazidi.0002.a: "xxxxx" # 1951045980481827005
+  yazidi.0003.t: "[yazidi.GetNameNoTooltip]의 부상" # 16896053945760085516
+  yazidi.0003.desc: "수년 전, 저명한 [islam.GetAdjective] 신비주의자이자 금욕주의자인 셰이크 아디(Sheikh Adi)가 [lalish.GetNameNoTier]에서 활동했습니다. 그는 정통 [islam.GetNameNoTooltip]을 실천하는 자들과 북서부 이란 지역 주민들이 오랫동안 지켜온 옛 신앙을 따르는 자들 모두에게 존경을 받았습니다.\n\n이 두 집단의 신앙과 셰이크 아디에 대한 깊은 숭배는 수년에 걸쳐 융합되어, 이 지역의 고립되고 험준한 산과 계곡에서 새로운 종교적 사상과 관습이 탄생하게 되었습니다. 그들의 신앙의 중심에는 #italic 일곱 천사#!가 있는데, 이는 셰이크 아디뿐만 아니라 공작 천사인 멜렉 타우스(Melek Taus)를 포함하는 신의 현신입니다.\n\n[yazidi.GetName]이라 불리는 이 새로운 영적 전통은 이곳 일부 부족들 사이에서 세력을 얻고 있으나, 확립된 종교의 추종자들은 그들을 기껏해야 의심의 눈초리로 보거나 최악의 경우 타락한 이교도로 취급합니다." # 18424984692246113938
+  yazidi.0003.a: "흥미로운 소식이로군…." # 14999355406101336855
+  yazidi.0003.b: "셰이크 아디를 저 역시 대단히 존경합니다." # 18440695085415567946
+  yazidi.0003.tooltip: "이제 [yazidi.GetName]으로 개종하는 것이 가능합니다. 또한, 새로운 [faith|E]를 창설할 때 [yazidi_religion.GetName] [religion|E] 내에서 [GetFaithDoctrine('rice_west_iranian_yazidi_doctrine').GetBaseName] [doctrine|E]를 사용할 수 있습니다." # 10525368731078911774
+  yazidi.0003.info: "#emphasis 역사적 배경:#! 쿠르드족과 더 넓게는 북서 이란 민족들은 조로아스터교와는 구별되지만 연관된 고대의 종교적 신념을 가졌던 것으로 추정됩니다. 이는 셰이크 아디가 설파한 수피즘 이슬람과 융합되어 야지디교를 탄생시켰습니다. 따라서 현재 형태의 야지디교는 1100년대 셰이크 아디 사후에야 등장했습니다.\n\n중세와 근세 초기에는 야지디교도들이 쿠르드족 사이에서 더 널리 퍼져 있었을 가능성이 높습니다. 예를 들어, 오스만 제국은 쿠르디스탄 일부 지역을 통치하기 위해 야지디 에미르들을 임명했는데, 이는 당시 야지디교도들이 상당한 정치적 영향력을 가졌음을 시사합니다.\n\n흥미롭게도 야지디교도들을 악마 숭배자로 오인하는 악명 높은 오해는 그들을 박해하는 데 자주 사용되지만, 이는 1500년대와 1600년대에 이르러서야 제대로 기록되기 시작합니다. 이는 그들이 이단적인 무슬림으로 간주되었으며 나중에야 별개의 집단으로 여겨졌을 가능성, 혹은 적어도 훨씬 나중까지 무슬림과 기독교인들에게 적대적으로 간주되지 않았을 가능성을 제기합니다." # 3821190567169774394
+  yazidi.0004.t: "술탄 사하크" # 18250933153630123131
+  yazidi.0004.desc: "#bold 술탄 사하크#라는 성인에 대한 소문이 퍼지고 있으며, 그분은 주로 [kermanshah.GetNameNoTier] 주변 지역에 거주하고 계십니다. 요즘 그분은 지혜, 학식, 그리고 소문으로 전해지는 기적으로 상당한 추종자들을 모으고 있습니다.\n\n술탄 사하크는 중동 전역의 유명한 [islam.GetAdjective] 학교에서 정식 종교 교육을 받았다고 전해집니다. 그럼에도 불구하고, 그 지역의 많은 사람들, 심지어 그분을 따르는 이들조차도 오래된 종교적 관습을 일부 따르고 있는데, 이는 고립된 산악 지대와 계곡이 언제나 이단적인 종파와 신념의 본거지였기 때문입니다.\n\n전반적으로 볼 때, 술탄 사하크는 그들의 신념을 보다 일관성 있고 아브라함 계통의 신조에 부합하는 것으로 개혁하려는 노력을 기울이고 있는 듯합니다. 심지어 그분의 기적이 그분이 평범한 성인이 아니며 신성한 본질을 지니고 있음을 증명한다고 말하는 이들도 있습니다." # 11469318371755965625
+  yazidi.0004.a: "알겠소...." # 7817620493409054810
+  yazidi.0004.tooltip: "새로운 [faith|E], #bold [yarsani.GetName]#!가 향후 수십 년 내에 이벤트 발생을 통해 [kermanshah.GetNameNoTier]의 [county|E]를 중심으로 나타날 가능성이 높습니다." # 14637348836880601839
+  yazidi.0005.t: "xxxxx" # 1951045980481827005
+  yazidi.0005.desc: "xxxxx" # 1951045980481827005
+  yazidi.0005.a: "xxxxx" # 1951045980481827005
+  yazidi.0006.t: "[yarsani.GetNameNoTooltip]의 부상" # 11177866181652132932
+  yazidi.0006.desc: "수년 전, 성인인 술탄 사하크가 [kermanshah.GetNameNoTier]에서 활동했습니다. 그는 지혜와 수많은 기적으로 명성이 높았습니다. 그가 세상을 떠난 지 오래되었지만, 그의 가르침은 여전히 남아 있습니다. 수피즘 [islam.GetName]과 북서 이란 사람들의 오래된 종교적 관습이 융합된 이 혼합주의는 많은 추종자를 끌어모았으며, 이는 [yarsani.GetName], 즉 #italic 진리의 사람들#!로 알려져 있습니다.\n\n이 새로운 종교 전통을 따르는 많은 이들은 술탄 사하크가 사실 이 시대에 현현한 일곱 신성한 화신 중 네 번째이자 가장 위대한 존재라고 믿으며, 그와 그의 일곱 동반자에 대한 전설이 퍼지고 있습니다.\n\n어쨌든, 이 새로운 이단 종파가 많은 추종자를 얻고 있음에도 불구하고, [yarsani.GetAdherentNamePluralNoTooltip]은 그들이 비교적 외딴 산과 계곡에 살고 있어 다행입니다. 왜냐하면 그들은 현재 외부인들에게 경계심을 받거나 때로는 적대시당하고 있기 때문입니다." # 1648070479657275286
+  yazidi.0006.a: "흥미로운 소식이로군…." # 14999355406101336855
+  yazidi.0006.b: "술탄 사하크는 숭배받을 가치가 있다고 생각합니다." # 18202583752984694422
+  yazidi.0006.tooltip: "이제 [yarsani.GetName]으로 개종하는 것이 가능합니다. 또한, [yazidi_religion.GetName] [religion|E] 내에서 새로운 [faith|E]를 생성할 때 [GetFaithDoctrine('rice_west_iranian_yarsani_doctrine').GetBaseName] [doctrine|E]를 사용할 수 있습니다." # 2946752301048885992
+  yazidi.0006.info: "#emphasis 역사적 배경:#! 쿠르드족과 더 넓게는 북서 이란 민족들은 조로아스터교와는 구별되지만 연관된 고대의 종교적 신념을 가졌던 것으로 추정됩니다. 이러한 신념은 술탄 사하크가 속했던 수피 이슬람과 융합하여 야르산교가 탄생하게 되었습니다. 우리가 아는 야르산교는 술탄 사하크가 티무르와 교류했다는 전설을 고려할 때, 늦어도 14세기경에 출현했습니다.\n\n야르산교는 야지디교나 알레비파와 같이 이 지역의 다른 이단 종교나 분파들과 일부 유사점을 가집니다. 대부분의 야르산교도들은 쿠르드어를 사용하지만, 일부는 튀르크어를 사용합니다.\n\n야르산교도들은 아흘-에 학(Ahl-e Haqq) 또는 카카이(Kaka'i)로도 알려져 있습니다. 그들은 또한 종종 경멸적으로 알리-알라히(Ali-Allahi), 즉 알리를 숭배하는 자들이나 알리의 신성을 믿는 자들이라고 불리기도 하는데, 비록 예언자 무함마드의 사촌인 알리가 그들의 종교에서 사소한 역할만을 할 뿐임에도 그렇습니다." # 3947615176898434088
+  yazidi.0007.t: "$d_yazidi$" # 16960364280209014674
+  yazidi.0007.desc: "북부 메소포타미아와 북서부 이란에서 [yazidi_head.GetFaith.GetName]이 독자적인 종교 전통으로 부상함에 따라, 이 지역의 [yazidi_head.GetFaith.GetAdherentNamePluralNoTooltip]들은 [yazidi_head.GetTitledFirstName]을 자신들의 영적 지도자로 인정하기 시작했습니다. 전해지기로 [yazidi_head.GetSheHe]는 [yazidi_head.GetFaith.GetAdherentNamePluralNoTooltip]들이 매우 존경하는 수피즘의 대가인 셰이크 아디의 후손이거나 친척이라고 합니다.\n\n어쨌든, [yazidi_head.GetSheHe]는 셰이크 아디의 무덤과 멀지 않은 [yazidi_county.GetName]에 거주하고 있으며, 그 무덤은 주요 [yazidi_head.GetFaith.GetAdjective] 순례지가 되었습니다. 아마도 이 지역의 [yazidi_head.GetFaith.GetAdherentNamePluralNoTooltip]들과 좋은 관계를 유지하고 싶다면, [yazidi_head.GetSheHe]와 [yazidi_head.GetHerHis]의 백성들이 고향을 가질 수 있도록 [yazidi_county.GetNameNoTier] 주변의 영토를 [yazidi_head.GetFirstNameNoTooltip]에게 수여해야 할 것 같습니다." # 13859946553519697476
+  yazidi.0007.a: "[yazidi_head.GetHerHim]에게 [yazidi_county.GetNameNoTier]를 수여합시다, 네!" # 9416505377946648889
+  yazidi.0007.b: "[yazidi_head.GetSheHe]가 [yazidi_county.GetNameNoTier]를 어떻게 다스릴지 궁금하군...." # 17469653103221588318
+  yazidi.0007.c: "[yazidi_head.GetSheHe|U]께서는 그 어떤 영토도 다스릴 필요가 없습니다." # 16784623365478998142
+  yazidi.0008.t: "xxxxx" # 1951045980481827005
+  yazidi.0008.desc: "xxxxx" # 1951045980481827005
+  yazidi.0008.a: "xxxxx" # 1951045980481827005
+  yazidi.0009.t: "xxxxx" # 1951045980481827005
+  yazidi.0009.desc: "xxxxx" # 1951045980481827005
+  yazidi.0009.a: "xxxxx" # 1951045980481827005
+  yazidi.0010.t: "xxxxx" # 1951045980481827005
+  yazidi.0010.desc: "xxxxx" # 1951045980481827005
+  yazidi.0010.a: "xxxxx" # 1951045980481827005
+  yazidi.0011.t: "xxxxx" # 1951045980481827005
+  yazidi.0011.desc: "xxxxx" # 1951045980481827005
+  yazidi.0011.a: "xxxxx" # 1951045980481827005
+  yazidi.0012.t: "xxxxx" # 1951045980481827005
+  yazidi.0012.desc: "xxxxx" # 1951045980481827005
+  yazidi.0012.a: "xxxxx" # 1951045980481827005
+  yazidi.0013.t: "xxxxx" # 1951045980481827005
+  yazidi.0013.desc: "xxxxx" # 1951045980481827005
+  yazidi.0013.a: "xxxxx" # 1951045980481827005
+  yazidi.0014.t: "xxxxx" # 1951045980481827005
+  yazidi.0014.desc: "xxxxx" # 1951045980481827005
+  yazidi.0014.a: "xxxxx" # 1951045980481827005
+  yazidi.0015.t: "xxxxx" # 1951045980481827005
+  yazidi.0015.desc: "xxxxx" # 1951045980481827005
+  yazidi.0015.a: "xxxxx" # 1951045980481827005
+  yazidi.0016.t: "xxxxx" # 1951045980481827005
+  yazidi.0016.desc: "xxxxx" # 1951045980481827005
+  yazidi.0016.a: "xxxxx" # 1951045980481827005
+  yazidi.0017.t: "xxxxx" # 1951045980481827005
+  yazidi.0017.desc: "xxxxx" # 1951045980481827005
+  yazidi.0017.a: "xxxxx" # 1951045980481827005
+  yazidi.0018.t: "xxxxx" # 1951045980481827005
+  yazidi.0018.desc: "xxxxx" # 1951045980481827005
+  yazidi.0018.a: "xxxxx" # 1951045980481827005
+  yazidi.0019.t: "xxxxx" # 1951045980481827005
+  yazidi.0019.desc: "xxxxx" # 1951045980481827005
+  yazidi.0019.a: "xxxxx" # 1951045980481827005
+  yazidi.0020.t: "준비" # 666839747819429162
+  yazidi.0020.desc: "#italic 퀘왈#!들이 $yazidi_high_god_name$의 성스러운 청동 우상인 #italic 산작#! 중 하나를 [location.GetNameNoTier]에 있는 [faith.GetAdjective] 마을로 가져올 계획이라는 소식을 들었을 때, 나는 그 행사에 참석해야겠다고 생각했습니다.\n\n#italic 타우우스 게란#!, 혹은 타우우스의 순회라고 불리는 이 행사는 [faith.GetName]에서 가장 중요하고 흔한 종교 의식 중 하나입니다. #italic 퀘왈#!들은 #italic 산작#!을 여러 마을로 가져옴으로써 우리에게 신앙을 갱신하고 종교를 더 깊이 이해할 기회를 줍니다.\n\n어쨌든, 나는 #italic 산작#!이 도착할 예정이기 직전에 문제의 마을에 도착했습니다. 마을 사람들은 내가 그들과 함께하기 위해 와준 것을 영광으로 여기며 나를 위한 적절한 숙소를 마련해 주었습니다." # 2471047233464786013
+  yazidi.0020.a: "#italic 산작#의 도착을 기다립니다!" # 11670356488912056555
+  yazidi.0021.t: "산작이 도착하다" # 6023225757213891470
+  yazidi.0021.desc: "드디어 오늘이로군! 우리의 신성한 찬송가를 읊는 훈련된 낭송가인 #italic 케왈#! (우리가 #italic 퀘울#!이라고 부르는 자들)이 #italic 타우쓰 게란#! 의식을 시작하기 위해 마을 외곽에 도착했다. 파이프의 삑삑거리는 소리, 탬버린의 쿵쿵거리는 소리, 북소리가 마을을 가득 채우는 시끄러울 정도의 음악 소리 덕분에 모두가 그들이 왔음을 알고 있다.\n\n우리는 마을 중앙 도로로 달려간다. 그곳에서 #italic 케왈#!들과 다른 성직자들이 #italic 산작#!을 앞세우고 행렬을 이루어 들어오고 있다. 일부 구경꾼들은 감정이 북받쳐 올라 기도를 중얼거리거나 청동 우상에게 깊은 경의를 표하며 절을 한다. 다른 이들은 행렬 속 사람들이 들고 있는 향로에서 피어오르는 연기를 들이마시고 팔과 얼굴을 그 연기에 담그려 애쓴다.\n\n#italic 산작#!은 한동안 마을 주변을 행진한 뒤, #italic 타우쓰 게란#!이 끝날 때까지 머무를 마을 유지 중 한 명의 집으로 향한다." # 7197868273524173804
+  yazidi.0021.a: "집으로 가자!" # 7286314972626458213
+  yazidi.0022.t: "설교" # 15524096141886574003
+  yazidi.0022.desc: "지난 며칠 동안 저를 포함한 모든 사람들이 #italic 산작#!이 안치된 집을 드나들며 #italic 타우즈 게란#! 의식과 종교 행사에 참여했습니다.\n\n주최자의 집 안 한 방에는 #italic 산작#!이 흰 천으로 덮인 채 높은 단상 위에 조심스럽게 놓여 있었고, 그 주위는 램프와 양초로 둘러싸여 있었습니다. 그 옆에는 병자들에게 마시게 할 물 한 병과 기부를 받을 접시가 놓여 있었습니다.\n\n그날의 행사는 #italic 퀘왈#!들이 찬송가를 낭송하고, #italic 타우즈 게란#!의 중요성과 행사에 참석하고 #italic 산작#!에 기부하는 것의 이점뿐만 아니라 [faith.GetAdjective] 신학 및 전설의 다른 측면들에 대해서도 설교를 하면서 시작됩니다. 많은 이들에게 이곳은 신앙에 대해 배울 수 있는 주된 기회입니다." # 7243807134294498561
+  yazidi.0022.a: "우리 모두 #italic 퀘왈#!에게 귀 기울입니다." # 16304231525823899150
+  yazidi.0023.t: "기도와 헌금" # 15497324011979322135
+  yazidi.0023.desc: "#italic 퀘왈#!의 설교가 꽤 길어졌지만, 우리는 집중하려 노력합니다. 마침내 설교가 끝나자, 우리는 각자 낼 수 있는 헌금을 바치라는 부름에 모두 일어섭니다.\n\n모든 참석자가 #italic 산작#! 앞으로 다가가 헌금 접시에 돈을 올려놓습니다. 자리에 돌아와 앉으면, 우리는 #italic 산작#!을 경배하며 여러 기도와 찬송가를 부르고, 어떤 이들은 특히 공작 천사 $yazidi_high_god_name$에게 헌신과 열정을 보이기 위해 가슴을 치기도 합니다." # 2195965076959357287
+  yazidi.0023.a: "오 나의 주군이시여, 당신은 세상의 천사 같은 통치자이십니다!" # 1967741215949057660
+  yazidi.0024.t: "결론" # 3822412533199628403
+  yazidi.0024.desc: "마침내 #italic 타우즈 게란#!이 완성되었습니다. #italic 퀘왈#!들과 그들을 수행하는 이들은 쉴 틈도 없이 다음 마을로 가서 그들의 의무대로 똑같은 일을 다시 해야 할 것입니다. 그럼에도 불구하고, 저는 이번에 그것에 참석하여 신앙을 갱신할 기회를 얻게 되어 기쁩니다." # 14740658369066933415
+  yazidi.0024.a: "$yazidi_high_god_name$께 영광을!" # 15845216119664984482
+  yazidi.0025.t: "xxxxx" # 1951045980481827005
+  yazidi.0025.desc: "xxxxx" # 1951045980481827005
+  yazidi.0025.a: "xxxxx" # 1951045980481827005
+  yazidi.0026.t: "xxxxx" # 1951045980481827005
+  yazidi.0026.desc: "xxxxx" # 1951045980481827005
+  yazidi.0026.a: "xxxxx" # 1951045980481827005
+  yazidi.0027.t: "xxxxx" # 1951045980481827005
+  yazidi.0027.desc: "xxxxx" # 1951045980481827005
+  yazidi.0027.a: "xxxxx" # 1951045980481827005
+  yazidi.0028.t: "xxxxx" # 1951045980481827005
+  yazidi.0028.desc: "xxxxx" # 1951045980481827005
+  yazidi.0028.a: "xxxxx" # 1951045980481827005
+  yazidi.0029.t: "xxxxx" # 1951045980481827005
+  yazidi.0029.desc: "xxxxx" # 1951045980481827005
+  yazidi.0029.a: "xxxxx" # 1951045980481827005
+  yazidi.0030.t: "도착" # 4877148824439775158
+  yazidi.0030.desc: "모든 [faith.GetAdjective] 마을에는 [faith.GetNameNoTooltip]의 수많은 성스러운 인물 중 한 명에게 헌정된 신사가 있으며, 이 마을들은 차례로 이 신사들에서 매년 #italic tiwaf#! 축제를 개최합니다. 이 종교적 행사는 사교와 인맥 형성에도 완벽한 시기이기에, 저는 이곳 [location.GetNameNoTier] 마을에서 #italic tiwaf#!가 열린다는 소식을 듣고 참석하기로 결정했습니다.\n\n어쨌든, 저는 마을에 도착했고, 정착지는 활동으로 북적이고 있습니다. 현지인들은 마지막 준비에 분주하며, 저처럼 사방에서 온 외부인들은 축제가 진행되는 동안 캠프를 설치할 좋은 장소를 찾고 있습니다. 축제가 시작될 때까지 기다리는 동안 무언가 해야 할지도 모르겠습니다." # 8247787060212410205
+  yazidi.0030.a: "여정 후 휴식을 취해야겠군." # 11419567227587623108
+  yazidi.0030.b: "참석자들과 잡담하고 인맥을 쌓겠습니다." # 17085587569614878673
+  yazidi.0030.c: "먼저 준비를 위해 기도해야겠습니다." # 1390067819934022610
+  yazidi.0031.t: "축제가 시작됩니다" # 12437824938120884957
+  yazidi.0031.desc: "#italic 티와프#! 축제가 시작됩니다! 축제에 참석하는 모든 이들, 지역 마을 출신이든 저 같은 외부인이든, 모두 마을의 신성소 주위에 모입니다.\n\n그곳에서 우리는 성스러운 찬송가를 훈련받은 낭송가인 #italic 케왈#!들이 부르는 것을 둘러싸고 모입니다. 우리는 그 찬송가를 #italic 케왈#!이라고 부르는데, 이는 [faith.HighGodName]과 다른 성스러운 존재들을 찬양하는 노래입니다.\n\n비록 종교적인 행사이지만, 모든 사람이 모여 있기에 꽤나 축제 분위기입니다. 어떤 면에서는 거대하고 성대한 소풍과도 같습니다. 춤을 추고, 음식을 나누고, 대화를 나누고, 온갖 즐거운 유흥에 참여하는 사람들이 가득합니다!" # 8827456711312286555
+  yazidi.0031.a: "이곳 군중은 정말 축제 분위기군!" # 7198320437191082300
+  yazidi.0032.t: "결론" # 3822412533199628403
+  yazidi.0032.desc: "#italic 티와프#! 축제가 많은 즐거움과 흥분 끝에 막을 내렸습니다. 참석한 대부분의 사람들이 즐거워했다는 것은 의심의 여지가 없습니다.\n\n이곳에 사는 마을 사람들은 자신들의 신사와 마을에 자부심을 가지고 있으며, 이 축제는 그들의 공동체를 기념하는 행사이기 때문에 저와 같은 외부 손님들과 지역의 전설과 설화를 기꺼이 나누어 주었습니다. 이 행사가 이곳에 사는 가문들 간의 유대를 더욱 공고히 하는 데 기여했다는 것은 의심할 여지가 없습니다." # 4078112624265259208
+  yazidi.0032.a: "저도 그 일에 참여하게 되어 기뻤습니다." # 12943248629944515011
+  yazidi.0033.t: "xxxxx" # 1951045980481827005
+  yazidi.0033.desc: "xxxxx" # 1951045980481827005
+  yazidi.0033.a: "xxxxx" # 1951045980481827005
+  yazidi.0034.t: "xxxxx" # 1951045980481827005
+  yazidi.0034.desc: "xxxxx" # 1951045980481827005
+  yazidi.0034.a: "xxxxx" # 1951045980481827005
+  yazidi.0035.t: "희생 제물 양고기" # 14148489180236121955
+  yazidi.0035.desc: "#italic 티와프#! 축제의 일부에는 양을 희생하고 먹는 행사가 포함됩니다. 하지만 누가 그 양을 먹을지에 대한 의문이 생기는데, 종종 희생된 양의 익힌 부위들이 참석자들에게 경매로 넘어갑니다.\n\n군중은 환호하며 소란을 피우고 있고, 사람들은 양고기 각 부위에 대해 호가를 부르고 있습니다. 나도 고기를 좀 사야 할까?" # 15670756922567077009
+  yazidi.0035.a: "네, 그 고기가 좀 필요합니다!" # 7248231491374189553
+  yazidi.0035.b: "아니, 나는 다른 이들에게 고기를 양보하겠소." # 9731964462154304035
+  yazidi.0036.t: "힘겨운 등산" # 13774920187691570679
+  yazidi.0036.desc: "#italic 티와프#! 축제가 열리는 성소는 마을 안이나 변두리에만 있는 것은 아닙니다. 때로는 이 성소들이 더 외딴 황무지에 자리 잡고 있기도 합니다.\n\n마침 제가 이 #italic 티와프#! 축제를 위해 방문한 마을의 성소는 제가 예상했던 것보다 훨씬 더 멀리 떨어져 있더군요! 물론 저는 이미 그곳까지의 여정을 마쳤고, 지금은 #italic 티와프#! 축제에 참여하고 있지만, 근육이 꽤 쑤시기 시작합니다.\n\n그럼에도 불구하고, 이렇게 자연 속에 나와 있는 것은 영감을 주며, 광활한 자연 경관과 탁 트인 하늘을 보니 [faith.HighGodName]와 [faith.HighGodHerHis]의 창조물에 대해 더욱 감사하게 됩니다." # 17068785058080252943
+  yazidi.0036.a: "#italic 그건# 정말 험난한 여정이었군." # 10191166931768828461
+  yazidi.0037.t: "사교 활동" # 7136862518974326029
+  yazidi.0037.desc: "#italic 티와프#! 축제는 나처럼 먼 곳에서 온 사람들과 지역 주민들을 모두 끌어모으기 때문에 인맥을 쌓고 다른 사람들을 만날 좋은 기회입니다. 벌써부터 나는 다른 마을의 유지들을 포함하여 타지에서 온 여러 흥미로운 인물들을 만났고, 우리는 많은 좋은 대화를 나누었습니다." # 12005517333560323484
+  yazidi.0037.a: "부디 이것이 미래에 나에게 도움이 되기를 바라네." # 15346732496492447466
+  yazidi.0038.t: "신성한 퀘울" # 7183753794530962265
+  yazidi.0038.desc: "비록 이와 같은 #italic 티와프#! 축제는 즐거운 행사이지만, 결국 종교적인 축제라는 점을 잊어서는 안 됩니다. 모든 흥청거림과 유흥 속에서도, 우리는 여전히 이 신성한 장소들이 헌정된 성스러운 인물들을 기리기 위해 여기에 모인 것입니다.\n\n축제를 위해 필수적인 종교 의식의 일환으로 신당에는 #italic 케왈#!들이 모여, #italic 데프#! 탬버린이나 #italic 샤밥#! 피리와 같은 신성한 악기 연주에 맞춰 신성한 #italic 퀘왈#!을 노래하고 있습니다." # 2986720507738706290
+  yazidi.0038.a: "정말 고무적이군요!" # 7628740700887084145
+  yazidi.0039.t: "xxxxx" # 1951045980481827005
+  yazidi.0039.desc: "xxxxx" # 1951045980481827005
+  yazidi.0039.a: "xxxxx" # 1951045980481827005
+  yazidi.0040.t: "준비" # 666839747819429162
+  yazidi.0040.desc: "#italic 얌#! 의식은 [faith.GetAdjective] 공동체에서 가장 중요한 종교적, 공동체적 행사 중 하나입니다. 외부인의 눈에는 그저 몇몇이 모이는 단순한 모임처럼 들릴 수 있지만, 실제로는 전혀 그렇지 않습니다. 우리 신앙의 각 분파는 고유한 의식의 변형을 가지고 있으며, 이는 명확한 규칙을 가지고 있으며 우리로 하여금 [faith.HighGodNameAlternate]께 더욱 가까이 다가갈 수 있는 방법입니다.\n\n저는 곧 거행될 #italic 얌#! 에 초대받은 정착지에 도착했습니다. 의식을 거행하기 위해 모일 성스러운 건물인 #italic $yarsani_house_of_worship$#! 의 위치를 확인한 후, 밤을 묵을 숙소를 찾았습니다." # 628623927623092412
+  yazidi.0040.a: "식 시작이 너무 기다려지는군!" # 3490748812437193501
+  yazidi.0041.t: "$yarsani_house_of_worship$에 진입합니다" # 10785145349439855773
+  yazidi.0041.desc: "오늘이 바로 #italic 잼#의 날입니다!! 다른 참가자들과 함께 #italic $yarsani_house_of_worship$#!에 도착했습니다. 건물 안으로 들어가면서, 다른 모든 참가자들처럼 저도 엎드려 문지방에 입을 맞추며 이렇게 말합니다.\"시작과 끝은 신이시니\"\n\n그런 다음 저는 의식을 주관하는 [faith.BishopNeuter]에게 가서 의례적으로 그분의 손에 입을 맞춥니다. 그곳에서 방을 돌아다니며 먼저 도착한 모든 이들의 손에 입을 맞춘 후 자리에 앉습니다.\n\n가장 화려한 왕부터 가장 보잘것없는 거지에 이르기까지, 우리는 모두 이곳에서 평등합니다. 계급이나 부를 나타내는 복장의 차이는 없습니다. 우리 모두는 수수한 옷을 입고 머리는 단순한 천이나 모자로 가립니다." # 18191576411462441101
+  yazidi.0041.a: "모두 도착하면 우리는 그 자리에 머물러야 합니다." # 5713472894422679737
+  yazidi.0042.t: "의식이 시작되다" # 17484270475082152979
+  yazidi.0042.desc: "이제 #italic 잼#!이 제대로 시작되었으니, #italic 카뎀#!이라 불리는 지정된 사람이 우리 손을 씻을 물이 담긴 대야와 주전자를 가져옵니다. 제 얼굴을 씻고 나면, 전통에 따라\"시작과 끝은 신이시\"라고 읊조립니다.\n\n한편, 다른 모든 이들은 #italic 탄부르#!, 즉 [faith.GetAdjective] 성스러운 악기의 선율에 맞춰 신성한 노래인 #italic 칼람#!을 부르는 데 동참하고 있습니다. 이 모든 것을 함께 할 수 있어 다행입니다. 만약 참석한 사람 중 아무도 노래를 부르거나 #italic 탄부르#!를 연주할 능력이 없다면, #italic 잼#!은 그 노래나 연주 없이도 진행될 수 있지만, 오늘은 그런 걱정을 할 필요가 없습니다." # 5451260516064756537
+  yazidi.0042.a: "이제 음식 나누기를 해볼까요!" # 4645822489793785391
+  yazidi.0043.t: "음식 나누기" # 3922999244062713344
+  yazidi.0043.desc: "의식의 집전자이신 [faith.BishopNeuter] 앞에는 흰 천이 깔려 있고, 그 위에는 희생 제물이 담긴 솥이 놓입니다. [faith.BishopNeuter]께서는 고기를 뼈에서 분리하여, #italic bash#!라고 불리는 각 몫을 #italic tiri#! 빵 위에 올려놓습니다.\n\n참석한 모든 사람, 심지어 다른 이들과 떨어져 방 가장자리에 서서 지켜보도록 허락된 참가자들의 아이들에게까지 고기 한 몫이 주어집니다. 그런 다음 #italic kadem#!이 의식의 다음 순서를 위해 마실 물이 담긴 대야를 가져오고, 나를 포함한 모든 참가자는 차례로 이 대야에서 물을 조금씩 마십니다.\n\n우리가 모두 이 방 안에서 신의 현존을 느끼는 동안에도 계속해서 노래와 음악이 이어집니다. 우리 중 일부는 심지어 깊은 황홀경 상태를 경험하기 시작합니다!" # 17913234153136289525
+  yazidi.0043.a: "분위기는 지극히 순수하고 성스러운 느낌입니다." # 13208771623616586129
+  yazidi.0044.t: "결론" # 3822412533199628403
+  yazidi.0044.desc: "마침내 #italic 얌#! 의식이 끝났습니다. #italic 카뎀#! 과 그들의 조력자가 특별한 허락 기도를 읊고, [faith.BishopNeuter]부터 시작하여 참석한 모든 이들의 손에 입을 맞춥니다. 이 모든 것이 끝나면 [faith.BishopNeuter]가 의식이 종료되었음을 선포합니다.\n\n우리 모두가 #italic $yarsani_house_of_worship$#! 에서 나올 때, [faith.HighGodNameAlternate]께서 방금 우리와 함께하셨다는 데에는 의심의 여지가 없습니다. 이를 통해 우리는 하나로 뭉치게 되었고, 우리를 괴롭히는 문제들에 대한 해결책을 찾을 수 있을 것입니다." # 15831033497333519875
+  yazidi.0044.a: "참여하게 되어 기쁘군요!" # 6166240882480195501
+  yazidi.0045.t: "xxxxx" # 1951045980481827005
+  yazidi.0045.desc: "xxxxx" # 1951045980481827005
+  yazidi.0045.a: "xxxxx" # 1951045980481827005
+  yazidi.0046.t: "xxxxx" # 1951045980481827005
+  yazidi.0046.desc: "xxxxx" # 1951045980481827005
+  yazidi.0046.a: "xxxxx" # 1951045980481827005
+  yazidi.0047.t: "xxxxx" # 1951045980481827005
+  yazidi.0047.desc: "xxxxx" # 1951045980481827005
+  yazidi.0047.a: "xxxxx" # 1951045980481827005
+  yazidi.0048.t: "xxxxx" # 1951045980481827005
+  yazidi.0048.desc: "xxxxx" # 1951045980481827005
+  yazidi.0048.a: "xxxxx" # 1951045980481827005
+  yazidi.0049.t: "xxxxx" # 1951045980481827005
+  yazidi.0049.desc: "xxxxx" # 1951045980481827005
+  yazidi.0049.a: "xxxxx" # 1951045980481827005
+  yazidi.0050.t: "xxxxx" # 1951045980481827005
+  yazidi.0050.desc: "xxxxx" # 1951045980481827005
+  yazidi.0050.a: "xxxxx" # 1951045980481827005
+  yazidi.0051.t: "xxxxx" # 1951045980481827005
+  yazidi.0051.desc: "xxxxx" # 1951045980481827005
+  yazidi.0051.a: "xxxxx" # 1951045980481827005
+  yazidi.0052.t: "xxxxx" # 1951045980481827005
+  yazidi.0052.desc: "xxxxx" # 1951045980481827005
+  yazidi.0052.a: "xxxxx" # 1951045980481827005
+  yazidi.0053.t: "xxxxx" # 1951045980481827005
+  yazidi.0053.desc: "xxxxx" # 1951045980481827005
+  yazidi.0053.a: "xxxxx" # 1951045980481827005
+  yazidi.0054.t: "xxxxx" # 1951045980481827005
+  yazidi.0054.desc: "xxxxx" # 1951045980481827005
+  yazidi.0054.a: "xxxxx" # 1951045980481827005
+  yazidi.0055.t: "xxxxx" # 1951045980481827005
+  yazidi.0055.desc: "xxxxx" # 1951045980481827005
+  yazidi.0055.a: "xxxxx" # 1951045980481827005
+  yazidi.0056.t: "xxxxx" # 1951045980481827005
+  yazidi.0056.desc: "xxxxx" # 1951045980481827005
+  yazidi.0056.a: "xxxxx" # 1951045980481827005
+  yazidi.0057.t: "xxxxx" # 1951045980481827005
+  yazidi.0057.desc: "xxxxx" # 1951045980481827005
+  yazidi.0057.a: "xxxxx" # 1951045980481827005
+  yazidi.0058.t: "xxxxx" # 1951045980481827005
+  yazidi.0058.desc: "xxxxx" # 1951045980481827005
+  yazidi.0058.a: "xxxxx" # 1951045980481827005
+  yazidi.0059.t: "xxxxx" # 1951045980481827005
+  yazidi.0059.desc: "xxxxx" # 1951045980481827005
+  yazidi.0059.a: "xxxxx" # 1951045980481827005
+  yazidi.0060.t: "준비" # 666839747819429162
+  yazidi.0060.desc: "요즘 저는 황소를 제물로 바치기 위한 준비를 하고 있습니다.\n\n저희 전통적인 [faith.GetAdjective] 우주론에 따르면, 태초에 위대한 신 미트라가 태초의 황소를 희생했습니다. 그 이전, [faith.CreatorGodName]께서 창조하신 우주는 생명력이 부족하고 모든 것이 정체되어 있었습니다. 따라서 황소에 대한 미트라의 희생이 창조의 두 번째 단계를 시작할 수 있게 한 것입니다.\n\n다른 지역에는 이 최초의 희생이 사악한 존재들에 의해 자행된 악한 행위라고 믿는 이들도 있습니다. 심지어 우리가 종교적 신념과 관습을 많이 공유하는 이들까지도 말이죠. 하지만 저희는 이에 동의하지 않습니다. 그 희생은 필수적이었고 선한 행위였습니다. 따라서 저희는 이 종교 의식을 통해 최초의 황소 희생을 직접 재현하고자 합니다." # 16632690651819706689
+  yazidi.0060.a: "곧 이 행사를 위한 황소가 선택될 것입니다." # 7128196691393940024
+  yazidi.0061.t: "창조를 재현하기" # 7824673151393832977
+  yazidi.0061.desc: "[faith.PriestNeuterPlural]들께서 소 제물을 위해 황소를 선택했으며, 이제 제물 바칠 날이 왔습니다. [faith.PriestNeuterPlural]들이 이 중요한 행사에 순수와 신성함을 불어넣기 위해 다양한 기도를 외우고 의식을 거행한 후, 황소는 정식으로 희생됩니다.\n\n제사가 모두 끝난 후, 저는 이 중요한 종교 행사에 도움을 주신 [faith.PriestNeuterPlural]들께 당연히 공식적으로 감사를 표합니다." # 13111333432652914009
+  yazidi.0061.a: "앞으로 더 많은 일을 할 수 있으리라 확신합니다!" # 14232613318640636551
+  yazidi.0062.t: "xxxxx" # 1951045980481827005
+  yazidi.0062.desc: "xxxxx" # 1951045980481827005
+  yazidi.0062.a: "xxxxx" # 1951045980481827005
+  yazidi.0063.t: "xxxxx" # 1951045980481827005
+  yazidi.0063.desc: "xxxxx" # 1951045980481827005
+  yazidi.0063.a: "xxxxx" # 1951045980481827005
+  yazidi.0064.t: "xxxxx" # 1951045980481827005
+  yazidi.0064.desc: "xxxxx" # 1951045980481827005
+  yazidi.0064.a: "xxxxx" # 1951045980481827005
+  yazidi.0065.t: "xxxxx" # 1951045980481827005
+  yazidi.0065.desc: "xxxxx" # 1951045980481827005
+  yazidi.0065.a: "xxxxx" # 1951045980481827005
+  yazidi.0066.t: "xxxxx" # 1951045980481827005
+  yazidi.0066.desc: "xxxxx" # 1951045980481827005
+  yazidi.0066.a: "xxxxx" # 1951045980481827005
+  yazidi.0067.t: "xxxxx" # 1951045980481827005
+  yazidi.0067.desc: "xxxxx" # 1951045980481827005
+  yazidi.0067.a: "xxxxx" # 1951045980481827005
+  yazidi.0068.t: "xxxxx" # 1951045980481827005
+  yazidi.0068.desc: "xxxxx" # 1951045980481827005
+  yazidi.0068.a: "xxxxx" # 1951045980481827005
+  yazidi.0069.t: "xxxxx" # 1951045980481827005
+  yazidi.0069.desc: "xxxxx" # 1951045980481827005
+  yazidi.0069.a: "xxxxx" # 1951045980481827005
+  yazidi.0070.t: "xxxxx" # 1951045980481827005
+  yazidi.0070.desc: "xxxxx" # 1951045980481827005
+  yazidi.0070.a: "xxxxx" # 1951045980481827005
+  yazidi.0071.t: "xxxxx" # 1951045980481827005
+  yazidi.0071.desc: "xxxxx" # 1951045980481827005
+  yazidi.0071.a: "xxxxx" # 1951045980481827005
+  yazidi.0072.t: "xxxxx" # 1951045980481827005
+  yazidi.0072.desc: "xxxxx" # 1951045980481827005
+  yazidi.0072.a: "xxxxx" # 1951045980481827005
+  yazidi.0073.t: "xxxxx" # 1951045980481827005
+  yazidi.0073.desc: "xxxxx" # 1951045980481827005
+  yazidi.0073.a: "xxxxx" # 1951045980481827005
+  yazidi.0074.t: "xxxxx" # 1951045980481827005
+  yazidi.0074.desc: "xxxxx" # 1951045980481827005
+  yazidi.0074.a: "xxxxx" # 1951045980481827005
+  yazidi.0075.t: "xxxxx" # 1951045980481827005
+  yazidi.0075.desc: "xxxxx" # 1951045980481827005
+  yazidi.0075.a: "xxxxx" # 1951045980481827005
+  yazidi.0076.t: "xxxxx" # 1951045980481827005
+  yazidi.0076.desc: "xxxxx" # 1951045980481827005
+  yazidi.0076.a: "xxxxx" # 1951045980481827005
+  yazidi.0077.t: "xxxxx" # 1951045980481827005
+  yazidi.0077.desc: "xxxxx" # 1951045980481827005
+  yazidi.0077.a: "xxxxx" # 1951045980481827005
+  yazidi.0078.t: "xxxxx" # 1951045980481827005
+  yazidi.0078.desc: "xxxxx" # 1951045980481827005
+  yazidi.0078.a: "xxxxx" # 1951045980481827005
+  yazidi.0079.t: "xxxxx" # 1951045980481827005
+  yazidi.0079.desc: "xxxxx" # 1951045980481827005
+  yazidi.0079.a: "xxxxx" # 1951045980481827005
+  yazidi.0080.t: "양배추" # 8285932646880393067
+  yazidi.0080.desc: "최근 한 식료품 상인이 양배추를 팔려고 시도하다가 근처에 있는 [ROOT.Char.GetFaith.GetAdjective] 마을에서 소동을 일으켰습니다. 그가 [ROOT.Char.GetFaith.GetAdherentNameNoTooltip]가 아니었기 때문에, 전통적인 [ROOT.Char.GetFaith.GetAdjectiveNoTooltip] 신앙에서 양배추는 금지된 음식으로 여겨진다는 사실을 모르거나, 잊었거나, 아니면 신경 쓰지 않은 것이겠지요.\n\n어쨌든, 심각한 폭력 사태까지는 벌어지지 않았지만, 많은 지역 주민들이 분노하며 제가 이 일에 대해 조치를 취해달라고 요구하고 있습니다." # 14377735149818104882
+  yazidi.0080.a: "그는 무지했지만, 아무런 해악도 끼치지 않았습니다." # 9416550199333306446
+  yazidi.0080.b: "그는 자신의 잘못에 대해 공개적으로 사과해야 합니다." # 9320669329074509293
+  yazidi.0080.c: "그는 자신의 잘못에 대해 벌금을 내야 합니다." # 8286311101106154513
+  yazidi.0080.info: "#emphasis 역사적 배경:#! 전통적으로 야지디교도들은 먹는 것이 금지된 여러 음식이 있는데, 그중 가장 유명한 것이 양배추입니다. 이 금기에 대해 여러 가지 이유가 제시되었는데, 가장 그럴듯한 설명 중 하나는 양배추를 뜻하는 단어인 #italic 카스#!가 야지디어로 신성한 존재나 인물을 뜻하는 단어와 동음이의어라는 것입니다." # 12464832847605839115
+  yazidi.0081.t: "푸른 옷" # 12932019041799805747
+  yazidi.0081.desc: "외국 사절이 내게 푸른색 옷을 포함한 여러 선물을 바쳤습니다. 하지만 [ROOT.Char.GetFaith.GetName]의 전통에 따르면 푸른색 옷은 금지되어 있거나 최소한 매우 바람직하지 않게 여겨집니다.\n\n다른 한편으로는 이 선물을 거절하는 것은 무례한 일이 될 것입니다..." # 3465656281779357975
+  yazidi.0081.a: "용납할 수 없다! 파란색이 우리에게 금기라는 것을 그들이 알았어야지." # 16388875105409394150
+  yazidi.0081.b: "외교적인 이유로 이 선물을 받아들여야겠군." # 18267689027703894970
+  yazidi.0081.c: "받아들이는 척은 할 수 있지만, 그 후에는 폐기해 버리겠소." # 4561909526033674527
+  yazidi.0081.info: "#emphasis 역사적 배경:#! 야지디교도들 사이에서 파란색 옷은 일반적으로 금지되어 있습니다. 하지만 파란색의 정의가 문화마다 크게 다르기 때문에, 야지디교도들이 외부인이 보기에 파란색이라고 여길 만한 옷을 입거나, 반대로 외부인이 보기에는 파랗지 않은 옷을 거부하는 경우가 발생하기도 합니다." # 5361929869702744906
+  yazidi.0082.t: "햇빛 아래 아침 기도" # 6820622150339927929
+  yazidi.0082.desc: "오늘 일찍 일어나서, [ROOT.Char.GetFaith.GetAdjective] 관습에 따라 태양을 향해 아침 기도를 드릴 시간을 가집니다. 기도하기 전에 손과 얼굴을 씻고, 그날 아침 태양 빛이 방에 처음 들어온 곳에 입을 맞추는 것도 잊지 않습니다." # 10782293057458120265
+  yazidi.0082.a: "[ROOT.Char.GetFaith.HighGodName]께 영광을!" # 2605281457988751709
+  yazidi.0083.t: "메슈르" # 11733817165784664699
+  yazidi.0083.desc: "오늘, [ROOT.Char.GetFaith.GetName]의 세습 성직 계급 중 하나인 #italic 피르#! 한 분이 제 궁정에 방문하셨습니다. 이 #italic 피르#!는 특히 #italic 메슈르#!에 대한 지식으로 유명한데, #italic 메슈르#!란 [ROOT.Char.GetFaith.GetAdjectiveNoTooltip] 가문들의 다양한 혈통에 대한 기록된 문서입니다.\n\n그분을 환영한 후, 그분은 저희 앞에서 #italic 메슈르#!의 내용을 낭독하며 저희 궁정의 여러 유력 가문들, 물론 저희 가문을 특히 강조하셨습니다. [ROOT.Char.GetFaith.GetNameNoTooltip]에서는 특정 특별 가문에 속하지 않는 이상 글을 읽거나 쓰는 것이 금기시되므로, 이 문서들은 저희가 조상을 기억하는 데 특히 유용합니다." # 13299229403327737255
+  yazidi.0083.a: "와주셔서 감사합니다." # 10388173925034363456
+  yazidi.0084.t: "xxxxx" # 1951045980481827005
+  yazidi.0084.desc: "xxxxx" # 1951045980481827005
+  yazidi.0084.a: "xxxxx" # 1951045980481827005
+  yazidi.0085.t: "xxxxx" # 1951045980481827005
+  yazidi.0085.desc: "xxxxx" # 1951045980481827005
+  yazidi.0085.a: "xxxxx" # 1951045980481827005
+  yazidi.0086.t: "xxxxx" # 1951045980481827005
+  yazidi.0086.desc: "xxxxx" # 1951045980481827005
+  yazidi.0086.a: "xxxxx" # 1951045980481827005
+  yazidi.0087.t: "xxxxx" # 1951045980481827005
+  yazidi.0087.desc: "xxxxx" # 1951045980481827005
+  yazidi.0087.a: "xxxxx" # 1951045980481827005
+  yazidi.0088.t: "xxxxx" # 1951045980481827005
+  yazidi.0088.desc: "xxxxx" # 1951045980481827005
+  yazidi.0088.a: "xxxxx" # 1951045980481827005
+  yazidi.0089.t: "xxxxx" # 1951045980481827005
+  yazidi.0089.desc: "xxxxx" # 1951045980481827005
+  yazidi.0089.a: "xxxxx" # 1951045980481827005
+  yazidi.0090.t: "xxxxx" # 1951045980481827005
+  yazidi.0090.desc: "xxxxx" # 1951045980481827005
+  yazidi.0090.a: "xxxxx" # 1951045980481827005
+  yazidi.0091.t: "xxxxx" # 1951045980481827005
+  yazidi.0091.desc: "xxxxx" # 1951045980481827005
+  yazidi.0091.a: "xxxxx" # 1951045980481827005
+  yazidi.0092.t: "xxxxx" # 1951045980481827005
+  yazidi.0092.desc: "xxxxx" # 1951045980481827005
+  yazidi.0092.a: "xxxxx" # 1951045980481827005
+  yazidi.0093.t: "xxxxx" # 1951045980481827005
+  yazidi.0093.desc: "xxxxx" # 1951045980481827005
+  yazidi.0093.a: "xxxxx" # 1951045980481827005
+  yazidi.0094.t: "xxxxx" # 1951045980481827005
+  yazidi.0094.desc: "xxxxx" # 1951045980481827005
+  yazidi.0094.a: "xxxxx" # 1951045980481827005
+  yazidi.0095.t: "xxxxx" # 1951045980481827005
+  yazidi.0095.desc: "xxxxx" # 1951045980481827005
+  yazidi.0095.a: "xxxxx" # 1951045980481827005
+  yazidi.0096.t: "xxxxx" # 1951045980481827005
+  yazidi.0096.desc: "xxxxx" # 1951045980481827005
+  yazidi.0096.a: "xxxxx" # 1951045980481827005
+  yazidi.0097.t: "xxxxx" # 1951045980481827005
+  yazidi.0097.desc: "xxxxx" # 1951045980481827005
+  yazidi.0097.a: "xxxxx" # 1951045980481827005
+  yazidi.0098.t: "xxxxx" # 1951045980481827005
+  yazidi.0098.desc: "xxxxx" # 1951045980481827005
+  yazidi.0098.a: "xxxxx" # 1951045980481827005
+  yazidi.0099.t: "xxxxx" # 1951045980481827005
+  yazidi.0099.desc: "xxxxx" # 1951045980481827005
+  yazidi.0099.a: "xxxxx" # 1951045980481827005

@@ -1,0 +1,89 @@
+﻿l_korean:
+  sidamic_religion: "시다믹" # 15849664328677074838
+  sidamic_religion_adj: "시다믹" # 15849664328677074838
+  sidamic_religion_adherent: "시다믹" # 15849664328677074838
+  sidamic_religion_adherent_plural: "시다믹스" # 14019861212825779086
+  sidamic_religion_desc: "시다마어를 사용하는 민족들은 공통된 뿌리에서 비롯되었으나, 정착지에 따라 이웃들의 종교적 전통에도 영향을 받은 다양한 종교적 전통을 가지고 있습니다." # 3173848819287158329
+  sidama_pagan: "마가노교" # 1838552314714773118
+  sidama_pagan_adj: "마가노이스트" # 8677478504536018104
+  sidama_pagan_adherent: "마가노이스트" # 8677478504536018104
+  sidama_pagan_adherent_plural: "마가노파" # 18035336182356488811
+  sidama_pagan_desc: "마가노는 창조주 하늘 신이며, 종종 조상신인 아카아코를 통해 소통합니다. 사람들은 강한 도덕률을 따르고 존경할 만한 장로와 조상에게 마땅한 존경심을 표해야 하며, 그렇지 않으면 마가노의 분노에 직면하게 될 것입니다." # 6035509950957982821
+  sidama_pagan_old: "오래된 마가노교" # 4802781818051834529
+  sidama_pagan_old_adj: "오래된 마가노파" # 4731130667121345581
+  sidama_pagan_old_adherent: "오래된 마가노파" # 4731130667121345581
+  sidama_pagan_old_adherent_plural: "#bold 구 마가노파#" # 1941577851581575467
+  sidama_pagan_old_desc: "$sidama_pagan_desc$" # 14713895514322226187
+  damot_pagan: "데스크교" # 11594930917256628
+  damot_pagan_adj: "데스카이트" # 2916690884772097815
+  damot_pagan_adherent: "데스카이트" # 2916690884772097815
+  damot_pagan_adherent_plural: "다스키테스" # 14067738465634257073
+  damot_pagan_desc: "우리의 기원이나 신분, 혹은 우리가 사용하는 언어와 상관없이, 우리는 신 다스크에게 동물, 매운 음식, 심지어 사람까지 제물로 바쳐야 합니다. 다스크께서 기뻐하신다면, 그분은 선택된 점술가와 마법사에게 강림하시어 그들에게 뛰어난 예지력과 원소에 대한 힘을 부여하실 것입니다." # 15319843057293068418
+  damot_pagan_old: "고대 데스크교" # 6410150540322760687
+  damot_pagan_old_adj: "고대 다스키트" # 1829637735613992111
+  damot_pagan_old_adherent: "고대 다스키트" # 1829637735613992111
+  damot_pagan_old_adherent_plural: "고대 다스키인들" # 7303746580470105935
+  damot_pagan_old_desc: "$damot_pagan_desc$" # 1927659841682416373
+  sidama_high_god_name: "마가노" # 10847358376943217714
+  sidama_high_god_name_2: "$sidama_high_god_name$" # 12749529516831047900
+  sidama_high_god_name_3: "$sidama_high_god_name$" # 12749529516831047900
+  sidama_creator_god_name: "$sidama_high_god_name$" # 12749529516831047900
+  sidama_creator_god_name_possessive: "$sidama_high_god_name_possessive$" # 4926590776503243556
+  sidama_good_god_name: "아카아코" # 17107611324533849708
+  sidama_good_god_name_possessive: "아카아코의" # 3478661747864024714
+  sidama_ancestor_god_name: "아카아코" # 17107611324533849708
+  sidama_ancestor_god_name_possessive: "아카아코의" # 3478661747864024714
+  sidama_health_god_name: "$sidama_good_god_name$" # 16956396872547357461
+  sidama_health_god_name_possessive: "$sidama_good_god_name_possessive$" # 1469300438730758609
+  sidama_fertility_god_name: "$sidama_good_god_name$" # 16956396872547357461
+  sidama_fertility_god_name_possessive: "$sidama_good_god_name_possessive$" # 1469300438730758609
+  sidama_wealth_god_name: "$sidama_good_god_name$" # 16956396872547357461
+  sidama_wealth_god_name_possessive: "$sidama_good_god_name_possessive$" # 1469300438730758609
+  sidama_household_god_name: "$sidama_ancestor_god_name$" # 10924309486533619892
+  sidama_household_god_name_possessive: "$sidama_ancestor_god_name_possessive$" # 1754442294643954640
+  sidama_fate_god_name: "$paganism_fate_god_name$" # 9464664914535910014
+  sidama_fate_god_name_possessive: "$paganism_fate_god_name_possessive$" # 10342465265797791752
+  sidama_knowledge_god_name: "$sidama_ancestor_god_name$" # 10924309486533619892
+  sidama_knowledge_god_name_possessive: "$sidama_ancestor_god_name_possessive$" # 1754442294643954640
+  sidama_war_god_name: "$sidama_good_god_name$" # 16956396872547357461
+  sidama_war_god_name_possessive: "$sidama_good_god_name_possessive$" # 1469300438730758609
+  sidama_trickster_god_name: "사악한 영혼들" # 4939774527220994977
+  sidama_trickster_god_name_possessive: "사악한 정령들의" # 1597267886528666068
+  sidama_night_god_name: "$sidama_good_god_name$" # 16956396872547357461
+  sidama_night_god_name_possessive: "$sidama_good_god_name_possessive$" # 1469300438730758609
+  sidama_water_god_name: "$sidama_good_god_name$" # 16956396872547357461
+  sidama_water_god_name_possessive: "$sidama_good_god_name_possessive$" # 1469300438730758609
+  sidama_house_of_worship: "성소" # 2303695743383420811
+  sidama_house_of_worship_2: "$sidama_house_of_worship$" # 17980239219236066607
+  sidama_house_of_worship_3: "$sidama_house_of_worship$" # 17980239219236066607
+  sidama_house_of_worship_plural: "성소들" # 17142390693193914587
+  sidama_priest: "카또" # 5211732739097762232
+  sidama_priest_plural: "카또" # 5211732739097762232
+  sidama_high_priest: "간나" # 7172645974805620532
+  sidama_high_priest_plural: "간나" # 7172645974805620532
+  damot_high_god_name: "대스크" # 16932941643979034971
+  damot_high_god_name_2: "$sidama_high_god_name$" # 12749529516831047900
+  damot_high_god_name_3: "$sidama_high_god_name$" # 12749529516831047900
+  fandaanano: "판다아나노" # 5154468401000349132
+  fandaanano_adj: "판다아나노" # 5154468401000349132
+  fandaanano_adherent: "판다아나노" # 5154468401000349132
+  fandaanano_adherent_plural: "판다아나노" # 5154468401000349132
+  fandaanano_desc: "창조주 한 분이신 와아야(Waaýa)가 계시지만, 인간의 운명은 주로 우리가 숭배하거나 멀리해야 할 하위 정령들과 악마들에게 달려 있습니다. 아브라함 계통 종교의 신봉자들이 우리를 의심스럽게 보지만, 우리는 그들과 마찬가지로 진정한 종교이며 이교도로 간주될 수 없습니다." # 10029117137916991888
+  fandaanano_high_god_name: "와아야" # 7559948153277752566
+  fandaanano_high_god_name_2: "$fandaanano_high_god_name$" # 8482480910173028900
+  fandaanano_high_god_name_3: "$fandaanano_high_god_name$" # 8482480910173028900
+  fandaanano_high_god_name_possessive: "와아야의" # 1490880866269233588
+  fandaanano_good_god_name: "선한 영혼들" # 521197676333110384
+  fandaanano_good_god_name_possessive: "선령들의" # 15969168846780500781
+  fandaanano_trickster_god_name: "세타나" # 17188543920626745969
+  fandaanano_trickster_god_name_possessive: "세타아나스" # 13721811762073108409
+  fandaanano_health_god_name: "키투사" # 10301990727414576982
+  fandaanano_health_god_name_possessive: "키투사의" # 5177281109216700739
+  fandaanano_fertility_god_name: "마아라메" # 10001857176590852336
+  fandaanano_fertility_god_name_possessive: "마아라메의" # 3372193172820638618
+  fandaanano_war_god_name: "게르기이사" # 8649843497997438074
+  fandaanano_war_god_name_possessive: "게르기사의" # 1517613582598527715
+  fandaanano_priest: "키이라노" # 2151853907962108627
+  fandaanano_priest_plural: "키이라노" # 2151853907962108627
+  fandaanano_high_priest: "앙가아노오오" # 10642459683243862529
+  fandaanano_high_priest_plural: "안가암마" # 13855890186777916629

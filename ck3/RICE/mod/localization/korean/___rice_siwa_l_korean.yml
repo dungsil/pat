@@ -1,0 +1,494 @@
+﻿l_korean:
+  RICE_greater_egypt: "대이집트" # 4570499743638039573
+  RICE_greater_egypt_geographical_req: "[GetGeographicalRegion('RICE_greater_egypt').GetName] 내에 최소 하나 이상의 [county|E]를 소유하십시오." # 13211017081181476459
+  RICE_pray_at_oracle_of_amun_context_tooltip: "#emphasis 역사적 배경:#! 아문 신탁소는 고대 근동에서 가장 유명했던 신탁소 중 하나였습니다. 전해지기로는 알렉산드로스 대왕이 시와 오아시스로 가서 신탁소로부터 자신이 이집트의 정당하고 신성한 파라오임을 확인받았다고 합니다." # 9719113564022014340
+  RICE_pray_at_temple_of_hibis_context_tooltip: "#emphasis 역사적 배경:#! 히비스 신전은 서부 사막에 있는 가장 큰 이집트 신전 단지였습니다. 주 신전은 고대 이집트 제26왕조 또는 제25왕조 시기에 지어졌지만, 신왕국 시기에도 이미 신전이 존재했을 가능성이 높습니다. 어쨌든 이 신전은 아문 신을 숭배하는 중심지였습니다." # 17809546093401139308
+  RICE_visit_fountain_of_the_sun_context_tooltip: "#emphasis 역사적 배경:#! 태양의 샘은 시와에 있는 유명한 샘으로, 헤로도토스와 같은 고대 기록에 언급되었습니다. 지역 전설에 따르면 클레오파트라와 관련이 있으며, 그녀는 통치 기간 동안 이 샘을 자주 방문했다고 전해집니다(이 주장의 진위 여부는 의문이며, 현대 관광객을 유치하기 위해 과장되었을 가능성이 높습니다)." # 16153851169854148836
+  RICE_siwa_oasis_defense: "시와 오아시스" # 1128825573514746861
+  RICE_siwa_oasis_defense_desc: "시와 오아시스는 이집트 서부 사막의 오아시스 중 가장 내륙 깊숙하고 고립된 곳입니다. 이러한 지리적 특성과 시와인들이 오랜 세월 구축해 온 굳건한 방어 시설 덕분에 이곳은 정복하고 평정하기 어려운 지역입니다." # 17041004333435207170
+  RICE_pray_at_oracle_of_amun: "아문 신탁에게 조언을 구하십시오" # 1980417896387921035
+  RICE_pray_at_oracle_of_amun_tooltip: "당신은 시와(Siwa)의 신탁(Oracle)에게 영적인 조언을 구하게 될 것입니다." # 7934910533463428608
+  RICE_pray_at_oracle_of_amun_desc: "저는 이집트 시와 오아시스에 있는 아문 신탁소에 가서 기도하고 싶습니다. 그곳에서 제 마음을 괴롭히는 모든 일에 대해 신탁에게 조언을 구할 수 있습니다." # 9928576750990650815
+  RICE_pray_at_oracle_of_amun_effect_tooltip: "신탁에게 가서 여러 주제 중 하나에 대한 신의 계시를 구하십시오. #emphasis 이 결정은 평생 단 한 번만 내릴 수 있습니다!#!" # 12684968678931527050
+  RICE_pray_at_oracle_of_amun_extra_cost_tooltip: "더 먼 여정은 더 많은 비용이 듭니다 #weak (최소 비용: @gold_icon! 50)#!" # 1643736676938544225
+  RICE_pray_at_oracle_of_amun_confirm: "시작해보지!" # 8394906585041010414
+  RICE_pray_at_temple_of_hibis: "히비스 신전에서 기도하십시오" # 7853461876186271019
+  RICE_pray_at_temple_of_hibis_tooltip: "당신은 영적 지도를 구하기 위해 카르가(Kharga)의 히비스 신전(Temple of Hibis)을 방문할 것입니다." # 3604926035505387389
+  RICE_pray_at_temple_of_hibis_desc: "저는 이집트 카르가 오아시스의 히비스 신전에 가서 그 지역 사막 신들에게 소원을 빌고 싶습니다." # 1411502496645693131
+  RICE_pray_at_temple_of_hibis_effect_tooltip: "사막의 여러 신들 중 하나를 선택하여 기도하고, 그에 따라 다른 보너스를 받을 수 있습니다." # 4812465823412510780
+  RICE_pray_at_temple_of_hibis_extra_cost_tooltip: "더 먼 여정은 더 비쌉니다 #weak (최소 비용: @gold_icon! 25)#!" # 5146349561558741754
+  RICE_pray_at_temple_of_hibis_confirm: "시작해보지!" # 8394906585041010414
+  RICE_visit_fountain_of_the_sun: "태양의 샘을 방문하십시오" # 2368593733111000540
+  RICE_visit_fountain_of_the_sun_tooltip: "당신은 시와 오아시스의 태양의 샘을 방문할 것입니다." # 7471968525907155103
+  RICE_visit_fountain_of_the_sun_desc: "서쪽 사막에는 여러 오아시스가 있으며, 그중 일부에는 인기 있는 샘이 있습니다. 이 중 가장 유명한 곳은 제가 통치하는 영토와 가까운 시와(Siwa)에 있는 태양의 샘입니다. 이 샘은 치유 능력이 있다고 전해집니다." # 12627708361784545478
+  RICE_visit_fountain_of_the_sun_effect_tooltip: "당신은 유명한 태양의 샘을 방문하기 위해 하루를 할애할 것이며, 이로 인해 약간의 [stress|E]를 잃을 수 있습니다." # 15061622703781747420
+  RICE_visit_fountain_of_the_sun_extra_cost_tooltip: "더 먼 여정은 더 비쌉니다 #weak (최소 비용: @gold_icon! 25)#!" # 5146349561558741754
+  RICE_visit_fountain_of_the_sun_confirm: "샘물로!" # 2269096446207295660
+  activity_siwa_spring_visit: "태양의 샘으로의 여정" # 5682649810958854669
+  activity_siwa_spring_visit_name: "[ACTIVITY.GetOwner.GetNamePossessiveOrMy|U] 시와에 위치한 태양의 샘으로의 여정" # 15662067195873939557
+  activity_RICE_hot_springs_visit_siwa_province_desc: "#P +++ 태양의 샘은 시와에 위치한 고유한 [hot_springs|E]입니다.#!\n\n#italic 이 활동은 어떤 [activity_options|E]을 선택했는지에 따라 [GetModifier('RICE_siwa_visited_fountain_of_the_sun_private').GetNameWithTooltip] 또는 [GetModifier('RICE_siwa_visited_fountain_of_the_sun_public').GetNameWithTooltip] [character_modifier|E]를 얻게 됩니다.!#" # 1056247878291570235
+  building_type_RICE_siwa_oracle_of_amun: "아문의 신탁" # 19783003028632524
+  building_type_RICE_siwa_oracle_of_amun_desc: "아문 신탁은 고대 세계에서 가장 유명한 신탁 중 하나로, 알렉산드로스 대왕까지도 그곳을 찾았을 정도였습니다. 이제 그곳은 옛 영광을 되찾았으며, 지역 주민들의 숭배 장소로 기능하고 있습니다. 또한 그곳에는 가치 있는 자들에게 봉사를 제공하는 예언자도 머물고 있습니다." # 7340037721253595508
+  building_RICE_siwa_oracle_of_amun: "$building_type_RICE_siwa_oracle_of_amun$" # 17355493659244347908
+  building_RICE_siwa_oracle_of_amun_desc: "$building_type_RICE_siwa_oracle_of_amun_desc$" # 2443330719819820229
+  activity_oracle_amun_visit: "아문 신탁에게 조언을 구하러 방문하기" # 17533419544914916448
+  activity_oracle_amun_visit_name: "[ACTIVITY.GetOwner.GetNamePossessiveOrMy|U] 아문 신탁에게 조언을 구하는 방문" # 17599767693029513164
+  building_type_RICE_kharga_temple_of_hibis: "히비스 신전" # 1349947066592642799
+  building_type_RICE_kharga_temple_of_hibis_desc: "카르가 오아시스의 히비스 신전은 고대에 이집트 서부 사막에서 가장 큰 신전이었으며, 심지어 암몬 신탁의 대규모 신전과도 견줄 만했습니다. 이 신전은 재건되어 현재 지역 주민들에게 종교적 봉사를 제공하고 있습니다." # 1199545381930453503
+  building_RICE_kharga_temple_of_hibis: "$building_type_RICE_kharga_temple_of_hibis$" # 4110367213017765050
+  building_RICE_kharga_temple_of_hibis_desc: "$building_type_RICE_kharga_temple_of_hibis_desc$" # 6837555771503754010
+  activity_temple_hibis_visit: "히비스 사원에 기도하러 가기" # 7058252286609812629
+  activity_temple_hibis_visit_name: "[ACTIVITY.GetOwner.GetNamePossessiveOrMy|U] 히비스 사원 방문 및 기도" # 4281563435195246183
+  RICE_siwa_restore_the_necropolis_of_el_bagawat: "엘-바가왓 네크로폴리스를 복원하십시오" # 2722931436986388218
+  RICE_siwa_restore_the_necropolis_of_el_bagawat_tooltip: "이 묘지는 너무 오랫동안 방치되어 있었습니다." # 6870768068769787798
+  RICE_siwa_restore_the_necropolis_of_el_bagawat_desc: "수 세기 전, 엘바가와트는 카르가 오아시스의 거대한 기독교 공동체가 무덤으로 사용하던 곳이었습니다. 이제 이집트에서 우리의 영향력과 힘이 다시 커지고 있으니, 이 네크로폴리스를 확장하여 다시 사용될 수 있도록 할 때입니다." # 5061992958469062667
+  RICE_siwa_restore_the_necropolis_of_el_bagawat_confirm: "시작해보지." # 18439043425323687662
+  RICE_siwa_restore_the_necropolis_of_el_bagawat_context_tooltip: "#emphasis 역사적 배경:#! 서부 사막에서 가장 크고 번성했던 오아시스인 카르가(Kharga)는 고대 후기에 많은 기독교 인구를 보유하고 있었습니다. 엘-바가왓(El-Baghawat)은 가장 잘 보존된 주요 초기 기독교 공동묘지 중 하나로, 3세기부터 7세기까지 이 공동체의 네크로폴리스로 사용되었습니다. 이곳에는 263개 이상의 장례 예배당이 있으며, 그중 다수에는 다양한 성서 장면이 묘사되어 있습니다. 가장 주목할 만한 예배당 두 곳은 평화의 예배당(Chapel of Peace)과 출애굽의 예배당(Chapel of Exodus)입니다. 또한 중세 시대부터 오스만 제국 후기까지 거슬러 올라가는 낙서들이 이곳에서 발견되었는데, 이는 이 장소가 버려진 후에도 지역 주민들이 이곳의 존재를 오랫동안 알고 있었음을 시사합니다." # 7345664446839165702
+  RICE_siwa_necropolis_of_el_bagawat: "엘-바가와트 네크로폴리스 최근 복원됨" # 5287797697536293102
+  RICE_siwa_necropolis_of_el_bagawat_desc: "카르가 오아시스의 기독교 공동체가 최근 수 세기 전 그들의 선조들처럼 엘-바가왓의 지하 묘지를 다시 사용하기 시작했습니다. 그곳은 무덤과 엄숙한 예배당으로 가득 찬, 잘 보존된 거대한 장소입니다." # 3715616611145431648
+  RICE_siwa_necropolis_of_el_bagawat_restorer: "엘바가왓의 네크로폴리스를 복원했습니다." # 4602292664915907702
+  RICE_siwa_oracle_of_amun_host_memory: "[GetTitleByKey('b_siwa').GetNameNoTier]로 가서 [GetActivityType( 'activity_RICE_siwa_oracle_of_amun' ).GetName]를 행하고 그 지혜를 구했습니다." # 308808014227150424
+  RICE_siwa_oracle_of_amun_host_memory_first_perspective: "저는 지혜를 구하고자 [GetTitleByKey('b_siwa').GetNameNoTier]에 가서 [GetActivityType( 'activity_RICE_siwa_oracle_of_amun' ).GetName]에 참배했습니다." # 13547629263451921316
+  RICE_siwa_oracle_of_amun_host_memory_second_perspective: "당신은 [GetTitleByKey('b_siwa').GetNameNoTier]로 가서 [GetActivityType( 'activity_RICE_siwa_oracle_of_amun' ).GetName]를 행하고 그 지혜를 구했습니다." # 11125313957906620227
+  RICE_siwa_oracle_of_amun_host_memory_third_perspective: "[owner.GetName]께서 [GetTitleByKey('b_siwa').GetNameNoTier]로 가서 [GetActivityType( 'activity_RICE_siwa_oracle_of_amun' ).GetName]를 행하고 그 지혜를 구했습니다." # 5736421487050235337
+  RICE_siwa_oracle_of_amun_guest_memory: "[host.GetTitledFirstName]께서 [GetTitleByKey('b_siwa').GetNameNoTier]로 [GetActivityType( 'activity_RICE_siwa_oracle_of_amun' ).GetName]를 행하고 그 지혜를 구하러 가실 때 동행했습니다." # 18083574643078251348
+  RICE_siwa_oracle_of_amun_guest_memory_first_perspective: "제가 [host.GetTitledFirstName]와 함께 [GetTitleByKey('b_siwa').GetNameNoTier]로 가서 [GetActivityType( 'activity_RICE_siwa_oracle_of_amun' ).GetName]를 행하고 그 지혜를 구했을 때 동행했습니다." # 6391041478940084317
+  RICE_siwa_oracle_of_amun_guest_memory_second_perspective: "귀하는 [host.GetTitledFirstName]께서 [GetTitleByKey('b_siwa').GetNameNoTier]로 가셔서 [GetActivityType( 'activity_RICE_siwa_oracle_of_amun' ).GetName]를 행하고 그 지혜를 구하실 때 동행하셨습니다." # 2740309102916833805
+  RICE_siwa_oracle_of_amun_guest_memory_third_perspective: "[owner.GetName]께서는 [host.GetTitledFirstName]와 동행하여 [GetTitleByKey('b_siwa').GetNameNoTier]로 가서 [GetActivityType( 'activity_RICE_siwa_oracle_of_amun' ).GetName]를 행하고 그 지혜를 구하셨습니다." # 17230809943522271787
+  RICE_siwa_visit_hibis_host_memory: "[GetActivityType( 'activity_RICE_siwa_visit_hibis' ).GetName] 활동을 떠났습니다" # 11019099391761152731
+  RICE_siwa_visit_hibis_host_memory_first_perspective: "저는 [GetActivityType( 'activity_RICE_siwa_visit_hibis' ).GetName]에 다녀왔습니다." # 10374373005566655106
+  RICE_siwa_visit_hibis_host_memory_second_perspective: "당신은 [GetActivityType( 'activity_RICE_siwa_visit_hibis' ).GetName]에 다녀왔습니다." # 13321256110235238606
+  RICE_siwa_visit_hibis_host_memory_third_perspective: "[owner.GetName]께서 [GetActivityType(  'activity_RICE_siwa_visit_hibis' ).GetName]을 떠나셨습니다." # 2275734037317005849
+  RICE_siwa_visit_hibis_guest_memory: "[host.GetTitledFirstName]와 함께 [GetActivityType( 'activity_RICE_siwa_visit_hibis' ).GetName]에 다녀왔습니다" # 10184365513204264127
+  RICE_siwa_visit_hibis_guest_memory_first_perspective: "저는 [host.GetTitledFirstName]와 함께 [GetActivityType( 'activity_RICE_siwa_visit_hibis' ).GetName]에 다녀왔습니다." # 8575677312343314287
+  RICE_siwa_visit_hibis_guest_memory_second_perspective: "당신은 [host.GetTitledFirstName]와 함께 [GetActivityType( 'activity_RICE_siwa_visit_hibis' ).GetName]에 다녀왔습니다." # 5844699470653890526
+  RICE_siwa_visit_hibis_guest_memory_third_perspective: "[owner.GetName]께서 [host.GetTitledFirstName]와 함께 [GetActivityType(  'activity_RICE_siwa_visit_hibis' ).GetName]를 떠나셨습니다." # 4649548481918387903
+  activity_RICE_siwa_oracle_of_amun_host_an_a: "$host_activity_a$" # 13713790857143020716
+  activity_RICE_siwa_oracle_of_amun: "아문 신탁 방문" # 9912757646805083793
+  activity_RICE_siwa_oracle_of_amun_desc: "[GetTitleByKey('b_siwa').GetNameNoTier]에 있는 아문 신탁은 수 세기 동안 많은 이들에게 조언을 제공해 왔습니다. 위험천만한 서부 사막을 가로질러 그곳에 도달할 용기가 있는 이들은 다양한 문제에 대한 신탁의 지도를 구할 수 있습니다." # 8477044404670540382
+  activity_RICE_siwa_oracle_of_amun_selection_tooltip: "아문 신탁관에게 조언을 구하십시오.\n\n$RICE_pray_at_oracle_of_amun_context_tooltip$" # 15794779110907816721
+  activity_RICE_siwa_oracle_of_amun_host_desc: "$BULLET_WITH_TAB$ [piety_i|E] [piety|E] 획득\n$BULLET_WITH_TAB$ 추구하는 조언에 따라 #P 유익한#! [character_modifier|E] 획득" # 8951138174175718176
+  activity_RICE_siwa_oracle_of_amun_guest_desc: "$BULLET_WITH_TAB$ [piety_i|E] [piety|E] 획득" # 12422151817658807498
+  activity_RICE_siwa_oracle_of_amun_destination_selection: "$activity_RICE_siwa_oracle_of_amun_province_desc$" # 6114273234328027900
+  activity_RICE_siwa_oracle_of_amun_guest_help_text: "$activity_RICE_siwa_oracle_of_amun$" # 5095800975920067726
+  activity_RICE_siwa_oracle_of_amun_predicted_cost: "아문 신탁 방문 비용은 선택하는 [activity_options|E]에 따라 달라집니다." # 17807534210164771910
+  activity_RICE_siwa_oracle_of_amun_conclusion_desc: "[GetActivityType( 'activity_RICE_siwa_oracle_of_amun' ).GetName]가 끝났습니다. 그 조언이 당신에게 어떤 영향을 미칠지 누가 알겠습니까?" # 14224025040077008267
+  RICE_siwa_oracle_of_amun_type: "제공 규모" # 940769324945233210
+  RICE_siwa_oracle_of_amun_type_sufficient: "충분함" # 16200482015933493597
+  RICE_siwa_oracle_of_amun_type_sufficient_desc: "$EFFECT_LIST_BULLET$ 이 [activity|E]가 끝날 때 [piety_i|E] #V 50# 획득\n\n#weak 아문 신의 사원을 방문할 때, 특히 이처럼 저명한 사원에서는 약간의 헌금을 올리는 것이 무례하지 않을 것입니다.#" # 971086145588134465
+  RICE_siwa_oracle_of_amun_type_plentiful: "풍부한" # 4597999983866642505
+  RICE_siwa_oracle_of_amun_type_plentiful_desc: "$EFFECT_LIST_BULLET$ 이 [activity|E]가 끝날 때 [piety_i|E] #V 100#을(를) 획득합니다.\n\n#weak 이토록 유명하고 명망 높은 신탁가에게 방문할 때는 사원에 상당한 공물을 바쳐 마땅한 예를 갖추는 것이 가장 좋습니다.!" # 13090957496032786874
+  RICE_siwa_oracle_of_amun_type_extravagant: "낭비벽" # 6195305288951079611
+  RICE_siwa_oracle_of_amun_type_extravagant_desc: "$EFFECT_LIST_BULLET$ 이 [activity|E]가 끝날 때 [piety_i|E] #V 150# 획득\n\n#weak [GetPlayer.GetFaith.PantheonTerm]께서 우리에게 큰 도움을 베푸실 의향이 있다면, 우리는 웅장한 봉헌물로 그들의 친절에 보답해야 할 것입니다.#" # 1346393450466211281
+  RICE_siwa_oracle_of_amun_consultation_phase: "자문" # 11199574913935890106
+  RICE_siwa_oracle_of_amun_consultation_phase_desc: "아문 신탁에게 오셔서 위대한 신 아문께서 주시는 조언을 들어보십시오!" # 1579401486168894601
+  RICE_siwa_oracle_of_amun_guidance_intent_header: "안내:" # 16457429795870613198
+  RICE_siwa_oracle_of_amun_guidance_intent: "안내:" # 3511835553265040344
+  RICE_siwa_oracle_of_amun_guidance_intent_desc: "당신은 삶의 특정 문제들에 대해 더 잘 이해하고 싶습니다. [stress_i|E] [stress|E]를 잃게 되며, 만약 당신이 [GetTrait('zealous').GetName( GetNullCharacter )|U]이거나, [GetTrait('humble').GetName( GetNullCharacter )]이거나, [GetTrait('content').GetName( GetNullCharacter )]라면 그보다 더 많이 잃게 될 것입니다." # 3614086375970281663
+  RICE_siwa_oracle_of_amun_devotion_intent_header: "헌신:" # 4201487173289154186
+  RICE_siwa_oracle_of_amun_devotion_intent: "헌신:" # 13046272498566933790
+  RICE_siwa_oracle_of_amun_devotion_intent_desc: "신탁을 방문하는 것은 세속적인 이득과 이점을 얻을 기회일 뿐만 아니라, [GetPlayer.GetFaith.PantheonTerm]의 의도를 이해할 수 있는 기회이기도 합니다. 더 좋은 [character_modifiers|E]를 얻을 확률이 더 높습니다." # 4426129235782924912
+  RICE_siwa_oracle_of_amun_legitimacy_intent_header: "정통성:" # 6429297183972121576
+  RICE_siwa_oracle_of_amun_legitimacy_intent: "정통성:" # 5620217411538494537
+  RICE_siwa_oracle_of_amun_legitimacy_intent_desc: "오라클을 통해 당신은 지도자로서 자신이 무엇을 하는지 남들에게 확신시키려 합니다. 이 [activity|E]의 끝에서 당신이 선택한 [activity_option|E]에 따라 [prestige_i|E] #V 25#!, [prestige_i|E] #V 50#!, 또는 [prestige_i|E] #V 75#!를 얻겠지만, 평소보다 절반의 [piety_i|E] [piety|E]만 얻게 됩니다." # 5486085913596050169
+  RICE_siwa_oracle_of_amun_legacy_intent_header: "유산:" # 970470671604287214
+  RICE_siwa_oracle_of_amun_legacy_intent: "유산:" # 11311191390379473397
+  RICE_siwa_oracle_of_amun_legacy_intent_desc: "신탁을 찾아가면, 알렉산더 대왕처럼 역사에 당신의 자리를 굳힐 수 있을지도 모릅니다. 이 [activity|E]가 끝날 때, 당신이 선택하는 [activity_option|E]에 따라 #V 15#!, #V 30#!, 또는 #V 45#!의 [dynasty_prestige|E]를 얻겠지만, 평소보다 절반의 [piety_i|E] [piety|E]만 얻게 됩니다." # 1746410725741804880
+  RICE_siwa_oracle_of_amun_completed_log_title: "온천 방문 완료" # 1616705207528316220
+  RICE_siwa_oracle_of_amun_completed_log: "[CHARACTER.GetShortUIName|U]께서 [PROVINCE.GetBaronyNameExplicitly]의 [hot_springs|E] 방문을 마치셨습니다." # 14798992536289298181
+  TRAVEL_NAME_FOR_activity_RICE_siwa_oracle_of_amun: "[Character.GetFirstNamePossessiveNoTooltip] $activity_RICE_siwa_oracle_of_amun$" # 7895325628518225019
+  RICE_siwa_oracle_of_amun_offering_amount: "아문에게 추가적인 봉헌물" # 4151767217835794709
+  activity_RICE_siwa_visit_hibis_host_an_a: "$host_activity_a$" # 13713790857143020716
+  activity_RICE_siwa_visit_hibis: "히비스 신전 방문" # 216511962994041122
+  activity_RICE_siwa_visit_hibis_desc: "[GetTitleByKey('b_kharga').GetNameNoTier]에 위치한 히비스 신전은 고대에 이집트 서부 사막에서 가장 큰 신전으로, 심지어 암몬 신탁의 대사원과도 그 규모를 겨룰 정도였습니다. 이곳은 암몬과 사막의 다른 신들을 숭배하는 지역 종교의 중심지입니다." # 3020237721219747794
+  activity_RICE_siwa_visit_hibis_selection_tooltip: "[GetTitleByKey('b_kharga').GetNameNoTier]에 있는 히비스 신전으로 [local_pilgrimage|E]를 떠나십시오.\n\n$RICE_pray_at_temple_of_hibis_context_tooltip$" # 6320803371621760111
+  activity_RICE_siwa_visit_hibis_host_desc: "$activity_RICE_local_pilgrimage_host_desc$\n$BULLET_WITH_TAB$ 서부 사막의 주요 신들인 아문, 세트, 하, 이가이 중 한 명에게 경배한 후 #P 긍정적#! [character_modifier|E]를 얻을 확률" # 4536940287924282126
+  activity_RICE_siwa_visit_hibis_guest_desc: "$activity_RICE_siwa_visit_hibis_host_desc$" # 6116079585745462647
+  activity_RICE_siwa_visit_hibis_province_desc: "[GetTitleByKey('b_kharga').GetNameNoTier]는 서부 사막에서 가장 큰 오아시스로, 태고적부터 사람이 거주해 왔습니다." # 16310204066552924175
+  activity_RICE_siwa_visit_hibis_destination_selection: "$activity_RICE_siwa_visit_hibis_province_desc$" # 12140860984577881945
+  activity_RICE_siwa_visit_hibis_guest_help_text: "$activity_RICE_siwa_visit_hibis$" # 6744433354654309803
+  activity_RICE_siwa_visit_hibis_predicted_cost: "[local_pilgrimage|E]의 비용은 [GetTitleByKey('b_kharga').GetNameNoTier]에 위치한 히비스 신전으로 향할 때, 선택하는 [activity_options|E]에 따라 달라집니다." # 11165040463783224948
+  activity_RICE_siwa_visit_hibis_conclusion_desc: "우리의 [GetActivityType( 'activity_RICE_siwa_visit_hibis' ).GetName]이 끝났습니다. 이집트의 다른 주요 사원 단지에 비해 다소 외지고 한적하기는 했지만, 그 웅장함과 감동은 결코 뒤지지 않았습니다!" # 12432762163501344204
+  RICE_siwa_visit_hibis_pilgrimage_completed_log_title: "히비스 사원 방문 완료" # 2151104738853959068
+  RICE_siwa_visit_hibis_pilgrimage_completed_log: "[CHARACTER.GetShortUIName|U]께서 [GetTitleByKey('b_kharga').GetNameNoTier]의 히비스 사원에 순례하는 [CHARACTER.GetHerHis] [local_pilgrimage|E]를 마치셨습니다." # 17891289922682313106
+  TRAVEL_NAME_FOR_activity_RICE_siwa_visit_hibis: "[Character.GetFirstNamePossessiveNoTooltip] $activity_RICE_siwa_visit_hibis$" # 6519041198380521218
+  activity_RICE_siwa_visit_hibis_owner: "순례자" # 384073485693042227
+  RICE_siwa_in_siwa_req: "귀하의 [camp|E]는 [GetTitleByKey('b_siwa').GetNameNoTier]에 있습니다." # 3325055374361671639
+  RICE_siwa_in_kharga_req: "귀하의 [camp|E]는 [GetTitleByKey('b_kharga').GetNameNoTier]에 있습니다." # 7794503568812972994
+  RICE_siwa_visited_fountain_of_the_sun_public: "태양의 샘(공공)을 방문했습니다." # 5074529531454610240
+  RICE_siwa_visited_fountain_of_the_sun_public_desc: "이 인물은 최근 시와 오아시스의 유명한 태양의 분수에서 휴식을 취했습니다. 또한 그들은 샘물을 즐기며 현지인들과 어울리는 시간을 보냈습니다." # 1198056818482541612
+  RICE_siwa_visited_fountain_of_the_sun_private: "태양의 샘을 방문했습니다 (개인)" # 11947036867090968478
+  RICE_siwa_visited_fountain_of_the_sun_private_desc: "이 인물은 최근 시와 오아시스의 유명한 태양의 분수에서 휴식을 취했습니다. 그들은 샘물 속에서 즐거운 시간을 보내며 모든 근심과 두려움을 잊었습니다." # 6447425112483754671
+  RICE_siwa_deity_blessing_timer: "시와 신 타이머 (보이면 안 됨!)" # 12420426221573932573
+  RICE_siwa_amun_major_blessing: "아문으로부터의 큰 축복" # 11435362947999599927
+  RICE_siwa_amun_minor_blessing: "아문으로부터의 작은 축복" # 2632234376925473426
+  RICE_siwa_seth_major_blessing: "세트의 큰 축복" # 16256607422887891392
+  RICE_siwa_seth_minor_blessing: "세트의 작은 축복" # 4253786122678352246
+  RICE_siwa_ha_major_blessing: "하느님의 큰 축복" # 11659649432534833898
+  RICE_siwa_ha_minor_blessing: "하께 받은 작은 축복" # 14857803745508151930
+  RICE_siwa_igai_major_blessing: "이가이로부터의 큰 축복" # 11288066869877322596
+  RICE_siwa_igai_minor_blessing: "이그아이의 작은 축복" # 7529929454923873046
+  RICE_siwa_oracle_minor_advice_family: "시와 오라클의 가족과 친구들에 대한 사소한 조언" # 13031864366974581628
+  RICE_siwa_oracle_major_advice_family: "시와 오라클의 가족과 친구들에 대한 주요 조언" # 2306532742977250787
+  RICE_siwa_oracle_grand_advice_family: "시와 오라클의 가족과 친구들에 대한 훌륭한 조언" # 11815269560687874427
+  RICE_siwa_oracle_minor_advice_military: "#bold 시와 오라클의 군사 관련 간략한 조언#" # 13559647822155414216
+  RICE_siwa_oracle_major_advice_military: "#bold 시와 오라클의 군사 관련 주요 조언#" # 1524352104125932958
+  RICE_siwa_oracle_grand_advice_military: "#bold 시와 오라클의 군사 관련 훌륭한 조언#" # 7307565922077319469
+  RICE_siwa_oracle_minor_advice_realm: "시와 오라클의 영역에 대한 사소한 조언" # 7198240980627366621
+  RICE_siwa_oracle_major_advice_realm: "시와 오라클의 왕국에 대한 주요 조언" # 2628221413516011322
+  RICE_siwa_oracle_grand_advice_realm: "시와 오라클로부터의 왕국에 대한 훌륭한 조언" # 4346444113184194812
+  RICE_siwa_oracle_minor_advice_intrigue: "시와 오라클의 궁정 내 음모에 대한 간략한 조언" # 2868702913208916875
+  RICE_siwa_oracle_major_advice_intrigue: "시와 오라클의 궁정 내 계략에 대한 주요 조언" # 18175633896479115901
+  RICE_siwa_oracle_grand_advice_intrigue: "시와 오라클로부터의 궁정 음모에 대한 훌륭한 조언" # 3880582718919557170
+  RICE_siwa_oracle_minor_advice_personal: "시와 오라클의 개인사에 대한 사소한 조언" # 4235836991389688454
+  RICE_siwa_oracle_major_advice_personal: "시와 오라클로부터 듣는 개인적 문제에 대한 주요 조언" # 17191566390019845082
+  RICE_siwa_oracle_grand_advice_personal: "시와(Siwa)의 신탁으로부터 온 개인사에 대한 훌륭한 조언" # 4123335251889703599
+  RICE_siwa_kharga_aqueduct_project: "카르가에 오래된 로마 수로를 재건했습니다." # 13427248020646775050
+  RICE_siwa_bought_well: "서부 사막에 우물을 하나 샀습니다." # 8752056759627468782
+  RICE_siwa_date_farms_good: "오아시스 대추 농장이 잘 되고 있습니다." # 5832520403560218831
+  RICE_siwa_date_farms_bad: "오아시스 대추 농장이 잘 안 되고 있군" # 14976815111018820022
+  RICE_siwa_olive_farm_investments: "서부 사막의 올리브 농장에 투자했습니다." # 11704680239626387596
+  RICE_siwa_date_olive_gift: "올리브와 대추야자의 선물" # 3054623827985509901
+  siwa.0000.t: "xxxxx" # 1951045980481827005
+  siwa.0000.desc: "xxxxx" # 1951045980481827005
+  siwa.0000.a: "xxxxx" # 1951045980481827005
+  siwa.0001.t: "xxxxx" # 1951045980481827005
+  siwa.0001.desc: "xxxxx" # 1951045980481827005
+  siwa.0001.a: "xxxxx" # 1951045980481827005
+  siwa.0002.t: "xxxxx" # 1951045980481827005
+  siwa.0002.desc: "xxxxx" # 1951045980481827005
+  siwa.0002.a: "xxxxx" # 1951045980481827005
+  siwa.0003.t: "xxxxx" # 1951045980481827005
+  siwa.0003.desc: "xxxxx" # 1951045980481827005
+  siwa.0003.a: "xxxxx" # 1951045980481827005
+  siwa.0004.t: "xxxxx" # 1951045980481827005
+  siwa.0004.desc: "xxxxx" # 1951045980481827005
+  siwa.0004.a: "xxxxx" # 1951045980481827005
+  siwa.0005.t: "xxxxx" # 1951045980481827005
+  siwa.0005.desc: "xxxxx" # 1951045980481827005
+  siwa.0005.a: "xxxxx" # 1951045980481827005
+  siwa.0006.t: "xxxxx" # 1951045980481827005
+  siwa.0006.desc: "xxxxx" # 1951045980481827005
+  siwa.0006.a: "xxxxx" # 1951045980481827005
+  siwa.0007.t: "xxxxx" # 1951045980481827005
+  siwa.0007.desc: "xxxxx" # 1951045980481827005
+  siwa.0007.a: "xxxxx" # 1951045980481827005
+  siwa.0008.t: "xxxxx" # 1951045980481827005
+  siwa.0008.desc: "xxxxx" # 1951045980481827005
+  siwa.0008.a: "xxxxx" # 1951045980481827005
+  siwa.0009.t: "xxxxx" # 1951045980481827005
+  siwa.0009.desc: "xxxxx" # 1951045980481827005
+  siwa.0009.a: "xxxxx" # 1951045980481827005
+  siwa.0010.t: "태양의 샘" # 3578157813812263140
+  siwa.0010.desc: "저는 시와에 도착했으며, 곧 태양의 샘을 방문할 계획을 세울 것입니다. 고대에도 헤로도토스가 방문객을 치유하는 그 전설적인 능력에 대해 칭찬했었죠.\n\n지역 원로들은 저를 마을로 환영하는 것을 매우 기쁘게 생각하고 있으며, 이는 그들에게 큰 영광입니다." # 10454163744375367425
+  siwa.0010.a: "기쁘게 참여하게 되었습니다!" # 16974688121882943336
+  siwa.0010.a.tooltip: "좀 더 편안해지며 더 많은 [stress|E]를 잃겠지만, 현지인들과의 관계를 개선할 기회는 줄어들 것입니다." # 12014139763263715692
+  siwa.0010.b: "나는 다른 이들과 샘을 나누는 것을 꺼리지 않는다." # 3043978689228037706
+  siwa.0010.b.tooltip: "휴식을 취하고 [stress|E]를 잃을 시간은 줄어들겠지만, 현지인들과 관계를 개선할 기회는 더 많아질 것입니다." # 13207538069688135510
+  siwa.0011.t: "태양의 샘" # 3578157813812263140
+  siwa.0011.desc.public: "마침내 그날이 왔고, 우리는 시와에 있는 태양의 샘에 도착했습니다. 호위병들이 현지인들을 멀리 떨어뜨려 놓고 있지만, 마을 사람들은 제가 이곳에 온 것을 보고 싶어 하는 듯합니다. 저는 지역 유지 몇 명과 만나 그들의 공동체에 영향을 미치는 문제들에 대해 이야기 나누었고, 그동안 우리는 그 물에 몸을 담그며 그 치유력이 우리의 건강을 회복시켜 주기를 바랐습니다.\n\n하루가 금세 지나갔고, 이제 우리는 떠날 시간이 되었습니다. 우리는 매우 좋은 기분으로 샘을 떠났습니다. 적어도 당분간은 우리의 걱정과 스트레스가 사라졌습니다." # 16492433283660695159
+  siwa.0011.desc.private: "마침내 그날이 왔고, 저는 시와에 있는 태양의 샘에 도착했습니다. 저는 그곳에서 몇 시간을 보내며 휴식을 취하고, 그 물이 제 건강을 회복시켜 주기를 바라며 몸을 담갔습니다.\n\n시간이 빨리 흘러갔고, 이제 떠날 시간이 되었습니다. 저는 샘을 떠나며 상쾌해졌고 마치 새로운 사람이 된 기분이었습니다." # 13675797770357291541
+  siwa.0011.a: "곧 돌아오기를 바라오!" # 4488357785675783670
+  siwa.0012.t: "xxxxx" # 1951045980481827005
+  siwa.0012.desc: "xxxxx" # 1951045980481827005
+  siwa.0012.a: "xxxxx" # 1951045980481827005
+  siwa.0013.t: "엘-바가와트" # 17356748928978432857
+  siwa.0013.desc: "이제 기독교인들이 이집트에서 다시금 더 큰 영향력과 권위를 얻고 있으니, 나 또한 지역 지도자들과 [kharga_county.GetNameNoTier]의 [ROOT.Char.Custom('DefaultPriestTitlePlural')]와 더불어 오래된 엘-바가왓 공동묘지를 다시 사용하고 확장하는 것이 좋은 생각이라는 데 동의했소.\n\n우리는 새로운 무덤과 장례 예배당을 짓고, 오래된 구조물들을 보수하며 수년간 새겨진 낙서들을 청소하기 위해 노동자, 건축가, 장인 및 기타 전문가들을 이곳으로 데려오고 있소. 특히 그들은 엘-바가왓에서 가장 두드러지는 예배당인 평화의 예배당과 탈출의 예배당의 복구 작업부터 시작하도록 임명되었소. 황폐한 상태에서도 나는 다양한 성경 장면을 묘사하는 예술 작품들의 소박한 아름다움을 엿볼 수 있소." # 3574571321846783051
+  siwa.0013.a: "그 부지가 옛 영광을 되찾고 있습니다." # 327358475807294250
+  siwa.0014.t: "xxxxx" # 1951045980481827005
+  siwa.0014.desc: "xxxxx" # 1951045980481827005
+  siwa.0014.a: "xxxxx" # 1951045980481827005
+  siwa.0015.t: "xxxxx" # 1951045980481827005
+  siwa.0015.desc: "xxxxx" # 1951045980481827005
+  siwa.0015.a: "xxxxx" # 1951045980481827005
+  siwa.0016.t: "xxxxx" # 1951045980481827005
+  siwa.0016.desc: "xxxxx" # 1951045980481827005
+  siwa.0016.a: "xxxxx" # 1951045980481827005
+  siwa.0017.t: "xxxxx" # 1951045980481827005
+  siwa.0017.desc: "xxxxx" # 1951045980481827005
+  siwa.0017.a: "xxxxx" # 1951045980481827005
+  siwa.0018.t: "xxxxx" # 1951045980481827005
+  siwa.0018.desc: "xxxxx" # 1951045980481827005
+  siwa.0018.a: "xxxxx" # 1951045980481827005
+  siwa.0019.t: "xxxxx" # 1951045980481827005
+  siwa.0019.desc: "xxxxx" # 1951045980481827005
+  siwa.0019.a: "xxxxx" # 1951045980481827005
+  siwa.0020.t: "히비스 신전" # 17491156525291537134
+  siwa.0020.desc: "저는 카르가에 있는 히비스 대사원에 도착했습니다. 고대에 이곳은 서부 사막에서 가장 큰 사원이었으며, 이제 그 옛 영광을 되찾았습니다. 당시 오아시스 주민들은 여러 신들을 숭배했습니다. 이러한 옛 숭배 형태가 부활하면서, 사제들은 신들에게 축복을 간청할 수 있게 되었습니다.\n\n저는 밖에서 사제들에게 인사했고, 의식을 시작하기 위해 사원 안으로 안내되었습니다. 제 방문이 결실을 맺는다면, 어떤 행운이 우리에게 닥칠지 누가 알겠습니까?" # 11881783810342458655
+  siwa.0020.a: "히비스 신전의 장엄함은 실로 비할 데가 없도다." # 10220251380507210297
+  siwa.0021.t: "누구에게 기도해야 하는가?" # 16212504417587881922
+  siwa.0021.desc: "이제 의식이 시작되려 하니, 도움을 구하기 위해 지역 신들 중 누구에게 나아갈지 결정해야 합니다.\n\n아문이나 세트 같은 이 지역의 주신들에게 다가갈 수도 있습니다. 아니면, 하(Ha)나 이가이(Igai) 같은 서부 사막의 수호신들의 도움을 구할 수도 있습니다." # 13733567073803258244
+  siwa.0021.a: "아문, 태양의 주님께 기도하라" # 10948567076430029843
+  siwa.0021.a.toast.major: "아문께서 그대에게 큰 축복을 내리십니다." # 4829910862239267175
+  siwa.0021.a.toast.minor: "아문께서 그대에게 작은 축복을 내리셨습니다." # 5050131982429498537
+  siwa.0021.a.toast.no: "아문이 당신에게 축복을 내리지 않습니다." # 16314662074362476626
+  siwa.0021.a.nothing: "아문이 오늘 그대를 총애하지 않는군요." # 12913951619934918046
+  siwa.0021.b: "세트, 전쟁의 군주께 기도하라" # 3495131964725455722
+  siwa.0021.b.toast.major: "세트께서 그대에게 큰 축복을 내리셨습니다." # 15571227891302980024
+  siwa.0021.b.toast.minor: "세트께서 그대에게 작은 축복을 내리십니다" # 7664192752606516021
+  siwa.0021.b.toast.no: "세스께서는 당신에게 축복을 내리지 않으십니다." # 7084873015033592373
+  siwa.0021.b.nothing: "세스께서 오늘 그대를 총애하지 않으시는군요." # 4214399537562759984
+  siwa.0021.c: "서부 사막의 주님, 하께 기도드리소서" # 14139972940885489351
+  siwa.0021.c.toast.major: "그분께서 당신에게 큰 축복을 내리셨습니다." # 12750879100791758360
+  siwa.0021.c.toast.minor: "그가 당신에게 작은 축복을 내립니다" # 670746262815707181
+  siwa.0021.c.toast.no: "그는 당신에게 축복을 내리지 않습니다" # 6430599066595430237
+  siwa.0021.c.nothing: "하느님께서 오늘 그대를 총애하지 않으시는군요." # 10146777670388839687
+  siwa.0021.d: "오아시스의 신 이가이에게 기도하라" # 2604976752744373757
+  siwa.0021.d.toast.major: "이가이가 당신에게 큰 축복을 내립니다." # 11525253041911911637
+  siwa.0021.d.toast.minor: "이가이가 당신에게 작은 축복을 내립니다" # 2605525288979147126
+  siwa.0021.d.toast.no: "이가이는 당신에게 축복을 내리지 않습니다." # 3170977993241878032
+  siwa.0021.d.nothing: "이그아이가 오늘은 그대를 점지하지 않았습니다." # 7332998987497798183
+  siwa.0021.e: "저는 신탁의 지도를 구하고 싶습니다." # 8593792329183157409
+  siwa.0021.e.tooltip: "당신은 평생에 단 한 번만 신탁에게 조언을 구할 수 있으니, 현명하게 선택하십시오!" # 7394888446678649296
+  siwa.0022.t: "신탁의 인도" # 1409569389124209390
+  siwa.0022.desc: "사제들은 나를 특별한 방으로 안내했는데, 그곳 벽에는 아문 신상이 기대어 있었다. 신상은 키가 크지 않고 보통 사람보다 약간 큰 정도였지만, 그 얼굴은 평온하면서도 엄숙하여 장엄함을 내뿜고 있었다.\n\n신탁을 맡은 사제는 나에게 뒤쪽에 머물라 손짓하더니, 아문에게 묻고 싶은 질문들을 파피루스 조각에 적어보라고 요청했다. 나는 질문을 적어 신탁 사제에게 건넸고, 사제는 신상 앞으로 다가가 짧은 의식을 거행했다. 의식에는 여러 기도와 주문이 포함되었다. 사제는 마치 신상이 말하거나 소리를 내는지 듣기라도 하려는 듯 신상 쪽으로 몸을 기울였다.\n\n나는 내가 물었던 문제에 대해 신탁이 무엇이라 말할지 간절히 기다렸다. 그 문제는 바로…." # 5904561227394159471
+  siwa.0022.a: "나의 가문과 친구들" # 3808811385468563875
+  siwa.0022.b: "군사 문제" # 876403854681533817
+  siwa.0022.c: "내 영지를 다스리기" # 8778580547649315310
+  siwa.0022.d: "내 궁정의 음모" # 13290756809721625733
+  siwa.0022.e: "개인적인 문제들" # 16120131884408323843
+  siwa.0022.oracle_speaks: "신탁이 명하셨다!" # 10559906422159023179
+  siwa.0023.t: "아문 신탁" # 12371653722827850279
+  siwa.0023.desc: "아문 신탁은 이집트의 모든 신탁 중 가장 위대합니다. 전설에 따르면, 그 누구도 부정할 수 없는 위대한 업적과 자부심을 지닌 알렉산드로스 대왕조차도 그곳 신탁의 조언을 구하기 위해 몸을 낮추었으며, 신탁은 그를 파라오로 선포했다고 합니다.\n\n어쨌든, 곧 그렇게 천지를 뒤흔들 만한 일은 일어나지 않겠지만, 저는 알렉산드로스의 발자취를 따라 [GetTitleByKey('b_siwa').GetNameNoTier] 오아시스에 있는 신탁을 방문하기로 결정했습니다. 사막을 가로지르는 험난한 여정이 되겠지만, 그 지혜와 인도가 저의 국정에 큰 도움이 될 것이라 믿습니다." # 17466466785685166666
+  siwa.0023.a: "사막으로 가자!" # 9860536699280366572
+  siwa.0024.t: "시와(Siwa)의 신탁" # 8778281306540296582
+  siwa.0024.desc: "저는 고대 알렉산드로스 대왕처럼 그 명성 높은 아문 신전의 조언을 구하고자 시와에 도착했습니다. 물론 신전과 신들에게 추가적인 봉헌물을 바쳐야겠지만, 이토록 신의 영감을 받은 지침을 들을 수 있다면 그만한 가치가 있겠지요.\n\n어쨌든, 바깥에 있는 사제들에게 인사하고 신전 안으로 안내받아 신탁을 맞이할 수 있겠군요." # 12573162665744493613
+  siwa.0024.a: "고대 아문 신탁이 다시 살아났다고 생각하니!" # 3690651794668247787
+  siwa.0025.t: "카르가 오아시스로" # 13050072493639492021
+  siwa.0025.desc: "[GetTitleByKey('b_kharga').GetNameNoTier]의 오아시스는 서부 사막에서 가장 큰 오아시스이며, 따라서 가장 인구가 많고 발전했지만, 여전히 문명 세계와는 다소 거리가 있습니다. 그럼에도 불구하고, 저는 그곳에 있는 히비스 신전으로 여행하여 [ROOT.Char.GetFaith.GetAdherentName]로서 [ROOT.Char.GetFaith.PantheonTerm]에 대한 저의 헌신을 증명하기로 결정했습니다.\n\n서부 사막을 여행하는 것은 힘들 수 있으며 – 아니, #italic 힘들 것입니다#! – 혹독한 일이 될 수 있으니, 저와 제 수행원들은 모든 것에 대비해야 합니다. 우리는 오직 [ROOT.Char.GetFaith.PantheonTerm]께 기도하고 그분들께서 우리를 지켜주시기를 바랄 뿐입니다." # 4783307782869847376
+  siwa.0025.a: "사막으로!" # 11314366003439668019
+  siwa.0026.t: "xxxxx" # 1951045980481827005
+  siwa.0026.desc: "xxxxx" # 1951045980481827005
+  siwa.0026.a: "xxxxx" # 1951045980481827005
+  siwa.0027.t: "xxxxx" # 1951045980481827005
+  siwa.0027.desc: "xxxxx" # 1951045980481827005
+  siwa.0027.a: "xxxxx" # 1951045980481827005
+  siwa.0028.t: "xxxxx" # 1951045980481827005
+  siwa.0028.desc: "xxxxx" # 1951045980481827005
+  siwa.0028.a: "xxxxx" # 1951045980481827005
+  siwa.0029.t: "xxxxx" # 1951045980481827005
+  siwa.0029.desc: "xxxxx" # 1951045980481827005
+  siwa.0029.a: "xxxxx" # 1951045980481827005
+  siwa.0030.t: "xxxxx" # 1951045980481827005
+  siwa.0030.desc: "xxxxx" # 1951045980481827005
+  siwa.0030.a: "xxxxx" # 1951045980481827005
+  siwa.0031.t: "xxxxx" # 1951045980481827005
+  siwa.0031.desc: "xxxxx" # 1951045980481827005
+  siwa.0031.a: "xxxxx" # 1951045980481827005
+  siwa.0032.t: "xxxxx" # 1951045980481827005
+  siwa.0032.desc: "xxxxx" # 1951045980481827005
+  siwa.0032.a: "xxxxx" # 1951045980481827005
+  siwa.0033.t: "xxxxx" # 1951045980481827005
+  siwa.0033.desc: "xxxxx" # 1951045980481827005
+  siwa.0033.a: "xxxxx" # 1951045980481827005
+  siwa.0034.t: "xxxxx" # 1951045980481827005
+  siwa.0034.desc: "xxxxx" # 1951045980481827005
+  siwa.0034.a: "xxxxx" # 1951045980481827005
+  siwa.0035.t: "xxxxx" # 1951045980481827005
+  siwa.0035.desc: "xxxxx" # 1951045980481827005
+  siwa.0035.a: "xxxxx" # 1951045980481827005
+  siwa.0036.t: "xxxxx" # 1951045980481827005
+  siwa.0036.desc: "xxxxx" # 1951045980481827005
+  siwa.0036.a: "xxxxx" # 1951045980481827005
+  siwa.0037.t: "xxxxx" # 1951045980481827005
+  siwa.0037.desc: "xxxxx" # 1951045980481827005
+  siwa.0037.a: "xxxxx" # 1951045980481827005
+  siwa.0038.t: "xxxxx" # 1951045980481827005
+  siwa.0038.desc: "xxxxx" # 1951045980481827005
+  siwa.0038.a: "xxxxx" # 1951045980481827005
+  siwa.0039.t: "xxxxx" # 1951045980481827005
+  siwa.0039.desc: "xxxxx" # 1951045980481827005
+  siwa.0039.a: "xxxxx" # 1951045980481827005
+  siwa.0040.t: "xxxxx" # 1951045980481827005
+  siwa.0040.desc: "xxxxx" # 1951045980481827005
+  siwa.0040.a: "xxxxx" # 1951045980481827005
+  siwa.0041.t: "xxxxx" # 1951045980481827005
+  siwa.0041.desc: "xxxxx" # 1951045980481827005
+  siwa.0041.a: "xxxxx" # 1951045980481827005
+  siwa.0042.t: "xxxxx" # 1951045980481827005
+  siwa.0042.desc: "xxxxx" # 1951045980481827005
+  siwa.0042.a: "xxxxx" # 1951045980481827005
+  siwa.0043.t: "xxxxx" # 1951045980481827005
+  siwa.0043.desc: "xxxxx" # 1951045980481827005
+  siwa.0043.a: "xxxxx" # 1951045980481827005
+  siwa.0044.t: "xxxxx" # 1951045980481827005
+  siwa.0044.desc: "xxxxx" # 1951045980481827005
+  siwa.0044.a: "xxxxx" # 1951045980481827005
+  siwa.0045.t: "xxxxx" # 1951045980481827005
+  siwa.0045.desc: "xxxxx" # 1951045980481827005
+  siwa.0045.a: "xxxxx" # 1951045980481827005
+  siwa.0046.t: "xxxxx" # 1951045980481827005
+  siwa.0046.desc: "xxxxx" # 1951045980481827005
+  siwa.0046.a: "xxxxx" # 1951045980481827005
+  siwa.0047.t: "xxxxx" # 1951045980481827005
+  siwa.0047.desc: "xxxxx" # 1951045980481827005
+  siwa.0047.a: "xxxxx" # 1951045980481827005
+  siwa.0048.t: "xxxxx" # 1951045980481827005
+  siwa.0048.desc: "xxxxx" # 1951045980481827005
+  siwa.0048.a: "xxxxx" # 1951045980481827005
+  siwa.0049.t: "xxxxx" # 1951045980481827005
+  siwa.0049.desc: "xxxxx" # 1951045980481827005
+  siwa.0049.a: "xxxxx" # 1951045980481827005
+  siwa.0050.t: "로마의 수도교" # 12040936146678320950
+  siwa.0050.desc: "이집트 전역과 지중해 세계의 많은 지역에는 고대 위대한 제국들의 잔해인 거대한 석조 기념물들이 풍경 속에 널려 있습니다. 특히 카르가 오아시스는 수 세기 동안 서부 사막에서 가장 큰 오아시스 마을이었기에 그러한 유적들이 많이 남아있는 곳입니다.\n\n오늘 카르가 주변 지역을 여행하던 중, 저는 현지인들이 로마인들이 건설한 오래된 수로의 잔해라고 말하는 잘 정돈된 돌무더기를 발견했습니다. 안타깝게도 그 수로는 수 세기 동안이나 황폐한 상태로 남아있습니다." # 2993741945228025948
+  siwa.0050.a: "옛날에는 어땠을지 상상만 할 수 있겠군요!" # 15550450749138109093
+  siwa.0050.b: "아마도 우리 기술자들이 그것의 작은 부분이라도 재건할 방법을 찾을 수 있을 것입니다." # 17331826208655800079
+  siwa.0051.t: "우물" # 1333618481053645789
+  siwa.0051.desc: "이집트 서부 사막에서 우물은 희귀하고 귀중한 자원입니다. 부유한 현지 유지가 이 지역에서 소유한 우물 중 하나를 좋은 가격에 팔고자 합니다." # 2480128049347257427
+  siwa.0051.a: "계약이 성사되었소! 이제 그 우물은 내 것이오." # 15650357016257628003
+  siwa.0051.b: "저는 이런 종류의 거래에는 관심이 없습니다." # 15482018180073295602
+  siwa.0051.c: "그 가격으로는? 더 좋은 조건을 제시할 수 있을 것 같은데." # 12287562505480875214
+  siwa.0052.t: "농경" # 13888064062295158084
+  siwa.0052.desc: "수 세기 동안 대추야자 농사는 서부 오아시스 지역 주민들의 생계에 중요했습니다. 이 지역에 있는 제 영토의 대추야자 농장들은 현재 평소보다 훨씬 많은 대추야자를 생산하여 지역 경제에 활력을 불어넣고 있습니다." # 9402397096737950251
+  siwa.0052.a: "기쁜 소식이군!" # 2285397353523959189
+  siwa.0053.t: "농경" # 13888064062295158084
+  siwa.0053.desc: "수 세기 동안 서부 오아시스의 사람들에게 대추 농사는 생계에 중요했습니다. 이 지역에 있는 제 영토의 대추 농장들은 현재 평소보다 대추를 적게 생산하고 있으며, 이는 지역 경제에 영향을 미칠 것입니다." # 3670611188040354584
+  siwa.0053.a: "그건 좋지 않군." # 15707023717543883858
+  siwa.0054.t: "제르주라, 잃어버린 도시" # 17143108516101384288
+  siwa.0054.desc: "몇 주 전, 상인 수레 행렬 하나가 서부 사막에서 길을 잃었고 전멸한 것으로 추정되었습니다. 오늘, 그 수레 행렬의 생존자 한 명이 기적적으로 제가 통치하는 영토로 돌아왔습니다.\n\n그는 수레 행렬이 모래 폭풍에 휩쓸려 길을 잃었지만, 자신만이 키가 크고 창백한 피부를 가진, 이상한 검과 창을 든 남녀들에게 구조되었다고 주장합니다. 그들은 그를 이집트 서부 사막의 전설적인 잃어버린 도시이자 진주처럼 하얀 돌로 지어졌으며 온갖 사치를 갖춘 도시, 제르주라로 데려갔다고 합니다.\n\n그 후 그는 집으로 돌아왔습니다." # 3588368273957023286
+  siwa.0054.a: "제르주라에 대한 이야기는 이따금 들려오니, 그의 이야기는 믿을 만해 보이는군." # 10431556707466348106
+  siwa.0054.b: "내 의심이 드는군. 어쩌면 그가 사막에서 탈수로 인해 환각을 본 것일지도 모르지." # 17346693790171934244
+  siwa.0055.t: "죽음의 산맥" # 6051074111809630469
+  siwa.0055.desc: "시와 오아시스에서 멀지 않은 곳에 소위 '게벨 알-마우타', 즉 죽은 자들의 산이 있습니다. 이 원뿔 모양의 산은 파라오와 로마인들이 이 땅을 다스리던 고대 시와인들의 중심 공동묘지였다고 전해지는데, 그곳에는 종종 미라와 다른 장례 용품들이 발견되는 많은 인공 동굴들이 있기 때문입니다.\n\n최근 시와 일부 가문들이 동굴의 넓은 공간에 매료되어 그곳에 거처를 마련하기 시작했습니다. 다른 지역 주민들은 이것이 좋지 않은 생각이라 여기며, 죽은 자들의 영혼이 방해받지 않도록 산을 점유하는 것을 금지해야 한다고 생각합니다." # 2947652103282456908
+  siwa.0055.a: "지역 주민들이 스스로 결정하게 두시오. 내 알 바 아니오." # 4935071264263044067
+  siwa.0055.b: "그 사람들은 들어와도 됩니다. 이미 죽은 자들을 어찌 두려워하겠습니까?" # 16762865760508080515
+  siwa.0055.c: "그것은 타당한 우려 사항입니다. 누구도 이주하는 것을 금지하십시오." # 4551932003569952175
+  siwa.0056.t: "카르가 은둔자들" # 13707672750876618724
+  siwa.0056.desc: "수세기 동안 카르가 오아시스는 세속적인 삶의 유혹을 피하거나 종교적 박해를 피해 온 기독교 은둔자들의 안식처였습니다. 그들은 종종 카르가에서 떨어진 험준한 언덕과 동굴에 거주하며, 하루의 대부분을 기도와 다른 종교적 수행에 전념합니다.\n\n기독교인이든 아니든, 카르가의 통치자들은 이 은둔자들을 관대하게 대했는데, 많은 순례자들이 그들을 찾아오기 때문에 이는 상업에 좋은 일이었기 때문입니다. 최근 은둔자들의 대표 중 한 명이 저에게 다가와 보급품이 부족하다는 사실을 설명하며, 작은 기부를 겸허히 요청했습니다." # 5027846480736734861
+  siwa.0056.desc.christian: "독실한 기독교도인 그는 제가 얼마나 관대하고 독실한지 보여줄 수 있다고 말하며, 그리하면 양측 모두 이익을 얻을 것이라고 합니다." # 6409460686903367916
+  siwa.0056.desc.nonchristian: "비록 내가 기독교인은 아니지만, 그가 나의 관대함과 관용을 보여줄 수 있다고 하니 양측 모두에게 이로울 것이다." # 18304256615447399656
+  siwa.0056.a: "네, 아주 좋소. 그대가 원하는 지원을 제공하겠소." # 15274076335486581839
+  siwa.0056.b: "죄송하지만, 저는 아무것도 내어줄 여력이 없습니다." # 2128814392389406529
+  siwa.0056.c: "건방지기 같으니! 이 탐욕스러운 이교도들을 사막으로 추방하라!" # 1064821446238163351
+  siwa.0057.t: "이교도의 바위" # 16649873313173199893
+  siwa.0057.desc: "파라프라 오아시스 근처에는 여러 개의 바위가 모여 이루어진 거대한 지형이 있습니다. 오늘 이곳을 지나가면서, 그것이 우뚝 솟은 장엄한 광경임을 인정할 수밖에 없습니다. 이곳에 사는 사람들은 대대로 그곳을\"이교도의 바\"라고 불러왔으며, 현지 전설에 따르면 그곳은 유명한 페르시아 왕 캄비세스의 군대가 시와 오아시스로 향하는 불행한 여정을 떠나기 전에 머물렀던 장소라고 합니다. 그 여정에서 단 한 명의 병사도 돌아오지 못했습니다." # 3760522950633842682
+  siwa.0057.a: "흥미롭군." # 9738541132076248136
+  siwa.0058.t: "하가르 알-마크룸" # 10553908206306486875
+  siwa.0058.desc: "오늘 파라프라 오아시스 근처 사막으로 나갔다 와야 했습니다. 돌아오는 길에 능선 꼭대기에 있는 상당히 큰 자연석 아치를 지나쳤습니다. 그곳의 현지 명칭은 '구멍 뚫린 바위'라는 뜻의 하가르 알-마크룸입니다." # 1207133183547284193
+  siwa.0058.a: "장엄한 광경이로다." # 14786139212614182788
+  siwa.0059.t: "올리브" # 8568186874755541391
+  siwa.0059.desc: "이집트 서부 사막의 오아시스에서는 올리브 농장을 흔히 볼 수 있습니다. 지중해의 다른 지역에서 재배되는 올리브만큼 수익성이 높지는 않지만, 그럼에도 꽤 많은 수익을 가져다줍니다. 현재 제가 통치하는 오아시스에 있는 일부 올리브 농장에 투자할 기회가 있습니다. 투자를 하기에 좋은 생각일까요?" # 7479966763678697748
+  siwa.0059.a: "과연 그렇습니다. 필요한 준비를 갖추도록 합시다." # 1766731829211847227
+  siwa.0059.b: "아니요, 그럴 필요는 없다고 생각합니다." # 11718170374685579919
+  siwa.0060.t: "카르셰프" # 14129918851764378951
+  siwa.0060.desc: "저는 시와 오아시스의 강력한 지역 원로를 방문하여 오아시스 행정과 관련된 중요한 사안을 논의하고 있습니다. 밖은 오늘 매우 덥지만, 그의 집 안으로 들어서는 순간 마치 부드러운 바람이 부는 것처럼 갑자기 시원해집니다. 이는 고대부터 시와에서 집을 짓는 데 전통적으로 사용되어 온 진흙과 광물의 혼합물인 카르셰프 덕분인데, 이 덕분에 더운 날씨에도 집 안은 시원하고 쾌적하게 유지됩니다." # 7237012170134757437
+  siwa.0060.a: "존경하는 어르신, 뵙게 되어 반갑습니다! 이제 용건으로 들어가시지요…." # 9639933512383977522
+  siwa.0061.t: "켈리스" # 13479194694798821041
+  siwa.0061.desc: "다클라 오아시스를 여행하던 중, 나는 버려진 폐허를 지나치게 되었다. 내 안내자는 이곳이 로마 시대에는 ‘켈리스’라 불렸던 도시였으며, 이교도 숭배의 주요 장소였다고 말해준다. 이제 남은 것은 먼지와 돌뿐이며, 건물들의 일부 또는 전부가 모래에 묻혀 있다. 현지인들은 때때로 건물이 무너지는 일이 있기에, 붕괴에 대한 두려움으로 폐허에 거주하는 것을 피하고 있다." # 7739990322294770091
+  siwa.0061.a: "우리 이전에 있었던 이들을 기억하며." # 6900567150402958175
+  siwa.0062.t: "파샤 힌디" # 14895443979063747608
+  siwa.0062.desc: "다클라 오아시스의 많은 사람들, 특히 바셴디 마을에 사는 사람들은 자신들이 파샤 힌디(파샤는 마을 이름의 유래가 됨)라고 알려진 특정 인도 왕자의 후손이라고 주장하곤 합니다. 인도 고향에서 추방된 후, 그는 멀리 여행하여 결국 다클라에 정착했고 그곳에서 존경받는 지역 지도자가 되었다고 전해집니다. 오늘 이 지역의 여러 유지들과 만났을 때, 그들 중 한 명이 이 파샤 힌디의 고위 후손 중 한 명이라고 주장했는데, 비록 과거에 다른 이들이 그의 주장에 이의를 제기한 적은 있지만 말입니다. 그럼에도 불구하고, 그는 그 사실에 꽤 자부심을 느끼며 회의 내내 그것을 자주 자랑합니다." # 11260018934993250760
+  siwa.0062.a: "만약 그가 파샤 힌디의 후손이라면, 그는 자부심을 가질 자격이 있습니다." # 765408530354194815
+  siwa.0062.b: "이러한 허황된 주장은 입증하기 어렵습니다. 누구나 그런 말을 할 수 있죠!" # 15077831475924249834
+  siwa.0062.c: "오만한 녀석! 그는 자신의 봉주인 내 앞에서 겸손함을 보여야 한다." # 11172747759123218008
+  siwa.0063.t: "올리브와 대추야자" # 14632618204524983325
+  siwa.0063.desc: "내 영토인 서부 사막의 일부 지역 주민들이 마을에서 나는 귀한 올리브와 대추야자를 공물로 바치겠다며 나를 찾아왔습니다." # 14621340909729582280
+  siwa.0063.a: "귀하의 선물을 대단히 감사합니다." # 11869129444623702330
+  siwa.0064.t: "xxxxx" # 1951045980481827005
+  siwa.0064.desc: "xxxxx" # 1951045980481827005
+  siwa.0064.a: "xxxxx" # 1951045980481827005
+  siwa.0065.t: "xxxxx" # 1951045980481827005
+  siwa.0065.desc: "xxxxx" # 1951045980481827005
+  siwa.0065.a: "xxxxx" # 1951045980481827005
+  siwa.0066.t: "xxxxx" # 1951045980481827005
+  siwa.0066.desc: "xxxxx" # 1951045980481827005
+  siwa.0066.a: "xxxxx" # 1951045980481827005
+  siwa.0067.t: "xxxxx" # 1951045980481827005
+  siwa.0067.desc: "xxxxx" # 1951045980481827005
+  siwa.0067.a: "xxxxx" # 1951045980481827005
+  siwa.0068.t: "xxxxx" # 1951045980481827005
+  siwa.0068.desc: "xxxxx" # 1951045980481827005
+  siwa.0068.a: "xxxxx" # 1951045980481827005
+  siwa.0069.t: "xxxxx" # 1951045980481827005
+  siwa.0069.desc: "xxxxx" # 1951045980481827005
+  siwa.0069.a: "xxxxx" # 1951045980481827005
+  siwa.0070.t: "xxxxx" # 1951045980481827005
+  siwa.0070.desc: "xxxxx" # 1951045980481827005
+  siwa.0070.a: "xxxxx" # 1951045980481827005
+  siwa.0071.t: "xxxxx" # 1951045980481827005
+  siwa.0071.desc: "xxxxx" # 1951045980481827005
+  siwa.0071.a: "xxxxx" # 1951045980481827005
+  siwa.0072.t: "xxxxx" # 1951045980481827005
+  siwa.0072.desc: "xxxxx" # 1951045980481827005
+  siwa.0072.a: "xxxxx" # 1951045980481827005
+  siwa.0073.t: "xxxxx" # 1951045980481827005
+  siwa.0073.desc: "xxxxx" # 1951045980481827005
+  siwa.0073.a: "xxxxx" # 1951045980481827005
+  siwa.0074.t: "xxxxx" # 1951045980481827005
+  siwa.0074.desc: "xxxxx" # 1951045980481827005
+  siwa.0074.a: "xxxxx" # 1951045980481827005
+  siwa.0075.t: "xxxxx" # 1951045980481827005
+  siwa.0075.desc: "xxxxx" # 1951045980481827005
+  siwa.0075.a: "xxxxx" # 1951045980481827005
+  siwa.0076.t: "xxxxx" # 1951045980481827005
+  siwa.0076.desc: "xxxxx" # 1951045980481827005
+  siwa.0076.a: "xxxxx" # 1951045980481827005
+  siwa.0077.t: "xxxxx" # 1951045980481827005
+  siwa.0077.desc: "xxxxx" # 1951045980481827005
+  siwa.0077.a: "xxxxx" # 1951045980481827005
+  siwa.0078.t: "xxxxx" # 1951045980481827005
+  siwa.0078.desc: "xxxxx" # 1951045980481827005
+  siwa.0078.a: "xxxxx" # 1951045980481827005
+  siwa.0079.t: "xxxxx" # 1951045980481827005
+  siwa.0079.desc: "xxxxx" # 1951045980481827005
+  siwa.0079.a: "xxxxx" # 1951045980481827005
+  siwa.0080.t: "xxxxx" # 1951045980481827005
+  siwa.0080.desc: "xxxxx" # 1951045980481827005
+  siwa.0080.a: "xxxxx" # 1951045980481827005
+  siwa.0081.t: "xxxxx" # 1951045980481827005
+  siwa.0081.desc: "xxxxx" # 1951045980481827005
+  siwa.0081.a: "xxxxx" # 1951045980481827005
+  siwa.0082.t: "xxxxx" # 1951045980481827005
+  siwa.0082.desc: "xxxxx" # 1951045980481827005
+  siwa.0082.a: "xxxxx" # 1951045980481827005
+  siwa.0083.t: "xxxxx" # 1951045980481827005
+  siwa.0083.desc: "xxxxx" # 1951045980481827005
+  siwa.0083.a: "xxxxx" # 1951045980481827005
+  siwa.0084.t: "xxxxx" # 1951045980481827005
+  siwa.0084.desc: "xxxxx" # 1951045980481827005
+  siwa.0084.a: "xxxxx" # 1951045980481827005
+  siwa.0085.t: "xxxxx" # 1951045980481827005
+  siwa.0085.desc: "xxxxx" # 1951045980481827005
+  siwa.0085.a: "xxxxx" # 1951045980481827005
+  siwa.0086.t: "xxxxx" # 1951045980481827005
+  siwa.0086.desc: "xxxxx" # 1951045980481827005
+  siwa.0086.a: "xxxxx" # 1951045980481827005
+  siwa.0087.t: "xxxxx" # 1951045980481827005
+  siwa.0087.desc: "xxxxx" # 1951045980481827005
+  siwa.0087.a: "xxxxx" # 1951045980481827005
+  siwa.0088.t: "xxxxx" # 1951045980481827005
+  siwa.0088.desc: "xxxxx" # 1951045980481827005
+  siwa.0088.a: "xxxxx" # 1951045980481827005
+  siwa.0089.t: "xxxxx" # 1951045980481827005
+  siwa.0089.desc: "xxxxx" # 1951045980481827005
+  siwa.0089.a: "xxxxx" # 1951045980481827005
+  siwa.0090.t: "xxxxx" # 1951045980481827005
+  siwa.0090.desc: "xxxxx" # 1951045980481827005
+  siwa.0090.a: "xxxxx" # 1951045980481827005
+  siwa.0091.t: "xxxxx" # 1951045980481827005
+  siwa.0091.desc: "xxxxx" # 1951045980481827005
+  siwa.0091.a: "xxxxx" # 1951045980481827005
+  siwa.0092.t: "xxxxx" # 1951045980481827005
+  siwa.0092.desc: "xxxxx" # 1951045980481827005
+  siwa.0092.a: "xxxxx" # 1951045980481827005
+  siwa.0093.t: "xxxxx" # 1951045980481827005
+  siwa.0093.desc: "xxxxx" # 1951045980481827005
+  siwa.0093.a: "xxxxx" # 1951045980481827005
+  siwa.0094.t: "xxxxx" # 1951045980481827005
+  siwa.0094.desc: "xxxxx" # 1951045980481827005
+  siwa.0094.a: "xxxxx" # 1951045980481827005
+  siwa.0095.t: "xxxxx" # 1951045980481827005
+  siwa.0095.desc: "xxxxx" # 1951045980481827005
+  siwa.0095.a: "xxxxx" # 1951045980481827005
+  siwa.0096.t: "xxxxx" # 1951045980481827005
+  siwa.0096.desc: "xxxxx" # 1951045980481827005
+  siwa.0096.a: "xxxxx" # 1951045980481827005
+  siwa.0097.t: "xxxxx" # 1951045980481827005
+  siwa.0097.desc: "xxxxx" # 1951045980481827005
+  siwa.0097.a: "xxxxx" # 1951045980481827005
+  siwa.0098.t: "xxxxx" # 1951045980481827005
+  siwa.0098.desc: "xxxxx" # 1951045980481827005
+  siwa.0098.a: "xxxxx" # 1951045980481827005
+  siwa.0099.t: "xxxxx" # 1951045980481827005
+  siwa.0099.desc: "xxxxx" # 1951045980481827005
+  siwa.0099.a: "xxxxx" # 1951045980481827005

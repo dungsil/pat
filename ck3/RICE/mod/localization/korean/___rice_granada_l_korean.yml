@@ -1,0 +1,728 @@
+﻿l_korean:
+  RICE_all_jewish_courtiers_and_guests: "모든 유대인 궁정 신하 및 손님" # 5355374396990773503
+  GRANADA_ILBIRA: "일비라" # 5124948701043849176
+  GRANADA_ILBIRA_adj: "일비란" # 12435056467488205738
+  GRANADA_ILBIRA_DUCHY: "일비라" # 5124948701043849176
+  GRANADA_ILBIRA_DUCHY_adj: "일비란" # 12435056467488205738
+  RICE_title_event_granada_name_change_county_tooltip: "[granada_county.GetName]의 이름이 #high $c_granada$#!(으)로 변경됩니다." # 1100003283001988157
+  RICE_title_event_granada_name_change_duchy_tooltip: "[granada_duchy.GetName]의 이름이 #high $d_granada$#!(으)로 변경됩니다." # 12591417724670286005
+  every_anti_semitic_courtier_or_guest: "반유대주의 성향을 가진 모든 [courtier|E]와 [guest|E]" # 4340332620809364903
+  RICE_iberia_geographical_req: "당신은 [GetGeographicalRegion('world_europe_west_iberia').GetName] 내의 [county|E]를 소유하고 있습니다." # 12530450970928065186
+  RICE_iberia_geographical_capital_req: "귀하의 [realm_capital|E]는 [GetGeographicalRegion('world_europe_west_iberia').GetName]에 위치하고 있습니다." # 1856628714674333822
+  RICE_every_guest_who_really_enjoyed_munya_vacation: "이 [munya|E] 휴가에 만족한 모든 참가자들" # 4382390889122172148
+  RICE_every_other_guest: "다른 모든 참가자" # 10629173736677191804
+  RICE_iberian_struggle_character_involved_req: "귀하는 [iberian_struggle|E]에 [struggle_involved|E]되어 있습니다." # 6723816806941861715
+  RICE_iberian_struggle_ended_req: "[iberian_struggle|E]가 종료되었습니다" # 17615964398916420308
+  RICE_culture_in_iberia_desc: "[GetGeographicalRegion('world_europe_west_iberia').GetName]에 귀하의 [culture|E]에 속하는 [counties|E]가 최소 #V 5#!개 있습니다." # 12970231044161303983
+  RICE_every_munya_group_vacation_merriment: "환담 [intent|E]에 참여하는 모든 인물" # 18156506692087846306
+  RICE_every_munya_group_vacation_reputation: "평판 [intent|E]를 가진 모든 참가자" # 10725158569617214210
+  RICE_every_munya_group_vacation_mingle: "Mingle [intent|E]를 가진 모든 참가자" # 17479600474747112425
+  RICE_granada_alhambra_level_2_req: "[GetBuilding('alhambra_02').GetName]의 2단계 건축이 완료되었습니다." # 5652876749560448470
+  dynn_ibn_jubayr: "이븐 주바이르" # 5139984466321593544
+  abu_al_qasim_abbas: "아불카심 압바스" # 9290722904896435340
+  dynn_ibn_firnas: "이븐 피르나스" # 10423602549814073585
+  dynn_rukuniyya: "루쿠니야" # 15032541316741562382
+  dynn_RICE_ibn_gabirol: "이븐 가비롤" # 10360879366675003840
+  Abu_Ishaq_Ibrahim: "아부 이샤크 이브라힘" # 8263468581852564978
+  RICE_granada_aspiration_hafsa_desc: "#bold [historical_aspiration_main_objectives|E]#!\n$EFFECT_LIST_BULLET$ [GetTrait('RICE_hafsa').GetName( GetNullCharacter )] [trait|E]의 [trait_level_track|E]에서 #V 100#! [trait_level_track_xp|E]를 달성하고, $RICE_granada_hafsa_decision$ [decision|E]를 충분히 내려 [GetTrait('RICE_hafsa_full_rage').GetName( GetNullCharacter )] 또는 [GetTrait('RICE_hafsa_full_recovery').GetName( GetNullCharacter )] [trait|E]를 획득하십시오.\n\n#bold Rewards#!\n$EFFECT_LIST_BULLET$ @dynasty_prestige_icon! #V [EmptyScope.ScriptValue('RICE_aspiration_medium_resource_bonus')]#! [dynasty_prestige|E] 획득\n$EFFECT_LIST_BULLET$ [GetTrait('RICE_hafsa').GetName( GetNullCharacter )] [trait|E]가 [GetTrait('RICE_hafsa_full_rage').GetName( GetNullCharacter )] [trait|E]로 대체될 경우 @prestige_icon! #V [EmptyScope.ScriptValue('RICE_aspiration_large_resource_bonus')]#! [prestige|E] 획득\n$EFFECT_LIST_BULLET$ [GetTrait('RICE_hafsa').GetName( GetNullCharacter )] [trait|E]가 [GetTrait('RICE_hafsa_full_recovery').GetName( GetNullCharacter )] [trait|E]로 대체될 경우 @piety_icon! #V [EmptyScope.ScriptValue('RICE_aspiration_large_resource_bonus')]#! [piety|E] 획득" # 12216158469319139284
+  RICE_granada_historical_aspiration_action_hafsa: "#italic 사랑하는 동료 시인 아부 자파르의 죽음이 당신의 마음을 무겁게 짓누릅니다. 슬픔이 너무나도 커서, 당신은 이 절망과 슬픔에서 과연 회복할 수 있을지 의문이 드는군요.#!$RICE_granada_aspiration_hafsa_desc$" # 4358432524689201002
+  RICE_granada_historical_aspiration_modifier_desc_hafsa: "[GetModifier('RICE_granada_aspiration_successfully_process_grief').GetNameWithTooltip]" # 6124417528994511762
+  RICE_granada_aspiration_successfully_process_grief: "[aspiration|E]: 슬픔 극복하기" # 6678639861239776978
+  RICE_granada_aspiration_successfully_process_grief_desc: "#italic 하프사의 사랑하는 동료 시인 아부 자파르의 죽음은 그녀에게 무거운 짐이 되었습니다. 그녀의 슬픔은 막대하며, 이 절망과 비탄에서 과연 벗어날 수 있을지 의문을 품습니다.#$RICE_granada_aspiration_hafsa_desc$\n\n" # 10331142019127617778
+  trait_RICE_hafsa: "비통한 슬픔" # 13268586784521581385
+  trait_RICE_hafsa_desc: "이 인물은 연인이자 동료 시인이었던 아부 자파르의 죽음을 여전히 애도하고 있으며, 그 슬픔을 극복하려 하고 있습니다.\n\n#weak 이 특성은 [traveling|E] 중 관련 [travel_options|E]을 선택하여 레벨을 올릴 수 있습니다.\n\n#weak 이 [trait|E]는 $RICE_granada_hafsa_decision$ [decision|E]를 활성화합니다. 만약 [trait_level_track|E]에서 #V 100#! [trait_level_track_xp|E]에 도달하면, 이 [trait|E]는 [trait_level_track_xp|E]에 따라 해당하는 [GetTrait('RICE_hafsa_full_rage').GetName( GetNullCharacter )] 또는 [GetTrait('RICE_hafsa_full_recovery').GetName( GetNullCharacter )] [trait|E]로 대체됩니다.#!" # 16636378357863702061
+  trait_RICE_hafsa_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] 께서는 여전히 연인이자 동료 시인이었던 아부 자파르의 죽음을 애도하고 있으며, 그 슬픔을 이겨내려 하고 있습니다.\n\n#weak 이 [trait|E]는 $RICE_granada_hafsa_decision$ [decision|E]를 활성화합니다. 만약 [trait_level_track|E]에서 #V 100#! [trait_level_track_xp|E]에 도달하면, 이 [trait|E]는 [trait_level_track_xp|E]에 따라 해당되는 [GetTrait('RICE_hafsa_full_rage').GetName( GetNullCharacter )] 또는 [GetTrait('RICE_hafsa_full_recovery').GetName( GetNullCharacter )] [trait|E]로 대체됩니다.#!" # 12119049703874155977
+  trait_track_RICE_hafsa_rage: "격노" # 15879202877571656402
+  trait_track_RICE_hafsa_rage_desc: "#weak 번개에게 말하노라, 나의 사랑하는 이의 추억을 담아 / —고요한 어둠 속으로 뛰어들며— / 그가 나에게 어떻게 천둥을 쳤는지 기억한다면: / 내 심장을 두들겼고, / 쉴 새 없이 매질을 퍼부었지.#" # 14073640134035517875
+  trait_track_RICE_hafsa_recovery: "회복" # 16688743918815399586
+  trait_track_RICE_hafsa_recovery_desc: "#weak 신이시여, 눈물 속에 갇힌 이들에게 축복을 내려주소서, / 죽은 자들의 미소처럼 보이지 않고, / 우물에서 길어 올린 물처럼 빼앗긴 이들에게.#" # 18040921541786190609
+  trait_RICE_hafsa_full_rage: "비통한 분노" # 6446637563744192293
+  trait_RICE_hafsa_full_rage_desc: "이 인물의 사랑하는 시인 동료 아부 자파르가 수년 전 잔인하게 처형당했습니다. 그들은 이 슬픔을 생산적인 분노로 승화시켜, 유명하지만 변덕스러운 문학계의 인물이 되었습니다.\n\n#weak 이 특성은 [traveling|E] 중 관련 [travel_options|E]를 선택하여 단계를 올릴 수 있습니다.\n\n#weak 이 [trait|E]는 [decision|E]의 $RICE_insult_uthman_name$ 및 $RICE_eulogize_abu_jafar_name$ 선택지를 $RICE_granada_hafsa_decision$에 활성화합니다.#!" # 10279598149843505697
+  trait_RICE_hafsa_full_rage_character_desc: "[ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip]가 아끼던 동료 시인 아부 자파르가 수년 전 잔인하게 처형당했습니다. [ROOT.GetCharacter.GetSheHe|U]는 이 슬픔을 생산적인 분노로 승화시켜, 변덕스럽긴 하지만 유명한 문학계의 인물이 되었습니다.\n\n#weak 이 [trait|E]는 [decision|E]의 $RICE_insult_uthman_name$ 및 $RICE_eulogize_abu_jafar_name$ 선택지를 $RICE_granada_hafsa_decision$에서 활성화합니다.#" # 17045174959209353733
+  trait_RICE_hafsa_full_recovery: "슬픔에서 회복됨" # 2992923504706418800
+  trait_RICE_hafsa_full_recovery_desc: "이 인물의 사랑하는 동료 시인이자 애인이었던 아부 자파르가 수년 전 잔인하게 처형당했습니다. 그들은 이 슬픔을 극복하고 가르침과 인도와 같은 생산적이고 유익한 활동에 에너지를 쏟고 있습니다.\n\n#weak 이 특성은 [traveling|E] 중 관련 [travel_options|E]를 선택하여 레벨을 올릴 수 있습니다.\n\n#weak 이 [trait|E]는 [decision|E]의 $RICE_insult_uthman_name$ 및 $RICE_eulogize_abu_jafar_name$ 선택지를 $RICE_granada_hafsa_decision$에 활성화합니다.#!" # 12280063827450421614
+  trait_RICE_hafsa_full_recovery_character_desc: "[ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip]께서 아끼시던 동료 시인 아부 자파르가 수년 전 잔인하게 처형당했습니다. [ROOT.GetCharacter.GetSheHe|U]께서는 이 슬픔을 극복하고 그 에너지를 가르침과 인도와 같은 생산적이고 유익한 활동으로 전환하셨습니다.\n\n#weak 이 [trait|E]는 [decision|E]의 $RICE_stop_poetry_name$ 및 $RICE_teach_others_name$ 선택지를 $RICE_granada_hafsa_decision$으로 활성화합니다.#" # 15949492311153060049
+  game_concept_alhambra_structure: "구조" # 586716415752544071
+  game_concept_alhambra_structures: "건축물" # 2416526050560516112
+  game_concept_expand_the_alhambra: "알함브라를 확장하십시오" # 13224511367539387758
+  game_concept_alhambra: "알람브라" # 3168340251039809646
+  game_concept_alhambra_desc: "알함브라는 그라나다에 위치한 웅장한 궁전 및 요새 단지입니다. 알함브라 [special_building|E]의 2단계가 건설되면, 그라나다 [county|E]의 [rulers|E]는 평생에 한 번만 내릴 수 있는 #bold $RICE_granada_alhambra_decision$#! [decision|E]를 내릴 수 있습니다(높은 [stewardship|E]나 [learning|E]를 가졌다면 두 번 가능).\n\n건설할 수 있는 구조물은 고유 구조물 다섯 가지와 일반 구조물 세 가지를 포함하여 총 여덟 종류가 있습니다. 일반 구조물은 더 간단하고 덜 강력한 보너스를 제공하지만 비용이 저렴하며 미래의 [rulers|E]가 다시 수행할 수 있습니다. 반면, 고유 구조물은 더 특별한 효과와 더 나은 보너스를 제공하지만 비용이 더 많이 듭니다.\n\n추가로 두 가지 [decisions|E]가 고유 구조물과 관련이 있습니다. 코마레스 궁전을 건설하면 #bold $RICE_granada_alhambra_comares_baths$#! [decision|E]를 내릴 수 있으며, 알함브라 예배당을 증축하여 이로부터 추가 보너스를 얻을 수 있습니다. 한편, 알함브라 [special_building|E]의 2단계가 건설되면 #bold $RICE_granada_admire_alhambra_gardens$#! [decision|E]는 항상 해금되지만, #bold 제네랄리페#!로 알함브라를 증축하여 추가 보너스를 얻을 수 있습니다." # 16815145278262895421
+  game_concept_munya: "문야" # 586197441314845920
+  game_concept_munyas: "문야스" # 1061733475708535740
+  game_concept_munya_desc: "[GetGeographicalRegion('world_europe_west_iberia').GetName]에 [realm_capital|E]를 둔 [rulers|E]가 이용할 수 있는 소위 문야(Munyas)와 관련된 두 가지 [activities|E]가 있으며, 무슬림 [faith|E]을 따르거나 특정 중동 [heritage|E]를 가진 [culture|E]인 등 특정 [culture|E] 및 [faith|E] 요건을 충족해야 합니다. 역사적으로 #italic munyas#!는 알안달루스 엘리트들이 소유했던 대규모 시골 영지였습니다.\n\n이 [activity|E]에는 두 가지 종류가 있습니다. [GetActivityType( 'activity_RICE_granada_munya_vacation_private' ).GetName]는 혼자서 휴식을 취할 수 있게 해주는 반면, [GetActivityType( 'activity_RICE_granada_munya_vacation_group' ).GetName]는 다른 사람들과의 교제를 즐길 기회를 제공합니다. 당신 자신도 때때로 [liege|E]가 시골로 나들이를 갈 때 초대를 받을 수 있습니다!\n\n두 휴가 유형 모두 잠재적으로 다른 이점을 제공할 수 있는 별개의 [activities|E]입니다. 예를 들어, 혼자 가는 것은 당신의 영지 농업 관리에 대해 더 많이 배울 기회를 제공할 수 있습니다." # 14595772873011636527
+  RICE_granada_munya_vacation_private_host_memory: "[GetActivityType( 'activity_RICE_granada_munya_vacation_private' ).GetName]에 다녀왔습니다." # 2115456748966127799
+  RICE_granada_munya_vacation_private_host_memory_first_perspective: "저는 [GetActivityType( 'activity_RICE_granada_munya_vacation_private' ).GetName]에 다녀왔습니다." # 16197756567939755940
+  RICE_granada_munya_vacation_private_host_memory_second_perspective: "당신은 [GetActivityType( 'activity_RICE_granada_munya_vacation_private' ).GetName]을/를 떠났습니다." # 11691153908407973221
+  RICE_granada_munya_vacation_private_host_memory_third_perspective: "[owner.GetName]께서 [GetActivityType(  'activity_RICE_granada_munya_vacation_private' ).GetName]을 떠나셨습니다." # 15023340442080629955
+  RICE_granada_munya_vacation_group_host_memory: "[GetActivityType( 'activity_RICE_granada_munya_vacation_group' ).GetName]에 참여했습니다" # 17399832679915377281
+  RICE_granada_munya_vacation_group_host_memory_first_perspective: "저는 [host.GetTitledFirstName]와 함께 [GetActivityType( 'activity_RICE_granada_munya_vacation_group' ).GetName]에 다녀왔습니다." # 14786128615108586077
+  RICE_granada_munya_vacation_group_host_memory_second_perspective: "[host.GetTitledFirstName]와 함께 [GetActivityType( 'activity_RICE_granada_munya_vacation_group' ).GetName]에 다녀왔습니다." # 10636874738882166599
+  RICE_granada_munya_vacation_group_host_memory_third_perspective: "[owner.GetName]께서 [GetTitleByKey('b_ile-ife').GetNameNoTier]에서 [GetActivityType(  'activity_RICE_granada_munya_vacation_group' ).GetName]에 참여했습니다." # 3983133562976253720
+  RICE_granada_munya_vacation_group_guest_memory: "[host.GetTitledFirstName]께서 주관하신 [GetActivityType( 'activity_RICE_granada_munya_vacation_group' ).GetName]에 참가했습니다." # 16412485603297815882
+  RICE_granada_munya_vacation_group_guest_memory_first_perspective: "저는 [host.GetTitledFirstName]와 함께 [GetActivityType( 'activity_RICE_granada_munya_vacation_group' ).GetName]에 다녀왔습니다." # 14786128615108586077
+  RICE_granada_munya_vacation_group_guest_memory_second_perspective: "[host.GetTitledFirstName]와 함께 [GetActivityType( 'activity_RICE_granada_munya_vacation_group' ).GetName]에 다녀왔습니다." # 10636874738882166599
+  RICE_granada_munya_vacation_group_guest_memory_third_perspective: "[owner.GetName]께서 [host.GetTitledFirstName]와 함께 [GetActivityType(  'activity_RICE_granada_munya_vacation_group' ).GetName]에 참여했습니다." # 7633955150717090658
+  activity_RICE_granada_munya_vacation_private_host_an_a: "$host_activity_a$" # 13713790857143020716
+  activity_RICE_granada_munya_vacation_group_host_an_a: "$host_activity_a$" # 13713790857143020716
+  activity_granada_alhambra_comares_baths: "코마레스 목욕탕 방문" # 18318273118629891490
+  activity_granada_alhambra_comares_baths_name: "[ACTIVITY.GetOwner.GetNamePossessiveOrMy|U] 코마레스 목욕탕 방문" # 751609756870710655
+  activity_granada_alhambra_gardens: "알함브라 궁전 정원 순회" # 9548819020282488683
+  activity_granada_alhambra_gardens_name: "[ACTIVITY.GetOwner.GetNamePossessiveOrMy|U] 알함브라 정원 순방" # 8948368443498402464
+  activity_granada_munya_vacation_private: "문야에서의 개인적인 휴가" # 13859770463541356755
+  activity_granada_munya_vacation_private_name: "[ACTIVITY.GetOwner.GetNamePossessiveOrMy|U]의 [munya]에서의 개인 휴가" # 12939015526334060430
+  activity_granada_munya_vacation_group: "문야에서의 단체 휴가" # 10080179606600403206
+  activity_granada_munya_vacation_group_name: "[ACTIVITY.GetOwner.GetNamePossessiveOrMy|U]의 무냐에서의 단체 휴가" # 4348027305884203749
+  activity_granada_munya_vacation_group_owner: "군세" # 3865886242717736312
+  RICE_recent_munya_vacation_req: "최근에 [munya|E] 휴가를 다녀왔습니다." # 4498340747818902389
+  activity_RICE_granada_munya_vacation_private: "문야에서의 개인적인 휴가" # 13859770463541356755
+  activity_RICE_granada_munya_vacation_private_desc: "알안달루스의 자존심 있는 귀족이라면 누구나 시골에 여러 채의 [munya|E] 영지를 소유하고 있습니다. 이 별장들은 혼자서든 여럿이서든 휴식을 취하기에 더없이 좋은 장소입니다." # 17009288280389997385
+  activity_RICE_granada_munya_vacation_private_selection_tooltip: "홀로 [munya|E]로 휴가를 떠나십시오.\n\n$RICE_granada_alhambra_munya_estate_context_tooltip$" # 5079694410945427165
+  activity_RICE_granada_munya_vacation_private_host_desc: "$BULLET_WITH_TAB$ [stress_loss_i|E] [stress|E]를 잃습니다 (단체 휴가에 비해 훨씬 많은 것을 잃게 됩니다)\n$BULLET_WITH_TAB$ #P 유익한#! [character_modifiers|E]와 같은 다른 이점들" # 8779059380251215999
+  activity_RICE_granada_munya_vacation_private_guest_desc: "$activity_RICE_granada_munya_vacation_private_host_desc$" # 3951750350366445773
+  activity_RICE_granada_munya_vacation_countryside_province_desc: "\n#P ++ 귀하는 주요 [holdings|E]가 없는 한적한 시골 지역에 [munya|E]를 소유하고 있습니다.#!\n\n#italic 이로 인해 다른 잠재적 장소보다 추가적인 [stress_loss_i|E] [stress|E]를 잃게 될 것입니다.#!" # 2445110458830827279
+  activity_RICE_granada_munya_vacation_private_destination_selection: "$activity_RICE_granada_munya_vacation_private_province_desc$" # 2868738003015609573
+  activity_RICE_granada_munya_vacation_private_guest_help_text: "$activity_RICE_granada_munya_vacation_private$" # 5289407443827233080
+  activity_RICE_granada_munya_vacation_private_predicted_cost: "[munya|E] 휴가의 비용은 선택하는 [activity_options|E]에 따라 달라집니다." # 6745626616417306222
+  activity_RICE_granada_munya_vacation_private_conclusion_desc: "[GetActivityType( 'activity_RICE_granada_munya_vacation_private' ).GetName]이 끝났습니다. 이제 휴식은 끝났고, 다시 삶의 고된 일상으로 돌아갈 시간입니다!" # 3622697492888116429
+  RICE_granada_munya_vacation_private_type: "방문 유형" # 13536966538934268351
+  RICE_granada_munya_vacation_private_type_leisure: "여가" # 7868806935305589529
+  RICE_granada_munya_vacation_private_type_leisure_desc: "$EFFECT_LIST_BULLET$ 평화로운 시골에 있는 [munya|E]에서 최대한 쉴 수 있는 기회를 잡으십시오.\n$EFFECT_LIST_BULLET$ 다른 선택지들에 비해 더 많은 [stress_loss_i|E] [stress|E]를 잃습니다.\n\n#weak 제정신인 사람이 개인 휴가 중에 끔찍한 일을 하려고 하겠는가? 이럴 때는 최대한 게으름을 피워야지!#!" # 9868061476069347349
+  RICE_granada_munya_vacation_private_type_agriculture: "농업" # 17522984522362502093
+  RICE_granada_munya_vacation_private_type_agriculture_desc: "$EFFECT_LIST_BULLET$ [munyas|E]는 농업 과학의 발전을 위한 중요한 장소입니다.\n$EFFECT_LIST_BULLET$ [stewardship_lifestyle|E] 또는 [learning_lifestyle|E] 경험치 [experience|E] 획득\n$EFFECT_LIST_BULLET$ 농업과 관련된 #P 유익한#! [character_modifier|E] 획득 확률 증가\n\n#weak 농업 과학에 능통한 이들은 현명하고 선견지명이 있는 통치자에게 백성을 잘 먹이고 영토의 번영을 증진시키는 방법에 대해 유용한 조언을 해줄 수 있습니다.#" # 11993045431035927902
+  RICE_granada_munya_vacation_private_type_botany: "식물학" # 18082458908333299239
+  RICE_granada_munya_vacation_private_type_botany_desc: "$EFFECT_LIST_BULLET$ 당신의 정원사들이 당신의 [munya|E]에서 무슨 일을 해왔는지 알아볼 훌륭한 시기입니다.\n$EFFECT_LIST_BULLET$ [diplomacy_lifestyle|E] 또는 [intrigue_lifestyle|E] 경험치 [experience|E] 획득\n$EFFECT_LIST_BULLET$ 원예와 관련된 #P 유익한#! [character_modifier|E] 획득 확률 증가\n\n#weak 자신의 [munya|E] 정원에서 가장 정교하고 아름다운 꽃과 식물을 길러내는 귀족 남성 또는 여성은 다른 이들로부터 많은 위신과 존경을 얻을 것이 분명합니다.#" # 12888157702814555803
+  RICE_granada_munya_vacation_private_length: "휴가 기간" # 5287996416721187379
+  RICE_granada_munya_vacation_private_length_short: "단신" # 12581042330455198252
+  RICE_granada_munya_vacation_private_length_short_desc: "$EFFECT_LIST_BULLET$ [munya|E] 휴가는 #V 1#! 주간 지속됩니다.\n$EFFECT_LIST_BULLET$ 휴가가 길어질수록 귀하와 귀하의 손님들은 더 많은 [stress_loss_i|E] [stress|E]를 잃게 됩니다.\n\n#weak 세상의 근심으로부터의 짧은 휴식은 귀하가 감당할 수 있는 전부이지만, 이 시간을 소중히 여길 것입니다.#" # 2969976072882437198
+  RICE_granada_munya_vacation_private_length_medium: "보통" # 7377651229498775580
+  RICE_granada_munya_vacation_private_length_medium_desc: "$EFFECT_LIST_BULLET$ [munya|E] 휴가는 #V 1#! 달간 지속됩니다.\n$EFFECT_LIST_BULLET$ 휴가가 길어질수록 귀하와 귀하의 손님들은 더 많은 [stress_loss_i|E] [stress|E]를 잃게 됩니다.\n\n#weak 언젠가는 의무로 돌아가야겠지만, 합리적인 범위 내에서 휴가를 연장하는 데 해가 될 것은 없습니다.#" # 9888473257991004957
+  RICE_granada_munya_vacation_private_length_long: "롱" # 17214341936330655414
+  RICE_granada_munya_vacation_private_length_long_desc: "$EFFECT_LIST_BULLET$ [munya|E] 휴가는 #V 3#! 달간 지속됩니다.\n$EFFECT_LIST_BULLET$ 휴가가 길어질수록 귀하와 손님들은 더 많은 [stress_loss_i|E] [stress|E]를 잃게 됩니다.\n\n#weak 가끔은 모든 것에서 잠시 벗어나 최대한 오래 머물러야 할 때가 있습니다. 지금이 바로 그런 때일지도 모릅니다.#" # 11708445422589587263
+  RICE_granada_munya_vacation_private_vacation_phase: "휴가" # 126583528420191993
+  RICE_granada_munya_vacation_private_vacation_phase_desc: "세상사 걱정은 잠시 잊고 휴식을 취할 시간입니다." # 17144383252105392880
+  RICE_granada_munya_vacation_private_relaxation_intent_header: "휴식:" # 14517665651769141762
+  RICE_granada_munya_vacation_private_relaxation_intent: "휴식:" # 5134121907771394555
+  RICE_granada_munya_vacation_private_relaxation_intent_desc: "그대는 즐기는 데 집중해야 합니다. [stress_loss_i|E] [stress|E]를 더 많이 잃게 될 것이 보장되지만, 특히 그대가 [GetTrait('shy').GetName( GetNullCharacter )]이거나 [GetTrait('lazy').GetName( GetNullCharacter )]라면 더 많이 잃을 것입니다." # 10132375554890645271
+  RICE_granada_munya_vacation_private_reflection_intent_header: "성찰:" # 4799668519324180864
+  RICE_granada_munya_vacation_private_reflection_intent: "성찰:" # 12220348886003664520
+  RICE_granada_munya_vacation_private_reflection_intent_desc: "당신은 자신과 주변 세상을 성찰하고자 합니다. 당신은 [lifestyle|E]에서 [experience|E]를 얻을 것이며(다른 획득량에 더하여), 무작위 [skill|E]가 소폭 상승할 기회를 얻습니다. 또한, 당신이 [GetTrait('diligent').GetName( GetNullCharacter )] 특성을 가지고 있다면 [stress_loss_i|E] [stress|E]를 잃게 됩니다." # 568383707215443843
+  RICE_granada_munya_vacation_private_exploration_intent_header: "탐험:" # 14028941020513613386
+  RICE_granada_munya_vacation_private_exploration_intent: "탐험:" # 2219605389171111452
+  RICE_granada_munya_vacation_private_exploration_intent_desc: "다른 방해꾼 없이, 그대는 자신의 속도에 맞춰 주변 명소를 둘러볼 수 있습니다. 그대는 [prestige_i|E] #V 100#!와 [activity|E] 종료 시 [GetModifier('RICE_granada_explored_munya').GetNameWithTooltip] [modifier|E]를 얻게 됩니다. 또한 그대가 [GetTrait('brave').GetName( GetNullCharacter )]라면 [stress_loss_i|E] [stress|E]를 잃을 것입니다." # 3720485180904778344
+  RICE_granada_munya_vacation_private_completed_log_title: "문야 휴가 종료됨" # 9785185434686986389
+  RICE_granada_munya_vacation_private_completed_log: "[CHARACTER.GetShortUINamePossessive|U]의 [munya|E]에서의 휴가가 [PROVINCE.GetBaronyNameExplicitly]에서 끝났습니다" # 4840826030250226493
+  RICE_granada_munya_vacation_private_farms_log_title: "농업 통찰력" # 15559947112990697462
+  RICE_granada_munya_vacation_private_farms_log: "[CHARACTER.GetShortUIName|U]가 [CHARACTER.GetHerHis] [munya|E]에서 [CHARACTER.GetHerHis] 참모들과 작물 수확량에 대해 논의했습니다." # 17588868704801924271
+  RICE_granada_munya_vacation_private_food_log_title: "$RICE_granada_munya_vacation_private_farms_log_title$" # 11198482425915597406
+  RICE_granada_munya_vacation_private_food_log: "[CHARACTER.GetShortUIName|U]께서 [CHARACTER.GetHerHis] [munya|E]에서 [CHARACTER.GetHerHis] 직원들과 음식 준비에 대해 논의하셨습니다." # 8213216816372521468
+  RICE_granada_munya_vacation_private_plants_log_title: "식물학적 통찰" # 6029506004322772784
+  RICE_granada_munya_vacation_private_plants_log: "[CHARACTER.GetShortUIName|U]는 [CHARACTER.GetHerHis] [munya|E]에서 [CHARACTER.GetHerHis] 신하들과 장식용 식물에 대해 논의했습니다." # 556917201536184105
+  RICE_granada_munya_vacation_private_medicine_log_title: "식물학적 통찰" # 6029506004322772784
+  RICE_granada_munya_vacation_private_medicine_log: "[CHARACTER.GetShortUIName|U]께서 [CHARACTER.GetHerHis] [munya|E]에서 [CHARACTER.GetHerHis] 직원들과 약초에 대해 논의하셨습니다." # 4731904673212260330
+  RICE_granada_munya_vacation_private_chill_log_title: "아무것도 하지 않는 날" # 14489535685657005062
+  RICE_granada_munya_vacation_private_chill_log: "[CHARACTER.GetShortUIName|U]께서는 [CHARACTER.GetHerHis] [munya|E]에서 아무것도 하지 않으셨습니다. – [CHARACTER.GetSheHe]께서는 정말 편안하신가 봅니다!" # 18245066571458835599
+  TRAVEL_NAME_FOR_activity_RICE_granada_munya_vacation_private: "[Character.GetFirstNamePossessiveNoTooltip] $activity_RICE_granada_munya_vacation_private$" # 1546551611763485321
+  activity_RICE_granada_munya_vacation_group: "문야에서의 단체 휴가" # 10080179606600403206
+  activity_RICE_granada_munya_vacation_group_desc: "$activity_RICE_granada_munya_vacation_private_desc$" # 13941359267464675084
+  activity_RICE_granada_munya_vacation_group_selection_tooltip: "[munya|E]로 사람들과 함께 휴가를 떠나십시오.\n\n$RICE_granada_alhambra_munya_estate_context_tooltip$" # 15276630830903988692
+  activity_RICE_granada_munya_vacation_group_host_desc: "$BULLET_WITH_TAB$ [prestige_i|E] [prestige|E]\n$BULLET_WITH_TAB$ 초대받은 이들의 주최자에 대한 [opinions|E] 개선\n$BULLET_WITH_TAB$ [stress_loss_i|E] [stress|E] 감소 (개인적인 휴가보다는 훨씬 적은 양이지만)\n$BULLET_WITH_TAB$ #P 유익한#! [character_modifiers|E]와 같은 기타 이점" # 18313485008103210994
+  activity_RICE_granada_munya_vacation_group_guest_desc: "$activity_RICE_granada_munya_vacation_group_host_desc$" # 549536819589626995
+  activity_RICE_granada_munya_vacation_group_province_desc: "\n#P ++ 귀하는 주요 [holdings|E]가 없는 한적한 시골 지역에 [munya|E]를 소유하고 있습니다.#!\n\n#italic 이 지역은 다른 잠재적인 장소에 비해 더 많은 [stress_loss_i|E] [stress|E] 손실로 이어질 것입니다.#!" # 8184621889601786086
+  activity_RICE_granada_munya_vacation_group_destination_selection: "$activity_RICE_granada_munya_vacation_group_province_desc$" # 8220398440661485238
+  activity_RICE_granada_munya_vacation_group_guest_help_text: "$activity_RICE_granada_munya_vacation_group$" # 12314408637752853350
+  activity_RICE_granada_munya_vacation_group_predicted_cost: "[munya|E] 휴가의 비용은 선택하는 [activity_options|E]에 따라 달라집니다." # 6745626616417306222
+  activity_RICE_granada_munya_vacation_group_conclusion_desc: "[GetActivityType( 'activity_RICE_granada_munya_vacation_group' ).GetName]이 끝났습니다. 관련된 모든 이들에게 즐거운 경험이었기를 바랍니다!" # 17401358616695449946
+  RICE_granada_munya_vacation_group_type: "휴가 유형" # 17262487772910833322
+  RICE_granada_munya_vacation_group_type_party: "지속적인 파티" # 16583770069495618959
+  RICE_granada_munya_vacation_group_type_party_desc: "$EFFECT_LIST_BULLET$ [activity|E] 종료 시 다른 보너스 외에 추가로 [prestige_i|E] [prestige|E] 획득\n$EFFECT_LIST_BULLET$ 귀하의 [diplomacy|E]와 [intrigue|E]에 따라 [GetModifier('RICE_granada_munya_vacation_famed_partier').GetNameWithTooltip] 획득 확률 증가\n\n#weak 부유한 귀족들이 문명과 떨어진 한곳에 모여 풍부한 음식과 술을 즐기며 서로를 만납니다. 광란의 밤이 될 수도 있겠군요!#!" # 15072335458339749725
+  RICE_granada_munya_vacation_group_type_gardens: "정원과 전망" # 12014509160436248167
+  RICE_granada_munya_vacation_group_type_gardens_desc: "$EFFECT_LIST_BULLET$ [activity|E] 종료 시 다른 보너스 외에 추가로 [prestige_i|E] [prestige|E] 및 [piety_i|E] [piety|E] 획득 (다른 [activity_options|E]의 절반만큼)\n$EFFECT_LIST_BULLET$ [diplomacy|E]와 [stewardship|E]에 따라 [GetModifier('RICE_granada_munya_vacation_famed_gardens').GetNameWithTooltip] 획득 확률 증가\n\n#weak 실로 이 화려한 온실, 비닐하우스, 계단식 정원, 조경 등은 비할 데가 없으며 지상낙원이라 할 수 있겠도다!#!" # 14378870033041628084
+  RICE_granada_munya_vacation_group_type_poetry: "시인과 지식인들" # 3057879710878081517
+  RICE_granada_munya_vacation_group_type_poetry_desc: "$EFFECT_LIST_BULLET$ [activity|E] 종료 시 다른 보너스 외에 [piety_i|E] 만큼의 [piety|E] 획득\n$EFFECT_LIST_BULLET$ 당신의 [diplomacy|E]와 [learning|E]에 따라 [GetModifier('RICE_granada_munya_vacation_famed_intellectual').GetNameWithTooltip] 획득 확률 증가\n\n#weak 창의적이고 사려 깊으며 지적인 이들과 어울리는 통치자는 분명 그들과 같을 것입니다... 적어도 그렇게 되려고 노력하고 있겠죠.#" # 7413118072649290833
+  RICE_granada_munya_vacation_group_length: "$RICE_granada_munya_vacation_private_length$" # 17378043044168526980
+  RICE_granada_munya_vacation_group_length_short: "$RICE_granada_munya_vacation_private_length_short$" # 11833560028574664870
+  RICE_granada_munya_vacation_group_length_short_desc: "$EFFECT_LIST_BULLET$ [munya|E] 휴가는 #V 1#! 주간 지속됩니다.\n$EFFECT_LIST_BULLET$ 휴가가 길어질수록 당신과 당신의 손님들은 [prestige_i|E] [prestige|E] 및/또는 [piety_i|E] [piety|E]를 더 많이 얻고, [stress_loss_i|E] [stress|E]를 더 많이 잃게 됩니다.\n\n#weak 모두가 바쁜 삶을 살고 있으니, 모두에게 불편을 주지 않도록 비교적 짧은 휴가가 될 것입니다.#" # 1715979493138610022
+  RICE_granada_munya_vacation_group_length_medium: "$RICE_granada_munya_vacation_private_length_medium$" # 9167747719593199572
+  RICE_granada_munya_vacation_group_length_medium_desc: "$EFFECT_LIST_BULLET$ [munya|E] 휴가는 #V 1#! 달간 지속됩니다\n$EFFECT_LIST_BULLET$ 휴가가 길어질수록 귀하와 손님들의 [prestige_i|E] [prestige|E] 및/또는 [piety_i|E] [piety|E] 획득량과 [stress_loss_i|E] [stress|E] 감소량이 증가합니다.\n\n#weak 좋은 사람들과 함께 충분한 시간을 보내며 휴식하는 것보다 더 큰 기쁨이 있을까요!#" # 14660108424123754640
+  RICE_granada_munya_vacation_group_length_long: "$RICE_granada_munya_vacation_private_length_long$" # 8740739809902677763
+  RICE_granada_munya_vacation_group_length_long_desc: "$EFFECT_LIST_BULLET$ [munya|E] 휴가는 #V 3#! 달간 지속됩니다.\n$EFFECT_LIST_BULLET$ 더 긴 휴가는 귀하와 귀하의 손님들에게 [prestige_i|E] [prestige|E] 및/또는 [piety_i|E] [piety|E] 증가와 [stress_loss_i|E] [stress|E] 감소를 가져옵니다.\n\n#weak 책임은 잊어라! 의무도 잊어라! 누가 가능한 한 오랫동안 즐거운 시간을 보내고 싶지 않겠는가?!#" # 13272625651755564982
+  RICE_granada_munya_vacation_group_vacation_phase: "$RICE_granada_munya_vacation_private_vacation_phase$" # 6505345205254835869
+  RICE_granada_munya_vacation_group_vacation_phase_desc: "$RICE_granada_munya_vacation_private_vacation_phase_desc$" # 10168921305881201162
+  RICE_granada_munya_vacation_group_merriment_intent_header: "흥겨움:" # 6355099683143977292
+  RICE_granada_munya_vacation_group_merriment_intent: "흥겨움:" # 18239350960100302266
+  RICE_granada_munya_vacation_group_merriment_intent_desc: "당신은 이곳에서 #italic 정말#! 즐거운 시간을 보내고 싶어 하는군요. 추가적인 [stress_loss_i|E] [stress|E]를 잃게 될 것입니다. 만약 당신이 [GetTrait('gluttonous').GetName( GetNullCharacter )], [GetTrait('gregarious').GetName( GetNullCharacter )]이거나 [GetTrait('lustful').GetName( GetNullCharacter )]라면, 훨씬 더 많은 [stress_loss_i|E] [stress|E]를 잃게 될 것입니다." # 12376178039248979863
+  RICE_granada_munya_vacation_group_reputation_intent_header: "명성:" # 6075904094411210055
+  RICE_granada_munya_vacation_group_reputation_intent: "명성:" # 4914268119379995417
+  RICE_granada_munya_vacation_group_reputation_intent_desc: "당신은 이러한 [munya|E] 모임에서 즐거운 사람으로 알려지기를 원합니다. 이미 얻은 것 외에 추가 [prestige_i|E] [prestige|E]를 얻으십시오. 만약 당신이 [GetTrait('ambitious').GetName( GetNullCharacter )], [GetTrait('diligent').GetName( GetNullCharacter )]이거나 [GetTrait('arrogant').GetName( GetNullCharacter )]라면 [stress_loss_i|E] [stress|E]를 잃게 됩니다." # 9348724355694788593
+  RICE_granada_munya_vacation_group_completed_log_title: "문야 휴가 종료됨" # 9785185434686986389
+  RICE_granada_munya_vacation_group_completed_log: "[CHARACTER.GetShortUIName|U]께서 [CHARACTER.GetHerHis] [munya|E]에서 주최하신 단체 휴가가 [PROVINCE.GetBaronyNameExplicitly]에서 끝났습니다." # 1066029995865383944
+  TRAVEL_NAME_FOR_activity_RICE_granada_munya_vacation_group: "[Character.GetFirstNamePossessiveNoTooltip] $activity_RICE_granada_munya_vacation_group$" # 10436001381932138048
+  RICE_granada_munya_vacation_length_desc: "휴가 기간" # 15807456725632011311
+  RICE_granada_garnata_al_yahud_tensions: "그라나타 알-야후드의 긴장감" # 4713174250932438904
+  RICE_granada_garnata_al_yahud_tensions_desc: "전설에 따르면 그라나다는 수 세기 전 유대인 망명자들에 의해 세워졌다고 합니다. 도시 인구의 상당수가 유대인이기에, 아랍어로 이 도시는 종종 '가르나타 알-야후드'\"유대인의 그라나\")라고 불립니다. 이제 그라나다가 지역 중심지로서 일비라를 대체하면서 다른 집단들도 정착했는데, 이들과 유대인 사이에 긴장이 조성되고 있습니다. 일부는 언젠가 유대인에 대한 폭력이 터질까 두려워하고 있습니다.\n\n#italic 이 [county_modifier|E]가 활성화되어 있는 동안, 그라나다 [county|E]의 [rulers|E]는 가끔 재능 있는 유대인 궁정 인사를 맞이하여 그들의 궁정에 봉사하게 할 수 있습니다. 하지만, 머지않아 지역 주민들 사이에서 반유대주의 감정이 최고조에 달할 수도 있습니다...!#" # 12669290606210413132
+  RICE_granada_garnata_al_yahud_jews_dominant: "가르나타 알-야후드 내 유대교 영향력" # 8461386389597171924
+  RICE_granada_garnata_al_yahud_jews_dominant_desc: "전설에 따르면 그라나다는 수 세기 전 유대인 망명자들에 의해 세워졌다고 합니다. 도시 인구의 상당 부분이 유대인이기 때문에 아랍어로 이 도시는 종종 '가르나타 알-야후드'\"유대인의 그라나\")라고 불립니다. 비록 사소한 긴장이 때때로 불거지기는 하지만, 역사적 및 현재의 여러 추세로 인해 이 도시는 유대인의 안식처로 알려져 있으며, 유대인 귀족들은 이 지역 지도부에 막대한 영향력을 행사하고 있습니다.\n\n#italic 이 [county_modifier|E]가 활성화되어 있는 동안, 그라나다 [county|E]의 [rulers|E]는 때때로 재능 있는 유대인 궁정 신하들을 맞이하여 그들의 궁정에 봉사하게 할 수 있습니다#!" # 7011944157884919278
+  RICE_granada_garnata_al_yahud_jews_accepted: "#bold 유대인 수용# 가르나타 알-야후드" # 7180295590983525362
+  RICE_granada_garnata_al_yahud_jews_accepted_desc: "전설에 따르면 그라나다는 수세기 전 유대인 망명자들에 의해 세워졌다고 합니다. 도시 인구의 상당 부분이 유대인들이기에, 아랍어로 이 도시는 종종 '가르나타 알-야후드'\"유대인의 그라나\")라고 불립니다. 비록 역사적 및 현재의 여러 추세로 인해 사소한 긴장이 때때로 불거지기는 하지만, 유대인들은 그라나다 사회의 용인된 일부가 되었으며 아마도 계속 머무를 것입니다.\n\n#italic 이 [county_modifier|E]가 활성화되어 있는 동안, 그라나다 [county|E]의 [rulers|E]는 가끔 재능 있는 유대인 궁정 인사를 맞이하여 그들의 궁정에 봉사하게 할 수 있습니다#!" # 5044558324854341470
+  RICE_granada_transferred_to_granada: "그라나다의 새로운 권력 중심지" # 6356573369474187108
+  RICE_granada_transferred_to_granada_desc: "이 지역의 옛 세력 기반이었던 일비라는 평지에 위치하여 방어에 적합하지 않았습니다. 지형이 더 험준한 그라나다가 훨씬 방어하기 좋습니다. 지역 당국은 이곳으로 지역 권력의 중심지를 옮기기 시작했습니다." # 8465644261424067614
+  RICE_granada_lingering_tensions_light: "지속되는 반유대주의 감정" # 528128724308288008
+  RICE_granada_lingering_tensions_light_desc: "그라나다는 수 세대 동안 수많은 유대인의 고향이었으며, 그들 중 다수가 도시의 저명한 관리로 재직하고 있습니다. 최근 유대인에 대한 반감이 극에 달해 불필요한 죽음으로 이어질 뻔했으나, 지역 당국이 능숙한 외교술을 발휘하여 상황이 걷잡을 수 없이 악화되기 전에 질서를 회복했습니다. 비유대인들과 유대인 이웃들 사이에 여전히 긴장이 남아있기는 하지만, 그라나다의 유대인들은 비극을 피할 수 있었던 것에 안도하고 있으며, 이 도시는 (상대적인) 관용의 안식처라는 명성 덕분에 멀리서 유대인들을 끌어들이고 있습니다." # 5646111927054382270
+  RICE_granada_lingering_tensions_high: "지대한 반유대주의 잔존 감정" # 7766397358152430973
+  RICE_granada_lingering_tensions_high_desc: "그라나다는 여러 세대 동안 많은 유대인의 고향이었으며, 그들 중 다수가 도시의 유력한 관리로 재직하고 있습니다. 최근, 반유대주의 감정이 폭발 직전에 이르러 불필요한 죽음이 다수 발생할 뻔했으나, 지역 당국이 상황이 악화되기 전에 무력을 사용하여 질서를 회복했습니다. 비유대인들과 그들의 유대인 이웃들 사이의 긴장은 현재 가라앉았지만, 완전히 사라진 것은 아닙니다. 적어도 아직은 말이죠." # 11070956520886722788
+  RICE_granada_pogrom_happened: "그라나다에서의 포그롬" # 2956937434755357526
+  RICE_granada_pogrom_happened_desc: "그라나다는 수 세대 동안 수많은 유대인들의 고향이었으며, 그들 중 다수가 도시에서 저명한 관리로 활동했습니다. 최근 유대인 혐오 감정이 극에 달하여 폭도들이 도시의 적들과 공모했다는 혐의를 받은 저명한 유대인 행정관을 살해한 후, 도시의 유대인 거주지로 몰려가 발견하는 모든 유대인을 학살했습니다. 유대인 생존자들은 다른 곳으로 피신했고, 이 폭력 사태로 인해 도시의 경제와 안정성이 심각하게 훼손되었습니다." # 4954036005217867933
+  RICE_opinion_saved_me_from_mob: "폭도들에게서 나를 구해주었네" # 7878331852400432600
+  RICE_granada_built_rawda: "최근에 라우다 영묘를 건설했습니다." # 17656041288300637025
+  RICE_granada_built_comares_palace: "최근에 지어진 코마레스 궁전" # 12691485676478167788
+  RICE_granada_built_court_of_the_lions: "최근 사자의 궁정을 건설했습니다" # 3497254203315230519
+  RICE_granada_built_generalife: "최근에 제네랄리페를 건설했습니다." # 16867446436873678576
+  RICE_granada_built_house_of_worship: "알함브라 예배당을 최근에 건설했습니다." # 7906978574389629684
+  RICE_granada_built_generic_palatial: "알함브라에 호화로운 저택을 최근에 건축했습니다" # 7844104829146476482
+  RICE_granada_built_generic_recreational: "알함브라의 최근에 지어진 정원" # 6565722143904918048
+  RICE_granada_built_generic_military: "알함브라의 최근 건설된 요새들" # 1512565402459755373
+  RICE_granada_munya_insights_farmland: "# Munya (작물 수확량) 에 대한 통찰" # 1055511725614338971
+  RICE_granada_munya_insights_farmland_desc: "이 백작령의 통치자는 최근 알안달루스 시골에 있는 안달루시아 귀족들이 소유한 영지인 [munyas|E] 중 한 곳에서 휴가를 보냈습니다. 그들의 별장에 머무는 동안, 통치자는 이 [munya|E]의 학자들이 수행하고 있던 실험과 연구에 기반한 농경술의 최근 발전에 대해 알게 되었고, 이 지식이 그들의 영지에서 농업 생산량을 개선하는 데 어떻게 도움이 될 수 있을지 알게 되었습니다." # 15319803499613136454
+  RICE_granada_munya_insights_foodstuffs: "# Munya (음식 준비) 통찰력 #" # 7054191614770308759
+  RICE_granada_munya_insights_foodstuffs_desc: "이 인물은 최근 알안달루스 시골에 있는 안달루시아 귀족들이 소유한 영지인 [munyas|E] 중 한 곳에서 휴가를 보냈습니다. 이 빌라에 머무는 동안, 이 인물은 이 [munya|E]의 정원사와 요리사들이 특정 작물이나 식재료를 수확하고 그것들을 맛있게 식사용으로 준비하는 새롭고 흥미로운 방식을 알게 되었습니다." # 3050270276320550543
+  RICE_granada_munya_insights_ornamental_plants: "# Munya (장식용 식물)에 대한 통찰#" # 10217421843263576932
+  RICE_granada_munya_insights_ornamental_plants_desc: "이 인물은 최근 알안달루스의 시골에 있는 안달루시아 귀족 소유의 영지인 [munyas|E] 중 한 곳에서 휴가를 보냈습니다. 이 별장에 머무는 동안, 이 인물은 자신의 정원사들이 정원의 아름다운 꽃과 식물을 전시할 새로운 방법을 발명했거나, 심지어 정원에 새로운 이국적인 식물 종을 통합하기 시작했다는 사실을 알게 되었습니다." # 11882219161477041275
+  RICE_granada_munya_insights_medicine: "#Munya (약초) 에 대한 통찰#" # 10118019685512259950
+  RICE_granada_munya_insights_medicine_desc: "이 인물은 최근 알안달루스 시골에 있는 안달루시아 귀족들이 소유한 영지인 [munyas|E] 중 한 곳에서 휴가를 보냈습니다. 이 별장에 머무는 동안, 이 인물은 [munya|E]에서 실험하도록 후원했던 학자들이 정원에서 자라는 특정 허브와 식물에 대한 새롭고 유용한 응용법을 최근 알게 되었다는 사실을 알게 되었습니다." # 12793582724187176245
+  RICE_granada_munya_vacation_famed_gardens: "유명한 문야 정원" # 12458087838792045906
+  RICE_granada_munya_vacation_famed_gardens_desc: "이 인물의 [munyas|E], 즉 알안달루스의 시골 별장들은 이베리아 전역에서 비할 데 없이 정교하고 심지어 마법적인 모습의 정원으로 가득 차 있다는 명성을 얻었습니다." # 10379945729653696096
+  RICE_granada_munya_vacation_famed_intellectual: "저명한 문야 지식인들" # 9754833707395030895
+  RICE_granada_munya_vacation_famed_intellectual_desc: "이 인물의 [munyas|E], 즉 알안달루스의 시골 별장은 학자, 시인 및 기타 지적인 남녀들이 모여 위대한 지적 및 문학적 담론을 나누는 장소로 명성을 얻었습니다." # 10351412735898665926
+  RICE_granada_munya_vacation_famed_partier: "유명한 문야 연회" # 14947238293504217032
+  RRICE_granada_munya_vacation_famed_partier_desc: "이 인물의 [munyas|E], 즉 알안달루스의 시골 별장은 놀라운 파티로 명성을 얻었습니다. 이 인물의 시골 나들이에 초대받을 행운을 누린 귀족들은 분명 즐거운 시간을 보낼 것입니다!" # 4553166249516963820
+  RICE_granada_vacationed_at_a_munya: "최근에 [munya|E]에서 휴가를 보냈습니다." # 4287015656415422280
+  RICE_granada_almeria_silk_industry: "이베리아 비단 제조 중심지" # 1235682328951889725
+  RICE_granada_almeria_silk_industry_desc: "알메리아는 코르도바에서 비단 산업이 쇠퇴한 이후 이베리아 반도 비단 생산의 주요 중심지입니다. 이곳에는 비단 직조업이 확고히 자리 잡고 있으며, 알메리아는 안달루시아 남부의 다른 비단 생산 중심지와도 가깝습니다. 이 도시는 또한 서부 지중해에서 가장 큰 항구 중 하나이며, 그 비단은 널리 유통됩니다. 알메리아산 비단은 전설적이어서 유럽과 북아프리카 전역에서 찬양받고 탐내는 대상입니다." # 4392837518633157816
+  RICE_granada_invested_in_almeria_silks: "알메리아산 비단에 투자했습니다" # 13218734441432542660
+  RICE_granada_invested_in_almeria_silks_desc: "이 인물은 알메리아의 비단 산업을 발전시키는 데 큰 역할을 하여, 알메리아가 이베리아 반도 비단 생산의 주요 중심지로서 코르도바를 추월하게 만들었습니다." # 2646623802081492033
+  RICE_granada_granadan_jew: "그라나다 유대인" # 8443964175571713610
+  RICE_granada_granadan_jew_desc: "이 유대인 인물은 이베리아 유대교의 주요 중심지였던(혹은 현재인) 그라나다의 유대인 공동체에서 태어나고 자랐으며, 그곳에서 정치, 문학 등 여러 예술 분야의 많은 것을 배웠습니다." # 6319522100825121806
+  RICE_granada_silk_good: "지역 비단 산업 번창" # 4132721983963990348
+  RICE_granada_silk_bad: "지역 비단 산업에 문제가 발생했습니다" # 11701996693681764976
+  RICE_granada_eating_eggplant_sticks: "전통적인 그라나다식 가지 튀김 스틱을 즐깁니다." # 13269871755408818351
+  RICE_granada_eating_orange_olive_oil_salad: "전통적인 그라나다식 오렌지 및 올리브유 요리를 즐깁니다." # 3650936372840865448
+  RICE_granada_canal_agriculture: "그라나다에 농업용 새 수로 건설" # 15542169732585373037
+  RICE_granada_canal_baths: "그라나다에 공중목욕탕과 우물을 위한 새로운 수로" # 3315779125057473514
+  RICE_granada_canal_gardens: "그라나다에 정원과 분수를 위한 새로운 수로" # 1906262505860565686
+  RICE_granada_canal_repairs: "그라나다 주요 수로의 최근 보수 공사" # 15822760437187054229
+  RICE_granada_canal_disrepair: "심각하게 훼손된 그라나다의 중요 운하" # 12901915450005692080
+  RICE_granada_recent_industrial_sector_insights: "그라나다의 산업 부문에 대한 통찰" # 11806278277772862621
+  RICE_granada_hired_jew: "유대인 관리를 고용했습니다" # 16845052294151960755
+  RICE_granada_disapproves_of_munya_vacation: "내 휴가 계획에 불만족함" # 9577852439958156746
+  RICE_granada_frivolous_munya_ruler: "경박하고 휴가를 즐기는 통치자" # 3667861897220635511
+  RICE_granada_munya_well_rested: "#bold 문야 휴가# 덕분에 푹 쉬었습니다" # 869082631232058212
+  RICE_granada_munya_vacation_relaxing_conversations: "#munya_excursion_relaxing_conversations#" # 13779504918438477661
+  RICE_granada_munya_vacation_relaxing_gardens: "문야 정원 관람을 즐겼습니다" # 1856921321064213670
+  RICE_granada_munya_vacation_won_debates: "#munya_excursion_intellectual_debate#에서 펼쳐지는 계몽적인 지적 토론" # 6188793594603317124
+  RICE_granada_munya_vacation_won_poetry_contests: "#bold 뭉야 유람#에서 시 대회 우승함" # 9326857189932270368
+  RICE_granada_munya_vacation_good_readings: "문야 도서관에서 좋은 책을 찾았습니다" # 17426744742975815367
+  RICE_granada_munya_vacation_chess_matches: "#bold 뭄냐 유람에서의 재미있는 체스 대국#" # 5922976816430762334
+  RICE_granada_enjoyed_munya_vacation_great: "#bold 단체 휴가#에 초대받음" # 7949736396756887598
+  RICE_granada_enjoyed_munya_vacation: "단체 휴가에 나를 초대함" # 3255268338794117339
+  RICE_granada_tower_of_cadiz: "카디스의 우상" # 13263663739629531596
+  RICE_granada_tower_of_cadiz_desc: "카디스 항구 도시 연안에는 고대의 거대한 탑이 있으며, 이 탑 꼭대기에는 턱수염을 기른 망토를 두른 남자를 묘사한 귀금속으로 만든 신비로운 조각상이 있습니다. 이 탑과 조각상을 누가 세웠는지 정확히 아는 사람은 없지만, 박식한 학자들은 고대에 헤라클레스나 알렉산더 대왕이 세웠다고 주장합니다. 어쨌든, 현지 주민들은 그 조각상을 두려움과 경이로움으로 바라보며, 그것이 자신들을 보호하거나 위험을 경고하는 부적과 같은 힘을 지니고 있다고 믿습니다.\n\n#italic [gold|E]가 필요한 [ruler|E]는 $RICE_granada_demolish_idol_cadiz$ [decision|E]를 내릴 수 있지만, 지역 전설에 따르면 그런 짓을 감행하는 자에게는 큰 재앙이 닥친다고 하니 그러한 유혹을 조심해야 할 것입니다.#!" # 6896271445521659059
+  RICE_granada_cadiz_idol_character_curse: "카디스 우상 저주" # 4302167590227646951
+  RICE_granada_cadiz_idol_character_curse_desc: "사람들은 이 인물이 카디스의 고대 우상을 녹여 돈을 벌려고 파괴하라고 명령한 탐욕스러운 바보였다고 말합니다. 이제 소문에 따르면 이 인물은 그 근시안적인 행동과 초월적인 것에 대한 무례함 때문에 연이은 불운에 시달리고 있다고 합니다." # 166054786970688280
+  RICE_granada_cadiz_idol_county_curse: "카디스 우상 저주" # 4302167590227646951
+  RICE_granada_cadiz_idol_county_curse_desc: "당국은 최근 고대 카디스 우상을 파괴하여 녹여 돈을 만들었습니다. 지역 전설에 따르면 그 우상이 파괴되면 카디스에 불행이 닥쳐 아무도 그곳의 바다에 들어갈 수 없게 된다고 합니다. 비록 그 일이 실제로 일어나지는 않았지만, 다른 사소한 재앙들이 발생했습니다. 이것이 정말 우연일까요, 아니면 미신을 믿는 현지인들의 불안과 걱정이 정당한 것일까요?" # 8267836087677959891
+  RICE_granada_inspected_canals: "최근 그라나다의 운하를 시찰함" # 9304732624216016197
+  RICE_granada_explored_munya: "현지 무냐 주변 탐험" # 14014057294697003192
+  RICE_granada_hafsa_mourning: "아부 자파르를 애도하며" # 6665077450425383611
+  RICE_granada_hafsa_mourning_desc: "시인 하프사는 당시 그라나다 총독이었던 아부 사이드 우트만의 궁정 관료였던 사랑하는 시인 아부 자파르의 죽음을 아직도 애도하고 있습니다. 아아, 질투심 많은 총독이 아름다운 하프사를 탐하여 두 사람 사이에 갈등이 생겼고, 결국 아부 자파르는 처형당했습니다." # 15807649436617528423
+  RICE_granada_alhambra_decision: "알함브라를 확장하십시오" # 13224511367539387758
+  RICE_granada_alhambra_decision_tooltip: "알함브라가 확장되는 알함브라의 필요를 충족시키기 위해 확장하고 있습니다." # 7801477903967858307
+  RICE_granada_alhambra_decision_desc: "[alhambra|E]는 숨 막힐 듯한, 비할 데 없는 숭고함의 궁전으로 전 세계에 알려져 있지만, 언제나 개선의 여지는 있는 법입니다. 어쩌면 이 지상의 낙원에 걸맞은 추가물이 필요할지도 모르겠군요...." # 16707570848347168323
+  RICE_granada_alhambra_decision_effect_tooltip_1: "각 [alhambra_structure|E]는 서로 다른 비용을 가집니다 #weak (최소 비용: @gold_icon! 100)#!" # 44961584071014232
+  RICE_granada_alhambra_decision_effect_tooltip_2: "선택하신 [alhambra_structure|E]는 완공에 1년에서 5년이 소요될 것입니다. 완공되면 그라나다 [county|E]의 [ruler|E]는 선택에 따라 [piety|E]나 새로운 [decisions|E] 잠금 해제와 같은 다양한 보너스를 받게 됩니다." # 10915281462388455961
+  RICE_granada_alhambra_decision_effect_tooltip_3: "이 [decision|E]는 평생에 단 #bold 한 번#만 내릴 수 있습니다(높은 [stewardship|E]나 [learning|E]를 보유한 경우 두 번 가능). 그러니 무엇을 건설할지 현명하게 선택하십시오!" # 2040624714374645809
+  RICE_granada_alhambra_pick_a_structure_type: "건설할 것을 선택하십시오" # 975101779126915664
+  RICE_granada_alhambra_pick_a_structure_type_gui: "[alhambra|E]에 어떤 [alhambra_structure|E]를 추가할지 선택하십시오." # 3026905648380962358
+  RICE_granada_alhambra_decision_confirm: "이제 작업을 시작할 시간입니다!" # 11417123269087101733
+  RICE_granada_alhambra_decision_context_tooltip: "#emphasis 역사적 배경:#! 알함브라 궁전(아랍어 #italic 알-함라#!,\"붉은 \"을 의미)은 그라나다 나스르 왕조의 궁전이자 요새 단지였으며, 중세 무어 건축의 정수였습니다. 자급자족하는 도시로서 목욕탕과 모스크 같은 자체 편의 시설을 갖추고 있었으며, 13세기부터 15세기까지 나스르 왕조에 의해 지속적으로 확장되었습니다. 알함브라 궁전의 두드러진 특징 중 하나는 벽, 기둥, 분수 및 기타 표면의 상당수가 쿠란 구절이나 당시 시인들의 시로 아랍어 서예로 덮여 있다는 점입니다." # 8686745601095311935
+  RICE_granada_alhambra_not_done_already: "아직 [alhambra|E]를 확장하지 않았거나, 귀하의 [stewardship|E]나 [learning|E]가 15 이상임에도 불구하고 두 번 확장하지 않았습니다." # 15192644864903052634
+  RICE_granada_alhambra_currently_building: "[alhambra|E]에는 현재 건설 중인 [alhambra_structure|E]가 없습니다." # 2766710125112867609
+  RICE_alhambra_court_of_the_lions_option: "#bold 사자의 궁정#!" # 12007790829559324768
+  RICE_alhambra_court_of_the_lions_option_desc: "이베리아에서 비할 데 없는 궁정의 화려함" # 15338788452713219196
+  RICE_alhambra_court_of_the_lions_option_tooltip: "#V #bold 비용: @gold_icon! 250#!#!\n\n이 [alhambra_structure|E]가 완성되면 그라나다의 [ruler|E]에게 다음과 같은 보너스를 부여합니다:\n$EFFECT_LIST_BULLET$ @prestige_icon! 200\n$EFFECT_LIST_BULLET$ @dynasty_prestige_icon! 100\n$EFFECT_LIST_BULLET$ [GetModifier('RICE_granada_built_court_of_the_lions').GetNameWithTooltip] [modifier|E] (10년)\n$EFFECT_LIST_BULLET$ 향후 알함브라에 일반적인 증축을 할 때 모든 [rulers|E]에게 [prestige|E] 보너스 부여\n\n#weak 획기적이고 혁신적인 건축 요소를 갖춘 궁전으로, 안달루시아 건축 역사의 정점입니다. 정교하게 조각된 사자상이 있는 대리석 분수가 있는 중앙 안뜰부터 중요한 인물들의 그림 장면으로 칠해진 홀과 금고에 이르기까지, 이 궁전은 방문객들을 놀라게 하고 매료시킬 것이 분명합니다!#!" # 13244703607082492594
+  RICE_alhambra_comares_palace_option: "#bold 코마레스 궁전#!" # 11460897411390555580
+  RICE_alhambra_comares_palace_option_desc: "많은 이들을 감탄시킬 화려한 별채" # 8531664029919713044
+  RICE_alhambra_comares_palace_option_tooltip: "#V #bold 비용: @gold_icon! 250#!#!\n\n완성 시 이 [alhambra_structure|E]는 그라나다의 [ruler|E]에게 다음과 같은 보너스를 제공합니다:\n$EFFECT_LIST_BULLET$ @prestige_icon! 300\n$EFFECT_LIST_BULLET$ 10년간 [GetModifier('RICE_granada_built_comares_palace').GetNameWithTooltip] [modifier|E]\n$EFFECT_LIST_BULLET$ #bold $RICE_granada_alhambra_comares_baths$#! [decision|E] 사용 가능!\n\n#weak 여러 개의 경이로운 별관들로 이루어진 화려한 궁전 건축물로, 여기에는 거대한 반영 연못이 있는 무어의 정원, 왕좌의 역할을 하는 대사들의 홀, 그리고 이베리아에서 지어진 왕실 목욕탕 중 가장 크고 위대한 코마레스 목욕탕 등이 포함되어 있습니다!#!" # 3949797400630121818
+  RICE_alhambra_generalife_option: "#bold 헤네랄리페#!" # 16383548695176099981
+  RICE_alhambra_generalife_option_desc: "지극한 즐거움의 정원" # 13895099936029733611
+  RICE_alhambra_generalife_option_tooltip: "#V #bold 비용: @gold_icon! 250#!#!\n\n이 [alhambra_structure|E]가 완성되면 그라나다의 [ruler|E]에게 다음 보너스를 제공합니다:\n$EFFECT_LIST_BULLET$ @prestige_icon! 150\n$EFFECT_LIST_BULLET$ @piety_icon! 150\n$EFFECT_LIST_BULLET$ 10년 동안 [GetModifier('RICE_granada_built_generalife').GetNameWithTooltip] [modifier|E]\n$EFFECT_LIST_BULLET$ #bold $RICE_granada_admire_alhambra_gardens$#! [decision|E]를 수행했을 때의 보너스가 더 좋아집니다\n$EFFECT_LIST_BULLET$ [munya|E] [activities|E] 비용이 저렴해집니다\n\n#weak 이 [alhambra_structure|E]는 안달루시아에서 유행했던 시골 별장인 [munya|E]의 역할을 하는 여름 별궁입니다. 이 저택은 알함브라 본채 옆 맞은편 언덕에 자리하고 있으며, 정원이 있어 알함브라의 다른 부분보다도 더욱 천국처럼 느껴지게 합니다.#" # 7752786982074058454
+  RICE_alhambra_rawda_option: "#bold 라우다 영묘#!" # 4185110237657135243
+  RICE_alhambra_rawda_option_desc: "행운아들을 위한 마지막 안식처" # 16490220689546706007
+  RICE_alhambra_rawda_option_tooltip: "#V #bold 비용: @gold_icon! 200#!#!\n\n이 [alhambra_structure|E]는 그라나다의 [ruler|E]가 완성될 때 다음과 같은 보너스를 제공합니다:\n$EFFECT_LIST_BULLET$ @piety_icon! 200\n$EFFECT_LIST_BULLET$ @dynasty_prestige_icon! 100\n$EFFECT_LIST_BULLET$ 10년 동안 [GetModifier('RICE_granada_built_rawda').GetNameWithTooltip] [modifier|E]\n$EFFECT_LIST_BULLET$ 향후 알함브라에 일반적인 확장을 건설할 때 모든 [rulers|E]에게 [dynasty_prestige|E] 보너스 제공\n\n#weak 고귀한 혈통을 지닌 자들을 위한 장엄한 묘지이며, 기존의 작고 황폐한 공동묘지를 대체합니다. 이 네크로폴리스는 조각된 회반죽과 타일 세공으로 장식된 직사각형 구조물로 이루어져 있습니다. 안으로 들어가려면 안뜰을 지나 작은 말굽 모양 아치형 문을 통과해야 합니다.#" # 5626877877552888336
+  RICE_alhambra_house_of_worship_option: "#bold 알함브라 [ROOT.Char.GetFaith.HouseOfWorship|U]#!" # 2505366458107016970
+  RICE_alhambra_house_of_worship_option_desc: "행운아들을 위한 마지막 안식처" # 16490220689546706007
+  RICE_alhambra_house_of_worship_option_tooltip: "#V #bold 비용: @gold_icon! 200#!#!\n\n이 [alhambra_structure|E]는 완공 시 그라나다의 [ruler|E]에게 다음과 같은 보너스를 제공합니다:\n$EFFECT_LIST_BULLET$ @piety_icon! 300\n$EFFECT_LIST_BULLET$ 10년 동안 [GetModifier('RICE_granada_built_house_of_worship').GetNameWithTooltip] [modifier|E]\n$EFFECT_LIST_BULLET$ [decision|E]를 통해 얻는 #bold $RICE_granada_alhambra_comares_baths$#! 보너스가 더 좋습니다\n$EFFECT_LIST_BULLET$ 향후 알함브라에 일반적인 확장을 건설할 때 모든 [rulers|E]에게 [piety|E] 보너스 제공\n\n#weak 알함브라라는 도시 속의 도시에 거주하는 이들을 위해 종교 의식을 제공하는 예배당입니다. 물론, 제공되는 종교 의식의 정확한 종류는 알함브라에 있는 권력자들의 종교적 소속에 따라 크게 달라질 것입니다.#" # 7514202004878422350
+  RICE_alhambra_generic_palatial_option: "#bold 일반적인 궁정 거처#!" # 2133240938315514507
+  RICE_alhambra_generic_palatial_option_desc: "비할 데 없는 안식처" # 15356851251327740763
+  RICE_alhambra_generic_palatial_option_tooltip: "#V #bold 비용: @gold_icon! 100#!#!\n\n이 [alhambra_structure|E]가 완성되면 그라나다의 [ruler|E]에게 다음 보너스를 부여합니다:\n$EFFECT_LIST_BULLET$ @prestige_icon! 100 (@prestige_icon! 200, 만약 [alhambra|E]에 사자의 궁정 [alhambra_structure|E]가 건설된 경우)\n$EFFECT_LIST_BULLET$ @piety_icon! 100 (@piety_icon! 200, 만약 [alhambra|E]에 알함브라 예배당 [alhambra_structure|E]가 건설된 경우)\n$EFFECT_LIST_BULLET$ @dynasty_prestige_icon! 50, 만약 [alhambra|E]에 라우다 영묘 [alhambra_structure|E]가 건설된 경우\n$EFFECT_LIST_BULLET$ 10년 동안 [GetModifier('RICE_granada_built_generic_palatial').GetNameWithTooltip] [modifier|E]\n\n#weak 알함브라의 더 유명한 부분들에 비해 덜 인상적이라 여겨지지만, 이 지역의 아름다움에 기여하는 더 작은 궁전, 홀, 정자 및 기타 구조물들이 여전히 많이 있습니다. 알함브라에 거주하거나 그곳을 지나는 일부 사람들에게는 이러한 덜 알려진 궁전들의 고요함과 매력 또한 결코 과소평가할 수 없습니다.#!" # 13413052970987626155
+  RICE_alhambra_generic_recreational_option: "#bold 일반적인 정원#!" # 10881896157496169756
+  RICE_alhambra_generic_recreational_option_desc: "이 세상에서 비할 데 없는 건축미로다" # 9357643182482205280
+  RICE_alhambra_generic_recreational_option_tooltip: "#V #Bold Cost: @gold_icon! 100#!#!\n\n이 [alhambra_structure|E]가 완성되면 그라나다의 [ruler|E]에게 다음과 같은 보너스를 제공합니다:\n$EFFECT_LIST_BULLET$ @piety_icon! 200 (@piety_icon! 300일 경우, [alhambra|E]에 알함브라 예배당 [alhambra_structure|E]이 건설되었을 때)\n$EFFECT_LIST_BULLET$ @prestige_icon! 100일 경우, [alhambra|E]에 사자의 궁정 [alhambra_structure|E]이 건설되었을 때\n$EFFECT_LIST_BULLET$ @dynasty_prestige_icon! 50일 경우, [alhambra|E]에 라우다 영묘 [alhambra_structure|E]이 건설되었을 때\n$EFFECT_LIST_BULLET$ 10년 동안 [GetModifier('RICE_granada_built_generic_recreational').GetNameWithTooltip] [modifier|E]\n\n#weak 또 하나의 정원이니, 무성한 녹색 식물과 마음을 달래주는 분수와 수로로 이루어진 섬세하게 빚어진 미궁이로다. 하지만 알함브라에서 정원이 흔한 풍경이듯, 하나하나가 알함브라가 실로 지상낙원이라는 확신을 더해줄 뿐이로다.#" # 14839256908208836926
+  RICE_alhambra_generic_military_option: "#bold 일반 요새#!" # 10071442254345733254
+  RICE_alhambra_generic_military_option_desc: "굳건한 요새를 위한 굳건한 방어 태세" # 6878824490638520461
+  RICE_alhambra_generic_military_option_tooltip: "#V #bold 비용: @gold_icon! 100#!#!\n\n이 [alhambra_structure|E]가 완성되면 그라나다의 [ruler|E]에게 다음과 같은 보너스를 제공합니다:\n$EFFECT_LIST_BULLET$ @prestige_icon! 200 (@prestige_icon! 300, 사자의 궁정 [alhambra_structure|E]가 [alhambra|E]에 건설된 경우)\n$EFFECT_LIST_BULLET$ @piety_icon! 100, 알함브라 예배당 [alhambra_structure|E]가 [alhambra|E]에 건설된 경우\n$EFFECT_LIST_BULLET$ @dynasty_prestige_icon! 50, 라우다 묘소 [alhambra_structure|E]가 [alhambra|E]에 건설된 경우\n$EFFECT_LIST_BULLET$ [GetModifier('RICE_granada_built_generic_military').GetNameWithTooltip] [modifier|E] (10년 동안)\n\n#weak 이러한 탑, 성벽, 병영, 지하 감옥 등은 알함브라가 아무리 아름답더라도 궁극적으로는 외부 침략으로부터 지역을 보호하기 위해 설계된 강력한 요새임을 모두에게 상기시켜 줍니다. 알함브라에서 통치하는 자들은 도시가 침략자들에게 함락되는 것을 원치 않는다면 이 사실을 명심하는 것이 좋을 것입니다.#" # 11339019740525546855
+  RICE_granada_transfer_seat_of_power: "일비라에서 그라나다로 이전" # 8526893974498919587
+  RICE_granada_transfer_seat_of_power_tooltip: "일비라는 방어하기 어렵지만... 그라나다는 방어할 만하지." # 3751021927919006116
+  RICE_granada_transfer_seat_of_power_desc: "일비라는 현재 그라나다 지역의 중심지입니다. 하지만 낮은 평원에 위치하여 방어하기 어렵습니다. 현재 늙은 유대인 공동체가 지배하고 있는 근처의 요새 도시인 그라나다는 더 높은 지대에 위치하여 훨씬 방어하기 좋은 곳입니다. 우리는 이 지역의 권력 중심지를 일비라에서 그라나다로 옮겨야 합니다." # 12287886550509214333
+  RICE_granada_transfer_seat_of_power_confirm: "우리가 고지를 점령할 것이다!" # 13765796459928953662
+  RICE_granada_transfer_seat_of_power_effect_tooltip_1: "[granada_county.GetNameNoTier]에 비유대인 가문들이 대거 이주하면 장기적으로 기존 유대인들과의 긴장을 유발할 수 있습니다." # 7043792318833799529
+  RICE_granada_transfer_seat_of_power_effect_tooltip_2: "저명한 유대인 [courtiers|E]는 [granada.GetNameNoTier]의 [ruler|E]의 [court|E]에 때때로 나타날 수 있습니다." # 2713226506121816814
+  RICE_granada_transfer_seat_of_power_context_tooltip: "#emphasis 역사적 배경:#! 안달루스의 초기 역사에서 그라나다는 근처 도시 일비라(혹은 엘비라)만큼 중요하지 않았습니다. 11세기 제1 타히파 시기, 베르베르족 지리드 왕조가 남부 안달루스에 독립 국가를 세웠을 때, 그들은 일비라가 낮은 평원에 위치하여 적의 공격에 취약할 것을 두려워했습니다. 지리드 왕조는 당시 남부 안달루스의 주요 유대인 정착지였던 그라나다로 통치 중심지를 옮기기로 결정했습니다." # 12528185889205752165
+  RICE_granada_alhambra_comares_baths: "코마레스 목욕탕에서 휴식을 취하세요" # 1562475396575183639
+  RICE_granada_alhambra_comares_baths_tooltip: "잠시 쉬어야겠군...." # 10214626502881564193
+  RICE_granada_alhambra_comares_baths_desc: "[alhambra|E]의 코마레스 목욕탕은 의심할 여지 없이 이베리아 전역에서 가장 크고 훌륭합니다. 제가 이곳을 소유하고 있으니, 언젠가 이 시설을 이용해 봐야겠습니다." # 5859168011161896704
+  RICE_granada_alhambra_comares_baths_effect_tooltip_1: "일부 [stress|E]를 잃고 [piety|E]를 얻게 될 것입니다." # 15646186216355589749
+  RICE_granada_alhambra_comares_baths_effect_tooltip_2: "그대가 [granada.GetNameNoTier]를 다스리고 #bold 알함브라 [THIS.Char.GetFaith.HouseOfWorship|U]#!가 [alhambra|E]에 세워졌기에, 이 [activity|E]의 보너스가 증가합니다." # 13943823414579248764
+  RICE_granada_alhambra_comares_baths_confirm: "목욕할 시간이다!" # 13183111678633519211
+  RICE_granada_alhambra_comares_baths_context_tooltip: "#emphasis 역사적 배경:#! 목욕탕은 알안달루스를 포함하여 이슬람 세계에서 사회적, 종교적 생활의 중요한 부분이었습니다. 알함브라의 코마레스 궁전 내 왕실 목욕탕은 나스르 왕조의 술탄 유수프 1세(재위 1333-1354)에 의해 건설되었으며, 이후 스페인의 가톨릭 통치자들에 의해 개조되어 사용되기도 했습니다. 이베리아반도에서 가장 큰 목욕탕 중 하나일 뿐만 아니라, 코마레스 목욕탕은 오늘날까지 거의 온전하게 보존된 이베리아반도의 이슬람 목욕탕의 몇 안 되는 사례 중 하나입니다." # 16175714782632035021
+  RICE_granada_alhambra_comares_palace_built_req: "#V 코마레스 궁전#! [alhambra_structure|E]이(가) [alhambra|E]에 건설되었습니다." # 8679382446422883121
+  RICE_granada_admire_alhambra_gardens: "알함브라 궁전의 정원을 감상하십시오" # 12735885086708475911
+  RICE_granada_admire_alhambra_gardens_tooltip: "지상낙원이라, 그들이 말하는 바가 맞군!" # 7884930157380934035
+  RICE_granada_admire_alhambra_gardens_desc: "[alhambra|E]의 정원에는 나무, 관목, 안뜰, 분수, 수로 등이 어우러져 마치 천국에 와 있는 듯한 느낌을 줍니다. 이 정원을 감상할 시간을 가진 지 꽤 되었군요." # 5169737760122109615
+  RICE_granada_admire_alhambra_gardens_effect_tooltip_1: "일부 [stress|E]를 잃고 [prestige|E]를 얻게 됩니다." # 10915632333972854179
+  RICE_granada_admire_alhambra_gardens_effect_tooltip_2: "당신께서 [granada.GetNameNoTier]를 다스리고 있으며, [alhambra|E]에 #bold 헤네랄리페#!가 건설되었기에 이 [activity|E]의 보너스가 증가합니다." # 10550776909882759039
+  RICE_granada_admire_alhambra_gardens_confirm: "이곳에는 볼거리가 아주 많군요!" # 16819595688104192716
+  RICE_granada_admire_alhambra_gardens_context_tooltip: "#emphasis 역사적 배경:#! 정원은 많은 중세 엘리트들에게 중요한 지위의 상징이자 부와 권력을 과시하는 수단이었습니다. 이슬람 통치자들을 포함하여 전 세계의 많은 중세 귀족들에게 정원은 권력과 부를 과시하는 방법이었습니다. 알함브라는 이러한 이슬람식 정원 가꾸기 전통의 가장 훌륭한 사례 중 하나입니다. 그라나다는 좋은 수원이 많이 있는 곳에 위치하여 알함브라의 수많은 정원과 분수, 수로 같은 물 시설을 유지할 수 있었습니다." # 1822634560571241818
+  RICE_granada_alhambra_munya_estate: "문야에서 휴가 보내기" # 16061722139532071566
+  RICE_granada_alhambra_munya_estate_tooltip: "대도시에서 정말 휴식이 필요하군." # 4564367614100815575
+  RICE_granada_alhambra_munya_estate_desc: "알안달루스의 존경받는 [ROOT.Char.GetTitleAsNameNoTooltip]라면 누구나 그렇듯, 나 역시 수도 근교 시골에 여러 [munya|E] 영지를 소유하고 있다. 혼자서든 다른 이들과 함께든, 이 별장들 중 한 곳에서 시간을 보내며 휴식을 취해야겠다." # 9878889407360108712
+  RICE_granada_alhambra_munya_estate_effect_tooltip_1: "귀하는 휴식을 취하거나 그곳의 식물을 연구하기 위해 직접 [munya|E]를 방문할지, 아니면 [courtiers|E]나 [vassals|E]와 같은 다른 이들을 초대하여 이 [activity|E]에 함께 참여하고 서로 교류할지 선택해야 합니다." # 5225858867662728320
+  RICE_granada_alhambra_munya_estate_effect_tooltip_2: "귀하는 [stress|E]를 잃고 [lifestyle_experience|E] 또는 긍정적인 [character_modifiers|E]와 같은 다양한 보너스를 얻을 수 있습니다." # 15445923617643363977
+  RICE_granada_alhambra_munya_estate_effect_tooltip_3: "$RICE_granada_admire_alhambra_gardens_effect_tooltip_2$" # 13805085776525853303
+  RICE_granada_alhambra_munya_estate_confirm: "시골로 떠날 시간입니다!" # 10683057731898793261
+  RICE_granada_alhambra_munya_estate_context_tooltip: "#emphasis 역사적 배경:#! #italic 무냐(Munya)!#는 중세 알-안달루스에서 엘리트들이 건설했던 특정 유형의 시골 영지 또는 빌라를 지칭하는 용어였습니다(이후 스페인어 용어인 #italic 알무니아(almunia)!#의 기원이 되었습니다). 일반적으로 정원과 광대한 농지로 둘러싸인 대규모 거주지였으며, 여가와 실용적인 기능을 겸했습니다. 도시의 번잡함에서 벗어나 휴식과 지적 탐구를 위한 장소인 동시에 농업 및 식물학적 실험을 위한 장소로도 활용되었습니다." # 15745993768143283876
+  RICE_granada_develop_almeria_silk_industry: "알메리아의 성장하는 비단 산업에 보조금을 지급하십시오" # 9717467193969701442
+  RICE_granada_develop_almeria_silk_industry_tooltip: "알메리아 항구는 사치품 수출지 그 이상이 될 수 있습니다... 직접 생산지 또한 될 수 있지요." # 14921453600171644641
+  RICE_granada_develop_almeria_silk_industry_desc: "이베리아의 시기는 격동적이며, 코르도바의 오래된 비단 생산 중심지는 쇠퇴하고 있습니다. 상인들은 다른 이베리아 도시들의 비단 공방에 투자하여 이베리아의 비단 산업을 부흥시키고자 하며, 알메리아는 서부 지중해에서 가장 중요한 항구 도시 중 하나로 빠르게 성장하고 있기에 유망한 선택지입니다." # 18064717331951280621
+  RICE_granada_develop_almeria_silk_industry_confirm: "비단이 흘러야 한다!" # 674912398755408798
+  RICE_granada_develop_almeria_silk_industry_context_tooltip: "#emphasis 역사적 배경:#! 코르도바는 이베리아의 수익성 높은 비단 산업의 초기 중심지였으나, 1000년대에 코르도바 칼리파국이 멸망했습니다. 이후 알메리아가 이베리아 최대의 비단 생산지로 코르도바를 대신했는데, 이는 알메리아가 해당 지역에서 가장 중요한 항구 중 하나였기 때문입니다. 알메리아산 비단은 그 명성이 높아 중세 유럽 문학에서 사치의 상징으로 언급될 정도였으며, 선물, 공물, 혹은 부와 지위를 과시하는 용도로 자주 사용되었습니다." # 10238784446937250887
+  RICE_granada_demolish_idol_cadiz: "카디스 우상 파괴" # 563954065971378096
+  RICE_granada_demolish_idol_cadiz_tooltip: "그것은 단단한 금속으로 만들어졌으며, 우리는 [gold|E]를 사용할 수 있을 것입니다...." # 10497192673221711374
+  RICE_granada_demolish_idol_cadiz_desc: "카디스 항구 근처, 우상들의 땅이라 알려진 곳에 고대의 탑이 하나 있습니다. 그 탑 꼭대기에는 귀금속으로 만들어진 웅장한 조각상이 세워져 있습니다. 현지인들은 그 조각상이 초자연적인 힘을 지니고 도시를 위험으로부터 보호한다고 주장하지만, 만약 내가 이 우상을 파괴하여 그 금속을 내 용도로 녹여버린다면 어떨까요?" # 9548599811456722705
+  RICE_granada_demolish_idol_cadiz_effect_tooltip_1: "일부 현지인들은 카디스 우상을 파괴하면 당신과 도시에 초자연적인 #N 결과#를 초래할 것이라 믿고 있습니다. 하지만 그것은 그저 미신이겠죠... 그렇죠?" # 1962797666469490243
+  RICE_granada_demolish_idol_cadiz_confirm: "저 우상을 부숴라!" # 1970038008685040193
+  RICE_granada_demolish_idol_cadiz_context_tooltip: "#emphasis 역사적 배경:#! 중세 무슬림 기록에는 카디스 근처에 신비롭고 거대한 탑과 조각상의 존재가 언급됩니다. 고전 기록에는 나타나지 않는 것으로 보아, 이는 후기 고대 시대로 거슬러 올라갈 수 있습니다. 이베리아 반도의 다른 그리스 및 로마 조각상들과 마찬가지로, 이른바 '카디스의 우상'은 중세 무슬림들에게 초자연적이고 보호적인 힘이 있다고 믿어졌습니다. 기념비, 무덤, 혹은 가장 가능성 높은 항해용 항로표지 중 무엇이었든 그 본래 목적은 불분명합니다. 12세기경에 파괴되었는데, 아마도 조각상을 녹여 돈을 얻기 위함이었을 것입니다." # 1402084763547165706
+  RICE_demolish_cadiz_idol_nothing: "아무 일도 일어나지 않습니다" # 6572300539204316174
+  RICE_demolish_cadiz_idol_character_curse: "당신은 저주받은 것 같습니다" # 12557838975175531493
+  RICE_demolish_cadiz_idol_county_curse: "카디스 주는 저주받았다고 전해집니다" # 11933037541353994731
+  RICE_demolish_cadiz_idol_both_curse: "귀하와 카디스 백작령은 저주에 걸린 듯합니다." # 17637134202944442307
+  RICE_granada_hafsa_decision: "슬픔을 극복하다" # 10079470772868929852
+  RICE_granada_hafsa_decision_tooltip: "가끔은, 제 기억이 여전히 저를 괴롭힙니다." # 17249021656308886322
+  RICE_granada_hafsa_decision_desc: "오, 나의 사랑하는 아부 자파르여, 비록 당신이 수년 전 잔인하게 처형당했지만, 내 마음은 여전히 당신을 그리워하고 있소!" # 6813863798569443354
+  RICE_granada_hafsa_decision_effect_tooltip_1: "#V 100#! 에 도달하면 [GetTrait('RICE_hafsa').GetName( GetNullCharacter )] [trait|E]의 두 트랙 중 하나에서 [trait_level_track_xp|E]를 달성하면 해당 [trait|E]가 [GetTrait('RICE_hafsa_full_rage').GetName( GetNullCharacter )] 또는 [GetTrait('RICE_hafsa_full_recovery').GetName( GetNullCharacter )] [trait|E]로 대체되고 반대쪽 [trait_level_track|E]와 관련된 선택지가 비활성화됩니다." # 7461087318204569761
+  RICE_granada_hafsa_decision_effect_tooltip_2: "귀하는 $trait_track_RICE_hafsa_rage$ [trait_level_track|E]에서 #V [EmptyScope.ScriptValue('RICE_hafsa_insult_uthman_xp_gain_min')|0]#!에서 #V [EmptyScope.ScriptValue('RICE_hafsa_insult_uthman_xp_gain_max')|0]#! 사이의 [trait_level_track_xp|E]를 얻습니다." # 12936289364869122699
+  RICE_granada_hafsa_decision_effect_tooltip_3: "$trait_track_RICE_hafsa_rage$ [trait_level_track|E]에서 #V [EmptyScope.ScriptValue('RICE_hafsa_eulogize_abu_jafar_xp_gain_min')|0]#!에서 #V [EmptyScope.ScriptValue('RICE_hafsa_eulogize_abu_jafar_xp_gain_max')|0]#! 사이의 [trait_level_track_xp|E]를 획득합니다." # 590061465086648129
+  RICE_granada_hafsa_decision_effect_tooltip_4: "귀하는 $trait_track_RICE_hafsa_recovery$ [trait_level_track|E]에서 #V [EmptyScope.ScriptValue('RICE_hafsa_stop_poetry_xp_gain_min')|0]#!에서 #V [EmptyScope.ScriptValue('RICE_hafsa_stop_poetry_xp_gain_max')|0]#! 사이의 [trait_level_track_xp|E]를 잃습니다." # 7783971454083342094
+  RICE_granada_hafsa_decision_effect_tooltip_5: "$trait_track_RICE_hafsa_recovery$ [trait_level_track|E]에서 #V [EmptyScope.ScriptValue('RICE_hafsa_teach_others_xp_gain_min')|0]#!에서 #V [EmptyScope.ScriptValue('RICE_hafsa_teach_others_xp_gain_max')|0]#! 사이의 [trait_level_track_xp|E]를 잃습니다." # 15508945856329755307
+  RICE_granada_hafsa_decision_confirm: "지금도 내 마음은 아프구나!" # 6897668001532067179
+  RICE_granada_hafsa_decision_context_tooltip: "#emphasis 역사적 배경:#! 하프사 빈트 알-하즈 알-라쿠니야는 12세기 안달루시아 최고의 시인 중 한 명이었습니다. 젊은 시절, 그녀는 동료 시인이자 우마이야 왕조의 그라나다 총독이었던 우트만 알모하드 왕자의 관리이기도 했던 아부 자파르와 열정적인 연애를 시작했습니다. 그러나 우트만은 시인 자신에게 반했고, 결국 총독에 대항하는 반란에 가담하게 된 아부 자파르와 갈등을 빚게 됩니다. 하프사는 남은 생애 동안 아부 자파르를 애도했으며, 궁정 생활에서 물러났으나 나중에 마라케시에서 여러 알모하드 왕자들의 교사로 초청받아 그곳에서 지냈습니다." # 11199736047865314612
+  CHOOSE_HAFSA_ACTION: "$RICE_granada_hafsa_decision_confirm$" # 11794270331629220693
+  RICE_insult_uthman_name: "우스만에게 모욕을 주시오" # 3416164418285184865
+  RICE_insult_uthman_desc: "$RICE_insult_uthman$" # 8331362338033928898
+  RICE_insult_uthman_tooltip: "내 시를 통해 세상은 내가 사랑하는 이를 죽인 우스만에게 저주를 퍼부을 것이다!" # 12341414386445376028
+  RICE_eulogize_abu_jafar_name: "아부 자파르를 찬양하라" # 11966724183083537570
+  RICE_eulogize_abu_jafar_desc: "$RICE_eulogize_abu_jafar_name$" # 9847510571961641833
+  RICE_eulogize_abu_jafar_tooltip: "나는 당신을 영원히 기억할 것입니다, 나의 사랑하는 이여: 당신을 향한 나의 시가 그 증거입니다." # 3733679310698046268
+  RICE_stop_poetry_name: "시 짓기는 잠시 멈추시오" # 4052655736846402125
+  RICE_stop_poetry_desc: "$RICE_stop_poetry_name$" # 12885450372449933341
+  RICE_stop_poetry_tooltip: "시를 보니 예전에 연인과 주고받던 시가 너무 생각나서 다른 일에 집중해야겠군." # 13709485385969343968
+  RICE_teach_others_name: "다른 이들을 가르치기" # 13454838832086645584
+  RICE_teach_others_desc: "$RICE_teach_others_name$" # 15020224335238021797
+  RICE_teach_others_tooltip: "나는 에너지를 좀 더 생산적인 일, 예를 들어 다른 이들을 교육하고 이끄는 일에 쏟아야겠소." # 1519549821602588412
+  granada.0001.t: "[granada.GetNameNoTierNoTooltip]의 운명" # 8050494803947657277
+  granada.0001.desc: "나는 거의 삼십 년 동안 [granada.GetNameNoTier]를 통치해 왔으며, 나의 성공은 대부분 고인이 된 나의 재상, 장군이자 친구인 [samuel.GetFullName] 덕분입니다. 유대인들은 오랫동안 이 도시의 정치에서 중요한 역할을 해왔으며, 그는 그들 중 가장 강력하고 재능 있는 인물이었습니다. 그 덕분에 나는 젊은 시절 수많은 음모에서 살아남았고, 우리의 왕국을 이 지역 강국으로 세울 수 있었습니다.\n\n아아, 그가 세상을 떠난 지 여러 해가 지났습니다. 그의 아들이자 후계자인 [joseph.GetFullName]는 유능하지만, 심지어 내가 아는 다른 유대인들조차 인정하는 교만의 죄를 짊어지고 있습니다. [joseph.GetFirstName]와 나는 한때 사이가 좋았지만, 최근 우리 관계는 소원해졌습니다. 심지어 그가 배후에서 나를 조종하고 나를 모의하고 있다는 소문까지 들었습니다. 나는 그런 중상모략적인 헛소리를 믿지 않지만, 이는 분명히 내 신하들이 나를 어떻게 생각하는지에 영향을 미치고 있습니다. 사람들은 이미 나를 잔인하고 탐욕스러운 통치자로 보고 있는데 - 내 자신에게 확신시키듯 거짓말이지만 - 이 소문들은 불에 기름을 붓는 격입니다." # 1887507677649667252
+  granada.0001.a: "부디 상황이 잘 정리되기를 바랍니다." # 663864512682935979
+  granada.0001.a.info: "#emphasis 역사적 배경:#! 바디스 이븐 하부스는 1073년 손자 압달라에게 왕위를 물려줄 때까지 그라나다를 통치했습니다. 압달라의 아버지이자 그의 맏아들인 불루긴은 1064년 독살로 사망했습니다. 소문에 따르면 그라나다의 재상이었던 유대인 학자 요세프 이븐 나그렐라(유명한 사무엘 이븐 나그렐라의 아들)가 불루긴의 죽음에 연루되었다고 합니다. 어찌 되었든 요세프는 1066년 12월 31일에 일어난 그라나다 학살의 첫 번째 희생자가 됩니다.\n\n압달라는 타이파 그라나다의 마지막 통치자가 될 것입니다. 그는 1090년 알모라비드에게 항복하고 아그마트로 추방되었습니다. 그곳에서 그는 자신의 회고록을 저술했는데, 이는 그라나다 역사에 대한 편향되기는 했으나 상세한 기록을 제공합니다." # 6860828221753190989
+  granada.0002.t: "카디스의 우상" # 13153274662780080014
+  granada.0002.desc: "이베리아 전역에는 사람들이 초자연적인 능력이 있다고 믿는 오래된 석상들이 널려 있습니다. 그중에서도 #bold 카디스 우상#!은 거대한 크기와 정교한 세공 덕분에 고대인들의 유산 중 더욱 두드러지는 사례입니다. 그리고 [cadiz.GetNameNoTier] 근처에서 수 세기 동안 서 있었고, (일부 학자들이 주장하듯) 헤라클레스나 알렉산더 대왕이 이베리아를 통치할 때 세웠다는 이 예술 작품을 파괴하는 것은 아쉬운 일일 것입니다.\n\n하지만 그 석상은 금과 구리와 같은 단단하고 값비싼 금속으로 만들어져 있습니다. 그리고 저는 돈이 좀 필요합니다.\n\n[cadiz.GetNameNoTier]의 현지인들은 우상이 서 있는 탑을 불순한 생각으로 건드리는 것만으로도 저나 [cadiz.GetNameNoTier]에 큰 불행이 닥칠 것이라며 징징거리고 불평합니다. 하지만 저는 그것을 파괴한다고 해서 초자연적인 재앙이 닥치지는 않을 것이라 생각합니다.\n\n적어도… 그러지 않기를 바랍니다." # 6166467865569124985
+  granada.0002.a: "그럼에도 불구하고, 저는 제 선택을 내렸습니다. 동상을 철거하라!" # 17299458136578493221
+  granada.0003.t: "카디스의 우상" # 13153274662780080014
+  granada.0003.desc.self_no_curse: "알고 보니, 내가 우상을 파괴한 후 아무 일도 일어나지 않았다. 이상하거나 우연한 불행이나 재앙 같은 것은 없었다. 아무것도.\n\n처음에는 [cadiz.GetNameNoTier]의 일부 주민들이 바다가 그들을 삼킬 것이라거나, 배가 항구를 떠날 수 없을 것이라거나, 혹은 우리 모두에게 다른 재앙이 닥칠 것이라며 히스테리 상태에 빠졌지만, 그런 일은 전혀 일어나지 않았다.\n\n솔직히 말해서, 내 병사들과 고용된 노동자들이 그 구조물을 허물어뜨릴 때 잠시 걱정했지만, 내 걱정은 모두 헛된 것이었다. 이제 나는 녹여서 조금 더 부자가 될 수 있는 유용하고 귀한 금속을 얻게 되었다!" # 2121907375045026294
+  granada.0003.desc.self_curse: "처음에 제 병사들과 고용된 노동자들이 카디스의 우상을 부쉈을 때, 저는 아무 일도 일어나지 않을 것이라 생각했습니다.\n\n하지만 그 직후 이상한 일들이 벌어지고 있다는 소문을 들었습니다. 예를 들어, 제 거처 근처나 [cadiz.GetNameNoTier] 근처 바닷가에서 이상한 소리가 들린다는 보고를 받았고, 현지인들이 항구에서 배를 띄우는 데 어려움을 겪고 있다는 이야기도 들었습니다.\n\n하지만 적어도 저는 그 우상에서 녹여 쓸 수 있는 유용하고 귀한 금속을 얻었으니 말입니다. 분명 다른 보고들은 그저 미신에 사로잡힌 현지인들이 지어낸 허황된 이야기이거나 우연의 일치일 것입니다... 그렇죠?" # 4893337967911137459
+  granada.0003.desc.other_no_curse: "이베리아반도 곳곳에는 오래된 문명의 폐허가 된 기념물들이 흩어져 있으며, 그중 다수는 초자연적인 능력을 지니고 있다고 여겨집니다. 이에 대한 더 주목할 만한 예시가 바로 바다를 내려다보는 거대한 조각상인 #bold 카디스 우상#!입니다. [cadiz.GetNameNoTier] 근처에 있는 이 조각상은 귀금속으로 만들어졌음에도 불구하고, 아무도 그 돈 때문에 파괴하려 들지 않았습니다.\n\n[cadiz_idol_demolisher.GetTitledFirstName]을 제외하고는 말이죠.\n\n[cadiz_idol_demolisher.GetFirstName]은 조각상에 있는 귀금속을 이용하려 했지만, 현지 주민들은 조각상을 파괴하면 신성한 징벌이 내릴 것을 두려워했습니다. 그럼에도 불구하고, [cadiz_idol_demolisher.GetSheHe]는 조각상을 철거하고 녹여버리라고 명령한 후, 아무 이상한 일도 일어나지 않자 그들의 우려가 틀렸음을 증명해 보였습니다. 이제 그 우상과 그것이 서 있던 웅장한 탑은 사라지고 없습니다." # 12786283431322845504
+  granada.0003.desc.other_curse: "이베리아 반도 전역에는 지나간 문명들의 폐허가 된 기념물들이 흩어져 있으며, 그중 다수는 초자연적인 능력을 지녔다고 여겨집니다. 이보다 더 유명한 예로는 #bold 카디스의 우상#!이 있는데, 이는 [cadiz.GetNameNoTier] 근처 바다를 내려다보는 거대한 석상입니다. 이 석상이 귀금속으로 만들어졌음에도 불구하고, 아무도 돈 때문에 그것을 파괴하려 하지 않았습니다.\n\n[cadiz_idol_demolisher.GetTitledFirstName]를 제외하고는 말이죠.\n\n[cadiz_idol_demolisher.GetFirstName]는 석상에 있는 귀금속을 이용하려 했으나, 현지인들은 석상을 파괴하면 신의 징벌이 내릴 것을 두려워했습니다. 그러나 [cadiz_idol_demolisher.GetSheHe]는 고집스럽게도 석상을 철거하고 녹여버리라고 명령했습니다. 그리 오래지 않아, [cadiz.GetNameNoTier]에서 밤마다 이상한 소리가 들린다거나, 배들이 항구를 떠나지 못하는 일, 그 밖의 이상한 불행들이 보고되기 시작했습니다.\n\n그것은 그저 단순한 우연일 뿐이며, 미신적인 현지인들이 아무것도 아닌 일에 걱정하는 것이겠지요... 그렇죠?" # 6853390308812410731
+  granada.0003.a: "카디스의 우상에게 닥친 운명이란!" # 5684659653730745836
+  granada.0004.t: "xxxxx" # 1951045980481827005
+  granada.0004.desc: "xxxxx" # 1951045980481827005
+  granada.0004.a: "xxxxx" # 1951045980481827005
+  granada.0005.t: "xxxxx" # 1951045980481827005
+  granada.0005.desc: "xxxxx" # 1951045980481827005
+  granada.0005.a: "xxxxx" # 1951045980481827005
+  granada.0006.t: "xxxxx" # 1951045980481827005
+  granada.0006.desc: "xxxxx" # 1951045980481827005
+  granada.0006.a: "xxxxx" # 1951045980481827005
+  granada.0007.t: "xxxxx" # 1951045980481827005
+  granada.0007.desc: "xxxxx" # 1951045980481827005
+  granada.0007.a: "xxxxx" # 1951045980481827005
+  granada.0008.t: "xxxxx" # 1951045980481827005
+  granada.0008.desc: "xxxxx" # 1951045980481827005
+  granada.0008.a: "xxxxx" # 1951045980481827005
+  granada.0009.t: "xxxxx" # 1951045980481827005
+  granada.0009.desc: "xxxxx" # 1951045980481827005
+  granada.0009.a: "xxxxx" # 1951045980481827005
+  granada.0010.t: "일비라에서 그라나다까지" # 16266526108969733311
+  granada.0010.desc: "수 세대 동안 일비라 정착지는 시에라 네바다 산맥 기슭 지역의 중심지였습니다. 하지만 세월이 흐르면서 일비라 위치의 단점들이 점점 더 명백해지고 있습니다. 평야에 위치해 있어 방어하기가 매우 어렵고, 따라서 침략에 취약합니다.\n\n장군들과 관료들과 이 문제를 논의한 결과, 근처 요새 도시인 그라나다가 높은 지대에 위치하여 공격하기 어렵기 때문에 훨씬 더 나은 지역 권력의 중심지가 될 것이 분명합니다. 우리는 그라나다에 새로운 건물을 짓기 시작했으며, 곧 일비라 주민 대부분을 그곳으로 이주시킬 것입니다. 마지막으로, 그라나다에는 오래된 대규모 유대인 공동체가 있지만, 이 유대인들은 새로운 정착민들과의 잠재적인 긴장을 줄이기 위해 우리가 최선을 다하는 동안 그들의 전적인 협력을 약속했습니다." # 4454911630616507754
+  granada.0010.a: "우리가 고지를 점령했다, 지금 당장!" # 16211652020597244994
+  granada.0011.t: "일비라에서 그라나다까지" # 16266526108969733311
+  granada.0011.desc: "안달루시아에 [granada_relocator.GetTitledFirstName]께서 [granada_county.GetNameNoTier]에서 대부분의 인구를 새로운 지역 중심지로 이전하는 대대적인 사업을 시작했다는 소식이 퍼지고 있습니다. 일비라에 있던 옛 중심지는 평지에 자리 잡고 있어 장기적으로 방어하기 어렵다고 판단되어 그 목적에 부적합하다고 여겨졌습니다.\n\n선견지명이 있는 [granada_relocator.GetFirstNameNoTooltip]께서는 인근 요새 도시인 그라나다가 높은 지형과 험준한 지형 덕분에 훨씬 더 나은 지역 권력의 중심지가 될 것이라 깨달으셨습니다. 비록 그라나다는 이전에 유대인들이 지배했지만, 그들은 [granada_relocator.GetFirstNameNoTooltip]와 기꺼이 협력하여 이전 과정이 순조롭게 진행되도록 돕고 있습니다.\n\n이는 분명 [granada_relocator.GetFirstNameNoTooltip]의 현명한 조치이지만, 이것이 이 지역의 향후 군사 작전에 어떤 영향을 미칠지는 두고 볼 일입니다." # 15283270130164230210
+  granada.0011.a: "그들이 이제 고지대를 점령했습니다." # 4798658765478049159
+  granada.0012.t: "그라나다의 유대인들이 부상하다" # 10103606570366324051
+  granada.0012.desc.jewish: "[granada_county.GetNameNoTier]는 언제나 상당한 수의 [ROOT.Char.GetFaith.GetReligion.GetAdjective] 공동체의 본거지였지만, [ROOT.Char.GetFaith.GetReligion.GetAdjective] 통치자로서의 나의 노력 덕분에 최근에야 이 지역의 유대인들이 진정으로 이 지역을 지배하게 되었습니다.\n\n이제 우리는 이 아름다운 땅에 굳건한 터전을 마련할 위대한 기회를 얻었습니다. 아아, 타국의 사악한 마음과 생각이 우리가 이룬 이 연약한 평화를 탐내려 하니, 우리는 항상 [granada_county.GetNameNoTierNoTooltip]을 방어할 준비가 되어 있어야 합니다." # 16788341046568807449
+  granada.0012.desc.non_jewish: "[granada_county.GetNameNoTier]는 항상 상당한 규모의 유대인 공동체가 거주해 왔지만, 이 지역의 유대인들이 진정으로 이 지역을 지배하게 된 것은 최근의 일입니다.\n\n어떤 이유에서든, 그들은 이제 [granada_county.GetNameNoTierNoTooltip]의 지배적인 집단이 되었습니다. 제가 그들의 종교를 따르지는 않지만, 이 아름다운 땅의 평화와 번영을 보장하기 위해 그들과 동등한 위치에서 협력하는 것이 중요할 것임을 인정합니다." # 5356510628896834917
+  granada.0012.a: "[granada_county.GetNameNoTierNoTooltip]의 유대인들에게 새로운 아침이 밝았습니다." # 13677770476388301698
+  granada.0013.t: "그라나다의 고조되는 긴장감" # 11597293747906039076
+  granada.0013.desc: "[granada.GetNameNoTier]는 현재 이베리아에서 가장 큰 유대인 공동체 중 하나의 본거지입니다. 심지어 그 도시가 수 세기 전 유대인들에 의해 세워졌다는 전설까지 전해집니다.\n\n수년 동안 그라나다의 지도부는 지역 행정에 있어 유대인들에게 크게 의존해 왔습니다. 그들은 소수라는 이유로 반역의 꿈을 품거나 권력과 영향력을 놓고 서로 경쟁할 수 있는 비유대인 현지인들보다 일반적으로 더 신뢰할 만합니다. 하지만 이것은 나의 유대인 관리들을 의심의 눈초리로 바라보는 지역 내 비유대인 인구 다수에게 시기심, 불만, 그리고 원한을 키웠습니다.\n\n최근, 지역 [ROOT.Char.GetCulture.GetName] 시인이자 학자가 그라나다의 유대인들을 비방하는 악의적인 시를 썼는데, 그들은 사악하고 부도덕한 사람들이 국가를 장악하고 있으며, 내가 행정부에서 그들을 몰아내야 한다고 주장합니다. 물론, 그런 정신 나간 시가 나에게는 거의 영향을 미치지 못했지만, 그 시가 도시의 비유대인 거주자들 사이에서 꽤 큰 소동을 일으켰다는 소문을 들었습니다...." # 11110452642098419837
+  granada.0013.a: "그 시가 어떤 소요도 일으키지 않기를 간절히 바랍니다." # 1176206659203610676
+  granada.0013.a.tooltip: "그라나다의 긴장이 #italic 매우#! 격화될 수 있습니다...." # 13196942339710904354
+  granada.0014.t: "모브" # 17465337343334019033
+  granada.0014.desc: "[granada.GetNameNoTier]의 영지에서 잠을 자고 있을 때, 경비병들이 늦은 밤 나를 깨웠습니다. 도시의 거리에 혼란이 발생한 것입니다!\n\n아마도 오늘 일찍 유대인 관료인 [yusuf.GetFullName]와 다른 유대인들이 적대국 통치자에게 투항하여 도시의 성문을 열고 나를 죽였다는 거짓 소문이 퍼진 모양입니다. 최근 고조되고 있는 반유대주의 감정 덕분에, 도시를\"보\"하려는 폭도들이 순식간에 모여들었습니다. 당연히 나는 살아있고 [granada.GetNameNoTierNoTooltip]는 안전합니다.\n\n눈 깜짝할 사이에, [yusuf.GetFirstName]가 허둥지둥 달려와 도움을 간청합니다. 잠시 후, 폭도들이 내 궁전을 덮치며\"반역\"인 [yusuf.GetFirstName]를 죽이고 다음은 그의 동족 유대인들을 쫓겠다고 소리칩니다. 나는 폭도들을 진정시키고 물러나라고 요구하기 위해 달려가지만, 그들은 내 말을 듣지 않습니다.\n\n폭도들이 이제 [yusuf.GetFirstName]에게 맹렬히 다가가고 있으며, 나와 내 경비병들이 반응할 시간이 거의 없습니다." # 10355206439097955893
+  granada.0014.a: "무슨 일이지? 잠깐! 멈춰!" # 8511546304239767259
+  granada.0014.a.tooltip: "당신은 폭도들을 막을 힘이 없습니다." # 18282593170398973871
+  granada.0014.b: "나는 당신의 [ROOT.Char.GetTitleAsNameNoTooltip]이오! 진정하시오, 이 문제를 논의해 봅시다!" # 10031257011199889873
+  granada.0014.b.tooltip: "당신은 폭도들에게 이성적으로 설득하려 합니다." # 6082462658187761444
+  granada.0014.c: "호위병들! [yusuf.GetFirstName]를 보호하고 질서를 회복하라, 당장!" # 13773929827022409393
+  granada.0014.c.tooltip: "당신은 군대에게 폭도들을 저지하라고 명령합니다." # 3065034488773519194
+  granada.0015.t: "암울한 날" # 17185128906826999799
+  granada.0015.desc: "유대인 거주 지역에서 들어오는 보고들을 들으며 이마를 문지릅니다. 상황이 매우 암울합니다.\n\n어젯밤, 저는 그렇게 많은 폭도들 앞에서 무력했습니다. 그들은 [yusuf.GetFirstName]에게 쏟아져 내려와 제가 아무것도 하기 전에 그를 살해했습니다. 광분한 폭도들은 이어서 도시의 유대인 거주 지역으로 향했고, 눈에 띄는 유대인들을 모조리 살해했습니다. 그들의 분노가 얼마나 극심했는지 그곳에 있던 비유대인들 중 일부도 함께 살해당했습니다.\n\n제 병사들이 질서를 회복했을 때쯤에는 수백 명, 어쩌면 수천 명의 무고한 사람들이 죽었을 것이며, 살아남은 유대인들은 이미 다른 곳으로 도망치고 있습니다. 도시의 일부는 파괴되었고, 숙련된 유대인 관리들을 갑작스럽게 잃어버려 제 행정 조직의 상당 부분이 엉망이 되었습니다." # 2573586145338581107
+  granada.0015.a: "이것은 [granada.GetNameNoTier]에게는 어두운 날입니다." # 17519807828421205239
+  granada.0016.t: "질서 회복" # 6196640808496749607
+  granada.0016.desc.peaceful: "다음 한두 시간은 극도로 긴장되었습니다. 경비병들이 조용히 [yusuf.GetFirstName]를 안전한 곳으로 옮기는 동안, 저는 소란을 피우는 군중에게 아무 일도 일어나지 않고 있다고 침착하고, 크고, 단호하게 설명하기 위해 최선을 다했습니다. [yusuf.GetFirstName]가 우리가 사랑하는 도시를 적으로 배신했다는 소문은 그저 소문에 불과합니다.\n\n다행히도 제 말이 통하는 것 같았습니다. 폭력에 대한 비명과 고함이 잦아들었고, 군중은 흩어지기 시작했습니다.\n\n그날 늦게, 저는 [yusuf.GetFirstName]에게 가서 [yusuf.GetSheHe]가 괜찮은지 확인했습니다. [yusuf.GetSheHe|U]는 충격을 받았지만 살아남을 것입니다. 그런 다음 저는 유대인 거주지로 가서 도시의 유대인들에게 아무 일도 일어나지 않을 것이라고 안심시켰습니다. 한편, 저와 제 관리들은 이러한 일이 재발하지 않도록 상황을 계속 감시할 것입니다.\n\n전반적으로, [ROOT.Char.GetFaith.HighGodName]께 감사드립니다. 상황이 걷잡을 수 없게 되지 않았습니다. 잠시 걱정했지만, 오늘 우리는 비극을 피하는 데 성공했습니다!" # 15259298626964072895
+  granada.0016.desc.force: "내 병사들은 혼란스러운 상황에도 불구하고 다행히도 나의 명령에 신속히 응했습니다. 수적으로 열세였지만, 그들은 재빨리 움직여 [yusuf.GetFirstName]를 호위했고 도시에 주둔하던 다른 병력에게 지원을 요청했습니다.\n\n불행히도 폭도들은 너무나 광란 상태였고, 이 무모한 자들은 [yusuf.GetFirstName]를 찾고 공격하려는 시도 중에 내 병사들을 제압하려 들었습니다. 그들은 내 병사들의 상대가 되지 못했고, 이어진 충돌에서 폭도 중 일부가 목숨을 잃었습니다.\n\n그날 아침, [yusuf.GetFirstName]가 무사하다는 소식을 듣고 나는 안도했습니다. 도시 내 다른 유대인들에 대한 폭력 행위가 일부 있었지만, 내 병사들이 이를 막아냈습니다.\n\n전반적으로 상황이 더 나빠질 수도 있었지만, 오늘 내가 유대인 거주지를 방문하여 도시의 유대인들에게 아무 일도 일어나지 않을 것이라고 안심시키는 와중에도 상황이 위태롭다는 것을 알고 있습니다. 나의 관리들과 나는 이런 일이 재발하지 않도록 상황을 계속 감시하겠지만, 나의 행동이 [granada.GetNameNoTier]의 일부 주민들에게 긍정적으로 비치지 않을 수도 있습니다." # 13347091522409820498
+  granada.0016.a: "일단 상황은 수습되었습니다. #bold [ROOT.Char.GetFaith.HighGodName]#께 감사드립니다." # 12869875306179562175
+  RICE_granada_1066_jewish_pogrom_context_tooltip: "#emphasis 역사적 배경:#! 1066년 12월 30일, 그라나다 유대인 학살 사건은 중세 스페인에서 발생한 반유대주의의 가장 어두운 사례 중 하나였습니다. 희생자 수는 1천 명에서 수천 명에 달했을 수 있습니다.\n\n전통적인 기록에 따르면 학살의 도화선은 안달루시아의 학자이자 시인인 아부 이샤크가 쓴 열정적인 시였습니다. 그는 그라나다 내 유대인의 지배, 특히 왕국의 유대인 재상이었던 요세프 이븐 나가렐라에 대한 지배를 비난했습니다. 이상하게도, 이 이야기는 학살이 일어난 후 수세기가 지나서야 역사적 자료에 등장합니다. 따라서 그가 시를 썼다고 하더라도, 그라나다에서 반유대주의가 수년간 고조되고 있었을 가능성이 높으므로, 그것이 포그롬의 진정한 원인이었을 가능성은 낮습니다.\n\n어느 쪽이든, 학살은 12월 30일에 요세프가 그라나다의 왕 바디스를 살해하고 왕국을 경쟁자인 알메리아에 배신했다는 소문이 퍼지면서 시작되었습니다. 폭도들이 모여 요세프가 피신한 궁전을 습격했습니다. 요세프가 바디스를 데려와 왕이 살아있음을 보여준 후에도, 폭도들은 그를 살해하고 십자가에 못 박은 뒤 도시의 유대인 거주 지역으로 향했습니다.\n\n살아남은 유대인들은 다른 곳으로 도피했으며, 일부는 이후 수십 년 안에 돌아오기는 했지만(1090년 알모라비드 왕조에 의해 추방되기 전), 그라나다의 유대인 공동체는 이전의 영광을 결코 되찾지 못했습니다." # 16390587149384509148
+  granada.0017.t: "알메리아산 비단" # 4960645992449840472
+  granada.0017.desc: "비단은 수익성 높은 무역이며, 옛날에는 [cordoba.GetNameNoTier]가 이베리아의 그 무역 중심지였습니다. 하지만 이베리아의 지정학적 상황과 세계 무역로에 최근 변화가 생기면서, [cordoba.GetNameNoTier]는 더 이상 예전처럼 막대한 양의 비단을 생산하지 못하고 있습니다.\n\n반도 내 다른 통치자들이 다른 곳에 비단 공장 성장에 자금을 지원하기 위해 분주한 동안, 저는 [almeria.GetNameNoTier]를 다스리는 축복을 받았습니다. 제가 아는 많은 상인들이 [almeria.GetNameNoTier]가 이베리아 비단 산업의 중심지였던 [cordoba.GetNameNoTier]의 역할을 이어받기에 완벽한 정착지라고 말했습니다. 심지어 언젠가는 [cordoba.GetNameNoTier]를 능가할 수도 있다고 말하는 이들도 있지만, 제 생전에 그런 날을 볼 수 있을지는 모르겠습니다.\n\n어쨌든, [almeria.GetNameNoTier]는 서부 지중해에서 가장 중요한 항구 중 하나이므로, 다른 땅으로 막대한 양의 비단을 수출할 수 있습니다. 이는 의심할 여지 없이 그 도시의 미래 번영을 보장할 것입니다." # 8423198695315211565
+  granada.0017.a: "이 모든 비단으로 막대한 이익을 얻을 것이오!" # 13817667997273591272
+  granada.0018.t: "알메리아산 비단" # 4960645992449840472
+  granada.0018.desc: "아랍인들과 베르베르인들이 이베리아 반도에 처음 상륙했을 때, 그들은 이슬람교뿐만 아니라 정교한 비단 생산 방식과 같은 다른 사상과 관습도 함께 가져왔습니다. 우마이야 왕조의 왕실 후원 덕분에 [cordoba.GetNameNoTier]는 곧 비단 생산의 주요 중심지가 되었습니다.\n\n하지만 이제 이베리아에서의 수년간의 분쟁과 세계 무역의 변화로 인해, [cordoba.GetNameNoTier]는 선도적인 비단 생산지로서의 위상이 쇠퇴했습니다. 여러 이베리아 도시들에 비단 공방들이 생겨났지만, [almeria.GetNameNoTier]는 이베리아 비단 생산의 중심지라는 명맥을 [cordoba.GetNameNoTier]로부터 분명히 물려받았기에 그 모든 도시들 위에 우뚝 섰습니다.\n\n[almeria.GetNameNoTier]의 귀족들, 특히 [silk_investor.GetTitledFirstName]은 비단 무역의 잠재적 이익을 깨닫고 도시의 비단 산업에 막대한 투자를 시작했습니다. 서부 지중해 최대의 항구 도시 중 하나인 이곳은 유럽과 중동 전역에서 그 품질로 명성을 얻기 시작한 소위 '알메리아 비단'을 수출하기에 매우 적합합니다." # 6293902535196658592
+  granada.0018.a: "이로 인해 이 도시는 중요성이 커질 것입니다..." # 13734704518078767089
+  granada.0019.t: "유망한 그라나다의 유대인" # 7513142968213326171
+  granada.0019.desc: "저는 최근 [granada.GetNameNoTier]의 유대인 관료인 [granadan_jew.GetFullName]와 알게 되었습니다.\n\n[granada.GetNameNoTierNoTooltip]의 유대인들은 이베리아, 어쩌면 유럽과 중동 전역에서도 비할 데 없는 영향력과 힘을 가지고 있습니다. 따라서 [granada.GetNameNoTierNoTooltip]는 [granadan_jew.GetFaith.GetReligion.GetAdjective] 출신의 재능과 학식이 뛰어난 인물인 [granadan_jew.GetFirstNameNoTooltip]와 같은 이들을 많이 배출합니다. 저의 개인적인 유대인에 대한 감정과 상관없이, 그들은 제 행정부에서 흔치 않은 존재가 아닙니다.\n\n어쨌든, 저는 [granadan_jew.GetFirstNameNoTooltip]가 해낼 수 있는 일에 대해 좋은 소문을 들었습니다. 아마도 그를 제 궁정으로 불러들여 더 큰 책임을 맡겨야 할지도 모르겠습니다. 예를 들어, 제 궁정의 음모를 꾸미는 귀족들과의 연줄이 없다는 점은 그를 유용한 자산으로 만들 수 있습니다. 반면에… 일부는 유대인들을 좋게 보지 않으며, 제가 이렇게 행동하면 저를 부정적으로 볼 수도 있습니다." # 14187105052244520478
+  granada.0019.a: "그와 같은 훌륭한 신하들을 곁에 두어야겠소!" # 15975934597634547007
+  granada.0019.b: "다시 생각해보니 그가 필요 없겠군." # 4587007460382141230
+  granada.0020.t: "알함브라 궁전 확장" # 6992096919677299979
+  granada.0020.desc.intro: "알함브라는 돌, 대리석, 물, 식물, 그리고 시의 조화로 천국의 모습을 선사합니다. 그럼에도 불구하고, 이 궁전 단지는 언제나 더 많은 증축과 보수가 필요하며, 저는 최근 알함브라의 다음 웅장한 건축물이 무엇이 될지 결정했습니다." # 4177023276849927028
+  granada.0020.desc.structure.generalife: "#bold 헤네랄리페#!는 다른 모든 #italic 무냐#!들을 무색하게 만들 #italic 무냐#!가 될 것입니다. 제가 구상하는 바로는, 이곳은 화려하고 숨 막힐 듯한 정원들로 가득 차 있으며, 다로 강에서 끌어온 가장 신선하고 맑은 물로 채워진 분수와 수로가 있는, 위대한 아름다움을 지닌 별장이 될 것입니다. 그리고 보통의 #italic 무냐#!들이 시골에 위치하는 것과는 달리, 이 모든 것이 알함브라 바로 옆에 있어 멀리까지 갈 필요가 없을 것입니다!" # 15283239209974363568
+  granada.0020.desc.structure.house_of_worship: "\n\n우리는 이 알함브라에 거주하는 모든 이들의 영적 필요를 충족시킬 적절한 #bold 알함브라 [ROOT.Char.GetFaith.HouseOfWorship|U]#!가 필요합니다. 물론 알함브라 곳곳에 작은 예배당 몇 개와 기도실, 작은 기도당 등이 있기는 하지만, 그것으로는 부족합니다. 우리는 진정으로 독실한 [ROOT.Char.GetFaith.GetAdherentNamePlural]로서 예배를 드리고, [ROOT.Char.GetFaith.HighGodName]에게서 영감을 얻을 수 있는 제대로 된 예배 장소가 필요합니다. 이 건물은 그 필요를 충족시켜 줄 것입니다." # 7918533332139574884
+  granada.0020.desc.structure.rawda: "\n\n라우다 묘소는 대단히 아름다운 영묘가 될 것이며, [ROOT.Char.GetDynasty.GetName] 왕조 일원들에게 걸맞은 안식처가 될 것입니다. 묘소로 들어서는 누구에게나 작은 안뜰과 정원이 방문객을 맞이할 것이며, 묘소 자체는 직사각형의 구조로 지어질 예정입니다. 저는 이곳에 묻히기를 바라며, 바라건대 제 가문의 미래의 많은 후손들도 이곳에 묻혀, 사후세계에서도 알함브라의 아름다움과 영광이 멀리 있지 않기를 바랍니다." # 9520134318096686007
+  granada.0020.desc.structure.comares_palace: "\n\n#bold 코마레스 궁전#!은 알함브라 단지의 장엄한 별관이 될 것입니다. 물론 다른 궁전 건물들도 있고, 제가 세상을 떠난 후에도 분명 더 많이 지어지겠지요. 하지만 코마레스 궁전은 다른 것들과는 다를 것입니다. 반사 연못, 신하들과 손님들을 맞이할 성대한 즉위실, 그리고 이베리아에서 전례 없는 규모의 목욕탕을 갖출 것입니다. 이 모든 것이 세상의 진정한 부러움거리가 될 것입니다!" # 9267028874319472015
+  granada.0020.desc.structure.court_of_the_lions: "알함브라에는 각각 고유한 아름다움을 지닌 많은 궁전들이 있습니다. 제가 영원히 연관되기를 바라는 궁전은 #bold 사자의 궁정#!이라 불릴 것입니다. 가장 웅장한 건축물은 아닐 테지만, 기술적, 예술적 측면에서 건축적 성과를 이루어낼 것이기에 비용을 아끼지 않을 것입니다. 이곳의 중앙 안뜰에는 조각된 사자들이 있는 대리석 분수가 있고, 홀에는 정교한 궁륭이 있어 이곳을 방문하는 모든 이들에게 잊을 수 없는 광경을 선사할 것입니다." # 8320683531772634486
+  granada.0020.desc.structure.generic_palatial: "\n\n알함브라에 #bold 궁전 저택#이 많아질수록 좋은 법입니다! 자존심 있는 모든 [ROOT.Char.GetTitleAsNameNoTooltip]은 알함브라를 또 하나의 궁전 단지로 확장하는 것과 같은 위대한 업적을 통해 다른 사람들, 특히 자신보다 못한 이들에게 자신의 지위, 부, 힘을 증명해야 합니다. 그렇지 않다면 다른 사람들이 나를 존중해야 할 이유가 어디 있겠습니까? 이 저택은 내부적으로 휴식과 여가를 위한 공간이 될 것이며, 사절단을 맞이하는 궁정 역할을 하고, 업무를 보거나 [ROOT.Char.GetFaith.HighGodName]께 기도할 수 있는 서재 역할도 할 것입니다." # 13790914512450684575
+  granada.0020.desc.structure.generic_recreational: "\n\n누가 #bold 정원#을 좋아하지 않겠습니까! 특히 알함브라의 정원 말이죠? 그래서 이곳에 정원을 하나 더 만들 생각입니다. 물론, 어리석은 자들은 이곳의 정원이 흔해 빠졌다고 말하겠지만, 각각의 정원은 꽃, 관목, 분수 등이 독특하게 조화되어 알함브라 전체의 아름다움에 기여합니다. 저는 이 정원 역시 다른 정원들만큼이나 경이롭도록 만들기 위해 먼 곳에서부터 숙련된 정원사, 식물학자, 수리 기술자들을 데려올 것입니다." # 10391742451058597823
+  granada.0020.desc.structure.generic_military: "알함브라는 그 아름다움으로 유명하며 보통 나와 내 궁정의 휴식과 여가를 위한 장소로 쓰이지만, 결국 이곳은 외세의 적으로부터 이 지역을 보호하기 위한 요새라는 사실을 잊어서는 안 됩니다. 따라서 나는 알함브라에 추가적인 #bold 요새#를 건설하고 싶습니다! 알함브라 단지의 다른 부분들만큼 화려하거나 인상적이지는 않겠지만, 장기적으로 이 궁전의 전반적인 안전에 기여할 것이니 안심하고 쉴 수 있을 것입니다." # 16982897878849381588
+  granada.0020.desc.conclusion: "\n\n새로운 건축물이 이제 건설되기 시작했습니다. 시간이 다소 걸리겠지만, 이 지상 낙원에 걸맞은 추가물이 될 것이라 확신합니다!" # 1914956959485748137
+  granada.0020.a: "완성될 모습이 정말 기대되는군!" # 3735965357727184665
+  granada.0020.tooltip.generalife: "#bold 헤네랄리페#! 건설에는 1년에서 5년이 소요됩니다. 완공 시 그라나다 [county|E]의 [ruler|E]는 다음 보너스를 받게 됩니다:\n$EFFECT_LIST_BULLET$ @prestige_icon! 150\n$EFFECT_LIST_BULLET$ @piety_icon! 150\n$EFFECT_LIST_BULLET$ [GetModifier('RICE_granada_built_generalife').GetNameWithTooltip] [modifier|E] (10년)\n$EFFECT_LIST_BULLET$ #bold $RICE_granada_admire_alhambra_gardens$#! [decision|E]의 보너스가 더 좋아집니다\n$EFFECT_LIST_BULLET$ #bold $RICE_granada_alhambra_munya_estate$#! [decision|E] 비용이 더 저렴해집니다" # 10043464948084878170
+  granada.0020.tooltip.house_of_worship: "#bold 알함브라 성소#! 건설에는 1년에서 5년이 소요됩니다. 완공 시 그라나다 [county|E]의 [ruler|E]는 다음과 같은 보너스를 받게 됩니다:\n$EFFECT_LIST_BULLET$ @piety_icon! 300\n$EFFECT_LIST_BULLET$ [GetModifier('RICE_granada_built_house_of_worship').GetNameWithTooltip] [modifier|E] 10년 동안\n$EFFECT_LIST_BULLET$ 향후 알함브라에 대한 [decision|E]인 #bold $RICE_granada_alhambra_comares_baths$#! 의 보너스가 더 좋아집니다\n$EFFECT_LIST_BULLET$ 향후 알함브라에 일반적인 확장을 건설할 때 모든 [rulers|E]에게 [piety|E] 보너스 제공" # 7033786184903520867
+  granada.0020.tooltip.rawda: "#bold 라우다 묘소#! 건설에는 1년에서 5년이 소요됩니다. 완공 시 그라나다 [county|E]의 [ruler|E]는 다음과 같은 보너스를 받게 됩니다:\n$EFFECT_LIST_BULLET$ @piety_icon! 200\n$EFFECT_LIST_BULLET$ @dynasty_prestige_icon! 100\n$EFFECT_LIST_BULLET$ [GetModifier('RICE_granada_built_rawda').GetNameWithTooltip] [modifier|E] (10년 지속)\n$EFFECT_LIST_BULLET$ 향후 알함브라에 일반적인 확장을 건설할 때 모든 [rulers|E]에게 [dynasty_prestige|E] 보너스 부여" # 1520898602818076573
+  granada.0020.tooltip.comares_palace: "#bold 코마레스 궁전#! 건설에는 1년에서 5년이 소요됩니다. 완공 시 그라나다 [county|E]의 [ruler|E]는 다음과 같은 보너스를 받게 됩니다:\n$EFFECT_LIST_BULLET$ @prestige_icon! 300\n$EFFECT_LIST_BULLET$ 10년 동안 [GetModifier('RICE_granada_built_comares_palace').GetNameWithTooltip] [modifier|E]\n$EFFECT_LIST_BULLET$ #bold $RICE_granada_alhambra_comares_baths$#! [decision|E] 활성화" # 15930305458546326107
+  granada.0020.tooltip.court_of_the_lions: "#bold 사자의 궁정#! 건설에는 1년에서 5년이 소요됩니다. 완공 시 그라나다 [county|E]의 [ruler|E]는 다음과 같은 보너스를 받게 됩니다:\n$EFFECT_LIST_BULLET$ @prestige_icon! 200\n$EFFECT_LIST_BULLET$ @dynasty_prestige_icon! 100\n$EFFECT_LIST_BULLET$ 10년 동안 [GetModifier('RICE_granada_built_court_of_the_lions').GetNameWithTooltip] [modifier|E]\n$EFFECT_LIST_BULLET$ 향후 알함브라에 일반적인 확장을 건설할 때 모든 [rulers|E]에게 [prestige|E] 보너스 부여" # 5381552212288996215
+  granada.0020.tooltip.generic_palatial: "#bold 일반 궁정 거처#! 건설에는 1년에서 5년이 소요됩니다. 완공 시 그라나다 [county|E]의 [ruler|E]는 다음과 같은 보너스를 받습니다:\n$EFFECT_LIST_BULLET$ @prestige_icon! 100 (@piety_icon! 200, 만약 [alhambra|E]에 사자의 궁정 [alhambra_structure|E]이 건설된 경우)\n$EFFECT_LIST_BULLET$ @piety_icon! 100 (@piety_icon! 200, 만약 [alhambra|E]에 알함브라 예배당 [alhambra_structure|E]이 건설된 경우)\n$EFFECT_LIST_BULLET$ @dynasty_prestige_icon! 50, 만약 [alhambra|E]에 라우다 영묘 [alhambra_structure|E]가 건설된 경우\n$EFFECT_LIST_BULLET$ [GetModifier('RICE_granada_built_generic_palatial').GetNameWithTooltip] [modifier|E] (10년 동안)" # 276204372348644645
+  granada.0020.tooltip.generic_recreational: "#bold 일반 정원#! 건설에는 1년에서 5년이 소요됩니다. 완성되면 그라나다의 [county|E]의 [ruler|E]는 다음 보너스를 받게 됩니다:\n$EFFECT_LIST_BULLET$ @piety_icon! 200 (@piety_icon! 300, 단, [alhambra|E]에 알함브라 예배당 [alhambra_structure|E]이 건설된 경우)\n$EFFECT_LIST_BULLET$ @prestige_icon! 100, 단, [alhambra|E]에 사자의 궁정 [alhambra_structure|E]이 건설된 경우\n$EFFECT_LIST_BULLET$ @dynasty_prestige_icon! 50, 단, [alhambra|E]에 라우다 영묘 [alhambra_structure|E]이 건설된 경우\n$EFFECT_LIST_BULLET$ 10년 동안 [GetModifier('RICE_granada_built_generic_recreational').GetNameWithTooltip] [modifier|E]" # 11762052649211789533
+  granada.0020.tooltip.generic_military: "#bold 일반 요새# 건설에는 1년에서 5년이 소요됩니다. 완공 시 그라나다 [county|E]의 [ruler|E]는 다음과 같은 보너스를 받습니다:\n$EFFECT_LIST_BULLET$ @prestige_icon! 200 (@prestige_icon! 300 if the Court of the Lions [alhambra_structure|E] has been built in the [alhambra|E])\n$EFFECT_LIST_BULLET$ @piety_icon! 100 if the Alhambra House of Worship [alhambra_structure|E] has been built in the [alhambra|E]\n$EFFECT_LIST_BULLET$ @dynasty_prestige_icon! 50 if the Rawda Mausoleum [alhambra_structure|E] has been built in the [alhambra|E]\n$EFFECT_LIST_BULLET$ [GetModifier('RICE_granada_built_generic_military').GetNameWithTooltip] [modifier|E] for 10 years" # 16811038464482191109
+  granada.0021.t: "알함브라 궁전 건설 완료" # 11119832998110139355
+  granada.0021.desc.intro.original: "마침내 알함브라 궁 확장을 위한 최신 건설 프로젝트가 완료되었습니다! 이 사업에 쏟아부은 모든 자금이 헛되지 않았군요. 이제 알함브라는 새로운 별관이 추가되어 이전보다 훨씬 더 아름다워졌습니다." # 8622952715257268933
+  granada.0021.desc.intro.other_builder: "얼마 지나지 않아, [granada.GetNameNoTier]의 이전 통치자들이 알함브라 궁전을 확장하는 건설 사업을 시작했습니다. 무슨 이유에서인지, 이제 제가 [granada.GetNameNoTier]를 다스리게 되었으니, 이 사업을 완수한 것도 저입니다. 이제 알함브라 궁전은 새로운 별관이 추가되어 이전보다 훨씬 더 아름다워졌습니다." # 15494884877999252487
+  granada.0021.desc.structure.generalife: "\n\n#bold 헤네랄리페#!는 정말 장엄한 건축물입니다. 아름다운 정원과 기분 좋은 물의 계단, 그리고 환영하는 듯한 궁전으로 가득 차 있어 이베리아 반도에서 상상할 수 있는 최고의 휴양지라 할 수 있습니다. 무엇보다도 알함브라 궁전 맞은편에 있는 멋진 언덕 위에 자리 잡고 있어, 어느 건축물로든 눈 깜짝할 사이에 쉽게 이동할 수 있습니다! 제대로 된 휴가를 즐기고 싶을 때 딱이죠!" # 18035549677857096525
+  granada.0021.desc.structure.house_of_worship: "마침내 알함브라에 제대로 된 예배 장소가 생겼습니다. 앞으로 #bold 알함브라 [ROOT.Char.GetFaith.HouseOfWorship|U]#라고 불릴 이곳은 저를 포함하여 이곳에 사는 모든 이들의 영적 필요를 채워줄 것입니다. 비록 다른 [ROOT.Char.GetFaith.HouseOfWorship]들만큼 크지는 않지만, 대부분보다 뛰어나다고 감히 말할 수 있습니다. 무성한 정원, 평화로운 안뜰, 그리고 비할 데 없는 우아함과 예술성을 지닌 건축물에 둘러싸여 있다면, 알함브라의 아름다움을 목도하고 누가 [ROOT.Char.GetFaith.HighGodName]께 경배하지 않겠습니까?" # 14380473219461199943
+  granada.0021.desc.structure.rawda: "일부는 알함브라 궁전 한가운데에 #bold 라우다 영묘#!를 세우는 것이 다소 섬뜩하다고 생각할 수도 있습니다. 하지만 죽은 자들의 영혼에게 아름다운 안식처를 주는 것을 왜 거부해야 하겠습니까? 우리가 살아 있을 때 알함브라를 즐겼다면, 죽어서도 이곳을 누릴 기회를 갖는 것이 마땅합니다. 지금부터 저와 [ROOT.Char.GetDynasty.GetName] 왕조의 다른 구성원들, 그리고 이 지역의 모든 미래 통치자들은 이곳에 합당하게 묻힐 것입니다. 진실로, 무덤들 사이를 거닐며 우리 이전에 살았던 이들을 생각하는 것은 즐겁고도 약간은 애잔한 일이 될 것입니다." # 10014412777243633343
+  granada.0021.desc.structure.comares_palace: "\n\n#bold 코마레스 궁전#!은 웅장한 궁전으로 지어질 예정이었고, 실제로도 그러하리라 의심치 않습니다. 바깥 중앙에는 소위 '도금양의 뜰'에 자리한 거대한 반사 연못이 있습니다. 그곳에서부터 사람들은 옥좌실로도 사용될 수 있는 장엄한 대사들의 홀로 들어갈 수 있습니다. 무엇보다도, 이 건축물에는 이베리아에서 이전에 본 적 없는 크기의 목욕탕까지 포함되어 있으니, 실로 세상의 부러움을 살 만합니다!" # 17774493375514944461
+  granada.0021.desc.structure.court_of_the_lions: "#bold 사자의 궁정#! 은 열두 마리의 사자가 있는 대리석 분수에서 그 이름을 따왔으며, 이 분수는 수로를 통해 궁전의 나머지 부분과 연결되어 있습니다. 이 분수는 안달루시아 궁전의 가장 큰 매력으로, 알함브라라는 거대한 퍼즐의 작은 조각 중 하나일 뿐입니다. 그 아름다움이 너무나도 정교하여, 이곳 알함브라 이 구역에 발을 딛는 모든 이들이 그 첫 순간을 영원히 기억할 것이라 확신합니다. 그들은 분수를 처음 보았을 때 잠시 숨 쉬는 법을 잊을 것이며, 알함브라를 떠난 후에도 그것을 떠올릴 때마다 의심할 여지 없이 감탄하며 한숨을 쉴 것입니다." # 11171510765287356019
+  granada.0021.desc.structure.generic_palatial: "알함브라에는 이미 다른 궁전들이 있고, 그중에는 아름다운 곳도 있겠지만, 적어도 내가 그 건설을 마무리하도록 주선했다는 점에서 이 #bold 궁정 거처#!를 내 소유라고 부를 수 있겠지. 나는 분명 그곳에서 많은 시간을 보낼 것이다. 휴식을 취하거나, 멀리서 온 손님을 맞이하거나, 국정 업무를 돌보며 일하는 데 말이다." # 2903871594351196184
+  granada.0021.desc.structure.generic_recreational: "\n\n이 #bold 정원#! 들은 알함브라 궁전에 있는 여러 정원 중 하나일 뿐이지만, 이 궁전 단지에 어울리는 훌륭한 추가물이라고 감히 말할 수 있겠소. 천국에 있는 듯한 기분을 느끼게 하기 위해 전 세계의 꽃, 나무, 관목들이 분수와 수로 주변에 세심하게 심어져 있소. 이 정원 어딘가에 앉아 그 광경을 감상하고, 물 흐르는 소리와 새들의 노랫소리를 들으며, 시원한 바람이 뺨에 닿는 것을 느끼는 것보다 더 좋은 것은 없다고 생각하오. 나는 만족하오." # 14487896409060902606
+  granada.0021.desc.structure.generic_military: "결국 알함브라는 여전히 요새이며, 요새는 그 궁극적인 방어벽 역할을 수행하기 위해 지속적으로 유지되어야 합니다. 그런 의미에서 알함브라에 새로 건설된 #bold 요새#들은 그 역할을 훌륭하게 수행합니다. 탑, 성벽, 병영 등 이 모든 것들이 우리가 알함브라를 보호하고, 우리를 파괴하려는 자들에 의해 그 아름다움이 훼손되거나 파괴되는 일이 없도록 보장해 줄 것입니다." # 14732500176525285468
+  granada.0021.a: "그야말로 장엄하군." # 2436672024956003909
+  granada.0021.tooltip.generalife: "$EFFECT_LIST_BULLET$ #bold $RICE_granada_admire_alhambra_gardens$#! [decision|E]로 얻는 보너스가 더 좋습니다\n$EFFECT_LIST_BULLET$ #bold $RICE_granada_alhambra_munya_estate$#! [decision|E]의 비용이 더 저렴해집니다" # 16920515041413763302
+  granada.0021.tooltip.house_of_worship: "$EFFECT_LIST_BULLET$ #bold $RICE_granada_alhambra_comares_baths$#! [decision|E]를 통해 얻는 보너스가 더 좋습니다.\n$EFFECT_LIST_BULLET$ 향후 알함브라에 일반적인 확장 건물을 건설할 때 모든 [rulers|E]에게 [piety|E] 보너스를 제공합니다." # 3235417198953424237
+  granada.0021.tooltip.rawda: "$EFFECT_LIST_BULLET$ 향후 알람브라 궁전의 일반적인 확장 시설 건설 시 모든 [rulers|E]에게 [dynasty_prestige|E] 보너스 부여" # 7576193321099596379
+  granada.0021.tooltip.comares_palace: "$EFFECT_LIST_BULLET$ #bold $RICE_granada_alhambra_comares_baths$#! [decision|E]이 그라나다의 [rulers|E]에게 해금되었습니다" # 4123259306706529122
+  granada.0021.tooltip.court_of_the_lions: "$EFFECT_LIST_BULLET$ 향후 알함브라에 일반적인 증축을 건설할 때 모든 [rulers|E]에게 [prestige|E] 보너스 부여" # 3823436607461562870
+  granada.0022.t: "xxxxx" # 1951045980481827005
+  granada.0022.desc: "xxxxx" # 1951045980481827005
+  granada.0022.a: "xxxxx" # 1951045980481827005
+  granada.0023.t: "xxxxx" # 1951045980481827005
+  granada.0023.desc: "xxxxx" # 1951045980481827005
+  granada.0023.a: "xxxxx" # 1951045980481827005
+  granada.0024.t: "xxxxx" # 1951045980481827005
+  granada.0024.desc: "xxxxx" # 1951045980481827005
+  granada.0024.a: "xxxxx" # 1951045980481827005
+  granada.0025.t: "xxxxx" # 1951045980481827005
+  granada.0025.desc: "xxxxx" # 1951045980481827005
+  granada.0025.a: "xxxxx" # 1951045980481827005
+  granada.0026.t: "xxxxx" # 1951045980481827005
+  granada.0026.desc: "xxxxx" # 1951045980481827005
+  granada.0026.a: "xxxxx" # 1951045980481827005
+  granada.0027.t: "xxxxx" # 1951045980481827005
+  granada.0027.desc: "xxxxx" # 1951045980481827005
+  granada.0027.a: "xxxxx" # 1951045980481827005
+  granada.0028.t: "xxxxx" # 1951045980481827005
+  granada.0028.desc: "xxxxx" # 1951045980481827005
+  granada.0028.a: "xxxxx" # 1951045980481827005
+  granada.0029.t: "xxxxx" # 1951045980481827005
+  granada.0029.desc: "xxxxx" # 1951045980481827005
+  granada.0029.a: "xxxxx" # 1951045980481827005
+  granada.0030.t: "[hafsa.GetFirstNamePossessiveNoTooltip] 비탄" # 4221678831310655059
+  granada.0030.desc: "당신은 여전히 내 꿈에 나타나는군요, [abu_jafar.GetFirstName]. 오래전, 우리는 한가롭고 근심 없던 날들을 보내며 서로에게 시를 읊고 달빛 아래 포옹했었죠. 우리는 그때 행복한 삶을 살았습니다. 정원의 두 마리 새처럼, 세상에서 존경받고 이름난 두 시인처럼 말입니다.\n\n그 [uthman.Custom('InsultAdjective')] [uthman.Custom('InsultNoun')]인 [uthman.GetFirstName]이 우리의 행복을 끝냈습니다. [uthman.GetSheHe|U]는 짐승처럼 나를 탐냈지만, [uthman.GetSheHe]는 내 마음이 당신의 것이라는 걸 알았죠. 그때도 당신은 [uthman.GetHerHim]을 충실한 관료로서 섬겼습니다. 그러다 [uthman.GetHerHis]의 계략과 비행이 도를 넘자, 당신은 [uthman.GetHerHim]에게 반기를 들었죠. [uthman.GetSheHe|U]는 이 핑계를 대어 당신을 잔인하게 처형했습니다.\n\n지금도 나는 당신을 위해 눈물을 흘립니다. 지금도 나는 [uthman.GetFirstNameNoTooltip]을 저주합니다. 지금도 내 마음이 치유될 수 있을지, 내 인생이 어떤 방향으로 나아갈지 알 수 없습니다...." # 2735281981294179306
+  granada.0030.a: "그리워요, 정말 많이..." # 14020772169387933418
+  granada.0031.t: "[uthman.GetFirstNameNoTooltip]을 모욕하기" # 12959083674436546585
+  granada.0031.desc: "[uthman.GetFirstName]에게 천 번의 저주를, 그대가 [abu_jafar.GetFirstName]를 살해하다니, 이 [uthman.Custom('InsultAdjective')] [uthman.Custom('InsultNoun')] 같으니라고! 지금 이 순간에도 그대에게 침을 뱉으리라!\n\n내 슬픔이 끝이 없듯이, 내 분노 또한 끝이 없다. 영감이 솟아오른다. 곧 내 안에서 천둥 같은 강물처럼, 멈출 수 없는 폭풍처럼, 도시를 파괴하는 지진처럼 말이 쏟아져 나온다. 나는 시를 짓는다. [uthman.GetFirstNameNoTooltip]을 새롭고 창의적인 방식으로 모욕하고, 비웃고, 중상하는 시를." # 9415047983727439999
+  granada.0031.a: "세상이 그대의 악행을 알게 되리라!" # 4487068450407834782
+  granada.0032.t: "[abu_jafar.GetFirstNameNoTooltip]을 찬양하며" # 7709953771129864893
+  granada.0032.desc: "\"오, [abu_jafar.GetFirstName]! 지금도 나는 당신과 당신의 품, 그리고 내 입술에 닿았던 당신의 입술을 꿈꿉니다. 내가 당신을 당연하게 여겼던 걸까요? 당신이 살아계실 때 충분히 감사하지 못했던 걸까요\"\n\n다른 이들은 [abu_jafar.GetFirstNameNoTooltip]와 내가 공식적으로 결혼하지 않았음에도 불구하고 내가 왜 지금껏 상복을 입고 다니는지 의문을 가질지도 모릅니다. 하지만 진실로, [abu_jafar.GetSheHe]는 참으로 놀라운 [abu_jafar.GetWomanMan]이자 시인이었고, 지금도 나는 [abu_jafar.GetHerHim]에 대한 시를 짓고 싶은 영감을 받습니다. [abu_jafar.GetHerHis|U] 아름다움과 [abu_jafar.GetHerHis] 유창한 지성, 그리고 [abu_jafar.GetHerHis] 올곧은 마음은 결코 잊히지 않을 것입니다." # 18268928173499868204
+  granada.0032.a: "나의 사랑하는 이여, 다시 한번 나의 영감이 되어주오...." # 11472770921485039312
+  granada.0033.t: "시에서 잠시 휴식" # 17607694885999528860
+  granada.0033.desc: "\"우리는 서로에게 수많은 시를 주고받곤 했지. 때로는 [abu_jafar.GetFirstName]가 먼저 시를 건네기도 했고, 때로는 내가 먼저 건네기도 했어. 이제 시를 쓸 때마다, 나는 그 행복하고 젊고 근심 없던 날들을 떠올린다네...\"\n\n여전히 나에게 시를 짓는 것은 어렵다. 기술적인 의미에서 어려운 것이 아니라, 감정적인 의미에서 어렵다. 내가 읊조리는 시의 모든 단어는 [abu_jafar.GetFirstNameNoTooltip]에 대한 고통스러운 상기이다. 시는 잠시 접어두고... 다른 일을 찾아야겠어... 적어도 잠시 동안은 말이다." # 3990919013353762545
+  granada.0033.a: "더 나은 심리 상태가 되어야겠군." # 5395609155378624453
+  granada.0034.t: "다른 이들을 가르치기" # 2638534898493219006
+  granada.0034.desc: "\"[abu_jafar.GetFirstName]가 죽은 후로 겉치레뿐인 시시한 궁정 정치의 세계를 떠났건만... 느릿느릿... 나는 타인과 교류하고 돕고 싶은 충동을 느낍니다. 이것이 바로 [abu_jafar.GetFirstNameNoTooltip]가 바랐던 것일까요\"\n\n사랑하는 [abu_jafar.GetFirstNameNoTooltip]가 세상을 떠난 이후로 내 행동이 다소 불규칙하고 비사교적이었음에도 불구하고, 나는 여전히 이 땅에서 시인이자 박식한 [ROOT.Char.GetWomanMan]으로 꽤 알려져 있습니다. 어떤 이들은 자신의 젊은이나 심지어 자기 자신에게 문학 예술에 대해 가르쳐 달라고 나를 찾아오기도 했습니다. 어쩌면 이것이 내 에너지를 생산적인 무언가로 돌릴 좋은 방법일지도 모르겠습니다." # 8339000070004978538
+  granada.0034.a: "내 근처에서 누군가 내 가르침을 구하고 있다는 소문이 들리는군...." # 650806499369276611
+  granada.0035.t: "$RICE_historical_aspiration_fulfilled_title$" # 6312590152546762382
+  granada.0035.desc: "내가 장난감처럼 나를 원했던, 그리고 정치적 반역이 아닌 사소한 질투심 때문에 나의 사랑하는 [abu_jafar.GetFirstName]을 처형한 [uthman.GetFirstName]에게 저주 위에 저주를 퍼붓는다.\n\n내 시는 이 땅에서 늘 유명했지만, 이제는 내가 더욱 유명해진 듯하다. 이 슬픔에서 내가 진정으로 회복할 수 있을지는 모르겠지만, [uthman.GetFirstNameNoTooltip]을 모욕하든 [abu_jafar.GetFirstNameNoTooltip]을 찬양하든 나의 불타는 시들은 전설이 되었다.\n\n내 상실에 대한 불충분한 보상으로 그것을 받아들여야만 할 것이다. 적어도 세상은 [uthman.GetFirstNameNoTooltip]의 악행도, [abu_jafar.GetFirstNameNoTooltip]이 내게 가져다준 행복도 잊지 못할 것이다." # 4373252707019271858
+  granada.0035.a: "내 삶의 운명이란 이렇듯 덧없는 것이지." # 2568095690008890506
+  granada.0036.t: "$RICE_historical_aspiration_fulfilled_title$" # 6312590152546762382
+  granada.0036.desc: "나는 [uthman.GetFirstName]를 용서했다고 말하는 것은 어리석은 짓일 겁니다. #bold 그#는 나를 장난감처럼 탐냈고, 나의 사랑하는 [abu_jafar.GetFirstName]를 정치적 반란 때문이 아니라 사소한 질투심 때문에 처형했으니까요.\n\n하지만 세월이 흐르면 마음도 치유된다고들 하지요... 조금은 말입니다. 나는 [abu_jafar.GetFirstNameNoTooltip]가 [abu_jafar.GetHerHis] 잔혹한 죽음 이후에도 내가 삶에서 유익하고 의미 있는 것을 찾기를 바랐을 것이라고 생각하고 싶습니다. 이 땅 전역에서 나의 시는 항상 유명했지만, 이제 나는 문학 예술 분야에서 다른 이들을 가르치며 진정으로 새로운 목적과 새로운 명성을 얻었습니다.\n\n내 상실에 대한 불충분한 보상으로 그것을 받아들여야 할 것 같습니다. 적어도 이제는 슬픔과 분노에 내 삶을 좌우당하지 않을 것입니다!" # 17188339542139774496
+  granada.0036.a: "$granada.0035.a$" # 11376809622046304416
+  granada.0037.t: "xxxxx" # 1951045980481827005
+  granada.0037.desc: "xxxxx" # 1951045980481827005
+  granada.0037.a: "xxxxx" # 1951045980481827005
+  granada.0038.t: "xxxxx" # 1951045980481827005
+  granada.0038.desc: "xxxxx" # 1951045980481827005
+  granada.0038.a: "xxxxx" # 1951045980481827005
+  granada.0039.t: "xxxxx" # 1951045980481827005
+  granada.0039.desc: "xxxxx" # 1951045980481827005
+  granada.0039.a: "xxxxx" # 1951045980481827005
+  granada.0040.t: "코마레스 목욕탕" # 12042167540034719971
+  granada.0040.desc: "알함브라의 왕실 목욕탕에 몸을 담그는 것은 정말… #italic 편안하군#!. 정말 #italic 상쾌하군#!. 정말 #italic 활력이 넘치는군#!. 이 장소를 어떻게 달리 묘사할 수 있을까?\n\n이 건물 어딘가에서 평화로움이 느껴지는군. 물론 알함브라 대부분의 장소에서 그런 기분을 느낄 수 있긴 하지만. 나는 이곳에 늘 오지만, 언제나 그렇듯 - 오늘은 평소보다 훨씬 더 기분이 좋군. 모든 근심이 사라지는 기분이야.\n\n목욕 시종들이 내 몸의 불순물을 비누로 닦아주는 것을 도운 후, 나는 흐르는 온수로 가서 몸을 깨끗이 씻는다." # 16569025527946296663
+  granada.0040.a: "아... 모든 것이 깨끗하고 평온하군...." # 4349076852016269856
+  granada.0041.t: "알함브라 궁전의 정원" # 737599223141743964
+  granada.0041.desc: "세상에는 수많은 정원이 있지만, 알함브라에서 볼 수 있는 정원만은 비교할 수 없을 것입니다. 수년 동안 이곳의 정원은 더 많은 나무, 꽃, 관목, 분수, 수로, 안뜰 등으로 끊임없이 확장되어 왔습니다.\n\n저는 [granada.GetNameNoTier]의 [ROOT.Char.GetTitleAsNameNoTooltip]이기에, 원할 때면 언제든지 이 사랑스러운 정원에 쉽게 접근할 수 있어 행운입니다. 어쨌든, 이 정원을 만끽하며 온종일을 보내는 데 시간을 할애한 지 꽤 되었군요." # 11106249339292094992
+  granada.0041.a: "알함브라가 제공하는 것을 감상하는 것은 좋은 일입니다." # 13770363084146927791
+  granada.0042.t: "xxxxx" # 1951045980481827005
+  granada.0042.desc: "xxxxx" # 1951045980481827005
+  granada.0042.a: "xxxxx" # 1951045980481827005
+  granada.0043.t: "xxxxx" # 1951045980481827005
+  granada.0043.desc: "xxxxx" # 1951045980481827005
+  granada.0043.a: "xxxxx" # 1951045980481827005
+  granada.0044.t: "xxxxx" # 1951045980481827005
+  granada.0044.desc: "xxxxx" # 1951045980481827005
+  granada.0044.a: "xxxxx" # 1951045980481827005
+  granada.0045.t: "xxxxx" # 1951045980481827005
+  granada.0045.desc: "xxxxx" # 1951045980481827005
+  granada.0045.a: "xxxxx" # 1951045980481827005
+  granada.0046.t: "xxxxx" # 1951045980481827005
+  granada.0046.desc: "xxxxx" # 1951045980481827005
+  granada.0046.a: "xxxxx" # 1951045980481827005
+  granada.0047.t: "xxxxx" # 1951045980481827005
+  granada.0047.desc: "xxxxx" # 1951045980481827005
+  granada.0047.a: "xxxxx" # 1951045980481827005
+  granada.0048.t: "xxxxx" # 1951045980481827005
+  granada.0048.desc: "xxxxx" # 1951045980481827005
+  granada.0048.a: "xxxxx" # 1951045980481827005
+  granada.0049.t: "xxxxx" # 1951045980481827005
+  granada.0049.desc: "xxxxx" # 1951045980481827005
+  granada.0049.a: "xxxxx" # 1951045980481827005
+  granada.0050.t: "휴가 계획" # 2683581989606821471
+  granada.0050.desc: "제가 바쁜 삶에서 벗어나 휴식을 취할 기회가 너무나도 오랜만이었군요. 알안달루스의 특권층과 귀족 계층의 많은 이들이 도시를 벗어나 휴식을 취하고 시간을 보낼 수 있도록 시골에 #italic 문야(munyas)#를 가지고 있습니다. 이제 저도 그곳에 가볼 때가 된 것 같습니다.\n\n#italic 문야#에서의 휴가는 계몽되지 않은 이교도들의 땅에서 하는 것과 같은 사소한 쾌락만을 위한 것이 아닙니다. 아닙니다. 이곳은 농업 및 식물학적 실험의 장소이기도 하며, 제대로 된 교양 있는 사람들이 모여 학문적인 담론을 나누는 곳이기도 합니다.\n\n어쨌든, 저는 곧 [ROOT.Char.GetTravelPlan.GetData.GetNextDestination.GetProvince.GetName]에서 [ROOT.Char.GetInvolvedActivity.GetShortName]에 참여하게 될 것입니다. 이러한 유람에는 그 사람의 성격과 관심사가 무엇이든 간에 즐거운 일들이 많이 있습니다!" # 880023653322096090
+  granada.0050.a: "혼자만의 시간을 보내고 싶습니다." # 805529066623893337
+  granada.0050.a.tooltip: "만약 혼자 [munya|E]로 휴가를 떠난다면 [stress|E]를 잃을 가능성이 더 커집니다. 원한다면, 그곳에서 최신 농업 및 식물학 발전에 대해 배워 영역을 개선할 기회를 얻을 수도 있습니다." # 5292181544346874802
+  granada.0050.b: "재미있게 놀아보자!" # 921187341425226934
+  granada.0050.b.tooltip: "만약 당신이 일행과 함께 [munya|E]로 휴가를 떠난다면, [prestige|E]와 [piety|E]를 얻을 더 나은 기회를 갖게 될 것입니다. 또한 당신을 초대한 이들의 당신에 대한 [opinions|E]와 통치자로서 당신이 풍기는 이미지를 개선할 수도 있습니다." # 17326946024049715790
+  granada.0051.opening: "[sender.Custom2('AppropriateGreeting', ROOT.Char)]" # 1321358378497014840
+  granada.0051.desc.host_likes_me: "며칠 뒤, 제가 소유한 [barony.GetNameNoTier]의 #italic 무냐#로 당신을 초대하고 싶습니다. 저의 궁정의 다른 구성원들도 함께할 예정입니다. 저의 #italic 무냐#는 당신이 휴식을 취하고 동족들과 즐거운 시간을 보낼 수 있는 훌륭한 장소임을 보장합니다. 시간이 되신다면 그곳에서 당신을 뵙고 싶습니다." # 15796630001408805447
+  granada.0051.desc.host_dislikes_me: "며칠 뒤에 저는 제 #italic 무냐#! 중 한 곳인 [barony.GetNameNoTier]로 휴가를 떠날 예정이며, 궁정의 다른 구성원들도 함께할 것입니다. 유감스럽게도, 예의상 그 여정에 귀하를 초대해야 할 것 같습니다. 아시다시피 #italic 무냐#!는 제대로 된 교양 있는 사람들이 (귀하가 그런지는 잘 모르겠습니다만) 서로의 교제를 즐기기 위해 모이는 곳입니다. 오시기를 원하신다면, 부디 가장 좋은 태도를 보여주시고 스스로를 곤란하게 만들지 마십시오." # 11028605186499594981
+  granada.0051.a: "[sender.GetHerHis] #italic 뮈냐#! 에서 휴가를 보낸다면 영광일 것입니다!" # 2318764156972632440
+  granada.0051.a.tooltip: "[munya|E]에서 휴가를 보내시면 귀하의 관심사와 주최 측이 계획한 일정에 따라 다양한 보너스를 얻을 기회가 주어질 것입니다." # 4925452881503805981
+  granada.0051.b: "이것은 감사하지만, 유감스럽게도 저는 다른 일정이 있습니다." # 17778349644919206085
+  granada.0051.c: "정말인가? [sender.GetHerHim]에게 [sender.GetHerHis]의 휴가가 시간 낭비라는 것을 알려주게!" # 6980476249994257904
+  granada.0051.c.tooltip: "[sender.GetTitledFirstName]께, 그대의 경솔한 휴가에 대한 나의 불만을 담아 서신을 보냅니다." # 18094582747299367719
+  granada.0052.opening: "[munya_vacation_rejector.Custom2('AppropriateGreeting', ROOT.Char)]" # 7472366147123158930
+  granada.0052.desc: "저는 당신의 #italic 뭄냐#!에서 휴가를 보내라는 초대를 거절하고자 합니다. 첫째로, 저는 당신이 [host.GetTitleAsNameNoTooltip]으로서의 의무에 집중하기보다 경박한 오락에 더 관심이 있는 것 같아 실망했습니다. 둘째로, 저는 처리해야 할 선약이 있어 상당히 바쁩니다. 당신도 이해해 주시리라 믿습니다." # 12545390022506979
+  granada.0052.a: "우리는 다르게 볼 수도 있겠지만, 그것은 충분히 공평한 일입니다!" # 11012846939218695590
+  granada.0052.b: "감히 [munya_vacation_rejector.GetSheHe]가 내 초대를 거절하다니!" # 1871753896202507126
+  granada.0053.t: "휴가 연기... 무기한" # 11381966772661396467
+  granada.0053.desc: "[host.GetTitledFirstName]께서 별세하셨다는 소식을 들었습니다. 따라서 [host.GetSheHe]께서 계획하셨던 휴가는 취소되었습니다. 저와 [host.GetHerHis] #italic 문야#!로 여행을 계획했던 다른 손님들은 명백한 이유로 더 이상 그럴 필요가 없어졌습니다." # 15551492912576271111
+  granada.0053.a: "불행한 소식이오!" # 7153243534981295953
+  granada.0054.t: "휴가 연기됨" # 15779666439190575027
+  granada.0054.desc: "[host.GetTitledFirstName]께서 방금 투옥되었다는 소식을 들었으며, 저와 그분의 #italic 휴가#!를 위해 방문할 예정이었던 다른 손님들은 더 이상 그 의무가 없다는 것도 알게 되었습니다." # 9618738881415273219
+  granada.0054.a: "참으로 난처한 상황이로군." # 5176561380421488981
+  granada.0055.t: "휴가 연기됨" # 15779666439190575027
+  granada.0055.desc: "#italic 나의 뭄냐#! 로 휴가를 떠나는 대신, 감옥에 갇히게 되었군요! 투옥되었으니 휴가 계획을 취소해야겠습니다. 곧 이곳에서 풀려나기를 바랍니다." # 4441007245617709352
+  granada.0055.a: "휴가 계획이 모두 수포로 돌아갔군." # 8727307545034929165
+  granada.0056.t: "xxxxx" # 1951045980481827005
+  granada.0056.desc: "xxxxx" # 1951045980481827005
+  granada.0056.a: "xxxxx" # 1951045980481827005
+  granada.0057.t: "xxxxx" # 1951045980481827005
+  granada.0057.desc: "xxxxx" # 1951045980481827005
+  granada.0057.a: "xxxxx" # 1951045980481827005
+  granada.0058.t: "xxxxx" # 1951045980481827005
+  granada.0058.desc: "xxxxx" # 1951045980481827005
+  granada.0058.a: "xxxxx" # 1951045980481827005
+  granada.0059.t: "xxxxx" # 1951045980481827005
+  granada.0059.desc: "xxxxx" # 1951045980481827005
+  granada.0059.a: "xxxxx" # 1951045980481827005
+  granada.0060.t: "휴가가 시작되다" # 11122698452453069350
+  granada.0060.desc: "준비를 마친 끝에, 나는 소풍을 위해 시골에 있는 #italic 별장#!에 도착했다. 앞으로 며칠 동안 이 저택을 통째로 차지하고 마음껏 쉬며 인생을 즐길 수 있겠군.\n\n물론 나 혼자라고 해서 생산적인 활동을 할 수 없는 것은 아니다. 이처럼 큰 별장을 소유할 만큼 부유하고 강력한 이들은 종종 지역 학자들의 식물학 및 농업 실험 노력을 후원하곤 한다. 따라서 원한다면 내가 후원하는 프로젝트들이 어떻게 진행되고 있는지 확인해볼 수도 있다. 내 영지를 관리하는 데 도움이 되거나 다른 이들에게 깊은 인상을 줄 만한 새로운 통찰을 얻는다면 꽤나 기분 좋은 놀라움이 될 것이다.\n\n다른 한편으로는, 휴가는 순전히 휴식만을 위한 것이어야 할지도 모르겠다." # 351578840632495936
+  granada.0060.a: "주변 농지에서 들어온 최신 소식은 무엇인가?" # 6572810567332067666
+  granada.0060.a.tooltip: "이 선택지를 통해 우리 영지를 관리하고 농업 문제에 대한 새로운 통찰력을 얻을 기회를 가질 수 있습니다." # 9059007070588495612
+  granada.0060.b: "정원사들과 식물학자들이 무슨 일을 하고 있는지 궁금하군요." # 7066038586896753151
+  granada.0060.b.tooltip: "식물이 개인적으로 당신에게 어떤 이익을 줄 수 있는지에 대한 새로운 통찰력을 얻을 수 있는 이 선택지를 택하세요." # 9495466008549936817
+  granada.0060.c: "이것은 긴장을 풀고 스트레스 받는 일을 하지 않을 시간입니다." # 5486926765693607372
+  granada.0060.c.tooltip: "더 많은 [stress|E]를 잃는 대신 다른 보너스를 얻을 기회를 박탈당하는 이 선택지를 택하겠습니다." # 4181206352433279067
+  granada.0061.t: "휴가가 끝나다" # 12125598610716108642
+  granada.0061.desc: "모든 좋은 것에는 끝이 있기 마련입니다. 지난 며칠간 #italic 뮌냐#!에서 즐거운 시간을 보냈지만, 이제 이 땅의 [ROOT.Char.GetTitleAsNameNoTooltip]으로서의 의무로 돌아가야 합니다.\n\n그렇긴 해도, 삶의 스트레스로부터 잠시 벗어날 기회를 얻게 되어 기쁩니다. 이렇게 시골로 내려오는 것은 언제나 [ROOT.Char.GetWomanMan]의 기운을 북돋아 주며, 다음번에 이런 기회가 생기기를 고대하고 있습니다." # 12669710613885789359
+  granada.0061.a: "제가 곧 돌아올 것이라 확신합니다." # 12809723429073023155
+  granada.0062.t: "므 믄야의 농업" # 6953205950247031119
+  granada.0062.desc: "많은 #italic 무냐#! 들이 제 소유의 것들처럼 맛있는 과일과 채소부터 설탕, 뽕나무에서 나는 생사까지 생산하는 농장 역할을 겸하고 있습니다. 따라서 저는 휴식을 취하기 위해 #italic 무냐#! 의 본 저택에 많은 시간을 보내고 있지만, 제 영지의 나머지 부분들이 어떻게 돌아가고 있는지 보고 싶습니다.\n\n이러한 운영에 대한 지침을 제공하기 위해 제가 이전에 고용한 농업 전문 학자 몇 명과 감독관들이 저와 함께 들판과 과수원을 돌아다닙니다. 아마도 그들에게 최근 작업에서 무엇을 배웠는지 물어봐야 할 것 같습니다. 이 정보는 제가 휴가에서 돌아왔을 때 유용하게 쓰일 수 있으며, 이 지역의 [ROOT.Char.GetTitleAsNameNoTooltip]으로서의 제 책무를 수행하는 데 도움이 될 것입니다." # 6624722244973266044
+  granada.0062.a: "작물 수확량과 생산량에 대해 문의합니다." # 8920024781234871350
+  granada.0062.a.title: "농업에 대한 통찰력을 얻었습니다!" # 7909084820270302985
+  granada.0062.b: "식량을 준비할 방법에 대해 물어보십시오." # 11777515414051000273
+  granada.0062.b.title: "음식에 대한 통찰력을 얻었습니다!" # 7589452924298334954
+  granada.0063.t: "우리 문야에서 정원 가꾸기" # 15328918950410844895
+  granada.0063.desc: "시골에 있는 #italic 무냐#!들은 대개 영지 내부에 혹은 근처에 꽤 큰 정원을 가지고 있으며, 저의 영지도 예외는 아닙니다. 이베리아 토종 식물은 물론 멀리 이국에서 온 꽃, 관목, 나무와 다른 식물들이 매력적인 산책로, 벤치, 그리고 분수와 연못 같은 물 요소들과 조화롭게 배치되어 있습니다.\n\n저는 저의 #italic 무냐#! 정원을 즐기는 것도 좋아하지만, 저의 직원들이 무엇을 하는지도 보고 싶습니다. 정원사, 노동자, 그리고 식물학을 전문으로 하는 학자들은 정원을 가꾸는 것뿐만 아니라 때로는 식물에 대해 더 배우기 위해 약간의 실험을 하기도 합니다.\n\n그들에게 흥미로운 것을 배웠는지 물어봐야겠습니다. 그 정보는 제가 휴가에서 돌아왔을 때 유용할 수 있고, 어쩌면 다른 사람들에게 깊은 인상을 주거나 평소 궁정 정원을 최대한 활용하는 데 도움이 될 수도 있을 것입니다." # 1345298928750725723
+  granada.0063.a: "이베리아의 정원 신규 유행에 대해 문의합니다." # 11659161508428119852
+  granada.0063.a.title: "원예에 대한 통찰력을 얻었습니다!" # 12101111965426260269
+  granada.0063.b: "이 식물들의 특성에 대해 물어보시오" # 4047281412297033104
+  granada.0063.b.title: "약초와 의술에 대한 지식을 얻었습니다!" # 4662796584424216085
+  granada.0064.t: "나의 문야에서 휴식을 취함" # 16820942858930015938
+  granada.0064.desc: "#italic 므냐#!에서 할 만한 흥미로운 일들이 많지만, 예를 들어 인근 농경지의 상황을 감독관들과 논의하거나 정원사와 식물학자들이 진행 중인 최신 실험을 조사하는 것과 같은 일들이 있겠지만, 저는 단 하나의 주된 이유로 이곳에 왔습니다. 바로 휴식을 취하기 위해서죠.\n\n지금까지는 하루 종일 아무것도, 적어도 힘들지 않은 일은 전혀 하지 않으며 즐거운 시간을 보내고 있습니다. 하루에 몇 번의 맛있는 식사를 하고 마음껏 낮잠을 자며, 정원을 산책하거나 시골을 말을 타고 달리거나, 두루마리를 읽는 것과 같은 몇 가지 소소한 즐거움에 빠져들곤 합니다." # 11941209996664319859
+  granada.0064.a: "삶이 좋군." # 12683314307343579095
+  granada.0064.a.title: "그대는 놀라울 정도로 푹 쉬었군요!" # 11838242087488014440
+  granada.0065.t: "xxxxx" # 1951045980481827005
+  granada.0065.desc: "xxxxx" # 1951045980481827005
+  granada.0065.a: "xxxxx" # 1951045980481827005
+  granada.0066.t: "xxxxx" # 1951045980481827005
+  granada.0066.desc: "xxxxx" # 1951045980481827005
+  granada.0066.a: "xxxxx" # 1951045980481827005
+  granada.0067.t: "xxxxx" # 1951045980481827005
+  granada.0067.desc: "xxxxx" # 1951045980481827005
+  granada.0067.a: "xxxxx" # 1951045980481827005
+  granada.0068.t: "xxxxx" # 1951045980481827005
+  granada.0068.desc: "xxxxx" # 1951045980481827005
+  granada.0068.a: "xxxxx" # 1951045980481827005
+  granada.0069.t: "xxxxx" # 1951045980481827005
+  granada.0069.desc: "xxxxx" # 1951045980481827005
+  granada.0069.a: "xxxxx" # 1951045980481827005
+  granada.0070.t: "휴가가 시작되다" # 11122698452453069350
+  granada.0070.desc: "나는 지금 궁정원들과 함께 유람을 떠나 시골에 있는 나의 #italic 무냐#!에 도착했다. 모든 것이 준비되었는지 확인하기 위해 일찍 도착했다. 첫 손님들이 도착하기 시작하면, 나는 주인의 입장에서 그들을 정중히 맞이하고 안으로 안내할 것이다.\n\n앞으로 며칠 동안, 우리는 이 사랑스러운 별장에서 온갖 종류의 오락을 즐길 것이다. 어떤 주인들은 장원과 주변 지역의 멋진 경치로 손님들을 현혹시키고 싶어 한다. 좀 더 교양이 있는 성향의 주인들은 이러한 #italic 무냐#!에서 진행된 식물학적 또는 농업 실험에 대한 지적인 토론이나 시 낭송을 즐길 수도 있다. 또 어떤 이들은 그저 잔치를 즐기고 즐거운 시간을 보내고 싶을 것이다.\n\n물론, 나는 이미 무엇을 할지 결정했다." # 8241608168326628381
+  granada.0070.a: "정원과 경치의 아름다움을 만끽해 봅시다." # 10516334146560878902
+  granada.0070.a.tooltip.1: "귀하는 [prestige|E] 혹은 [piety|E]를 얻게 되며, 귀하의 #italic 무냐#!는 그 아름다움과 미적 매력으로 널리 알려질 수 있습니다." # 14823385906331577353
+  granada.0070.a.tooltip.2: "내향적이고 조용한 손님들은 이 활동을 더 즐길 것이며, 휴가가 끝난 후 당신에 대해 더 나은 [opinion|E]를 가질 것입니다." # 15222850222902175352
+  granada.0070.b: "시와 지적인 담론을 나누어 봅시다." # 16415462797475757609
+  granada.0070.b.tooltip.1: "그대는 [piety|E]를 얻게 될 것이며, 그대의 #italic 문야#!는 학식 있고 웅변에 능한 학자들과 시인들을 끌어들이는 것으로 명성을 떨칠 수 있을 것입니다." # 1795912718636956517
+  granada.0070.b.tooltip.2: "지적이고 사려 깊은 손님들이 이 활동을 더 즐길 것이며, 휴가가 끝난 후 당신에 대해 더 나은 [opinion|E]를 갖게 될 것입니다." # 13922233845046578960
+  granada.0070.c: "연회를 열어 삶의 근심을 잊어버립시다!" # 9650143704094734554
+  granada.0070.c.tooltip.1: "귀하는 [prestige|E]를 얻게 되며, 귀하의 #italic 무냐#!는 활기차고 즐거운 연회를 많이 개최한 것으로 유명해질 수 있습니다." # 14599839032105300030
+  granada.0070.c.tooltip.2: "외향적이고 사교적인 손님들은 이 활동을 더 즐길 것이며, 휴가가 끝난 후 당신에 대해 더 나은 [opinion|E]를 가지게 될 것입니다." # 3121462096395936292
+  granada.0071.t: "휴가가 시작되다" # 11122698452453069350
+  granada.0071.desc: "마침내 저는 [host.GetTitledFirstNamePossessive] #italic munya#! 시골 별장에 도착하여 우리의 유람을 즐기려 합니다. 다른 손님들도 막 도착한 것 같군요. [host.GetWomanMan] [host.GetHerselfHimself]께서 저희를 맞이하고 안으로 안내하기 위해 본채에서 나옵니다.\n\n이 지역의 귀족들, 저를 포함해서 말입니다만, 이런 종류의 별장을 소유하고 있는 경우가 많지만, 다른 이들의 소유물을 보는 것은 언제나 흥미롭습니다. 어떤 이들은 아름다운 정원이나 멋진 건축물, 혹은 숨 막히는 시골 풍경으로 방문객들을 즐겁게 하는 데 집중합니다. 또 어떤 이들은 숙련된 시인들을 초청하여 지적이고 문학적인 활동에 몰두하게 함으로써 세련된 분위기를 조성합니다. 하지만 또 다른 이들은 박식한 학자들을 머물게 하여 식물학 또는 농업 실험을 수행하도록 유도하는 것을 선호합니다.\n\n어쨌든, 다른 손님들이 모두 도착하면 앞으로 며칠 동안 어떤 즐거움을 누리게 될지 누가 알겠습니까?" # 17096911014709619628
+  granada.0071.a: "우리의 여정은 어떠할지 궁금하군요." # 1611783222438209971
+  granada.0072.t: "휴가가 끝나다" # 12125598610716108642
+  granada.0072.desc: "모든 좋은 일에는 끝이 있는 법이죠. #italic 나의 궁정#!에서의 지난 며칠은 꽤 즐거웠지만, 저와 손님들은 결국 일상으로 돌아가야 합니다. 어젯밤 성대한 마지막 만찬을 즐겼고, 이제 이 화창하고 아름다운 아침에 우리는 떠나야 합니다.\n\n그럼에도 불구하고, 우리 모두 즐거운 시간을 보냈고 일상의 스트레스로부터 잠시 벗어날 수 있는 좋은 기회였다고 생각합니다." # 3024922580498407112
+  granada.0072.a: "다음 원정에 기대가 되는군!" # 12418014537409897661
+  granada.0073.t: "휴가가 끝나다" # 12125598610716108642
+  granada.0073.desc: "모든 좋은 일에는 끝이 있는 법입니다. 지난 며칠간 #italic 나의 궁정#!에서의 시간이 꽤 즐거웠지만, 저와 [host.GetTitledFirstName]님과 함께 며칠 동안 휴식과 여가를 즐기기 위해 #italic 그분의 궁정#!에 합류했던 다른 이들도 결국 일상으로 돌아가야 합니다. 어젯밤 우리는 멋진 마지막 만찬을 즐겼고, 이제 이 화창하고 아름다운 아침에 우리는 떠나야 합니다.\n\n그럼에도 불구하고, 우리 모두 즐거운 시간을 보냈고 일상의 스트레스로부터 잠시나마 벗어날 수 있었던 좋은 기회였다고 생각합니다." # 6260902053382083409
+  granada.0073.a: "어쩌면 내 #italic 무냐# 중 한 곳에서 이런 것을 주최할 수도 있겠군!" # 3067454118992037163
+  granada.0074.t: "#italic 무냐#! 정원" # 4034065879189842845
+  granada.0074.desc: "지난 며칠 동안 저는 손님들에게 제 #italic 므냐#의 최고이자 가장 훌륭한 정원들을 둘러보게 했습니다. 저는 이 정원들이 현란한 색깔의 이국적인 꽃부터 그늘 아래 쉬기에 완벽한 위풍당당한 큰 나무에 이르기까지 온갖 경이로운 식물들로 가득 차도록 많은 노력을 기울였습니다. 또한 저는 제 저택으로 근처 강에서 깨끗한 물을 끌어오는 작은 수로 덕분에 훌륭한 수경 시설을 자랑하는 제가 설치한 분수대 몇 군데를 보여주기도 했습니다.\n\n제 노력이 결실을 맺은 듯합니다. 우리는 정원 한구석에 앉아 — 어떤 이는 벤치에, 다른 이는 땅바닥에 — 담소를 나누며 이곳에서의 시간을 즐기고 있는데, 손님들의 눈에서 경이로움을 엿볼 수 있습니다." # 13954079235906151365
+  granada.0074.a: "정원들을 즐기고 있다니 다행이군!" # 10408899504205334143
+  granada.0074.a.title: "손님들이 당신의 정원에 대해 소문을 퍼뜨리고 있습니다!" # 7368651598638329395
+  granada.0075.t: "[host.GetTitledFirstNamePossessiveNoTooltip] #italic 문야#! 정원" # 9975204650872087799
+  granada.0075.desc: "지난 며칠 동안 [host.GetTitledFirstName]께서는 저희에게 [host.GetHerHis] #italic 정원#의 가장 훌륭하고 빛나는 모습들을 보여주셨습니다. 그분께서 이 정원들을 매우 자랑스러워하신다는 것은 분명해 보입니다.\n\n며칠 전, 제가 저택에 처음 들어섰을 때 멀리서 지나치면서 정원들을 얼핏 보았습니다. 하지만 가까이서 보니 완전히 다른 문제더군요! 이 정원들은 모든 정원이 그래야 하듯이, 멀고 먼 땅에서 온 기이하지만 매혹적인 색깔의 꽃들부터 그늘 아래 쉬기에 완벽한 높고 웅장한 나무들에 이르기까지 수많은 장관을 이루는 식물들로 가득할 뿐만 아니라, 시원하고 상쾌한 분수와 몇 시간이고 바라볼 수 있는 작은 수로와 같은 창의적인 물 요소들도 많이 갖추고 있습니다.\n\n오늘은 저희가 한 정원에 모여 휴식을 취하고 있습니다. 일부는 벤치에 앉고, 다른 일부는 땅에 앉아 이곳에서의 시간을 즐기며 이야기를 나누고 있습니다." # 4047687673586557585
+  granada.0075.a: "이런 멋진 곳에서 사교 활동을 하는 것을 정말 좋아합니다!" # 5283534982549092613
+  granada.0075.a.title: "그대는 #italic 무냐#! 정원에서 사교 활동을 즐기고 있군" # 841766760255198612
+  granada.0075.b: "휴식을 취하며 풍경을 감상하고 싶습니다." # 2115154560274791663
+  granada.0075.b.title: "그대는 #italic 무냐#! 정원을 감상하는 것을 즐기는군" # 4759903902363583424
+  granada.0076.t: "교양 있는 #italic 무냐#!" # 16210815858027858295
+  granada.0076.desc: "손님들과 더불어, 저는 제 #italic 몽냐#!로 온 이 소풍에 몇몇 현지 학자들과 시인들도 초대했습니다. 제가 편안하게 꾸민 정원에서부터 식당, 목욕탕, 그리고 여러 안뜰과 모임의 전당에 이르기까지, 많은 손님들이 서로 온갖 종류의 지적인 활동에 몰두하고 있는 모습을 봅니다.\n\n일부 손님들은 당대의 정치나 신학 및 철학적 쟁점의 미묘한 부분에 대해 토론하고 있습니다. 다른 이들은 시 짓기 대회를 열어, 주변의 아름다운 풍경이나 서로(풍자적인 것부터 아첨하는 것까지)에 대한 아름다운 시를 읊고 있습니다. 좀 더 조용한 성향의 다른 이들은 서로 좋은 체스 경기를 즐기거나 제 서재의 두루마리를 읽고 있는 듯합니다." # 8115855586266032472
+  granada.0076.a: "전반적으로 이곳의 분위기는 매우 교양 있군요." # 12621720936241279027
+  granada.0076.a.title: "귀하의 손님들이 귀하의 교양 있는 취향에 대해 소문을 퍼뜨리고 있습니다!" # 3954489122624294571
+  granada.0077.t: "교양 있는 #italic 무냐#!" # 16210815858027858295
+  granada.0077.desc: "[host.GetTitledFirstName]께서는 지난 며칠간 [host.GetHerHis] #italic 뮌야#!에서 다양한 지적 활동에 참여하도록 저희를 독려해 주셨습니다. 위대한 [host.GetTitleAsNameNoTooltip]의 표본이란, 결국 교양과 학식을 갖춘 이들로 둘러싸인 자를 의미하며, [host.GetFirstNameNoTooltip]께서는 심지어 몇몇 지역 학자들과 시인들을 이 여정에 초대해 주셨습니다.\n\n따라서 이번 휴가가 제가 본 것 중 가장 떠들썩한 휴가는 아닐지라도, 적어도 지적인 성향을 가진 이들에게는 즐거움입니다. 매일 저는 몇몇 손님들이 정치 문제나 신학과 철학에 대해 토론하는 것을 봅니다. 다른 이들은 문학적 기량을 갈고닦으며 즉석 시 짓기 경쟁에 참가합니다. 조용한 성향의 다른 이들은 체스 게임을 즐기거나 [host.GetFirstNamePossessiveNoTooltip]의 서재에서 두루마리를 읽습니다." # 12057571943215383234
+  granada.0077.a: "이러한 지적인 논의는 계몽적입니다." # 16901671762264517968
+  granada.0077.a.title: "지적인 통찰력을 얻었습니다" # 543166395681700537
+  granada.0077.b: "시가 이보다 더 보람찼던 적은 없었소." # 7053513044177400766
+  granada.0077.b.title: "시 대회에서 우승했습니다" # 14077520818306308509
+  granada.0077.c: "저는 여기서 체스를 두거나 책을 읽는 것을 즐깁니다." # 2480855999626868371
+  granada.0077.c.title.1: "도서관에서 좋은 책을 발견했습니다." # 9044014998450041669
+  granada.0077.c.title.2: "귀하의 체스 경기는 흥미로운 게임입니다." # 1810052660011578600
+  granada.0078.t: "#italic 문야#!에서 파티를 즐기는 중!" # 17434968275824861747
+  granada.0078.desc: "#italic 어떤#! 이들은 #italic 무냐#! 에 모여 다른 이들과 함께 휴식을 취할 때, 복잡한 학문적 문제를 논하거나, 시골을 탐험하거나, 식물 실험을 하는 등 더 생산적인 활동을 하기도 합니다. 하지만 지금 제 손님들과 저는 그런 지루한 일에 시간을 낭비할 여유가 없습니다!\n\n제 손님들은 (상식적인 범위 내에서) 원하는 대로 자유롭게 행동할 수 있지만, 우리는 즐기기 위해 여기에 모였습니다. 저는 지난 며칠 동안 손님들에게 풍성한 음식과 술을 제공하기 위해 노력했으며, 이를 통해 마음껏 즐기고, 활기차고 즐거운 음악 공연을 감상하며, 삶을 즐길 줄 아는 이 흥미진진한 사람들과 어울릴 수 있을 것입니다." # 7998199637507144083
+  granada.0078.a: "슬퍼할 필요 없습니다. 우리는 즐거운 시간을 보내기 위해 여기에 있는 거니까요!" # 4042698790153945941
+  granada.0078.a.title: "귀하의 손님들이 귀하의 멋진 파티에 대해 소문을 퍼뜨리고 있습니다!" # 15061026901231331054
+  granada.0079.t: "#italic 문야#!에서 파티를 즐기는 중!" # 17434968275824861747
+  granada.0079.desc: "[host.GetTitledFirstName]께서는 우리가 이곳 [host.GetHerHis] #italic 뮨야#!에 머무는 동안 연회를 계속 베풀어 주셨습니다. 물론, 이것이 제가 참석해 본 연회 중 가장 크고 떠들썩한 잔치는 아닐지라도, 시골의 좋은 저택에서 열리는 파티에는 나름의 매력이 있습니다.\n\n우리는 다른 활동에 자유롭게 참여할 수 있지만, 정작 나 자신을 위한 시간은 거의 없는 것 같습니다! 지난 며칠 동안 저는 주로 먹고, 마시고, 즐거운 음악 공연을 감상하거나 다른 사람들과 어울리는 데 시간을 보냈습니다. 이곳에 모인 다른 많은 이들도 틀림없이 즐거운 시간을 보내고 있는 듯합니다." # 10847394338543475532
+  granada.0079.a: "벌써 다음 연회를 할 때가 되었습니까?" # 1946671710463325198
+  granada.0080.t: "비단 산업의 번영" # 13119655275098514690
+  granada.0080.desc: "[granada_duchy.GetNameNoTier] 지역은 오랫동안 비단의 주요 수출지였으며, 특히 [almeria.GetNameNoTier]에서 그러했습니다. 최근 들어 [county.GetNameNoTier]에서 생산되는 비단은 여러 가지 이유로 평소보다 훨씬 더 많은 수익을 내고 있습니다! 이는 많은 교역을 유치하여 이 지역의 번영에 좋은 징조입니다." # 18219007551519507572
+  granada.0080.a: "기쁜 소식이군요." # 10205577079131680400
+  granada.0081.t: "#bold 비단 산업에 위기가 닥쳤습니다#" # 10807205072423950808
+  granada.0081.desc: "[granada_duchy.GetNameNoTier] 지역은 오랫동안 비단의 주요 수출지였으며, 특히 [almeria.GetNameNoTier]가 그러했습니다. 불행히도, 최근 [county.GetNameNoTier]에서 생산된 비단은 여러 가지 이유로 예전만큼 수익성이 좋지 않았습니다. 아마도 현재 특정 세계 무역로에 문제가 있거나 올해 생산된 생사량이 충분히 높지 않았을 수도 있습니다." # 10541162825121162402
+  granada.0081.a: "이것이 해당 지역의 경제에 너무 심각한 영향을 미치지 않기를 바랍니다." # 1789172736778324947
+  granada.0082.t: "[ROOT.Char.GetCapitalLocation.GetCounty.GetTitle.GetNameNoTierNoTooltip]의 아름다움" # 11562613623882515794
+  granada.0082.desc: "저 멀리서 온 여행자가 오늘 저를 찾아왔습니다. 이 남자는 [ROOT.Char.GetCapitalLocation.GetCounty.GetTitle.GetNameNoTier]의 풍경이 얼마나 아름다운지 칭찬을 마지않는군요.\n\n“이곳에 오기 전에는 회의적이었소.” 그가 인정합니다. “하지만 이 계곡들, 건조한 땅, 숲, 산맥, 강물들을 모두 보니... 이 땅의 영광을 형용하기가 어렵소. 마치 여러 기후가 완벽하게 조화된, 극단 사이의 완벽한 중간 지점 같소. [ROOT.Char.GetTitledFirstName] 님은 이곳에 살 복을 받았으며, 님의 영토가 평화롭고 번영하리라 확신합니다. 내 운명만 허락한다면 이곳에 정착하고 싶지만, 그럴 수는 없는 것 같소. 나에게는 맡겨진 임무가 있으니 말이오.”" # 3761073708538441765
+  granada.0082.a: "감사합니다. 몇 가지 구경거리를 보여드릴까요?" # 463745515114227136
+  granada.0083.t: "튀긴 가지 스틱" # 257944645477206334
+  granada.0083.desc: "요즘 저는 튀긴 가지 스틱을 먹는 습관이 생겼습니다. 요리사들이 이런 진미를 만들어 주어 정말 감사합니다! 이 간식은 아랍인들이 반도에 들여왔지만, 현지인들은 [granada_duchy.GetNameNoTier]에서 이를 자신들만의 것으로 만들었으며 이곳에서 특히 인기가 많습니다. 가지에 사탕수수 설탕을 입혀 달콤함과 짭짤함이 독특하게 어우러집니다." # 15041524057733492514
+  granada.0083.a: "그들은 분명 내가 가장 좋아하는 #italic 타파스#!야." # 1029784266751362689
+  granada.0084.t: "오렌지와 올리브유" # 2257215939653892536
+  granada.0084.desc: "최근 저는 식사 때 올리브 오일에 절인 오렌지를 즐기고 있습니다. 이는 수년 전 아랍인들이 가져왔지만 이제는 현지 요리의 확고한 일부가 된 [granada_duchy.GetNameNoTier]의 전통적인 별미입니다.\n육즙 가득한 오렌지가 안달루시아의 태양 아래서 익고, 놀랍도록 맛있는 올리브 오일이라니... 어떻게 거부할 수 있겠습니까? 물론, 가끔은 갓 잡은 대구, 올리브, 달걀, 양파, 마늘, 혹은 제가 임의로 고른 온갖 종류의 향신료와 모두 섞어 먹기도 합니다. 훌륭한 요리입니다." # 9330759410812830582
+  granada.0084.a: "맛있군, 맛있어." # 15293707705341837518
+  granada.0085.t: "[granada_county.GetNameNoTierNoTooltip]에 새로운 운하를 건설하시겠습니까?" # 4029440133185207656
+  granada.0085.desc: "[granada_county.GetNameNoTier]는 다르로, 헤닐, 모나칠, 베이로 강 등 여러 주요 강이 합류하는 지점에 위치하여 축복받은 곳입니다. 그 결과, 이 도시는 풍부한 담수원을 보유하고 있습니다.\n\n방금 이 강들 중 하나에서 도시로 물을 끌어올 새로운 운하를 건설하기에 완벽한 장소를 발견했습니다. 하지만 신하들은 운하의 물길을 어디로 내야 할지에 대해 각기 다른 의견을 내놓고 있습니다.\n\n일부는 운하의 물을 주변 지역에 공급하여 경작지를 확장하는 것이 최선이라고 말합니다. 다른 이들은 도시 시민들을 위한 공중 목욕탕과 우물로 물을 보내는 것이 더 낫다고 주장합니다. 또 다른 이들은 운하의 물을 이용하여 새로운 정원과 분수를 만들어 도시를 아름답게 꾸며야 한다고 믿고 있습니다." # 2164978018917579504
+  granada.0085.a: "농업에 투자하는 것은 현명한 생각이 될 것입니다." # 5260158543236425346
+  granada.0085.b: "목욕탕과 분수는 우리 백성들을 행복하게 할 것입니다." # 17646608546234682237
+  granada.0085.c: "도시를 아름답게 꾸미는 것은 우리의 위신을 높일 것입니다." # 8662245612092263418
+  granada.0085.d: "새 운하를 건설할 자원이 부족한 것 같습니다." # 17885648436812192113
+  granada.0086.t: "운하에 유지보수가 필요합니다" # 14314648297525929199
+  granada.0086.desc: "[granada_county.GetNameNoTier]는 다르로 강, 헤닐 강, 모나칠 강, 베이로 강 등 여러 주요 강이 합류하는 지점에 자리하고 있습니다. 이처럼 풍부한 수원 덕분에 수 세기에 걸쳐 도시로 물을 끌어들이기 위해 많은 수로와 수도교가 건설되었습니다.\n\n하지만 이 수로들은 종종 시에라 네바다 산맥의 험준한 지형 일부를 가로지르며, 방치되면 손상될 수 있습니다. 제가 듣기로는 그러한 수로 중 하나가 끔찍한 상태에 있어, 기능을 유지하려면 가능한 한 빨리 보수 작업이 필요하다고 합니다. 이 수로는 농업에 사용되고 여러 주요 지역구에 필수적인 물을 공급하는 중요한 지역을 관통하므로, 양호한 상태를 유지하는 것이 매우 중요합니다." # 10779980870169460627
+  granada.0086.a: "내 관료들은 필요한 자금을 확보할 것이다." # 8654647376954279805
+  granada.0086.b: "지금은 저희 자금을 한 푼도 내어드릴 수 없습니다." # 2849443375375676589
+  granada.0087.t: "산업 부문" # 1615849571121411547
+  granada.0087.desc: "오늘, 나는 [granada_county.GetNameNoTier]의 산업 부문 일부를 시찰하고 있다. 이 지역의 중요한 산업들, 특히 비단 직조, 도자기, 염색 산업은 다로 강 근처에 위치하고 있는데, 이 상품들을 생산하는 작업장들은 그들의 활동을 위해 충분한 물 공급이 필요하기 때문이다.\n\n여하튼, 산업의 악취는 솔직히 내 취향은 아니다. 하지만 나는 이곳의 장인들에게 영향을 미치는 문제들에 대해 그들의 주요 대표자들인 여러 작업장의 책임자들과 저명한 상인들과 논의하며 최선을 다하고 있다." # 8413898647005025063
+  granada.0087.a: "이것이 내가 해야 할 일이로다." # 6206724171903250033
+  granada.0088.t: "아름다운 영토" # 17375407734002010198
+  granada.0088.desc: "[granada_duchy.GetNameNoTier]의 땅은 세상에서 가장 아름다운 곳 중 하나라는 이들이 있습니다. 그곳은 무성한 녹지와 건조한 지형이 완벽하게 조화를 이루며, 아랍, 베르베르, 라틴 문화의 영향으로 비할 데 없는 웅장한 건축미를 자랑한다고 합니다. 이곳의 영토를 다스리다니... 어쩌면 저는 스스로 행운아라 여겨도 될 것 같습니다." # 15749408798420816773
+  granada.0088.a: "실로, 이토록 멋진 땅을 다스리게 되어 나는 행운아로다." # 2800227056062569675
+  granada.0088.b: "세상의 다른 지역에도 좋은 점들이 있으리라 확신합니다." # 14687050219069874711
+  granada.0089.t: "다로 강에서 나는 금" # 2226449607865736584
+  granada.0089.desc: "금은 항상 [granada_county.GetNameNoTier] 시를 관통하는 주요 강 중 하나인 다르 강에서 소량 발견되곤 했습니다. 하지만 최근, 어떤 이유에서인지 이곳에서 이전보다 더 쉽게 금을 발견할 수 있다는 소식을 들었습니다.\n\n그 결과 오늘, 저는 하인 몇 명을 강으로 보내 금을 채취하도록 했습니다. 그들이 방금 이 금을 가지고 돌아왔는데, 비록 많은 양은 아니지만 제가 예상했던 것보다는 많습니다." # 10038263276533861425
+  granada.0089.a: "훌륭하군!" # 11216778563906199394
+  granada.0090.t: "[granada_county.GetNameNoTierNoTooltip]의 수로 조사" # 14883730173061254082
+  granada.0090.desc: "오늘, 저는 [granada_county.GetNameNoTier]의 수로 몇 군데를 시찰하고 있습니다. 그중 많은 수가 다르로 강에서 도시의 여러 구역으로 물을 끌어오고 있지만, 제닐강과 같은 다른 근처 강에서 오는 수로들도 있습니다.\n\n어느 쪽이든, 이 수로들의 상태를 계속 파악하고 있는 것은 다행입니다. 이 수로들은 식수, 목욕, 농업, 산업 작업 등 주민들이 사용할 물을 공급하는 데 필수적일 뿐만 아니라, 수로의 위치, 유지보수나 추가 개선이 필요한 곳이 있는지, 그리고 적의 포위 공격이나 자연재해가 발생했을 때 의지할 수 있는 수로가 무엇인지 아는 것이 중요합니다." # 4333743571525731795
+  granada.0090.a: "이제 순례를 계속해 봅시다…." # 6205488427041789786
+  granada.0091.t: "xxxxx" # 1951045980481827005
+  granada.0091.desc: "xxxxx" # 1951045980481827005
+  granada.0091.a: "xxxxx" # 1951045980481827005
+  granada.0092.t: "xxxxx" # 1951045980481827005
+  granada.0092.desc: "xxxxx" # 1951045980481827005
+  granada.0092.a: "xxxxx" # 1951045980481827005
+  granada.0093.t: "xxxxx" # 1951045980481827005
+  granada.0093.desc: "xxxxx" # 1951045980481827005
+  granada.0093.a: "xxxxx" # 1951045980481827005
+  granada.0094.t: "xxxxx" # 1951045980481827005
+  granada.0094.desc: "xxxxx" # 1951045980481827005
+  granada.0094.a: "xxxxx" # 1951045980481827005
+  granada.0095.t: "xxxxx" # 1951045980481827005
+  granada.0095.desc: "xxxxx" # 1951045980481827005
+  granada.0095.a: "xxxxx" # 1951045980481827005
+  granada.0096.t: "xxxxx" # 1951045980481827005
+  granada.0096.desc: "xxxxx" # 1951045980481827005
+  granada.0096.a: "xxxxx" # 1951045980481827005
+  granada.0097.t: "xxxxx" # 1951045980481827005
+  granada.0097.desc: "xxxxx" # 1951045980481827005
+  granada.0097.a: "xxxxx" # 1951045980481827005
+  granada.0098.t: "xxxxx" # 1951045980481827005
+  granada.0098.desc: "xxxxx" # 1951045980481827005
+  granada.0098.a: "xxxxx" # 1951045980481827005
+  granada.0099.t: "xxxxx" # 1951045980481827005
+  granada.0099.desc: "xxxxx" # 1951045980481827005
+  granada.0099.a: "xxxxx" # 1951045980481827005

@@ -1,0 +1,342 @@
+﻿l_korean:
+  dyn_c_british_united_kingdom: "영국" # 2423483301461320758
+  dyn_c_british_empire: "대영제국" # 7423816160215642267
+  dyn_c_british_socialist_republic: "영국 사회주의 공화국" # 16238731563970357286
+  dyn_c_carlis_spain_revolt: "카를로스파 스페인" # 2410043086311084038
+  dyn_c_french_kingdom: "프랑스 왕국" # 2606316825982471682
+  dyn_c_french_empire: "프랑스 제국" # 15608182951105196980
+  dyn_c_french_republic: "프랑스 공화국" # 12141626084120463641
+  dyn_c_french_state: "프랑스 국가" # 2422122580908597886
+  dyn_c_french_commune: "프랑스 코뮌" # 11940902222762897524
+  dyn_c_austrian_empire: "오스트리아 제국" # 11473443789077783061
+  dyn_c_russian_empire: "러시아 제국" # 9825415474428803001
+  dyn_c_russian_republic: "러시아 연방" # 13972426015939066971
+  dyn_c_spanish_kingdom: "스페인 왕국" # 17748294155993642710
+  dyn_c_spanish_republic: "스페인 공화국" # 5007258931615806832
+  dyn_c_spanish_state: "스페인 주" # 18245359849705623615
+  dyn_c_spanish_commune: "스페인 사회주의 공화국" # 13700229158697089498
+  dyn_c_ottoman_caliphate: "오스만 칼리파국" # 7943118332160818992
+  dyn_c_ottoman_porte: "숭고한 포르테" # 2519319039977808028
+  dyn_c_turkish_socialist_republic: "튀르크 사회주의 공화국" # 2009742510805719987
+  dyn_c_american_union_state: "아메리칸 유니언 스테이트" # 8049160310873889027
+  dyn_c_brazilian_empire: "브라질 제국" # 16410670130115051908
+  dyn_c_united_baltic_states: "발트 현" # 4002286858760397034
+  dyn_c_united_baltic_states_adj: "발트해" # 9740836237343583878
+  gov_presidential_democracy_unitary: "대통령 단일 공화국" # 3336484709696640351
+  gov_presidential_democracy_federal: "대통령 연방 공화국" # 10662283393628456256
+  gov_dual_democracy_unitary: "준대통령제 단일 공화국" # 1995415925540102912
+  gov_dual_democracy_federal: "준대통령제 연방 공화국" # 10332842817655756158
+  gov_parliamentary_democracy_unitary: "의회제 단일 공화국" # 15328861594460783436
+  gov_parliamentary_democracy_federal: "의회 연방 공화국" # 11475508172066102298
+  gov_council_democracy_unitary: "단일 의회 공화국" # 14896155634911591087
+  gov_council_democracy_federal: "연방 평의회 공화국" # 13758753047159163041
+  gov_anarchist_commune_unitary: "무정부주의 코뮌" # 9747533109347386277
+  gov_anarchist_commune_federal: "코뮌 연방" # 12671739511685245726
+  gov_technate: "금권정치" # 4704758935572008969
+  gov_presidential_democracy_unitary_desc: "이것은 [concept_country]가 단일적이고 민주적으로 [Concept('concept_election','$concept_elected$')] 선출된 대통령제에 의해 통치되는 [concept_government]입니다." # 10431550714726430694
+  gov_presidential_democracy_federal_desc: "이것은 [concept_country]가 연방제이며, 민주적으로 [Concept('concept_election','$concept_elected$')] 선출된 대통령에 의해 통치되는 [concept_government]입니다." # 13734919184698161021
+  gov_dual_democracy_unitary_desc: "이는 단일화되고 민주적으로 [Concept('concept_election','$concept_elected$')] 선출된 의회와 대통령이 총리를 임명하고 승인하는 [concept_government] 형태의 [concept_country]입니다." # 11007792332533991457
+  gov_dual_democracy_federal_desc: "이것은 [concept_country]가 연방제이며, 민주적으로 [Concept('concept_election','$concept_elected$')] 선출된 의회와 대통령에 의해 통치되며, 이들이 총리를 임명하고 승인하는 [concept_government]입니다." # 13899811293599992030
+  gov_parliamentary_democracy_unitary_desc: "이것은 [concept_country]가 단일하고 민주적으로 [Concept('concept_election','$concept_elected$')] 선출된 의회에 의해 통치되는 [concept_government]입니다." # 10366186097211203222
+  gov_parliamentary_democracy_federal_desc: "이것은 [concept_country]가 연방제이며, 민주적으로 [Concept('concept_election','$concept_elected$')] 선출된 의회에 의해 통치되는 [concept_government]입니다." # 15388912665812674640
+  gov_council_democracy_unitary_desc: "이것은 [concept_country]가 단일하고 민주적으로 [Concept('concept_election','$concept_elected$')] 선출된 의회에 의해 통치되는 [concept_government]입니다." # 3715520426289247553
+  gov_council_democracy_federal_desc: "이것은 [concept_country]가 연방제이며 민주적으로 [Concept('concept_election','$concept_elected$')]된 의회에 의해 통치되는 [concept_government]입니다." # 6359131891833924727
+  gov_anarchist_commune_unitary_desc: "이것은 [concept_country]가 공식적인 지도 체계를 갖지 않고 대신 자체 조직화된 코뮌들로 구성된 [concept_government]입니다." # 1368415801927311705
+  gov_anarchist_commune_federal_desc: "이것은 [concept_country]에 공식적인 지도 체계가 없고 대신 연방 조직된 코뮌들로 구성된 [concept_government]입니다." # 12396248448174905808
+  gov_technate_desc: "이것은 [concept_ruler]인 [Concept('concept_ruler','$RULER_TITLE_PRESIDENT$')]이 이끄는, 엘리트 학자 및 산업가들의 자가 선출 집단에 의해 [concept_country]가 통치되는 [concept_government]입니다." # 7585599999656342465
+  gov_presidential_democracy_aristocratic: "대통령 귀족 공화국" # 4385742203849809361
+  gov_presidential_democracy_aristocratic_desc: "이것은 귀족 엘리트가 [Concept('concept_ruler','$RULER_TITLE_PRESIDENT$')]를 투표하여 [concept_country]를 통치하는 [concept_government]입니다." # 6485587477575657828
+  gov_dual_democracy_aristocratic: "준대통령 귀족 공화국" # 10770177313823130265
+  gov_dual_democracy_aristocratic_desc: "이것은 귀족 엘리트가 [Concept('concept_election','$concept_elected$')] [Concept('concept_ruler','$RULER_TITLE_PRESIDENT$')]와 의회를 선출하여 총리를 임명하는 [concept_government] 방식의 [concept_country]입니다." # 14909035388622429131
+  gov_parliamentary_democracy_aristocratic: "의회 귀족 공화국" # 6556143242477472841
+  gov_parliamentary_democracy_aristocratic_desc: "이것은 귀족 계층이 [Concept('concept_election','$concept_elected$')] 의회에 투표하여 [concept_country]를 통치하는 [concept_government]입니다." # 1242569425818909812
+  gov_dictatorship: "독재정" # 17353001285819115634
+  gov_dictatorship_desc: "이것은 [concept_country]가 독재적인 권한을 휘두르는 [Concept('concept_ruler','$RULER_TITLE_PRESIDENT$')]에 의해 통치되는 [concept_government]입니다." # 9008919593942824713
+  gov_oligarchy: "과두정치" # 6441845746156014252
+  gov_oligarchy_desc: "이것은 부유하고 강력한 정치 계급이 [concept_country]를 통치하는 [concept_government]입니다." # 14309544653292684737
+  gov_presidential_oligarchy: "과두정치" # 6441845746156014252
+  gov_presidential_oligarchy_desc: "이것은 부유하고 강력한 정치 계급이 [concept_country]를 통치하는 [concept_government]입니다." # 14309544653292684737
+  gov_constitutional_monarchy: "입헌군주제" # 5530005145278416811
+  gov_constitutional_monarchy_desc: "이는 [concept_government] 형태로서, 권력은 법적으로 [Concept('concept_ruler','$RULER_TITLE_KING$')] 또는 [Concept('concept_ruler','$RULER_TITLE_QUEEN$')]에게 있으나, 실질적으로는 [Concept('concept_ruler','$RULER_TITLE_CHANCELLOR$')]에 의해 행사되는 제도입니다." # 9910072250481301934
+  gov_semi_constitutional_monarchy: "준입헌군주제" # 10793148706655376429
+  gov_semi_constitutional_monarchy_desc: "이는 권력이 [Concept('concept_ruler','$RULER_TITLE_KING$')] 또는 [Concept('concept_ruler','$RULER_TITLE_QUEEN$')]에게 있으나, 종종 그들의 동의하에 [Concept('concept_ruler','$RULER_TITLE_CHANCELLOR$')]에 의해 행사되는 [concept_government] 형태입니다." # 15730484006265219800
+  gov_absolute_monarchy: "절대 군주제" # 1483750625475619345
+  gov_absolute_monarchy_desc: "이것은 권력이 전적으로 [Concept('concept_ruler','$RULER_TITLE_KING$')] 또는 [Concept('concept_ruler','$RULER_TITLE_QUEEN$')]에게 집중되는 [concept_government] 형태입니다." # 17735143798322597348
+  gov_semi_constitutional_monarchy_GP: "준입헌군주제" # 10793148706655376429
+  gov_semi_constitutional_monarchy_GP_desc: "이는 [concept_government] 형태로서 권력은 [Concept('concept_ruler','$RULER_TITLE_EMPEROR$')] 또는 [Concept('concept_ruler','$RULER_TITLE_EMPRESS$')]에게 있으나, 종종 그들의 동의 하에 [Concept('concept_ruler','$RULER_TITLE_CHANCELLOR$')]에 의해 행사됩니다." # 278554305802886391
+  gov_absolute_monarchy_GP: "절대 군주제" # 1483750625475619345
+  gov_absolute_monarchy_GP_desc: "이것은 권력이 전적으로 [Concept('concept_ruler','$RULER_TITLE_EMPEROR$')] 또는 [Concept('concept_ruler','$RULER_TITLE_EMPRESS$')]에게 집중되는 [concept_government] 형태입니다." # 2515993985344306606
+  gov_vanguard_communist: "선봉 공산주의자" # 1946396351316000075
+  gov_vanguard_communist_desc: "이는 권력이 전적으로 [Concept('concept_ruler','$RULER_TITLE_PREMIER$')]와 정치국에 집중되는 [concept_government] 형태입니다." # 7341472328908458116
+  gov_anarchy: "무정부 상태" # 6242569756677253320
+  gov_anarchy_desc: "이것은 권력이 온전히 국민에게 있는 [concept_government] 형태입니다." # 15455885392248878915
+  gov_governorate: "총독부" # 14284913994431712209
+  gov_governorate_desc: "이는 [concept_government] 형태로서, 그 권력은 군주나 지역 선거구에서 임명한 [Concept('concept_ruler','$RULER_TITLE_GOVERNOR$')]에게 완전히 집중됩니다." # 2392335874198431963
+  gov_chiefdom: "부족 추장국" # 628293972543322011
+  gov_pol_monarchy_rus: "절대 군주제" # 1483750625475619345
+  gov_pol_monarchy_rus_desc: "이것은 권력이 전적으로 [Concept('concept_ruler','$RULER_TITLE_EMPEROR$')] 또는 [Concept('concept_ruler','$RULER_TITLE_EMPRESS$')]에게 집중되는 [concept_government] 형태입니다." # 2515993985344306606
+  RULER_TITLE_PREMIER: "총리" # 9629706753350451354
+  RULER_TITLE_COUNCILLOR: "평의원" # 12383331659981619063
+  RULER_TITLE_FEDERAL_COUNCILLOR: "연방평의원" # 11838304892662975770
+  RULER_TITLE_FEDERAL_REPRESENTATIVE: "연방 의원" # 11739112793675985845
+  OTHER: "제도적 기반" # 9328923850616073074
+  lawgroup_governance_principles: "통치 원칙" # 5298399230927788498
+  lawgroup_governance_principles_desc: "국가를 통치하는 근본 원칙과 권위입니다. 국가 원수가 누구인지를 결정합니다." # 726851125475898402
+  law_republic: "공화국" # 13322315147146359039
+  law_republic_desc: "국민과 그들의 선출된 대표자들이 권력을 보유하는 정치 체제." # 6690247435804587628
+  lawgroup_executive_structure: "행정 구조" # 4710433755213267395
+  lawgroup_executive_structure_desc: "행정부와 입법부 간의 권력 분립 수준." # 4550936569116666033
+  law_independent_executive: "독립 행정부" # 14408599576049224917
+  law_independent_executive_desc: "행정부는 입법부의 정통성과는 별개로 자신만의 정통성을 도출합니다." # 3592172704142383344
+  law_dual_executive: "이중 행정부" # 5009484568795846339
+  law_dual_executive_desc: "행정부의 정통성은 행정부 지도자의 정통성과 의회의 승인으로 구성됩니다." # 12067181323464905584
+  law_parliamentary_system: "의회제" # 4039342401609209860
+  law_parliamentary_system_desc: "입법부는 행정부에 정통성을 부여하며, 이는 단순 과반수의 불신임 투표로 철회될 수 있습니다." # 1945734883191350440
+  law_council_republic: "노동자 평의회" # 4016067584765833172
+  law_council_republic_desc: "행정 평의회는 각 지역과 산업계의 대표들로 구성됩니다." # 17708919732782387610
+  law_single_party_state: "정치국" # 5949984923598688431
+  law_single_party_state_desc: "행정 결정은 당의 최고 위원회에 의해 집행됩니다." # 18265410814623357764
+  lawgroup_cameralism: "입법 세부 구분" # 4332162863048105848
+  lawgroup_cameralism_desc: "입법부는 동등하거나 불평등한 권력을 가진 단원제 또는 양원제로 나뉠 수 있습니다." # 5412736921101287372
+  law_no_legislature: "입법부 없음" # 5129848359071878656
+  law_no_legislature_desc: "의미 있는 입법 기관이 존재하지 않습니다." # 6834789544314905823
+  law_unicameralism: "단원제" # 14984895920838243047
+  law_unicameralism_desc: "입법부는 법률을 공포하는 단일의 지배적인 의회로 구성됩니다." # 2767166709632244936
+  law_asymmetric_bicameralism: "비대칭 양원제" # 4785745834003615745
+  law_asymmetric_bicameralism_desc: "입법부는 지배적인 의회와 하위 의회로 구성됩니다." # 14145687456453915036
+  law_symmetric_bicameralism: "대칭적 양원제" # 18008153795567650357
+  law_symmetric_bicameralism_desc: "입법부는 동등한 힘을 가진 두 개의 의회로 구성됩니다." # 1024125323974958107
+  law_vanguardism: "선봉주의" # 18222805239230417081
+  law_vanguardism_desc: "엘리트 지식인 및 관료 계층이 정부에 대한 완전한 권력을 장악하고 있습니다." # 4367771460867306460
+  law_technocracy: "코퍼레이티즘" # 10692551948821129311
+  law_technocracy_desc: "본 국가는 주로 선출되지 않은 학계 및 산업계 이익 집단에 의해 통치되고 있습니다." # 17886150451850338565
+  law_clerical_voting: "성직자 투표" # 5085711730918771571
+  law_clerical_voting_desc: "정부 의제는 성직자 시노드에 의해 투표되고 결정됩니다." # 7122969302027174875
+  law_language_discrimination: "언어 차별" # 10409550461547124183
+  law_language_discrimination_desc: "서로 다른 비혈통 문화 특성을 가진 외국 문화는 차별받습니다." # 1475617818068719896
+  lawgroup_voting_system: "투표 제도" # 8183521626264560843
+  lawgroup_voting_system_desc: "선출된 대표자를 선출하는 방식." # 834607153527751184
+  law_no_voting: "보통 선거권 없음" # 8300710410700567556
+  law_no_voting_desc: "투표가 없습니다." # 9214110002346545774
+  law_plurality: "다수결" # 5818812408606851183
+  law_plurality_desc: "시민들이 선호하는 후보자에게 단 하나의 십자표를 던지고, 가장 많은 표를 얻은 후보자가 선출되는 제도입니다." # 1359978010878479267
+  law_single_transferable_vote: "단일 양도 가능 투표제" # 14475228410908165504
+  law_single_transferable_vote_desc: "단일 또는 다수 의원으로 구성된 선거구에서, 후보자는 최소 득표 기준을 달성하면 당선되며, 매 선거 라운드마다 가장 득표율이 낮은 후보자가 탈락하는 순위 투표제입니다." # 7546214613970083115
+  law_jefferson_method: "제퍼슨 방식" # 1412230706801979988
+  law_jefferson_method_desc: "입법부의 의석은 기존 할당된 의석 수 대비 가장 높은 평균 득표율에 따라 배정되므로, 소수 정당에 약간의 편향이 발생합니다." # 15623365507721566431
+  law_pure_proportional: "순수 비례식" # 247766746706810440
+  law_pure_proportional_desc: "의회에서 각 정당이 획득한 표의 비율은 각 정당이 차지하는 의석의 비율과 정확히 일치합니다." # 12734206715953018362
+  lawgroup_poll_tax: "인두세" # 12274661891707592137
+  lawgroup_poll_tax_desc: "소득이나 자원과 관계없이, 납세 의무가 있는 모든 개인에게 부과되는 정액세입니다." # 2082291250516378665
+  law_no_poll_taxes: "투표세 폐지" # 5501673949932130920
+  law_no_poll_taxes_desc: "순수한 인두세 방식으로는 세금이 부과되지 않습니다." # 12462460360170621841
+  lawgroup_income_tax: "단일 소득세" # 8179693924251392622
+  lawgroup_income_tax_desc: "기업 이윤에 부과되는 세금." # 7404117874003903996
+  law_no_income_taxes: "소득세 없음" # 11949583296051588332
+  law_no_income_taxes_desc: "개인 소득에 대해서는 어떠한 세금도 부과되지 않습니다." # 10473716924075206911
+  law_low_income_tax: "저소득세" # 9708320389394654539
+  law_low_income_tax_desc: "개인 소득에 낮은 세금이 부과됩니다." # 9895976498783467543
+  law_moderate_income_tax: "보통 소득세" # 16071950283445541476
+  law_moderate_income_tax_desc: "개인 소득에 온건한 세금이 부과됩니다." # 3879334244623869135
+  law_high_income_tax: "고소득세" # 13342748709387234732
+  law_high_income_tax_desc: "개인 소득에 높은 세금이 부과됩니다." # 7617657700888840221
+  lawgroup_corporation_tax: "배당세" # 1610555178477535186
+  lawgroup_corporation_tax_desc: "기업 이윤에 부과되는 세금." # 14376684511021889347
+  law_no_corporation_taxes: "배당금세 면제" # 16165682739184090795
+  law_no_corporation_taxes_desc: "기업 이윤에 대한 세금 면제." # 18272686190624699633
+  law_low_corporation_tax: "낮은 배당세" # 8002574657986608595
+  law_low_corporation_tax_desc: "기업 이윤에 대한 낮은 세금." # 13573184160475736731
+  law_moderate_corporation_tax: "적정 배당세" # 16563983035964388254
+  law_moderate_corporation_tax_desc: "기업 이익에 대한 보통 수준의 세금." # 10042776683268306806
+  law_high_corporation_tax: "고배당세" # 9415370889283056040
+  law_high_corporation_tax_desc: "기업 이윤에 대한 높은 세금." # 16560349507486489526
+  lawgroup_consumption_tax: "소비세" # 11794937260202539085
+  lawgroup_consumption_tax_desc: "거래되는 재화 가치에 비례하여 부과되는 세금." # 2938006732945870937
+  law_no_consumption_taxes: "소비세 없음" # 9514171590525481786
+  law_no_consumption_taxes_desc: "재화나 용역 구매 시 어떠한 세금도 부과되지 않습니다." # 14783862470822371372
+  law_low_consumption_tax: "낮은 소비세" # 6646984404626992079
+  law_low_consumption_tax_desc: "적용 가능한 재화와 용역에 낮은 세금이 부과됩니다." # 15388967404515088449
+  law_moderate_consumption_tax: "보통 소비세" # 2867151393364931373
+  law_moderate_consumption_tax_desc: "적용 가능한 재화와 용역에 보통 수준의 세금이 부과됩니다." # 17906940945075017029
+  law_high_consumption_tax: "과도한 소비세" # 14194125029317514266
+  law_high_consumption_tax_desc: "적용 가능한 재화와 용역에 높은 세금이 부과됩니다." # 14654087627367709342
+  lawgroup_minimum_wage: "최저 임금" # 4687126341424774397
+  lawgroup_minimum_wage_desc: "고용주가 법적으로 직원에게 지급할 수 있는 가장 낮은 보수." # 10762970585673736697
+  law_no_minimum_wage: "최저 임금 없음" # 2194629201055417984
+  law_no_minimum_wage_desc: "고용주가 노동력을 팔 수 있는 최소한의 법적 기준은 없습니다." # 1624521630421593553
+  law_low_minimum_wage: "최저 임금 낮음" # 17688957162831587619
+  law_low_minimum_wage_desc: "고용주는 법적으로 최소한 낮은 시간당 임금을 지불해야 합니다." # 7174500656816392227
+  law_moderate_minimum_wage: "적정 최저 임금" # 14985885334513721580
+  law_moderate_minimum_wage_desc: "노동자들에게는 준수해야 할 적당한 수준의 최저 임금이 존재합니다." # 4176457505241115419
+  law_high_minimum_wage: "높은 최저 임금" # 10484028209220810035
+  law_high_minimum_wage_desc: "인력에 대한 의무적인 최소 비용이 높게 설정되었습니다." # 1174699560421613148
+  law_professional_army: "자원병 한정" # 17385833606653608163
+  law_professional_army_desc: "육군은 잘 훈련된 직업적인 지원병들로만 구성되어 있습니다." # 8329544084325534236
+  law_private_health_insurance: "사설 의료" # 6640173391916290230
+  law_public_health_insurance: "공중 보건" # 12921637724800184196
+  lawgroup_debt: "부채 책임" # 13357216793259009649
+  lawgroup_debt_desc: "채무자가 법적으로 빚을 청산할 수 있는 권리." # 13685425926707460225
+  law_peonage: "농노제" # 17642585525300278551
+  law_peonage_desc: "고용주가 노동자에게 노동으로 빚을 갚도록 강제하는 제도." # 10530918919033727446
+  law_debtors_prisons: "채무자 감옥" # 7091880100342744567
+  law_debtors_prisons_desc: "채무 불이행자를 위한 감옥" # 5049613827383509071
+  law_chartered_mandates: "특허령" # 13217195919321610203
+  law_chartered_mandates_desc: "왕실 칙령(또는 이와 유사한 정부 문서)에 의해 설립되어 상업 활동을 위한 권리(종종 독점적 권리)를 부여받은, 법인화된 투자자들의 조합." # 11094162134844660472
+  law_limited_liability: "유한 책임" # 9718624354800136170
+  law_limited_liability_desc: "개인의 재정적 책임이 고정된 금액, 가장 흔하게는 법인에 대한 개인의 투자 가치로 제한되는 법적 지위입니다." # 18041735199790999769
+  lawgroup_labor_rights: "작업장 안전" # 3671598348593322485
+  lawgroup_labor_rights_desc: "노동자의 안전에 대한 적절한 보호 조치를 고용 장소에 법적으로 요구하는 사항." # 16791637096398489599
+  lawgroup_work_hours: "근로 시간" # 9216997937379876840
+  lawgroup_work_hours_desc: "직원당 하루 최대 노동 시간 제한." # 14151436951948263283
+  law_no_work_hour_limits: "무제한 노동 시간" # 12167163959916667794
+  law_no_work_hour_limits_desc: "기업체와 조합은 직원들에게 정할 수 있는 일일 노동 시간에 제한이 없습니다." # 14779376389904695872
+  law_12_hour_limit: "12시간 근무제" # 5221372668662203755
+  law_12_hour_limit_desc: "고용주는 근로자에게 하루 12시간을 초과하여 근무하도록 강제하는 것이 금지됩니다." # 9790004644873094708
+  law_8_hour_limit: "8시간 노동일" # 15278985870239359739
+  law_8_hour_limit_desc: "고용주는 직원들에게 하루 노동 시간을 8시간을 초과하여 의무적으로 일하도록 강제할 수 없습니다." # 6862162128352385396
+  lawgroup_environment: "환경 규제" # 3417230171156385654
+  lawgroup_environment_desc: "생산의 가장 극심한 폐해로부터 자연을 보호하기 위해 마련된 통제 장치들." # 15633092665297484073
+  law_no_environmental_regulations: "규제 없음" # 16845083484097270027
+  law_no_environmental_regulations_desc: "환경으로부터 무엇을 가져가거나 투입할지에 대한 통제가 전혀 없습니다." # 4764888531968330051
+  law_limited_environmental_regulations: "수질 관리" # 15504465004703243135
+  law_limited_environmental_regulations_desc: "환경의 과도한 투기나 노천 채굴을 막기 위해 일부 제한이 마련되어 있습니다." # 16928241488974000367
+  law_firm_environmental_regulations: "생산자 책임" # 1353899614840419253
+  law_firm_environmental_regulations_desc: "명확하고 집행 가능한 규정은 환경 오염을 방지합니다." # 14492868450376613176
+  law_colonial_resettlement_desc: "모든 [Concept('concept_unincorporated_state','$concept_unincorporated_states$')] 주는 [concept_institution] 수준당 #P +10%!# [concept_migration_pull]을 얻습니다." # 2876197496609851601
+  law_colonial_exploitation_desc: "모든 [Concept('concept_unincorporated_state','$concept_unincorporated_states$')] 주는 #N -5%#! [concept_migration_pull], #N -4%#! $bg_manufacturing$ [concept_throughput] 및 [concept_institution] 수준당 자원 [concept_throughput] #P +4%!# 를 얻습니다." # 13571640149007227090
+  law_child_labor_allowed: "아동 노동 허용" # 12807929951666694384
+  law_restricted_child_labor: "제한된 아동 노동" # 2073765073397388556
+  EFFECTS_ON_ACCEPTANCE_law_language_discrimination: "#tooltippable #tooltip:$BREAKDOWN_TAG$ 낮은 수용도 수치를 가진 주민들에게 보통 수준의 결과#!#!" # 14821152164400495946
+  institution_army_model: "군대 편성" # 12298889266148525806
+  institution_army_model_desc: "군대의 조직 및 물류 관리." # 17694093607714602861
+  country_institution_army_model_max_investment_add: "최대 $institution_army_model$ [concept_institution] 투자" # 13772911750566946484
+  country_institution_army_model_max_investment_add_desc: "$institution_army_model$ [concept_institution]의 최대 투자 수준에 대한 보너스 또는 페널티" # 11466479668291941991
+  institution_colonial_affairs_desc: "모든 [Concept('concept_unincorporated_state','$concept_unincorporated_states$')] 주들은 [Concept('concept_discrimination','$concept_discrimination$')]로 인한 #BOLD -10%#! $RADICALS$를 획득하며, [concept_institution] 수준당 [concept_sol]이 감소합니다." # 17772334879496550584
+  colonial_institution_resettlement: "식민지 재정착 사무소" # 7289992898767040762
+  colonial_institution_exploitation: "식민지 수탈국" # 9952143973062778787
+  institution_environmental_regulations: "환경 보호" # 12097048543743862297
+  institution_environmental_regulations_desc: "환경 입법의 집행." # 5968645371599422010
+  country_institution_environmental_regulations_max_investment_add: "최대 $institution_environmental_regulations$ [concept_institution] 투자" # 6894906387273580821
+  country_institution_environmental_regulations_max_investment_add_desc: "$institution_environmental_regulations$ [concept_institution]의 최대 투자 수준에 대한 보너스 또는 페널티" # 3081886193427244360
+  country_institution_cost_institution_schools_mult: "@bur! [Nbsp][concept_bureaucracy] [GetInstitutionType('institution_schools').GetName] 비용" # 13217192851222608313
+  country_institution_cost_institution_schools_mult_desc: "[GetInstitutionType('institution_schools').GetName]을 시민들에게 제공하는 데 드는 @bur! [Nbsp][concept_bureaucracy] 비용의 증가 또는 감소" # 8570683186279815647
+  country_institution_cost_institution_health_system_mult: "@bur! [Nbsp][concept_bureaucracy] [GetInstitutionType('institution_health_system').GetName] 비용" # 6938385376533385239
+  country_institution_cost_institution_health_system_mult_desc: "시민들에게 [GetInstitutionType('institution_health_system').GetName]을 도입하는 데 드는 @bur! [Nbsp][concept_bureaucracy] 비용의 증가 또는 감소" # 16390044824832849622
+  country_institution_cost_institution_army_model_mult: "@bur! [Nbsp][concept_bureaucracy] [GetInstitutionType('institution_army_model').GetName] 유지 비용" # 7149993431402441769
+  country_institution_cost_institution_army_model_mult_desc: "정부에 [GetInstitutionType('institution_army_model').GetName]을 제공하는 데 드는 @bur! [Nbsp][concept_bureaucracy] 비용의 증가 또는 감소" # 10076982774149071327
+  country_institution_size_change_speed_institution_army_model_mult: "[GetInstitutionType('institution_army_model').GetName]의 제도 규모 변경 속도" # 17193458715530351438
+  country_institution_size_change_speed_institution_army_model_mult_desc: "[GetInstitutionType('institution_army_model').GetName]의 규모를 얼마나 빠르게 변경하시겠습니까" # 13623983795675066184
+  country_institution_size_change_speed_institution_environmental_regulations_mult: "[GetInstitutionType('institution_environmental_regulations').GetName]의 제도 규모 변경 속도" # 14267066606882343157
+  country_institution_size_change_speed_institution_environmental_regulations_mult_desc: "[GetInstitutionType('institution_environmental_regulations').GetName]의 규모를 얼마나 빨리 변경하시겠습니까" # 6684752522879005357
+  ideology_reactionary: "우월주의자" # 1861166917302745246
+  ideology_reactionary_desc: "#lore 이 집단은 자신들의 참정권을 확대하기 위한 매우 제한적인 정치 개혁을 지지하며 획일적인 사회를 숭배합니다!#" # 9081903248428366646
+  ideology_cultural_chauvinism: "문화적 국수주의" # 12605214213145903230
+  ideology_cultural_chauvinism_desc: "이 집단은 자국 문화와 인종의 우월성을 굳게 믿으며, 다른 문화를 자국과 동등하게 대우하려는 어떠한 시도에도 격렬하게 저항할 것입니다." # 5292020869515314332
+  ideology_monarchist: "군주제주의자" # 17673629716336391079
+  ideology_monarchist_desc: "이 단체는 군주와 군주제를 굳건히 지지하는 세력입니다." # 10560597483643218074
+  ideology_russian_military: "러시아 군대" # 8281805728630033347
+  ideology_russian_military_desc: "이 집단은 러시아 국가의 이익을 대변하며 모국과의 통합을 더욱 진전시키고자 합니다." # 11414073440603299364
+  ideology_pol_parlamentarism: "폴란드 의회주의" # 11053548736205368901
+  ideology_pol_parlamentarism_desc: "이 집단은 권력이 과두정의 형태로 분배되는 것을 선호하며, 전제정이라는 개념을 경멸합니다." # 18375196408353013829
+  ideology_american_particularism: "미국 특수주의" # 5151898007935080996
+  ideology_american_particularism_desc: "이 집단은 예속적 노동의 봉건적 조항이 없는 자신들의 업무에 대한 지방 자치권을 원하고 있습니다. 그러나 노예제는 여전히 지지받고 있습니다." # 11628693214223041728
+  ideology_american_intelligentsia: "미국 지식인 계층" # 18428596210162580687
+  ideology_american_intelligentsia_desc: "이 집단은 불간섭주의와 무역 보호주의라는 경제 정책을 지지합니다." # 9469445850468376176
+  ideology_american_republicanism: "미국 공화주의" # 16825876681126256869
+  ideology_american_republicanism_desc: "이 집단은 최고의 지도자는 대중 투표로 선출되어야 하며 공화주의 정부 형태를 지지한다고 믿습니다. 그럼에도 불구하고, 그들은 현 정치 현상 유지를 선호합니다." # 3696762120174300814
+  ideology_american_liberalism: "미국 자유주의" # 2348803016246206410
+  ideology_american_liberalism_desc: "이 집단은 자유와 법적 평등을 수호해야 할 중요한 가치로 간주합니다." # 4387030550480136694
+  ideology_protectionism: "보호주의" # 1035145750055044652
+  ideology_protectionism_desc: "이 집단은 해외 수입품을 제한하고자 합니다." # 9780618272552537113
+  ideology_cultural_inclusiveness: "문화적 포용성" # 7630550097719342620
+  ideology_cultural_inclusiveness_desc: "이 집단은 혈통에 상관없이 근면함을 중시합니다." # 842195384636200548
+  ideology_civic_religion: "시민 종교" # 8675599429963623587
+  ideology_civic_religion_desc: "이 집단은 헌법을 신성불가침으로 여기며, 가장 반동적인 자들조차도 이를 바꾸려 들지 않습니다." # 12622475686945047717
+  ideology_southern_economy: "남부 경제" # 6658369697074167735
+  ideology_southern_economy_desc: "이 집단은 자유 무역과 노예제를 필수 불가결한 것으로 간주하며, 이를 위해 맹렬히 방어하고 투쟁할 것입니다." # 16745349484488634843
+  ideology_southern_patriarchy: "남부 가부장제" # 8526942938316818678
+  ideology_southern_patriarchy_desc: "이 집단은 남성이 정치적 권위를 가져야 하며, 여성은 아버지와 남편에게 복종해야 하고, 국가에는 공식 종교가 있어야 한다고 믿습니다." # 6461204045595077928
+  ideology_laissez_faire: "부당 이득 추구자들" # 12857319440590125130
+  ideology_laissez_faire_desc: "정부의 권력은 안정적인 상업을 보장하고 부의 축적을 용이하게 하는 데 사용되어야 합니다. 그들은 자신들이 뿌리지 않은 것을 거두기를 원합니다." # 6639655865267865911
+  ideology_anti_migration: "이민 반대" # 15713995940946321858
+  ideology_anti_migration_desc: "이 집단은 규제받지 않는 이주가 자신들의 노동 가치에 위협이 된다고 보며, 이를 제한하려 할 것입니다." # 2731007388383216485
+  ideology_christian_democrat: "기독교 민주당" # 5128720995049968413
+  ideology_christian_democrat_desc: "이 집단은 기독교적 가치를 굳게 믿으며 전제적인 형태의 정부에 반대합니다." # 8722904081527799797
+  ideology_american_meritocracy: "미국식 실력주의" # 6261042570231504025
+  ideology_american_meritocracy_desc: "#lore 이 집단은 성공은 노력으로 얻어지는 것이며, 성공을 이룬 자는 그에 따르는 책임과 부를 누릴 자격이 있다고 믿습니다!#" # 8356615439169318512
+  ideology_local_elites: "지역 엘리트" # 14838348961038574003
+  ideology_local_elites_desc: "식민지 행정부는 영향력 있는 치안 판사, 씨족 지도자부터 왕자, 페슈와에 이르기까지 다양한 현지 엘리트들의 지방 통치를 통해 나라를 다스립니다. 이들의 지역적 자치권은 그들에게 영지에 막대한 영향력을 부여합니다." # 14608658818081585018
+  ig_towarzystwo_rolnicze: "농업 협회" # 1318569232140688785
+  ig_german_aristocracy: "독일 귀족 계층" # 6980184176577105547
+  ig_local_elites: "지역 엘리트" # 14838348961038574003
+  ig_eight_banners: "팔기군" # 11709780886110688029
+  ig_eight_banners_desc: "팔기(八旗)는 후금과 청나라 시기 중국의 행정 및 군사 조직으로, 모든 만주 가호가 편입되었습니다. 전쟁 시 팔기는 군대로 기능했지만, 기(旗) 제도는 만주 사회 전반의 기본 조직 체계이기도 했습니다." # 257086799468391633
+  ig_new_army: "신규 군대" # 12621340297972354600
+  ig_new_army_desc: "신군(新軍), 정식 명칭으로는 근대화된 군대(Newly Created Army)는 19세기 후반 청나라 시기에 창설된 현대화된 군단이었습니다. 이는 서구의 기준에 따라 완벽하게 훈련되고 장비를 갖춘 정규적이고 전문적인 전투 부대이자 예비군을 갖추도록 구상되었습니다." # 4705903665305231986
+  IG_HAS_RIVAL: "적대국의 수" # 16392983982306197809
+  IG_EMPLOYED_MIC: "군수 산업 고용" # 45321733094404248
+  IG_IS_MARGINALIZED: "소외된 이익 집단" # 11363603767095273570
+  IG_COUNCIL_REPUBLIC: "법률: 평의회 공화국" # 4079129491782675214
+  ACADEMIC_EMPLOYMENT: "학술직 고용" # 8797973027251180660
+  CULTURAL_EXCLUSION: "법률: 문화적 배제" # 14129286423557467038
+  MULTICULTURALISM: "법률: 다문화주의" # 13298718869389843713
+  SOL_25_30: "생활 수준 25에서 30 사이" # 5067412232396994884
+  SOL_30_35: "생활 수준이 30에서 35 사이" # 17998021643951005288
+  SOL_35_40: "생활 수준 35에서 40 사이" # 9104794229359702990
+  SOL_40_45: "생활 수준 40에서 45 사이" # 13141146878383943358
+  SOL_45_50: "생활 수준이 45에서 50 사이" # 1118229892762870031
+  SOL_50_100: "생활 수준이 50에서 100 사이" # 12434896197037012925
+  SOL_0_5: "생활 수준이 0에서 5 사이" # 2544577992890502094
+  SOL_5_10: "생활 수준이 5에서 10 사이" # 7812783799766796599
+  SOL_10_15: "생활 수준이 10에서 15 사이" # 8869167549935137848
+  SOL_15_20: "생활 수준이 15에서 20 사이" # 12727682036969334605
+  SOL_20_25: "생활 수준이 20에서 25 사이" # 9655815021862375350
+  CONSCRIPTED: "징집된" # 12655802997366715229
+  NO_HEALTH_SYSTEM: "법률: 의료 제도 없음" # 13369431095060039067
+  SERFDOM_BANNED: "법률: 농노제 폐지" # 13392258811998277493
+  CHILD_LABOR_ALLOWED: "법률: 아동 노동 허용" # 8998595603597159013
+  NO_SOCIAL_SECURITY: "법률: 사회 보장 제도 없음" # 17283737870868416781
+  PLANTATION_EMPLOYMENT: "플랜테이션 고용" # 4974918146014035118
+  RESOURCE_POP: "자원 산업 고용" # 16322020564417136818
+  SMALL_URBAN_CENTER: "도시 중심지 규모 5 미만" # 4506790429132543351
+  NO_URBAN_CENTER: "도시 중심지 없음" # 8490177105546704165
+  NO_SOCIALISM: "#v 사회주의#! [concept_technology]가 해금되지 않았습니다." # 9366211208204750998
+  doctrine_of_lapse_subj_tt: "인도 아대륙의 속국입니다" # 15283163647345621088
+  perm_prestige_mod: "국가적 성공" # 18139619010744042391
+  state_of_war_pl: "폴란드 저항" # 18188573967304404827
+  coastal_capital: "해안 수도" # 3822794394818691950
+  near_coastal_capital: "해안 근접 수도" # 5350323862425998469
+  russia_lit_tracka: "교육 수준" # 17518435391721593146
+  junker_victory: "융커 승리" # 18279067323256400402
+  constitutional_crisis: "입헌 위기" # 12661348371529735821
+  decembrist_suppression_failure: "데카브리스트 생존" # 8323506590238837676
+  decembrist_suppression_success: "데카브리스트 진압" # 1227764739788286516
+  southern_planter_victory: "남부 지주들의 승리" # 8577711503430674555
+  france_baby_bust: "19세기 프랑스 인구 감소 둔화" # 12012144629899065664
+  france_early_game_birth_fix: "초기 게임 프랑스 출생률 수정" # 2833874610755414668
+  from_graduated_taxation: "법인세로부터" # 16852174485779962897
+  from_no_graduated_taxation: "법인세 인하로부터" # 8714718462211317176
+  from_no_consumption_tax: "소비세 인하로부터" # 390306918663263066
+  from_no_proportional_or_per_capita_tax: "법인세 인하 및 1인당 과세 폐지로부터" # 826099350510300928
+  from_capitalists_tax: "기업에 대한 높은 세금으로부터" # 14916766707339454856
+  law_no_schools: "학교 없음" # 13627202743080176263
+  law_no_schools_desc: "교육은 부모의 책임입니다. 가장 한가한 시민들만이 읽고 쓰는 법을 배웁니다." # 4875453897712375243
+  law_religious_schools: "종교 학교" # 7108687443260994168
+  law_religious_schools_desc: "교회가 국가 교육을 책임지게 하는 것은 충성스럽고 도덕적으로 건전한 인구를 보장합니다." # 17493627950933840135
+  law_private_schools: "사립학교" # 13156076160658656649
+  law_private_schools_desc: "교육은 개인의 교육 선택의 자유를 보장할 수 있는 사적 이익에 맡기는 것이 가장 좋다. #bold 사립학교#는 생활 수준 10에서 종교 학교보다 더 나아진다. #!" # 3695204242270322668
+  law_public_schools: "공립 학교" # 3782446187572630608
+  law_public_schools_desc: "교육은 국가의 책임이며, 표준화되어 모든 이에게 동등하게 접근 가능해야 합니다. #bold 공립학교가 종교 학교나 사립학교보다 항상 우월합니다!#" # 3226426248513937470
+  decree_political_repression: "민족주의자 탄압" # 12268373100924361897
+  decree_political_repression_desc: "급진적 민족주의 세포들을 억압하고 약화시키기 위한 다양한 미묘한 전술" # 13620768578620679414
+  decree_additional_taxes: "확대된 과세" # 15064029145030235441
+  decree_additional_taxes_desc: "더 높은 세율이 이 주를 직접적으로든 간접적으로든 겨냥했습니다." # 14842843729246051457
+  decree_host_scope: "게임 관리자 범위" # 15812482388810186464
+  decree_host_scope_desc: "이 칙령은 대학을 건설할 장소와 같은 효과를 어디에 적용할지 총독부 결정에 신호를 보냅니다." # 3214733780792692603
+  capital_in_americas_tt: "[SCOPE.GetRootScope.GetCountry.GetCapital.GetCityHubName]은 반드시 #bold 아메리카, 오세아니아, 혹은 남아프리카#에 위치해야 합니다!" # 15454740457065375254
+  no_unincorp_states_tt: "소유한 모든 주는 [Concept('concept_incorporated_state', '$concept_incorporated_states$')] 상태여야 합니다." # 12681818179375726832
+  ig_trait_treaty_relations: "조약 관계" # 3077059538924784085
+  ig_trait_treaty_relations_desc: "우리의 특권 당국과의 관계는 우리가 계속해서 원자재 수출을 확대하고 해외 파트너들과 수출 협정을 체결할 수 있도록 허용합니다." # 13682873795587835932
+  ig_trait_self_strengthening_industry: "자강" # 16294950939215140826
+  ig_trait_self_strengthening_industry_desc: "우리의 지성과 지혜는 주변 인물들보다 필연적으로 우월합니다. 따라서 우리가 해외에서 배워야 할 것은 단 하나뿐이니, 그것은 바로 효율적인 제강술과 창의적인 발명품들입니다." # 1243339601013985040
+  institution_schools_desc: "국가 교육 제도는 교육 수준의 성장을 보장합니다." # 18314945782591497050

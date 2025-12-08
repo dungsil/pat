@@ -1,0 +1,79 @@
+﻿l_korean:
+  fertile_desert_mountains_modifier: "알야므나트" # 7173250238863705232
+  fertile_desert_mountains_modifier_desc: "고대로부터 아라비아의 남쪽 지역은 비옥한, 혹은 축복받은 아라비아로 알려져 왔습니다. 이 지역은 반도의 주변 지역보다 더 많은 인구를 부양하고 경작 가능한 토지가 많습니다.\n[GetBuilding('cereal_fields_01').GetName]을 건설할 수 있습니다." # 17793522000607027711
+  geo_modifier_natural_harobur_001: "소규모 천연 항구" # 7396262270614015225
+  geo_modifier_natural_harobur_001_desc: "[GetBuilding('common_tradeport_01').GetName] 건설 가능\n[GetBuilding('caravanserai_01').GetName] 건설 가능" # 17426764788612268840
+  geo_modifier_natural_harobur_002: "주요 천연 항구" # 12084277741175632638
+  geo_modifier_natural_harobur_002_desc: "[GetBuilding('common_tradeport_01').GetName]을 건설할 수 있습니다\n[GetBuilding('caravanserai_01').GetName]을 건설할 수 있습니다\n[GetBuilding('regimental_grounds_01').GetName]을 건설할 수 있습니다" # 15405043484276367277
+  geo_modifier_natural_harobur_003: "뛰어난 천연 항구" # 16833364031488565937
+  geo_modifier_natural_harobur_003_desc: "[GetBuilding('common_tradeport_01').GetName]을 건설할 수 있습니다\n[GetBuilding('caravanserai_01').GetName]을 건설할 수 있습니다\n[GetBuilding('regimental_grounds_01').GetName]을 건설할 수 있습니다" # 15405043484276367277
+  geo_trade_convergence_001: "소규모 교역 수렴" # 9801672111912856566
+  geo_trade_convergence_001_desc: "[GetBuilding('caravanserai_01').GetName]을(를) 건설할 수 있습니다." # 7119374055056481313
+  geo_trade_convergence_002: "주요 교역로 수렴" # 10871216568294501639
+  geo_trade_convergence_002_desc: "[GetBuilding('caravanserai_01').GetName]을 건설할 수 있습니다\n[GetBuilding('regimental_grounds_01').GetName]을 건설할 수 있습니다" # 11309727898881674447
+  geo_trade_convergence_003: "#bold 탁월한 무역 융합#" # 4319718120545211984
+  geo_trade_convergence_003_desc: "[GetBuilding('caravanserai_01').GetName]을 건설할 수 있습니다\n[GetBuilding('regimental_grounds_01').GetName]을 건설할 수 있습니다" # 11309727898881674447
+  geo_modifier_lower_nile: "나일 하류" # 12450417511127709601
+  geo_modifier_lower_nile_desc: "[GetBuilding('cereal_fields_01').GetName] 건설 가능\n[GetBuilding('paddy_fields_01').GetName] 건설 가능\n[GetBuilding('orchards_01').GetName] 건설 가능\n[GetBuilding('watermills_01').GetName] 건설 가능\n[GetBuilding('waterworks_01').GetName] 건설 가능" # 5775041121777988096
+  geo_modifier_upper_nile: "상부 나일" # 17496651172683488502
+  geo_modifier_upper_nile_desc: "[GetBuilding(cereal_fields_01).GetName]을 건설할 수 있습니다.\n[GetBuilding('paddy_fields_01').GetName]을 건설할 수 있습니다.\n[GetBuilding('orchards_01').GetName]을 건설할 수 있습니다.\n[GetBuilding('watermills_01').GetName]을 건설할 수 있습니다.\n[GetBuilding('waterworks_01').GetName]을 건설할 수 있습니다." # 5330713086972873320
+  geo_modifier_po_valley: "포 강 유역" # 13580289809104626124
+  geo_modifier_po_valley_desc: "[GetBuilding('paddy_fields_01').GetName] 건설 가능\n[GetBuilding('windmills_01').GetName] 건설 가능\n[GetBuilding('watermills_01').GetName] 건설 가능" # 697436763195344235
+  geo_modifier_tuscany: "토스카나의 태양" # 10431123732377184078
+  geo_modifier_tuscany_desc: "[GetBuilding('cereal_fields_01').GetName] 건설 가능\n[GetBuilding('orchards_01').GetName] 건설 가능\n[GetBuilding('windmills_01').GetName] 건설 가능" # 2849942513615452815
+  geo_modifier_rome_shade: "티레니아 분지" # 10114540566876479532
+  geo_modifier_rome_shade_desc: "[GetBuilding('cereal_fields_01').GetName] 건설 가능\n[GetBuilding('orchards_01').GetName] 건설 가능\n[GetBuilding('windmills_01').GetName] 건설 가능" # 2849942513615452815
+  geo_modifier_sicily: "시칠리아 빵 바구니" # 5268776992881662304
+  geo_modifier_sicily_desc: "[GetBuilding('farm_estates_01').GetName]을 건설할 수 있습니다\n[GetBuilding('orchards_01').GetName]을 건설할 수 있습니다\n[GetBuilding('windmills_01').GetName]을 건설할 수 있습니다" # 6963057837330038876
+  geo_modifier_italian_farmlands: "#italic 이탈리아의 온화한 기후#" # 7158695958412782095
+  geo_modifier_italian_farmlands_desc: "[GetBuilding('cereal_fields_01').GetName] 건설 가능\n[GetBuilding('windmills_01').GetName] 건설 가능" # 11327625778186716847
+  geo_modifier_ganges_valley: "갠지스 계곡" # 8137853303342447360
+  geo_modifier_ganges_valley_desc: "[GetBuilding('cereal_fields_01').GetName] 건설 가능\n[GetBuilding('paddy_fields_01').GetName] 건설 가능\n[GetBuilding('watermills_01').GetName] 건설 가능" # 7102633708047832903
+  geo_modifier_indus_valley: "인더스 계곡" # 1917073101698109919
+  geo_modifier_indus_valley_desc: "[GetBuilding('cereal_fields_01').GetName] 건설 가능\n[GetBuilding('paddy_fields_01').GetName] 건설 가능\n[GetBuilding('watermills_01').GetName] 건설 가능" # 7102633708047832903
+  geo_modifier_low_countries: "#bold 저지대 국가들의 잠재력#!" # 16076951102311799735
+  geo_modifier_low_countries_desc: "[GetBuilding('peat_quarries_01').GetName] 건설 가능\n[GetBuilding('windmills_01').GetName] 건설 가능\n[GetBuilding('watermills_01').GetName] 건설 가능" # 13615937085566741421
+  geo_modifier_silesia: "실레지아의 부" # 16165852862328452409
+  geo_modifier_silesia_desc: "[GetBuilding('windmills_01').GetName] 건설 가능\n[GetBuilding('watermills_01').GetName] 건설 가능\n[GetBuilding('quarries_01').GetName] 건설 가능" # 4838073822011154159
+  geo_modifier_rheinland: "라인란트 은행" # 16493946826752992384
+  geo_modifier_rheinland_desc: "[GetBuilding('watermills_01').GetName]을 건설할 수 있습니다." # 739185019486612069
+  geo_modifier_vistula: "비스툴라 강둑" # 1900417920103476072
+  geo_modifier_vistula_desc: "[GetBuilding('watermills_01').GetName]을 건설할 수 있습니다." # 739185019486612069
+  geo_modifier_danube: "도나우 강변" # 17051779696105469264
+  geo_modifier_danube_desc: "[GetBuilding('watermills_01').GetName]을 건설할 수 있습니다." # 739185019486612069
+  geo_modifier_rus_forests: "동유럽의 숲" # 6507898585507531683
+  geo_modifier_rus_forests_desc: "[GetBuilding('logging_camps_01').GetName]을 건설할 수 있습니다." # 17843488597129120784
+  geo_modifier_persia_farming: "페르시아의 자원 풍부한 농업" # 18413847549669208336
+  geo_modifier_persia_farming_desc: "[GetBuilding('orchards_01').GetName]을 건설할 수 있습니다." # 4665281410328298330
+  geo_modifier_tigris_euphrates: "티그리스와 유프라테스" # 17844689076499706934
+  geo_modifier_tigris_euphrates_desc: "[GetBuilding('cereal_fields_01').GetName] 건설 가능\n[GetBuilding('paddy_fields_01').GetName] 건설 가능\n[GetBuilding('orchards_01').GetName] 건설 가능\n[GetBuilding('watermills_01').GetName] 건설 가능" # 7785411523907280654
+  geo_modifier_levant_farming: "레반트의 수완 좋은 농업" # 14485785538321521126
+  geo_modifier_levant_farming_desc: "[GetBuilding('orchards_01').GetName]을 건설할 수 있습니다." # 4665281410328298330
+  geo_modifier_maghreb_farming: "마그레브의 기민한 농업" # 6031735228501519420
+  geo_modifier_maghreb_farming_desc: "[GetBuilding('orchards_01').GetName]을 건설할 수 있습니다." # 4665281410328298330
+  geo_modifier_tibet_mountains: "세계의 지붕" # 1010019944856421262
+  geo_modifier_rhone: "론 강변" # 10182279057931850104
+  geo_modifier_rhone_desc: "[GetBuilding('cereal_fields_01').GetName] 건설 가능\n[GetBuilding('breweries_01').GetName] 건설 가능" # 7660613335285772167
+  geo_modifier_south_france: "프랑스의 포도원" # 15123942721232785687
+  geo_modifier_south_france_desc: "[GetBuilding('breweries_01').GetName]을 건설할 수 있습니다." # 5337924686317810780
+  geo_modifier_burgundy: "#bold 부르고뉴와 함께 흐르리라#" # 13280515256573411524
+  geo_modifier_burgundy_desc: "[GetBuilding('cereal_fields_01').GetName]을(를) 건설할 수 있습니다.\n[GetBuilding('breweries_01').GetName]을(를) 건설할 수 있습니다.\n[GetBuilding('logging_camps_01').GetName]을(를) 건설할 수 있습니다." # 3295779688813556234
+  geo_modifier_champagne: "샴페인에 취해 흐르네" # 6014161291248247334
+  geo_modifier_champagne_desc: "[GetBuilding('cereal_fields_01').GetName] 건설 가능\n[GetBuilding('hunting_grounds_01').GetName] 건설 가능\n[GetBuilding('breweries_01').GetName] 건설 가능" # 14889894878427589655
+  geo_modifier_north_france: "프랑스의 영지들" # 10145941318142428199
+  geo_modifier_north_france_desc: "[GetBuilding('regimental_grounds_01').GetName]을 건설할 수 있습니다.\n[GetBuilding('cereal_fields_01').GetName]을 건설할 수 있습니다." # 1090006646386791638
+  geo_modifier_loire: "루아르 계곡" # 16915052411663912663
+  geo_modifier_loire_desc: "[GetBuilding('cereal_fields_01').GetName] 건설 가능\n[GetBuilding('breweries_01').GetName] 건설 가능" # 7660613335285772167
+  geo_modifier_castille: "북부 이베리아의 작물" # 501613405726658453
+  geo_modifier_castille_desc: "[GetBuilding('pastures_01').GetName]을 건설할 수 있습니다." # 4619371314817338869
+  geo_modifier_navarre: "나바라의 비옥한 산악지대" # 11539458341005203471
+  geo_modifier_navarre_desc: "[GetBuilding('cereal_fields_01').GetName] 건설 가능\n[GetBuilding('pastures_01').GetName] 건설 가능\n[GetBuilding('quarries_01').GetName] 건설 가능" # 18116718421825804174
+  geo_modifier_aragon: "레반트 해안" # 12550484354958228056
+  geo_modifier_aragon_desc: "[GetBuilding('breweries_01').GetName]을 건설할 수 있습니다." # 5337924686317810780
+  geo_modifier_andalusia: "안달루시아의 햇살 가득한 계곡들" # 702967197775423615
+  geo_modifier_andalusia_desc: "[GetBuilding('breweries_01').GetName]을 건설할 수 있습니다." # 5337924686317810780
+  geo_modifier_galicia: "갈리시아의 목재" # 2590979082309898635
+  geo_modifier_galicia_desc: "[GetBuilding('logging_camps_01').GetName]을 건설할 수 있습니다." # 17843488597129120784
+  geo_modifier_genoa: "제노바 만" # 3149699743323901732
+  geo_modifier_genoa_desc: "[GetBuilding('orchards_01').GetName]을 건설할 수 있습니다." # 4665281410328298330
+  geo_modifier_venice: "베네치아만" # 7253619930943176043

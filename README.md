@@ -1,0 +1,200 @@
+# Paradox Auto Translate
+
+Paradox Interactive 게임 모드를 위한 자동 번역 도구입니다. Google Gemini AI를 사용하여 영어 현지화 파일을 한국어로 번역합니다.
+
+## 지원 게임
+
+- **Crusader Kings III (CK3)**
+- **Victoria 3 (VIC3)**
+- **Stellaris**
+
+## 주요 기능
+
+- 🤖 Google Gemini AI 기반 자동 번역
+- 🎮 게임별 특화 번역 (중세 역사, 역사적 인물, 지명 등)
+- 📝 게임 변수 및 형식 보존
+- 💾 스마트 캐싱으로 중복 번역 방지
+- 📚 수동 단어사전 지원
+- ✅ 번역 검증 및 재번역 기능
+
+## 설치
+
+```bash
+pnpm install
+```
+
+## 테스트
+
+이 프로젝트는 Vitest를 사용하여 포괄적인 단위 테스트를 제공합니다.
+
+```bash
+# 모든 테스트 실행
+pnpm test
+
+# Watch 모드로 테스트 실행 (파일 변경 시 자동 재실행)
+pnpm test:watch
+
+# UI 모드로 테스트 실행
+pnpm test:ui
+
+# 커버리지 리포트 생성
+pnpm test:coverage
+```
+
+**테스트 커버리지:**
+- `scripts/utils/hashing.ts` - 해시 생성 함수
+- `scripts/utils/dictionary.ts` - 게임별 단어사전
+- `scripts/parser/yaml.ts` - YAML 파서
+- `scripts/utils/translation-validator.ts` - 번역 검증 로직
+- `scripts/utils/delay.ts` - 지연 유틸리티
+- `scripts/utils/cache.ts` - 캐싱 시스템
+- `scripts/utils/queue.ts` - 큐 관리 및 재시도 로직
+
+## 사용법
+
+### 기본 번역
+
+```bash
+# CK3 모드 번역
+pnpm ck3
+
+# Victoria 3 모드 번역
+pnpm vic3
+
+# Stellaris 모드 번역
+pnpm stellaris
+```
+
+### 유틸리티 명령어
+
+```bash
+# upstream 저장소 업데이트 (소스 파일 다운로드)
+pnpm upstream                  # 모든 게임의 모든 모드 업데이트
+pnpm upstream ck3              # CK3 게임의 모든 모드 업데이트
+pnpm upstream vic3             # VIC3 게임의 모든 모드 업데이트
+pnpm upstream stellaris        # Stellaris 게임의 모든 모드 업데이트
+pnpm upstream ck3 RICE         # CK3 게임의 RICE 모드만 업데이트
+pnpm upstream vic3 "Better Politics Mod"  # VIC3의 Better Politics Mod만 업데이트
+
+# upstream 명령어 도움말
+pnpm upstream --help
+
+# 파일 해시만 업데이트 (번역 없이)
+pnpm ck3:update-hash
+pnpm vic3:update-hash
+pnpm stellaris:update-hash
+
+# 단어사전 기반 번역 무효화 (재번역 준비)
+pnpm ck3:update-dict
+pnpm vic3:update-dict
+pnpm stellaris:update-dict
+
+# 단어사전 무효화 - 커밋 기반 필터링 (특정 변경사항만 무효화)
+pnpm ck3:update-dict -- --since-commit HEAD~3        # 최근 3개 커밋 이후
+pnpm ck3:update-dict -- --commit-range abc..def      # 커밋 범위
+pnpm ck3:update-dict -- --since-date "2024-01-01"    # 날짜 이후
+
+# 잘못 번역된 항목 재번역
+pnpm ck3:retranslate
+pnpm vic3:retranslate
+pnpm stellaris:retranslate
+```
+
+### 단어사전 관리
+
+Git 커밋에서 단어사전 변경사항을 추출하여 현재 단어사전에 추가할 수 있습니다:
+
+```bash
+# 커밋 ID를 입력하면 해당 커밋의 dictionary.ts 변경사항을 추출하여 추가
+pnpm add-dict <commit-id>
+
+# 예시
+pnpm add-dict abc123
+```
+
+**기능:**
+- 커밋의 dictionary.ts 변경사항에서 추가된 항목만 추출
+- CK3, Stellaris, VIC3 모든 게임 타입 지원
+- 자동 중복 검사로 기존 항목은 건너뜀
+- TypeScript 객체 표기법 자동 파싱
+
+**사용 시나리오:**
+- 다른 브랜치나 과거 커밋에서 단어사전 항목을 가져올 때
+- 여러 커밋에 분산된 단어사전 변경사항을 통합할 때
+- 팀원이 작성한 단어사전 항목을 병합할 때
+
+## 환경 변수 설정
+
+`.env` 파일을 생성하고 다음 환경 변수를 설정하세요:
+
+```bash
+GOOGLE_GENERATIVE_AI_API_KEY=your_api_key_here
+```
+
+## 프로젝트 구조
+
+```
+.
+├── ck3/                    # CK3 모드 및 번역 파일
+├── vic3/                   # Victoria 3 모드 및 번역 파일
+├── stellaris/              # Stellaris 모드 및 번역 파일
+├── scripts/
+│   ├── add-dict-from-commit.ts  # Git 커밋에서 단어사전 추가 스크립트
+│   ├── ck3.ts                   # CK3 번역 스크립트
+│   ├── vic3.ts                  # VIC3 번역 스크립트
+│   ├── stellaris.ts             # Stellaris 번역 스크립트
+│   ├── factory/                 # 번역 처리 로직
+│   ├── parser/                  # 파일 파싱 유틸리티
+│   └── utils/
+│       ├── dictionary.ts        # 단어사전
+│       ├── ai.ts                # AI 통합
+│       ├── cache.ts             # 캐싱 시스템
+│       └── logger.ts            # 로깅 유틸리티
+└── package.json
+```
+
+## 번역 프로세스
+
+1. **Upstream 업데이트**: 최신 소스 파일 다운로드 (sparse checkout 사용)
+2. **파일 발견**: `meta.toml` 기반 모드 구성 로드
+3. **파싱**: YAML 현지화 파일 파싱 (`l_english` → `l_korean`)
+4. **해싱**: 내용 기반 해시로 변경사항 감지
+5. **번역**: AI 번역 (게임별 컨텍스트 포함)
+6. **캐싱**: 번역 결과 저장 (중복 번역 방지)
+7. **출력**: 한국어 파일 생성 (`___` 접두사로 로드 순서 보장)
+
+## 자동화 워크플로우
+
+### 단어사전 자동 무효화
+
+`scripts/utils/dictionary.ts` 파일이 업데이트되면 자동으로 다음 작업을 수행합니다:
+
+1. **자동 트리거**: `main` 브랜치에 `dictionary.ts` 파일이 변경되면 GitHub Actions 워크플로우가 자동 실행
+2. **캐시 무효화**: 각 게임(CK3, Stellaris, VIC3)에 대해 단어사전 기반 번역 무효화 (`update-dict`)
+3. **재번역**: 잘못 번역된 항목 재번역 (`retranslate`)
+4. **자동 커밋**: 변경사항 자동 커밋 및 푸시
+
+이를 통해 단어사전에 새로운 용어를 추가하거나 기존 번역을 수정하면 자동으로 모든 게임의 번역이 업데이트됩니다.
+
+**워크플로우 파일**: `.github/workflows/invalidate-on-dictionary-update.yml`
+
+### 번역 거부 항목 자동 이슈 등록
+
+번역 과정에서 AI가 번역을 거부한 항목(예: 안전성 필터, 콘텐츠 정책 위반 등)을 자동으로 추적하고 GitHub Issues로 등록합니다:
+
+1. **자동 감지**: 번역 중 AI가 거부한 항목을 자동으로 수집
+2. **중간 저장**: 번역 거부 발생 시 처리된 항목까지 graceful하게 저장
+3. **이슈 생성**: 모드별로 그룹화하여 GitHub Issues 자동 생성
+4. **레이블 태깅**: `translation-refused`, 게임별 레이블(예: `ck3`) 자동 부여
+
+번역 거부 항목은 `{game}-untranslated-items.json` 파일에 저장되며, 다음 정보를 포함합니다:
+- 모드 이름
+- 파일 경로
+- 키 이름
+- 원본 메시지
+
+**관련 워크플로우**: `.github/workflows/translate-ck3.yml`, `translate-vic3.yml`, `translate-stellaris.yml`
+
+## 라이선스
+
+이 프로젝트는 오픈소스입니다.

@@ -1,0 +1,27 @@
+﻿l_korean:
+  laws_synergize_economy: "경제 통합" # 7949640968655658888
+  laws_synergize_economy_action_name: "$laws_synergize_economy$" # 14673953715776563862
+  laws_synergize_economy_action_propose_name: "경제 통합을 시작합니다" # 9064454792126315813
+  laws_synergize_economy_action_break_name: "경제 시너지 중단" # 2298122389291978464
+  laws_synergize_economy_pact_desc: "[SCOPE.GetRootScope.GetDiplomaticPact.GetFirstCountry.GetName]이(가) [SCOPE.GetRootScope.GetDiplomaticPact.GetSecondCountry.GetName]의 경제 구조를 자국에 시너지를 내도록 개편합니다.\n 현재 8단계 중 #variable [SCOPE.GetRootScope.GetDiplomaticPact.GetSecondCountry.MakeScope.Var('synergize_economy_progress').GetValue]#! 단계 진행 중입니다." # 14424611222541326391
+  laws_synergize_economy_desc: "#header $laws_synergize_economy$#!\n$TOOLTIP_DELIMITER$\n지정된 국가의 경제 체제를 통합합니다." # 3689194677214343370
+  laws_synergize_economy_action_notification_name: "[INITIATOR_COUNTRY.GetName] 경제 통합" # 5712716167955302513
+  laws_synergize_economy_action_notification_desc: "[INITIATOR_COUNTRY.GetName]이 우리 국가의 경제 체계를 통합하고 있습니다." # 10288543119038476846
+  laws_synergize_economy_action_notification_break_name: "[INITIATOR_COUNTRY.GetName]에 의한 경제 시너지 효과 중단" # 570472057919087872
+  laws_synergize_economy_action_notification_break_desc: "[INITIATOR_COUNTRY.GetName]이 우리 국가의 경제 체제를 통합하려는 노력을 중단했습니다." # 16812962172733934044
+  laws_synergize_economy_effect_desc_global: "경제 통합을 시작합니다" # 9064454792126315813
+  laws_synergize_economy_effect_desc_first: "[COUNTRY.GetAdjectiveNoFlag]가 [TARGET_COUNTRY.GetName]와 경제적 시너지를 개시합니다." # 10848075890867509331
+  laws_synergize_economy_effect_desc_third: "[COUNTRY.GetName]이(가) [AddTextIf(ObjectsEqual(GetMetaPlayer.GetPlayedOrObservedCountry.Self, TARGET_COUNTRY.Self),TARGET_COUNTRY.GetNameNoFlag)][AddTextIf(Not(ObjectsEqual(GetMetaPlayer.GetPlayedOrObservedCountry.Self, TARGET_COUNTRY.Self)),TARGET_COUNTRY.GetName)]와(과) 경제적 시너지를 개시합니다." # 9361174711307831432
+  laws_synergize_economy_trigger_desc_global: "경제적 시너지 창출 진행 중" # 6695352102578188334
+  laws_synergize_economy_trigger_false_desc_global: "현재 경제 체계를 통합하는 과정에 있지 않습니다." # 5808074457652014826
+  laws_synergize_economy_trigger_desc_first: "[COUNTRY.GetAdjectiveNoFlag]는 [TARGET_COUNTRY.GetName]와 시너지를 이루는 경제 체제를 갖추고 있습니다." # 4333991030156051940
+  laws_synergize_economy_trigger_false_desc_first: "[COUNTRY.GetAdjectiveNoFlag]는 현재 [TARGET_COUNTRY.GetName]와 시너지를 내는 경제 체제를 갖추고 있지 않습니다." # 4656525485452932156
+  laws_synergize_economy_trigger_desc_third: "[COUNTRY.GetName]은 [AddTextIf(ObjectsEqual(GetMetaPlayer.GetPlayedOrObservedCountry.Self, TARGET_COUNTRY.Self),TARGET_COUNTRY.GetNameNoFlag)][AddTextIf(Not(ObjectsEqual(GetMetaPlayer.GetPlayedOrObservedCountry.Self, TARGET_COUNTRY.Self)),TARGET_COUNTRY.GetName)]와 시너지를 이루는 경제 체제를 갖추고 있습니다." # 14963540065312766550
+  laws_synergize_economy_trigger_false_desc_third: "[COUNTRY.GetName]은 현재 [AddTextIf(ObjectsEqual(GetMetaPlayer.GetPlayedOrObservedCountry.Self, TARGET_COUNTRY.Self),TARGET_COUNTRY.GetNameNoFlag)][AddTextIf(Not(ObjectsEqual(GetMetaPlayer.GetPlayedOrObservedCountry.Self, TARGET_COUNTRY.Self)),TARGET_COUNTRY.GetName)]와 상호 보완적인 경제 체제를 갖추고 있지 않습니다." # 11441126400019099690
+  mog_syn_events.02.t: "경제적 시너지!" # 5986041912209024202
+  mog_syn_events.02.d: "자부심 넘치는 [ROOT.GetCountry.GetName]은 [SCOPE.sCountry('synergize_economy_target_country').GetName]과의 경제 체제 통합을 성공적으로 완료했습니다. [SCOPE.sCountry('synergize_economy_target_country').GetName]은 본국과의 결속력 강화를 통해 영원한 번영을 누릴 것입니다." # 9943608288500123539
+  mog_syn_events.02.f: "[ROOT.GetCountry.GetName] 만세!" # 14790848653475303579
+  mog_syn_events.02.a: "잘했소." # 14562174443526593361
+  laws_synergize_economy_weekly_effect: "[GetLawGroup('lawgroup_economic_system').GetName] [concept_law]을 [concept_subject]에 우리의 것과 일치하도록 변경합니다. 매주 진척될 확률이 20%이며, 성공하려면 8의 진척도가 필요합니다." # 3215793848943043259
+  overlord_syn_cost_economy: "경제 통합 비용" # 11885448528756340814
+  active_synergize_economy_tt: "다른 $laws_synergize_economy$ 조치의 수가 1 미만입니다." # 9275031487808665702

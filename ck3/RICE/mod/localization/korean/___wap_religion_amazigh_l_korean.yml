@@ -1,0 +1,168 @@
+﻿l_korean:
+  amazigh_religion: "야쿠시즘" # 3342354659612419435
+  amazigh_religion_adj: "야쿠시스트" # 9488973428619758135
+  amazigh_religion_adherent: "야쿠시스트" # 9488973428619758135
+  amazigh_religion_adherent_plural: "야쿠시스트" # 5503857010346052294
+  amazigh_religion_desc: "산과 나무를 신성시하고 조상을 숭배하며 영혼의 존재를 믿는 자연 숭배를 중심으로, 아마지그 신앙은 고대 그리스, 로마, 포에니교의 종교들로부터도 영향을 받았습니다." # 5703021442161475818
+  amazigh_house_of_worship: "사원" # 8256812606102106425
+  amazigh_house_of_worship_plural: "사원" # 17558821383042594454
+  amazigh_religious_symbol: "타니트의 징표" # 10639866827468878892
+  amazigh_religious_text: "신성한 노래" # 8955817660240305435
+  amazigh_religious_head_title: "대사제" # 156338025912238962
+  amazigh_religious_head_title_name: "고위 의회" # 15038947742583190916
+  amazigh_priest: "사제" # 1561830844388017770
+  amazigh_priest_plural: "사제들" # 7180242192547374238
+  amazigh_priest_female: "여사제" # 15322699699056924492
+  amazigh_priest_female_plural: "여사제들" # 4901309891915541665
+  amazigh_priest_term_plural: "사제들" # 7180242192547374238
+  amazigh_priest_neuter: "점술가" # 13593107484509752396
+  amazigh_priest_neuter_plural: "예언가들" # 4749492431266506488
+  amazigh_bishop_male: "대사제" # 12413382511103218010
+  amazigh_bishop_male_plural: "대사제들" # 3941561275029192516
+  amazigh_bishop_female: "여주교" # 16840875552642073865
+  amazigh_bishop_female_plural: "대사제녀들" # 7771761062684283561
+  amazigh_bishop_neuter: "대사제" # 12413382511103218010
+  amazigh_bishop_neuter_plural: "대사제들" # 3941561275029192516
+  amazigh_the_spirits: "조상 영혼들" # 15145279190970956417
+  amazigh_divine_realm: "선조들" # 3977550578121230202
+  amazigh_afterlife: "$amazigh_divine_realm$" # 13773883714795502321
+  amazigh_high_god_name: "아몬" # 10722366074190330514
+  amazigh_high_god_name_possessive: "암몬의" # 10177541962974321638
+  amazigh_high_god_name_alternate: "바알 함몬" # 17628523363171256350
+  amazigh_high_god_name_alternate_possessive: "바알 함몬의" # 3754707286569943951
+  amazigh_good_god_anti: "안티" # 13307524280518403238
+  amazigh_good_god_tinja: "틴자" # 12125300586397446149
+  amazigh_good_god_sufax: "수파크스" # 1784208259014281971
+  amazigh_good_god_anzar: "안자르" # 11640642689764710042
+  amazigh_good_god_suggen: "수깐" # 3693622228154843100
+  amazigh_good_god_tililwa: "틸릴와" # 1148763917184048203
+  amazigh_good_god_tislit: "티슬리트" # 9719352385421356414
+  amazigh_devil_name: "어둠의 정령들" # 12173441855634573074
+  amazigh_devil_name_possessive: "어둠의 정령들의" # 12342443331119033436
+  amazigh_creator_god_name: "타니트" # 10093745746159628126
+  amazigh_creator_god_name_possessive: "타니트의" # 12566216973909998784
+  amazigh_health_god_name: "$amazigh_creator_god_name$" # 16722402270745510689
+  amazigh_health_god_name_possessive: "$amazigh_creator_god_name_possessive$" # 1886672601999623400
+  amazigh_fertility_god_name: "$amazigh_creator_god_name$" # 16722402270745510689
+  amazigh_fertility_god_name_possessive: "$amazigh_creator_god_name_possessive$" # 1886672601999623400
+  amazigh_wealth_god_name: "$amazigh_creator_god_name$" # 16722402270745510689
+  amazigh_wealth_god_name_possessive: "$amazigh_creator_god_name_possessive$" # 1886672601999623400
+  amazigh_household_god_name: "$amazigh_creator_god_name$" # 16722402270745510689
+  amazigh_household_god_name_possessive: "$amazigh_creator_god_name_possessive$" # 1886672601999623400
+  amazigh_knowledge_god_name: "아니구란" # 3295589010066683395
+  amazigh_knowledge_god_name_possessive: "아니구란의" # 15021125006180555571
+  amazigh_fate_god_name: "아프리" # 2018541592115178697
+  amazigh_fate_god_name_possessive: "아프리의" # 3658108039072281262
+  amazigh_war_god_name: "구르질" # 13397489560734111445
+  amazigh_war_god_name_possessive: "구르질의" # 550981898488211483
+  amazigh_trickster_god_name: "$amazigh_devil_name$" # 6731366832182855358
+  amazigh_trickster_god_name_possessive: "$amazigh_devil_name_possessive$" # 12865519616155055705
+  amazigh_night_god_name: "아유르" # 11446619757622141685
+  amazigh_night_god_name_possessive: "아이우르의" # 11412967688001176385
+  amazigh_water_god_name: "아웨수" # 8926408199730264156
+  amazigh_water_god_name_possessive: "아웨수스'" # 10881277132880461062
+  amazigh_death_deity_name: "$amazigh_creator_god_name$" # 16722402270745510689
+  amazigh_death_deity_name_possessive: "$amazigh_creator_god_name_possessive$" # 1886672601999623400
+  witchgodname_amazigh: "$amazigh_devil_name$" # 6731366832182855358
+  witchgodname_amazigh_possessive: "$amazigh_devil_name_possessive$" # 12865519616155055705
+  amazigh_pagan: "야쿠시즘" # 3342354659612419435
+  amazigh_pagan_adj: "야쿠시안" # 1159090300499233595
+  amazigh_pagan_adherent: "야쿠시안" # 1159090300499233595
+  amazigh_pagan_adherent_plural: "야쿠시인" # 7668755719075787375
+  amazigh_pagan_old: "고대 야쿠시즘" # 15326431332926914235
+  amazigh_pagan_old_adj: "고대 야쿠트어" # 7601377228018007889
+  amazigh_pagan_old_adherent: "고대 야쿠트어" # 7601377228018007889
+  amazigh_pagan_old_adherent_plural: "고대 야쿠트어" # 7601377228018007889
+  tuareg_religious_symbol: "타나길트" # 220603521381302974
+  tuareg_house_of_worship: "성소" # 10631482914847637291
+  tuareg_house_of_worship_plural: "신성소" # 7895485644411018553
+  tuareg_devil_name: "켈 에수프" # 4316754973613489845
+  tuareg_devil_name_possessive: "켈 에수프" # 4316754973613489845
+  tuareg_creator_god_name: "일루" # 9478730692233808582
+  tuareg_creator_god_name_possessive: "일루스" # 5352645674457977520
+  tuareg_high_god_name: "일루" # 9478730692233808582
+  tuareg_high_god_name_possessive: "일루스" # 5352645674457977520
+  tuareg_water_god_name: "안자르" # 11640642689764710042
+  tuareg_water_god_name_possessive: "안자르의" # 3074232957701421575
+  tuareg_war_god_name: "틴 히난" # 11613417312499601224
+  tuareg_war_god_name_possessive: "틴 히난의" # 8909515821024317639
+  tuareg_divine_realm: "켈 에수프" # 15077125459169694481
+  tuareg_trickster_god_name: "켈 에수프" # 4316754973613489845
+  tuareg_trickster_god_name_possessive: "켈 에수프의" # 10695746890379990860
+  witchgodname_tuareg: "켈 에수프" # 4316754973613489845
+  witchgodname_tuareg_possessive: "켈 에수프의" # 10695746890379990860
+  tuareg_pagan: "일루이즘" # 3921770242350051816
+  tuareg_pagan_adj: "일루익" # 17694076385596013334
+  tuareg_pagan_adherent: "일루이스트" # 16755035756207933103
+  tuareg_pagan_adherent_plural: "일루이스트" # 16755035756207933103
+  tuareg_pagan_old: "오래된 환상주의" # 4519325571200224410
+  tuareg_pagan_old_adj: "오래된 환상주의" # 4519325571200224410
+  tuareg_pagan_old_adherent: "오래된 환상주의" # 4519325571200224410
+  tuareg_pagan_old_adherent_plural: "오래된 일루이스트들" # 6820525567197584719
+  guanche_pagan_desc: "아차만, 영원한 하늘의 신께서 대지와 물, 불과 공기, 모든 생명체가 그로부터 존재를 얻도록 창조하셨습니다. 아차만은 높은 곳에 거주하시며 때때로 산봉우리에 내려와 그분의 창조물을 응시하십니다. 전설에 따르면, 과요타가 태양 마젝을 납치하여 테이데 화산에 가두었고, 이로 인해 세상은 어둠에 잠겼다고 합니다. 인간들은 아차만께 기도했고, 아차만께서는 마젝을 구출하시고 대신 사악한 과요타를 테이데 산에 영원히 가두셨습니다. 과요타는 자신의 후예인 티비세나스(Tibicenas)를 통해 계속해서 인간들을 괴롭힙니다. 티비세나스는 붉은 눈과 긴 검은 털로 뒤덮인 거대한 들개의 형상을 한 악마들입니다. 티비세나스는 깊은 동굴, 즉 아버지 과요타처럼 산속에 살며, 밤이 되면 나와 인간이나 가축을 공격하는 것으로 알려져 있습니다." # 9567475065401113964
+  guanche_house_of_worship: "알모가렌" # 5072878606625659895
+  guanche_house_of_worship_plural: "알모가렌스" # 16370402737663411863
+  guanche_religious_symbol: "아녜파" # 11653216825691376069
+  guanche_religious_text: "신성한 노래" # 8955817660240305435
+  guanche_religious_head_title: "최고 구아냐메녜" # 16308301331298449660
+  guanche_religious_head_title_name: "고위 의회" # 15038947742583190916
+  guanche_priest: "강쿠" # 3000123281061816426
+  guanche_priest_plural: "칸쿠스" # 15656875246635780469
+  guanche_priest_term_plural: "칸쿠스" # 15656875246635780469
+  guanche_priest_alternate: "파이칸" # 11629338946861797287
+  guanche_priest_alternate_plural: "페이칸스" # 7946131397094414227
+  guanche_priest_neuter: "강쿠" # 3000123281061816426
+  guanche_priest_neuter_plural: "칸쿠스" # 15656875246635780469
+  guanche_bishop_male: "과냐메녜" # 14953592749260349641
+  guanche_bishop_male_plural: "과냐메녜스" # 13373024756657311890
+  guanche_bishop_female: "마구아다" # 1898284532905104439
+  guanche_bishop_female_plural: "마구아다세스" # 15928202653884773553
+  guanche_bishop_neuter: "과냐메녜" # 14953592749260349641
+  guanche_bishop_neuter_plural: "과냐메녜스" # 13373024756657311890
+  guanche_positive_afterlife: "아휘르" # 17669694787677388647
+  guanche_negative_afterlive: "에체이데" # 14282040379622091385
+  guanche_high_god_name: "아차만" # 15524703739729747565
+  guanche_high_god_name_possessive: "아차만의" # 485847023924217173
+  guanche_high_god_name_alternate: "아코란" # 8438274904820748901
+  guanche_high_god_name_alternate_possessive: "아코란의" # 1781778246071989161
+  guanche_good_god_abora: "아보라" # 12161559392017051591
+  guanche_good_god_orahan: "오라한" # 8180941457973704496
+  guanche_good_god_eraorahan: "에라오라한" # 10219228940013098134
+  guanche_good_god_moneib: "모네이브" # 13802082786913421182
+  guanche_devil_name: "과요타" # 2475346922606926251
+  guanche_devil_name_possessive: "과요타의" # 8631120946979466299
+  guanche_devil_herselfhimself: "그 자신" # 10958483083757948805
+  guanche_creator_god_name: "아차만" # 15524703739729747565
+  guanche_creator_god_name_possessive: "아차만의" # 485847023924217173
+  guanche_health_god_name: "차시락시" # 4893546048762355474
+  guanche_health_god_name_possessive: "차시락시의" # 1896314987631568138
+  guanche_fertility_god_name: "모네이브" # 13802082786913421182
+  guanche_fertility_god_name_possessive: "모네이브의" # 7151863894977663230
+  guanche_wealth_god_name: "마게크" # 6226952099311009707
+  guanche_wealth_god_name_possessive: "마게크의" # 10099982441974424185
+  guanche_household_god_name: "막시오스" # 17037558537122102396
+  guanche_household_god_name_possessive: "마키오스 가문의" # 4197893329464137227
+  guanche_knowledge_god_name: "$guanche_creator_god_name$" # 12132118672380083506
+  guanche_knowledge_god_name_possessive: "$guanche_creator_god_name_possessive$" # 11280351197090409569
+  guanche_fate_god_name: "아추과요" # 1082552334850729873
+  guanche_fate_god_name_possessive: "아추가요의" # 1936461603664913685
+  guanche_war_god_name: "$guanche_creator_god_name$" # 12132118672380083506
+  guanche_war_god_name_possessive: "$guanche_creator_god_name_possessive$" # 11280351197090409569
+  guanche_trickster_god_name: "$guanche_devil_name$" # 5651891076537600651
+  guanche_trickster_god_name_possessive: "$guanche_devil_name_possessive$" # 9792220754303343712
+  guanche_night_god_name: "아추과요" # 1082552334850729873
+  guanche_night_god_name_possessive: "아추가요의" # 1936461603664913685
+  guanche_water_god_name: "아추후카나크" # 10515917663956138474
+  guanche_water_god_name_possessive: "아추후카나크스의" # 11054766416859331026
+  guanche_death_deity_name: "$guanche_devil_name$" # 5651891076537600651
+  guanche_death_deity_name_possessive: "$guanche_devil_name_possessive$" # 9792220754303343712
+  witchgodname_guanche_tibicena: "티비체나" # 12486207383467439622
+  witchgodname_guanche_tibicena_possessive: "티비체나 가문" # 7221117632649630126
+  guanche_pagan: "아차만주의" # 15921608318720251256
+  guanche_pagan_adj: "아차마니" # 12791523996444885821
+  guanche_pagan_adherent: "아차마니스트" # 9156801194581633145
+  guanche_pagan_adherent_plural: "아차마니스트" # 1909227514208685621
+  guanche_pagan_old: "고대 아차만 신앙" # 13123043933920636455
+  guanche_pagan_old_adj: "고대 아차마니크어" # 9408521991895236790
+  guanche_pagan_old_adherent: "#old Achamánist#" # 15638700887266884839
+  guanche_pagan_old_adherent_plural: "오래된 아차만주의 신봉자들" # 9259615340638987761

@@ -1,0 +1,37 @@
+﻿# Found New Hegemony custom localization by Guildar_, ideas by Xerdos
+
+l_english:
+ # Found New Hegemony:
+ found_hegemony_decision:0 "Found a New Hegemony"
+ found_hegemony_decision_desc:0 "I will create a Hegemony to outshine all others, and to outlast the world itself."
+ found_hegemony_decision_confirm:0 "Gather the realm"
+ found_hegemony_decision_tooltip:0 "Found an entirely new Hegemony title"
+ create_new_hegemony:0 "You create a new Hegemony"
+ create_title_every_held_empire:0 "Every Empire title you [hold|E] or [completely_control|E]"
+ create_custom_hegemony_de_jure_changes:0 "Becomes [de_jure|E] [empires|E] of your new Hegemony"
+ found_hegemony_decision_three_empires_held:0 "You hold three or more [empires|E]"
+
+ # Events related to founding the new hegemony:
+ FCH_major_decisions.1.t:0 "A New [founder.GetTitleAsNameNoTooltip] Rises..."
+ FCH_major_decisions.1.opening_empires:0 "I have ruled over vast stretches of land, became one of the most powerful rulers in the world, and grew enough control over the empires of [empire_1.GetNameNoTierNoTooltip], [empire_2.GetNameNoTierNoTooltip], and [empire_3.GetNameNoTierNoTooltip] to rival even the gods themselves!"
+ FCH_major_decisions.1.opening:0 "Every vassal bows before me, trembling at the power I now hold. Even the [ROOT.Char.GetFaith.PriestNeuterPlural], fear me and wonder if [ROOT.Char.GetFaith.PantheonTerm] sees me as an equal now given my power and status."
+ FCH_major_decisions.1.i_am_religious_head:0 "\n\nSince everyone already sees me as the head of faith, it is not surprising that I would be able to wear the crown and proclaim myself as the ruler of vast lands. After all, if I am so close to [ROOT.Char.GetFaith.PantheonTerm] why wouldn't I be allowed to rule most of the known world?"
+ FCH_major_decisions.1.blessed_by_religious_head:0 "\n\nAs [religious_figure.GetTitledFirstName] bows and puts the crown upon my head, it is no secret that everyone envies my positon as a new [founder.GetTitleAsNameNoTooltip]. Now, the world trembles at my feet!"
+ FCH_major_decisions.1.a:0 "[new_title.GetNameNoTierNoTooltip] has risen to rule the world!"
+
+ FCH_major_decisions.2.t:0 "The Gathering of the Kingdoms..."
+ FCH_major_decisions.2.opening:0 "[founder.GetFirstName], our [founder.GetLadyLord] who has ruled over us along with countless vast stretches of land, has become one of the most powerful rulers in the world and has called us along with [founder.GetFaith.PriestNeuterPlural] to join [founder.GetHerHim] in the grand castle. All of us seem to tremble as it is clear that [founder.GetSheHe] rivals even [ROOT.Char.GetFaith.PantheonTerm]'s realm!"
+ FCH_major_decisions.2.i_am_religious_head:0 "\n\nI bow as I place [founder.GetHerHis] new crown upon [founder.GetHerHis] head,"
+ FCH_major_decisions.2.religious_head_hegemony:0 "\n\nAs [founder.GetSheHe] places [founder.GetHerHis] new crown upon [founder.GetHerHis] head,"
+ FCH_major_decisions.2.blessed_by_religious_head:0 "\n\n[religious_figure.GetTitledFirstName] bows as the new crown is placed upon [founder.GetHerHis] head,"
+ FCH_major_decisions.2.end:0 "[founder.GetFirstName] proclaims a new realm to rival even the gods themselves! [founder.GetHerHis|U] servants bow in deference before [founder.GetHerHim]."
+ FCH_major_decisions.2.a:0 "[new_title.GetNameNoTierNoTooltip] will be eternal!"
+
+ FCH_major_decisions.3.t:0 "An Unexpected Claim"
+ FCH_major_decisions.3.desc:0 ""[founder.GetTitleAsNameNoTooltip]" [founder.GetFirstName] of [new_title.GetNameNoTierNoTooltip] has declared a new hegemony, and that some of #EMP my#! rightful territory is a part of it! [founder.GetSheHe] even has the nerve to claim that [founder.GetSheHe] rivals the gods themselves! How foolish and arrogant!"
+ FCH_major_decisions.3.a:0 "That pretender will be forgotten before long..."
+
+ FCH_major_decisions.4.t:0 "Rumors About a Rise to Power"
+ FCH_major_decisions.4.desc:0 "In our realm, there has been rumors that a ruler, [founder.GetTitleAsNameNoTooltip] [founder.GetFirstName], has created a new hegemony known as the [new_title.GetName]. This is rather concerning since [founder.GetSheHe] claims to rival even the gods themselves! While this claim is rather foolish, we should be on the lookout to make sure [founder.GetSheHe] does not claim our lands."
+ FCH_major_decisions.4.a:0 "Let's hope [founder.GetHerHis] realm crumbles before too long..."
+ FCH_major_decisions.4.tooltip:0 "NOTE: If you are seeing this event, I would recommend checking the hegemony map mode because the new hegemony now has borders on the map that may have overwritten previous hegemony borders that existed before."

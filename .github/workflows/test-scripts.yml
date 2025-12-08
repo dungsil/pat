@@ -1,0 +1,32 @@
+name: Test Scripts
+
+on:
+  pull_request:
+    paths:
+      - "scripts/**"
+      - "package.json"
+      - "pnpm-lock.yaml"
+      - "vitest.config.ts"
+      - "tsconfig.json"
+      - ".github/workflows/test-scripts.yml"
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v6
+      
+      - uses: pnpm/action-setup@v4
+      
+      - uses: actions/setup-node@v6
+        with:
+          cache: 'pnpm'
+          node-version-file: .node-version
+      
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+      
+      - name: Run unit tests
+        run: pnpm test

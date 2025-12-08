@@ -1,0 +1,6 @@
+﻿l_korean:
+  game_concept_t_church_holding: "부족 사원" # 4026814527701303752
+  game_concept_t_church_holdings: "부족 사원" # 17817657821239321539
+  game_concept_t_church_holding_desc: "부족은 [taxes|E]는 적지만 [levies|E], [prestige|E], 그리고 [men_at_arms|E] 업그레이드는 풍부합니다. 이들은 업그레이드 잠재력이 제한적이며, 초반에는 강하지만 시간이 지날수록 빠르게 힘을 잃습니다. 오직 [tribal|E] 인물만이 페널티 없이 부족 영지를 보유할 수 있습니다. [feudal|E] 통치자들은 부족을 [castles|E]로 전환하기 위해 [gold|E]를 지출해야 합니다." # 5726147247365589081
+  game_concept_tribalchurch: "부족 사원" # 4026814527701303752
+  game_concept_tribalchurches: "부족 사원" # 17817657821239321539

@@ -1,0 +1,33 @@
+﻿l_korean:
+  military_support: "영토 팽창 지지" # 8468347791870099749
+  military_support_action_name: "영토 팽창 지지" # 8468347791870099749
+  military_support_action_propose_name: "영토 팽창 지지" # 8468347791870099749
+  military_support_action_break_name: "영토 팽창 지원 중단" # 15762401327167332535
+  military_support_action_notification_name: "영토 확장 지원" # 2847092432123317244
+  military_support_action_notification_desc: "저희는 [INITIATOR_COUNTRY.GetName]와 영토 팽창 지원에 대한 합의에 도달했습니다." # 17769993278923726555
+  military_support_desc: "#header $military_support$#!\n$TOOLTIP_DELIMITER$\n두 [Concept('concept_country', '$concept_countries$')] 간에 영토 확장 지원 협정을 수립하는 [concept_diplomatic_pact]입니다." # 9243922818592359706
+  military_support_pact_desc: "[SCOPE.GetRootScope.GetDiplomaticPact.GetFirstCountry.GetName]은 [SCOPE.GetRootScope.GetDiplomaticPact.GetSecondCountry.GetName]의 영토 확장을 지지합니다." # 7765934249783009906
+  military_support_proposal_notification_name: "영토 확장을 위한 제안" # 9348232454089348208
+  military_support_proposal_notification_desc: "[INITIATOR_COUNTRY.GetName]은 우리와 함께 영토 팽창에 대한 지지를 원하고 있습니다." # 6716832955997369890
+  military_support_proposal_notification_effects_desc: "$military_support_desc$" # 4361808814620027962
+  military_support_proposal_accepted_name: "영토 확장 지지 수락됨" # 393650017895190526
+  military_support_proposal_accepted_desc: "[TARGET_COUNTRY.GetName]이 우리의 영토 확장 지지 제안을 수락했습니다." # 14948011726727833999
+  military_support_proposal_declined_name: "영토 팽창 지지 철회" # 3106074835430339703
+  military_support_proposal_declined_desc: "[TARGET_COUNTRY.GetName]은 우리의 영토 팽창 지원 제안을 거절했습니다." # 15342421686869557941
+  military_support_action_notification_break_name: "영토 확장 지원 불가" # 1108594225626283656
+  military_support_action_notification_break_desc: "[INITIATOR_COUNTRY.GetName]이(가) 우리와의 영토 팽창 지원 관계를 단절했습니다." # 1816933386428846394
+  military_support_proposal_third_party_accepted_name: "영토 팽창 지지 서명됨" # 18172478493965335381
+  military_support_proposal_third_party_accepted_desc: "[INITIATOR_COUNTRY.GetName]와 [TARGET_COUNTRY.GetName]가 영토 확장 지원 협약을 체결했습니다." # 1882807097327226099
+  military_support_proposal_third_party_declined_name: "영토 확장 지지 거부" # 13988398456190652532
+  military_support_proposal_third_party_declined_desc: "[TARGET_COUNTRY.GetName]이(가) [INITIATOR_COUNTRY.GetName]의 영토 확장 지원을 수락하기를 거부했습니다." # 16975030063659992353
+  military_support_action_notification_third_party_break_name: "영토 확장 지원 불가" # 1108594225626283656
+  military_support_action_notification_third_party_break_desc: "[INITIATOR_COUNTRY.GetName]이(가) [TARGET_COUNTRY.GetName]과의 영토 팽창 지원을 철회했습니다." # 8514054276653709413
+  military_support_effect_desc_global: "영토 확장에 대한 지지 확립" # 343470557122301105
+  military_support_effect_desc_first: "[COUNTRY.GetAdjectiveNoFlag]이(가) [TARGET_COUNTRY.GetName]과(와) 영토 팽창 지지를 수립합니다" # 10015285734567254946
+  military_support_effect_desc_third: "[COUNTRY.GetName]은/는 [AddTextIf(ObjectsEqual(GetMetaPlayer.GetPlayedOrObservedCountry.Self, TARGET_COUNTRY.Self),TARGET_COUNTRY.GetNameNoFlag)][AddTextIf(Not(ObjectsEqual(GetMetaPlayer.GetPlayedOrObservedCountry.Self, TARGET_COUNTRY.Self)),TARGET_COUNTRY.GetName)]에 대한 영토 팽창 지지를 확립합니다." # 10664517565190309300
+  military_support_trigger_desc_global: "영토 팽창에 대한 지지를 가집니다" # 3972096126547253466
+  military_support_trigger_false_desc_global: "#b 영토 팽창#에 대한 지지도가 없습니까" # 12102272089807787128
+  military_support_trigger_desc_first: "[COUNTRY.GetAdjectiveNoFlag]은 [TARGET_COUNTRY.GetName]에 대한 영토 팽창 지지를 보유하고 있습니다." # 16512346491016137559
+  military_support_trigger_false_desc_first: "[COUNTRY.GetAdjectiveNoFlag]는 [TARGET_COUNTRY.GetName]에 대한 영토 팽창 지지를 #b 가지고 있지 않습니다#!" # 15804065696256332349
+  military_support_trigger_desc_third: "[COUNTRY.GetName]은 [AddTextIf(ObjectsEqual(GetMetaPlayer.GetPlayedOrObservedCountry.Self, TARGET_COUNTRY.Self),TARGET_COUNTRY.GetNameNoFlag)][AddTextIf(Not(ObjectsEqual(GetMetaPlayer.GetPlayedOrObservedCountry.Self, TARGET_COUNTRY.Self)),TARGET_COUNTRY.GetName)]에 대한 영토 팽창 지지를 보유하고 있습니다." # 2217687778549515453
+  military_support_trigger_false_desc_third: "[COUNTRY.GetName]은 [AddTextIf(ObjectsEqual(GetMetaPlayer.GetPlayedOrObservedCountry.Self, TARGET_COUNTRY.Self),TARGET_COUNTRY.GetNameNoFlag)][AddTextIf(Not(ObjectsEqual(GetMetaPlayer.GetPlayedOrObservedCountry.Self, TARGET_COUNTRY.Self)),TARGET_COUNTRY.GetName)]에 대한 영토 확장 지지를 #b 가지고 있지 않습니다#!" # 14528388527003736570

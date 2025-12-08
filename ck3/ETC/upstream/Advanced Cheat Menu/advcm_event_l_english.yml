@@ -1,0 +1,10 @@
+﻿l_english:
+ advcm_artifact_desc: "[GetPlayer.GetLocalizedText( 'test_saved_text' )]"
+ advcm_artifact_desc_append: "[selected_artifact.GetDesc] [GetPlayer.GetLocalizedText( 'test_saved_text' )]"
+ advcm_events.2.title: "Change Artifact Description"
+ advcm_events.2.desc: "Enter text and select an option."
+ artifact_new_desc: "New Description"
+ artifact_append_desc: "Append To Description"
+ advcm_events.1.title: "Change Character Name"
+ advcm_events.1.desc: "After entering the new name click on the option."
+ advcm_events.1.option: "Click Me!"

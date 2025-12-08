@@ -1,0 +1,442 @@
+﻿l_korean:
+  RICE_aachen_grannus_memory: "[GetTitleByKey('c_aachen').GetNameNoTier]에 그라누스 신에게 신사를 봉헌했습니다." # 13434236925269133612
+  RICE_aachen_grannus_memory_first_perspective: "저는 [GetTitleByKey('c_aachen').GetNameNoTier]에 그라누스에게 신당을 봉헌했습니다." # 13118913615643073033
+  RICE_aachen_grannus_memory_second_perspective: "[GetTitleByKey('c_aachen').GetNameNoTier]에 그라누스 신을 기리는 성소를 봉헌했습니다." # 7876691705889296358
+  RICE_aachen_grannus_memory_third_perspective: "[owner.GetName]께서 [GetTitleByKey('c_aachen').GetNameNoTier]에 그라누스 신을 위한 신당을 봉헌하셨습니다." # 255199376194173658
+  RICE_aachen_reburied_charlemagne_memory: "[GetTitleByKey('b_aachen').GetNameNoTier] 대성당에 카롤루스 대제를 다시 매장했습니다." # 13871147501982087624
+  RICE_aachen_reburied_charlemagne_memory_first_perspective: "나는 샤를마뉴를 [GetTitleByKey('b_aachen').GetNameNoTier] 대성당에 다시 안장했습니다." # 118904666857111064
+  RICE_aachen_reburied_charlemagne_memory_second_perspective: "당신은 샤를마뉴를 [GetTitleByKey('b_aachen').GetNameNoTier] 대성당에 다시 안장했습니다." # 7655428683079427535
+  RICE_aachen_reburied_charlemagne_memory_third_perspective: "[owner.GetName]께서 [GetTitleByKey('b_aachen').GetNameNoTier] 대성당에 샤를마뉴를 다시 안장하셨습니다." # 2796790508395672904
+  RICE_aachen_charlemagne_bust_memory: "[GetTitleByKey('b_aachen').GetNameNoTier] 대성당에 카롤루스 대제의 황금 흉상을 봉헌했습니다." # 16261648708492601440
+  RICE_aachen_charlemagne_bust_memory_first_perspective: "저는 [GetTitleByKey('b_aachen').GetNameNoTier] 대성당에 샤를마뉴의 금으로 만든 흉상을 의뢰했습니다." # 8329765581383836974
+  RICE_aachen_charlemagne_bust_memory_second_perspective: "당신은 [GetTitleByKey('b_aachen').GetNameNoTier] 대성당을 위해 카롤루스 대제(샤를마뉴)의 금빛 흉상을 제작하도록 의뢰했습니다." # 1626847904153686014
+  RICE_aachen_charlemagne_bust_memory_third_perspective: "[owner.GetName]께서 [GetTitleByKey('b_aachen').GetNameNoTier] 대성당을 위해 카롤루스 대제의 황금 흉상을 의뢰하셨습니다." # 8123510947361268703
+  RICE_aachen_pilgrimage_host_memory: "[GetActivityType( 'activity_RICE_aachen_pilgrimage' ).GetName]에 다녀왔습니다." # 12001443222799826251
+  RICE_aachen_pilgrimage_host_memory_first_perspective: "저는 [GetActivityType( 'activity_RICE_aachen_pilgrimage' ).GetName]에 다녀왔습니다." # 13218100973268129575
+  RICE_aachen_pilgrimage_host_memory_second_perspective: "당신은 [GetActivityType( 'activity_RICE_aachen_pilgrimage' ).GetName]에 다녀왔습니다." # 10344420778547939547
+  RICE_aachen_pilgrimage_host_memory_third_perspective: "[owner.GetName]께서 [GetActivityType(  'activity_RICE_aachen_pilgrimage' ).GetName]를 떠나셨습니다." # 2267999376445198156
+  RICE_aachen_pilgrimage_guest_memory: "[host.GetTitledFirstName]과 함께 [GetActivityType( 'activity_RICE_aachen_pilgrimage' ).GetName]에 다녀왔습니다" # 7473280315499157017
+  RICE_aachen_pilgrimage_guest_memory_first_perspective: "저는 [host.GetTitledFirstName]와 함께 [GetActivityType( 'activity_RICE_aachen_pilgrimage' ).GetName]에 다녀왔습니다." # 6918286241650291536
+  RICE_aachen_pilgrimage_guest_memory_second_perspective: "당신은 [host.GetTitledFirstName]와 함께 [GetActivityType( 'activity_RICE_aachen_pilgrimage' ).GetName]에 다녀왔습니다." # 14022833336148140377
+  RICE_aachen_pilgrimage_guest_memory_third_perspective: "[owner.GetName]께서 [host.GetTitledFirstName]와 함께 [GetActivityType(  'activity_RICE_aachen_pilgrimage' ).GetName]에 참여하셨습니다." # 15992043509917400916
+  activity_aachen_pilgrimage_host_an_a: "$host_activity_a$" # 13713790857143020716
+  activity_aachen_pilgrimage: "아헨 성지 순례" # 11980837577661351394
+  activity_aachen_pilgrimage_name: "[ACTIVITY.GetOwner.GetNamePossessiveOrMy|U] 아헨 성지 순례" # 5531138532306424026
+  activity_aachen_hot_springs_visit: "아헨 온천 방문" # 4094891309697884351
+  activity_aachen_hot_springs_visit_name: "[ACTIVITY.GetOwner.GetNamePossessiveOrMy|U] 아헨 온천 방문" # 16396153860332071033
+  activity_RICE_hot_springs_visit_aachen_province_desc: "#P +++ 아헨의 온천은 독특한 [hot_springs|E]입니다.#!\n\n#italic 이 온천은 일반적인 [hot_springs|E]보다 더 많은 [stress_loss_i|E] [stress|E]를 잃게 만듭니다. 만약 $RICE_aachen_dedicate_grannus_shrine$ [decision|E]가 내려졌다면, [GetReligionFamily('rf_pagan').GetName] [rulers|E]는 [piety|E]와 함께 [GetModifier('RICE_aachen_visited_grannus_shrine').GetNameWithTooltip] [character_modifier|E]를 얻을 기회를 얻습니다.#!" # 8502769819994506039
+  activity_RICE_aachen_pilgrimage: "아헨 성지 순례" # 11980837577661351394
+  activity_RICE_aachen_pilgrimage_desc: "[GetTitleByKey('b_aachen').GetNameNoTier] 도시는 카롤루스 대제와의 깊은 연관성과 성유물 및 기타 성스러운 물품들로 유명한 보물고를 보존하고 있는 웅장한 대성당 덕분에 주요 지역 순례지입니다." # 16839762699048079804
+  activity_RICE_aachen_pilgrimage_selection_tooltip: "[pilgrimage_to_aachen|E]를 떠나십시오.\n\n$RICE_aachen_go_on_aachen_pilgrimage_context_tooltip$" # 8283893098714403700
+  activity_RICE_aachen_pilgrimage_host_desc: "$activity_RICE_local_pilgrimage_host_desc$\n$BULLET_WITH_TAB$ 아헨 대성당의 유물에서 영감을 받아 #P 유익한#! [character_modifier|E]를 얻으십시오" # 3561272106832811038
+  activity_RICE_aachen_pilgrimage_guest_desc: "$activity_RICE_aachen_pilgrimage_host_desc$" # 10761984524852269204
+  activity_RICE_aachen_pilgrimage_province_desc: "아헨은 카롤루스 대제의 도시였습니다." # 15355817170354274070
+  activity_RICE_aachen_pilgrimage_destination_selection: "$activity_RICE_aachen_pilgrimage_province_desc$" # 11914775153198876151
+  activity_RICE_aachen_pilgrimage_guest_help_text: "$activity_RICE_aachen_pilgrimage$" # 6973259302675873009
+  activity_RICE_aachen_pilgrimage_predicted_cost: "[local_pilgrimage|E]의 비용은 [GetTitleByKey('b_aachen').GetNameNoTier]로 가는지 여부와 선택하는 [activity_options|E]에 따라 달라집니다." # 6772058947265034677
+  activity_RICE_aachen_pilgrimage_conclusion_desc: "우리의 [GetActivityType( 'activity_RICE_aachen_pilgrimage' ).GetName]이 끝났습니다. 위대한 카롤루스 대제가 살았던 도시를 우리가 걸었다니!" # 4797313668298994708
+  RICE_aachen_pilgrimage_completed_log_title: "아헨 순례 완료" # 13754614866078247249
+  RICE_aachen_pilgrimage_completed_log: "[CHARACTER.GetShortUIName|U]께서 [CHARACTER.GetHerHis] [local_pilgrimage|E]를 [GetTitleByKey('b_aachen').GetNameNoTier]로 마치셨습니다." # 1369515732126716840
+  RICE_aachen_pilgrimage_inspired_log_title: "유물에서 영감을 받아" # 8304171553488902030
+  RICE_aachen_pilgrimage_inspired_log: "[CHARACTER.GetShortUIName|U]께서는 [GetTitleByKey('b_aachen').GetNameNoTier] 대성당에 있는 유물에서 영감을 받으셨습니다." # 6817809263755853330
+  TRAVEL_NAME_FOR_activity_RICE_aachen_pilgrimage: "[Character.GetFirstNamePossessiveNoTooltip] $activity_RICE_aachen_pilgrimage$" # 11714703355402084504
+  activity_RICE_aachen_pilgrimage_owner: "순례자" # 384073485693042227
+  RICE_aachen_pilgrimage_long_distance_req: "카롤루스 대제의 유해가 옮겨졌으며, 귀하의 [capital|E]는 [GetGeographicalRegion('world_europe_west_francia').GetName] 또는 [GetGeographicalRegion('world_europe_west_germania').GetName]에 있습니다." # 15529934579620100339
+  RICE_aachen_pilgrimage_inspiration_req: "귀하는 현재 아헨 대성당의 유물에서 영감을 받았다는 [character_modifier|E]를 보유하고 있지 않습니다." # 941571547242471068
+  game_concept_pilgrimage_to_aachen: "아헨 성지 순례" # 11980837577661351394
+  game_concept_go_on_a_pilgrimage_to_aachen: "아헨으로 성지 순례를 떠나기" # 4028978512150574822
+  game_concept_pilgrimage_to_aachen_desc: "일부 기독교 [faith|E] 신앙을 가진 [character]들은 $game_concept_pilgrimage_to_aachen$을 떠나기로 [decide|E]할 수 있습니다. 처음에는 이 [decision|E]가 [realm_capital|E]가 아헨 근처에 있는 [rulers|E]에게만 가능합니다. 하지만 아헨의 이전 또는 현 소유주가 카롤루스 대제의 유해를 발굴하고 재매장하는 [decision|E]를 내렸다면, 프랑스, 독일, 또는 저지대의 모든 기독교 통치자들에게 $game_concept_pilgrimage_to_aachen$이 해금됩니다. 이 [decision|E]를 내리면 제공되는 [piety|E] 보너스도 증가합니다.\n\n[piety|E]와 같은 일반적인 [pilgrimage|E]와 유사한 보상을 받는 것 외에도, 여정 중에 아헨 대성당 보물고에 있는 다양한 유물과 성물에서 영감을 얻을 수 있습니다. 여기에는 아헨의 이전 또는 현 소유주가 카롤루스 대제의 흉상 제작을 의뢰하는 [decision|E]를 내렸을 때 이용 가능해지는 카롤루스 대제의 흉상이 포함됩니다." # 15712226222449145217
+  RICE_aachen_commissioned_charlemagne_bust: "카롤루스 대제의 흉상 제작 의뢰" # 13825876175440151076
+  RICE_aachen_commissioned_charlemagne_bust_desc: "이 인물은 위대한 군주 샤를마뉴의 매우 아름다운 황금 흉상을 제작하도록 의뢰했습니다. 이 흉상은 현재 아헨 대성당 보물고의 일부입니다." # 6832181833131919243
+  RICE_aachen_reburied_charlemagne: "카롤루스 대제의 재매장을 명하다" # 4681124044017749281
+  RICE_aachen_reburied_charlemagne_desc: "이 인물이 아헨 대성당 내 더욱 적합한 장소로 샤를마뉴의 유해를 옮기도록 명령했습니다." # 16948884041608904294
+  RICE_aachen_meuse_bridge_recently_collapsed: "뫼즈 다리가 붕괴되었습니다" # 9888752867701270740
+  RICE_aachen_meuse_bridge_recently_collapsed_desc: "오랜 세월 동안 사용되어 온 뫼즈 강을 가로지르는 낡은 로마식 다리가 얼마 전 무너졌습니다. 이는 해당 지역에 부정적인 영향을 미치고 있으니, 신속하게 다리를 재건해야 합니다." # 15336835945756380951
+  RICE_aachen_new_meuse_bridge_christian: "최근 건설된 성 세르바티우스 다리" # 3025863489927058903
+  RICE_aachen_new_meuse_bridge_christian_desc: "마스트리흐트 인근의 독실한 기독교도들이 지역 성직자들의 독촉에 따라, 얼마 전 무너진 뫼즈강의 낡은 다리를 대신할 새 다리를 최근 건설했습니다. 이 다리는 마스트리흐트의 수호성인인 성 세르바티우스의 이름을 따 '성 세르바티우스 다리'라 불리며, 이 지역에서 몇 안 되는 석조 다리 중 하나입니다." # 8700315285556398586
+  RICE_aachen_new_meuse_bridge_non_christian: "뫼즈강에 새로운 다리를 최근 건설했습니다." # 7469622388082898536
+  RICE_aachen_new_meuse_bridge_non_christian_desc: "지역 지도자들의 엄청난 노력 덕분에, 마스트리흐트 근처 뫼즈강에 최근 새 다리가 건설되어 오래전에 무너진 낡은 다리를 대체하게 되었습니다. 이 다리의 흥미로운 점은 이 지역에서 몇 안 되는 석조 다리 중 하나라는 것입니다." # 9151110478668428119
+  RICE_aachen_grannus_shrine: "그라누스 성소" # 9798268511421142948
+  RICE_aachen_grannus_shrine_desc: "아헨의 온천 옆에는 옛 신 그라누스에게 바쳐진 신사가 서 있습니다." # 7381798168240273946
+  RICE_aachen_inspired_lothair_cross: "아헨 대성당의 로타르 십자가에서 영감을 받아" # 2946729583834369154
+  RICE_aachen_inspired_sabre_of_charlemagne: "아헨 대성당의 샤를마뉴의 검에서 영감을 받아" # 7864882886795927658
+  RICE_aachen_inspired_st_stephens_purse: "아헨 대성당의 성 슈테판 성물 주머니에서 영감을 받아" # 9700925119536827359
+  RICE_aachen_inspired_ivory_situla: "아헨 대성당의 상아 시툴라에서 영감을 받았습니다." # 1830942613014890078
+  RICE_aachen_inspired_aachen_gospel: "아헨 대성당의 아헨 복음서를 본떠서" # 2536358408103480463
+  RICE_aachen_inspired_olifant_hunting_knife: "아헨 대성당의 올리판트와 사냥용 칼에서 영감을 받아" # 2924808013320956701
+  RICE_aachen_inspired_coronation_gospel: "아헨 대성당의 대관식 복음서에서 영감을 받았습니다." # 501303724568556322
+  RICE_aachen_inspired_bust_of_charlemagne: "아헨 대성당의 카롤루스 대제 흉상에서 영감을 받아" # 10407681495214267678
+  RICE_aachen_visited_thermal_spa: "아헨 근처 온천 방문" # 6587841107670218149
+  RICE_aachen_visited_grannus_shrine: "그라누스의 축복을" # 6988558699326686823
+  RICE_aachen_visited_grannus_shrine_desc: "아헨의 성인들과 성녀들에 따르면, 그가 아헨 온천의 그라누스 성지를 방문한 후 그라누스께서 이 인물에게 축복을 내리셨다고 합니다." # 11199995150678715056
+  RICE_aachen_maastricht_mosan_art: "마스트리흐트의 모산 예술가들" # 18113084307501113842
+  RICE_aachen_maastricht_mosan_art_desc: "마스트리흐트는 뫼즈 강 유역의 지역 예술 양식인 모잠 미술의 중심지로 여겨집니다. 이 지역 장인들은 석조각, 금속 세공, 채색 필사본 제작 등 다양한 분야에서 서유럽 대부분에 걸쳐 명성이 높습니다." # 1665508598718479385
+  RICE_aachen_inspired_by_charlemagne_conquests: "카롤루스 대제의 숙적 정복에 영감을 받아" # 11561366835087233047
+  RICE_aachen_inspired_by_charlemagne_faith: "샤를마뉴의 신앙심과 헌신에서 영감을 받음" # 2329030951102946326
+  RICE_aachen_inspired_by_charlemagne_learning: "샤를마뉴 궁정에서의 배움에 영감을 받아" # 12114902177662066661
+  RICE_aachen_arrested_charlemagne_preacher: "체포된 선동 사제" # 2735726144207790203
+  RICE_aachen_sympathized_with_me: "나를 동정하다" # 4254766321488863166
+  RICE_aachen_didnt_sympathized_with_me: "나에게 공감하지 않았습니다" # 12617717786416278624
+  RICE_aachen_more_christian_pilgrims: "아헨에 더 많은 기독교 순례자들" # 14380082449755880571
+  RICE_aachen_new_brassworkers: "다른 곳에서 온 놋쇠 세공인들이 최근에 정착했습니다" # 10014390050401493764
+  RICE_aachen_commission_bust_of_charlemagne: "카롤루스 대제의 흉상 제작을 의뢰합니다" # 11053814215555895137
+  RICE_aachen_commission_bust_of_charlemagne_tooltip: "아헨 대성당에 봉헌할 카롤루스 대제의 아름다운 황금 흉상을 제작하기 위해 장인을 고용할 것입니다." # 11693706290151753694
+  RICE_aachen_commission_bust_of_charlemagne_desc: "카롤루스 대제의 유산은 서로마 제국 멸망 이후 가장 위대한 군주로서 비할 데가 없습니다. 아헨 대성당 보물고에 기여하여 그의 유산을 기려야겠습니다." # 11892722551970395242
+  RICE_aachen_commission_bust_of_charlemagne_effect_tooltip: "아헨 대성당에 안치할 카롤루스 대제의 황금 흉상을 제작하기 위해 장인들을 고용했습니다." # 2690957391026273627
+  RICE_aachen_commission_bust_of_charlemagne_confirm: "가치 있는 장인들을 찾아봅시다!" # 2776021861525335290
+  RICE_aachen_commission_bust_of_charlemagne_context_tooltip: "#emphasis 역사적 배경:#! 카롤루스 대제의 흉상은 아헨 대성당 보물실에 보관된 가장 유명한 유물함 중 하나입니다. 전통적으로 이는 카롤루스 대제의 숭배자였던 신성 로마 제국 황제 카를 4세가 서기 1349년에 기증한 것으로 여겨집니다. 흉상에 장식된 관은 여러 황제를 대관시키는 데 사용되었으며, 꼭대기에는 카롤루스 대제의 두개골 일부가 들어 있습니다." # 16524197697657127981
+  RICE_aachen_charlemagne_remains_transfered_req: "귀하 또는 아헨의 이전 통치자가 아헨 대성당의 더 적합한 장소에 #V 샤를마뉴의 유해를 발굴하여 다시 매장하는# 결정을 내렸습니다." # 7381821656040953274
+  RICE_aachen_charlemagne_bust_inspired_desc: "[pilgrimage_to_aachen|E] 성지 순례를 떠날 때, 아헨 대성당 보물고에 있는 카롤루스 대제의 흉상이 순례자들에게 영감을 줄 수 있는 추가 유물로 등장합니다." # 17272975924276183905
+  RICE_aachen_rebury_charlemagne: "카롤루스 대제의 유해를 발굴하여 재매장하기" # 11918023683300289018
+  RICE_aachen_rebury_charlemagne_tooltip: "샤를마뉴의 유해를 호화로운 의식을 통해 아헨 대성당의 더욱 위엄 있는 장소로 옮길 것입니다." # 12616603018698444368
+  RICE_aachen_rebury_charlemagne_desc: "카롤루스 대제가 현재 팔라티누스 예배당에 안치되어 있지만, 저는 그분이 더욱 장엄한 안식처를 누릴 자격이 있다고 생각합니다. 아헨 대성당의 본당으로 그분의 시신을 옮기기 전에, 장인들에게 명하여 그분을 위한 아름다운 새 석관을 제작하도록 하겠습니다." # 2630170504099811305
+  RICE_aachen_rebury_charlemagne_effect_tooltip: "아헨 대성당에 샤를마뉴를 더 적합한 장소로 발굴하여 재안치합니다." # 16050702997876288347
+  RICE_aachen_rebury_charlemagne_confirm: "샤를마뉴께 영광을 돌려야 한다!" # 13569372257857897819
+  RICE_aachen_rebury_charlemagne_context_tooltip: "#emphasis 역사적 배경:#! 카롤루스 대제의 사후 그의 시신은 여러 차례 발굴되고 다시 묻히기를 반복했습니다. 가장 주목할 만한 사건은 1165년 프리드리히 바르바로사가 카롤루스 대제의 유해를 팔라티누스 예배당에서 아헨 대성당에 더 잘 보이도록 옮긴 것입니다. 당시 대립교황 파스칼 3세는 카롤루스 대제의 시성(諡聖)에 동의했지만, 이는 바티칸에서 결코 인정받지 못했습니다." # 2043276349094039136
+  RICE_aachen_expanded_pilgrimage_desc: "이제 [pilgrimage_to_aachen|E]는 프랑스, 독일, 저지대 국가의 모든 기독교 통치자가 아헨 근처에 영토를 소유하고 있지 않아도 수행할 수 있습니다. 또한, 더 많은 [piety|E] 보너스를 제공할 것입니다." # 7097022076496417342
+  RICE_aachen_relax_at_the_thermal_spa_of_aachen: "아헨의 온천에서 휴식을 취하세요" # 15664680285369304347
+  RICE_aachen_relax_at_the_thermal_spa_of_aachen_tooltip: "당신은 아헨 근처의 온천 중 한 곳을 방문할 것입니다." # 16694452563151857963
+  RICE_aachen_relax_at_the_thermal_spa_of_aachen_desc: "저는 휴식이 필요합니다. 아헨에는 근심을 잊고 즐길 수 있는 훌륭한 온천이 많습니다." # 7303022952280915501
+  RICE_aachen_relax_at_the_thermal_spa_of_aachen_effect_tooltip: "아헨의 온천을 방문하여 스트레스를 해소합니다." # 13235877715297688728
+  RICE_aachen_relax_at_the_thermal_spa_of_aachen_confirm: "시작해보지!" # 8394906585041010414
+  RICE_aachen_relax_at_the_thermal_spa_of_aachen_context_tooltip: "#emphasis 역사적 배경:#! 유럽에서 가장 따뜻한 지역 중 하나인 아헨 주변의 온천은 수천 년 동안 유명했습니다. 로마인들은 이 지역에 아쿠아에 그라니(Aquae Granni)라는 휴양 도시를 세웠는데, 이는 이 지역에서 널리 숭배되었던 온천의 켈트 신 그라누스(Grannus)와 관련이 있을 수 있습니다. 심지어 카롤루스 대제가 이 온천에서 휴식을 취하는 것을 즐겼으며, 바로 이 이유 때문에 아헨을 그의 수도로 선택했다고 전해집니다." # 6014344954107458949
+  RICE_aachen_build_new_meuse_bridge: "뫼즈강에 새 다리 건설하기" # 12289196545201487220
+  RICE_aachen_build_new_meuse_bridge_tooltip: "뫼즈강을 따라 새로운 다리 건설을 후원하겠습니다." # 3298244557571657380
+  RICE_aachen_build_new_meuse_bridge_desc: "마스트리흐트의 오래된 로마 다리가 얼마 전 불행히도 무너졌습니다. 이는 해당 지역의 여행과 상업에 부정적인 영향을 미치고 있으며, 이 지역의 [ROOT.Char.Custom('DefaultPriestTitlePlural')]들은 가능한 한 빨리 뫼즈 강을 따라 새로운 다리를 건설하는 데 모두가 기여할 것을 촉구하고 있습니다." # 6785845702736216234
+  RICE_aachen_build_new_meuse_bridge_confirm: "다리를 건설할 시간입니다!" # 1752561208147519266
+  RICE_aachen_build_new_meuse_bridge_context_tooltip: "#emphasis 역사적 배경:#! 수세기 동안 뫼즈강을 가로지르는 주요 통로였던 마스트리흐트의 오래된 로마 다리가 1275년, 그 위를 지나던 대규모 행렬의 무게를 이기지 못하고 붕괴되었습니다. 몇 년 후, 그 뒤를 이어 세인트 세르바티우스 다리가 하류에 건설되었습니다. 이 다리는 네덜란드에서 알려진 최초의 석조 다리입니다." # 8458623271381647142
+  RICE_aachen_meuse_bridge_collapsed_req: "마스트리흐트의 뫼즈강에 있던 옛 로마 다리가 무너졌습니다." # 4580787164971524121
+  RICE_aachen_dedicate_grannus_shrine: "그라누스에게 신당을 봉헌하십시오" # 616874252761047181
+  RICE_aachen_dedicate_grannus_shrine_tooltip: "아헨의 온천 중 한 곳에 그라누스 신을 위한 성소를 짓도록 명령했습니다." # 4303138728326885029
+  RICE_aachen_dedicate_grannus_shrine_desc: "이제 아헨이 아브라함 계통의 종교 통제하에 있지 않으니, 고대에 아헨이 그란누스 숭배의 중심지였던 만큼 그를 위한 성소를 짓고 싶습니다." # 4039387327917548023
+  RICE_aachen_dedicate_grannus_shrine_confirm: "이 축복받은 물의 신 그라누스께 찬미를!" # 170365295328824592
+  RICE_aachen_dedicate_grannus_shrine_context_tooltip: "#emphasis 역사적 배경:#! 그라누스는 고대에 유럽 일부 지역에서 숭배되던 켈트 신이었습니다. 그는 온천 및 태양과 연관되어 있었기 때문에, 유명한 온천이 많았던 아헨은 그라누스 숭배의 주요 중심지였습니다. 실제로 아헨의 로마식 명칭은 아쿠아에 그란니(Aquae Granni)였습니다(아헨 자체는 고대 고지 독일어로 '물'을 의미합니다)." # 8987378665788605485
+  RICE_aachen_go_on_aachen_pilgrimage: "아헨으로 성지 순례를 떠나십시오" # 18363202566239162914
+  RICE_aachen_go_on_aachen_pilgrimage_tooltip: "당신은 [go_on_a_pilgrimage_to_aachen|E]를 떠납니다." # 2096762382402246464
+  RICE_aachen_go_on_aachen_pilgrimage_effect_tooltip: "당신은 [go_on_a_pilgrimage_to_aachen|E]를 떠나 그곳에서 아헨 대성당 보물관에 있는 유물 중 하나에서 영감을 얻을 수 있을 것입니다." # 16845694620276746038
+  RICE_aachen_go_on_aachen_pilgrimage_desc: "저는 성유물과 기타 신성한 물품들로 유명한 보물고를 간직하고 있는 위대한 도시 아헨, 특히 아헨 대성당으로 순례를 떠나고 싶습니다." # 15845145062275461986
+  RICE_aachen_go_on_aachen_pilgrimage_confirm: "이 여정을 위해 준비를 합시다!" # 1999806788903643706
+  RICE_aachen_go_on_aachen_pilgrimage_context_tooltip: "#emphasis 역사적 배경:#! 아헨은 카롤루스 대제가 수도로 삼은 이래로 라인란트의 주요 종교적, 정치적 중심지였습니다. 그 결과, 수세기 동안 수많은 순례자들을 끌어모았습니다." # 3894810754602519766
+  RICE_aachen_close_req: "귀하의 [capital|E]는 [GetTitleByKey('c_aachen').GetNameNoTier]와 가깝습니다." # 3709692708056341820
+  RICE_aachen_in_aachen_req: "귀하의 [camp|E]는 [GetTitleByKey('b_aachen').GetNameNoTier]에 있습니다." # 12258570059505462113
+  aachen.0000.t: "xxxxx" # 1951045980481827005
+  aachen.0000.desc: "xxxxx" # 1951045980481827005
+  aachen.0000.a: "xxxxx" # 1951045980481827005
+  aachen.0001.t: "카롤루스 대제의 흉상" # 1108335029282444196
+  aachen.0001.desc: "카롤루스 대제는 유럽 역사에 그 이름이 울려 퍼지는 인물입니다. 서로마 황제가 몰락한 이후, 그의 업적과 위광에 필적할 만한 통치자는 거의 없었거나 아예 없었습니다. 그와 같은 위대한 군주에게는 걸맞게 장엄한 예술 작품이 필요합니다.\n\n저는 아헨 대성당 보물관의 중심이 될, 전례 없는 카롤루스 대제의 아름다운 흉상을 제작하도록 의뢰했습니다. 뫼즈 계곡의 금세공인들이 제작한 이 흉상은 완전히 수염을 기른 카롤루스 대제를 그의 모든 영광 속에서 성공적으로 묘사해냈습니다.\n\n이 흉상에 대한 소문이 널리 퍼져, 성당에 보관된 모든 성스러운 보물과 세속적인 보물들을 보고자 하는 순례자들을 아헨으로 더욱 많이 끌어들일 것이 분명합니다." # 14072769331597014420
+  aachen.0001.a: "샤를마뉴 대제를 직접 만날 수만 있었다면!" # 4229178519415237558
+  aachen.0002.t: "카롤루스 대제의 흉상" # 1108335029282444196
+  aachen.0002.desc: "[aachen_charlemagne_buster.GetTitledFirstName]께서 위대하고 강력한 카롤루스 대제의 아름다운 황금 흉상을 제작했다는 소식이 들려왔습니다. 그것을 본 이들은 그 흉상이 비할 데 없이 영향력 있는 통치자에게 완벽하게 어울리는 놀라운 예술 작품이라고 말합니다. 분명 기독교 세계 내 많은 이들이 그가 그러한 영예를 누릴 자격이 있다고 믿고 있습니다.\n\n그 흉상에 대한 소문은 아헨 대성당의 보물고에 안치된 이후 널리 퍼졌습니다. 이는 분명 대성당에 보관된 모든 성스럽고 세속적인 보물들을 보고자 하는 순례자들을 아헨으로 더욱 많이 끌어들일 것입니다." # 2947144523453313128
+  aachen.0002.a: "흥미롭군. 만드는 데 돈이 꽤 들었겠어." # 8559638000227530066
+  aachen.0003.t: "카롤루스 대제의 재매장" # 4007663418385437603
+  aachen.0003.desc: "카롤루스 대제가 서거하신 이래로 그는 아헨 대성당의 팔라틴 예배당에 안치되어 있었습니다. 그와 같은 위대한 인물이 그저 평범한 예배당에 안치되는 것은 마땅치 않습니다. 그리하여 그를 대성당의 본당으로 다시 안장하도록 명했습니다. 성대한 의식을 통해 그는 그곳에 장엄한 석관에 다시 안장되었습니다.\n\n수년 동안 이 지역의 주민들은 그를 성인으로 여겨왔으나, 교회는 그를 공식적으로 시성하지 않았으며 그럴 의사도 없음을 밝혔습니다. 이제 그에게 진정으로 화려한 안식처가 생겼으니, 그가 진정한 성인인지 아닌지와 상관없이 더 많은 순례자들이 그에게 경의를 표하기 위해 아헨으로 모여들 것입니다." # 18098223084994834476
+  aachen.0003.a: "샤를마뉴는 영원히 기억될 것입니다!" # 3863794286291931506
+  aachen.0004.t: "카롤루스 대제의 재매장" # 4007663418385437603
+  aachen.0004.desc: "카롤루스 대제가 서거한 이래 그의 유해는 아헨 대성당의 팔라티나 예배당에 안치되어 있었습니다. 일부는 이 안치 방식이 그처럼 유명하고 위대한 인물에게는 너무나 소박하다고 여겼습니다. 이에 [aachen_charlemagne_mover.GetTitledFirstName]께서는 카롤루스 대제를 아헨 대성당의 본당으로 재매장하도록 명하셨습니다. 성대한 의식 속에서, 그는 그곳의 장엄한 석관에 다시 안치되었습니다.\n\n수년 동안 지역 주민들은 카롤루스 대제를 성인으로 여겨왔으나, 교회는 그를 공식적으로 시성하지 않았으며 시성할 의향이 없음을 내비쳤습니다. 그럼에도 불구하고, 이제 그가 진정으로 훌륭한 안식처를 얻게 되었으니, 그가 진정한 성인인지 아닌지와 상관없이 더 많은 순례자들이 그에게 경의를 표하기 위해 아헨으로 모여들 것입니다." # 6711846773120495037
+  aachen.0004.a: "카롤루스 대제의 유산은 여전히 많은 이들에게 깊은 울림을 주고 있습니다." # 13946825315195908959
+  aachen.0005.t: "마스트리흐트의 다리 붕괴" # 14961136708577590311
+  aachen.0005.desc: "로마인들은 수 세기 전 마스트리흐트에 거주했으며, 그들이 뫼즈강을 가로질러 건설한 다리는 그 이후로도 꾸준히 사용되어 왔습니다. 불행하게도 모든 것은 끝이 있기 마련입니다. 최근, 거대한 행렬이 다리를 건너고 있었는데, 그 엄청난 인파의 무게를 견디지 못하고 다리가 무너져 수백 명이 사망했습니다.\n\n초기 비극을 넘어, 더 큰 문제들이 눈앞에 놓여 있습니다. 그 다리는 오랫동안 뫼즈강을 가로지르는 중요한 지점이었기에, 갑작스러운 소실은 지역 경제에 치명적일 것입니다. 다수의 지역 [ROOT.Char.Custom('DefaultPriestTitlePlural')]들이 저와 같은 지역의 강력한 유력자들에게 새로운 다리 건설을 후원해 달라고 호소하고 있습니다." # 17385249000187123276
+  aachen.0005.a: "이것에 대해 생각해 봐야겠습니다." # 5169885090767322012
+  aachen.0006.t: "마스트리흐트의 다리 붕괴" # 14961136708577590311
+  aachen.0006.desc: "마스트리흐트의 오래된 로마 다리가 최근 많은 인파가 건너려다 무너졌다는 소식을 들었습니다. 이 다리는 이 지역의 주요 강인 뫼즈강을 건너는 중요한 지점이었기에, 갑작스러운 상실은 당분간 이 지역에 부정적인 영향을 미칠 것입니다. 이미 마스트리흐트의 통치자인 [meuse_bridge_collapser.GetTitledFirstName]을 비롯한 여러 유력 인사들 사이에서 대체 다리 건설 가능성과 그 위치에 대한 논의가 진행 중입니다." # 11250055875019279412
+  aachen.0006.a: "비극적인 비극이로다." # 1111490327474524216
+  aachen.0007.t: "마스트리흐트의 새 다리" # 1475797535251639236
+  aachen.0007.desc: "마스트리흐트의 오래된 로마 다리가 무너졌을 때, 우리 모두는 충격과 비탄에 빠졌습니다. 수백 명의 목숨을 잃은 것은 비극이었을 뿐만 아니라, 그 지역 경제에도 부정적인 영향을 미쳤습니다. 다행히도, 우리는 그 시절을 뒤로하고 앞으로 나아갈 수 있게 되었습니다. 지역의 [ROOT.Char.Custom('DefaultPriestTitlePlural')]의 간곡한 요청에 따라, 저와 몇몇 중요한 지역 인사들이 힘을 합쳐 예전 다리 아래쪽에 있는 강에 거대한 석조 다리를 건설하는 데 자금을 지원했습니다. 이 다리는 이 지역 최초의 석조 다리 중 하나로 공학의 경이로움이며, 앞으로 오랫동안 마스트리흐트에 큰 도움이 될 것입니다. 사실, 일부 사람들은 이 새롭고 개선된 다리 덕분에 지역의 교역이 더욱 활발해질 것이라고 믿고 있습니다!" # 3294011586955527188
+  aachen.0007.a: "이 일을 함께 하게 되어 기쁘군요." # 3697138422398550720
+  aachen.0008.t: "마스트리흐트의 새 다리" # 1475797535251639236
+  aachen.0008.desc: "얼마 지나지 않아 마스트리흐트의 낡은 로마 다리가 무너져 상당한 인명 피해가 발생했습니다. 이는 또한 해당 지역 경제에도 부정적인 영향을 미쳤습니다. 하지만 마스트리흐트의 통치자인 [meuse_bridge_builder.GetTitledFirstName] 님과 지역의 여러 중요 인물들의 노력 덕분에, 하류 쪽으로 조금 떨어진 곳에 새로운 다리가 건설되었습니다. 이 다리는 이 지역에서 몇 안 되는 석조 다리 중 하나이며, 분명 그곳의 상업 성장을 촉진하는 데 도움이 될 것입니다." # 8991834949441194497
+  aachen.0008.a: "그 소식을 들으니 좋군요." # 11059134931468636608
+  aachen.0009.t: "그라누스의 성소" # 9816263465405411263
+  aachen.0009.desc: "아헨 근처의 온천 옆에는 그라누스 신전이 서 있습니다. 이제 나처럼 옛 신들을 숭배하는 자들이 이 지역에서 다시 활발해졌으니 말입니다. 고대에는 그가 이곳에서 널리 숭배받던 온천의 신이었습니다. 저는 아헨의 온천에서 몸을 풀고 난 뒤 이 신전을 찾아 그라누스께 감사를 표하곤 합니다." # 12170163935203808728
+  aachen.0009.a: "오, 그라누스여! 당신의 축복을 내려주소서!" # 2510034871882440490
+  aachen.0009.toast: "그라누스가 그의 축복을 내리십니다!" # 17036630985225247833
+  aachen.0010.t: "xxxxx" # 1951045980481827005
+  aachen.0010.desc: "xxxxx" # 1951045980481827005
+  aachen.0010.a: "xxxxx" # 1951045980481827005
+  aachen.0011.t: "아헨의 온천" # 15309167293905274082
+  aachen.0011.desc: "오늘, 나는 유럽에서 가장 따뜻하다고 알려진 아헨의 온천을 방문하여 휴식을 취하기로 결정했다. 근심 걱정을 잊고 스트레스를 풀기에 더없이 좋은 방법이다." # 5771917952367830517
+  aachen.0011.a: "이제 잠시 쉬어야겠군." # 1185799477734507807
+  aachen.0012.t: "xxxxx" # 1951045980481827005
+  aachen.0012.desc: "xxxxx" # 1951045980481827005
+  aachen.0012.a: "xxxxx" # 1951045980481827005
+  aachen.0013.t: "그라누스 성소" # 9798268511421142948
+  aachen.0013.desc: "수세기 전, 로마인이나 켈트족 같은 고대 민족들이 아헨 주변 땅에 거주했을 때, 이 도시는 그라누스(Grannus)라 알려진 신을 숭배하는 중심지였습니다. 이 그라누스는 특히 아헨 근처에서 발견되는 온천의 수호신이었습니다.\n\n이제 저를 포함하여 이 지역에 이교도 공동체가 성장하고 있으니, 그에게 신성소를 봉헌함으로써 그라누스를 다시 기릴 좋은 시기라고 판단했습니다. 이 소박하지만 위엄 있는 신성소는 유명한 온천 근처 숲에 자리하여, 이 지역을 방문하는 누구에게나 영적인 위안의 원천이 될 것입니다. 누군가 그를 숭배할 가치가 있다고 여긴 지 너무나 오랜 세월이 흘렀음을 감안할 때, 그라누스께서 이 제스처를 좋게 받아주시기를 바랍니다." # 1226220897294235423
+  aachen.0013.a: "이제 그의 이름이 다시 한번 기려질 것입니다!" # 15205714773261984057
+  aachen.0014.t: "xxxxx" # 1951045980481827005
+  aachen.0014.desc: "xxxxx" # 1951045980481827005
+  aachen.0014.a: "xxxxx" # 1951045980481827005
+  aachen.0015.t: "xxxxx" # 1951045980481827005
+  aachen.0015.desc: "xxxxx" # 1951045980481827005
+  aachen.0015.a: "xxxxx" # 1951045980481827005
+  aachen.0016.t: "xxxxx" # 1951045980481827005
+  aachen.0016.desc: "xxxxx" # 1951045980481827005
+  aachen.0016.a: "xxxxx" # 1951045980481827005
+  aachen.0017.t: "xxxxx" # 1951045980481827005
+  aachen.0017.desc: "xxxxx" # 1951045980481827005
+  aachen.0017.a: "xxxxx" # 1951045980481827005
+  aachen.0018.t: "xxxxx" # 1951045980481827005
+  aachen.0018.desc: "xxxxx" # 1951045980481827005
+  aachen.0018.a: "xxxxx" # 1951045980481827005
+  aachen.0019.t: "xxxxx" # 1951045980481827005
+  aachen.0019.desc: "xxxxx" # 1951045980481827005
+  aachen.0019.a: "xxxxx" # 1951045980481827005
+  aachen.0020.t: "준비" # 666839747819429162
+  aachen.0020.desc: "저와 같은 기독교인들에게 가장 유명한 성지 중 하나는 카롤루스 대제의 수도였던 아헨입니다. 어쨌든 저는 이 아헨 순례를 떠나기로 결정했습니다. 특히, 저는 아헨 대성당을 방문하여 그곳에 소장된 수많은 유명하고 영감을 주는 종교적 및 세속적 유물들을 살펴볼 수 있는 비할 데 없이 광대한 보물고를 보고 싶습니다." # 18004245594740855153
+  aachen.0020.a: "여행을 준비해야겠군." # 5554754627828683533
+  aachen.0021.t: "아헨으로!" # 674301988630292872
+  aachen.0021.desc: "때가 왔습니다! 모든 준비를 마쳤으니, 이제 아헨으로 성지 순례를 떠나겠습니다. 카롤루스 대제의 수도가 저를 기다리고 있군요!" # 784430632419710302
+  aachen.0021.a: "그곳에서 무엇을 보게 될지 궁금하군." # 14086511603877405905
+  aachen.0022.t: "카를 대제의 수도" # 3928072540716733096
+  aachen.0022.desc: "나는 프랑크 통치자 카롤루스 대제의 위대한 도시 아헨의 중심부에 도착했습니다. 나처럼 순례자들이 아헨 대성당과 도시의 다른 명소들을 방문하기 위해 북적이고 있습니다. 나와 내 수행원들은 우리를 위한 적절한 숙소를 찾기로 결정했습니다. 나중에 우리는 아헨 대성당을 방문하여 그곳에 보관된 영적인 경이로움을 보기를 희망합니다." # 4079399607904483004
+  aachen.0022.a: "여기 오게 되어 기쁩니다." # 9607467594818321819
+  aachen.0023.t: "성당 내부에서" # 10139101654454259790
+  aachen.0023.desc: "지난 며칠 동안 아헨에 머무는 동안, 저는 다른 성지 몇 군데를 방문했고 마을의 저명인사들과 만났습니다. 오늘, 다른 모든 용무를 마친 저는 마침내 아헨 대성당 내부에 들어설 수 있게 되었습니다. 이곳은 메츠의 오도라는 이름의 재능 있는 건축가가 설계한 놀랍고도 화려한 건물입니다. 저는 대성당의 본당에 앉아 신앙에 대해 묵상하고 기도에 전념합니다." # 11968500597523272811
+  aachen.0023.desc.charlemagne_reburied: "대성당의 본당에 있는 동안, 저는 위대한 샤를마뉴(Charlemagne) 폐하께 경의를 표하기로 결심했습니다. 얼마 전 그의 유해가 발굴되어 이곳에 모셔졌고, 웅장한 석관에 안치된 뒤 소위 카를슈라인, 즉 샤를마뉴의 성소에 모셔졌습니다. 이제 제가 이토록 영향력 있고 존경받는 인물과 가까이 있다는 사실을 생각하니 경이롭기 그지없습니다!" # 3528295184263237932
+  aachen.0023.a: "경이로운 곳이로군." # 15928802726134383299
+  aachen.0024.t: "아헨 대성당 보물고" # 17873602649943042790
+  aachen.0024.desc.start: "대성당의 본당에서 시간을 보낸 후, 저는 종교적이거나 세속적인 유물과 물건들로 가득 찬 성당의 독특한 보물실을 보러 갑니다. 그중 한 유물이 제 눈길을 사로잡았는데, 진정으로 경이로운 예술 작품이며 영적으로 고무되는 것이었습니다." # 8076382213355246448
+  aachen.0024.desc.lothair: "#V 로타르의 십자가#! 는 아헨에서 성스러운 행렬에 자주 사용됩니다. 이 십자가는 그 이름이 카롤루스 대제의 증손자인 로타르 2세 왕의 이름이 새겨진 녹색 수정 인장 때문에 그렇게 불립니다. 금과 은으로 감싸인 참나무 심지는 많은 보석으로 장식되어 있습니다. 십자가의 팔이 만나는 곳에는 로마 시대의 것으로 거슬러 올라가는 아우구스투스 카이사르의 오닉스 조각이 있습니다. 그 아래에는\"오 그리스도여, 로타르 왕을 도우소서\"라는 문구가 새겨진 인장이 있습니다." # 4066444235961990267
+  aachen.0024.desc.sabre: "샤를마뉴와 가장 유명하게 연관된 검은 조이외즈이지만, 제 앞에 놓인 #V 샤를마뉴의 사브르#! 역시 그 위용이 대단합니다! 폰토스 스텝 지역 유목 전사들이 사용했던 검을 연상시키는 양식으로 제작되었으며, 샤를마뉴의 무덤이 한때 열렸을 때 발견되었다고 전해집니다. 이 검이 과연 어떤 전투에서 사용되었을까요?" # 5735743677377838516
+  aachen.0024.desc.purse: "내 눈앞에는 수많은 보석으로 장식된 직사각형의 금빛 성물함인 #V 성 스테파노의 성낭#!이 있소. 이 성낭에는 고대에 성지에서 순교당했을 때 성 스테파노의 피로 흠뻑 젖었다고 전해지는 흙이 들어 있소. 그의 순교는 훗날 사도 바울이 되는 타르수스의 사울이 목격했었지." # 15849228615585380124
+  aachen.0024.desc.situla: "\n\n내 눈앞에 바로 그 소위 #V 상아 시툴라#가 있군요. 기독교 세계에는 성수를 담는 이러한 종류의 성배가 많지만, 수많은 위대한 남녀들이 거쳐 갔던 이곳 대성당에 있다는 사실만으로도 여전히 경이롭습니다. 솜씨가 뛰어나며 성수를 담기에 걸맞은 그릇입니다." # 11492277221839878297
+  aachen.0024.desc.a_gospel: "#V 아헨 복음서#!라고 일부는 아는 그것이 나를 부르는 듯하다. 나는 손가락으로 그 채색 필사본과 그 안의 글과 그림들을 소중히 어루만진다. 예를 들어, 필사본의 한 페이지에는 네 명의 복음사가, 즉 마태오, 마르코, 루카, 요한이 언덕진 풍경 위에 앉아 있는 모습이 아름답게 묘사되어 있다. 필사본의 마지막 몇 페이지에는 주일 예배와 주요 축일에 읽는 복음 구절 목록인 복음서 장별 목록(Capitulare Evangeliorum)이 담겨 있다." # 15674095711128631150
+  aachen.0024.desc.olifant: "내 눈앞에 두 가지 물건이 있소: #V 카롤루스 대제의 올리펀트(또는 사냥 뿔)와 사냥 칼#!. 나는 코끼리 상아로 만든 올리펀트, 즉 사냥 뿔을 몇 군데서 본 적이 있지만, 이것과 같은 것은 본 적이 없소. 그것을 장식하는 기하학적 무늬가 인상적이오. 한편, 사냥 칼은 디자인은 소박하지만, 그것이 겪었을 모든 역사를 생각하면 여전히 왕가의 위엄이 느껴지는구려. 카롤루스 대제가 롤랑과 올리버 같은 팔라딘들과 함께 이 올리펀트와 사냥 칼을 가지고 어떤 모험을 했을까?" # 9403580265556795725
+  aachen.0024.desc.c_gospel: "내 시선이 #V 대관식 복음서#에 머뭅니다. 이는 카롤루스 대제가 서기 800년 크리스마스에 대관식에서 사용했던, 카롤루스 대제의 궁정에서 제작된 채색 필사본입니다. 그가 맹세를 할 때 오른손 세 손가락을 성 요한 복음서의 첫 페이지에 올려놓았다고 전해집니다. 제가 그 복음서의 같은 페이지에 손을 대자, 저는 그 대관식을 목격하는 것이 어떠했을지 상상해 봅니다. 그것은 세계 역사에서 분수령이 된 순간이었죠." # 6471135801271280616
+  aachen.0024.desc.bust: "나는 위풍당당하게 나를 응시하는 #V 카롤루스 대제의 흉상#에 감탄했습니다! 이 눈부신 황금 흉상은 뫼즈 강 유역의 유명한 금세공인들이 빚어낸 것으로, 그들의 솜씨와 창의성을 증명합니다. 흉상의 윗부분에는 카롤루스 대제의 두개골 조각이 들어 있으며, 흉상의 머리는 화려한 왕관으로 장식되어 있습니다." # 14216082439684720257
+  aachen.0024.a: "장엄하군. 참으로 장엄하군." # 1773762412121400750
+  aachen.0025.t: "집으로 갈 시간" # 15209347015995663221
+  aachen.0025.desc: "아헨에서의 체류가 막을 내리고 이제 고향으로 돌아갈 여정을 떠날 때입니다. 이 유서 깊고 존경받는 도시에서 성지를 순례한 것은 놀라운 경험이었으며, 제가 본 것들로부터 영감을 받아 떠납니다." # 11193297198542105825
+  aachen.0025.a: "떠날 준비를 합시다." # 618146882347451270
+  aachen.0026.t: "마침내 고향으로" # 12286338791128303821
+  aachen.0026.desc: "저는 아헨 성지 순례를 마치고 돌아왔습니다. 모든 것을 고려했을 때, 카롤루스 대제의 수도의 웅장함과 장엄함에 몰두하고 그곳에서 얻은 영적인 영감 덕분에 정말 훌륭하고 심오한 경험이었습니다. 분명 이것은 앞으로 수년간 저의 기독교 신앙심을 북돋아 줄 것입니다." # 11926834037998245360
+  aachen.0026.lothair: "언젠가 다시 해볼 수 있겠지." # 5307056749737322672
+  aachen.0026.a: "언젠가 다시 해볼 수 있겠지." # 5307056749737322672
+  aachen.0027.t: "xxxxx" # 1951045980481827005
+  aachen.0027.desc: "xxxxx" # 1951045980481827005
+  aachen.0027.a: "xxxxx" # 1951045980481827005
+  aachen.0028.t: "xxxxx" # 1951045980481827005
+  aachen.0028.desc: "xxxxx" # 1951045980481827005
+  aachen.0028.a: "xxxxx" # 1951045980481827005
+  aachen.0029.t: "xxxxx" # 1951045980481827005
+  aachen.0029.desc: "xxxxx" # 1951045980481827005
+  aachen.0029.a: "xxxxx" # 1951045980481827005
+  aachen.0030.t: "카롤루스 대제의 유산" # 10678180149732392365
+  aachen.0030.desc: "카롤루스 대제가 이곳 아헨에 막강한 영향력을 행사하고 있습니다. 그의 유산이 도처에 있으며, 많은 이들이 경외심을 담아 그의 이름을 속삭입니다. 저 또한 그와 저를 비교하지 않을 수 없군요. 나는 그의 어떤 면모를 가장 본받고 싶을까요?" # 18222392350573918807
+  aachen.0030.a: "그의 적들에 대한 강력한 정복이로다!" # 4091215764382459261
+  aachen.0030.b: "그의 영적인 신앙에 대한 깊은 헌신." # 6451668024316890430
+  aachen.0030.c: "그의 학문과 예술에 대한 헌신." # 11564893913003542933
+  aachen.0031.t: "아헨의 선동가" # 6073430657189198616
+  aachen.0031.desc: "카롤루스 대제는 어떤 기독교 종파로부터도 성인으로 공식 인정받은 적은 없지만, 아헨의 수많은 기독교인들이 오랜 세월 그를 성인으로 여겨왔습니다. 대부분의 경우, 지역 당국은 이러한 믿음에 대해 눈을 감아주는 경향이 있었으나, 최근 한 열정적인 사제가 이 “성 카롤루스 대제”에 대해 열렬히 설교하며 꽤나 소란을 일으키고 있습니다…" # 431038880040882930
+  aachen.0031.a: "그를 가두시오. 그가 대중을 우리에게 돌리게 할 수도 있소!" # 16272762423650027835
+  aachen.0031.b: "말썽꾼이든 아니든, 이것은 우리에게 심각한 위협이 아닙니다." # 851474209629601296
+  aachen.0031.c: "이 카리스마 넘치는 사제는 의심할 여지 없이 #bold [ROOT.Char.GetFaith.HighGodName]#의 영감을 받은 자로다!" # 4600034903957106662
+  aachen.0032.t: "[RICE_aachen_spa_goer.GetFirstNameNoTooltip] 휴식하러 가다" # 3370692908279064543
+  aachen.0032.desc: "어제, [RICE_aachen_spa_goer.GetTitledFirstName]께서 휴식을 취하기 위해 아헨의 온천 중 한 곳으로 가셨습니다. 이 온천은 고대부터 유명했으며, [RICE_aachen_spa_goer.GetFirstNameNoTooltip]께서는 휴가를 즐기신 듯합니다." # 420524185593668428
+  aachen.0032.a: "오늘, [RICE_aachen_spa_goer.GetSheHe]께서는 참으로 편안해 보이시는군!" # 9918806450817619017
+  aachen.0033.t: "아헨의 기념 휘장" # 5286415974563816861
+  aachen.0033.desc: "아헨이 수 세대 전부터 기독교도들의 인기 있는 순례지가 된 이래로, 배지 제작의 전통이 생겨났습니다. 이 주석 배지들은 보통 순례자들이 집으로 가져갈 기념품으로 만들어졌으며 크기가 매우 다양합니다. 제가 매일 아헨의 거리를 지나다닐 때에도 많은 순례자들이 이 배지들을 몸에 지니고 다니는 것을 봅니다." # 16386365253316669530
+  aachen.0033.a: "호구들에게서 돈을 뜯어낼 쉬운 방법이로군." # 11054362966740353668
+  aachen.0033.b: "이 사람들은 정말 신앙심 깊고 경건하군!" # 4799910509152941207
+  aachen.0033.c: "왜 자랑하는 거지? 성지 순례가 더 중요한 것 아닌가?" # 16563101548512482400
+  aachen.0033.d: "기독교도들이 뭘 하든 나랑 상관없다." # 9643399121899359058
+  aachen.0034.t: "아헨 근처에서 수영하기" # 10032112516181817187
+  aachen.0034.desc: "오늘 나는 아헨 근처의 작은 호수 중 한 곳을 방문하여 수영을 즐기며 시간을 보냈다. 그곳에 있는 동안, 나는 샤를마뉴가 그의 시절에 열렬한 수영광으로 알려져 있었다는 사실을 되새겼다. 아헨이 그의 주요 거처이자 수도였기에, 그도 이 호수에서 수영을 즐긴 적이 있는지 궁금해진다." # 7125718614762423815
+  aachen.0034.a: "그가 수영을 얼마나 잘했을지 궁금하군." # 755461947939025426
+  aachen.0035.t: "카롤루스 대제: 성인인가 아닌가?" # 1673153347500780643
+  aachen.0035.desc: "아헨 거리를 걷다가 두 평민이 카롤루스 대제에 대해 다투는 것을 엿들었습니다. 한 명은 아헨에서 여러 해 동안 그래왔듯이, 카롤루스 대제가 기적을 일으키고 도시의 수호자인 성인이라고 주장하고 있었습니다. 다른 평민은 코웃음을 치며 기독교회가 카롤루스 대제를 성인으로 시성한 적이 없으며, 위대하고 고귀한 인물이라고 해서 반드시 성인인 것은 아니니 어떻게 성인이 될 수 있겠느냐고 반박했습니다." # 17394321472277309555
+  aachen.0035.a: "그의 업적을 고려할 때, 카롤루스 대제가 성인이라는 것은 합리적인 추론입니다." # 509501449682981881
+  aachen.0035.b: "만약 기독교 교회가 그를 인정하지 않았다면, 그는 성인이 아닌 것이다." # 17628343828954175137
+  aachen.0036.t: "악몽" # 2018402293113019712
+  aachen.0036.desc: "어제, [RICE_aachen_spa_goer_bad.GetTitledFirstName]께서 아헨 근처의 온천 중 한 곳에 휴식을 취하러 가셨습니다. 하지만 [RICE_aachen_spa_goer_bad.GetSheHe]가 원했던 것처럼 실제로 휴식을 취하는 대신, 어쩐 일인지 그곳의 다른 온천 이용객과 말다툼을 벌이셨습니다! 제가 보기에 사소한 일에 관한 것이었지만, 이 사건으로 인해 [RICE_aachen_spa_goer_bad.GetHerHim]는 기분이 상하셨고 하루 종일 그 일에 대해 불평하고 계십니다." # 10722836623330505626
+  aachen.0036.a: "안됐군요. 그 사람은 정말 형편없는 사람 같군요!" # 5882750621915207396
+  aachen.0036.b: "입 다물겠나? 광대처럼 굴고 있군." # 16708052145783918357
+  aachen.0037.t: "아헨의 순례자 증가" # 7972540132314465440
+  aachen.0037.desc: "최근 아헨에는 평소보다 더 많은 수의 기독교 순례자들이 도시를 찾고 있습니다. 카롤루스 대제의 수도였던 이 도시는 오랫동안 기독교인들에게 영적인 중요성을 지녀왔습니다." # 6676350908627187430
+  aachen.0037.a: "방문객의 유입은 우리 경제에 도움이 될 것입니다." # 10788711521193335432
+  aachen.0038.t: "놋쇠 세공인이 도착했습니다" # 5022788578252579171
+  aachen.0038.desc.maastricht: "뫼즈 강 유역 다른 지역 출신의 놋쇠 세공인들이 최근 마스트리흐트에 정착했습니다. 그들은 현재 마스트리흐트가 자신들의 기술을 연마하기에 더 좋고 안정적인 장소라고 여기고 있습니다. 이 지역의 놋쇠 세공인들은 그들의 작품으로 서유럽 전역에서 유명하며, 그 작품들은 아름답게 만들어진 촛대나 물병 같은 단순하고 일상적인 물품부터 이 지역의 강력한 예배당을 위한 정교하고 경외심을 불러일으키는 성물함에 이르기까지 다양합니다. 어쨌든, 이러한 최근의 상황은 마스트리흐트에 이미 자리 잡고 찬양받는 놋쇠 세공인 공동체를 더욱 강화시켰습니다." # 7698870343882387374
+  aachen.0038.desc.aachen: "뫼즈 강 유역의 다른 지역에서 온 많은 황동 세공인들이 최근 아헨에 정착했습니다. 그들은 현재 아헨이 자신들의 기술을 연마하기에 더 좋고 안정적인 장소라고 여기고 있습니다. 이 지역의 황동 세공인들은 단순하고 평범한 촛대나 물병 같은 물건부터, 강력한 예배당을 위한 정교하고 경외심을 불러일으키는 성물함에 이르기까지 그들의 창작물로 서유럽 전역에서 유명합니다. 어쨌든, 이러한 최근 상황은 아헨에 이미 자리 잡고 찬양받는 황동 세공인 공동체를 더욱 강화시켰습니다." # 9664215403040453475
+  aachen.0038.a: "훌륭하다!" # 5815683167456707443
+  aachen.0039.t: "xxxxx" # 1951045980481827005
+  aachen.0039.desc: "xxxxx" # 1951045980481827005
+  aachen.0039.a: "xxxxx" # 1951045980481827005
+  aachen.0040.t: "xxxxx" # 1951045980481827005
+  aachen.0040.desc: "xxxxx" # 1951045980481827005
+  aachen.0040.a: "xxxxx" # 1951045980481827005
+  aachen.0041.t: "xxxxx" # 1951045980481827005
+  aachen.0041.desc: "xxxxx" # 1951045980481827005
+  aachen.0041.a: "xxxxx" # 1951045980481827005
+  aachen.0042.t: "xxxxx" # 1951045980481827005
+  aachen.0042.desc: "xxxxx" # 1951045980481827005
+  aachen.0042.a: "xxxxx" # 1951045980481827005
+  aachen.0043.t: "xxxxx" # 1951045980481827005
+  aachen.0043.desc: "xxxxx" # 1951045980481827005
+  aachen.0043.a: "xxxxx" # 1951045980481827005
+  aachen.0044.t: "xxxxx" # 1951045980481827005
+  aachen.0044.desc: "xxxxx" # 1951045980481827005
+  aachen.0044.a: "xxxxx" # 1951045980481827005
+  aachen.0045.t: "xxxxx" # 1951045980481827005
+  aachen.0045.desc: "xxxxx" # 1951045980481827005
+  aachen.0045.a: "xxxxx" # 1951045980481827005
+  aachen.0046.t: "xxxxx" # 1951045980481827005
+  aachen.0046.desc: "xxxxx" # 1951045980481827005
+  aachen.0046.a: "xxxxx" # 1951045980481827005
+  aachen.0047.t: "xxxxx" # 1951045980481827005
+  aachen.0047.desc: "xxxxx" # 1951045980481827005
+  aachen.0047.a: "xxxxx" # 1951045980481827005
+  aachen.0048.t: "xxxxx" # 1951045980481827005
+  aachen.0048.desc: "xxxxx" # 1951045980481827005
+  aachen.0048.a: "xxxxx" # 1951045980481827005
+  aachen.0049.t: "xxxxx" # 1951045980481827005
+  aachen.0049.desc: "xxxxx" # 1951045980481827005
+  aachen.0049.a: "xxxxx" # 1951045980481827005
+  aachen.0050.t: "xxxxx" # 1951045980481827005
+  aachen.0050.desc: "xxxxx" # 1951045980481827005
+  aachen.0050.a: "xxxxx" # 1951045980481827005
+  aachen.0051.t: "xxxxx" # 1951045980481827005
+  aachen.0051.desc: "xxxxx" # 1951045980481827005
+  aachen.0051.a: "xxxxx" # 1951045980481827005
+  aachen.0052.t: "xxxxx" # 1951045980481827005
+  aachen.0052.desc: "xxxxx" # 1951045980481827005
+  aachen.0052.a: "xxxxx" # 1951045980481827005
+  aachen.0053.t: "xxxxx" # 1951045980481827005
+  aachen.0053.desc: "xxxxx" # 1951045980481827005
+  aachen.0053.a: "xxxxx" # 1951045980481827005
+  aachen.0054.t: "xxxxx" # 1951045980481827005
+  aachen.0054.desc: "xxxxx" # 1951045980481827005
+  aachen.0054.a: "xxxxx" # 1951045980481827005
+  aachen.0055.t: "xxxxx" # 1951045980481827005
+  aachen.0055.desc: "xxxxx" # 1951045980481827005
+  aachen.0055.a: "xxxxx" # 1951045980481827005
+  aachen.0056.t: "xxxxx" # 1951045980481827005
+  aachen.0056.desc: "xxxxx" # 1951045980481827005
+  aachen.0056.a: "xxxxx" # 1951045980481827005
+  aachen.0057.t: "xxxxx" # 1951045980481827005
+  aachen.0057.desc: "xxxxx" # 1951045980481827005
+  aachen.0057.a: "xxxxx" # 1951045980481827005
+  aachen.0058.t: "xxxxx" # 1951045980481827005
+  aachen.0058.desc: "xxxxx" # 1951045980481827005
+  aachen.0058.a: "xxxxx" # 1951045980481827005
+  aachen.0059.t: "xxxxx" # 1951045980481827005
+  aachen.0059.desc: "xxxxx" # 1951045980481827005
+  aachen.0059.a: "xxxxx" # 1951045980481827005
+  aachen.0060.t: "xxxxx" # 1951045980481827005
+  aachen.0060.desc: "xxxxx" # 1951045980481827005
+  aachen.0060.a: "xxxxx" # 1951045980481827005
+  aachen.0061.t: "xxxxx" # 1951045980481827005
+  aachen.0061.desc: "xxxxx" # 1951045980481827005
+  aachen.0061.a: "xxxxx" # 1951045980481827005
+  aachen.0062.t: "xxxxx" # 1951045980481827005
+  aachen.0062.desc: "xxxxx" # 1951045980481827005
+  aachen.0062.a: "xxxxx" # 1951045980481827005
+  aachen.0063.t: "xxxxx" # 1951045980481827005
+  aachen.0063.desc: "xxxxx" # 1951045980481827005
+  aachen.0063.a: "xxxxx" # 1951045980481827005
+  aachen.0064.t: "xxxxx" # 1951045980481827005
+  aachen.0064.desc: "xxxxx" # 1951045980481827005
+  aachen.0064.a: "xxxxx" # 1951045980481827005
+  aachen.0065.t: "xxxxx" # 1951045980481827005
+  aachen.0065.desc: "xxxxx" # 1951045980481827005
+  aachen.0065.a: "xxxxx" # 1951045980481827005
+  aachen.0066.t: "xxxxx" # 1951045980481827005
+  aachen.0066.desc: "xxxxx" # 1951045980481827005
+  aachen.0066.a: "xxxxx" # 1951045980481827005
+  aachen.0067.t: "xxxxx" # 1951045980481827005
+  aachen.0067.desc: "xxxxx" # 1951045980481827005
+  aachen.0067.a: "xxxxx" # 1951045980481827005
+  aachen.0068.t: "xxxxx" # 1951045980481827005
+  aachen.0068.desc: "xxxxx" # 1951045980481827005
+  aachen.0068.a: "xxxxx" # 1951045980481827005
+  aachen.0069.t: "xxxxx" # 1951045980481827005
+  aachen.0069.desc: "xxxxx" # 1951045980481827005
+  aachen.0069.a: "xxxxx" # 1951045980481827005
+  aachen.0070.t: "xxxxx" # 1951045980481827005
+  aachen.0070.desc: "xxxxx" # 1951045980481827005
+  aachen.0070.a: "xxxxx" # 1951045980481827005
+  aachen.0071.t: "xxxxx" # 1951045980481827005
+  aachen.0071.desc: "xxxxx" # 1951045980481827005
+  aachen.0071.a: "xxxxx" # 1951045980481827005
+  aachen.0072.t: "xxxxx" # 1951045980481827005
+  aachen.0072.desc: "xxxxx" # 1951045980481827005
+  aachen.0072.a: "xxxxx" # 1951045980481827005
+  aachen.0073.t: "xxxxx" # 1951045980481827005
+  aachen.0073.desc: "xxxxx" # 1951045980481827005
+  aachen.0073.a: "xxxxx" # 1951045980481827005
+  aachen.0074.t: "xxxxx" # 1951045980481827005
+  aachen.0074.desc: "xxxxx" # 1951045980481827005
+  aachen.0074.a: "xxxxx" # 1951045980481827005
+  aachen.0075.t: "xxxxx" # 1951045980481827005
+  aachen.0075.desc: "xxxxx" # 1951045980481827005
+  aachen.0075.a: "xxxxx" # 1951045980481827005
+  aachen.0076.t: "xxxxx" # 1951045980481827005
+  aachen.0076.desc: "xxxxx" # 1951045980481827005
+  aachen.0076.a: "xxxxx" # 1951045980481827005
+  aachen.0077.t: "xxxxx" # 1951045980481827005
+  aachen.0077.desc: "xxxxx" # 1951045980481827005
+  aachen.0077.a: "xxxxx" # 1951045980481827005
+  aachen.0078.t: "xxxxx" # 1951045980481827005
+  aachen.0078.desc: "xxxxx" # 1951045980481827005
+  aachen.0078.a: "xxxxx" # 1951045980481827005
+  aachen.0079.t: "xxxxx" # 1951045980481827005
+  aachen.0079.desc: "xxxxx" # 1951045980481827005
+  aachen.0079.a: "xxxxx" # 1951045980481827005
+  aachen.0080.t: "xxxxx" # 1951045980481827005
+  aachen.0080.desc: "xxxxx" # 1951045980481827005
+  aachen.0080.a: "xxxxx" # 1951045980481827005
+  aachen.0081.t: "xxxxx" # 1951045980481827005
+  aachen.0081.desc: "xxxxx" # 1951045980481827005
+  aachen.0081.a: "xxxxx" # 1951045980481827005
+  aachen.0082.t: "xxxxx" # 1951045980481827005
+  aachen.0082.desc: "xxxxx" # 1951045980481827005
+  aachen.0082.a: "xxxxx" # 1951045980481827005
+  aachen.0083.t: "xxxxx" # 1951045980481827005
+  aachen.0083.desc: "xxxxx" # 1951045980481827005
+  aachen.0083.a: "xxxxx" # 1951045980481827005
+  aachen.0084.t: "xxxxx" # 1951045980481827005
+  aachen.0084.desc: "xxxxx" # 1951045980481827005
+  aachen.0084.a: "xxxxx" # 1951045980481827005
+  aachen.0085.t: "xxxxx" # 1951045980481827005
+  aachen.0085.desc: "xxxxx" # 1951045980481827005
+  aachen.0085.a: "xxxxx" # 1951045980481827005
+  aachen.0086.t: "xxxxx" # 1951045980481827005
+  aachen.0086.desc: "xxxxx" # 1951045980481827005
+  aachen.0086.a: "xxxxx" # 1951045980481827005
+  aachen.0087.t: "xxxxx" # 1951045980481827005
+  aachen.0087.desc: "xxxxx" # 1951045980481827005
+  aachen.0087.a: "xxxxx" # 1951045980481827005
+  aachen.0088.t: "xxxxx" # 1951045980481827005
+  aachen.0088.desc: "xxxxx" # 1951045980481827005
+  aachen.0088.a: "xxxxx" # 1951045980481827005
+  aachen.0089.t: "xxxxx" # 1951045980481827005
+  aachen.0089.desc: "xxxxx" # 1951045980481827005
+  aachen.0089.a: "xxxxx" # 1951045980481827005
+  aachen.0090.t: "xxxxx" # 1951045980481827005
+  aachen.0090.desc: "xxxxx" # 1951045980481827005
+  aachen.0090.a: "xxxxx" # 1951045980481827005
+  aachen.0091.t: "xxxxx" # 1951045980481827005
+  aachen.0091.desc: "xxxxx" # 1951045980481827005
+  aachen.0091.a: "xxxxx" # 1951045980481827005
+  aachen.0092.t: "xxxxx" # 1951045980481827005
+  aachen.0092.desc: "xxxxx" # 1951045980481827005
+  aachen.0092.a: "xxxxx" # 1951045980481827005
+  aachen.0093.t: "xxxxx" # 1951045980481827005
+  aachen.0093.desc: "xxxxx" # 1951045980481827005
+  aachen.0093.a: "xxxxx" # 1951045980481827005
+  aachen.0094.t: "xxxxx" # 1951045980481827005
+  aachen.0094.desc: "xxxxx" # 1951045980481827005
+  aachen.0094.a: "xxxxx" # 1951045980481827005
+  aachen.0095.t: "xxxxx" # 1951045980481827005
+  aachen.0095.desc: "xxxxx" # 1951045980481827005
+  aachen.0095.a: "xxxxx" # 1951045980481827005
+  aachen.0096.t: "xxxxx" # 1951045980481827005
+  aachen.0096.desc: "xxxxx" # 1951045980481827005
+  aachen.0096.a: "xxxxx" # 1951045980481827005
+  aachen.0097.t: "xxxxx" # 1951045980481827005
+  aachen.0097.desc: "xxxxx" # 1951045980481827005
+  aachen.0097.a: "xxxxx" # 1951045980481827005
+  aachen.0098.t: "xxxxx" # 1951045980481827005
+  aachen.0098.desc: "xxxxx" # 1951045980481827005
+  aachen.0098.a: "xxxxx" # 1951045980481827005
+  aachen.0099.t: "xxxxx" # 1951045980481827005
+  aachen.0099.desc: "xxxxx" # 1951045980481827005
+  aachen.0099.a: "xxxxx" # 1951045980481827005

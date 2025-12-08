@@ -1,0 +1,46 @@
+﻿l_korean:
+  action_can_ransom_increased: "$action_can_ransom$" # 14513593992628636758
+  action_can_ransom_increased_combined_group_label: "$action_can_ransom_combined_group_label$" # 17208045422266205870
+  action_can_ransom_increased_combined_group_name: "$action_can_ransom_increased$" # 11938514540972475763
+  action_can_ransom_increased_desc: "당신은 [prisoner|E]인 [recipient.Custom('GetPrimaryTitleIcon')][recipient.GetShortUIName]를 [gold|E]에 몸값을 받고 풀어줄 수 있습니다.\n\n[recipient.GetSheHe|U]는 현재 당신이 요구할 수 있는 금액의 @gold_icon!#V [recipient.MakeScope.ScriptValue('unop_current_situation_gold_increased_ransom')|0]/[recipient.MakeScope.ScriptValue('increased_ransom_cost_value')|0]#!를 보유하고 있습니다.$action_can_ransom_HELP$" # 15362964887182179918
+  action_can_ransom_increased_combined_group_description: "$action_can_ransom_combined_group_description$" # 3959263472761243281
+  action_can_ransom_increased_label: "@gold_icon! [recipient.Custom('GetPrimaryTitleTierIcon')][recipient.GetShortUINameNoTooltip]을 몸값을 받고 풀어줄 수 있습니다, @gold_icon!#V [recipient.MakeScope.ScriptValue('unop_current_situation_gold_increased_ransom')|0]/[recipient.MakeScope.ScriptValue('increased_ransom_cost_value')|0]#!" # 10311449683459755332
+  action_can_ransom_increased_combined_label: "당신의 [actor.Custom2('RelationToMe', recipient)], [recipient.Custom('GetPrimaryTitleTierIcon')][recipient.GetShortUINameNoTooltip]께서 @gold_icon!#V [recipient.MakeScope.ScriptValue('unop_current_situation_gold_increased_ransom')|0]/[recipient.MakeScope.ScriptValue('increased_ransom_cost_value')|0]#!" # 16728109665937085288
+  action_can_ransom_increased_click: "$action_can_ransom_click$" # 1951028682900847532
+  action_can_ransom_increased_HELP: "$action_can_ransom_HELP$" # 9539261261976835415
+  action_upgrade_nomadic_holding_type_to_tribal_combined_group_label: "@building_icon! 유목 영지를 부족제로 전환" # 13582507773743958033
+  action_upgrade_nomadic_holding_type_to_tribal_combined_label: "[landed_title.Custom('GetTierIcon')] [landed_title.GetNameNoTooltip]" # 12944306961490678039
+  action_upgrade_nomadic_holding_type_to_tribal: "@building_icon! [nomadic_holding|E]를 부족화하기" # 17284109116483940068
+  action_upgrade_nomadic_holding_type_to_tribal_combined_group_name: "@building_icon! [nomadic_holdings|E]를 부족화하기" # 13642035892939914006
+  action_upgrade_nomadic_holding_type_to_tribal_combined_group_description: "비 [GetGovernment( 'nomad_government' ).GetName] [character|E]로서, [nomadic_holdings|E]는 당신에게 [levies|E]도 [taxes|E]도 주지 않습니다. 당신은 $game_concept_holding$을 개혁하여 [tribe|E]로 만들어야 합니다.$action_upgrade_nomadic_holding_type_HELP$" # 17781795238933042710
+  action_upgrade_nomadic_holding_type_to_tribal_label: "@building_icon! [landed_title.Custom('GetTierIcon')][landed_title.GetDefinitiveNameNoTooltip]을 부족화해야 합니다." # 14433020913172152367
+  action_upgrade_nomadic_holding_type_to_tribal_desc: "$action_upgrade_nomadic_holding_type_to_tribal_combined_group_description$" # 2503605582072035381
+  action_upgrade_nomadic_holding_type_to_tribal_click: "#$game_concept_holding$을 선택하기 위해 클릭합니다#!" # 7235707161144363230
+  action_upgrade_nomadic_holding_type_to_tribal_HELP: "\n\naaaa#help #!" # 9090028533940831990
+  action_upgrade_herder_holding_type_to_tribal_combined_group_label: "@building_icon! 유목민 영지화" # 7677187248931503668
+  action_upgrade_herder_holding_type_to_tribal_combined_label: "[landed_title.Custom('GetTierIcon')] [landed_title.GetNameNoTooltip]" # 12944306961490678039
+  action_upgrade_herder_holding_type_to_tribal: "@building_icon! [herder|E] [holding|E]을 부족화하기" # 12141499105044454113
+  action_upgrade_herder_holding_type_to_tribal_combined_group_name: "@building_icon! [herder|E] [holdings|E]를 부족화하기" # 16435994446153994903
+  action_upgrade_herder_holding_type_to_tribal_combined_group_description: "비-[herder|E] [character|E]로서, [herder|E] [holdings|E]는 당신에게 [levies|E]도 [taxes|E]도 주지 않습니다. 당신은 $game_concept_holding$을 개혁하여 [tribe|E]로 만들어야 합니다.$action_upgrade_herder_holding_type_HELP$" # 8672259112769792154
+  action_upgrade_herder_holding_type_to_tribal_label: "@building_icon! [landed_title.Custom('GetTierIcon')][landed_title.GetDefinitiveNameNoTooltip]을 부족화해야 합니다." # 14433020913172152367
+  action_upgrade_herder_holding_type_to_tribal_desc: "$action_upgrade_herder_holding_type_to_tribal_combined_group_description$" # 18402004299752461914
+  action_upgrade_herder_holding_type_to_tribal_click: "#$game_concept_holding$을 선택하기 위해 클릭합니다#!" # 7235707161144363230
+  action_upgrade_herder_holding_type_to_tribal_HELP: "#help #!" # 2776975764669488025
+  action_upgrade_nomadic_holding_type_to_feudal_combined_group_label: "@building_icon! 유목 영지를 봉건화해야 합니다" # 12987071162299072460
+  action_upgrade_nomadic_holding_type_to_feudal_combined_label: "[landed_title.Custom('GetTierIcon')] [landed_title.GetNameNoTooltip]" # 12944306961490678039
+  action_upgrade_nomadic_holding_type_to_feudal: "@building_icon! [nomadic_holding|E]를 봉건화하기" # 10523416891213524616
+  action_upgrade_nomadic_holding_type_to_feudal_combined_group_name: "@building_icon! [nomadic_holdings|E]를 봉건화합니다" # 9977856304542596669
+  action_upgrade_nomadic_holding_type_to_feudal_combined_group_description: "비-[GetGovernment( 'nomad_government' ).GetName] [character|E]로서, [nomadic_holdings|E]는 당신에게 [levies|E]나 [taxes|E]를 제공하지 않습니다. 당신은 $game_concept_holding$을 개혁하여 [castle|E]로 만들어야 합니다.$action_upgrade_nomadic_holding_type_HELP$" # 8215490535452230268
+  action_upgrade_nomadic_holding_type_to_feudal_label: "@building_icon! 당신은 [landed_title.Custom('GetTierIcon')][landed_title.GetDefinitiveNameNoTooltip]를 봉건화해야 합니다." # 6297485021225881494
+  action_upgrade_nomadic_holding_type_to_feudal_desc: "$action_upgrade_nomadic_holding_type_to_feudal_combined_group_description$" # 4906960008681452944
+  action_upgrade_nomadic_holding_type_to_feudal_click: "#$game_concept_holding$을 선택하기 위해 클릭합니다#!" # 7235707161144363230
+  action_upgrade_nomadic_holding_type_to_feudal_HELP: "#help #!" # 2776975764669488025
+  action_upgrade_herder_holding_type_to_feudal_combined_group_label: "@building_icon! 유목민 영지를 봉건화" # 45654243251342142
+  action_upgrade_herder_holding_type_to_feudal_combined_label: "[landed_title.Custom('GetTierIcon')] [landed_title.GetNameNoTooltip]" # 12944306961490678039
+  action_upgrade_herder_holding_type_to_feudal: "@building_icon! [herder|E] [holding|E]을 봉건화하기" # 16016810986177591886
+  action_upgrade_herder_holding_type_to_feudal_combined_group_name: "@building_icon! [holdings|E]를 봉건화할 [herder|E]" # 15847058744106082816
+  action_upgrade_herder_holding_type_to_feudal_combined_group_description: "비-[herder|E] [character|E]로서, [herder|E] [holdings|E]는 당신에게 [levies|E]와 [taxes|E]를 모두 주지 않습니다. 당신은 $game_concept_holding$을 개혁하여 [castle|E]로 만들어야 합니다.$action_upgrade_herder_holding_type_HELP$" # 17996084066086245843
+  action_upgrade_herder_holding_type_to_feudal_label: "@building_icon! 당신은 [landed_title.Custom('GetTierIcon')][landed_title.GetDefinitiveNameNoTooltip]를 봉건화해야 합니다." # 6297485021225881494
+  action_upgrade_herder_holding_type_to_feudal_desc: "$action_upgrade_herder_holding_type_to_feudal_combined_group_description$" # 13268665085877830680
+  action_upgrade_herder_holding_type_to_feudal_click: "#$game_concept_holding$을 선택하기 위해 클릭합니다#!" # 7235707161144363230
+  action_upgrade_herder_holding_type_to_feudal_HELP: "#help #!" # 2776975764669488025

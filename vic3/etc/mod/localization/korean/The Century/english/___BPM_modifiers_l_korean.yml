@@ -1,0 +1,83 @@
+﻿l_korean:
+  bpm_cheaper_institutions: "제도 균형 조정 (기본값)" # 85510473132853979
+  bpm_cheaper_bureaucracy: "관료제 균형 잡기 (기본값)" # 14938763885583481973
+  bpm_balancing: "BPM 균형 (기본값)" # 9309584869219492206
+  bpm_ai_cheats: "AI 균형 조정 (기본값)" # 13253023200466927463
+  bpm_displeased: "불만족" # 12377619081979378283
+  bpm_pleased: "만족스럽습니다" # 3032235867829182514
+  POP_EXCLUSIONS: "제외된 인구 집단" # 15735100940169194800
+  POOR: "가엾은 민중들" # 345232825673076382
+  LOWER_CLASS: "하층 계급 인구" # 8029290015146828297
+  PATCON_LOWER_CLASS: "가부장적 하층 계급" # 2254704869049875891
+  EDUCATED: "교육받은 인구" # 13954885947780387552
+  UNEDUCATED: "교육받지 못한 계층" # 17417191035249389074
+  URBAN: "도시 인구" # 12735296334373067162
+  URBAN_MIDDLE_CLASS: "소부르주아 팝" # 17746786025624659043
+  MIDDLE_CLASS: "중산층 인구" # 1674165414233275198
+  PATCON_MIDDLE_CLASS: "가부장적 중산층" # 12317413199235522307
+  UPPER_CLASS: "상류층 주민들" # 961173115336160464
+  URBAN_UPPER_CLASS: "도시 부르주아 팝" # 6758673707920276446
+  PATCON_CAPITALISTS: "가부장적 자본가" # 5723525441134270313
+  POP_PROLETARIAT: "프롤레타리아 팝" # 2222936710676308970
+  POP_EDUCATED_PROLETARIAT: "교양 있는 프롤레타리아" # 15910490938865358741
+  RURAL: "농촌 인구" # 1322290135613765313
+  RURAL_POP: "농촌 인구" # 1322290135613765313
+  NOT_RURAL_POP: "비농촌 인구" # 179500626893364961
+  RURAL_UPPER_CLASS: "농촌 지주 계층" # 12974240944295524608
+  POP_EDUCATED_FARMERS: "교양 있는 농민" # 14078801727908747838
+  POP_RURAL_ABOLITIONISTS: "농촌 폐지론자들" # 6132782231750419536
+  SLAVERY_SUPPORTERS: "노예제 옹호자들" # 18061949092733173582
+  SLAVERY_DETRACTORS: "노예제 반대론자들" # 14109455207450514498
+  SLAVEHOLDERS: "노예 소유주" # 14151089003730384238
+  POP_FREE_PEASANTS: "자유 농민" # 9814068162048929894
+  NONPRIMARY_CULTURE: "주요 문화가 아닌 팝" # 16761550210765426980
+  NOT_PEASANTS: "농민 없음" # 17063475385643192848
+  NOT_UPPER: "부유층 없음" # 17066517027031742222
+  RELIGIOUS_INSTITUTIONS: "종교 기관이 있습니까" # 16067138719187090043
+  STATE_RELIGION_LAW: "강제 국교" # 13451701932216363956
+  TOTAL_SEPARATION_LAW: "완전한 분리" # 5851860275339404548
+  STATE_ATHEISM_LAW: "국가 무신론" # 13012046111949792566
+  DEVOUT_LITERACY: "문맹이 아닌 독실한 팝" # 10067567250490133202
+  THEOCRACY: "신정 국가입니까" # 5907595178697595723
+  RELIGION_SUPPRESSED: "억압된 종교" # 5533050675320603812
+  LOW_WELFARE: "취약한 복지 제도" # 4673269620923511496
+  MONOPOLIES: "자유 시장 정책" # 8042646417088019461
+  POP_WAR_PROFITEERS: "인구, 군수품으로 폭리를 취하다" # 4019243181969511305
+  TRADITIONAL_MONARCHY: "절대 군주제" # 1483750625475619345
+  TRADITIONAL_ECONOMIES: "전통 경제" # 9798382123731335574
+  MERCHANT_GUILDS: "중상주의 하의 상인들" # 281830199360965987
+  JEFFERSONIANISM_DISGRACED: "제퍼슨주의적 농업주의, 제1당제에 의해 불명예를 안다" # 238554402252062955
+  BPM_POP_INTERESTS_FROM_STABILITY: "[Concept('concept_bpm_political_stability', '정치적 경직성')]로 인한 지지" # 10796110038389804119
+  BPM_POP_FROM_AGITATOR_POPULARITY: "선동가 인기에서" # 388162726672063752
+  BPM_POP_FROM_RULER_POPULARITY: "통치자 인기으로부터" # 8521651881242070686
+  BPM_POP_LOYALISTS_GOVT: "[Concept('concept_loyalist','충성파')]가 온건한 [Concept('concept_interest_group','이해집단')]에 대한 지지를 [Concept('concept_in_government','정부')] 내에서 표명합니다." # 12460074268868273107
+  BPM_POP_LOYALISTS_GOVT_MODERATE: "[Concept('concept_loyalist','충성파')]이(가) [Concept('concept_interest_group','이익 집단')]에 대한 [Concept('concept_in_government','정부')]에서 이들을 지지합니다." # 1241557896143642570
+  BPM_POP_LOYALISTS_OPPOSITION_RADICAL: "[Concept('concept_loyalist','충성파')] 주민들이 이 [Concept('concept_extremist','극단주의자')] [Concept('concept_interest_group','이해집단')]을 [Concept('concept_in_opposition','반대파')]에서 외면하고 있습니다." # 8772812238587241785
+  BPM_POP_LOYALISTS_OPPOSITION_TOO_RADICAL: "[Concept('concept_loyalist','충성파')] 계층은 이 [Concept('concept_super_extremist','초극단주의자')] [Concept('concept_interest_group','이익 집단')]을 [Concept('concept_in_opposition','반대 세력')]에서 배척합니다." # 5097601656311175134
+  BPM_POP_LOYALISTS_OPPOSITION_MODERATE: "[Concept('concept_loyalist','충성파')]가 이 온건한 [Concept('concept_interest_group','이익 집단')]을 지지하는 인구 집단은 [Concept('concept_in_opposition','반대파')]에 속합니다." # 11754085817367896037
+  BPM_POP_RADICALS_OPPOSITION: "[Concept('concept_radical','급진주의자')]들이 이 [concept_extremist] [Concept('concept_interest_group','이해집단')]을 [Concept('concept_in_opposition','반대파')]에서 지지합니다" # 17776714290044879401
+  BPM_POP_EXTREME_RADICALS_OPPOSITION: "[Concept('concept_radical','급진주의자')]들이 [Concept('concept_super_extremist','극단주의자')] [Concept('concept_interest_group','이해집단')]으로서 [Concept('concept_in_opposition','반대파')]에서 지지합니다." # 4114070362843202018
+  BPM_POP_RADICALS_OPPOSITION_MODERATE: "[Concept('concept_radical','급진주의자')]가 [Concept('concept_interest_group','이해집단')] 내에서 [Concept('concept_in_opposition','반대파')]를 지지하는 인구 집단" # 15247308507676347719
+  POPS_ANGER_SYMPATHY: "격분한 인구층과의 연대" # 12808761641830328213
+  POP_LEADERS: "교양 있는 지도자들" # 14726869898464069773
+  POLITICAL_MACHINES: "정치 기구들" # 7738718000099095697
+  AT_WAR: "전쟁 중" # 1687916520912364534
+  IN_WAR: "전쟁 중에" # 1726595251193062599
+  NO_LABOR_MOVEMENT: "노동 운동 없음" # 10495758918033439069
+  NO_SOCIALISM: "사회주의 미발전" # 17840645836716809761
+  NO_ANARCHISM: "무정부주의 미개발" # 14089891021129537035
+  POLITICAL_AGITATION: "정치적 선동이 발달하지 않음" # 17348060679497252796
+  BEFORE_HEROIC_PERIOD: "영웅 시대 이전" # 2128090039983349528
+  BPM_POP_AGRARIAN_SOCIALISM_LOCAL: "지역 농업사회 진보" # 10798101049527068686
+  BPM_POP_AGRARIAN_SOCIALISM_GLOBAL: "전 지구적 농업사회 진보" # 14712971404470995755
+  FROM_SYNDICALISM_JE: "생디칼리스트 운동으로부터" # 14805181219496360652
+  bpm_repeatable_movements_not_allowed: "반복 가능한 법률에 대한 움직임은 가질 수 없습니다" # 17078028818961195034
+  bpm_block_law_cancel: "법률을 최종 단계에서는 취소할 수 없습니다" # 6396060874802223613
+  country_law_enactment_ruler_veto_bypass: "입법부가 통치자의 거부권을 무효화할 수 있습니다" # 494262929849095952
+  country_law_enactment_ruler_veto_bypass_desc: "의회는 [Concept('concept_ruler','군주')]의 [Concept('concept_law', '법률')] 거부권을 무효화할 수 있습니다." # 13086376284963941542
+  country_base_law_enactment_support_add: "법률 제정 기본 지지" # 13888802389453620422
+  country_base_law_enactment_support_add_desc: "[Concept('concept_country','국가')]에서 제정되는 [Concept('concept_law', '법률')]에 대한 [Concept('concept_interest_group','이해집단')]의 기본 지지도는 다음과 같습니다." # 3571071353013006207
+  interest_group_law_support_add: "[concept_bpm_law_support]" # 9358725507799142533
+  interest_group_law_support_add_desc: "[Concept('concept_interest_group','Interest Group')]이 [Concept('concept_law', 'Laws')] 제정에 표하는 지지의 증가 또는 감소." # 9983615075287841836
+  interest_group_law_support_mult: "[concept_bpm_law_support]" # 9358725507799142533
+  interest_group_law_support_mult_desc: "[Concept('concept_interest_group','Interest Group')]이 [Concept('concept_law', 'Laws')] 제정에 표하는 지지의 증가 또는 감소." # 9983615075287841836

@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "module": "ESNext",
+    "target": "ES2022",
+    "moduleResolution": "Node",
+    "lib": [
+      "ESNext",
+      "ESNext.AsyncIterable"
+    ],
+    "strict": true,
+    "strictNullChecks": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "baseUrl": "."
+  }
+}

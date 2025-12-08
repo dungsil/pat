@@ -1,0 +1,584 @@
+import { describe, it, expect, vi, beforeEach, afterEach } from 'vitest'
+import { mkdir, readFile, writeFile, rm, access } from 'node:fs/promises'
+import { existsSync } from 'node:fs'
+import { join } from 'pathe'
+import { tmpdir } from 'node:os'
+import { parseYaml } from '../parser/yaml'
+
+// 의존성 모킹
+vi.mock('../utils/logger', () => ({
+  log: {
+    start: vi.fn(),
+    success: vi.fn(),
+    debug: vi.fn(),
+    verbose: vi.fn(),
+    info: vi.fn(),
+    warn: vi.fn()
+  }
+}))
+
+vi.mock('../utils/translate', () => ({
+  translate: vi.fn((text: string) => Promise.resolve(`[KO]${text}`)),
+  TranslationRetryExceededError: class TranslationRetryExceededError extends Error {
+    constructor() {
+      super()
+      this.name = 'TranslationRetryExceededError'
+    }
+  },
+  TranslationRefusedError: class TranslationRefusedError extends Error {
+    constructor(public readonly text: string, public readonly reason: string) {
+      super(`번역 거부: ${text} (사유: ${reason})`)
+      this.name = 'TranslationRefusedError'
+    }
+  }
+}))
+
+vi.mock('../utils/upstream', () => ({
+  updateAllUpstreams: vi.fn(() => Promise.resolve())
+}))
+
+describe('processLanguageFile 증분 쓰기', () => {
+  let testDir: string
+
+  beforeEach(async () => {
+    // 테스트를 위한 임시 디렉토리 생성
+    testDir = join(tmpdir(), `translate-test-${Date.now()}`)
+    await mkdir(testDir, { recursive: true })
+  })
+
+  afterEach(async () => {
+    // 정리
+    vi.restoreAllMocks()
+    try {
+      await rm(testDir, { recursive: true, force: true })
+    } catch (error) {
+      // 정리 오류 무시
+    }
+  })
+
+  it('많은 수의 항목이 있는 파일을 성공적으로 번역하고 쓸 수 있어야 함', async () => {
+    // 1000개 이상의 항목이 있는 소스 파일 생성
+    const entryCount = 1500
+    const sourceContent = createLargeYamlFile(entryCount, 'english')
+    
+    // 목 설정 후 임포트
+    const { processModTranslations } = await import('./translate')
+
+    // meta.toml 및 디렉토리 구조 생성
+    const modDir = join(testDir, 'test-mod')
+    const upstreamDir = join(modDir, 'upstream')
+    const metaContent = `
+[upstream]
+localization = ["."]
+language = "english"
+`
+    await mkdir(upstreamDir, { recursive: true })
+    await writeFile(join(modDir, 'meta.toml'), metaContent, 'utf-8')
+    await writeFile(join(upstreamDir, 'test_l_english.yml'), sourceContent, 'utf-8')
+
+    // 번역 실행
+    await processModTranslations({
+      rootDir: testDir,
+      mods: ['test-mod'],
+      gameType: 'ck3',
+      onlyHash: false
+    })
+
+    // 출력 파일 존재 확인
+    const outputPath = join(modDir, 'mod', 'localization', 'korean', '___test_l_korean.yml')
+    await access(outputPath) // 파일이 없으면 예외 발생
+
+    // 출력 내용이 유효한지 확인
+    const outputContent = await readFile(outputPath, 'utf-8')
+    const parsedOutput = parseYaml(outputContent)
+    
+    expect(parsedOutput.l_korean).toBeDefined()
+    expect(Object.keys(parsedOutput.l_korean).length).toBe(entryCount)
+    
+    // 번역이 적용되었는지 확인
+    const firstKey = Object.keys(parsedOutput.l_korean)[0]
+    const [translatedValue] = parsedOutput.l_korean[firstKey]
+    expect(translatedValue).toContain('[KO]')
+  })
+
+  it('1000개 미만의 항목이 있어도 최종 파일을 올바르게 쓸 수 있어야 함', async () => {
+    // 1000개 미만의 항목이 있는 소스 파일 생성
+    const entryCount = 500
+    const sourceContent = createLargeYamlFile(entryCount, 'english')
+
+    // 목 설정 후 임포트
+    const { processModTranslations } = await import('./translate')
+
+    // meta.toml 및 디렉토리 구조 생성
+    const modDir = join(testDir, 'test-mod')
+    const upstreamDir = join(modDir, 'upstream')
+    const metaContent = `
+[upstream]
+localization = ["."]
+language = "english"
+`
+    await mkdir(upstreamDir, { recursive: true })
+    await writeFile(join(modDir, 'meta.toml'), metaContent, 'utf-8')
+    await writeFile(join(upstreamDir, 'small_l_english.yml'), sourceContent, 'utf-8')
+
+    // 번역 실행
+    await processModTranslations({
+      rootDir: testDir,
+      mods: ['test-mod'],
+      gameType: 'ck3',
+      onlyHash: false
+    })
+
+    // 출력 파일 존재 확인
+    const outputPath = join(modDir, 'mod', 'localization', 'korean', '___small_l_korean.yml')
+    await access(outputPath)
+
+    // 출력 내용이 유효한지 확인
+    const outputContent = await readFile(outputPath, 'utf-8')
+    const parsedOutput = parseYaml(outputContent)
+    
+    expect(parsedOutput.l_korean).toBeDefined()
+    expect(Object.keys(parsedOutput.l_korean).length).toBe(entryCount)
+  })
+
+  it('기존 번역을 보존하고 변경된 항목만 업데이트해야 함', async () => {
+    // 초기 파일 생성
+    const entryCount = 100
+    const sourceContent = createLargeYamlFile(entryCount, 'english')
+
+    const { processModTranslations } = await import('./translate')
+
+    // meta.toml 및 디렉토리 구조 생성
+    const modDir = join(testDir, 'test-mod')
+    const upstreamDir = join(modDir, 'upstream')
+    const metaContent = `
+[upstream]
+localization = ["."]
+language = "english"
+`
+    await mkdir(upstreamDir, { recursive: true })
+    await writeFile(join(modDir, 'meta.toml'), metaContent, 'utf-8')
+    await writeFile(join(upstreamDir, 'preserve_l_english.yml'), sourceContent, 'utf-8')
+
+    // 첫 번째 실행
+    await processModTranslations({
+      rootDir: testDir,
+      mods: ['test-mod'],
+      gameType: 'ck3',
+      onlyHash: false
+    })
+
+    // 첫 번째 출력 읽기
+    const outputPath = join(modDir, 'mod', 'localization', 'korean', '___preserve_l_korean.yml')
+    const firstOutput = await readFile(outputPath, 'utf-8')
+    
+    // 두 번째 실행 (기존 번역을 보존해야 함)
+    await processModTranslations({
+      rootDir: testDir,
+      mods: ['test-mod'],
+      gameType: 'ck3',
+      onlyHash: false
+    })
+    
+    const secondOutput = await readFile(outputPath, 'utf-8')
+    
+    // 아무것도 변경되지 않았으므로 두 출력이 동일해야 함
+    expect(secondOutput).toBe(firstOutput)
+  })
+
+  it('타임아웃을 우아하게 처리하고 진행 상황을 저장해야 함', async () => {
+    // 타임아웃을 유발할 항목이 있는 파일 생성
+    const entryCount = 100
+    const sourceContent = createLargeYamlFile(entryCount, 'english')
+
+    // translate 모킹 (시간이 걸리도록)
+    const { translate } = await import('../utils/translate')
+    vi.mocked(translate).mockImplementation(async (text: string) => {
+      await new Promise(resolve => setTimeout(resolve, 10)) // 번역당 10ms
+      return `[KO]${text}`
+    })
+
+    const { processModTranslations } = await import('./translate')
+
+    // meta.toml 및 디렉토리 구조 생성
+    const modDir = join(testDir, 'test-mod')
+    const upstreamDir = join(modDir, 'upstream')
+    const metaContent = `
+[upstream]
+localization = ["."]
+language = "english"
+`
+    await mkdir(upstreamDir, { recursive: true })
+    await writeFile(join(modDir, 'meta.toml'), metaContent, 'utf-8')
+    await writeFile(join(upstreamDir, 'timeout_l_english.yml'), sourceContent, 'utf-8')
+
+    // 매우 짧은 타임아웃으로 실행 (0.01분 = 600ms)
+    await processModTranslations({
+      rootDir: testDir,
+      mods: ['test-mod'],
+      gameType: 'ck3',
+      onlyHash: false,
+      timeoutMinutes: 0.01
+    })
+
+    // 일부 작업이 저장되었는지 확인 (파일이 존재해야 함)
+    const outputPath = join(modDir, 'mod', 'localization', 'korean', '___timeout_l_korean.yml')
+    await access(outputPath) // 예외가 발생하지 않아야 함
+
+    // 파일에 일부 콘텐츠가 있는지 확인 (부분 번역 저장됨)
+    const outputContent = await readFile(outputPath, 'utf-8')
+    expect(outputContent).toBeTruthy()
+    expect(outputContent).toContain('l_korean')
+  })
+
+  it('타임아웃이 비활성화되면 정상적으로 작동해야 함', async () => {
+    const entryCount = 100
+    const sourceContent = createLargeYamlFile(entryCount, 'english')
+
+    const { processModTranslations } = await import('./translate')
+
+    // meta.toml 및 디렉토리 구조 생성
+    const modDir = join(testDir, 'test-mod')
+    const upstreamDir = join(modDir, 'upstream')
+    const metaContent = `
+[upstream]
+localization = ["."]
+language = "english"
+`
+    await mkdir(upstreamDir, { recursive: true })
+    await writeFile(join(modDir, 'meta.toml'), metaContent, 'utf-8')
+    await writeFile(join(upstreamDir, 'notimeout_l_english.yml'), sourceContent, 'utf-8')
+
+    // 타임아웃 비활성화 상태로 실행
+    await processModTranslations({
+      rootDir: testDir,
+      mods: ['test-mod'],
+      gameType: 'ck3',
+      onlyHash: false,
+      timeoutMinutes: false // 비활성화
+    })
+
+    // 완전한 번역 확인
+    const outputPath = join(modDir, 'mod', 'localization', 'korean', '___notimeout_l_korean.yml')
+    const outputContent = await readFile(outputPath, 'utf-8')
+    const parsedOutput = parseYaml(outputContent)
+    
+    expect(Object.keys(parsedOutput.l_korean).length).toBe(entryCount)
+  })
+
+  it('번역 실패한 항목을 추적하고 로그에 출력해야 함', async () => {
+    const entryCount = 10
+    const sourceContent = createLargeYamlFile(entryCount, 'english')
+
+    // translate 모킹 - 일부 항목에 대해 TranslationRetryExceededError 발생
+    const { translate, TranslationRetryExceededError } = await import('../utils/translate')
+    vi.mocked(translate).mockImplementation(async (text: string) => {
+      // test_key_3과 test_key_7에서 실패
+      if (text.includes('value 3') || text.includes('value 7')) {
+        throw new TranslationRetryExceededError(text)
+      }
+      return `[KO]${text}`
+    })
+
+    const { log } = await import('../utils/logger')
+    const { processModTranslations } = await import('./translate')
+
+    // meta.toml 및 디렉토리 구조 생성 (ck3/ 하위 디렉토리 구조 모방)
+    const ck3Dir = join(testDir, 'ck3')
+    const modDir = join(ck3Dir, 'test-mod')
+    const upstreamDir = join(modDir, 'upstream')
+    const metaContent = `
+[upstream]
+localization = ["."]
+language = "english"
+`
+    await mkdir(upstreamDir, { recursive: true })
+    await writeFile(join(modDir, 'meta.toml'), metaContent, 'utf-8')
+    await writeFile(join(upstreamDir, 'fail_l_english.yml'), sourceContent, 'utf-8')
+
+    // 번역 실행 - rootDir은 ck3Dir
+    const result = await processModTranslations({
+      rootDir: ck3Dir,
+      mods: ['test-mod'],
+      gameType: 'ck3',
+      onlyHash: false
+    })
+
+    // 반환값에 번역되지 않은 항목이 포함되어 있는지 확인
+    expect(result.untranslatedItems).toBeDefined()
+    expect(result.untranslatedItems.length).toBe(2)
+    expect(result.untranslatedItems.some(item => item.key === 'test_key_3')).toBe(true)
+    expect(result.untranslatedItems.some(item => item.key === 'test_key_7')).toBe(true)
+
+    // 번역되지 않은 항목에 대한 경고 로그가 호출되었는지 확인
+    // 번역 재시도 초과 경고 메시지 확인
+    expect(vi.mocked(log.warn)).toHaveBeenCalledWith(expect.stringContaining('번역 재시도 초과'))
+    // 키 정보가 포함된 로그 확인
+    expect(vi.mocked(log.warn)).toHaveBeenCalledWith(expect.stringContaining('test_key_3'))
+    expect(vi.mocked(log.warn)).toHaveBeenCalledWith(expect.stringContaining('test_key_7'))
+    // 원본 메시지가 포함된 로그 확인
+    expect(vi.mocked(log.warn)).toHaveBeenCalledWith(expect.stringContaining('Test value 3'))
+    expect(vi.mocked(log.warn)).toHaveBeenCalledWith(expect.stringContaining('Test value 7'))
+
+    // 출력 파일에 원문이 보존되었는지 확인
+    const outputPath = join(modDir, 'mod', 'localization', 'korean', '___fail_l_korean.yml')
+    const outputContent = await readFile(outputPath, 'utf-8')
+    const parsedOutput = parseYaml(outputContent)
+    
+    // test_key_3과 test_key_7은 번역되지 않은 원문 그대로, hash는 null이어야 함
+    expect(parsedOutput.l_korean['test_key_3'][0]).toBe('Test value 3')
+    expect(parsedOutput.l_korean['test_key_3'][1]).toBeNull()
+    expect(parsedOutput.l_korean['test_key_7'][0]).toBe('Test value 7')
+    expect(parsedOutput.l_korean['test_key_7'][1]).toBeNull()
+    
+    // 다른 항목들은 정상적으로 번역되었는지 확인
+    expect(parsedOutput.l_korean['test_key_0'][0]).toBe('[KO]Test value 0')
+    expect(parsedOutput.l_korean['test_key_0'][1]).toBeTruthy() // hash가 있어야 함
+
+    // JSON 파일이 생성되었는지 확인 (projectRoot = testDir)
+    const jsonPath = join(testDir, 'ck3-untranslated-items.json')
+    const jsonContent = await readFile(jsonPath, 'utf-8')
+    const jsonData = JSON.parse(jsonContent)
+    
+    expect(jsonData.gameType).toBe('ck3')
+    expect(jsonData.timestamp).toBeDefined()
+    expect(jsonData.items.length).toBe(2)
+    expect(jsonData.items.some((item: { key: string }) => item.key === 'test_key_3')).toBe(true)
+    expect(jsonData.items.some((item: { key: string }) => item.key === 'test_key_7')).toBe(true)
+  })
+
+  it('번역 실패 항목이 없으면 JSON 파일을 생성하지 않아야 함', async () => {
+    const entryCount = 5
+    const sourceContent = createLargeYamlFile(entryCount, 'english')
+
+    // 모든 번역이 성공하도록 모킹 재설정
+    const { translate } = await import('../utils/translate')
+    vi.mocked(translate).mockImplementation(async (text: string) => {
+      return `[KO]${text}`
+    })
+
+    const { processModTranslations } = await import('./translate')
+
+    // meta.toml 및 디렉토리 구조 생성 (ck3/ 하위 디렉토리 구조 모방)
+    const ck3Dir = join(testDir, 'ck3')
+    const modDir = join(ck3Dir, 'test-mod')
+    const upstreamDir = join(modDir, 'upstream')
+    const metaContent = `
+[upstream]
+localization = ["."]
+language = "english"
+`
+    await mkdir(upstreamDir, { recursive: true })
+    await writeFile(join(modDir, 'meta.toml'), metaContent, 'utf-8')
+    await writeFile(join(upstreamDir, 'success_l_english.yml'), sourceContent, 'utf-8')
+
+    // 번역 실행 - rootDir은 ck3Dir
+    const result = await processModTranslations({
+      rootDir: ck3Dir,
+      mods: ['test-mod'],
+      gameType: 'ck3',
+      onlyHash: false
+    })
+
+    // 반환값에 번역되지 않은 항목이 비어 있어야 함
+    expect(result.untranslatedItems).toBeDefined()
+    expect(result.untranslatedItems.length).toBe(0)
+
+    // JSON 파일이 생성되지 않았는지 확인 (projectRoot = testDir)
+    const jsonPath = join(testDir, 'ck3-untranslated-items.json')
+    expect(existsSync(jsonPath)).toBe(false)
+  })
+
+  it('upstream 디렉토리가 없으면 명확한 오류 메시지를 표시해야 함', async () => {
+    const { processModTranslations } = await import('./translate')
+
+    // meta.toml 생성하지만 upstream 디렉토리는 생성하지 않음
+    const modDir = join(testDir, 'test-mod')
+    const metaContent = `
+[upstream]
+localization = ["localisation/english"]
+language = "english"
+`
+    await mkdir(modDir, { recursive: true })
+    await writeFile(join(modDir, 'meta.toml'), metaContent, 'utf-8')
+
+    // 번역 실행 시 오류가 발생해야 함
+    await expect(processModTranslations({
+      rootDir: testDir,
+      mods: ['test-mod'],
+      gameType: 'stellaris',
+      onlyHash: false
+    })).rejects.toThrow(/upstream 디렉토리가 존재하지 않습니다/)
+  })
+
+  it('번역 거부 시 현재까지 작업을 저장하고 정상 종료해야 함', async () => {
+    const entryCount = 10
+    const sourceContent = createLargeYamlFile(entryCount, 'english')
+
+    // translate 모킹 - test_key_5에서 TranslationRefusedError 발생
+    const { translate, TranslationRefusedError } = await import('../utils/translate')
+    vi.mocked(translate).mockImplementation(async (text: string) => {
+      // test_key_5에서 번역 거부
+      if (text.includes('value 5')) {
+        throw new TranslationRefusedError(text, 'SAFETY - 안전 필터에 의해 차단됨')
+      }
+      return `[KO]${text}`
+    })
+
+    const { log } = await import('../utils/logger')
+    const { processModTranslations } = await import('./translate')
+
+    // meta.toml 및 디렉토리 구조 생성 (ck3/ 하위 디렉토리 구조 모방)
+    const ck3Dir = join(testDir, 'ck3')
+    const modDir = join(ck3Dir, 'test-mod')
+    const upstreamDir = join(modDir, 'upstream')
+    const metaContent = `
+[upstream]
+localization = ["."]
+language = "english"
+`
+    await mkdir(upstreamDir, { recursive: true })
+    await writeFile(join(modDir, 'meta.toml'), metaContent, 'utf-8')
+    await writeFile(join(upstreamDir, 'refusal_l_english.yml'), sourceContent, 'utf-8')
+
+    // 번역 실행 - 예외 없이 정상 종료되어야 함, rootDir은 ck3Dir
+    const result = await processModTranslations({
+      rootDir: ck3Dir,
+      mods: ['test-mod'],
+      gameType: 'ck3',
+      onlyHash: false
+    })
+
+    // 번역 거부 로그가 호출되었는지 확인
+    expect(vi.mocked(log.warn)).toHaveBeenCalledWith(expect.stringContaining('번역 거부'))
+
+    // 반환값에 거부된 항목이 포함되어 있는지 확인
+    expect(result.untranslatedItems).toBeDefined()
+    expect(result.untranslatedItems.length).toBe(1)
+    expect(result.untranslatedItems[0].key).toBe('test_key_5')
+    expect(result.untranslatedItems[0].message).toContain('Test value 5')
+    expect(result.untranslatedItems[0].message).toContain('번역 거부')
+
+    // 출력 파일이 존재하고 부분적으로 번역되었는지 확인
+    const outputPath = join(modDir, 'mod', 'localization', 'korean', '___refusal_l_korean.yml')
+    await access(outputPath) // 파일이 없으면 예외 발생
+
+    // 파일에 일부 콘텐츠가 있는지 확인 (부분 번역 저장됨)
+    const outputContent = await readFile(outputPath, 'utf-8')
+    expect(outputContent).toBeTruthy()
+    expect(outputContent).toContain('l_korean')
+
+    // test_key_0 ~ test_key_4 까지는 번역되었는지 확인
+    const parsedOutput = parseYaml(outputContent)
+    expect(parsedOutput.l_korean['test_key_0'][0]).toBe('[KO]Test value 0')
+    expect(parsedOutput.l_korean['test_key_4'][0]).toBe('[KO]Test value 4')
+
+    // test_key_5 이후는 저장되지 않아야 함 (중단되었으므로)
+    expect(parsedOutput.l_korean['test_key_5']).toBeUndefined()
+    
+    // JSON 파일이 생성되었는지 확인 (projectRoot = testDir)
+    const jsonPath = join(testDir, 'ck3-untranslated-items.json')
+    const jsonContent = await readFile(jsonPath, 'utf-8')
+    const jsonData = JSON.parse(jsonContent)
+    
+    expect(jsonData.gameType).toBe('ck3')
+    expect(jsonData.timestamp).toBeDefined()
+    expect(jsonData.items.length).toBe(1)
+    expect(jsonData.items[0].key).toBe('test_key_5')
+    expect(jsonData.items[0].message).toContain('Test value 5')
+    expect(jsonData.items[0].message).toContain('번역 거부')
+  })
+
+  it('여러 모드가 있을 때도 번역 거부를 올바르게 처리해야 함', async () => {
+    const testDir = join(tmpdir(), `translate-test-multi-${Date.now()}`)
+    const ck3Dir = join(testDir, 'ck3')
+    
+    // 2개의 모드 생성
+    const mod1Dir = join(ck3Dir, 'mod1')
+    const mod2Dir = join(ck3Dir, 'mod2')
+    const upstream1Dir = join(mod1Dir, 'upstream')
+    const upstream2Dir = join(mod2Dir, 'upstream')
+
+    await mkdir(upstream1Dir, { recursive: true })
+    await mkdir(upstream2Dir, { recursive: true })
+
+    // mod1: 번역 성공
+    await writeFile(join(mod1Dir, 'meta.toml'), `
+[upstream]
+localization = ["."]
+language = "english"
+`, 'utf-8')
+    await writeFile(join(upstream1Dir, 'mod1_l_english.yml'), `l_english:
+ key1:0 "Value 1"
+ key2:0 "Value 2"
+`, 'utf-8')
+
+    // mod2: 번역 거부
+    await writeFile(join(mod2Dir, 'meta.toml'), `
+[upstream]
+localization = ["."]
+language = "english"
+`, 'utf-8')
+    await writeFile(join(upstream2Dir, 'mod2_l_english.yml'), `l_english:
+ key3:0 "Value 3"
+ key4:0 "Bunsom"
+`, 'utf-8')
+
+    const { translate, TranslationRefusedError } = await import('../utils/translate')
+    
+    // Bunsom에 대해 번역 거부
+    vi.mocked(translate).mockImplementation(async (text: string) => {
+      if (text.includes('Bunsom')) {
+        throw new TranslationRefusedError(text, 'SAFETY')
+      }
+      return `[KO]${text}`
+    })
+
+    const { processModTranslations } = await import('./translate')
+    const result = await processModTranslations({
+      rootDir: ck3Dir,
+      mods: ['mod1', 'mod2'],
+      gameType: 'ck3',
+      onlyHash: false
+    })
+
+    // mod1은 완료, mod2에서 거부되어 1개의 untranslated item이 있어야 함
+    expect(result.untranslatedItems).toBeDefined()
+    expect(result.untranslatedItems.length).toBe(1)
+    expect(result.untranslatedItems[0].key).toBe('key4')
+    expect(result.untranslatedItems[0].message).toContain('Bunsom')
+
+    // JSON 파일이 생성되었는지 확인
+    const jsonPath = join(testDir, 'ck3-untranslated-items.json')
+    const jsonContent = await readFile(jsonPath, 'utf-8')
+    const jsonData = JSON.parse(jsonContent)
+    
+    expect(jsonData.items.length).toBe(1)
+    expect(jsonData.items[0].key).toBe('key4')
+    expect(jsonData.items[0].mod).toBe('mod2')
+
+    // mod1의 번역 파일은 생성되었는지 확인
+    const mod1Output = join(mod1Dir, 'mod', 'localization', 'korean', '___mod1_l_korean.yml')
+    const mod1Content = await readFile(mod1Output, 'utf-8')
+    expect(mod1Content).toContain('[KO]Value 1')
+    expect(mod1Content).toContain('[KO]Value 2')
+
+    // mod2의 번역 파일은 부분적으로 생성되었는지 확인
+    const mod2Output = join(mod2Dir, 'mod', 'localization', 'korean', '___mod2_l_korean.yml')
+    const mod2Content = await readFile(mod2Output, 'utf-8')
+    expect(mod2Content).toContain('[KO]Value 3')
+    expect(mod2Content).not.toContain('Bunsom') // 거부된 항목은 번역되지 않음
+
+    // 정리
+    await rm(testDir, { recursive: true, force: true })
+  })
+})
+
+// 지정된 개수의 항목을 가진 YAML 파일을 생성하는 헬퍼 함수
+function createLargeYamlFile(entryCount: number, language: string): string {
+  let content = `l_${language}:\n`
+  for (let i = 0; i < entryCount; i++) {
+    content += `  test_key_${i}: "Test value ${i}"\n`
+  }
+  return content
+}

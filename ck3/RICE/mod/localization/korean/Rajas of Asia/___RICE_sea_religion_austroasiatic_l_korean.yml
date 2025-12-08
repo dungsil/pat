@@ -1,0 +1,470 @@
+﻿l_korean:
+  kuy_religion: "카투익" # 15083968469924569741
+  kuy_religion_adj: "카투익" # 15083968469924569741
+  kuy_religion_adherent: "카투이키스트" # 11068625467590621713
+  kuy_religion_adherent_plural: "카투이시스트" # 13613492716189969365
+  kuy_religion_desc: "카투계 민족의 토착 종교는 자연과의 조화를 중시하며, 아흐렛(ah'ret)이라 불리는 조상 유령 신앙을 강조합니다." # 1602374358104304659
+  kuy_animism: "아흐레티즘" # 17008240624603470068
+  kuy_animism_adj: "이단" # 1213784601908435257
+  kuy_animism_adherent: "아흐레티스트" # 13220372638385164868
+  kuy_animism_adherent_plural: "아렛츠" # 16756037466202874070
+  kuy_animism_desc: "$kuy_religion_desc$" # 7861709116984725936
+  kuy_animism_old: "#bold 오래된 아흐렛주의#!" # 5175926047626696123
+  kuy_animism_old_adj: "오래된 이단자" # 6839148130160637586
+  kuy_animism_old_adherent: "오래된 아흐렛티스트" # 4963134139333021470
+  kuy_animism_old_adherent_plural: "오래된 아흐레티스트들" # 11772400239278540059
+  kuy_animism_old_desc: "$kuy_religion_desc$" # 7861709116984725936
+  kuy_animism_high_god_name: "아흐레츠" # 8212432259653344103
+  kuy_animism_high_god_name_possessive: "아흐레츠" # 16343976014270534751
+  kuy_animism_high_god_name_alternate: "정신" # 14078919855298401188
+  kuy_animism_high_god_name_alternate_possessive: "영혼의" # 8437474325150182553
+  kuy_animism_good_god_ahrets: "자비로운 아흐레츠" # 9637965145886254868
+  kuy_animism_good_god_ancestors: "선조들" # 13211484634392922092
+  kuy_animism_devil_name: "악의에 찬 아흐레츠" # 2571536883540186315
+  kuy_animism_devil_name_possessive: "악의적인 아흐레츠의" # 16651741722118870439
+  kuy_animism_devil_shehe: "그것" # 3125420670989364317
+  kuy_animism_devil_herselfhimself: "그 자체" # 641171738588078623
+  kuy_animism_devil_herhis: "그것은" # 12383260098665029106
+  kuy_animism_death_name: "죽음" # 6839449773115691256
+  kuy_animism_death_name_possessive: "죽음의" # 4370432923129616423
+  kuy_animism_death_herhis: "그것은" # 12383260098665029106
+  kuy_animism_creator_god_name: "$kuy_animism_high_god_name$" # 16978616507064233570
+  kuy_animism_creator_god_name_possessive: "$kuy_animism_high_god_name_possessive$" # 2594601044795171033
+  kuy_animism_health_god_name: "$kuy_animism_high_god_name$" # 16978616507064233570
+  kuy_animism_health_god_name_possessive: "$kuy_animism_high_god_name_possessive$" # 2594601044795171033
+  kuy_animism_fertility_god_name: "$kuy_animism_high_god_name$" # 16978616507064233570
+  kuy_animism_fertility_god_name_possessive: "$kuy_animism_high_god_name_possessive$" # 2594601044795171033
+  kuy_animism_wealth_god_name: "$kuy_animism_high_god_name$" # 16978616507064233570
+  kuy_animism_wealth_god_name_possessive: "$kuy_animism_high_god_name_possessive$" # 2594601044795171033
+  kuy_animism_household_god_name: "$kuy_animism_high_god_name$" # 16978616507064233570
+  kuy_animism_household_god_name_possessive: "$kuy_animism_high_god_name_possessive$" # 2594601044795171033
+  kuy_animism_fate_god_name: "운명" # 2796749541833053969
+  kuy_animism_fate_god_name_possessive: "운명의" # 13257871882534990612
+  kuy_animism_knowledge_god_name: "$kuy_animism_high_god_name$" # 16978616507064233570
+  kuy_animism_knowledge_god_name_possessive: "$kuy_animism_high_god_name_possessive$" # 2594601044795171033
+  kuy_animism_war_god_name: "$kuy_animism_high_god_name$" # 16978616507064233570
+  kuy_animism_war_god_name_possessive: "$kuy_animism_high_god_name_possessive$" # 2594601044795171033
+  kuy_animism_trickster_god_name: "$kuy_animism_high_god_name$" # 16978616507064233570
+  kuy_animism_trickster_god_name_possessive: "$kuy_animism_high_god_name_possessive$" # 2594601044795171033
+  kuy_animism_night_god_name: "$kuy_animism_trickster_god_name$" # 3050149368948699731
+  kuy_animism_night_god_name_possessive: "$kuy_animism_trickster_god_name_possessive$" # 14660640322751512949
+  kuy_animism_water_god_name: "$kuy_animism_high_god_name$" # 16978616507064233570
+  kuy_animism_water_god_name_possessive: "$kuy_animism_high_god_name_possessive$" # 2594601044795171033
+  kuy_animism_house_of_worship: "성소" # 2303695743383420811
+  kuy_animism_house_of_worship_plural: "성소들" # 17142390693193914587
+  kuy_animism_religious_symbol: "코끼리" # 14750043240646032238
+  kuy_animism_religious_text: "신성한 이야기들" # 1916157011032334391
+  kuy_animism_religious_head_title: "고위 차이" # 14088769149010658903
+  kuy_animism_religious_head_title_name: "최고 의회" # 15038947742583190916
+  kuy_animism_devotee: "신봉자" # 16996875086266395993
+  kuy_animism_devotee_plural: "신도들" # 15412075443944701231
+  kuy_animism_devotee_male: "신봉자" # 16996875086266395993
+  kuy_animism_devotee_male_plural: "신봉자" # 16996875086266395993
+  kuy_animism_devotee_female: "신봉자" # 16996875086266395993
+  kuy_animism_devotee_female_plural: "신봉자" # 16996875086266395993
+  kuy_animism_priest: "차이" # 3299470364225065570
+  kuy_animism_priest_plural: "차이스" # 1851771784424540491
+  kuy_animism_priest_alternate_plural: "샤먼들" # 18154816624900111499
+  kuy_animism_divine_realm: "하늘" # 281074639492266792
+  kuy_animism_afterlife: "지하 세계" # 8303066665719263468
+  witchgodname_kuy_animism_the_shadow: "그림자" # 6768136610430760754
+  wa_religion: "팔라웅어족" # 17544454486398694391
+  wa_religion_adj: "팔라웅어족" # 17544454486398694391
+  wa_religion_adherent: "팔라웅파 신봉자" # 11446663192279925418
+  wa_religion_adherent_plural: "팔라웅교 신봉자들" # 9519001093340336720
+  wa_religion_desc: "와족의 전통 종교는 산, 강 및 기타 자연물에 깃들어 있는 정령에 대한 믿음을 강조합니다. 이 정령들을 달래기 위한 동물 희생이 흔하며, 그중에서도 인간의 머리 희생이 가장 신성합니다." # 10834813311939961743
+  wa_animism: "무지즘" # 15633236854098826215
+  wa_animism_adj: "무지스트" # 14612280067970298174
+  wa_animism_adherent: "무지스트" # 14612280067970298174
+  wa_animism_adherent_plural: "무지지스트" # 15847290120035516101
+  wa_animism_religion_desc: "$wa_religion_desc$" # 18026768254154639191
+  wa_animism_old: "오래된 무지즘" # 12441884980015976083
+  wa_animism_old_adj: "오래된 무지시스트" # 7924833964142892750
+  wa_animism_old_adherent: "오래된 무지시스트" # 7924833964142892750
+  wa_animism_old_adherent_plural: "오래된 무지지스트들" # 1162849363488906768
+  wa_animism_old_religion_desc: "$wa_religion_desc$" # 18026768254154639191
+  wa_animism_high_god_name: "무지" # 7745904473846160306
+  wa_animism_high_god_name_alternate: "무지" # 7745904473846160306
+  wa_animism_high_god_name_alternate_possessive: "무지스의" # 9269602339752816303
+  wa_animism_high_god_name_2: "무지" # 7745904473846160306
+  wa_animism_high_god_name_possessive: "무지스의" # 9269602339752816303
+  wa_animism_devil_name: "부패" # 13053478531208713602
+  wa_animism_devil_name_possessive: "부패의" # 3367953390396647190
+  wa_animism_devil_shehe: "그것" # 3125420670989364317
+  wa_animism_devil_herselfhimself: "그 자체" # 641171738588078623
+  wa_animism_devil_herhis: "그것은" # 12383260098665029106
+  wa_animism_evil_god_decay: "역병" # 15313750568128129140
+  wa_animism_evil_god_decay_possessive: "역병의" # 9485747922900271584
+  wa_animism_evil_god_drought: "가뭄" # 15786026485696089182
+  wa_animism_evil_god_dul: "역병" # 15313750568128129140
+  wa_animism_evil_god_dul_possessive: "역병의" # 9485747922900271584
+  wa_animism_death_name: "죽음" # 6839449773115691256
+  wa_animism_death_name_possessive: "죽음의" # 4370432923129616423
+  wa_animism_death_herhis: "그것은" # 12383260098665029106
+  wa_animism_creator_god_name: "$wa_animism_high_god_name$" # 4329320051486771247
+  wa_animism_creator_god_name_possessive: "$wa_animism_high_god_name_possessive$" # 2110599865998406519
+  wa_animism_health_god_name: "$wa_animism_high_god_name$" # 4329320051486771247
+  wa_animism_health_god_name_possessive: "$wa_animism_high_god_name_possessive$" # 2110599865998406519
+  wa_animism_fertility_god_name: "$wa_animism_high_god_name$" # 4329320051486771247
+  wa_animism_fertility_god_name_possessive: "$wa_animism_high_god_name_possessive$" # 2110599865998406519
+  wa_animism_wealth_god_name: "$wa_animism_high_god_name$" # 4329320051486771247
+  wa_animism_wealth_god_name_possessive: "$wa_animism_high_god_name_possessive$" # 2110599865998406519
+  wa_animism_household_god_name: "$wa_animism_high_god_name$" # 4329320051486771247
+  wa_animism_household_god_name_possessive: "$wa_animism_high_god_name_possessive$" # 2110599865998406519
+  wa_animism_fate_god_name: "운명" # 2796749541833053969
+  wa_animism_fate_god_name_possessive: "운명의" # 13257871882534990612
+  wa_animism_knowledge_god_name: "$wa_animism_high_god_name$" # 4329320051486771247
+  wa_animism_knowledge_god_name_possessive: "$wa_animism_high_god_name_possessive$" # 2110599865998406519
+  wa_animism_war_god_name: "라푸" # 12092889087379193564
+  wa_animism_war_god_name_possessive: "라푸의" # 10432881215110106331
+  wa_animism_trickster_god_name: "누" # 6580364494245456369
+  wa_animism_trickster_god_name_possessive: "누스" # 14649930458549991953
+  wa_animism_night_god_name: "룬" # 17735730018727870118
+  wa_animism_night_god_name_possessive: "룬의" # 3292539778337418405
+  wa_animism_water_god_name: "아구" # 5974762136929681721
+  wa_animism_water_god_name_possessive: "아구스" # 2155834590482432674
+  wa_animism_house_of_worship: "니엑스 뫼그" # 2753440730921148394
+  wa_animism_house_of_worship_2: "$wa_animism_house_of_worship$" # 13498956203685734468
+  wa_animism_house_of_worship_3: "$wa_animism_house_of_worship$" # 13498956203685734468
+  wa_animism_house_of_worship_plural: "니엑스 뫼그스" # 10194046913937716547
+  wa_animism_religious_symbol: "버팔로" # 291009156539341600
+  wa_animism_religious_symbol_2: "$wa_animism_religious_symbol$" # 10702452597204689401
+  wa_animism_religious_symbol_3: "$wa_animism_religious_symbol$" # 10702452597204689401
+  wa_animism_religious_text: "신성한 이야기들" # 1916157011032334391
+  wa_animism_religious_text_2: "신성한 이야기들" # 1916157011032334391
+  wa_animism_religious_text_3: "신성한 이야기들" # 1916157011032334391
+  wa_animism_religious_head_title: "높은 세금 차오 차이" # 8487205885943383723
+  wa_animism_religious_head_title_name: "최고 의회" # 15038947742583190916
+  wa_animism_devotee: "신봉자" # 16996875086266395993
+  wa_animism_devotee_plural: "신도들" # 15412075443944701231
+  wa_animism_devotee_male: "신봉자" # 16996875086266395993
+  wa_animism_devotee_male_plural: "신도들" # 15412075443944701231
+  wa_animism_devotee_female: "신봉자" # 16996875086266395993
+  wa_animism_devotee_female_plural: "신도들" # 15412075443944701231
+  wa_animism_priest: "세금 차이" # 18101231456491920521
+  wa_animism_priest_plural: "세금 차이" # 1967551132696590380
+  wa_animism_priest_term_plural: "세금 차이" # 1967551132696590380
+  wa_animism_priest_alternate_plural: "영혼 치유사" # 1389439750334819962
+  wa_animism_bishop: "세금 차이" # 18101231456491920521
+  wa_animism_bishop_plural: "세금 차이" # 1967551132696590380
+  wa_animism_divine_realm: "하늘" # 281074639492266792
+  wa_animism_divine_realm_2: "하늘" # 281074639492266792
+  wa_animism_divine_realm_3: "하늘" # 281074639492266792
+  wa_animism_afterlife: "지하 세계" # 8303066665719263468
+  wa_animism_afterlife_2: "지하 세계" # 8303066665719263468
+  wa_animism_afterlife_3: "지하 세계" # 8303066665719263468
+  wa_animism_positive_afterlife: "지하 세계" # 8303066665719263468
+  wa_animism_negative_afterlife: "지하 세계" # 8303066665719263468
+  witchgodname_wa_animism_the_shadow: "그림자" # 6768136610430760754
+  khasi_religion: "카식" # 6548946075251220549
+  khasi_religion_adj: "카식" # 6548946075251220549
+  khasi_religion_adherent: "카식 신봉자" # 6672711671891216251
+  khasi_religion_adherent_plural: "카식 신봉자들" # 7696934792389502663
+  khasi_religion_desc: "카 니암 트레는 크하시족의 토착 종교로, 창조신 우 블레이 농타우와 더불어 물, 산 및 기타 자연물 숭배 신들을 섬깁니다." # 17991476404048502041
+  khasi_animism: "니암 트레" # 5017306238002068134
+  khasi_animism_adj: "니암 트레" # 5017306238002068134
+  khasi_animism_adherent: "니암트레이스트" # 17302700870786415785
+  khasi_animism_adherent_plural: "니암트레이스트스" # 14725253511170194401
+  khasi_animism_desc: "$khasi_religion_desc$" # 676528781843805017
+  khasi_animism_old: "오래된 니암 트레" # 15179682699007946093
+  khasi_animism_old_adj: "오래된 니암 트레" # 15179682699007946093
+  khasi_animism_old_adherent: "오래된 니아므레이스트" # 6006319155463087383
+  khasi_animism_old_adherent_plural: "옛 니암레이스트인들" # 6573320771854081838
+  khasi_animism_old_desc: "$khasi_religion_desc$" # 676528781843805017
+  khasi_animism_high_god_name: "대지모신" # 4585949624417046126
+  khasi_animism_high_god_name_2: "대지모신" # 4585949624417046126
+  khasi_animism_high_god_name_possessive: "어머니 대지의" # 5767343543068993579
+  khasi_animism_high_god_name_alternate: "가이아" # 4051307162386856358
+  khasi_animism_high_god_name_alternate_possessive: "가이아의" # 3060927535835196407
+  khasi_animism_good_god_father_sky: "$khasi_animism_trickster_god_name$" # 16170868716018402251
+  khasi_animism_good_god_ancestors: "선조들" # 3977550578121230202
+  khasi_animism_devil_name: "부패" # 13053478531208713602
+  khasi_animism_devil_name_possessive: "부패의" # 3367953390396647190
+  khasi_animism_devil_shehe: "그것" # 3125420670989364317
+  khasi_animism_devil_herselfhimself: "그 자체" # 641171738588078623
+  khasi_animism_devil_herhis: "그것은" # 12383260098665029106
+  khasi_animism_evil_god_decay: "역병" # 15313750568128129140
+  khasi_animism_evil_god_decay_possessive: "역병의" # 9485747922900271584
+  khasi_animism_evil_god_drought: "가뭄" # 15786026485696089182
+  khasi_animism_evil_god_dul: "역병" # 15313750568128129140
+  khasi_animism_evil_god_dul_possessive: "역병의" # 9485747922900271584
+  khasi_animism_death_name: "죽음" # 6839449773115691256
+  khasi_animism_death_name_possessive: "죽음의" # 4370432923129616423
+  khasi_animism_death_herhis: "그것은" # 12383260098665029106
+  khasi_animism_good_god_synshar: "신샤르" # 18249503795319703519
+  khasi_animism_good_god_rymmaw: "림마우" # 6390683947633096773
+  khasi_animism_good_god_rasong: "라송" # 10410937459402997634
+  khasi_animism_good_god_leilongkur: "레이롱쿠르" # 4204043727315389742
+  khasi_animism_good_god_ryngkew: "링케우" # 14839285844387488150
+  khasi_animism_good_god_leilongiing: "레이롱잉" # 8544587384778925821
+  khasi_animism_creator_god_name: "$khasi_animism_high_god_name$" # 2101410485508582031
+  khasi_animism_creator_god_name_possessive: "$khasi_animism_high_god_name_possessive$" # 1520314361859442154
+  khasi_animism_health_god_name: "$khasi_animism_high_god_name$" # 2101410485508582031
+  khasi_animism_health_god_name_possessive: "$khasi_animism_high_god_name_possessive$" # 1520314361859442154
+  khasi_animism_fertility_god_name: "$khasi_animism_high_god_name$" # 2101410485508582031
+  khasi_animism_fertility_god_name_possessive: "$khasi_animism_high_god_name_possessive$" # 1520314361859442154
+  khasi_animism_wealth_god_name: "$khasi_animism_high_god_name$" # 2101410485508582031
+  khasi_animism_wealth_god_name_possessive: "$khasi_animism_high_god_name_possessive$" # 1520314361859442154
+  khasi_animism_household_god_name: "$khasi_animism_high_god_name$" # 2101410485508582031
+  khasi_animism_household_god_name_possessive: "$khasi_animism_high_god_name_possessive$" # 1520314361859442154
+  khasi_animism_fate_god_name: "운명" # 2796749541833053969
+  khasi_animism_fate_god_name_possessive: "운명의" # 13257871882534990612
+  khasi_animism_knowledge_god_name: "$khasi_animism_high_god_name$" # 2101410485508582031
+  khasi_animism_knowledge_god_name_possessive: "$khasi_animism_high_god_name_possessive$" # 1520314361859442154
+  khasi_animism_war_god_name: "$khasi_animism_high_god_name$" # 2101410485508582031
+  khasi_animism_war_god_name_possessive: "$khasi_animism_high_god_name_possessive$" # 1520314361859442154
+  khasi_animism_trickster_god_name: "하늘 아버지" # 5782359631674320218
+  khasi_animism_trickster_god_name_possessive: "하늘 아버지" # 5782359631674320218
+  khasi_animism_night_god_name: "$khasi_animism_trickster_god_name$" # 16170868716018402251
+  khasi_animism_night_god_name_possessive: "$khasi_animism_trickster_god_name_possessive$" # 2725265363906608421
+  khasi_animism_water_god_name: "$khasi_animism_high_god_name$" # 2101410485508582031
+  khasi_animism_water_god_name_possessive: "$khasi_animism_high_god_name_possessive$" # 1520314361859442154
+  khasi_animism_house_of_worship: "성소" # 2303695743383420811
+  khasi_animism_house_of_worship_2: "성소" # 2303695743383420811
+  khasi_animism_house_of_worship_3: "성소" # 2303695743383420811
+  khasi_animism_house_of_worship_plural: "성소들" # 17142390693193914587
+  khasi_animism_religious_symbol: "수탉" # 14232936992064492343
+  khasi_animism_religious_symbol_2: "$khasi_animism_religious_symbol$" # 1916780320345296185
+  khasi_animism_religious_symbol_3: "$khasi_animism_religious_symbol$" # 1916780320345296185
+  khasi_animism_religious_text: "신성한 이야기들" # 1916157011032334391
+  khasi_animism_religious_text_2: "신성한 이야기들" # 1916157011032334391
+  khasi_animism_religious_text_3: "신성한 이야기들" # 1916157011032334391
+  khasi_animism_religious_head_title: "고위 샤먼" # 9784349143017949296
+  khasi_animism_religious_head_title_name: "최고 의회" # 15038947742583190916
+  khasi_animism_devotee: "신봉자" # 16996875086266395993
+  khasi_animism_devotee_plural: "신도들" # 15412075443944701231
+  khasi_animism_devotee_male: "신봉자" # 16996875086266395993
+  khasi_animism_devotee_male_plural: "신봉자" # 16996875086266395993
+  khasi_animism_devotee_female: "신봉자" # 16996875086266395993
+  khasi_animism_devotee_female_plural: "신봉자" # 16996875086266395993
+  khasi_animism_devotee_neuter: "신봉자" # 16996875086266395993
+  khasi_animism_devotee_neuter_plural: "신봉자" # 16996875086266395993
+  khasi_animism_priest: "샤먼" # 9080399879002963726
+  khasi_animism_priest_plural: "샤먼들" # 18154816624900111499
+  khasi_animism_priest_term_plural: "샤먼들" # 18154816624900111499
+  khasi_animism_priest_alternate_plural: "장로들" # 5696275286659332166
+  khasi_animism_bishop: "샤먼" # 9080399879002963726
+  khasi_animism_bishop_plural: "샤먼들" # 18154816624900111499
+  khasi_animism_divine_realm: "하늘" # 281074639492266792
+  khasi_animism_divine_realm_2: "하늘" # 281074639492266792
+  khasi_animism_divine_realm_3: "하늘" # 281074639492266792
+  khasi_animism_afterlife: "지하 세계" # 8303066665719263468
+  khasi_animism_afterlife_2: "지하 세계" # 8303066665719263468
+  khasi_animism_afterlife_3: "지하 세계" # 8303066665719263468
+  khasi_animism_positive_afterlife: "지하 세계" # 8303066665719263468
+  khasi_animism_negative_afterlife: "지하 세계" # 8303066665719263468
+  witchgodname_khasi_animism_the_shadow: "그림자" # 6768136610430760754
+  khmuic_religion: "크무이치" # 10701000749676041781
+  khmuic_religion_adj: "크무이치" # 10701000749676041781
+  khmuic_religion_adherent: "크무이스트" # 13416073092626917241
+  khmuic_religion_adherent_plural: "크무이스트교" # 1423353564294181385
+  khmuic_religion_desc: "크무족의 영적 신념은 #italic 루이#!, 즉 정령을 중심으로 하며, 이들은 지극한 존경과 두려움의 대상입니다." # 13172450494457452565
+  khmu_pagan: "루이즘" # 4114805066329890972
+  khmu_pagan_adj: "루이스트" # 11608535921536298379
+  khmu_pagan_adherent: "루이스트" # 11608535921536298379
+  khmu_pagan_adherent_plural: "루이스트파" # 9660391856923152540
+  khmu_pagan_desc: "정령들(혹은 #italic 루이#!), 이들은 종종 눈에 보이지 않기에, 재앙을 피하려면 주의 깊게 감시하고 다루어야 합니다. 일부는 자비로운 정령들도 있지만, 수많은 다른 정령들은 악의적이며, 특히 호랑이 정령인 #italic 루이 라와이#!는 더욱 그렇습니다." # 10626431033220457054
+  khmu_pagan_old: "오래된 루이즘" # 10110128805146842252
+  khmu_pagan_old_adj: "오래된 루이스트파" # 671911628416625025
+  khmu_pagan_old_adherent: "오래된 루이스트파" # 671911628416625025
+  khmu_pagan_old_adherent_plural: "오래된 루이주의자들" # 1048316587328451865
+  khmu_pagan_old_desc: "$khmuic_religion_desc$" # 14128864424565431993
+  khmu_pagan_high_god_name: "루이 갱" # 5593366024095369271
+  khmu_pagan_high_god_name_possessive: "루이 갱의" # 17029888223194886783
+  khmu_pagan_high_god_name_alternate: "가문의 영혼" # 2518523000286666348
+  khmu_pagan_high_god_name_alternate_possessive: "가문의 정령께서" # 13539999694611150682
+  khmu_pagan_good_god: "자비로운 루이" # 10151643250879834908
+  khmu_pagan_devil_name: "루이 루이" # 5488595347548692466
+  khmu_pagan_devil_name_possessive: "루이 루아이의" # 9917776183120500241
+  khmu_pagan_devil_shehe: "그것" # 3125420670989364317
+  khmu_pagan_devil_herselfhimself: "그 자체" # 641171738588078623
+  khmu_pagan_devil_herhis: "그것은" # 12383260098665029106
+  khmu_pagan_evil_god: "악의적인 왕" # 12234970754079553809
+  khmu_pagan_death_name: "루이 힙" # 11035106716478593140
+  khmu_pagan_death_name_possessive: "루이 힙스" # 10686500395958576176
+  khmu_pagan_death_herhis: "그것은" # 12383260098665029106
+  khmu_pagan_creator_god_name: "$khmu_pagan_high_god_name$" # 10289690541583564698
+  khmu_pagan_creator_god_name_possessive: "$khmu_pagan_high_god_name_possessive$" # 16734274379014382757
+  khmu_pagan_health_god_name: "$khmu_pagan_high_god_name$" # 10289690541583564698
+  khmu_pagan_health_god_name_possessive: "$khmu_pagan_high_god_name_possessive$" # 16734274379014382757
+  khmu_pagan_fertility_god_name: "$khmu_pagan_high_god_name$" # 10289690541583564698
+  khmu_pagan_fertility_god_name_possessive: "$khmu_pagan_high_god_name_possessive$" # 16734274379014382757
+  khmu_pagan_wealth_god_name: "루이 프리" # 954181045448491569
+  khmu_pagan_wealth_god_name_possessive: "루이 프리의" # 16700411173202082098
+  khmu_pagan_household_god_name: "$khmu_pagan_high_god_name$" # 10289690541583564698
+  khmu_pagan_household_god_name_possessive: "$khmu_pagan_high_god_name_possessive$" # 16734274379014382757
+  khmu_pagan_fate_god_name: "pnmec 로이" # 13918923719543940960
+  khmu_pagan_fate_god_name_possessive: "pnmec 로이의" # 9490501953965561706
+  khmu_pagan_knowledge_god_name: "$khmu_pagan_fate_god_name$" # 11753480693078937003
+  khmu_pagan_knowledge_god_name_possessive: "$khmu_pagan_fate_god_name_possessive$" # 15716764561263187072
+  khmu_pagan_war_god_name: "$khmu_pagan_high_god_name$" # 10289690541583564698
+  khmu_pagan_war_god_name_possessive: "$khmu_pagan_high_god_name_possessive$" # 16734274379014382757
+  khmu_pagan_trickster_god_name: "루이 힙" # 11035106716478593140
+  khmu_pagan_trickster_god_name_possessive: "루이 힙스" # 10686500395958576176
+  khmu_pagan_night_god_name: "$khmu_pagan_trickster_god_name$" # 18360955767689902167
+  khmu_pagan_night_god_name_possessive: "$khmu_pagan_trickster_god_name_possessive$" # 6517315615867678895
+  khmu_pagan_water_god_name: "루이 옴" # 18225031296635210641
+  khmu_pagan_water_god_name_possessive: "루이 홈스" # 6063628408733537091
+  khmu_pagan_house_of_worship: "쿵 룩쿤" # 6755289709377486197
+  khmu_pagan_house_of_worship_plural: "쿵 륵쿤스" # 15954981795213505464
+  khmu_pagan_religious_symbol: "다람쥐" # 11659506322314236826
+  khmu_pagan_religious_text: "신성한 이야기들" # 1916157011032334391
+  khmu_pagan_religious_head_title: "고위 르쿤" # 15122048968555031721
+  khmu_pagan_religious_head_title_name: "최고 의회" # 15038947742583190916
+  khmu_pagan_devotee: "신봉자" # 16996875086266395993
+  khmu_pagan_devotee_plural: "신도들" # 15412075443944701231
+  khmu_pagan_devotee_male: "신봉자" # 16996875086266395993
+  khmu_pagan_devotee_male_plural: "신봉자" # 16996875086266395993
+  khmu_pagan_devotee_female: "신봉자" # 16996875086266395993
+  khmu_pagan_devotee_female_plural: "신봉자" # 16996875086266395993
+  khmu_pagan_priest: "엘쿠운" # 15617961829168504127
+  khmu_pagan_priest_plural: "엘쿠운스" # 10787224914992820690
+  khmu_pagan_priest_alternate_plural: "장로들" # 5696275286659332166
+  khmu_pagan_divine_realm: "하늘" # 281074639492266792
+  khmu_pagan_afterlife: "지하 세계" # 8303066665719263468
+  pearic_religion: "페어릭" # 17829031525643647892
+  pearic_religion_adj: "페어릭" # 17829031525643647892
+  pearic_religion_adherent: "페어리스트" # 2084090452024556384
+  pearic_religion_adherent_plural: "페어리스트" # 14871262913348807828
+  pearic_religion_desc: "페아르어 사용 민족들은 이 우주에 도움이 되거나 해로울 수 있는 수많은 정령, 즉 #Khâmûuc#이 존재한다고 믿습니다." # 17925200462391699909
+  samre_pagan: "카무시즘" # 2237759316239648178
+  samre_pagan_adj: "카무시스트" # 8845369881086760166
+  samre_pagan_adherent: "카무시스트" # 8845369881086760166
+  samre_pagan_adherent_plural: "카미시스트" # 16080132290427901539
+  samre_pagan_desc: "이 우주에는 선하거나 악할 수 있는 많은 영혼, 즉 카무(Khamûuc)들이 존재합니다. 가장 중요하고 강력한 존재들은 마법사 영혼인 카무 모트(Khamûuc Mòt)이며, 그들은 숙련된 매개체의 도움을 받아 우리의 육체를 빙의함으로써 우리와 소통할 수 있습니다." # 12347156541946619787
+  samre_pagan_old: "고대 카무스교" # 8411257439678115614
+  samre_pagan_old_adj: "고대 카무시스트" # 10634534338617656190
+  samre_pagan_old_adherent: "고대 카무시스트" # 10634534338617656190
+  samre_pagan_old_adherent_plural: "오래된 카무시스트들" # 13053469882728611541
+  samre_pagan_old_desc: "$pearic_religion_desc$" # 3331488868665891504
+  samre_pagan_high_god_name: "캄우크 모트" # 12806883861008801598
+  samre_pagan_high_god_name_possessive: "캄무크 모트" # 16225040356309941610
+  samre_pagan_high_god_name_alternate: "마법사 정령들" # 1462266220764759474
+  samre_pagan_high_god_name_alternate_possessive: "#마법사 정령들#!" # 18171946101974146510
+  samre_pagan_good_god: "캄무크 쿤 민" # 8172781216386758390
+  samre_pagan_devil_name: "캄무크 타즈 홍" # 10789469126744186166
+  samre_pagan_devil_name_possessive: "캄무크 타지 홍의" # 4955988592143688523
+  samre_pagan_devil_shehe: "그들" # 2328972438248726795
+  samre_pagan_devil_herselfhimself: "스스로" # 6200625214287285499
+  samre_pagan_devil_herhis: "그들의" # 17193756598826745697
+  samre_pagan_evil_god: "$samre_pagan_devil_name$" # 8493969308851530825
+  samre_pagan_death_name: "$samre_pagan_devil_name$" # 8493969308851530825
+  samre_pagan_death_name_possessive: "$samre_pagan_devil_name_possessive$" # 12822141237316325951
+  samre_pagan_death_herhis: "그들의" # 17193756598826745697
+  samre_pagan_creator_god_name: "$samre_pagan_high_god_name$" # 1918170467184525943
+  samre_pagan_creator_god_name_possessive: "$samre_pagan_high_god_name_possessive$" # 6198523277442879644
+  samre_pagan_health_god_name: "$samre_pagan_high_god_name$" # 1918170467184525943
+  samre_pagan_health_god_name_possessive: "$samre_pagan_high_god_name_possessive$" # 6198523277442879644
+  samre_pagan_fertility_god_name: "$samre_pagan_high_god_name$" # 1918170467184525943
+  samre_pagan_fertility_god_name_possessive: "$samre_pagan_high_god_name_possessive$" # 6198523277442879644
+  samre_pagan_wealth_god_name: "카무크 '아아락" # 7760119543908697069
+  samre_pagan_wealth_god_name_possessive: "카무우크 '아아락'" # 5845479640277196259
+  samre_pagan_household_god_name: "캄무크 프라품" # 11110303725020542455
+  samre_pagan_household_god_name_possessive: "캄무 프라품스" # 10222906358296082367
+  samre_pagan_fate_god_name: "$samre_pagan_high_god_name$" # 1918170467184525943
+  samre_pagan_fate_god_name_possessive: "$samre_pagan_high_god_name_possessive$" # 6198523277442879644
+  samre_pagan_knowledge_god_name: "$samre_pagan_high_god_name$" # 1918170467184525943
+  samre_pagan_knowledge_god_name_possessive: "$samre_pagan_high_god_name_possessive$" # 6198523277442879644
+  samre_pagan_war_god_name: "캄무우 사무운" # 13529921645149356905
+  samre_pagan_war_god_name_possessive: "함무크 사문스" # 12915141962923776778
+  samre_pagan_trickster_god_name: "$samre_pagan_devil_name$" # 8493969308851530825
+  samre_pagan_trickster_god_name_possessive: "$samre_pagan_devil_name_possessive$" # 12822141237316325951
+  samre_pagan_night_god_name: "$samre_pagan_high_god_name$" # 1918170467184525943
+  samre_pagan_night_god_name_possessive: "$samre_pagan_high_god_name_possessive$" # 6198523277442879644
+  samre_pagan_water_god_name: "$samre_pagan_high_god_name$" # 1918170467184525943
+  samre_pagan_water_god_name_possessive: "$samre_pagan_high_god_name_possessive$" # 6198523277442879644
+  samre_pagan_house_of_worship: "쿵 룩쿤" # 6755289709377486197
+  samre_pagan_house_of_worship_plural: "쿵 륵쿤스" # 15954981795213505464
+  samre_pagan_religious_symbol: "쌀 그릇 안의 촛불" # 13569192230624789895
+  samre_pagan_religious_text: "신성한 이야기들" # 1916157011032334391
+  samre_pagan_religious_head_title: "고위 무 카무크 모트" # 12753506549179878983
+  samre_pagan_religious_head_title_name: "최고 의회" # 15038947742583190916
+  samre_pagan_devotee: "신봉자" # 16996875086266395993
+  samre_pagan_devotee_plural: "신도들" # 15412075443944701231
+  samre_pagan_devotee_male: "신봉자" # 16996875086266395993
+  samre_pagan_devotee_male_plural: "신봉자" # 16996875086266395993
+  samre_pagan_devotee_female: "신봉자" # 16996875086266395993
+  samre_pagan_devotee_female_plural: "신봉자" # 16996875086266395993
+  samre_pagan_priest: "모 캄우츠 모트" # 7942435981825660394
+  samre_pagan_priest_plural: "모 캄무크 모츠" # 15356575654970893117
+  samre_pagan_priest_alternate_plural: "중재자들" # 13541232356041466147
+  samre_pagan_divine_realm: "하늘" # 281074639492266792
+  samre_pagan_afterlife: "지하 세계" # 8303066665719263468
+  bahnaric_religion: "반나릭" # 18422443400471941178
+  bahnaric_religion_adj: "반나릭" # 18422443400471941178
+  bahnaric_religion_adherent: "반하리스트" # 16689073907190062134
+  bahnaric_religion_adherent_plural: "바나르파" # 1320361563909942089
+  bahnaric_religion_desc: "바나르인들은 그들의 삶에 좋든 나쁘든 여러 방식으로 영향을 미치는 많은 정령들을 믿습니다." # 7311104664026089021
+  bahnar_pagan: "양교" # 14457211230811972176
+  bahnar_pagan_adj: "양익" # 1829611908799069578
+  bahnar_pagan_adherent: "양가주의" # 3951918908209298281
+  bahnar_pagan_adherent_plural: "양교도들" # 17872254350457104571
+  bahnar_pagan_desc: "수많은 양(Yang), 즉 신들과 영들이 있으며, 이들에게는 존중을 표해야 합니다. 적절한 행동 규범을 따르고 양들에게 의례를 행하면 행운이 따르겠지만, 그렇지 않을 경우 불행을 초래할 것입니다." # 13708993984308882278
+  bahnar_pagan_old: "고대 양교" # 5466472416837260298
+  bahnar_pagan_old_adj: "옛 양이치" # 10012915210208212814
+  bahnar_pagan_old_adherent: "오래된 양교도" # 15871720790363723943
+  bahnar_pagan_old_adherent_plural: "옛 양이스트들" # 9664874423739646497
+  bahnar_pagan_old_desc: "$bahnaric_religion_desc$" # 848879702331603842
+  bahnar_pagan_the_yangs: "양씨들" # 12318454955796859787
+  bahnar_pagan_the_yangs_2: "$religion_the_yangs$" # 1717669845176392653
+  bahnar_pagan_the_yangs_3: "$religion_the_yangs$" # 1717669845176392653
+  bahnar_pagan_high_god_name: "복계대와 야곡해" # 17208637140577258014
+  bahnar_pagan_high_god_name_possessive: "복계데와 야쿠케의" # 13115075294605945855
+  bahnar_pagan_high_god_name_alternate: "$bahnar_pagan_high_god_name$" # 14191315971710913381
+  bahnar_pagan_high_god_name_alternate_possessive: "$bahnar_pagan_high_god_name_possessive$" # 18098666053010365019
+  bahnar_pagan_yang_bri_good_god: "양 브리" # 16930374368152066292
+  bahnar_pagan_yang_tmo_good_god: "양 트모" # 18414655628302075999
+  bahnar_pagan_yang_kong_good_god: "양 콩" # 15733643191983051452
+  bahnar_pagan_yang_rong_good_god: "양 롱" # 8612159386107792341
+  bahnar_pagan_yang_nak_good_god: "양 낙" # 8072885145350748964
+  bahnar_pagan_yang_au_good_god: "양 아우" # 11878066326705502702
+  bahnar_pagan_devil_name: "오 말라이" # 7960484733704890593
+  bahnar_pagan_devil_name_possessive: "오 말라이스" # 8138018989954133093
+  bahnar_pagan_devil_shehe: "그들" # 2328972438248726795
+  bahnar_pagan_devil_herselfhimself: "스스로" # 6200625214287285499
+  bahnar_pagan_devil_herhis: "그들의" # 17193756598826745697
+  bahnar_pagan_evil_god: "$bahnar_pagan_devil_name$" # 12460314423924942060
+  bahnar_pagan_death_name: "$bahnar_pagan_devil_name$" # 12460314423924942060
+  bahnar_pagan_death_name_possessive: "$bahnar_pagan_devil_name_possessive$" # 9185968713462811694
+  bahnar_pagan_death_herhis: "그들의" # 17193756598826745697
+  bahnar_pagan_creator_god_name: "$bahnar_pagan_high_god_name$" # 14191315971710913381
+  bahnar_pagan_creator_god_name_possessive: "$bahnar_pagan_high_god_name_possessive$" # 18098666053010365019
+  bahnar_pagan_health_god_name: "양 포" # 16755241505182171753
+  bahnar_pagan_health_god_name_possessive: "양 포의" # 15134392861371706853
+  bahnar_pagan_fertility_god_name: "양 솨리" # 15145882567932346354
+  bahnar_pagan_fertility_god_name_possessive: "양 쒸오리으의" # 16436197070125468447
+  bahnar_pagan_wealth_god_name: "양 더" # 1795389298794134565
+  bahnar_pagan_wealth_god_name_possessive: "양 '아아락'스" # 4078991731514833262
+  bahnar_pagan_household_god_name: "양 남" # 17854835014258013095
+  bahnar_pagan_household_god_name_possessive: "양함의" # 16045622839165033982
+  bahnar_pagan_fate_god_name: "$bahnar_pagan_high_god_name$" # 14191315971710913381
+  bahnar_pagan_fate_god_name_possessive: "$bahnar_pagan_high_god_name_possessive$" # 18098666053010365019
+  bahnar_pagan_knowledge_god_name: "$bahnar_pagan_high_god_name$" # 14191315971710913381
+  bahnar_pagan_knowledge_god_name_possessive: "$bahnar_pagan_high_god_name_possessive$" # 18098666053010365019
+  bahnar_pagan_war_god_name: "자 복 클라" # 1686481074493777214
+  bahnar_pagan_war_god_name_possessive: "자 복 클라'스" # 567442926710331815
+  bahnar_pagan_trickster_god_name: "$bahnar_pagan_war_god_name$" # 4936417055151831749
+  bahnar_pagan_trickster_god_name_possessive: "$bahnar_pagan_water_god_name_possessive$" # 10448102190734648423
+  bahnar_pagan_night_god_name: "$bahnar_pagan_high_god_name$" # 14191315971710913381
+  bahnar_pagan_night_god_name_possessive: "$bahnar_pagan_high_god_name_possessive$" # 18098666053010365019
+  bahnar_pagan_water_god_name: "양 닥" # 11903245473958231482
+  bahnar_pagan_water_god_name_possessive: "양닥의" # 9554614943619119074
+  bahnar_pagan_witch_god_name: "양 놈" # 5379407900611315370
+  bahnar_pagan_witch_god_name_possessive: "양 놈의" # 726024045690902977
+  bahnar_pagan_house_of_worship: "롱" # 10562840731094090557
+  bahnar_pagan_house_of_worship_plural: "잘못된 것들" # 12951630475134914050
+  bahnar_pagan_religious_symbol: "와인 단지" # 10590061966680708881
+  bahnar_pagan_religious_text: "함몽" # 14196851788505531450
+  bahnar_pagan_religious_head_title: "고위 포자우" # 9162282224484662558
+  bahnar_pagan_religious_head_title_name: "최고 의회" # 15038947742583190916
+  bahnar_pagan_devotee: "신봉자" # 16996875086266395993
+  bahnar_pagan_devotee_plural: "신도들" # 15412075443944701231
+  bahnar_pagan_devotee_male: "신봉자" # 16996875086266395993
+  bahnar_pagan_devotee_male_plural: "신봉자" # 16996875086266395993
+  bahnar_pagan_devotee_female: "신봉자" # 16996875086266395993
+  bahnar_pagan_devotee_female_plural: "신봉자" # 16996875086266395993
+  bahnar_pagan_priest: "포자우" # 4782288150737382970
+  bahnar_pagan_priest_plural: "포야우스" # 6001303859784849878
+  bahnar_pagan_priest_alternate_plural: "샤먼들" # 18154816624900111499
+  bahnar_pagan_divine_realm: "하늘" # 281074639492266792
+  bahnar_pagan_afterlife: "지하 세계" # 8303066665719263468

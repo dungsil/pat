@@ -1,0 +1,9 @@
+﻿l_korean:
+  pmg_public_transit: "대중교통" # 5899640005892138906
+  pm_public_omnibus: "마차형 대중버스" # 14334688027646025675
+  pm_public_steam_metro: "증기 동력 지하철" # 304561737548993592
+  pm_public_electric_metro: "전기 동력 지하철" # 5259073287136559239
+  pmg_local_transport: "지역 도로 수용력" # 11660890297917216498
+  pm_horses: "말과 수레" # 980689435001728749
+  pm_stagecoaches_and_wagons: "마차" # 17934861708900459235
+  pm_motor_vehicles: "자동차와 트럭" # 2551119646591469656

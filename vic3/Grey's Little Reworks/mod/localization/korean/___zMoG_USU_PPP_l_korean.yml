@@ -1,0 +1,42 @@
+﻿l_korean:
+  usu_bg_power_grid: "전력망" # 11270778607914907588
+  ppp_building_power_grid: "전력망" # 11270778607914907588
+  PPP_tech_hv_power: "동력 전달" # 9831250320196358861
+  PPP_tech_hv_power_desc: "변환기와 조정기를 활용함으로써, 고전압의 장거리 송전이 상이한 수요를 가진 다수의 수신처에서 사용 가능해졌습니다." # 1698132724138446587
+  USU_tech_hv_railways: "산업용 변압기" # 3498677175069025184
+  USU_tech_hv_railways_desc: "확장 가능한 변압기를 활용함으로써 우리는 교류 전기의 모든 이점을 누릴 수 있으며, 이는 장거리에 걸쳐 일관되게 높은 전압을 공급하고 송전을 경제적으로 만들 수 있게 합니다." # 4379621506039576222
+  ppp_hv_power: "고압 전력" # 13182604697507507123
+  goods_input_ppp_hv_power_add: "@ppp_hv_power! [Nbsp]$ppp_hv_power$ 투입" # 9186019618643226279
+  goods_output_ppp_hv_power_add: "@ppp_hv_power! [Nbsp]$ppp_hv_power$ 산출량" # 12450209913807715154
+  goods_input_ppp_hv_power_mult: "@ppp_hv_power! 건설 투입량 $ppp_hv_power$" # 8925988144138924938
+  goods_output_ppp_hv_power_mult: "@ppp_hv_power! 건설 [Nbsp]$ppp_hv_power$ 산출량" # 14595482190200446435
+  goods_input_ppp_hv_power_add_desc: "건물들이 소비하는 @ppp_hv_power! [Nbsp]$ppp_hv_power$의 양" # 16906024163403088774
+  goods_output_ppp_hv_power_add_desc: "건물에서 생산되는 @ppp_hv_power! [Nbsp]$ppp_hv_power$의 양" # 16594557601711035134
+  goods_input_ppp_hv_power_mult_desc: "건물에서 소비하는 @ppp_hv_power! [Nbsp]$ppp_hv_power$ 양에 대한 보너스 또는 페널티" # 2351617056136337231
+  goods_output_ppp_hv_power_mult_desc: "건물에서 생산되는 @ppp_hv_power! [Nbsp]$ppp_hv_power$ 양에 대한 보너스 또는 페널티" # 4043442237366080124
+  PPP_pmg_generation_machinery: "생산 기계" # 3456322518843525841
+  PPP_pmg_HV_generation: "권력 분배" # 18222683289421124059
+  PPP_pmg_power_grid: "$pm_base$" # 5777508890639504782
+  PPP_pmg_power_grid_scaler: "배분 능력" # 4780205934967831690
+  PPP_pm_hydro_mechanical: "수력 터빈" # 16908388445477673432
+  PPP_pm_steam_engine: "증기기관" # 3126372067772672909
+  PPP_pm_steam_turbine: "증기 터빈" # 10454222372158673681
+  PPP_pm_gas_turbine: "가스 터빈" # 505028816945359365
+  PPP_pm_hy_local_power: "지역 전기" # 13093967370581272449
+  PPP_pm_hy_hybrid_power: "혼합 그리드 공급" # 14361712472036610804
+  PPP_pm_hy_grid_power: "전력망" # 11270778607914907588
+  PPP_pm_se_local_power: "지역 전기" # 13093967370581272449
+  PPP_pm_se_hybrid_power: "혼합 그리드 공급" # 14361712472036610804
+  PPP_pm_se_grid_power: "전력망" # 11270778607914907588
+  PPP_pm_st_local_power: "지역 전기" # 13093967370581272449
+  PPP_pm_st_hybrid_power: "혼합 그리드 공급" # 14361712472036610804
+  PPP_pm_st_grid_power: "전력망" # 11270778607914907588
+  PPP_pm_gt_local_power: "지역 전기" # 13093967370581272449
+  PPP_pm_gt_hybrid_power: "혼합 그리드 공급" # 14361712472036610804
+  PPP_pm_gt_grid_power: "전력망" # 11270778607914907588
+  PPP_pm_emergency_local_power: "긴급 지역 보급" # 7350307271480002213
+  PPP_pm_grid_base: "지역별 분포" # 3257177027057488428
+  PPP_pm_grid_water: "정상 수용력" # 3524844416385199671
+  PPP_pm_grid_engine: "용량 증가" # 9580889035701533660
+  PPP_pm_grid_turbine: "두 배로 증가된 수용력" # 6243854674802726809
+  PPP_pm_grid_gas_turbine: "용량 세 배 증가" # 704512560296151940

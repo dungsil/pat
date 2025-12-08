@@ -1,0 +1,21 @@
+### Cache ###
+*.db
+*.db-journal
+
+### Local environment ###
+.env
+
+### Node.js ###
+node_modules/
+package-lock.json
+
+### IntelliJ IDEA ###
+.idea/
+*.iml
+
+### Upstream repositories (managed by sparse checkout) ###
+*/upstream/
+**/upstream/
+
+### Translation workflow generated files ###
+*-untranslated-items.json

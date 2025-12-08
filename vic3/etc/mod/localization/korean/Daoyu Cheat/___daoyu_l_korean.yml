@@ -1,0 +1,581 @@
+﻿l_korean:
+  daoyu_on: "오픈 다오유 치트" # 9190347122173406740
+  daoyu_on_desc: "버전 번호#N 2025년 10월 10일#!\n1.10.* 버전용" # 4194115216460804480
+  daoyu_activate: "다오위 치트 활성화" # 9038624647855900378
+  daoyu_off: "다오위 치트 비활성화" # 7240381251153431305
+  daoyu_cheat: "다오유 치트" # 4713148959874700517
+  daoyu_cheat_desc: "버전 번호#N 10/10/2025#!\n기술 및 법률을 수정하는 모드에 대한 호환성 지원을 위해 남겨둡니다. 모드 저자들은 기술 또는 법률 페이지를 직접 확인해 주시기를 요청드립니다..\n빅토리아 3를 보내주신 bilibili ID #N zkonikishi#님께 감사드립니다." # 14977273898452832195
+  daoyu_cheat_missing: "다오유 치트가 사라졌습니다" # 14689197193390949670
+  daoyu_cheat_missing_desc: "#N\"도유 치\" 이벤트 그룹이 정상적으로 사용 중일 때는 클릭하지 마시오.#" # 10346687988510134990
+  daoyu_bug: "#N 패러독스 인터랙티브의 버그로 인해 명령이 작동하지 않습니다.#" # 10197029764392850487
+  daoyu_diplomatic_actions_missing: "$concept_diplomatic_actions$ 가 사라졌습니다" # 18162662405872629605
+  ddaoyu_diplomatic_actions_missing_desc: "#N \"$concept_diplomatic_actions$\" 이벤트 그룹이 정상적으로 사용 중일 때에는 클릭하지 마십시오.\n$daoyu_cheat$를 완전히 종료하고 다시 클릭하십시오.#" # 5696903797931328041
+  daoyu_solve_lag: "저사양 컴퓨터를 위한 지연 시간 감소 방안" # 1614673870130838686
+  daoyu_solve_lag_flavor: "#N 신중하게 주어라! 신중하게 주어라! 신중하게 주어라! 신중하게 주어라!#!" # 2892905187033313863
+  daoyu_culture_flavor: "대상 국가 선택 방식: \\\"정치 렌\" →\"법\" →\"대상 국\" 원하는\"국\"를 표시하십시오.\\\"'하나의 지구, 하나의 국가, 하나의 종교'는 문화와 종교를 선택할 수 있습니다\"" # 16540463501244723844
+  daoyu_all: "전체" # 9249909536216587996
+  daoyu_remove_all: "$REMOVE_FROM_GOVERNMENT_SHORT$ $daoyu_all$" # 12726644160693058037
+  daoyu_too_low_age: "나이가 너무 적음" # 17867698870488120232
+  daoyu_last_name_random: "#N $concept_alert_settings_alert$#! 마지막 성은 무작위로 지정됩니다" # 3710902810374883601
+  daoyu_remove_negative_modifiers: "부정적 효과 제거" # 4047371951455194520
+  daoyu_remove_negative_modifiers_flavor: "원래 버전에 #R 부정적 효과#를 추가하는 것과 관련하여, 빌리빌리나 스팀으로 메시지를 남겨주십시오." # 9578523260634968078
+  daoyu_error: "#N 오류#" # 9504930485444217334
+  daoyu_remove_obsession_opium: "약물 해독" # 6629136326264186194
+  daoyu_remove_obsession_opium_desc: "생명을 소중히 여기고, 마약으로부터 멀리하십시오." # 12818948308759721473
+  daoyu_territorial_integrity: "영토 보전" # 7068027110350884072
+  daoyu_territorial_integrity_desc: "영토 완벽주의자들의 복음." # 2013277365230099865
+  daoyu_territorial_integrity_tooltip: "주요 문화권의 본토는" # 6995104879573268982
+  daoyu_unify_region_culture: "지역 문화 통합" # 15057020570747506448
+  daoyu_check_only_one: "하나만 선택하십시오" # 16490174004396617115
+  daoyu_check_more: "더 고를 수 있습니다" # 13640142237426939064
+  daoyu_on_flavor: "선택적으로 닫으면 디버그 모드에서만 다시 열 수 있습니다.\n\n왜 #O #b 멍청한 패러독스 프로그래머들이 #!#! 1.8 업데이트에서 $concept_decentralized_nation$을 국가 탐지에서 제외했습니까? $concept_decentralized_nation$이 #N 대상 국가#!에 추가되지만 탐지할 수 없습니다. 저는 주(state)의 소유주를 통해서만 $concept_decentralized_nation$을 파악할 수 있습니다. 패러독스가 국가 탐지 범위를 변경할 만큼 멍청할 것이라고는 예상하지 못했기에 밤새도록 이 문제를 찾느라 시간을 썼습니다." # 12242875483425778828
+  daoyu_reconsideration: "재고" # 11699584970940067809
+  daoyu_instructions: "#N 지침#!" # 10023897603691674689
+  daoyu_instructions_flavor: "Y 노란색 느낌표는 해당 모드가 게임 버전과 다르다는 것을 나타낼 뿐입니다.\n게임이 크게 수정되지 않았다면 이 모드의 사용에는 영향을 미치지 않습니다.#!\n\n1. 사용하려면 반드시 #N 게임 일시정지#!를 해야 하며, 그렇지 않으면 #N 자동 종료#!됩니다.\n2. 사용 후 다시 열 수 없다면 최신 버전으로 업데이트하십시오. 디버그 모드를 사용하려면 콘솔에 #N event daoyu.10#!을 입력하고, Daoyu 치트(cheat)를 종료한 후 게임을 저장하고 일반 모드로 다시 사용하십시오.\n3. 최신 버전을 사용했는데도 버그가 계속 발생한다면 새 저장 파일로 시작하십시오. 새 저장 파일에서도 버그가 지속되면 새 버전을 기다려 주십시오.\n4. #N $decree_daoyu_target_state$#!이 $concept_political_lens$ => $concept_decrees$에서 발견되지 않으면 게임을 저장했다가 다시 불러오십시오." # 10863365633306955949
+  daoyu_understand: "#N 지침#을 확인하였습니다." # 2442368262865977315
+  daoyu_common: "일반" # 9623056462206236233
+  daoyu_common_flavor: "\"경\"에서 누락된 선택지들을 찾아보십시오." # 16288475481833207942
+  daoyu_satisfy_some_journal_entries_activation_condition: "일부 $concept_journal_entries$ 활성화 조건을 충족시키십시오" # 571191117037182308
+  daoyu_unpause_the_game_and_wait_for_journal_entries_to_pop_up: "게임 진행을 재개하고 $concept_journal_entries$가 나타나기를 기다리십시오" # 13343515556895924108
+  daoyu_set_money_level: "화폐 수준 설정" # 3858833182578023264
+  daoyu_set_money_level_flavor: "일 이후 몇 개의 영이 있습니까?" # 3703711451005239332
+  daoyu_can_be_modified: "수정될 수 있습니다" # 768350020316084441
+  daoyu_political_movement: "[SCOPE.sPoliticalMovement('daoyu_political_movement').GetName]" # 16520169847167375666
+  daoyu_political_movements_flavor: "비주류 문화 및 비국교의 권리 운동은 그 수가 너무 많아 선택 범위에 포함되지 않습니다." # 4679166713810066569
+  daoyu_political_movements_disabled_flavor: "$ASSET_DISABLED$: 이 운동은 매월 감지되며, 나타날 때마다 신속히 사라지도록 자동으로 약화 효과가 추가됩니다." # 7113464902608408455
+  daoyu_movement_religious_majority: "[ROOT.GetCountry.GetNameNoFormatting] 전통주의 운동" # 12929472329085357564
+  daoyu_movement_cultural_majority: "[ROOT.GetCountry.GetAdjectiveNoFormatting] 우월주의 운동" # 13364987839161252250
+  daoyu_political_movement_ADD: "$concept_bolster$ $concept_interest_group_attraction_short$" # 13331790968106931479
+  daoyu_political_movement_SUB: "$concept_suppress$ $concept_interest_group_attraction_short$" # 7860506833057486013
+  daoyu_political_movement_radicalism_ADD: "$concept_bolster$ $concept_activism_short$" # 7981876650427479669
+  daoyu_political_movement_radicalism_SUB: "$concept_suppress$ $concept_activism_short$" # 1443414541326828545
+  daoyu_country_modifiers: "$concept_country$ $concept_modifiers$" # 17138014848925077312
+  daoyu_remove_all_modifiers: "$REMOVE_FROM_GOVERNMENT_SHORT$ $ALL$ $concept_modifiers$" # 9578194777263927763
+  daoyu_do_not_remove_all_modifiers: "$REMOVE_FROM_GOVERNMENT_SHORT$$ALL$$concept_modifiers$를 제거하지 마십시오" # 10769334699108325180
+  daoyu_all_country_remove_all_modifiers: "$ALL$ $concept_countries$ $REMOVE_FROM_GOVERNMENT_SHORT$ $ALL$ $concept_modifiers$" # 5759573207648255957
+  daoyu_target_country_remove_all_modifiers: "$daoyu_target_country_get_name$ $REMOVE_FROM_GOVERNMENT_SHORT$ $ALL$$concept_modifiers$" # 10830148739575677382
+  daoyu_root_remove_all_modifiers: "$daoyu_root_get_name$ $REMOVE_FROM_GOVERNMENT_SHORT$ $ALL$$concept_modifiers$" # 8595972716447716511
+  daoyu_country_diplomatic_play_maneuvers_add: "$concept_maneuver$" # 7451907568916207302
+  daoyu_country_gold_reserve_limit_mult: "$country_gold_reserve_limit_mult$" # 8175215336897567319
+  daoyu_state_tax_capacity_add: "$concept_tax_capacity$" # 1432386559481927095
+  daoyu_country_tech_spread_mult: "$concept_innovation$" # 16986633153259487940
+  daoyu_country_bureaucracy_add: "$concept_bureaucracy$" # 10014810944910009526
+  daoyu_country_authority_add: "$concept_authority$" # 11012970215783056117
+  daoyu_country_influence_add: "$concept_influence$" # 11759324515576869989
+  daoyu_country_prestige_add: "$PRESTIGE$" # 12365487043177385124
+  daoyu_current_prestige: "#variable $CURRENT$ $PRESTIGE$ $concept_modifier$: [ROOT.GetCountry.MakeScope.Var('daoyu_country_prestige_var').GetValue]#!\n$daoyu_time_limit_one_month$" # 5626612633549000505
+  daoyu_time_limit_one_month: "플레이어에게는 시간 제한이 없으며, 인공지능에게는 한 달이 주어집니다." # 15776087306000826455
+  daoyu_time_limit_one_year: "플레이어에게는 시간 제한이 없으며, 인공지능에게는 1년이 주어집니다." # 8767409320518619728
+  daoyu_state_working_adult_ratio_add: "$state_working_adult_ratio_add$" # 13422076618008744635
+  daoyu_tariff_import_add: "$IMPORTING$ $concept_tariff_rate$" # 13732278998581467748
+  daoyu_tariff_export_add: "$EXPORTING$ $concept_tariff_rate$" # 6911670894889298464
+  daoyu_country_convoys_capacity_add: "$SINGLE_GOODS_OR_EMPLOYMENT_MORE$ $concept_convoys$" # 8728560218165008353
+  daoyu_country_construction_add: "$concept_country$ $concept_construction$" # 6000228267334952133
+  daoyu_character_health_add: "$character_health_add$" # 17700816996653141316
+  daoyu_mobilization_cost_mult: "동원 비용" # 6331521400651665154
+  daoyu_military_drill: "$military_drill$" # 10916818279584485661
+  daoyu_negative: "부정적" # 300810067153824937
+  daoyu_negative_country_diplomatic_play_maneuvers_add: "$daoyu_negative$ $daoyu_country_diplomatic_play_maneuvers_add$" # 657190625460098262
+  daoyu_negative_country_gold_reserve_limit_mult: "$daoyu_negative$ $daoyu_country_gold_reserve_limit_mult$" # 4214719052630729976
+  daoyu_negative_state_tax_capacity_add: "$daoyu_negative$ $daoyu_state_tax_capacity_add$" # 7564322439546354635
+  daoyu_negative_country_tech_spread_mult: "$daoyu_negative$ $daoyu_country_tech_spread_mult$" # 18050015621504331818
+  daoyu_negative_country_bureaucracy_add: "$daoyu_negative$ $daoyu_country_bureaucracy_add$" # 952795087597718459
+  daoyu_negative_country_authority_add: "$daoyu_negative$ $daoyu_country_authority_add$" # 2786067113128842479
+  daoyu_negative_country_influence_add: "$daoyu_negative$ $daoyu_country_influence_add$" # 16132074138823876175
+  daoyu_negative_country_prestige_add: "$daoyu_negative$ $daoyu_country_prestige_add$" # 18306963080003685821
+  daoyu_negative_tariff_import_add: "$daoyu_negative$ $daoyu_tariff_import_add$" # 12015513397754990285
+  daoyu_negative_tariff_export_add: "$daoyu_negative$ $daoyu_tariff_export_add$" # 11316630821350708683
+  daoyu_negative_country_convoys_capacity_add: "$daoyu_negative$ $daoyu_country_convoys_capacity_add$" # 13614250874296652086
+  daoyu_negative_country_construction_add: "$daoyu_negative$ $daoyu_country_construction_add$" # 1569452767720592599
+  daoyu_negative_character_health_add: "$daoyu_negative$ $daoyu_character_health_add$" # 7367368839708576408
+  daoyu_negative_mobilization_cost_mult: "$daoyu_negative$ $daoyu_mobilization_cost_mult$" # 1210363582486973973
+  daoyu_negative_military_drill: "$daoyu_negative$ $daoyu_military_drill$" # 16879415459806105452
+  daoyu_companies_add: "$country_max_companies_add$" # 8426566133120532326
+  daoyu_free_charters_add: "$country_free_charters_add$" # 4876095243864260122
+  daoyu_building_minimum_wage_mult: "$building_minimum_wage_mult$" # 7636435072223644463
+  daoyu_not_added: "추가되지 않음, 점령됨" # 8804087732992211765
+  daoyu_drop_the_act: "연기 그만두시오" # 10458863519520024892
+  daoyu_all_bark_and_no_bite: "말뿐이고 행동은 없는" # 15245258509907796874
+  daoyu_mutton_dressed_as_lamb: "양의 탈을 쓴 어린 양" # 1676992734979446276
+  daoyu_target_country_create_diplomatic_play_against_root: "$daoyu_target_country_get_name$가 $daoyu_root_get_name$에 대하여 $war_goal_open_market_type_name$ $concept_diplomatic_play$를 생성합니다" # 11537953940486948959
+  daoyu_create_diplomatic_play_make_puppet_against_target_country_war_now: "$daoyu_root_get_name$이(가) $daoyu_target_country_get_name$을 상대로 $concept_diplomatic_play$를 통해 $war_goal_make_puppet_type_name$을 목표로 하는 #N $ADD_WARGOAL_WAR_HAS_STARTED$#를 시작합니다!" # 11057995284814146482
+  daoyu_create_diplomatic_play_annex_war_against_target_country_war_now: "$daoyu_root_get_name$이(가) $daoyu_target_country_get_name$을(를) 상대로 $dp_annex_war$ $concept_diplomatic_play$를 시작했습니다 #N $ADD_WARGOAL_WAR_HAS_STARTED$#!" # 3591711832975538890
+  daoyu_return_my_vassal_state: "외교 플레이: 나의 종속국 반환" # 7804376293843336489
+  daoyu_return_my_vassal_state_get_name: "[SCOPE.sCountry('daoyu_target_vassal').GetName]의 주들" # 42110376293711552
+  daoyu_no_vassal_states_bordering_target_country: "$daoyu_target_country_get_name$와 접경한 종속국이 없습니다." # 15373850260739572118
+  daoyu_join_us_in_the_war: "전쟁에 동참하시오" # 13694631234356771060
+  daoyu_free_assistance_flavor: "$revolution_pulse_events.13.t$를 $daoyu_target_country_get_name$에 제공합니다." # 3221646677472317883
+  daoyu_state_negative_birth_rate_mult: "출생률 감소" # 14479582794087076099
+  daoyu_state_positive_birth_rate_mult: "출산율 증가" # 805367383107628798
+  daoyu_growth_mortality: "$concept_pop_growth_mortality$" # 12138530231332583384
+  daoyu_migration_pull: "$concept_migration_pull$" # 10591824449396829445
+  daoyu_state_assimilation_mult: "$decree_promote_national_values$" # 385692969967777682
+  daoyu_state_colony_growth: "$state_colony_growth_speed_mult$" # 13521644259241287847
+  daoyu_decree_road_maintenance: "$decree_road_maintenance$" # 10769339126640394191
+  daoyu_decree_promote_social_mobility: "$decree_promote_social_mobility$" # 4113525847324589767
+  daoyu_throughput_add: "$concept_throughput$" # 16964490462162869468
+  daoyu_goods_input_mult: "$concept_input_mult$" # 7945361489250112520
+  daoyu_decree_enlistment_efforts: "$decree_enlistment_efforts$" # 12740598686136092943
+  daoyu_state_infrastructure_add: "$concept_infrastructure$" # 15187286435414016307
+  daoyu_manage_character: "인물 관리" # 16263575147459506106
+  daoyu_target_country_manage_character: "$daoyu_target_country$ $daoyu_manage_character$" # 11085577566726934508
+  daoyu_change_interest_group: "$CHANGE$ $concept_interest_group$" # 15034319261051612553
+  daoyu_create_character: "인물 생성" # 1951628797903399638
+  daoyu_target_country_create_character: "$daoyu_target_country$ $daoyu_create_character$" # 12143321767248878350
+  daoyu_target_character: "대상 인물" # 1527530066561768957
+  daoyu_target_character_desc: "대상 인물" # 1527530066561768957
+  daoyu_target_character_change_culture: "문화 변경" # 8489717910103641471
+  daoyu_target_character_culture_save_mark_target_culture: "[SCOPE.sCharacter('daoyu_target_character').GetCulture]를 $daoyu_mark_target_culture$로 저장" # 3701680405961123010
+  daoyu_shot_in_the_right_ear: "오른쪽 귀에 총상을 입었다" # 10053905589652050478
+  daoyu_shot_in_the_right_ear_desc: "이 인물은 연설 도중 암살당했으며, 오른쪽 귀에 총상을 입었습니다." # 18018338355654022199
+  daoyu_entrepreneur: "최고 경영자" # 9716307407979383191
+  daoyu_entrepreneur_desc: "이 인물은 생산 과정의 모든 측면에 능통하며 비용을 절감하고 효율성을 높이는 데 탁월합니다." # 13918589532376831105
+  daoyu_create_character_gender: "인물 성별 생성:" # 14023703205947348614
+  daoyu_target_character_get_name: "[SCOPE.sCharacter('daoyu_target_character').GetFullName]" # 16661430054161067069
+  daoyu_target_character_get_culture: "[SCOPE.sCharacter('daoyu_target_character').GetCulture.GetName]" # 11231147344327235040
+  daoyu_betrayal_will_die: "배신은 죽을 것이다" # 15324585128750378924
+  daoyu_betrayal_will_die_desc: "배신은 죽을 것이다" # 15324585128750378924
+  daoyu_potential_target: "잠재적 목표" # 8577327367003877943
+  daoyu_interest_group_political_strength: "$concept_interest_groups$ $concept_political_strength$" # 6253982919342936606
+  daoyu_target_ig: "[SCOPE.gsInterestGroup('daoyu_target_ig').GetName]" # 10098236436684226720
+  daoyu_remove_all_ig_modifiers: "$REMOVE_FROM_GOVERNMENT_SHORT$ $ALL$ $concept_interest_groups$ $concept_modifiers$" # 4331520855204040916
+  daoyu_remove_trait: "$REMOVE_FROM_GOVERNMENT_SHORT$ $TOOLTIP_TYPE_CHARACTER_TRAIT$" # 6283516347515454914
+  daoyu_add_trait: "$ADD_TO_GOVERNMENT_SHORT$ $TOOLTIP_TYPE_CHARACTER_TRAIT$" # 8353834032725244046
+  daoyu_personality_traits: "성격 $TOOLTIP_TYPE_CHARACTER_TRAIT$" # 14699855973721807411
+  daoyu_skill_traits: "기술 $TOOLTIP_TYPE_CHARACTER_TRAIT$" # 13266054710836812615
+  daoyu_conditions_traits: "조건 $TOOLTIP_TYPE_CHARACTER_TRAIT$" # 1064133952286007370
+  daoyu_executive_traits: "$concept_executive$ $TOOLTIP_TYPE_CHARACTER_TRAIT$" # 2464110220998022368
+  daoyu_executive_modifiers: "$concept_executive$ $concept_modifiers$" # 3484466293183371089
+  daoyu_negative_traits: "부정적 $TOOLTIP_TYPE_CHARACTER_TRAIT$" # 1305275430467504783
+  daoyu_general_modifier: "$concept_general$ $MODIFIERS$" # 13706144184359359279
+  daoyu_admiral_modifier: "$concept_admiral$ $MODIFIERS$" # 7601479535077098936
+  daoyu_tct_1: "[SCOPE.sCountry('daoyu_tct_1').GetName]" # 5199719136515009818
+  daoyu_tct_2: "[SCOPE.sCountry('daoyu_tct_2').GetName]" # 2473894466599231946
+  daoyu_tct_3: "[SCOPE.sCountry('daoyu_tct_3').GetName]" # 6632389280172746943
+  daoyu_tct_4: "[SCOPE.sCountry('daoyu_tct_4').GetName]" # 13609815724807736066
+  daoyu_tct_5: "[SCOPE.sCountry('daoyu_tct_5').GetName]" # 16053813117083773218
+  daoyu_tct_6: "[SCOPE.sCountry('daoyu_tct_6').GetName]" # 14294805737187889065
+  daoyu_tct_7: "[SCOPE.sCountry('daoyu_tct_7').GetName]" # 14791741933258172369
+  daoyu_tct_8: "[SCOPE.sCountry('daoyu_tct_8').GetName]" # 13619072730507704236
+  daoyu_tct_9: "[SCOPE.sCountry('daoyu_tct_9').GetName]" # 18183305724547385102
+  daoyu_tcr_1: "[SCOPE.sCharacter('daoyu_tcr_1').GetFullName]" # 3716472155611067726
+  daoyu_tcr_2: "[SCOPE.sCharacter('daoyu_tcr_2').GetFullName]" # 13114354144136142802
+  daoyu_tcr_3: "[SCOPE.sCharacter('daoyu_tcr_3').GetFullName]" # 17943689818851110333
+  daoyu_tcr_4: "[SCOPE.sCharacter('daoyu_tcr_4').GetFullName]" # 17248710117779547942
+  daoyu_tcr_5: "[SCOPE.sCharacter('daoyu_tcr_5').GetFullName]" # 15925803471452631342
+  daoyu_tcr_6: "[SCOPE.sCharacter('daoyu_tcr_6').GetFullName]" # 10754577308133334317
+  daoyu_tcr_7: "[SCOPE.sCharacter('daoyu_tcr_7').GetFullName]" # 12367350697677271828
+  daoyu_tcr_8: "[SCOPE.sCharacter('daoyu_tcr_8').GetFullName]" # 18207467726162413824
+  daoyu_tcr_9: "[SCOPE.sCharacter('daoyu_tcr_9').GetFullName]" # 1357579383104727023
+  daoyu_tst_1: "[SCOPE.sState('daoyu_tst_1').GetName]" # 12734370375891236281
+  daoyu_tst_2: "[SCOPE.sState('daoyu_tst_2').GetName]" # 15398532397060105228
+  daoyu_tst_3: "[SCOPE.sState('daoyu_tst_3').GetName]" # 1430214632801372519
+  daoyu_tst_4: "[SCOPE.sState('daoyu_tst_4').GetName]" # 3882051505064677148
+  daoyu_tst_5: "[SCOPE.sState('daoyu_tst_5').GetName]" # 11826812108285514895
+  daoyu_tst_6: "[SCOPE.sState('daoyu_tst_6').GetName]" # 16020632769083664552
+  daoyu_tst_7: "[SCOPE.sState('daoyu_tst_7').GetName]" # 4775427353750494645
+  daoyu_tst_8: "[SCOPE.sState('daoyu_tst_8').GetName]" # 12415067785719024958
+  daoyu_tst_9: "[SCOPE.sState('daoyu_tst_9').GetName]" # 4413374573440407600
+  daoyu_tcu_1: "[SCOPE.sCulture('daoyu_tcu_1').GetName]" # 16756339728317658470
+  daoyu_tcu_2: "[SCOPE.sCulture('daoyu_tcu_2').GetName]" # 3520529448600764848
+  daoyu_tcu_3: "[SCOPE.sCulture('daoyu_tcu_3').GetName]" # 1147382324330972916
+  daoyu_tcu_4: "[SCOPE.sCulture('daoyu_tcu_4').GetName]" # 12792506185665807637
+  daoyu_tcu_5: "[SCOPE.sCulture('daoyu_tcu_5').GetName]" # 12518538690316269310
+  daoyu_tcu_6: "[SCOPE.sCulture('daoyu_tcu_6').GetName]" # 16402250330042759373
+  daoyu_tcu_7: "[SCOPE.sCulture('daoyu_tcu_7').GetName]" # 8130669796659328391
+  daoyu_tcu_8: "[SCOPE.sCulture('daoyu_tcu_8').GetName]" # 3044348976754571904
+  daoyu_tcu_9: "[SCOPE.sCulture('daoyu_tcu_9').GetName]" # 3110517059150449853
+  daoyu_tpl_1: "[SCOPE.sPoliticalLobby('daoyu_tpl_1').GetName]" # 1290436580477220242
+  daoyu_tpl_2: "[SCOPE.sPoliticalLobby('daoyu_tpl_2').GetName]" # 6829867609716433590
+  daoyu_tpl_3: "[SCOPE.sPoliticalLobby('daoyu_tpl_3').GetName]" # 165408106927317692
+  daoyu_tpl_4: "[SCOPE.sPoliticalLobby('daoyu_tpl_4').GetName]" # 15546366468384250078
+  daoyu_tpl_5: "[SCOPE.sPoliticalLobby('daoyu_tpl_5').GetName]" # 8993081394169927869
+  daoyu_tpl_6: "[SCOPE.sPoliticalLobby('daoyu_tpl_6').GetName]" # 15756939512228578442
+  daoyu_tpl_7: "[SCOPE.sPoliticalLobby('daoyu_tpl_7').GetName]" # 12657636242040261684
+  daoyu_tpl_8: "[SCOPE.sPoliticalLobby('daoyu_tpl_8').GetName]" # 17272527557826135163
+  daoyu_tpl_9: "[SCOPE.sPoliticalLobby('daoyu_tpl_9').GetName]" # 9609237583136795248
+  daoyu_etc: "기타" # 2502846507057828598
+  daoyu_target_political_lobby: "[SCOPE.sPoliticalLobby('daoyu_target_political_lobby').GetName]" # 1708533129486341591
+  daoyu_united_all_state_culture_effect: "문화, 종교, 본토 통합" # 13809388964334941980
+  daoyu_target_country: "대상 국가" # 13699655141701647074
+  daoyu_target_country_get_name: "[SCOPE.sCountry('daoyu_target_country').GetName]" # 12231104383047055886
+  daoyu_root_get_name: "[ROOT.GetCountry.GetName]" # 3394087478053969187
+  daoyu_remove_target_country: "$daoyu_target_country_get_name$ 목표 국가 제거" # 358885921449290446
+  daoyu_annex: "합병" # 11846776388879252301
+  daoyu_annex_target_country: "$daoyu_annex$ $daoyu_target_country_get_name$" # 11073965885210069726
+  daoyu_target_country_desc: "선택하고자 하는 국가를 '#right-click#'하고 '$concept_diplomatic_actions$' 메뉴에서 '$daoyu_target_country$'를 선택하십시오. 단 하나만 체크하십시오.\n#R 다른 $daoyu_target_country$ 및 $daoyu_cheat$의 $concept_diplomatic_actions$ 창을 닫기 전까지는 열 수 없습니다.#!" # 4284241365655076327
+  daoyu_quit_diplomatic_actions: "모든 Daoyu Cheat의 #V $concept_diplomatic_actions$.#!를 종료해야 합니다." # 11831616488352423805
+  daoyu_quit_manage_character: "#V $daoyu_manage_character$를 종료해야 합니다.#!" # 11478357074041827087
+  daoyu_quit_target_country_remove_building: "#V $daoyu_target_country_remove_building$를 중단해야 합니다.#!" # 293707741450758878
+  daoyu_target_country_additional: "#variable $daoyu_target_country$#!: $daoyu_target_country_get_name$" # 3997456971370304588
+  daoyu_target_country_action_notification_name: "국가 전환" # 898328946579425904
+  daoyu_target_country_action_notification_desc: "[INITIATOR_COUNTRY.GetName]으로 플레이를 완료했습니다." # 4516142820360500096
+  daoyu_state_options: "주 옵션" # 10672006955287074368
+  daoyu_cede_state_to_target_country: "대상 국가 주를 지정하십시오" # 7651570413961597414
+  daoyu_cede_target_country_state: "목표 국가 주 양도" # 6883340224308186122
+  daoyu_claim_target_country_state: "대상 국가의 주를 주장" # 9998896786556471607
+  decree_daoyu_target_state: "목표 주" # 14147312604667050889
+  decree_daoyu_target_state_desc: "대상 주로 표시된 주 설정" # 13374618727301824636
+  daoyu_clear_target_state: "$decree_daoyu_target_state$를 해제합니다" # 1224458339133697200
+  daoyu_clear_target_state_desc: "$Open Daoyu Cheat$ 이후에 $decree_daoyu_target_state$를 다시 설정할 수 있습니다.\n만약 $concept_political_lens$ 내 $concept_decrees$에서 $decree_daoyu_target_state$를 찾을 수 없다면, 게임을 저장하고 다시 불러오십시오." # 9168539097211965254
+  daoyu_clear_target_statetooltip: "$decree_daoyu_target_state$는 다음 주에 해제될 것입니다." # 757278327198725428
+  daoyu_target_state_get_name: "[SCOPE.sState('daoyu_target_state').GetName]" # 16745023280048165652
+  daoyu_target_state_additional: "$decree_daoyu_target_state$: [SCOPE.sState('daoyu_target_state').GetName]" # 7869744178682650612
+  daoyu_multiple_target_state: "대상 주들이 다수 존재합니다" # 17345600457812098753
+  daoyu_states_desc: "정치 렌즈 → 칙령 → 목표 주\n수정하고자 하는 주를 지정하며, 여러 개를 선택할 수 있습니다.\n벌목장 제외, 모든 항목은 기술 해금이 필요합니다.\n#N 건물 또는 경작 가능 토지 상한 초과 시#! 시스템에 의해 상한으로 갱신될 수 있습니다.\n#N 상품 생산을 위해서는 공장만 있으면 됩니다#!, 자원 한계를 초과하는 공장을 건설하려면 해당 자원이 있는 지역을 선택하지 마십시오.\n#N $move_capital_lens_option$ 및 $move_market_capital_lens_option$는 1.6.2 버전에서는 619개 지역에서만 사용 가능합니다.#!" # 7739955831198916676
+  daoyu_add_root_homeland_remove_others_homeland: "당신의 고향을 추가하고 다른 나라들의 고향은 제거하십시오.\n해당 지역이 두 나라에 속할 경우 유효하지 않습니다." # 8275923578835358681
+  daoyu_each_culture_of_state: "각 주의 문화" # 14364987578208464514
+  daoyu_create_primary_culture: "주요 문화 팝 생성" # 6747557633636114918
+  daoyu_set_create_pops_parameters: "\"신규 인구 생\"으로 매개변수를 설정하십시오." # 16916109833762970345
+  daoyu_set_create_pops_parameters_flavor_1: "#N\"새로운 인구 생\"의 매개변수#!\n인구 규모:0" # 9758065354449747099
+  daoyu_set_create_pops_parameters_flavor_2: "인구 문맹률:0" # 1993873899267350536
+  daoyu_pops_type: "계층 유형" # 8691585467944663957
+  daoyu_reselect: "다시 선택" # 21736069562013262
+  daoyu_cross_border_migration: "국경 간 이주" # 13173516498836848945
+  daoyu_migration_flavor: "국내 이주민은 두 곳의 정착지를 목표로 선택해야 합니다.\n#Y 국경 간 이주#!와 #Y 목표 국가의 실업자 흡수#!는 #N 단 하나의 목표 주#!와 #N 단 하나의 목표 국가#!를 선택해야 합니다.\n단 하나의 문화만 있다면 이주할 수 없습니다.\n실업자 집중은 단 하나의 목표 지역을 선택해야 합니다.\n실업 인구 이주 목표 국가는 목표 국가를 선택해야 합니다." # 5026970336422890664
+  daoyu_concentration_the_unemployed_to_other_country: "실업자들이 타국으로 이주합니다." # 12243903205019231422
+  daoyu_concentration_the_unemployed_to_daoyu_target_country: "실업자들이 [SCOPE.sCountry('daoyu_target_country').GetCapital.GetName]으로 이주합니다" # 14211802093759692559
+  daoyu_concentration_the_target_country_unemployed_to_target_state_1: "[SCOPE.sCountry('daoyu_target_country').GetCapital.GetName]의 실업자들을 [SCOPE.sState('daoyu_target_state_1').GetName]으로 흡수하십시오." # 14447018894759140897
+  daoyu_concentration_the_unemployed_to_daoyu_high_growth_mortality: "실업자들이 [SCOPE.sState('daoyu_high_growth_mortality_state').GetName]로 이주합니다" # 5008332181621033753
+  daoyu_target_country_add_pop_growth_mortality: "[SCOPE.sCountry('daoyu_target_country').GetCapital.GetName]에 $daoyu_level_6$ $concept_pop_growth_mortality$ 추가" # 4346844453293162695
+  daoyu_daoyu_high_growth_mortality_remove_pop_growth_mortality: "[SCOPE.sState('daoyu_high_growth_mortality_state').GetName]에서 $concept_pop_growth_mortality$를 제거합니다." # 16896274441949570127
+  daoyu_high_growth_mortality: "$daoyu_level_6$ $concept_pop_growth_mortality$" # 4033989916106651025
+  daoyu_target_country_state_too_more: "해당 국가는 $daoyu_level_6$ $concept_pop_growth_mortality$를 추가하기 위해 단 하나의 주만 보유해야 합니다." # 18130138864063204978
+  daoyu_concentration_the_unemployed_to_daoyu_target_state_1: "[SCOPE.sState('daoyu_target_state_1').GetName]에 실업자들을 집중시키기" # 945514022441581270
+  daoyu_migration_from_target_country: "$daoyu_target_country$ 출신 이민자들" # 13180548636529938857
+  daoyu_migration_go_to_target_country: "이민자들이 $daoyu_target_country$로 향합니다" # 14381481949550318601
+  daoyu_migration_from_A_to_B: "[SCOPE.sState('daoyu_target_state_1').GetName]에서 [SCOPE.sState('daoyu_target_state_2').GetName]까지" # 4343814067790535499
+  daoyu_migration_from_B_to_A: "[SCOPE.sState('daoyu_target_state_2').GetName]에서 [SCOPE.sState('daoyu_target_state_1').GetName]으로" # 9206835277533034308
+  daoyu_adventitious_options: "부수적 선택지" # 8159794090885656100
+  daoyu_auto_law_modifier: "$legislative_efficiency$" # 4020152313279180777
+  daoyu_auto_law_modifier_desc: "$legislative_efficiency_desc$" # 6493671683482454851
+  daoyu_mark_target_culture: "대상 문화 지정" # 8401521143867166131
+  daoyu_mark_target_culture_not_valid: "#N 목표 문화가 유효하지 않습니다.#!" # 379371935217884477
+  daoyu_state_not_eligible_mass_migration: "#b 자격 미달#! 로 [Concept('concept_migration_target', '$concept_mass_migration_target$')]이 될 수 없습니다." # 13795684152717221420
+  daoyu_target_country_law_closed_borders: "$daoyu_target_country_get_name$ #N 국경 폐쇄#!" # 6677618709908709301
+  daoyu_mark_target_culture_get_name: "$daoyu_mark_target_culture$: [SCOPE.sCulture('daoyu_mark_target_culture').GetName]" # 9886078083633625159
+  daoyu_mark_target_culture_flavor: "만약 #N 대상 국가#가 선택되었는데 대상 국가 옵션이 없다면, #N 새로고침#!을 누르십시오." # 13391320923235137717
+  daoyu_country_has_primary_culture_more_than_one: "$russification_modifier$는 오직 하나의 #N 주된 문화#만을 가져야 합니다." # 10019569952463922618
+  daoyu_has_only_one: "오직 하나만" # 5881692599366548681
+  daoyu_has_over_one: "하나 이상을 보유하고 있습니다" # 15751033268909592105
+  daoyu_has_no: "가지고 있지 않음" # 5422936913589549415
+  daoyu_has: "가지고 있다" # 13511928875108455199
+  daoyu_and: "그리고" # 4292429818594793634
+  daoyu_allows: "허용합니다" # 14475310779738945590
+  daoyu_maximum: "최대" # 13542603828987181557
+  daoyu_cut_non_indo_aryan: "$indo_aryan_language$가 아닌" # 715162952263005399
+  daoyu_cut_non_malay_culture: "말레이 문화가 아님" # 8181772427848398647
+  daoyu_other: "기타" # 110373985552153196
+  daoyu_remove_mark_target_culture: "$DELETE$ $daoyu_mark_target_culture$ [SCOPE.sCulture('daoyu_mark_target_culture').GetName]" # 16136508241123306042
+  daoyu_add_primary_culture_mark_target_culture_for_root: "$daoyu_root_get_name$ $ADD_TO_GOVERNMENT_SHORT$ $concept_primary_culture$ [SCOPE.sCulture('daoyu_mark_target_culture').GetName]" # 14329233289967333332
+  daoyu_primary_culture_change_into_mark_target_culture_for_root: "$daoyu_root_get_name$ $concept_primary_culture$는 [SCOPE.sCulture('daoyu_mark_target_culture').GetName]로 $concept_assimilate$되었습니다." # 356235189851684407
+  daoyu_add_primary_culture_mark_target_culture_for_target_country: "$daoyu_target_country_get_name$ $ADD_TO_GOVERNMENT_SHORT$ $concept_primary_culture$ [SCOPE.sCulture('daoyu_mark_target_culture').GetName]" # 897367938954379318
+  daoyu_primary_culture_change_into_mark_target_culture_for_target_country: "$daoyu_target_country_get_name$ $concept_primary_culture$는 [SCOPE.sCulture('daoyu_mark_target_culture').GetName]로 $concept_assimilate$되었습니다." # 1499714586767059783
+  daoyu_target_country_state: "$daoyu_target_country_get_name$ 주의" # 12248908452083784189
+  daoyu_add_homeland_mark_target_culture_in_daoyu_target_state: "[SCOPE.sState('daoyu_target_state').GetName] $ADD_TO_GOVERNMENT_SHORT$ $HOMELANDS$ [SCOPE.sCulture('daoyu_mark_target_culture').GetName]" # 14044890783523090125
+  daoyu_add_homeland_mark_target_culture_in_decree_daoyu_target_state: "$decree_daoyu_target_state$ $ADD_TO_GOVERNMENT_SHORT$ $HOMELANDS$ [SCOPE.sCulture('daoyu_mark_target_culture').GetName]" # 16490192764225671314
+  daoyu_all_pop_change_culture_mark_target_culture_for_decree_daoyu_target_state: "[SCOPE.sState('daoyu_target_state').GetName] 내 모든 인구는 [SCOPE.sCulture('daoyu_mark_target_culture').GetName]으로 동화될 것입니다." # 1708466228207086149
+  daoyu_all_pop_change_culture_mark_target_culture_in_daoyu_target_state: "$decree_daoyu_target_state$ 내 모든 인구는 [SCOPE.sCulture('daoyu_mark_target_culture').GetName]으로 동화될 것입니다." # 7696830457243910700
+  daoyu_create_pop_mark_target_culture_for_decree_daoyu_target_state: "$decree_daoyu_target_state$ [SCOPE.sCulture('daoyu_mark_target_culture').GetName] $concept_pops$ $ADD_TO_GOVERNMENT_SHORT$" # 2752570010744885367
+  daoyu_create_pop_mark_target_culture_in_daoyu_target_state: "[SCOPE.sState('daoyu_target_state').GetName] $ADD_TO_GOVERNMENT_SHORT$ [SCOPE.sCulture('daoyu_mark_target_culture').GetName] $concept_pops$" # 10021817614699211519
+  daoyu_add_homeland: "$ANY_KEY$ $lesson_pops_state_population$ $ADD_TO_GOVERNMENT_SHORT$ $concept_homeland$" # 8684901557437985775
+  daoyu_owned_state_add_cultural_community: "$OUTLINER_ALL$ $daoyu_root_get_name$ $concept_states$ 내에 [SCOPE.sCulture('daoyu_mark_target_culture').GetName] $concept_cultural_community$가 나타났습니다." # 15005708987630896573
+  daoyu_remove_homeland: "$DELETE$ $concept_homeland$" # 5549013817422268413
+  daoyu_create_country_desc: "국가 생성 또는 $FRONTEND_SWITCH_COUNTRY$" # 440112142578796084
+  daoyu_become_a_nonexistent_country: "존재하지 않는 국가가 되십시오" # 1397257585563839544
+  daoyu_create_a_nonexistent_country_controlled_by_AI: "존재하지 않는 국가를 AI가 통제하도록 설정하십시오." # 282385588294429577
+  daoyu_create_country_flavor: "AI가 통제하는 존재하지 않는 국가를 생성하려면 목표 지역을 선택해야 합니다. 국가가 수립되면 해당 목표 지역은 생성된 국가의 영토가 됩니다.\n1.7.5 버전에서 596개 국가를 지원합니다." # 17132560949803859482
+  daoyu_select_capital: "생성된 국가의 수도를 선택하십시오. #N 그 외 모든 $decree_daoyu_target_state$는 생성된 국가의 영토가 될 것입니다#!." # 5949842607187803618
+  daoyu_sort_by_chinese: "중국 기준으로 정렬" # 4528130742237616946
+  daoyu_sort_by_english: "영문순 정렬" # 12874668026283842529
+  daoyu_new_country_capital: "새 국가의 수도는 [SCOPE.sState('dcc_capital').GetName]입니다.\n영토는 다음을 포함합니다:0" # 4310272472413138053
+  daoyu_Letter_U: "유" # 2780807946047499857
+  daoyu_banned: "일부 물품에 대한 전면 금지" # 931064835377825440
+  daoyu_one_country_one_nation_one_religion: "하나의 국가 하나의 민족 하나의 종교" # 1212006431152399500
+  daoyu_one_country_one_nation_one_religion_remove: "한 국가, 하나의 민족, 하나의 종교를 멈추시오" # 11733697368848651155
+  daoyu_one_earth_one_nation_one_religion: "하나의 지구 하나의 국가 하나의 종교" # 15580050141652612784
+  daoyu_all_country_spring: "모든 국가 봄" # 6846487198111231346
+  daoyu_all_country_spring_flavor: "중반 및 후반에는 #N 신중하게 부여하십시오!#!\n컴퓨터 사양이 낮을 경우, #N 신중하게 부여하십시오!#!\n$daoyu_one_country_one_nation_one_religion$을 사용하면 #N 속도가 감소할 것입니다#!\n$daoyu_one_earth_one_nation_one_religion$을 사용하면 #N 속도가 크게 감소할 것입니다#!\n$daoyu_create_radicals_flavor$\n선택 효과는 얼마나 오래 지속됩니까?" # 10079054115281829519
+  daoyu_continue: "계속하시겠습니까?" # 17313916353921478041
+  daoyu_achievements_flavor: "달성 가능:\n$ACHIEVEMENT_victorian_century$ $ACHIEVEMENT_american_territory$ $ACHIEVEMENT_bourbon_for_everyone$ $ACHIEVEMENT_an_empire_under_the_pun$ $ACHIEVEMENT_the_western_protectorate$ $ACHIEVEMENT_risorgimento$ $ACHIEVEMENT_broken_promises$ $ACHIEVEMENT_revolutionary$" # 13877710498747604898
+  daoyu_colonial_integrity: "식민지 통합성" # 17902259520835425853
+  daoyu_victorian_century: "빅토리아 시대 - 도전 과제" # 2849234835195211740
+  daoyu_victorian_century_desc: "클릭하신 후에는 아무것도 걱정하실 필요 없이 1936년까지 기다리시면 됩니다." # 2588125237821203917
+  daoyu_all_country_division: "AI 국가 분할" # 8131878460614391950
+  daoyu_all_country_division_desc: "지도나 정보를 변경하는 모드를 설치할 때는 주의하십시오." # 17796908306828397107
+  daoyu_auto_flavor: "#N $buildings_expand$#!: 실업률이 10%를 초과하는 주의 건물만 자동 확장합니다. 이 건물은 $concept_occupancy$가 75% 이상이어야 하며, $concept_cash_reserves$(최대 1000 단계)를 보유하고, $building_government_administration$가 최대 100 단계여야 합니다.\n#N $concept_production_method$#!: 건물이 더 진보된 생산 방식을 채택하면, 동일 유형의 모든 건물이 이를 따릅니다.\n#N $russification_modifier$#!: [ROOT.GetCountry.GetRuler.GetFirstName]의 문화인 [ROOT.GetCountry.GetRuler.GetCulture.GetName]으로 동화됩니다." # 6884563162959651018
+  daoyu_disable_AI_colonization: "AI 식민지 개척 비활성화" # 17336321493513966202
+  daoyu_russification_root: "우리 국가 국민 동화" # 16818363765913588235
+  daoyu_russification_subject: "피지배 민족 동화" # 11123593014242332657
+  daoyu_russification_subject_01: "[SCOPE.sCountry('daoyu_russification_subject_01').GetName] 통치자의 문화는 다음과 같습니다: [SCOPE.sCountry('daoyu_russification_subject_01').GetRuler.GetCulture.GetName]\n" # 15346187251236654721
+  daoyu_russification_subject_02: "[SCOPE.sCountry('daoyu_russification_subject_02').GetName] 통치자의 문화는: [SCOPE.sCountry('daoyu_russification_subject_02').GetRuler.GetCulture.GetName]입니다.\n" # 454410603848535088
+  daoyu_russification_subject_03: "[SCOPE.sCountry('daoyu_russification_subject_03').GetName] 통치자의 문화는: [SCOPE.sCountry('daoyu_russification_subject_03').GetRuler.GetCulture.GetName]입니다.\n" # 16511017069455473231
+  daoyu_russification_subject_04: "[SCOPE.sCountry('daoyu_russification_subject_04').GetName] 통치자의 문화는: [SCOPE.sCountry('daoyu_russification_subject_04').GetRuler.GetCulture.GetName]입니다.\n" # 15640346040738669984
+  daoyu_russification_subject_05: "[SCOPE.sCountry('daoyu_russification_subject_05').GetName] 통치자의 문화는: [SCOPE.sCountry('daoyu_russification_subject_05').GetRuler.GetCulture.GetName]입니다.\n" # 612520651874042664
+  daoyu_russification_subject_06: "[SCOPE.sCountry('daoyu_russification_subject_06').GetName] 통치자의 문화는 다음과 같습니다: [SCOPE.sCountry('daoyu_russification_subject_06').GetRuler.GetCulture.GetName]\n" # 2631043766019349701
+  daoyu_russification_subject_07: "[SCOPE.sCountry('daoyu_russification_subject_07').GetName] 통치자의 문화는 다음과 같습니다: [SCOPE.sCountry('daoyu_russification_subject_07').GetRuler.GetCulture.GetName]\n" # 14214910795805616803
+  daoyu_russification_subject_08: "[SCOPE.sCountry('daoyu_russification_subject_08').GetName] 통치자의 문화는 다음과 같습니다: [SCOPE.sCountry('daoyu_russification_subject_08').GetRuler.GetCulture.GetName]\n" # 1581993144766610863
+  daoyu_russification_subject_09: "[SCOPE.sCountry('daoyu_russification_subject_09').GetName] 통치자의 문화는: [SCOPE.sCountry('daoyu_russification_subject_09').GetRuler.GetCulture.GetName]입니다.\n" # 11585806459627783939
+  daoyu_russification_subject_10: "[SCOPE.sCountry('daoyu_russification_subject_10').GetName] 통치자의 문화는 다음과 같습니다: [SCOPE.sCountry('daoyu_russification_subject_10').GetRuler.GetCulture.GetName]\n" # 11312877521670453001
+  daoyu_russification_subject_11: "[SCOPE.sCountry('daoyu_russification_subject_11').GetName] 통치자의 문화는 다음과 같습니다: [SCOPE.sCountry('daoyu_russification_subject_11').GetRuler.GetCulture.GetName]\n" # 15535491342037792322
+  daoyu_russification_subject_12: "[SCOPE.sCountry('daoyu_russification_subject_12').GetName] 통치자의 문화는: [SCOPE.sCountry('daoyu_russification_subject_12').GetRuler.GetCulture.GetName]입니다." # 5114702291219562623
+  daoyu_russification_subject_13: "[SCOPE.sCountry('daoyu_russification_subject_13').GetName] 통치자의 문화는 다음과 같습니다: [SCOPE.sCountry('daoyu_russification_subject_13').GetRuler.GetCulture.GetName]\n" # 9465371097601670917
+  daoyu_russification_subject_14: "[SCOPE.sCountry('daoyu_russification_subject_14').GetName] 통치자의 문화는: [SCOPE.sCountry('daoyu_russification_subject_14').GetRuler.GetCulture.GetName]입니다.\n" # 6005856062133014966
+  daoyu_russification_subject_15: "[SCOPE.sCountry('daoyu_russification_subject_15').GetName] 통치자의 문화는 다음과 같습니다: [SCOPE.sCountry('daoyu_russification_subject_15').GetRuler.GetCulture.GetName]\n" # 8896622586820476405
+  daoyu_russification_subject_16: "[SCOPE.sCountry('daoyu_russification_subject_16').GetName] 통치자의 문화는 다음과 같습니다: [SCOPE.sCountry('daoyu_russification_subject_16').GetRuler.GetCulture.GetName]\n" # 14545421582495766055
+  daoyu_russification_subject_17: "[SCOPE.sCountry('daoyu_russification_subject_17').GetName] 통치자의 문화는 다음과 같습니다: [SCOPE.sCountry('daoyu_russification_subject_17').GetRuler.GetCulture.GetName]\n" # 16107331234311589282
+  daoyu_russification_subject_18: "[SCOPE.sCountry('daoyu_russification_subject_18').GetName] 통치자의 문화는 다음과 같습니다: [SCOPE.sCountry('daoyu_russification_subject_18').GetRuler.GetCulture.GetName]\n" # 3392350476314890145
+  daoyu_russification_subject_19: "[SCOPE.sCountry('daoyu_russification_subject_19').GetName] 통치자의 문화는: [SCOPE.sCountry('daoyu_russification_subject_19').GetRuler.GetCulture.GetName]입니다.\n" # 8477778249513635835
+  daoyu_russification_subject_20: "[SCOPE.sCountry('daoyu_russification_subject_20').GetName] 통치자의 문화는 다음과 같습니다: [SCOPE.sCountry('daoyu_russification_subject_20').GetRuler.GetCulture.GetName]\n" # 5009632778523754583
+  daoyu_russification_su_su_01: "[SCOPE.sCountry('daoyu_russification_su_su_01').GetName] 통치자의 문화는 다음과 같습니다: [SCOPE.sCountry('daoyu_russification_su_su_01').GetRuler.GetCulture.GetName]" # 8825854698593781069
+  daoyu_russification_su_su_02: "[SCOPE.sCountry('daoyu_russification_su_su_02').GetName] 통치자의 문화는 다음과 같습니다: [SCOPE.sCountry('daoyu_russification_su_su_02').GetRuler.GetCulture.GetName]\n" # 8617033582673958325
+  daoyu_russification_su_su_03: "[SCOPE.sCountry('daoyu_russification_su_su_03').GetName] 통치자의 문화는 다음과 같습니다: [SCOPE.sCountry('daoyu_russification_su_su_03').GetRuler.GetCulture.GetName]\n" # 9994344897133762732
+  daoyu_russification_su_su_04: "[SCOPE.sCountry('daoyu_russification_su_su_04').GetName] 통치자의 문화는 다음과 같습니다: [SCOPE.sCountry('daoyu_russification_su_su_04').GetRuler.GetCulture.GetName]" # 17522965758682702887
+  daoyu_russification_su_su_05: "[SCOPE.sCountry('daoyu_russification_su_su_05').GetName] 통치자의 문화는: [SCOPE.sCountry('daoyu_russification_su_su_05').GetRuler.GetCulture.GetName]입니다." # 11657626216719159870
+  daoyu_russification_su_su_06: "[SCOPE.sCountry('daoyu_russification_su_su_06').GetName] 통치자의 문화는: [SCOPE.sCountry('daoyu_russification_su_su_06').GetRuler.GetCulture.GetName]입니다.\n" # 16774860837308248295
+  daoyu_russification_su_su_07: "[SCOPE.sCountry('daoyu_russification_su_su_07').GetName] 통치자의 문화는 다음과 같습니다: [SCOPE.sCountry('daoyu_russification_su_su_07').GetRuler.GetCulture.GetName]" # 4968887070387600112
+  daoyu_russification_su_su_08: "[SCOPE.sCountry('daoyu_russification_su_su_08').GetName] 통치자의 문화는 다음과 같습니다: [SCOPE.sCountry('daoyu_russification_su_su_08').GetRuler.GetCulture.GetName]\n" # 5720468406076677213
+  daoyu_russification_su_su_09: "[SCOPE.sCountry('daoyu_russification_su_su_09').GetName] 통치자의 문화는 다음과 같습니다: [SCOPE.sCountry('daoyu_russification_su_su_09').GetRuler.GetCulture.GetName]" # 15307786342518481566
+  daoyu_russification_su_su_10: "[SCOPE.sCountry('daoyu_russification_su_su_10').GetName] 통치자의 문화는 다음과 같습니다: [SCOPE.sCountry('daoyu_russification_su_su_10').GetRuler.GetCulture.GetName]\n" # 15432918109963651649
+  daoyu_russification_su_su_11: "[SCOPE.sCountry('daoyu_russification_su_su_11').GetName] 통치자의 문화는 다음과 같습니다: [SCOPE.sCountry('daoyu_russification_su_su_11').GetRuler.GetCulture.GetName]\n" # 14692447925470608607
+  daoyu_russification_su_su_12: "[SCOPE.sCountry('daoyu_russification_su_su_12').GetName] 통치자의 문화는: [SCOPE.sCountry('daoyu_russification_su_su_12').GetRuler.GetCulture.GetName]입니다." # 219927259144628738
+  daoyu_russification_su_su_13: "[SCOPE.sCountry('daoyu_russification_su_su_13').GetName] 통치자의 문화는 다음과 같습니다: [SCOPE.sCountry('daoyu_russification_su_su_13').GetRuler.GetCulture.GetName]" # 2300818979259632410
+  daoyu_russification_su_su_14: "[SCOPE.sCountry('daoyu_russification_su_su_14').GetName] 통치자의 문화는 다음과 같습니다: [SCOPE.sCountry('daoyu_russification_su_su_14').GetRuler.GetCulture.GetName]" # 5254355927953584732
+  daoyu_russification_su_su_15: "[SCOPE.sCountry('daoyu_russification_su_su_15').GetName] 통치자의 문화는 다음과 같습니다: [SCOPE.sCountry('daoyu_russification_su_su_15').GetRuler.GetCulture.GetName]\n" # 12655855681703895922
+  daoyu_russification_su_su_16: "[SCOPE.sCountry('daoyu_russification_su_su_16').GetName] 통치자의 문화는 다음과 같습니다: [SCOPE.sCountry('daoyu_russification_su_su_16').GetRuler.GetCulture.GetName]" # 10357678576350068515
+  daoyu_russification_su_su_17: "[SCOPE.sCountry('daoyu_russification_su_su_17').GetName] 통치자의 문화는 다음과 같습니다: [SCOPE.sCountry('daoyu_russification_su_su_17').GetRuler.GetCulture.GetName]" # 13001782819111385003
+  daoyu_russification_su_su_18: "[SCOPE.sCountry('daoyu_russification_su_su_18').GetName] 통치자의 문화는 다음과 같습니다: [SCOPE.sCountry('daoyu_russification_su_su_18').GetRuler.GetCulture.GetName]" # 14923089126293528520
+  daoyu_russification_su_su_19: "[SCOPE.sCountry('daoyu_russification_su_su_19').GetName] 통치자의 문화는 다음과 같습니다: [SCOPE.sCountry('daoyu_russification_su_su_19').GetRuler.GetCulture.GetName]" # 13586539633493474857
+  daoyu_russification_su_su_20: "[SCOPE.sCountry('daoyu_russification_su_su_20').GetName] 통치자의 문화는 다음과 같습니다: [SCOPE.sCountry('daoyu_russification_su_su_20').GetRuler.GetCulture.GetName]\n" # 1731957206624320474
+  daoyu_peasants_exhaustion: "[SCOPE.sState('daoyu_peasants_exhaustion').GetName]에는 $peasants_no_icon$이(가) 없습니다." # 4261432642087442206
+  daoyu_peasants_exhaustion_settings: "$concept_state$에는 $peasants_no_icon$ $SETTINGS_CATEGORY_TOOLTIPS$가 없습니다." # 16606002093355325217
+  daoyu_peasants_exhaustion_settings_flavor: "소유한 모든 주에서 $peasants_no_icon$의 빈도를 확인하십시오." # 12809525288660422475
+  daoyu_peasants_exhaustion_located: "[SCOPE.sState('daoyu_peasants_exhaustion').GetName]은 [SCOPE.sState('daoyu_peasants_exhaustion').GetStateRegion.GetStrategicRegion.GetName]에 위치하고 있습니다." # 14720352958315908514
+  daoyu_peasants_exhaustion_add_week: "$pmg_automation$ $ADD_TO_GOVERNMENT_SHORT$ $peasants_no_icon$ $TICKTASK_RATE_WEEK$" # 12706929869235021698
+  daoyu_peasants_exhaustion_add_month: "$pmg_automation$ $ADD_TO_GOVERNMENT_SHORT$ $peasants_no_icon$ $TICKTASK_RATE_MONTH$" # 15462154399568000822
+  daoyu_unified_ideology: "통일된 이념 (통치자와 같음)" # 16381118011875081547
+  daoyu_all_AI_country: "AI가 통제하는 모든 국가" # 8052131567638014804
+  daoyu_target_country_create_radicals: "$daoyu_target_country_get_name$ 내에 급진파를 생성하십시오." # 15838412497778521796
+  daoyu_create_radicals: "급진파를 창설하십시오" # 6069333939918113745
+  daoyu_create_radicals_flavor: "실행 스크립트가 다층적으로 중첩되어 있어 효과가 나타나지 않습니다. 효과를 확인하는 데 시간을 투자하십시오." # 15210866987709761138
+  daoyu_arrange_accident: "#V 다오위 치트#! 사고 위장" # 1123835287790218601
+  daoyu_arrange_accident_desc: "#lore [Character.GetFullName] 암살.!#" # 10380803019030363893
+  daoyu_arrange_accident_tt: "#R 캐릭터를 처치한 직후 캐릭터 인터페이스에서 즉시 나가십시오. 그렇지 않으면 다수의 연속적인 오류가 발생합니다.!#" # 8108415259518377973
+  daoyu_in_military_formation_create_commander: "#V 도유 치트#! 새로운 지휘관을 모집합니다" # 7913920965076017137
+  daoyu_in_military_formation_create_commander_desc: "[Character.GetMilitaryFormation.GetName]에서 신규 지휘관을 모집합니다" # 5163362519145584734
+  daoyu_exile_character: "#V 다오위 치트#! 반체제 인사 추방" # 9705281476755133901
+  daoyu_exile_character_desc: "#lore 추방 [Character.GetFullName].#!" # 1011719550477086515
+  daoyu_interactions_manage_character: "#V 다오위 치트#! 인물 관리" # 17197213605487712064
+  daoyu_manage_character_cannot_be_opened_repeatedly: "#V 인물#!은 반복해서 열 수 없습니다" # 140959666359853773
+  daoyu_has_been_activated: "#V 다오위 치트#! 동시에 활성화할 수 없습니다" # 16783881829824348244
+  daoyu_interactions_generals_orders: "#V 다오위 치트#! 일괄 관리" # 15749755741027409748
+  daoyu_interactions_generals_orders_desc: "[Character.GetCountry.GetName]의 장군 일괄 관리" # 6949119079065473999
+  daoyu_interactions_admirals_orders: "#V 다오위 치트#! 일괄 관리" # 15749755741027409748
+  daoyu_interactions_admirals_orders_desc: "[Character.GetCountry.GetName] 내 제독 일괄 관리" # 9328143804718823466
+  daoyu_generals_orders: "일괄 지휘관 관리" # 6835188115588346910
+  daoyu_admirals_orders: "일괄 관리 제독들" # 13865555683236658875
+  daoyu_interactions_manage_character_desc: "#lore [Character.GetFullName]이(가) 편집함.#!" # 7670602402042208672
+  daoyu_instant_diplomatic_action: "$concept_instant_diplomatic_action$" # 17268921316226629967
+  daoyu_instant_diplomatic_action_desc: "$daoyu_instant_diplomatic_action$" # 17078686156262624398
+  daoyu_target_country_remove_building: "이 국가에서 건물을 제거하십시오" # 17489518203299146566
+  daoyu_target_country_remove_building_desc: "$daoyu_target_country_remove_building$" # 8314527489831450160
+  daoyu_open_daoyu_cheat: "#V Daoyu 부정행위#!부정행위 메뉴 열기" # 1508598479944074138
+  daoyu_end_truce_root_between_target_country: "$daoyu_root_get_name$와 $daoyu_target_country_get_name$ 간의 [concept_truce]가 해제되었습니다." # 14952814830190453980
+  daoyu_end_truce_all_between_target_country: "$ALL$ $concept_countries$와 $daoyu_target_country_get_name$ 간의 $concept_truce$가 해제되었습니다." # 1131326662605899395
+  daoyu_declare_war_initiator: "[SCOPE.sCountry('daoyu_declare_war_initiator').GetName]" # 14072777510035008373
+  daoyu_declare_war: "[SCOPE.sCountry('daoyu_declare_war_initiator').GetName]와 $daoyu_target_country_get_name$ 간의 전쟁" # 12766651550562020324
+  daoyu_declare_war_target_flavor: "확인 후, [SCOPE.sCountry('daoyu_declare_war_initiator').GetName]가 전쟁을 선포하려는 국가를 우클릭하고, “$concept_diplomatic_actions$”에서 “$concept_instant_diplomatic_actions$”를 선택하십시오." # 14166760737826627460
+  daoyu_join_diplomatic_play_initiator: "$RULER_JOIN_IG_SHORT$ $WAR_PANEL_INITIATOR_HEADER_TOOLTIP$" # 272846017166729971
+  daoyu_join_diplomatic_play_target: "$RULER_JOIN_IG_SHORT$ $WAR_PANEL_TARGET_HEADER_TOOLTIP$" # 14655076916255364017
+  daoyu_annex_country: "이 국가를 합병하십시오" # 16532744996809911380
+  daoyu_create_puppet: "꼭두각시 국가를 생성하십시오" # 9710855220602394383
+  daoyu_add_claim: "모든 주를 점령하십시오" # 16746246310173204798
+  daoyu_remove_claim_1: "주 영유권 상실" # 13943265239962766798
+  daoyu_remove_claim_2: "국가에 주장 상실 강제" # 16732497762560736914
+  daoyu_join_power_bloc: "$concept_power_bloc$에 가입합니다." # 10900827616789134844
+  daoyu_join_power_bloc_desc: "$daoyu_join_power_bloc$" # 6448609925053503074
+  daoyu_no_power_bloc: "#R $concept_power_bloc$ 없음#!" # 1827313730642946133
+  daoyu_target_country_power_bloc: "$concept_power_bloc$: [SCOPE.sCountry('daoyu_target_country').GetPowerBloc.GetName]\n" # 14821565199655090128
+  daoyu_root_power_bloc: "$concept_power_bloc$: [ROOT.GetCountry.GetPowerBloc.GetName]\n" # 13883228873449216042
+  daoyu_root_join_target_country_power_bloc: "$daoyu_root_get_name$가 [SCOPE.sCountry('daoyu_target_country').GetPowerBloc.GetName]에 가입합니다" # 11438686679815295609
+  daoyu_target_country_join_root_power_bloc: "$daoyu_target_country_get_name$이 [ROOT.GetCountry.GetPowerBloc.GetName]에 가입합니다." # 16561088943594580186
+  daoyu_power_bloc_modifier: "$concept_power_bloc$ $MODIFIERS$" # 14568590779151270271
+  daoyu_no_dlc_create_power_bloc: "Steam|steamapps|common|Victoria 3|game|common|power_bloc_identities|00_power_bloc_identities.txt와 power_bloc_principles|00_power_bloc_principles.txt 파일을 여십시오. has_dlc_feature를 검색하여, has_dlc_feature 앞에 #R Pound Key(symbol)#!을 추가하고 파일을 저장하십시오. 저장 파일을 불러오지 마십시오. 게임을 재시작해야 합니다." # 7524684862866809176
+  daoyu_instant_diplomatic_actions_on: "#G 활성화#! $concept_instant_diplomatic_actions$" # 5804197685096953159
+  daoyu_instant_diplomatic_actions_off: "#R 비활성화#! $concept_instant_diplomatic_actions$" # 7885278256972860768
+  daoyu_treaty_articles_on: "#G 활성화#! $daoyu_treaty_articles$" # 6591569775930977546
+  daoyu_treaty_articles_on_tooltip: "$daoyu_on$ => $DIPLOMACY$ => #G 활성화#! $daoyu_treaty_articles$" # 892552986675217827
+  daoyu_treaty_articles_off: "#R 비활성화#! $daoyu_treaty_articles$" # 16117718381153095253
+  daoyu_treaty_articles_off_desc: "#R 비활성화#! $daoyu_treaty_articles$" # 16117718381153095253
+  daoyu_modify_target_country: "$daoyu_target_country_get_name$를 수정하시오" # 8858129730384119444
+  daoyu_modify_our_country: "$daoyu_root_get_name$을 수정하십시오" # 15397031403087907328
+  daoyu_laws_desc: "#R $daoyu_target_country_get_name$ 법률 수정#!\n$daoyu_laws_flavor$" # 4263369556140885203
+  daoyu_technology_desc: "#R $daoyu_target_country_get_name$#!\n$acquired_technology_notification_group$\n$daoyu_compatible_with_other_mod$" # 18297863527106096822
+  daoyu_compatible_with_other_mod: "만약 귀하가 기술 및 법률을 수정하는 모드 제작자이며, 다오위 치트(Daoyu Cheat)와의 호환성을 원하신다면, 다오위 치트 폴더 내의 daoyu_tec_and_law를 검색하시고 그곳의 지침을 확인하십시오." # 3012637886438884221
+  daoyu_create_character_flavor: "게임 업데이트 이후 캐릭터 생성 시 사령부를 선택할 수 없게 되면서, 장군 및 제독 생성 옵션이 일시적으로 차단되었습니다." # 14275383508760094408
+  daoyu_ai_strategy: "대상 국가 전략 조정하기" # 3956939274444948512
+  daoyu_ai_administrative_strategy: "행정 전략" # 1199926475748919236
+  daoyu_ai_administrative_strategy_flavor: "$daoyu_target_country_get_name$의 #G 현재 전략: #!\n#R 행정 전략#!" # 17866301189831087597
+  daoyu_ai_diplomatic_strategy: "외교 전략" # 3134627776679618331
+  daoyu_ai_diplomatic_strategy_flavor: "#R 외교 전략: #!" # 13077021560617910669
+  daoyu_ai_political_strategy: "정치 전략" # 16168409734209312275
+  daoyu_ai_political_strategy_flavor: "#R 정치 전략: #!" # 1236226775591121132
+  daoyu_high_liberty_desire: "높은 [concept_liberty_desire]" # 558816177060527347
+  daoyu_is_diplomatic_play_enemy_of_overlord: "$concept_overlord$에 대한 $concept_diplomatic_play$에서 반대하는 것은" # 12900785660471287399
+  daoyu_all_pop: "모든 인민" # 17742229340468472131
+  daoyu_primary_culture_and_state_religion: "$concept_primary_culture$ 및 $concept_state_religion$" # 7338958187504868070
+  daoyu_nonexistent: "#V 다오위 치트#! 존재하지 않음" # 4589273755260955903
+  daoyu_unemployed_disappear: "실업자를 사라지게 하라" # 13123439350996342318
+  daoyu_transfer_to_another_formation: "다른 진형으로 전환" # 17233863390534785826
+  daoyu_transfer_to_another_formation_flavor: "[SCOPE.sCharacter('daoyu_target_character').GetFullName]이 전속할 다른 편제의 부대 수는 몇 기입니까?\n동일한 수의 부대를 가진 최대 9개의 편제를 지원합니다." # 16452606332401659818
+  daoyu_mf_1: "[SCOPE.sMilitaryFormation('daoyu_mf_1').GetName]" # 14352490495549931261
+  daoyu_mf_2: "[SCOPE.sMilitaryFormation('daoyu_mf_2').GetName]" # 11024847968455949707
+  daoyu_mf_3: "[SCOPE.sMilitaryFormation('daoyu_mf_3').GetName]" # 11619513835519623853
+  daoyu_mf_4: "[SCOPE.sMilitaryFormation('daoyu_mf_4').GetName]" # 15474191185953404993
+  daoyu_mf_5: "[SCOPE.sMilitaryFormation('daoyu_mf_5').GetName]" # 12318593020380774936
+  daoyu_mf_6: "[SCOPE.sMilitaryFormation('daoyu_mf_6').GetName]" # 5684950505545573869
+  daoyu_mf_7: "[SCOPE.sMilitaryFormation('daoyu_mf_7').GetName]" # 8153724782491925119
+  daoyu_mf_8: "[SCOPE.sMilitaryFormation('daoyu_mf_8').GetName]" # 16090692400730115042
+  daoyu_mf_9: "[SCOPE.sMilitaryFormation('daoyu_mf_9').GetName]" # 12938302187357403921
+  daoyu_historical_character_flavor: "#R 이 선택지에 등장할 역사적 인물은 누구여야 할까요#!\n참고 1: 그 인물은 오리지널 V3 게임에 등장했어야 합니다.\n참고 2: 에펠탑이 건설되면 등장하는 '에펠'과 같이 쉽게 등장하는 역사적 인물은 추천하지 마십시오.\n스팀이나 빌리빌리에 메시지를 남겨주십시오." # 14156351410887118721
+  daoyu_one_building_one_region_flavor: "한 종류의 건물은 둘 이상의 주에 건설되도록 지정될 수 있습니다. 특정 종류의 건물은 일부 주에서만 건설될 수 있다고 지정한 후에는, 해당 주들은 이 건물 유형을 나타내는 주 특성을 추가하게 됩니다. 이 특성이 없는 주에서는 그러한 건물들이 철거될 것입니다.\n특정 특성들은 상응하는 기술을 해금해야 합니다.\n#R 자원 및 농업 건물은 시스템에 의해 건물 한도로 새로고침되는 것을 방지하기 위해 해당 자원이 없는 주에 건설되어야 합니다.#!" # 1596106116215793184
+  daoyu_remove_building: "건물 철거" # 8523123197183417744
+  daoyu_remove_all_buildings: "#R 모든 건물 철거#!" # 17264102613937321899
+  daoyu_except_for_root: "우리나라를 제외하고" # 4658204721019463783
+  daoyu_only_root: "오직 나의 국가" # 4963819572671717162
+  daoyu_include_vassals: "종속국_포함" # 8852015432829357327
+  daoyu_include_vassals_of_vassals: "종속국의 종속국 포함" # 14596253300258137611
+  daoyu_show_all: "모두 보기" # 10175337569689906440
+  daoyu_one_building_one_region_on: "#G 활성화#! 자동 철거" # 8657361566479010216
+  daoyu_one_building_one_region_off: "#R 비활성화#! 자동 철거" # 17535744115817876534
+  daoyu_remove_building_state_trait: "추가된\"건물 유형 주 특\" 제거" # 5262249879166486637
+  daoyu_remove_principle: "$REMOVE_FROM_GOVERNMENT_SHORT$ $concept_power_bloc_principle$" # 769742538281023335
+  daoyu_fast_construction: "신속한 건설" # 11253927710147079983
+  daoyu_stop_construction: "건설 중지" # 9341139422596398416
+  daoyu_fast_construction_off: "$REMOVE_FROM_GOVERNMENT_SHORT$ 신속한 건설" # 9402535860057187374
+  daoyu_stop_construction_off: "$REMOVE_FROM_GOVERNMENT_SHORT$ 건설 중단" # 8958341432579736899
+  daoyu_fast_construction_reason: "#R $country_max_weekly_construction_progress_add$#! 을 일요일까지 지속되도록 하십시오." # 15841728072827896463
+  daoyu_create_building_explanation: "사용 시 #N GAME PAUSED#!\n선택지 9개까지 지원합니다. 레벨 199까지 지원합니다.\n사용 시 건물 재건축이 삭제되므로, \"$pmg_automation$\"에서 \"#N $concept_unemployed$#\"를 활성화하지 마십시오." # 7626107502685116711
+  daoyu_construction_queue_government_buildings: "$concept_construction_queue$ 내의 $concept_government_buildings$에만 적용됩니다.\n" # 4438702648423021542
+  daoyu_expand_nationally_owned_building_under_construction: "$buildings_expand$ 100% $concept_nationally_owned$ 건설 중인 $concept_buildings$" # 8518382327001867306
+  daoyu_expand_nationally_owned_building_under_construction_flavor: "\"지역 노동\" 소유지는\"국가 소\"로 간주될 것이며, 추가 레벨은\"지역 노동\" 레벨 + 1이 될 것입니다." # 10871494234911171391
+  daoyu_nationalized_buildings: "$concept_nationalized$ $concept_buildings$" # 3400827643636484224
+  daoyu_nationalized_buildings_flavor: "\"지역 노동\" 소유지는\"국가 소\"로 간주되어 인정되지 않을 것입니다.\n게임 충돌을 유발할 수 있으므로 모든 건물을 한 번에 국유화하는 기능은 지원하지 않습니다." # 7667110475892945271
+  daoyu_nationalized_buildings_under_construction: "$concept_nationalized$ 건설 중인 $concept_buildings$" # 4446521362669413010
+  daoyu_nationalized_buildings_under_construction_flavor: "\"지역 노동\" 소유지는\"국가 소\"로 간주되어 인정되지 않을 것입니다." # 14980004362417698484
+  daoyu_preselection_building: "사전 선택 건물" # 13581434704705228413
+  daoyu_potential_building: "잠재적 건물" # 7443990467664393877
+  daoyu_current_building: "현재 건물" # 16078286910387921075
+  daoyu_current_building_1: "[SCOPE.sBuilding('daoyu_current_building_1').GetState.GetName]에 있는 [SCOPE.sBuilding('daoyu_current_building_1').GetName]" # 2959533536268549542
+  daoyu_current_building_2: "[SCOPE.sBuilding('daoyu_current_building_2').GetState.GetName]에 위치한 [SCOPE.sBuilding('daoyu_current_building_2').GetName]" # 12467523369381843780
+  daoyu_current_building_3: "[SCOPE.sBuilding('daoyu_current_building_3').GetState.GetName]에 위치한 [SCOPE.sBuilding('daoyu_current_building_3').GetName]" # 15681399345792806851
+  daoyu_current_building_4: "[SCOPE.sBuilding('daoyu_current_building_4').GetState.GetName]에 있는 [SCOPE.sBuilding('daoyu_current_building_4').GetName]" # 16961778785376724746
+  daoyu_current_building_5: "[SCOPE.sBuilding('daoyu_current_building_5').GetState.GetName]에 위치한 [SCOPE.sBuilding('daoyu_current_building_5').GetName]" # 17423616235210200439
+  daoyu_current_building_6: "[SCOPE.sBuilding('daoyu_current_building_6').GetName]이(가) [SCOPE.sBuilding('daoyu_current_building_6').GetState.GetName]에 있습니다." # 4044673528988462943
+  daoyu_current_building_7: "[SCOPE.sBuilding('daoyu_current_building_7').GetName]이(가) [SCOPE.sBuilding('daoyu_current_building_7').GetState.GetName]에 있습니다." # 2975049260360435788
+  daoyu_current_building_8: "[SCOPE.sBuilding('daoyu_current_building_8').GetState.GetName]에 위치한 [SCOPE.sBuilding('daoyu_current_building_8').GetName]" # 17905777150151959650
+  daoyu_current_building_9: "[SCOPE.sBuilding('daoyu_current_building_9').GetState.GetName]에 위치한 [SCOPE.sBuilding('daoyu_current_building_9').GetName]" # 4170151369449662665
+  daoyu_prevent_ai_from_building_randomly: "#N AI가 무작위로 건설하는 것을 방지#!" # 8022470107923876174
+  daoyu_private_into_government: "주간 효과: $concept_private_constructions$가 $concept_government_constructions$로 전환됨" # 16108262777946787084
+  daoyu_add_lobby_member: "어떤 이익집단이든 이 로비에 참여합니다" # 6891175187248941738
+  daoyu_remove_lobby_member: "모든 이익 집단이 이 로비에서 탈퇴합니다." # 17710206496826979306
+  daoyu_add_military_access: "#variable\"본\" [Concept('concept_army', '$concept_armies$')]은 $daoyu_target_country$를 통해 할 수 있습니다#!" # 3360929882484199993
+  daoyu_add_military_access_desc: "이 선택지를 고른 후, $daoyu_target_country$를 선택하십시오." # 14626348665118846789
+  daoyu_add_military_access_desc_1: "[SCOPE.sCountry('daoyu_add_military_access').GetName] $ADD_TO_GOVERNMENT_SHORT$ $concept_military_access$ $TO$ [SCOPE.sCountry('daoyu_target_country').GetName]" # 15299399167592573193
+  daoyu_add_military_access_desc_2: "[SCOPE.sCountry('daoyu_add_military_access').GetName]가 [SCOPE.sCountry('daoyu_target_country').GetName]에 $concept_military_access$를 부여했습니다." # 6015096467788554094
+  daoyu_add_military_access_option: "[SCOPE.sCountry('daoyu_add_military_access').GetName] $REMOVE_FROM_GOVERNMENT_SHORT$ $concept_military_access$ $TO$ [SCOPE.sCountry('daoyu_target_country').GetName]" # 1239573455937547856
+  daoyu_add_military_access_effect: "[SCOPE.sCountry('daoyu_add_military_access').GetName]은 [SCOPE.sCountry('daoyu_target_country').GetName]을 통과하여 [Concept('concept_army', '$concept_armies$')]을 행군할 수 있습니다." # 294260627333384180
+  daoyu_target_country_industry_banned: "#law_industry_banned#!" # 4609657874781747173
+  daoyu_target_country_industry_banned_desc: "$daoyu_target_country_industry_banned$와 발전소 외 모든 공장을 철거하십시오." # 11186377189179237448
+  daoyu_break_target_country_industry_banned: "$BREAK$ $daoyu_target_country_industry_banned$" # 9247873989100607565
+  daoyu_target_country_extraction_economy: "#variable $law_extraction_economy$#!" # 18129416426666653626
+  daoyu_target_country_extraction_economy_desc: "$daoyu_target_country_extraction_economy$ 및 발전소 외 모든 공장을 철거하십시오." # 7155929353474284996
+  daoyu_break_target_country_extraction_economy: "$BREAK$ $daoyu_target_country_extraction_economy$" # 12085012941329466476
+  daoyu_line_reaks: "\n" # 7161557352316922208
+  daoyu_colon: ":" # 3457700326242144790
+  daoyu_single: "단일" # 10846045023421901095
+  daoyu_give_all_tech: "화면 우측 상단 => $MESSAGE_SETTINGS$ => $MESSAGE_SETTINGS_NOTIFICATION_TYPES$:\n#G $acquired_technology_notification_group$ #! $FROM$ #N $concept_message_settings_popup$ #! $TO$ #N $concept_message_settings_none$ #! 로 변경." # 5483247099981310797
+  daoyu_country_force_privatization_bool: "$country_force_privatization_bool$" # 2015848206517958449
+  daoyu_country_force_privatization_bool_desc: "$country_force_privatization_bool_desc$" # 11975880132902636338
+  daoyu_country_foreign_collectivization_bool: "$country_foreign_collectivization_bool$" # 4248812990321619322
+  daoyu_country_foreign_collectivization_bool_desc: "$country_foreign_collectivization_bool_desc$" # 5826597066430408927
+  daoyu_country_disable_privatization_bool: "$country_disable_privatization_bool$" # 5943931330472617072
+  daoyu_country_disable_privatization_bool_desc: "$country_disable_privatization_bool_desc$" # 8176131559093601966
+  daoyu_country_disable_nationalization_without_compensation_bool: "$country_disable_nationalization_without_compensation_bool$" # 8483506831209134832
+  daoyu_country_disable_nationalization_without_compensation_bool_desc: "$country_disable_nationalization_without_compensation_bool_desc$" # 7369688192128500573
+  daoyu_country_disable_nationalization_bool: "$country_disable_nationalization_bool$" # 7527203652785122264
+  daoyu_country_disable_nationalization_bool_desc: "$country_disable_nationalization_bool_desc$" # 5629218619412227373
+  daoyu_country_disable_investment_pool_bool: "$country_disable_investment_pool_bool$" # 18223167991016911222
+  daoyu_country_disable_investment_pool_bool_desc: "$country_disable_investment_pool_bool_desc$" # 2167852139989662143
+  daoyu_country_can_form_construction_company_bool: "$country_can_form_construction_company_bool$" # 15381426041567016485
+  daoyu_country_can_form_construction_company_bool_desc: "$country_can_form_construction_company_bool_desc$" # 3331941027517797903
+  IBL: "이비비올란드" # 13626664031753741656
+  IBL_ADJ: "이비비오" # 14496875113430229857
+  daoyu_query_countries_tag: "국가 태그 조회" # 3706139657991452465
+  daoyu_country_agitator_slots_add: "선동가 슬롯" # 16797568774619597284
+  daoyu_country_legitimacy_base_add: "$warlord_legitimacy$" # 11471659498514998488
+  daoyu_was_born_on: "태어났다" # 767693617876175701
+  daoyu_after: "이후" # 8983811925477012210
+  daoyu_before: "이전에" # 388668604565675248
+  daoyu_preventing_great_disasters: "거대한 재앙 방지" # 13723540800608610704
+  daoyu_level_1: "#I 낮음#!" # 3815913785047667211
+  daoyu_level_2: "#G #b 보통#!#!" # 13877326590706923132
+  daoyu_level_3: "#V #b 최고#!#!" # 14222477566793930020
+  daoyu_level_4: "#b 매우 높음#!" # 5113137661362009795
+  daoyu_level_5: "#O #bold 극단적#!#!" # 13743609415016138473
+  daoyu_level_6: "#N 중대#!" # 15781319968134770511
+  daoyu_ideology_pluralist_movement_1: "$ideology_pluralist_movement_1$ 1\n$law_ethnostate$: $IDEOLOGY_DISAPPROVAL$\n$law_national_supremacy$: $IDEOLOGY_APPROVAL$\n$law_national_supremacy$: $IDEOLOGY_NEUTRAL$\n$law_cultural_exclusion$: $IDEOLOGY_NEUTRAL$\n$law_multicultural$: $IDEOLOGY_NEUTRAL$" # 8227444241450377337
+  daoyu_ideology_pluralist_movement_2: "$ideology_pluralist_movement_1$ 2\n$law_ethnostate$: $IDEOLOGY_STRONG_DISAPPROVAL$\n$law_national_supremacy$: $IDEOLOGY_DISAPPROVAL$\n$law_national_supremacy$: $IDEOLOGY_APPROVAL$\n$law_cultural_exclusion$: $IDEOLOGY_NEUTRAL$\n$law_multicultural$: $IDEOLOGY_NEUTRAL$" # 16668144872486049022
+  daoyu_ideology_pluralist_movement_3: "$ideology_pluralist_movement_1$ 3\n$law_ethnostate$: $IDEOLOGY_STRONG_DISAPPROVAL$\n$law_national_supremacy$: $IDEOLOGY_STRONG_DISAPPROVAL$\n$law_national_supremacy$: $IDEOLOGY_DISAPPROVAL$\n$law_cultural_exclusion$: $IDEOLOGY_APPROVAL$\n$law_multicultural$: $IDEOLOGY_NEUTRAL$" # 3526366363080283671
+  daoyu_ideology_pluralist_movement_4: "$ideology_pluralist_movement_1$ 4\n$law_ethnostate$: $IDEOLOGY_STRONG_DISAPPROVAL$\n$law_national_supremacy$: $IDEOLOGY_STRONG_DISAPPROVAL$\n$law_national_supremacy$: $IDEOLOGY_DISAPPROVAL$\n$law_cultural_exclusion$: $IDEOLOGY_DISAPPROVAL$\n$law_multicultural$: $IDEOLOGY_APPROVAL$" # 3835663396385878576
+  daoyu_remove_company: "회사 해산" # 9735268199764845554
+  daoyu_redeem_all_obligation: "$redeem_obligation$ ($OUTLINER_ALL$)" # 4805534443815778602
+  daoyu_treaty_articles: "$daoyu_cheat$ $concept_article$" # 11706804952809444487
+  daoyu_enactment_success_on: "#G $concept_enactment_success$ 발동#!" # 2299827420697321139
+  daoyu_enactment_success_on_desc: "#R 1836.1.1#에만 이용 가능하며, #variable $daoyu_off$#! 이후에는 $concept_enactment_success$ 또한 사용될 수 있습니다.\n일단 활성화되면, 법률을 제정하는 동안 이용 가능한 결정 #variable $concept_enactment_success$#!이 나타날 것입니다." # 13866480407788093996
+  daoyu_enactment_success: "$concept_enactment_success$" # 11499727437492920231
+  daoyu_strata_expected_sol: "#variable $state_lower_strata_expected_sol_add$: [ROOT.GetCountry.MakeScope.Var('daoyu_state_lower_strata_expected_sol_var').GetValue]\n$state_middle_strata_expected_sol_add$: [ROOT.GetCountry.MakeScope.Var('daoyu_state_middle_strata_expected_sol_var').GetValue]\n$state_upper_strata_expected_sol_add$: [ROOT.GetCountry.MakeScope.Var('daoyu_state_upper_strata_expected_sol_var').GetValue]\n$state_expected_sol_from_literacy$: [ROOT.GetCountry.MakeScope.Var('daoyu_state_expected_sol_from_literacy_var').GetValue]#!" # 5981601928739164317
+  daoyu_state_lower_strata_expected_sol_a: "$state_lower_strata_expected_sol_add$ + 1" # 8956094067025499957
+  daoyu_state_middle_strata_expected_sol_a: "$state_middle_strata_expected_sol_add$ + 1" # 12438051163011826835
+  daoyu_state_upper_strata_expected_sol_a: "$state_upper_strata_expected_sol_add$ + 1" # 12174284159582237481
+  daoyu_state_expected_sol_from_literacy_a: "$state_expected_sol_from_literacy$ + 1" # 4032593950605897315
+  daoyu_state_lower_strata_expected_sol_b: "$state_lower_strata_expected_sol_add$ = 0" # 15004253072771082577
+  daoyu_state_middle_strata_expected_sol_b: "$state_middle_strata_expected_sol_add$ = 0" # 12103158846505277616
+  daoyu_state_upper_strata_expected_sol_b: "$state_upper_strata_expected_sol_add$ = 0" # 6512431630424687663
+  daoyu_state_expected_sol_from_literacy_b: "$state_expected_sol_from_literacy$ = 0" # 11183464015152920448
+  daoyu_state_lower_strata_expected_sol_c: "$state_lower_strata_expected_sol_add$ - 1" # 9406419543547265196
+  daoyu_state_middle_strata_expected_sol_c: "$state_middle_strata_expected_sol_add$ - 1" # 3909973405306739582
+  daoyu_state_upper_strata_expected_sol_c: "$state_upper_strata_expected_sol_add$ - 1" # 13653211856278980579
+  daoyu_state_expected_sol_from_literacy_c: "$state_expected_sol_from_literacy$ - 1" # 4917241415547335911
+  daoyu_state_lower_strata_expected_sol_add: "$state_lower_strata_expected_sol_add$" # 14259931299769193138
+  daoyu_state_middle_strata_expected_sol_add: "$state_middle_strata_expected_sol_add$" # 12729144462930435545
+  daoyu_state_upper_strata_expected_sol_add: "$state_upper_strata_expected_sol_add$" # 11399338841869846825
+  daoyu_state_expected_sol_from_literacy: "$state_expected_sol_from_literacy$" # 2983172681696759752
+  daoyu_monopoly_flavor: "#variable $SELECT$ $BUILDING_DATABASE_ORDER$#!$daoyu_remove_monopoly_no_work$" # 13329861009278378525
+  daoyu_remove_monopoly_no_work: "#R 독점 해제 테스트는 구현되지 않았거나 제 구문이 틀렸습니다. 부디 신중하게 추가하십시오.#!" # 8166394186066199567
+  daoyu_ig_approval: "$daoyu_ig_armed_forces_approval$\n$daoyu_ig_landowners_approval$\n$daoyu_ig_devout_approval$\n$daoyu_ig_industrialists_approval$\n$daoyu_ig_intelligentsia_approval$\n$daoyu_ig_petty_bourgeoisie_approval$\n$daoyu_ig_trade_unions_approval$\n$daoyu_ig_rural_folk_approval$\n$daoyu_time_limit_one_year$" # 6866767911598585963
+  daoyu_ig_pol_str: "$daoyu_ig_armed_forces_pol_str$\n$daoyu_ig_landowners_pol_str$\n$daoyu_ig_devout_pol_str$\n$daoyu_ig_industrialists_pol_str$\n$daoyu_ig_intelligentsia_pol_str$\n$daoyu_ig_petty_bourgeoisie_pol_str$\n$daoyu_ig_trade_unions_pol_str$\n$daoyu_ig_rural_folk_pol_str$\n$daoyu_time_limit_one_year$" # 10871068226826035998
+  daoyu_interest_group_approval: "$interest_group_approval_add$" # 7888501320117535444
+  daoyu_interest_group_pol_str: "$daoyu_interest_group_political_strength$" # 7280572005059205630
+  daoyu_ig_armed_forces_approval: "#variable $ig_armed_forces$ $concept_approval$: [ROOT.GetCountry.MakeScope.Var('daoyu_ig_armed_forces_approval').GetValue]" # 9155242869509223826
+  daoyu_ig_landowners_approval: "#variable $ig_landowners$ $concept_approval$: [ROOT.GetCountry.MakeScope.Var('daoyu_ig_landowners_approval').GetValue]" # 13139998617042810959
+  daoyu_ig_devout_approval: "#variable $ig_devout$ $concept_approval$: [ROOT.GetCountry.MakeScope.Var('daoyu_ig_devout_approval').GetValue]" # 4667865867178244321
+  daoyu_ig_industrialists_approval: "$ig_industrialists$ $concept_approval$: [ROOT.GetCountry.MakeScope.Var('daoyu_ig_industrialists_approval').GetValue]" # 3280947785941477717
+  daoyu_ig_intelligentsia_approval: "$ig_intelligentsia$ $concept_approval$: [ROOT.GetCountry.MakeScope.Var('daoyu_ig_intelligentsia_approval').GetValue]" # 8944221646944070751
+  daoyu_ig_petty_bourgeoisie_approval: "$ig_petty_bourgeoisie$ $concept_approval$: [ROOT.GetCountry.MakeScope.Var('daoyu_ig_petty_bourgeoisie_approval').GetValue]" # 4430114865247264317
+  daoyu_ig_trade_unions_approval: "$ig_trade_unions$ $concept_approval$: [ROOT.GetCountry.MakeScope.Var('daoyu_ig_trade_unions_approval').GetValue]" # 3204573707312885453
+  daoyu_ig_rural_folk_approval: "#variable $ig_rural_folk$ $concept_approval$: [ROOT.GetCountry.MakeScope.Var('daoyu_ig_rural_folk_approval').GetValue]" # 9250588050746689893
+  daoyu_ig_armed_forces_pol_str: "#variable $ig_armed_forces$ $concept_political_strength$: [ROOT.GetCountry.MakeScope.Var('daoyu_ig_armed_forces_pol_str').GetValue]" # 1161523453860872503
+  daoyu_ig_landowners_pol_str: "#variable $ig_landowners$ $concept_political_strength$: [ROOT.GetCountry.MakeScope.Var('daoyu_ig_landowners_pol_str').GetValue]" # 6710718102217386249
+  daoyu_ig_devout_pol_str: "#variable $ig_devout$ $concept_political_strength$: [ROOT.GetCountry.MakeScope.Var('daoyu_ig_devout_pol_str').GetValue]" # 11458214677681923561
+  daoyu_ig_industrialists_pol_str: "$ig_industrialists$ $concept_political_strength$: [ROOT.GetCountry.MakeScope.Var('daoyu_ig_industrialists_pol_str').GetValue]" # 6315496159329880084
+  daoyu_ig_intelligentsia_pol_str: "$ig_intelligentsia$ $concept_political_strength$: [ROOT.GetCountry.MakeScope.Var('daoyu_ig_intelligentsia_pol_str').GetValue]" # 66280213880578267
+  daoyu_ig_petty_bourgeoisie_pol_str: "$ig_petty_bourgeoisie$ $concept_political_strength$: [ROOT.GetCountry.MakeScope.Var('daoyu_ig_petty_bourgeoisie_pol_str').GetValue]" # 8053877345956963262
+  daoyu_ig_trade_unions_pol_str: "#variable $ig_trade_unions$ $concept_political_strength$: [ROOT.GetCountry.MakeScope.Var('daoyu_ig_trade_unions_pol_str').GetValue]" # 14024012241106429146
+  daoyu_ig_rural_folk_pol_str: "$ig_rural_folk$ $concept_political_strength$: [ROOT.GetCountry.MakeScope.Var('daoyu_ig_rural_folk_pol_str').GetValue]" # 7583779730674018414
+  daoyu_auto_bureaucracy_authority_influence: "$pmg_automation$ $concept_bureaucracy$ $concept_authority$ $concept_influence$" # 9246102939239179143
+  daoyu_auto_country_bureaucracy: "$pmg_automation$ $concept_bureaucracy$" # 5507591795764108385
+  daoyu_auto_country_authority: "$pmg_automation$ $concept_authority$" # 17963531315755436354
+  daoyu_auto_country_influence: "$pmg_automation$ $concept_influence$" # 12910946287551192340
+  daoyu_heritage_group_eastern_european: "동유럽" # 6700369191770852666
+  daoyu_heritage_group_western_european: "서유럽" # 8460948830719582006

@@ -1,0 +1,263 @@
+﻿l_korean:
+  dlc_tech_res: "기술 및 연구" # 1062450317642946545
+  dlc_tech_res_desc: "테크 & 레스는 1836년부터 1990년대, 그 이후까지 새로운 시대, 생산 기술 및 산업 역학을 포함한 심오하고 몰입감 있는 기술 발전 시스템을 추가하는 모드입니다." # 8384328505110313641
+  dubois_state_trait_volcano: "화산" # 6792708077593121795
+  combat_unit_type_modern_mechanized_infantry: "현대 기계화 보병" # 12643778757253117612
+  combat_unit_type_modern_mechanized_infantry_desc: "높은 기동성과 잘 갖춰진 장비를 갖춘 병력으로, 신속하게 배치되어 효과적인 전투 작전을 수행할 수 있습니다." # 1986523411113946641
+  combat_unit_type_modern_light_tanks: "현대 경전차" # 4379698116060487447
+  combat_unit_type_modern_light_tanks_desc: "빠르고 민첩하며, 정찰 및 신속한 강습을 위해 설계된 장갑 차량입니다." # 10209074558547424335
+  combat_unit_type_modern_heavy_tank: "현대식 중전차" # 1035470258153145399
+  combat_unit_type_modern_heavy_tank_desc: "중장갑과 중무장으로 무장하여 전장에서 우수한 화력과 방호력을 제공하는 차량." # 7304983030920558360
+  combat_unit_type_main_battle_tanks: "주력 전차" # 12857957144490513869
+  combat_unit_type_main_battle_tanks_desc: "화력, 방호력, 기동력을 겸비하여 다양한 현대 전투 시나리오에 적합한 다목적 장갑차량으로, 특히 냉전 시대에 활약했습니다." # 5318585505778973692
+  combat_unit_type_advanced_mechanized_infantry: "고급 기계화 보병" # 9251334120918951289
+  combat_unit_type_advanced_mechanized_infantry_desc: "높은 기동성과 잘 갖춰진 장비를 갖춘 병력으로, 신속하게 배치되어 효과적인 전투 작전을 수행할 수 있습니다." # 1986523411113946641
+  extra: "호외" # 1397922501206358188
+  combat_unit_type_nuclear_submarine: "핵잠수함" # 4769949808005038725
+  combat_unit_type_nuclear_submarine_desc: "원자로로 동력을 얻는 잠수함으로, 장시간 수중 작전과 은밀한 교전이 가능해집니다." # 9537252790114505771
+  combat_unit_type_modern_destroyer: "현대식 구축함" # 17603364401659186608
+  combat_unit_type_modern_destroyer_desc: "빠르고 기동성 좋은 군함으로, 대공, 대잠, 수상전 수행을 위해 설계되었습니다." # 8762809459551384847
+  combat_unit_type_scout_modern_cruiser: "정찰 신형 순양함" # 17979634895304154867
+  combat_unit_type_scout_modern_cruiser_desc: "정찰 및 쾌속 대응 작전용으로 설계된 빠르고 민첩한 순양함." # 7334198320731959388
+  combat_unit_type_modern_battleship: "현대식 전함" # 2447851262823356905
+  combat_unit_type_modern_battleship_desc: "중무장과 두터운 장갑을 갖춰, 장거리 화력 지원과 해상 지배력을 제공하는 전함." # 15507200720762650209
+  historical_population_of_france_1: "19세기 정체" # 6429505727594116601
+  historical_population_of_france_2: "19세기 정체 해소" # 3049902143600546177
+  population_of_brazil_end_of_slavery: "파벨라 붐" # 13336014164650035565
+  population_of_brazil_end_of_slavery_player: "파벨라 붐" # 13336014164650035565
+  population_of_country_modernizing: "인구 폭발" # 2573071743070545074
+  japan_meiji_modernization: "메이지 근대화" # 5235724425977086637
+  japan_meiji_modernization_player: "메이지 근대화" # 5235724425977086637
+  usa_gilded_age: "도금 시대" # 8615648314813026549
+  usa_gilded_age_player: "도금 시대" # 8615648314813026549
+  arabia_renaissance_modifier: "아랍 르네상스" # 1068664451804177148
+  anglo_irish_pact_modifier: "영국-아일랜드 휴전" # 15212704079658538570
+  anglo_irish_false_pact_modifier: "영아일랜드 거짓 휴전" # 10926203408936961555
+  bloody_sunday_modifier: "피의 일요일" # 18013888632851339804
+  good_friday_agreement_modifier: "성 금요일 협정" # 801294098884825038
+  union_consolidated_modifier: "영-아일랜드 연합 공고화" # 7645303625458524189
+  austria_unity_restored: "제국 통합 회복" # 13590182203798841502
+  magyar_linguistic_discrimination: "마자르 언어 차별" # 1747336998203999412
+  ztr_collapse_revolt_crushed: "반란 진압" # 13753702703696074367
+  ztr_collapse_revolt_appeased: "반란 진압됨" # 10613643250376741283
+  hungarian_rights_granted: "헝가리 권리 부여" # 17210047883872905273
+  czech_rights_granted: "체코 권리 승인" # 12569106526029899358
+  austrian_monarchy_humiliated: "오스트리아 군주국 굴욕" # 16032321504496705215
+  mittleuropa_harbor: "미텔오이로파 항구" # 15100255715523163787
+  galicia_agricultural_subsidies: "갈리시아 농업 보조금" # 2708502247232095782
+  ztr_geneva_convention: "제네바 협약 가입" # 8328164887717967179
+  ztr_society_of_nations: "국제 연맹 회원국" # 9942084941736359378
+  ztr_onu_member: "유엔 회원국" # 5850780921071490936
+  ztr_onu_permanent_member: "상임 유엔 회원국" # 5200278235416003262
+  ztr_un_resolution_refused_modifier: "유엔 결의안 거부됨" # 7152099822647331212
+  ztr_un_resolution_veto_modifier: "유엔 결의안 거부" # 2710470628096133622
+  ztr_un_resolution_used_veto_modifier: "유엔 결의안 거부권 행사" # 995780768989263584
+  historical_population_of_germany: "19세기 호황" # 8751212409197186862
+  population_of_brazil_during_slavery: "독립 이후 노예제" # 15572915988515035870
+  population_of_brazil_during_slavery_player: "독립 이후 노예제" # 15572915988515035870
+  jewel_in_the_crown_modifier: "왕관의 보석" # 18128039583476276909
+  colonial_agricultural_shift_player: "식민지 농업 전환" # 15672124791499522617
+  colonial_agricultural_shift: "식민지 농업 전환" # 15672124791499522617
+  ai_strategy_un_stability: "유엔 안정 전략" # 11677206720841615480
+  ai_strategy_un_stability_desc: "[COUNTRY.GetName]은 유엔의 틀 내에서 안정을 유지하고, 분쟁에 대한 평화적 해결을 장려하며, 더 큰 전쟁으로의 확대를 방지하고자 합니다." # 16483505944766779115
+  demographic_stage_0: "산업화 이전 인구 단계" # 734941474734899417
+  demographic_stage_1: "초기 산업 인구 단계" # 758751363949588220
+  demographic_stage_2: "산업화 중기 인구 단계" # 7109152129561838613
+  demographic_stage_3: "후기 산업 인구 단계" # 10521689665432702228
+  demographic_stage_4: "초기 탈산업 인구학적 단계" # 15200345505170088993
+  demographic_stage_5: "탈산업화 중기 인구 단계" # 17427067898389756028
+  demographic_stage_6: "후기 탈산업 인구 단계" # 14587312571643805995
+  demographic_stage_7: "정체된 인구 단계" # 18289595806638711805
+  demographic_stage_8: "인구 감소 단계" # 14946610877081019609
+  modern_medicine_0: "19세기 초기 의학" # 7725175886867872128
+  modern_medicine_1: "19세기 후기 의학" # 5160827131655618375
+  modern_medicine_2: "20세기 초 의학" # 1297894440752431987
+  modern_medicine_3: "20세기 중반 의학" # 13241502805352998184
+  modern_medicine_4: "후기 20세기 의학" # 816554555071724663
+  combat_unit_type_self_propelled_artillery: "자주포" # 15308249461666024741
+  combat_unit_type_self_propelled_artillery_desc: "이동식 받침대에 장착된 대포로, 더 큰 유연성과 신속한 배치가 가능합니다." # 2293583417249847503
+  combat_unit_type_rocket_artillery: "로켓 포병" # 15081891605769264607
+  combat_unit_type_rocket_artillery_desc: "로켓을 주된 발사체로 사용하는 대포로, 더 긴 사거리와 강력한 폭발력을 자랑합니다." # 16316984718513414289
+  combat_unit_type_modern_carrier: "핵항공모함" # 12113550812919965838
+  combat_unit_type_modern_carrier_desc: "원자로 동력 항공모함으로, 작전 배치를 연장하고 병참 제약을 줄입니다." # 2533278361126320809
+  tactical_weapons: "전술 무기" # 10035480302676491947
+  mobilization_option_close_air_support: "근접 항공 지원" # 11561220155863772577
+  mobilization_option_close_air_support_desc: "특수 항공기가 공대지 무장으로 적 지상군을 직접 공격합니다." # 6681926811999170611
+  mobilization_option_supersonic_close_air_support: "초음속 근접 항공 지원" # 18196420566720378767
+  mobilization_option_supersonic_close_air_support_desc: "공대지 무기를 갖춘 초음속 항공기가 적 지상군을 직접 공격합니다." # 6035466752561616507
+  mobilization_option_indirect_air_support: "간접 항공 지원" # 4003162980434715347
+  mobilization_option_indirect_air_support_desc: "다양한 폭격기가 적 전선 후방의 목표물을 공격하여 적 예비대와 보급선을 교란합니다." # 13210434899075849625
+  mobilization_option_supersonic_indirect_air_support: "초음속 간접 항공 지원" # 6863902667631561277
+  mobilization_option_supersonic_indirect_air_support_desc: "초음속 폭격기는 적진 후방의 목표를 공격하여 적 예비대와 보급선을 교란합니다." # 13706740014348191335
+  mobilization_option_paratroopers: "공수부대" # 2822632924566049961
+  mobilization_option_paratroopers_desc: "정예 병력이 낙하산을 사용하여 적 전선 후방의 핵심 목표를 공격합니다." # 8149960001424841742
+  mobilization_option_guided_missiles: "유도 미사일" # 12515029906192459592
+  mobilization_option_guided_missiles_desc: "유도 미사일은 적의 목표물을 정밀하게 공격하는 데 사용됩니다." # 4981579963176092094
+  mobilization_option_helicopters_support: "헬리콥터 지원" # 13736295070885289909
+  mobilization_option_helicopters_support_desc: "헬리콥터는 지상 병력에게 지원을 제공하며, 공중 강습에 사용될 수 있습니다." # 13905375663872627694
+  mobilization_option_awacs_support: "에이왁스 지원" # 6180460587319543113
+  mobilization_option_awacs_support_desc: "AWACS 항공기는 정찰에 유용하며 작전 조율에 사용될 수 있습니다." # 17131926473149367685
+  mobilization_option_satellites_support: "위성국 지원" # 8809512282990996305
+  mobilization_option_satellites_support_desc: "위성은 작전 조정을 위해 사용될 수 있는 우주 기반 정찰 시스템입니다." # 6530262384619804674
+  mobilization_option_penicillin_medical_support: "페니실린 의료 지원" # 3255916075580922611
+  mobilization_option_penicillin_medical_support_desc: "페니실린은 감염을 치료하고 전장에서 생명을 구할 수 있는 강력한 항생제입니다." # 7780820277168222110
+  goods_input_light_fuel_add: "@light_fuel! 경유 투입" # 6216783065568310915
+  goods_input_light_fuel_add_desc: "건물에서 소비되는 @light_fuel! 경량 연료의 양" # 14166640901742137640
+  goods_input_pharmaceuticals_add: "@pharmaceuticals! 의약품 투입" # 6527510816699650899
+  goods_input_pharmaceuticals_add_desc: "건물이 소비하는 @pharmaceuticals! 의약품의 양" # 16489838676503468249
+  goods_input_helicopters_add: "@헬리콥터! 헬리콥터 입력" # 2831530052579150527
+  goods_input_helicopters_add_desc: "건물들의 @helicopters! 헬리콥터 소비량" # 5798783979640028336
+  goods_input_processors_add: "@processors! 가공품 투입물" # 16411711618617499633
+  goods_input_processors_add_desc: "건물들의 @processors! 프로세서 소비량" # 14899103024115035791
+  goods_input_missiles_add: "@missiles! 미사일 입력" # 13473186616256652322
+  goods_input_missiles_add_desc: "@missiles! 건물에서 소비되는 미사일" # 35731834594150191
+  goods_input_good_uranium_add: "@good_uranium! 우라늄 투입량" # 3694036268368242828
+  goods_input_good_uranium_add_desc: "건물들이 소비하는 @good_uranium! 우라늄의 양" # 17391728382152936258
+  goods_input_computer_add: "@computer! 컴퓨터 입력" # 8187064360723492017
+  goods_input_computer_add_desc: "건물이 소비하는 @computer! 컴퓨터의 양" # 13921171100089157568
+  goods_input_electroniccomponents_add: "@electroniccomponents! 전자 부품 투입" # 9918339675582381302
+  goods_input_electroniccomponents_add_desc: "건물이 소모하는 @electroniccomponents! 전기 부품의 양" # 3384994248815078320
+  goods_input_space_assets_add: "@space_assets! 우주 자산 입력" # 17240164378081833602
+  goods_input_space_assets_add_desc: "건물에서 소비되는 @space_assets! 우주 자산의 양" # 2427399388364500334
+  goods_input_water_add: "@water! 물 투입량" # 9716105377853744329
+  goods_input_water_add_desc: "@water! 건물에서 소비되는 물의 양" # 3708515668361857950
+  goods_input_telecommunications_add: "@telecommunications! 전기 통신 투입" # 17547414138926758440
+  goods_input_telecommunications_add_desc: "건물들이 소비하는 @telecommunications! 통신량" # 10877859509653849249
+  goods_input_robotics_add: "@robotics! 로봇 공학 입력" # 708192872807179531
+  electronic_support: "전자 지원" # 8957627629172904963
+  remote_support: "원격 지원" # 4406339306841678023
+  nuclear_weapons: "핵무기" # 5627323961255064452
+  mobilization_option_electronic_countermeasures: "전자 대응책" # 6334565004592494429
+  mobilization_option_electronic_countermeasures_desc: "전자전 방해책은 아군 병력을 적의 레이더 및 조준 시스템으로부터 보호하는 데 도움이 됩니다." # 15748759132501104048
+  mobilization_option_electronic_support_measures: "전자 지원 수단" # 15304937265335007300
+  mobilization_option_electronic_support_measures_desc: "전자 지원 조치는 향상된 통신과 조정을 통해 우리 군의 역량을 증강시킵니다." # 8577906889859322793
+  mobilization_option_electronic_attack: "전자 공격" # 2746261841520885249
+  mobilization_option_electronic_attack_desc: "전자 공격 능력은 우리로 하여금 적의 통신 및 표적 시스템을 교란할 수 있게 해줍니다." # 15111287407240745940
+  mobilization_option_electronic_counter_countermeasures: "전자 대대응책" # 18077002041184593772
+  mobilization_option_electronic_counter_countermeasures_desc: "전자 역역대응은 적의 전자전으로부터 아군을 보호하는 데 도움이 됩니다." # 2955873339444684250
+  mobilization_option_uavs: "무인 항공기" # 5985073993064080169
+  mobilization_option_uavs_desc: "무인 항공기(UAV)는 조종사의 생명을 위험에 빠뜨리지 않고 정찰 및 공격 능력을 제공합니다." # 639731615923492854
+  mobilization_option_ai_drones: "인공지능 차량" # 13511067023636662096
+  mobilization_option_ai_drones_desc: "AI 비히클은 2020년대 전장의 최첨단 기술이며, 최소한의 인간 개입으로 전장에서 비할 데 없는 역량을 제공합니다." # 5154567991803928640
+  unit_combat_unit_type_modern_heavy_tank_offense_mult: "현대 중전차\n부대 공격력 배율" # 7239910830824610654
+  unit_combat_unit_type_modern_heavy_tank_offense_mult_desc: "현대 중전차\n부대 공격력 배율" # 7239910830824610654
+  unit_combat_unit_type_modern_light_tanks_offense_mult: "현대 경전차 공격력 배율" # 17551905715100052623
+  unit_combat_unit_type_modern_light_tanks_offense_mult_desc: "현대 경전차 공격력 배율" # 17551905715100052623
+  unit_combat_unit_type_main_battle_tanks_offense_mult: "주력 전차 공격력 배율" # 14069699858886790146
+  unit_combat_unit_type_main_battle_tanks_offense_mult_desc: "주력 전차 공격력 배율" # 14069699858886790146
+  unit_combat_unit_type_siege_artillery_offense_mult: "$combat_unit_type_siege_artillery$ $unit_offense_mult$" # 13344774950677082892
+  unit_combat_unit_type_siege_artillery_offense_mult_desc: "$combat_unit_type_siege_artillery$ $unit_offense_mult$" # 13344774950677082892
+  unit_combat_unit_type_siege_artillery_defense_mult: "$combat_unit_type_siege_artillery$ $unit_defense_mult$" # 11994630182937102686
+  unit_combat_unit_type_siege_artillery_defense_mult_desc: "$combat_unit_type_siege_artillery$ $unit_defense_mult$" # 11994630182937102686
+  unit_combat_unit_type_self_propelled_artillery_offense_mult: "$combat_unit_type_self_propelled_artillery$ $unit_offense_mult$" # 18228279499864740975
+  unit_combat_unit_type_self_propelled_artillery_offense_mult_desc: "$combat_unit_type_self_propelled_artillery$ $unit_offense_mult$" # 18228279499864740975
+  unit_combat_unit_type_self_propelled_artillery_defense_mult: "자주포병\n부대 방어력 승수" # 17141088563537271187
+  unit_combat_unit_type_self_propelled_artillery_defense_mult_desc: "자주포병\n부대 방어력 승수" # 17141088563537271187
+  unit_combat_unit_type_modern_mechanized_infantry_offense_mult: "$combat_unit_type_modern_mechanized_infantry$\n$unit_offense_mult$" # 10670717969681574204
+  unit_combat_unit_type_modern_mechanized_infantry_offense_mult_desc: "$combat_unit_type_modern_mechanized_infantry$\n$unit_offense_mult$" # 10670717969681574204
+  unit_combat_unit_type_modern_mechanized_infantry_defense_mult: "현대 기계화 보병\n유닛 방어 승수" # 17448079599220520793
+  unit_combat_unit_type_modern_mechanized_infantry_defense_mult_desc: "현대 기계화 보병\n유닛 방어 승수" # 17448079599220520793
+  unit_combat_unit_type_advanced_mechanized_infantry_offense_mult: "고급 기계화 보병\n유닛 공격력 배율" # 197126066973706591
+  unit_combat_unit_type_advanced_mechanized_infantry_offense_mult_desc: "고급 기계화 보병\n유닛 공격력 배율" # 197126066973706591
+  unit_combat_unit_type_advanced_mechanized_infantry_defense_mult: "고급 기계화 보병\n부대 방어 배율" # 9511330153957894274
+  unit_combat_unit_type_advanced_mechanized_infantry_defense_mult_desc: "고급 기계화 보병\n부대 방어 배율" # 9511330153957894274
+  mobilization_option_rocket_artillery: "로켓" # 12193992866038969155
+  mobilization_option_rocket_artillery_desc: "로켓은 적 병력에 치명적인 양의 폭발물을 투하할 수단을 제공합니다." # 16287705143369363726
+  unit_combat_unit_type_nuclear_submarine_offense_mult: "$combat_unit_type_nuclear_submarine$\n$unit_offense_mult$" # 13749569837256957485
+  unit_combat_unit_type_nuclear_submarine_offense_mult_desc: "$combat_unit_type_nuclear_submarine$\n$unit_offense_mult$" # 13749569837256957485
+  unit_combat_unit_type_nuclear_submarine_defense_mult: "핵잠수함\n유닛 방어력 배수" # 6847517806242275143
+  unit_combat_unit_type_nuclear_submarine_defense_mult_desc: "핵잠수함\n유닛 방어력 배수" # 6847517806242275143
+  unit_combat_unit_type_modern_destroyer_offense_mult: "현대식 구축함\n유닛 공격력 배율" # 4168361349374859708
+  unit_combat_unit_type_modern_destroyer_offense_mult_desc: "현대식 구축함\n유닛 공격력 배율" # 4168361349374859708
+  unit_combat_unit_type_modern_destroyer_defense_mult: "현대 구축함\n유닛 방어 배율" # 8351822840144897729
+  unit_combat_unit_type_modern_destroyer_defense_mult_desc: "현대 구축함\n유닛 방어 배율" # 8351822840144897729
+  unit_combat_unit_type_scout_modern_cruiser_offense_mult: "정찰 현대식 순양함\n부대 공격력 배율" # 8458386781396285190
+  unit_combat_unit_type_scout_modern_cruiser_offense_mult_desc: "정찰 현대식 순양함\n부대 공격력 배율" # 8458386781396285190
+  unit_combat_unit_type_scout_modern_cruiser_defense_mult: "현대식 정찰 순양함\n부대 방어력 배율" # 14099398901075163522
+  unit_combat_unit_type_scout_modern_cruiser_defense_mult_desc: "현대식 정찰 순양함\n부대 방어력 배율" # 14099398901075163522
+  unit_combat_unit_type_modern_battleship_offense_mult: "현대 전함\n유닛 공격력 배율" # 2641478636551113578
+  unit_combat_unit_type_modern_battleship_offense_mult_desc: "현대 전함\n유닛 공격력 배율" # 2641478636551113578
+  unit_combat_unit_type_modern_battleship_defense_mult: "현대식 전함\n부대 방어 배율" # 8990609641489432296
+  unit_combat_unit_type_modern_battleship_defense_mult_desc: "현대식 전함\n부대 방어 배율" # 8990609641489432296
+  unit_combat_unit_type_modern_carrier_offense_mult: "현대식 항공모함\n유닛 공격력 배율" # 927440194017303436
+  unit_combat_unit_type_modern_carrier_offense_mult_desc: "현대식 항공모함\n유닛 공격력 배율" # 927440194017303436
+  unit_combat_unit_type_modern_carrier_defense_mult: "현대형 항공모함\n부대 방어 배율" # 11471623600717307509
+  unit_combat_unit_type_modern_carrier_defense_mult_desc: "현대형 항공모함\n부대 방어 배율" # 11471623600717307509
+  dev_0_country: "빈곤한 국가" # 4710663863017141270
+  dev_1_country: "저개발 국가" # 3591122383854812374
+  dev_2_country: "개발도상국" # 3598241339990793449
+  dev_3_country: "준개발국" # 17851174164431074641
+  dev_4_country: "개발도상국" # 18048879475046107705
+  dev_5_country: "선진국" # 6845750316031411147
+  dev_6_country: "고도 선진국" # 95541061879628258
+  dev_7_country: "초선진국" # 5216409013344540310
+  dev_8_country: "초선진국" # 3725679349394451189
+  decolonization_liberty_desire_counter_modifier: "탈식민화 규칙 상쇄 없음" # 12341328749240625631
+  ztr_superpower: "초강대국" # 11786870363436856141
+  ztr_eec_member: "유럽 경제 공동체 회원국" # 3262891299534771546
+  ztr_eu_member: "EU 회원국" # 17046844086253143743
+  EUROPEAN_UNION: "유럽 연합" # 16919209361880444817
+  combat_unit_type_giant_death_robot: "거대 죽음의 로봇" # 4297619975635627934
+  combat_unit_type_giant_death_robot_desc: "거대한 기계화 인공지능 병기는 첨단 무기, 방어 체계, 그리고 장갑을 갖추고 있으며, 전장에서 적군을 궤멸시킬 수 있습니다." # 16345664279852921073
+  ztr_merge_power_bloc_diplomacy: "권력 블록 병합" # 7653944448458803827
+  ztr_merge_power_bloc_diplomacy_desc: "우리의 세력권과 유사한 [Concept('concept_ideology','$concept_ideology$')]을 공유하는 다른 세력권과의 합병 제안입니다." # 9973594415940577770
+  ztr_merge_power_bloc_diplomacy_effects_desc: "우리의 세력권을 [TreatyDraft.GetRightCountry.GetName]의 세력권과 합병하여, 공유하는 [Concept('concept_ideology','$concept_ideology$')]에 기반한 더욱 강력한 동맹을 결성합니다." # 11260817878674567249
+  ztr_merge_power_bloc_diplomacy_name: "$ztr_merge_power_bloc_diplomacy$" # 18066710319493759108
+  ztr_merge_power_bloc_diplomacy_action_name: "권력 블록 병합" # 7653944448458803827
+  ztr_merge_power_bloc_diplomacy_proposal_notification_name: "# 세력 연합 합병 제안 #" # 3221941547919936142
+  ztr_merge_power_bloc_diplomacy_proposal_notification_desc: "우리는 양측 진영이 유사한 [Concept('concept_ideology','$concept_ideology$')]을 공유하고 있기에, [TARGET_COUNTRY.GetName]에 우리의 세력 연합을 통합할 것을 제안했습니다. 이러한 통합은 우리의 동맹을 강화하고 공동 안보를 증진시킬 것입니다." # 5496804578851567230
+  suez_canal_big_money: "수에즈 운하 특허" # 3482756953484851270
+  suez_canal_big_money_exit: "수에즈 운하 인수" # 11830757751114044770
+  suez_canal_small_money: "수에즈 운하 수익 분배" # 15261374037294582814
+  suez_canal_small_money_exit: "수에즈 운하 수익 분배" # 15261374037294582814
+  ztr_israel_land_settling_modifier: "유대인 토지 정착" # 8567741711690971652
+  mobilization_option_nuclear_artillery: "핵무기 포병" # 1745216169298938869
+  mobilization_option_nuclear_artillery_desc: "전술적 용도로 적 부대, 요새 또는 중요 야전 목표물을 겨냥한 저위력 전장 핵탄두입니다. 이 무기는 핵무기의 성격을 띠고 있으며, 사용 시 심각한 인도주의적, 환경적, 전략적 확전 위험을 수반합니다." # 12289566734007630559
+  mobilization_option_icbms_artillery: "대륙간 탄도 미사일" # 3314737471818549801
+  mobilization_option_icbms_artillery_desc: "대륙간 탄도 미사일(ICBM): 대륙 전역에 전략적 탄두를 전달하기 위해 주로 설계된 장거리 탄도 체계입니다. 본질적으로 핵 투발 체계로 운용되지만, 재래식 탄두를 탑재한 장거리 신속 타격에 대한 개념도 존재합니다. ICBM의 사용은 중대한 전략적 및 확전 함의를 내포합니다." # 4709999427996696936
+  research_center_site: "연구 센터 건설 현장" # 14096389837688265751
+  research_center_survey: "연구 센터 조사" # 4344577396728759266
+  research_center_modifier: "국가 연구 계획" # 8237024239576953821
+  ztr_modern_universities_linkage: "현대 대학 연계" # 4882043879282961666
+  rise_of_extremism_modifier: "극단주의의 대두" # 13422406564079102474
+  rise_of_left_modifier: "좌파 합의의 부상" # 12443761974207473244
+  ai_strategy_rules_based_security: "UN 안정성 우선순위" # 2239059196275798391
+  ai_strategy_rules_based_security_desc: "[COUNTRY.GetName]은 동맹 방위, 국제법, 그리고 신중한 강압을 우선시합니다. 연합체 결성, 제재, 그리고 항행의 자유 작전을 선호하며, 핵보유국 동료에 대해서는 신중을 기합니다." # 6965845842032391099
+  ai_strategy_security_state_revisionism: "자위권 우선" # 18141255101088794427
+  ai_strategy_security_state_revisionism_desc: "[COUNTRY.GetName]은 압박, 회색지대 전술, 기회주의적 전쟁을 통해 지역 질서를 개정하는 것을 목표로 합니다. 핵보유 강대국과의 직접적인 충돌은 피하고 취약한 이웃 국가와 완충 지대를 목표로 합니다." # 15210024665324887584
+  ai_strategy_superpower_liberal_hegemony: "자유주의적 패권" # 15635157866942266081
+  ai_strategy_superpower_liberal_hegemony_desc: "[COUNTRY.GetName]은 초강대국 지위를 활용하여 블록을 주도하고, 동맹국을 방어하며, 세계 규칙과 시장을 형성합니다. 해군력 도달 범위, 기술 금수 조치, 인권 집행, 그리고 경쟁 초강대국 견제에 중점을 둡니다." # 1029059063262705259
+  ai_strategy_superpower_command_hegemony: "명령권 지배력" # 6578163099768810140
+  ai_strategy_superpower_command_hegemony_desc: "[COUNTRY.GetName]은 중앙집권적 통제를 활용하여 영향권(sphere of influence)을 구축하고, 종속 관계를 강제하며, 전략적 요충지를 확보합니다. 대칭적인 핵보유국과의 전쟁은 피하는 대신, A2/AD(반접근/지역거부) 태세, 대리 분쟁, 자원 양보를 선호합니다." # 16174619905670648464
+  ztr_russian_proletariat_modifier: "러시아 프롤레타리아트의 봉기" # 10451180481918110691
+  ztr_liberal_consensus_helped_modifier: "자유주의적 합의가 도움이 되었다" # 11799194578204776512
+  ztr_repressed_soviet_movements_modifier: "억압된 소비에트 운동" # 10987868059437910199
+  ztr_russian_modernization: "러시아의 근대화" # 12800553314033407839
+  ztr_desperate_research_funds_modifier: "필사적인 연구 타협안" # 1158485273860838938
+  ztr_liberal_petition_success_modifier: "자유주의 청원 성공" # 677478181198779242
+  russian_revolution_lower_strata_aid_modifier: "하층민 구제" # 15257449554455057322
+  ztr_industrialists_happy_modifier: "산업가들 만족" # 14419422135909297964
+  ztr_industrialists_unhappy_modifier: "#bold 산업가들 불만#" # 387747826369989440
+  ztr_industrialists_appeased_modifier: "#bold 산업가들 달래기#!" # 9403295089616545235
+  ztr_industrialists_unpleased_modifier: "#bold 산업가들 불만#" # 12211790366484931957
+  ztr_bolsheviks_prepare_the_soviet_congress_modifier: "#bold 공산주의자들, 소비에트 의회를 준비하다#" # 18146129206140326524
+  ztr_revolutions_blocked: "#bold 혁명의 정체#" # 17177454173919999970
+  ztr_ig_red_army: "붉은 군대" # 13116947200962541165
+  ztr_russian_liberal_revolution: "자유주의 혁명" # 16043057493655372923
+  ztr_russian_communist_revolution: "소비에트 혁명" # 1650125634139571231
+  ztr_russia_bright_future: "러시아의 회복력 있는 미래" # 13419403218918139412
+  MODERN_DIPLOMATIC_ACCEPTANCE_BASE: "현대 외교 수용 기본치" # 2500365694835675744
+  ZTR_VERY_SIMILAR_LIBERTY_INDEX: "매우 유사한 [Concept('concept_liberty_index','$concept_liberty_index$')]" # 18389148400706024539
+  ZTR_SIMILAR_LIBERTY_INDEX: "유사한 [Concept('concept_liberty_index','$concept_liberty_index$')]" # 15893424795577036464
+  ZTR_NEUTRAL_LIBERTY_INDEX: "중립 [Concept('concept_liberty_index','$concept_liberty_index$')]" # 10769970557350375378
+  ZTR_SIMILAR_EQUALITY_INDEX: "유사한 [Concept('concept_equality_index','$concept_equality_index$')]" # 8975960430986099868
+  ztr_merge_power_bloc_diplomacy_proposal_accepted_name: "$ztr_merge_power_bloc_diplomacy$ 수락됨" # 3500651324218971841
+  ztr_merge_power_bloc_diplomacy_proposal_accepted_desc: "[TARGET_COUNTRY.GetName]가 우리의 $ztr_merge_power_bloc_diplomacy$ 제안을 수락했습니다." # 5773359793066878691
+  ztr_merge_power_bloc_diplomacy_proposal_declined_name: "$ztr_merge_power_bloc_diplomacy$ 거절됨" # 3049681006915770919
+  ztr_merge_power_bloc_diplomacy_proposal_declined_desc: "[TARGET_COUNTRY.GetName]이(가) $ztr_merge_power_bloc_diplomacy$ 제안을 거절했습니다." # 6040770945728043520
+  ztr_merge_power_bloc_diplomacy_proposal_third_party_accepted_name: "$ztr_merge_power_bloc_diplomacy$ 부여됨" # 17597708790238242475
+  ztr_merge_power_bloc_diplomacy_proposal_third_party_accepted_desc: "[TARGET_COUNTRY.GetName]은 [INITIATOR_COUNTRY.GetName]으로부터 $ztr_merge_power_bloc_diplomacy$를 부여받았습니다." # 4510195600299905090
+  ztr_merge_power_bloc_diplomacy_proposal_third_party_declined_name: "$ztr_merge_power_bloc_diplomacy$ 거부됨" # 13054642067661087649
+  ztr_merge_power_bloc_diplomacy_proposal_third_party_declined_desc: "[TARGET_COUNTRY.GetName]은 [INITIATOR_COUNTRY.GetName]으로부터 $ztr_merge_power_bloc_diplomacy$를 거절당했습니다." # 137099496714189416
+  ztr_similar_type_of_government_tt: "비슷한 [Concept('concept_ideology','$concept_ideology$')]를 가지고 있습니다." # 2794886697244342428
+  HOSTILE_NUCLEAR_NEIGHBOUR: "#negative_value 적대적#! 핵 이웃" # 5310339023016893041

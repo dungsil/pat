@@ -1,0 +1,10 @@
+﻿l_korean:
+  at_artifact_price_qwa_desc: "품질 및 부"
+  at_artifact_price_durability_desc: "내구성"
+  at_artifact_price_destroy_desc: "파괴 가치 미만"
+  at_artifact_price_unique_desc: "고유한"
+  at_artifact_price_tribal_desc: "부족 정부"
+  at_artifact_ask_price_player_desc: "수익률"
+  at_artifact_ask_price_ai_greed_desc: "탐욕스러운 상인" # 18415624030931574837
+  at_artifact_bid_price_ai_greed_desc: "구매자의 탐욕" # 16154865153776638905
+  at_artifact_bid_price_multiplier_desc: "흥정 결과"

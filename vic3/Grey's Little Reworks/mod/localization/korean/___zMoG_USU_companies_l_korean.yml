@@ -1,0 +1,10 @@
+﻿l_korean:
+  company_basic_utilities: "국립 전기 회사" # 14333373428443004213
+  company_basic_infrastructure: "주 물류 컨소시엄" # 12785013187325665336
+  company_basic_community: "래디언트 엔터테인먼트 그룹" # 14890568028176576267
+  company_basic_utilities_dynamic_name_tag_singular: "유틸리티" # 16585758070230147541
+  company_basic_utilities_dynamic_name_tag_plural: "공공시설" # 8896176623017918322
+  company_basic_infrastructure_dynamic_name_tag_singular: "물류" # 1474048807603709462
+  company_basic_infrastructure_dynamic_name_tag_plural: "물류" # 1474048807603709462
+  company_basic_community_dynamic_name_tag_singular: "오락" # 15380445498511213679
+  company_basic_community_dynamic_name_tag_plural: "오락" # 15380445498511213679

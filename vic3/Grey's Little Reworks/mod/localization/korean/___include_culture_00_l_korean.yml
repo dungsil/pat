@@ -1,0 +1,33 @@
+﻿l_korean:
+  include_primary_culture: "문화적 포용" # 8697116318180893285
+  include_primary_culture_action_name: "$include_primary_culture$" # 15176085439024551927
+  include_primary_culture_action_propose_name: "문화적 포용 시작" # 14913628580100972513
+  include_primary_culture_action_break_name: "문화적 포용 중단" # 6094334933069420152
+  include_primary_culture_pact_desc: "[SCOPE.GetRootScope.GetDiplomaticPact.GetFirstCountry.GetName]가 [SCOPE.GetRootScope.GetDiplomaticPact.GetSecondCountry.GetName]의 주 문화를 포함시키고 있습니다.\n 현재 #variable [SCOPE.GetRootScope.GetDiplomaticPact.GetSecondCountry.MakeScope.Var('include_primary_culture_progress').GetValue]#! 단계 중 8단계의 진행 상황입니다." # 614717602231609387
+  include_primary_culture_desc: "#header $include_primary_culture$#!\n$TOOLTIP_DELIMITER$\n대상 국가의 주류 문화에 그들의 주류 문화를 추가합니다." # 10196555900050042094
+  include_primary_culture_action_notification_name: "[INITIATOR_COUNTRY.GetName]이(가) 자국의 주 문화를 우리의 국가 주 문화에 포함시키고 있습니다." # 7075192047701743809
+  include_primary_culture_action_notification_desc: "[INITIATOR_COUNTRY.GetName]이(가) 자국의 주류 문화를 우리 국가에 편입시키고 있습니다." # 15562912037882541626
+  include_primary_culture_action_notification_break_name: "[INITIATOR_COUNTRY.GetName]에 의해 주요 문화 포함이 중단되었습니다." # 12011699963940474556
+  include_primary_culture_action_notification_break_desc: "[INITIATOR_COUNTRY.GetName]이(가) 우리 국가의 주 문화 포용 정책을 종료했습니다." # 7860378417786132509
+  include_primary_culture_effect_desc_global: "문화적 포용 시작" # 14913628580100972513
+  include_primary_culture_effect_desc_first: "[COUNTRY.GetAdjectiveNoFlag]이(가) [TARGET_COUNTRY.GetName]에서 주 문화 포용을 개시하고 있습니다." # 9238719880513122592
+  include_primary_culture_effect_desc_third: "[COUNTRY.GetName]이 [AddTextIf(ObjectsEqual(GetMetaPlayer.GetPlayedOrObservedCountry.Self, TARGET_COUNTRY.Self),TARGET_COUNTRY.GetNameNoFlag)][AddTextIf(Not(ObjectsEqual(GetMetaPlayer.GetPlayedOrObservedCountry.Self, TARGET_COUNTRY.Self)),TARGET_COUNTRY.GetName)]에 대한 문화적 포용을 시작합니다." # 10687796074601066389
+  include_primary_culture_trigger_desc_global: "문화적 포용 진행 중" # 12255577325029342500
+  include_primary_culture_trigger_false_desc_global: "더 이상 문화 포용 과정에 있지 않습니다. #b#!" # 3101536325912994266
+  include_primary_culture_trigger_desc_first: "[COUNTRY.GetAdjectiveNoFlag]가 [TARGET_COUNTRY.GetName]에 자국의 주류 문화를 편입하고 있습니다." # 7397074866021875280
+  include_primary_culture_trigger_false_desc_first: "[COUNTRY.GetAdjectiveNoFlag]는 더 이상 [TARGET_COUNTRY.GetName]에 주 문화를 포함하지 않습니다. #b#!" # 270038858008689450
+  include_primary_culture_trigger_desc_third: "[COUNTRY.GetName]은 그들의 주 문화를 [AddTextIf(ObjectsEqual(GetMetaPlayer.GetPlayedOrObservedCountry.Self, TARGET_COUNTRY.Self),TARGET_COUNTRY.GetNameNoFlag)][AddTextIf(Not(ObjectsEqual(GetMetaPlayer.GetPlayedOrObservedCountry.Self, TARGET_COUNTRY.Self)),TARGET_COUNTRY.GetName)]에 포함시키고 있습니다." # 8502119989652439304
+  include_primary_culture_trigger_false_desc_third: "[COUNTRY.GetName]은 더 이상 자국의 주 문화가 [AddTextIf(ObjectsEqual(GetMetaPlayer.GetPlayedOrObservedCountry.Self, TARGET_COUNTRY.Self),TARGET_COUNTRY.GetNameNoFlag)][AddTextIf(Not(ObjectsEqual(GetMetaPlayer.GetPlayedOrObservedCountry.Self, TARGET_COUNTRY.Self)),TARGET_COUNTRY.GetName)] #b 에 포함되지 않습니다.#!" # 12444539005782040998
+  ib_events.05.t: "주요 문화 포함" # 2306664359443184798
+  ib_events.05.d: "자부심 넘치는 [ROOT.GetCountry.GetName]가 [SCOPE.sCountry('culture_include_country').GetName]의 문화적 통합을 성공적으로 완료했습니다. 이제 [SCOPE.sCountry('culture_target_country').GetName]는 본토의 문화를 포용하며 영원히 번영할 것입니다." # 15641598590508818546
+  ib_events.05.f: "\"[ROOT.GetCountry.GetName] 만세\"" # 2468636827704366611
+  ib_events.05.a: "잘했소." # 14562174443526593361
+  include_primary_culture_weekly_effect: "종속국의 주요 문화를 통합하는 작업으로, 매주 20%의 확률로 진척되며 성공하기 위해 8의 진척도가 필요합니다." # 11744332483493075748
+  rule_sis_cultural_religion_actions: "문화 및 종교적 정렬" # 6971882262256135800
+  setting_sis_cultural_religion_enabled: "활성화됨" # 3143171053493632158
+  setting_sis_cultural_religion_enabled_desc: "플레이어는 [concept_overlord_action]을 통해 자신의 [Concept('concept_subject', '$concept_subjects$')]의 [concept_state_religion] 및 [concept_primary_cultures]을 변경할 수 있습니다." # 16530766984872820535
+  setting_sis_cultural_religion_disabled: "비활성화됨" # 1399321916878098753
+  setting_sis_cultural_religion_disabled_desc: "플레이어는 [concept_overlord_action]을 통해 자신의 [Concept('concept_subject', '$concept_subjects$')]의 [concept_state_religion] 및 [concept_primary_cultures]를 변경할 수 없습니다." # 16239004246264103932
+  notification_MoG_SIS_culture_included_name: "[SCOPE.sCountry('culture_include_country').GetName]에 통합된 문화" # 9038173665340148485
+  notification_MoG_SIS_culture_included_desc: "우리의 [concept_primary_cultures]를 [SCOPE.sCountry('culture_include_country').GetName]에 추가했습니다." # 3924215756094828342
+  notification_MoG_SIS_culture_included_tooltip: "#header $notification_MoG_SIS_culture_included_name$#!\n$notification_MoG_SIS_culture_included_desc$" # 15128371070999246416

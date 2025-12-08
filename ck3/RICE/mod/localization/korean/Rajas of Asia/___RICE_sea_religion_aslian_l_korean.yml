@@ -1,0 +1,112 @@
+﻿l_korean:
+  aslian_religion: "아슬리아닉" # 10138569753329098873
+  aslian_religion_adj: "아슬리아닉" # 10138569753329098873
+  aslian_religion_adherent: "아슬리아니스트" # 10452195176790082057
+  aslian_religion_adherent_plural: "아슬라니시스트" # 5338204996372747573
+  aslian_religion_desc: "말레이시아의 오랑 아슬리 부족의 세계관에서 세상은 위험한 영혼과 어둠으로 가득 차 있습니다. 이러한 위험천만한 우주에서, 심지어 곤충에게라도 자신의 의지를 강요하거나 다른 존재를 조롱하는 행위는 불행과 해를 불러들이는 것입니다." # 162053533270510450
+  senoi_pagan: "즈낭이즘" # 1585990898483068904
+  senoi_pagan_adj: "즈나앙기스트" # 2822872299641152401
+  senoi_pagan_adherent: "즈나앙기스트" # 2822872299641152401
+  senoi_pagan_adherent_plural: "즈낭기스트" # 8008282869409159885
+  senoi_pagan_desc: "끝이 없는 태초의 힘인 즈나앙이 세상과 그 안의 모든 인간과 신들을 창조했습니다. 우리는 그 누구도, 그 무엇도, 특히 이 세상의 수많은 정령들을 불쾌하게 하거나 해치는 것을 피해야 합니다. 그렇지 않으면, 작은 피의 제물로만 달랠 수 있는, 우둔하지만 파괴적인 천둥신 은쿠우로부터의 보복을 초래할 수 있습니다. 하지만 우호적인 정령들은 도움이 되는 정령 조상인 [Glossary( 'gunigs', 'GUNIG_GLOSS' )]으로 바뀔 수 있습니다." # 2874576004895982791
+  senoi_old_pagan: "#weak 구 즈나앙교#" # 5553475664887580314
+  senoi_old_pagan_adj: "오래된 즈나앙이스트" # 17757899672364355478
+  senoi_old_pagan_adherent: "오래된 즈나앙이스트" # 17757899672364355478
+  senoi_old_pagan_adherent_plural: "#weak 옛 즈나앙그주의자들#!" # 15455022342090759631
+  senoi_old_pagan_desc: "$senoi_pagan_desc$" # 3039200005612335609
+  semang_pagan: "카레이즘" # 6616896283974882783
+  semang_pagan_adj: "카레이스트" # 14839688115048539649
+  semang_pagan_adherent: "카레이스트" # 14839688115048539649
+  semang_pagan_adherent_plural: "카레이스트" # 4889101472324268146
+  semang_pagan_desc: "위험한 영물과 신들이 많지만, 그중 가장 강력한 존재는 천둥의 신 카레이이며, 그는 잔인하고 무시무시합니다. 카레이는 금기를 어기거나 부도덕하게 행동하는 자들을 죽음, 부상, 질병, 심지어는 뇌우와 홍수를 내려 벌합니다." # 11109576419302354155
+  semang_old_pagan: "#bold 옛 카레예파#" # 9300229774978136528
+  semang_old_pagan_adj: "오래된 카레이스트" # 16580850718317640667
+  semang_old_pagan_adherent: "오래된 카레이스트" # 16580850718317640667
+  semang_old_pagan_adherent_plural: "#bold 옛 카레이스트파#" # 15233924964851133562
+  semang_old_pagan_desc: "$semang_pagan_desc$" # 7109426462942115662
+  senoi_pagan_high_god_name: "응쿠" # 8194191527762112037
+  senoi_pagan_high_god_name_possessive: "응쿠우의" # 12704683014099581184
+  senoi_pagan_high_god_name_alternate: "천둥 신" # 10469768955340854905
+  senoi_pagan_high_god_name_alternate_possessive: "천둥신의" # 11393293208341286867
+  senoi_pagan_good_god_keloog_pias: "켈로그 피아스" # 7878679191308421106
+  senoi_pagan_good_god_keloog_kabul: "켈로그 카불" # 15614899839164334946
+  senoi_pagan_good_god_keloog_mengkah: "켈로그 멩카" # 6351345365712621615
+  senoi_pagan_good_god: "친절한 정령들" # 16355588206463771389
+  senoi_pagan_good_god_possessive: "친절한 영혼들" # 4692634362578769666
+  senoi_pagan_devil_name: "적대적인 영혼들" # 3127791296155848847
+  senoi_pagan_devil_name_possessive: "적대적인 영혼들" # 4723231201756655572
+  senoi_pagan_death_deity_name: "크렌샤" # 15202703196086406421
+  senoi_pagan_death_deity_name_possessive: "크렌샤스" # 6948142497833524202
+  senoi_pagan_death_deity_herhis: "그것은" # 12383260098665029106
+  senoi_pagan_creator_god_name: "즈나앙" # 16690707602467048342
+  senoi_pagan_creator_god_name_possessive: "즈낭스" # 17566481938977973573
+  senoi_pagan_health_god_name: "켈로그 밍 롯" # 11201370215026106993
+  senoi_pagan_health_god_name_possessive: "켈로그 밍 롯츠" # 9241019164042938291
+  senoi_pagan_fertility_god_name: "$senoi_pagan_good_god$" # 4835230523826596209
+  senoi_pagan_fertility_god_name_possessive: "$senoi_pagan_good_god_possessive$" # 8134911570606869293
+  senoi_pagan_wealth_god_name: "케라마트" # 17257146537720398257
+  senoi_pagan_wealth_god_name_possessive: "케라마츠의" # 6038026859923437459
+  senoi_pagan_household_god_name: "$senoi_pagan_good_god$" # 4835230523826596209
+  senoi_pagan_household_god_name_possessive: "$senoi_pagan_good_god_possessive$" # 8134911570606869293
+  senoi_pagan_fate_god_name: "나가" # 5260966519731851951
+  senoi_pagan_fate_god_name_possessive: "나가족" # 9633589018065601487
+  senoi_pagan_knowledge_god_name_possessive: "$senoi_pagan_fate_god_name_possessive$" # 3780178947132031725
+  senoi_pagan_war_god_name: "이포 베르네이" # 6815327442177324611
+  senoi_pagan_war_god_name_possessive: "이포 베르네이스" # 5415127995627149153
+  senoi_pagan_trickster_god_name: "$senoi_pagan_devil_name$" # 6825301048088607964
+  senoi_pagan_trickster_god_name_possessive: "$senoi_pagan_devil_name_possessive$" # 16395881582959425417
+  senoi_pagan_night_god_name: "켈로그 넨렐" # 3825194958574731555
+  senoi_pagan_night_god_name_possessive: "켈로그 넨렐의" # 17640147994908579749
+  senoi_pagan_water_god_name: "$senoi_pagan_good_god$" # 4835230523826596209
+  senoi_pagan_water_god_name_possessive: "$senoi_pagan_good_god_possessive$" # 8134911570606869293
+  senoi_pagan_house_of_worship: "정령의 집" # 14756225198541469911
+  senoi_pagan_house_of_worship_plural: "정령의 집" # 14100120075544276501
+  senoi_pagan_religious_symbol: "숲의 잎사귀" # 6290293361023376298
+  senoi_pagan_religious_text: "신성한 이야기들" # 1916157011032334391
+  senoi_pagan_religious_head_title: "고위 할라크" # 16646807151105128361
+  senoi_pagan_religious_head_title_name: "최고 의회" # 15038947742583190916
+  senoi_pagan_devotee: "신봉자" # 16996875086266395993
+  senoi_pagan_devotee_plural: "신도들" # 15412075443944701231
+  senoi_pagan_priest: "할라크" # 15299540545757794368
+  senoi_pagan_priest_plural: "할라크스" # 2435355772221809347
+  senoi_pagan_priest_term_plural: "할라크스" # 2435355772221809347
+  senoi_pagan_priest_alternate_plural: "샤먼들" # 18154816624900111499
+  senoi_pagan_divine_realm: "오스 녜엥" # 17958953595567319246
+  senoi_pagan_positive_afterlife: "$senoi_pagan_divine_realm$" # 9398367714649197277
+  senoi_pagan_negative_afterlife: "예날루브" # 8737379966001635619
+  senoi_pagan_bishop: "족장 할라크" # 13623577787605500586
+  senoi_pagan_bishop_plural: "최고 힐라크스" # 12459996624147925638
+  semang_pagan_high_god_name: "카레이" # 11345342869348125925
+  semang_pagan_high_god_name_possessive: "카레이의" # 12376620573270968076
+  semang_pagan_high_god_name_alternate: "천둥 신" # 10469768955340854905
+  semang_pagan_high_god_name_alternate_possessive: "천둥신의" # 11393293208341286867
+  semang_pagan_good_god_father_sky: "$semang_pagan_trickster_god_name$" # 1638211021713345937
+  semang_pagan_good_god: "친절한 정령들" # 16355588206463771389
+  semang_pagan_good_god_possessive: "친절한 영혼들" # 4692634362578769666
+  semang_pagan_devil_name: "적대적인 영혼들" # 3127791296155848847
+  semang_pagan_devil_name_possessive: "적대적인 영혼들" # 4723231201756655572
+  semang_pagan_death_deity_name: "죽음" # 6839449773115691256
+  semang_pagan_death_deity_name_possessive: "죽음의" # 4370432923129616423
+  semang_pagan_death_deity_herhis: "그것은" # 12383260098665029106
+  semang_pagan_creator_god_name: "마노이" # 11979193068827253528
+  semang_pagan_creator_god_name_possessive: "마노이의" # 8467056442004858480
+  semang_pagan_health_god_name: "$semang_pagan_creator_god_name$" # 9234378771355559146
+  semang_pagan_health_god_name_possessive: "$semang_pagan_creator_god_name_possessive$" # 16604201890663714352
+  semang_pagan_fertility_god_name: "$semang_pagan_creator_god_name$" # 9234378771355559146
+  semang_pagan_fertility_god_name_possessive: "$semang_pagan_creator_god_name_possessive$" # 16604201890663714352
+  semang_pagan_wealth_god_name: "테이프드'엔" # 13088324779916318891
+  semang_pagan_wealth_god_name_possessive: "테이프드앤스" # 14494298632591992614
+  semang_pagan_household_god_name: "$semang_pagan_creator_god_name$" # 9234378771355559146
+  semang_pagan_household_god_name_possessive: "$semang_pagan_creator_god_name_possessive$" # 16604201890663714352
+  semang_pagan_fate_god_name: "운명" # 2796749541833053969
+  semang_pagan_fate_god_name_possessive: "운명의" # 13257871882534990612
+  semang_pagan_knowledge_god_name: "테이프드'엔" # 13088324779916318891
+  semang_pagan_knowledge_god_name_possessive: "테이프드'엔" # 13088324779916318891
+  semang_pagan_war_god_name: "$semang_pagan_high_god_name$" # 8496641662585391293
+  semang_pagan_war_god_name_possessive: "$semang_pagan_high_god_name_possessive$" # 15075181070937225620
+  semang_pagan_trickster_god_name: "$semang_pagan_high_god_name$" # 8496641662585391293
+  semang_pagan_trickster_god_name_possessive: "$semang_pagan_high_god_name_possessive$" # 15075181070937225620
+  semang_pagan_night_god_name: "$semang_pagan_trickster_god_name$" # 1638211021713345937
+  semang_pagan_night_god_name_possessive: "$semang_pagan_trickster_god_name_possessive$" # 16901760334962813838
+  semang_pagan_water_god_name: "$semang_pagan_high_god_name$" # 8496641662585391293
+  semang_pagan_water_god_name_possessive: "$semang_pagan_high_god_name_possessive$" # 15075181070937225620

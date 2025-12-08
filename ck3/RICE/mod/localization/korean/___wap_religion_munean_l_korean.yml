@@ -1,0 +1,21 @@
+﻿l_korean:
+  munean_religion: "카누리" # 12423617044933986641
+  munean_religion_adj: "카누리" # 12423617044933986641
+  munean_religion_adherent: "카누리" # 12423617044933986641
+  munean_religion_adherent_plural: "카누리스" # 12865151886809286685
+  munean_religion_desc: "우리의 #italic 이즈와겐# 조상들이 신성한 산에서 내려와 카넴의 땅을 정복했을 때, 그들은 신성한 언약을 통해 새로운 신앙을 세웠습니다. 숭고한 무네에 대한 경배를 통해 우리의 통치자들의 정통성, 권력, 권위가 비롯됩니다." # 627094767441418475
+  munean_religious_text: "기르감" # 10731637234443803951
+  munean_high_god_name: "문" # 15188115607703838065
+  munean_high_god_name_possessive: "무네의" # 2245525334270222747
+  munean_high_god_name_alternate: "$munean_high_god_name$" # 7032023408259325513
+  munean_high_god_name_alternate_possessive: "$munean_high_god_name_possessive$" # 7155546447166933815
+  munean_pagan: "무네이즘" # 10814160924632236110
+  munean_pagan_adj: "무네안" # 13711642026019394739
+  munean_pagan_adherent: "무네안" # 13711642026019394739
+  munean_pagan_adherent_plural: "무네안스" # 11168666224161765269
+  munean_pagan_desc: "$munean_religion_desc$" # 7482727463371344943
+  munean_pagan_old: "고대 무네교" # 9061928461808008946
+  munean_pagan_old_adj: "오래된 무네안" # 15995082408749801010
+  munean_pagan_old_adherent: "오래된 무네안" # 15995082408749801010
+  munean_pagan_old_adherent_plural: "옛 무네인들" # 14686875199930027800
+  munean_pagan_old_desc: "$munean_religion_desc$" # 7482727463371344943

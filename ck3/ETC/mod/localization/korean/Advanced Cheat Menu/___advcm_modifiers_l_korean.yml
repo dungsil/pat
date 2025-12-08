@@ -1,0 +1,20 @@
+﻿l_korean:
+  advcm_build_speed_modifier: "추가 건설 속도 감소" # 301670409993579521
+  advcm_build_cost_modifier: "추가 건설 비용 감소" # 268334563008332765
+  advcm_knight_limit_modifier: "추가 기사 한도" # 12059716426780922154
+  advcm_knight_effectiveness_modifier: "추가 기사 효율" # 12573422750750576057
+  advcm_max_personal_schemes_modifier: "추가 개인 계략" # 15084642884532016228
+  advcm_max_hostile_schemes_modifier: "추가 적대적 책략" # 3270461986011643780
+  advcm_domain_limit_modifier: "추가 영지 한도" # 14496881868700829699
+  advcm_domain_limit_max_modifier: "추가 최대 영지 한도" # 6556478381294823565
+  advcm_vassal_limit_modifier: "추가 봉신 한도" # 7771035781889628667
+  advcm_men_at_arms_cap_modifier: "추가 병력 정원" # 3500619344056304770
+  advcm_men_at_arms_limit_modifier: "추가 병력 한계치" # 677632777548549457
+  advcm_culture_tradition_max_add_modifier: "추가 전통 한도" # 8009334714672663662
+  advcm_diplomatic_range_modifier: "추가 외교 범위" # 13382287251570108724
+  advcm_max_piety_level_modifier: "최대 신앙심 단계 추가" # 7340802775285334044
+  advcm_max_prestige_level_modifier: "최대 명성치 추가" # 10754589353657987579
+  advcm_dynasty_test: "$dynnp_de$$dynn_Simsek$" # 5514396230300715665
+  advcm_modifier_scale_desc: "#weak 배수 기본 수정자#!" # 12970730859086877019
+  advcm_modifier_scale_loc: "수정치 규모: [GetGlobalVariable('advcm_modifier_scale').GetValue]" # 17535851534859771363
+  advcm_modifier_scale_tt: "수정자 배율은 수정자의 값을 증가시키는 데 사용됩니다. 기본값은 1이며, 최대값은 5000입니다." # 12176452946439171423

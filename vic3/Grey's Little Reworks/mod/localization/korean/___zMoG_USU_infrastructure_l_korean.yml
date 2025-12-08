@@ -1,0 +1,45 @@
+﻿l_korean:
+  pm_ac_electric_trains: "AC 전기 열차" # 3454360524492955950
+  pm_ac_electric_trains_principle_transport_3: "공동 AC 전기 열차" # 8958943873845945358
+  pm_electric_passenger_carriages: "전기 승용차" # 18235463405557490916
+  pmg_automation_building_railway: "시설 자동화" # 7336697395035105527
+  pm_auto_disabled_building_railway: "수동 크랭크 크레인" # 17608434817963149248
+  pm_steam_crane_building_railway: "곡선형 지브 증기 크레인" # 12955956061423326842
+  pm_watertube_boiler_building_railway: "화관식 보일러" # 6759355618790231352
+  pm_rotary_valve_engine_building_railway: "유니플로우 로터리 밸브 기구" # 15815900590014633708
+  pm_steam_donkey_building_railway: "기어 구동 증기 동력 장치" # 9348935064792058983
+  pmg_automation_port: "시설 자동화" # 7336697395035105527
+  pm_auto_disabled_building_port: "수동 취급" # 14527718578154492829
+  pm_steam_crane_building_port: "곡선형 지브 증기 크레인" # 12955956061423326842
+  pm_hydraulic_lifters_building_port: "유압 리프터" # 4815313457632086771
+  pm_assembly_lines_building_port: "부두 컨베이어" # 10090110716278688034
+  pmg_logistics_services_railway: "철도 물류" # 1817225233985935935
+  pmg_logistics_services_port_coastal: "선적 물류" # 13111098118613800957
+  pmg_logistics_services_port_river: "하천 물류" # 11526686342872768875
+  USU_pm_rail_logistics_0: "물류 조정 없음" # 6241637616577975875
+  USU_pm_rail_logistics_1: "할당량 허용 계획" # 17973409446750438370
+  USU_pm_rail_logistics_2: "원격 입찰" # 5241708993447160866
+  USU_pm_rail_logistics_3: "공급망 관리" # 5238976340910352623
+  USU_pm_port_c_logistics_0: "물류 조정 없음" # 6241637616577975875
+  USU_pm_port_c_logistics_1: "할당량 허용 계획" # 17973409446750438370
+  USU_pm_port_c_logistics_2: "원격 입찰" # 5241708993447160866
+  USU_pm_port_c_logistics_3: "공급망 관리" # 5238976340910352623
+  USU_pm_port_r_logistics_0: "물류 조정 없음" # 6241637616577975875
+  USU_pm_port_r_logistics_1: "할당량 허용 계획" # 17973409446750438370
+  USU_pm_port_r_logistics_2: "원격 입찰" # 5241708993447160866
+  USU_pm_port_r_logistics_3: "공급망 관리" # 5238976340910352623
+  pm_canals_electric: "전기 수문" # 12592619660441526131
+  pm_canals_oil: "석유 펌프 잠금" # 3394591274765246371
+  pmg_canal_boats: "운하 관리" # 4781308690324627507
+  pm_no_tugs_building_canals: "견인선 없음" # 3236071176125918539
+  pm_tugging_building_canals: "예인선 함대" # 13290759472875195628
+  pmg_canal_logistics: "운하 물류" # 9840821754975294048
+  pm_no_canal_logistics: "보급 없음" # 2819156693731565964
+  pm_minor_canal_logistics: "사소한 물류" # 7342444069165674012
+  pm_major_canal_logistics: "주요 물류" # 2555171652822238770
+  canal_dividends.1.t: "운하 사고" # 6832597753355282384
+  canal_dividends.1.d: "상선 한 척이 부주의로 운하에 좌초되어 통행로를 막았으며, 완전히 제거될 때까지 통행을 더욱 위험하게 만들고 있습니다." # 18297102562489661576
+  canal_dividends.1.f: "거대한 상선이 운하에 반쯤 기울어진 채로 누워 있고, 선체에는 운하 벽과의 충돌로 생긴 깊은 상처가 나 있으며, 그 짐들은 수로를 따라 쏟아져 있습니다. 고급 장신구와 이국적인 상품들이 물에 떠다니며, 외국에서 온 값비싼 상품들이 물에 흠뻑 젖어 망가졌습니다.\n\n물가에는 선장이 두 손으로 얼굴을 감싼 채 서 있고, 그의 모자는 운하에 떠 있습니다. 그의 옆에는 회사 보험 대리인이 물에 젖어 손상된 선적 목록을 들고 이 모든 상황을 파악하려 애쓰고 있으며, 운하 관리원은 이 잔해를 치우는 데 몇 달이 걸릴 수 있다고 설명하려 하고 있습니다." # 2380332253409717558
+  canal_dividends.1.1: "$expedition_events.542.a$" # 5894607929830287442
+  modifier_building_canal_accident: "운하 사고" # 6832597753355282384
+  mog_building_canal_accident: "운하 사고" # 6832597753355282384

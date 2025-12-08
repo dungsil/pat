@@ -1,0 +1,6 @@
+﻿l_korean:
+  eba_grand_solar: "$ep3_governor_yearly.3030.t$" # 5345622340467843716
+  eba_grand_solar_tooltip: "[estate|E] [building|E]인 [GetDomicileBuilding('grand_solar_01').GetName]을 해금합니다." # 15210578548899791754
+  eba_grand_solar_effect: "[estate|E] [building|E]인 [GetDomicileBuilding('grand_solar_01').GetName]을 해금합니다." # 15210578548899791754
+  eba_grand_solar_desc: "들판의 가축들은 살이 찌고 있소. 무예의 의무에 시달리지 않는 젊은이들은 풀밭에 누워 햇볕을 쬐고 있소. 우리의 행복한 마을에서는 상인들이 자유롭게 장사하고 대신들이 공공의 복지를 위해 힘쓰고 있소.\n\n이 안락한 삶은 친족과 함께할 때 가장 맛볼 수 있는 법이오." # 7685937180605996444
+  eba_grand_solar_confirm: "$ep3_governor_yearly.3030.t$" # 5345622340467843716

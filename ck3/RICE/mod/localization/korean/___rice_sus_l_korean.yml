@@ -1,0 +1,468 @@
+﻿l_korean:
+  RICE_sus_sijilmasa_mint_decision_requirement_desc: "오직 [decision|E]인 #V 시질마사의 주화 발행#!을 내려야만 건설할 수 있으며, 이를 위해서는 #V 시질마사의 분쟁 해결#! 결정을 내려야 합니다." # 3633664370763592311
+  RICE_trans_saharan_merchants_option: "사하라 횡단 상인들" # 15724574278939153119
+  RICE_trans_saharan_merchants_option_desc: "상인들로 이루어진 대규모 카라반과 동행하는 것은 여정을 더디게 만들 수 있지만, 뭉치면 안전합니다. 이 상인들은 아프리카의 다양한 지형을 횡단하는 데 숙련되어 있으며, 그들과 함께 여행하면 때때로 사업 기회를 얻을 수도 있을 것입니다!" # 10925123395181342807
+  RICE_trans_saharan_geographical_req: "귀하는 [GetGeographicalRegion('RICE_trans_saharan_trade_region').GetName]에 위치한 [county|E]나 [domicile|E]를 소유하고 있습니다." # 2964531873972357513
+  RICE_africa_geographical_req: "귀하는 [GetGeographicalRegion('world_africa').GetName] 내의 [county|E] 또는 [domicile|E]를 소유하고 있습니다." # 12276949699632909805
+  RICE_sus_sijilmasa_legend_name: "사하라의 관문" # 11352592196200089881
+  RICE_sus_sijilmasa_legend_desc: "[title.GetNameNoTier]는 [GetGeographicalRegion('world_africa_sahara').GetName]에서 가장 위대한 오아시스로, [ruler.GetDynastyName] 왕조 덕분입니다. 이 도시의 성공에 가장 큰 책임이 있는 통치자는 [ruler.GetTitledFirstName]이었습니다." # 2908165359009272488
+  RICE_sus_sijilmasa_legend_chapter_opening_new_title: "[GetGeographicalRegion('world_africa_sahara').GetNameNoTooltip]에 흩어져 있는 오아시스들 중, [ROOT.Legend.GetProperty( 'title' ).Title.GetNameNoTierNoTooltip]에 필적할 만한 곳은 거의 없습니다. 하지만 늘 그랬던 것은 아닙니다. 위대한 [ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip]의 치세에 이르러 그 통치자들의 노력 덕분에 이 도시는 비로소 진정한 잠재력을 꽃피울 수 있었습니다." # 13678194332305174283
+  RICE_sus_sijilmasa_legend_chapter_motivation_new_title: "오래전, [ROOT.Legend.GetProperty( 'title' ).Title.GetNameNoTierNoTooltip]은 혼란에 빠진 도시였습니다. 여러 민족이 뒤섞여 세워진 이 도시는 마침내 [ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip]의 선조 덕분에 하나로 통합되었습니다. 수세대가 지난 후, [ROOT.Legend.GetProtagonist.GetFirstNamePossessiveNoTooltip]가 이 도시의 지도자가 되어 [GetGeographicalRegion('world_africa_sahara').GetNameNoTooltip]의 부러움을 살 만한 도시로 만들 원대한 계획을 세웠습니다." # 16017951277642288999
+  RICE_sus_sijilmasa_legend_chapter_famous_deed_new_title: "[ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip]께서는 오아시스의 사람들을 규합하여 수많은 위대한 사업을 이끄셨습니다. 도시의 건축가들은 지즈 강에서 물을 돌려 오아시스의 비옥도를 개선한 댐이나, 불길한 침략자들로부터 도시를 방어한 성벽과 같은 위대한 공학적 성과를 이루어냈습니다. 도시의 상인들은 그들의 영향력을 사방에 퍼뜨렸으며, 그 결과 [ROOT.Legend.GetProperty( 'title' ).Title.GetNameNoTierNoTooltip]에서 주조된 주화가 지역 전역에서 사용되었습니다. [ROOT.Legend.GetProtagonist.GetFirstNamePossessiveNoTooltip]의 지도력 덕분에, [ROOT.Legend.GetProperty( 'title' ).Title.GetNameNoTierNoTooltip]은 평화와 풍요의 모범 도시, 사막의 보석, 지상의 낙원이었습니다." # 10576228575548540685
+  RICE_sus_sijilmasa_legend_chapter_extra_deed_new_title: "수년 동안 [ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip] 께서는 위대한 전설 속 지도자만이 보여줄 수 있는 종류의 리더십을 오아시스에 선사해 주셨습니다. 그분께서는 현명하셨으며, 공정하고 올바른 정신으로 백성을 이끄셨습니다." # 11538727293212751411
+  RICE_sus_sijilmasa_legend_chapter_conclusion_new_title: "곧, [ROOT.Legend.GetProperty( 'title' ).Title.GetNameNoTierNoTooltip]의 위엄과 웅장함에 대한 소문이 퍼져나갔습니다. 멀리서 온 탐험가들과 모험가들은 어떻게 사막 한가운데에 이토록 웅장한 도시가 존재할 수 있는지 경이로워했습니다. 그들이 현지인들에게 이 도시에 대해 물을 때마다, 현지인들은 이 모든 것이 [ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip]의 업적이라고 말했습니다. 왜냐하면 바로 그와 그의 가문이 그들에게 위대한 업적을 이룰 영감을 주었기 때문입니다." # 8304019185528674107
+  game_concept_sijilmasa_prosperity: "시질마사의 번영" # 16577959364056612166
+  game_concept_sijilmasa_prosperity_desc: "[county|E] 시질마사는 서부 마그레브의 가장 중요한 무역 중심지 중 하나로서의 경제적, 정치적 영향력을 나타내는 $game_concept_sijilmasa_prosperity$라는 [county_modifier|E]를 항상 보유하고 있습니다.\n\n이 보너스에는 여러 단계가 있으며, 그 단계를 높이려면 특히 867년 시작 시나리오를 플레이하는 경우 시질마사를 개선하기 위한 다양한 [decisions|E]를 내려야 합니다. 이러한 결정은 #V 시질마사 내 분쟁 해결#!, #V 시질마사 조폐소 설립#!, #V 지즈 강 수로 변경 및 제방 건설#!, 그리고 #V 타필랄트 오아시스 성벽 구축#!을 요구합니다. $game_concept_sijilmasa_prosperity$를 높이는 것 외에도, 이러한 결정들은 다양한 이점도 제공합니다." # 11286894292471193930
+  game_concept_trans_saharan_merchant: "사하라 횡단 상인" # 306311028423128926
+  game_concept_trans_saharan_merchants: "사하라 횡단 상인들" # 15724574278939153119
+  game_concept_trans_saharan_merchants_desc: "만약 당신이 [GetGeographicalRegion('world_africa').GetName]에 영토를 소유하고 있다면, 때때로 당신의 [court|E]에 $game_concept_trans_saharan_merchant$가 나타날 확률이 있습니다. 당신은 그들의 인맥을 활용하는 것을 선택할 수 있으며, 이는 당신의 [income|E]를 증진시키는 [character_modifier|E]를 부여하고, 그들의 문화 또는 민족 집단(베르베르, 아랍, 서아프리카, 혹은 유대인 중 하나)에 따라 다른 보너스도 제공합니다. 당신이 그들을 궁정으로 초대하지 않더라도 이러한 보너스를 얻을 수 있습니다.\n\n#V 트란스사하라 무역#! 왕조 계통에는 이 메커니즘을 개선하는 몇 가지 [dynasty_perks|E]가 있습니다. 계통의 첫 번째인 #V 사막의 선박#!은 이러한 사건이 발생하는 확률을 높여줍니다. 세 번째인 #V 금과 소금#!은 [decision|E]인 #V 트란스사하라 상인과의 네트워크#!을 해금하며, 이는 단기간 동안 이러한 사건이 발생하는 확률을 더욱 높여주는 동시에 다른 경제적 보너스를 제공합니다." # 10275055904797900502
+  trait_RICE_trans_saharan_merchant: "사하라 횡단 상인" # 306311028423128926
+  trait_RICE_trans_saharan_merchant_desc: "이 인물은 사하라 횡단 무역로에서 활동하는 저명한 상인입니다. 그는 상업, 여행, 협상의 기술에 능숙합니다." # 12233474554622853472
+  trait_RICE_trans_saharan_merchant_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip]은 사하라 횡단 무역로를 따라 활약하는 저명한 상인입니다. 그분은 무역, 여행, 협상의 기술에 경험이 있습니다." # 16677509167565089281
+  trait_RICE_trans_saharan_merchant_2: "저명한 사하라 횡단 상인" # 3715186402100014416
+  trait_RICE_trans_saharan_merchant_2_desc: "$trait_RICE_trans_saharan_merchant_desc$" # 15545030628047118736
+  trait_RICE_trans_saharan_merchant_2_character_desc: "$trait_RICE_trans_saharan_merchant_character_desc$" # 119654493016685468
+  trait_RICE_trans_saharan_merchant_3: "전설적인 사하라 횡단 상인" # 5760094064431961624
+  trait_RICE_trans_saharan_merchant_3_desc: "$trait_RICE_trans_saharan_merchant_desc$" # 15545030628047118736
+  trait_RICE_trans_saharan_merchant_3_character_desc: "$trait_RICE_trans_saharan_merchant_character_desc$" # 119654493016685468
+  trait_track_RICE_trans_saharan_merchant: "$trait_RICE_trans_saharan_merchant$" # 8330240286080164158
+  trait_track_RICE_trans_saharan_merchant_desc: "사바나부터 사막과 숲까지, 아프리카는 현명하고 교활한 이들에게 많은 기회를 제공하는 풍요로운 대륙이며, 그들은 그곳의 민족들과 왕국들, 시장들을 잘 알고 있습니다." # 11949179509663045519
+  building_type_RICE_sus_argan_forest_01: "아르간 숲" # 15390301037994064170
+  building_type_RICE_sus_argan_forest_01_desc: "아르간은 모로코 남부 고유의 나무로, 매우 다양한 실용적인 용도가 있습니다." # 10969053678376151146
+  building_RICE_sus_argan_forest_01: "아르간 숲" # 15390301037994064170
+  building_RICE_sus_argan_forest_01_desc: "아르간은 모로코 남부 특정 지역에 자생하는 특별한 나무입니다. 수 세기 동안 현지인들은 아르간 나무와 그 열매를 땔감, 식량, 기름 등으로 사용해 왔습니다. 이 나무는 또한 염소들을 끌어들이는데, 염소들은 열매를 먹기 위해 나무에 올라가며, 이 열매들이 뱉어지거나 배설되면 가공하기가 훨씬 수월해집니다." # 6114595852944543092
+  building_RICE_sus_argan_forest_02: "아르간 숲" # 14760254690406061681
+  building_RICE_sus_argan_forest_02_desc: "이 지역에서 아르간 나무 관리가 더욱 체계적이고 조직적으로 이루어지면서, 희귀한 산물인 아르간 제품으로 인해 지역 주민들이 더 큰 이익을 얻을 수 있게 되었습니다." # 14317891576330812622
+  building_RICE_sus_argan_forest_03: "아르간 정원" # 5596234748718595790
+  building_RICE_sus_argan_forest_03_desc: "이 지역 전역에서 아르간 숲을 찾아볼 수 있으며, 이 숲들은 지역적인 용도부터 외국 시장으로의 수출에 이르기까지 다양한 목적으로 마을 전체에 의해 관리되고 있습니다. 따라서 이 나무들은 막대한 부를 가져다주고 있습니다." # 15251008823558813513
+  building_type_RICE_sus_sijilmasan_mints_01: "시질마산 민츠" # 2488085682035588207
+  building_type_RICE_sus_sijilmasan_mints_01_desc: "시질마사는 마그레브와 서아프리카를 연결하며, 이곳에서는 막대한 양의 금이 채굴됩니다. 현지 통치자들은 이곳을 통과하는 막대한 양의 금을 활용하여 시질마사를 주요 주화 발행 중심지로 만들었습니다. 이곳에서 생산된 주화는 품질이 뛰어나 북아프리카 전역에서 명성이 높습니다." # 8487425939574549298
+  building_RICE_sus_sijilmasan_mints_01: "$building_type_RICE_sus_sijilmasan_mints_01$" # 9163062941743813693
+  building_RICE_sus_sijilmasan_mints_01_desc: "$building_type_RICE_sus_sijilmasan_mints_01_desc$" # 6102130136285178565
+  RICE_sus_draa_dates: "드라 계곡의 대추야자 농장" # 10191586463387625075
+  RICE_sus_draa_dates_desc: "드라 계곡은 모로코의 대추야자 산지로, 풍부하고 맛있는 대추야자를 생산합니다. 수많은 대추야자 품종이 이곳에서 수 세대에 걸쳐 재배되어 왔습니다." # 1731593516437048339
+  RICE_sus_sijilmasa_prosperity_0: "[sijilmasa_prosperity|E]: 빈약함 (0)" # 5556322913439310805
+  RICE_sus_sijilmasa_prosperity_0_desc: "823년에 무자비하지만 유능했던 지도자 아부 문타시르가 사망한 이래, 시질마사는 정치적 불안정으로 고통받고 있습니다. 그의 후손들은 서로 다투고 있으며, 다양한 집단으로 이루어진 도시의 주민들은 끊임없이 한 상속자에서 다른 상속자로 충성을 바꿉니다. 그 결과, 이 지역의 경제와 생활 수준은 쇠퇴하고 있습니다." # 4930110718322308080
+  RICE_sus_sijilmasa_prosperity_1: "[sijilmasa_prosperity|E]: 낮음 (1)" # 5712111601509202589
+  RICE_sus_sijilmasa_prosperity_1_desc: "시질마사의 미래는 유망해 보입니다. 그 주민들이 도시 기반 시설을 개발하고 사하라 전역으로 교역망을 확장하기 위해 협력하고 있기 때문입니다. 시간이 걸리겠지만, 이 도시는 올바른 방향으로 나아가고 있습니다." # 12014759818577878814
+  RICE_sus_sijilmasa_prosperity_2: "[sijilmasa_prosperity|E]: 보통 (2)" # 14587895281220409181
+  RICE_sus_sijilmasa_prosperity_2_desc: "시질마사의 주민들은 경제가 급속도로 팽창하면서 번성하고 있습니다. 상인들이 도시로 몰려들기 시작했으며, 모든 배경의 많은 학자와 숙련된 사람들이 이곳에 정착했습니다." # 5971604545651801065
+  RICE_sus_sijilmasa_prosperity_3: "[sijilmasa_prosperity|E]: 높음 (3)" # 11803613783564448827
+  RICE_sus_sijilmasa_prosperity_3_desc: "시질마사에는 좋은 시기가 도래했습니다. 서부 마그레브의 주요 무역 통로로서 수많은 상인들이 정기적으로 도시를 드나들고 있으며, 이곳은 빠르게 학문의 중심지로 부상하고 있습니다." # 8187387633049926811
+  RICE_sus_sijilmasa_prosperity_4: "[sijilmasa_prosperity|E]: 장엄함 (4)" # 10949585245573429764
+  RICE_sus_sijilmasa_prosperity_4_desc: "시질마사는 참으로 세상의 부러움의 대상입니다. 시질마사가 사하라 횡단 무역로를 따라 가장 풍요롭고 영향력 있는 대도시 중 하나라고 주장하는 자가 거의 없을 것입니다." # 3291865018687891759
+  RICE_sus_ziz_hydraulics: "시질마사의 수자원 확장" # 3975384496466272858
+  RICE_sus_ziz_hydraulics_desc: "지즈 강 유역의 댐, 운하 등 여러 수리 시설들이 시질마사의 주민들이 이용할 수 있는 수자원의 풀을 확장했으며, 지즈 강 자체와 같은 여러 지역 수원을 오아시스 전역의 샘들과 연결했습니다." # 6661524719538945085
+  RICE_sus_ziz_hydraulics_person: "지즈 강을 따라 조정된 수리 사업" # 8518240243571985141
+  RICE_sus_ziz_hydraulics_person_desc: "이 지도자는 서부 마그레브의 주요 경제 중심지인 시질마사의 지리에 매우 중요한 지즈 강을 따라 댐, 운하, 지즈 강의 물길 돌리기 등 다수의 중요한 수리 시설 건설 계획 및 관리에 기여했습니다." # 14177578285508492118
+  RICE_sus_currently_trans_saharan_networking: "트란스사하라 상인들과의 교류" # 16583247599670521097
+  RICE_sus_apprentice_trans_saharan_merchant: "사하라 횡단 상인" # 306311028423128926
+  RICE_sus_apprentice_trans_saharan_merchant_desc: "이 인물은 본래 북아프리카와 사헬 지역의 트란스사하라 무역로를 따라 사업을 하던 상인이었습니다." # 16711238781856611691
+  RICE_sus_experienced_trans_saharan_merchant: "성취한 사하라 횡단 상인" # 4288813276611144679
+  RICE_sus_experienced_trans_saharan_merchant_desc: "이 인물은 본래 북아프리카와 사헬 지역의 트란스사하라 교역로를 따라 상업 활동을 하던 상인이었습니다. 사업에 능했던 그들은 이 시기에 상당한 양의 £gold£를 벌어들일 수 있었습니다." # 10515418830262063711
+  RICE_sus_master_trans_saharan_merchant: "저명한 사하라 횡단 상인" # 3715186402100014416
+  RICE_sus_master_trans_saharan_merchant_desc: "이 인물은 본래 북아프리카와 사헬 지역의 트란스사하라 교역로를 따라 상업 활동을 하던 상인이었습니다. 당대 최고의 상인 중 한 명으로 여겨졌으며, 그 시기에 상당한 재산을 축적했습니다." # 14016263479436017284
+  RICE_sus_trade_deal_arab_merchants: "아랍 상인들과의 트란스사하라 교역 진흥" # 16404492007305051856
+  RICE_sus_trade_deal_berber_merchants: "베르베르 상인들과의 초사하라 무역 진흥" # 4524114491975893853
+  RICE_sus_trade_deal_jewish_merchants: "유대인 상인들과의 트란스사하라 교역 촉진" # 5860751702751583135
+  RICE_sus_trade_deal_west_african_merchants: "서아프리카 상인들과의 초사하라 무역 진흥" # 5041066259513153902
+  RICE_sus_wall_tafilalt: "타필랄트 오아시스의 성벽과 성문" # 4125233947708433757
+  RICE_sus_wall_tafilalt_desc: "인상적인 성벽과 성문들이 타필랄트 오아시스 대부분을 둘러싸고 있으며, 그 규모는 중심부에 있는 시질마사 시를 넘어서까지 뻗어 있습니다. 이러한 요새들은 이곳을 통과하는 교역을 보호하는 데 도움이 됩니다." # 12527872866081829784
+  RICE_sus_lamta_leather: "람타 가죽 방패와 갑옷으로 무장한 병력" # 8991832842953801419
+  RICE_sus_growing_ksar: "크사르 확장하기" # 3989030069653825940
+  RICE_sus_growing_ksar_desc: "이 지역의 #italic 크사르#! (요새화된 마을) 중 한 곳이 최근 눈에 띄게 성장했습니다. 그곳은 지역 교역로를 보호하고 약탈자들을 저지하고 있습니다." # 4930384068892738721
+  RICE_sus_new_foggara: "새로 건설된 포가라" # 5930723460534740148
+  RICE_sus_repaired_local_foggara: "지역 포가라 수리됨" # 17924217121588436508
+  RICE_sus_expanded_local_foggara: "지역 포가라 확장" # 10498545235061444591
+  RICE_sus_repaired_local_foggara_character: "지역 포가라 수리를 위해 자금을 지원했습니다." # 9466412878173819313
+  RICE_sus_expanded_local_foggara_character: "지역 포가라 확장을 위해 자금을 지원했습니다" # 5997605562781735535
+  RICE_sus_ksar_maintenance_issues: "황폐해진 크사르들" # 12220270903975594294
+  RICE_sus_ksar_maintenance_issues_desc: "지역 주민들은 이 지역의 여러 #italic ksars#! (요새화된 마을)을 유지할 자원과 자금이 부족합니다. 그 결과, 지역 교역로는 도적과 약탈자들에게 더욱 취약해졌습니다." # 2575516950330669117
+  RICE_sus_midrariya_issues: "미드라리야의 문제점들" # 9456176557020725499
+  RICE_sus_midrariya_issues_desc: "현지 주민들은 시질마사의 중심 수로이자 깨끗한 물을 공급하고 토지 비옥도 향상에 필수적인 미드라리야를 적절히 유지할 자원이 부족한 상황입니다." # 10501680178588467860
+  RICE_sus_sijilmasa_goldsmiths: "시질마사에 금세공인들이 최근 상점을 차렸습니다." # 13853516847111211342
+  RICE_sus_sijilmasa_glazed_ceramics: "시질마사의 유약 도자기에 대한 높은 수요" # 18375921101970066906
+  RICE_sus_eating_amlu: "암루를 많이 먹기" # 1714516777192952551
+  RICE_sus_eating_amlu_desc: "이 인물의 요리사들은 아르간 오일을 넉넉히 비축해 두었는데, 이것을 꿀과 볶아서 빻은 아몬드에 섞어 #italic 아믈루#!라는 맛있는 스프레드를 만듭니다." # 8887065439341563940
+  RICE_sus_sijilmasa_newly_arrived_settlers: "시질마사의 신규 정착민들" # 8972380390684028998
+  RICE_sus_sijilmasa_newly_arrived_settlers_desc: "모험가, 추방자, 상인, 난민, 종교적 이단자 등 여러 먼 곳의 무리들이 번성하는 오아시스 도시 시질마사에 모여들었습니다. 비록 그들이 잡다한 무법자들과 부적응자들의 집단일지라도, 그들은 새로운 고향에 광범위한 관점과 기술을 가져올 것입니다. 처음에는 그들이 평화롭게 공존하기 어려울 테지만, 만약 협력하는 법을 배운다면 시질마사의 미래 번영의 씨앗을 뿌릴 수 있으리라는 데에는 의심의 여지가 없습니다!" # 6855684479325181821
+  RICE_sus_resolve_conflicts_in_sijilmasa: "시질마사의 오랜 갈등 해결하기" # 5399933297529534279
+  RICE_sus_resolve_conflicts_in_sijilmasa_tooltip: "시질마사 도시에 너무 오랫동안 내전이 만연했습니다!" # 10777364470977798339
+  RICE_sus_resolve_conflicts_in_sijilmasa_desc: "아부 문타시르가 서기 823년에 사망한 이래로 시질마사는 끊임없는 파벌 싸움과 내전으로 고통받고 있습니다. 많은 현지인들이 이에 지쳐가고 있으며, 이제는 좀 더 영구적인 평화를 정착시킬 때라고 생각합니다." # 14776025345697708380
+  RICE_sus_resolve_conflicts_in_sijilmasa_effect_tooltip: "[sijilmasa_prosperity|E] 수준이 상승합니다" # 8752216997450164359
+  RICE_sus_resolve_conflicts_in_sijilmasa_effect_tooltip_2: "#V 시질마사의 조폐창 설립#!, #V 지즈강의 물길을 돌리고 둑을 쌓다#!, 그리고 #V 타필랄트 오아시스에 성벽을 쌓다#! [decisions|E]를 해금합니다." # 10512333220487060316
+  RICE_sus_resolve_conflicts_in_sijilmasa_confirm: "저명한 지역 인사들을 모으십시오. 만날 시간입니다." # 15669320978809122802
+  RICE_sus_resolve_conflicts_in_sijilmasa_context_tooltip: "#emphasis 역사적 배경:#! 아부 문타시르의 치세는 시질마사에 대한 미드라르 왕조 통치의 황금기였습니다. 그러나 823년에 그가 사망한 후, 이 도시는 870년대까지 정치적 분열과 내전으로 고통받으며 쇠락의 길을 걸었습니다. 그럼에도 불구하고, 이미 돌이킬 수 없는 피해가 발생했고, 미드라르 왕조는 곧 909년에 파티마 왕조에게 정복당했지만, 왕족 구성원들은 976년까지 파티마의 지배 아래 도시를 통치했습니다." # 14475060479019423383
+  RICE_sus_establish_sijilmasa_mints: "시질마사의 조폐국을 설립하십시오" # 4528088683868411311
+  RICE_sus_establish_sijilmasa_mints_tooltip: "화폐 생산을 위해 주조소를 건설하도록 명령하십시오." # 6298318640531230301
+  RICE_sus_establish_sijilmasa_mints_desc: "시질마사는 한편으로는 마그레브와 다른 한편으로는 막대한 양의 금이 채굴되는 서아프리카 사이에 위치하고 있어, 미래의 조폐국 후보로 매우 적합합니다." # 2680791497637484979
+  RICE_sus_establish_sijilmasa_mints_effect_tooltip: "$RICE_sus_resolve_conflicts_in_sijilmasa_effect_tooltip$" # 5275163214972298704
+  RICE_sus_establish_sijilmasa_mints_requirement: "귀하의 [dynasty|E]가 [GetDynastyPerk('RICE_trans_saharan_trade_legacy_2').GetName] [dynasty_perk|E]를 해금했습니다." # 11578168058843188672
+  RICE_sus_establish_sijilmasa_mints_confirm: "이를 위해 준비하십시오." # 6160801829349014530
+  RICE_sus_establish_sijilmasa_mints_context_tooltip: "#emphasis 역사적 배경:#! 중세 시대에 시질마사는 마그레브와 서아프리카 사이의 전략적 위치 덕분에 서아프리카에서 채굴된 금화 주조의 상당 부분을 통제했습니다. 이 금화(아랍어로 #italic 디나르#라 불림)는 순도가 높은 것으로 유명했습니다. 은화(아랍어로 #italic 디르함#이라 불림) 역시 대량으로 생산되었는데, 이는 아마도 지역 은광에서 나왔을 것입니다. 이는 사하라 횡단 무역의 중심지로서 도시의 부에 더욱 기여했습니다." # 24984290666021896
+  RICE_sus_divert_and_dam_ziz_river: "지즈 강 물길을 돌리고 둑을 쌓으십시오" # 18126481803157602940
+  RICE_sus_divert_and_dam_ziz_river_tooltip: "지즈 강의 물줄기를 통제하는 것은 이점이 있을지도 모릅니다." # 4286146338228204599
+  RICE_sus_divert_and_dam_ziz_river_desc: "시질마사의 주민들은 수년에 걸쳐 수자원을 꾸준히 확장해 왔습니다. 이제 제 기술자들이 시질마사를 관통하는 지즈 강을 더 잘 통제할 수 있는 여러 수리 프로젝트에 대한 새로운 아이디어를 제시했습니다. 이를 통해 경작지를 극대화하고 주민들에게 더 많은 물을 공급할 수 있을 것입니다." # 18164153699469348982
+  RICE_sus_divert_and_dam_ziz_river_effect_tooltip: "$RICE_sus_resolve_conflicts_in_sijilmasa_effect_tooltip$" # 5275163214972298704
+  RICE_sus_divert_and_dam_ziz_river_confirm: "이러한 노력들을 조율해 봅시다." # 6693719044557031013
+  RICE_sus_divert_and_dam_ziz_river_context_tooltip: "#emphasis 역사적 배경:#! 지리적, 역사적, 고고학적 증거에 따르면 중세 시질마사 주변 지역은 운하, 댐, 저수지, 파이프 등을 포함하는 상당한 규모의 수리 시스템을 갖추고 있었습니다. 특히 알모라비드 시기를 전후하여 이 시스템이 지속적으로 확장되면서 시질마사 주민들은 이용 가능한 수자원을 늘릴 수 있었습니다. 현지 전설에 따르면, 이 시스템 중 가장 유명한 부분은 팀드린 샘이었으며, 이 샘이 '흑태양'이라는 별명을 가진 폭군 총독에 의해 파괴되었다는 이야기는 도시 쇠퇴의 원인이 되었습니다." # 9928116534547661600
+  RICE_sus_network_with_trans_saharan_merchants: "사하라 횡단 상인들과 교류하기" # 14377154582689578818
+  RICE_sus_network_with_trans_saharan_merchants_tooltip: "지역 상인들과의 관계를 개선하십시오" # 5813488093849215613
+  RICE_sus_network_with_trans_saharan_merchants_desc: "우리 영토를 따라 많은 상인들이 트란스사하라 교역로를 오가고 있으니, 그들과 교류할 시간을 가져야 합니다. 관심 있고 야심 찬 상인들과 유익한 관계를 구축하는 것은 우리 모두에게 이로울 것입니다." # 10043073228475748946
+  RICE_sus_network_with_trans_saharan_merchants_effect_tooltip: "향후 5년 내에 귀하의 궁정에 [trans_saharan_merchant|E]가 나타나 사업 거래를 제안할 확률이 높으며, 이는 [character_modifier|E]가 지속되는 동안(또는 상인이 나타날 때까지) 유효합니다. 이 확률은 귀하의 [traits|E], [skills|E] 및 기타 요인에 따라 달라집니다." # 5608131958397567956
+  RICE_sus_network_with_trans_saharan_merchants_confirm: "이제 교류할 시간입니다!" # 17558004905560538725
+  RICE_sus_network_with_trans_saharan_merchants_context_tooltip: "#emphasis 역사적 배경:#! 고대부터 무역로가 사하라 사막을 가로지르며 지중해와 사헬 지역을 연결해 왔습니다. 만년(Late Antiquity)에 낙타의 사용 증가와 이슬람의 도래는 이 지역의 무역망 성장을 더욱 촉진했습니다. 이 무역로를 따라 교환된 가장 귀중한 두 가지 물품은 금과 소금이었으며, 상인들은 노예나 상아 같은 다른 물품들도 거래했습니다." # 7367432176168753978
+  RICE_network_trans_saharan_decision_region_requirement: "[GetGeographicalRegion('world_africa').GetName] 내의 [county|E]를 소유하십시오" # 9174738808040499576
+  RICE_sus_network_dynasty_perk_requirement: "귀하의 [dynasty|E]에서 [GetDynastyPerk('RICE_trans_saharan_trade_legacy_3').GetName] [dynasty_perk|E]를 해금했습니다." # 4702675518283778872
+  RICE_sus_trade_networks_decision_once_requirement: "아직 이 [decision|E]를 내리지 않았습니다." # 11195520197597460161
+  RICE_sus_wall_the_oasis: "타필랄트 오아시스에 성벽을 쌓으시오" # 2292520978931875129
+  RICE_sus_wall_the_oasis_tooltip: "시질마사 지역 주변에 적절한 방어 시설이 필요합니다." # 3189281070164271537
+  RICE_sus_wall_the_oasis_desc: "시질마사의 방어 태세도 만만치 않지만, 더욱 강화할 여지가 있습니다. 현지인들이 도시의 요새를 확장하여 타필랄트 오아시스 대부분을 둘러싸라고 권하고 있습니다." # 9268014467488228839
+  RICE_sus_wall_the_oasis_effect_tooltip: "$RICE_sus_resolve_conflicts_in_sijilmasa_effect_tooltip$" # 5275163214972298704
+  RICE_sus_wall_the_oasis_requirement: "귀하의 [dynasty|E]에서 [GetDynastyPerk('RICE_trans_saharan_trade_legacy_4').GetName] [dynasty_perk|E]를 해금했습니다." # 14857541725092635872
+  RICE_sus_wall_the_oasis_confirm: "그렇게 하겠습니다." # 1919566845243670950
+  RICE_sus_wall_the_oasis_context_tooltip: "#emphasis 역사적 배경:#! 시질마사의 번영이 커짐에 따라, 타필랄트 오아시스 대부분을 둘러싸는 인상적인 방어 시설망이 결국 세워졌습니다. 이 성벽과 성문들 중 일부는 오늘날까지도 낡은 상태로 남아 있습니다. 비교적 잘 보존되고 잘 알려진 성문 중 하나인 #italic 바브 페즈#!는 13세기에 마리니드 왕조에 의해 건설되었습니다." # 10767352702006268427
+  RICE_sus_attract_settlers_to_sijilmasa: "시질마사로 정착민 유치하기" # 9162565091434283458
+  RICE_sus_attract_settlers_to_sijilmasa_tooltip: "시질마사는 무역에 유망한 장소입니다...." # 15368228042371516336
+  RICE_sus_attract_settlers_to_sijilmasa_desc: "최근 여러 분쟁으로 인해 타지에서 온 많은 이들이 모로코로 피난하고 있습니다. 이 모험가, 상인, 난민 등을 부추겨 시질마사에 정착하게 할 수 있을지도 모르겠습니다. 그들의 차이점에도 불구하고, 그들의 다양한 관점은 도시의 성장과 번영에 도움이 될 수 있습니다. 시질마사는 잠재적인 무역 중심지로서 많은 가능성을 보여주고 있으니, 이런 식으로 사하라 무역로를 장악하는 것은 매우 유리할 것입니다!" # 1343608354520566701
+  RICE_sus_attract_settlers_to_sijilmasa_effect_tooltip_1: "[sijilmasa_county.GetNameNoTier]에 [sijilmasa_prosperity|E] 메커니즘을 해제합니다." # 15400325073336023599
+  RICE_sus_attract_settlers_to_sijilmasa_effect_tooltip_2: "$RICE_sus_resolve_conflicts_in_sijilmasa_effect_tooltip_2$" # 8557601117694219709
+  RICE_sus_attract_settlers_to_sijilmasa_confirm: "시작해보지!" # 331371430259311057
+  RICE_sus_attract_settlers_to_sijilmasa_context_tooltip: "#emphasis 역사적 배경:#! 시질마사는 8세기에 이슬람 세계의 다른 지역에서 도망쳐 온 하와리즈파 난민들에 의해 세워졌다고 전해집니다. 이 도시는 곧 모든 문화와 종교의 사람들을 끌어모았는데, 이는 긴장의 원인이 되기도 했지만 도시의 미래 번영의 토대를 마련해주었습니다. 도시의 첫 선출 지도자였던 이사 빈 마지드 알-아스와드는 나중에 부패 혐의로 고발되어 현지인들을 처형하고 아부 알-카심으로 교체되었으며, 아부 알-카심이 미드라르 왕조를 세웠습니다." # 12037337495054603257
+  RICE_sus_attract_settlers_to_sijilmasa_req: "귀하의 [dynasty|E]가 [GetDynastyPerk('RICE_trans_saharan_trade_legacy_1').GetName] [dynasty_perk|E]를 해금했습니다." # 780405670737273717
+  RICE_trans_saharan_trade_legacy_track_name: "트란스사하라 교역" # 7483932327012383861
+  RICE_trans_saharan_trade_legacy_track_desc: "사막을 가로지르는 사상과 물자의 흐름을 관리하는 것에서 번영과 지식이 비롯됩니다" # 16161672974177951935
+  RICE_trans_saharan_trade_legacy_1_name: "사막의 함선들" # 3808399651575581356
+  RICE_trans_saharan_trade_legacy_2_name: "금과 소금" # 6092343160401563460
+  RICE_trans_saharan_trade_legacy_3_name: "혼합주의의 유산" # 5459539854497051473
+  RICE_trans_saharan_trade_legacy_4_name: "요새화된 오아시스" # 12281941103205528946
+  RICE_trans_saharan_trade_legacy_5_name: "아프리카 학자들" # 14783067736875474075
+  RICE_trans_saharan_trade_legacy_1_effect: "[court|E]에 [trans_saharan_merchants|E]가 나타날 확률을 높여줍니다. 단, [realm_capital|E]가 [GetGeographicalRegion('world_africa').GetName]에 위치해야 합니다." # 7175959850934032594
+  RICE_trans_saharan_trade_legacy_2_effect: "[trans_saharan_merchants|E]와 교류하는 [decision|E]를 내릴 수 있습니다." # 8159548248476145894
+  RICE_trans_saharan_trade_legacy_2_effect_2: "[decision|E] 시질마사 조폐국 설립은 [sijilmasa_prosperity|E]를 향상시키기 위해 내릴 수 있습니다." # 11404550970909047974
+  RICE_trans_saharan_trade_legacy_3_effect: "[trans_saharan_merchants|E]와 교류하는 [decision|E]는 여러 번 내릴 수 있습니다." # 10215705755944633612
+  RICE_trans_saharan_trade_legacy_4_effect: "타필랄트 오아시스에 성벽을 쌓는 [decision|E]를 내려 [sijilmasa_prosperity|E]를 개선할 수 있습니다." # 8022707546694160144
+  RICE_african_merchants_option_effect_1: "[barony|E]에 들어갈 때마다, 당신의 [diplomacy|E]와 [stewardship|E]에 따라 거래를 통해 소량의 [gold_i|E] [gold|E]를 얻을 확률이 #V [GetPlayer.MakeScope.ScriptValue('RICE_african_merchant_travel_option_event_chance')]%#! 만큼 존재합니다." # 7857512168010428590
+  RICE_trans_saharan_merchant_recruited_tt: "[RICE_merchant.GetNamePossessive] 상단이 귀하의 수행단에 합류했습니다." # 9641823546894948420
+  RICE_trans_saharan_trade_legacy_1_effect_2: "$RICE_trans_saharan_merchants_option$ [travel_option|E] 사용 시 거래 이벤트 발생 확률 증가, 그에 따라 [gold|E] 획득 확률 증가" # 15623787589665457614
+  RICE_trans_saharan_trade_legacy_2_effect_3: "$RICE_trans_saharan_merchants_option$ [travel_option|E] 사용 시 [GetTrait('RICE_trans_saharan_merchant').GetName( GetPlayer )] [trait|E]를 얻을 확률이 증가합니다." # 15395349716420435747
+  RICE_trans_saharan_trade_legacy_5_effect_1: "이제 아무런 성공적인 거래 경험 없이도 $RICE_trans_saharan_merchants_option$ [travel_option|E]을 사용할 때 [GetTrait('RICE_trans_saharan_merchant').GetName( GetPlayer )] [trait|E]을 획득할 수 있습니다." # 8129041805288222555
+  sus.0000.t: "xxxxx" # 1951045980481827005
+  sus.0000.desc: "xxxxx" # 1951045980481827005
+  sus.0000.a: "xxxxx" # 1951045980481827005
+  sus.0001.t: "$travel_event_prefix$ 아프리카 교역" # 17295241795615925617
+  sus.0001.desc: "[merchant.GetFirstName]와 [merchant.GetHerHis] 상단의 일행으로 여행하던 중, 평소에는 접하기 힘들었을 사업 기회를 얻게 되었습니다.\n\n[ROOT.Char.GetCurrentLocation.GetName]에 머무는 동안, 우리는 그곳에서 만난 상인들과 유리한 무역 협약을 확보할 수 있었습니다. 이 협약을 그대로 받아들일 수도 있지만, 위험을 감수하고 더 많은 이익을 얻기 위해 흥정을 시도할 수도 있습니다. 다만, 흥정에 실패하면 협약이 무산될 수도 있습니다." # 17743630285799709039
+  sus.0001.a: "기존 합의는 괜찮습니다." # 10065296082963607487
+  sus.0001.b: "더 많은 것을 얻기 위해 흥정해 보겠습니다." # 11531266621985377494
+  sus.0001.b.failure: "#N 흥정 실패#!" # 15320559665982195292
+  sus.0001.b.success: "당신의 흥정은 #P 성공했습니다#!" # 13607695386768714156
+  RICE_trans_saharan_merchant_trait_gain_tooltip: "#weak 귀하는 이전에 아프리카 무역로를 따라 #V [GetPlayer.MakeScope.Var('RICE_trans_saharan_merchant_success_count').GetValue]#! 건의 성공적인 무역 거래를 성사시켰습니다. 더 많은 거래를 성사시킬수록 [GetTrait('RICE_trans_saharan_merchant').GetName( GetNullCharacter )] [trait|E]를 얻을 확률이 높아집니다!#" # 528505909682508893
+  RICE_trans_saharan_number_of_successes_tooltip: "#weak 귀하는 이전에 아프리카 교역로를 따라 #V [GetPlayer.MakeScope.Var('RICE_trans_saharan_merchant_success_count').GetValue]#! 건의 성공적인 무역 거래를 성사시켰습니다.#!" # 15377848017358104714
+  sus.0002.t: "xxxxx" # 1951045980481827005
+  sus.0002.desc: "xxxxx" # 1951045980481827005
+  sus.0002.a: "xxxxx" # 1951045980481827005
+  sus.0003.t: "xxxxx" # 1951045980481827005
+  sus.0003.desc: "xxxxx" # 1951045980481827005
+  sus.0003.a: "xxxxx" # 1951045980481827005
+  sus.0004.t: "xxxxx" # 1951045980481827005
+  sus.0004.desc: "xxxxx" # 1951045980481827005
+  sus.0004.a: "xxxxx" # 1951045980481827005
+  sus.0005.t: "xxxxx" # 1951045980481827005
+  sus.0005.desc: "xxxxx" # 1951045980481827005
+  sus.0005.a: "xxxxx" # 1951045980481827005
+  sus.0006.t: "xxxxx" # 1951045980481827005
+  sus.0006.desc: "xxxxx" # 1951045980481827005
+  sus.0006.a: "xxxxx" # 1951045980481827005
+  sus.0007.t: "xxxxx" # 1951045980481827005
+  sus.0007.desc: "xxxxx" # 1951045980481827005
+  sus.0007.a: "xxxxx" # 1951045980481827005
+  sus.0008.t: "xxxxx" # 1951045980481827005
+  sus.0008.desc: "xxxxx" # 1951045980481827005
+  sus.0008.a: "xxxxx" # 1951045980481827005
+  sus.0009.t: "xxxxx" # 1951045980481827005
+  sus.0009.desc: "xxxxx" # 1951045980481827005
+  sus.0009.a: "xxxxx" # 1951045980481827005
+  sus.0010.t: "시질마사의 새로운 날?" # 4528439132882500202
+  sus.0010.desc: "비록 #V 아부 문타시르#!로 알려진 [abu_muntasir.GetTitledFirstName]는 [sijilmasa_county.GetNameNoTier]에서 무자비한 통치자였지만, 그는 효과적인 통치자였으며 오아시스 도시의 주민들을 단결시키고 경제적, 문화적 정점에 이르게 했습니다. 아아, 그가 세상을 떠난 지 여러 해가 지난 후, [sijilmasa_county.GetNameNoTier]는 수십 년에 걸친 분쟁에 시달렸습니다. 그의 후손들이 부족했을 뿐만 아니라, 종교와 문화로 나뉜 시질마사 주민들 역시 서로에게 등을 돌렸습니다.\n\n이제까지는 그랬습니다.\n\n우리는 이 무의미한 다툼에 지쳤습니다. 책략, 부, 무력 또는 이들의 조합을 통해서든, 나는 이 분쟁에 얽힌 여러 당사자들을 설득하여 함께 앉아 불안정한 평화를 협상하도록 했습니다. 우리의 차이점에도 불구하고, 우리는 이 오아시스를 고향이라 부르며, 우리의 다양한 관점들이 다시 한번 도시의 힘을 위한 토대를 놓을 수 있습니다." # 2526697296660158287
+  sus.0010.a: "우리는 [sijilmasa_county.GetNameNoTier]를 재건할 수 있으며, 반드시 재건해야 합니다." # 6895533471581567518
+  sus.0011.t: "시질마사의 새로운 날?" # 4528439132882500202
+  sus.0011.desc: "오래전, 무자비하지만 유능했던 #V 아부 문타시르#라고도 알려진 [abu_muntasir.GetTitledFirstName]가 [sijilmasa_county.GetNameNoTier]를 다스릴 때, 이 도시는 서부 사하라의 다른 오아시스들이 부러워하는 곳이었습니다. #italic 다르 알 이슬람#의 이 전초기지에는 다양한 종파와 문화의 잡다한 민족들이 모여 번성하는 도시를 건설했습니다. 그러나 그의 죽음 이후, 도시는 내전과 종파 갈등에 시달리며 어려운 시기를 맞이했습니다.\n\n하지만 일부 사람들은 이제 상황이 변하고 있으며, [sijilmasa_county.GetNameNoTier]가 서서히 예전의 영광을 되찾고 있다고 주장합니다. [sijilmasa_ruler.GetTitledFirstName]는 이 분쟁에 얽힌 여러 세력을 한자리에 모아 위태로운 평화를 협상했습니다. 그러나 그의 업적이 오아시스의 힘을 되찾기에 충분할지, 아니면 이 지역의 다른 부상하는 세력들에게 쉬운 표적이 될 만큼 약해졌는지는 아직 지켜봐야 할 일입니다..." # 15423613667670255258
+  sus.0011.a: "[sijilmasa_county.GetNameNoTier]에 무엇이 기다리고 있을지 지켜봐야겠군." # 15356882407212727872
+  sus.0012.t: "시질마사의 조폐국" # 4082712645806453146
+  sus.0012.desc: "[sijilmasa_county.GetNameNoTier]는 경제적으로 꽤 전략적인 위치에 자리하고 있습니다. 사하라 횡단 무역의 많은 부분이 이 도시를 통과하며, 이는 서아프리카에서 채굴된 막대한 양의 금이 이곳으로 흘러들어온다는 것을 의미하며, 가까운 곳의 은광은 말할 것도 없습니다. 저와 [sijilmasa_county.GetNameNoTier]의 다른 지도자들은 이곳에 조폐국을 설립할 토대를 마련했습니다. 서아프리카의 금과 현지 은으로 만들어진 이 주화들은 북아프리카와 그 너머에서 사용될 것입니다." # 11460408286095454414
+  sus.0012.a: "이는 도시의 세계적인 위상을 높일 것입니다." # 13667937217264391327
+  sus.0013.t: "시질마사의 조폐국" # 4082712645806453146
+  sus.0013.desc: "오래전 처음 건국된 이래, [sijilmasa_county.GetNameNoTier]는 마그레브 서부 지역의 트란스사하라 무역로에서 중요한 경유지였습니다. 서아프리카에서 채굴된 막대한 양의 금이 이곳을 통과하며, 또한 이곳은 다수의 지역 은광과도 가깝습니다. 따라서 [sijilmasa_ruler.GetTitledFirstName]께서 이 금과 은을 활용하여 [sijilmasa_county.GetNameNoTier]에 조폐국을 설립하는 주도권을 잡으셨다는 것은 놀라운 일이 아닙니다. 벌써 이곳에서 주조된 주화의 품질에 대한 소문이 빠르게 퍼지고 있습니다." # 5430988571341786455
+  sus.0013.a: "[sijilmasa_county.GetNameNoTier]가 번성하고 있지만, 이로 인해 야심 찬 호전적인 군벌들의 탐나는 표적이 되었습니다." # 17827126900449252856
+  sus.0014.t: "지즈 강 유역의 수리 시설" # 7839174821956164301
+  sus.0014.desc: "[sijilmasa_county.GetNameNoTier] 정착지는 지즈 강을 따라 자리 잡고 있으며, 수 세기 동안 도시의 용수 공급을 늘리기 위한 여러 지역 수리 공사가 진행되어 왔습니다. 몇몇 지역 지도자들의 독촉에 따라, 나는 이러한 공학 프로젝트들의 조율에 투자하고 새로운 프로젝트를 주도하여 이용 가능한 수자원의 잠재력을 극대화하기로 결정했습니다. 이 프로젝트들은 댐, 수로, 지하 파이프, 지즈 강 자체의 물길 변경 등 여러 가지를 포함합니다." # 10590414281859692362
+  sus.0014.a: "아무래도 이 건조한 땅에서는 물이 생명을 주는군." # 14720586377677391347
+  sus.0015.t: "지즈 강 유역의 수리 시설" # 7839174821956164301
+  sus.0015.desc: "[sijilmasa_county.GetNameNoTier]는 서부 마그레브의 위대한 정착지 중 하나로, 그동안 물 공급을 위해 지즈 강과 인근의 다른 수원지에 크게 의존해 왔습니다. 이제 [sijilmasa_ruler.GetTitledFirstName] 께서는 도시의 수자원을 대대적으로 확장하는 작업을 감독하고 계십니다. 기존의 관개 시설을 강화하고 새로운 시설을 도입하는 것이죠. 이는 도시 주민들에게 더욱 풍부한 물을 공급하여 앞으로 수 세대 동안 도시가 성장하고 번영할 수 있도록 할 것입니다." # 10619689912017028388
+  sus.0015.a: "도시의 번영이 날마다 커지고 있습니다." # 10867056850672855415
+  sus.0016.t: "시질마사의 성벽들" # 8866275668317701880
+  sus.0016.desc: "[sijilmasa_county.GetNameNoTier] 자체에는 수년에 걸쳐 몇몇 방어 시설이 구축되었지만, 도시의 중심부를 넘어 도시가 위치한 타필랄트 오아시스 전역으로 뻗어 나가는 수많은 작은 교외 지역, 농장, 시장 구역들이 있습니다. 이 외곽 지역들 중 일부는 작은 #italic 크사르#!나 다양한 요새화된 마을들로 어느 정도 보호받고 있지만, 저와 다른 공동체 지도자들은 보다 영구적이고 지속적인 형태의 보호가 필요하다고 결정했습니다.\n\n그리하여 저는 시질마사로 들어오는 입구 역할을 할 여러 성문을 포함하여 오아시스 자체의 상당 부분을 둘러싸는 성벽 건설을 명령했습니다. 번성하는 시질마사와 같은 오아시스에 걸맞은 이 장엄한 요새들은 보호하고, 위협하며, 영감을 불어넣는 역할을 할 것입니다." # 6231813000244033503
+  sus.0016.a: "좋군!" # 1515578395771261253
+  sus.0017.t: "시질마사의 성벽들" # 8866275668317701880
+  sus.0017.desc: "수 세대 동안 [sijilmasa_county.GetNameNoTier]는 서아프리카와 사하라를 모로코의 나머지 지역과 연결하는 일종의 관문 역할을 해왔습니다. 하지만 꽤 오랫동안 지역 주민들은 이 지역의 기존 방어 시설이 부적절하다고 느껴왔습니다.\n\n그리하여 [sijilmasa_ruler.GetTitledFirstName]와 다른 지역 지도자들의 지휘 아래, 시질마사가 위치한 타필랄트 오아시스 대부분을 둘러싸는 성벽과 여러 개의 거대한 성문을 포함한 보다 견고한 방어 체계가 구축되었습니다. 시질마사는 이제 더 안전해졌으며, 방문객들은 이 번성하는 오아시스를 지키는 웅장한 방어 시설을 경외심을 갖고 바라볼 수 있습니다." # 11674774771279007717
+  sus.0017.a: "흥미롭군…." # 1733113532710551458
+  sus.0018.t: "#bold 트란스사하라 무역항#" # 1461871932721002242
+  sus.0018.desc: "최근 들어 수많은 사람들이 북아프리카의 외딴 사막 지대로 이주해 오고 있습니다. 일부는 강압이나 혼란을 피하려는 열망 때문에 고향에서 추방된 난민이나 도망자들입니다. 또 다른 이들은 적들에게 이단이라 불리는 종교적 반체제 인사들의 잔존 세력입니다. 그 밖에도 부와 명예를 좇는 모험가, 용병, 대담한 상인들도 있습니다.\n\n저는 이들 중 다수와 그 가족들을 [sijilmasa_county.GetNameNoTier]에 정착하도록 모집하고 유인하는 노력을 기울였습니다. 지난 몇 세기 동안 지중해가 큰 격변을 겪었지만, 실제로는 지중해와 사하라 이남 아프리카 간의 교역은 증가하고 있으며, [sijilmasa_county.GetNameNoTier]는 이 무역로를 따라 주요 경유지로 빠르게 부상하고 있습니다. 제 말을 명심하십시오. 수 세대가 지나면 [sijilmasa_county.GetNameNoTier]는 우리의 가장 거친 상상을 초월하여 번성할 것입니다!" # 1957774051521580879
+  sus.0018.a: "그들의 다양한 관점과 기술은 이 도시가 번성하는 데 도움이 될 것입니다." # 14487265904405255713
+  sus.0019.t: "#bold 트란스사하라 무역항#" # 1461871932721002242
+  sus.0019.desc: "다른 곳의 분쟁으로 인해 많은 이들이 북아프리카에서 행운을 찾으려 하고 있습니다. 전쟁 난민부터 종교적 반체제 인사, 모험가와 상인에 이르기까지 이들 중 다수가 [sijilmasa_ruler.GetTitledFirstName]께서 그들을 유치하기 위해 노력한 덕분에 [sijilmasa_county.GetNameNoTier]에 정착하기로 결정했습니다.\n\n비록 지난 몇 세기 동안 지중해에 많은 격변이 있었지만, 지중해와 사하라 이남 아프리카 간의 무역은 실제로 증가하고 있으며, [sijilmasa_county.GetNameNoTier]는 이 무역로를 따라 주요 경유지로 빠르게 부상하고 있습니다. 선견지명이 있는 [sijilmasa_ruler.GetFirstName]께서는 [sijilmasa_ruler.GetHerHim]께서 이 지역에 투자하고 잠재적인 영광스러운 미래의 토대를 마련하는 것이 중요하다는 것을 알고 계심이 분명합니다." # 16679824486535293760
+  sus.0019.a: "어쩌면 [sijilmasa_county.GetNameNoTier]가 언젠가 상업 중심지가 될지도 모르겠군." # 10946376883390497962
+  sus.0020.t: "xxxxx" # 1951045980481827005
+  sus.0020.desc: "xxxxx" # 1951045980481827005
+  sus.0020.a: "xxxxx" # 1951045980481827005
+  sus.0021.t: "xxxxx" # 1951045980481827005
+  sus.0021.desc: "xxxxx" # 1951045980481827005
+  sus.0021.a: "xxxxx" # 1951045980481827005
+  sus.0022.t: "xxxxx" # 1951045980481827005
+  sus.0022.desc: "xxxxx" # 1951045980481827005
+  sus.0022.a: "xxxxx" # 1951045980481827005
+  sus.0023.t: "xxxxx" # 1951045980481827005
+  sus.0023.desc: "xxxxx" # 1951045980481827005
+  sus.0023.a: "xxxxx" # 1951045980481827005
+  sus.0024.t: "xxxxx" # 1951045980481827005
+  sus.0024.desc: "xxxxx" # 1951045980481827005
+  sus.0024.a: "xxxxx" # 1951045980481827005
+  sus.0025.t: "xxxxx" # 1951045980481827005
+  sus.0025.desc: "xxxxx" # 1951045980481827005
+  sus.0025.a: "xxxxx" # 1951045980481827005
+  sus.0026.t: "xxxxx" # 1951045980481827005
+  sus.0026.desc: "xxxxx" # 1951045980481827005
+  sus.0026.a: "xxxxx" # 1951045980481827005
+  sus.0027.t: "xxxxx" # 1951045980481827005
+  sus.0027.desc: "xxxxx" # 1951045980481827005
+  sus.0027.a: "xxxxx" # 1951045980481827005
+  sus.0028.t: "xxxxx" # 1951045980481827005
+  sus.0028.desc: "xxxxx" # 1951045980481827005
+  sus.0028.a: "xxxxx" # 1951045980481827005
+  sus.0029.t: "xxxxx" # 1951045980481827005
+  sus.0029.desc: "xxxxx" # 1951045980481827005
+  sus.0029.a: "xxxxx" # 1951045980481827005
+  sus.0030.t: "사하라 횡단 아랍 상인" # 19953239398140363
+  sus.0030.desc.intro_networker: "최근 저는 사하라 사막을 가로지르며 지중해와 사헬 지역을 잇는 트란스사하라 무역로를 따라 사업을 하는 상인들과 교류하고 관계를 맺기 위해 노력해 왔습니다. 그 노력은 헛되지 않아, 저는 [RICE_trans_saharan_merchant_spawn.GetFullName]이라는 이름의 상인과 친분을 쌓게 되었습니다." # 13139336920977720530
+  sus.0030.desc.intro_normal: "수 세기 동안 상인들은 트란스사하라 무역로를 따라 사하라 사막을 횡단하며 지중해와 사헬 지역을 연결했고, 금과 소금부터 노예, 상아, 콜라 열매에 이르기까지 다양한 교역품을 교환해 왔습니다. 저는 최근 [RICE_trans_saharan_merchant_spawn.GetFullName]라는 이름의 그러한 상인 중 한 명과 알게 되었습니다." # 6035262193872676325
+  sus.0030.desc: "\n\n[RICE_trans_saharan_merchant_spawn.GetFirstNameNoTooltip] 님은 [RICE_trans_saharan_merchant_spawn.GetCulture.GetName] 문화권의 인물로, 이 지역 곳곳에 흩어져 있는 수많은 아랍 공동체 중 한 곳 출신입니다. [RICE_trans_saharan_merchant_spawn.GetHerHim]과 같은 상인들은 중동, 인도 및 그 너머의 다른 아랍 상인들과 교류하고 있습니다.\n\n어쨌든, 몇 차례 논의 끝에 [RICE_trans_saharan_merchant_spawn.GetSheHe]께서는 제 영지의 교역 성장을 촉진하기 위해 다른 아랍 상인 공동체들과 저를 연결해 주겠다고 제안하셨습니다. 저는 앞으로 긴밀히 협력하기 위해 [RICE_trans_saharan_merchant_spawn.GetHerHim]을 제 궁정에 고용하는 것까지 고려하고 있습니다." # 11123630298971833648
+  sus.0030.a: "여기서 일이 끝나면, [RICE_trans_saharan_merchant_spawn.GetFirstName] 님, 제 궁정에 합류하시겠습니까?" # 4960916729973109304
+  sus.0030.b: "좋은 거래였소. [RICE_trans_saharan_merchant_spawn.GetFirstName]와 함께 일하게 되어 즐거웠소." # 390812327352706664
+  sus.0030.c: "다시 생각해 보니, 저는 이것에 관심이 없습니다." # 15776039458366428054
+  sus.0031.t: "트란스사하라 서아프리카 상인" # 17661445225057473540
+  sus.0031.desc: "\n\n[RICE_trans_saharan_merchant_spawn.GetFirstNameNoTooltip]는 [RICE_trans_saharan_merchant_spawn.GetCulture.GetName] 출신으로, 이 지역에 흩어져 있는 수많은 서아프리카 공동체 중 한 곳에서 왔습니다. 그들이 주로 거래하는 물품은 금과 소금이지만, 다른 많은 물품도 교역합니다.\n\n어쨌든, 몇 차례 논의 끝에 [RICE_trans_saharan_merchant_spawn.GetSheHe]께서 제 영지의 교역 성장을 촉진하기 위해 다른 서아프리카 상인 공동체들과 저를 연결해 주겠다고 제안했습니다. 저는 심지어 미래에 긴밀하게 협력하기 위해 [RICE_trans_saharan_merchant_spawn.GetHerHim]을 제 궁정에 고용하는 것까지 고려하고 있습니다." # 481799903710554498
+  sus.0031.a: "xxxxx" # 1951045980481827005
+  sus.0032.t: "사하라 횡단 베르베르 상인" # 1827797139492633046
+  sus.0032.desc: "\n\n[RICE_trans_saharan_merchant_spawn.GetFirstNameNoTooltip]께서는 [RICE_trans_saharan_merchant_spawn.GetCulture.GetName] 출신으로, 북아프리카 지역에 흩어져 있는 수많은 베르베르 공동체 중 한 곳에서 오셨습니다. 북아프리카 토착 베르베르 부족들은 이 지역 교역의 번영에 중요한 역할을 해왔습니다.\n\n어쨌든, 몇 차례 논의 끝에 [RICE_trans_saharan_merchant_spawn.GetSheHe]께서 제 영지의 교역 성장을 촉진하기 위해 다른 베르베르 상인 공동체들과 저를 연결해 주겠다고 제안하셨습니다. 심지어 저는 앞으로 긴밀하게 협력하기 위해 [RICE_trans_saharan_merchant_spawn.GetHerHim]을 제 궁정에 고용하는 것까지 고려하고 있습니다." # 8637028688947471717
+  sus.0032.a: "xxxxx" # 1951045980481827005
+  sus.0033.t: "트란스사하라 유대인 상인" # 16297756261650735267
+  sus.0033.desc: "\n\n[RICE_trans_saharan_merchant_spawn.GetFirstNameNoTooltip]는 [RICE_trans_saharan_merchant_spawn.GetCulture.GetName] 출신으로, 이 지역 곳곳에 흩어져 있는 수많은 유대인 공동체 중 한 곳에서 왔습니다. 북아프리카와 유라시아 전역에 흩어져 있지만, 이 유대인 공동체들은 서로 긴밀한 유대를 맺고 있습니다.\n\n어쨌든, 몇 차례 논의 끝에 [RICE_trans_saharan_merchant_spawn.GetSheHe]는 내 영지의 교역 성장을 촉진하기 위해 다른 유대인 상인 공동체들과 나를 연결해 주겠다고 제안했습니다. 심지어 앞으로 긴밀하게 협력하기 위해 [RICE_trans_saharan_merchant_spawn.GetHerHim]을 내 궁정에 고용하는 것까지 고려하고 있습니다." # 173993858593705518
+  sus.0033.a: "xxxxx" # 1951045980481827005
+  sus.0034.t: "xxxxx" # 1951045980481827005
+  sus.0034.desc: "xxxxx" # 1951045980481827005
+  sus.0034.a: "xxxxx" # 1951045980481827005
+  sus.0035.t: "xxxxx" # 1951045980481827005
+  sus.0035.desc: "xxxxx" # 1951045980481827005
+  sus.0035.a: "xxxxx" # 1951045980481827005
+  sus.0036.t: "xxxxx" # 1951045980481827005
+  sus.0036.desc: "xxxxx" # 1951045980481827005
+  sus.0036.a: "xxxxx" # 1951045980481827005
+  sus.0037.t: "xxxxx" # 1951045980481827005
+  sus.0037.desc: "xxxxx" # 1951045980481827005
+  sus.0037.a: "xxxxx" # 1951045980481827005
+  sus.0038.t: "xxxxx" # 1951045980481827005
+  sus.0038.desc: "xxxxx" # 1951045980481827005
+  sus.0038.a: "xxxxx" # 1951045980481827005
+  sus.0039.t: "xxxxx" # 1951045980481827005
+  sus.0039.desc: "xxxxx" # 1951045980481827005
+  sus.0039.a: "xxxxx" # 1951045980481827005
+  sus.0040.t: "xxxxx" # 1951045980481827005
+  sus.0040.desc: "xxxxx" # 1951045980481827005
+  sus.0040.a: "xxxxx" # 1951045980481827005
+  sus.0041.t: "xxxxx" # 1951045980481827005
+  sus.0041.desc: "xxxxx" # 1951045980481827005
+  sus.0041.a: "xxxxx" # 1951045980481827005
+  sus.0042.t: "xxxxx" # 1951045980481827005
+  sus.0042.desc: "xxxxx" # 1951045980481827005
+  sus.0042.a: "xxxxx" # 1951045980481827005
+  sus.0043.t: "xxxxx" # 1951045980481827005
+  sus.0043.desc: "xxxxx" # 1951045980481827005
+  sus.0043.a: "xxxxx" # 1951045980481827005
+  sus.0044.t: "xxxxx" # 1951045980481827005
+  sus.0044.desc: "xxxxx" # 1951045980481827005
+  sus.0044.a: "xxxxx" # 1951045980481827005
+  sus.0045.t: "xxxxx" # 1951045980481827005
+  sus.0045.desc: "xxxxx" # 1951045980481827005
+  sus.0045.a: "xxxxx" # 1951045980481827005
+  sus.0046.t: "xxxxx" # 1951045980481827005
+  sus.0046.desc: "xxxxx" # 1951045980481827005
+  sus.0046.a: "xxxxx" # 1951045980481827005
+  sus.0047.t: "xxxxx" # 1951045980481827005
+  sus.0047.desc: "xxxxx" # 1951045980481827005
+  sus.0047.a: "xxxxx" # 1951045980481827005
+  sus.0048.t: "xxxxx" # 1951045980481827005
+  sus.0048.desc: "xxxxx" # 1951045980481827005
+  sus.0048.a: "xxxxx" # 1951045980481827005
+  sus.0049.t: "xxxxx" # 1951045980481827005
+  sus.0049.desc: "xxxxx" # 1951045980481827005
+  sus.0049.a: "xxxxx" # 1951045980481827005
+  sus.0050.t: "드라아의 연대기" # 3755095590586401488
+  sus.0050.desc: "오늘 저는 [draa_county.GetNameNoTier] 강 유역에서 나는 대추야자를 즐기고 있습니다. 이 지역은 온갖 종류의 대추야자가 풍부하기로 유명합니다. 그 맛있는 달콤함을 음미하는 것만으로도 천국에 온 듯한 기분이 드는군요!" # 10330866950492974653
+  sus.0050.a: "먹을 것을 좀 더 가져와야겠군, 어쩌면 훨씬 더 많이!" # 4405315533786768771
+  sus.0051.t: "타진" # 11849631314772597293
+  sus.0051.desc.is_berber: "아, #italic 타진#!이로군. [ROOT.Char.GetCulture.GetName] 요리의 위대한 별미 중 하나로 모두가 즐기는 음식이지. 오늘 내가 먹고 있는 이 고기와 채소 스튜는 평소보다도 훨씬 더 맛이 좋군." # 3352083596290908057
+  sus.0051.desc.is_not_berber: "아, #italic 타진#!. 북아프리카 요리의 위대한 별미 중 하나로, 모두가 즐기는 음식이지. 오늘 내가 먹는 이 고기와 채소 스튜는 평소보다도 훨씬 더 맛이 좋군." # 16204682153127781085
+  sus.0051.a: "어쩌면 내가 기분이 좋은가 보군?" # 7005642702531121198
+  sus.0052.t: "람타 가죽" # 10740361725136542957
+  sus.0052.desc: "최근에 저는 가죽과 모피를 파는 상인들과 친분을 쌓았는데, 특히 북아프리카 영양의 튼튼한 #italic 람타#! 가죽이 눈에 띕니다. 이 가죽은 매우 질겨서 방패와 갑옷을 만드는 데 사용된다고 합니다. 아무튼 이 상인들은 좋은 가격에 가죽 재고 일부를 기꺼이 팔겠다고 말합니다. 제 병사들에게 이 가죽으로 만든 보호 장비를 지급하는 것이 좋을 것 같습니다..." # 407389513240850808
+  sus.0052.a: "사양하겠소. 내 병력은 지금 상태로도 충분하오." # 2149231354072823128
+  sus.0052.b: "네, 제가 당신의 가죽 몇 장을 사겠습니다." # 13067659360585397018
+  sus.0052.c: "분명 더 좋은 가격을 제시해 주실 수 있을 겁니다." # 5891381084888676669
+  sus.0053.t: "크사르 확장" # 3989030069653825940
+  sus.0053.desc: "가까운 #italic 차르# 중 하나가 너무나 강력해져서 지역 무역로를 따라 일종의 방어 요새로 여겨지고 있습니다. 이 요새화된 마을들은 사막을 가로지르는 트란스사하라 무역로를 보호하는 데 필수적입니다." # 4462633129447775507
+  sus.0053.a: "더 많은 상단이 안전하게 통과할 수 있기를 바라네!" # 5401853293408363640
+  sus.0054.t: "새로운 포가라" # 14736942649510666628
+  sus.0054.desc: "새로운 #italic 포가라#!가 일부 지역 지도자들의 지휘 아래 근처에 건설되었습니다. 이 수로는 일부는 지하로 연결되어 있으며, 수 세기 동안 북아프리카 전역에서 사용되어 왔고, 보통 강이나 샘물에서 끌어온 물을 정착지의 더 건조한 지역으로 분배합니다. 이 #italic 포가라#!가 봉사하는 지역은 농업 생산성 면에서 확장될 것으로 예상할 수 있습니다." # 17735086519787225215
+  sus.0054.a: "이 #italic 포가라#!가 설계된 대로 작동하기를 바라야겠군." # 12938742256275384360
+  sus.0055.t: "위압적인 크사르" # 16622855088599843312
+  sus.0055.desc: "저는 오늘 제 영지의 건조 지대에 있는 #italic 크사르# 중 한 곳을 방문하고 있습니다. 이러한 종류의 요새화된 마을들은 보통 어도비로, 때로는 석재로 지어졌으며, 수 세기에 걸쳐 현지 주민들과 이곳을 지나가는 상인들을 보호하기 위해 건설되었습니다.\n\n그 웅장한 구조를 하나하나 살펴보니, 집에서부터 곡물 창고, 상점, 목욕탕, 그리고 현지의 [ROOT.Char.GetFaith.HouseOfWorship]에 이르기까지 모든 건물이 서로 끊김 없이 연결되어 있는 방식에 감탄했습니다." # 14074048834776453312
+  sus.0055.a: "이곳은 정말 위압적이로군! 감히 이곳을 공격하는 자는 바보뿐일 게야." # 6655670543222310581
+  sus.0055.b: "이렇게 안전한 공동체라면 이곳 사람들은 잘 살고 있을 겁니다." # 14001064291125926744
+  sus.0056.t: "포가라 수리" # 9059058816336949526
+  sus.0056.desc: "방금 관료로부터 인근의 #italic 포가라#! 중 하나가 최근 말랐다는 보고를 받았습니다. 이 물길 또는 수로는 수 세기 동안 이 지역에서 사용되어 왔기에, 사용 중이거나 사용하지 않는 것들을 포함하여 많은 수가 있습니다. 비록 이 수로가 본질적으로 필수적이지는 않지만, 근처의 다른 #italic 포가라#!에 물을 공급하는 역할을 하므로, 이를 다시 기능하게 복구하는 데 자금을 지원하는 것은 좋은 제스처가 될 수 있을 것입니다." # 17450604181863188192
+  sus.0056.a: "필요하지 않다면, 왜 애써야 합니까?" # 11234318605900332068
+  sus.0056.b: "좋은 생각이군. 수리를 시작하지." # 5835324373716239172
+  sus.0056.c: "제가 그것을 수리할 뿐만 아니라, 또 다른 것을 지을 자금도 대겠습니다." # 15808075368864966119
+  sus.0057.t: "크사르 유지보수" # 13937783217172280774
+  sus.0057.desc: "근처 #italic 크사르#! 몇 채가 심각한 수리를 필요로 한다는 관리의 소름 끼치는 보고를 받았습니다. 마그레브 지역에서 흔히 볼 수 있는 이 요새화된 마을들은 보통 흙으로 만들어져 바람, 비 등에 취약하므로 지속적인 관리가 필요합니다.\n\n지역 주민들이 필요에 따라 #italic 크사르#!를 계속 유지보수할 수는 있지만, 그들의 시간과 자원은 제한적일 수 있습니다. 이 마을들은 지역 무역로를 보호하고 해당 지역의 질서와 안정을 보장하는 데 중요하므로, 저의 관리는 이곳에 없는 외부의 자원과 인력을 제공하여 주민들을 돕는 것이 현명할 것이라고 제게 말합니다." # 4756432398689165722
+  sus.0057.a: "스스로 할 수 있다면, 그들에게 자원을 돌릴 필요성을 느끼지 못하겠군." # 14195798080784738942
+  sus.0057.b: "이것들이 잘 보존되는 것이 중요합니다. 제안해주신 대로 자료를 제공하겠습니다." # 1750088656789030277
+  sus.0058.t: "크사르 내부에서" # 6925420263210505950
+  sus.0058.desc: "오늘 저는 제 영지 내의 더 큰 #italic 크사르#!를 방문할 예정입니다. 서로 연결되고 붙어 있는 어도비 구조물과 골목길로 이루어진 이 요새화된 정착지들은 북아프리카 무역로의 초석 역할을 해왔으며, 그들이 있는 지역을 산적과 침략자들로부터 보호해 왔습니다. 구불구불한 거리를 걸으며 저는 그중 한 곳으로 들어가려던 참이었는데, 저를 수행하던 안내자들이 그쪽으로 가지 말라고 경고합니다.\n\n제가 이유를 묻자, 한 명이 말합니다.\"저곳은... #italic 그런#! 종류의 외부인들이 사는 곳입니다. 불결한 일을 하는 자들이죠. 저희가 존경받는 사람들과 그들을 분리하기 위한 성문을 세울 자금을 모으지 못해서 죄송하게 생각합니다\"" # 4036650929946177719
+  sus.0058.a: "별일 아닙니다. 누가 누군지 아시고, 경계를 정하는 것이 좋겠지요." # 233885251249026634
+  sus.0058.b: "그들이 아직 이곳에 살고 있으니, 어떻게 지내는지 보러 그들을 방문해야겠군. 그럴 만도 하지." # 10821196526959277894
+  sus.0058.c: "성벽 건설에 자금이 부족하다고요? 제가 약간의 도움을 드린다면 어떨까요?" # 12929148701840672472
+  sus.0059.t: "미드라리야" # 2036588711801366664
+  sus.0059.desc: "오늘 나는 가장 오래되고 주요한 수로인 #italic 미드라리야#!를 시찰하고 있습니다. 이 수로는 [sijilmasa_county.GetNameNoTier]로 곧장 흐릅니다. 수로 끝에는 같은 이름을 딴 상당히 큰 오아시스가 있습니다. 아무튼, 이 수로는 수세기 동안 물의 중요한 공급원이었으며 주변 농경지에 물을 대는 등 다양한 용도로 사용되어 왔습니다.\n\n나는 수로의 양호한 상태 유지를 담당하는 전문가들이 현재 겪고 있는 문제점에 대해 설명하는 것을 주의 깊게 듣습니다. 그들은 향후 몇 년 안에 수로의 상태를 걱정하고 있으며, 수로의 지속적인 운영을 돕기 위해 이미 할당된 것보다 더 많은 추가 자원을 제공해 달라고 요청하고 있습니다." # 5594944472300662729
+  sus.0059.a: "기존 자원으로도 충분하다고 생각합니다. 그 도시는 다른 필요가 있습니다." # 4794009323582460230
+  sus.0059.b: "아주 좋소, 그 자원들을 가져가시오. 잘 활용하시오!" # 18169673517716837743
+  sus.0060.t: "시질마사의 주화" # 4045959121565278671
+  sus.0060.desc: "방문한 여행자가 그의 고향에서 [sijilmasa_county.GetNameNoTier]의 조폐국에서 생산하는 주화에 대해 칭찬이 자자하다고 내게 말했습니다.\n\n“실로,” 그가 말하길, “이곳에서 주조된 주화는 최고 품질이오. 온 세상에서 사용되는 것도 놀랄 일이 아니지!”" # 9725470246313829813
+  sus.0060.a: "우리는 이것을 대단히 자랑스럽게 생각하오, 내 친구." # 16491785924591830071
+  sus.0061.t: "금세공인들" # 12477959978198200609
+  sus.0061.desc: "서아프리카에서 나오는 많은 금이 [sijilmasa_county.GetNameNoTier]를 거쳐 지중해 다른 시장으로 흘러 들어갑니다. 그 결과, 이 도시에는 오랫동안 기술을 연마해 온 상당한 규모의 금세공인 공동체가 자리 잡고 있습니다. 최근 몇몇이 이곳에 정착하여 기존의 장인 공동체를 강화하고 있으며, 일부 지역 귀족들의 의뢰를 받아 도시의 번영을 드높이는 데 일조하고 있습니다." # 4927677594012846941
+  sus.0061.a: "언젠가 나도 직접 무언가를 의뢰할 시간이 생길지도 모르지." # 7350599749351069701
+  sus.0062.t: "시질마산 도자기" # 684040902027158729
+  sus.0062.desc: "귀중한 상품들이 서아프리카에서 생산되어 [sijilmasa_county.GetNameNoTier]를 거쳐 지중해 시장으로 흘러 들어갑니다. 하지만 이 도시가 서아프리카 주민들에게 수요가 많은 자체 생산품을 수출하지 않는다고 말할 수는 없습니다. 예를 들어, 시질마사의 유약 도자기는 남쪽 지역의 많은 이들에게 극찬을 받아왔으며, 최근에는 장인들이 이전보다 더 좋은 가격에 더 많이 판매할 수 있게 되면서 이 사업에 일종의 호황이 일고 있습니다." # 15184287549240039011
+  sus.0062.a: "듣기 좋군요!" # 12432516554233043346
+  sus.0063.t: "염소와 아르간" # 1798798909415946868
+  sus.0063.desc: "오늘 영지 내 아르간 숲 일부를 방문하고 있습니다. 지역 여성 중 한 분이 나무에 올라 열매와 견과류를 먹는 염소들이 아르간 식물의 귀중한 씨앗을 채취하는 데 가장 유용하다고 설명해 주시는데, 이 씨앗은 기름, 음식 등을 만드는 데 사용됩니다. 전통적으로 이 여성분들처럼 여성들이 이 아르간 나무를 다루는 일을 해왔습니다.\n\\\"어떤 사람들은 염소 똥이 이 모든 것의 열쇠라고 생각합니다\" 그 여성이 웃으며 말합니다.\"하지만 아르간 견과를 깨는 데 도움이 되는 것은 사실 반추(되새김질)입니다. #weak 더러운 일이지만# 저희 여성들은 저희의 일에 자부심을 느낍니다, #bold [ROOT.Char.GetLadyLord]#\"" # 14029263594027979525
+  sus.0063.a: "작동한다면, 작동하는 것이지." # 3371028355658235716
+  sus.0064.t: "암루" # 8597113557552261685
+  sus.0064.desc: "오늘 나는 내 영지 내에 있는 위대한 아르간 숲으로 유명한 마을을 지나쳤다. 현지인들은 이 기회를 기념하며 아르간 오일을 선물로 주었다. 내가 기대하고 있는 이 오일의 흔한 용도 중 하나는 꿀과 볶아서 으깬 아몬드를 섞어 만든 스프레드인 #italic 아믈루#!를 만드는 것이다." # 5343382122415305149
+  sus.0064.a: "내 요리사들이 이것을 어떻게 활용할지 기대되는군!" # 10003540085217929312
+  sus.0065.t: "xxxxx" # 1951045980481827005
+  sus.0065.desc: "xxxxx" # 1951045980481827005
+  sus.0065.a: "xxxxx" # 1951045980481827005
+  sus.0066.t: "xxxxx" # 1951045980481827005
+  sus.0066.desc: "xxxxx" # 1951045980481827005
+  sus.0066.a: "xxxxx" # 1951045980481827005
+  sus.0067.t: "xxxxx" # 1951045980481827005
+  sus.0067.desc: "xxxxx" # 1951045980481827005
+  sus.0067.a: "xxxxx" # 1951045980481827005
+  sus.0068.t: "xxxxx" # 1951045980481827005
+  sus.0068.desc: "xxxxx" # 1951045980481827005
+  sus.0068.a: "xxxxx" # 1951045980481827005
+  sus.0069.t: "xxxxx" # 1951045980481827005
+  sus.0069.desc: "xxxxx" # 1951045980481827005
+  sus.0069.a: "xxxxx" # 1951045980481827005
+  sus.0070.t: "xxxxx" # 1951045980481827005
+  sus.0070.desc: "xxxxx" # 1951045980481827005
+  sus.0070.a: "xxxxx" # 1951045980481827005
+  sus.0071.t: "xxxxx" # 1951045980481827005
+  sus.0071.desc: "xxxxx" # 1951045980481827005
+  sus.0071.a: "xxxxx" # 1951045980481827005
+  sus.0072.t: "xxxxx" # 1951045980481827005
+  sus.0072.desc: "xxxxx" # 1951045980481827005
+  sus.0072.a: "xxxxx" # 1951045980481827005
+  sus.0073.t: "xxxxx" # 1951045980481827005
+  sus.0073.desc: "xxxxx" # 1951045980481827005
+  sus.0073.a: "xxxxx" # 1951045980481827005
+  sus.0074.t: "xxxxx" # 1951045980481827005
+  sus.0074.desc: "xxxxx" # 1951045980481827005
+  sus.0074.a: "xxxxx" # 1951045980481827005
+  sus.0075.t: "xxxxx" # 1951045980481827005
+  sus.0075.desc: "xxxxx" # 1951045980481827005
+  sus.0075.a: "xxxxx" # 1951045980481827005
+  sus.0076.t: "xxxxx" # 1951045980481827005
+  sus.0076.desc: "xxxxx" # 1951045980481827005
+  sus.0076.a: "xxxxx" # 1951045980481827005
+  sus.0077.t: "xxxxx" # 1951045980481827005
+  sus.0077.desc: "xxxxx" # 1951045980481827005
+  sus.0077.a: "xxxxx" # 1951045980481827005
+  sus.0078.t: "xxxxx" # 1951045980481827005
+  sus.0078.desc: "xxxxx" # 1951045980481827005
+  sus.0078.a: "xxxxx" # 1951045980481827005
+  sus.0079.t: "xxxxx" # 1951045980481827005
+  sus.0079.desc: "xxxxx" # 1951045980481827005
+  sus.0079.a: "xxxxx" # 1951045980481827005
+  sus.0080.t: "xxxxx" # 1951045980481827005
+  sus.0080.desc: "xxxxx" # 1951045980481827005
+  sus.0080.a: "xxxxx" # 1951045980481827005
+  sus.0081.t: "xxxxx" # 1951045980481827005
+  sus.0081.desc: "xxxxx" # 1951045980481827005
+  sus.0081.a: "xxxxx" # 1951045980481827005
+  sus.0082.t: "xxxxx" # 1951045980481827005
+  sus.0082.desc: "xxxxx" # 1951045980481827005
+  sus.0082.a: "xxxxx" # 1951045980481827005
+  sus.0083.t: "xxxxx" # 1951045980481827005
+  sus.0083.desc: "xxxxx" # 1951045980481827005
+  sus.0083.a: "xxxxx" # 1951045980481827005
+  sus.0084.t: "xxxxx" # 1951045980481827005
+  sus.0084.desc: "xxxxx" # 1951045980481827005
+  sus.0084.a: "xxxxx" # 1951045980481827005
+  sus.0085.t: "xxxxx" # 1951045980481827005
+  sus.0085.desc: "xxxxx" # 1951045980481827005
+  sus.0085.a: "xxxxx" # 1951045980481827005
+  sus.0086.t: "xxxxx" # 1951045980481827005
+  sus.0086.desc: "xxxxx" # 1951045980481827005
+  sus.0086.a: "xxxxx" # 1951045980481827005
+  sus.0087.t: "xxxxx" # 1951045980481827005
+  sus.0087.desc: "xxxxx" # 1951045980481827005
+  sus.0087.a: "xxxxx" # 1951045980481827005
+  sus.0088.t: "xxxxx" # 1951045980481827005
+  sus.0088.desc: "xxxxx" # 1951045980481827005
+  sus.0088.a: "xxxxx" # 1951045980481827005
+  sus.0089.t: "xxxxx" # 1951045980481827005
+  sus.0089.desc: "xxxxx" # 1951045980481827005
+  sus.0089.a: "xxxxx" # 1951045980481827005
+  sus.0090.t: "xxxxx" # 1951045980481827005
+  sus.0090.desc: "xxxxx" # 1951045980481827005
+  sus.0090.a: "xxxxx" # 1951045980481827005
+  sus.0091.t: "xxxxx" # 1951045980481827005
+  sus.0091.desc: "xxxxx" # 1951045980481827005
+  sus.0091.a: "xxxxx" # 1951045980481827005
+  sus.0092.t: "xxxxx" # 1951045980481827005
+  sus.0092.desc: "xxxxx" # 1951045980481827005
+  sus.0092.a: "xxxxx" # 1951045980481827005
+  sus.0093.t: "xxxxx" # 1951045980481827005
+  sus.0093.desc: "xxxxx" # 1951045980481827005
+  sus.0093.a: "xxxxx" # 1951045980481827005
+  sus.0094.t: "xxxxx" # 1951045980481827005
+  sus.0094.desc: "xxxxx" # 1951045980481827005
+  sus.0094.a: "xxxxx" # 1951045980481827005
+  sus.0095.t: "xxxxx" # 1951045980481827005
+  sus.0095.desc: "xxxxx" # 1951045980481827005
+  sus.0095.a: "xxxxx" # 1951045980481827005
+  sus.0096.t: "xxxxx" # 1951045980481827005
+  sus.0096.desc: "xxxxx" # 1951045980481827005
+  sus.0096.a: "xxxxx" # 1951045980481827005
+  sus.0097.t: "xxxxx" # 1951045980481827005
+  sus.0097.desc: "xxxxx" # 1951045980481827005
+  sus.0097.a: "xxxxx" # 1951045980481827005
+  sus.0098.t: "xxxxx" # 1951045980481827005
+  sus.0098.desc: "xxxxx" # 1951045980481827005
+  sus.0098.a: "xxxxx" # 1951045980481827005
+  sus.0099.t: "xxxxx" # 1951045980481827005
+  sus.0099.desc: "xxxxx" # 1951045980481827005
+  sus.0099.a: "xxxxx" # 1951045980481827005

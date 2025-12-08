@@ -1,0 +1,454 @@
+﻿l_korean:
+  austronesian_religion: "말레이" # 14059808318559532084
+  austronesian_religion_adj: "말레이" # 14059808318559532084
+  austronesian_religion_adherent: "말레이시아학자" # 11232563709343925011
+  austronesian_religion_adherent_plural: "말레이시아인들" # 1513433729457813435
+  austronesian_religion_desc: "자연에 대한 숭배, 조상 숭배, 그리고 정령에 대한 믿음으로 흔히 정의되는 많은 토착 신앙들은 다양한 형태의 이교로 간주됩니다." # 18292129404656755894
+  austronesian_high_god_name: "바탈라" # 9511133446308642001
+  austronesian_high_god_name_possessive: "바탈라의" # 7757479342798412609
+  austronesian_high_god_name_alternate: "라온" # 14827183756447080934
+  austronesian_high_god_name_alternate_possessive: "라온의" # 7184958984322728506
+  austronesian_good_god_father_sky: "마캅탄" # 2066632181600886620
+  austronesian_good_god_ancestors: "알라가드" # 4480007297528127041
+  austronesian_devil_name: "바쿠나와" # 15383126321388331828
+  austronesian_devil_name_possessive: "바쿠나와" # 13471111677507591021
+  austronesian_devil_shehe: "그것" # 3125420670989364317
+  austronesian_devil_herselfhimself: "그 자체" # 641171738588078623
+  austronesian_devil_herhis: "그것은" # 12383260098665029106
+  austronesian_evil_god_decay: "팔루롱" # 15502431933197247217
+  austronesian_evil_god_decay_possessive: "팔루롱스" # 3505289383793568346
+  austronesian_evil_god_drought: "라카파티" # 2539018788669884030
+  austronesian_death_deity_name: "마캅탄" # 2066632181600886620
+  austronesian_death_deity_name_possessive: "막카판스" # 16099619482114970844
+  austronesian_death_deity_herhis: "그의" # 14588382875684683839
+  austronesian_mother_earth_father_sky: "마그와옌과 마캅탄" # 11035088066878668917
+  austronesian_creator_god_name: "$austronesian_high_god_name$" # 16920233665295692595
+  austronesian_creator_god_name_possessive: "$austronesian_high_god_name_possessive$" # 8624107585724483368
+  austronesian_health_god_name: "비비트" # 15730209434902937130
+  austronesian_health_god_name_possessive: "비비트의" # 2309099655697728774
+  austronesian_fertility_god_name: "바다다담" # 4463568717368819573
+  austronesian_fertility_god_name_possessive: "바다다담의" # 6040162061512038433
+  austronesian_wealth_god_name: "바다다담" # 4463568717368819573
+  austronesian_wealth_god_name_possessive: "바다다담의" # 6040162061512038433
+  austronesian_household_god_name: "망강하우" # 2113004875621539958
+  austronesian_household_god_name_possessive: "망강하우의" # 2284633900675773734
+  austronesian_fate_god_name: "시 다파" # 1918349021105141036
+  austronesian_fate_god_name_possessive: "시 다파스" # 6404389159915077727
+  austronesian_knowledge_god_name: "$austronesian_high_god_name$" # 16920233665295692595
+  austronesian_knowledge_god_name_possessive: "$austronesian_high_god_name_possessive$" # 8624107585724483368
+  austronesian_war_god_name: "바랑가우" # 1151557162789409708
+  austronesian_war_god_name_possessive: "바랑가우의" # 2345102172039980016
+  austronesian_trickster_god_name: "야와" # 8223692196023560063
+  austronesian_trickster_god_name_possessive: "야와" # 8223692196023560063
+  austronesian_night_god_name: "쿨랄라잉" # 1021659944112442343
+  austronesian_night_god_name_possessive: "쿨랄라잉의" # 11532227940067684895
+  austronesian_water_god_name: "수말롱송" # 646540816414951594
+  austronesian_water_god_name_possessive: "수말롱송의" # 9289377286450847343
+  austronesian_house_of_worship: "담바나" # 3405583925250050317
+  austronesian_house_of_worship_plural: "담바나스" # 13234704536646770475
+  austronesian_religious_symbol: "티그마마누칸" # 9742631022592483383
+  austronesian_religious_text: "만탈라스" # 13440956233969083750
+  austronesian_religious_head_title: "푸눙 발리안" # 17890703679463595099
+  austronesian_religious_head_title_name: "최고 의회" # 15038947742583190916
+  austronesian_devotee: "신봉자" # 16996875086266395993
+  austronesian_devotee_plural: "신도들" # 15412075443944701231
+  austronesian_devotee_male: "신봉자" # 16996875086266395993
+  austronesian_devotee_male_plural: "신도들" # 15412075443944701231
+  austronesian_devotee_female: "신봉자" # 16996875086266395993
+  austronesian_devotee_female_plural: "신도들" # 15412075443944701231
+  austronesian_priest: "발리안" # 2960411057529140757
+  austronesian_priest_plural: "발리안" # 2960411057529140757
+  austronesian_priest_term_plural: "발리안" # 4763617852904105914
+  austronesian_priest_alternate_plural: "장로들" # 5696275286659332166
+  austronesian_divine_realm: "하늘" # 281074639492266792
+  austronesian_afterlife: "사드" # 3831818585796976252
+  witchgodname_austronesian_the_shadow: "아스와앙" # 16850172554931880973
+  batak_animism: "펠레베구" # 1954995918207460401
+  batak_animism_adj: "펠레베구" # 1954995918207460401
+  batak_animism_adherent: "시펠레베구" # 16421900311298703228
+  batak_animism_adherent_plural: "시펠레베구" # 16421900311298703228
+  batak_animism_desc: "시펠레베구는 영혼이 일상생활에서 중요한 역할을 한다고 믿습니다. 좋은 삶을 살기 위해서는 조상과 자연의 영혼을 존중하고 그들과 조화를 이루어야 합니다." # 16875082741456273475
+  batak_animism_old: "오래된 펠레베구" # 17538018015822948652
+  batak_animism_old_adj: "오래된 펠레베구" # 17538018015822948652
+  batak_animism_old_adherent: "오래된 시펠레베구" # 279401451798259296
+  batak_animism_old_adherent_plural: "오래된 시펠레베구" # 279401451798259296
+  batak_animism_old_desc: "시펠레베구는 영혼이 일상생활에서 중요한 역할을 한다고 믿습니다. 좋은 삶을 살기 위해서는 조상과 자연의 영혼을 존중하고 그들과 조화를 이루어야 합니다." # 16875082741456273475
+  batak_high_god_name: "물라자디 나볼론" # 1274096043820188111
+  batak_high_god_name_possessive: "물라자디 나볼론의" # 12756571837722487131
+  batak_high_god_name_alternate: "가이아" # 4051307162386856358
+  batak_high_god_name_alternate_possessive: "가이아의" # 3060927535835196407
+  batak_good_god_father_sky: "$batak_trickster_god_name$" # 5875011378496704986
+  batak_good_god_ancestors: "선조들" # 3977550578121230202
+  batak_devil_name: "부패" # 13053478531208713602
+  batak_devil_name_possessive: "부패의" # 3367953390396647190
+  batak_devil_shehe: "그것" # 3125420670989364317
+  batak_devil_herselfhimself: "그 자체" # 641171738588078623
+  batak_devil_herhis: "그것은" # 12383260098665029106
+  batak_evil_god_decay: "역병" # 15313750568128129140
+  batak_evil_god_decay_possessive: "역병의" # 9485747922900271584
+  batak_evil_god_drought: "가뭄" # 15786026485696089182
+  batak_death_deity_name: "죽음" # 6839449773115691256
+  batak_death_deity_name_possessive: "죽음의" # 4370432923129616423
+  batak_death_deity_herhis: "그것은" # 12383260098665029106
+  batak_creator_god_name: "물라자디 나볼론" # 1274096043820188111
+  batak_creator_god_name_possessive: "물라자디 나볼론의" # 12756571837722487131
+  batak_health_god_name: "$batak_high_god_name$" # 1452050897278589036
+  batak_health_god_name_possessive: "$batak_high_god_name_possessive$" # 12001924884533799435
+  batak_fertility_god_name: "아시아 토론" # 13307015301856346897
+  batak_fertility_god_name_possessive: "아시아 토론" # 13307015301856346897
+  batak_wealth_god_name: "보라스파티" # 7708812977191102516
+  batak_wealth_god_name_possessive: "보라스파티" # 7708812977191102516
+  batak_household_god_name: "보라스파티" # 7708812977191102516
+  batak_household_god_name_possessive: "보라스파티" # 7708812977191102516
+  batak_fate_god_name: "바타라 구루" # 17745080847179711401
+  batak_fate_god_name_possessive: "바타라 구루" # 17745080847179711401
+  batak_knowledge_god_name: "바타라 구루" # 17745080847179711401
+  batak_knowledge_god_name_possessive: "바타라 구루" # 17745080847179711401
+  batak_war_god_name: "망갈라 불란" # 13048295164077705607
+  batak_war_god_name_possessive: "망갈라 불란" # 13048295164077705607
+  batak_trickster_god_name: "베구" # 11202323504606411322
+  batak_trickster_god_name_possessive: "베구" # 11202323504606411322
+  batak_night_god_name: "베구" # 11202323504606411322
+  batak_night_god_name_possessive: "베구" # 11202323504606411322
+  batak_water_god_name: "사니앙나가" # 1609191948401967001
+  batak_water_god_name_possessive: "사니앙나가" # 1609191948401967001
+  batak_house_of_worship: "사원" # 6519563856123702153
+  batak_house_of_worship_plural: "사원들" # 7805349845828344700
+  batak_religious_symbol: "트리케트라" # 16668553969263300305
+  batak_religious_text: "푸스타하" # 8711490911037373703
+  batak_religious_head_title: "다투 나 볼론" # 9319443646960261118
+  batak_religious_head_title_name: "최고 의회" # 15038947742583190916
+  batak_devotee: "신봉자" # 16996875086266395993
+  batak_devotee_plural: "신도들" # 15412075443944701231
+  batak_devotee_male: "신봉자" # 16996875086266395993
+  batak_devotee_male_plural: "신도들" # 15412075443944701231
+  batak_devotee_female: "신봉자" # 16996875086266395993
+  batak_devotee_female_plural: "신도들" # 15412075443944701231
+  batak_priest: "시바소" # 4202521975549209566
+  batak_priest_plural: "시바소" # 4202521975549209566
+  batak_priest_term_plural: "시바소" # 4202521975549209566
+  batak_priest_alternate_plural: "다투스" # 833152206271319265
+  batak_divine_realm: "바누아 긴장" # 2637771802794214131
+  batak_afterlife: "지하 세계" # 8303066665719263468
+  batak_bishop: "족장 시바소" # 3071377203333747188
+  batak_bishop_plural: "족장 시바소" # 3071377203333747188
+  malayic: "신앙" # 8392844424192252766
+  malayic_adj: "신앙" # 8392844424192252766
+  malayic_adherent: "페메르차야" # 18322202300205452752
+  malayic_adherent_plural: "페메르카야스" # 5032326923912588074
+  malayic_desc: "자연에 대한 숭배, 조상 숭배, 그리고 정령에 대한 믿음으로 흔히 정의되는 많은 토착 신앙들은 다양한 형태의 이교로 간주됩니다." # 18292129404656755894
+  malayic_old: "오래된 신념" # 7890711631253645792
+  malayic_old_adj: "오래된 신념" # 7890711631253645792
+  malayic_old_adherent: "오래된 페메르차야" # 6670449298867545033
+  malayic_old_adherent_plural: "오래된 페메르카야스" # 16840944937410930719
+  malayic_old_desc: "자연에 대한 숭배, 조상 숭배, 그리고 정령에 대한 믿음으로 흔히 정의되는 많은 토착 신앙들은 다양한 형태의 이교로 간주됩니다." # 18292129404656755894
+  malayic_high_god_name: "상향 권력" # 4845468246789893589
+  malayic_high_god_name_possessive: "상향의" # 11864244484271393778
+  malayic_high_god_name_alternate: "전능하신 분" # 5066358929301427591
+  malayic_high_god_name_alternate_possessive: "전능하신 분의" # 7209266693758781589
+  malayic_good_god_father_sky: "$malayic_high_god_name$" # 1538018595767139971
+  malayic_good_god_ancestors: "선조" # 18334585536077875914
+  malayic_devil_name: "푸아카" # 4656186276724753550
+  malayic_devil_name_possessive: "푸아카스" # 2469336742549236938
+  malayic_devil_shehe: "그것" # 3125420670989364317
+  malayic_devil_herselfhimself: "그 자체" # 641171738588078623
+  malayic_devil_herhis: "그것은" # 12383260098665029106
+  malayic_evil_god_decay: "실루만" # 15646935276162725760
+  malayic_evil_god_decay_possessive: "실루만의" # 9063502213208626809
+  malayic_evil_god_drought: "가뭄" # 15786026485696089182
+  malayic_death_deity_name: "바타라 칼라" # 1750498169805698925
+  malayic_death_deity_name_possessive: "바타라 칼라의" # 1066226200567118656
+  malayic_death_deity_herhis: "그것은" # 12383260098665029106
+  malayic_mother_earth_father_sky: "어머니 대지와 아버지 하늘" # 3738500664091979309
+  malayic_creator_god_name: "창조주" # 7931915785424530572
+  malayic_creator_god_name_possessive: "창조주께서" # 316132720811780729
+  malayic_health_god_name: "데위 아스리" # 12883608507720675977
+  malayic_health_god_name_possessive: "데위 아스리 오브" # 14603190123122833619
+  malayic_fertility_god_name: "$malayic_health_god_name$" # 12347329668542714971
+  malayic_fertility_god_name_possessive: "$malayic_health_god_name_possessive$" # 6269699526087301584
+  malayic_wealth_god_name: "$malayic_high_god_name$" # 1538018595767139971
+  malayic_wealth_god_name_possessive: "$malayic_high_god_name_possessive$" # 10489336365568283613
+  malayic_household_god_name: "$malayic_high_god_name$" # 1538018595767139971
+  malayic_household_god_name_possessive: "$malayic_high_god_name_possessive$" # 10489336365568283613
+  malayic_fate_god_name: "$malayic_high_god_name_alternate$" # 4432043477522982093
+  malayic_fate_god_name_possessive: "$malayic_high_god_name_alternate_possessive$" # 1946115800037732843
+  malayic_knowledge_god_name: "$malayic_high_god_name_alternate$" # 4432043477522982093
+  malayic_knowledge_god_name_possessive: "$malayic_high_god_name_alternate_possessive$" # 1946115800037732843
+  malayic_war_god_name: "$malayic_high_god_name$" # 1538018595767139971
+  malayic_war_god_name_possessive: "$malayic_high_god_name_possessive$" # 10489336365568283613
+  malayic_trickster_god_name: "오랑 부니안" # 4721156238600247424
+  malayic_trickster_god_name_possessive: "오랑 부니안의" # 5385421925039385553
+  malayic_night_god_name: "$malayic_trickster_god_name$" # 6553144157827965233
+  malayic_night_god_name_possessive: "$malayic_trickster_god_name_possessive$" # 6082134487908044373
+  malayic_water_god_name: "상향 나가" # 2828635251359549848
+  malayic_water_god_name_possessive: "상향 나가스" # 1013916123742449711
+  malayic_house_of_worship: "위하라" # 13076127716519902353
+  malayic_house_of_worship_plural: "위하라" # 13076127716519902353
+  malayic_religious_symbol: "트리케트라" # 16668553969263300305
+  malayic_religious_text: "신성한 이야기들" # 1916157011032334391
+  malayic_religious_head_title: "대제사장" # 17234301223454049381
+  malayic_religious_head_title_name: "대제사장" # 17234301223454049381
+  malayic_devotee: "팔로워" # 4132935134080534589
+  malayic_devotee_plural: "페멜룩스" # 17763643878932846336
+  malayic_priest: "펜데타" # 12382971642263386728
+  malayic_priest_plural: "펜데타스" # 13854701131438632363
+  malayic_priest_term_plural: "펜데타스" # 13854701131438632363
+  malayic_priest_alternate_plural: "$malayic_priest_plural$" # 12488445975263257232
+  malayic_divine_realm: "카향안" # 16501204144031892559
+  malayic_positive_afterlife: "소르가" # 1580335502719424763
+  malayic_negative_afterlife: "나라카" # 7536011209589829543
+  malayic_afterlife: "알람 사나" # 6064250071580499003
+  mentawai_animism: "사불룽안" # 7996888693232078384
+  mentawai_animism_adj: "사불룽안" # 7996888693232078384
+  mentawai_animism_adherent: "사불룽가니스트" # 16571240638992548457
+  mentawai_animism_adherent_plural: "사불룽가니스트" # 15358170757614187579
+  mentawai_animism_desc: "아랏 사불룽안은\"나뭇잎의 종\"를 의미하며, 멘타와이족의 신앙 체계입니다. 모든 자연 세계에 영혼이 깃들어 있다고 믿으며, 특히 숲의 영혼(사니투라고 알려짐)이 중요하게 여겨집니다. 이 영혼들을 분노하게 하면 불치병과 심각한 불행을 초래한다고 합니다." # 2430188177320931828
+  mentawai_animism_old: "오래된 사불룽안" # 8374088768770552070
+  mentawai_animism_old_adj: "오래된 사불룽안" # 8374088768770552070
+  mentawai_animism_old_adherent: "오래된 사불룽가니스트" # 18150198327534160540
+  mentawai_animism_old_adherent_plural: "오래된 사불룽가니즘 신봉자들" # 13551846599487749711
+  mentawai_animism_old_desc: "아랏 사불룽안은\"나뭇잎의 종\"를 의미하며, 멘타와이족의 신앙 체계입니다. 모든 자연 세계에 영혼이 깃들어 있다고 믿으며, 특히 숲의 영혼(사니투라고 알려짐)이 중요하게 여겨집니다. 이 영혼들을 분노하게 하면 불치병과 심각한 불행을 초래한다고 합니다." # 2430188177320931828
+  mentawai_animism_high_god_name: "타이 카마누아" # 8962327603848005154
+  mentawai_animism_high_god_name_possessive: "타이 카마누아스" # 93697876943792078
+  mentawai_animism_high_god_name_alternate: "$mentawai_animism_high_god_name$" # 16423470610135291605
+  mentawai_animism_high_god_name_alternate_possessive: "$mentawai_animism_high_god_name_possessive$" # 16794363159551831629
+  mentawai_animism_devil_name: "피톡" # 11877135339225247285
+  mentawai_animism_devil_name_possessive: "피톡의" # 13033246572093691201
+  mentawai_animism_devil_shehe: "그것" # 3125420670989364317
+  mentawai_animism_devil_herselfhimself: "그 자체" # 641171738588078623
+  mentawai_animism_devil_herhis: "그것은" # 12383260098665029106
+  mentawai_animism_evil_god_decay: "피톡" # 11877135339225247285
+  mentawai_animism_evil_god_decay_possessive: "피톡의" # 13033246572093691201
+  mentawai_animism_evil_god_drought: "가뭄" # 15786026485696089182
+  mentawai_animism_death_deity_name: "죽음" # 6839449773115691256
+  mentawai_animism_death_deity_name_possessive: "죽음의" # 4370432923129616423
+  mentawai_animism_death_deity_herhis: "그것은" # 12383260098665029106
+  mentawai_animism_creator_god_name: "$mentawai_animism_health_god_name$" # 14604669044357122191
+  mentawai_animism_creator_god_name_possessive: "$mentawai_animism_health_god_name_possessive$" # 868612583644270767
+  mentawai_animism_health_god_name: "타이 칼렐루" # 2829305137673136622
+  mentawai_animism_health_god_name_possessive: "타이 칼렐루스" # 16626030883891478556
+  mentawai_animism_fertility_god_name: "$mentawai_animism_health_god_name$" # 14604669044357122191
+  mentawai_animism_fertility_god_name_possessive: "$mentawai_animism_health_god_name_possessive$" # 868612583644270767
+  mentawai_animism_wealth_god_name: "$mentawai_animism_high_god_name$" # 16423470610135291605
+  mentawai_animism_wealth_god_name_possessive: "$mentawai_animism_high_god_name_possessive$" # 16794363159551831629
+  mentawai_animism_household_god_name: "$mentawai_animism_high_god_name$" # 16423470610135291605
+  mentawai_animism_household_god_name_possessive: "$mentawai_animism_high_god_name_possessive$" # 16794363159551831629
+  mentawai_animism_fate_god_name: "$mentawai_animism_high_god_name_alternate$" # 11837139316147957853
+  mentawai_animism_fate_god_name_possessive: "$mentawai_animism_high_god_name_alternate_possessive$" # 12116181778790237116
+  mentawai_animism_knowledge_god_name: "$mentawai_animism_high_god_name_alternate$" # 11837139316147957853
+  mentawai_animism_knowledge_god_name_possessive: "$mentawai_animism_high_god_name_alternate_possessive$" # 12116181778790237116
+  mentawai_animism_war_god_name: "$mentawai_animism_high_god_name$" # 16423470610135291605
+  mentawai_animism_war_god_name_possessive: "$mentawai_animism_high_god_name_possessive$" # 16794363159551831629
+  mentawai_animism_trickster_god_name: "사니투" # 1701550340461803737
+  mentawai_animism_trickster_god_name_possessive: "사니투스" # 1000493055133759398
+  mentawai_animism_night_god_name: "$mentawai_animism_trickster_god_name$" # 1760459778000679869
+  mentawai_animism_night_god_name_possessive: "$mentawai_animism_trickster_god_name_possessive$" # 11405385396508448087
+  mentawai_animism_water_god_name: "타이 레우바갓" # 7876501160103740478
+  mentawai_animism_water_god_name_possessive: "타이 레우바갓의" # 15881346015227780733
+  mentawai_animism_house_of_worship: "성소" # 2303695743383420811
+  mentawai_animism_house_of_worship_plural: "성소들" # 17142390693193914587
+  mentawai_animism_religious_symbol: "사불룽안" # 572275127211128532
+  mentawai_animism_religious_text: "신성한 이야기들" # 1916157011032334391
+  mentawai_animism_religious_head_title: "시케레이 카라이" # 12878437914502267240
+  mentawai_animism_religious_head_title_name: "라가이" # 2480188246696501574
+  mentawai_animism_devotee: "신봉자" # 16996875086266395993
+  mentawai_animism_devotee_plural: "신도들" # 15412075443944701231
+  mentawai_animism_priest: "시케레이" # 13021890685160800088
+  mentawai_animism_priest_plural: "시케레이" # 13021890685160800088
+  mentawai_animism_priest_term_plural: "시케레이" # 13021890685160800088
+  mentawai_animism_priest_alternate_plural: "$mentawai_animism_priest_plural$" # 6688033054191342308
+  mentawai_animism_divine_realm: "마누아" # 9974219983193251424
+  mentawai_animism_positive_afterlife: "$mentawai_animism_afterlife$" # 16706260065964714847
+  mentawai_animism_negative_afterlife: "$mentawai_animism_afterlife$" # 16706260065964714847
+  mentawai_animism_afterlife: "울라우마누아" # 12957747007680913145
+  mentawai_animism_bishop: "시파우마트" # 6183666422712907867
+  mentawai_animism_bishop_plural: "시파우마트" # 6183666422712907867
+  nias_animism: "파넴바 아두" # 5581337343854679772
+  nias_animism_adj: "파놈바" # 2233885443995431740
+  nias_animism_adherent: "니하 마놈바" # 10244020470872189155
+  nias_animism_adherent_plural: "니하 마놈바" # 10244020470872189155
+  nias_animism_desc: "파놈바 아두는 니아스 사람들의 토착 종교 관습입니다. 이는 문자 그대로 조상신을 나타내는 나무 우상인\"아두(Adu\" 숭배를 의미합니다. 그들은 죽으면 사람의\"숨\"(노소, noso)은 조상의 땅이자 영혼의 영역인 테테홀리 아나아(Teteholi Ana'a)로 돌아가고, 그들의\"그림\"는 이 세상에\"베쿠(Bekhu\" 또는 영혼으로 남는다고 믿습니다. 머리 사냥은 그들의 사회에서 중요한 역할을 하며, 희생된 머리는 많은 의식에 사용되며 새로운 건물을 짓기 전에 필수적으로 요구됩니다. 소년은 첫 번째 머리를 사냥한 후에야 비로소 성인으로 간주될 수 있습니다." # 5549575088915113792
+  nias_animism_old: "아라 파놈바" # 16429453878389856785
+  nias_animism_old_adj: "아라 파놈바" # 16429453878389856785
+  nias_animism_old_adherent: "니하 마놈바" # 10244020470872189155
+  nias_animism_old_adherent_plural: "니하 마놈바" # 10244020470872189155
+  nias_animism_old_desc: "파놈바 아두는 니아스 사람들의 토착 종교 관습입니다. 이는 문자 그대로 조상신을 나타내는 나무 우상인\"아두(Adu\" 숭배를 의미합니다. 그들은 죽으면 사람의\"숨\"(노소, noso)은 조상의 땅이자 영혼의 영역인 테테홀리 아나아(Teteholi Ana'a)로 돌아가고, 그들의\"그림\"는 이 세상에\"베쿠(Bekhu\" 또는 영혼으로 남는다고 믿습니다. 머리 사냥은 그들의 사회에서 중요한 역할을 하며, 희생된 머리는 많은 의식에 사용되며 새로운 건물을 짓기 전에 필수적으로 요구됩니다. 소년은 첫 번째 머리를 사냥한 후에야 비로소 성인으로 간주될 수 있습니다." # 5549575088915113792
+  nias_animism_high_god_name: "로왈랑기" # 16214192798167003950
+  nias_animism_high_god_name_possessive: "로왈랑이의" # 17053696612853225689
+  nias_animism_high_god_name_alternate: "알롤로아 난기" # 12791382563478883161
+  nias_animism_high_god_name_alternate_possessive: "알롤로아 난기스" # 7584132782857341067
+  nias_animism_high_god_shehe: "그" # 8803760235815837871
+  nias_animism_high_god_herselfhimself: "그 자신" # 10958483083757948805
+  nias_animism_high_god_herhis: "그의" # 14588382875684683839
+  nias_animism_devil_name: "아포카" # 15014176207869880176
+  nias_animism_devil_name_possessive: "아포카스" # 17685356586175953779
+  nias_animism_devil_shehe: "그것" # 3125420670989364317
+  nias_animism_devil_herselfhimself: "그 자체" # 641171738588078623
+  nias_animism_devil_herhis: "그것은" # 12383260098665029106
+  nias_animism_death_deity_name: "라튀르 다뇌" # 2390899967503837558
+  nias_animism_death_deity_name_possessive: "라튀르 다뇌" # 7463038178252399118
+  nias_animism_death_deity_herhis: "그것은" # 12383260098665029106
+  nias_animism_creator_god_name: "투하 시하이" # 4560152521815956126
+  nias_animism_creator_god_name_possessive: "투하 시하이의" # 8564856917192251067
+  nias_animism_creator_god_name_alternate: "이나다 사미하라 로" # 7697211495825160578
+  nias_animism_creator_god_name_alternate_possessive: "이나다 사미하라 루오스" # 5820606285580927997
+  nias_animism_health_god_name: "실레웨 나사라타" # 958588858065432301
+  nias_animism_health_god_name_possessive: "실레웨 나사라타스" # 610883927342927640
+  nias_animism_fertility_god_name: "$nias_animism_high_god_name$" # 17126227819735967329
+  nias_animism_fertility_god_name_possessive: "$nias_animism_high_god_name_possessive$" # 16620844959367382093
+  nias_animism_wealth_god_name: "$nias_animism_high_god_name$" # 17126227819735967329
+  nias_animism_wealth_god_name_possessive: "$nias_animism_high_god_name_possessive$" # 16620844959367382093
+  nias_animism_household_god_name: "$nias_animism_high_god_name$" # 17126227819735967329
+  nias_animism_household_god_name_possessive: "$nias_animism_high_god_name_possessive$" # 16620844959367382093
+  nias_animism_fate_god_name: "$nias_animism_high_god_name_alternate$" # 17319585001919070449
+  nias_animism_fate_god_name_possessive: "$nias_animism_high_god_name_alternate_possessive$" # 18429729424259413142
+  nias_animism_knowledge_god_name: "$nias_animism_high_god_name_alternate$" # 17319585001919070449
+  nias_animism_knowledge_god_name_possessive: "$nias_animism_high_god_name_alternate_possessive$" # 18429729424259413142
+  nias_animism_war_god_name: "시라하 호로" # 16848732099271262473
+  nias_animism_war_god_name_possessive: "시라하 호로스" # 2256465569981329049
+  nias_animism_trickster_god_name: "소와누아" # 3561443762310088439
+  nias_animism_trickster_god_name_possessive: "소와누아스" # 3496680810110862421
+  nias_animism_night_god_name: "$nias_animism_trickster_god_name$" # 955096283653837404
+  nias_animism_night_god_name_possessive: "$nias_animism_trickster_god_name_possessive$" # 1434933409692158487
+  nias_animism_water_god_name: "투하 장가로파" # 17223898677589138978
+  nias_animism_water_god_name_possessive: "투하 장가로파스" # 3915491651920220834
+  nias_animism_house_of_worship: "베후" # 8015791488468783742
+  nias_animism_house_of_worship_plural: "베후" # 8015791488468783742
+  nias_animism_religious_symbol: "아두" # 2751693803759589606
+  nias_animism_religious_text: "호호" # 7074265635643266757
+  nias_animism_religious_head_title: "투하 본드라쾨" # 15381813680187154780
+  nias_animism_religious_head_title_name: "아로 고살리" # 1298942074211158381
+  nias_animism_devotee: "신봉자" # 16996875086266395993
+  nias_animism_devotee_plural: "신도들" # 15412075443944701231
+  nias_animism_priest: "에레" # 3092373567765210238
+  nias_animism_priest_plural: "에레" # 3092373567765210238
+  nias_animism_priest_term_plural: "에레" # 3092373567765210238
+  nias_animism_priest_alternate_plural: "$nias_animism_priest_plural$" # 7602734944276594757
+  nias_animism_divine_realm: "$nias_animism_afterlife$" # 15825007737753683306
+  nias_animism_positive_afterlife: "$nias_animism_afterlife$" # 15825007737753683306
+  nias_animism_negative_afterlife: "$nias_animism_afterlife$" # 15825007737753683306
+  nias_animism_afterlife: "테퇴회리 아나아" # 75283750205842044
+  nias_animism_bishop: "에부아 에레" # 1456605408943057359
+  nias_animism_bishop_plural: "에부아 에레" # 1456605408943057359
+  kadai: "카다이" # 2889463169659424044
+  kadai_adj: "카다이치" # 562249049971569693
+  kadai_adherent: "카다이" # 2889463169659424044
+  kadai_adherent_plural: "카다이" # 2889463169659424044
+  kadai_desc: "동남아시아 최초 거주민들의 신앙 중 일부인 카다이 신앙은 영혼, 금기, 그리고 천둥과 번개의 영혼에 대한 숭배를 공통적으로 특징으로 합니다." # 16850009498096958173
+  kadai_high_god_name: "카다이" # 2889463169659424044
+  kadai_high_god_name_possessive: "카다이의" # 1515011408979613459
+  kadai_high_god_name_alternate: "천둥 신" # 10469768955340854905
+  kadai_high_god_name_alternate_possessive: "천둥신의" # 11393293208341286867
+  kadai_good_god_father_sky: "$kadai_trickster_god_name$" # 15092539720730779153
+  kadai_good_god_ancestors: "선조들" # 3977550578121230202
+  kadai_devil_name: "발리우" # 217184253365324879
+  kadai_devil_name_possessive: "발리우의" # 18057192604753470790
+  kadai_devil_shehe: "그것" # 3125420670989364317
+  kadai_devil_herselfhimself: "그 자체" # 641171738588078623
+  kadai_devil_herhis: "그것은" # 12383260098665029106
+  kadai_evil_god_decay: "역병" # 15313750568128129140
+  kadai_evil_god_decay_possessive: "역병의" # 9485747922900271584
+  kadai_evil_god_drought: "가뭄" # 15786026485696089182
+  kadai_death_deity_name: "죽음" # 6839449773115691256
+  kadai_death_deity_name_possessive: "죽음의" # 4370432923129616423
+  kadai_death_deity_herhis: "그것은" # 12383260098665029106
+  kadai_mother_earth_father_sky: "어머니 대지와 아버지 하늘" # 3738500664091979309
+  kadai_creator_god_name: "$kadai_high_god_name$" # 12284514106291571021
+  kadai_creator_god_name_possessive: "$kadai_high_god_name_possessive$" # 183804216472401107
+  kadai_health_god_name: "$kadai_high_god_name$" # 12284514106291571021
+  kadai_health_god_name_possessive: "$kadai_high_god_name_possessive$" # 183804216472401107
+  kadai_fertility_god_name: "$kadai_high_god_name$" # 12284514106291571021
+  kadai_fertility_god_name_possessive: "$kadai_high_god_name_possessive$" # 183804216472401107
+  kadai_wealth_god_name: "$kadai_high_god_name$" # 12284514106291571021
+  kadai_wealth_god_name_possessive: "$kadai_high_god_name_possessive$" # 183804216472401107
+  kadai_household_god_name: "$kadai_high_god_name$" # 12284514106291571021
+  kadai_household_god_name_possessive: "$kadai_high_god_name_possessive$" # 183804216472401107
+  kadai_fate_god_name: "운명" # 2796749541833053969
+  kadai_fate_god_name_possessive: "운명의" # 13257871882534990612
+  kadai_knowledge_god_name: "$kadai_high_god_name$" # 12284514106291571021
+  kadai_knowledge_god_name_possessive: "$kadai_high_god_name_possessive$" # 183804216472401107
+  kadai_war_god_name: "$kadai_high_god_name$" # 12284514106291571021
+  kadai_war_god_name_possessive: "$kadai_high_god_name_possessive$" # 183804216472401107
+  kadai_trickster_god_name: "하늘 아버지" # 5782359631674320218
+  kadai_trickster_god_name_possessive: "하늘 아버지" # 5782359631674320218
+  kadai_night_god_name: "$kadai_trickster_god_name$" # 15092539720730779153
+  kadai_night_god_name_possessive: "$kadai_trickster_god_name_possessive$" # 16063862125575263585
+  kadai_water_god_name: "$kadai_high_god_name$" # 12284514106291571021
+  kadai_water_god_name_possessive: "$kadai_high_god_name_possessive$" # 183804216472401107
+  kadai_house_of_worship: "정령의 집" # 14756225198541469911
+  kadai_house_of_worship_plural: "정령의 집" # 14756225198541469911
+  kadai_religious_symbol: "그림 문자" # 6097901633264065820
+  kadai_religious_text: "신성한 이야기들" # 1916157011032334391
+  kadai_religious_head_title: "고위 샤먼" # 9784349143017949296
+  kadai_religious_head_title_name: "최고 의회" # 15038947742583190916
+  kadai_devotee: "신봉자" # 16996875086266395993
+  kadai_devotee_plural: "신도들" # 15412075443944701231
+  kadai_priest: "샤먼" # 9080399879002963726
+  kadai_priest_plural: "샤먼들" # 18154816624900111499
+  kadai_priest_term_plural: "샤먼들" # 8586470736740655537
+  kadai_priest_alternate_plural: "장로들" # 5696275286659332166
+  kadai_divine_realm: "하늘" # 281074639492266792
+  kadai_afterlife: "지하 세계" # 8303066665719263468
+  kadai_bishop: "최고 샤먼" # 15702233409451460933
+  kadai_bishop_plural: "수장 샤먼들" # 4581946559491787258
+  umboh: "움보" # 16885193965713557007
+  umboh_adj: "움보" # 16885193965713557007
+  umboh_adherent: "움보" # 16885193965713557007
+  umboh_adherent_plural: "움보" # 16885193965713557007
+  umboh_desc: "바다 유목민들의 전통은 그들을 지켜보는 물속 조상들과 영혼들의 방식에 따라 인도됩니다." # 11139627651493308507
+  umboh_high_god_name: "옴보 딜라우트" # 2875556862070670113
+  umboh_high_god_name_possessive: "옴보 딜라우츠" # 18007251520011890560
+  umboh_high_god_name_alternate: "음보 마 딜라오" # 3364047967577502262
+  umboh_high_god_name_alternate_possessive: "음보 마 딜라오의" # 2693850967712226257
+  umboh_good_god_father_sky: "투한" # 14794298137057916546
+  umboh_good_god_ancestors: "옴보" # 6965734868797166173
+  umboh_devil_name: "로톡" # 16132649137250095340
+  umboh_devil_name_possessive: "로톡스" # 12839321805664214486
+  umboh_devil_shehe: "그것" # 3125420670989364317
+  umboh_devil_herselfhimself: "그 자체" # 641171738588078623
+  umboh_devil_herhis: "그것은" # 12383260098665029106
+  umboh_evil_god_decay: "수쿠트" # 452383801783441306
+  umboh_evil_god_decay_possessive: "수쿠트" # 15940742369725108155
+  umboh_evil_god_drought: "부숭" # 1144687440346373319
+  umboh_death_deity_name: "죽음" # 6839449773115691256
+  umboh_death_deity_name_possessive: "죽음의" # 4370432923129616423
+  umboh_death_deity_herhis: "그것은" # 12383260098665029106
+  umboh_mother_earth_father_sky: "옴보 딜라우트와 투한" # 6901651136326928498
+  umboh_creator_god_name: "투한" # 14794298137057916546
+  umboh_creator_god_name_possessive: "투한스" # 17194795861947999192
+  umboh_health_god_name: "카카" # 5887813738052956644
+  umboh_health_god_name_possessive: "카카의" # 17371119614355200482
+  umboh_fertility_god_name: "투한" # 14794298137057916546
+  umboh_fertility_god_name_possessive: "투한스" # 17194795861947999192
+  umboh_wealth_god_name: "음보 두가" # 12387942374063198671
+  umboh_wealth_god_name_possessive: "음보 두가스" # 11979639267827139255
+  umboh_household_god_name: "음보 탐비라" # 4916164776278753918
+  umboh_household_god_name_possessive: "음보 탐비라의" # 11412687075614765565
+  umboh_fate_god_name: "두와타" # 5647326480316019271
+  umboh_fate_god_name_possessive: "두와타들의" # 5774364338584736503
+  umboh_knowledge_god_name: "투한" # 14794298137057916546
+  umboh_knowledge_god_name_possessive: "투한스" # 17194795861947999192
+  umboh_war_god_name: "옴보" # 6965734868797166173
+  umboh_war_god_name_possessive: "옴보흐의" # 15438077991265496050
+  umboh_trickster_god_name: "세탕" # 4082148731325965653
+  umboh_trickster_god_name_possessive: "세탕의" # 2362862862387856755
+  umboh_night_god_name: "투한" # 14794298137057916546
+  umboh_night_god_name_possessive: "투한스" # 17194795861947999192
+  umboh_water_god_name: "옴보 딜라우트" # 2875556862070670113
+  umboh_water_god_name_possessive: "옴보 딜라우츠" # 18007251520011890560
+  umboh_house_of_worship: "정령의 집" # 14756225198541469911
+  umboh_house_of_worship_plural: "정령의 집" # 14100120075544276501
+  umboh_religious_symbol: "트리케트라" # 16668553969263300305
+  umboh_religious_text: "만트라" # 17085092709057842458
+  umboh_religious_head_title: "고위 산드로" # 1423763220537559986
+  umboh_religious_head_title_name: "최고 의회" # 15038947742583190916
+  umboh_devotee: "신봉자" # 16996875086266395993
+  umboh_devotee_plural: "신도들" # 15412075443944701231
+  umboh_priest: "산드로" # 16740542057474427896
+  umboh_priest_plural: "산드로스" # 6971617817714555320
+  umboh_priest_term_plural: "산드로스" # 7776245695301610947
+  umboh_priest_alternate_plural: "장로들" # 5696275286659332166
+  umboh_divine_realm: "바다" # 14759729547504179976
+  umboh_afterlife: "저승" # 7530084063564594911
+  umboh_bishop: "족장 산드로" # 14827535339852662525
+  umboh_bishop_plural: "족장 산드로스" # 12139554486386716107

@@ -1,0 +1,7 @@
+﻿l_english:
+
+ game_concept_t_church_holding:0 "Tribal Temple" 
+ game_concept_t_church_holdings:0 "Tribal Temples" 
+ game_concept_t_church_holding_desc:0 "Tribes are poor in [taxes|E] but rich in [levies|E], [prestige|E], and [men_at_arms|E] upgrades. They have limited upgrade potential and, while strong early, quickly dwindle in power the longer time progresses. Only [tribal|E] characters can hold them without penalties. [feudal|E] rulers will have to spend [gold|E] to transform Tribes into [castles|E]." 
+ game_concept_tribalchurch:0 "Tribal Temple" 
+ game_concept_tribalchurches:0 "Tribal Temples" 

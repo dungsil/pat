@@ -1,0 +1,17 @@
+﻿l_korean:
+  mog_company_migration_penalty: "수탈적 식민 행정" # 3266304665181587531
+  mog_legacy_migration_penalty: "착취적 행정의 유산" # 14291517455733622623
+  mog_education_access_from_urbanization: "[concept_urbanization]으로부터의 교육 접근성" # 17573804990197602928
+  state_slaves_education_access_add: "[GetPopType('slaves').GetName]에 대한 교육 접근성" # 18328397066465512376
+  state_slaves_education_access_add_desc: "[GetPopType('slaves').GetName]에 대한 교육 접근성 보너스 또는 페널티" # 14690501584132012900
+  mog_spa_child_labor_allowed_literacy: "SPA: 아동 노동법 문해율 효과" # 9575550352549892217
+  mog_spa_restricted_child_labor_literacy: "SPA: 아동 노동법 문해율 효과" # 9575550352549892217
+  mog_spa_compulsory_primary_school_literacy: "SPA: 아동 노동법 문해율 효과" # 9575550352549892217
+  mog_spa_diff_religious_schools_literacy: "SPA: 문맹률 변화 (종교 학교)" # 5332871126008346
+  mog_spa_diff_private_schools_literacy: "SPA: 문맹률 변화 (사립 학교)" # 10016026767997107336
+  mog_spa_diff_public_schools_literacy: "SPA: 문맹률 변화 (공립학교)" # 3676031806300441236
+  mog_spa_diff_compulsory_school_literacy: "SPA: 문맹률 변화 (의무 초등 교육)" # 12676727819250440421
+  mog_lower_strata_expected_sol_from_average: "SPA: 국가 평균 [concept_sol]이 $lower$의 예상 생활 수준에 미치는 영향" # 15996092207625347589
+  mog_middle_strata_expected_sol_from_average: "SPA: 국가 평균 [concept_sol]이 $middle$의 예상 생활 수준에 미치는 영향" # 16904160600750131305
+  mog_upper_strata_expected_sol_from_average: "SPA: 문맹률로 인한 예상 생활 수준에 대한 $upper$의 국가 평균 [concept_sol] 영향" # 7538923085086005008
+  mog_spa_base_sol_from_literacy: "SPA: 기본 수정치 변경 사항" # 9177733536622297240

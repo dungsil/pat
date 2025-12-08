@@ -1,0 +1,577 @@
+# 사용 가이드
+
+## 설치
+
+### 필수 요구사항
+
+- **Node.js**: v18 이상
+- **pnpm**: 10.24.0 이상 (권장)
+- **Git**: 최신 버전
+- **Google AI API 키**: Gemini API 액세스
+
+### 1. 저장소 클론
+
+```bash
+git clone https://github.com/dungsil/paradox-auto-translate.git
+cd paradox-auto-translate
+```
+
+### 2. 의존성 설치
+
+```bash
+pnpm install
+```
+
+### 3. 환경 변수 설정
+
+`.env` 파일을 생성하고 API 키를 설정합니다:
+
+```bash
+cp .env.sample .env
+```
+
+`.env` 파일 편집:
+
+```env
+GOOGLE_AI_STUDIO_TOKEN=your_api_key_here
+```
+
+**API 키 발급:**
+1. [Google AI Studio](https://aistudio.google.com/app/apikey) 방문
+2. "Create API Key" 클릭
+3. 생성된 키를 복사하여 `.env`에 붙여넣기
+
+## 기본 사용법
+
+### Crusader Kings III 번역
+
+```bash
+# 전체 번역 실행
+pnpm ck3
+
+# 해시만 업데이트 (번역 없이)
+pnpm ck3:update-hash
+
+# 사전 기반 번역 무효화
+pnpm ck3:update-dict
+
+# 잘못된 번역 재번역
+pnpm ck3:retranslate
+```
+
+### Victoria 3 번역
+
+```bash
+# 전체 번역 실행
+pnpm vic3
+
+# 해시만 업데이트
+pnpm vic3:update-hash
+
+# 사전 기반 번역 무효화
+pnpm vic3:update-dict
+
+# 잘못된 번역 재번역
+pnpm vic3:retranslate
+```
+
+### Stellaris 번역
+
+```bash
+# 전체 번역 실행
+pnpm stellaris
+
+# 해시만 업데이트
+pnpm stellaris:update-hash
+
+# 사전 기반 번역 무효화
+pnpm stellaris:update-dict
+
+# 잘못된 번역 재번역
+pnpm stellaris:retranslate
+```
+
+### Upstream 업데이트
+
+모든 게임의 upstream 저장소를 업데이트합니다:
+
+```bash
+pnpm upstream
+```
+
+## 자동화 워크플로우
+
+### 단어사전 자동 무효화
+
+**트리거 조건:**
+- `scripts/utils/dictionary.ts` 파일이 `main` 브랜치에 push될 때
+
+**자동 실행 작업:**
+1. CK3 번역 무효화 및 재번역
+2. Stellaris 번역 무효화 및 재번역
+3. VIC3 번역 무효화 및 재번역
+4. 변경사항 자동 커밋
+
+**워크플로우 파일:**
+```
+.github/workflows/invalidate-on-dictionary-update.yml
+```
+
+**사용 예:**
+```bash
+# 1. dictionary.ts 수정
+vim scripts/utils/dictionary.ts
+
+# 2. 커밋 및 푸시
+git add scripts/utils/dictionary.ts
+git commit -m "feat: Add new terms to dictionary"
+git push origin main
+
+# 3. GitHub Actions가 자동으로:
+#    - 모든 게임의 번역 무효화
+#    - 재번역 실행
+#    - 결과 커밋 및 푸시
+```
+
+**동시 실행 방지:**
+- 모든 번역 워크플로우는 `translation` concurrency group 사용
+- 사전 무효화 워크플로우와 일반 번역 워크플로우가 동시에 실행되지 않음
+- 순차적 실행으로 데이터베이스 및 파일 충돌 방지
+
+## 명령어 설명
+
+### 번역 명령 (`pnpm ck3`, `pnpm vic3`, `pnpm stellaris`)
+
+**동작:**
+1. Upstream 저장소를 최신 버전으로 업데이트
+2. 각 모드의 `meta.toml` 파일을 읽어 설정 로드
+3. 영어 localization 파일 파싱
+4. 변경된 항목만 번역 (해시 비교)
+5. 한국어 파일 생성 (`___*_l_korean.yml`)
+
+**출력 위치:**
+```
+게임디렉토리/모드명/mod/localization/korean/
+```
+
+**진행 상황:**
+- 실시간 로그 출력
+- 번역된 항목 수 표시
+- 캐시 히트율 표시
+
+### 해시 업데이트 (`pnpm ck3:update-hash`)
+
+**용도:**
+- 소스 파일 변경 사항을 추적하되 번역은 수행하지 않음
+- 대량 업데이트 전 변경 사항 확인
+
+**동작:**
+1. 소스 파일의 새 해시 계산
+2. 타겟 파일의 해시만 업데이트
+3. 번역 텍스트는 그대로 유지
+
+**사용 예:**
+```bash
+# 변경 사항 확인
+pnpm ck3:update-hash
+
+# 출력 예시
+[RICE/events.yml:event_1] 해시 업데이트: old_hash -> new_hash
+[RICE/events.yml:event_2] 해시 일치 (변경 없음)
+```
+
+### 사전 무효화 (`pnpm ck3:update-dict`)
+
+**용도:**
+- `scripts/utils/dictionary.ts`의 사전이 업데이트된 경우
+- 사전에 있는 단어가 포함된 모든 번역을 재번역
+
+**동작:**
+1. 사전의 모든 키 추출
+2. 번역 파일에서 해당 키를 포함한 항목 검색
+3. 발견된 항목의 캐시 무효화
+4. 해시를 `null`로 설정하여 재번역 트리거
+
+**사용 시나리오:**
+```typescript
+// dictionary.ts 업데이트 전
+'duke': '공작'
+
+// 번역 결과: "The duke arrives" -> "공작이 도착합니다"
+
+// dictionary.ts 업데이트 후
+'duke': '대공'
+
+// pnpm ck3:update-dict 실행
+// 다음 번역 시: "The duke arrives" -> "대공이 도착합니다"
+```
+
+### 재번역 (`pnpm ck3:retranslate`)
+
+**용도:**
+- 잘못 번역된 항목 자동 감지 및 재번역
+- 번역 품질 개선
+
+**검증 규칙:**
+- 게임 변수 누락/손상
+- 변수 내부 한글 포함
+- 기술 식별자 번역
+- 불필요한 LLM 응답
+- 잘못된 변수 구문
+
+**동작:**
+1. 모든 번역 파일 스캔
+2. 각 항목에 대해 검증 수행
+3. 잘못된 번역의 캐시 무효화
+4. 해시를 `null`로 설정
+
+**출력 예:**
+```
+[RICE/events.yml:event_1] 검증 실패: 누락된 게임 변수: [GetTitle]
+[RICE/events.yml:event_2] 검증 실패: 변수 내부 한글 포함: [Get제목]
+총 2개 항목 무효화됨
+```
+
+## 워크플로우 예제
+
+### 새 모드 추가 및 번역
+
+```bash
+# 1. 모드 디렉토리 생성
+mkdir -p ck3/NewMod
+
+# 2. meta.toml 작성
+cat > ck3/NewMod/meta.toml << EOF
+[upstream]
+url = "https://github.com/modder/NewMod.git"
+localization = ["NewMod/localization/english"]
+language = "english"
+EOF
+
+# 3. 번역 실행
+pnpm ck3
+
+# 4. 결과 확인
+ls ck3/NewMod/mod/localization/korean/
+```
+
+### 모드 업데이트 후 번역 갱신
+
+```bash
+# 1. Upstream 업데이트 (자동으로 수행되지만 수동 실행 가능)
+pnpm upstream
+
+# 2. 변경된 항목만 재번역
+pnpm ck3
+
+# 변경되지 않은 항목은 캐시에서 자동으로 로드됨
+```
+
+### 사전 추가 및 적용
+
+### 자동 적용 (권장)
+
+```bash
+# 1. dictionary.ts 편집
+code scripts/utils/dictionary.ts
+
+# 예: 'baron': '남작' 추가
+
+# 2. 변경사항 커밋 및 푸시
+git add scripts/utils/dictionary.ts
+git commit -m "feat: Add baron translation"
+git push origin main
+```
+
+**자동화 프로세스:**
+- GitHub Actions가 자동으로 실행됨
+- 사전 기반 번역 무효화 (`update-dict`)
+- 재번역 실행 (`retranslate`)
+- 결과 커밋 및 푸시
+
+**워크플로우 파일:**
+- `.github/workflows/invalidate-on-dictionary-update.yml`
+- `dictionary.ts` 변경 감지 시 자동 실행
+- 모든 게임(CK3, Stellaris, VIC3) 자동 처리
+
+### 수동 적용 (로컬 테스트)
+
+```bash
+# 1. dictionary.ts 편집
+code scripts/utils/dictionary.ts
+
+# 2. 수동으로 무효화 및 재번역
+pnpm ck3:update-dict
+pnpm ck3
+
+# 'baron'이 포함된 모든 항목이 새로운 번역으로 갱신됨
+```
+
+### 번역 품질 개선
+
+```bash
+# 1. 잘못된 번역 감지
+pnpm ck3:retranslate
+
+# 출력에서 무효화된 항목 확인
+
+# 2. 재번역 실행
+pnpm ck3
+
+# 무효화된 항목만 재번역됨
+```
+
+### 대량 업데이트 처리
+
+```bash
+# 1. 모든 upstream 업데이트
+pnpm upstream
+
+# 2. 해시만 업데이트하여 변경 사항 확인
+pnpm ck3:update-hash
+pnpm vic3:update-hash
+pnpm stellaris:update-hash
+
+# 로그에서 "해시 업데이트" 메시지 확인
+
+# 3. 실제 번역 수행
+pnpm ck3
+pnpm vic3
+pnpm stellaris
+```
+
+## 출력 파일 형식
+
+### 파일명 규칙
+
+원본 파일명에 `___` 접두사가 붙습니다:
+
+```
+원본: RICE/localization/english/event_l_english.yml
+번역: RICE/localization/korean/___event_l_korean.yml
+```
+
+**접두사 이유:**
+- 게임이 파일을 알파벳 순으로 로드하므로 `___`로 시작하면 가장 나중에 로드됨
+- 나중에 로드된 파일이 이전 파일의 번역을 덮어쓰므로 최종 번역이 적용됨
+
+### 파일 내용 형식
+
+```yaml
+l_korean:
+  event_key_1: "번역된 텍스트" # abc123hash
+  event_key_2: "또 다른 번역" # def456hash
+```
+
+**구조:**
+- BOM (UTF-8): `\uFEFF`
+- 언어 키: `l_korean:`
+- 들여쓰기: 2칸
+- 주석: 해시 값 (변경 감지용)
+
+## 디렉토리 구조
+
+### 게임 디렉토리 구조
+
+```
+ck3/
+├── RICE/
+│   ├── meta.toml                    # 모드 설정
+│   ├── upstream/                    # 원본 영어 파일 (자동 다운로드)
+│   │   └── RICE/localization/english/
+│   │       └── *_l_english.yml
+│   └── mod/                         # 생성된 한국어 파일
+│       └── localization/korean/
+│           └── ___*_l_korean.yml
+├── VIET/
+│   ├── meta.toml
+│   ├── upstream/
+│   └── mod/
+└── ...
+```
+
+**주의:**
+- `upstream/` 디렉토리는 Git에 커밋되지 않음 (`.gitignore`)
+- `mod/` 디렉토리는 Git에 커밋됨 (번역 결과)
+
+### 캐시 파일
+
+```
+translate-cache.db          # SQLite 데이터베이스
+translate-cache.db-shm      # 공유 메모리 파일
+translate-cache.db-wal      # Write-Ahead Log
+```
+
+**관리:**
+- 자동 생성됨
+- 삭제하면 모든 번역이 재수행됨 (비권장)
+- 정기적인 백업 권장
+
+## 로그 해석
+
+### 로그 레벨
+
+```bash
+[DEBUG] 상세 디버깅 정보
+[INFO]  일반 정보
+[START] 작업 시작
+[SUCCESS] 작업 완료
+[WARN]  경고
+[ERROR] 에러
+```
+
+### 일반적인 로그 메시지
+
+#### 번역 진행 중
+
+```
+[START] [RICE] 작업 시작 (원본 파일 경로: ck3/RICE)
+[DEBUG] [RICE] 메타데이터: upstream.language: english, upstream.localization: [...]
+[VERBOSE] [RICE/events.yml:event_1] 원본파일 문자열: abc123 | "The duke arrives"
+[VERBOSE] [RICE/events.yml:event_1] 번역파일 문자열: abc123 | "공작이 도착합니다" (번역됨)
+```
+
+#### 캐시 히트
+
+```
+[VERBOSE] 캐시에서 번역 로드: abc123
+```
+
+#### 사전 사용
+
+```
+[DEBUG] 사전에서 번역: "duke" -> "공작"
+```
+
+#### AI 번역
+
+```
+[INFO] AI 번역 요청: "The duke arrives"
+[SUCCESS] AI 번역 완료: "공작이 도착합니다"
+```
+
+#### 번역 거부 (2025-12 추가)
+
+```
+[WARN] [RICE/events_l_english.yml:event.1.desc] 번역 거부됨: SAFETY
+[WARN] [RICE] 번역 거부로 인해 번역 중단됨
+[INFO] 번역 거부: 처리된 작업(50/100)까지 저장하고 종료합니다
+[INFO] 거부 사유: SAFETY
+```
+
+**의미:**
+- AI가 안전성 필터나 콘텐츠 정책으로 인해 번역 거부
+- 처리된 항목까지는 저장됨 (중간 저장)
+- `{game}-untranslated-items.json` 파일에 거부 항목 기록
+- GitHub Actions에서 자동으로 Issues 생성
+
+**확인:**
+```bash
+# 번역 거부 리포트 확인
+cat ck3-untranslated-items.json
+cat vic3-untranslated-items.json
+cat stellaris-untranslated-items.json
+
+# GitHub Issues 확인
+# `translation-refused` 레이블로 필터링
+```
+
+**해결:**
+1. GitHub Issues에서 거부된 항목 확인
+2. `scripts/utils/dictionary.ts`에 수동 번역 추가
+3. `pnpm {game}:retranslate` 실행
+
+#### 해시 업데이트
+
+```
+[DEBUG] [RICE/events.yml:event_1] 해시 업데이트: old_hash -> new_hash
+```
+
+### 에러 메시지
+
+#### API 키 누락
+
+```
+[ERROR] GOOGLE_AI_STUDIO_TOKEN 환경 변수가 설정되지 않았습니다
+```
+
+**해결:** `.env` 파일에 API 키 설정
+
+#### Upstream 다운로드 실패
+
+```
+[ERROR] Git clone 실패: fatal: repository not found
+```
+
+**해결:** `meta.toml`의 URL 확인
+
+#### 파일 파싱 오류
+
+```
+[ERROR] YAML 파싱 실패: Unexpected token
+```
+
+**해결:** 소스 파일 형식 확인
+
+## 모범 사례
+
+### 1. 정기적인 업데이트
+
+```bash
+# 주간 업데이트 스크립트
+#!/bin/bash
+pnpm upstream
+pnpm ck3
+pnpm vic3
+pnpm stellaris
+```
+
+### 2. 사전 관리
+
+- 자주 사용되는 용어는 사전에 추가
+- 일관성 있는 번역 유지
+- 게임 커뮤니티의 표준 용어 반영
+
+### 3. 번역 검증
+
+```bash
+# 번역 후 검증
+pnpm ck3
+pnpm ck3:retranslate  # 문제 있는 번역 찾기
+pnpm ck3              # 재번역
+```
+
+### 4. 백업
+
+```bash
+# 캐시 백업
+cp translate-cache.db translate-cache.db.backup
+
+# 번역 결과 백업
+tar -czf translations-$(date +%Y%m%d).tar.gz ck3/*/mod vic3/*/mod stellaris/*/mod
+```
+
+### 5. 점진적 번역
+
+대량의 새 모드를 추가할 때:
+
+```bash
+# 단계별 접근
+pnpm ck3:update-hash  # 1. 변경 사항 확인
+# 로그 검토
+pnpm ck3              # 2. 실제 번역
+```
+
+## 문제 해결
+
+일반적인 문제와 해결 방법은 [트러블슈팅](troubleshooting.md) 문서를 참조하세요.
+
+## 다음 단계
+
+- [설정 가이드](configuration.md) - `meta.toml` 상세 설정
+- [개발 가이드](development.md) - 코드 수정 및 기여
+- [API 레퍼런스](api-reference.md) - 함수 및 모듈 문서
+
+---
+
+**팁:** 처음 실행 시 모든 항목이 번역되므로 시간이 오래 걸릴 수 있습니다. 이후 실행은 변경된 항목만 번역하므로 훨씬 빠릅니다.

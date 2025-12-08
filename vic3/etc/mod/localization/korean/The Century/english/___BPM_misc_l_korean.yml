@@ -1,0 +1,28 @@
+﻿l_korean:
+  bpm_misc.1.t: "#N 호환되지 않는 저장 파일 경고#!" # 867378145710196673
+  bpm_misc.1.d: "#N 경고#!: 이 저장 파일은 현재 모드 버전(2.2)과 호환되지 않습니다. 이 저장 파일로 계속 플레이하시려면, #gold 저희 스팀 창작마당 페이지를 방문하여 2.1 버전 다운로드 링크를 확인하십시오#!. 그렇지 않다면, 새로운 게임을 시작하십시오!" # 14656197061214014372
+  bpm_misc.1.f: "구태는 물러가라." # 1636761892873244406
+  bpm_misc.1.a: "새로운 것을 맞이하며." # 11349905046838540207
+  bpm_je_group_global: "글로벌 이벤트" # 4953533108359377048
+  bpm_je_group_interest_groups: "이해관계 집단" # 4880766897937470037
+  bpm_je_group_party_laws: "정당 법률" # 12654549556380937179
+  bpm_provisional_government_events.1.t: "새로운 헌법이라니?" # 4962475080180213722
+  bpm_provisional_government_events.1.d: "[ROOT.GetCountry.GetName]의 새로운 지도부가 일련의 새로운 법률을 성문화하기 위해 회동했습니다." # 6877082885924059305
+  bpm_provisional_government_events.1.f: "혁명 정부는 다가올 몇 달 동안 여러 방면으로 국가의 틀을 재편할 기회와 수단을 가지고 있습니다." # 13872963684528045885
+  bpm_provisional_government_events.1.a: "새롭게 태어난 국가를 위한 새로운 법률!" # 2236005589006206976
+  building_group_bg_technology_employee_mult: "대학 고용" # 2379117608003706738
+  building_group_bg_technology_throughput_add: "대학 처리량" # 12585433559107388620
+  building_group_bg_construction_employee_mult: "건설 고용" # 17862168094138942650
+  building_group_bg_construction_mortality_mult: "건설 사망률" # 689865335014639374
+  building_group_bg_military_employee_mult: "군사 고용" # 8024501052759346380
+  building_group_bg_military_soldiers_standard_of_living_add: "병영 내 군인의 생활 수준" # 11531611224671144649
+  building_employment_laborers_mult: "@노동자들! 노동자 고용" # 9199502639883772790
+  building_employment_machinists_mult: "@기계공! 기계공 고용" # 399585407090605674
+  building_employment_clerks_mult: "@clerks! 서기 고용" # 10107698303132683353
+  alert_bpm_idle_legislature_name: "한가로운 의회" # 15859960602224521099
+  alert_bpm_idle_legislature_hint: "법률 창에서 법률 하나를 제정하도록 선택할 수 있습니다." # 8932554080989261368
+  alert_bpm_idle_legislature_action: "법률 창" # 15741566634105529681
+  alert_bpm_law_will_fail_vote_name: "[GetPlayer.GetLawBeingEnacted.GetName]이 부결될 것입니다!" # 5570593405043948491
+  alert_bpm_law_will_fail_vote_desc: "현재 시행 중인 [concept_law]는 [Concept('concept_interest_group', '이해집단')]의 표가 충분하지 않아 최종 단계에서 통과되지 못할 것입니다." # 18410224866100355707
+  alert_bpm_law_will_fail_vote_hint: "현재 시행 중인 법안에 대해 더 많은 이익 집단들을 당신 쪽으로 기울게 하려면 [Concept('bpm_law_sway', '법안 지지')]를 소모할 수 있습니다." # 15588988791578366928
+  alert_bpm_law_will_fail_vote_action: "정부 패널" # 15593567010204574285

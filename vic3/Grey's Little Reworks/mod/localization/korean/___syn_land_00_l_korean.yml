@@ -1,0 +1,27 @@
+﻿l_korean:
+  laws_synergize_land: "토지 개혁 통합" # 10995933541457096600
+  laws_synergize_land_action_name: "$laws_synergize_land$" # 4787874925333509316
+  laws_synergize_land_action_propose_name: "토지 개혁 시너지 시작" # 14019468297814138436
+  laws_synergize_land_action_break_name: "토지 개혁 시너지 중단" # 14878013902123827506
+  laws_synergize_land_pact_desc: "[SCOPE.GetRootScope.GetDiplomaticPact.GetFirstCountry.GetName]이(가) [SCOPE.GetRootScope.GetDiplomaticPact.GetSecondCountry.GetName]의 토지법을 자신들의 법과 상호 보완되도록 개혁합니다.\n 현재 8단계 중 #variable [SCOPE.GetRootScope.GetDiplomaticPact.GetSecondCountry.MakeScope.Var('synergize_land_progress').GetValue]#! 단계가 진행되었습니다." # 8719350379531938193
+  laws_synergize_land_desc: "#header $laws_synergize_land$#!\n$TOOLTIP_DELIMITER$\n지정된 국가의 토지 개혁과 시너지를 일으킵니다." # 5310334929613396295
+  laws_synergize_land_action_notification_name: "[INITIATOR_COUNTRY.GetName] 토지 개혁 시너지 효과" # 17906311834757576366
+  laws_synergize_land_action_notification_desc: "[INITIATOR_COUNTRY.GetName]이 우리 국가의 토지 개혁을 시너지 효과 내고 있습니다." # 18301044332717732655
+  laws_synergize_land_action_notification_break_name: "[INITIATOR_COUNTRY.GetName]의 토지 개혁 시너지 효과 중지" # 11843297567151315215
+  laws_synergize_land_action_notification_break_desc: "[INITIATOR_COUNTRY.GetName]이 우리 국가의 토지 개혁을 통합하려는 노력을 중단했습니다." # 11209037261097624626
+  laws_synergize_land_effect_desc_global: "토지 개혁 시너지 시작" # 14019468297814138436
+  laws_synergize_land_effect_desc_first: "[COUNTRY.GetAdjectiveNoFlag]가 [TARGET_COUNTRY.GetName]와 토지 개혁의 시너지를 개시합니다." # 2480066513216689974
+  laws_synergize_land_effect_desc_third: "[COUNTRY.GetName]이 [AddTextIf(ObjectsEqual(GetMetaPlayer.GetPlayedOrObservedCountry.Self, TARGET_COUNTRY.Self),TARGET_COUNTRY.GetNameNoFlag)][AddTextIf(Not(ObjectsEqual(GetMetaPlayer.GetPlayedOrObservedCountry.Self, TARGET_COUNTRY.Self)),TARGET_COUNTRY.GetName)]와 토지 개혁을 연계하기 시작했습니다." # 5993633650905206112
+  laws_synergize_land_trigger_desc_global: "토지 개혁 시너지화 진행 중" # 4676234546889422074
+  laws_synergize_land_trigger_false_desc_global: "현재 토지 개혁을 통합하는 과정에 있지 않습니다." # 13195502589370302648
+  laws_synergize_land_trigger_desc_first: "[COUNTRY.GetAdjectiveNoFlag]가 [TARGET_COUNTRY.GetName]와 시너지 효과가 있는 토지 개혁을 단행했습니다." # 3428937204858302830
+  laws_synergize_land_trigger_false_desc_first: "[COUNTRY.GetAdjectiveNoFlag]는 현재 [TARGET_COUNTRY.GetName]와 시너지를 내는 토지 개혁을 시행하고 있지 않습니다." # 7478411841798060042
+  laws_synergize_land_trigger_desc_third: "[COUNTRY.GetName]은 [AddTextIf(ObjectsEqual(GetMetaPlayer.GetPlayedOrObservedCountry.Self, TARGET_COUNTRY.Self),TARGET_COUNTRY.GetNameNoFlag)][AddTextIf(Not(ObjectsEqual(GetMetaPlayer.GetPlayedOrObservedCountry.Self, TARGET_COUNTRY.Self)),TARGET_COUNTRY.GetName)]와 시너지 효과를 내는 토지 개혁을 시행합니다." # 2157762142103954757
+  laws_synergize_land_trigger_false_desc_third: "[COUNTRY.GetName]은 현재 [AddTextIf(ObjectsEqual(GetMetaPlayer.GetPlayedOrObservedCountry.Self, TARGET_COUNTRY.Self),TARGET_COUNTRY.GetNameNoFlag)][AddTextIf(Not(ObjectsEqual(GetMetaPlayer.GetPlayedOrObservedCountry.Self, TARGET_COUNTRY.Self)),TARGET_COUNTRY.GetName)]와 시너지를 내는 토지 개혁을 시행하고 있지 않습니다." # 13783650126244946863
+  mog_syn_events.03.t: "토지 개혁 시너지!" # 929711261032336011
+  mog_syn_events.03.d: "자부심 넘치는 [ROOT.GetCountry.GetName]은 토지 개혁을 [SCOPE.sCountry('synergize_land_target_country').GetName]와 성공적으로 통합하였습니다. [SCOPE.sCountry('synergize_land_target_country').GetName]은 본국과의 결속력 증대를 통해 영원한 번영을 누릴 것입니다." # 7677001927097537714
+  mog_syn_events.03.f: "\"[ROOT.GetCountry.GetName] 만세\"" # 14790848653475303579
+  mog_syn_events.03.a: "잘 하였소." # 14562174443526593361
+  laws_synergize_land_weekly_effect: "[GetLawGroup('lawgroup_land_reform').GetName] [concept_law]를 [concept_subject]에 적용하여 우리의 법률과 일치시킵니다. 매주 20%의 성공 확률을 가지며, 성공하려면 8포인트의 진척도가 필요합니다." # 12145908814983362660
+  overlord_syn_cost_land: "토지 개혁 시너지 비용" # 11594818958062401881
+  active_synergize_land_tt: "다른 $laws_synergize_land$ 조치의 수가 1보다 적습니다." # 8103295690343966165

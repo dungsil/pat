@@ -1,0 +1,16 @@
+﻿l_korean:
+  PORTRAIT_MODIFIER_custom_cloaks_f_cloaks_sec_ep2_western_era1_nob_01_lo: "$PORTRAIT_MODIFIER_custom_cloaks_m_cloaks_sec_ep2_western_era1_nob_01_lo$" # 2610701455750016318
+  PORTRAIT_MODIFIER_custom_cloaks_f_cloaks_sec_ep2_western_era1_nob_01_hi: "$PORTRAIT_MODIFIER_custom_cloaks_m_cloaks_sec_ep2_western_era1_nob_01_hi$" # 14727996005609505225
+  PORTRAIT_MODIFIER_custom_clothes_m_clothes_sec_ep2_western_era1_com_01: "카롤루스 공통 평민 복장 1" # 11300427223508842743
+  PORTRAIT_MODIFIER_custom_clothes_m_clothes_sec_ep2_western_era1_com_02: "카롤루스 공통 평민 복장 2" # 12529900789322534778
+  PORTRAIT_MODIFIER_custom_clothes_f_clothes_sec_ep2_western_era1_com_01: "$PORTRAIT_MODIFIER_custom_clothes_m_clothes_sec_ep2_western_era1_com_01$" # 7253845499353356084
+  PORTRAIT_MODIFIER_custom_clothes_f_clothes_sec_ep2_western_era1_com_02: "$PORTRAIT_MODIFIER_custom_clothes_m_clothes_sec_ep2_western_era1_com_02$" # 13853827828862793526
+  PORTRAIT_MODIFIER_custom_clothes_male_clothes_situational_mena_stealth_01: "아랍식 은신 망토" # 13354026700907678532
+  PORTRAIT_MODIFIER_custom_clothes_male_clothes_situational_western_stealth_cloak_01: "서부 은신 망토" # 6689743420715038723
+  PORTRAIT_MODIFIER_custom_headgear_male_clothes_situational_mena_stealth_hood_01: "아랍 후드" # 318458689901588007
+  PORTRAIT_MODIFIER_custom_headgear_male_clothes_situational_western_stealth_hood_01: "서부 후드" # 8824246012691059338
+  PORTRAIT_MODIFIER_custom_clothes_female_clothes_situational_mena_stealth_01: "아랍식 은신 망토" # 13354026700907678532
+  PORTRAIT_MODIFIER_custom_clothes_female_clothes_situational_western_stealth_cloak_01: "서부 은신 망토" # 6689743420715038723
+  PORTRAIT_MODIFIER_custom_headgear_female_clothes_situational_mena_stealth_hood_01: "아랍 후드" # 318458689901588007
+  PORTRAIT_MODIFIER_custom_headgear_female_clothes_situational_western_stealth_hood_01: "서부 후드" # 8824246012691059338
+  PORTRAIT_MODIFIER_custom_clothes_female_clothes_religious_buddhist_devoted_01: "동방 종교 예복 2" # 1555466348640873398

@@ -1,0 +1,211 @@
+﻿l_korean:
+  eba_interior_building.tt.unlock: "귀하의 [estate|E]에는 이에 상응하는 [estate|E][building|E]가 있습니다." # 15288016021418047007
+  eba_interior_upgrade_level.tt.4: "귀하의 [estate|E]에는 동등한 수준의 4단계 [estate|E][building|E]가 있습니다." # 47237005487128174
+  eba_interior_upgrade_level.tt.6: "귀하의 [estate|E]에는 해당 [estate|E]의 6단계 [building|E]가 있습니다." # 2182817292523206405
+  domicile_building_parameter_unlocks_lvl_7_external_yurt_upgrades: "[domicile_buildings|E] 7단계 해금" # 16475446417515649499
+  guardhouse_05_domicile_building: "경비대 기본" # 646315932990505290
+  guardhouse_06_domicile_building: "경비 초소" # 10388853554094048959
+  storage_warehouse_05_domicile_building: "장원 창고" # 5678540425707763914
+  storage_warehouse_06_domicile_building: "가문 창고" # 17401033768036213505
+  storage_granary_05_domicile_building: "영지 곡물 창고" # 10507159166235364517
+  storage_granary_06_domicile_building: "가문 곡물 창고" # 13574184917658406725
+  temple_monument_01_domicile_building: "기념비" # 2880722184672678627
+  temple_monument_02_domicile_building: "거대한 기념물" # 3855080029270491658
+  temple_monument_03_domicile_building: "가문 기념물" # 15258459795198380742
+  temple_monument_04_domicile_building: "전설적인 기념비" # 11804404667778463555
+  temple_hall_01_domicile_building: "조각상 회랑" # 15677179424128969869
+  temple_hall_02_domicile_building: "기념관" # 4114482801392437300
+  temple_hall_03_domicile_building: "역사의 전당" # 17526005418227740496
+  temple_hall_04_domicile_building: "명예의 전당" # 7048247672325320701
+  temple_archive_01_domicile_building: "전시실" # 15226194376396029126
+  temple_archive_02_domicile_building: "필경실" # 4970166153905467492
+  temple_archive_03_domicile_building: "도서관" # 12419872351417298661
+  temple_archive_04_domicile_building: "가문 기록 보관소" # 2197220394079262248
+  barracks_knight_01_domicile_building: "전사들의 사원" # 4259050196929428784
+  barracks_knight_02_domicile_building: "종사 숙소" # 12078826254544828119
+  barracks_knight_03_domicile_building: "전사들의 무덤" # 16849572727332126538
+  barracks_knight_04_domicile_building: "기념 전당" # 11174045834998428579
+  barracks_training_01_domicile_building: "훈련장" # 14427029516107873861
+  barracks_training_02_domicile_building: "새 병영" # 7379754549378119526
+  barracks_training_03_domicile_building: "병영 대장장이" # 13499774756559568067
+  barracks_training_04_domicile_building: "보병 훈련장" # 736189343753197577
+  barracks_levies_01_domicile_building: "민병대 막사" # 17791047380117461334
+  barracks_levies_02_domicile_building: "모병소" # 4738977132488511040
+  barracks_levies_03_domicile_building: "모병관" # 12794801346293911494
+  barracks_levies_04_domicile_building: "모병 광장" # 18065548073304371755
+  watchtower_fort_01_domicile_building: "모서리 탑" # 9218788244118978310
+  watchtower_fort_02_domicile_building: "성벽 탑" # 17934127521366955386
+  watchtower_fort_03_domicile_building: "주요 탑" # 3756792644290910564
+  watchtower_fort_04_domicile_building: "가문 요새" # 10332567398942848373
+  watchtower_range_01_domicile_building: "사격장" # 4662340115527607549
+  watchtower_range_02_domicile_building: "활 제작자의 작업장" # 7809048825461383426
+  watchtower_range_03_domicile_building: "궁수 주둔지" # 9148598800454832698
+  watchtower_range_04_domicile_building: "명사수" # 8713029360564685552
+  watchtower_sentry_01_domicile_building: "감시 초소" # 5090209974973076018
+  watchtower_sentry_02_domicile_building: "이동식 감시 초소" # 14790668054077260184
+  watchtower_sentry_03_domicile_building: "비밀 감시 초소" # 569647261597632946
+  watchtower_sentry_04_domicile_building: "정보국" # 4567167041452738301
+  guardhouse_guard_01_domicile_building: "정예 근위대" # 327687191407967702
+  guardhouse_guard_02_domicile_building: "호위병" # 2578799355350469075
+  guardhouse_guard_03_domicile_building: "가신대대" # 16509371513449247428
+  guardhouse_guard_04_domicile_building: "호위대" # 10770925597633795618
+  guardhouse_officer_01_domicile_building: "병장 아카데미" # 18371849268345371677
+  guardhouse_officer_02_domicile_building: "장교 막사" # 12493331982576065933
+  guardhouse_officer_03_domicile_building: "전술 훈련" # 13791216338614334256
+  guardhouse_officer_04_domicile_building: "군사 학교" # 1716396898992828691
+  guardhouse_spy_01_domicile_building: "지역 정보원" # 3337030125298437446
+  guardhouse_spy_02_domicile_building: "정보 정찰병" # 1692889713502000084
+  guardhouse_spy_03_domicile_building: "첩보 훈련" # 2989482521953524530
+  guardhouse_spy_04_domicile_building: "비밀 은신처" # 17315034514583797114
+  garden_gardener_01_domicile_building: "탁아소" # 10523600419251842040
+  garden_gardener_02_domicile_building: "정원사의 거처" # 3965927954514191401
+  garden_gardener_03_domicile_building: "경작지" # 10864180571728958040
+  garden_gardener_04_domicile_building: "원예의 대가" # 4624216792605008238
+  garden_herb_01_domicile_building: "약초 정원" # 10273909948869990679
+  garden_herb_02_domicile_building: "약초학자의 거처" # 10677884321227081744
+  garden_herb_03_domicile_building: "약초 연구실" # 3992999967984388716
+  garden_herb_04_domicile_building: "약초꾼의 작업장" # 6025728889346944280
+  garden_maze_01_domicile_building: "미로 정원" # 2667614793824008023
+  garden_maze_02_domicile_building: "분수 정원" # 17041968003084048577
+  garden_maze_03_domicile_building: "조경 설계사" # 13832895751818256439
+  garden_maze_04_domicile_building: "장대한 미궁 정원" # 4476157071632582422
+  garden_wine_01_domicile_building: "과수원" # 15261062375762544653
+  garden_wine_02_domicile_building: "베리 정원" # 16782756167163488159
+  garden_wine_03_domicile_building: "혼합 과수원" # 12246845127836167917
+  garden_wine_04_domicile_building: "과실주 양조장" # 5600472097059346562
+  stabl_knight_01_domicile_building: "기사관" # 4030887264313721390
+  stabl_knight_02_domicile_building: "종사 숙소" # 12078826254544828119
+  stabl_knight_03_domicile_building: "병기창" # 7476761562091568369
+  stabl_knight_04_domicile_building: "명예의 전당" # 8771500116000106061
+  stable_caravanserai_01_domicile_building: "작은 카라반사라이" # 17268226785265798749
+  stable_caravanserai_02_domicile_building: "카라반사라이" # 15026243026508880722
+  stable_caravanserai_03_domicile_building: "상인 대상 숙소" # 14623790703690291529
+  stable_caravanserai_04_domicile_building: "장원 여관" # 2131959146497262271
+  stable_race_01_domicile_building: "소규모 경마장" # 1571378537983921371
+  stable_race_02_domicile_building: "경마장" # 9661855049983468142
+  stable_race_03_domicile_building: "대형 경마장" # 16592254299422432001
+  stable_race_04_domicile_building: "전설적인 경마장" # 3251619773924809391
+  workshop_apprentice_01_domicile_building: "견습생 명부" # 8718491791360067283
+  workshop_apprentice_02_domicile_building: "견습생의 거처" # 16054854610480402482
+  workshop_apprentice_03_domicile_building: "대형 도제 숙소" # 4802416586095924706
+  workshop_apprentice_04_domicile_building: "견습생의 작업장" # 559223305500070158
+  workshop_smith_01_domicile_building: "대장장이들" # 8377320190740504725
+  workshop_smith_02_domicile_building: "대장장이 조합" # 5098308271538254675
+  workshop_smith_03_domicile_building: "대장장이 장인" # 6051298986687890505
+  workshop_smith_04_domicile_building: "위조하다" # 6616124540999924199
+  workshop_guild_01_domicile_building: "목수 조합" # 314341375142442346
+  workshop_guild_02_domicile_building: "석공 조합" # 15225285056306254805
+  workshop_guild_03_domicile_building: "재단사 조합" # 2950497863366800207
+  workshop_guild_04_domicile_building: "장인 조합" # 12256279740856262713
+  storage_auditor_01_domicile_building: "창고 감사관" # 10359879021121090507
+  storage_auditor_02_domicile_building: "창고 장부" # 1700653071618485693
+  storage_auditor_03_domicile_building: "창고 기록 보관소" # 3369431318202986878
+  storage_auditor_04_domicile_building: "관리자실" # 2385662410390712370
+  storage_kitchen_01_domicile_building: "음식 주방" # 909851723661777593
+  storage_kitchen_02_domicile_building: "이동식 주방" # 11435968387279854264
+  storage_kitchen_03_domicile_building: "지원병 막사" # 8576375328694459126
+  storage_kitchen_04_domicile_building: "구휼원" # 8525562137080623124
+  storage_extra_01_domicile_building: "추가 창고" # 350675782280351408
+  storage_extra_02_domicile_building: "지하실" # 6389871445383309630
+  storage_extra_03_domicile_building: "빙고" # 7417334214500286121
+  storage_extra_04_domicile_building: "대형 지하실" # 1975827177330959801
+  storage_food_01_domicile_building: "식량 비축분" # 8466507986884386059
+  storage_food_02_domicile_building: "대형 곡물 창고" # 11038313569804846959
+  storage_food_03_domicile_building: "재난 구호 곡물 창고" # 992607521696717014
+  storage_food_04_domicile_building: "식량 저장고" # 12668297043725907741
+  market_storage_01_domicile_building: "물품 창고" # 8726532818797917089
+  market_storage_02_domicile_building: "물품 창고" # 5227445569536216283
+  market_storage_03_domicile_building: "시장 창고" # 13699590309218021716
+  market_storage_04_domicile_building: "상업 창고" # 5346241648685473285
+  market_tax_01_domicile_building: "관세" # 12633940357599843201
+  market_tax_02_domicile_building: "세금 징수소" # 8284745416156820946
+  market_tax_03_domicile_building: "금고" # 2716336994781876617
+  market_tax_04_domicile_building: "세금 사무소" # 4709185562854746671
+  market_guild_01_domicile_building: "시장 가판대" # 6047969394708674061
+  market_guild_02_domicile_building: "떠돌이 상인" # 16507601413664150760
+  market_guild_03_domicile_building: "시장 광장" # 15140241376485909418
+  market_guild_04_domicile_building: "상인 조합" # 1824961645453614579
+  grazing_pasture_01_domicile_building: "작은 말 방목지" # 5321080207612718880
+  grazing_pasture_02_domicile_building: "목축 야영지" # 11450323379100370778
+  grazing_pasture_03_domicile_building: "대규모 말 방목지" # 11775602702446686682
+  grazing_pasture_04_domicile_building: "말 거래소" # 6951179370353734118
+  grazing_wool_01_domicile_building: "양 목장" # 17528835492819258264
+  grazing_wool_02_domicile_building: "양털 창고" # 1763399067406261140
+  grazing_wool_03_domicile_building: "염색 공방" # 15737773514973402336
+  grazing_wool_04_domicile_building: "양모 직조 작업장" # 9357037777659655822
+  grazing_cavalry_01_domicile_building: "기마 훈련장" # 907076215139413457
+  grazing_cavalry_02_domicile_building: "기병 훈련장" # 5087852556269642897
+  grazing_cavalry_03_domicile_building: "기사 마상 시합 경기장" # 13394826685226915739
+  grazing_cavalry_04_domicile_building: "기병 학교" # 8526066368821337484
+  grain_mill_01_domicile_building: "동물 동력 방앗간" # 1355524885370155981
+  grain_mill_02_domicile_building: "산업용 제분소" # 11348447081808724496
+  grain_mill_03_domicile_building: "제빵사의 구역" # 7386145887021242020
+  grain_mill_04_domicile_building: "공공 빵집" # 1376986157687712171
+  grain_vegetable_01_domicile_building: "작은 채소밭" # 3079500990198069850
+  grain_vegetable_02_domicile_building: "대형 채소밭" # 14340052139067308292
+  grain_vegetable_03_domicile_building: "채소밭" # 6261361085043878879
+  grain_vegetable_04_domicile_building: "채소 창고" # 429047107266999492
+  grain_beer_01_domicile_building: "맥아 전처리" # 13570321082548741935
+  grain_beer_02_domicile_building: "맥아 분쇄기" # 13849349014957665076
+  grain_beer_03_domicile_building: "맥아 발효조" # 11976530565255759429
+  grain_beer_04_domicile_building: "대형 맥주 공방" # 3466855155301606752
+  vineyard_breeding_01_domicile_building: "퇴비 구역" # 5679711266091425028
+  vineyard_breeding_02_domicile_building: "정원사의 거처" # 3965927954514191401
+  vineyard_breeding_03_domicile_building: "종자 양성소" # 17139336324271453569
+  vineyard_breeding_04_domicile_building: "식물 전문가" # 7848359250919542522
+  vineyard_cellar_01_domicile_building: "와인 저장고" # 9525841102733961873
+  vineyard_cellar_02_domicile_building: "전시실" # 18385547614783145857
+  vineyard_cellar_03_domicile_building: "시음실" # 8314567968303873794
+  vineyard_cellar_04_domicile_building: "접견실" # 1635386581990316396
+  vineyard_wine_01_domicile_building: "양조실" # 11151219989885358546
+  vineyard_wine_02_domicile_building: "참나무 통 보관소" # 6087345895122148000
+  vineyard_wine_03_domicile_building: "포도주 양조장의 거처" # 14085187411992814453
+  vineyard_wine_04_domicile_building: "거대한 포도주 양조장" # 10788803429042635809
+  olive_oil_01_domicile_building: "전통적인 기름 압착기" # 10281108783926157044
+  olive_oil_02_domicile_building: "대형 유압 착유기" # 6214861792820129963
+  olive_oil_03_domicile_building: "대규모 올리브유 작업장" # 4213383956801102374
+  olive_oil_04_domicile_building: "엑스트라 버진 올리브유" # 11416212006976929869
+  olive_soap_01_domicile_building: "올리브유 비누" # 2715319784015820892
+  olive_soap_02_domicile_building: "비누 공방" # 14587469033799267478
+  olive_soap_03_domicile_building: "비누 제조인의 거처" # 8882181283666461761
+  olive_soap_04_domicile_building: "대형 비누 공방" # 8930530339020293232
+  olive_perfume_01_domicile_building: "향신료 추출" # 5858774890422364981
+  olive_perfume_02_domicile_building: "향료 제조인의 거주지" # 3104197233086903707
+  olive_perfume_03_domicile_building: "대형 향수 공방" # 11061424039031360561
+  olive_perfume_04_domicile_building: "최고의 조향사" # 1021002354326962732
+  silk_morus_01_domicile_building: "뽕나무 따기" # 12667831735989689877
+  silk_morus_02_domicile_building: "뽕나무 잼 공방" # 2945978859697597920
+  silk_morus_03_domicile_building: "뽕나무 와인 작업장" # 8691018883522175519
+  silk_morus_04_domicile_building: "뽕나무 제품 작업장" # 299904418219894614
+  silk_textile_01_domicile_building: "누에고치 가공" # 670346803821555799
+  silk_textile_02_domicile_building: "비단 짜기" # 3060915267047820308
+  silk_textile_03_domicile_building: "직물 염색" # 3607966327519970413
+  silk_textile_04_domicile_building: "대형 비단 공방" # 2158463333315051878
+  silk_trade_01_domicile_building: "비단 시장" # 1778065154656495834
+  silk_trade_02_domicile_building: "비단 창고" # 16994581934029902988
+  silk_trade_03_domicile_building: "비단 전시관" # 12049577718299263928
+  silk_trade_04_domicile_building: "비단 경매장" # 14705116006819283165
+  tea_matcha_factory_01_domicile_building: "작은 말차 공장" # 12590388121265273760
+  tea_matcha_factory_02_domicile_building: "말차 공장" # 1504425988748766054
+  tea_matcha_factory_03_domicile_building: "대형 말차 공장" # 15057925449737791921
+  tea_matcha_factory_04_domicile_building: "유명한 말차 공장" # 3543908427294066726
+  tea_medicine_house_01_domicile_building: "$east_asian_estate_teahouse_01_domicile_building$" # 9894498685609443439
+  tea_medicine_house_02_domicile_building: "$east_asian_estate_teahouse_02_domicile_building$" # 18441265216923921961
+  tea_medicine_house_03_domicile_building: "$east_asian_estate_teahouse_03_domicile_building$" # 14861514971160257010
+  tea_medicine_house_04_domicile_building: "$east_asian_estate_teahouse_04_domicile_building$" # 2069772409733616436
+  tea_roastery_01_domicile_building: "$east_asian_estate_roasting_house_01_domicile_building$" # 14502181516210346990
+  tea_roastery_02_domicile_building: "$east_asian_estate_roasting_house_02_domicile_building$" # 3227770053020743447
+  tea_roastery_03_domicile_building: "$east_asian_estate_roasting_house_03_domicile_building$" # 6064518424476425384
+  tea_roastery_04_domicile_building: "$east_asian_estate_roasting_house_04_domicile_building$" # 18180289531045331972
+  rice_cellar_cave_01_domicile_building: "$east_asian_estate_buffer_stock_granary_01_domicile_building$" # 12578017684489016264
+  rice_cellar_cave_02_domicile_building: "$east_asian_estate_buffer_stock_granary_02_domicile_building$" # 1088971992117055361
+  rice_cellar_cave_03_domicile_building: "$east_asian_estate_buffer_stock_granary_03_domicile_building$" # 669968113596233470
+  rice_cellar_cave_04_domicile_building: "$east_asian_estate_buffer_stock_granary_04_domicile_building$" # 2099296125937875858
+  rice_wine_stores_01_domicile_building: "$east_asian_estate_wine_press_01_domicile_building$" # 10990292386339473698
+  rice_wine_stores_02_domicile_building: "$east_asian_estate_wine_press_02_domicile_building$" # 16115694753356816647
+  rice_wine_stores_03_domicile_building: "$east_asian_estate_wine_press_03_domicile_building$" # 14587141055706550459
+  rice_wine_stores_04_domicile_building: "$east_asian_estate_wine_press_04_domicile_building$" # 13650069965007984920
+  rice_fish_duck_ponds_01_domicile_building: "$east_asian_estate_rice_fish_duck_ponds_01_domicile_building$" # 2283793162334793574
+  rice_fish_duck_ponds_02_domicile_building: "$east_asian_estate_rice_fish_duck_ponds_02_domicile_building$" # 11916522966892820016
+  rice_fish_duck_ponds_03_domicile_building: "$east_asian_estate_rice_fish_duck_ponds_03_domicile_building$" # 10478331870865947755
+  rice_fish_duck_ponds_04_domicile_building: "$east_asian_estate_rice_fish_duck_ponds_04_domicile_building$" # 2866681848938775023

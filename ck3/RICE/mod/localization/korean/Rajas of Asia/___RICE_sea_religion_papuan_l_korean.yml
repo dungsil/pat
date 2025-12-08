@@ -1,0 +1,167 @@
+﻿l_korean:
+  papuan_religion: "파푸아인" # 10204060446723167988
+  papuan_religion_adj: "파푸아인" # 10204060446723167988
+  papuan_religion_adherent: "파푸아인" # 10204060446723167988
+  papuan_religion_adherent_plural: "파푸아인" # 10204060446723167988
+  papuan_religion_desc: "파푸아 사람들은 조상들의 영혼을 숭배하며 세상 만물에 초자연적인 힘이 스며들어 있다고 믿습니다." # 12119233689599976222
+  penunggu: "페눙구" # 1505188529740573218
+  penunggu_adj: "페눙구" # 1505188529740573218
+  penunggu_adherent: "페눙기스트" # 7495208455956540158
+  penunggu_adherent_plural: "페눙기스트들" # 16991598346852272482
+  penunggu_desc: "파푸아 사람들은 조상들의 영혼을 숭배하며 세상 만물에 초자연적인 힘이 스며들어 있다고 믿습니다." # 12119233689599976222
+  papuan_old: "오래된 페눙구" # 710085773268852383
+  papuan_old_adj: "오래된 페눙구" # 710085773268852383
+  papuan_old_adherent: "오래된 페눙기스트" # 4244556761913055777
+  papuan_old_adherent_plural: "오래된 페눈기스트들" # 17839800477738029390
+  papuan_old_desc: "파푸아 사람들은 조상들의 영혼을 숭배하며 세상 만물에 초자연적인 힘이 스며들어 있다고 믿습니다." # 12119233689599976222
+  papuan_high_god_name: "천상의 주님" # 17387669748832313416
+  papuan_high_god_name_possessive: "천상의 주께서" # 15203963022359102150
+  papuan_high_god_name_2: "천상의 주님" # 17387669748832313416
+  papuan_high_god_name_2_possessive: "천상의 주께서" # 15203963022359102150
+  papuan_high_god_name_alternate: "만세렌 낭기" # 9860911512259110157
+  papuan_high_god_name_alternate_possessive: "만세렌 낭기의" # 8521017043509505659
+  papuan_good_god_father_sky: "만세렌 낭기" # 9860911512259110157
+  papuan_good_god_ancestors: "선조들" # 3977550578121230202
+  papuan_devil_name: "코라노 파크닉" # 11221129028599670607
+  papuan_devil_name_possessive: "코라노 파크닉스" # 15960804528020613468
+  papuan_devil_shehe: "그것" # 3125420670989364317
+  papuan_devil_herselfhimself: "그 자체" # 641171738588078623
+  papuan_devil_herhis: "그것은" # 12383260098665029106
+  papuan_evil_god_dul: "만두르" # 7966640966455029952
+  papuan_evil_god_dul_possessive: "만두르의" # 4378514092443301493
+  papuan_evil_god_decay: "만두르" # 7966640966455029952
+  papuan_evil_god_decay_possessive: "만두르의" # 4378514092443301493
+  papuan_evil_god_drought: "세탕" # 18436959712384550945
+  papuan_death_name: "물루아 사테네" # 209425953072018027
+  papuan_death_name_possessive: "물루아 사테네스" # 3181954421172268102
+  papuan_death_herhis: "그녀" # 4744265488540400035
+  papuan_mother_earth_father_sky: "만세렌 낭기" # 9860911512259110157
+  papuan_creator_god_name: "$papuan_high_god_name$" # 13052654805538558461
+  papuan_creator_god_name_possessive: "$papuan_high_god_name_possessive$" # 7277987955550776829
+  papuan_health_god_name: "선조들" # 3977550578121230202
+  papuan_health_god_name_possessive: "선조들의" # 14020028578580181885
+  papuan_fertility_god_name: "소솜" # 15852799715748664572
+  papuan_fertility_god_name_possessive: "소솜의" # 10986769314923302209
+  papuan_wealth_god_name: "주 바라크티" # 15225138255581287761
+  papuan_wealth_god_name_possessive: "주 바라크티스" # 6204015463678760283
+  papuan_household_god_name: "선조들" # 3977550578121230202
+  papuan_household_god_name_possessive: "선조들의" # 14020028578580181885
+  papuan_fate_god_name: "$papuan_high_god_name$" # 13052654805538558461
+  papuan_fate_god_name_possessive: "$papuan_high_god_name_possessive$" # 7277987955550776829
+  papuan_knowledge_god_name: "보리야스디" # 11458536659950086523
+  papuan_knowledge_god_name_possessive: "보랴스디의" # 14732755137764285079
+  papuan_war_god_name: "만세렌 망군디" # 4413075179382523103
+  papuan_war_god_name_possessive: "만세렌 망군디의" # 2194039001236622575
+  papuan_trickster_god_name: "세탕" # 4082148731325965653
+  papuan_trickster_god_name_possessive: "세탕의" # 2362862862387856755
+  papuan_night_god_name: "파이크" # 12013950425413985794
+  papuan_night_god_name_possessive: "파이크스" # 4850909075095683693
+  papuan_water_god_name: "선조들" # 3977550578121230202
+  papuan_water_god_name_possessive: "선조들의" # 14020028578580181885
+  papuan_house_of_worship: "룸 스람" # 155439509248001223
+  papuan_house_of_worship_2: "룸 스람" # 155439509248001223
+  papuan_house_of_worship_3: "룸 스람" # 155439509248001223
+  papuan_house_of_worship_plural: "룸 스람" # 155439509248001223
+  papuan_religious_symbol: "반얀 나무" # 10954474053045774080
+  papuan_religious_symbol_2: "반얀 나무" # 10954474053045774080
+  papuan_religious_symbol_3: "반얀 나무" # 10954474053045774080
+  papuan_religious_text: "카파타" # 11085889301403936202
+  papuan_religious_text_2: "카파타" # 11085889301403936202
+  papuan_religious_text_3: "카파타" # 11085889301403936202
+  papuan_religious_head_title: "코노르" # 13768191854401947994
+  papuan_religious_head_title_name: "최고 의회" # 15038947742583190916
+  papuan_devotee: "투보" # 5350133267685923044
+  papuan_devotee_plural: "투보스" # 6229321033594669964
+  papuan_priest: "몬" # 11021137876740800827
+  papuan_priest_plural: "몽스" # 12745630468438841375
+  papuan_priest_term_plural: "몽스" # 5886058232612660654
+  papuan_priest_alternate_plural: "모나 이나르부르스" # 250360425394614434
+  papuan_divine_realm: "하늘" # 281074639492266792
+  papuan_positive_afterlife: "죽음의 거처" # 8929730606340594634
+  papuan_negative_afterlife: "지옥" # 6004375176333440231
+  witchgodname_papuan_the_shadow: "스와기" # 12661658433329249991
+  papuan_bishop: "미리노" # 2710935546572082650
+  papuan_bishop_plural: "미리노" # 2710935546572082650
+  yaambism: "얌비즘" # 11268382361954983801
+  yaambism_adj: "얌비스트" # 2578894321436181682
+  yaambism_adherent: "얌비스트" # 2578894321436181682
+  yaambism_adherent_plural: "얌비스트" # 11911058421468850774
+  yaambism_desc: "세픽 지역 사람들은 삶의 두 가지 길, 즉 야암(Ya'amb)을 믿습니다. 하나는 인간의 삶이 머무는 길이고, 다른 하나는 영혼의 길입니다. 세픽 지역 사람들은 자신들이 영적인 영역의 길에 거주하는, 맨눈으로는 볼 수 없는 신화 속 마을에서 유래했다고 믿습니다." # 9580973109719581589
+  bis: "비스" # 5780817115817161571
+  bis_adj: "비스" # 5780817115817161571
+  bis_adherent: "비시안" # 9905729852081544406
+  bis_adherent_plural: "비시안족" # 11715636129274233234
+  bis_desc: "아스마트인들에게 영계와 현세는 일상생활의 문제에 있어서도 서로 얽혀 있으며, 영혼들은 세속적인 방식으로 달래지거나 노하게 할 수 있습니다. 아스마트인들은 영혼들이 마을의 제한된 주변뿐만 아니라 산, 강, 바다에까지 어디에나 깃들어 있다고 믿습니다. 이러한 신앙 체계는 아스마트 부족들의 관습 전반에 걸쳐 나타나는 상호성과 갱신의 장엄한 주제를 만들어냈습니다." # 15441339256460223572
+  tagai_religion: "타가이즘" # 6235284591609574330
+  tagai_religion_adj: "타가이스트" # 15506387969231692417
+  tagai_religion_adherent: "타가이스트" # 15506387969231692417
+  tagai_religion_adherent_plural: "타가이스트" # 8109774264850736850
+  tagai_religion_desc: "파푸아 사람들은 조상들의 영혼을 숭배하며 세상 만물에 초자연적인 힘이 스며들어 있다고 믿습니다." # 12119233689599976222
+  tagai: "타가이즘" # 6235284591609574330
+  tagai_adj: "타가이스트" # 15506387969231692417
+  tagai_adherent: "타가이스트" # 15506387969231692417
+  tagai_adherent_plural: "타가이스트" # 8109774264850736850
+  tagai_desc: "파푸아 사람들은 조상들의 영혼을 숭배하며 세상 만물에 초자연적인 힘이 스며들어 있다고 믿습니다." # 12119233689599976222
+  tagai_old: "옛 타가이" # 6377395077543214727
+  tagai_old_adj: "옛 타가이" # 6377395077543214727
+  tagai_old_adherent: "오래된 타가이스트" # 17607163326576761503
+  tagai_old_adherent_plural: "오래된 타가이스트들" # 11472622651555045262
+  tagai_old_desc: "파푸아 사람들은 조상들의 영혼을 숭배하며 세상 만물에 초자연적인 힘이 스며들어 있다고 믿습니다." # 12119233689599976222
+  tagai_high_god_name: "타가이" # 4575910819904512742
+  tagai_high_god_name_possessive: "타가이의" # 1804152143582734984
+  tagai_high_god_name_alternate: "만세렌 낭기" # 9860911512259110157
+  tagai_high_god_name_alternate_possessive: "만세렌 낭기의" # 8521017043509505659
+  tagai_good_god_father_sky: "만세렌 낭기" # 9860911512259110157
+  tagai_good_god_ancestors: "선조들" # 3977550578121230202
+  tagai_devil_name: "코라노 파크닉" # 11221129028599670607
+  tagai_devil_name_possessive: "코라노 파크닉스" # 15960804528020613468
+  tagai_devil_shehe: "그것" # 3125420670989364317
+  tagai_devil_herselfhimself: "그 자체" # 641171738588078623
+  tagai_devil_herhis: "그것은" # 12383260098665029106
+  tagai_evil_god_decay: "만두르" # 7966640966455029952
+  tagai_evil_god_decay_possessive: "만두르의" # 4378514092443301493
+  tagai_evil_god_drought: "세탕" # 18436959712384550945
+  tagai_death_deity_name: "물루아 사테네" # 209425953072018027
+  tagai_death_deity_name_possessive: "물루아 사테네스" # 3181954421172268102
+  tagai_death_deity_herhis: "그녀" # 4744265488540400035
+  tagai_mother_earth_father_sky: "만세렌 낭기" # 9860911512259110157
+  tagai_creator_god_name: "$tagai_high_god_name$" # 1078127261513025342
+  tagai_creator_god_name_possessive: "$tagai_high_god_name_possessive$" # 11224877381913537986
+  tagai_health_god_name: "선조들" # 3977550578121230202
+  tagai_health_god_name_possessive: "선조들의" # 14020028578580181885
+  tagai_fertility_god_name: "소솜" # 15852799715748664572
+  tagai_fertility_god_name_possessive: "소솜의" # 10986769314923302209
+  tagai_wealth_god_name: "주 바라크티" # 15225138255581287761
+  tagai_wealth_god_name_possessive: "주 바라크티스" # 6204015463678760283
+  tagai_household_god_name: "선조들" # 3977550578121230202
+  tagai_household_god_name_possessive: "선조들의" # 14020028578580181885
+  tagai_fate_god_name: "$tagai_high_god_name$" # 1078127261513025342
+  tagai_fate_god_name_possessive: "$tagai_high_god_name_possessive$" # 11224877381913537986
+  tagai_knowledge_god_name: "보리야스디" # 11458536659950086523
+  tagai_knowledge_god_name_possessive: "보랴스디의" # 14732755137764285079
+  tagai_war_god_name: "만세렌 망군디" # 4413075179382523103
+  tagai_war_god_name_possessive: "만세렌 망군디의" # 2194039001236622575
+  tagai_trickster_god_name: "세탕" # 4082148731325965653
+  tagai_trickster_god_name_possessive: "세탕의" # 2362862862387856755
+  tagai_night_god_name: "파이크" # 12013950425413985794
+  tagai_night_god_name_possessive: "파이크스" # 4850909075095683693
+  tagai_water_god_name: "선조들" # 3977550578121230202
+  tagai_water_god_name_possessive: "선조들의" # 14020028578580181885
+  tagai_house_of_worship: "룸 스람" # 155439509248001223
+  tagai_house_of_worship_plural: "룸 스람" # 155439509248001223
+  tagai_religious_symbol: "반얀 나무" # 10954474053045774080
+  tagai_religious_text: "카파타" # 11085889301403936202
+  tagai_religious_head_title: "코노르" # 13768191854401947994
+  tagai_religious_head_title_name: "최고 의회" # 15038947742583190916
+  tagai_devotee: "투보" # 5350133267685923044
+  tagai_devotee_plural: "투보스" # 6229321033594669964
+  tagai_priest: "몬" # 11021137876740800827
+  tagai_priest_plural: "몽스" # 12745630468438841375
+  tagai_priest_term_plural: "몽스" # 5886058232612660654
+  tagai_priest_alternate_plural: "모나 이나르부르스" # 250360425394614434
+  tagai_divine_realm: "하늘" # 281074639492266792
+  tagai_positive_afterlife: "죽음의 거처" # 8929730606340594634
+  tagai_negative_afterlife: "지옥" # 6004375176333440231
+  witchgodname_tagai_the_shadow: "스와기" # 12661658433329249991
+  tagai_bishop: "미리노" # 2710935546572082650
+  tagai_bishop_plural: "미리노" # 2710935546572082650

@@ -1,0 +1,1108 @@
+﻿l_korean:
+  RICE_niger_delta_region: "니제르 델타" # 255337971211546226
+  RICE_yorubaland_region: "요루바랜드" # 4186973061271476121
+  RICE_niger_delta_bestow_beaded_crown: "구슬 박힌 왕관 하사" # 11065965477848439367
+  RICE_niger_delta_bestow_beaded_crown_desc: "$c_ife$ [county|E]의 통치자로서, 이 [ruler|E]에게 그 통치를 신성하게 할 [beaded_crown|E]를 수여하십시오." # 7730620258061082748
+  RICE_niger_delta_geographical_req: "[GetGeographicalRegion('RICE_niger_delta_region').GetName] 내에 [county|E]를 하나 이상 소유하고 있습니다." # 3829752815579964614
+  RICE_yorubaland_geographical_req: "[GetGeographicalRegion('RICE_yorubaland_region').GetName] 내에 최소 하나 이상의 [county|E]를 소유하고 있습니다." # 7455990216821503938
+  d_ooni_of_ife_article: "그" # 8417196396288596625
+  d_ooni_of_ife: "일레-이페의 오오니십" # 1299815038560701543
+  d_ooni_of_ife_adj: "오오니" # 13866646118784607785
+  RICE_decision_olojo_festival_month_requirement: "월은 7월에서 9월 사이입니다." # 13723379461795108635
+  RICE_decision_ooni_exists_requirement: "누군가 [GetTitleByKey('d_ooni_of_ife').GetNameNoTier]를 소유하고 있습니다." # 87335194227186237
+  RICE_ooni: "오오니" # 13866646118784607785
+  RICE_all_dynasty_members: "당신의 [dynasty|E]의 모든 구성원" # 6087628509305105723
+  RICE_every_religious_vassal: "[vassals|E] 중 [theocratic_government|E]를 가진 봉신들" # 2490813024471306939
+  RICE_every_non_religious_vassal: "[vassals|E] 중 [theocratic_government|E]를 보유하지 않은 자" # 2577158394470995206
+  RICE_niger_delta_every_county: "귀하가 소유한 모든 [county|E]" # 6927015692653563380
+  RICE_every_courtier_over_50: "50세 이상의 모든 [courtier|E]" # 8053857271906971733
+  RICE_niger_delta_bronze_artifact_unlock: "브론즈 주조 길드인 [niger_delta_craft_guilds|E]에게 예술품을 조직하거나 의뢰할 수 있는 능력을 해금합니다 (만약 이 [culture|E]가 $tradition_RICE_kinship_based_craft_guilds_name$ 또는 $tradition_RICE_ritual_hegemony_name$ [traditions|E]를 가지고 있다면)" # 1385954520520406491
+  RICE_decision_yoruba_culture_requirement: "귀하의 [culture|E]는 $yoruba$에서 유래했거나 혼합되었습니다." # 13122307770781241953
+  RICE_decision_edo_culture_requirement: "당신의 [culture|E]는 $edo$에서 파생되었거나 혼합되었습니다." # 11905779651444621313
+  action_RICE_uncrowned_by_ooni: "오오니에게 즉위하지 않음" # 17413691138313074191
+  action_RICE_uncrowned_by_ooni_label: "[GetTitleByKey('d_ooni_of_ife').GetNameNoTier]에서 [beaded_crown|E]를 요청할 수 있습니다." # 135243859288730135
+  action_RICE_uncrowned_by_ooni_desc: "아직 Ọọ̀ni에게서 [beaded_crown|E]를 받지 못했습니다. 이는 신하들 사이에서 귀하의 평판과 통치의 정당성에 부정적인 영향을 미치고 있습니다.\n\n#help [GetModifier('RICE_niger_delta_uncrowned').GetNameWithTooltip] [character_modifier|E]를 제거하려면, $RICE_niger_delta_request_beaded_crown$ [decision|E]를 내려야 합니다.#!" # 14793056102973493895
+  action_RICE_uncrowned_by_ooni_click: "#Ọọ̀ni#! 로 이동하려면 클릭하세요." # 6095875844153157865
+  fervor_gain_restored_ooni: "[GetTitleByKey('d_ooni_of_ife').GetNameNoTier]이 복원되었습니다" # 10202246898405346973
+  RICE_restart_ooni_uncrowned_mechanic_loc: "모든 [yoruba.GetAdjective] [ruler|E]는 Ọọ̀ni를 제외하고 [GetModifier('RICE_niger_delta_uncrowned').GetNameWithTooltip] [character_modifier|E]를 얻게 됩니다. 이를 제거하려면 [GetTitleByKey('d_ooni_of_ife').GetNameNoTier]에게서 [beaded_crown|E]를 요청하는 [decision|E]를 내려야 합니다." # 18083823204164775368
+  RICE_convert_whole_realm_to_feudalism_west_african_pagan_decision: "$convert_whole_realm_to_feudalism_west_african_pagan_decision$" # 6948014206814840517
+  RICE_convert_whole_realm_to_feudalism_west_african_pagan_decision_tooltip: "$convert_whole_realm_to_feudalism_west_african_pagan_decision_tooltip$" # 7040225391448416399
+  RICE_convert_whole_realm_to_feudalism_west_african_pagan_decision_confirm: "$convert_whole_realm_to_feudalism_west_african_pagan_decision_confirm$" # 12777874174598066624
+  RICE_niger_delta_activity_result_gained_piety: "[piety_i] [piety|E] 획득" # 9102024060383912977
+  RICE_niger_delta_activity_result_gained_prestige: "[prestige_i] [prestige|E] 획득" # 5781316025150891959
+  RICE_niger_delta_activity_result_gained_dynasty_prestige: "[dynasty_prestige_i] [dynasty_prestige|E] 획득" # 3378709043662098657
+  RICE_niger_delta_activity_result_gained_smaller_piety: "소량의 [piety_i] [piety|E]를 얻었습니다" # 5333555842238392330
+  RICE_niger_delta_activity_result_gained_smaller_prestige: "소량의 [prestige_i] [prestige|E]를 획득했습니다." # 5209610668931753173
+  RICE_region_southerneastern_nigeria: "남동부 나이지리아" # 3620333570656927415
+  game_concept_beaded_crowns: "구슬 박힌 왕관" # 12108368402234985490
+  game_concept_beaded_crown: "구슬 박힌 왕관" # 8725274158627356519
+  game_concept_beaded_crown_desc: "$c_ife$의 통치자는 오니(Ooni)라 불리며, 요루바 민족 사이에서 막대한 종교적, 세속적 권위를 지니고 있습니다. 역사적으로 이 지역의 군주들은 자신의 통치를 정당화하기 위해 $c_ife$로 여행하여 요루바 및 에도 왕들의 시조이자 신인 오두두와(Oduduwa)가 수여하는 특별한 구슬 왕관을 받고 오니에게서 즉위식을 거행했습니다.\n\n게임 내에서 오니는 $west_african_orisha_pagan$ [faith|E]의 [head_of_faith|E] 역할을 수행합니다. $west_african_orisha_religion$ [religion|E]를 따르는 [rulers|E]나, 해당 지역에서 다른 요건을 충족하는 자들은 [decision|E]를 내려 $c_ife$로 여행하여 $RICE_niger_delta_request_beaded_crown$을 수행할 수 있습니다. 오니에게 바칠 선물을 선택하면, 오니는 그 선물을 수락할지 거절할지 결정합니다. 만약 당신이 오니라면, 반대로 선물을 받고 [rulers|E]에게 왕관을 씌워줄 수 있습니다.\n\n만약 당신이 $west_african_orisha_religion$ [religion|E]를 따른다면, 오니가 당신의 즉위를 승인할 때까지 [GetModifier('RICE_niger_delta_uncrowned').GetNameWithTooltip] [character_modifier|E]에 묶이게 됩니다." # 16680071680942678794
+  game_concept_niger_delta_craft_guild: "장인 조합" # 233279394345285141
+  game_concept_niger_delta_craft_guilds: "장인 조합" # 3674299406216822266
+  game_concept_niger_delta_craft_guilds_desc: "역사적으로, [GetGeographicalRegion('RICE_niger_delta_region').GetName]의 [rulers|E]들은 장인 조합과 같은 직업 조합을 왕실의 후원 아래 조직하여 그들의 지위를 높이고 경제를 통제했지만, 그 대가로 이 조합들에게 안정적인 일자리와 정치적 영향력을 제공했습니다.\n\n귀하의 [culture|E]가 $tradition_RICE_kinship_based_craft_guilds_name$ 또는 $tradition_RICE_ritual_hegemony_name$ [traditions|E] 중 하나를 보유하고 있으며, 귀하가 [dynast|E]라면, $RICE_niger_delta_form_craft_guilds$ [decision|E]를 내릴 수 있습니다. 선택할 수 있는 조합은 네 가지가 있으며, 각각 고유한 요구사항이 있습니다: 청동 주조공, 철세공인, 상아 및 목공예가, 구슬 제작자입니다.\n\n각 조합은 귀하의 [dynasty|E]에게 고유한 [modifier|E]를 부여하고, 귀하의 [dynasty|E]가 조직한 조합에 따라 $RICE_niger_delta_commission_art_from_craft_guilds$ [decision|E]를 잠금 해제합니다. 이 [decision|E]를 내리면 다양한 [artifacts|E]를 얻을 수 있으며, 그중 일부는 [court_artifact|E]로 [reforge|E]할 수 있습니다." # 10774992044136867230
+  game_concept_kola_nut: "콜라 열매" # 6134384874979095134
+  game_concept_kola_nuts: "콜라 열매" # 5349464736178055824
+  game_concept_kola_nuts_desc: "콜라 열매는 아프리카 전역에서 중요하지만, 이그보족보다 더 신성시하는 곳은 없습니다. 따라서 $odinala_religion$ [religion|E] [faith|E]를 따르거나 $tradition_RICE_igwebuike_name$ [tradition|E]를 가진 [culture|E]의 [rulers|E]는 콜라 열매와 관련된 두 가지 특별한 기능을 이용할 수 있습니다.\n\n첫째, 당신은 $RICE_niger_delta_kola_nut_interaction$을 위한 [character_interaction|E]를 이용할 수 있습니다. 이를 통해 다른 [ruler|E]에게 당신의 작위(rank)에 따라 [prestige|E]와 [piety|E]를\"지\"하고 [truce|E]를 얻을 수 있습니다. 둘째, 잠재적으로 유익하거나(혹은 그렇지 않은) [character_modifiers|E]를 얻기 위해 콜라 열매를 바치는 [decision|E]를 내릴 수 있습니다." # 2291568848285529594
+  culture_parameter_unlock_rice_african_royal_guilds: "클랜 기반 [niger_delta_craft_guilds|E]로부터 예술품을 조직하고 의뢰할 수 있는 [decisions|E]를 해금합니다." # 10419626411449229624
+  culture_parameter_unlock_rice_unrestricted_beaded_crown_bestowments: "[GetTitleByKey('d_ooni_of_ife').GetNameNoTier]의 [beaded_crowns|E]를 [faith|E]나 [heritage|E]에 상관없이, [GetGeographicalRegion('RICE_yorubaland_region').GetName] 내에 [county|E]를 하나 이상 소유하고 있다면 요청할 수 있습니다." # 11760313527074709936
+  culture_parameter_unlock_rice_ancestor_worship: "[activity|E] [GetActivityType( 'activity_RICE_venerate_ancestors' ).GetName]을(를) 해금합니다" # 12432704281072910288
+  tradition_RICE_kinship_based_craft_guilds_name: "씨족 기반 장인 조합" # 1725114630257643432
+  tradition_RICE_kinship_based_craft_guilds_desc: "#F 아프리카 사회의 많은 곳에서 직업 조합은 중요한 역할을 하지만, 이 문화권에서는 전설적인 기원을 주장하는 장인 및 기술자 조합이 왕실의 후원 아래 상당한 권력과 영향력을 행사합니다. 재능이 아무리 뛰어나더라도, 신성한 기술을 진정으로 연마하고 숙달하는 데 필요한 신비로운 혈통을 갖추지 못했기 때문에 조합 가문에서 태어나지 않은 외부인은 보통 이 조합에 가입하는 것이 배제됩니다.#" # 16083167652563460671
+  tradition_RICE_igwebuike_name: "이그웨부이케" # 11706829693113584212
+  tradition_RICE_igwebuike_desc: "#F 이그웨부이크(Igwebuike)는 이그보어로\"숫자는 힘이\"라는 뜻이며, 모든 것이 상호 연결되어 있다는 철학적 개념에서 파생된 호혜의 윤리입니다. 따라서 이 문화권은 사람들이 상호 이익이 되는 관계를 유지함으로써 갈등을 해결하려고 노력해야 한다고 믿습니다. 게다가 이 문화권에서는 [kola_nut|E]가 이그웨부이크의 가장 위대한 상징으로 여겨집니다.!#" # 4290091347681163385
+  innovation_lost_wax_casting: "밀랍 주조" # 1199924173936199030
+  innovation_lost_wax_casting_desc: "이그보-우쿠 장인들의 솜씨에서 영감을 받아, 우리 장인들은 금속을 주조하는 매우 정교한 기술을 숙달하여 아름답고 화려한 예술품을 제작했습니다. 우리의 청동 작품은 영원히 알려질 것입니다!" # 6893617454230521876
+  not_egalitarian_spiritual_or_communal_desc: "[culture|E]는 $ethos_egalitarian_name$, $ethos_spiritual_name$ 또는 $ethos_communal_name$ [ethos|E]를 가지고 있지 않습니다." # 2542243745255265593
+  culture_parameter_unlock_rice_kola_nut_truce: "다른 [rulers|E]와 $RICE_niger_delta_kola_nut_interaction$ [interaction|E]를 맺어 선제적으로 [truces|E]를 맹세할 수 있게 됩니다." # 8799251788285829036
+  culture_parameter_unlock_rice_kola_nut_decision: "종교 의식에서 [faith|E]와 관계없이 [kola_nuts|E]를 바치는 [decision|E]를 해금합니다." # 16282765273401595630
+  tradition_RICE_ritual_hegemony_name: "의례적 패권국" # 2938669105870491378
+  tradition_RICE_ritual_hegemony_desc: "이 문화권의 종종 분산된 정치체들은 의례, 영적 권위, 혈통, 그리고 종려나무 잎과 같은 신성한 예술과 상징을 통해 패권국적 권력을 행사합니다. 이 공동체들 중 다수에서는 사람들이 직업에 관계없이 작위, 명성, 상징적 권력을 획득함으로써 더 큰 영향력과 지위를 추구하는 경향이 있습니다." # 7066600891060533557
+  innovation_RICE_nsibidi_pictograms: "음시비디 그림 문자" # 11027317153674256902
+  innovation_RICE_nsibidi_pictograms_desc: "나이지리아 남동부의 에크페 비밀 결사가 개발한 은시비(Nsibi) 문자 체계는 비밀 및 공개적인 의사소통과 사법 사건에 사용됩니다." # 8292093496850170620
+  RICE_niger_delta_kola_nut_interaction: "콜라 열매에 평화를 맹세하라" # 857627051080398143
+  RICE_niger_delta_kola_nut_interaction_notification: "신성한 코라 열매를 바쳐, 공식적인 의식에서 함께 나누고 우리 양측 간의 평화의 맹세를 하기를 바랍니다. 서로에게 악감정이 없음을 확인하고, 잠재적인 충돌을 피하며, #italic 이그웨부이케#! 정신으로 협력합시다!" # 7720489309531409868
+  RICE_niger_delta_kola_nut_interaction_desc: "[recipient.GetTitledFirstName]와 [kola_nuts|E]에 대한 선제적 [truce|E]를 맺고 [prestige|E]와 [piety|E]를 대가로 받습니다." # 1423765139953351582
+  RICE_niger_delta_kola_nut_interaction.accept.actor.tt: "[recipient.GetTitledFirstName]가 콜라 열매를 공유하는 것에 동의합니다" # 11005858906714058218
+  RICE_niger_delta_kola_nut_interaction.accept.recipient.tt: "[actor.GetTitledFirstName]이 콜라 열매를 나누어 줍니다." # 9367629564756323290
+  RICE_niger_delta_kola_nut_interaction.decline.actor.tt: "[recipient.GetTitledFirstName]가 콜라 열매 공유를 거부했습니다" # 3968590350042295148
+  RICE_niger_delta_kola_nut_interaction.decline.recipient.tt: "[actor.GetTitledFirstName]께서는 제가 콜라 열매를 거절하여 모욕감을 느끼셨습니다." # 13939891495748155610
+  RICE_niger_delta_kola_nut_interaction_truce_purchased: "[actor.GetTitledFirstName]와 [recipient.GetTitledFirstName] 사이에 신성한 [kola_nut|E]를 두고 휴전이 맹세되었습니다" # 16097804009269761708
+  RICE_niger_delta_kola_nut_interaction_AI_believes_in_igwebuike: "#italic 이그웨부이크#!의 이상을 믿습니다: $VALUE|=+0$" # 9742296669407113721
+  RICE_niger_delta_kola_nut_interaction_AI_skeptical_of_igwebuike: "#italic 이그웨부이케#!의 이상에 회의적입니다: $VALUE|=+0$" # 10034916359350871288
+  RICE_niger_delta_kola_nut_interaction_lacking_igwebuike: "[recipient.GetCulture.GetName] [culture|E]는 #italic 이그웨부이케#! 철학을 이해하지 못합니다: $VALUE|=+0$" # 13139993452726392016
+  RICE_niger_delta_kola_nut_interaction_non_african: "[recipient.GetCulture.GetName] [culture|E]는 아프리카 [heritage|E] 문화가 아니기에 콜라 열매의 상징적 가치를 높이 평가하지 않습니다: $VALUE|=+0$" # 7988858109638394638
+  RICE_niger_delta_new_yam_festival_host_memory: "[GetActivityType( 'activity_RICE_niger_delta_new_yam_festival' ).GetName]을 주관했습니다." # 18367476532905489749
+  RICE_niger_delta_new_yam_festival_host_memory_first_perspective: "저는 [GetTitleByKey('c_chios').GetNameNoTier]에서 [GetActivityType( 'activity_RICE_niger_delta_new_yam_festival' ).GetName]을(를) 주최했습니다." # 1082708086081900260
+  RICE_niger_delta_new_yam_festival_host_memory_second_perspective: "귀하는 [GetTitleByKey('c_chios').GetNameNoTier]에서 [GetActivityType( 'activity_RICE_niger_delta_new_yam_festival' ).GetName]를 주최하셨습니다." # 12679032334425781643
+  RICE_niger_delta_new_yam_festival_host_memory_third_perspective: "[owner.GetName]께서 [GetTitleByKey('c_chios').GetNameNoTier]에서 [GetActivityType(  'activity_RICE_niger_delta_new_yam_festival' ).GetName]를 주최하셨습니다." # 8472424729082248212
+  RICE_niger_delta_new_yam_festival_guest_memory: "[host.GetTitledFirstName]이 주최한 [GetActivityType( 'activity_RICE_niger_delta_new_yam_festival' ).GetName]에 참석했습니다." # 11860515361262825381
+  RICE_niger_delta_new_yam_festival_guest_memory_first_perspective: "저는 [host.GetTitledFirstName]께서 주관하신 [GetTitleByKey('c_chios').GetNameNoTier]에서 열린 [GetActivityType( 'activity_RICE_niger_delta_new_yam_festival' ).GetName]에 참석했습니다." # 14152767910273631889
+  RICE_niger_delta_new_yam_festival_guest_memory_second_perspective: "[GetActivityType( 'activity_RICE_niger_delta_new_yam_festival' ).GetName]에 참석했는데, 이는 [host.GetTitledFirstName]께서 [GetTitleByKey('c_chios').GetNameNoTier]에서 주최하신 행사였습니다." # 17030611677712243820
+  RICE_niger_delta_new_yam_festival_guest_memory_third_perspective: "[owner.GetName]께서 [host.GetTitledFirstName]이 주최한 [GetTitleByKey('c_chios').GetNameNoTier]에서 열린 [GetActivityType(  'activity_RICE_niger_delta_new_yam_festival' ).GetName]에 참석했습니다." # 8827431072505669229
+  RICE_niger_delta_got_caught_eating_yams_memory: "[GetActivityType( 'activity_RICE_niger_delta_new_yam_festival' ).GetName] 기간에 얌을 먹다가 들켰습니다" # 10067908763981727110
+  RICE_niger_delta_got_caught_eating_yams_memory_first_perspective: "[GetActivityType( 'activity_RICE_niger_delta_new_yam_festival' ).GetName]에서 얌(마)을 먹다가 들켰습니다." # 262430541548809935
+  RICE_niger_delta_got_caught_eating_yams_memory_second_perspective: "#bold 당신은 [GetActivityType( 'activity_RICE_niger_delta_new_yam_festival' ).GetName] 중에 얌(마)을 먹다가 들켰습니다!#" # 1245920476089223419
+  RICE_niger_delta_got_caught_eating_yams_memory_third_perspective: "[owner.GetName]이(가) [GetActivityType( 'activity_RICE_niger_delta_new_yam_festival' ).GetName] 기간 중 얌(마)을 먹다가 발각되었습니다." # 13000017860784493080
+  RICE_niger_delta_olojo_festival_host_memory: "[GetActivityType( 'activity_RICE_niger_delta_olojo_festival' ).GetName]에 참여했습니다." # 2634245664672875435
+  RICE_niger_delta_olojo_festival_host_memory_first_perspective: "저는 [GetTitleByKey('b_ile-ife').GetNameNoTier]에서 [GetActivityType( 'activity_RICE_niger_delta_olojo_festival' ).GetName]에 참여했습니다." # 17407297254688317831
+  RICE_niger_delta_olojo_festival_host_memory_second_perspective: "당신은 [GetTitleByKey('b_ile-ife').GetNameNoTier]에서 열린 [GetActivityType( 'activity_RICE_niger_delta_olojo_festival' ).GetName]에 참여했습니다." # 1349283861361695150
+  RICE_niger_delta_olojo_festival_host_memory_third_perspective: "[owner.GetName]께서 [GetTitleByKey('b_ile-ife').GetNameNoTier]에서 [GetActivityType(  'activity_RICE_niger_delta_olojo_festival' ).GetName]에 참여하셨습니다." # 5218562781485166266
+  RICE_niger_delta_olojo_festival_guest_memory: "[host.GetTitledFirstName]이 주최한 [GetActivityType( 'activity_RICE_niger_delta_olojo_festival' ).GetName]에 참여했습니다." # 10722291900992504139
+  RICE_niger_delta_olojo_festival_guest_memory_first_perspective: "저는 [GetTitleByKey('b_ile-ife').GetNameNoTier]의 [host.GetTitledFirstName]와 함께 [GetActivityType( 'activity_RICE_niger_delta_olojo_festival' ).GetName]에 참여했습니다." # 18031803098664380330
+  RICE_niger_delta_olojo_festival_guest_memory_second_perspective: "[GetActivityType( 'activity_RICE_niger_delta_olojo_festival' ).GetName]에 참여했으며, [GetTitleByKey('b_ile-ife').GetNameNoTier]에서 [host.GetTitledFirstName]와 함께했습니다." # 10916581696728509257
+  RICE_niger_delta_olojo_festival_guest_memory_third_perspective: "[owner.GetName]께서 [GetTitleByKey('b_ile-ife').GetNameNoTier]에서 [host.GetTitledFirstName]와 함께 [GetActivityType(  'activity_RICE_niger_delta_olojo_festival' ).GetName]에 참여했습니다." # 475073889156256135
+  activity_niger_delta_beaded_crown: "$c_ife$로 [beaded_crown|E]를 받으러 떠나기" # 3268628239862471275
+  activity_niger_delta_beaded_crown_name: "[ACTIVITY.GetOwner.GetNamePossessiveOrMy|U] $c_ife$ 방문 및 [beaded_crown|E] 수여식" # 7821190311382251016
+  activity_niger_delta_new_yam_festival: "새로운 마 축제" # 14319031756052559547
+  activity_niger_delta_new_yam_festival_name: "[ACTIVITY.GetOwner.GetNamePossessiveOrMy|U] 새해 축제" # 5767737770051167169
+  activity_niger_delta_olojo_festival: "올로조 축제 참석" # 5843779208522864422
+  activity_niger_delta_olojo_festival_name: "[ACTIVITY.GetOwner.GetNamePossessiveOrMy|U]의 오로조 축제 참석" # 1218348559324296980
+  activity_RICE_niger_delta_new_yam_festival_host_an_a: "$host_activity_a$" # 13713790857143020716
+  activity_RICE_niger_delta_new_yam_festival: "새로운 마 축제" # 14319031756052559547
+  activity_RICE_niger_delta_new_yam_festival_desc: "수 세기 동안 얌은 [GetPlayer.GetCulture.GetCollectiveNoun]과 대서양 연안에서 기원한 다른 서아프리카 민족들에게 중요한 식량원이었습니다. 곧 얌 수확이 다가옴에 따라, 저는 성대한 규모의 새 얌 축제를 준비하고 풍성한 수확에 대해 [GetPlayer.GetFaith.FertilityGodName]께 감사드려야겠습니다." # 3799262440433138218
+  activity_RICE_niger_delta_new_yam_festival_selection_tooltip: "대규모 새 얌 축제를 준비하십시오.\n\n$RICE_niger_delta_celebrate_new_yam_festival_context_tooltip$" # 5352497817116124240
+  activity_RICE_niger_delta_new_yam_festival_host_desc: "$BULLET_WITH_TAB$ [prestige_i|E][prestige|E]\n$BULLET_WITH_TAB$ [piety_i|E][piety|E]\n$BULLET_WITH_TAB$ [stress_loss_i|E][stress|E] 상실\n$BULLET_WITH_TAB$ 소유한 모든 [county|E]가 [GetModifier('RICE_niger_delta_successful_new_yam_festival').GetNameWithTooltip] [county_modifier|E]를 얻을 확률" # 1702241165425590864
+  activity_RICE_niger_delta_new_yam_festival_guest_desc: "$BULLET_WITH_TAB$ [prestige_i|E][prestige|E]\n$BULLET_WITH_TAB$ [piety_i|E][piety|E]\n$BULLET_WITH_TAB$스트레스 [stress_loss_i|E][stress|E] 상실" # 5012295731351457530
+  activity_RICE_niger_delta_new_yam_festival_destination_selection: "$activity_RICE_niger_delta_new_yam_festival_province_desc$" # 7904129127930861314
+  activity_RICE_niger_delta_new_yam_festival_guest_help_text: "$activity_RICE_niger_delta_new_yam_festival$" # 4573103980959042806
+  activity_RICE_niger_delta_new_yam_festival_predicted_cost: "새해 축제의 비용은 주로 귀하의 [income|E]에 따라 결정됩니다." # 8243271114443356509
+  activity_RICE_niger_delta_new_yam_festival_conclusion_desc: "올해의 [GetActivityType( 'activity_RICE_niger_delta_new_yam_festival' ).GetName]이 끝났습니다. 올해의 풍성한 수확을 축하할 수 있어서 좋았습니다!" # 17717660214486215897
+  RICE_niger_delta_new_yam_festival_ritual_phase: "의식" # 15674658978138415862
+  RICE_niger_delta_new_yam_festival_ritual_phase_desc: "새로운 얌 축제는 즐거운 시기이지만, 우리 모두가 따라야 할 중요한 의식과 규칙이 있는 때이기도 합니다." # 9067785715285829727
+  RICE_niger_delta_new_yam_festival_celebration_intent_header: "축하 행사:" # 15837984053617632930
+  RICE_niger_delta_new_yam_festival_celebration_intent: "축하 행사:" # 8745396489141951886
+  RICE_niger_delta_new_yam_festival_celebration_intent_desc: "비록 엄숙한 자리이지만, 새 얌 축제는 풍성한 수확을 축하하는 시간이기도 합니다! [stress_i|E] [stress|E]를 잃게 되며, 만약 그대가 [GetTrait('gregarious').GetName( GetNullCharacter )|U]이거나, [GetTrait('gluttonous').GetName( GetNullCharacter )], 혹은 [GetTrait('content').GetName( GetNullCharacter )]라면 더욱 많이 잃게 될 것입니다." # 16217690453396519236
+  RICE_niger_delta_new_yam_festival_generosity_intent_header: "관대함:" # 2598692737917792853
+  RICE_niger_delta_new_yam_festival_generosity_intent: "관대함:" # 7055109435000099171
+  RICE_niger_delta_new_yam_festival_generosity_intent_desc: "새로운 얌 축제는 [GetPlayer.GetTitleAsNameNoTooltip]으로서 당신의 지위를 보여주기에 좋은 시기입니다. 당신의 [counties|E]는 [GetModifier('RICE_niger_delta_successful_new_yam_festival').GetNameWithTooltip] [county_modifier|E]를 얻을 확률이 더 높아질 것이며, 만약 당신이 [GetTrait('just').GetName( GetNullCharacter )|U]이거나 [GetTrait('generous').GetName( GetNullCharacter )]라면 [stress_i|E] [stress|E]를 잃게 될 것입니다." # 17499827000684081813
+  RICE_niger_delta_new_yam_festival_purification_intent_header: "정화:" # 5875181858905716875
+  RICE_niger_delta_new_yam_festival_purification_intent: "정화:" # 18330810802070193901
+  RICE_niger_delta_new_yam_festival_purification_intent_desc: "당신은 이번 새해 축제 기간 동안 범죄자들로 가득 찬 공동체를 정화하고자 합니다. 당신은 [prisoner|E] 한 명을 희생해야 하며, 만약 유효한 죄수가 없다면 희생시킬 죄수를 얻는 것이 보장됩니다. 이 희생은 추가로 [prestige_i|E] #V 100#을 가져다줄 것입니다." # 979993541931040004
+  RICE_niger_delta_new_yam_festival_completed_log_title: "새로운 얌 축제 참여 완료" # 6469990126038293818
+  RICE_niger_delta_new_yam_festival_completed_log: "[CHARACTER.GetShortUIName|U]께서 [CHARACTER.GetHerHis]의 새해 축제 참여를 마쳤습니다." # 6750553139905294864
+  RICE_niger_delta_new_yam_festival_sacrifice_log_title: "인신공양" # 6981824178339486363
+  RICE_niger_delta_new_yam_festival_sacrifice_log: "[CHARACTER.GetShortUIName|U]라는 죄수가 축제의 제물로 바쳐졌습니다." # 17227776449542984459
+  RICE_niger_delta_new_yam_festival_caught_eating_log_title: "마를 먹다 들킴" # 4885766792837173207
+  RICE_niger_delta_new_yam_festival_caught_eating_log: "[CHARACTER.GetShortUIName|U]가 마를 먹다가 발각되었습니다" # 4266329291561069301
+  RICE_niger_delta_new_yam_festival_caught_eating_self_log_title: "$RICE_niger_delta_new_yam_festival_caught_eating_log_title$" # 16801350066872365142
+  RICE_niger_delta_new_yam_festival_caught_eating_self_log: "$RICE_niger_delta_new_yam_festival_caught_eating_log$" # 16116845019840442687
+  RICE_activity_result_new_yam_modifier: "[host.GetTitledFirstNamePossessive]의 [counties|E] 중 하나 이상이 [GetModifier('RICE_niger_delta_successful_new_yam_festival').GetNameWithTooltip] [county_modifier|E]를 획득했습니다." # 14221137557042369895
+  TRAVEL_NAME_FOR_activity_RICE_niger_delta_new_yam_festival: "[Character.GetFirstNamePossessiveNoTooltip] $activity_RICE_niger_delta_new_yam_festival$" # 3965946627694705739
+  activity_RICE_niger_delta_olojo_festival_host_an_a: "$host_activity_an$" # 2045561106244749009
+  activity_RICE_niger_delta_olojo_festival: "올로조 축제" # 10171596312273239187
+  activity_RICE_niger_delta_olojo_festival_desc: "인류의 요람인 [GetTitleByKey('b_ile-ife').GetNameNoTier] 시에서는 수세기 동안 오로조 축제가 열려 왔습니다. 이는 이 지역의 역사, 신화, 문화와 깊이 얽혀 있으며, 모든 $west_african_orisha_religion_adherent_plural$의 영적 지도자인 [GetTrait('RICE_ooni_of_ife').GetName( GetNullCharacter )]가 취임 맹세를 갱신하고 특히 오군에게 신에게 제물을 바치는 때이기도 합니다.\n\n@alert_icon! #alert_trial 오로조 축제는 10월에 시작됩니다. 그 이전에 도착하시면, 축제가 시작될 때까지 [GetTitleByKey('b_ile-ife').GetNameNoTier]에서 기다리시는 동안 활동이 일시 중지됩니다.#" # 16047666247843586948
+  activity_RICE_niger_delta_olojo_festival_selection_tooltip: "올로조 축제에 참여하기.\n\n$RICE_niger_delta_partake_olojo_festival_context_tooltip$" # 928835494123258658
+  activity_RICE_niger_delta_olojo_festival_host_desc: "$BULLET_WITH_TAB$귀하는 [piety_i|E] [piety|E]나 #P 유익한#! [character_modifiers|E]와 같은 다양한 축복을 얻을 수 있습니다.\n$BULLET_WITH_TAB$만약 귀하가 Ọọ̀ni 본인이라면, 이 [activity|E]로부터 추가적인 책임과 보너스를 얻게 될 것입니다." # 16628149929795116237
+  activity_RICE_niger_delta_olojo_festival_guest_desc: "$activity_RICE_niger_delta_olojo_festival_host_desc$" # 16070804242405067810
+  activity_RICE_niger_delta_olojo_festival_province_desc: "$c_ife$는 인류의 요람이며, 오로조 축제를 개최할 수 있는 유일한 장소입니다." # 16854234251248605435
+  activity_RICE_niger_delta_olojo_festival_destination_selection: "$activity_RICE_niger_delta_olojo_festival_province_desc$" # 8648180628689050310
+  activity_RICE_niger_delta_olojo_festival_guest_help_text: "$activity_RICE_niger_delta_olojo_festival$" # 14389111332029877128
+  activity_RICE_niger_delta_olojo_festival_predicted_cost: "오로조 축제에 참여하는 비용은 주로 귀하의 [income|E]에 따라 결정됩니다." # 11323055082387808760
+  activity_RICE_niger_delta_olojo_festival_conclusion_desc: "[GetActivityType( 'activity_RICE_niger_delta_olojo_festival' ).GetName] 행사가 끝났습니다. 정말 멋진 행사였군요!" # 10191673677626666638
+  RICE_niger_delta_olojo_festival_festival_phase: "축제" # 13520479831018648779
+  RICE_niger_delta_olojo_festival_festival_phase_desc: "신성한 올라조 축제가 예정대로 진행되고 있습니다." # 3923268600455471274
+  RICE_niger_delta_olojo_festival_sacred_intent_header: "신성한:" # 10184592589776905014
+  RICE_niger_delta_olojo_festival_sacred_intent: "신성한:" # 14488649885937206335
+  RICE_niger_delta_olojo_festival_sacred_intent_desc: "첫 새벽을 기념하는 오로조 축제는 가장 위대한 오오니부터 가장 미천한 농부에 이르기까지 모두에게 지극히 종교적인 중요성을 지니는 행사입니다." # 5654511145649913756
+  RICE_niger_delta_olojo_festival_completed_log_title: "올로조 축제 참여 완료" # 3054371060988830875
+  RICE_niger_delta_olojo_festival_completed_log: "[CHARACTER.GetShortUIName|U]께서 [GetTitleByKey('c_ife').GetNameNoTier]에서 열린 올라조 축제 참가를 마쳤습니다." # 11417514867938255933
+  RICE_niger_delta_olojo_festival_ooni_received_gifts_log_title: "오오니가 선물을 받았습니다" # 7139604793849752691
+  RICE_niger_delta_olojo_festival_ooni_received_gifts_log: "$niger_delta.0077.a.tooltip$" # 7808366023688067426
+  RICE_niger_delta_new_yam_festival_ooni_blessing_log_title: "오오니의 축복" # 10219554899536354257
+  RICE_niger_delta_new_yam_festival_ooni_blessing_log: "[CHARACTER.GetShortUIName|U]께서 올라조 축제 기간 동안 오오니에게 축복을 받으셨습니다." # 10278294663415431169
+  TRAVEL_NAME_FOR_activity_RICE_niger_delta_olojo_festival: "[Character.GetFirstNamePossessiveNoTooltip] $activity_RICE_niger_delta_olojo_festival$" # 10826960119285587903
+  RICE_niger_delta_olojo_festival_gift_amount: "오니에게 보내는 선물" # 2798645156107425443
+  RICE_niger_delta_in_jenne_req: "귀하의 [camp|E]는 [GetTitleByKey('b_ile-ife').GetNameNoTier]에 있습니다." # 13609291722855716128
+  trait_RICE_ooni_of_ife: "일레-이페의 오오니" # 1164178018914894088
+  trait_RICE_ooni_of_ife_desc: "이 인물은 $yoruba$의 의례적인 대제사장인 오오니(Ọọ̀ni)이며, 신성한 도시 일레-이페(Ilè-Ifẹ̀, 이페라고도 함)의 실질적이든 명목상이든 통치자입니다. 그들은 영토를 떠나는 일이 거의 없으며, 특정한 중요한 종교 의식이 있을 때를 제외하고는 대중의 시야에서 벗어나 궁궐에서 은둔하며 살아갑니다." # 6649680320664647538
+  trait_RICE_ooni_of_ife_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip]은 요루바족의 의례적인 대제사장인 오오니이며, 명목상이든 실질적이든 신성한 도시 일레-이페(이페라고도 함)의 통치자입니다. [ROOT.GetCharacter.GetSheHe|U]는 영지 밖으로 나가는 일이 거의 없으며, 중요한 종교 의식이 있을 때를 제외하고는 대중의 시야에서 벗어나 궁전에 은둔하며 생활하는 것을 선호합니다." # 4534895107623661509
+  RICE_niger_delta_bronze_artifact_name: "[ROOT.Char.GetCulture.GetNameNoTooltip] 청동 예술" # 8355051773470928094
+  RICE_niger_delta_bronze_artifact_good_name: "훌륭한 [ROOT.Char.GetCulture.GetNameNoTooltip] 청동 예술품이로군" # 14848654123586218702
+  RICE_niger_delta_bronze_artifact_excellent_name: "훌륭하군 [ROOT.Char.GetCulture.GetNameNoTooltip] 청동 예술품" # 7656740242379057484
+  RICE_niger_delta_bronze_artifact_desc: "[ROOT.Char.GetCulture.GetName]의 전통적인 양식으로 청동으로 벼려낸 예술 작품으로, 아프리카 일부 지역에서 흔히 사용되던 밀랍 주조 기법을 사용했습니다. 이 작품은 [ROOT.Char.GetDynasty.GetName] 왕조를 섬기는 청동 주조 장인 조합의 장인들이 조합원 중 한 명인 [ROOT.Char.GetTitledFirstName]의 요청에 따라 제작했습니다." # 16586487827292223915
+  RICE_niger_delta_iron_artifact_name: "[ROOT.Char.GetCulture.GetNameNoTooltip] 철의 예술" # 10772616841010819533
+  RICE_niger_delta_iron_artifact_good_name: "훌륭한 [ROOT.Char.GetCulture.GetNameNoTooltip] 철의 기술이로군" # 5353870979083989527
+  RICE_niger_delta_iron_artifact_excellent_name: "훌륭하군 [ROOT.Char.GetCulture.GetNameNoTooltip] 철의 예술이여" # 15006428202830545023
+  RICE_niger_delta_iron_artifact_desc: "전통적인 [ROOT.Char.GetCulture.GetName] 양식으로 만들어진 철제 예술품입니다. 아프리카의 많은 문화권은 철 세공에 대한 강한 전통을 가지고 있으며, 이 유물은 그러한 수준의 정교함과 발전을 증명합니다. 이 유물은 [ROOT.Char.GetDynasty.GetName] 왕조를 섬기는 대장장이 공예 길드의 장인들이 그들의 일원인 [ROOT.Char.GetTitledFirstName]의 요청에 따라 제작하였습니다." # 10479642846420911696
+  RICE_niger_delta_ivory_artifact_name: "[ROOT.Char.GetCulture.GetNameNoTooltip] 상아 조각" # 16800309384535159437
+  RICE_niger_delta_ivory_artifact_good_name: "훌륭한 [ROOT.Char.GetCulture.GetNameNoTooltip] 상아 조각품" # 16625488095876264850
+  RICE_niger_delta_ivory_artifact_excellent_name: "훌륭하군 [ROOT.Char.GetCulture.GetNameNoTooltip] 상아 조각품" # 8965896468621605037
+  RICE_niger_delta_ivory_artifact_desc: "[ROOT.Char.GetCulture.GetName] 전통 양식으로 조각된 예술품으로, 현지 사냥꾼 길드가 사냥한 아프리카 코끼리의 상아를 사용하여 제작되었습니다. 이 작품은 [ROOT.Char.GetDynasty.GetName] 왕조를 섬기는 상아 및 목공예 조합의 장인들이 조합원 중 한 명인 [ROOT.Char.GetTitledFirstName]의 요청으로 만들었습니다." # 17023482744702398777
+  RICE_niger_delta_wood_artifact_name: "[ROOT.Char.GetCulture.GetNameNoTooltip] 목공예" # 495520810465599083
+  RICE_niger_delta_wood_artifact_good_name: "훌륭한 [ROOT.Char.GetCulture.GetNameNoTooltip] 목공예품이로군" # 7011928789072565504
+  RICE_niger_delta_wood_artifact_excellent_name: "훌륭한 [ROOT.Char.GetCulture.GetNameNoTooltip] 목공예" # 15142133543348886163
+  RICE_niger_delta_wood_artifact_desc: "아프리카 사하라 이남 지역에서 흔히 볼 수 있는 목재를 사용하여, 전통적인 [ROOT.Char.GetCulture.GetName] 양식으로 조각된 예술 작품입니다. 이것은 [ROOT.Char.GetDynasty.GetName] 왕조를 섬기는 상아 및 목각 공예 길드의 장인들이 그들의 일원인 [ROOT.Char.GetTitledFirstName]의 요청으로 제작하였습니다." # 12659444580045351818
+  RICE_niger_delta_glass_artifact_name: "[ROOT.Char.GetCulture.GetNameNoTooltip] 유리 구슬 공예" # 2971600461770627926
+  RICE_niger_delta_glass_artifact_good_name: "훌륭한 [ROOT.Char.GetCulture.GetNameNoTooltip] 유리 구슬 공예" # 10107802315944717176
+  RICE_niger_delta_glass_artifact_excellent_name: "훌륭하군 [ROOT.Char.GetCulture.GetNameNoTooltip] 유리 구슬 공예" # 1413904631170537620
+  RICE_niger_delta_glass_artifact_desc: "[ROOT.Char.GetCulture.GetName] 전통 양식으로 제작된 유리 구슬 장신구로, 토착 아프리카 유리 공방에서 온 유리를 사용했습니다. [ROOT.Char.GetDynasty.GetName] 왕조를 섬기는 구슬 제작 장인 조합의 장인들이 그들의 구성원 중 한 명인 [ROOT.Char.GetTitledFirstName]의 요청에 따라 제작했습니다." # 13006896093344173747
+  RICE_niger_delta_coral_artifact_name: "[ROOT.Char.GetCulture.GetNameNoTooltip] 산호 구슬 공예" # 17848600437831407741
+  RICE_niger_delta_coral_artifact_good_name: "훌륭하군 [ROOT.Char.GetCulture.GetNameNoTooltip] 산호 구슬 예술" # 10144093106378997135
+  RICE_niger_delta_coral_artifact_excellent_name: "훌륭하군 [ROOT.Char.GetCulture.GetNameNoTooltip] 산호 구슬 공예" # 18393766311528056662
+  RICE_niger_delta_coral_artifact_desc: "[ROOT.Char.GetCulture.GetName] 전통 양식으로 제작된 산호 구슬 장식품으로, 아프리카 해안에서 채취한 귀한 산호를 사용했습니다. 이는 [ROOT.Char.GetDynasty.GetName] 왕조를 섬기는 구슬 제작자 공예 길드의 장인들이 그들의 일원인 [ROOT.Char.GetTitledFirstName]의 요청에 따라 제작한 것입니다." # 3700746959033504119
+  building_type_RICE_niger_delta_osun_osogbo_sacred_grove: "오순-오소보 신성림" # 5116872408848093776
+  building_type_RICE_niger_delta_osun_osogbo_sacred_grove_desc: "나이지리아에는 여러 성스러운 숲이 있지만, 오순-오소보 숲은 그중에서도 가장 중요한 곳 중 하나입니다. 오순 강둑을 따라 자리 잡은 이곳은 사랑, 다산, 물, 아름다움, 점술의 여신인 동명의 숭배받는 요루바 신, 오순을 위한 주요 숭배 중심지입니다." # 2950872379047668613
+  building_RICE_niger_delta_osun_osogbo_sacred_grove: "$building_type_RICE_niger_delta_osun_osogbo_sacred_grove$" # 8794382664533698131
+  building_RICE_niger_delta_osun_osogbo_sacred_grove_desc: "$building_type_RICE_niger_delta_osun_osogbo_sacred_grove_desc$" # 10203960335516683044
+  building_type_wap_bronze_industry_01: "청동 세공 산업" # 1793625864251940855
+  building_type_wap_bronze_industry_01_desc: "이그보-우쿠의 장인들로부터 시작하여 이페와 베냉으로 퍼져나간, 밀랍 주조 기법의 숙달은 서아프리카 역사상 위대한 혁신 중 하나로, 세계에서 가장 아름다운 금속 세공품과 조각품 일부를 만들어냈습니다." # 10167660187968095714
+  building_wap_bronze_industry_01: "소규모 청동 세공품" # 2006539650504019132
+  building_wap_bronze_industry_01_desc: "마을 단위부터 시작하여, 우리 대장장이들은 지역에서 발견된 재료들을 가공하기 시작했지만, 아직 분산된 생산 방식 때문에 산업 발전에 어려움을 겪고 있습니다. 현재는 지역 장로들이 이끄는 씨족 단위로 마을 사람들이 자원을 모으고 있습니다." # 8951849734429660509
+  building_wap_bronze_industry_02: "중급 청동 세공품" # 5455726002289100707
+  building_wap_bronze_industry_02_desc: "우리는 생산 과정의 낭비를 줄이고 산출량을 늘리기 위해 청동 세공 산업을 중앙집중화하는 작업을 시작했습니다. 우리의 노력으로 주변 광산에서 공급받는 중요한 밀랍 주조지가 개발되었습니다." # 6212215147090739379
+  building_wap_bronze_industry_03: "거대한 청동 세공품" # 5045011720220216037
+  building_wap_bronze_industry_03_desc: "이제 우리 군주님의 청동 세공을 위한 대규모의 중앙집중식 구역이 생겼습니다. 최고의 청동, 구리, 철 세공에 특화된 우리 장인들의 명성은 니제르에서 나일강 유역까지 뻗어나가고 있습니다." # 1928590362300498185
+  RICE_niger_delta_new_yam_festival_ruler_ate_first_yam: "첫 번째 얌을 먹었다" # 16085899945379215104
+  RICE_niger_delta_new_yam_festival_ruler_ate_first_yam_desc: "이 인물이 최근에 연 새로운 얌 축제에서, 그 해에 갓 수확한 첫 얌(즉, 새로 수확한 얌)을 먹는 영예를 스스로 차지했습니다." # 17297346605893799379
+  RICE_niger_delta_new_yam_festival_priests_ate_first_yam: "성직자들이 첫 번째 마를 먹었다" # 3923994413863656335
+  RICE_niger_delta_new_yam_festival_priests_ate_first_yam_desc: "이 인물이 최근에 거행한 새 얌 축제에서, 그들의 신앙을 가진 성직자들이 그해에 처음으로 수확한 얌(즉, 갓 수확한 얌)을 먹는 영예를 누렸습니다." # 10467870037470396636
+  RICE_niger_delta_new_yam_festival_commoners_ate_first_yam: "미천한 평민들이 첫 번째 마를 먹었네" # 17026285273366373054
+  RICE_niger_delta_new_yam_festival_commoners_ate_first_yam_desc: "이 인물이 최근에 거행한 새 얌 축제에서, 사회의 가장 미천하고 겸손한 구성원들에게 그해의 첫 번째 새 얌(즉, 갓 수확한 얌)을 먹을 수 있는 영광이 주어졌습니다." # 9027851024834625519
+  RICE_niger_delta_received_beaded_crown: "최근 오오니에게서 구슬 박힌 왕관을 받았습니다" # 17955553983504220069
+  RICE_niger_delta_uncrowned: "오오니에게 즉위하지 않음" # 17413691138313074191
+  RICE_niger_delta_uncrowned_desc: "이 통치자는 [GetTitleByKey('d_ooni_of_ife').GetNameNoTier]의 영적 및 세속적 우위를 존중하는 [faith|E]를 따르지만, 통치 정당성을 확보하기 위해 아직 Ọọ̀ni에게서 [beaded_crown|E]를 받지 않았습니다.\n\n#EMP 이 [character_modifier|E]는 $RICE_niger_delta_request_beaded_crown$ [decision|E]를 실행하고 Ọọ̀ni가 대관식에 동의하는 즉시 제거될 것입니다.!#" # 5942759856905311734
+  RICE_niger_delta_ooni_scorn: "$c_ife$의 #bold Ọọ̀ni#에게 경멸당함" # 13437858003196660371
+  RICE_niger_delta_ooni_denounced: "$c_ife$의 오오니에게 비난받음" # 5535760296685903407
+  RICE_niger_delta_ooni_denounced_permanent: "$c_ife$의 #bold Ọọ̀ni#에게 영원히 비난받음" # 11454896353463985026
+  RICE_niger_delta_ooni_denounced_permanent_desc: "이 인물은 $c_ife$의 오오니(Ọọ̀ni)를 아무도 상상하지 못할 정도로 모욕했습니다.\n\n#EMP 이 인물은 영구적으로 $RICE_niger_delta_request_beaded_crown$ [decision|E]를 수행하는 것이 금지됩니다.#!" # 6945092079810065791
+  RICE_niger_delta_ife_effects: "\n\n#italic $c_ife$의 [county|E]에 있는 [rulers|E]는 [title_tier|E]에 관계없이, 심지어 그들의 [culture|E]가 해당 [traditions|E]를 가지고 있지 않더라도 #bold 구슬 세공인#! [niger_delta_craft_guilds|E]에게 예술품을 조직하거나 의뢰하는 [decide|E]를 실행할 수 있습니다#!" # 11350790706763762950
+  RICE_niger_delta_city_of_ife: "$c_ife$, 인류의 요람" # 2190946705382350014
+  RICE_niger_delta_city_of_ife_desc: "니제르 삼각주에 거주하는 민족들의 전설에 따르면, 이페(Ife, '확장의 땅'이라는 의미)는 모든 세속적, 영적 권력의 근원지입니다. 이 도시는 올로쿤(Olokun) 신전과 같이 아프리카 최대 유리 제작 공방 중 하나가 있는 곳을 비롯하여 신들과 조상들의 영혼을 위한 신성한 사당과 성림들로 가득합니다.$RICE_niger_delta_ife_effects$" # 15177692286910887729
+  RICE_niger_delta_ruler_of_ife: "$c_ife$의 우니" # 8566482746547864982
+  RICE_niger_delta_ruler_of_ife_desc: "이 인물은 신성한 도시 $c_ife$의 오니, 즉 전통적인 통치자입니다. 이들은 니제르 삼각주와 주변 지역 거주자들로부터 큰 존경을 받는데, 이곳의 많은 이들이 $c_ife$를 세속적 및 영적 권력의 전설적인 근원으로 여기기 때문입니다.$RICE_niger_delta_ife_effects$" # 1268019314303436213
+  RICE_niger_delta_bronze_caster_guild_modifier: "#bold 청동 주조 장인 조합#" # 5000608243398948230
+  RICE_niger_delta_bronze_caster_guild_modifier_desc: "이 왕조 영토 내의 청동 주조공들은 혈연과 네트워크로 연결되어 있으며, 이 왕조의 왕실 후원을 받아 공식적인 길드로 조직되었습니다. 그들은 상호 이익이 되는 협약을 통해 이 가문의 부름에 응하여 아름다운 청동 예술품을 제작합니다.\n\n#EMP 이 [dynasty|E]에 속한 [landed|E] [rulers|E]라면 누구나 (해당 [culture|E]가 $tradition_RICE_kinship_based_craft_guilds_name$ 또는 $tradition_RICE_ritual_hegemony_name$ [traditions|E]를 보유하고 있으며, 기타 요건을 충족하는 경우) [niger_delta_craft_guilds|E]로부터 예술품 제작 의뢰를 하는 [decision|E]를 통해 #bold 청동#! [artifacts|E] 제작을 의뢰할 수 있게 됩니다!" # 17292420249341774322
+  RICE_niger_delta_ironsmith_guild_modifier: "철세공인 왕실 길드" # 985722552865477905
+  RICE_niger_delta_ironsmith_guild_modifier_desc: "이 왕조 영토의 대장장이들은 혈연과 네트워크로 연결되어 있으며, 이 왕조의 왕실 후원 아래 공식적인 길드로 조직되었습니다. 그들은 상호 이익이 되는 협약을 통해 이 가문의 명령에 따라 아름다운 철 예술품을 제작합니다.\n\n#EMP 이 [dynasty|E]의 [landed|E] [rulers|E]라면 누구나 (그들의 [culture|E]가 $tradition_RICE_kinship_based_craft_guilds_name$ 또는 $tradition_RICE_ritual_hegemony_name$ [traditions|E]를 가지고 있고, 다른 요건을 충족하는 경우) [niger_delta_craft_guilds|E]로부터 예술품 제작 위임 [decision|E]을 내릴 때 #bold 철#! [artifacts|E]을 주문할 수 있는 능력이 해금됩니다!" # 4361359862927674414
+  RICE_niger_delta_ivory_and_wood_carver_guild_modifier: "상아 및 목공예 장인 왕실 조합" # 6676886721204017660
+  RICE_niger_delta_ivory_and_wood_carver_guild_modifier_desc: "이 왕조 영토 내의 상아 및 목공예 장인들은 혈연과 네트워크로 얽혀 있으며, 이 왕조의 왕실 후원 아래 공식적인 길드로 조직되었습니다. 그들은 상호 이익이 되는 방식으로 아름다운 상아 및 목공예품을 제작하기 위해 이 가문의 명에 복무합니다.\n\n#EMP 이 [dynasty|E]의 [landed|E] [rulers|E]라면 누구나 (그들의 [culture|E]가 $tradition_RICE_kinship_based_craft_guilds_name$ 또는 $tradition_RICE_ritual_hegemony_name$ [traditions|E]를 가지고 있고, 다른 요구 사항을 충족하는 경우) [niger_delta_craft_guilds|E]로부터 예술품 의뢰하기 [decision|E]를 통해 #bold 상아 및 목재#! [artifacts|E]를 의뢰할 수 있는 능력이 해금됩니다!" # 15094862543620636978
+  RICE_niger_delta_bead_maker_guild_modifier: "#bold 구슬 제작자 길드#!" # 17629481439683274888
+  RICE_niger_delta_bead_maker_guild_modifier_desc: "이 왕조 영토 내의 구슬 세공인들은 혈연과 네트워크로 연결되어 있으며, 이 왕조의 왕실 후원 아래 공식적인 길드로 조직되었습니다. 그들은 상호 이익이 되는 협약을 통해 이 가문의 명령에 따라 아름다운 유리 또는 산호 구슬 예술품을 제작합니다.\n\n#EMP 이 [dynasty|E]의 [landed|E] [rulers|E]라면 누구나 (그들의 [culture|E]가 $tradition_RICE_kinship_based_craft_guilds_name$ 또는 $tradition_RICE_ritual_hegemony_name$ [traditions|E]를 가지고 있고 기타 요구 사항을 충족하는 경우) [niger_delta_craft_guilds|E]로부터 예술품 제작을 의뢰하는 [decision|E]를 내릴 때 #bold 유리 또는 산호 구슬#! [artifacts|E]을 주문할 수 있는 능력을 해금합니다." # 11715504726533039934
+  RICE_niger_delta_opinion_choose_new_yam_date: "새로운 얌 축제 날짜에 대해 나와 상의함" # 7874016753818156663
+  RICE_niger_delta_successful_new_yam_festival: "성공적인 새 얌 축제" # 11139655164544444046
+  RICE_niger_delta_successful_new_yam_festival_desc: "이 속주는 최근 이 지역의 전통적인 연례 축제인 대규모 새 얌 축제를 기념했습니다. 이곳 주민들은 이 축제가 매우 성공적이어서 하늘을 기쁘게 하고 풍성한 수확을 보장했다고 믿습니다." # 3722695308431582608
+  RICE_niger_delta_opinion_spared_me_from_execution: "처형을 면하게 해주었소" # 5914377182257063061
+  RICE_niger_delta_opinion_spared_me_from_punishment: "처벌을 면하게 해주셨소" # 6941374746885478307
+  RICE_niger_delta_kola_nut_one_lobe: "한 잎 콜라 (오지 오그비)" # 7770687326280055729
+  RICE_niger_delta_kola_nut_one_lobe_desc: "최근 의식에서 이 인물이 처음 쪼갠 코라 열매는 한 쪽만 있었습니다. #italic 오지 오그비#!, 즉 '벙어리 코라'라 불리는 이 종류의 코라 열매는 혐오스러운 것으로 여겨져 사람이 먹기에 부적합하며, 오직 하늘에 바치는 용도로만 적합합니다. 이 인물이 그것을 가능한 한 빨리 버렸지만, 이는 그에게 좋지 않은 영향을 미칩니다." # 8197798639418267428
+  RICE_niger_delta_kola_nut_two_lobes: "두 갈래 콜라 (오지 그워로)" # 2616897386252596414
+  RICE_niger_delta_kola_nut_two_lobes_desc: "최근 열린 의식에서 이 인물이 처음 쪼갠 콜라 열매는 두 개의 엽(lobe)으로 나뉘어 있었습니다. #italic 오지 그와로#!, 즉 영혼의 콜라 열매라 불리는 이 종류의 콜라 열매는 숫자 2가 균형을 이루지 못하고 영혼에 속한다고 여겨져 의심스럽게 바라봅니다. 이 인물이 그것을 최대한 빨리 버렸지만, 이는 분명 나쁜 징조입니다." # 878509468632530968
+  RICE_niger_delta_kola_nut_three_lobes: "세 잎 코라 (오지 이켕가)" # 11891946625858562987
+  RICE_niger_delta_kola_nut_three_lobes_desc: "최근 열린 의식에서 이 인물이 처음 쪼갠 코라 열매는 세 개의 엽을 가지고 있었습니다. #italic 오지 이켕가#!, 즉 용맹한 자의 코라 열매라고 불리는 이 열매는 남성적인 성격으로 여겨지며, 용맹함, 남성 전사 또는 성직자, 그리고 기본 가족 단위를 상징합니다. 따라서 이는 이 인물의 용기와 힘을 나타내는 좋은 징조입니다." # 458747664811024527
+  RICE_niger_delta_kola_nut_four_lobes: "네 잎 클로버 (오지 우도 나 응고지)" # 15402177122981125049
+  RICE_niger_delta_kola_nut_four_lobes_desc: "최근 열린 의식에서 이 인물이 처음으로 쪼갠 콜라 열매는 네 개의 엽을 가지고 있었습니다. #italic Oji Udo na Ngozi#!, 즉 평화와 축복의 콜라 열매라 불리는 이 종류의 콜라 열매는 네 개의 장날과 연결되어 있어 완전함을 상징합니다. 따라서 4가 신성하고 좋은 숫자인 만큼, 이는 이 인물의 삶에 안정과 단결이 있을 것이라는 좋은 징조입니다." # 4899114741064235426
+  RICE_niger_delta_kola_nut_five_lobes: "다섯 잎 코라 (오지 오무무)" # 6313938342075606121
+  RICE_niger_delta_kola_nut_five_lobes_desc: "최근 열린 의식에서, 이 인물이 처음 쪼갠 콜라 열매는 다섯 개의 엽을 가지고 있었습니다. #italic 오지 오무무#!, 즉 번식과 번영의 콜라 열매라 불리는 이 종류의 콜라는 흔치 않으며 풍성한 수확뿐만 아니라 큰 부와 다산을 상징합니다. 따라서 이는 이 인물의 삶에 있어 풍요와 행운이 따를 좋은 징조입니다." # 10213908082273090048
+  RICE_niger_delta_kola_nut_six_lobes: "육엽 고라 (오지 오그부그반두)" # 10787316387981863131
+  RICE_niger_delta_kola_nut_six_lobes_desc: "최근 열린 의식에서 이 인물이 처음 쪼갠 콜라 열매는 여섯 개의 엽을 가지고 있었습니다. #italic 오지 오그부그반두#!라고 불리는 이 콜라 열매는 조상들의 콜라 열매로 불리며 희귀하며, 신들과 사람들 사이의 특별한 언약을 상징합니다. 따라서 이는 이 인물의 삶에 큰 번영과 성공이 깃들 것이라는 훌륭한 징조입니다." # 18166765125690344848
+  RICE_niger_delta_kola_nut_seven_lobes: "일곱 잎 코라 (오지 아사-아소타)" # 18352310880229787322
+  RICE_niger_delta_kola_nut_seven_lobes_desc: "최근 열린 의식에서, 이 인물이 처음 쪼갠 콜라 열매는 일곱 개의 엽을 가지고 있었습니다. #italic 오지 아사-아소타#!, 혹은 일곱과 여덟의 콜라 열매(다른 이름으로도 불림)라고 불리는 이 종류의 콜라 열매는 극히 희귀하며, 축하, 법, 왕권, 예언, 성취, 영원 등 여러 가지를 상징합니다. 이 기적적이고 소중한 콜라 열매는 초자연적인 효과가 있다고 믿어지므로, 이 인물에게는 헤아릴 수 없는 행운의 징조입니다." # 4455982339947492591
+  RICE_niger_delta_ate_yams_early: "새 얌 축제 전에 얌을 먹었다" # 5692394199151156256
+  RICE_niger_delta_ate_yams_early_desc: "이 인물은 햇감자 축제 전에 갓 수확한 마를 먹다 발각되었습니다. 감히 이런 금기를 어기는 자는 드물겠지만, 이 인물은 개의치 않았거나 마에 대한 갈망이 너무 컸던 모양입니다." # 3122161369431101599
+  RICE_niger_delta_opinion_fair_punishment_but_still_annoyed: "공정한 처벌이지만, 여전히 짜증 나는군" # 5811905442288727131
+  RICE_niger_delta_opinion_declared_yam_crime: "야미 금기를 어겼다고 나를 범죄자로 선포했군" # 17437177006286219035
+  RICE_niger_delta_opinion_broke_yam_taboo: "염분 섭취 금기 파기" # 18281683135473618037
+  RICE_niger_delta_opinion_broke_yam_taboo_not_criminal: "염분 섭취 금기 파기" # 18281683135473618037
+  RICE_niger_delta_yam_festival_party_pooper: "새로운 얌 축제에서 난폭한 행동 금지" # 599893867748574262
+  RICE_niger_delta_new_yam_festival_herbs: "새해 축제의 약초" # 11069935143736996965
+  RICE_niger_delta_yam_king: "얌 왕" # 14010842981977211947
+  RICE_niger_delta_yam_king_desc: "이 인물은 본래 솜씨가 좋거나 (혹은 엄청나게 운이 좋은) 얌 농부였으며, 한때 새로운 얌 축제에서 얌의 왕으로 즉위한 적이 있습니다." # 1560446205148449510
+  RICE_niger_delta_attended_olojo_festival: "최근 $c_ife$의 올라조 축제에 참석했습니다." # 9225039495218267480
+  RICE_niger_delta_olojo_ooni_renewed_oaths_1: "#bold 오요의 오오니#로서 맹세 갱신 (수락 가능)" # 7667371898210255993
+  RICE_niger_delta_olojo_ooni_renewed_oaths_1_desc: "이 오오니가 올라조 축제 기간 동안 충성을 갱신했습니다. 많은 이들이 이 오오니가 축제 기간 동안 그들의 임무를 훌륭하게 수행했다고 믿습니다." # 1857771778227299693
+  RICE_niger_delta_olojo_ooni_renewed_oaths_2: "#bold 대(大) 오오니#로서 맹세 갱신" # 14817565063745262777
+  RICE_niger_delta_olojo_ooni_renewed_oaths_2_desc: "이 오오니께서 올라조 축제 기간 동안 맹세를 갱신하셨습니다. 많은 이들이 이 오오니께서 축제 기간 동안 그 의무를 훌륭하게 수행하여, 특히 분노에 찬 전쟁과 철의 신인 오군을 비롯한 조상들과 정령들이 세상에 축복을 내릴 것이라 믿었습니다." # 1716781648848728801
+  RICE_niger_delta_olojo_ooni_renewed_oaths_3: "#bold 오오니(장엄한 자)로서의 맹세 갱신#" # 9609041927620355123
+  RICE_niger_delta_olojo_ooni_renewed_oaths_3_desc: "이 오오니께서 올라조 축제 기간 동안 서약을 갱신하셨습니다. 많은 이들이 이번 오오니께서 축제 기간 동안 그 임무를 비범하게 수행했다고 믿습니다. 그렇게 함으로써, 그분은 조상들과 정령들, 특히 전쟁과 철의 분노한 신인 오군(Ogun)의 승인을 얻을 뿐만 아니라, 온 땅에 더 큰 평화와 번영의 시대를 알리게 될 것입니다." # 17347135537703464148
+  RICE_niger_delta_olojo_good_health: "오오니의 축복 (건강함)" # 2537562433396862571
+  RICE_niger_delta_olojo_good_health_desc: "이 인물은 오로조 축제 기간 동안 #bold Ọọ̀ni#에게 건강의 축복을 받았습니다." # 9054770412302803526
+  RICE_niger_delta_olojo_good_fortune: "오오니의 축복 (행운)" # 5405524297101784657
+  RICE_niger_delta_olojo_good_fortune_desc: "이 인물은 올라조 축제 기간 동안 오오오니에게 행운의 축복을 받았습니다." # 6413466110371968092
+  RICE_niger_delta_olojo_good_enemies: "오오니의 축복 (적에게 저주를 내림)" # 1867182518106315827
+  RICE_niger_delta_olojo_good_enemies_desc: "이 인물은 올라조 축제 기간 동안 오오니에게서 그들의 적들에게 불운의 축복을 받았습니다." # 6956419941408035659
+  RICE_restored_ooni_opinion: "$c_ife$의 오오니를 복원했습니다" # 18078078702167312821
+  RICE_niger_delta_opinion_good_ooni_gift: "구슬 왕관 수여식에 걸맞은 훌륭한 선물을 주셨습니다." # 12849134424971205936
+  RICE_niger_delta_opinion_bad_ooni_gift: "구슬 왕관 수여식을 위한 의심스러운 선물을 받음" # 13617358565853933700
+  RICE_niger_delta_opinion_insulting_gift: "구슬 왕관 수여식을 위해 나에게 모욕적인 선물을 주려 했군" # 14119441065631695305
+  RICE_niger_delta_opinion_chastised_me: "제대로 해내지 못한 것에 대해 질책받다" # 14576149519324036759
+  RICE_niger_delta_opinion_didnt_do_job: "국정 업무에 집중하지 못했음" # 10458470509070206257
+  RICE_niger_delta_opinion_fun_chat: "재미있는 대화" # 9611815607022778953
+  RICE_niger_delta_shared_elephant_meat: "지역 마을과 코끼리 고기를 나누었습니다" # 5540246956984476579
+  RICE_niger_delta_glassmaking_industry_good: "$c_ife$의 번성하는 유리 제조 산업" # 3083348090107601163
+  RICE_niger_delta_regularly_chews_kola_nuts: "코라 열매를 정기적으로 씹는 데 부지런함" # 3353882233235552249
+  RICE_niger_delta_request_beaded_crown: "오니에게 대관식을 요청하십시오" # 13037285070024559237
+  RICE_niger_delta_request_beaded_crown_tooltip: "$c_ife$의 오오니는 내게 [beaded_crown|E]를 수여할 수 있다네" # 15207603971600684903
+  RICE_niger_delta_request_beaded_crown_desc: "$c_ife$의 오오니는 [GetGeographicalRegion('RICE_yorubaland_region').GetName] 내 많은 이들과 그 너머의 사람들로부터 최고의 세속적, 영적 권위자로 여겨집니다. 신하들의 존경을 얻고 나의 통치를 정당화하기 위해, 나는 오오니에게서 오두두와의 [beaded_crown|E]를 받아 대관식을 치르도록 요청해야 하며, 만약 요청이 받아들여진다면, 그것을 받기 위해 $c_ife$로 여행해야 합니다." # 3467437004977874957
+  RICE_niger_delta_request_beaded_crown_effect_tooltip: "만약 오오니가 그대의 선물을 흡족하게 여긴다면, 그들은 그대에게 [beaded_crown|E]를 수여할 것이며 그에 상응하는 은혜(있다면)를 받게 될 것입니다." # 6333527103719400394
+  RICE_niger_delta_request_beaded_crown_confirm: "선물을 오오니에게 보내십시오!" # 16843615752902959199
+  RICE_niger_delta_request_beaded_crown_context_tooltip: "$RICE_restore_ooni_decision_context_tooltip$" # 17018759679609845818
+  RICE_not_received_beaded_crown_req: "[GetTitleByKey('d_ooni_of_ife').GetNameNoTier]로부터 [beaded_crown|E]를 받지 못했습니다." # 14768677800160660812
+  RICE_niger_delta_pick_a_ooni_gift_type: "오오니에게 줄 선물을 고르시오" # 17415640313086143662
+  RICE_niger_delta_pick_a_ooni_gift_type_gui: "#ọọ̀ni#께 드릴 선물을 고르십시오" # 11071766471081169925
+  RICE_niger_delta_modest_sacrifice_option: "#bold 겸손한 희생#!" # 5697175821562192722
+  RICE_niger_delta_modest_sacrifice_option_desc: "#bold Ọọ̀ni#의 이름으로 소박한 희생을 바치십시오" # 4367446655499835305
+  RICE_niger_delta_modest_sacrifice_option_tooltip: "$EFFECT_LIST_BULLET$ #V [gold_i] 50#을 지출하여 오오니(Ọọ̀ni)의 이름으로 소박한 제물을 바칩니다.\n$EFFECT_LIST_BULLET$이는 다른 혜택이 없는 기본적인 선택지입니다." # 8286450849286838758
+  RICE_niger_delta_gift_gold_oduduwa_shrine_option: "#bold 오두두와의 신사에 대한 헌납#!" # 13373129228138075442
+  RICE_niger_delta_gift_gold_oduduwa_shrine_option_desc: "$c_ife$에 있는 위대한 오두두와 신당에 기부금을 보내십시오" # 13327947327589002287
+  RICE_niger_delta_gift_gold_oduduwa_shrine_option_tooltip: "$EFFECT_LIST_BULLET$위대한 오두두와 신전($c_ife$)에 #V [gold_i] 100#을 기부합니다.\n$EFFECT_LIST_BULLET$신앙심을 #V [piety_i] 200# 얻습니다!\n$EFFECT_LIST_BULLET$오오니는 신앙심을 #V [piety_i] 200# 얻습니다!" # 4458018664412721781
+  RICE_niger_delta_sacred_vow_option: "#bold 신성한 맹세#!" # 16066949343201435993
+  RICE_niger_delta_sacred_vow_option_desc: "#bold 오니#를 돕겠다는 신성한 맹세를 하십시오" # 7071576680256999928
+  RICE_niger_delta_sacred_vow_option_tooltip: "$EFFECT_LIST_BULLET$오오니가 그대에게 [strong_hook|E]를 얻게 됩니다.\n$EFFECT_LIST_BULLET$#V [prestige_i] 100#을 잃습니다!" # 5461795084659736440
+  RICE_niger_delta_art_gift_option: "#bold 귀중한 예술품#!" # 3340051818392274527
+  RICE_niger_delta_art_gift_option_desc: "[niger_delta_craft_guilds|E]에서 만든 아름다운 예술품을 오오니에게 바칩니다." # 9069028866742301578
+  RICE_niger_delta_art_gift_option_tooltip: "$EFFECT_LIST_BULLET$당신의 [niger_delta_craft_guilds|E]가 만든 아름다운 예술품을 보내기 위해 #V [gold_i] 100# 소모\n$EFFECT_LIST_BULLET$#V [prestige_i] 200# 획득!\n$EFFECT_LIST_BULLET$Ọọ̀ni는 #V [prestige_i] 200# 획득!" # 3312191106007800510
+  RICE_niger_delta_land_option: "#bold Ọọ̀ni 가문을 위한 땅#!" # 10070177728634651501
+  RICE_niger_delta_land_option_desc: "귀하가 소유한 [county|E]에 있는 Ọọ̀ni의 [family_member|E]를 제시하십시오" # 3861152655139698491
+  RICE_niger_delta_land_option_tooltip: "$EFFECT_LIST_BULLET$오오니의 [dynasty|E]에 속한 무작위 [family_member|E]가 귀하가 소유한 무작위 [county|E]를 받습니다.\n$EFFECT_LIST_BULLET$만약 귀하가 [duke|E] [title_tier|E] 이상이라면, 이 친족은 귀하의 [vassal|E]가 됩니다." # 14372014016430849074
+  RICE_niger_delta_low_concubine_option: "#bold 왕비#!" # 8107510881791996213
+  RICE_niger_delta_low_concubine_option_desc: "#bold Ọọ̀ni#에게 [concubine|E]를 하사하십시오" # 6992945365711696532
+  RICE_niger_delta_low_concubine_option_tooltip: "$EFFECT_LIST_BULLET$ #V [gold_i] 100#을 지불하고 오요(Ọọ̀ni)에게 바칠 마음에 드는 인물을 [concubine|E]로 찾습니다.\n$EFFECT_LIST_BULLET$ #V [prestige_i] 100#과 #V [piety_i] 100#을 얻습니다." # 13474729801465477740
+  RICE_niger_delta_high_concubine_option: "#bold 지위 높은 왕비#!" # 11249114577221834421
+  RICE_niger_delta_high_concubine_option_desc: "Ọọ̀ni에게 그들의 [concubine|E]나 [spouse|E]가 될 [family_member|E]를 주십시오." # 7212667637781047899
+  RICE_niger_delta_high_concubine_option_tooltip: "$EFFECT_LIST_BULLET$귀하의 [court|E]에 있는 적절한 성별의 무작위 [family_member|E]가 [concubine|E] 또는 [spouse|E]로 Ọọ̀ni의 가문에 합류하도록 선정됩니다.\n$EFFECT_LIST_BULLET$#V [prestige_i] 100# 및 #V [piety_i] 100# 획득!" # 13346048877901087964
+  RICE_niger_delta_no_gift_option: "#bold 선물 없음#!" # 2589980258949695363
+  RICE_niger_delta_no_gift_option_desc: "오오니에게 선물을 바치지 마십시오" # 9897655553401707787
+  RICE_niger_delta_no_gift_option_tooltip: "$EFFECT_LIST_BULLET$오오니의 궁정에 그대가 있다는 것만으로도 충분합니다. 그대에게 줄 선물이 필요하지 않습니다!\n$EFFECT_LIST_BULLET$#V [prestige_i] 200#과 #V [piety_i] 200#을 잃습니다!\n$EFFECT_LIST_BULLET$#X 이것을 #bold 하지# 마십시오. 오오니의 분노를 사고 큰 스캔들을 일으킬 것이 거의 확실합니다!#!" # 9691639306418214155
+  RICE_niger_delta_commission_art_from_craft_guilds: "길드에 예술품 제작을 의뢰하기" # 13934305933212997541
+  RICE_niger_delta_commission_art_from_craft_guilds_tooltip: "저는 왕실 [niger_delta_craft_guilds|E]에 대한 권한을 가지고 있습니다. 그들이 저를 위해 무엇을 만들 수 있을까요?" # 11766547759591833910
+  RICE_niger_delta_commission_art_from_craft_guilds_desc: "[ROOT.Char.GetDynasty.GetName] [dynasty|E] 가문에는 우리 부름에 응하는 여러 씨족 기반의 왕실 [niger_delta_craft_guilds|E]가 있습니다. [ROOT.Char.GetTitleAsNameNoTooltip]인 저는 그들에게 다른 이들에게 저의 지위와 권력을 보여줄 무언가를 제작하도록 의뢰할 수 있습니다." # 7406955968306272286
+  RICE_niger_delta_commission_art_from_craft_guilds_effect_tooltip_1: "어떤 [niger_delta_craft_guild|E]에 예술 작품 제작을 의뢰하느냐에 따라 다양한 품질의 [artifact|E]를 받게 될 것입니다." # 4163558950086507539
+  RICE_niger_delta_pick_a_guild_type: "예술 길드를 선택하여 주문하십시오" # 12240925159608836027
+  RICE_niger_delta_pick_a_guild_type_gui: "어떤 [niger_delta_craft_guild|E]에 예술품 제작을 의뢰할지 선택하십시오" # 13695225980050359004
+  RICE_niger_delta_commission_art_from_craft_guilds_confirm: "장인 조합에 알리시오!" # 5239815313275454476
+  RICE_niger_delta_commission_art_from_craft_guilds_context_tooltip: "#emphasis 역사적 배경:#! 나이지리아의 역사적 문명들은 베냉의 청동 세공품이나 요루바의 구슬 왕관과 같은 예술품으로 유명하며, 때로는 학계에서조차 이러한 문화에 대한 논의에서 불균형적으로 큰 비중을 차지하기도 합니다. 이러한 예술품을 제작한 장인들은 종종 이 지역 왕조에 소속된 공식적인 조합 아래 조직되었는데, 이는 왕실의 위신과 자원 통제를 강화하는 동시에 장인들에게 더 큰 정치적 권력과 영향력을 부여했습니다." # 6006520211780043874
+  RICE_niger_delta_bronze_casters_option: "#bold 청동 주조공#!" # 6633148397998598297
+  RICE_niger_delta_bronze_casters_option_desc: "청동 주조공들은 로스트 왁스 주조 기법을 사용하여 청동 예술품을 만듭니다." # 16724826811781384834
+  RICE_niger_delta_bronze_casters_option_tooltip: "$EFFECT_LIST_BULLET$#Bold 최소 비용: @gold_icon! 100#!\n$EFFECT_LIST_BULLET$다른 유형의 예술품보다 더 많은 [piety|E]를 제공합니다\n$EFFECT_LIST_BULLET$ [artifacts|E]는 [learning|E]를 향상시킵니다" # 3493472538847922066
+  RICE_niger_delta_ivory_and_wood_carvers_option: "#bold 상아 및 목공예가#!" # 5414632897886982105
+  RICE_niger_delta_ivory_and_wood_carvers_option_desc: "상아와 목공예는 서로 밀접하게 얽혀 있는 두 가지 기술입니다." # 801875030425394003
+  RICE_niger_delta_ivory_and_wood_carvers_option_tooltip: "$EFFECT_LIST_BULLET$#Bold 최소 비용: @gold_icon! 50#!\n$EFFECT_LIST_BULLET$ [piety|E], [prestige|E], 및 [dynasty_prestige|E] 제공 측면에서는 다른 유형의 예술품보다 덜 강력하지만, 일반적으로 더 저렴합니다.\n$EFFECT_LIST_BULLET$ [artifacts|E]는 각각 [martial|E]와 [intrigue|E]를 향상시킵니다." # 7638086074188413191
+  RICE_niger_delta_beadmakers_option: "#bold 구슬 제작자#!" # 9276995033503259963
+  RICE_niger_delta_beadmakers_option_desc: "유리나 산호로 만든 아름다운 구슬은 진정한 권력과 영향력의 상징입니다." # 6201681239411250761
+  RICE_niger_delta_beadmakers_option_tooltip: "$EFFECT_LIST_BULLET$#Bold 최소 비용: @gold_icon! 125#!\n$EFFECT_LIST_BULLET$다른 유형의 예술품과 달리 [dynasty_prestige|E]를 제공합니다\n$EFFECT_LIST_BULLET$구슬 [artifacts|E]는 해안 지역을 제외하고는 유리로 만들어지며, 해안 지역에서는 산호로 만들어집니다\n$EFFECT_LIST_BULLET$ [artifacts|E]는 [diplomacy|E]를 향상시킵니다" # 3278268256333708612
+  RICE_niger_delta_ironsmiths_option: "#bold 대장장이#" # 2277589034626174317
+  RICE_niger_delta_ironsmiths_option_desc: "철은 무기나 도구 외에도 예술을 위해서도 사용될 수 있습니다." # 17041818229730536719
+  RICE_niger_delta_ironsmiths_option_tooltip: "$EFFECT_LIST_BULLET$#Bold 최소 비용: @gold_icon! 100#!\n$EFFECT_LIST_BULLET$다른 유형의 예술품보다 더 많은 [prestige|E]를 제공합니다\n$EFFECT_LIST_BULLET$ [artifacts|E]는 [stewardship|E]를 향상시킵니다" # 4848941242814756796
+  RICE_niger_delta_currently_commissioning_artwork_req: "[niger_delta_craft_guilds|E]는 현재 귀하를 대신하여 위탁 작업을 진행하고 있지 않습니다." # 3787264981226657666
+  RICE_niger_delta_form_craft_guilds: "#bold 클랜 기반 장인 조합#을 조직하십시오" # 15305209124962147313
+  RICE_niger_delta_form_craft_guilds_tooltip: "저는 왕실 [niger_delta_craft_guilds|E]에 대한 권한을 가지고 있습니다. 그들이 저를 위해 무엇을 만들 수 있을까요?" # 11766547759591833910
+  RICE_niger_delta_form_craft_guilds_desc: "[ROOT.Char.GetDynasty.GetName] [dynasty|E]는 훌륭하지만, 더욱 위대해질 수 있습니다. 우리의 힘을 공고히 하기 위해, 우리는 영토 내에 거주하는 장인들을 왕실 [niger_delta_craft_guilds|E]로 공식적으로 조직할 것입니다. 그들의 기존 사회적 연결망을 우리의 정치 구조에 통합함으로써 상호 이익을 얻을 것입니다." # 13759703278549350569
+  RICE_niger_delta_form_craft_guilds_effect_tooltip_1: "귀하의 [dynasty|E]는 조직하는 [niger_delta_craft_guild|E]의 종류에 따라 [modifier|E]를 받게 되며, 이는 또한 [artifacts|E] 및 기타 보너스를 위해 $RICE_niger_delta_commission_art_from_craft_guilds$ [decision|E]를 내릴 수 있게 해줄 것입니다." # 11383363465077471530
+  RICE_niger_delta_pick_a_guild_to_form_type: "길드를 결성할 대상을 선택하십시오" # 13423593117619956919
+  RICE_niger_delta_pick_a_guild_to_form_type_gui: "[dynasty|E]의 후원 아래 [niger_delta_craft_guild|E]를 조직하십시오." # 17069106205553194558
+  RICE_niger_delta_form_craft_guilds_confirm: "우리 왕조의 영광을 위하여!" # 14766228410728520814
+  RICE_niger_delta_form_craft_guilds_context_tooltip: "$RICE_niger_delta_commission_art_from_craft_guilds_context_tooltip$" # 15362765296274945535
+  RICE_niger_delta_form_bronze_casters_option: "#bold 청동 주조공#!" # 6633148397998598297
+  RICE_niger_delta_form_bronze_casters_option_desc: "$RICE_niger_delta_bronze_casters_option_desc$" # 3806465061302088233
+  RICE_niger_delta_form_bronze_casters_option_tooltip: "$EFFECT_LIST_BULLET$ [dynasty|E]는 [GetModifier('RICE_niger_delta_bronze_caster_guild_modifier').GetNameWithTooltip] [modifier|E]를 획득합니다.\n$EFFECT_LIST_BULLET$이 [dynasty|E]의 모든 [landed|E] [rulers|E]는 [decision|E]를 통해 [niger_delta_craft_guilds|E]로부터 #bold 청동#! [artifacts|E]을 제작할 수 있는 능력을 얻습니다 (다른 요구 조건이 충족되는 한).\n$EFFECT_LIST_BULLET$청동 예술품은 다른 종류의 예술품보다 더 많은 [piety|E]를 가져오는 경향이 있습니다.\n\n#X 이 선택지는 귀하의 [culture|E]가 $innovation_lost_wax_casting$ [innovation|E]를 보유한 경우에만 사용 가능합니다#!" # 5332719585259932855
+  RICE_niger_delta_form_ivory_and_wood_carvers_option: "#bold 상아 및 목공예가#!" # 5414632897886982105
+  RICE_niger_delta_form_ivory_and_wood_carvers_option_desc: "$RICE_niger_delta_ivory_and_wood_carvers_option_desc$" # 7019924467265954789
+  RICE_niger_delta_form_ivory_and_wood_carvers_option_tooltip: "$EFFECT_LIST_BULLET$ [dynasty|E]는 [GetModifier('RICE_niger_delta_ivory_and_wood_carver_guild_modifier').GetNameWithTooltip] [modifier|E]를 얻게 됩니다.\n$EFFECT_LIST_BULLET$이 [dynasty|E]의 모든 [landed|E] [rulers|E]는 [niger_delta_craft_guilds|E]에서 예술품 위탁 [decision|E]을 내릴 때 #bold 상아 및 목공예# [artifacts|E]를 위탁할 수 있는 능력을 얻습니다 (다른 요구 사항이 충족되는 한).\n$EFFECT_LIST_BULLET$상아 및 목공예품은 다른 유형의 예술품보다 성능은 떨어지지만, 일반적으로 더 저렴합니다." # 5220742441865406782
+  RICE_niger_delta_form_beadmakers_option: "#bold 구슬 제작자#!" # 9276995033503259963
+  RICE_niger_delta_form_beadmakers_option_desc: "$RICE_niger_delta_beadmakers_option_desc$" # 8116753455494544314
+  RICE_niger_delta_form_beadmakers_option_tooltip: "$EFFECT_LIST_BULLET$ [dynasty|E]는 [GetModifier('RICE_niger_delta_bead_maker_guild_modifier').GetNameWithTooltip] [modifier|E]를 획득합니다.\n$EFFECT_LIST_BULLET$이 [dynasty|E]의 모든 [landed|E] [rulers|E]는 [niger_delta_craft_guilds|E]에게 예술품 제작을 의뢰하는 [decision|E]를 수행할 때 #bold 유리 또는 산호 구슬#! [artifacts|E]을 제작할 수 있는 능력을 얻습니다 (다른 조건이 충족되는 한).\n$EFFECT_LIST_BULLET$유리 또는 산호 구슬은 다른 유형의 예술품보다 더 많은 [dynasty_prestige|E]를 가져오는 경향이 있습니다.\n\n #X 이 선택지는 귀하가 [king|E] 또는 [emperor|E] [title_tier|E]이거나, [GetTitleByKey('c_ife').GetName] 또는 [GetTitleByKey('d_ooni_of_ife').GetNameNoTier]를 소유하고 있을 때만 가능합니다#!" # 6469700941583974094
+  RICE_niger_delta_form_ironsmiths_option: "#bold 대장장이#" # 2277589034626174317
+  RICE_niger_delta_form_ironsmiths_option_desc: "$RICE_niger_delta_ironsmiths_option_desc$" # 12442689944642001794
+  RICE_niger_delta_form_ironsmiths_option_tooltip: "$EFFECT_LIST_BULLET$ [dynasty|E]는 [GetModifier('RICE_niger_delta_ironsmith_guild_modifier').GetNameWithTooltip] [modifier|E]를 얻습니다.\n$EFFECT_LIST_BULLET$이 [dynasty|E]의 모든 [landed|E] [rulers|E]는 다른 요구 사항이 충족되는 한, [niger_delta_craft_guilds|E]에게 예술품 제작을 의뢰하는 [decision|E]를 내릴 때 #bold 철#! [artifacts|E]을 제작할 수 있는 능력을 얻습니다.\n$EFFECT_LIST_BULLET$철 예술품은 다른 종류의 예술품보다 더 많은 [prestige|E]를 가져오는 경향이 있습니다.\n\n#X 이 선택지는 $prestige_level_3$ [prestige_level|E]를 보유하고 있을 때만 이용 가능합니다#!" # 17597864861994430832
+  RICE_niger_delta_celebrate_new_yam_festival: "새 얌 축제를 기념하라" # 4300511346665031132
+  RICE_niger_delta_celebrate_new_yam_festival_tooltip: "첫 번째 얌 수확이 곧 다가옵니다...." # 10818969715745911666
+  RICE_niger_delta_celebrate_new_yam_festival_desc: "수세기 동안 얌은 [ROOT.Char.GetCulture.GetCollectiveNoun]과 대서양 연안에서 유래한 다른 서아프리카 민족들에게 중요한 식량원이었습니다. 곧 얌 수확이 다가오니, 성대한 규모의 새 얌 축제를 준비하고 풍성한 수확에 대해 [ROOT.Char.GetFaith.FertilityGodName]께 감사드려야겠습니다." # 17450084072081089437
+  RICE_niger_delta_celebrate_new_yam_festival_effect_tooltip_1: "[prestige|E], [piety|E]와 잠재적으로 다양한 긍정적인 [character_modifiers|E]를 얻게 될 것입니다." # 5873696222235589347
+  RICE_niger_delta_celebrate_new_yam_festival_effect_tooltip_2: "축제가 끝날 무렵, 귀하가 소유한 모든 [county|E]는 [GetModifier('RICE_niger_delta_successful_new_yam_festival').GetNameWithTooltip] [county_modifier|E]를 얻을 확률을 갖게 됩니다." # 1515568779373752201
+  RICE_niger_delta_celebrate_new_yam_festival_confirm: "수확철이로다!" # 9414676606555557168
+  RICE_niger_delta_celebrate_new_yam_festival_context_tooltip: "#emphasis 역사적 배경:#! 새로운 마 축제는 서아프리카의 많은 아프리카 사회에서 열리는 연례 행사 유형으로, '마의 지대'라고 불리는 지역에 해당합니다. 이 지대는 서아프리카의 많은 삼림 및 해안 지역에 걸쳐 있으며, 전통적으로 마가 주요 농작물이었습니다. 축제의 구체적인 내용은 문화마다 크게 다르지만, 마 수확의 시작을 알리고 공동체 유대와 전통을 강화하는 축제적이면서도 사회적, 종교적 의식으로 볼 수 있습니다." # 6932929318822497571
+  RICE_decision_new_yam_month_req: "달이 7월, 8월 또는 9월입니다." # 12052828199398751220
+  RICE_niger_delta_partake_olojo_festival: "올로조 축제에 참여하십시오" # 2879845265586585420
+  RICE_niger_delta_partake_olojo_festival_tooltip: "$c_ife$에서 축하합시다!" # 5982267748934682850
+  RICE_niger_delta_partake_olojo_festival_desc: "오조 축제는 수세기 동안 인류의 요람인 $c_ife$ 시에서 거행되어 왔습니다. 이 축제는 이 지역의 역사, 신화, 문화와 깊이 얽혀 있으며, [ROOT.Char.GetFaith.GetReligion.GetName]의 모든 신도들의 영적 지도자인 $c_ife$의 오오니가 그들의 취임 서약을 갱신하고 특히 오군에게 [ROOT.Char.GetFaith.PantheonTerm]에게 제물을 바치는 기회이기도 합니다. 저는 올해 행사에 참여해야겠습니다." # 9227712785846388356
+  RICE_niger_delta_partake_olojo_festival_effect_tooltip_1: "귀하는 [piety|E]와 잠재적으로 다른 축복을 얻을 수 있습니다" # 4280130820697468152
+  RICE_niger_delta_partake_olojo_festival_effect_tooltip_2: "올로조 축제 기간 동안, 여러분은 군중과 함께 [GetTitleByKey('d_ooni_of_ife').GetNameNoTier]의 소유자이신 오오니께 다양한 축복을 기원할 수 있습니다." # 3111661709903795723
+  RICE_niger_delta_partake_olojo_festival_effect_tooltip_3: "[GetTitleByKey('d_ooni_of_ife').GetNameNoTier]의 #bold 오오니#로서, 축제 기간 동안 특별한 책임을 지게 되며, 행사가 시작되기 전에 스스로를 은둔시켜야 합니다. 하지만 그 대가로 추가적인 [piety|E], [prestige|E]와 어쩌면 특별한 [character_modifiers|E]를 얻게 될 것입니다." # 14071470379921832832
+  RICE_niger_delta_partake_olojo_festival_confirm: "축제를 준비합시다!" # 9947006544634435829
+  RICE_niger_delta_partake_olojo_festival_context_tooltip: "#emphasis 역사적 배경:#! 올라조 축제는 나이지리아의 도시 이페, 즉 일레-이페에서 열리는 가장 중요한 연례 축제 중 하나입니다. 이 축제는 특히 이페의 전통 통치자인 소위 오니(Ooni)와 관련하여 종교적, 문화적, 정치적 기능을 수행합니다. 전설에 따르면, 이 축제는 세 번째 오니인 오군(Ogun)에 의해 시작되었습니다." # 3581789694535750350
+  RICE_niger_delta_offer_kola_nuts: "[ROOT.Char.GetFaith.HighGodName]께 콜라 열매를 바칩니다" # 7380141921784055936
+  RICE_niger_delta_offer_kola_nuts_tooltip: "[kola_nuts|E]를 [ROOT.Char.GetFaith.HighGodName]께 봉헌합시다." # 2027223208083744632
+  RICE_niger_delta_offer_kola_nuts_desc.religion: "[ROOT.Char.GetFaith.GetAdherentNamePlural] 사이에서 [kola_nuts|E]는 이 세상의 상호 연결성을 뜻하는 #italic 이그웨부이케#! 철학의 상징으로 숭배받고 있습니다. 게다가, 그것이 미래에 대해 많은 것을 점치는 데 도움이 될 수 있다고도 합니다. 저는 [ROOT.Char.GetFaith.HighGodName]께 [kola_nuts|E]를 바쳐야겠습니다." # 478444241815159737
+  RICE_niger_delta_offer_kola_nuts_desc.culture: "[ROOT.Char.GetCulture.GetCollectiveNoun] 내에서 [kola_nuts|E]는 이 세상의 상호 연결성을 뜻하는 #italic 이그웨부이케#! 철학의 상징으로 숭배됩니다. 게다가 이 열매가 미래에 대해 많은 것을 점치게 해준다고도 합니다. 저는 [ROOT.Char.GetFaith.HighGodName]께 [kola_nuts|E]를 바쳐야겠습니다." # 404895328678263508
+  RICE_niger_delta_offer_kola_nuts_confirm: "콜라 열매를 준비하시오!" # 5968063443938544015
+  RICE_niger_delta_offer_kola_nuts_tt: "당신은 최초로 바치는 [kola_nut|E]의 엽상(lobe) 수에 따라 [piety|E]와 [character_modifier|E]를 얻습니다." # 4075744649005432250
+  RICE_niger_delta_offer_kola_nuts.one: "하나의 엽" # 468013536061738115
+  RICE_niger_delta_offer_kola_nuts.two: "두 개의 엽" # 10421293066643899363
+  RICE_niger_delta_offer_kola_nuts.three: "세 개의 엽" # 15046904093378546522
+  RICE_niger_delta_offer_kola_nuts.four: "네 개의 엽" # 9346604062461928895
+  RICE_niger_delta_offer_kola_nuts.five: "다섯 엽맥" # 3845836619411111739
+  RICE_niger_delta_offer_kola_nuts.six: "여섯 엽" # 242294989976330953
+  RICE_niger_delta_offer_kola_nuts.seven: "일곱 개의 엽맥" # 16695914474580972668
+  RICE_niger_delta_offer_kola_nuts_context_tooltip: "#emphasis 역사적 배경:#! 콜라 열매는 아프리카에서 중요하며 손님을 환영하거나 점을 치는 데 사용됩니다. 콜라 열매는 상호 연결성과 상호 호혜성이라는 #italic 이그웨부이케#! 철학의 상징으로 여기는 이그보족에게 가장 존경받으며, 사회적, 종교적 맥락에서 다양하게 사용됩니다. 콜라 열매를 쪼갤 때, 그 조각의 수는 상징적인 의미를 지닙니다. 이 지역의 각 문화마다 해석이 다르지만, 여기에 묘사된 것은 이그보 문화를 기반으로 합니다." # 10452237905767458456
+  RICE_restore_ooni_decision: "$d_ooni_of_ife$를 복원하십시오." # 4025375527148830790
+  RICE_restore_ooni_decision_desc: "$c_ife$ 도시는 [ROOT.Char.GetFaith.GetReligion.GetAdjective] 신앙의 전승에 따르면 인류의 신성한 고향이지만, 그 정당한 통치자인 오오니(Ọọ̀ni) 없이 너무 오랫동안 방치되었습니다. 오오니의 직위는 복원되어야 합니다." # 122635968044414894
+  RICE_restore_ooni_decision_tooltip: "당신은 $c_ife$의 오니가 될 것입니다." # 17066249504630831469
+  RICE_restore_ooni_decision_effect_tooltip: "당신은 $c_ife$의 오니가 될 것입니다." # 17066249504630831469
+  RICE_restore_ooni_decision_confirm: "Ọọ̀ni께서 $c_ife$로 돌아오셨습니다!" # 1966522207050647707
+  RICE_restore_ooni_decision_context_tooltip: "#emphasis 역사적 배경:#! 이페(Ife)는 요루바 민족에게 인류의 요람으로 여겨집니다. 이페(또는 일레-이페)의 통치자인 오오니(Ooni)는 그 결과 막대한 종교적, 세속적 권위를 가지고 있으며 현재도 그러합니다. 근세 초기의 포르투갈 기록 역시 오오니를 교황에 비유하며, 요루바 전설에 나오는 가장 초기 오오니 중 한 명인 오두두와(Oduduwa)는 나중에 요루바와 베냉의 많은 왕실 가문의 전설적인 시조가 되었습니다. 이 지역의 통치자들은 전통적으로 이페로 가서 오두두와의 왕관으로 오오니에게 공식적으로 대관식을 치르곤 했습니다." # 13722673456421954149
+  RICE_niger_delta_restore_ooni_to_ife: "$c_ife$에 대한 통제권을 Ọọ̀ni에게 넘기십시오" # 7831650443159328827
+  RICE_niger_delta_restore_ooni_to_ife_confirm: "$c_ife$의 오오니를 환영합니다!" # 10626361558950675175
+  RICE_niger_delta_restore_ooni_to_ife_desc: "비록 제가 $c_ife$를 통제하고 있지만, 그곳의 진정한 통치자는 [ROOT.Char.GetFaith.GetReligion.GetAdjective] 공동체의 의례적, 정신적 수장인 오오니입니다. 그들이 이 성스러운 도시를 다스려야지, 제가 다스려서는 안 됩니다." # 5652431616704257269
+  RICE_niger_delta_restore_ooni_to_ife_tooltip: "오니가 $c_ife$ 도시를 되찾을 것입니다." # 11100879057465570180
+  RICE_ife_held_by_you_or_vassal_tt: "$c_ife$는 귀하 또는 [vassal|E]가 소유해야 합니다." # 15245609845047900543
+  RICE_ife_is_capital: "$c_ife$는 귀하의 [realm_capital|E]가 아닙니다." # 9634223388718390826
+  niger_delta.0000.t: "xxxxx" # 1951045980481827005
+  niger_delta.0000.desc: "xxxxx" # 1951045980481827005
+  niger_delta.0000.a: "xxxxx" # 1951045980481827005
+  niger_delta.0001.t: "xxxxx" # 1951045980481827005
+  niger_delta.0001.desc: "xxxxx" # 1951045980481827005
+  niger_delta.0001.a: "xxxxx" # 1951045980481827005
+  niger_delta.0002.t: "xxxxx" # 1951045980481827005
+  niger_delta.0002.desc: "xxxxx" # 1951045980481827005
+  niger_delta.0002.a: "xxxxx" # 1951045980481827005
+  niger_delta.0003.t: "xxxxx" # 1951045980481827005
+  niger_delta.0003.desc: "xxxxx" # 1951045980481827005
+  niger_delta.0003.a: "xxxxx" # 1951045980481827005
+  niger_delta.0004.t: "xxxxx" # 1951045980481827005
+  niger_delta.0004.desc: "xxxxx" # 1951045980481827005
+  niger_delta.0004.a: "xxxxx" # 1951045980481827005
+  niger_delta.0005.t: "xxxxx" # 1951045980481827005
+  niger_delta.0005.desc: "xxxxx" # 1951045980481827005
+  niger_delta.0005.a: "xxxxx" # 1951045980481827005
+  niger_delta.0006.t: "새로운 오오니" # 673109813247482825
+  niger_delta.0006.desc: "오랫동안 [ife.GetNameNoTier]에 Ọọ̀ni가 없었습니다. 하지만 이 신성한 도시의 통치자로서, 저는 저의 지배 아래 많은 [yoruba.GetAdjective] 왕관 추장들을 모았으며, 지금이야말로 제가 새로운 Ọọ̀ni임을 선포하여 저의 정치적, 영적 권위를 확고히 할 기회입니다.\n\nỌọ̀ni는 전통적으로 위대한 오두두와(Oduduwa)의 후손이어야 합니다. 일부는 저의 이 칭호에 대한 주장을 의심하지만, 저 외에 이 자리에 적합한 후보자는 거의 없습니다.\n\n이제 저는 새로운 역할에 적응해야 합니다. 전통에 따라 특별한 경우를 제외하고는 더 이상 공적인 영역에 나서지 않을 것이며, 저의 의무를 책임감 있고 명예롭게 수행해야 합니다. 모든 [yoruba.GetAdjective] 통치자들은 요루바(Yorùbá)의 영적 지도자로서 Ọọ̀ni의 으뜸가는 권위를 인정하며, 저의 지도 아래 òrìṣà를 따르는 모든 이들에게 안정과 번영이 분명히 찾아올 것입니다." # 9733489745087848420
+  niger_delta.0006.a: "나의 지도력이 모두에게 영감을 주기를!" # 15190222544057388615
+  niger_delta.0007.t: "$niger_delta.0006.t$" # 12256660068342560015
+  niger_delta.0007.desc: "한동안 [ife.GetNameNoTier]의 오오니 칭호를 잇는 자가 없었습니다. 오오니는 [yoruba.GetAdjective] 공동체의 의례적, 영적 수장이었습니다. [GetGeographicalRegion('RICE_yorubaland_region').GetName] 및 그 외 지역의 헌신적인 [yoruba.GetAdjective] 사람들은 [ife.GetNameNoTierNoTooltip]의 신성한 중요성을 인지하고 있었기에, 오오니의 지도가 없이는 방황하고 있었습니다.\n\n이제 그들에게는 상황이 달라지고 있습니다. [reformer.GetFirstName] 께서는 새로운 [ife.GetNameNoTier]의 오오니로 선포될 만큼 충분한 권력과 위세를 얻으셨습니다. [reformer.GetSheHe|U]께서는 이미 전통에 따라 궁궐로 물러나 대중과의 교류를 거의 하지 않고 계십니다.\n\n결국, 왕을 세우고 지상에서 오리샤의 의례적 대제사장의 역할을 하는 오오니의 전통적인 역할이 되돌아온 것입니다." # 16538742212788729472
+  niger_delta.0007.a: "[yoruba.GetAdjectiveNoTooltip] 공동체에 새로운 날이 밝았습니다!" # 8647533020215012945
+  niger_delta.0007.b: "흥미로운 소식이로군…." # 14999355406101336855
+  niger_delta.0008.t: "xxxxx" # 1951045980481827005
+  niger_delta.0008.desc: "xxxxx" # 1951045980481827005
+  niger_delta.0008.a: "xxxxx" # 1951045980481827005
+  niger_delta.0009.t: "xxxxx" # 1951045980481827005
+  niger_delta.0009.desc: "xxxxx" # 1951045980481827005
+  niger_delta.0009.a: "xxxxx" # 1951045980481827005
+  niger_delta.0010.t: "콜라 열매를 바치다" # 15193859793097383096
+  niger_delta.0010.desc.intro: "저는 오늘 의식을 위해 제가 할 수 있는 모든 준비를 마쳤습니다. [ROOT.Char.Custom('DefaultPriestTitlePlural')]의 도움을 받아 저는 [ROOT.Char.GetFaith.HighGodName]께 다양한 기도와 성가를 올리고, 특히 신성한 코라 열매를 바쳤습니다. 첫 번째 코라 열매를 쪼갠 후, 그 열매에 몇 개의 엽이 있는지 확인합니다." # 6151181869697110957
+  niger_delta.0010.desc.one: "\n\n한 조각이로군.\n\n젠장! #italic 오지 오그비#!라고 불리는 이 콜라 열매는 멍청한 콜라 열매로, 인간이 먹기에는 부정한 것으로 여겨지며 오직 하늘에나 바칠 만한 것이지. 당장 버리겠지만, 이것은 아무래도 불길한 징조로구나." # 14763527220754890479
+  niger_delta.0010.desc.two: "\n\n두 조각이로군.\n\n유감스럽게도. #italic 오지 그워로#!라 불리는 이 콜라 열매는, 둘이라는 숫자가 균형을 이루지 못하고 영혼의 것이라 여겨지기에 의심의 눈초리를 받는다. 즉시 버리겠지만, 어쨌든 이는 불길한 징조다." # 586340081147645178
+  niger_delta.0010.desc.three: "\n\n세 갈래로 갈라졌군.\n좋은 징조야! #italic 오지 이켕가#!라고 불리는 이 콜라 열매는 용감한 자의 콜라 열매로, 용맹함, 남성 전사 또는 성직자, 그리고 기본적인 가족 단위를 상징하는 남성적인 것으로 여겨지지. 이것은 [ROOT.Char.GetTitleAsNameNoTooltip]인 나의 용기와 힘을 분명히 보여주는군!" # 16758813862284660430
+  niger_delta.0010.desc.four: "네 개의 엽.\n\n훌륭하군! #italic 오지 우도 나 응고지#!라고 불리는 이 콜라 열매는 네 개의 장날과 연결되어 있어 완전함을 상징합니다. 4는 신성한 숫자이므로, 이는 내 삶과 내 영지에 안정과 단결이 있음을 분명히 보여주는 징표입니다." # 2729656961128004253
+  niger_delta.0010.desc.five: "\n\n다섯 갈래로 나뉘었군.\n\n\n아주 훌륭하군! #italic 오지 오무무#!, 즉 번식과 번영의 콜라라고 불리는 이 콜라 열매는 흔치 않으며 풍성한 수확은 물론 막대한 부와 다산을 상징한다네. 의심할 여지 없이, 지금 그리고 가까운 미래에 내 삶에는 많은 축복과 행운이 가득하겠군." # 6137461416203063596
+  niger_delta.0010.desc.six: "\n\n여섯 개의 잎.\n\n얼마나 놀라운가! #italic 오지 오그브그반두#!, 즉 조상의 콜라 열매라 불리는 이 콜라 열매는 희귀하며 [ROOT.Char.GetFaith.PantheonTerm]과 백성 간의 특별한 언약을 상징합니다. 전통적으로 이러한 콜라 열매를 발견하는 것은 큰 번영과 성공을 의미하므로, 이후 추가적인 제물과 의식을 거행하는 것이 중요합니다." # 13232408313336957234
+  niger_delta.0010.desc.seven: "일곱 개의 엽상체.\n축복 중의 축복이로다! #italic 오지 아사-아소타#!, 또는 일곱과 여덟의 코라 열매(다른 이름으로도 불림)라 불리는 이 코라 열매는 극히 희귀하며, 축하, 법, 왕권, 예언, 성취, 영원 등 여러 가지를 상징합니다. 이 기적적이고 소중한 코라 열매는 초자연적인 효력이 있다고 믿어지므로, 나에게는 헤아릴 수 없는 행운의 징표이며, 이는 [ROOT.Char.GetFaith.PantheonTerm]에 대한 희생과 축하 및 연회를 열어야 할 이유입니다!" # 6495920753402575893
+  niger_delta.0010.a: "의식이 이렇게 종료됩니다." # 4204504361146077863
+  niger_delta.0011.t: "xxxxx" # 1951045980481827005
+  niger_delta.0011.desc: "xxxxx" # 1951045980481827005
+  niger_delta.0011.a: "xxxxx" # 1951045980481827005
+  niger_delta.0012.t: "xxxxx" # 1951045980481827005
+  niger_delta.0012.desc: "xxxxx" # 1951045980481827005
+  niger_delta.0012.a: "xxxxx" # 1951045980481827005
+  niger_delta.0013.t: "xxxxx" # 1951045980481827005
+  niger_delta.0013.desc: "xxxxx" # 1951045980481827005
+  niger_delta.0013.a: "xxxxx" # 1951045980481827005
+  niger_delta.0014.t: "xxxxx" # 1951045980481827005
+  niger_delta.0014.desc: "xxxxx" # 1951045980481827005
+  niger_delta.0014.a: "xxxxx" # 1951045980481827005
+  niger_delta.0015.t: "xxxxx" # 1951045980481827005
+  niger_delta.0015.desc: "xxxxx" # 1951045980481827005
+  niger_delta.0015.a: "xxxxx" # 1951045980481827005
+  niger_delta.0016.t: "xxxxx" # 1951045980481827005
+  niger_delta.0016.desc: "xxxxx" # 1951045980481827005
+  niger_delta.0016.a: "xxxxx" # 1951045980481827005
+  niger_delta.0017.t: "xxxxx" # 1951045980481827005
+  niger_delta.0017.desc: "xxxxx" # 1951045980481827005
+  niger_delta.0017.a: "xxxxx" # 1951045980481827005
+  niger_delta.0018.t: "xxxxx" # 1951045980481827005
+  niger_delta.0018.desc: "xxxxx" # 1951045980481827005
+  niger_delta.0018.a: "xxxxx" # 1951045980481827005
+  niger_delta.0019.t: "xxxxx" # 1951045980481827005
+  niger_delta.0019.desc: "xxxxx" # 1951045980481827005
+  niger_delta.0019.a: "xxxxx" # 1951045980481827005
+  niger_delta.0020.t.a: "청동 주조 조합" # 12710285311482205016
+  niger_delta.0020.t.b: "철장인의 길드" # 11500902353018603160
+  niger_delta.0020.t.c: "상아 및 목공예 장인 조합" # 6786520014948063784
+  niger_delta.0020.t.d: "구슬장이 조합" # 15175844818099251947
+  niger_delta.0020.desc.intro.dynasty_head: "[organizer.GetTitleAsNameNoTooltip]으로서, [organizer.GetPrimaryTitle.GetName]의 통치자이며 우리 [organizer.GetDynasty.GetName] 가문의 수장으로서, 저는 우리 영토에 거주하며 우리가 자주 협력하는 수많은 장인들과 인연이 있습니다. 하지만 저는 그들이 우리의 지도 아래 잠재력을 극대화할 수 있다고 믿습니다.\n\n그러므로 저는 다음을 조직하는 것이 현명하다고 판단합니다." # 1827639225338624751
+  niger_delta.0020.desc.intro.dynasty_other: "[organizer.GetDynasty.GetName]이 다스리는 영토에는 많은 장인들이 살고 있습니다. 하지만 저희 가문의 수장인 [organizer.GetTitledFirstName]께서는 그들의 잠재력을 저희의 지도 아래에서 극대화할 수 있다고 생각하십니다.\n\n그리하여 [organizer.GetSheHe]께서는 최근에 다음을 조직하기로 결정하셨습니다." # 10961150381492967918
+  niger_delta.0020.desc.bronze_casters: "#bold 청동 주조 장인#!들을 우리의 왕실 후원 아래 공식적이고 체계적인 길드 체제로 묶으십시오. 그들은 밀랍 주조 기술을 사용하여, 특히 신성한 존재, 조상, 그리고 중요한 지도자를 묘사하는 청동 두상과 같이 [organizer.GetCulture.GetName] 사회에서 정치적, 종교적 중요성을 지니는 아름다운 청동 조각품과 유물을 제작합니다." # 2080401979128748561
+  niger_delta.0020.desc.ironsmiths: "#bold 대장장이#들을 우리의 왕실 후원 아래 공식적이고 체계적인 길드 체제로 통합하십시오. 철은 아프리카의 여러 지역에서 널리 사용되지만, 이곳 [organizer.GetCulture.GetCollectiveNoun] 사이에서는 이 철이 강력한 무기와 일상 도구 그 이상으로 변모하도록 보장할 것입니다. 예술, 조각, 왕실 휘장 등 영감을 주고 위협할 수 있는 모든 것으로 말입니다." # 4718957516072278356
+  niger_delta.0020.desc.ivory_and_wood_carvers: "#bold 상아 및 목공예가#들을 우리 영지 내에서 왕실의 후원 아래 공식적이고 체계적인 길드 체제로 묶으려 합니다. 상아와 목공예는 [organizer.GetCulture.GetCollectiveNoun]에게 매우 밀접하게 얽혀 있는데, 이는 많은 목공예가들이 상아 세공사 훈련을 겸하고 그 반대의 경우도 마찬가지이기 때문입니다. 지역 사냥 길드가 잡은 코끼리의 엄니나 숲이 우거진 지역에서 풍부하게 나는 나무를 사용하여, 이 장인들은 귀족과 평민 모두가 사용할 아름다운 예술품을 만듭니다." # 15118524456277596201
+  niger_delta.0020.desc.beadmakers: "#bold 구슬 세공인#!들을 우리의 왕실 후원 아래 공식적이고 체계적인 길드 시스템으로 조직하십시오. [organizer.GetCulture.GetCollectiveNoun]은 구슬로 만든 왕관이나 장신구 제작에서 보듯이, 권력과 지위의 상징으로서 구슬에 큰 중점을 둡니다. 구슬은 보통 아프리카의 가장 큰 유리 공방에서 생산된 유리나, 해안 지역에서는 흔히 붉은 산호로 만들어집니다." # 12359978552766736368
+  niger_delta.0020.desc.conclusion: "체계적인 길드 제도는 양측 모두에게 이롭습니다. 장인들은 꾸준한 일거리를 확보하고 우리와의 연계를 통해 정치적 영향력을 증대시킬 수 있으며, 우리는 지역 산업을 더 잘 관리하고 심지어 이익을 얻을 수 있으며, 그들의 예술을 후원하여 우리 왕조의 위상을 높일 수 있습니다." # 12800432171706997673
+  niger_delta.0020.a: "우리 왕조는 끊임없이 위대해지고 있소." # 3357880901502164898
+  niger_delta.0021.t: "길드에 위탁하기" # 10532615970770684340
+  niger_delta.0021.desc.intro: "[patron.GetTitleAsNameNoTooltip]로서, 저는 위대한 [patron.GetDynasty.GetName] 왕조 아래 조직된 여러 공예 길드와 인연이 있습니다. 우리는 정기적으로 이 길드들에게 예술 작품을 의뢰하며, 그 대가로 길드들은 안정적인 일감과 증대된 정치적 권력을 얻습니다.\n\n오늘, 저는 다음 길드에게 청동 예술 작품을 의뢰하기로 결정했습니다." # 10768654027677413555
+  niger_delta.0021.desc.bronze: "#bold 청동 주조공#!. 그들은 밀랍 주조 기법을 사용하여 아름다운 청동 조각상과 유물을 제작하며, 이는 특히 [patron.GetCulture.GetName] 사회에서 신성한 존재, 조상, 그리고 중요한 지도자를 묘사한 청동 두상처럼 정치적, 종교적 중요성을 지니는 경우가 많습니다." # 12175576943588251278
+  niger_delta.0021.desc.iron: "#bold 대장장이#!. 철은 아프리카의 많은 지역에서 강력한 무기와 일상 도구로 널리 사용되지만, 이곳, [patron.GetCulture.GetCollectiveNoun]들 사이에서는 영감을 주고 위협하는 예술품, 조각품, 왕실 휘장 등으로도 만들어집니다." # 16049544698945193876
+  niger_delta.0021.desc.ivory_or_wood: "#bold 상아 및 목공예가#!. 상아와 목공예는 [patron.GetCulture.GetCollectiveNoun]에게 밀접하게 얽혀 있는데, 많은 목공예가들이 상아 세공사 훈련을 받거나 그 반대의 경우도 마찬가지입니다. 그들은 현지 사냥 조합이 잡은 코끼리의 엄니나 아프리카 숲에 풍부한 목재를 사용합니다." # 6189017214577926723
+  niger_delta.0021.desc.glass: "#bold 구슬 제작자#!. [patron.GetCulture.GetCollectiveNoun] 문화권에서는 구슬로 만든 왕관이나 장신구 제작에서 볼 수 있듯이, 구슬을 권력과 지위의 상징으로 매우 중요하게 여깁니다. 이 구슬들은 보통 아프리카의 가장 큰 유리 공방 중 일부에서 생산된 유리로 만들어집니다." # 6058507485254696907
+  niger_delta.0021.desc.coral: "#bold 구슬 세공인#!. [patron.GetCulture.GetCollectiveNoun]은 구슬로 만든 왕관이나 장신구 제작에서 볼 수 있듯이, 권력과 지위의 상징으로서 구슬을 매우 중요하게 여깁니다. 나의 수도가 해안가와 가까이 위치하기 때문에, 나의 구슬 세공인들은 붉은 산호로 무언가를 만들어낼 수 있습니다." # 8521627738056677070
+  niger_delta.0021.desc.conclusion: "\n\n이제 공식적인 요청은 마쳤으니, 이 장인들이 무엇을 해낼 수 있을지, 그리고 그들의 노고의 결실이 무엇일지 기다릴 일만 남았군." # 2546094741355752179
+  niger_delta.0021.a: "기대되는군요!" # 11580198128258486747
+  niger_delta.0021.tooltip: "선택하신 [niger_delta_craft_guild|E]가 [artifact|E] 제작을 완료하는 데 최대 1년이 소요됩니다." # 15349769202104155004
+  niger_delta.0021.tooltip.ivory_or_wood: "상아로 만들어진 최종 예술품이 될 확률 50%, 나무로 만들어질 확률 50%입니다." # 11765353589218772918
+  niger_delta.0022.t: "길드가 그들의 예술품을 선보입니다" # 17372443326334910216
+  niger_delta.0022.desc.intro: "얼마 전, 저는 저희 가문을 위해 일하는 공예 길드 중 일부에게 예술 작품을 제작하도록 의뢰했습니다. 드디어 기다림이 끝났습니다!" # 9980122699662795345
+  niger_delta.0022.desc.intro.heir: "얼마 전, [patron.GetTitledFirstName]께서 [patron.GetDynasty.GetName] 가문을 위해 일하는 공예 길드에 예술 작품 제작을 의뢰하셨습니다. [patron.GetFirstNameNoTooltip]께서 더 이상 저희 곁에 안 계시니, 이제 제가 이 예술 작품을 받게 될 것입니다." # 11123425216384192492
+  niger_delta.0022.desc.bronze: "오늘, #bold 청동 주조공예가# 길드가 그들의 노고의 결실을 내게 선보였습니다. 바로 밀랍 주조 기법으로 만들어진 우아한 청동 조각품이었죠." # 3242845245725358174
+  niger_delta.0022.desc.iron: "\n\n오늘, #bold 철세공인#! 조합이 그들의 노고의 결실을 내게 바쳤습니다. 바로 나의 권력을 진정으로 상징하는, 강인하고 견고한 철제 조각품이었습니다." # 3459985424616620704
+  niger_delta.0022.desc.ivory: "오늘, #bold 상아 및 목공예가# 길드가 그들의 노고의 결실을 내게 바쳤습니다. 바로 현지 사냥꾼들이 쓰러뜨린 거대한 코끼리의 엄니로 만든 상아 조각품이었습니다." # 16937551961539809625
+  niger_delta.0022.desc.wood: "오늘 #bold 상아 및 목공예가# 길드가 그들의 노고의 결실을 내게 바쳤습니다. 바로 이 지역에서 발견되는 거대한 나무들로 깎아 만든 목조 조각품이었습니다." # 3719482488216012788
+  niger_delta.0022.desc.glass: "오늘, #bold 유리구슬 세공인#! 조합이 그들의 노고의 결실을 내게 바쳤습니다. 위대한 유리 공방에서 만들어진 유리구슬로 만든 보석들은 의심할 여지 없이 고귀함과 지위를 나타냅니다." # 10530099097956769586
+  niger_delta.0022.desc.coral: "오늘, #bold 산호 세공사#! 길드가 그들의 노고의 결실을 내게 보여주었습니다. 바로 인근 해안에서 수확한 붉은 산호로 만든 보석이었는데, 이는 의심할 여지 없이 고귀함과 지위를 나타냅니다." # 15724780464814556431
+  niger_delta.0022.desc.quality.fair: "이 작품은 괜찮은 수준이며, 저와 같은 #bold [current_patron.GetTitleAsNameNoTooltip]#에게 제출하기에 수용 가능한 기준으로 보입니다. 비록 진정으로 장엄한 것을 만들어내기를 바랐지만, 또 하나의 멋진 예술 작품을 받았으니 불평할 수는 없겠군요." # 12911606022918927786
+  niger_delta.0022.desc.quality.good: "이 예술 작품은 품질이 좋습니다. 이 분야의 정점이라고는 할 수 없지만, 그럼에도 불구하고 상당히 놀라운 작품입니다. 결국, 이는 저와 같은 [current_patron.GetTitleAsNameNoTooltip]에게 걸맞은 헌정물이며, 이 공예 길드의 능력에 좋은 평가를 더해줄 것입니다." # 9626897343912487273
+  niger_delta.0022.desc.quality.excellent: "이 예술 작품은 훌륭한 품질이군요. 이 아름다운 작품을 한눈에 훑어보기만 해도 많은 경외심을 불러일으킬 것이라는 것을 알 수 있습니다. 사람들은 이렇게 말할 것입니다.\"아, [current_patron.GetFirstNameNoTooltip]께서는 이와 같은 예술 작품을 의뢰하실 수 있다니 정말 위대하고 강력한 [current_patron.GetTitleAsNameNoTooltip]이시로군\"" # 3628705891004295745
+  niger_delta.0022.a: "노고에 감사드립니다. 훌륭합니다!" # 11187960800289401404
+  niger_delta.0022.quality_tooltip: "[artifact|E]의 품질이 #bold 훌륭하군#! 수준이므로, 이를 [reforge|E]하여 [court_artifact|E]로 만들 수 있습니다." # 3081353303612429996
+  niger_delta.0023.t: "xxxxx" # 1951045980481827005
+  niger_delta.0023.desc: "xxxxx" # 1951045980481827005
+  niger_delta.0023.a: "xxxxx" # 1951045980481827005
+  niger_delta.0024.t: "xxxxx" # 1951045980481827005
+  niger_delta.0024.desc: "xxxxx" # 1951045980481827005
+  niger_delta.0024.a: "xxxxx" # 1951045980481827005
+  niger_delta.0025.t: "xxxxx" # 1951045980481827005
+  niger_delta.0025.desc: "xxxxx" # 1951045980481827005
+  niger_delta.0025.a: "xxxxx" # 1951045980481827005
+  niger_delta.0026.t: "xxxxx" # 1951045980481827005
+  niger_delta.0026.desc: "xxxxx" # 1951045980481827005
+  niger_delta.0026.a: "xxxxx" # 1951045980481827005
+  niger_delta.0027.t: "xxxxx" # 1951045980481827005
+  niger_delta.0027.desc: "xxxxx" # 1951045980481827005
+  niger_delta.0027.a: "xxxxx" # 1951045980481827005
+  niger_delta.0028.t: "xxxxx" # 1951045980481827005
+  niger_delta.0028.desc: "xxxxx" # 1951045980481827005
+  niger_delta.0028.a: "xxxxx" # 1951045980481827005
+  niger_delta.0029.t: "xxxxx" # 1951045980481827005
+  niger_delta.0029.desc: "xxxxx" # 1951045980481827005
+  niger_delta.0029.a: "xxxxx" # 1951045980481827005
+  niger_delta.0030.t: "날짜 선택" # 9724098820096967044
+  niger_delta.0030.desc: "새로운 얌 축제가 곧 다가옵니다. 이때 우리는 [ROOT.Char.GetCulture.GetName] 사람들이 재배하는 가장 중요한 작물 중 하나인 얌의 첫 수확을 기념할 것입니다.\n축제 준비가 시작되기도 전에, 우리는 축제가 열릴 상서로운 날짜를 정해야 합니다. 그러한 결정은 가볍게 내릴 수 없습니다. 이제 질문은 이것입니다. 올해 축제 날짜를 정하기 위해 [ROOT.Char.GetFaith.PantheonTerm]과 상의할 책임을 누가 져야 할까요?" # 12006160701939178342
+  niger_delta.0030.a: "[ROOT.Char.GetPrimaryTitle.GetNameNoTooltip]의 [ROOT.Char.GetTitleAsNameNoTooltip]으로서, 이는 나의 의무입니다." # 7872283485408623202
+  niger_delta.0030.b: "우리의 박식한 [ROOT.Char.Custom('DefaultPriestTitlePlural')]께서 무엇을 해야 할지 아실 것입니다." # 4481166895461692138
+  niger_delta.0030.c: "현명한 원로들과 다른 저명인사들을 모아 공동으로 결정하십시오." # 9273421286294458256
+  niger_delta.0031.t: "날짜가 정해졌습니다" # 2161572555580603859
+  niger_delta.0031.desc: "신중한 숙고 끝에 축제를 위한 날짜가 정해졌습니다. 그때까지 우리는 이 중대한 행사를 위해 할 수 있는 모든 것을 다할 것이며, 여기에는 이 기간 동안 여러 의식과 관습을 통한 의례적 정화가 포함됩니다.\n\n가장 중요하게, 우리 모두는 축제가 열릴 때까지 나 자신인 [ROOT.Char.GetTitleAsNameNoTooltip]조차도 새로운 마를 먹어서는 안 된다는 규칙을 준수해야 합니다. 이를 어길 경우 공동체와 [ROOT.Char.GetFaith.PantheonTerm]로부터 비난과 경멸을 받게 될 것입니다." # 18239917786127048358
+  niger_delta.0031.a: "준비를 시작하자 - 아무도 새 얌(마)을 먹지 못하게 하시오!" # 17629174550136481712
+  niger_delta.0032.t: "새로운 햇곡식 축제가 시작되다" # 13641201767243103200
+  niger_delta.0032.desc: "새 얌 축제가 오늘 시작되어 얌 수확의 시작을 알립니다.\n\n새 얌, 즉 갓 수확한 얌의 첫 번째 묶음은 성대한 의식을 통해 [ROOT.Char.GetFaith.PantheonTerm]께 제물로 바쳐지며, 다양한 동물들도 함께 희생됩니다. 이 의식이 끝난 후에야 우리는 새 얌을 먹을 수 있습니다.\n\n이 지역의 여러 공동체들은 누가 얌을 먼저 먹을 수 있는지에 대해 각기 다른 전통을 가지고 있습니다. 일부는 [ROOT.Char.Custom('DefaultPriestTitlePlural')]나 통치자들에게 그 영광을 돌리지만, 또 다른 이들은 사회의 가장 낮은 계층이 먼저 먹을 자격이 있다고 말합니다.\n\n첫 번째 새 얌을 먹는 순간, 축제는 진정으로 시작될 것입니다!" # 1062133759299954157
+  niger_delta.0032.a: "[ROOT.Char.GetTitledFirstNameNoTooltip]인 내가 이 새로운 마를 가장 먼저 먹어야 하오." # 10123485931674228196
+  niger_delta.0032.b: "새로 수확한 마는 [ROOT.Char.Custom('DefaultPriestTitlePlural')]이 가장 먼저 먹어야 합니다." # 11545383799141835736
+  niger_delta.0032.c: "가장 천하고 겸손한 백성들이 새 얌을 가장 먼저 먹어야 합니다." # 894143095804098842
+  niger_delta.0033.t: "새 야무 축제가 끝나다" # 3491211309023889432
+  niger_delta.0033.desc: "모든 즐거운 잔치가 끝나고 새 얌 축제가 막을 내렸습니다. 우리 공동체는 의례적으로 정화되었고, [ROOT.Char.GetFaith.PantheonTerm]께서는 넉넉한 제물을 받으셨으며, 모두가 즐거운 시간을 보냈습니다.\n\n저의 전령들과 대표자들이 왕국 전역으로 파견되어 모두에게 새 얌 축제를 알렸습니다. 이 지역의 다른 마을과 부족들도 지금 시작된 얌 수확에 대한 우리의 기쁨과 희망을 함께 나누기를 바랍니다.\n\n축제와 흥분이 가라앉으면서 공동체의 모든 이들은 평소의 삶으로 돌아갑니다. 내년의 얌 축제도 이토록 즐거울 것입니다!" # 2217275283568664652
+  niger_delta.0033.a: "그때까지." # 1324327386911317704
+  niger_delta.0034.t: "정화를 위한 처형" # 10135049622365715991
+  niger_delta.0034.desc: "일부 나이지리아 축제를 기념하는 지역에서는 범죄자를 '희생'시키는 것이 관례입니다. 이는 축제를 앞두고 공동체의 정화 의식에서 이들을 처형하는 것이 중요한 부분으로 여겨지기 때문입니다.\n\n올해, 일부 [ROOT.Char.Custom('DefaultPriestTitlePlural')]들은 이 정화 과정의 일부로 처형될 죄인들 가운데 제 죄수인 [prisoner.GetFullName]을 포함하는 것이 가장 상서롭다고 저에게 말했습니다." # 355020743114742518
+  niger_delta.0034.a: "아주 좋군! 우리는 [prisoner.GetHerHis]의 피로 이 땅을 정화할 것이다." # 3894976613275769437
+  niger_delta.0034.a.tooltip: "이 선택지는 축제가 완료될 때 귀하의 [counties|E]가 [GetModifier('RICE_niger_delta_successful_new_yam_festival').GetNameWithTooltip] [county_modifier|E]를 얻을 확률을 약간 높여줍니다." # 6092434641366319957
+  niger_delta.0034.b: "아니요, [prisoner.GetFirstNameNoTooltip]가 죽어야 할 이유를 모르겠습니다." # 1515207545171812457
+  niger_delta.0035.t: "얌 식인종" # 17048683129002113390
+  niger_delta.0035.desc: "새 야미 축제의 중요한 부분은 #italic 아무도#! 새 얌, 즉 수확을 앞둔 얌을 먹어서는 안 된다는 것입니다. 저와 같은 강력한 [ROOT.Char.GetTitleAsNameNoTooltip]조차도 이럴 수 없습니다. 사실, 저와 같은 엘리트 신분의 인물들에게 가장 엄격한 제한이 가해집니다. 우리는 새 얌뿐만 아니라 그것을 만지는 농부조차도 쳐다보는 것이 금지되어 있습니다.\n\n하지만 여기 우리가 있습니다. [yam_eater.GetTitledFirstName]가 새 얌을 먹다가 현장에서 붙잡혔습니다. [yam_eater.GetSheHe|U]는 얌을 오래전에 수확한 묵은 얌으로 착각했다고 말하는 등 많은 변명을 할 수 있겠지만, 우리의 전통은 이 문제에 대해 분명합니다. [yam_eater.GetFirstNameNoTooltip]는 이 새 얌을 섭취함으로써 중대한 금기를 범했습니다.\n\n이제 [yam_eater.GetHerHis]의 운명을 결정하는 것은 저에게 달려 있습니다." # 16485963529521779457
+  niger_delta.0035.a: "만약 [yam_eater.GetSheHe]가 교훈을 얻었다면, 나는 [yam_eater.GetHerHim]에게 벌을 줄 필요가 없다고 생각하오." # 762017140766384052
+  niger_delta.0035.a.tooltip: "이 선택지는 축제가 끝났을 때 [counties|E]가 [GetModifier('RICE_niger_delta_successful_new_yam_festival').GetNameWithTooltip] [county_modifier|E]를 얻을 확률을 약간 #N 감소시킵니다#!" # 3328272578645640247
+  niger_delta.0035.b: "[yam_eater.GetSheHe]가 벌금을 낸다면, 우리는 [yam_eater.GetHerHim]를 용서해 주겠소." # 11899625274943464799
+  niger_delta.0035.c: "용서할 수 없다! 내가 [yam_eater.GetHerHim]을 범죄자로 공개 선언하겠다." # 6467018420070080398
+  niger_delta.0036.t: "마의 유혹" # 2948254199765111364
+  niger_delta.0036.desc: "새 얌 축제의 중요한 부분은 #italic 아무도#! 새 얌, 즉 수확을 앞둔 얌을 먹어서는 안 된다는 것입니다. 저와 같은 강력한 [ROOT.Char.GetTitleAsNameNoTooltip]조차도 그럴 수 없습니다. 사실, 저와 같은 엘리트 지위에 있는 이들에게 금기가 가장 엄격합니다. 우리는 새 얌뿐만 아니라 그것을 만지는 농부조차도 쳐다봐서는 안 됩니다.\n\n하지만 저 앞에 있습니다. 맛있고 풍성한 얌이 수확을 기다리고 있습니다. 저는 묵은 얌을 먹는 데 진절머리가 나서 그것들을 #italic 정말#! 먹고 싶지만, 그래서는 안 된다는 것을 알고 있습니다.\n\n아니면 그래도 될까요?" # 5550153346262311759
+  niger_delta.0036.a: "나는 얌(마)을 쳐다보지도 말아야 해! 의례적으로 나를 정화해야만 해!" # 12559879976601036802
+  niger_delta.0036.b: "참을 수가 없군. 저 얌(마)을 먹어야겠어!" # 6853211499085675122
+  niger_delta.0036.b.success: "당신은 고구마를 먹다가 들키지 않고 그 맛을 즐깁니다." # 6431176761080206283
+  niger_delta.0036.b.failure: "당신이 고구마를 먹는 모습이 발각되어, 축제가 끝났을 때 [counties|E]가 [GetModifier('RICE_niger_delta_successful_new_yam_festival').GetNameWithTooltip] [county_modifier|E]를 얻을 확률이 감소합니다." # 7564911451130622923
+  niger_delta.0037.t: "마의 유혹" # 2948254199765111364
+  niger_delta.0037.desc.intro: "새로 나온 얌은 정말 맛있었고, 예전 얌과는 전혀 달랐습니다." # 12015115697910182632
+  niger_delta.0037.desc.not_caught: "다행히도 아무도 내가 그것들을 먹는 것을 보지 못했다. 아마도 [ROOT.Char.GetFaith.HighGodName]께서 내가 이 금기를 저지르는 것을 보셨겠지만, 당분간 나를 벌하지 않기로 결정하신 모양이다. 그래도 나의 사악한 행위가 마음에 무겁게 짓누르지만, 정말 참을 수가 없었다. 그 고구마들은 정말 너무나도 맛있었다." # 234547742476063544
+  niger_delta.0037.desc.caught: "\n\n불행히도 들켜버리고 말았소. 목격자가 한 명뿐이었다면 모면할 수 있었을지도 모르지만, 여러 사람이 내가 한 짓을 보았소. 이제 모두가 [ROOT.Char.GetTitledFirstName]께서 이 신성한 금기를 어겼다고 이야기하고 있소.\n\n[ROOT.Char.Custom('DefaultPriestTitlePlural')] 분들께서는 매우 불쾌해하시며, 내가 어떻게든 속죄하기를 요구하고 있소. 조심하지 않으면 내 평판은 더욱 실추될 것이오." # 17759274713114820642
+  niger_delta.0037.a: "새로운 얌 축제를 준비하러 돌아가자!" # 18294444792797076428
+  niger_delta.0037.b: "적절한 벌금을 내고 영혼을 정화하기 위한 제물을 바치겠습니다." # 13140061594784992087
+  niger_delta.0037.b.tooltip: "이 선택지는 축제가 끝났을 때 [counties|E]가 [GetModifier('RICE_niger_delta_successful_new_yam_festival').GetNameWithTooltip] [county_modifier|E]를 얻을 확률을 약간 #N 감소시킵니다#!" # 3328272578645640247
+  niger_delta.0037.c: "그래서 내가 금기를 어긴 게 뭐 어쨌다는 거지? 딱 한 번뿐이었는데." # 7960963726218183229
+  niger_delta.0037.c.tooltip: "이 선택지는 축제가 끝났을 때 [counties|E]가 [GetModifier('RICE_niger_delta_successful_new_yam_festival').GetNameWithTooltip] [county_modifier|E]를 얻을 확률을 약간 #N 감소시킵니다#!" # 3328272578645640247
+  niger_delta.0038.t: "xxxxx" # 1951045980481827005
+  niger_delta.0038.desc: "xxxxx" # 1951045980481827005
+  niger_delta.0038.a: "xxxxx" # 1951045980481827005
+  niger_delta.0039.t: "xxxxx" # 1951045980481827005
+  niger_delta.0039.desc: "xxxxx" # 1951045980481827005
+  niger_delta.0039.a: "xxxxx" # 1951045980481827005
+  niger_delta.0040.t: "야생에 빠져들다" # 17218934636722520382
+  niger_delta.0040.desc: "마 축제는 큰 환희의 시기이며, 때로는 우리 사회의 좀 더 고지식한 구성원들에게는 지나칠 정도가 되기도 합니다. 많은 사람들이 음식을 많이 먹을 뿐만 아니라 상당한 양의 술을 마시며, 가끔은 평소라면 비난받을 만한 은밀한 에로틱한 만남에 대한 소문이 들려오기도 하지만, 축제의 정신없는 분위기 때문에 눈감아주거나 무시되곤 합니다." # 11278350592771581245
+  niger_delta.0040.a: "사람들이 수확을 축하하기 위해 모였습니다. 그들이 즐기도록 내버려 두십시오!" # 7685933852971885572
+  niger_delta.0040.b: "개인적으로는 반대하지만, 제가 할 수 있는 일은 많지 않습니다." # 1917042066467640067
+  niger_delta.0040.c: "올해 축제 기간 동안 저는 더 엄격한 규칙을 시행할 것입니다!" # 14363740668658901733
+  niger_delta.0041.t: "마법의 약초" # 16332926767209331740
+  niger_delta.0041.desc: "일부 지역에서는 [ROOT.Char.GetFaith.PantheonTerm]에 대한 첫 희생 제의에 이어 새 얌 축제가 시작될 때 마법의 약초를 나누어 주는 관습이 있습니다. 이 의식은 얌 작물을 너무 일찍 먹어서 생기는 질병으로부터 모두를 보호한다고 믿어집니다." # 6145035610930667969
+  niger_delta.0041.a: "그러한 것들은 우리의 건강과 영혼을 지키기 위해 필요합니다." # 6455757696540171676
+  niger_delta.0042.t: "조상을 위한 얌" # 14430267083897730567
+  niger_delta.0042.desc: "새얌 축제 기간 동안 사람들은 항상 조상의 사당을 찾으며, 저 또한 마찬가지입니다. 사당에서 저는 선조들께 얌(마)을 바치며 저의 의무를 다하고, 조상들의 축복과 인도를 구합니다." # 10295281430314930312
+  niger_delta.0042.a: "사랑하는 조상님들, 이 마를 즐기시옵소서!" # 16766628344409307969
+  niger_delta.0042.b: "선조들에게는 크고 거대한 마를 바쳐야 합니다!" # 11505436184589240593
+  niger_delta.0042.b.tooltip: "이 선택지는 축제가 끝났을 때 귀하의 [counties|E]가 [GetModifier('RICE_niger_delta_successful_new_yam_festival').GetNameWithTooltip] [county_modifier|E]를 얻을 확률을 약간 #P 증가시킵니다#!" # 15688567836900117895
+  niger_delta.0043.t: "얌의 왕" # 11313273966120153542
+  niger_delta.0043.desc.intro: "때때로 새 얌 축제 기간 동안, 지역 농부들은 누가 최고의 얌을 재배하는지 겨루기 위해 경쟁합니다. 최고의 얌을 재배한 사람은 그 후 소위 '얌 왕'으로 임명되어 막대한 위신과 명예를 얻게 됩니다." # 3146505239781734210
+  niger_delta.0043.desc.no_farmer: "어쩌면 올해 경연 대회에서 우승한 농부에게 어떤 종류의 보상을 제공해야 할지도 모르겠군. 그렇게 한다면 분명 지역 사회에서 나에 대한 평판이 좋아질 테니!" # 3280688292294519724
+  niger_delta.0043.desc.farmer: "올해의 승자는 [farmer.GetFullName]라는 농부입니다. [farmer.GetSheHe|U]는 [farmer.GetHerHis] 농장에서 거둔 첫 마 생산량이 인상적인 것을 보면, 보통 농부보다는 훨씬 재능이 있거나(아니면 운이 매우 좋거나) 그렇다고들 합니다.\n\n어쩌면 [farmer.GetFirstNameNoTooltip]에게 상을 주어야 할지도 모르겠습니다. 사실, 농업에 관한 [farmer.GetHerHis]의 지식과 능력을 고려하면, [farmer.GetHerHim]을 제 궁정으로 초대하는 것이 저에게 이로울 수도 있겠군요." # 6871748039367424591
+  niger_delta.0043.a: "명성과 명예만으로도 충분히 좋은 보상입니다." # 16015823980921374713
+  niger_delta.0043.b: "좋은 생각이군. 이 농부에게 걸맞은 선물을 주겠어!" # 10139318676638694629
+  niger_delta.0043.c: "[farmer.GetFirstNameNoTooltip]에게 선물을 보내고, [farmer.GetSheHe]를 제 궁정으로 맞이할 수 있습니다." # 8841978736766384078
+  niger_delta.0043.tooltip: "축제가 끝났을 때 귀하의 [counties|E]가 [GetModifier('RICE_niger_delta_successful_new_yam_festival').GetNameWithTooltip] [county_modifier|E]를 얻을 확률이 약간 #P 증가#했습니다!" # 6782439438641317130
+  niger_delta.0044.t: "커다란 얌" # 6901034842068294124
+  niger_delta.0044.desc: "가끔 얌 축제 기간 동안, 지역 주민들은 마을에서 비정상적으로 큰 얌을 공개적으로 전시하여 모두의 즐거움과 흥미를 돋우곤 합니다. 저는 그러한 얌 몇 개를 살펴보고 있습니다. 이 정말 놀라운 표본들은 분명히 크기가 커서, 어떤 것은 보통 사람의 키에 달할 정도입니다." # 4577785097978423843
+  niger_delta.0044.a: "이 일을 해낸 농부들에게는 잘된 일이로다." # 9984737846234902320
+  niger_delta.0044.b: "이는 오직 [ROOT.Char.GetFaith.PantheonTerm] 덕분에 가능했습니다." # 12318177204479721945
+  niger_delta.0045.t: "가장 큰 얌" # 3088686284993134716
+  niger_delta.0045.desc: "일부 민족들은 새 얌 축제를 기념하며 수확한 얌 중 가장 큰 것을 찾아 지역 신당에 바치는 풍습이 있습니다. 일부 공동체에서는 이를 다음 새 얌 축제 때까지 보관했다가 먹는 것이 가장 좋다고 믿습니다. 반면 다른 문화권에서는 이러한 큰 얌을 제물로 바치는 것이 더 낫다고 믿습니다.\n\n올해, 나의 영지 내 한 마을에서 키가 큰 사람만 한 크기의 비정상적으로 큰 얌이 자랐습니다. 이 얌을 어떻게 해야 할까요?" # 17164229992908470112
+  niger_delta.0045.a: "다음번 새 마 축제 때 먹을 수 있도록 보관해 두자!" # 15823454803481798426
+  niger_delta.0045.b: "우리는 이 마를 종교적 제물로 남겨두어야 합니다." # 8597855724521461157
+  niger_delta.0045.tooltip: "축제가 끝났을 때 귀하의 [counties|E]가 [GetModifier('RICE_niger_delta_successful_new_yam_festival').GetNameWithTooltip] [county_modifier|E]를 얻을 확률이 약간 #P 증가#했습니다!" # 6782439438641317130
+  niger_delta.0046.t: "타지에서 온 얌" # 297712088784735591
+  niger_delta.0046.desc: "새 얌 축제에는 여러 중요한 규정이 있습니다. 일부 문화권에서 발견되는 규정 중 하나는, 새 얌 축제를 막 시작했거나 진행 중인 마을에 외부인이 자신의 공동체에서 가져온 새 얌을 들여올 수 없다는 것입니다. 이 '이방인의 얌'은 부정을 저지르는 존재로 여겨집니다.\n\n최근 다른 곳에서 온 저명한 여행자가 저희의 새 얌 축제가 아직 끝나지 않았다는 사실을 모른 채 [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTier]에 도착했고, 이 여행자가 고향에서 가져온 새 얌을 소지하고 있는 것이 발각되어 난처한 상황이 발생했습니다.\n\n보통은 범인에게 벌금을 부과하는 것으로 충분하겠지만, 일부 사람들은 공동체를 의례적으로 정화하기 위해 특별하고 긴급한 희생 제의를 거행해야 한다고 믿습니다." # 10947372728732909218
+  niger_delta.0046.a: "벌금을 내는 것으로 충분한 처벌이 될 것입니다." # 14032409925753731292
+  niger_delta.0046.b: "땅을 정화해야 한다! 제물을 바치자." # 4889648145390525851
+  niger_delta.0046.c: "벌금? 희생? 그런 건 필요 없습니다." # 3040061075517165439
+  niger_delta.0046.c.tooltip: "이 선택지는 축제가 끝났을 때 [counties|E]가 [GetModifier('RICE_niger_delta_successful_new_yam_festival').GetNameWithTooltip] [county_modifier|E]를 얻을 확률을 #N 크게 감소#시킵니다." # 2679010597101999576
+  niger_delta.0047.t: "좋은 시기" # 15572181383154572493
+  niger_delta.0047.desc: "이제 얌 축제가 시작되었으니 모두가 즐기고 있습니다. [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTier]는 춤추고, 음악을 연주하고, 환호하고, 박수 치며 즐거워하는 현지인들로 가득합니다." # 8966262122572709828
+  niger_delta.0047.a: "나도 이 즐거움에 동참하겠소!" # 153466648496274084
+  niger_delta.0047.b: "저는 방관하겠습니다." # 6170882941040521713
+  niger_delta.0048.t: "xxxxx" # 1951045980481827005
+  niger_delta.0048.desc: "xxxxx" # 1951045980481827005
+  niger_delta.0048.a: "xxxxx" # 1951045980481827005
+  niger_delta.0049.t: "xxxxx" # 1951045980481827005
+  niger_delta.0049.desc: "xxxxx" # 1951045980481827005
+  niger_delta.0049.a: "xxxxx" # 1951045980481827005
+  niger_delta.0050.t: "[scoped_ruler.GetTitledFirstNameNoTooltip]의 대관식인가?" # 13022263303192834130
+  niger_delta.0050.desc.intro: "$c_ife$의 Ọọ̀ni로서, 저는 수많은 [ROOT.Char.GetFaith.GetAdherentNamePlural]와 [GetGeographicalRegion('RICE_yorubaland_region').GetName]의 백성들에게 위대한 영적 의미를 지닌 통치자로 여겨집니다. 전통적으로 먼 곳의 통치자들은 Ọọ̀ni의 궁정에 도착하여 오두두와의 귀한 구슬 왕관을 쓰고 대관식을 치름으로써 그들의 통치를 정당화합니다.\n\n그러한 통치자 중 한 명인 [scoped_ruler.GetTitledFirstName]께서 바로 그 일을 행하기 위해 제 궁정에 도착했습니다. Ọọ̀ni에게서 구슬 왕관을 단순히 요구할 수는 없기에, [scoped_ruler.GetSheHe]께서는 저에게 선물을 가져왔습니다." # 12182238321855301755
+  niger_delta.0050.desc.sacrifice: "[scoped_ruler.GetFirstName]께서 나의 영광을 위해 [scoped_ruler.GetFaith.HighGodName]께 희생 제물을 바쳤습니다. 이는 [scoped_ruler.GetSheHe]께서 우리의 영적 신념에 헌신하고 조상들에게 충성하고 있음을 보여줍니다." # 10360251541929579308
+  niger_delta.0050.desc.oduduwa_shrine: "\n\n[scoped_ruler.GetFirstName]께서 우리의 위대한 선조 오두두와의 신사에 $c_ife$에서 거액의 금을 봉헌했습니다. [ROOT.Char.Custom('DefaultPriestTitlePlural')]께서는 이에 매우 만족하고 있으며, 이는 [scoped_ruler.GetFirstNamePossessiveNoTooltip]의 신앙심과 진정성을 보여주는 것이기도 합니다." # 18275867509907485197
+  niger_delta.0050.desc.sacred_vow: "\n\n[scoped_ruler.GetFirstName]께서 그분께서 할 수 있는 모든 방식으로 저를 돕겠다고 맹세했습니다. 심지어 그것이 [scoped_ruler.GetHerHis]의 이익에 반하는 일일지라도 말입니다. 실로, 그러한 신성한 맹세는 가볍게 여겨서는 안 될 것입니다." # 1086197897453211580
+  niger_delta.0050.desc.art: "\n\n[scoped_ruler.GetFirstName]께서 [scoped_ruler.GetHerHis] 가문인 [scoped_ruler.GetDynasty.GetName]에서 조직한 장인 조합이 만든 값비싼 예술품들을 나에게 많이 선물해 주셨습니다. 이 심미적으로 만족스러운 물품들은 [scoped_ruler.GetHerHis]가 [scoped_ruler.GetTitleAsNameNoTooltip]로서의 지위와 오오오니(Ọọ̀ni)인 나의 권위를 증명합니다." # 9473116802722238269
+  niger_delta.0050.desc.land: "[scoped_ruler.GetFirstName]께서 [county.GetNameNoTier]의 영지를 저희 가문의 일원인 [other_character.GetFullName]에게 다스리도록 하사하겠다고 맹세하셨습니다. 이는 관대한 제안이며, 저희 가문의 세력을 세상에 공고히 할 것입니다." # 14392692393592817394
+  niger_delta.0050.desc.low_concubine: "\n\n[scoped_ruler.GetFirstName]께서 [other_character.GetWomanMan]인 [other_character.GetFullName]을 저의 부인으로 제안하셨습니다. [other_character.GetSheHe|U]께서는 보기 좋은 용모와 다른 좋은 자질을 갖추고 있다고 합니다." # 5049400131816665148
+  niger_delta.0050.desc.high_concubine: "\n\n[scoped_ruler.GetFirstName]가 자신의 가문 일원인 [other_character.GetFullName]를 나의 배우자로 제안했습니다. 그가 [other_character.GetSheHe|U] 보기 좋은 용모와 훌륭한 자질을 가졌다고 알려져 있을 뿐만 아니라, 이처럼 아끼는 가문 일원을 내 궁정에 보내는 것은 명백히 나에 대한 [scoped_ruler.GetFirstNamePossessiveNoTooltip]의 복종의 표시입니다." # 8337359895411820898
+  niger_delta.0050.desc.no_gift: "\n\n[scoped_ruler.GetFirstName]께서 내게 무언가를 제안하셨는데… 아무것도 아니군요. 기술적으로 말하자면, [scoped_ruler.GetSheHe]께서는 자신의 존재만으로도 훌륭한\"선\"이라고 생각하시는 것 같습니다. 이건… 글쎄요, 어떻게 반응해야 할지도 모르겠습니다. [scoped_ruler.GetSheHe]께서 미치광이[scoped_ruler.GetWomanMan]이신가요? Ọọ̀ni 폐하께 이토록 노골적인 무례함을 보일 만큼 대담한 미치광이가 어디 있단 말인가?" # 16618214559871468552
+  niger_delta.0050.a: "좋군! 내가 [scoped_ruler.GetHerHim]에게 구슬로 만든 왕관을 씌워주겠소." # 6020908490383462634
+  niger_delta.0050.b: "이것이 훌륭한 선물은 아니지만, 그럼에도 불구하고 받겠습니다." # 1470755142600325918
+  niger_delta.0050.c: "이것이 아무리 터무니없다 해도, 저는 [scoped_ruler.GetHerHis]께서 주시는 “선물”을 받겠습니다." # 12970093619062660187
+  niger_delta.0050.d: "[scoped_ruler.GetHerHim]에게 이 모욕적인 '선물'을 절대 받아들일 수 없다고 전하겠소!" # 11215071598663455923
+  niger_delta.0051.t: "오오니의 대관식" # 16745547506799522865
+  niger_delta.0051.desc: "[ooni.GetTitledFirstName]께서 나의 선물을 Ọọ̀ni로 받아들였다는 좋은 소식을 듣자마자, 나는 [ooni.GetHerHim]께서 내게 구슬로 만든 관을 공식적으로 수여하고 #bold [ROOT.Char.GetTitleAsNameNoTooltip]#으로서 [ROOT.Char.GetPrimaryTitle.GetNameNoTier]의 통치를 정당화하도록 하기 위해 $c_ife$에 도착했습니다.\n\n그곳에서 열린 의식에서, 나는 Ọọ̀ni 앞에 무릎을 꿇었고 [ooni.GetSheHe]께서는 오두두와의 신성한 구슬 관을 내 머리에 씌워주셨습니다. 일어선 후, 나는 나의 봉신들의 안전을 보호하고, 조상들을 기리며, 오두두 신당에서 매년 희생 제사를 지내고, 내 영토 전역의 신성한 신당들을 보호하고 유지하겠다는 맹세를 했습니다." # 14497066370719992927
+  niger_delta.0051.desc.bad_gift: "\n\n제가 [ooni.GetHerHim]께 올린 선물이 Ọọ̀ni께서 영 못마땅해하셨다는 소문을 들었습니다. 이것이 저에게 좋은 평판을 가져다주지는 않겠지만, [ooni.GetSheHe]께서 선물을 받아주셨으니 그것으로 만족합니다." # 10295429851743896308
+  niger_delta.0051.a: "오두두와의 아세(àṣẹ)가 내 안을 흐르는 것이 느껴지는군!" # 511068236941377860
+  niger_delta.0052.t: "집으로 돌아가기" # 4273377872558241904
+  niger_delta.0052.desc: "[ooni.GetTitledFirstName]께서 제 선물을 공식적으로 받고 오두두와의 구슬 왕관으로 저의 대관식을 치러주신 후, 저는 $c_ife$에 머물며 여러 신사를 방문하고 [ROOT.Char.GetFaith.HighGodName]께 기도하는 시간을 보냈습니다.\n\n저는 그 후 [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTier]에 있는 저의 거처로 돌아왔습니다. Ọọ̀ni께 구슬 왕관을 받는 것은 실로 큰 영광이었으며, 이제 저는 그들의 눈에 정당한 통치자임을 증명했으므로 저의 신하들은 저를 더욱 존경하게 될 것입니다." # 14349864442410480151
+  niger_delta.0052.a: "이제 나는 [ROOT.Char.GetTitleAsNameNoTooltip]로서의 임무를 재개할 수 있소." # 3494885842025117076
+  niger_delta.0053.t: "오오니께 거절당했소" # 8581808786012377291
+  niger_delta.0053.desc: "나쁜 소식입니다!\n\n[ooni.GetTitledFirstName]께서 제 선물을 거절하셨고, 그로 인해 오두두와의 신성한 구슬 왕관으로 저를 대관시키려는 제 요청 또한 거부하셨습니다. 이는 유감스럽게도 저에게 좋지 않은 영향을 미칠 것입니다. 아마도 Ọọ̀ni께서 미래에 마음을 바꾸시고 저에게 이 왕관을 받을 영광을 허락해 주실지도 모르겠습니다." # 14516561705711856768
+  niger_delta.0053.desc.no_gift: "솔직히 말해서, Ọọ̀ni께 최소한의 성의 표시라도 하지 않고 대관식을 요구한 것은 바보 같은 짓이라는 데 모두가 동의합니다. 이제 제가 가는 곳마다 Ọọ̀ni께서 저를 경멸했다는 소문뿐만 아니라, 제가 [ROOT.Char.GetFaith.PantheonTerm]에 의해 저주받아 통치할 자격이 없는 무능하고 부정한 통치자라는 끔찍한 소문이 퍼지고 있습니다." # 10481329965666084167
+  niger_delta.0053.a: "이건 좋지 않군...." # 5959337941778068976
+  niger_delta.0054.t: "xxxxx" # 1951045980481827005
+  niger_delta.0054.desc: "xxxxx" # 1951045980481827005
+  niger_delta.0054.a: "xxxxx" # 1951045980481827005
+  niger_delta.0055.t: "xxxxx" # 1951045980481827005
+  niger_delta.0055.desc: "xxxxx" # 1951045980481827005
+  niger_delta.0055.a: "xxxxx" # 1951045980481827005
+  niger_delta.0056.t: "xxxxx" # 1951045980481827005
+  niger_delta.0056.desc: "xxxxx" # 1951045980481827005
+  niger_delta.0056.a: "xxxxx" # 1951045980481827005
+  niger_delta.0057.t: "xxxxx" # 1951045980481827005
+  niger_delta.0057.desc: "xxxxx" # 1951045980481827005
+  niger_delta.0057.a: "xxxxx" # 1951045980481827005
+  niger_delta.0058.t: "xxxxx" # 1951045980481827005
+  niger_delta.0058.desc: "xxxxx" # 1951045980481827005
+  niger_delta.0058.a: "xxxxx" # 1951045980481827005
+  niger_delta.0059.t: "xxxxx" # 1951045980481827005
+  niger_delta.0059.desc: "xxxxx" # 1951045980481827005
+  niger_delta.0059.a: "xxxxx" # 1951045980481827005
+  niger_delta.0060.t: "xxxxx" # 1951045980481827005
+  niger_delta.0060.desc: "xxxxx" # 1951045980481827005
+  niger_delta.0060.a: "xxxxx" # 1951045980481827005
+  niger_delta.0061.t: "xxxxx" # 1951045980481827005
+  niger_delta.0061.desc: "xxxxx" # 1951045980481827005
+  niger_delta.0061.a: "xxxxx" # 1951045980481827005
+  niger_delta.0062.t: "xxxxx" # 1951045980481827005
+  niger_delta.0062.desc: "xxxxx" # 1951045980481827005
+  niger_delta.0062.a: "xxxxx" # 1951045980481827005
+  niger_delta.0063.t: "xxxxx" # 1951045980481827005
+  niger_delta.0063.desc: "xxxxx" # 1951045980481827005
+  niger_delta.0063.a: "xxxxx" # 1951045980481827005
+  niger_delta.0064.t: "xxxxx" # 1951045980481827005
+  niger_delta.0064.desc: "xxxxx" # 1951045980481827005
+  niger_delta.0064.a: "xxxxx" # 1951045980481827005
+  niger_delta.0065.t: "xxxxx" # 1951045980481827005
+  niger_delta.0065.desc: "xxxxx" # 1951045980481827005
+  niger_delta.0065.a: "xxxxx" # 1951045980481827005
+  niger_delta.0066.t: "xxxxx" # 1951045980481827005
+  niger_delta.0066.desc: "xxxxx" # 1951045980481827005
+  niger_delta.0066.a: "xxxxx" # 1951045980481827005
+  niger_delta.0067.t: "xxxxx" # 1951045980481827005
+  niger_delta.0067.desc: "xxxxx" # 1951045980481827005
+  niger_delta.0067.a: "xxxxx" # 1951045980481827005
+  niger_delta.0068.t: "xxxxx" # 1951045980481827005
+  niger_delta.0068.desc: "xxxxx" # 1951045980481827005
+  niger_delta.0068.a: "xxxxx" # 1951045980481827005
+  niger_delta.0069.t: "xxxxx" # 1951045980481827005
+  niger_delta.0069.desc: "xxxxx" # 1951045980481827005
+  niger_delta.0069.a: "xxxxx" # 1951045980481827005
+  niger_delta.0070.t: "날짜가 정해졌습니다" # 2161572555580603859
+  niger_delta.0070.desc.intro: "오라미얀의 수석 사제가 올해의 올로조 축제 날짜를 정했다는 소식을 들었습니다. 그 사제는 [yoruba.GetAdjective] 달력의 수석 관리인이기도 합니다. [ife.GetNameNoTier]에서 [yoruba.GetName]이 거행하는 가장 중요한 축제라고 할 수 있는 이 축제는, 굳건한 철과 전쟁의 신인 오군이 다른 정령들과 신들이 지상으로 들어올 길을 열고 [ife.GetNameNoTierNoTooltip]의 초기 오오니(Ọọ̀ni)가 되었던 것을 기념합니다." # 8528608752493816939
+  niger_delta.0070.desc.ooni: "\n\n오요의 오오니로서, 나는 이 축제에서 중요한 역할을 맡고 있습니다. 나는 모든 [yoruba.GetName]의 영적 지도자로서 나의 신성한 맹세를 갱신하고, 다양한 의식에 참여하며, 내 백성에게 축복을 내릴 것입니다. 나는 조상들과 교감하고 내 모든 백성을 위해 기도하기 위해 나 자신을 준비시키고 다양한 의례와 의식을 수행해야 합니다." # 14484329738225615676
+  niger_delta.0070.desc.not_ooni: "올해, 저는 [ife.GetNameNoTierNoTooltip]에서 열리는 이 위대한 행사에 참여할 계획입니다. #bold [ROOT.Char.GetTitleAsNameNoTooltip]#으로서, 모든 [yoruba.GetName]의 영적 지도자인 Ọọ̀ni와 함께 여러 의식에 참여해야 합니다." # 14572660251520291570
+  niger_delta.0070.a: "기다릴 수가 없군!" # 12382765414218653345
+  niger_delta.0071.t: "오오니의 은둔" # 856293355946277170
+  niger_delta.0071.desc.intro: "올로조 축제가 시작되기 일주일 전, 오오니(Ọọ̀ni)는 축제가 시작될 때까지 은둔해야 합니다. 그렇게 함으로써 오오니는 올로조 축제 기간 동안 행하게 될 다양한 의식과 예식의 효과를 보장하기 위해 자신을 정화할 수 있습니다." # 15967638525569802596
+  niger_delta.0071.desc.ooni: "저는 현임 오오니이므로, 이 신성한 전통을 한 치의 오차 없이 따르는 것이 저의 의무입니다. 저는 제 궁전으로 물러나 조상들과 교감하며 끊임없이 기도하고 있습니다." # 1189621615944779495
+  niger_delta.0071.desc.not_ooni: "현재 #bold Ọọ̀ni#이신 [ooni.GetFirstName]께서는 조상들과 교감하고 끊임없이 기도하기 위해 [ooni.GetHerHis] 궁전으로 물러나셨습니다. [ife.GetNameNoTier]에 도착한 우리 나머지 사람들은 그저 인내심을 가지고 기다릴 수밖에 없습니다." # 16669627080966908505
+  niger_delta.0071.desc.conclusion: "이러한 일이 진행되는 동안, 왕실의 여성들은 매일 저녁 오군과 또 다른 전쟁의 신이자 고대 오오니였던 오란미얀에게 찬가를 부르고, 궁전을 쓸어 악을 상징적으로 정화하기 위해 모입니다. 한편, [ife.GetNameNoTier]에 있는 오군의 신사는 야자 잎으로 장식되었습니다." # 283453549640169051
+  niger_delta.0071.a: "이것은 모든 이들에게 오로조 축제가 곧 시작될 것임을 상기시켜 줍니다." # 13812032544898485018
+  niger_delta.0072.t: "올로조가 시작됩니다" # 4550879166719369747
+  niger_delta.0072.desc.intro: "오늘, 오로조 축제가 시작됩니다!\n\n첫날인 일라군(Ilagun)의 날은 해가 뜨기 훨씬 전에 시작되며, Ọọ̀ni의 궁전에서 수색대가 파견되어 오군(Ogun)에게 제물로 바칠 개를 찾아 생포합니다. 오군은 사냥, 전쟁, 길에서 일어나는 사고 등으로 희생자를 요구하는 분노한 신이므로, 그에게 바치는 이 축제가 이러한 희생으로 시작되는 것은 필연적입니다.\n\n오로조 축제의 수석 사제인 오수군(Osogun)이 개를 끌고 [ife.GetNameNoTier]에 있는 Ọọ̀ni의 거처로 행렬을 이끌고 갑니다." # 10809719229602379236
+  niger_delta.0072.desc.ooni: "전통에 따라, 저, 오오니는 오수군을 맞이하기 위해 밖으로 나가지 않습니다. 대신, 오로조 축제를 위해 모인 여러 추장들과 강력한 통치자들이 제 대신 궁궐 밖에 기다리고 있습니다. 그들은 오수군에게 작은 약단지를 건네며, 오군에게 제사를 지내도 좋다는 저의 공식적인 메시지를 전달합니다." # 5636951088177607686
+  niger_delta.0072.desc.not_ooni: "전통에 따라 오요니 [ooni.GetFirstName]께서는 오소군을 맞이하기 위해 궁 밖으로 나오지 않으시므로, 대신 제가 오로조 축제를 위해 모인 여러 족장들과 강력한 통치자들의 환영을 받으며 궁 밖에 있는 오소군을 맞이합니다. 우리는 오소군에게 작은 약단지를 건네고, 오군에게 제사를 지내도 좋다는 오요니의 공식적인 메시지를 전달합니다." # 5775310826096987696
+  niger_delta.0072.a: "오수군이 이제 오군 신당으로 갈 수 있습니다." # 17732965020263204136
+  niger_delta.0073.t: "오군에게 바치는 희생" # 4491735799459085996
+  niger_delta.0073.desc: "오소군이 행렬과 희생 제물 개와 함께 오군 신당에 도착합니다. 그런 다음 오군을 부르며, 오소군은 Ọọ̀ni에게 다음과 같이 기도합니다.\"왕이시여, 신성한 권능의 주인이시여, 신들 다음으로 위대하신 분이시여, 오래도록 군림하시고 적들을 정복하시기를\"\n\n개는 정해진 대로 묶이고 몽둥이로 한 번에 머리가 부서집니다. 죽으면 신성한 나무에 묶여 내장이 적출되고, 그 피가 신당 밖으로 흐르게 됩니다. 그런 다음 Ọọ̀ni와 다른 모든 이들을 위한 기도와 제물이 바쳐지며, 두 번째 개도 희생됩니다.\n\n그날의 희생 제례가 끝나면 모두가 즐겁게 놀고 춤추며 오군에게 찬양가를 부르기 시작합니다." # 14863766786127528770
+  niger_delta.0073.a: "모든 곳에 흥분이 넘칩니다!" # 7558768857903597930
+  niger_delta.0074.t: "올로조 군중들" # 16375449790617886160
+  niger_delta.0074.desc: "오로조 축제의 둘째 날, [ife.GetNameNoTier]는 여전히 흥겨운 인파로 가득합니다. 그중에서도 몇몇 무리가 특히 눈에 띕니다.\n\n첫째는 왕족들입니다. 그들은 길게 늘어지는 예복을 입고 얼굴을 실로 짠 장식으로 가린 모자를 써서, Ọọ̀ni와의 굳건한 유대를 모두에게 보여줍니다.\n\n둘째는 축제 기간 동안 Ọọ̀ni를 사악한 힘으로부터 지키는 의술사들입니다. 그들은 자신들의 약재용 뿔을 전시하고, 오로조 기간 동안 비가 내리지 않도록 주술을 속삭입니다.\n\n셋째는 궁중 시종들입니다. 그들의 몸은 사납게 흰색과 붉은색으로 칠해져 있으며, 북치는 이들의 호위를 받으며 채찍으로 군중을 통제합니다.\n\n마지막으로 길드 깃발을 든 사냥꾼들과 대장장이들이 있습니다." # 4952166824373392589
+  niger_delta.0074.a: "사람들이 이제 Ọọ̀ni의 궁전으로도 향하고 있습니다." # 8527562628711760425
+  niger_delta.0075.t: "오니의 대중 등장" # 12187338772545582207
+  niger_delta.0075.desc.intro: "Ọọ̀ni께서 [ooni.GetHerHis] 궁전을 떠나 대중 앞에 모습을 드러내는 드문 기회가 왔습니다." # 14633801852305423712
+  niger_delta.0075.desc.ooni: "\n\n나는 #italic 아레#! 왕관을 쓰고 궁전을 나섭니다. 이윽고 왕관의 구슬을 흔들며 군중을 내려다봅니다. 참석한 모든 통치자와 성직자들이 신성한 통치자로서의 나의 권위를 인정하며 내 앞에 엎드립니다.\n\n나는 오군 신당으로 향합니다. 그 길을 가는 동안, #italic 아레#!가 강력하다고 믿어지기 때문에 모두가 나의 건강부터 적들에 대한 저주까지 온갖 기원을 담아 나에게 쏟아냅니다." # 6024450854266724992
+  niger_delta.0075.desc.not_ooni: "\n\n[ooni.GetTitledFirstName]가 모습을 드러내고, 그분의 #italic 아레#! 왕관에 달린 구슬을 털어낸 뒤 군중을 응시합니다. 참석한 모든 통치자와 성직자들은, 저를 포함하여, Ọọ̀ni 앞에 엎드려 그분의 신성한 통치자로서의 권위를 인정합니다.\n\nỌọ̀ni가 오군(Ogun) 신당으로 향하자, 모두들 #italic 아레#!가 강력하다고 믿기 때문에 건강 증진부터 적에 대한 저주까지 온갖 기도를 [ooni.GetHerHim]에게 퍼붓습니다. 저도 무언가를 기도해야 할까요?" # 907429860219389563
+  niger_delta.0075.a: "모든 참석자들에게 경건하게 기도를 올립니다." # 12127253923974121030
+  niger_delta.0075.b: "무엇보다 건강이 최고로다!" # 16641178227981000182
+  niger_delta.0075.c: "부와 번영이 함께하기를!" # 13694547909148650662
+  niger_delta.0075.d: "내 적들에게 불행이 닥쳤구나!" # 14357526189876735975
+  niger_delta.0075.e: "저는 아무것도 필요 없습니다." # 13962282824058282633
+  niger_delta.0075.health: "오오니께서 당신의 건강 기도를 들어주셨습니다!" # 1886625642164107005
+  niger_delta.0075.fortune: "#bold Ọọ̀ni#께서 당신의 행운을 비는 기도를 들으셨습니다!" # 3548023241895736020
+  niger_delta.0075.enemies: "오니께서 당신의 적들을 저주해 달라는 기도를 들어주셨습니다!" # 14466057311042648353
+  niger_delta.0076.t: "$c_ife$의 성지들" # 12005265545261186137
+  niger_delta.0076.desc.ooni: "오군 신사를 향한 여정은 많은 인파로 인해 시간이 걸리지만, 일단 도착하면 오수군과 함께 여러 의식을 거행합니다. 가장 중요한 것은 제가 오오니로서의 맹세를 갱신하는 것입니다.\n\n그 후, 부의 여신 아제(Aje)의 신사로 향합니다. [yoruba.GetAdjective] 신앙에서 남성들이 의식과 공적인 공간을 주로 차지하지만, 여성들은 중요한 사업 결정이 이루어지는 시장 공간을 차지하므로, 제가 이곳에 와서 성공적인 한 해를 기원하는 영혼들에게 간청하는 것이 중요합니다.\n\n결국 이러한 방문들은 저의 종교적 권위를 강화합니다. 이틀째가 끝나고 궁전으로 돌아오면, 그 다음 셋째 날은 보통 휴식일이 됩니다." # 16554080208402511967
+  niger_delta.0076.desc.not_ooni: "오오니의 오군 신사 방문은 인파 때문에 시간이 꽤 걸리지만, [ooni.GetSheHe]가 도착하면 오오니는 오소군과 함께 여러 의식을 거행합니다. 가장 중요하게는, [ooni.GetSheHe]는 오오니로서의 맹세를 갱신합니다.\n\n그 후, [ooni.GetSheHe]는 부의 여신 아제(Aje)의 신사로 향합니다. 비록 [yoruba.GetAdjective] 신앙에서 남성이 의례 및 공적인 공간을 주로 차지하지만, 여성들은 중요한 사업 결정이 이루어지는 시장 공간을 차지하므로, 오오니가 이곳에 들러 성공적인 한 해를 기원하는 것은 중요합니다.\n\n결론적으로, 이러한 방문들은 오오니의 종교적 권위를 강화합니다. 이틀째 되는 날 오오니가 궁으로 돌아온 후, 다음날 셋째 날은 보통 휴식일입니다." # 13129279358035402329
+  niger_delta.0076.a: "지금까지 매우 흥미로웠습니다." # 3161693913298173247
+  niger_delta.0077.t: "올로조의 마지막 날" # 3548464070269056301
+  niger_delta.0077.desc.ooni: "오조(Olojo) 축제의 넷째이자 마지막 날입니다. 저는 오군(Ogun) 신당으로 돌아가 며칠 전 했던 모든 의식을 반복하며, 왕위 계승에 대한 신성한 맹세를 갱신합니다. 그 후 저는 제 가문의 장로들을 뵙고, 근처의 다른 왕실 가문 구성원들을 방문합니다.\n\n이 기간 동안 백성들이 저를 맞이하고 Ọọ̀ni인 저에게 선물을 바치는 것이 관례이며, 그 후 저는 제 거처로 돌아가고, 제 가문의 나이 많은 여성들이 저와 제 혈통을 찬양하는 노래를 부릅니다.\n\n올해 저는 이곳에서 수많은 사람들을 만났는데, 그들 모두가 저를 맞이하고 선물을 쏟아내며, Ọọ̀ni로서의 저의 세속적, 영적 권능을 인정했습니다." # 17428464548108841979
+  niger_delta.0077.desc.not_ooni: "오조(Olojo)의 넷째이자 마지막 날에는, [ooni.GetTitledFirstName]께서 오군(Ogun) 신전으로 돌아가 며칠 전 행했던 모든 의식을 반복하시는데, 여기에는 왕권에 대한 신성한 맹세를 갱신하는 것 등이 포함됩니다. 이어서 Ọọ̀ni께서는 [ooni.GetHerHis] 가문의 원로들을 방문하신 후, 근처의 다른 왕실 가문 구성원들을 방문하십니다.\n\n이 기간 동안 사람들은 Ọọ̀ni께 인사하고 선물을 드리는 것이 관례입니다. Ọọ̀ni께서 [ooni.GetHerHis] 거처로 돌아가 가문의 나이 많은 여성들이 [ooni.GetHerHim]와 [ooni.GetHerHis] 혈통을 찬양하는 노래를 부르기 전에, 저도 그렇게 하는 것이 좋을 것입니다." # 8290791096616656142
+  niger_delta.0077.a: "내게 다가오는 모든 이들을 위해 기도하노라." # 2106278899703973606
+  niger_delta.0077.a.tooltip: "오오니는 백성들로부터 [gold_i|E] [gold|E]를 포함한 다양한 선물을 받았습니다." # 10464809229202413836
+  niger_delta.0077.b: "나는 오니에게 다가가 소박한 선물을 바칩니다." # 13642599650146388527
+  niger_delta.0077.c: "나는 오오니(Ọọ̀ni)에게 다가가 성대한 선물을 바치고자 합니다." # 11269319272599098382
+  niger_delta.0077.d: "나는 오오니에게 선물을 바치러 가지 않겠다." # 12169304720349998686
+  niger_delta.0078.t: "올로조 왕조의 종말" # 16552262396998428244
+  niger_delta.0078.desc: "올로조 축제가 끝났고, [ife.GetNameNoTier] 밖에서 온 이들이 도시를 떠나고 있습니다. 즐거운 행사였지만, 이 축제는 무시무시한 신 오순을 기리고, 세상의 세속적, 신성적 권력의 근원인 오오니에게 경의를 표하며, [yoruba.GetAdjective] 역사, 유산, 가치를 기념하기 위한 축제입니다.\n\n결국, [ife.GetNameNoTierNoTooltip]은 신들이 지상으로 내려왔다고 전해지는 인류의 요람인 신성한 장소입니다. 궁극적으로 올로조는 우리 모두가 우주를 규제하는 신성한 힘을 인식하는 때입니다." # 12375888230743220768
+  niger_delta.0078.a: "다음 기회에 뵙겠습니다." # 3527578574338849954
+  niger_delta.0078.ooni.tooltip: "귀하는 맹세를 갱신하면서 오오니 제도를 의례적으로 강화합니다." # 7017749197628874789
+  niger_delta.0078.ooni.tooltip.1: "사람들은 당신이 올라조 축제에서 #bold Ọọ̀ni#로서 당신의 임무를 그럭저럭 잘 수행했다고 믿고 있습니다." # 12178109725291913609
+  niger_delta.0078.ooni.tooltip.2: "사람들은 당신이 오로조 축제 기간 동안 #bold Ọọ̀ni#로서 임무를 훌륭하게 수행했다고 믿고 있습니다." # 1579414069474958103
+  niger_delta.0078.ooni.tooltip.3: "사람들은 당신이 오로조 축제 기간 동안 #bold Ọọ̀ni#로서 훌륭한 임무를 수행했다고 믿고 있습니다." # 12096710979120571132
+  niger_delta.0079.t: "xxxxx" # 1951045980481827005
+  niger_delta.0079.desc: "xxxxx" # 1951045980481827005
+  niger_delta.0079.a: "xxxxx" # 1951045980481827005
+  niger_delta.0080.t: "xxxxx" # 1951045980481827005
+  niger_delta.0080.desc: "xxxxx" # 1951045980481827005
+  niger_delta.0080.a: "xxxxx" # 1951045980481827005
+  niger_delta.0081.t: "xxxxx" # 1951045980481827005
+  niger_delta.0081.desc: "xxxxx" # 1951045980481827005
+  niger_delta.0081.a: "xxxxx" # 1951045980481827005
+  niger_delta.0082.t: "xxxxx" # 1951045980481827005
+  niger_delta.0082.desc: "xxxxx" # 1951045980481827005
+  niger_delta.0082.a: "xxxxx" # 1951045980481827005
+  niger_delta.0083.t: "xxxxx" # 1951045980481827005
+  niger_delta.0083.desc: "xxxxx" # 1951045980481827005
+  niger_delta.0083.a: "xxxxx" # 1951045980481827005
+  niger_delta.0084.t: "xxxxx" # 1951045980481827005
+  niger_delta.0084.desc: "xxxxx" # 1951045980481827005
+  niger_delta.0084.a: "xxxxx" # 1951045980481827005
+  niger_delta.0085.t: "xxxxx" # 1951045980481827005
+  niger_delta.0085.desc: "xxxxx" # 1951045980481827005
+  niger_delta.0085.a: "xxxxx" # 1951045980481827005
+  niger_delta.0086.t: "xxxxx" # 1951045980481827005
+  niger_delta.0086.desc: "xxxxx" # 1951045980481827005
+  niger_delta.0086.a: "xxxxx" # 1951045980481827005
+  niger_delta.0087.t: "xxxxx" # 1951045980481827005
+  niger_delta.0087.desc: "xxxxx" # 1951045980481827005
+  niger_delta.0087.a: "xxxxx" # 1951045980481827005
+  niger_delta.0088.t: "xxxxx" # 1951045980481827005
+  niger_delta.0088.desc: "xxxxx" # 1951045980481827005
+  niger_delta.0088.a: "xxxxx" # 1951045980481827005
+  niger_delta.0089.t: "xxxxx" # 1951045980481827005
+  niger_delta.0089.desc: "xxxxx" # 1951045980481827005
+  niger_delta.0089.a: "xxxxx" # 1951045980481827005
+  niger_delta.0090.t: "xxxxx" # 1951045980481827005
+  niger_delta.0090.desc: "xxxxx" # 1951045980481827005
+  niger_delta.0090.a: "xxxxx" # 1951045980481827005
+  niger_delta.0091.t: "xxxxx" # 1951045980481827005
+  niger_delta.0091.desc: "xxxxx" # 1951045980481827005
+  niger_delta.0091.a: "xxxxx" # 1951045980481827005
+  niger_delta.0092.t: "xxxxx" # 1951045980481827005
+  niger_delta.0092.desc: "xxxxx" # 1951045980481827005
+  niger_delta.0092.a: "xxxxx" # 1951045980481827005
+  niger_delta.0093.t: "xxxxx" # 1951045980481827005
+  niger_delta.0093.desc: "xxxxx" # 1951045980481827005
+  niger_delta.0093.a: "xxxxx" # 1951045980481827005
+  niger_delta.0094.t: "xxxxx" # 1951045980481827005
+  niger_delta.0094.desc: "xxxxx" # 1951045980481827005
+  niger_delta.0094.a: "xxxxx" # 1951045980481827005
+  niger_delta.0095.t: "xxxxx" # 1951045980481827005
+  niger_delta.0095.desc: "xxxxx" # 1951045980481827005
+  niger_delta.0095.a: "xxxxx" # 1951045980481827005
+  niger_delta.0096.t: "xxxxx" # 1951045980481827005
+  niger_delta.0096.desc: "xxxxx" # 1951045980481827005
+  niger_delta.0096.a: "xxxxx" # 1951045980481827005
+  niger_delta.0097.t: "xxxxx" # 1951045980481827005
+  niger_delta.0097.desc: "xxxxx" # 1951045980481827005
+  niger_delta.0097.a: "xxxxx" # 1951045980481827005
+  niger_delta.0098.t: "xxxxx" # 1951045980481827005
+  niger_delta.0098.desc: "xxxxx" # 1951045980481827005
+  niger_delta.0098.a: "xxxxx" # 1951045980481827005
+  niger_delta.0099.t: "xxxxx" # 1951045980481827005
+  niger_delta.0099.desc: "xxxxx" # 1951045980481827005
+  niger_delta.0099.a: "xxxxx" # 1951045980481827005
+  niger_delta.0100.t: "코끼리 고기" # 13716352498569742677
+  niger_delta.0100.desc: "[county.GetNameNoTier]에서 나의 위대한 왕조가 후원하는 사냥꾼 길드 소속 사냥꾼들이 거대한 코끼리 한 마리를 최근에 사냥했습니다. 코끼리 고기는 내 것이지만, 내 궁정의 일부 신하들은 나의 관대함을 보여주기 위해 이 고기를 [county.GetNameNoTierNoTooltip]의 일부 공동체에 나누어 주라고 제안했습니다." # 17443609105182358003
+  niger_delta.0100.a: "네! 고기를 모두와 나누시오." # 10231144163137286673
+  niger_delta.0100.b: "아니, 나는 고기를 유지하겠소." # 12826515501621650007
+  niger_delta.0101.t: "이얀" # 6242589486733525457
+  niger_delta.0101.desc: "오늘, 요리사들이 저녁 식사로 #italic 이얀#!, 즉 으깬 얌(pounded yam)을 준비할 것이라고 말했습니다. 이는 [ROOT.Char.GetCulture.GetCollectiveNoun] 및 이 지역의 다른 민족들 사이에서 인기 있는 소박하지만 맛있는 전통 음식입니다. 삶은 얌을 으깨어 부드럽게 만든 다음, 특히 오크라 수프나 시금치 스튜와 같은 다른 음식과 함께 먹습니다." # 3724185289286519857
+  niger_delta.0101.a: "맛있군!" # 2028573091546184424
+  niger_delta.0102.t: "물의 딸" # 8322792447949676705
+  niger_delta.0102.desc: "일부 신하들, 주로 남자들이 최근 저를 대신하여 용무를 보기 위해 읍내로 나갔습니다. 그들이 국가의 일을 수행하는 동안 무슨 일이 있었는지에 대해 이야기하던 중, 그들 중 두 명이 꽤 예쁜 아가씨를 만났다고 언급했습니다.\n\n[courtier.GetTitledFirstName]이 말합니다. “그녀는 정말 #italic 오모게 오미#였어요! 물의 딸이죠!”\n\n[ROOT.Char.GetFaith.GetReligion.GetAdjective] 신앙에서 그러한 아름다움은 인간과 복잡한 관계를 맺고 있는 물의 정령인 올로쿤과 연결되어 있습니다." # 3495427555301802741
+  niger_delta.0102.a: "일이나 해야지, 여자들을 쳐다보지 말게!" # 17534556872707982122
+  niger_delta.0102.b: "이 소녀는 어떤 사람이었는지 더 자세히 말해 주시겠습니까?" # 18137602807697187432
+  niger_delta.0103.t: "물러서라, 대장장이여!" # 5339426739316955275
+  niger_delta.0103.desc: "오늘 제 영지에서 기이한 소식을 들었습니다. 최근 실종되었다가 강에서 익사할 뻔한 뒤 구출된 저명한 대장장이에 관한 이야기입니다.\n\n그의 말에 따르면, 비할 데 없는 미모를 지닌 미혼의 젊은 여인이 그에게서 도구를 사기 위해 그의 작업장으로 찾아왔다고 합니다. 그는 그녀에게 완전히 매료되어 그 자리에서 청혼했지만, 그녀는 거절했습니다. 굴하지 않고 그는 그녀가 떠나자 그녀를 쫓아갔고, 그녀가 계속해서\"돌아가지 않으면 염료 강을 만나게 될 것이다. 돌아가라, 대장장이야\"라고 경고했음에도 불구하고 그녀를 따라 읍 밖의 황무지로 들어섰습니다.\n\n어느새 그는 강물에 빠져 있었습니다. 분명 그가 낡은 [ROOT.Char.GetFaith.GetAdjective] 민담에서나 들을 법한 일종의 물의 정령을 만난 것이 분명합니다. 강은 결국 산 자와 죽은 자의 경계이니까요." # 11809191974401464545
+  niger_delta.0103.a: "그녀가 경고했음에도 불구하고 그 영혼을 따르다니 그는 바보였어!" # 17386244095905230172
+  niger_delta.0103.b: "그가 진실을 말하는지는 의심스럽지만, 재미있는 이야기로군." # 8232881271787881337
+  niger_delta.0104.t: "신성한 강물" # 15917633188749396253
+  niger_delta.0104.desc: "제가 거주지 근처 강가를 거닐고 있을 때, 한 여인이 큰 항아리에 강물을 담고 있는 것을 보았습니다. 그녀는 다음과 같이 기도하며 노래하고 있었습니다.\n\n#italic òrìsà, jé kí omi tútù tán tèmi, òrìsà.\n당신의 차가운 물이 나의 문제를 해결해 주소서.#!\n\n그녀는 지역 신사의 [ROOT.Char.Custom('DefaultPriestTitlePlural')] 중 일부의 조수 같아 보입니다. [ROOT.Char.GetFaith.GetReligion.GetAdjective] 신사에 크고 흰색 항아리에 물을 두어 물의 신들이 현존함을 상징하는 것은 관습이며, 이 항아리 속의 물은 매일 갈아주어야 합니다(보통 순결한 처녀나 출산 연령이 지난 여성들이 합니다). 이 항아리 속의 물은 약효가 있다고 믿어지므로 신선하고 활력이 넘치게 유지되어야 합니다." # 4581330194600008829
+  niger_delta.0104.a: "[ROOT.Char.GetFaith.WaterGodName]께 영광을!" # 3777773248681495920
+  niger_delta.0105.t: "목재 장식" # 2606291815458952719
+  niger_delta.0105.desc: "저는 현재 제 거주지에 작은 별채를 추가하고 있습니다. [ROOT.Char.GetCulture.GetName] 건축 양식에서는 문과 기둥에 남성, 여성, 동물의 형상을 새겨 장식하는 것이 일반적인 관습입니다.\n\n제가 고용한 전문 조각가들에게 처음 계획했던 것보다 더 많은 조각을 새기도록 지시할 수 있습니다. 어쨌든 [ROOT.Char.GetTitleAsNameNoTooltip]은 누추한 곳에 거주해서는 안 되니까요. 사람들이 제가 사는 곳의 웅장함에 경외심을 느껴야 합니다!" # 1329977997879157741
+  niger_delta.0105.a: "좋은 생각이군! 그렇게 하지." # 7430579562581538585
+  niger_delta.0105.b: "원래 계획대로 진행합시다." # 11795726014168997837
+  niger_delta.0106.t: "오래된 청동 머리상" # 1774991005803678733
+  niger_delta.0106.desc: "최근 현지인들이 근처에서 청동 조각상을 발견했습니다. 이 조각상은 사람의 머리를 묘사하고 있으며, 현재 [ROOT.Char.GetCulture.GetName]의 청동 조각상과 유사해 보이지만 분명히 동시대의 양식은 아닙니다.\n\n이 조각상은 수많은 세대 전에 이곳을 다스렸던 어떤 통치자를 기리거나 심지어 숭배하기 위해 만들어졌을 가능성이 높으며, 따라서 어떤 식으로든 나의 선조 중 한 명을 표현한 것이므로 존중을 담아 다루어야 합니다. 어떤 이들은 이 청동 머리를 발견된 곳에 그대로 묻어두고, 특정 종교 축제 때 적절하게 제물을 바칠 수 있도록 장소만 표시하는 것이 더 나을 수도 있다고 말합니다." # 8588703778711248632
+  niger_delta.0106.a: "묻어두고 특정 종교 의식에서만 사용하십시오." # 9695416732351364506
+  niger_delta.0106.b: "가문의 신당으로 가져와서 숭배할 수 있도록 하시오." # 996069177852559596
+  niger_delta.0107.t: "유리 제조 붐" # 2656772779868803473
+  niger_delta.0107.desc: "$c_ife$의 유리 세공업자들이 최근 들어 잘나가고 있습니다. 이 도시는 아프리카의 주요 토착 유리 생산지 중 하나이기에, 그들의 유리 제품, 특히 유리 구슬은 문화적, 종교적 중요성으로 인해 역내외에서 수요가 높습니다. 유리 제조 산업의 이러한 호황은 이 지역 경제에 분명 도움이 될 것입니다." # 6983178939530845753
+  niger_delta.0107.a: "아주 좋은 소식이군!" # 10761504607549410006
+  niger_delta.0108.t: "$c_ife$로의 성공적인 여정" # 14507281167491188174
+  niger_delta.0108.desc: "최근 저의 대표자들이 $c_ife$에서 돌아왔는데, 그곳에서 열린 주요 축제에 저를 대신해 참석했다고 합니다. 사람들은 그 도시가 매일 어떤 신을 기리는 [ROOT.Char.GetFaith.GetReligion.GetAdjective] 축제를 연다고 말하더군요. 비록 제가 인류의 이 성스러운 요람에 항상 참석할 수는 없지만, 누군가 저를 대표하여 그곳에 있는 것은 중요합니다.\n\n어쨌든, 저의 사절단은 모든 것이 잘 진행되었으며, 그들의 참석이 그 도시의 주민들과 지도층 사이에서 저의 명성을 높이는 데 큰 도움이 되었다고 전했습니다." # 14152299653060230835
+  niger_delta.0108.a: "훌륭하군! 잘했어!" # 14497960188020587335
+  niger_delta.0109.t: "콜라 열매 자극" # 14091049281225594712
+  niger_delta.0109.desc: "[ROOT.Char.GetCulture.GetName] 내에서는 몸을 자극하기 위해 콜라 열매를 씹는 것이 관습입니다. 최근 들어 저도 꽤 자주 그렇게 하고 있는데, 즐겁고 도움이 된다는 것을 알았습니다. 아마도 이 좋은 습관을 유지하기 위해 좀 더 적극적으로 나서서 좋은 품질의 콜라 열매를 확보해야 할 것 같습니다." # 11310935911126848941
+  niger_delta.0109.a: "훌륭한 생각이야! 나를 위한 콜라 열매가 더 늘어나겠군!" # 12045793009706801360
+  niger_delta.0109.b: "다시 생각해보니, 그만두는 게 좋겠군." # 11704294912385750311
+  niger_delta.0110.t: "아침 의식" # 5796761187152555247
+  niger_delta.0110.desc.culture: "가문의 수장으로서, 이른 아침에 콜라 열매를 깨트리며 새로운 하루를 맞이하는 것은 나의 의무입니다. 이는 우리 [ROOT.Char.GetCulture.GetCollectiveNoun]들이 행하는 관습으로, 콜라 열매가 우리에게 영적으로 얼마나 중요한지를 생각하면 더욱 그렇습니다. 심지어 이미 콜라 열매를 높이 평가하는 이웃들보다도 우리에게 더 중요합니다.\n\n이 의식을 치르는 동안, 나는 가족들과 함께 조상들께 감사드리고 나머지 하루 동안 [ROOT.Char.GetFaith.PantheonTerm]께서 우리를 지켜보고 축복해 주시기를 기원합니다.\n\n비록 간단한 의식이지만 시간이 소요되므로, 나는 이 의식을 잘 수행하는 데 집중해야 합니다." # 7209671812240204762
+  niger_delta.0110.desc.faith: "가문의 수장으로서, 이른 아침에 콜라 열매를 깨뜨리며 새로운 하루를 맞이하는 것은 나의 의무입니다. 이는 [ROOT.Char.GetFaith.GetAdherentNamePlural]들이 행하는 풍습으로, 콜라 열매가 우리에게 영적으로 얼마나 중요한지 보여줍니다. 심지어 이미 콜라 열매를 높이 평가하는 이웃들보다도 더 중요하게 여겨지죠.\n\n이 의식을 치르는 동안, 나는 가족들과 함께 조상들께 감사드리고 [ROOT.Char.GetFaith.PantheonTerm]께서 남은 하루 동안 우리를 지켜보고 축복해 주시기를 기원합니다.\n\n비록 간단한 의식이지만 시간이 소요되므로, 이 의식을 잘 수행하는 데 집중해야 합니다." # 10112571769003498215
+  niger_delta.0110.a: "최선을 다하겠습니다!" # 10225176219601660878
+  niger_delta.0110.b: "지루한 의식이지만, 최소한의 것만은 하겠소." # 16529126563458846043
+  niger_delta.0111.t: "환대" # 3025267884326370696
+  niger_delta.0111.desc.culture: "오늘, 저의 궁정에 먼 곳에서 온 저명한 손님이 도착했습니다. 그들이 오래 머물 수는 없겠지만, 물론 잘 대접하는 것이 중요합니다.\n\n그래서 이 귀한 분을 처음 뵈러 갔을 때, 우리 [ROOT.Char.GetCulture.GetCollectiveNoun]의 전통에 따라 제가 구할 수 있는 최고의 콜라 열매 중 일부를 대접했습니다." # 17772267744671809907
+  niger_delta.0111.desc.faith: "오늘, 먼 곳에서 저의 궁정에 저명한 손님이 도착했습니다. 그분께서 오래 머물 수는 없겠지만, 물론 잘 대접하는 것이 중요합니다.\n\n그래서 이 귀한 분을 처음 뵈러 나섰을 때, 저희 [ROOT.Char.GetFaith.GetAdherentNamePlural]의 전통에 따라 제가 구할 수 있는 최고의 코라 열매 중 일부를 대접했습니다." # 935985546415677908
+  niger_delta.0111.desc.conclusion: "관례에 따라, 방문객은 집으로 돌아가는 길에 콜라 열매 하나를 골라 갔고, 나머지 콜라 열매들은 나에게 남겨두었습니다.\n\n방문은 그 외에는 즐거웠으며, 내 손님은 나의 환대에 만족스러워하는 듯했습니다." # 6879670719691867330
+  niger_delta.0111.a: "무사히 돌아가시기를 바랍니다." # 16278535319306670338
+  niger_delta.0112.t: "콜라 열매의 정의" # 6631410767000835857
+  niger_delta.0112.desc: "[ROOT.Char.GetFaith.GetAdherentNamePlural]은 콜라 열매가 위대한 신성함과 상징적 힘을 지니고 있다고 믿습니다. 따라서 많은 사람들이 콜라 열매 위에서 맹세를 합니다.\n\n한 지역 마을에서 한 남자가 최근 흉악한 범죄로 고발당했습니다. 저의 관리들이나 지역 지도자들 누구도 그가 유죄인지 아닌지를 가려낼 수 없었습니다. 혐의를 벗기 위해, 그는 공개적으로 콜라 열매 앞에서 맹세하는 데 동의했습니다.\n\n이 의식에서 콜라 열매의 한 조각이 땅에 떨어졌고, 피고인은 몸을 숙여 입으로 그것을 집어야 했으며, 만약 그가 유죄라면 [ROOT.Char.GetFaith.PantheonTerm]에 의해 쓰러질 것이었습니다. 어쨌든 아무 일도 일어나지 않았고, 따라서 [ROOT.Char.GetFaith.PantheonTerm]께서 피고인이 무죄라고 판단하신다면, 그는 어떠한 잘못도 저지르지 않은 #italic 것입니다#!." # 14203671176879293740
+  niger_delta.0112.a: "진실로, 이 의식의 결과는 명백하군요." # 4327514331255095815
+  niger_delta.0112.b: "그가 무죄인지는 모르겠지만, 그것이 우리의 전통입니다." # 4632700658162039823
+  niger_delta.0113.t: "xxxxx" # 1951045980481827005
+  niger_delta.0113.desc: "xxxxx" # 1951045980481827005
+  niger_delta.0113.a: "xxxxx" # 1951045980481827005
+  niger_delta.0114.t: "xxxxx" # 1951045980481827005
+  niger_delta.0114.desc: "xxxxx" # 1951045980481827005
+  niger_delta.0114.a: "xxxxx" # 1951045980481827005
+  niger_delta.0115.t: "xxxxx" # 1951045980481827005
+  niger_delta.0115.desc: "xxxxx" # 1951045980481827005
+  niger_delta.0115.a: "xxxxx" # 1951045980481827005
+  niger_delta.0116.t: "xxxxx" # 1951045980481827005
+  niger_delta.0116.desc: "xxxxx" # 1951045980481827005
+  niger_delta.0116.a: "xxxxx" # 1951045980481827005
+  niger_delta.0117.t: "xxxxx" # 1951045980481827005
+  niger_delta.0117.desc: "xxxxx" # 1951045980481827005
+  niger_delta.0117.a: "xxxxx" # 1951045980481827005
+  niger_delta.0118.t: "xxxxx" # 1951045980481827005
+  niger_delta.0118.desc: "xxxxx" # 1951045980481827005
+  niger_delta.0118.a: "xxxxx" # 1951045980481827005
+  niger_delta.0119.t: "xxxxx" # 1951045980481827005
+  niger_delta.0119.desc: "xxxxx" # 1951045980481827005
+  niger_delta.0119.a: "xxxxx" # 1951045980481827005
+  niger_delta.0120.t: "xxxxx" # 1951045980481827005
+  niger_delta.0120.desc: "xxxxx" # 1951045980481827005
+  niger_delta.0120.a: "xxxxx" # 1951045980481827005
+  niger_delta.0121.t: "xxxxx" # 1951045980481827005
+  niger_delta.0121.desc: "xxxxx" # 1951045980481827005
+  niger_delta.0121.a: "xxxxx" # 1951045980481827005
+  niger_delta.0122.t: "xxxxx" # 1951045980481827005
+  niger_delta.0122.desc: "xxxxx" # 1951045980481827005
+  niger_delta.0122.a: "xxxxx" # 1951045980481827005
+  niger_delta.0123.t: "xxxxx" # 1951045980481827005
+  niger_delta.0123.desc: "xxxxx" # 1951045980481827005
+  niger_delta.0123.a: "xxxxx" # 1951045980481827005
+  niger_delta.0124.t: "xxxxx" # 1951045980481827005
+  niger_delta.0124.desc: "xxxxx" # 1951045980481827005
+  niger_delta.0124.a: "xxxxx" # 1951045980481827005
+  niger_delta.0125.t: "xxxxx" # 1951045980481827005
+  niger_delta.0125.desc: "xxxxx" # 1951045980481827005
+  niger_delta.0125.a: "xxxxx" # 1951045980481827005
+  niger_delta.0126.t: "xxxxx" # 1951045980481827005
+  niger_delta.0126.desc: "xxxxx" # 1951045980481827005
+  niger_delta.0126.a: "xxxxx" # 1951045980481827005
+  niger_delta.0127.t: "xxxxx" # 1951045980481827005
+  niger_delta.0127.desc: "xxxxx" # 1951045980481827005
+  niger_delta.0127.a: "xxxxx" # 1951045980481827005
+  niger_delta.0128.t: "xxxxx" # 1951045980481827005
+  niger_delta.0128.desc: "xxxxx" # 1951045980481827005
+  niger_delta.0128.a: "xxxxx" # 1951045980481827005
+  niger_delta.0129.t: "xxxxx" # 1951045980481827005
+  niger_delta.0129.desc: "xxxxx" # 1951045980481827005
+  niger_delta.0129.a: "xxxxx" # 1951045980481827005
+  niger_delta.0130.t: "xxxxx" # 1951045980481827005
+  niger_delta.0130.desc: "xxxxx" # 1951045980481827005
+  niger_delta.0130.a: "xxxxx" # 1951045980481827005
+  niger_delta.0131.t: "xxxxx" # 1951045980481827005
+  niger_delta.0131.desc: "xxxxx" # 1951045980481827005
+  niger_delta.0131.a: "xxxxx" # 1951045980481827005
+  niger_delta.0132.t: "xxxxx" # 1951045980481827005
+  niger_delta.0132.desc: "xxxxx" # 1951045980481827005
+  niger_delta.0132.a: "xxxxx" # 1951045980481827005
+  niger_delta.0133.t: "xxxxx" # 1951045980481827005
+  niger_delta.0133.desc: "xxxxx" # 1951045980481827005
+  niger_delta.0133.a: "xxxxx" # 1951045980481827005
+  niger_delta.0134.t: "xxxxx" # 1951045980481827005
+  niger_delta.0134.desc: "xxxxx" # 1951045980481827005
+  niger_delta.0134.a: "xxxxx" # 1951045980481827005
+  niger_delta.0135.t: "xxxxx" # 1951045980481827005
+  niger_delta.0135.desc: "xxxxx" # 1951045980481827005
+  niger_delta.0135.a: "xxxxx" # 1951045980481827005
+  niger_delta.0136.t: "xxxxx" # 1951045980481827005
+  niger_delta.0136.desc: "xxxxx" # 1951045980481827005
+  niger_delta.0136.a: "xxxxx" # 1951045980481827005
+  niger_delta.0137.t: "xxxxx" # 1951045980481827005
+  niger_delta.0137.desc: "xxxxx" # 1951045980481827005
+  niger_delta.0137.a: "xxxxx" # 1951045980481827005
+  niger_delta.0138.t: "xxxxx" # 1951045980481827005
+  niger_delta.0138.desc: "xxxxx" # 1951045980481827005
+  niger_delta.0138.a: "xxxxx" # 1951045980481827005
+  niger_delta.0139.t: "xxxxx" # 1951045980481827005
+  niger_delta.0139.desc: "xxxxx" # 1951045980481827005
+  niger_delta.0139.a: "xxxxx" # 1951045980481827005
+  niger_delta.0140.t: "xxxxx" # 1951045980481827005
+  niger_delta.0140.desc: "xxxxx" # 1951045980481827005
+  niger_delta.0140.a: "xxxxx" # 1951045980481827005
+  niger_delta.0141.t: "xxxxx" # 1951045980481827005
+  niger_delta.0141.desc: "xxxxx" # 1951045980481827005
+  niger_delta.0141.a: "xxxxx" # 1951045980481827005
+  niger_delta.0142.t: "xxxxx" # 1951045980481827005
+  niger_delta.0142.desc: "xxxxx" # 1951045980481827005
+  niger_delta.0142.a: "xxxxx" # 1951045980481827005
+  niger_delta.0143.t: "xxxxx" # 1951045980481827005
+  niger_delta.0143.desc: "xxxxx" # 1951045980481827005
+  niger_delta.0143.a: "xxxxx" # 1951045980481827005
+  niger_delta.0144.t: "xxxxx" # 1951045980481827005
+  niger_delta.0144.desc: "xxxxx" # 1951045980481827005
+  niger_delta.0144.a: "xxxxx" # 1951045980481827005
+  niger_delta.0145.t: "xxxxx" # 1951045980481827005
+  niger_delta.0145.desc: "xxxxx" # 1951045980481827005
+  niger_delta.0145.a: "xxxxx" # 1951045980481827005
+  niger_delta.0146.t: "xxxxx" # 1951045980481827005
+  niger_delta.0146.desc: "xxxxx" # 1951045980481827005
+  niger_delta.0146.a: "xxxxx" # 1951045980481827005
+  niger_delta.0147.t: "xxxxx" # 1951045980481827005
+  niger_delta.0147.desc: "xxxxx" # 1951045980481827005
+  niger_delta.0147.a: "xxxxx" # 1951045980481827005
+  niger_delta.0148.t: "xxxxx" # 1951045980481827005
+  niger_delta.0148.desc: "xxxxx" # 1951045980481827005
+  niger_delta.0148.a: "xxxxx" # 1951045980481827005
+  niger_delta.0149.t: "xxxxx" # 1951045980481827005
+  niger_delta.0149.desc: "xxxxx" # 1951045980481827005
+  niger_delta.0149.a: "xxxxx" # 1951045980481827005
+  niger_delta.0150.t: "xxxxx" # 1951045980481827005
+  niger_delta.0150.desc: "xxxxx" # 1951045980481827005
+  niger_delta.0150.a: "xxxxx" # 1951045980481827005
+  niger_delta.0151.t: "xxxxx" # 1951045980481827005
+  niger_delta.0151.desc: "xxxxx" # 1951045980481827005
+  niger_delta.0151.a: "xxxxx" # 1951045980481827005
+  niger_delta.0152.t: "xxxxx" # 1951045980481827005
+  niger_delta.0152.desc: "xxxxx" # 1951045980481827005
+  niger_delta.0152.a: "xxxxx" # 1951045980481827005
+  niger_delta.0153.t: "xxxxx" # 1951045980481827005
+  niger_delta.0153.desc: "xxxxx" # 1951045980481827005
+  niger_delta.0153.a: "xxxxx" # 1951045980481827005
+  niger_delta.0154.t: "xxxxx" # 1951045980481827005
+  niger_delta.0154.desc: "xxxxx" # 1951045980481827005
+  niger_delta.0154.a: "xxxxx" # 1951045980481827005
+  niger_delta.0155.t: "xxxxx" # 1951045980481827005
+  niger_delta.0155.desc: "xxxxx" # 1951045980481827005
+  niger_delta.0155.a: "xxxxx" # 1951045980481827005
+  niger_delta.0156.t: "xxxxx" # 1951045980481827005
+  niger_delta.0156.desc: "xxxxx" # 1951045980481827005
+  niger_delta.0156.a: "xxxxx" # 1951045980481827005
+  niger_delta.0157.t: "xxxxx" # 1951045980481827005
+  niger_delta.0157.desc: "xxxxx" # 1951045980481827005
+  niger_delta.0157.a: "xxxxx" # 1951045980481827005
+  niger_delta.0158.t: "xxxxx" # 1951045980481827005
+  niger_delta.0158.desc: "xxxxx" # 1951045980481827005
+  niger_delta.0158.a: "xxxxx" # 1951045980481827005
+  niger_delta.0159.t: "xxxxx" # 1951045980481827005
+  niger_delta.0159.desc: "xxxxx" # 1951045980481827005
+  niger_delta.0159.a: "xxxxx" # 1951045980481827005
+  niger_delta.0160.t: "xxxxx" # 1951045980481827005
+  niger_delta.0160.desc: "xxxxx" # 1951045980481827005
+  niger_delta.0160.a: "xxxxx" # 1951045980481827005
+  niger_delta.0161.t: "xxxxx" # 1951045980481827005
+  niger_delta.0161.desc: "xxxxx" # 1951045980481827005
+  niger_delta.0161.a: "xxxxx" # 1951045980481827005
+  niger_delta.0162.t: "xxxxx" # 1951045980481827005
+  niger_delta.0162.desc: "xxxxx" # 1951045980481827005
+  niger_delta.0162.a: "xxxxx" # 1951045980481827005
+  niger_delta.0163.t: "xxxxx" # 1951045980481827005
+  niger_delta.0163.desc: "xxxxx" # 1951045980481827005
+  niger_delta.0163.a: "xxxxx" # 1951045980481827005
+  niger_delta.0164.t: "xxxxx" # 1951045980481827005
+  niger_delta.0164.desc: "xxxxx" # 1951045980481827005
+  niger_delta.0164.a: "xxxxx" # 1951045980481827005
+  niger_delta.0165.t: "xxxxx" # 1951045980481827005
+  niger_delta.0165.desc: "xxxxx" # 1951045980481827005
+  niger_delta.0165.a: "xxxxx" # 1951045980481827005
+  niger_delta.0166.t: "xxxxx" # 1951045980481827005
+  niger_delta.0166.desc: "xxxxx" # 1951045980481827005
+  niger_delta.0166.a: "xxxxx" # 1951045980481827005
+  niger_delta.0167.t: "xxxxx" # 1951045980481827005
+  niger_delta.0167.desc: "xxxxx" # 1951045980481827005
+  niger_delta.0167.a: "xxxxx" # 1951045980481827005
+  niger_delta.0168.t: "xxxxx" # 1951045980481827005
+  niger_delta.0168.desc: "xxxxx" # 1951045980481827005
+  niger_delta.0168.a: "xxxxx" # 1951045980481827005
+  niger_delta.0169.t: "xxxxx" # 1951045980481827005
+  niger_delta.0169.desc: "xxxxx" # 1951045980481827005
+  niger_delta.0169.a: "xxxxx" # 1951045980481827005
+  niger_delta.0170.t: "xxxxx" # 1951045980481827005
+  niger_delta.0170.desc: "xxxxx" # 1951045980481827005
+  niger_delta.0170.a: "xxxxx" # 1951045980481827005
+  niger_delta.0171.t: "xxxxx" # 1951045980481827005
+  niger_delta.0171.desc: "xxxxx" # 1951045980481827005
+  niger_delta.0171.a: "xxxxx" # 1951045980481827005
+  niger_delta.0172.t: "xxxxx" # 1951045980481827005
+  niger_delta.0172.desc: "xxxxx" # 1951045980481827005
+  niger_delta.0172.a: "xxxxx" # 1951045980481827005
+  niger_delta.0173.t: "xxxxx" # 1951045980481827005
+  niger_delta.0173.desc: "xxxxx" # 1951045980481827005
+  niger_delta.0173.a: "xxxxx" # 1951045980481827005
+  niger_delta.0174.t: "xxxxx" # 1951045980481827005
+  niger_delta.0174.desc: "xxxxx" # 1951045980481827005
+  niger_delta.0174.a: "xxxxx" # 1951045980481827005
+  niger_delta.0175.t: "xxxxx" # 1951045980481827005
+  niger_delta.0175.desc: "xxxxx" # 1951045980481827005
+  niger_delta.0175.a: "xxxxx" # 1951045980481827005
+  niger_delta.0176.t: "xxxxx" # 1951045980481827005
+  niger_delta.0176.desc: "xxxxx" # 1951045980481827005
+  niger_delta.0176.a: "xxxxx" # 1951045980481827005
+  niger_delta.0177.t: "xxxxx" # 1951045980481827005
+  niger_delta.0177.desc: "xxxxx" # 1951045980481827005
+  niger_delta.0177.a: "xxxxx" # 1951045980481827005
+  niger_delta.0178.t: "xxxxx" # 1951045980481827005
+  niger_delta.0178.desc: "xxxxx" # 1951045980481827005
+  niger_delta.0178.a: "xxxxx" # 1951045980481827005
+  niger_delta.0179.t: "xxxxx" # 1951045980481827005
+  niger_delta.0179.desc: "xxxxx" # 1951045980481827005
+  niger_delta.0179.a: "xxxxx" # 1951045980481827005
+  niger_delta.0180.t: "xxxxx" # 1951045980481827005
+  niger_delta.0180.desc: "xxxxx" # 1951045980481827005
+  niger_delta.0180.a: "xxxxx" # 1951045980481827005
+  niger_delta.0181.t: "xxxxx" # 1951045980481827005
+  niger_delta.0181.desc: "xxxxx" # 1951045980481827005
+  niger_delta.0181.a: "xxxxx" # 1951045980481827005
+  niger_delta.0182.t: "xxxxx" # 1951045980481827005
+  niger_delta.0182.desc: "xxxxx" # 1951045980481827005
+  niger_delta.0182.a: "xxxxx" # 1951045980481827005
+  niger_delta.0183.t: "xxxxx" # 1951045980481827005
+  niger_delta.0183.desc: "xxxxx" # 1951045980481827005
+  niger_delta.0183.a: "xxxxx" # 1951045980481827005
+  niger_delta.0184.t: "xxxxx" # 1951045980481827005
+  niger_delta.0184.desc: "xxxxx" # 1951045980481827005
+  niger_delta.0184.a: "xxxxx" # 1951045980481827005
+  niger_delta.0185.t: "xxxxx" # 1951045980481827005
+  niger_delta.0185.desc: "xxxxx" # 1951045980481827005
+  niger_delta.0185.a: "xxxxx" # 1951045980481827005
+  niger_delta.0186.t: "xxxxx" # 1951045980481827005
+  niger_delta.0186.desc: "xxxxx" # 1951045980481827005
+  niger_delta.0186.a: "xxxxx" # 1951045980481827005
+  niger_delta.0187.t: "xxxxx" # 1951045980481827005
+  niger_delta.0187.desc: "xxxxx" # 1951045980481827005
+  niger_delta.0187.a: "xxxxx" # 1951045980481827005
+  niger_delta.0188.t: "xxxxx" # 1951045980481827005
+  niger_delta.0188.desc: "xxxxx" # 1951045980481827005
+  niger_delta.0188.a: "xxxxx" # 1951045980481827005
+  niger_delta.0189.t: "xxxxx" # 1951045980481827005
+  niger_delta.0189.desc: "xxxxx" # 1951045980481827005
+  niger_delta.0189.a: "xxxxx" # 1951045980481827005
+  niger_delta.0190.t: "xxxxx" # 1951045980481827005
+  niger_delta.0190.desc: "xxxxx" # 1951045980481827005
+  niger_delta.0190.a: "xxxxx" # 1951045980481827005
+  niger_delta.0191.t: "xxxxx" # 1951045980481827005
+  niger_delta.0191.desc: "xxxxx" # 1951045980481827005
+  niger_delta.0191.a: "xxxxx" # 1951045980481827005
+  niger_delta.0192.t: "xxxxx" # 1951045980481827005
+  niger_delta.0192.desc: "xxxxx" # 1951045980481827005
+  niger_delta.0192.a: "xxxxx" # 1951045980481827005
+  niger_delta.0193.t: "xxxxx" # 1951045980481827005
+  niger_delta.0193.desc: "xxxxx" # 1951045980481827005
+  niger_delta.0193.a: "xxxxx" # 1951045980481827005
+  niger_delta.0194.t: "xxxxx" # 1951045980481827005
+  niger_delta.0194.desc: "xxxxx" # 1951045980481827005
+  niger_delta.0194.a: "xxxxx" # 1951045980481827005
+  niger_delta.0195.t: "xxxxx" # 1951045980481827005
+  niger_delta.0195.desc: "xxxxx" # 1951045980481827005
+  niger_delta.0195.a: "xxxxx" # 1951045980481827005
+  niger_delta.0196.t: "xxxxx" # 1951045980481827005
+  niger_delta.0196.desc: "xxxxx" # 1951045980481827005
+  niger_delta.0196.a: "xxxxx" # 1951045980481827005
+  niger_delta.0197.t: "xxxxx" # 1951045980481827005
+  niger_delta.0197.desc: "xxxxx" # 1951045980481827005
+  niger_delta.0197.a: "xxxxx" # 1951045980481827005
+  niger_delta.0198.t: "xxxxx" # 1951045980481827005
+  niger_delta.0198.desc: "xxxxx" # 1951045980481827005
+  niger_delta.0198.a: "xxxxx" # 1951045980481827005
+  niger_delta.0199.t: "xxxxx" # 1951045980481827005
+  niger_delta.0199.desc: "xxxxx" # 1951045980481827005
+  niger_delta.0199.a: "xxxxx" # 1951045980481827005

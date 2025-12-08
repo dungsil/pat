@@ -1,0 +1,163 @@
+﻿l_korean:
+  state_building_copper_mine_max_level_add: "구리 광산 최대 레벨" # 6503384404030707395
+  state_building_copper_mine_max_level_add_desc: "구리 광산 건물의 최대 단계에 대한 혜택 또는 불이익." # 17412773853158632756
+  state_trait_nano_copper_mine: "매우 작은 구리 광산" # 13393841037416574803
+  state_trait_nano_copper_mine_desc: "드문 광산 지대로, 아주 적은 양의 구리를 생산합니다." # 9310161318663028922
+  state_trait_small_copper_mine: "작은 구리 광산" # 6639226204569082651
+  state_trait_small_copper_mine_desc: "소량의 구리가 생산되는 희박한 채굴 지대." # 2160431513324315763
+  state_trait_medium_copper_mine: "중형 구리 광산" # 16542031919006538477
+  state_trait_medium_copper_mine_desc: "적당량의 구리를 생산하는 중요한 광산 지대." # 5019021860260281805
+  state_trait_big_copper_mine: "대규모 구리 매장지" # 6083509122303310312
+  state_trait_big_copper_mine_desc: "많은 양의 구리를 생산하는 대규모 구리 광산." # 8077070224792185802
+  state_trait_huge_copper_mine: "거대한 구리 광산" # 18110392104396666398
+  state_trait_huge_copper_mine_desc: "막대한 양의 구리를 생산하는 거대한 광산 지대." # 14555026502635815853
+  state_building_bauxite_mine_max_level_add: "보크사이트 광산 최대 레벨" # 4520895583858070162
+  state_building_bauxite_mine_max_level_add_desc: "보크사이트 광산 건물들의 최대 레벨에 부여되는 보너스 또는 페널티." # 6684786472928606302
+  state_trait_nano_bauxite_mine: "매우 작은 보크사이트 매장지" # 6214951093900349681
+  state_trait_nano_bauxite_mine_desc: "아주 소량의 보크사이트를 생산하는 드문 광산 지대." # 11467231080143911097
+  state_trait_small_bauxite_mine: "작은 보크사이트 광산" # 9567668985689495006
+  state_trait_small_bauxite_mine_desc: "보크사이트를 소량 생산하는 희박한 채굴지입니다." # 13479742857350799404
+  state_trait_medium_bauxite_mine: "중간 보크사이트 매장지" # 10266076602838448416
+  state_trait_medium_bauxite_mine_desc: "적당량의 보크사이트를 생산하는 중요한 채굴지입니다." # 961401310845212890
+  state_trait_big_bauxite_mine: "대규모 보크사이트 매장지" # 4864914770124915502
+  state_trait_big_bauxite_mine_desc: "많은 양의 보크사이트가 생산되는 넓은 광산." # 8468492490265111625
+  state_trait_huge_bauxite_mine: "막대한 보크사이트 광상" # 16560145098763045095
+  state_trait_huge_bauxite_mine_desc: "막대한 양의 보크사이트를 생산하는 거대한 채굴지." # 6151836892832228833
+  state_building_commonores_mine_max_level_add: "일반 광석 광산 최대 레벨" # 16968710174029199500
+  state_building_commonores_mine_max_level_add_desc: "일반 광석 광산 건물의 최대 레벨에 대한 보너스 또는 패널티." # 1275079181164963554
+  state_trait_nano_commonores_mine: "아주 작은 일반 광석 매장지" # 10508225041647712722
+  state_trait_nano_commonores_mine_desc: "극소량의 흔한 광석을 생산하는 드문 채굴지입니다." # 17933984228932827351
+  state_trait_small_commonores_mine: "작은 흔한 광석 매장지" # 2728290076470539518
+  state_trait_small_commonores_mine_desc: "소량의 흔한 광석을 생산하는 척박한 채굴지." # 16415298824289302992
+  state_trait_medium_commonores_mine: "중간 흔한 광석 매장지" # 6451579450135766368
+  state_trait_medium_commonores_mine_desc: "중요한 광산 지역으로, 적당량의 일반 광석을 생산합니다." # 3189070637106727199
+  state_trait_big_commonores_mine: "대규모 보통 광석 매장지" # 8672265833222414272
+  state_trait_big_commonores_mine_desc: "많은 양의 일반 광석이 산출되는 거대한 광산 지대." # 950651401462471781
+  state_trait_huge_commonores_mine: "거대한 일반 광석 매장지" # 17505541051505268773
+  state_trait_huge_commonores_mine_desc: "막대한 양의 일반 광석을 생산하는 거대한 광산지대." # 943211931040466342
+  state_building_advancedores_mine_max_level_add: "고급 광석 광산 최대 레벨" # 13049442942903093286
+  state_building_advancedores_mine_max_level_add_desc: "고급 광석 광산 건물의 최대 레벨에 대한 보너스 또는 페널티." # 2834253767722789572
+  state_trait_nano_advancedores_mine: "매우 작은 고급 광석 매장지" # 10544229142070717580
+  state_trait_nano_advancedores_mine_desc: "극소량의 고급 광석만을 생산하는 희박한 채굴지." # 1521394823483710007
+  state_trait_small_advancedores_mine: "작은 선진 광석 매장지" # 12323051904823297708
+  state_trait_small_advancedores_mine_desc: "소량의 고급 광석을 생산하는 드문 광산." # 5539235122424624339
+  state_trait_medium_advancedores_mine: "중형 고급 광석 매장지" # 10250232426720237014
+  state_trait_medium_advancedores_mine_desc: "고급 광석을 적당량 생산하는 중요한 광산입니다." # 16322318911664602957
+  state_trait_big_advancedores_mine: "대규모 고급 광석 광구" # 16846674711765469030
+  state_trait_big_advancedores_mine_desc: "막대한 양의 고급 광석을 생산하는 대규모 광산." # 12093450362650215540
+  state_building_natural_gas_rig_max_level_add: "천연가스 시추 시설 최고 단계" # 13081560825327806538
+  state_building_natural_gas_rig_max_level_add_desc: "천연가스 시추 시설 건물의 최대 레벨에 대한 보너스 또는 패널티." # 8498947936901692372
+  state_trait_nano_natural_gas_rig: "아주 작은 천연가스 광맥" # 5980878317714053062
+  state_trait_nano_natural_gas_rig_desc: "극미세 광맥을 시추하면 극히 적은 양의 천연가스가 생산됩니다." # 11369366421599258287
+  state_trait_small_natural_gas_rig: "소규모 천연 가스 매장" # 2809419299007287503
+  state_trait_small_natural_gas_rig_desc: "소량의 천연가스를 생산하는, 시추 가능한 작은 천연가스 매장지." # 221405172839064612
+  state_trait_medium_natural_gas_rig: "중급 천연가스 광맥" # 16501212632752491113
+  state_trait_medium_natural_gas_rig_desc: "적당량의 천연가스를 생산하는 중요한 시추 매장층입니다." # 992540557072761604
+  state_trait_big_natural_gas_rig: "대규모 천연가스 광맥" # 4478825283272228196
+  state_trait_big_natural_gas_rig_desc: "막대한 양의 천연가스가 매장된 거대한 시추 광맥." # 10298103473387369849
+  state_trait_huge_natural_gas_rig: "막대한 천연 가스 매장지" # 13185764944029594649
+  state_trait_huge_natural_gas_rig_desc: "막대한 양의 천연가스를 생산할 수 있는 거대한 시추용 광맥." # 15587214162891633972
+  state_building_uranium_mine_max_level_add: "우라늄 광산 최대 레벨" # 14296657438191645939
+  state_building_uranium_mine_max_level_add_desc: "우라늄 광산 건물의 최대 레벨에 대한 보너스 또는 페널티." # 7802049171432710939
+  state_trait_small_uranium_mine: "작은 우라늄 매장지" # 5797473733029927348
+  state_trait_small_uranium_mine_desc: "소량의 우라늄이 생산되는 드문 채굴지." # 2989923617595176646
+  state_trait_medium_uranium_mine: "중간 우라늄 매장지" # 4655600894790503498
+  state_trait_medium_uranium_mine_desc: "적당량의 우라늄을 생산하는 중요한 채굴지." # 17290327243245165661
+  state_trait_big_uranium_mine: "대규모 우라늄 매장지" # 9490862038349177747
+  state_trait_big_uranium_mine_desc: "많은 우라늄을 생산하는 거대한 광산." # 10353921053645680174
+  state_building_rare_earths_mine_max_level_add: "희토류 광산 최대 단계" # 499863672380541369
+  state_building_rare_earths_mine_max_level_add_desc: "희토류 광산 건물의 최대 레벨에 대한 보너스 또는 페널티." # 14408528038398004629
+  state_trait_nano_rare_earths_mine: "매우 작은 희토류 광상" # 8403446776670012999
+  state_trait_nano_rare_earths_mine_desc: "특정 희토류를 극소량만 생산하는 척박한 광산 지대." # 9545722117872995339
+  state_trait_small_rare_earths_mine: "소규모 희토류 매장지" # 18226216452381894741
+  state_trait_small_rare_earths_mine_desc: "채굴할 만한 희소한 지대로, 소량의 특정 희토류를 생산합니다." # 9568247723043733551
+  state_trait_medium_rare_earths_mine: "중간 희토류 매장지" # 12103294548669982831
+  state_trait_medium_rare_earths_mine_desc: "몇몇 희토류를 적당량 생산하는 중요한 채굴지입니다." # 18271989388270482911
+  state_trait_big_rare_earths_mine: "대규모 희토류 매장지" # 5842138995769471756
+  state_trait_big_rare_earths_mine_desc: "다량의 희토류를 생산하는 거대한 광산." # 6019771976521333765
+  state_building_water_plant_max_level_add: "정수장 최대 단계" # 16469030677891642038
+  state_building_water_plant_max_level_add_desc: "수상 발전소 건물의 최대 건설 가능 단계에 대한 보너스 또는 페널티." # 1509124841188510138
+  state_building_hydroelectric_power_plant_max_level_add: "수력 발전소 최대 단계" # 6051624098120049033
+  state_building_hydroelectric_power_plant_max_level_add_desc: "수력 발전소 건물의 최대 건설 수준에 대한 보너스 또는 페널티." # 12501205144626956750
+  state_trait_groundwater_scarce: "물 부족 매장량" # 1221388093806713553
+  state_trait_groundwater_scarce_desc: "이 건조한 지역은 물이 부족합니다." # 10062961236365151847
+  state_trait_groundwater_normal: "일반적인 물 매장량" # 1022042689873198939
+  state_trait_groundwater_normal_desc: "이 지역은 보통 수준의 수자원 매장량을 가지고 있습니다." # 10788094078140716496
+  state_trait_groundwater_humid: "보통 수준의 수자원" # 15449805503439239058
+  state_trait_groundwater_humid_desc: "이 지역은 적당한 양의 수자원을 보유하고 있습니다." # 16544102184113513916
+  state_trait_groundwater_very_humid: "풍부한 수자원" # 14844065331890943340
+  state_trait_groundwater_very_humid_desc: "이 습한 지역은 풍부한 수자원을 보유하고 있습니다." # 14718719486934508449
+  state_trait_hydroelectric_water_deposits: "수력 발전 잠재력" # 18312706331852321235
+  state_trait_hydroelectric_water_deposits_desc: "이 지역은 풍부한 수량과 높은 운동 에너지를 지닌 물 덕분에 상당한 수력 발전 잠재력을 보유하고 있습니다." # 6530838894959706489
+  state_trait_groundwater_scarce_hidden: "물 부족 매장량" # 5900842587635190857
+  state_trait_groundwater_scarce_hidden_desc: "이 건조한 지역은 물이 부족합니다." # 10062961236365151847
+  state_trait_groundwater_normal_hidden: "일반적인 물 매장량" # 2083121210486182728
+  state_trait_groundwater_normal_hidden_desc: "이 지역은 보통 수준의 수자원 매장량을 가지고 있습니다." # 10788094078140716496
+  state_trait_groundwater_humid_hidden: "보통 수준의 수자원" # 15449805503439239058
+  state_trait_groundwater_humid_hidden_desc: "이 지역은 적당한 양의 수자원을 보유하고 있습니다." # 16544102184113513916
+  state_trait_groundwater_very_humid_hidden: "풍부한 수자원" # 14844065331890943340
+  state_trait_groundwater_very_humid_hidden_desc: "이 습한 지역은 풍부한 수자원을 보유하고 있습니다." # 14718719486934508449
+  state_trait_hydroelectric_water_deposits_hidden: "수력 발전 잠재력" # 18312706331852321235
+  state_trait_hydroelectric_water_deposits_hidden_desc: "이 지역은 풍부한 수량과 높은 운동 에너지를 지닌 물 덕분에 상당한 수력 발전 잠재력을 보유하고 있습니다." # 6530838894959706489
+  state_trait_nano_copper_mine_hidden: "극소량의 구리 광산" # 13393841037416574803
+  state_trait_nano_copper_mine_hidden_desc: "채굴량이 매우 적은 구리를 생산하는 드문 광산입니다." # 9310161318663028922
+  state_trait_small_copper_mine_hidden: "소규모 구리 광산" # 6639226204569082651
+  state_trait_small_copper_mine_hidden_desc: "구리가 소량 생산되는 드문 광산 지대." # 2160431513324315763
+  state_trait_medium_copper_mine_hidden: "중급 구리 광산" # 16542031919006538477
+  state_trait_medium_copper_mine_hidden_desc: "적당량의 구리를 생산하는 중요한 광산 지대입니다." # 5019021860260281805
+  state_trait_big_copper_mine_hidden: "대규모 구리 광산" # 6083509122303310312
+  state_trait_big_copper_mine_hidden_desc: "막대한 양의 구리를 생산하는 커다란 광산 지대." # 8077070224792185802
+  state_trait_huge_copper_mine_hidden: "거대한 구리 광산" # 18110392104396666398
+  state_trait_huge_copper_mine_hidden_desc: "막대한 양의 구리를 생산하는 거대한 광산 지대." # 14555026502635815853
+  state_trait_nano_bauxite_mine_hidden: "극소규모 보크사이트 광산" # 6214951093900349681
+  state_trait_nano_bauxite_mine_hidden_desc: "소량의 보크사이트를 생산하는 드문 광산 지대입니다." # 11467231080143911097
+  state_trait_small_bauxite_mine_hidden: "소규모 보크사이트 광산" # 9567668985689495006
+  state_trait_small_bauxite_mine_hidden_desc: "소량의 보크사이트를 생산하는 드문 광산 지대." # 13479742857350799404
+  state_trait_medium_bauxite_mine_hidden: "중급 보크사이트 광산" # 10266076602838448416
+  state_trait_medium_bauxite_mine_hidden_desc: "적당량의 보크사이트를 생산하는 중요한 광산 지대입니다." # 961401310845212890
+  state_trait_big_bauxite_mine_hidden: "거대한 보크사이트 광산" # 4864914770124915502
+  state_trait_big_bauxite_mine_hidden_desc: "막대한 양의 보크사이트를 생산하는 거대한 광산 지대." # 8468492490265111625
+  state_trait_huge_bauxite_mine_hidden: "거대한 보크사이트 광산" # 16560145098763045095
+  state_trait_huge_bauxite_mine_hidden_desc: "막대한 양의 보크사이트를 생산하는 거대한 광산 지대입니다." # 6151836892832228833
+  state_trait_nano_commonores_mine_hidden: "극소형 일반 광물 지대" # 10508225041647712722
+  state_trait_nano_commonores_mine_hidden_desc: "흔한 광석을 아주 적게 생산하는 드문 광산 지대입니다." # 17933984228932827351
+  state_trait_small_commonores_mine_hidden: "소규모 흔한 광석 지대" # 2728290076470539518
+  state_trait_small_commonores_mine_hidden_desc: "흔한 광물을 소량 생산하는 드문 광산 지대." # 16415298824289302992
+  state_trait_medium_commonores_mine_hidden: "보통 규모의 철광석 광산" # 6451579450135766368
+  state_trait_medium_commonores_mine_hidden_desc: "보통 광물을 적당량 생산하는 중요한 광산 지대입니다." # 3189070637106727199
+  state_trait_big_commonores_mine_hidden: "거대한 일반 광물 매장지" # 8672265833222414272
+  state_trait_big_commonores_mine_hidden_desc: "풍부한 양의 일반 광물을 생산하는 거대한 채굴지입니다." # 950651401462471781
+  state_trait_huge_commonores_mine_hidden: "거대한 일반 광석 지대" # 17505541051505268773
+  state_trait_huge_commonores_mine_hidden_desc: "막대한 양의 흔한 광물을 산출하는 거대한 광산 지대입니다." # 943211931040466342
+  state_trait_nano_advancedores_mine_hidden: "극소형 첨단 광물 지대" # 10544229142070717580
+  state_trait_nano_advancedores_mine_hidden_desc: "고급 광물을 아주 적은 양만 생산하는 드문 광산 지대입니다." # 1521394823483710007
+  state_trait_small_advancedores_mine_hidden: "소규모 첨단 광물 지대" # 12323051904823297708
+  state_trait_small_advancedores_mine_hidden_desc: "희박한 광산으로, 소량의 고급 광물을 산출합니다." # 5539235122424624339
+  state_trait_medium_advancedores_mine_hidden: "중급 고급 광물 지대" # 10250232426720237014
+  state_trait_medium_advancedores_mine_hidden_desc: "고급 광물을 적당량 생산하는 중요한 광산 지대입니다." # 16322318911664602957
+  state_trait_big_advancedores_mine_hidden: "대규모 첨단 광물 지대" # 16846674711765469030
+  state_trait_big_advancedores_mine_hidden_desc: "고급 광물을 대량으로 생산하는 거대한 채광지입니다." # 12093450362650215540
+  state_trait_nano_natural_gas_rig_hidden: "매우 작은 천연가스 매장층" # 5980878317714053062
+  state_trait_nano_natural_gas_rig_hidden_desc: "미량의 천연가스를 생산하는 미세한 시추 혈관." # 11369366421599258287
+  state_trait_small_natural_gas_rig_hidden: "소규모 천연가스 매장지" # 2809419299007287503
+  state_trait_small_natural_gas_rig_hidden_desc: "소량의 천연가스를 생산하는 작은 시추층입니다." # 221405172839064612
+  state_trait_medium_natural_gas_rig_hidden: "보통 크기의 천연가스 매장층" # 16501212632752491113
+  state_trait_medium_natural_gas_rig_hidden_desc: "천연가스를 적당량 생산하는 중요한 시추층입니다." # 992540557072761604
+  state_trait_big_natural_gas_rig_hidden: "대규모 천연가스 매장층" # 4478825283272228196
+  state_trait_big_natural_gas_rig_hidden_desc: "막대한 양의 천연가스를 생산하는 거대한 시추층입니다." # 10298103473387369849
+  state_trait_huge_natural_gas_rig_hidden: "거대한 천연가스 매장층" # 13185764944029594649
+  state_trait_huge_natural_gas_rig_hidden_desc: "막대한 양의 천연가스를 생산하는 시추할 거대한 광맥입니다." # 15587214162891633972
+  state_trait_small_uranium_mine_hidden: "소규모 우라늄 광산" # 5797473733029927348
+  state_trait_small_uranium_mine_hidden_desc: "우라늄을 소량 생산하는 드문 광산 지대입니다." # 2989923617595176646
+  state_trait_medium_uranium_mine_hidden: "보통 규모의 우라늄 광맥" # 4655600894790503498
+  state_trait_medium_uranium_mine_hidden_desc: "적당량의 우라늄을 산출하는 중요한 광산 지대입니다." # 17290327243245165661
+  state_trait_big_uranium_mine_hidden: "대규모 우라늄 광산" # 9490862038349177747
+  state_trait_big_uranium_mine_hidden_desc: "막대한 양의 우라늄을 산출하는 거대한 광산 지대." # 10353921053645680174
+  state_trait_nano_rare_earths_mine_hidden: "극소량의 희토류 광맥" # 8403446776670012999
+  state_trait_nano_rare_earths_mine_hidden_desc: "희귀 광물을 아주 적은 양만 생산하는 드문 광산 지대." # 9545722117872995339
+  state_trait_small_rare_earths_mine_hidden: "소규모 희토류 광산" # 18226216452381894741
+  state_trait_small_rare_earths_mine_hidden_desc: "희귀 광물을 소량 생산하는 드문 광산 지대." # 9568247723043733551
+  state_trait_medium_rare_earths_mine_hidden: "중희토류 광전" # 12103294548669982831
+  state_trait_medium_rare_earths_mine_hidden_desc: "희토류를 적당량 생산하는 중요한 광산 지대입니다." # 18271989388270482911
+  state_trait_big_rare_earths_mine_hidden: "거대한 희토류 광맥" # 5842138995769471756
+  state_trait_big_rare_earths_mine_hidden_desc: "희토류를 대량으로 생산하는 거대한 광산 지대입니다." # 6019771976521333765

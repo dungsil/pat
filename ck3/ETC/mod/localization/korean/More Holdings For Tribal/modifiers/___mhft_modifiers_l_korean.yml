@@ -1,0 +1,5 @@
+﻿l_korean:
+  t_church_holding_build_speed: "부족 사원 [buildings|E] 건설 시간" # 4571836827156440609
+  t_church_holding_build_gold_cost: "부족 사원 [buildings|E] 건설 비용" # 8011217809450562685
+  t_church_holding_holding_build_speed: "부족 사원 [holding|E] 건설 시간" # 14747290522231719096
+  t_church_holding_holding_build_gold_cost: "부족 사원 [holding|E] 건설 비용" # 10154302184750408439

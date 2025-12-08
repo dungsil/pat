@@ -1,0 +1,31 @@
+﻿l_korean:
+  change_state_religion: "종교 기관 장악" # 9348155569728811119
+  change_state_religion_action_name: "$change_state_religion$" # 16603014896610089277
+  change_state_religion_action_propose_name: "[INITIATOR_COUNTRY.GetCustom('change_religion_dynamic_name')]을 개시합니다" # 3798886735205674794
+  change_state_religion_action_break_name: "[INITIATOR_COUNTRY.GetCustom('change_religion_dynamic_name')] 중단" # 12543632885033591772
+  change_state_religion_pact_desc: "[SCOPE.GetRootScope.GetDiplomaticPact.GetFirstCountry.GetName]이(가) [SCOPE.GetRootScope.GetDiplomaticPact.GetSecondCountry.GetName]의 국교를 변경하고 있습니다.\n 현재 8단계 중 #variable [SCOPE.GetRootScope.GetDiplomaticPact.GetSecondCountry.MakeScope.Var('change_state_religion_progress').GetValue]#! 단계 진행 중입니다." # 1684698214256949570
+  change_state_religion_desc: "#header $change_state_religion$#!\n$TOOLTIP_DELIMITER$\n대상 국가의 국교를 변경합니다." # 14655496363319837921
+  change_state_religion_action_notification_name: "[INITIATOR_COUNTRY.GetName]이 저희 국가의 국교를 변경하고 있습니다." # 7950641821532784034
+  change_state_religion_action_notification_desc: "[INITIATOR_COUNTRY.GetName]가 저희 국가의 국교를 변경하고 있습니다." # 10356469540009487655
+  change_state_religion_action_notification_break_name: "[INITIATOR_COUNTRY.GetCustom('change_religion_dynamic_name')]이(가) [INITIATOR_COUNTRY.GetName]에 의해 중단되었습니다." # 4707513120071166351
+  change_state_religion_action_notification_break_desc: "[INITIATOR_COUNTRY.GetName]가 우리 국가의 국교 변경을 중단시켰습니다." # 2552422890395015466
+  change_state_religion_effect_desc_global: "국가 [INITIATOR_COUNTRY.GetCustom('change_religion_dynamic_name')] 개시" # 7897201799633528425
+  change_state_religion_effect_desc_first: "[COUNTRY.GetAdjectiveNoFlag]가 [TARGET_COUNTRY.GetName]에서 국교 변경을 개시하고 있습니다." # 4425091073364508501
+  change_state_religion_effect_desc_third: "[COUNTRY.GetName]이 [AddTextIf(ObjectsEqual(GetMetaPlayer.GetPlayedOrObservedCountry.Self, TARGET_COUNTRY.Self),TARGET_COUNTRY.GetNameNoFlag)][AddTextIf(Not(ObjectsEqual(GetMetaPlayer.GetPlayedOrObservedCountry.Self, TARGET_COUNTRY.Self)),TARGET_COUNTRY.GetName)]에서 [INITIATOR_COUNTRY.GetCustom('change_religion_dynamic_name')]을 개시하고 있습니다." # 7262844974496240285
+  change_state_religion_trigger_desc_global: "[INITIATOR_COUNTRY.GetCustom('change_religion_dynamic_name')] 진행 중" # 17734810485030036108
+  change_state_religion_trigger_false_desc_global: "더 이상 #b [INITIATOR_COUNTRY.GetCustom('change_religion_dynamic_name')]# 과정 중에 있지 않습니다." # 10122384968884385659
+  change_state_religion_trigger_desc_first: "[COUNTRY.GetAdjectiveNoFlag]가 [TARGET_COUNTRY.GetName]의 국교를 변경하고 있습니다." # 14030992589096909730
+  change_state_religion_trigger_false_desc_first: "[COUNTRY.GetAdjectiveNoFlag]가 더 이상 [TARGET_COUNTRY.GetName]의 국교를 변경하지 않습니다. #b#!" # 18386598843416948844
+  change_state_religion_trigger_desc_third: "[COUNTRY.GetName]이(가) [AddTextIf(ObjectsEqual(GetMetaPlayer.GetPlayedOrObservedCountry.Self, TARGET_COUNTRY.Self),TARGET_COUNTRY.GetNameNoFlag)][AddTextIf(Not(ObjectsEqual(GetMetaPlayer.GetPlayedOrObservedCountry.Self, TARGET_COUNTRY.Self)),TARGET_COUNTRY.GetName)]의 국교를 변경하고 있습니다." # 11303351227560873586
+  change_state_religion_trigger_false_desc_third: "[COUNTRY.GetName]은 더 이상 [AddTextIf(ObjectsEqual(GetMetaPlayer.GetPlayedOrObservedCountry.Self, TARGET_COUNTRY.Self),TARGET_COUNTRY.GetNameNoFlag)][AddTextIf(Not(ObjectsEqual(GetMetaPlayer.GetPlayedOrObservedCountry.Self, TARGET_COUNTRY.Self)),TARGET_COUNTRY.GetName)]의 국교를 변경하지 않습니다. #b#!" # 18433455057680641309
+  ib_events.02.t: "국교 변경" # 10434227134282927968
+  ib_events.02.d: "자부심 넘치는 [ROOT.GetCountry.GetName]이(가) [SCOPE.sCountry('religion_target_country').GetName]에 대한 [INITIATOR_COUNTRY.GetCustom('change_religion_dynamic_name')]을 성공적으로 완료했습니다. 이제 [SCOPE.sCountry('religion_target_country').GetName]은(는) 본토의 종교 제도를 받아들여 영원히 번영할 것입니다." # 10069754443141756813
+  ib_events.02.f: "\"[ROOT.GetCountry.GetName] 만세\"" # 2468636827704366611
+  ib_events.02.a: "잘했소." # 14562174443526593361
+  change_state_religion_weekly_effect: "국교와의 완전한 일치를 위해 노력하며, 매주 20%의 확률로 진척도가 발생하고 성공하려면 8점의 진척도가 필요합니다." # 17732107126593816669
+  cr_irreligious_conversion: "불신앙적 장악" # 10846105112493900734
+  cr_institutionalise_secularism: "세속주의 규제" # 4810200006667218057
+  cr_religious_conversion: "종교 개종" # 8677999635118416076
+  notification_MoG_SIS_religion_changed_name: "[SCOPE.sCountry('religion_target_country').GetName] 종교 변경됨" # 2506736990060536806
+  notification_MoG_SIS_religion_changed_desc: "[SCOPE.sCountry('religion_target_country').GetName]의 [concept_state_religion]가 이제 [SCOPE.sReligion('new_religion').GetName]로 변경되었습니다." # 14887165651109814685
+  notification_MoG_SIS_religion_changed_tooltip: "#header $notification_MoG_SIS_religion_changed_name$#!\n$notification_MoG_SIS_religion_changed_desc$" # 16624074831618729059

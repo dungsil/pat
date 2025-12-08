@@ -1,0 +1,106 @@
+﻿l_korean:
+  je_france_pop: "19세기 정체" # 6429505727594116601
+  je_france_pop_reason: "[ROOT.GetCountry.GetName]은 선진적인 [Concept('concept_demographic_stages','$concept_demographic_stages$')]을 경험한 최초의 주요 유럽 [Concept('concept_country','$concept_country$')]이었습니다. 19세기 전반기가 끝나갈 무렵, 도시화, 문화적 변화, 기초적인 피임법의 보급, 여성 교육 수준 향상 및 상속 정책으로 인해 [ROOT.GetCountry.GetAdjective] 인구 사이에서 출산율 감소가 관찰되었습니다." # 4315721470615750910
+  je_france_pop_goal: "[ROOT.GetCountry.GetName]의 의료 혜택을 법률, 도시 중심지, 혹은 페니실린과 항생제 같은 신기술 연구를 통해 증진하십시오." # 11515236645800165865
+  je_irish_independence: "아일랜드 문제" # 12647848951316758800
+  je_irish_independence_reason: "아일랜드는 1801년에 영국의 일부가 되었지만, 아일랜드인들은 오랫동안 독립을 추구해왔습니다. 아일랜드 문제는 실질적인 경제적, 정치적 통합이 부재함에도 불구하고 아일랜드가 독립 국가가 되어야 하는지, 아니면 영국의 일부로 남아있어야 하는지에 대한 논쟁을 일컫습니다. 아일랜드 민족주의 운동은 최근 몇 년간 탄력을 받아왔으며, 많은 이들이 민족 자결과 독립적인 아일랜드 국가의 수립을 주장하고 있습니다." # 14671060496899318523
+  je_irish_independence_goal: "아일랜드의 혼란을 줄이고, 낮은 진척도를 유지하며, 가장 중요한 것은 문화 배척 또는 다문화주의 법안을 제정해야 합니다." # 2859706042758989264
+  je_arabia_unification: "아라비아 통일" # 17067482034680359786
+  je_arabia_unification_reason: "아라비아 반도는 문화적, 종교적으로 매우 중요한 지역이지만, 아바스 왕조 칼리파국의 쇠퇴 이후 다양한 국가와 부족 영토로 분열되어 왔습니다. 오늘날, 민족주의의 부상과 통일에 대한 열망과 함께, 아라비아 반도를 하나의 국가로 통합하려는 움직임이 점차 커지고 있습니다. 이러한 통합은 이 지역의 정치적, 경제적 힘을 강화할 뿐만 아니라 그 주민들 사이의 문화적, 종교적 연대를 증진시킬 것입니다." # 15888724209490434164
+  je_arabia_unification_goal: "네지드, 헤자즈, 하일 지역을 외교적으로나 군사적으로 지배하여 아라비아 반도를 통일하십시오." # 4770417326502983891
+  je_austrian_empire_collapse: "오스트리아 제국 쇠퇴" # 18237739727139310839
+  je_austrian_empire_collapse_reason: "[ROOT.GetCountry.GetAdjective] 제국은 한때 유럽의 지배적인 강국이었으나, 이제는 중대한 도전에 직면해 있습니다. 민족주의의 대두, 경제적 어려움, 그리고 제국 권위의 쇠퇴는 제국 내 다양한 민족들 사이에서 광범위한 불안과 독립 요구를 불러일으켰습니다. 변화하는 정치 지형에 적응하지 못하고 다양한 인구의 염원을 해결하지 못한 제국의 무능함은 쇠퇴에 일조했습니다. 이제 남은 질문은 [ROOT.GetCountry.GetAdjective] 제국이 개혁하여 생존할 수 있을지, 아니면 분열의 압력에 굴복할 것인지입니다." # 584420390196742549
+  je_austrian_empire_collapse_goal: "문화적 포용과 권리를 증진하는 법률을 제정하고, 1인당 GDP를 증대시키며, 유럽의 지정학적 구도에서 열강으로서의 지배적 위치를 유지하십시오. 만약 이 임무를 완수한다면, [ROOT.GetCountry.GetName]은 붕괴하여 이웃 국가들과 내부 민족들에게 분할될 것입니다. 마지막으로 상기하건대, 군주제여야 합니다." # 10927670946855961213
+  je_ottoman_empire_collapse: "오스만 제국 쇠퇴" # 3065944229570634865
+  je_ottoman_empire_collapse_reason: "[ROOT.GetCountry.GetName]은 마지막 중동 제국으로서, 19세기의 변화하는 정치 지형에 적응하지 못하고 오랜 쇠퇴와 불안정의 시기를 겪고 있습니다. 발칸 민족주의의 부상, 경제적 어려움, 러시아의 팽창주의, 그리고 유럽의 석유 수요는 제국이 맞서 준비해야 할 문제들 중 일부입니다. 이제 남은 질문은 [ROOT.GetCountry.GetName]이 개혁하고 생존할 수 있을지, 아니면 분열의 압력에 굴복할지 여부입니다." # 12462020129716048488
+  je_ottoman_empire_collapse_goal: "문화적 포용과 권리를 증진하는 법률을 제정하고, 1인당 GDP를 증대시키며, 유럽의 지정학적 구도에서 강대국으로서의 지배적인 위치를 유지하십시오. 만약 당신이 JE를 완수한다면, [ROOT.GetCountry.GetName]는 붕괴하고 그 이웃 국가들과 내부 민족들에게 분할될 것입니다." # 5423677820563408578
+  je_demographic_0_to_1: "제1 인구 단계" # 10230333809639582235
+  je_demographic_0_to_1_reason: "[ROOT.GetCountry.GetName]은 #v 매우 높은#! #positive_value 출산율#과 #v 높은#! #negative_value 사망률#로 특징지어지는 [Concept('concept_demographic_stages','$concept_demographic_stage$')]의 첫 번째 단계에 있습니다.\n\n [Concept('concept_pop_growth','$concept_pop_growth$')]는 #v 보통# 수준입니다." # 2686641326244778528
+  je_demographic_0_to_1_goal: "높은 [Concept('concept_literacy','$concept_literacy$')], 높은 [Concept('concept_sol','$concept_sol$')], 폐쇄적 국경, 그리고 자유주의 정부는 이 과정을 가속화할 것입니다. 이민, 다문화주의, 그리고 전통적 가치는 이 과정을 늦출 것입니다." # 6903871564594946398
+  je_demographic_1_to_2: "제2 인구 단계" # 7019434059661691877
+  je_demographic_1_to_2_reason: "[ROOT.GetCountry.GetName]은 #v very high#! #positive_value 출산율#과 #v medium#! #negative_value 사망률#로 특징지어지는 [Concept('concept_demographic_stages','$concept_demographic_stage$')]의 두 번째 단계에 있습니다.\n\n [Concept('concept_pop_growth','$concept_pop_growth$')]는 #v high#! 입니다." # 13546378437688733439
+  je_demographic_1_to_2_goal: "높은 [Concept('concept_literacy','$concept_literacy$')], 높은 [Concept('concept_sol','$concept_sol$')], 폐쇄적 국경, 그리고 자유주의 정부는 이 과정을 가속화할 것입니다. 이민, 다문화주의, 그리고 전통적 가치는 이 과정을 늦출 것입니다." # 6903871564594946398
+  je_demographic_2_to_3: "제3 인구학적 단계" # 18148737894986015217
+  je_demographic_2_to_3_reason: "[ROOT.GetCountry.GetName]은 #v high# #positive_value 출산율#과 #v low# #negative_value 사망률#이 특징인 [Concept('concept_demographic_stages','$concept_demographic_stage$')]의 세 번째 단계에 있습니다.\n\n [Concept('concept_pop_growth','$concept_pop_growth$')]는 여전히 #v high# 입니다." # 9725736351661667060
+  je_demographic_2_to_3_goal: "높은 [Concept('concept_literacy','$concept_literacy$')], 높은 [Concept('concept_sol','$concept_sol$')], 폐쇄적 국경, 그리고 자유주의 정부는 이 과정을 가속화할 것입니다. 이민, 다문화주의, 그리고 전통적 가치는 이 과정을 늦출 것입니다." # 6903871564594946398
+  je_demographic_3_to_4: "제4 인구 단계" # 8251728726899213751
+  je_demographic_3_to_4_reason: "[ROOT.GetCountry.GetName]은 #v medium#! #positive_value 출생률#!과 #v very low#! #negative_value 사망률#!이 특징인 [Concept('concept_demographic_stages','$concept_demographic_stage$')]의 네 번째 단계에 있습니다.\n\n [Concept('concept_pop_growth','$concept_pop_growth$')]은 #v medium# 입니다." # 579760128677644447
+  je_demographic_3_to_4_goal: "높은 [Concept('concept_literacy','$concept_literacy$')], 높은 [Concept('concept_sol','$concept_sol$')], 폐쇄적 국경, 그리고 자유주의 정부는 이 과정을 가속화할 것입니다. 이민, 다문화주의, 그리고 전통적 가치는 이 과정을 늦출 것입니다." # 6903871564594946398
+  je_demographic_4_to_5: "제5 인구 단계" # 6525560495082095151
+  je_demographic_4_to_5_reason: "[ROOT.GetCountry.GetName]은 #v low#의 #positive_value 출산율#과 #v very low#의 #negative_value 사망률#로 특징지어지는 [Concept('concept_demographic_stages','$concept_demographic_stage$')]의 다섯 번째 단계에 있습니다.\n\n [Concept('concept_pop_growth','$concept_pop_growth$')]는 #v low#입니다." # 805596850553579370
+  je_demographic_4_to_5_goal: "높은 [Concept('concept_literacy','$concept_literacy$')], 높은 [Concept('concept_sol','$concept_sol$')], 폐쇄적 국경, 그리고 자유주의 정부는 이 과정을 가속화할 것입니다. 이민, 다문화주의, 그리고 전통적 가치는 이 과정을 늦출 것입니다." # 6903871564594946398
+  je_demographic_5_to_6: "VI 인구 통계 단계" # 5269149959962520538
+  je_demographic_5_to_6_reason: "[ROOT.GetCountry.GetName]은 [Concept('concept_demographic_stages','$concept_demographic_stage$')]의 여섯 번째 단계에 있으며, 이는 #v very low#!! #positive_value 출생률#!과 #v very low#! #negative_value 사망률#!로 특징지어집니다.\n\n [Concept('concept_pop_growth','$concept_pop_growth$')]는 #v very low# 입니다." # 2478343994215123140
+  je_demographic_5_to_6_goal: "높은 [Concept('concept_literacy','$concept_literacy$')], 높은 [Concept('concept_sol','$concept_sol$')], 폐쇄적 국경, 그리고 자유주의 정부는 이 과정을 가속화할 것입니다. 이민, 다문화주의, 그리고 전통적 가치는 이 과정을 늦출 것입니다." # 6903871564594946398
+  je_demographic_6_to_7: "VII 인구 단계" # 4622397807988829389
+  je_demographic_6_to_7_reason: "[ROOT.GetCountry.GetName]은 [Concept('concept_demographic_stages','$concept_demographic_stage$')]의 일곱 번째 단계에 있으며, 이는 #v minimal#한 #positive_value 출생률#과 #v minimal#한 #negative_value 사망률#로 특징지어집니다.\n\n [Concept('concept_pop_growth','$concept_pop_growth$')]는 #v minimal#입니다." # 17197236072936394224
+  je_demographic_6_to_7_goal: "높은 [Concept('concept_literacy','$concept_literacy$')], 높은 [Concept('concept_sol','$concept_sol$')], 폐쇄적 국경, 그리고 자유주의 정부는 이 과정을 가속화할 것입니다. 이민, 다문화주의, 그리고 전통적 가치는 이 과정을 늦출 것입니다." # 6903871564594946398
+  je_demographic_7_to_8: "VIII 인구 단계" # 16374899645558252674
+  je_demographic_7_to_8_reason: "[ROOT.GetCountry.GetName]은 #v 존재하지 않는#! #positive_value 출산율#과 #v 최소 수준의#! #negative_value 사망률#로 특징지어지는 [Concept('concept_demographic_stages','$concept_demographic_stage$')]의 여덟 번째 단계에 있습니다.\n\n [Concept('concept_pop_growth','$concept_pop_growth$')]은 #v 정체 상태#입니다." # 7668578485715045252
+  je_demographic_7_to_8_goal: "높은 [Concept('concept_literacy','$concept_literacy$')], 높은 [Concept('concept_sol','$concept_sol$')], 폐쇄적 국경, 그리고 자유주의 정부는 이 과정을 가속화할 것입니다. 이민, 다문화주의, 그리고 전통적 가치는 이 과정을 늦출 것입니다." # 6903871564594946398
+  je_old_progressive_ideologies_goal: "[ROOT.GetCountry.GetName]은 최소한 부분적으로 개발된 국가여야 하며 인권 기술을 보유하고 있어야 합니다." # 12686736595944502365
+  je_mid_progressive_ideologies_goal: "[ROOT.GetCountry.GetName]은 최소한 선진국이어야 하며 사회민주주의 기술을 보유해야 합니다." # 2570591038741949834
+  je_liberty_index: "이념 지수" # 17334563368789126202
+  je_liberty_index_reason: "한 [concept_country]의 [Concept('concept_ideology','$concept_ideology$')]는 두 가지 핵심 지표로 측정됩니다. 바로 @liberty_index! [Concept('concept_liberty_index','$concept_liberty_index$')]와 @equality_index! [Concept('concept_equality_index','$concept_equality_index$')]입니다.\n\n@liberty_index! [Concept('concept_liberty_index','$concept_liberty_index$')]와 @equality_index! [Concept('concept_equality_index','$concept_equality_index$')]는 한 국가의 정치적 및 사회적 가치를 나타내는 척도입니다. [Concept('concept_liberty_index','$concept_liberty_index$')]는 국가 내 개인의 자유, 시민적 권리, 그리고 [Concept('concept_democracy','$concept_democracy_adjective$')]적인 통치의 정도를 반영하는 반면, [Concept('concept_equality_index','$concept_equality_index$')]는 시민들 사이의 사회적 및 경제적 평등 수준을 평가합니다. 이 두 지표는 국가의 전반적인 이념적 지형에 대한 통찰을 제공하며, 국내 정책과 국제 관계에 영향을 미칩니다.\n\n두 지표 모두 해당 국가 내에 시행 중인 대부분의 [Concept('concept_law', '$concept_laws$')]에 의해 영향을 받습니다.\n\n우리의 [Concept('concept_liberty_index','$concept_liberty_index$')]에 근거하여, 우리는 다음과 같이 분류될 수 있습니다:\n\n 75-100: #positive_value 민주주의 국가#!\n 50-75: #v 불완전한 민주주의 국가#!\n 25-50: #v 권위주의 국가#!\n 0-25: #gold_value 전체주의 국가#!\n\n우리의 [Concept('concept_equality_index','$concept_equality_index$')]에 근거하여, 우리는 다음과 같이 분류될 수 있습니다:\n\n 75-100: #negative_value 사회주의 국가#!\n 50-75: #v 복지 국가#!\n 25-50: #v 계층화된 국가#!\n 0-25: #blue_value 개인주의 국가#!\n\n#negative_value 중요#!: 법률 그룹 #v 권력 분배#!는 귀하의 최대 [Concept('concept_liberty_index','$concept_liberty_index$')]를 제한할 것입니다." # 11521628137518754708
+  liberty_index_progress_bar: "자유 지수" # 10224254528086149020
+  equality_index_progress_bar: "평등 지수" # 780557157593583698
+  liberty_index_progress_bar_desc: "자유 지수: #v [ROOT.GetCountry.MakeScope.Var('liberty_index_var').GetValue]/100#!" # 17061632703613053821
+  equality_index_progress_bar_desc: "평등 지수: #v [ROOT.GetCountry.MakeScope.Var('equality_index_var').GetValue]/100#!" # 1542857337457725562
+  show_liberty_index_rankings_button: "자유 지수 순위 보기" # 16431836172154650404
+  show_liberty_index_rankings_button_desc: "현재 @liberty_index! [Concept('concept_liberty_index','$concept_liberty_index$')] 순위에서 세계에서 가장 영향력 있는 국가들을 확인하십시오." # 9067141604268447887
+  show_equality_index_rankings_button: "평등 지수 순위 보기" # 13050164344478186245
+  show_equality_index_rankings_button_desc: "현재 @equality_index! [Concept('concept_equality_index','$concept_equality_index$')] 순위를 확인하여 세계에서 가장 영향력 있는 국가들의 순위를 보십시오." # 9078199183505263052
+  research_center_decision: "연구 시설 부지를 조사하십시오" # 4724524369278305822
+  research_center_decision_desc: "우리의 과학 기술 이해가 진보함에 따라, 우리는 최첨단 연구를 수행할 전담 시설의 필요성을 인식하고 있습니다. 우리 과학자들은 혁신을 장려하고 다양한 분야의 발전을 이끌어 나갈 최신식 연구 센터 건설을 제안합니다. 우리는 이 중요한 기관, 즉 우리 국가의 최고의 지성들이 모일 수 있는 최적의 부지를 선정하기 위한 측량을 승인해야 합니다." # 10880139195333585096
+  je_research_center_site: "연구 센터 조사" # 4344577396728759266
+  je_research_center_site_reason: "우리 연구 센터의 성공을 보장하기 위하여, 우리는 우선 그 건설에 가장 적합한 입지를 파악해야만 합니다. 우리 과학자들과 기획자들은 접근성, 기반 시설, 그리고 학술 기관과의 근접성과 같은 요인들을 기준으로 잠재적인 부지에 대한 철저한 조사를 수행할 것입니다." # 4085373956104194526
+  je_research_center_site_goal: "#v 2년# 조사가 완료될 때까지 대기하십시오." # 6888283375794841948
+  je_research_center_construction: "연구소를 건설하십시오" # 3366773460592843845
+  je_research_center_construction_reason: "연구 센터 부지가 확정되었으니, 이제 건설을 진행할 수 있습니다. 이 시설은 과학적 탐구와 기술 개발의 중심지 역할을 하며, 최고의 인재를 유치하고 연구원들 간의 협력을 증진시킬 것입니다. 이 시설의 완공은 우리 국가의 혁신과 진보에 대한 의지를 보여주는 중대한 이정표가 될 것입니다." # 12703709616226457428
+  research_center.1.t: "국립 연구 센터 부지 선정 완료" # 12098524513370228116
+  research_center.1.d: "광범위한 숙고와 여러 제안에 대한 신중한 평가 끝에, 위원회는 미래의 국립 연구 센터 [concept_building]의 부지로 [SCOPE.sState('research_center_site').GetName] 내에 있는 [SCOPE.sState('research_center_site').GetCityHubName]을 선정하였습니다. 해당 지역의 기반 시설, 접근성, 학문적 전통 및 역사적 중요성은 새로운 과학적 탐구와 기술 발전 시대를 열기에 가장 적합한 장소입니다." # 12354994332571233192
+  research_center.1.f: "\"한 국가의 힘은 그 자원에만 있는 것이 아니라, 질문하고, 탐구하며, 발견하는 능력에 달려 있소\"" # 13789862720668428062
+  research_center.1.major_power: "지식의 토대를 다집시다." # 12368689802784724925
+  research_center.1.minor_power: "우리의 역량을 현실적으로 고려할 때, 기존 대학들과 세계 나머지 지역 간의 연계에 집중해야 합니다." # 3362645457038721680
+  research_center.2.t: "국립 연구 센터 개소" # 15764309839568593160
+  research_center.2.d: "수년간의 계획과 건설 끝에, [SCOPE.sState('research_center_site').GetCityHubName], [SCOPE.sState('research_center_site').GetName]에 위치한 국가 연구 센터 [concept_building]이 마침내 문을 열었습니다. 전국 각지의 연구원, 기술자, 학자들이 모여 발견의 새로운 장을 시작할 것입니다. 이 시설은 인간 지성의 기념비이자 앞으로 다가올 진보에 대한 약속으로 우뚝 서 있습니다." # 3929812756203845105
+  research_center.2.a: "지식의 추구에는 한계가 없습니다." # 8765448027996338595
+  ztr_tooltip_is_distopia: "[ROOT.GetCountry.GetName]은 #V #N 디스토피아#!#!입니다." # 136108158351139839
+  ztr_tooltip_is_not_distopia: "[ROOT.GetCountry.GetName]은 #V #N 디스토피아가 아닙니다!#!." # 17452661056823009168
+  ztr_tooltip_ztr_is_totalitarian: "[ROOT.GetCountry.GetName]은 #negative_value 전체주의적#!입니다." # 14357519057949737096
+  ztr_tooltip_ztr_is_not_totalitarian: "[ROOT.GetCountry.GetName]은 #negative_value 전체주의# 국가가 아닙니다!" # 2574278368863359442
+  ztr_tooltip_ztr_is_authoritarian: "[ROOT.GetCountry.GetName]은 #v 권위주의적#입니다!" # 14900933641172483074
+  ztr_tooltip_ztr_is_flawed_democratic: "[ROOT.GetCountry.GetName]은 #v 결함 있는 민주주의#입니다!" # 2925745801907391128
+  ztr_tooltip_ztr_is_full_democratic: "[ROOT.GetCountry.GetName]은 #positive_value 완전한 민주주의#입니다!" # 3122567525359381632
+  ztr_tooltip_ztr_is_not_full_democratic: "[ROOT.GetCountry.GetName]은 #positive_value 완전한 민주주의#가 아닙니다!" # 7738098611669656326
+  ztr_tooltip_ztr_is_democratic: "[ROOT.GetCountry.GetName]은 #v 민주주의#입니다!" # 17385066116915022173
+  ztr_tooltip_ztr_is_not_democratic: "[ROOT.GetCountry.GetName]은 #v 민주적#이 아닙니다!" # 7551731279921826631
+  ztr_tooltip_is_individualist_state: "[ROOT.GetCountry.GetName]은 #v 개인주의 국가#!입니다." # 9435944004918819687
+  ztr_tooltip_is_egalitarian_state: "[ROOT.GetCountry.GetName]은 #v 평등주의 국가#!입니다." # 11181722596605952352
+  ztr_tooltip_is_communist_state: "[ROOT.GetCountry.GetName]은 #negative_value 공산주의 국가#입니다!" # 14031645160773843158
+  je_strike_not_ending_after_10_years_tt: "[ROOT.GetCountry.GetName]의 #V #N 파업#!#!이 #v 10년#! 넘게 지속되고 있습니다." # 10846666807190878565
+  ztr_russia_order_progress_bar: "명령" # 7016789455525021283
+  ztr_russia_order_progress_bar_desc: "#v [ROOT.GetCountry.MakeScope.Var('russia_order_var').GetValue]/100#!" # 13821768667290431143
+  ztr_russia_revolution_progress_bar: "혁명" # 10221145701988101768
+  ztr_russia_revolution_progress_bar_desc: "혁명: #v [ROOT.GetCountry.MakeScope.Var('russia_revolution_var').GetValue]/100#!" # 12861591822829668227
+  ZTR_CONSERVATIVE_POWER: "보수 엘리트들로부터" # 6319051897120943078
+  ZTR_LIBERAL_ACCEPT_ORDER: "자유주의자들과의 조약으로부터" # 11050381314426682037
+  ZTR_LIBERAL_REFUSE_ORDER: "자유주의 엘리트들로부터" # 11154254771071852257
+  ZTR_COMMUNIST_REVOLUTION: "공산주의 혁명 사상으로부터" # 17982536732702338987
+  je_group_russian_revolution: "러시아 혁명" # 13116370142134874752
+  ztr_je_russian_absolutism: "러시아 절대왕정의 마지막 날들" # 16706133583245643643
+  ztr_je_russian_absolutism_reason: "[Concept('concept_autocracy','전제정치')] 통치 체제인 #v 차르#의 [ROOT.GetCountry.GetName] 지배는 오랫동안 그 정치 지형의 특징이었습니다. 그러나 근대화의 압력, 사회적 불안, 그리고 새로운 이념의 영향력이 이 절대주의 체제의 기반에 도전하고 있습니다. 개혁을 요구하는 목소리가 더욱 크고 조직적으로 커짐에 따라, 차르 정권이 변화하는 시대에 적응할 수 있을지, 아니면 제국을 휩쓰는 변화의 힘에 굴복할 운명인지에 대한 의문이 제기됩니다. [ROOT.GetCountry.GetName]이 취할 수 있는 세 가지 주요 경로가 있습니다:\n\n1.@autocracy_index! #v 보수주의적 경로#!, 현상 유지를 고수하고 반대파를 억압합니다.\n2.@individualist_index! #gold_value 자유주의적 경로#!, 변화에 대한 커져가는 요구를 달래기 위해 시의적절하게 온건한 개혁을 단행합니다.\n3.@equality_index! #negative_value 공산주의적 경로#!, 급진적인 변화와 세계 혁명을 수용하여 기존의 국내 및 국제 질서를 전복합니다.\n\n혁명적 경로의 영향력:\n#gold_value 자유주의적 경로#!: [ROOT.GetCountry.MakeScope.Var('russia_liberalist_path_var_total').GetValue|1].\n#negative_value 공산주의적 경로#!: [ROOT.GetCountry.MakeScope.Var('russia_sovietic_path_var').GetValue|1]." # 9059161221154924887
+  ztr_tooltip_russian_order_wins: "#v 질서#! 진행률 표시줄을 완성하십시오" # 17039610554119934420
+  ztr_tooltip_russian_revolution_wins: "#negative_value 혁명#! 진행 막대를 채우시오" # 2357181134116278493
+  ztr_ask_a_government_liberal_petition: "#gold_value 자유주의자들#로부터 개혁안을 제안하십시오!" # 10723300757377998
+  ztr_ask_a_government_liberal_petition_desc: "#gold_value 자유주의자# 세력의 지지를 얻고 추가적인 분열을 피하기 위해, 그들의 우려를 해소할 수 있는 개혁을 단행하는 것을 고려해야 합니다." # 12180572655079458800
+  ztr_treaty_with_liberals: "#gold_value 자유주의자#들과 협력 조약을 체결하십시오!" # 4603520096175187585
+  ztr_treaty_with_liberals_desc: "#gold_value 자유주의# 파벌과의 우호적인 관계 덕분에 우리는 타협점을 찾아 [ROOT.GetCountry.GetName]의 상황을 안정시키는 데 도움이 될 협력 조약을 체결할 수 있었습니다." # 6165943440896386085
+  ztr_help_liberal_consensus: "#gold_value 자유주의자#들의 합의를 자극하시오!" # 2811401668500199351
+  ztr_help_liberal_consensus_desc: "#gold_value 자유주의# 세력의 가치에 부합하는 정책을 장려함으로써, 우리는 #negative_value 공산주의# 세력의 커져가는 영향력에 맞서 싸우고 [ROOT.GetCountry.GetName]의 질서를 유지할 수 있습니다." # 9728758186064196064
+  ztr_repress_soviet_movements: "#negative_value 공산주의자# 운동을 탄압하라" # 2856824601076373587
+  ztr_repress_soviet_movements_desc: "[ROOT.GetCountry.GetName] 내에서 #negative_value 공산주의자#! 운동의 부상은 우리의 안정에 심각한 위협이 되고 있습니다. 우리는 이 집단들을 진압하고 질서를 유지하기 위해 단호한 조치를 취해야 합니다." # 740376290309519800
+  ztr_je_russian_absolutism_government_petition: "자유주의자 합의 청원" # 11225720260612133055
+  ztr_je_russian_absolutism_government_petition_status: "[SCOPE.gsInterestGroup('government_petition_ig').GetName]이 [SCOPE.sLaw('government_petition_law').GetName]의 통과를 청원하고 있습니다. #negative_value 공산주의자#!들에 대항하여 그들의 지지를 얻으려면, 우리는 그들의 요구를 진지하게 고려해야만 합니다." # 3216646127680842041
+  ztr_je_russian_absolutism_government_petition_reason: "[SCOPE.gsInterestGroup('government_petition_ig').GetName]이 [SCOPE.sLaw('government_petition_law').GetName]의 통과를 청원하고 있습니다.\n\n[SCOPE.sLaw('government_petition_law').GetName]이 성공적으로 통과되면, #gold_value 자유주의자들#!은 크게 기뻐할 것이며, [ROOT.GetCountry.GetName]의 질서와 안정을 유지하려는 우리의 노력에 지지를 제공할 수도 있습니다." # 10438582578139570388
+  ztr_tooltip_russia_loses_european_periphery: "[ROOT.GetCountry.GetName]은 유럽 통제 변방을 #negative_value 상실할# 것입니다." # 6403648657355501836

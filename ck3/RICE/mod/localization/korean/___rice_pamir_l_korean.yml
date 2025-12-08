@@ -1,0 +1,1674 @@
+﻿l_korean:
+  dynn_wakhanshah: "와칸샤" # 12040576785207088118
+  dynn_shugnanshah: "슈그난샤" # 2585305178478498596
+  dynn_shugnanshah_2: "시니" # 4790589414647530459
+  dynn_puteshan: "푸테샨" # 15808833044502154949
+  dynn_badakhshani: "바다흐샤니" # 11614013658980059812
+  dynn_ali_ibn_asad: "아사디드" # 5936675222532459414
+  dynn_shri_badat: "탐" # 8696618226735807815
+  dynn_azur_jamshid: "카야니" # 12895843450737433415
+  Kisar: "키사르" # 16136821875915519230
+  Bugar: "부가르" # 14252265399700667303
+  Agur: "아구르" # 11206130031768339050
+  Badat: "슈리 바닷" # 3254457709951624382
+  Yathini: "야티니" # 6747168766769432744
+  Nur_Bakht: "누르 바흐트" # 15075876281761569320
+  Azur_Jamshid: "아주르 잠시드" # 6073709956410157378
+  Garg: "가르그" # 1472655164220416897
+  Sau_Malik: "사우 말리크" # 6776211632611732225
+  Shah_Malik: "샤 말리크" # 5015636306396393720
+  Deng_Malik: "뎅 말리크" # 13291559319601143233
+  Jataylotu: "자타일로투" # 4969969518125514196
+  nick_RICE_pamir_man_eater: "식인종" # 2119996222411033401
+  RICE_fervor_gain_hephthalite: "주운의 은총으로 복원된 헤프탈 제국" # 15210210498257208931
+  RICE_pamir_tribesmen: "파미르 부족민" # 47768021008743322
+  RICE_pamir_tribesmen_flavor: "#F 이란 세계와 인도 세계의 경계를 이루는 산맥에는 전투에서 그 흉포함으로 유명한 다양한 부족들이 살고 있습니다#!" # 7133691074657910046
+  abu_zayd: "아부 자이드" # 8005214798660933735
+  dynn_RICE_harawi: "하라위" # 5167696009502928452
+  Shah_Mirza: "샤 미르자" # 14057868299307441814
+  Tartora_Khan: "타르토라 칸" # 4131940971746120037
+  e_hephthalite_restored_article: "그" # 8417196396288596625
+  e_hephthalite_restored: "헤프탈 제국" # 10740328584317135661
+  e_hephthalite_restored_adj: "헤프탈" # 9811075274211343200
+  k_hephthalite_restored_article: "그" # 8417196396288596625
+  k_hephthalite_restored: "헤프탈 왕국" # 9989471873755236252
+  k_hephthalite_restored_adj: "헤프탈" # 9811075274211343200
+  RICE_hephthalite_legend_new_title_name: "헤프탈인의 귀환" # 2607721397807211983
+  RICE_hephthalite_legend_new_title_desc: "수 세대 전, [original_culture.GetCollectiveNoun]은 백흉노로서 이란과 인도 세계에 공포를 심어주었습니다. [founder.GetTitledFirstName]의 대에 이르러, 그들은 이전보다 더 강하고, 부유하며, 위협적인 모습으로 돌아왔습니다." # 8850822289250393124
+  RICE_hephthalite_legend_chapter_opening_new_title: "파미르 산맥에서 [ROOT.Legend.GetProperty( 'original_culture' ).Culture.GetCollectiveNounNoTooltip]이 이란과 인도 세계의 비옥한 농경지와 호화로운 도시들로 휩쓸고 들어왔습니다. 백훈족과 같은 여러 이름으로 알려진 그들은 실크로드를 따라 사는 다른 유목 부족들조차 모든 민족에게 두려움의 대상이었습니다. 하지만 모든 것에는 끝이 있기 마련이었고, 옛 [ROOT.Legend.GetProperty( 'title' ).Title.GetBaseNameNoTooltip]은 패배를 겪고 적들에게 의해 산산조각 났습니다." # 8093166716580810971
+  RICE_hephthalite_legend_chapter_motivation_new_title: "[ROOT.Legend.GetProperty( 'original_culture' ).Culture.GetCollectiveNounNoTooltip]의 흩어진 후예들은 실크로드의 먼 농경지와 도시, 산악 지대를 따라 작은 잔존 국가들로 살아남았습니다. 그들 중에는 선견지명이 있는 [ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip]이 이끄는 [ROOT.Legend.GetProperty( 'culture' ).Culture.GetCollectiveNounNoTooltip] 부족도 있었습니다. [ROOT.Legend.GetProtagonist.GetSheHe|U]는 자신의 백성들을 옛 영광으로 되돌리고, [ROOT.Legend.GetProperty( 'original_culture' ).Culture.GetCollectiveNounNoTooltip]의 새로운 제국을 세우고자 했습니다." # 12396107854914127596
+  RICE_hephthalite_legend_chapter_famous_deed_new_title: "고대 [ROOT.Legend.GetProperty( 'original_culture' ).Culture.GetCollectiveNounNoTooltip]인들은 전사였지만, 상인이자 도시 건설자, 장인이기도 했습니다. 따라서 [ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip]는 다재다능한 통치자로서 [ROOT.Legend.GetProtagonist.GetHerHis] 빛나는 선조들을 본받아야 했습니다. [ROOT.Legend.GetProtagonist.GetSheHe|U]는 교역을 장려하고, 새로운 정착지를 건설하며, 예술을 후원하고, [ROOT.Legend.GetProtagonist.GetFaith.GetAdjectiveNoTooltip] [ROOT.Legend.GetProtagonist.GetFaith.HouseOfWorshipPlural]와 [ROOT.Legend.GetProtagonist.GetFaith.HighGodName]을 위한 위대한 기념비를 많이 세웠습니다." # 18357199587584345462
+  RICE_hephthalite_legend_chapter_extra_deed_new_title: "하지만 물론, [ROOT.Legend.GetProperty( 'original_culture' ).Culture.GetCollectiveNounNoTooltip]의 진정한 자손으로서, [ROOT.Legend.GetProtagonist.GetHerHis] 가장 위대한 업적은 군사적인 것이었습니다. 셀 수 없이 많은 부족들과 도시들, 그리고 수많은 소위 왕들이 [ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip] 앞에 무릎을 꿇었습니다. 어떤 이들은 저항하는 것이 어리석다는 것을 알고 현명하게 항복했으며, 또 다른 이들은 [ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip]와 그/그녀의 두려운 전사들에게 패배한 후에 굴복했습니다." # 16840289525164150557
+  RICE_hephthalite_legend_chapter_conclusion_new_title: "사람들이 말하길, 겨울이 영원하지는 않으며 봄이 오면 눈은 녹는다고 합니다. 눈은 #italic 언제나#! 녹습니다. [ROOT.Legend.GetProperty( 'original_culture' ).Culture.GetCollectiveNounNoTooltip]이 본래 고향을 세웠던 파미르 산맥의 봉우리들처럼, [ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip]의 지휘 아래 그들의 후손인 [ROOT.Legend.GetProperty( 'culture' ).Culture.GetCollectiveNounNoTooltip]은 파미르로부터 눈사태처럼 퍼져나갔습니다. 하지만 생명을 주는 물로 변하는 녹은 눈처럼, 새로 형성된 [ROOT.Legend.GetProperty( 'title' ).Title.GetBaseNameNoTooltip]은 단순한 파괴적인 힘이 아니었습니다. [ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip]은 옛 [ROOT.Legend.GetProperty( 'title' ).Title.GetBaseNameNoTooltip]과 그 유산 및 전통을 부활시킴으로써 비단길을 따라 새롭고 더 번성하는 시대를 열었습니다." # 6181495638723260184
+  trait_RICE_hephthalite_emperor_khan: "백훈의 칸" # 10414160455131346413
+  trait_RICE_hephthalite_emperor_khan_desc: "이 인물은 복원된 유목 헤프탈 제국의 칸으로, 실크로드를 따라 여전히 많은 이들에게 공포를 심어주고 있는 무시무시한 전사들의 유산을 잇고 있습니다." # 2189980064577266791
+  trait_RICE_hephthalite_emperor_khan_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip]께서는 복원된 탙탈 제국의 칸으로서, 실크로드 전역에 여전히 많은 이들의 심장에 공포를 심어주는 무시무시한 전사들의 유산을 이어가고 계십니다." # 1122724131001229962
+  trait_RICE_hephthalite_emperor_shah: "백훈의 샤한샤" # 566438374328488025
+  trait_RICE_hephthalite_emperor_shah_desc: "이 인물은 복원된 헤프탈 제국의 현 샤로, 전쟁뿐만 아니라 무역, 문화, 도시 건설의 기술에도 능했던 강력하고 번성했던 왕국의 유산을 이어가고 있습니다." # 1198079878411925221
+  trait_RICE_hephthalite_emperor_shah_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip]께서는 복원된 헤프탈 제국의 현 샤한샤로서, 전쟁뿐만 아니라 교역, 문화, 도시 건설에도 능했던 강력하고 번성했던 영역의 유산을 이어가고 계십니다." # 667408536467456350
+  game_concept_pilgrimage_to_nasir_khusraws_shrine: "나시르 호스로우 성지 순례" # 17166964383925402595
+  game_concept_go_on_a_pilgrimage_to_nasir_khusraws_shrine: "나시르 호스로의 성지로 순례를 떠나기" # 103595762837314213
+  game_concept_pilgrimage_to_nasir_khusraws_shrine_desc: "무슬림 인물들은 [GetActivityType( 'activity_RICE_pamir_nasir_khusraw_pilgrimage' ).GetName]을 따라 바다흐샨 지역 주변에서 순례를 떠날 수 있습니다.\n\n처음에는 이 [activity|E]가 나시르 호스로우가 살아있는 동안에는 이용할 수 없습니다. 하지만 그가 사망하면, 바다흐샨의 [county|E]에 [GetModifier('RICE_pamir_nasir_khusraw_shrine').GetNameWithTooltip] [county_modifier|E]가 나타나며 이 [decision|E]가 활성화됩니다.\n\n나시르 호스로우의 성소에서 당신은 영감 [character_modifiers|E]와 같은 다양한 축복을 받을 수 있지만, #V Isamili#! [faith|E]를 따른다면 그 축복은 더욱 커질 것입니다." # 15948335653329753110
+  game_concept_repair_the_pamir_watchposts: "감시 초소 수리" # 6650888981258537152
+  game_concept_repair_singular_pamir_watchposts: "수리" # 14490863761401492970
+  game_concept_repair_past_tense_pamir_watchposts: "수리됨" # 16074367963012886510
+  game_concept_repair_the_pamir_watchposts_desc: "#V 와칸#!과 #V 길기트#!의 [counties|E]는 파미르 산맥에 위치하며, 험준하고 외딴 지형에 흩어져 있는 감시 초소 네트워크를 나타내는 독특한 [county_modifier|E]를 가지고 있습니다. 이 [counties|E] 중 하나 또는 둘 다 소유하고 있다면, $game_concept_repair_the_pamir_watchposts$를 수행할 수 있는 [decision|E]를 이용할 수 있게 되며, 이는 다양한 군사적 보너스뿐만 아니라 [control|E]와 [development|E]에 대한 보너스를 제공하는 또 다른 특별한 [county_modifier|E]를 부여할 것입니다." # 5475808813339806713
+  game_concept_nasir_khusraw: "나시르 호스로우" # 7226759512449512432
+  game_concept_nasir_khusraw_s: "나시르 호스로우의" # 10448564006336874742
+  game_concept_nasir_khusraw_desc: "$game_concept_nasir_khusraw$는 역사적으로 1004년부터 약 1080년까지 살았던 [character|E]입니다. 그는 저명한 시인이자 성인이었으며 이스마일파 선교사로, 바다흐샨의 이슬람화를 위한 토대를 마련한 인물로 알려져 있습니다. 시아파이지만 수니파에게도 존경받고 있습니다.\n\n게임 내에서는 1066년 북마크에 등장하며, 867년 북마크로 시작할 경우 1000년대 중 바다흐샨 내 무슬림 영지에서 등장할 것입니다. 만약 그가 바다흐샨 내 무슬림 [ruler|E]의 [court|E]에 있다면, 해당 [ruler|E]는 나시르 호스로우가 살아있는 동안 #V 철학과 종교의 화해를 의뢰하기#!를 [decide|E]할 수 있습니다.\n\n나시르 호스로우가 사망하면, 같은 통치자는 #V 나시르 호스로우의 성지 확장하기#!를 [decide|E]할 수 있습니다. 그렇게 하면 바다흐샨 내 또는 근처의 모든 무슬림에게 [GetActivityType( 'activity_RICE_pamir_nasir_khusraw_pilgrimage' ).GetName] 성지 순례를 떠나는 새로운 [activity|E]가 활성화됩니다." # 9809236214927146374
+  game_concept_azur_jamshid: "아주르 잠시드" # 6073709956410157378
+  game_concept_azur_jamshid_s: "아주르 잠시드의" # 14551392821718308949
+  game_concept_azur_jamshid_desc: "$game_concept_azur_jamshid$는 카슈미르의 전설적인 #V 길기트#! [ruler|E]로, 하늘에서 온 요정 왕자였으며 식인종 왕 슈리 바다트를 죽이고 카야니 왕조를 세웠는데, 이 왕조는 나중에 트라칸으로 불렸습니다. 867년 시작 시 그로 플레이하려면 해당 지역의 [ruler|E]를 선택하여 팝업 이벤트를 받으십시오. 그는 몇 가지 특징을 가지고 있습니다.\n\n첫째, 게임 시작 시 불교나 이슬람으로 개종하거나 조로아스터교를 유지할 수 있습니다. 실생활에서 트라칸 왕조는 튀르크계(혹은 튀르크화된 현지인)였을 수 있으며, 늦은 중세 시대에 이르러서야 이슬람으로 개종했습니다.\n\n둘째, 게임 시작 시 길기트 [county|E]는 전설 속의 #V 슈리 바다트의 궁전#!이라는 [county_modifier|E]를 가지고 있으며, 이는 약간의 약화 효과를 부여합니다. 전설처럼 $game_concept_azur_jamshid$ 또는 그의 후계자들은 이를 파괴하기 위한 [decision|E]를 내려야 합니다.\n\n궁전을 파괴하고 $game_concept_azur_jamshid$가 사망한 후, 파미르 [duchy|E] 내의 모든 [ruler|E]는 [GetActivityType( 'activity_RICE_pamir_tumshiling_festival' ).GetName] [activity|E]를 이용할 수 있게 됩니다." # 18347271179282870071
+  game_concept_idol_of_zun: "준의 우상" # 14585154085346123263
+  game_concept_idols_of_zun: "준의 우상들" # 9252680537095655520
+  game_concept_restore_the_idol_of_zun: "준의 우상을 복원하십시오" # 11136293548664325009
+  game_concept_idol_of_zun_desc: "역사적 기록에는 #V 자민다와르#!에 루비 눈을 장식한 거대한 황금 조각상이었던 $game_concept_idol_of_zun$의 존재가 언급되어 있습니다. 이곳에서 준 숭배단은 그들의 최고 신에게 경의를 표했는데, 이 신의 기원은 학계에서 불확실하고 논쟁의 여지가 있으며, 준(또는 이들의 일부 조합)의 기원이 힌두교, 조로아스터교, 훈족/헤프탈계, 토착 인도-이란계라는 다양한 이론이 제시됩니다. 카불 근처 #V 아루나 산#!에도 준을 숭배하는 또 다른 주요 장소가 있었을 수 있습니다.\n\n준 신앙을 가진 [ruler|E]인 귀하는 자민다와르에서 #V 준의 우상 복원#! [decision|E]을 내릴 선택권이 있습니다. 그렇게 하면 자민다와르에 보기 좋은 [county_modifier|E]가 추가되고, 다른 것들 중에서도 이교 [faith|E]를 개혁하기 쉽게 만드는 [character_modifier|E]를 얻게 됩니다. 이는 또한 카불의 아루나 산에서 우상을 복원하는 [decision|E]도 활성화합니다.\n\n일단 우상들이 복원되면, 귀하와 근처의 다른 준 신앙 [rulers|E]들은 [activity|E]인 [GetActivityType( 'activity_RICE_pamir_offer_riches_to_zun' ).GetName]을 이용할 수 있게 됩니다." # 17274215686184486745
+  RICE_pamir_aspiration_zunbil_desc: "#bold [historical_aspiration_main_objectives|E]#!\n$EFFECT_LIST_BULLET$ [completely_control|E] [GetTitleByKey('d_zabulistan').GetNameNoTier]\n$EFFECT_LIST_BULLET$독립적인 [ruler|E]로서 [king|E] [rank|E]이거나 최소 #V 12#!개의 [counties|E]를 소유해야 함\n$EFFECT_LIST_BULLET$조로아스터교를 유지해야 함\n\n#bold 보상#!!\n$EFFECT_LIST_BULLET$@prestige_icon! #V [EmptyScope.ScriptValue('RICE_aspiration_medium_resource_bonus')]#! [prestige|E] 획득\n$EFFECT_LIST_BULLET$ [special_troops|E]로 #V 500#!명의 [GetMaA('RICE_pamir_tribesmen').GetName]을 받음\n$EFFECT_LIST_BULLET$ [GetTitleByKey('d_zabulistan').GetNameNoTier] 내 모든 [county|E]가 @development_icon! #V [EmptyScope.ScriptValue('RICE_red_sea_al_umari_aspiration_dev_bonus')]#! [development|E] 획득\n\n#bold [historical_aspiration_bonus_objectives|E]#!\n$EFFECT_LIST_BULLET$사파르 왕조의 세 형제인 야쿠브, 암르, 알리 중 최소 한 명을 직접 살해 (보상: 살해당한 형제당 @dynasty_prestige_icon! #V [EmptyScope.ScriptValue('RICE_aspiration_small_resource_bonus')]#! [dynasty_prestige|E])\n$EFFECT_LIST_BULLET$ $RICE_pamir_restore_the_idol_of_zun$ [decision|E] 실행 (보상: @piety_icon! #V [EmptyScope.ScriptValue('RICE_aspiration_medium_resource_bonus')]#! [piety|E])#!" # 16319410745925729310
+  RICE_pamir_historical_aspiration_action_zunbil: "#italic 그대는 정의를 베푸시는 준의 진정한 챔피언이 되기 위해 분투하여, 즈빌족의 장기적인 생존과 그대 백성의 옛 생활 방식을 역경 속에서 반드시 지켜내야만 합니다!#!$RICE_pamir_aspiration_zunbil_desc$" # 4944664295672651383
+  RICE_pamir_historical_aspiration_modifier_desc_zunbil: "[GetModifier('RICE_pamir_aspiration_assert_zunbil_independence').GetNameWithTooltip]" # 1145569446971318893
+  RICE_pamir_offer_zun_riches_host_memory: "[GetActivityType('activity_RICE_pamir_offer_riches_to_zun').GetName]을 수행했습니다." # 1501737021330098471
+  RICE_pamir_offer_zun_riches_host_memory_first_perspective: "저는 [GetActivityType('activity_RICE_pamir_offer_riches_to_zun').GetName] 활동을 수행했습니다." # 12445785588977251249
+  RICE_pamir_offer_zun_riches_host_memory_second_perspective: "귀하는 [GetActivityType('activity_RICE_pamir_offer_riches_to_zun').GetName] 활동을 수행했습니다." # 7863966615483326048
+  RICE_pamir_offer_zun_riches_host_memory_third_perspective: "[owner.GetName]께서 [GetActivityType('activity_RICE_pamir_offer_riches_to_zun').GetName]를 행하셨습니다." # 1882759780788359290
+  RICE_pamir_offer_zun_riches_guest_memory: "[host.GetTitledFirstNamePossessive]의 [GetActivityType('activity_RICE_pamir_offer_riches_to_zun').GetName]에 참여했습니다" # 11304277665630329059
+  RICE_pamir_offer_zun_riches_guest_memory_first_perspective: "저는 [host.GetTitledFirstNamePossessive] [GetActivityType('activity_RICE_pamir_offer_riches_to_zun').GetName]에 참여했습니다." # 2687262993576028843
+  RICE_pamir_offer_zun_riches_guest_memory_second_perspective: "귀하는 [host.GetTitledFirstNamePossessive] [GetActivityType('activity_RICE_pamir_offer_riches_to_zun').GetName]에 참여했습니다." # 17108902591544379086
+  RICE_pamir_offer_zun_riches_guest_memory_third_perspective: "[owner.GetName]이(가) [host.GetTitledFirstNamePossessive] [GetActivityType('activity_RICE_pamir_offer_riches_to_zun').GetName]에 참여했습니다." # 15845264439084911147
+  RICE_pamir_goat_sacrifice_host_memory: "[GetActivityType('activity_RICE_pamir_goat_sacrifice').GetName]을 수행했습니다." # 11039890531561343974
+  RICE_pamir_goat_sacrifice_host_memory_first_perspective: "저는 [GetActivityType('activity_RICE_pamir_goat_sacrifice').GetName]를 거행했습니다." # 17647525245222466152
+  RICE_pamir_goat_sacrifice_host_memory_second_perspective: "당신은 [GetActivityType('activity_RICE_pamir_goat_sacrifice').GetName]을 수행했습니다." # 7098527883630667230
+  RICE_pamir_goat_sacrifice_host_memory_third_perspective: "[owner.GetName]이(가) [GetActivityType('activity_RICE_pamir_goat_sacrifice').GetName]을(를) 거행했습니다." # 14030298913495665945
+  RICE_pamir_goat_sacrifice_guest_memory: "[host.GetTitledFirstNamePossessive]의 [GetActivityType('activity_RICE_pamir_goat_sacrifice').GetName]에 참여했습니다" # 4494873953217006530
+  RICE_pamir_goat_sacrifice_guest_memory_first_perspective: "저는 [host.GetTitledFirstNamePossessive] [GetActivityType('activity_RICE_pamir_goat_sacrifice').GetName]에 참여했습니다." # 14940081448894870871
+  RICE_pamir_goat_sacrifice_guest_memory_second_perspective: "귀하는 [host.GetTitledFirstNamePossessive] [GetActivityType('activity_RICE_pamir_goat_sacrifice').GetName]에 참여했습니다." # 14671220316206930327
+  RICE_pamir_goat_sacrifice_guest_memory_third_perspective: "[owner.GetName]께서 [host.GetTitledFirstNamePossessive] [GetActivityType('activity_RICE_pamir_goat_sacrifice').GetName]에 참여하셨습니다." # 17131617183174609657
+  RICE_pamir_restored_zun_idol_memory: "준의 주요 우상을 복원했습니다" # 7519752165354080291
+  RICE_pamir_restored_zun_idol_memory_first_perspective: "제가 준의 주요 우상을 복원했습니다." # 13852357351113992648
+  RICE_pamir_restored_zun_idol_memory_second_perspective: "당신은 준의 주요 우상을 복원했습니다" # 11140587609074342691
+  RICE_pamir_restored_zun_idol_memory_third_perspective: "[owner.GetName]이 준의 주요 우상을 복구했습니다." # 2999907730648618938
+  RICE_pamir_chawmos_festival_host_memory: "[GetActivityType( 'activity_RICE_pamir_chawmos_festival' ).GetName]에 참석했습니다" # 8209630040971412096
+  RICE_pamir_chawmos_festival_host_memory_first_perspective: "저는 [GetActivityType( 'activity_RICE_pamir_chawmos_festival' ).GetName]에 참석했습니다." # 4269869379551186528
+  RICE_pamir_chawmos_festival_host_memory_second_perspective: "당신은 [GetActivityType( 'activity_RICE_pamir_chawmos_festival' ).GetName]에 참석했습니다." # 7601271232262035782
+  RICE_pamir_chawmos_festival_host_memory_third_perspective: "[owner.GetName]께서 [GetActivityType(  'activity_RICE_pamir_chawmos_festival' ).GetName]에 참석하셨습니다." # 12322569266863833942
+  RICE_pamir_chawmos_festival_guest_memory: "[GetActivityType( 'activity_RICE_pamir_chawmos_festival' ).GetName]에 [host.GetTitledFirstName]와 함께 참석했습니다." # 9127966262208124873
+  RICE_pamir_chawmos_festival_guest_memory_first_perspective: "저는 [host.GetTitledFirstName]와 함께 [GetActivityType( 'activity_RICE_pamir_chawmos_festival' ).GetName]에 참석했습니다." # 6615541416069571473
+  RICE_pamir_chawmos_festival_guest_memory_second_perspective: "귀하는 [host.GetTitledFirstName]와 함께 [GetActivityType( 'activity_RICE_pamir_chawmos_festival' ).GetName]에 참석했습니다." # 746039492787002076
+  RICE_pamir_chawmos_festival_guest_memory_third_perspective: "[owner.GetName]께서 [host.GetTitledFirstName]와 함께 [GetActivityType(  'activity_RICE_pamir_chawmos_festival' ).GetName]에 참석했습니다." # 13243992542132844902
+  RICE_pamir_chinir_festival_host_memory: "[GetActivityType( 'activity_RICE_pamir_chinir_festival' ).GetName]에 참석했습니다." # 7784111403505248017
+  RICE_pamir_chinir_festival_host_memory_first_perspective: "저는 [GetActivityType( 'activity_RICE_pamir_chinir_festival' ).GetName]에 참석했습니다." # 1181812576779528127
+  RICE_pamir_chinir_festival_host_memory_second_perspective: "당신은 [GetActivityType( 'activity_RICE_pamir_chinir_festival' ).GetName]에 참석했습니다." # 16250078799879096173
+  RICE_pamir_chinir_festival_host_memory_third_perspective: "[owner.GetName]께서 [GetActivityType(  'activity_RICE_pamir_chinir_festival' ).GetName]에 참석하셨습니다." # 9657327255882393417
+  RICE_pamir_chinir_festival_guest_memory: "[host.GetTitledFirstName]과 함께 [GetActivityType( 'activity_RICE_pamir_chinir_festival' ).GetName]에 참석했습니다." # 2814162033218364412
+  RICE_pamir_chinir_festival_guest_memory_first_perspective: "저는 [host.GetTitledFirstName]와 함께 [GetActivityType( 'activity_RICE_pamir_chinir_festival' ).GetName]에 참석했습니다." # 4066010507202209632
+  RICE_pamir_chinir_festival_guest_memory_second_perspective: "[host.GetTitledFirstName]와 함께 [GetActivityType( 'activity_RICE_pamir_chinir_festival' ).GetName]에 참석했습니다." # 17354312119629177424
+  RICE_pamir_chinir_festival_guest_memory_third_perspective: "[owner.GetName]께서 [host.GetTitledFirstName]와 함께 [GetActivityType( 'activity_RICE_pamir_chinir_festival' ).GetName]에 참석했습니다." # 3884378925648643072
+  RICE_pamir_tumshiling_festival_host_memory: "지역 [GetActivityType( 'activity_RICE_pamir_tumshiling_festival' ).GetName]를 후원했습니다." # 4397845163473840742
+  RICE_pamir_tumshiling_festival_host_memory_first_perspective: "저는 지역 [GetActivityType( 'activity_RICE_pamir_tumshiling_festival' ).GetName] 행사를 후원했습니다." # 11006440205171795951
+  RICE_pamir_tumshiling_festival_host_memory_second_perspective: "귀하는 지역 [GetActivityType( 'activity_RICE_pamir_tumshiling_festival' ).GetName] 행사에 후원했습니다." # 253625585874967258
+  RICE_pamir_tumshiling_festival_host_memory_third_perspective: "[owner.GetName]께서 지역 [GetActivityType(  'activity_RICE_pamir_tumshiling_festival' ).GetName]를 후원하셨습니다." # 4352331576091357832
+  RICE_pamir_tumshiling_festival_guest_memory: "[host.GetTitledFirstName]이 후원한 지역 [GetActivityType( 'activity_RICE_pamir_tumshiling_festival' ).GetName]에 참석했습니다." # 2722519939884836731
+  RICE_pamir_tumshiling_festival_guest_memory_first_perspective: "저는 [host.GetTitledFirstName]께서 후원하신 지역 [GetActivityType( 'activity_RICE_pamir_tumshiling_festival' ).GetName]에 참석했습니다." # 14756073465876827232
+  RICE_pamir_tumshiling_festival_guest_memory_second_perspective: "당신은 [host.GetTitledFirstName]께서 후원하신 지역 [GetActivityType( 'activity_RICE_pamir_tumshiling_festival' ).GetName]에 참석했습니다." # 7248080928646143741
+  RICE_pamir_tumshiling_festival_guest_memory_third_perspective: "[owner.GetName]께서 [host.GetTitledFirstName]이 후원하는 지역 [GetActivityType(  'activity_RICE_pamir_tumshiling_festival' ).GetName]에 참석했습니다." # 4526932987361628228
+  RICE_pamir_nasir_khusraw_pilgrimage_host_memory: "[GetActivityType( 'activity_RICE_pamir_nasir_khusraw_pilgrimage' ).GetName] 순례를 떠났습니다" # 5520507597982631690
+  RICE_pamir_nasir_khusraw_pilgrimage_host_memory_first_perspective: "저는 [GetActivityType( 'activity_RICE_pamir_nasir_khusraw_pilgrimage' ).GetName] 성지 순례에 다녀왔습니다." # 1034273042384147047
+  RICE_pamir_nasir_khusraw_pilgrimage_host_memory_second_perspective: "당신은 [GetActivityType( 'activity_RICE_pamir_nasir_khusraw_pilgrimage' ).GetName]을/를 떠났습니다." # 13658429357282831413
+  RICE_pamir_nasir_khusraw_pilgrimage_host_memory_third_perspective: "[owner.GetName]께서 [GetActivityType(  'activity_RICE_pamir_nasir_khusraw_pilgrimage' ).GetName]을 떠나셨습니다." # 12985240593656753281
+  RICE_pamir_nasir_khusraw_pilgrimage_guest_memory: "[host.GetTitledFirstName]와 함께 [GetActivityType( 'activity_RICE_pamir_nasir_khusraw_pilgrimage' ).GetName]에 다녀왔습니다" # 15667898155441657893
+  RICE_pamir_nasir_khusraw_pilgrimage_guest_memory_first_perspective: "저는 [host.GetTitledFirstName]와 함께 [GetActivityType( 'activity_RICE_pamir_nasir_khusraw_pilgrimage' ).GetName]에 다녀왔습니다." # 13205385332062580536
+  RICE_pamir_nasir_khusraw_pilgrimage_guest_memory_second_perspective: "[host.GetTitledFirstName]와 함께 [GetActivityType( 'activity_RICE_pamir_nasir_khusraw_pilgrimage' ).GetName] 순례에 동행하셨습니다." # 15080373857574762372
+  RICE_pamir_nasir_khusraw_pilgrimage_guest_memory_third_perspective: "[owner.GetName]께서 [host.GetTitledFirstName]와 함께 [GetActivityType(  'activity_RICE_pamir_nasir_khusraw_pilgrimage' ).GetName]를 떠나셨습니다." # 6169486810227412072
+  activity_RICE_pamir_offer_riches_to_zun_host_an_a: "$host_activity_a$" # 13713790857143020716
+  activity_RICE_pamir_offer_riches_to_zun: "준의 우상에게 드리는 의식적 제물" # 6799218903804244850
+  activity_RICE_pamir_offer_riches_to_zun_desc: "세속적인 부를 바쳐 주눈께 공물을 드리는 것이 우리의 올바른 관습이며, 주눈의 우상 앞에 이 선물을 바치는 것보다 주눈을 기쁘게 할 더 좋은 방법은 없습니다." # 12858156347325692675
+  activity_RICE_pamir_offer_riches_to_zun_selection_tooltip: "주요 주신(主神) 중 한 분께 재물을 바치십시오.\n\n$RICE_pamir_offer_riches_to_zun_context_tooltip$" # 15239333520172965667
+  activity_RICE_pamir_offer_riches_to_zun_host_desc: "$BULLET_WITH_TAB$ [piety_i] [piety|E]\n$BULLET_WITH_TAB$ [prestige_i] [prestige|E]" # 13174538401661946544
+  activity_RICE_pamir_offer_riches_to_zun_guest_desc: "[piety_i] [piety|E]와 [prestige_i] [prestige|E]를 획득합니다." # 917028444697950246
+  activity_RICE_pamir_offer_riches_to_zun_province_desc: "주운의 주요 우상이 여기에 있습니다." # 712309841631124568
+  activity_RICE_pamir_offer_riches_to_zun_destination_selection: "$activity_RICE_pamir_offer_riches_to_zun_province_desc$" # 8756212073138833930
+  activity_RICE_pamir_offer_riches_to_zun_guest_help_text: "$activity_RICE_pamir_offer_riches_to_zun$" # 4607695382060073793
+  activity_RICE_pamir_offer_riches_to_zun_predicted_cost: "생명 해방 비용은 선택하는 [activity_options|E]에 따라 달라집니다." # 13649355290617164359
+  activity_RICE_pamir_offer_riches_to_zun_conclusion_desc: "[GetActivityType( 'activity_RICE_pamir_offer_riches_to_zun' ).GetName]이 종료되었습니다. 정의를 베푸시는 쭌께서 영원한 불꽃으로 저희에게 축복을 내려주시길 기원합니다!" # 4263633369955308303
+  RICE_pamir_offer_riches_to_zun_offering_amount_type: "제공 금액" # 2000640687686662731
+  RICE_pamir_offer_riches_to_zun_offering_amount_type_small: "작은" # 11665425638542725414
+  RICE_pamir_offer_riches_to_zun_offering_amount_type_small_desc: "$EFFECT_LIST_BULLET$ [piety_i] [piety|E]와 [prestige_i] [prestige|E]를 추가로 얻을 확률 감소\n\n#weak 쥰에게 많은 것을 바치지 않더라도, 그분께 대한 헌신이야말로 가장 중요한 법이다!#" # 9619497604027736378
+  RICE_pamir_offer_riches_to_zun_offering_amount_type_medium: "보통" # 7377651229498775580
+  RICE_pamir_offer_riches_to_zun_offering_amount_type_medium_desc: "$EFFECT_LIST_BULLET$ 추가적인 [piety_i] [piety|E]와 [prestige_i] [prestige|E]를 얻을 적당한 기회\n\n#weak 쭌의 우상에게 신봉자들은 언제나 재물을 바쳐왔으니, 나 또한 의무를 다하리라!#!" # 2633584628922749172
+  RICE_pamir_offer_riches_to_zun_offering_amount_type_large: "거대한" # 2290692482761374841
+  RICE_pamir_offer_riches_to_zun_offering_amount_type_large_desc: "$EFFECT_LIST_BULLET$ 더 많은 양의 [piety_i] [piety|E]와 [prestige_i] [prestige|E]를 얻을 확률 증가\n\n#weak 정의를 베푸시는 주군 존(Zun)을 위해, 우리는 가진 모든 것을 바쳐야 합니다!#!" # 3477987191541557994
+  RICE_pamir_offer_riches_to_zun_phase: "제공" # 2353013971925737127
+  RICE_pamir_offer_riches_to_zun_phase_desc: "준을 찬양하라!" # 14017852136077691203
+  RICE_pamir_offer_riches_to_zun_glory_intent_header: "준을 찬양하라:" # 3825140424178723331
+  RICE_pamir_offer_riches_to_zun_glory_intent: "준을 찬양하라:" # 13729153512447320746
+  RICE_pamir_offer_riches_to_zun_glory_intent_desc: "즈운, 정의를 베푸시는 분께 영광을!" # 9668641801712219441
+  RICE_pamir_offer_riches_to_zun_completed_log_title: "준의 우상에게 재물을 바치는 의식을 완료했습니다" # 17284374453958710190
+  RICE_pamir_offer_riches_to_zun_completed_log: "[CHARACTER.GetShortUIName|U]께서 주운 신상에 재물을 바치는 의식을 마쳤습니다." # 9124164232305721456
+  RICE_pamir_offer_riches_to_zun_offering_extra_amount: "준에게 성대한 제물을 바칩니다" # 12104484588837321527
+  TRAVEL_NAME_FOR_activity_RICE_pamir_offer_riches_to_zun: "[Character.GetFirstNamePossessiveNoTooltip] $activity_RICE_pamir_offer_riches_to_zun$" # 13196417755478562136
+  activity_RICE_hot_springs_visit_bibi_fatima_province_desc: "#P +++ 비비 파티마 [hot_springs|E]는 독특한 [hot_springs|E]입니다.#!\n\n#italic 이로 인해 당신의 [fertility|E]와 [prestige|E]를 높여주는 [character_modifier|E]를 얻을 기회가 생길 것입니다. 게다가, 만약 당신이 무슬림 [faith|E]를 따른다면, 약간의 [piety|E]와 더 나은 [modifier|E]를 얻을 기회도 얻게 될 것입니다.#!" # 8637261815971534894
+  activity_RICE_pamir_chawmos_festival_host_an_a: "$host_activity_a$" # 13713790857143020716
+  activity_RICE_pamir_chawmos_festival: "차모스 축제" # 10069861379927867103
+  activity_RICE_pamir_chawmos_festival_desc: "동지(冬至)가 코앞으로 다가왔습니다! 이는 우리 종교에서 가장 중요한 축제이며, 공동체 내에서 우리의 역할을 재확인하고 순수함과 부정함의 영역을 재정립하는 의식이 있습니다." # 12244223668910199573
+  activity_RICE_pamir_chawmos_festival_selection_tooltip: "차우모스 축제를 기념하십시오.\n\n$RICE_pamir_attend_chawmos_festival_context_tooltip$" # 14975819311607710475
+  activity_RICE_pamir_chawmos_festival_host_desc: "$BULLET_WITH_TAB$ [prestige_i|E][prestige|E]\n$BULLET_WITH_TAB$ [piety_i|E][piety|E]\n$BULLET_WITH_TAB$ [GetModifier('RICE_pamir_recently_organized_chawmos').GetNameWithTooltip] [character_modifier|E]" # 2778629679991730984
+  activity_RICE_pamir_chawmos_festival_guest_desc: "$BULLET_WITH_TAB$ [prestige_i|E][prestige|E]\n$BULLET_WITH_TAB$ [piety_i|E][piety|E]" # 942770327808202261
+  activity_RICE_pamir_chawmos_festival_destination_selection: "$activity_RICE_pamir_chawmos_festival_province_desc$" # 16015977644991496383
+  activity_RICE_pamir_chawmos_festival_guest_help_text: "$activity_RICE_pamir_chawmos_festival$" # 11489882913575595332
+  activity_RICE_pamir_chawmos_festival_predicted_cost: "차모스 축제의 비용은 주로 귀하의 [income|E]에 따라 결정됩니다." # 11214517573029222286
+  activity_RICE_pamir_chawmos_festival_conclusion_desc: "올해의 [GetActivityType( 'activity_RICE_pamir_chawmos_festival' ).GetName]이 끝났고, 이로써 동지 또한 지났습니다." # 1921598663167597099
+  RICE_pamir_chawmos_festival_ritual_phase: "의식" # 15674658978138415862
+  RICE_pamir_chawmos_festival_ritual_phase_desc: "차모스 시기는 공동체 내에서 우리의 역할을 재확인하고 순수함과 불순함 사이의 구분을 유지해야 하는 때입니다." # 11201532237503179564
+  RICE_pamir_chawmos_festival_tradition_intent_header: "전통:" # 5350472913151672258
+  RICE_pamir_chawmos_festival_tradition_intent: "전통:" # 3479162901287987137
+  RICE_pamir_chawmos_festival_tradition_intent_desc: "동지 절기는 춥지만, 우리 [faith|E]에게 있어 중요한 시기입니다." # 13755113631441835644
+  RICE_pamir_chawmos_festival_completed_log_title: "차모스 축제 참석을 마쳤습니다" # 4284196664058061674
+  RICE_pamir_chawmos_festival_completed_log: "[CHARACTER.GetShortUIName|U] 님께서 차우모스 축제를 마쳤습니다." # 17974696832666516219
+  RICE_pamir_chawmos_fox_good_log_title: "여우가 언덕을 올라갔다" # 3926428966580839365
+  RICE_pamir_chawmos_fox_good_log: "$RICE_pamir_chawmos_fox_good_log_title$" # 18081492639633795144
+  RICE_pamir_chawmos_fox_neutral_log_title: "여우는 오르막도 내리막도 가지 않았다" # 14188817038567563464
+  RICE_pamir_chawmos_fox_neutral_log: "$RICE_pamir_chawmos_fox_neutral_log_title$" # 16783692487519152027
+  RICE_pamir_chawmos_fox_bad_log_title: "여우가 언덕 아래로 내려갔다" # 16759381970446060021
+  RICE_pamir_chawmos_fox_bad_log: "$RICE_pamir_chawmos_fox_bad_log_title$" # 4831782787076402955
+  TRAVEL_NAME_FOR_activity_RICE_pamir_chawmos_festival: "[Character.GetFirstNamePossessiveNoTooltip] $activity_RICE_pamir_chawmos_festival$" # 13767381619714586249
+  activity_RICE_pamir_chinir_festival_host_an_a: "$host_activity_a$" # 13713790857143020716
+  activity_RICE_pamir_chinir_festival: "치니르 축제" # 10732255811785557615
+  activity_RICE_pamir_chinir_festival_desc: "파미르 지역의 일부 이란어 사용 민족들은 오랫동안 치니르 축제라 불리는 추수 축제를 기념해 왔습니다. 어쨌든 풍성한 수확을 축하해야 마땅하겠지요." # 2938918352732381718
+  activity_RICE_pamir_chinir_festival_selection_tooltip: "#italic 수확의 계절이로다#!\n\n$RICE_pamir_attend_chinir_festival_context_tooltip$" # 16693552588964037061
+  activity_RICE_pamir_chinir_festival_host_desc: "$BULLET_WITH_TAB$ [prestige_i|E][prestige|E]\n$BULLET_WITH_TAB$ [piety_i|E][piety|E]\n$BULLET_WITH_TAB$ [GetModifier('RICE_pamir_recently_attended_chinir').GetNameWithTooltip] [character_modifier|E]" # 6376410853551682993
+  activity_RICE_pamir_chinir_festival_guest_desc: "$BULLET_WITH_TAB$ [prestige_i|E][prestige|E]" # 12596614112478523827
+  activity_RICE_pamir_chinir_festival_destination_selection: "$activity_RICE_pamir_chinir_festival_province_desc$" # 16911730830614152312
+  activity_RICE_pamir_chinir_festival_guest_help_text: "$activity_RICE_pamir_chinir_festival$" # 8345183792647829053
+  activity_RICE_pamir_chinir_festival_predicted_cost: "치니르 축제의 비용은 귀하의 [income|E]와 선택하는 [activity_options|E]에 따라 결정됩니다." # 17259484218129665958
+  activity_RICE_pamir_chinir_festival_conclusion_desc: "올해의 [GetActivityType( 'activity_RICE_pamir_chinir_festival' ).GetName]이 종료되었습니다. 수확기를 기념하는 것은 정말 축제 같고 신나는 일입니다." # 6488998224401567117
+  RICE_pamir_chinir_festival_porridge_amount: "죽 양" # 8203008746410616091
+  RICE_pamir_chinir_festival_porridge_amount_none: "없음" # 4387124778405518223
+  RICE_pamir_chinir_festival_porridge_amount_none_desc: "치니르 축제가 끝날 때 추가적인 [prestige_i|E] [prestige|E]를 얻지 못합니다.\n\n#weak 올해 치니르 축제를 준비하는 현지 주민들을 위해 이미 많은 것을 하고 있는데, 왜 그들이 이 죽과 같은 것을 더 기대해야 하는가!#" # 12959353840836778952
+  RICE_pamir_chinir_festival_porridge_amount_small: "작은" # 11665425638542725414
+  RICE_pamir_chinir_festival_porridge_amount_small_desc: "치니르 축제가 끝날 때 추가 [prestige_i|E] #V 50#! 획득.\n\n#weak 치니르 축제 기간 동안, 사람들은 각 가구에서 만든 달콤한 밀죽 한 그릇과 약간의 빵과 고기를 다른 가족들과 나누기 위해 치니르 향연으로 가져오는 것이 관례입니다.!" # 11796997646342121230
+  RICE_pamir_chinir_festival_porridge_amount_medium: "보통" # 7377651229498775580
+  RICE_pamir_chinir_festival_porridge_amount_medium_desc: "치니르 축제가 끝날 때 [prestige_i|E] #V 100#! 추가 획득.\n\n#weak 치니르 잔치 때 다른 가문들에게 적절한 양의 죽(다른 음식들과 함께)을 제공함으로써, 나는 나 자신이 관대하고 사려 깊은 지도자임을 증명할 수 있다.#" # 3042587282223284033
+  RICE_pamir_chinir_festival_porridge_amount_large: "거대한" # 2290692482761374841
+  RICE_pamir_chinir_festival_porridge_amount_large_desc: "치니르 축제가 끝날 때 추가 [prestige_i|E] #V 150#!를 획득합니다.\n\n#weak 이 땅의 통치자로서, 나는 내 아래 백성들을 부양할 의무가 있지 않은가? 우리는 치니르 축제 기간 동안 모두에게 나누어 줄 최고의 죽과 다른 진미들을 대량으로 준비할 것이다!#" # 855616776574806715
+  RICE_pamir_chinir_festival_harvest_phase: "수확" # 13665395489733203295
+  RICE_pamir_chinir_festival_harvest_phase_desc: "수확철이로다!" # 9414676606555557168
+  RICE_pamir_chinir_festival_celebration_intent_header: "축하 행사:" # 15837984053617632930
+  RICE_pamir_chinir_festival_celebration_intent: "축하 행사:" # 8745396489141951886
+  RICE_pamir_chinir_festival_celebration_intent_desc: "수확이 풍성하다면, 그 결과로 열리는 치니르 축제는 당연히 즐겁고 흥겨워야 할 것입니다! 당신은 [stress_i|E] [stress|E]를 잃게 되며, 만약 당신이 [GetTrait('gregarious').GetName( GetNullCharacter )], [GetTrait('content').GetName( GetNullCharacter )]이거나 [GetTrait('gluttonous').GetName( GetNullCharacter )]라면 그보다 더 많이 잃게 될 것입니다." # 1484089162976738119
+  RICE_pamir_chinir_festival_community_intent_header: "커뮤니티" # 7934550964328998982
+  RICE_pamir_chinir_festival_community_intent: "커뮤니티" # 15637845118509028219
+  RICE_pamir_chinir_festival_community_intent_desc: "그대는 공동체에 대한 의무에 집중하여 수확이 원활하게 이루어지고 사회적 유대가 강화되기를 바랍니다. 그대의 [capital|E]는 #V 5#!년 동안 [GetModifier('RICE_pamir_successful_chinir_festival').GetNameWithTooltip] [county_modifier|E]를 얻습니다." # 13426437248645972406
+  RICE_pamir_chinir_festival_completed_log_title: "치니르 축제 참석 완료" # 13145064034129334705
+  RICE_pamir_chinir_festival_completed_log: "[CHARACTER.GetShortUIName|U] 님께서 치니르 축제 참석을 마쳤습니다." # 17941352260682615541
+  TRAVEL_NAME_FOR_activity_RICE_pamir_chinir_festival: "[Character.GetFirstNamePossessiveNoTooltip] $activity_RICE_pamir_chinir_festival$" # 17594833528772510440
+  activity_RICE_pamir_tumshiling_festival_host_an_a: "$host_activity_a$" # 13713790857143020716
+  activity_RICE_pamir_tumshiling_festival: "툼실링 축제" # 2331152121528601506
+  activity_RICE_pamir_tumshiling_festival_desc: "오래전, 길기트의 식인 왕 슈리 바다트가 영웅적인 요정 왕자 [azur_jamshid|E]에게 패배했습니다. 툼실링 축제를 통해 이 위대한 사건을 기억합시다!" # 5787682439624959265
+  activity_RICE_pamir_tumshiling_festival_selection_tooltip: "툼실링 축제를 후원합니다.\n\n$RICE_pamir_hold_tumshiling_festival_context_tooltip$" # 8052039085239333148
+  activity_RICE_pamir_tumshiling_festival_host_desc: "$BULLET_WITH_TAB$ [prestige_i|E][prestige|E]\n$BULLET_WITH_TAB$ [piety_i|E][piety|E]\n$BULLET_WITH_TAB$ [GetModifier('RICE_pamir_sponsored_tumshiling').GetNameWithTooltip] [character_modifier|E]" # 16213354258820482606
+  activity_RICE_pamir_tumshiling_festival_guest_desc: "$BULLET_WITH_TAB$ [prestige_i|E][prestige|E]\n$BULLET_WITH_TAB$스트레스 [stress_loss_i|E][stress|E] 상실" # 12623914568557024174
+  activity_RICE_pamir_tumshiling_festival_destination_selection: "$activity_RICE_pamir_tumshiling_festival_province_desc$" # 15490062985420018861
+  activity_RICE_pamir_tumshiling_festival_guest_help_text: "$activity_RICE_pamir_tumshiling_festival$" # 9826134584984575131
+  activity_RICE_pamir_tumshiling_festival_predicted_cost: "이 방문의 비용은 주로 귀하의 [income|E]에 따라 결정됩니다." # 8882918087865338503
+  activity_RICE_pamir_tumshiling_festival_conclusion_desc: "[GetActivityType( 'activity_RICE_pamir_tumshiling_festival' ).GetName]이 끝났습니다. 아즈르 잠시드의 전설이 영원히 잊히지 않기를!" # 15169561229570283672
+  RICE_pamir_tumshiling_festival_bonfire_phase: "모닥불" # 8201166582012835153
+  RICE_pamir_tumshiling_festival_bonfire_phase_desc: "툼실링 기간 동안 폭군 왕 슈리 바다트의 허수아비를 불태우기 위해 거대한 모닥불을 피우는 것이 전통입니다." # 16631662987624822445
+  RICE_pamir_tumshiling_festival_celebration_intent_header: "축하 행사:" # 15837984053617632930
+  RICE_pamir_tumshiling_festival_celebration_intent: "축하 행사:" # 8745396489141951886
+  RICE_pamir_tumshiling_festival_celebration_intent_desc: "불을 지르는 건 정말 재미있지! 이번에는 당신이 슈리 바다트의 허수아비를 불태우는 데 참여하려 하는군." # 575175921578658882
+  RICE_pamir_tumshiling_festival_completed_log_title: "툼실링 축제 참여 완료" # 6492253560089517156
+  RICE_pamir_tumshiling_festival_completed_log: "[CHARACTER.GetShortUIName|U]님이 툼실링 축제 참여를 마쳤습니다." # 13970642842700927027
+  TRAVEL_NAME_FOR_activity_RICE_pamir_tumshiling_festival: "[Character.GetFirstNamePossessiveNoTooltip] $activity_RICE_pamir_tumshiling_festival$" # 9354343594437695188
+  activity_RICE_pamir_nasir_khusraw_pilgrimage_host_an_a: "$host_activity_a$" # 13713790857143020716
+  activity_RICE_pamir_nasir_khusraw_pilgrimage: "나시르 쿠스라우 성소 순례" # 17166964383925402595
+  activity_RICE_pamir_nasir_khusraw_pilgrimage_desc: "생전에 [nasir_khusraw|E]는 박식하고 총명하면서도 겸손하고 사려 깊은 성인으로서 많은 이들에게 영감을 주었으며, 바다흐샨에 이슬람의 빛을 가져왔습니다. [GetTitleByKey('c_badakhshan').GetNameNoTier]의 산속에 있는 그의 묘소는 독실한 현지인들이 자주 찾는 곳입니다." # 2233528175706545544
+  activity_RICE_pamir_nasir_khusraw_pilgrimage_selection_tooltip: "[pilgrimage_to_nasir_khusraws_shrine|E]로 #bold 성지 순례#를 떠납니다.\n\n$RICE_pamir_nasir_khusraw_pilgrimage_context_tooltip$" # 16968517778514523652
+  activity_RICE_pamir_nasir_khusraw_pilgrimage_host_desc: "$activity_RICE_local_pilgrimage_host_desc$\n$BULLET_WITH_TAB$ [GetModifier('RICE_pamir_nasir_khusraw_pilgrimage_done').GetNameWithTooltip] [character_modifier|E]\n$BULLET_WITH_TAB$ [nasir_khusraw|E]에게 영감을 받아 #P 유익한#! [character_modifier|E]를 얻을 확률" # 1138359761854743628
+  activity_RICE_pamir_nasir_khusraw_pilgrimage_guest_desc: "$activity_RICE_pamir_nasir_khusraw_pilgrimage_host_desc$" # 2680861784869602157
+  activity_RICE_pamir_nasir_khusraw_pilgrimage_province_desc: "나시르 호스로우의 성소는 [GetTitleByKey('c_badakhshan').GetNameNoTier] 산맥의 얌간에 있습니다." # 15807687682327329997
+  activity_RICE_pamir_nasir_khusraw_pilgrimage_destination_selection: "$activity_RICE_pamir_nasir_khusraw_pilgrimage_province_desc$" # 15598031292406003946
+  activity_RICE_pamir_nasir_khusraw_pilgrimage_guest_help_text: "$activity_RICE_pamir_nasir_khusraw_pilgrimage$" # 14585038292116680936
+  activity_RICE_pamir_nasir_khusraw_pilgrimage_predicted_cost: "[nasir_khusraw|E] 성소로 떠나는 [local_pilgrimage|E] 비용은 선택하는 [activity_options|E]에 따라 달라집니다." # 8895637511140979412
+  activity_RICE_pamir_nasir_khusraw_pilgrimage_conclusion_desc: "우리의 [GetActivityType( 'activity_RICE_pamir_nasir_khusraw_pilgrimage' ).GetName]이 끝났습니다. 그의 성소를 방문함으로써 우리는 [GetPlayer.GetFaith.HighGodName]께 더욱 헌신해야겠다는 큰 영감을 받았습니다!" # 15057539157167642926
+  RICE_pamir_nasir_khusraw_pilgrimage_completed_log_title: "나시르 코스로우 성지 순례 완료" # 11662478608752656476
+  RICE_pamir_nasir_khusraw_pilgrimage_completed_log: "[CHARACTER.GetShortUIName|U]께서 [CHARACTER.GetHerHis] [local_pilgrimage|E]를 [nasir_khusraw|E]의 성소로 마치셨습니다." # 13123166022660301230
+  RICE_pamir_nasir_khusraw_pilgrimage_inspiration_log_title: "나시르 호스로우에게서 영감을 받아" # 12870581353273104067
+  RICE_pamir_nasir_khusraw_pilgrimage_inspiration_log: "[CHARACTER.GetShortUIName|U]는 [nasir_khusraw|E]에게서 영감을 받았습니다." # 8496968317413076609
+  TRAVEL_NAME_FOR_activity_RICE_pamir_nasir_khusraw_pilgrimage: "[Character.GetFirstNamePossessiveNoTooltip] $activity_RICE_pamir_nasir_khusraw_pilgrimage$" # 9777944745461797953
+  activity_RICE_pamir_nasir_khusraw_pilgrimage_owner: "순례자" # 384073485693042227
+  activity_RICE_pamir_goat_sacrifice_host_an_a: "$host_activity_a$" # 13713790857143020716
+  activity_RICE_pamir_goat_sacrifice: "염소 희생" # 7445669093140304339
+  activity_RICE_pamir_goat_sacrifice_desc: "$RICE_pamir_sacrifice_goats_desc$" # 6617594333520034800
+  activity_RICE_pamir_goat_sacrifice_selection_tooltip: "[GetPlayer.GetFaith.PantheonTerm]에게 염소를 희생 제물로 바칩니다.\n\n$RICE_pamir_sacrifice_goats_context_tooltip$" # 17205162828405047494
+  activity_RICE_pamir_goat_sacrifice_host_desc: "$BULLET_WITH_TAB$ [piety_i] [piety|E]\n$BULLET_WITH_TAB$ [prestige_i] [prestige|E]\n$BULLET_WITH_TAB$당신의 [virtues|E]와 [sins|E], 그리고 선택하는 [activity_options|E]에 따라 #P 유익한#! [character_modifiers|E]를 얻을 확률이 변합니다." # 5934617391130574440
+  activity_RICE_pamir_goat_sacrifice_guest_desc: "[piety_i] [piety|E] 획득" # 15956444138895960840
+  activity_RICE_pamir_goat_sacrifice_province_desc: "염소들이 이곳 제단에서 희생될 것입니다." # 7832785073252562503
+  activity_RICE_pamir_goat_sacrifice_destination_selection: "$activity_RICE_pamir_goat_sacrifice_province_desc$" # 10088201573410542527
+  activity_RICE_pamir_goat_sacrifice_guest_help_text: "$activity_RICE_pamir_goat_sacrifice$" # 6751904982495730518
+  activity_RICE_pamir_goat_sacrifice_predicted_cost: "염소 희생 제물의 비용은 선택하는 [activity_options|E]에 따라 달라집니다." # 329962592535161590
+  activity_RICE_pamir_goat_sacrifice_conclusion_desc: "[GetActivityType( 'activity_RICE_pamir_goat_sacrifice' ).GetName]가 끝났습니다. [GetPlayer.GetFaith.PantheonTerm]께서 이 염소들의 순결에 만족하시기를!" # 1135100084256216294
+  RICE_goat_sacrifice_number_of_goats_type: "희생의 규모" # 1426204801250438847
+  RICE_goat_sacrifice_number_of_goats_type_small: "사소한" # 6542786321735904698
+  RICE_goat_sacrifice_number_of_goats_type_small_desc: "더 많은 염소를 희생하면 보상이 늘어날 뿐만 아니라 #P 유익한#! [character_modifier|E]를 얻을 확률도 높아집니다.\n\n#weak 우리의 희생은 비록 작을지라도, 우리가 바칠 수 있는 가장 훌륭한 염소들로 이루어질 것입니다.#" # 10976604934846709011
+  RICE_goat_sacrifice_number_of_goats_type_medium: "보통" # 7377651229498775580
+  RICE_goat_sacrifice_number_of_goats_type_medium_desc: "더 많은 염소를 바치면 보상이 증가하고, #P 유익한#! [character_modifier|E]를 얻을 확률도 높아집니다.\n\n#weak [GetPlayer.GetFaith.PantheonTerm]께서는 이 상당한 양의 염소들을 분명히 기뻐하실 것입니다.#" # 61539728580374042
+  RICE_goat_sacrifice_number_of_goats_type_large: "거대함" # 2290692482761374841
+  RICE_goat_sacrifice_number_of_goats_type_large_desc: "염소를 더 많이 희생하면 보상이 늘어날 뿐만 아니라 #P 유익한#! [character_modifier|E]를 얻을 확률도 높아집니다.\n\n#weak [GetPlayer.GetFaith.PantheonTerm]에게 있어, 우리의 염소 희생은 그야말로 장관일 것입니다!#!" # 11228255771495913764
+  RICE_pamir_goat_sacrifice_phase: "의식" # 3878012746933025863
+  RICE_pamir_goat_sacrifice_phase_desc: "우리 염소들은 대대로 해오던 전통적인 방식으로 [GetPlayer.GetFaith.PantheonTerm]에게 제물로 바쳐질 것입니다." # 1435935876573936349
+  RICE_pamir_goat_sacrifice_worship_intent_header: "숭배:" # 5975529624042931288
+  RICE_pamir_goat_sacrifice_worship_intent: "숭배:" # 7766295194512236388
+  RICE_pamir_goat_sacrifice_worship_intent_desc: "염소 희생의 종교적 측면에 집중하십시오. [activity|E]를 완료하면 추가 [piety_i|E] #V 50#!을 얻습니다. 만약 그대가 [GetTrait('zealous').GetName( GetNullCharacter )]이거나 [GetTrait('humble').GetName( GetNullCharacter )]라면 추가 [stress_loss_i|E] [stress|E]를 잃게 됩니다." # 2205181014755035613
+  RICE_pamir_goat_sacrifice_reputation_intent_header: "명성:" # 6075904094411210055
+  RICE_pamir_goat_sacrifice_reputation_intent: "명성:" # 4914268119379995417
+  RICE_pamir_goat_sacrifice_reputation_intent_desc: "이 염소 제사를 통해 그대들의 헌신을 모두에게 알리고자 하오. [activity|E]가 완료되면 추가 [prestige_i|E] #V 50#!을 얻을 것입니다. 만약 그대가 [GetTrait('ambitious').GetName( GetNullCharacter )]이거나 [GetTrait('arrogant').GetName( GetNullCharacter )]라면 추가 [stress_loss_i|E] [stress|E]를 잃을 것입니다." # 14735097973202299048
+  RICE_pamir_goat_sacrifice_completed_log_title: "염소 희생 완료" # 12594959563120162958
+  RICE_pamir_goat_sacrifice_completed_log: "[CHARACTER.GetShortUIName|U]가 [CHARACTER.GetHerHis] 염소 제사를 마쳤습니다." # 11691293663189983981
+  RICE_goat_sacrifice_number_of_goats_amount: "희생할 염소의 수" # 10195156643255500989
+  TRAVEL_NAME_FOR_activity_RICE_pamir_goat_sacrifice: "[Character.GetFirstNamePossessiveNoTooltip] $activity_RICE_pamir_goat_sacrifice$" # 17663302087258688503
+  building_type_RICE_pamir_lapis_lazuli_mines_01: "사리상(Sar-i Sang)의 청금석 광산" # 2933063043376311969
+  building_type_RICE_pamir_lapis_lazuli_mines_01_desc: "이 지역은 유명한 사르이 상 광산이 있는 곳입니다. 수 세기 동안 이곳은 고대부터 전 세계 문화권에서 높이 평가받아 온 아름다운 푸른 보석인 라피스 라줄리의 세계 생산량 대부분을 차지해 왔습니다." # 6022439980675792424
+  building_RICE_pamir_lapis_lazuli_mines_01: "청금석 채굴 정착지" # 5111173096069251612
+  building_RICE_pamir_lapis_lazuli_mines_01_desc: "사르이 상 근처 계곡의 작은 정착지 몇 곳에는 밤낮으로 이 광산에서 일하는 광부들이 살고 있으며, 이곳은 세계의 주요 청금석 공급원입니다." # 2390077143000494330
+  building_RICE_pamir_lapis_lazuli_mines_02: "청금석 광산" # 5144482633859850415
+  building_RICE_pamir_lapis_lazuli_mines_02_desc: "이곳의 채광 작업이 더욱 정교해지면서 더 많은 양의 청금석이 수출되고 있습니다. 광산 생산성 향상을 위해 기술자들이 고용되었고, 청금석 운송을 신속히 하기 위해 상인들이 장터를 열었습니다." # 15996721416277667260
+  building_RICE_pamir_lapis_lazuli_mines_03: "거대한 청금석 광산" # 13050904027323103018
+  building_RICE_pamir_lapis_lazuli_mines_03_desc: "이 지역의 마을들은 세계 시장에 양질의 청금석을 풍부하게 공급하여, 이 지역에 많은 부를 가져다줍니다." # 2164246322085820127
+  building_RICE_pamir_lapis_lazuli_mines_04: "청금석 광산 단지" # 18249352578739389683
+  building_RICE_pamir_lapis_lazuli_mines_04_desc: "이 지역의 정착지들은 고대 파라오와 카이사르 시대 이후로 볼 수 없었던 규모와 인구를 자랑하며, 세상에 막대한 양의 청금석을 채굴하고 있습니다." # 1187501362432732964
+  building_type_RICE_pamir_ruby_mines_01: "쿠히랄의 루비 광산" # 5030000585552772001
+  building_type_RICE_pamir_ruby_mines_01_desc: "이 지역은 수세기 동안 활발하게 운영되어 온 쿠히랄의 루비 광산이 있는 곳입니다." # 13336420291297012218
+  building_RICE_pamir_ruby_mines_01: "루비 채굴 정착지" # 8239201448485790306
+  building_RICE_pamir_ruby_mines_01_desc: "지역 계곡의 작은 정착지 몇 곳에는 밤낮으로 루비를 채굴하는 광부들이 살고 있습니다." # 3064571190036372000
+  building_RICE_pamir_ruby_mines_02: "루비 광산" # 741280950979943334
+  building_RICE_pamir_ruby_mines_02_desc: "이곳의 채굴 작업이 더욱 정교해지면서 더 많은 양의 루비가 수출되고 있습니다. 광산의 생산량을 늘리기 위해 기술자들이 초빙되었고, 루비 운송을 신속하게 처리하기 위해 상인들이 자리를 잡았습니다." # 5997482731905932709
+  building_RICE_pamir_ruby_mines_03: "거대한 루비 광산" # 11975446266137230238
+  building_RICE_pamir_ruby_mines_03_desc: "이 지역의 마을들은 세계 시장에 풍부한 양의 루비를 공급하며, 이 지역에 막대한 부를 가져다줍니다." # 16866536412399069218
+  building_RICE_pamir_ruby_mines_04: "루비 광산 단지" # 14716582267340933536
+  building_RICE_pamir_ruby_mines_04_desc: "이 지역의 크고 번성한 정착지들은 전 세계 시장으로 수출되는 막대한 양의 루비를 채굴합니다." # 5681958729808066648
+  building_type_RICE_pamir_khewra_salt_mines_01: "케우라 소금 광산" # 17898961169950365609
+  building_type_RICE_pamir_khewra_salt_mines_01_desc: "케우라 광산은 펀자브의 소금 산맥에 있는 주요 소금 광산으로, 분홍색의 이른바 히말라야 소금을 생산하는 것으로 유명합니다." # 2262167598040694631
+  building_RICE_pamir_khewra_salt_mines_01: "소금 채굴 정착지" # 12106580933794687949
+  building_RICE_pamir_khewra_salt_mines_01_desc: "이곳에서 발견된 소금 광산 근처에는 여러 정착지가 있습니다. 이 시기에 정착민들이 채굴하는 소금의 양은 비교적 적습니다." # 5149905282999674096
+  building_RICE_pamir_khewra_salt_mines_02: "소금 광산" # 14960737813624425304
+  building_RICE_pamir_khewra_salt_mines_02_desc: "소금 채굴 정착지들이 커지기 시작했고, 더 많은 양의 소금이 조달되고 있습니다. 터널을 갖춘 제대로 된 (비록 기초적이지만) 채굴 체계가 윤곽을 드러내기 시작했습니다." # 6443281702113628202
+  building_RICE_pamir_khewra_salt_mines_03: "거대한 소금 광산" # 6826403579996502247
+  building_RICE_pamir_khewra_salt_mines_03_desc: "이곳의 광산 운영이 확장됨에 따라 추가적인 기반 시설, 주택 등이 필요해지고 있습니다. 상인들 또한 이곳에서 사업을 확장하기 시작했습니다." # 8797993296680698524
+  building_RICE_pamir_khewra_salt_mines_04: "소금 채굴 단지" # 17857586816195157725
+  building_RICE_pamir_khewra_salt_mines_04_desc: "크고 잘 조직된 광산 단지가 자리 잡고 있어, 이곳에서는 매일 막대한 양의 소금이 조달됩니다. 전 세계의 상인들이 이 소금을 거래하기 위해 찾아옵니다." # 4980320424155211431
+  RICE_pamir_land_of_the_kafirs: "카피르의 땅" # 17972175832585759676
+  RICE_pamir_land_of_the_kafirs_desc: "수 세대 동안, 이 지역의 일부 계곡과 산길에는 조직화된 불교, 조로아스터교, 힌두교, 혹은 무슬림 국가들의 복종이나 영향력에 맹렬히 저항해 온 다양한 이교도 부족들이 거주해 왔습니다. 그들은 매우 사납기 때문에 종종 비이교도 이웃들에게 정기적인 공물을 받아내기도 합니다. 현명한 통치자들은 보통 그들을 내버려 두었기에, 그들의 고대 생활 방식은 대부분 방해받지 않았습니다. 전반적으로, 아프가니스탄, 북인도, 티베트 사이에 있는 이 고지대는 무슬림들에게 '카피리스탄', 즉 불신자들의 땅이라고 경멸적으로 알려져 있습니다." # 7406172143632844069
+  RICE_pamir_nasir_khusraw: "나시르 후스로우" # 7226759512449512432
+  RICE_pamir_nasir_khusraw_desc: "나시르 호스로는 페르시아어 현존하는 가장 위대한 시인 중 한 명으로 널리 알려져 있습니다. 그는 호화롭고 퇴폐적인 생활을 하던 셀주크 관리로 경력을 시작했지만, 우주에 대한 그의 관점을 완전히 바꾼 꿈을 꾸게 됩니다. 여러 시련과 고난, 그리고 메카로의 여러 차례 성지 순례를 거친 후, 그는 오늘날의 현명하고 성스러운 이슬람 선교사가 되었습니다." # 7352395883149512429
+  RICE_pamir_wakhan_watchposts_default: "와칸 회랑의 감시 초소" # 13338041327852688609
+  RICE_pamir_wakhan_watchposts_default_desc: "와칸 회랑을 따라 이어진 #bold 감시 초소# 네트워크는 수세기 동안 지역 통치자들과 티베트 및 중국 제국을 포함한 다양한 세력이 사용해 왔습니다. 이 초소들은 실크로드의 여러 주요 고개와 경로를 지키며 해당 지역의 안보와 번영을 보장합니다." # 11606350650065004601
+  RICE_pamir_karakoram_watchposts_default: "카라코람 산맥의 감시 초소" # 16734906368012835999
+  RICE_pamir_karakoram_watchposts_default_desc: "카라코람 산맥의 감시 초소들은 수세기 동안 지역 통치자들과 티베트 및 중국 제국을 포함한 여러 세력에 의해 사용되어 왔습니다. 이 초소들은 실크로드의 주요 고개와 경로들을 지키며 이 지역의 안보와 번영을 보장합니다." # 9793098775813880752
+  RICE_pamir_visited_bibi_fatima_fertility: "비비 파티마 온천에서 향상된 출산율" # 5628900030257682317
+  RICE_pamir_visited_bibi_fatima_fertility_desc: "이 인물은 최근 파미르 산맥에 있는 비비 파티마 온천으로 여행을 다녀왔습니다. 현지 전설에 따르면, 그곳의 물에 몸을 담근 것이 이 인물의 생식력을 향상시켰다고 합니다." # 6730257362045727022
+  RICE_pamir_visited_bibi_fatima_fertility_muslim: "비비 파티마 온천에서 향상된 출산율" # 5628900030257682317
+  RICE_pamir_visited_bibi_fatima_fertility_muslim_desc: "이 무슬림(혹은 이전의 무슬림) 인물이 최근 파미르 산맥에 있는 비비 파티마 온천으로 여행을 다녀왔습니다. 현지 전설에서 말하듯이, 그곳의 물에 몸을 담근 것이 이 인물의 생식력을 향상시켰다고 합니다." # 11395667425386971183
+  RICE_pamir_brahui_tribes: "브라후이 부족들" # 2424464712171099198
+  RICE_pamir_brahui_tribes_desc: "브라후이족은 이 지역으로 수 세대 전에 이주해 온 드라비다어 사용 유목 및 반유목 부족들입니다. 그들은 자신들만의 전통과 관습을 가지고 있으며, 지역 통치자들은 보통 그들을 내버려 둡니다." # 10220137201899871355
+  RICE_pamir_wakhan_recently_repaired_small: "와칸 감시 초소의 최근 소규모 보수" # 3454552440386095064
+  RICE_pamir_wakhan_recently_repaired_medium: "와칸 감시 초소의 최근 대규모 수리" # 1090095046377929249
+  RICE_pamir_wakhan_recently_repaired_large: "와칸 감시 초소의 최근 주요 보수" # 6884337812990124664
+  RICE_pamir_karakoram_recently_repaired_small: "카라코람 감시 초소의 최근 소규모 보수" # 15331558396189760852
+  RICE_pamir_karakoram_recently_repaired_medium: "카라코람 감시 초소의 최근 대규모 보수" # 6257827270897921137
+  RICE_pamir_karakoram_recently_repaired_large: "카라코람 감시 초소의 최근 중요 보수 공사" # 12050206587747172808
+  RICE_pamir_nasir_khusraw_shrine: "나시르 코스로우의 성지" # 1866290812436808013
+  RICE_pamir_nasir_khusraw_shrine_desc: "나시르 호스로, 저명한 이스마일파 성인이자 학자, 시인의 무덤을 중심으로 상당한 규모의 성소가 이곳에 세워졌습니다. 모든 분파의 무슬림들이 이곳을 순례하며 그에게 경의를 표하고, 자신들의 영적 여정을 성찰하기 위해 찾아옵니다." # 16138826504386687569
+  RICE_pamir_illuminated_by_nasir_khusraw: "나시르 쿠스로우의 조명을 받다" # 4445982025713162775
+  RICE_pamir_illuminated_by_nasir_khusraw_desc: "이 인물의 신앙에 대한 의심은 이제 사라졌습니다. 위대한 시인이자 학자이며 성자인 나시르 코스로우가 그들의 요청에 따라 우주에 대한 몇 가지 어려운 질문에 답하기 위해 '철학과 종교의 화해'라는 저서를 집필했습니다." # 3003249796961621681
+  RICE_pamir_nasir_khusraw_final_work: "최종 작업 작성 중" # 17517986869273722140
+  RICE_pamir_nasir_khusraw_final_work_desc: "평생에 걸친 영적 숭배와 가르침 끝에, 위대한 시인이자 학자인 나시르 호스로가 그의 마지막 문학적 성취가 될지도 모를 작품을 집필하는 데 몰두하고 있습니다." # 9788613452110736817
+  RICE_pamir_zun_blessing_small: "준의 축복 (소규모)" # 2369889091180165426
+  RICE_pamir_zun_blessing_small_desc: "그들은 이 인물이 정의를 주는 준에게서 작은 축복을 받았다고 말합니다!" # 7541126360452677412
+  RICE_pamir_zun_blessing_medium: "준의 축복 (주요)" # 6775398699611863741
+  RICE_pamir_zun_blessing_medium_desc: "그들은 이 인물이 #bold 정의의 수여자 존#으로부터 거대한 축복을 받았다고 말합니다!" # 1462679049415981913
+  RICE_pamir_zun_blessing_large: "준의 축복 (위대한)" # 5245404468974727992
+  RICE_pamir_zun_blessing_large_desc: "그들은 이 인물이 #bold 즈운, 정의의 수여자#에게 큰 축복을 받았다고 말합니다!" # 17132182499015224066
+  RICE_pamir_dezaw_blessing_small: "데자우의 축복 (소규모)" # 6361048229397936729
+  RICE_pamir_dezaw_blessing_small_desc: "그들은 이 인물이 위대한 창조신 데자와에게서 작은 축복을 받았다고 말합니다." # 715173886020013838
+  RICE_pamir_dezaw_blessing_medium: "데자우의 축복 (주요)" # 6561310836840170349
+  RICE_pamir_dezaw_blessing_medium_desc: "그들은 이 인물이 위대한 창조신 데자와에게서 큰 축복을 받았다고 말합니다." # 6257781599503304525
+  RICE_pamir_dezaw_blessing_large: "데자우의 축복 (위대한)" # 6022069026570936498
+  RICE_pamir_dezaw_blessing_large_desc: "그들은 이 인물이 위대한 창조신 데자와로부터 큰 축복을 받았다고 말합니다." # 10968399532065117140
+  RICE_pamir_mahandeo_blessing_small: "마한데오의 축복 (소규모)" # 15359456725434618492
+  RICE_pamir_mahandeo_blessing_small_desc: "이 인물이 농작물을 지켜보는 전쟁의 신, 마한데오에게 작은 축복을 받았다고들 합니다." # 8887552154481659435
+  RICE_pamir_mahandeo_blessing_medium: "마한데오의 축복 (주요)" # 2137403645311440511
+  RICE_pamir_mahandeo_blessing_medium_desc: "그들은 이 인물이 작물을 수호하는 전쟁의 신, 마한데오로부터 큰 축복을 받았다고 말합니다." # 6724318235175215472
+  RICE_pamir_mahandeo_blessing_large: "마한데오의 축복 (위대함)" # 5031248765109163167
+  RICE_pamir_mahandeo_blessing_large_desc: "그들은 이 인물이 곡식을 지켜보는 전쟁의 신, 마한데오로부터 큰 축복을 받았다고 말합니다." # 8110246882868474654
+  RICE_pamir_indra_blessing_small: "인드라의 축복 (소규모)" # 7739850711130968226
+  RICE_pamir_indra_blessing_small_desc: "그들은 이 인물이 소들의 강력하고도 무시무시한 신성한 군주이자 무지개의 주인이신 인드라 신으로부터 작은 축복을 받았다고 말합니다." # 10290966432797706643
+  RICE_pamir_indra_blessing_medium: "인드라의 축복 (주요)" # 17995320539218360813
+  RICE_pamir_indra_blessing_medium_desc: "그들은 이 인물이 소의 강력하고 두려운 신적 군주이자 무지개의 주인이신 인드라로부터 큰 축복을 받았다고 말합니다." # 16088794228904301729
+  RICE_pamir_indra_blessing_large: "인드라의 축복 (위대한)" # 7026721172538321658
+  RICE_pamir_indra_blessing_large_desc: "그들은 이 인물이 소들의 강력하고도 무시무시한 신성한 군주이자 무지개의 주인이신 인드라로부터 거대한 축복을 받았다고 말합니다." # 15788361091771934227
+  RICE_pamir_dezalik_blessing_small: "데잘릭의 축복 (하급)" # 1937623767628410468
+  RICE_pamir_dezalik_blessing_small_desc: "그들은 이 인물이 데잘릭의 자매이자 여성, 아이들, 그리고 가정의 수호자인 데잘릭으로부터 작은 축복을 받았다고 말합니다." # 4166293142118992464
+  RICE_pamir_dezalik_blessing_medium: "데잘릭의 축복 (주요)" # 3774437708916706183
+  RICE_pamir_dezalik_blessing_medium_desc: "그들은 이 인물이 데잘릭, 즉 데자와의 자매이자 여성, 아이, 그리고 화로의 수호자로부터 중대한 축복을 받았다고 말합니다." # 2585156761316536356
+  RICE_pamir_dezalik_blessing_large: "데잘릭의 축복 (위대한)" # 4779372019027520285
+  RICE_pamir_dezalik_blessing_large_desc: "그들은 이 인물이 데잘릭, 즉 데자와의 자매이자 여성, 아이들, 그리고 가정의 수호자로부터 큰 축복을 받았다고 말합니다." # 16621139623368582061
+  RICE_pamir_balumain_blessing_small: "발루메인의 축복 (소규모)" # 6515076730760436736
+  RICE_pamir_balumain_blessing_small_desc: "그들은 이 인물이 인간에게 삶의 방식과 숭배하는 법을 가르쳐준 영웅적 신인 바루마인에게서 작은 축복을 받았다고 말합니다." # 9050230222813203560
+  RICE_pamir_balumain_blessing_medium: "발루메인의 축복 (주요)" # 619568539183264264
+  RICE_pamir_balumain_blessing_medium_desc: "그들은 이 인물이 인간에게 삶의 방식과 숭배의 방법을 가르쳐준 영웅적인 신인 발루마인으로부터 큰 축복을 받았다고 말합니다." # 6358521903948900074
+  RICE_pamir_balumain_blessing_large: "발루마인의 축복 (위대한)" # 14523659116266484272
+  RICE_pamir_balumain_blessing_large_desc: "그들은 이 인물이 인간에게 삶의 방식과 숭배 방법을 가르쳐준 영웅적인 신인 발루마인으로부터 거대한 축복을 받았다고 말합니다." # 6792963677039987914
+  RICE_pamir_jestak_blessing_small: "예스타크의 축복 (소규모)" # 8770653086882617940
+  RICE_pamir_jestak_blessing_small_desc: "그들이 말하길, 이 인물이 가정, 결혼, 그리고 가정생활의 여신인 제스타크에게서 작은 축복을 받았다고 합니다." # 8634488791429085122
+  RICE_pamir_jestak_blessing_medium: "예스타크의 축복 (주요)" # 14664357399111145036
+  RICE_pamir_jestak_blessing_medium_desc: "그들은 이 인물이 가족, 결혼, 가정생활의 여신인 제스타크로부터 큰 축복을 받았다고 말합니다." # 11368695975010004960
+  RICE_pamir_jestak_blessing_large: "예스타크의 축복 (위대한)" # 13945971826224641472
+  RICE_pamir_jestak_blessing_large_desc: "그들은 이 인물이 가정, 결혼, 그리고 가정생활의 여신인 제스탁으로부터 큰 축복을 받았다고 말합니다." # 10565590086148699069
+  RICE_pamir_recently_attended_chinir: "최근 치니르 축제에 참석함" # 7260010168575681455
+  RICE_pamir_recently_attended_chinir_desc: "수확철이 풍년이었소!" # 6126704593358177573
+  RICE_pamir_recently_attended_chawmos: "최근 차우모스 축제에 참석함" # 16552440967727827924
+  RICE_pamir_nasir_khusraw_inspiration_diplomatic: "나시르 쿠스로우에게 영감을 받은 정신적 영향 (외교)" # 9083026683733980480
+  RICE_pamir_nasir_khusraw_inspiration_martial: "나시르 호스로우에게 영적 영감을 받음 (무력)" # 13521239787248554689
+  RICE_pamir_nasir_khusraw_inspiration_stewardship: "나시르 호스로우에게 영감을 받은 영적 감화 (관리력)" # 4026529056744293076
+  RICE_pamir_nasir_khusraw_inspiration_intrigue: "나시르 호스로우에게 영감을 받은 영적 계시 (음모)" # 6624150641142216285
+  RICE_pamir_nasir_khusraw_inspiration_learning: "나시르 호스로우에게 영감을 받은 영적 깨달음 (학습)" # 7484165717902141391
+  RICE_pamir_nasir_khusraw_pilgrimage_done: "나시르 쿠스로우 성소로 순례를 떠났습니다" # 2248100830733550704
+  RICE_pamir_chailaksambaik: "차일락삼바이크" # 16265706566963943149
+  RICE_pamir_chailaksambaik_desc: "이 아이는 최근 차일락삼바이크 의식을 마쳤으며, 이는 공동체에 성인으로 받아들여지기 위한 한 단계입니다." # 7492981103766991953
+  RICE_pamir_butsambaik: "부트삼바이크" # 16150398947836577892
+  RICE_pamir_butsambaik_desc: "이 아이는 최근 성인으로서 공동체에 받아들여지기 위한 단계인 부찬바이크 의식을 마쳤습니다." # 7340423107548792510
+  RICE_pamir_chawmos_fox_good: "여우가 언덕을 오르다 발각됨" # 1869176420940429230
+  RICE_pamir_chawmos_fox_good_desc: "최근 이곳에서 열린 차우모스 축제 기간 중, 여우 한 마리가 산을 오르는 모습이 발견되었는데, 이는 이 지역에 잠시 동안의 행운을 가져다줄 징조라고 합니다." # 2912470656188165461
+  RICE_pamir_chawmos_fox_bad: "여우가 내리막길을 내려가다 잡히다" # 2138153597589662719
+  RICE_pamir_chawmos_fox_bad_desc: "최근 이곳에서 열린 차우모스 축제 기간 중, 여우 한 마리가 산비탈을 내려가는 모습이 포착되었는데, 이는 이 지역에 잠시 동안 불운이 닥칠 징조라고 합니다." # 16560780394578383901
+  RICE_pamir_recently_organized_chawmos: "최근 차우모스 축제를 조직했습니다" # 6084787633654938951
+  RICE_pamir_zun_idol_is_restored: "준의 우상" # 14585154085346123263
+  RICE_pamir_zun_idol_is_restored_desc: "이 지역의 준교도들은 바다흐샨의 루비 광산에서 가져온 아름다운 루비 눈을 장식한 거대한 황금 준 신상을 세웠습니다." # 9290128641936332813
+  RICE_pamir_restored_zun_idol: "준의 우상을 복원했습니다" # 3769624228585020776
+  RICE_pamir_ali_ibn_asad_converted: "이슬람교 수호자" # 604138061998561827
+  RICE_pamir_ali_ibn_asad_converted_desc: "알리 이븐 아사드는 통치자로서 다른 이슬람 종파로부터 이스마일파를 지키기 위해 노력해 왔습니다. 그는 확고한 신념을 지닌 인물이 되었으며, 그의 지적인 안목으로 나시르 호스로우와 같은 이스마일파 선교사와 사상가들의 중요한 후원자가 되었습니다." # 3413924449274410177
+  RICE_pamir_ali_ibn_asad_unconverted: "개방적인 에미르" # 2081959373173003582
+  RICE_pamir_ali_ibn_asad_unconverted_desc: "알리 이븐 아사드는 종파 간의 분쟁이 끊이지 않던 시대에 상당히 관대한 지도자로 여겨집니다. 그는 통치자로서 자신의 영토에 정착하고자 하는 수니파든 시아파든 모든 무슬림을 보살피기 위해 노력하며, 다양한 출신의 학자들을 존중합니다." # 2329276025660206232
+  RICE_pamir_purity_of_youth: "청춘의 순수함" # 1162286574839894346
+  RICE_pamir_purity_of_youth_desc: "유아기(Prepubescence)는 이 아이의 종교를 따르는 이들에게 순결의 상징이자 신성한 것으로 여겨집니다. 우주의 자비로운 힘이 살아 숨 쉬는 모습을 목격하는 것은 참으로 경이로운 일입니다!" # 13244029411223040636
+  RICE_pamir_collected_juniper: "주니퍼 채집" # 15665222198875359454
+  RICE_pamir_nomad_clans_good: "유목민들이 최근에 정착했습니다" # 18146058952032193529
+  RICE_pamir_nomad_clans_good_desc: "파미르 산맥 이 지역에 최근 몇몇 유목 부족들이 이주해 왔습니다. 그들은 현지 주민들과 잘 지내며 지역 사회에 기여하고 있습니다." # 630043687416170298
+  RICE_pamir_nomad_clans_bad: "유목민들이 최근에 정착했습니다" # 18146058952032193529
+  RICE_pamir_nomad_clans_bad_desc: "파미르 산맥 이 지역에 최근 몇몇 유목 부족들이 이주해 왔습니다. 그들과 현지 주민들은 잦은 말다툼과 충돌을 일으키며 지역 사회의 불안정을 초래하고 있습니다." # 8501004613126353191
+  RICE_pamir_nomad_clans_training: "유목 민병대 지역 병력 훈련" # 2844321709837103971
+  RICE_pamir_burusho_feud: "부루쇼 분쟁" # 11333607949220968553
+  RICE_pamir_burusho_feud_desc: "이 지역의 토착 부루쇼 부족들 사이에 대규모 불화가 벌어지고 있습니다." # 18038604922473598722
+  RICE_pamir_ate_baht_porridge: "아테 바트 죽" # 3951732699616770017
+  RICE_pamir_fairy_advice: "페리에게 조언을 받았습니다" # 10180528932485768372
+  RICE_pamir_fairy_advice_desc: "이 인물은 지역의 샤먼의 도움을 받아 파미르 및 부루쇼 민족의 민속과 신화에서 흔히 볼 수 있는 일종의 요정 정령인 페리(Peri)의 도움을 받았다고 합니다." # 13623692596844197455
+  RICE_pamir_ate_kurut_cheese: "쿠루트 치즈를 먹었다" # 3005987048528730281
+  RICE_pamir_horny_bowls: "색욕의 그릇" # 2894027809851896173
+  RICE_pamir_horny_bowls_desc: "이 인물은 최근 파미르 지역 고유종 양의 뿔로 만든 큰 그릇을 하사받았습니다. 그곳에서 이 그릇은 나크지파르 또는 라마포이라고 알려져 있습니다." # 13626001893174866755
+  RICE_pamir_mulberry_jam_syrup: "뽕나무 잼과 시럽이 많습니다" # 4665627276211327663
+  RICE_pamir_mulberry_pikht: "빵을 만드는 데 쓸 뽕나무 열매 가루가 많습니다" # 6588264294551304584
+  RICE_pamir_admiring_buddhist_rock_art: "불교 암벽 예술 감상하기" # 272002535990541849
+  RICE_pamir_accused_belas: "벨라스라고 비난받고 있다" # 9908080548367347204
+  RICE_pamir_accused_belas_desc: "이 여인은 파미르 산악 지역의 민속에 등장하는 복수심 강한 영적 존재인 #bold 벨라스#!라는 혐의를 받고 있습니다." # 16019370931156552987
+  RICE_pamir_opinion_saved_me_belas: "나를 구했군" # 3876126750565167086
+  RICE_pamir_hephthalite_war_inspiration: "고대 헤프탈 전사들에게서 영감을 받아" # 13594410850850235679
+  RICE_pamir_hephthalite_peace_inspiration: "고대 헤프탈 상인 및 탐험가에게서 영감을 받음" # 1442533078854311458
+  RICE_pamir_ate_moch: "모치를 많이 먹었다" # 196387135526789983
+  RICE_pamir_ate_moch_desc: "모흐는 파미르 지역의 전통 수프로, 치즈 커드를 물에 섞어 익힌 채소 위에 부어 만듭니다. 특히 추운 달에 사람의 기력을 북돋아 준다고 알려져 있습니다." # 16310418180103117319
+  RICE_pamir_chinir_minor_illness: "치니르 축제 기간 중 경미한 질병에 걸렸습니다" # 16077882657498466472
+  RICE_pamir_offering_to_zun_small: "준에게 보물을 바쳤음" # 8570186098656530762
+  RICE_pamir_offering_to_zun_medium: "준에게 많은 보물을 바쳤습니다" # 12145649661975183712
+  RICE_pamir_offering_to_zun_large: "존에게 무수한 보물을 바쳤습니다" # 1106701799277563333
+  RICE_pamir_zun_idol_is_restored_mount_aruna: "아루나 산의 준 신상" # 1889746974009126510
+  RICE_pamir_zun_idol_is_restored_mount_aruna_desc: "이 지역의 주니즘 신자들은 수 세대 만에 아루나 산을 되찾고 그곳에 주신의 황금 우상을 복원했습니다. 자민다와르에 있는 우상처럼, 이 우상 역시 바다흐샨의 루비 광산에서 가져온 아름다운 루비 눈을 박고 있습니다." # 3999548199924976793
+  RICE_pamir_restored_zun_mount_aruna_idol: "아루나 산에 주운 신상을 복원했습니다." # 16085834876116672931
+  RICE_pamir_kafir_concessions: "이교도들에 대한 양보" # 6615034246390886170
+  RICE_pamir_kafir_concessions_desc: "이 지역의 현 세대 '이교도들'은 공유하는 문화와 신념 덕분에 더 발전된 이웃들에게 점점 더 융화되고 우호적으로 변하고 있습니다." # 17981875724230625864
+  RICE_pamir_is_azur_jamshid: "요정 왕자" # 18005909798046673968
+  RICE_pamir_is_azur_jamshid_desc: "전설에 따르면 그는 하늘에서 내려온 요정의 아들이라고 합니다. 그는 식인 왕 슈리 바닷의 폭정으로부터 길기트 사람들을 물리치고 해방시켰습니다." # 18214093662072464895
+  RICE_pamir_shri_badats_palace: "슈리 바닷 궁전" # 9220503495230776764
+  RICE_pamir_shri_badats_palace_desc: "시리 바다트의 궁전은 악명 높은 식인 왕(정의로운 아주르 잠시드에 의해 처단된)이 더 이상 점유하고 있지 않지만, 그의 거처는 당분간 그대로 남아 있습니다. 비록 단순한 건물에 불과하지만, 그것은 그가 현지인들에게 가한 끔찍한 불의와 그가 이 땅에서 피를 짜냈음을 상징합니다." # 6331740413739860634
+  RICE_pamir_dynasty_azur_jamshid: "요정 왕자의 자손들" # 9901518460932722517
+  RICE_pamir_sponsored_tumshiling: "툼실링 축제를 후원했습니다." # 1398769050321534232
+  RICE_pamir_dokhtar_i_noshirwan_refurbished: "도크타르-이 노시르완의 개조된 준의 성소" # 1222294074779670487
+  RICE_pamir_dokhtar_i_noshirwan_refurbished_desc: "바미안에서 북쪽으로 조금 떨어진 도크타르-이 노시르완에는 이 지역에서 가장 큰 벽화 중 하나를 소장한 유명한 성소가 있으며, 이곳에는 옛 동부 이란 신화의 옥수스 또는 바크슈와 연관된 옥수스-준(Oxus-Zun), 즉 준 신의 지역 변형이 묘사되어 있습니다." # 15040093314365287558
+  RICE_pamir_shri_badats_palace_renovated: "슈리 바닷 궁전 개축" # 7552394211466214433
+  RICE_pamir_shri_badats_palace_renovated_desc: "길기트에 새로운 폭군이 나타났으며, 옛 식인종 왕 슈리 바다트의 궁전이 복원되었습니다. 이 어둡고 불길한 구조물은 예전만큼이나 끔찍합니다. 이 지역 주민들은 평화를 찾을 수 있을까요?" # 13182301420025199072
+  RICE_pamir_continuing_shri_badats_legacy: "슈리 바다트의 유산을 이어가다" # 240369799015544156
+  RICE_pamir_continuing_shri_badats_legacy_desc: "이 인물은 길기트의 전 폭군이자 식인 왕이었던 슈리 바다트를 모방하려 하고 있습니다. 어쩌면 잔혹함에 있어서는 슈리 바다트를 능가했을지도 모릅니다." # 3008498926959499473
+  RICE_pamir_continuing_shri_badats_legacy_azur_jamshid: "어둠의 요정 왕자" # 4329826065006580350
+  RICE_pamir_continuing_shri_badats_legacy_azur_jamshid_desc: "\"당신은 요정 왕자였소! 길기트에 균형을 가져다주었어야 했는데, 어둠 속에 내버려 두다니\"" # 13325863404182728382
+  RICE_pamir_hephthalite_reclaimer_honors_zun: "준의 백성 수호자" # 10102263632446815688
+  RICE_pamir_hephthalite_reclaimer_honors_zun_desc: "이 인물은 에프탈인들을 그들의 본거지로 복원함으로써, 수 세대 동안 많은 에프탈인들이 숭배해 온 위대한 신인 준(Zun)의 이름을 기렸습니다. 이제 태양 그 자체인 준에 대한 숭배가 에프탈인들이 위대한 제국의 초석을 다졌던 청정한 산악 지대에서 다시 한번 행해질 수 있게 되었습니다." # 6173729759806072876
+  RICE_pamir_hephthalite_reclaimer_zun_chosen: "선택받은 황제여, 쭌의 이름으로" # 17980134098723107141
+  RICE_pamir_hephthalite_reclaimer_zun_chosen_desc: "이 인물은 헤프탈 제국을 복원하려는 노력을 이끌었으며, 그 과정에서 여러 세대 동안 일부 헤프탈인들이 숭배해 온 위대한 신 조운에게 영광을 가져왔습니다. 이 인물이 스스로 믿든 믿지 않든, 조운의 헌신적인 추종자들은 이 통치자가 조운의 선택받은 자이며, 그들의 노력 덕분에 이 세상의 모든 이들이 위대한 조운, 오류 없는 조운, 난공불락의 조운을 알게 될 것이라고 믿습니다!" # 2619851965763000354
+  RICE_pamir_hephthalite_focus_north: "북부 헤프탈 영토" # 15399815320215379365
+  RICE_pamir_hephthalite_focus_north_desc: "파미르 고원에 흉노족을 복원한 이 인물은 이제 제국 건설의 다음 단계를 위해 북쪽을 바라보고 있습니다. 비록 정복한 민족들의 많은 관습과 기술을 받아들였지만, 한때 적들에게 백흉노라 불렸던 흉노족은 본질적으로 두려운 전사들이기에, 이 인물은 자신의 운명이 험준한 초원과 산맥에 있다고 믿고 있습니다." # 3017626492344880660
+  RICE_pamir_hephthalite_focus_south: "남부 헤프탈 영토" # 5522876403616531270
+  RICE_pamir_hephthalite_focus_south_desc: "파미르 고원에 헵탈 왕국을 재건한 이 인물은 이제 제국적 야망의 다음 단계를 위해 남쪽을 바라보고 있습니다. 많은 이들이 그들을 백훈이라 부르며 두려운 약탈자이자 전사로 여기지만, 헵탈인들은 또한 건축가이자 장인이며 상인이기도 합니다. 이 인물은 자신의 운명이 수 세대에 걸쳐 통치해 온 수많은 민족들의 가장 훌륭한 자질을 본받는 데 있다고 믿습니다." # 11983887270622003341
+  RICE_pamir_successful_chinir_festival: "성공적인 치니르 축제" # 5509604047821393430
+  RICE_pamir_aspiration_assert_zunbil_independence: "[aspiration|E]: 준빌 독립 주장" # 6630401692926886481
+  RICE_pamir_aspiration_assert_zunbil_independence_desc: "#italic 피루즈는 정의의 신 주운의 진정한 챔피언으로 나서서, 즈운빌과 그들의 민족의 옛 생활 방식을 역경 속에서 영원히 지켜내야 합니다!#$RICE_pamir_aspiration_zunbil_desc$\n\n" # 15936612919387608811
+  RICE_pamir_visit_bibi_fatima: "비비 파티마 온천을 방문하십시오" # 12284798727996748473
+  RICE_pamir_visit_bibi_fatima_tooltip: "당신은 와칸의 비비 파트미나 온천을 방문하게 될 것입니다." # 14333763926238842373
+  RICE_pamir_visit_bibi_fatima_effect_tooltip: "당신은 비비 파티마 온천을 방문하는 데 시간을 보낼 것이며, [stress|E]를 잃거나 [fertility|E]가 증가할 수 있습니다." # 15891798493495004492
+  RICE_pamir_visit_bibi_fatima_effect_2_tooltip: "[ROOT.Char.GetFaith.GetAdjective] 신앙을 가진 신자로서, 당신은 [piety|E]를 얻을 수도 있습니다." # 8196077516144351945
+  RICE_pamir_visit_bibi_fatima_desc: "비록 많은 이들이 이 온천을 방문하기 위해 멀리서 오지만, 나는 가까이 살고 있으니 이 기회를 이용해 휴식을 취해야겠군." # 617177243679455471
+  RICE_pamir_visit_bibi_fatima_confirm: "시작해보지!" # 1830976368998437983
+  RICE_pamir_visit_bibi_fatima_context_tooltip: "#emphasis 역사적 배경:#! 현재 타지키스탄에 위치한 와칸 계곡의 비비 파티마 온천은 예언자 무함마드의 딸의 이름을 따서 명명되었습니다. 이 온천은 여성의 생식 능력을 향상시킨다고 전해집니다." # 4095316959711827558
+  RICE_pamir_attend_chinir_festival: "치니르 축제에 참석하기" # 10540866227466221453
+  RICE_pamir_attend_chinir_festival_tooltip: "지역 치니르 축제에 참석할 것입니다." # 5009895354542994928
+  RICE_pamir_attend_chinir_festival_effect_tooltip: "치니르 축제에 참석합니다" # 10863862231098346548
+  RICE_pamir_attend_chinir_festival_desc: "파미르 지역의 일부 이란어 사용 민족들은 오랫동안 치니르 축제라는 수확 축제를 기념해 왔습니다. 이제 저도 그러한 축제에 참석해 볼 때가 되었군요!" # 1997847821543714851
+  RICE_pamir_attend_chinir_festival_confirm: "수확철이 다가오고 있습니다!" # 18167894085595366290
+  RICE_pamir_attend_chinir_festival_context_tooltip: "#emphasis 역사적 배경:#! 치니르는 와히족의 전통 축제로, 수확의 시작을 기념합니다. 주로 와칸 회랑에 거주하는 농부이자 목축민인 와히족은 파미르 지역에서 동이란어를 사용하는 여러 집단 중 하나입니다." # 8151407289992703134
+  RICE_pamir_nasir_khusraw_pilgrimage: "나시르 쿠스로의 성지로 순례를 떠나십시오" # 13790644059086984645
+  RICE_pamir_nasir_khusraw_pilgrimage_tooltip: "당신은 바다흐샨에 있는 [nasir_khusraws_shrine|E]로 [go_on_a_pilgrimage_to_nasir_khusraws_shrine|E]를 떠날 것입니다." # 12393097738153584170
+  RICE_pamir_nasir_khusraw_pilgrimage_effect_tooltip: "귀하는 [go_on_a_pilgrimage_to_nasir_khusraws_shrine|E]를 떠나게 되며, 잠재적으로 [piety|E]와 [prestige|E]와 같은 다양한 축복을 얻을 수 있습니다." # 3782773950624331526
+  RICE_pamir_nasir_khusraw_pilgrimage_desc: "[nasir_khusraw|E]께서는 참으로 경이로운 성인이셨으니, 그분께 경의를 표하는 것이 마땅하겠지." # 2557178374814314043
+  RICE_pamir_nasir_khusraw_pilgrimage_confirm: "여정을 준비하십시오." # 17498900734348942995
+  RICE_pamir_nasir_khusraw_pilgrimage_context_tooltip: "#emphasis 역사적 배경:#! 아프가니스탄 바다흐샨 주에 위치한 나시르 호스로우의 묘소는 수세기 동안 지역 순례지로 인기가 많았습니다. 비록 그가 이스마일파의 전도자였지만, 이 지역의 시아파와 수니파 무슬림 모두 그를 높이 존경하고 있습니다." # 9613628056427290721
+  RICE_pamir_repair_watchposts_wakhan: "와칸 회랑의 감시 초소를 수리하십시오" # 7546710020509963032
+  RICE_pamir_repair_watchposts_wakhan_tooltip: "당신은 와칸 회랑의 [repair_the_pamir_watchposts|E]를 복구할 것입니다." # 8886322659535655103
+  RICE_pamir_repair_watchposts_wakhan_effect_tooltip: "#V 와칸# [county|E]의 [repair_the_pamir_watchposts|E]를 복구하십시오." # 3849440239392884812
+  RICE_pamir_repair_watchposts_wakhan_desc: "와칸 회랑의 감시 초소들이 낡았습니다. 만약 우리가 [repair_singular_pamir_watchposts|E]를 통해 이를 수리한다면, 이 지역의 계곡과 고개를 지나는 비단길 무역로를 보호하고 지역 방어를 강화할 수 있을 것입니다." # 16734306553078575635
+  RICE_pamir_repair_watchposts_wakhan_confirm: "시작해보지." # 2857279608006780728
+  RICE_pamir_repair_watchposts_wakhan_context_tooltip: "#emphasis 역사적 배경:#! 와칸 회랑은 외딴 지역임에도 불구하고 수세기 동안 실크로드를 따라 이동하는 통로 역할을 했습니다. 중국과 티베트뿐만 아니라 지역 통치자들을 포함한 다양한 국가들이 이 지역에 #bold 감시 초소# 네트워크를 유지했습니다." # 6431689110344660442
+  RICE_pamir_wakhan_recently_repaired_req: "와칸 회랑의 감시 초소들이 최근에 [repair_past_tense_pamir_watchposts|E]되지 않았습니다." # 6062092453306536853
+  RICE_pamir_repair_watchposts_karakoram: "카라코람 산맥의 감시 초소를 수리하십시오." # 16460133172133545434
+  RICE_pamir_repair_watchposts_karakoram_tooltip: "카라코람 산맥의 [repair_the_pamir_watchposts|E]를 수리하겠습니다." # 12796218550782664904
+  RICE_pamir_repair_watchposts_karakoram_effect_tooltip: "당신은 #V 길기트# [county|E]의 [repair_the_pamir_watchposts|E]를 [수리할 것입니다]!" # 14200503913482293620
+  RICE_pamir_repair_watchposts_karakoram_desc: "카라코람 산맥의 감시 초소들이 낡았습니다. 만약 우리가 그것들을 [repair_singular_pamir_watchposts|E]한다면, 이 지역의 계곡과 고개를 지나는 비단길 무역로를 보호하고 지역 방어를 강화할 수 있을 것입니다." # 12337753756280824071
+  RICE_pamir_repair_watchposts_karakoram_confirm: "시작해보지." # 2857279608006780728
+  RICE_pamir_repair_watchposts_karakoram_context_tooltip: "#emphasis 역사적 배경:#! 카라코람 산맥의 고갯길과 계곡은 그 지리적 위치가 멀리 떨어져 있음에도 불구하고 수세기 동안 실크로드를 따라 이동하는 통로 역할을 했습니다. 중국과 티베트뿐만 아니라 지역 통치자들을 포함한 다양한 국가들이 이 지역에 #bold 감시 초소# 네트워크를 유지했습니다." # 17556528756934058940
+  RICE_pamir_karakoram_recently_repaired_req: "카라코람 산맥의 감시 초소들이 최근에 [repair_past_tense_pamir_watchposts|E]되지 않았습니다." # 5211825169289008032
+  RICE_pamir_watchpost_costs_tooltip: "수리 작업의 효율성과 지속성은 얼마나 많은 자금을 지원하는가에 달려 있습니다 #weak (최소 비용: @gold_icon! 80)!#" # 5271077917416465871
+  RICE_pamir_watchpost_costs_reduced_tooltip: "수리 작업의 효과와 지속 기간은 얼마나 많은 자금을 지원하는지에 따라 달라집니다 #weak (최소 비용: @gold_icon! 60)!#" # 7715107263412969495
+  RICE_pamir_expand_nasir_khusraws_shrine: "나시르 호스로우의 성지를 확장하십시오" # 6900273333482319177
+  RICE_pamir_expand_nasir_khusraws_shrine_tooltip: "[nasir_khusraw_s|E]의 현재 소박한 안식처를 확장할 자금을 제공하겠습니다." # 4366835809185263199
+  RICE_pamir_expand_nasir_khusraws_shrine_effect_tooltip: "#V 무슬림#!들은 #V 바다흐샨#! 내 또는 그 근처에 거주하는 경우 [go_on_a_pilgrimage_to_nasir_khusraws_shrine|E]를 할 수 있습니다." # 7653869546889130547
+  RICE_pamir_expand_nasir_khusraws_shrine_desc: "선왕 [nasir_khusraw|E]께서는 이 지역의 모든 분파 무슬림들에게 여전히 존경받고 있으며, 순례자들이 그의 묘소로 모여들기 시작했습니다. 이 성인의 넋을 기리기 위해 제대로 된 사당을 짓고, 이곳을 찾는 순례자들을 지원할 기반 시설도 마련해야 합니다." # 4389300802740543553
+  RICE_pamir_expand_nasir_khusraws_shrine_confirm: "작업을 시작하자!" # 10916723130909918442
+  RICE_pamir_expand_nasir_khusraws_shrine_context_tooltip: "#emphasis 역사적 배경:#! 나시르 쿠스로는 사망 후 바다흐샨의 얌간에 묻혔으며, 그곳에 사당이 세워졌습니다. 나시르 쿠스로는 이스마일파였지만, 그의 사당은 그 지역의 시아파와 수니파 순례자 모두에게 인기 있는 순례지입니다." # 3643654783337055996
+  RICE_pamir_nasir_khusraw_passed_away: "[nasir_khusraw|E]께서 별세하셨습니다." # 1167672992210759649
+  RICE_pamir_go_on_nasir_khusraw_pilgrimage: "나시르 쿠스로의 성지로 순례를 떠나십시오" # 13790644059086984645
+  RICE_pamir_go_on_nasir_khusraw_pilgrimage_tooltip: "그대는 [go_on_a_pilgrimage_to_nasir_khusraws_shrine|E]를 떠납니다" # 14604545612354351591
+  RICE_pamir_go_on_nasir_khusraw_pilgrimage_effect_tooltip: "당신은 [pilgrimage_to_nasir_khusraws_shrine|E]의 일환으로 바다흐샨으로 여행하게 될 것입니다." # 10306852661253426424
+  RICE_pamir_go_on_nasir_khusraw_pilgrimage_desc: "그의 생애 동안, [nasir_khusraw|E]는 박식하고 총명하면서도 겸손하고 사려 깊은 성인으로서 많은 이들에게 영감을 주었으며, 바다흐샨에 이슬람의 빛을 가져왔습니다. 아마도 그의 성지를 방문하는 것이 나에게 영적인 영감을 줄지도 모르겠습니다." # 8157108216417837793
+  RICE_pamir_go_on_nasir_khusraw_pilgrimage_confirm: "준비하시오!" # 17196605518271497463
+  RICE_pamir_go_on_nasir_khusraw_pilgrimage_context_tooltip: "#emphasis 역사적 배경:#! 나시르 쿠스로우가 사망한 후, 바다흐샨의 얌간에 위치한 그의 묘소는 시아파와 수니파 무슬림 모두에게 지역 성지가 되었습니다." # 7918141967519415493
+  RICE_pamir_nasir_khusraw_pilgrimage_distance_req: "귀하의 [capital|E]는 #V 바다흐샨#! [county|E]와 가깝습니다." # 14463897791232892205
+  RICE_pamir_in_jerm_req: "귀하의 [camp|E]는 [GetTitleByKey('b_jerm').GetNameNoTier]에 있습니다." # 17102897193025835764
+  RICE_pamir_in_zamindawar_req: "귀하의 [camp|E]는 [GetTitleByKey('b_zamindawar').GetNameNoTier]에 있습니다." # 1520092708586877491
+  RICE_pamir_in_kabul_req: "귀하의 [camp|E]는 [GetTitleByKey('b_kabul').GetNameNoTier]에 있습니다." # 10179828974858627848
+  RICE_pamir_comission_nasir_khusraw_work: "나시르 호스로우에게 작품을 의뢰하기" # 7182208961360807084
+  RICE_pamir_comission_nasir_khusraw_work_tooltip: "귀하의 철학적, 영적인 질문들에 대해 [nasir_khusraw_s|E]의 도움을 요청할 것입니다." # 14158786231167097642
+  RICE_pamir_comission_nasir_khusraw_work_effect_tooltip: "[nasir_khusraw|E]에게 철학과 영성의 관계에 대한 질문에 답하는 글을 작성해 달라고 요청하십시오." # 6081068198882125042
+  RICE_pamir_comission_nasir_khusraw_work_desc: "저는 잘 알려지지 않은 학자 아부 알-하이탐 알-주르자니가 쓴 시를 접했는데, 이 시는 일련의 난해한 철학적, 종교적 질문들을 제기하고 있습니다. 그 시는 저를 혼란스럽게 하면서도 흥미를 돋우는군요. 저명한 성인 나시르 후스로우께서 이 질문들에 대한 답을 찾아주시어 저를 깨우쳐 주실 수 있을지도 모르겠습니다." # 6243661995157777916
+  RICE_pamir_comission_nasir_khusraw_work_confirm: "제가 가진 질문들에 대한 답은 무엇입니까?" # 15984110511029086613
+  RICE_pamir_comission_nasir_khusraw_work_context_tooltip: "#emphasis 역사적 배경:#! 나시르 호스로우의 초기 저술만큼 널리 알려지지는 않았지만, 《철학과 종교의 화해》( #italic 자미 알-히크마타인#! )는 바다흐샨의 에미르이자 지적인 인물이었던 알리 이븐 아사드의 후원을 받아 집필된 그의 마지막 저작이었습니다." # 6808713827233481422
+  RICE_pamir_nasir_khusraw_passed_away_req: "[nasir_khusraw|E]께서 별세하셨습니다." # 1167672992210759649
+  RICE_pamir_nasir_khusraw_at_court_req: "[nasir_khusraw|E]께서 현재 귀하의 [court|E]에 계십니다." # 12925104302935753310
+  RICE_pamir_attend_chawmos_festival: "차우모스 축제에 참석하기" # 3444843868492543062
+  RICE_pamir_attend_chawmos_festival_tooltip: "차우모스 축제를 거행할 것입니다." # 1506080204016635980
+  RICE_pamir_attend_chawmos_festival_effect_tooltip: "차우모스 축제를 기념합니다." # 11472694217058748278
+  RICE_pamir_attend_chawmos_festival_desc: "동지(冬至)가 다가오고 있습니다! 이는 우리 종교에서 가장 중요한 축제이며, 공동체 내에서 우리의 역할을 재확인하고 순수와 불순의 영역을 재정립하는 의식이 거행될 것입니다." # 12244223668910199573
+  RICE_pamir_attend_chawmos_festival_confirm: "준비를 합시다!" # 167469343618261133
+  RICE_pamir_attend_chawmos_festival_context_tooltip: "#emphasis 역사적 배경:#! 이교도 칼라쉬족 사이에서 차우모스(Chawmos)는 한 해 중 가장 중요한 축제입니다. 이를 단순히 축제라고 부르는 것은 칼라쉬력에서 가장 큰 행사이며 많은 의례적 중요성을 지닌다는 사실을 제대로 표현하지 못하는 것입니다." # 7203331584058903706
+  RICE_decision_chawmos_month_requirement: "9월에서 11월 사이에 준비를 시작해야 합니다." # 6875408236450215317
+  RICE_pamir_sacrifice_goats: "신들에게 염소를 제물로 바치기" # 3393484561508168800
+  RICE_pamir_sacrifice_goats_tooltip: "하늘에 염소를 제물로 바칠 것입니다." # 12017584932035839327
+  RICE_pamir_sacrifice_goats_effect_tooltip: "선택한 신이나 신의 한 측면에 염소를 제물로 바칩니다." # 726259639793454016
+  RICE_pamir_goat_sacrifice_costs_tooltip: "잠재적인 축복은 제물의 웅장함에 따라 달라집니다 #weak (최소 비용: @gold_icon! 50)#!" # 2080489901907422525
+  RICE_pamir_sacrifice_goats_desc: "우리는 신들의 축복을 구하며, 그 방법은 우리의 가장 신성하고 순수한 동물인 염소를 제물로 바치는 것입니다." # 7732581153086045687
+  RICE_pamir_sacrifice_goats_confirm: "저 염소들을 데려오시오!" # 3857220884645411903
+  RICE_pamir_sacrifice_goats_context_tooltip: "#emphasis 역사적 배경:#! 아프가니스탄과 파키스탄 북부의 일부 이교도 및 과거 이교도 민족, 예를 들어 칼라쉬족에게 염소는 신성한 동물로 여겨지며, 따라서 신들에게 바치는 제물로 적합하다고 믿어집니다." # 4482066988900288126
+  RICE_pamir_restore_the_idol_of_zun: "자민다와르에 있는 준의 우상을 복원하십시오" # 8807394484764873259
+  RICE_pamir_restore_the_idol_of_zun_tooltip: "당신은 자민다와르에서 [restore_the_idol_of_zun|E]을 복원할 것입니다" # 1381605301894780806
+  RICE_pamir_restore_the_idol_of_zun_desc: "[idol_of_zun|E]는 한때 정의를 베푸는 자의 신성한 권위의 상징으로서 자민다와르에 자랑스럽게 서 있었으니, 우리 그것을 재현합시다!" # 13909455418782210201
+  RICE_pamir_restore_the_idol_of_zun_confirm: "장인들을 부르시오!" # 16768984721544829605
+  RICE_pamir_restore_the_idol_of_zun_context_tooltip: "#emphasis 역사적 배경:#! 7세기 불교 승려이자 순례자였던 현장(Xuanzang)과 9세기 무슬림 역사가 알-발라두리(Al-Baladhuri)와 같은 여러 동시대 자료들은 자민다와르(Zamindawar)의 즈나기르 산(Mount Zhunagir)에 있는 유명한 신당에 있던 즈누빌(Zunbil) 국가가 후원한 즈누(Zun, 또는 Zhun, Zhuna, Suna)의 금 우상에 대해 묘사하고 있습니다. 알-발라두리에 따르면, 653~654년에 아랍 지휘관 압둘 라흐만 빈 사무라(‘Abd al-Rahman bin Samurah)가 즈누빌족을 습격했을 때, 그는 현지인들에게 그들의 신이 무력하다는 것을 증명하기 위해 우상의 손을 부수고 루비 눈을 뽑아냈다고 보고했습니다." # 18312005852908655716
+  RICE_pamir_conciliate_kafir_tribes: "이교도 부족 달래기" # 6107994509803623196
+  RICE_pamir_conciliate_kafir_tribes_tooltip: "당신은 이교도 부족들에게 간청합니다" # 2671910669797505104
+  RICE_pamir_conciliate_kafir_tribes_effect_tooltip: "#V 이교도의 땅#! [county_modifier|E]가 귀하의 [counties|E] 중 하나에서 제거되며, #V 이교도에게 양보함#! [county_modifier|E]가 귀하가 선택한 [county|E]에 일시적으로 추가됩니다." # 2749918543548159734
+  RICE_pamir_conciliate_kafir_tribes_desc: "무슬림들이 카피르라고 부르는 부족민들은 수 세대 동안 정착민들에게 골칫거리였습니다. 나와 비슷한 [religion|E]를 따르는 강력하고 존경받는 [ruler|E]로서, 내 영토에 살고 있는 이들과 협상을 통해 합의에 이를 수 있을지도 모르겠습니다." # 4295054939262249844
+  RICE_pamir_conciliate_kafir_tribes_confirm: "협상을 시작할까요?" # 17469193225392028285
+  RICE_pamir_conciliate_kafir_tribes_context_tooltip: "#emphasis 역사적 배경:#! 수 세기 동안 파미르와 힌두쿠시 산맥의 소위\"카피\"들은 무슬림부터 불교도와 힌두교도에 이르기까지 조직화된 종교 추종자들의 침입에 저항해 왔습니다. 카피르들은 빅토리아 시대에 이르기까지도 자신들의 영토에서 수많은 약탈을 감행했습니다." # 14255197128502191663
+  RICE_pamir_reclaim_mount_aruna: "주운을 위해 아루나 산을 되찾으십시오" # 2945758922542373893
+  RICE_pamir_reclaim_mount_aruna_tooltip: "아루나에 준의 정당한 자리를 되찾아주십시오." # 11392258589279917668
+  RICE_pamir_reclaim_mount_aruna_desc: "오래전, 카불 바로 북쪽의 아루나 산에는 또 다른 웅장한 [idol_of_zun|E]가 있었으나, 우리는 수리야의 브라흐만교 추종자들에게 쫓겨났습니다. 이제 이곳에 [restore_the_idol_of_zun|E]하여, 준이 이곳에서 다시 한번 존경받을 때입니다!" # 10452732121984698056
+  RICE_pamir_reclaim_mount_aruna_confirm: "장인들과 성직자들을 불러라!" # 16953985030634392807
+  RICE_pamir_reclaim_mount_aruna_context_tooltip: "#emphasis 역사적 배경:#! 중국 기록에는 카불 근처에 아루나 산이 존재했다는 언급이 있습니다. 저명한 불교 순례자 현장이 전한 전설에 따르면, 신적인 존재인 존(Zun)과 수리야(Surya)가 그 산에 거주할 자격을 두고 다투었으며, 결국 존은 자불리스탄으로 남쪽으로 물러나야 했다고 합니다. 이 이야기는 역사적 사건을 신화적으로 각색한 것일 수 있습니다. 즉, 존의 추종자들이 수리야 숭배자들이 통제하는 산을 침범하려 했거나(혹은 더 가능성 있게는) 원래 그 산을 차지하고 있던 존 숭배자들이 수리야를 숭배하는 이주민들에게 쫓겨난 사건일 수 있습니다." # 7727187477008003930
+  RICE_pamir_zun_restored_req: "$k_zun$의 [idol_of_zun|E]가 자민다와르에 복원되었습니다." # 7121150272847031284
+  RICE_pamir_zun_restored_aruna_req: "아루나 산에 [idol_of_zun|E]가 복원되었습니다." # 6430270326968745149
+  RICE_pamir_offer_riches_to_zun: "준의 우상에게 재물을 바치기" # 10803740219432797756
+  RICE_pamir_offer_riches_to_zun_tooltip: "[idol_of_zun|E]에게 바칠 보물과 사치품을 수집합니다." # 7949346605303198392
+  RICE_pamir_offer_riches_to_zun_desc: "세속적인 재물을 바치는 것은 존(Zun)께 드리는 우리의 올바른 관습이며, 그분의 우상 앞에 이 제물을 바치는 것보다 존을 기쁘게 할 더 나은 방법은 없습니다." # 12858156347325692675
+  RICE_pamir_offer_riches_to_zun_effect_tooltip: "제공하는 재산의 양에 따라 획득하는 [piety|E]와 [prestige|E]는 무작위로 결정되지만, 그 양이 영향을 받습니다 #weak (최소 비용: @gold_icon! 100#!)." # 15874887096121578618
+  RICE_pamir_offer_riches_to_zun_confirm: "저는 준의 우상을 방문할 것입니다." # 10482531674446025489
+  RICE_pamir_offer_riches_to_zun_context_tooltip: "#emphasis 역사적 배경:#! 여러 중국 기록에서 존(Zun) 신에게 바쳐진 성소에 엄청난 양의 금과 은이 있었다는 점을 언급합니다. 예를 들어, #italic 수서#!에는 콩링 산(Mount Congling, 카불 근처의 아루나 산으로 추정됨)에 있는 존 신의 신사가 금과 은판으로 지붕이 덮여 있고 은으로 된 바닥이 있었다고 기록되어 있습니다. 현장(Xuanzang) 역시 양과 말 같은 많은 가축들이 존에게 제물로 바쳐졌다고 언급합니다." # 13989595030502509249
+  RICE_pamir_zun_offer_riches_region_req: "[realm_capital|E]는 아프가니스탄에 있는 조로아스터교의 심장부와 가깝거나 인접해 있습니다." # 16264751623014436612
+  RICE_pamir_hold_tumshiling_festival: "툼실링 축제 후원하기" # 2808055658436534564
+  RICE_pamir_hold_tumshiling_festival_tooltip: "슈리 바닷을 격파한 것을 축하하기 위해 지역 주민들을 모읍니다." # 16237688722543402437
+  RICE_pamir_hold_tumshiling_festival_desc: "오래전, 길기트의 식인 왕 슈리 바닷이 영웅적인 요정 왕자 [azur_jamshid|E]에 의해 패배했습니다. 이 위대한 사건을 툼실링 축제로 기념합시다!" # 5787682439624959265
+  RICE_pamir_hold_tumshiling_festival_effect_tooltip: "지역 툼실링 축제를 후원합니다." # 18072400792868256613
+  RICE_pamir_hold_tumshiling_festival_confirm: "시작해보지!" # 12888921035806963867
+  RICE_pamir_hold_tumshiling_festival_context_tooltip: "#emphasis 역사적 배경:#! 전설에 따르면, 길기트는 한때 식인 폭군인 불교도 슈리 바다트가 다스렸으나, 그의 딸 누르 바흐트와 그녀의 연인이자 남편인 페르시아 출신 요정 왕자 아주르 잠시드에게 패배했다고 합니다. 현지인들은 이 사건을 매년 투쉼실링(또는 나살로)이라는 축제로 기념합니다. 이 이야기는 히말라야 전역에서 비슷한 서사를 가진 전설에 기반한 유사한 축제들이 널리 퍼져 있다는 점을 고려할 때 신화일 가능성이 높으며, 이는 역설적이게도 불교 자타카 이야기에 뿌리를 두고 있을 수 있습니다." # 2302606800974353225
+  RICE_decision_tumshiling_month_requirement: "달은 10월에서 12월 사이여야 합니다" # 3222007125028977957
+  RICE_pamir_raze_shri_badats_palace: "슈리 바닷의 궁전을 파괴하라" # 5562779617532814641
+  RICE_pamir_raze_shri_badats_palace_tooltip: "잘 가라!" # 55062664725187489
+  RICE_pamir_raze_shri_badats_palace_desc: "식인종인 슈리 바다트가 그의 압제받던 신하들이 요정 왕자 [azur_jamshid|E]의 인솔 아래 정의롭게 처단하여 더 이상 존재하지 않지만, 그의 잔혹함을 상징하는 기념비였던 그의 웅장한 궁전은 여전히 남아 있습니다. 이 폭군과 그의 끔찍한 행위를 잊기 위해, 나는 이 궁전을 파괴하라는 명령을 내려야 합니다." # 15702095026439814180
+  RICE_pamir_raze_shri_badats_palace_effect_tooltip: "만약 [azur_jamshid|E]가 사망하거나 사망하게 되면, 파미르와 시가리의 [duchies|E]에 있는 [rulers|E] 또는 치트랄의 [county|E]는 #V 툼실링 축제 후원하기#! [decision|E]를 내릴 수 있습니다." # 10377134286561381571
+  RICE_pamir_raze_shri_badats_palace_confirm: "철거하라!" # 1771668327861682775
+  RICE_pamir_raze_shri_badats_palace_context_tooltip: "#emphasis 역사적 배경:#! 전설에 따르면, 아즈르 잠시드가 길기트 지역 주민들이 폭군 슈리 바닷을 몰아내고 죽이는 것을 도운 후 그들의 새로운 왕으로 선포되었을 때, 그는 그 폭군의 궁전을 땅바닥까지 헐어버리라고 명령했습니다." # 14496330626355251618
+  RICE_pamir_refurbish_dokhtar_i_noshirwan: "독타르-이 노시르반의 벽화 복원하기" # 16094383148043504547
+  RICE_pamir_refurbish_dokhtar_i_noshirwan_tooltip: "이 존(Zun)의 모습은 약간의 개보수가 필요해 보입니다." # 18139038111627544156
+  RICE_pamir_refurbish_dokhtar_i_noshirwan_desc: "바미얀에서 멀지 않은 도크타르-이 노시르반 유적지에는 우리의 위대한 신 주운(Zun)을 묘사한 벽화가 있는 오래된 암굴 복합체가 있습니다. 이곳이 황폐해졌으니, 우리는 이곳을 예전의 영광으로 되돌리기 위한 조치를 취해야 합니다." # 11664151268857033990
+  RICE_pamir_refurbish_dokhtar_i_noshirwan_confirm: "일꾼을 위한 장인을 찾아보시오!" # 2315282348640644304
+  RICE_pamir_refurbish_dokhtar_i_noshirwan_context_tooltip: "#emphasis 역사적 배경:#! 도크타르-이 노시르완(니가르라고도 알려짐)은 8세기 초에 만들어진 고고학 유적지로, 아프가니스탄에서 가장 큰 이슬람 이전 벽화 중 하나를 포함하고 있습니다. 이 벽화에는 소그드, 훈족/헤프탈, 그리고 남부 아프간의 영향이 혼합되어 있음을 시사하는 시각적 요소들이 담겨 있습니다. 이 벽화는 현지 튀르크족이나 토착민의 요청에 따라 소그드 예술가들이 제작했을 가능성이 있으며, 동부 이란 세계에서 인기가 많았던 박트리아 지역의 신 와크슈(Wakhsh) 또는 옥수스(Oxus) 신을 묘사한 것일 수 있는데, 이 신은 옥수스-준(Oxus-Zun)으로서 준(Zun) 신과 연관되거나 융합되었을 수도 있습니다. 하지만 이 모든 것은 매우 추측에 불과합니다." # 2109531786226793280
+  RICE_pamir_renovate_shri_badats_palace: "쉬리 바다트의 궁전을 개축하십시오" # 10356920891940782789
+  RICE_pamir_renovate_shri_badats_palace_tooltip: "솔직히 말해서, 그에게는 일리가 있는 주장도 있었지..." # 16243709652484954232
+  RICE_pamir_renovate_shri_badats_palace_desc: "식인종인 슈리 바닷은 죽었지만, 그의 잔혹함을 상징하는 궁전은 여전히 남아있습니다. 그 건물과 그의 어두운 행적에 깃든 무언가가 나에게 영감을 주고 있으며, 그의 분노에 찬 영혼이 아직도 살아있다는 소문이 돌고 있습니다. 내 심장은 무엇을 해야 할지 알고 있습니다. 그가 시작한 일을 끝내야 합니다!" # 1359142268660981354
+  RICE_pamir_renovate_shri_badats_palace_effect_tooltip: "#N 이렇게 하면 귀하 또는 다른 누구라도 미래에 #Bold 툼실링 축제 후원#! [decision|E]을 내리는 것이 불가능해집니다!#!" # 3914194112363865851
+  RICE_pamir_renovate_shri_badats_palace_effect_special_tooltip: "아주르 잠시드로서, 당신은 길기트를 구원했어야 했습니다. 당신은 그곳의 백성들을 구원했어야 했지요. 하지만 이제... 슈리 바닷이 결국 승리할지도 모릅니다." # 6795573578344085860
+  RICE_pamir_renovate_shri_badats_palace_confirm: "모두가 나를 두려워할 것이다!" # 8427673399686017212
+  RICE_pamir_renovate_shri_badats_palace_context_tooltip: "$RICE_pamir_raze_shri_badats_palace_context_tooltip$" # 6494361164683208912
+  RICE_pamir_investigate_bibi_fatima: "비비 파티마를 조사하십시오" # 753367697389386671
+  RICE_pamir_investigate_bibi_fatima_tooltip: "흥미로운 소문들을 들었습니다...." # 1185487932541630521
+  RICE_pamir_investigate_bibi_fatima_desc: "파미르 지역에 도착한 이슬람 여행자들이 '비비 파티마'라고 이름 붙인 온천을 방문한다는 이야기를 들었습니다. 저는 몇몇 관리를 보내 그 온천을 조사하고, 어쩌면 기본적인 기반 시설을 건설하기 위해 자금을 투자하고 싶습니다." # 2360502713961401031
+  RICE_pamir_investigate_bibi_fatima_effect_tooltip: "[rulers|E] 중 [duchies|E]인 [badakhshan_duchy.GetNameNoTier]와 [pamir_duchy.GetNameNoTier]에 영토를 가진 자들은 [decision|E]인 #Bold 비비 파티마 온천 방문#을 내릴 수 있습니다!" # 8887618465377605531
+  RICE_pamir_investigate_bibi_fatima_confirm: "무엇이 그것을 그토록 특별하게 만드는가?" # 9827779299435728924
+  RICE_pamir_investigate_bibi_fatima_context_tooltip: "$RICE_pamir_visit_bibi_fatima_context_tooltip$" # 4224288408916090757
+  RICE_pamir_investigate_bibi_fatima_islam_req: "이슬람교가 창시되었습니다." # 12539995835700465800
+  RICE_pamir_investigate_prophet_passed_away_req: "예언자 무함마드가 세상을 떠났습니다." # 3172479359872271778
+  RICE_pamir_investigate_bibi_fatima_date_req: "서기는 650년 또는 그 이후입니다." # 17288753551558668203
+  RICE_pamir_restore_hephthalite_empire: "헤프탈 제국을 복원하십시오" # 6820773264889485873
+  RICE_pamir_restore_hephthalite_empire_tooltip: "백훈족이 다시 일어날 것이다!" # 17299771519439994011
+  RICE_pamir_restore_hephthalite_empire_desc: "수세기 전, 헤프탈 제국은 페르시아와 인도의 백성들에게 공포를 심어주었습니다. 하지만 우리 조상들은 무지한 야만인들이 아니었습니다. 그들은 아름다운 기념물을 창조한 사상가이자 예술가였으며, 중국 및 로마와 교류했던 외교관이자 상인이기도 했습니다. 이제 우리는 그들의 유산을 기릴 뿐만 아니라, 그들의 위대한 제국을 재건해야 할 때입니다!" # 9212894545202652128
+  RICE_pamir_restore_hephthalite_empire_confirm: "이제 훈족을 재건하기 위한 본론으로 들어가 보세!" # 14372945362613922039
+  RICE_pamir_restore_hephthalite_empire_context_tooltip: "#emphasis 역사적 배경:#! 에프탈인들은 때로 백훈족이라고도 불리며, 4세기와 5세기에 페르시아와 인도로 침입한 '훈족' 계열 부족 침략자들의 주요 물결이었습니다. 키다라이트나 시오니테와 같은 '훈족' 집단과의 관계, 이들 집단 간의 민족적 차이(만약 있다면), 그리고 그들의 기원에 대해서는 학계에서 여전히 논쟁 중입니다. 여기에 나열하기에는 이론이 너무 많지만, 그들의 기원에 이란 및 튀르크의 영향이 있었을 가능성이 높으며, 파미르 고원이 그들의 고향일 수 있다는 점만으로도 충분합니다. 기원후 560년경 페르시아와 튀르크 연합군에게 패배한 후 에프탈 제국은 많은 소규모 족장국으로 분열되었습니다. 이 에프탈 잔존 국가들 중 두드러진 곳은 투르크샤히 왕조와 그들의 친척인 준빌 왕조였습니다." # 10632623406174207817
+  RICE_pamir_reclaim_hephthalite_homeland: "흡혈귀 심장부를 되찾으십시오" # 11744716296395941193
+  RICE_pamir_reclaim_hephthalite_homeland_tooltip: "$RICE_pamir_restore_hephthalite_empire_tooltip$" # 2974657451367013256
+  RICE_pamir_reclaim_hephthalite_homeland_desc: "한때 강력했던 에프탈인들은 바람처럼 흩어져 인도와 페르시아 사이의 후미진 곳에 잔존 국가들만 남았습니다. 제국의 영광을 되찾기 위해서는 에프탈 제국의 옛 핵심 지역, 즉 난공불락의 파미르 산맥에 우리의 존재를 재건해야 합니다!" # 17460195243132048774
+  RICE_pamir_reclaim_hephthalite_homeland_confirm: "헤프탈족에게 봄은 다시 찾아올 것입니다." # 4011801848391902473
+  RICE_pamir_reclaim_hephthalite_homeland_context_tooltip: "$RICE_pamir_restore_hephthalite_empire_context_tooltip$" # 12585161647157277449
+  RICE_pamir_restore_hephthalite_restored_culture_conversion: "새로 재건된 #bold $k_hephthalite_restored$#!의 모든 백작령은" # 11020822941665839668
+  RICE_pamir_reclaim_hephthalite_homeland_effect_tooltip_1: "[decision|E]을 잠금 해제하여 #bold $RICE_pamir_restore_hephthalite_empire$#!을(를) 사용할 수 있게 됩니다." # 11462498730174287812
+  pamir.0000.t: "xxxxx" # 1951045980481827005
+  pamir.0000.desc: "xxxxx" # 1951045980481827005
+  pamir.0000.a: "xxxxx" # 1951045980481827005
+  pamir.0001.t: "xxxxx" # 1951045980481827005
+  pamir.0001.desc: "xxxxx" # 1951045980481827005
+  pamir.0001.a: "xxxxx" # 1951045980481827005
+  pamir.0002.t: "xxxxx" # 1951045980481827005
+  pamir.0002.desc: "xxxxx" # 1951045980481827005
+  pamir.0002.a: "xxxxx" # 1951045980481827005
+  pamir.0003.t: "xxxxx" # 1951045980481827005
+  pamir.0003.desc: "xxxxx" # 1951045980481827005
+  pamir.0003.a: "xxxxx" # 1951045980481827005
+  pamir.0004.t: "xxxxx" # 1951045980481827005
+  pamir.0004.desc: "xxxxx" # 1951045980481827005
+  pamir.0004.a: "xxxxx" # 1951045980481827005
+  pamir.0005.t: "파미르의 운명" # 4488721291257728684
+  pamir.0005.desc: "압바스 칼리파국이 쇠퇴하면서 파미르 고원은 지역 군벌들의 혼란에 빠졌으며, 이들은 특히 사리 상 광산에서 나오는 수익성 높은 청금석을 노리고 있습니다. 사만 왕조가 명목상 이 고지대를 통치하고 있지만, 그들의 권위는 강력한 봉신인 바니주리드와 헤프탈 시대부터 이곳을 다스려온 소규모 족장들에 의해 도전을 받고 있습니다." # 12674021563758613188
+  pamir.0005.a: "내 이야기는 이 호전적인 군주들 중 누구에게도 있지 않다." # 5524918304781448875
+  pamir.0005.b: "우리의 이야기는 바니주리드 가문과 함께합니다..." # 16605806717150671561
+  pamir.0005.c: "우리의 이야기는 푸테샨 왕들과 함께합니다..." # 299990193747606292
+  pamir.0005.d: "우리의 이야기는 와칸의 족장들과 함께합니다..." # 17259199617381626067
+  pamir.0005.e: "우리의 이야기는 슈그난의 족장들과 함께합니다..." # 1141006192586739364
+  pamir.0005.f: "우리의 이야기는 카란의 족장들과 함께합니다..." # 2231502593691723504
+  pamir.0005.g: "우리의 이야기는 요정 왕자 아주르 잠시드와 함께합니다..." # 4835450390858850725
+  pamir.0005.tooltip.no: "이제부터 당신은 [THIS.Char.GetTitledFirstNameNoTooltip]으로 계속 플레이합니다. 하지만 [badakhshan_duchy.GetNameNoTier] [duchy|E]의 [counties|E]는 여전히 불교도이거나 이교도인 여러 소규모 족장들 사이에 분할될 것입니다." # 3086119434976171586
+  pamir.0005.tooltip: "[duchy|E] [badakhshan_duchy.GetNameNoTier]의 [counties|E]는 불교도이거나 이교도인 여러 소규모 족장들 사이에 분할되어 있습니다. 그들 중 한 명으로 플레이하기로 선택한다면, 이 험준한 산악 지대에서 역경을 딛고 살아남을 수 있겠습니까?" # 18067486885060127797
+  pamir.0005.tooltip.banijurid: "파미르 서쪽의 역사적 영토를 소유한 바니주르 가문으로 플레이하는 것을 선택합니다." # 17244437933444892650
+  pamir.0005.tooltip.azur_jamshid: "당신은 길기트의 전설적인 요정 왕자이자 구원자인 [azur_jamshid.GetTitledFirstName]을 선택하여 플레이하게 됩니다." # 5483392050268862508
+  pamir.0005.info.banijurid: "#emphasis 역사적 배경:#! 바니주리드 왕조는 847년부터 948년까지 사만 왕조의 봉신으로서 발흐를 통치했던 이란계 왕조로, 수도는 훌북(또는 후탈)에 있었습니다. 그들은 사만 왕조에 세금을 내지 않고 자체적으로 화폐를 주조한 것으로 보아 사만 왕조 영역 내에서 상당한 권력을 행사했을 수도 있습니다.\n바니주리드 왕조의 행운은 오래가지 못했는데, 948년에 사만 왕조에 대항하는 반란을 지지했다가 멸망하게 됩니다. 이상하게도 그들은 11세기 초 가즈나 왕조 치하에서도 살아남았던 것으로 보입니다." # 4682937693938598105
+  pamir.0005.info.puteshan: "#emphasis 역사적 배경:#!\"푸테\"은 8세기 한국의 승려이자 순례자 혜초가 그의 여행기에서 음역한 바다흐샨의 명칭입니다. 그는 그들이 독실한 불교도였으나 아랍인들의 지배하에 있었다고 기록했습니다." # 9392613756856193903
+  pamir.0005.info.wakhan: "#emphasis 역사적 배경:#! 8세기 한국의 승려이자 순례자인 혜초의 기록에 따르면, 와칸은 그가 여행하던 시기에 아랍 세력의 지배를 받는 나약한 불교 왕국이었습니다." # 1328640058391166336
+  pamir.0005.info.shughnan: "#emphasis 역사적 배경:#! 8세기 한국의 승려이자 순례자였던 혜초는 자신의 여행기에서 슈그난, 또는 시그난이 아홉 개의 작은 왕국으로 나뉘어 있었으며, 이는 RICE에서 슈그난과 카란의 부족장들로 표현된다고 언급했습니다.\n \n 혜초는 또한 흥미롭게도 당시 슈그난에는 불교가 알려지지 않았다고 언급했는데, 이는 그들이 다양한 토착 신앙을 숭배했음을 시사할 수 있습니다." # 3336700407107572447
+  pamir.0005.info.azur_jamshid: "#emphasis 역사적 배경:#! 전설에 따르면, 길기트의 중세 및 근세 통치자들은 아주르 잠시드(Azur Jamshid)라는 페르시아 요정 왕자로부터 유래했다고 합니다. 그는 폭군인 식인종 왕 슈리 바다트(Shri Badat)를 폭군의 딸인 누르 바흐트(Nur Bakht)의 도움을 받아 처치했습니다. 아주르 잠시드는 새로운 왕으로서 몇 년간 통치한 후 아내에게 왕위를 물려주었고, 그의 아내는 나중에 아들 가르그(Garg)에게 왕위를 물려주었습니다.\n\n이후 그들의 후손들은 가문의 이름을 카야니(Kayani)에서 트라칸(Trakhan)으로 바꾸었으며, 가문의 여러 분파들은 인근의 여러 계곡들을 다스리게 되었습니다." # 11894736675892034742
+  pamir.0006.t: "xxxxx" # 1951045980481827005
+  pamir.0006.desc: "xxxxx" # 1951045980481827005
+  pamir.0006.a: "xxxxx" # 1951045980481827005
+  pamir.0007.t: "바다흐샨, 남옥의 땅" # 4598228624861241941
+  pamir.0007.desc.puteshan: "나의 조상인 푸테샨 왕들은 여러 세대에 걸쳐 [badakhshan_duchy.GetNameNoTier]를 다스려 왔으며, 심지어 한 세기 전 한국의 불교 순례자 혜초와 같은 여행자들에게도 찬양받았습니다. 실로 우리는 불교 후원으로 가장 유명합니다. 청금석 광산을 장악했으니 이 지역은 분명 번성하겠지만, 이란인, 아랍인, 티베트인, 튀르크인, 중국인, 혹은 완전히 다른 외부인들에게는 경계해야 할 것입니다." # 5153759733891000973
+  pamir.0007.desc.non_puteshan: "우리 가문은 한때 강력했던 #italic 힐라(Hephthalite) 유목민#의 마지막 잔존 세력 중 하나입니다. 우리 가문이 [badakhshan_duchy.GetNameNoTier]의 이 지역을 여러 세대 동안 지배해 왔기 때문에, 이곳의 족장들과 장로들은 나를 그들 중 가장 명망 높은 자이자 지도자로 여깁니다. 실크로드의 중심부에 위치하고 있기에, 이란인, 아랍인, 티베트인, 튀르크인, 중국인, 혹은 완전히 다른 외부 세력이 우리를 이용하려 들지 않도록 경계해야 합니다." # 9849916261991664564
+  pamir.0007.desc: "한 세기 전 중국과 티베트 군대가 이 지역에서 물러나면서 권력 공백이 생겼지만, [badakhshan_duchy.GetNameNoTier]의 외딴 계곡에서는 무슬림 군주들에게 문제를 일으키지 않는 한 우리는 비교적 평온을 유지하고 있습니다. 아아, 이러한 상황이 얼마나 오래 지속될지 장담하기 어려우니, 앞으로의 길은 험난할 것입니다. 이 세상의 외딴 구석에 있는 저의 세력 기반에서, 이곳을 지켜낼 임무를 완수할 수 있기를 바랍니다!" # 15253017323633323121
+  pamir.0007.a: "파미르의 역사에 또 다른 장이 시작되는군…." # 1049256678502959645
+  pamir.0008.t: "파미르의 운명" # 4488721291257728684
+  pamir.0008.desc: "호라산 땅은 강력한 두 투르크 왕조인 셀주크와 가즈나비드의 지배하에 놓였습니다. 하지만 그들의 권위는 파미르와 힌두쿠시 산맥의 고지대에서는 미약한데, 그곳에는 사나운 독립 부족들과 군벌들이 계곡과 산길 사이에 거주하고 있습니다. 수 세대 동안 이 지역은 다양한 신앙, 문화, 언어의 만화경이었습니다.\n\n[badakhshan_duchy.GetNameNoTier]에서 저는 [nasir_khusraw.GetFullName]이라 알려진 현명하고 존경받는 무슬림 성현이 살고 있다는 소문을 들었습니다. 그의 후원자이자 오랜 친구는 경건하고 박식한 [ali_ibn_asad.GetTitledFirstName]이며, 그는 영적이고 철학적인 문제에 대해 공통의 관심사를 가지고 있습니다.\n\n어쨌든, 파미르의 미래에 또 어떤 일들이 기다리고 있을지는 누가 알겠습니까?" # 5210716339497736833
+  pamir.0008.a: "[ROOT.Char.GetTitledFirstName]인 나에게 이 지역의 미래는 남의 일이 아니오." # 13528251722951533619
+  pamir.0008.b: "저의 이야기는 지식인인 [ali_ibn_asad.GetTitledFirstName]과 함께합니다…." # 2105282104639442769
+  pamir.0008.c: "실은, 제 이야기는 [gilgit_county.GetNameNoTier]의 카야니 가문과 얽혀 있답니다…." # 6473208903805987500
+  pamir.0008.tooltip.no: "#bold [THIS.Char.GetTitledFirstNameNoTooltip]#로서 계속 플레이하시겠지만, [badakhshan_duchy.GetNameNoTier]는 여전히 [ali_ibn_asad.GetTitledFirstName]의 소유로 남을 것입니다." # 5244252335651335332
+  pamir.0008.tooltip.yes: "[duchy|E] [badakhshan_duchy.GetNameNoTier]는 지적인 [ali_ibn_asad.GetTitledFirstName]이 다스리고 있습니다. 그를 플레이하기로 선택한다면, 당신의 친구이자 스승인 [nasir_khusraw|E]가 이 땅에 이슬람의 빛을 가져오도록 도울 수 있겠습니까?" # 15024295505047182461
+  pamir.0008.tooltip.kayani: "[gilgit_county.GetNameNoTier] 근처의 영토는 전설적인 영웅 아주르 잠시드의 후예인 [nur_kayani.GetTitledFirstName]이 다스리고 있습니다. 그가 조상들의 유산을 이어갈 수 있을까요?" # 17398297353670670795
+  pamir.0009.t: "알리 이븐 아사드와 나시르 코스로우" # 15033138089094900765
+  pamir.0009.desc: "나는 #italic 다르 알 이슬람#!의 변방, 힌두스탄과 티베트의 #italic 카피르#! 땅과 국경을 맞대고 있는 [badakhshan_duchy.GetNameNoTier]의 외딴 산과 계곡을 다스리는 [ROOT.Char.GetTitledFirstName]이오. 이곳의 많은 이들은 여전히 자신들의 옛 우상 숭배 방식을 고수하고 있소. 그럼에도 불구하고 나는 지적이고 개방적인 통치자라는 평판을 얻었소.\n\n예를 들어, 나의 친구 [nasir_khusraw.GetFullName]는 시아파와 수니파 평민 모두에게 의로운 성인으로 존경받고 있음에도 불구하고 다른 무슬림 통치자들의 땅에서 고난의 연속을 겪었소. 이 호전적인 군주들은 그의 [nasir_khusraw.GetFaith.GetAdjective] 신앙을 이단으로 여겼지. 나는 다르게 생각했고, 내 영토에 그에게 피난처를 제공했소.\n\n그가 도착한 이래로 우리는 수많은 훌륭한 지적 교류를 나누었소. 나는 그가 이 땅에 이슬람의 빛을 가져다줄 인물이라고 느끼오. 그 정도일 뿐만 아니라, 나는 나의 현재 [ROOT.Char.GetFaith.GetAdjective] 신념이 옳은지 의문을 품을 지경이오. 어쩌면 [nasir_khusraw.GetFaith.GetAdjective]의 진리가 내가 줄곧 찾아 헤매던 것일지도 모르겠소." # 14131683320957050550
+  pamir.0009.a: "저는 제 친구 [nasir_khusraw.GetFullName]을 존경하지만, 우리의 신앙관은 다릅니다." # 6966587466856873989
+  pamir.0009.b: "[nasir_khusraw.GetFullName]께서 제게 깨달음을 주셨습니다! 저는 제 방식을 바꿔야만 합니다." # 16014307729824531436
+  pamir.0009.info: "#emphasis 역사적 배경:#! 학자, 여행가, 성인으로서의 나시르 호스로는 1000년대 중반 바다흐샨의 통치자였던 그의 친구 알리 이븐 아사드보다 더 잘 알려져 있습니다. 알리의 요청으로 그의 마지막 저서인 철학과 종교의 화해(#italic Jami al-Hikmatayn#!)를 집필한 후, 나시르 호스로는 서기 1070년경 또는 그 이후에 사망했습니다." # 809982538439561800
+  pamir.0010.t: "xxxxx" # 1951045980481827005
+  pamir.0010.desc: "xxxxx" # 1951045980481827005
+  pamir.0010.a: "xxxxx" # 1951045980481827005
+  pamir.0011.t: "xxxxx" # 1951045980481827005
+  pamir.0011.desc: "xxxxx" # 1951045980481827005
+  pamir.0011.a: "xxxxx" # 1951045980481827005
+  pamir.0012.t: "xxxxx" # 1951045980481827005
+  pamir.0012.desc: "xxxxx" # 1951045980481827005
+  pamir.0012.a: "xxxxx" # 1951045980481827005
+  pamir.0013.t: "요정 왕자의 이야기" # 17225260400719353731
+  pamir.0013.desc: "[gilgit_county.GetNameNoTier]는 아름답고 풍요로운 땅이지만, 수년간 #italic 식인마 아담#!으로 알려진 [shri_badat.GetTitledFirstName]의 극심한 잔혹함으로 얼룩져 있었습니다. 저는 아랍 지배자들로부터 과거를 벗어나 피난처를 찾으려던 이란 출신 모험가 중 한 명에 불과했습니다. 결국 저는 운명의 물결을 거스를 수 없기에, 올바른 장소와 올바른 시간에 도착했습니다. 어찌된 일인지, 이제 저는 [gilgit_county.GetNameNoTier]의 새로운 통치자로 선포되어 그 왕좌에 앉아 있습니다." # 7483105968664806313
+  pamir.0013.a: "내가 이 모든 일에 어떻게 얽히게 되었지?" # 4467583506254293072
+  pamir.0014.t: "요정 왕자의 이야기" # 17225260400719353731
+  pamir.0014.desc: "제가 처음 [gilgit_county.GetNameNoTier]에 도착했을 때, 저의 귀족적 배경과는 거리가 먼, 겸손한 노동자로 살아가려 했습니다. 과거는 과거일 뿐이었죠. 이곳에서 저는 새롭고 소박한 삶을 살고자 했습니다. 하지만 운명은 그 나름의 방식이 있는 법입니다.\n\n[shri_badat.GetTitledFirstName]의 딸인 [nur_bakht.GetTitledFirstName]이 저와 사랑에 빠졌고, 저 또한 그녀의 마음을 받아들였습니다. 그녀의 아버님과는 달리, 그녀는 마음이 순수합니다. 결국 백성들은 저의 출신을 알게 되었고 (일부는 제가 하늘에서 온 요정 왕자라고 믿기까지 합니다!), [shri_badat.GetTitledFirstName]의 압제로부터 자신들을 구해달라고 간청했습니다. 심지어 그의 신하인 [jataylotu.GetTitledFirstName]조차도 저에게 다가왔습니다!" # 634466120450814092
+  pamir.0014.a: "결국 나는 그들의 구원 요청에 응했다." # 11323581851596628428
+  pamir.0015.t: "요정 왕자의 이야기" # 17225260400719353731
+  pamir.0015.desc: "비록 영웅이 되는 것을 꺼렸지만, 우리 모두 힘을 합쳐 [shri_badat.GetTitledFirstName]를 처단하고 그의 폭정 시대를 마침내 끝냈습니다. 일부 미신적인 농부들은 자신들의 옛 왕이 마법과 같은 힘을 지니고 숨어 살아있다고 믿고 있지만, 일단은 [gilgit_county.GetNameNoTier]에 새로운 아침이 밝았습니다. 아아, 이곳은 이전 통치자 때문에 큰 고통을 겪어 기반 시설과 경제가 황폐해졌습니다. 솔직히 말해 이곳과 이곳의 백성들에 대해 배울 것이 많습니다. 초기의 환희가 가시고 나면, [gilgit_county.GetNameNoTier]를 옛 영광으로 되돌리기 위해 백성들의 신뢰를 얻어야 할 것입니다." # 8648485038899008563
+  pamir.0015.a: "나는 이란에서 많은 것을 배웠으며, 조상의 가르침을 따를 것입니다." # 17347841566419606803
+  pamir.0015.b: "이 땅의 이전 통치자들이 따랐던 불교를 받아들이겠습니다." # 11136685107433540817
+  pamir.0015.c: "저는 이곳 평민들의 신념에 맞춰 그들이 숭배하는 다신교를 따르겠습니다." # 16362957228907165521
+  pamir.0015.d: "이 새로운 신앙, 이슬람에 대해 알고 싶소. 어쩌면 우리에게 해답을 줄지도 모르지!" # 4370833494712098170
+  pamir.0016.t: "요정 왕자의 후예" # 9724374209894598706
+  pamir.0016.desc: "수 세대 전, 나의 조상 [azur_jamshid.GetTitledFirstName]께서는 잔혹하고 식인종인 왕 [shri_badat.GetTitledFirstName]을 물리치고 이곳 [gilgit_county.GetNameNoTier]에 새로운 통치 왕조를 세우셨습니다. 사람들은 폭군을 축출한 나의 조상을 여전히 크게 존경하며, 그의 업적을 기리는 축제가 정기적으로 열립니다. 하지만 파미르 산맥과 힌두쿠시 산맥 서쪽에서 온 셀주크나 가즈나비드와 같은 강력한 투르크 유목민들이 다가오면서 상황이 변하고 있습니다. 우리가 살아남으려면 신중하게 행동해야 합니다." # 15711494504313556804
+  pamir.0016.a: "조상들의 전통을 지키는 것이 우리에게 힘을 줄 것입니다!" # 15119127482256225232
+  pamir.0016.b: "농민들의 신념을 받아들여 그들과 더 가까워져야겠소." # 4220177071291785893
+  pamir.0016.c: "새롭게 떠오르는 신앙인 이슬람을 이해하고 적응하는 것이 최선이겠소." # 291021732180394835
+  pamir.0017.t: "준빌의 마지막 후예" # 17103141377170016008
+  pamir.0017.desc: "이백 년 넘게 사파르 왕조의 침공에 맞서 자불리스탄의 준빌 왕조는 독립을 유지해 왔습니다. 이들은 한때 다투던 헵탈인부터 투르크인, 이란인 등 여러 부족을 통합하여 굳건히 저항했으나... 최근 그들의 상대가 될 만한 강력한 군벌인 [saffarid.GetTitledFirstName]을 만났습니다.\n\n패배 후, [RICE_zunbil_cousin.GetFirstName]과 같은 일부 준빌인들은 [saffarid.GetFirstName]에게 복종하기로 동의했습니다. 반면, 마지막 준빌 통치자의 아들인 [RICE_last_zunbil.GetFirstName]과 같은 이들은 여전히 옛 [RICE_last_zunbil.GetFaith.GetAdjective]의 방식을 믿으며 사파르 왕조의 권위에 저항하다 투옥되었습니다.\n\n소문에 따르면 [RICE_last_zunbil.GetFirstName]이 감옥에서 탈출하여 준빌의 고향에 대규모 병력을 모아 명목상의 독립을 유지하려 한다고 합니다. 또한 [RICE_zunbil_cousin.GetFirstName]이 사파르 왕조가 타히르 왕조와 충돌하는 틈을 타 반란을 준비하며 때를 기다리고 있다는 소문도 있습니다. 이 땅에 다시 전쟁이 일어날 것은 분명합니다.\n\n결국, 누가 더 큰 실수를 저질렀는지 의문일 뿐입니다. 준빌을 정복하려는 자들에게 가담한 [RICE_zunbil_cousin.GetFirstName]일까요, 아니면 피할 수 없는 운명에 헛되이 저항한 [RICE_last_zunbil.GetFirstName]일까요? 이것이 위대한 준빌 왕조, 옛 백훈족의 마지막 잔재의 마지막 장이 될 수 있을까요?" # 13680329216411614221
+  pamir.0017.a: "저는 제 편을 골랐습니다. 준빌 가문의 운명은 곧 결정될 것입니다!" # 2285488841381042822
+  pamir.0017.info: "#emphasis 역사적 배경:#! 9세기 중반, 사파르 왕조가 준빌 왕조의 지배를 받았던 영토들을 진정시키기 위해 시도했던 여러 노력들은 거센 저항에 부딪혔습니다. 예를 들어, 사파르 왕조 치하에서 알-루카즈(칸다하르)의 총독이 되었던 준빌 가문의 후계자가 867년에 반란을 일으켰습니다. 몇 년 후인 869년, 아랍 기록에 피루즈 이븐 카브크(Firuz ibn Kabk)라고 기록된 마지막 준빌 왕이 사파르 왕조의 포로 신세에서 벗어나 무슬림과 싸울 추종자들을 규합했습니다.\n\n준빌 왕조는 870년에 피루즈가 사파르 왕조 군대에게 패배하면서 막을 내렸습니다." # 8025583083914735342
+  pamir.0017.firuz.tooltip: "#bold 피루즈의 [aspiration|E]: 준빌 독립 선언#!$RICE_pamir_aspiration_zunbil_desc$\n" # 5160934860183438994
+  pamir.0018.t: "$RICE_historical_aspiration_fulfilled_title$" # 6312590152546762382
+  pamir.0018.desc: "인정합니다. 여기까지 오리라 생각지 못했습니다. 사파르 왕조에 맞선 저항을 시작했을 때, 저의 주된 목표는 그들의 무시무시한 군대와 우리를 파멸시키려는 다른 자들의 군대에 맞서 우리의 입지를 확보하는 것뿐이었습니다.\n\n하지만 보십시오. 준빌 왕국이 복원되었습니다. 우리의 적들은 굴복했습니다. 준이 승리했습니다.\n\n앞으로의 여정은 험난할 것입니다. 우리는 고대의 문화와 오래전에 사라진 왕조의 유산이 깃든, 다양한 기원과 배경을 가진 땅입니다. 하지만 우리는 성공적으로 영역을 재건했으며 번영할 미래의 토대를 마련했습니다. 이 험준한 산맥과 비옥한 계곡에서 우리는 다시 한번 위대한 문명을 건설할 것입니다." # 15832995015834000393
+  pamir.0018.a: "태양, 정의의 수여자시여, 찬양받으소서!" # 8396697900060687019
+  pamir.0019.t: "xxxxx" # 1951045980481827005
+  pamir.0019.desc: "xxxxx" # 1951045980481827005
+  pamir.0019.a: "xxxxx" # 1951045980481827005
+  pamir.0020.t: "부루쇼 전사" # 8361332697173825280
+  pamir.0020.desc: "부루쇼 부족 출신의 [RICE_burusho_warrior_spawn.GetTitledFirstName]라는 전사가 봉사를 제안하며 제 궁정에 도착했습니다. 부루쇼족은 훈자족이라고도 불리며, 파미르와 카라코람 산맥의 저희 영토 내 계곡에 거주하며 다른 어떤 언어와도 다른 독특한 언어를 사용합니다. 그들은 주로 외부와 교류하지 않는 고립된 민족이지만, 완고하지만 맹렬한 전사들로 알려져 있습니다." # 17648596382928963633
+  pamir.0020.a: "그는 우리에게 큰 도움이 될 것입니다! 그를 환영해 주시오." # 18177165519773899079
+  pamir.0020.b: "고집을 부리는 것은 좋지 않소. 정중하게 거절하겠소." # 3796829117747540325
+  pamir.0021.t: "부루쇼 방문객들" # 10527700293671881859
+  pamir.0021.desc: "부루쇼 부족에 속한 몇몇 인물들이 그들의 봉사를 제안하기 위해 제 궁정에 도착했습니다. 그들의 이름은 [RICE_burusho_courtier_spawn_1.GetTitledFirstName]와 [RICE_burusho_courtier_spawn_2.GetTitledFirstName]입니다. 부루쇼족은 훈자족이라고도 불리며, 파미르와 카라코람 산맥의 우리 영토 내 계곡에 거주하며 다른 어떤 언어와도 다른 고유한 언어를 사용합니다. 그들은 고립된 민족으로 대개 스스로를 지키며 살아가지만, 사납고 강인한 것으로 알려져 있습니다." # 14488990742549659060
+  pamir.0021.a: "그들을 우리 궁정에 환영하시오. 큰 도움이 될 것이오!" # 7272610144101159049
+  pamir.0021.b: "사납고 강인하다고요? 위험해 보이는군요. 사양하겠습니다." # 12177985132149837852
+  pamir.0022.t: "카피리스탄의 전사" # 8088093000021404401
+  pamir.0022.desc: "이교도 전사인 [RICE_kafir_warrior_spawn.GetTitledFirstName] 님이 아프가니스탄과 카슈미르 사이에 위치한 산악 지대인 소위 카피리스탄(불신자들의 땅)의 부족 중 한 곳에서 왔으며, 저의 궁정에 봉사를 제의하기 위해 도착했습니다. 이 순수한 계곡과 고원 지대에 거주하는 부족들은 무슬림, 불교도, 힌두교도, 조로아스터교도 등 다른 종교의 추종자들에 대한 어떠한 영향력이나 점령 시도에도 맹렬히 저항하는 것으로 악명이 높습니다. 이러한 부족 출신의 전사가 저를 섬기는 것은 유용할 수 있습니다." # 7068073825117344168
+  pamir.0022.a: "우리와 싸우지 않고 합류하려는 이가 있어 기쁘군!" # 2924257201880587692
+  pamir.0022.b: "아니요, 괜찮습니다. 저는 그렇게 위험하고 폭력적인 남성은 필요 없습니다." # 2580388665777022320
+  pamir.0023.t: "카피리스탄에서 온 방문객들" # 1987802052667467311
+  pamir.0023.desc: "소위 카피리스탄(이교도의 땅), 즉 아프가니스탄과 카슈미르 사이에 위치한 산악 지대의 부족 중 일부 인물들이 저의 궁정에 봉사를 제안하며 도착했습니다. 그들의 이름은 [RICE_kafir_courtier_spawn_1.GetTitledFirstName]와 [RICE_kafir_courtier_spawn_2.GetTitledFirstName]입니다. 이 순수한 계곡과 고원 지대에 거주하는 이 부족들은 무슬림, 불교도, 힌두교도, 조로아스터교도 등 다른 종교 신봉자들의 어떤 영향이나 점령 시도에도 맹렬히 저항하는 것으로 악명이 높습니다. 이러한 부족 중 한 곳과 인연을 맺는 것은 유용할 수 있겠습니다." # 18087437056501425136
+  pamir.0023.a: "실로 유용하겠군! 그들을 내 궁정으로 맞이하라." # 5135605587442315858
+  pamir.0023.b: "그들을 계속 두는 데는 관심이 없다." # 15276753546025384910
+  pamir.0024.t: "브라후이 전사" # 15878697376450423311
+  pamir.0024.desc: "브라후이 부족 출신의 [RICE_brahui_warrior_spawn.GetTitledFirstName]라는 이름의 전사가 제게 봉사하겠다며 제 궁정에 도착했습니다. 브라후이족은 대대로 발루치스탄으로 이주해 왔다고 전해지는 대다수가 유목 또는 반유목 부족으로 이루어진 집단입니다. 이들은 지도자 아래 통합되지 않은 분열되고 분권화된 집단이지만, 때때로 주변의 정착민들과 교류하기도 합니다. 이러한 부족 중 한 곳의 전사가 저를 섬기는 것은 유용할 수 있겠군요." # 7152283776690520763
+  pamir.0024.a: "이 사람을 잘 활용할 수 있을 것 같군." # 3977393114358916077
+  pamir.0024.b: "나는 신뢰할 수 없는 유목민은 필요 없다." # 3524612465869747521
+  pamir.0025.t: "브라후이 방문객들" # 7637127496963747032
+  pamir.0025.desc: "브라후이 부족 출신의 부족민 몇 명이 저의 궁정에 와서 그들의 봉사를 제안합니다. 그들의 이름은 [RICE_brahui_courtier_spawn_1.GetTitledFirstName]와 [RICE_brahui_courtier_spawn_2.GetTitledFirstName]입니다. 브라후이족은 대부분 유목 또는 반유목 부족으로 이루어져 있으며, 수세대 전에 발루치스탄으로 이주해 온 것으로 알려져 있습니다. 그들은 지도자 없이 분열되고 분산된 집단이지만, 주변 정착민들과 교류하기도 합니다. 이러한 부족 중 한 곳과 인맥을 갖는 것은 유용할 수 있습니다." # 8837196246530554426
+  pamir.0025.a: "환영합니다! 이곳에 도움이 더 많이 있으면 언제든지 환영입니다." # 17488179882613216861
+  pamir.0025.b: "분열되고 분산된 야만족이라니? 흥미 없군." # 15572853014402482620
+  pamir.0026.t: "xxxxx" # 1951045980481827005
+  pamir.0026.desc: "xxxxx" # 1951045980481827005
+  pamir.0026.a: "xxxxx" # 1951045980481827005
+  pamir.0027.t: "xxxxx" # 1951045980481827005
+  pamir.0027.desc: "xxxxx" # 1951045980481827005
+  pamir.0027.a: "xxxxx" # 1951045980481827005
+  pamir.0028.t: "xxxxx" # 1951045980481827005
+  pamir.0028.desc: "xxxxx" # 1951045980481827005
+  pamir.0028.a: "xxxxx" # 1951045980481827005
+  pamir.0029.t: "xxxxx" # 1951045980481827005
+  pamir.0029.desc: "xxxxx" # 1951045980481827005
+  pamir.0029.a: "xxxxx" # 1951045980481827005
+  pamir.0030.t: "온천 여행" # 5209785985484885203
+  pamir.0030.desc: "파미르 산맥에는 많은 온천이 있지만, 소위 비비 파티마 온천은 이 지역에서 가장 잘 알려진 곳 중 하나입니다.\n\n와칸 계곡에 위치한 비비 파티마는 이슬람 예언자 무함마드의 딸의 이름을 따서 명명되었는데, 이곳 일부 무슬림들 사이에는 그녀와 이 온천을 연관 짓는 전설이 있어 심지어 비무슬림들까지도 이 이름으로 알고 있을 정도입니다. 이 온천들은 치유 능력이 있을 뿐만 아니라, 생식력을 향상시키는 것으로도 믿어집니다.\n\n저는 이 온천을 방문하여 휴식을 취하기로 결정했습니다." # 3815936811621251807
+  pamir.0030.a: "샘물로 가야겠군!" # 11606847550233686217
+  pamir.0031.t: "비비 파티마" # 17194223875010108649
+  pamir.0031.desc: "나는 비비 파티마 온천에 도착했다. 온천 자체는 작고 외딴곳에 있지만, 나 같은 방문객을 위한 몇 채의 건물이 근처에 있다. 현지 관습에 따라 남녀는 따로 목욕하므로, 나는 알맞은 쪽으로 향한다.\n\n안으로 들어가자, 나는 이 미네랄이 풍부한 물에 몸을 담그고 휴식을 취한다. 이 물이 사람의 생식력을 높인다는 소문이 사실인지 궁금해진다.\n\n어쨌든, 목욕을 마치면 근처 마을로 가서 쉴 수 있겠다." # 8520474373967382323
+  pamir.0031.a: "이제 긴장을 풀 시간입니다!" # 15412963360907238157
+  pamir.0031.toast.fertile: "샘물은 (아마도) 당신의 생식력을 향상시킬 것입니다!" # 5734049269327877683
+  pamir.0031.toast.normal: "샘물은 당신의 생식력을 개선하지 못하는 것 같군요!" # 8420795676700013739
+  pamir.0032.t: "비비 파티마 온천" # 9575576520074843124
+  pamir.0032.desc: "이슬람의 최근 부상과 함께, 무슬림 여행자, 상인, 모험가들이 파미르 산맥까지 진출했습니다. 수세기 동안 이곳을 지나거나 거주했던 많은 이들처럼, 무슬림들 역시 이 지역의 수많은 온천을 매우 유용하게 사용하고 있습니다.\n\n이 무슬림들 중 일부는 특히 한 온천에 매료된 듯하며, 그들은 그곳을 비비 파티마 온천이라고 부릅니다. 그들의 예언자 무함마드의 딸이 이 온천들을 거닐었다는 이야기가 퍼지고 있습니다. 이로 인해 이 온천들은 단순한 기적적인 치유 및 약효뿐만 아니라, 생식력까지 증진시키는 능력을 갖게 되었다고 전해집니다.\n\n결과적으로, 이 온천들은 무슬림이 아닌 현지인들 사이에서도 명성을 얻고 있으며, 멀고 가까운 곳에서 방문객들을 끌어모으기 시작했습니다." # 8768600919126841735
+  pamir.0032.a: "언젠가 한번 방문해볼까 생각 중입니다." # 17556676056793550614
+  pamir.0033.t: "와칸 감시 초소" # 14267291483584593421
+  pamir.0033.desc: "파미르 산맥을 가로지르는 와칸 회랑은 실크로드의 여러 지역을 연결합니다. 수 세기 동안, 지역 왕부터 티베트 및 중국 제국에 이르기까지 다양한 통치자들이 이 지역을 통과하는 상단과 군대를 보호하기 위해 좁고 긴 계곡을 따라 방어용 감시 초소 네트워크를 유지해 왔습니다. 여전히 사용되고 있기는 하지만, 이 오래된 감시 초소들은 황폐해진 상태이므로 보수하고 강화할 자금이 필요합니다." # 14372764760247616126
+  pamir.0033.a: "소량의 자금을 지출하십시오" # 14101867989019701028
+  pamir.0033.b: "중간 정도의 자금을 사용합니다" # 14946024555998666598
+  pamir.0033.c: "상당한 자금을 지출합니다" # 13574490280888244391
+  pamir.0034.t: "카라코람 감시 초소" # 1532891610914925213
+  pamir.0034.desc: "파미르 산맥 남쪽에 위치한 카라코람 산맥의 고개들은 실크로드의 여러 지역을 연결합니다. 수 세기 동안, 지역 왕부터 티베트 및 중국 제국에 이르기까지 다양한 통치자들이 이 지역을 통과하는 상단과 군대를 보호하기 위해 좁고 긴 계곡을 따라 방어용 #bold 감시 초소# 네트워크를 유지해 왔습니다. 여전히 사용되고는 있지만, 이 낡은 #bold 감시 초소#들은 수리가 필요한 상태이며, 이를 보수하고 강화하기 위한 자금이 필요합니다." # 16501588976432021458
+  pamir.0034.a: "소량의 자금을 지출하십시오" # 14101867989019701028
+  pamir.0034.b: "중간 정도의 자금을 사용합니다" # 14946024555998666598
+  pamir.0034.c: "상당한 자금을 지출합니다" # 13574490280888244391
+  pamir.0035.t: "희생 제물 준비" # 5708267954080820431
+  pamir.0035.desc: "우리의 전통적인 [ROOT.Char.GetFaith.GetAdjective] 신앙에 따르면, 염소는 순수함을 상징하기에 매우 귀하게 여겨지며 심지어 신성하기까지 합니다. 이는 생존과 번영에 있어 염소가 가진 중요성은 말할 것도 없지요. 그러므로 하늘에 염소를 바치는 것은, 비록 제가 [ROOT.Char.GetTitleAsNameNoTooltip]일지라도 행할 수 있는 가장 위대한 희생일 것입니다." # 903850141687576523
+  pamir.0035.a: "희생을 위한 준비를 합시다." # 4370372568324910792
+  pamir.0035.tooltip: "당신이 바치는 염소의 수가 공동체에서 그 제물이 얼마나 잘 받아들여질지, 그리고 어쩌면 신들이 어떻게 응답할지를 결정할 것입니다." # 17530451757147326646
+  pamir.0036.t: "염소들을 제물로 바쳐라!" # 11805584468669759733
+  pamir.0036.desc.zun: "#bold [ROOT.Char.GetFaith.GetAdjective]#로서, 우리가 주로 제사를 지내는 주신은 물론 [ROOT.Char.GetFaith.HighGodName]이십니다. 우리는 속세의 불순함으로 더럽혀지지 않은, [ROOT.Char.GetFaith.HighGodName]께 더 가까이 다가갈 수 있는 외딴 계곡이나 산속의 현지 신당으로 염소들을 데려갈 것입니다." # 544995628516829288
+  pamir.0036.desc.normal: "그렇다면 이제 어떤 신에게 제물을 바칠지 선택해야 합니다. 우리는 그 신에게 봉헌된 지역 신사, 특히 불순물의 오염으로부터 벗어난 더 외딴 계곡이나 산속에 있는 신사로 염소들을 데려갈 것입니다. 바로 그곳에서 우리는 염소들의 피를 뿌릴 것입니다." # 15718790340225762341
+  pamir.0036.a: "[ROOT.Char.GetFaith.HighGodName]께서 나의 제물을 받아주시길!" # 5842570734133374167
+  pamir.0036.b: "[ROOT.Char.GetFaith.NightGodName]께서 제 제물을 받아주시기를!" # 14389658537826586661
+  pamir.0036.c: "[ROOT.Char.GetFaith.WealthGodName]께서 제 희생을 받아주시기를!" # 7101014268132289240
+  pamir.0036.d: "[ROOT.Char.GetFaith.HouseholdGodName]께서 제 제물을 받아주시기를!" # 2516399801870948356
+  pamir.0036.e: "[ROOT.Char.GetFaith.KnowledgeGodName]께서 나의 제물을 받아주시기를!" # 7677296123638329196
+  pamir.0036.f: "[ROOT.Char.GetFaith.FertilityGodName]께서 저의 제물을 받아주시기를!" # 7991000093415506243
+  pamir.0036.nothing: "당신의 희생이 충분하지 않은 것 같군요!" # 16116766900772891428
+  pamir.0036.nothing.tooltip: "아아, 그대의 희생에 대한 보상은 없으리." # 8001807824954390966
+  pamir.0036.something: "그대의 경건한 희생이 기록되었소!" # 14723695685018094711
+  pamir.0037.t: "xxxxx" # 1951045980481827005
+  pamir.0037.desc: "xxxxx" # 1951045980481827005
+  pamir.0037.a: "xxxxx" # 1951045980481827005
+  pamir.0038.t: "준의 우상" # 14045070955225410653
+  pamir.0038.desc: "옛날 옛적, 우리의 선조들은 [zamindawar_county.GetNameNoTier]에 준(Zun)의 아름다운 우상을 모셨으며, 정의의 수여자 신도들은 그곳에서 그분을 찬양하고 그곳에 거주하는 사제들의 축복을 받을 수 있었습니다. 그러나 곧 우리에게 암흑기가 찾아왔고, 준의 충실한 신도였던 우리는 그분을 다시 합당하게 기릴 수 있는 시대가 오기를 그림자 속에서 기다려야 했습니다.\n\n오늘, 그 시대가 도래했습니다. 이 지역에 준 숭배가 부활함에 따라, 저는 자금을 마련하고 우상을 재건하기 위한 노력을 조직했습니다. 이 크고 웅장한 조각상은 순금으로 만들어졌으며, 멀리 떨어진 바다흐샨의 루비 광산에서 가져온 루비 눈으로 장식되었습니다. 이전과 마찬가지로 신성한 주나기르 산(Mount Zhunagir) 위에 세워져 당당하게 서 있습니다." # 15520028044988690274
+  pamir.0038.a: "준을 찬양하라!" # 14017852136077691203
+  pamir.0038.tooltip: "이제 자민다와르에 $k_zun$의 [idol_of_zun|E]가 다시 자랑스럽게 서 있으니, 지역의 [zun_idol_restorer.GetFaith.GetAdjective] [rulers|E]는 [decision|E]를 내려 #V 주운 신상에 재물을 바치기#!를 선택하여 [piety|E], [prestige|E], 그리고 [dynasty_prestige|E]의 축복을 받을 수 있습니다." # 15993817212023727679
+  pamir.0039.t: "아루나 산 되찾기" # 9975021548292940285
+  pamir.0039.desc: "수 세기 전, 준께서는 [kabul_county.GetNameNoTier]에서 그리 멀지 않은 아루나 산에 거주하셨습니다. 그곳에는 준을 위한 웅장한 신전과 아름다운 우상이 있었으나, 슬프게도 수리야의 바라문교 추종자들이 우리를 강제로 몰아냈습니다.\n\n하지만 이제 우리는 그 비극을 되돌릴 기회를 얻었습니다. 준 숭배가 이 지역에서 회복될 뿐만 아니라 번성하고 있으며, 우리 준 신봉자들이 다시 한번 아루나 산 주변 지역을 장악했습니다. 우리는 이미 자민다와르의 주나기르 산에 있는 위대한 우상을 복원했으므로, 아루나 산에도 같은 일을 하기 위해 자금을 마련하고 노력을 조직하는 것이 마땅합니다. 자민다와르의 우상처럼, 이 우상 역시 금으로 만들어질 것이며, 바다흐샨의 외딴 루비 광산에서 가져온 아름다운 루비 눈을 가질 것입니다." # 9342593704826157943
+  pamir.0039.a: "준께 이 승리를 찬양하라!" # 11952163912802261037
+  pamir.0039.tooltip: "아루나 산에 새로운 [idol_of_zun|E]가 자랑스럽게 세워짐에 따라, 지역 [zun_mount_aruna_relcaimer.GetFaith.GetAdjective] [rulers|E]들은 그곳에서 #V 준의 우상에게 재물을 바치기#! [decision|E]를 내려 [piety|E], [prestige|E], 그리고 [dynasty_prestige|E]의 축복을 받을 수 있습니다. 이 보너스는 자민다와르에서 할 때와는 약간 다릅니다." # 14295776520905447064
+  pamir.0040.t: "주운의 우상이 복원되다" # 18048108023661725435
+  pamir.0040.desc: "수 세기 전, [zamindawar_county.GetNameNoTier]에는 준의 우상이 숭배자들의 헌신과 신앙심의 상징으로 자랑스럽게 서 있었습니다. 이제 바다흐샨의 루비 눈으로 장식된 거대한 황금 조각상이 [zun_idol_restorer.GetTitledFirstName]의 노력 덕분에 부활했습니다. 이는 분명 [zun_idol_restorer.GetFaith.GetAdjective] 운명의 부흥을 알리는 징조일 것입니다!" # 9671180225271833627
+  pamir.0040.a: "훌륭하군!" # 5815683167456707443
+  pamir.0041.t: "주눈을 위해 아루나 산을 되찾다" # 10666376125736626032
+  pamir.0041.desc: "아주 오래전, [kabul_county.GetNameNoTier] 근처에 있는 아루나 산은 위대한 신 주운, 즉 정의를 베푸는 신의 거처였다고 전해집니다. 슬프게도 그의 추종자들은 수리야를 섬기는 브라흐만교도들에게 산에서 쫓겨났습니다. 하지만 [zun_mount_aruna_relcaimer.GetTitledFirstName]의 노력 덕분에 아루나 산은 이제 다시 [zun_mount_aruna_relcaimer.GetFaith.GetAdjective]의 통제 아래 확고히 놓였으며, 그곳에 주운의 새로운 우상이 세워졌습니다." # 15433205539441220250
+  pamir.0041.a: "훌륭하군!" # 16848862372218168470
+  pamir.0042.t: "\"이교도\"에게 보내는 간청" # 425084376940008292
+  pamir.0042.desc: "신화와 전설의 시대로 거슬러 올라가는 수많은 세월 동안, 파미르와 힌두 쿠시 산맥의 맹렬한 고지대 이교도들—무슬림들에게 소위 '카피르'라 불리는 자들—은 자신들보다 더 발전한 이웃, 심지어 같은 이교도들로부터의 침략에도 굳건히 저항해 왔습니다.\n\n하지만, 이 지역 정치의 계산법이 바뀌고 있습니다. 나처럼 그들과 같은 신앙을 따르는 지도자들이 더 많아졌기 때문입니다. 즉, 우리의 공통된 관습과 믿음으로 인해 이 카피르 부족들은 더 이상 이 세상에서 고립되어 홀로 있지 않습니다. 약간의 노력만 기울인다면, 저는 그들과 생산적인 관계를 구축할 수 있다고 믿습니다. 저는 제가 명목상 통치하는 영토에 살고 있는 일부 '카피르'들과 협상하고, 어쩌면 그들이 이웃들과 융화되도록 장려할 방법을 찾고 싶습니다." # 10799886139498811367
+  pamir.0042.a: "[munjan_county.GetNameNoTier]에 있는 부족들과 협상하십시오" # 7394754519367056060
+  pamir.0042.b: "[chitral_county.GetNameNoTier]의 부족들과 협상하십시오" # 17041470471752923317
+  pamir.0042.c: "[yasin_county.GetNameNoTier]의 부족들과 협상하십시오" # 13487983373118777806
+  pamir.0042.d: "[gilgit_county.GetNameNoTier]의 부족들과 협상하십시오" # 7841202760795634361
+  pamir.0042.e: "[golaghmuli_county.GetNameNoTier]에 있는 부족들과 협상하십시오" # 5664268031390071339
+  pamir.0043.t: "치유가 시작되다" # 7232852078823350914
+  pamir.0043.desc.generic: "비록 [shri_badat.GetTitledFirstName]는 더 이상 없지만, 이 사악하고 식인 폭군의 유산은 여전히 이 땅을 병들게 하고 있습니다. 그의 비정하고 끔찍한 향연의 장소였던 그의 궁전은 [gilgit_county.GetNameNoTier]에 그대로 남아 있습니다. 하지만 더 이상은 안 됩니다!\n\n저는 수많은 지역 농민들을 모아 횃불, 삽, 망치, 그리고 그들이 찾을 수 있는 모든 도구를 가져오라고 명령했습니다. 충분히 모이자, 우리는 우렁찬 함성과 함께 궁전으로 행진하여 우리가 가진 도구들로 즉시 그것을 허물어 버렸습니다." # 14858953734113227998
+  pamir.0043.desc.azur_jamshid: "비록 내가 [shri_badat.GetTitledFirstName]를 의롭게 처단했지만, 이 사악하고 식인종 폭군의 유산은 여전히 이 땅을 병들게 하고 있습니다. 그의 비정하고 끔찍한 향연의 장소였던 그의 궁전은 [gilgit_county.GetNameNoTier]에 여전히 서 있습니다. 하지만 이제 끝이다!\n\n나는 수많은 지역 농민들을 모아 횃불, 삽, 망치, 그리고 그들이 찾을 수 있는 모든 도구를 가져오도록 명했습니다. 충분히 모이자, 우리는 우렁찬 함성과 함께 궁전으로 행진하여 우리의 도구로 즉시 그것을 부숴버렸습니다.\n\n사랑하는 아내 [nur_bakht.GetTitledFirstName]와 함께, 우리는 궁전이 불타는 것을 지켜보았습니다. 이 모든 일이 그녀를 슬프게 하지만, [shri_badat.GetTitledFirstName]가 결국 그녀의 아버지였기 때문이죠. 그녀는 이것이 행해져야만 했다는 것을 이해한다고 제게 말합니다." # 4798793948367020179
+  pamir.0043.a: "이제 이 땅은 치유될 수 있습니다." # 14091412401904524649
+  pamir.0044.t: "도흐타르-이 노시르완" # 1372180505558971729
+  pamir.0044.desc: "수백 년 전, [bamian_county.GetNameNoTier]에서 그리 멀지 않은 곳을 다스리던 지역 추장들이 콜름 계곡의 한 지역인 도크타르-이 노시르완에 암벽에 새긴 성소 단지 조성을 후원했습니다. 이곳은 옥수스-준 또는 바크슈-준으로 알려진 [ROOT.Char.GetFaith.HighGodName]의 지역적 형태로 봉헌되었으며, 이 지역에서 제작된 가장 큰 벽화 중 하나인 정의를 주는 자를 묘사한 아름다운 벽화가 있었습니다. 아아, 이 한때 아름다웠던 [ROOT.Char.GetFaith.HighGodName]의 암벽 조각 숭배 중심지는 수년 동안 황폐해졌습니다.\n\n저는 이 한때 위대했던 성소가 다시 존경받고 [ROOT.Char.GetFaith.HighGodName]의 위대한 성소로 기능할 수 있도록, 이 복원 및 재건을 후원하는 임무를 스스로 맡았습니다. 제가 국내외에서 고용한 장인들, 특히 이란 출신 장인들은 원본의 생생한 양식을 되찾기 위해 최선을 다했습니다." # 10848342172313420619
+  pamir.0044.a: "훌륭한 노력이니, [ROOT.Char.GetFaith.HighGodName]께서 분명 기뻐하실 것입니다." # 14923149676440915367
+  pamir.0045.t: "봉헌 준비 중" # 10439422010546323841
+  pamir.0045.desc: "저는 [ROOT.Char.GetFaith.HighGodName]께 저의 신앙심을 보여드릴 때가 왔다고 결정했습니다. 전통적인 [ROOT.Char.GetFaith.GetAdjective] 방식으로, '정의의 수여자' 우상에게 값비싼 물품을 바칠 것입니다. 이 여정을 준비해야겠군요. 제가 [ROOT.Char.GetTitleAsNameNoTooltip]인 만큼, 대단한 의식이 될 테니까요." # 18400883133022997269
+  pamir.0045.desc.choose: "자민다와르에 있는 거대한 우상과 아루나 산에 있는 우상, 두 개의 거대한 우상이 있으니, 어느 쪽을 방문하여 제물을 바칠지 선택해야 합니다." # 15282749083891857268
+  pamir.0045.a: "자민다와르로 간다!" # 9873566999628500399
+  pamir.0045.b: "아루나 산으로 가자!" # 8800159475941438556
+  pamir.0045.a.tooltip: "비록 그대가 여전히 [piety|E]와 [prestige|E]를 얻겠지만, #V 잠다와르#!의 우상에게 공물을 바치면 #Y piety#!를 훨씬 더 많이 얻을 확률이 높아질 것입니다." # 8763965952893327746
+  pamir.0045.b.tooltip: "비록 그대께서 여전히 [piety|E]와 [prestige|E]를 얻겠지만, #V 아루나 산#의 우상에게 공물을 바치면 #Y prestige#를 훨씬 더 많이 얻을 가능성이 높아질 것입니다." # 1490878078609390406
+  pamir.0046.t: "재물" # 13913208969922965731
+  pamir.0046.desc: "이제 존의 우상에게 순례할 계획을 세웠으니, [ROOT.Char.GetFaith.HighGodName]께 얼마나 많은 재물을 바칠지도 정해야 합니다. 많이 바칠수록 저에 대한 평판이 좋아지겠지요." # 14377559148625837093
+  pamir.0046.a: "상당하지만 소박한 정도면 충분하겠소." # 9093293371617746457
+  pamir.0046.b: "상당한 양의 재산." # 15644461075735863473
+  pamir.0046.c: "거대하고 장엄한 보물 창고로다!" # 17152722347695075356
+  pamir.0046.tooltip: "귀하가 얻는 [piety|E]와 [prestige|E]의 양은 무작위이지만, 귀하가 제공하는 [gold|E]의 양(그리고 귀하의 [traits|E]와 같은 다른 요인들)에 의해 영향을 받습니다." # 4842975750918855299
+  pamir.0047.t: "준의 우상" # 14045070955225410653
+  pamir.0047.desc.zamindawar: "마침내 나는 자민다와르에 있는 [ROOT.Char.GetFaith.HighGodName] 신의 신상(神像)이 모셔진 성소에 도착했다. 바다흐샨에서 나는 루비로 만든 아름다운 눈을 가진 이 황금 조각상은 정말 경이롭고 장엄한 광경이다. 거의 그만큼이나 경이로운 것은 신상 주변에 쌓여 있는 거대한 황금과 기타 재물 더미인데, 이 모든 것이 다른 이들이 바친 선물과 봉헌물이다.\n\n나는 하인들에게 내가 가져온 재물을 신상 앞에 놓으라고 손짓한다. 나는 기도를 올리며 [ROOT.Char.GetFaith.HighGodName]께서 나의 봉헌물에 만족하시기를 바란다." # 16384659142392032172
+  pamir.0047.desc.mount_aruna: "마침내 나는 아루나 산에 있는 [ROOT.Char.GetFaith.HighGodName] 신상을 모신 성소에 도착했다. 바다흐샨에서 나는 루비로 만든 아름다운 눈을 가진 황금 조각상은 경이롭고 장엄한 광경이다. 조각상 주변에 쌓여 있는 막대한 양의 금과 기타 재물들, 이 모든 것이 다른 이들이 바친 선물과 봉헌물이라는 점 또한 거의 그에 못지않게 경이롭다.\n\n나는 하인들에게 내가 가져온 재물을 우상 앞에 놓으라고 손짓한다. 나는 기도를 올리고, [ROOT.Char.GetFaith.HighGodName]께서 나의 봉헌에 만족하시기를 바란다." # 5813032166918243361
+  pamir.0047.a: "[ROOT.Char.GetFaith.HighGodName]께 영광을 돌릴지어다, 정의를 베푸시는 분이시여!" # 3205353114518524989
+  pamir.0047.message: "귀하의 헌신이 [ROOT.Char.GetFaith.HighGodName]께 향하고 있음을 보여주는군요!" # 12340073249930207418
+  pamir.0048.t: "xxxxx" # 1951045980481827005
+  pamir.0048.desc: "xxxxx" # 1951045980481827005
+  pamir.0048.a: "xxxxx" # 1951045980481827005
+  pamir.0049.t: "슈리 바다트의 유산" # 16277705820152049780
+  pamir.0049.desc: "처음에는 나 역시 그 거짓말을 믿었다. 하지만 깊이 생각할수록, 나는 [shri_badat.GetFirstName]가 오해받은 인물이라는 것을 깨달았다. 그는 이 세상에서 중요한 것은 #X #bold 권력#!#!과 #X #bold 공포#!#!뿐이며, 힘이 곧 정의라는 것을 알고 있었다. 그를 죽인다고 해서 그 현실이 바뀌는 것은 아니었다.\n\n그의 영혼이 아직도 이 근처에 떠돈다는 소문이 있다. 어떤 날 밤에는 그가 내 귓가에 속삭이는 꿈을 꾸는데, [ROOT.Char.GetTitleAsNameNoTooltip]로서 어떻게 성공할 수 있는지 알려준다. 나는 그의 모범을 본받아 내 마음속 어둠을 받아들여야 한다고 말이다.\n\n그 점을 염두에 두고, 나는 기적적으로 아직 서 있는 그의 옛 궁전 개조를 명령했다. 나는 힘이 없는 하찮은 자들의 심장에 공포를 심어줄 것이며, 그들은 내 앞에서 떨게 될 것이다. 오직 힘과 공포만이 이 땅을 위대하게 재건할 수 있다." # 18202877925261453591
+  pamir.0049.a: "나를 두려워하라!" # 4692641922406023385
+  pamir.0049.tooltip: "#weak 그렇지만... 내가 어둠을 받아들이자, 희미한 목소리가 들려온다....\"[THIS.Char.GetFirstNameNoTooltip], [THIS.Char.GetFirstNameNoTooltip], 안 돼\"#!" # 8343728575047034931
+  pamir.0050.t: "준비" # 666839747819429162
+  pamir.0050.desc: "치니르 축제는 파미르 산악 지대에 거주하는 많은 민족들이 수확철의 시작을 환영하기 위해 전통적으로 기념하는 축제입니다. 이 축제는 사회적 교류와 음식 및 즐거움을 나누는 것이 장려되는 행사입니다. 축제 날이 곧 다가오고 있으며, 저는 평민들을 만나 올해 축제에 기여하기로 결정했습니다!" # 18357049390164739347
+  pamir.0050.a: "수확철이 다가오고 있습니다!" # 11432652898661464893
+  pamir.0051.t: "추수철" # 1090071192662742464
+  pamir.0051.desc: "치니르 축제가 막 시작되었고, 저는 축제에 참여하기 위해 한 지역 마을에 도착했습니다. 치니르는 즐거운 행사입니다. 수확 전까지 제한된 식량을 배급해야 했던 이른바 '굶주림의 달'이 끝났음을 알리는 때이며, 이제 모두가 배불리 먹고 즐길 수 있게 되었기 때문입니다!" # 14629661904427964569
+  pamir.0051.a: "드디어 수확철이로군!" # 4213142754468017358
+  pamir.0052.t: "치니르" # 6563293645026743557
+  pamir.0052.desc: "가문의 수장으로서, 나는 들판으로 나가 수확한 보리 한 줌을 가져와 인근 제분소에서 밀가루로 빻는다. 그런 다음 이 밀가루를 의식적으로 집의 기둥 위에 뿌리고, 남은 보리는 #italic 치키쉬#!, 즉 부엌의 기둥에 묶는다.\n\n그 후, 나와 내 가문 전체가 그릇, 즉 이름 그대로의 #italic 치니르#! 주위에 모이는데, 그 그릇은 요구르트로 가득 차 있다. 우리는 고개를 숙이고 [ROOT.Char.GetFaith.GetAdjective] 기도로 [ROOT.Char.GetFaith.HighGodName]께 기도한다. 이어서 모두가 요구르트를 조금씩 먹는다." # 12708002375791795789
+  pamir.0052.a: "좋은 시작이군!" # 8675343349336919649
+  pamir.0053.t: "성대한 연회" # 12640219439935100037
+  pamir.0053.desc: "다음 친이르 행사는 나와 같은 성별의 사람들이 모이는 큰 모임입니다. 나는 [ROOT.Char.GetWomanMan]으로서, 저명한 귀족부터 가장 미천한 농부에 이르기까지 공동체의 같은 성별의 여러 인물들과 함께 큰 회관에 모여 성대한 축제를 즐깁니다." # 6054512157398570906
+  pamir.0053.a: "음식 냄새가 좋군!" # 2422777108442981782
+  pamir.0054.t: "방문" # 7060053557720461231
+  pamir.0054.desc: "치니르 연회가 끝난 후, 저와 같은 [ROOT.Char.GetWomanMan]는 공동체 내 같은 성별의 이들을 방문하여 음식을 나누고 각 집의 치니르 그릇에 담긴 요거트를 맛보는 것이 관례입니다. 저는 이미 여러 가구를 방문했으며, 한 곳을 더 방문할 시간이 있습니다. 저는 …의 가구를 방문하기로 결정했습니다." # 5627510424051819286
+  pamir.0054.a: "겸손하고 근면한 농부" # 891522088955591803
+  pamir.0054.b: "근면한 장인" # 509449002435003616
+  pamir.0054.c: "현명하고 조리 있는 학자" # 1593783294785122729
+  pamir.0054.d: "강력한 지역 귀족[ROOT.Char.GetWomanMan]" # 2557624217503860432
+  pamir.0055.t: "수확할 것인가, 말 것인가?" # 17476101842677775
+  pamir.0055.desc: "치니르 축제가 끝날 무렵, 농부가 아니더라도 상징적으로나마 수확을 돕는 것이 관례입니다. 결국, 저 같은 [ROOT.Char.GetTitleAsNameNoTooltip]조차도 공동체와의 유대를 보여주는 것이 중요하니까요. 어차피 제가 진짜 농사일을 하는 것도 아니고요." # 11163601024888067460
+  pamir.0055.a: "나는 고생하는 농노가 아니오! 아무것도 하지 않을 것이오." # 9800212304383272607
+  pamir.0055.b: "제가 그럴 수는 없습니다! 그건 너무 많은 일입니다." # 3448787531664711367
+  pamir.0055.c: "필요한 만큼만 돕겠지만, 너무 많이는 돕지 않겠습니다." # 16521968136806824256
+  pamir.0055.d: "제가 오늘 도울 수 있는 한 최대한 돕고 싶습니다." # 11079754761043892708
+  pamir.0056.t: "곡물 수확" # 8566033066490416389
+  pamir.0056.desc: "치니르 축제의 첫 번째 수확 기간 동안에는 아이들을 포함한 모두가 곡물 수확에 참여하지만, 분명히 구분되는 역할이 있습니다. 남자들은 #italic thutr#!라고 불리는 작은 낫으로 곡물을 베고, 여자들은 묶을 준비가 된 곡물 줄기를 단으로 묶습니다. 저는 몇 시간 동안 이 일을 한 뒤 축제로 돌아갈 것입니다." # 17359209195703456478
+  pamir.0056.a.male: "남성으로서 곡식을 베는 것은 나의 의무이다." # 14547687587275700044
+  pamir.0056.a.female: "여성으로서, 저는 줄기를 묶는 것을 돕겠습니다." # 45393222419748969
+  pamir.0057.t: "수확철이 끝났습니다" # 11453493626422045794
+  pamir.0057.desc: "마침내 치니르 축제가 끝났습니다. 즐거운 시간을 보냈고, 참석자들과 음식을 나누고 즐거운 대화를 나누며 행복한 추억을 만들 수 있었습니다. 바라건대, 앞으로도 다시 이 축제에 참여할 수 있기를 바랍니다." # 3957145182284471754
+  pamir.0057.a: "수확철이 아주 풍성하겠군." # 14097723484592432907
+  pamir.0058.t: "xxxxx" # 1951045980481827005
+  pamir.0058.desc: "xxxxx" # 1951045980481827005
+  pamir.0058.a: "xxxxx" # 1951045980481827005
+  pamir.0059.t: "마지막 한 입" # 12334742786142903187
+  pamir.0059.desc: "키니르족의 주요 연회 동안 음식은 공동 그릇에 담겨 나뉩니다. 제가 한 그릇에 남은 마지막 고기를 집으려는데, 다른 참석자도 똑같이 하려고 합니다. 우리는 서로를 어색하게 바라보며 어떻게 해야 할지 몰라 망설입니다." # 8493328824203857440
+  pamir.0059.a: "부디 가서 즐기시오, 나의 벗이여." # 7758763761215414428
+  pamir.0059.b: "이것은 내 것이다! 나는 #bold [ROOT.Char.GetTitleAsNameNoTooltip]#이다!" # 634778339156659356
+  pamir.0060.t: "음식 나누기" # 3220327592428098827
+  pamir.0060.desc: "치니르 축제 기간 동안에는 각 가정이 집에서 만든 달콤한 밀죽을 다른 가족들과 나누기 위해 빵과 고기와 함께 축제에 가져오는 것이 관례입니다. 제가 이 공동체에서 가장 높은 신분의 구성원인 만큼, 축제에서 관대함을 보인다면 저에게 좋은 평가를 받을 것입니다." # 4875485627364771944
+  pamir.0060.a: "정말로? 그들이 나에게 식량을 대령해야 마땅하거늘!" # 4819533611555095234
+  pamir.0060.b: "저는 변변치 않은 양의 음식만 가지고 왔습니다." # 10264185124219849430
+  pamir.0060.c: "제가 모두를 위해 맛있는 음식을 많이 가져왔습니다!" # 14898245696218055931
+  pamir.0060.d: "제가 가진 식량이 너무 많아서 터질 지경입니다." # 3726113754236847779
+  pamir.0061.t: "기도 아니면 사교 활동?" # 3553180536004160074
+  pamir.0061.desc: "공동체의 종교심이 깊은 구성원들은 연회 동안 속으로 많은 기도를 올릴 것입니다. 하지만 일부는 이를 공동체 구성원들과 교류하고 나누는 축제의 정신에 어긋난다고 여깁니다." # 6416475663323396757
+  pamir.0061.a: "저는 개인적으로 [ROOT.Char.GetFaith.GetAdjective]의 기도를 드리는 것을 선호합니다." # 15968870853667959208
+  pamir.0061.b: "기도와 사교 활동의 균형이 괜찮다고 생각합니다." # 11896066483557392943
+  pamir.0061.c: "사교 활동은 중요합니다! 모두가 이것이 사실임을 알고 있죠!" # 10579691915246922583
+  pamir.0062.t: "나눔은 배려입니다" # 10432538631508514363
+  pamir.0062.desc: "치니르 기간 동안 주요 연회를 여는 이유는 사람들 간의 나눔을 장려하고, 공동체가 서로에게 의존할 때만 생존할 수 있음을 모두가 기억하게 하기 위함입니다. 사람들은 어울려 삶의 좋은 일들을 기념하고 교류합니다." # 14552039496657495327
+  pamir.0062.a: "이것들은 제가 최선을 다해 기억해야 할 교훈들입니다." # 2957431640769289696
+  pamir.0063.t: "쿠루트 치즈" # 17339332478600635169
+  pamir.0063.desc: "#italic 쿠루트#!는 파미르 지역의 응고시켜 만든 치즈의 일종으로, 치니르 축제를 포함하여 일 년 내내 인기 있는 간식이나 반찬입니다. 축제 전에 나이 든 여성들이 남자들, 특히 젊고 새로 결혼한 남자들에게 #italic 쿠루트#!를 많이 먹도록 놀리는 것이 관습인데, 이는 남성의 친밀감에 대한 욕구를 증가시킨다고 믿어지기 때문입니다." # 3259720148635911723
+  pamir.0063.a: "당연히 좀 먹을 겁니다!" # 14238519070995634092
+  pamir.0063.b: "딱히 내키지가 않는군." # 15135805421152465202
+  pamir.0063.c: "내가 남자들을 놀릴 거다." # 7421008933634039746
+  pamir.0064.t: "모치" # 13622311575905967209
+  pamir.0064.desc: "치니르 연회에서 인기 있는 음식 중 하나는 #italic 모치#인데, 이는 치즈 커드를 물에 섞어 익힌 채소 위에 붓는 음식입니다. 이 음식은 쌀쌀한 가을과 겨울 동안 몸을 따뜻하게 하고 기력을 유지하는 데 좋다고 믿어져 인기가 많습니다." # 7576736890933101452
+  pamir.0064.a: "먹으니 벌써부터 몸이 따뜻해지는 기분입니다!" # 5081636849687710522
+  pamir.0065.t: "훌륭한 가문이로군" # 7565924970497858799
+  pamir.0065.desc: "치니르 축제에 참여하는 동안, 제가 머무는 집을 둘러봅니다. 이 집의 주인인 주최자는 관습대로 곡식 이삭 몇 줄로 장식했지만, 그 솜씨가 매우 미학적이군요." # 15097080575502468468
+  pamir.0065.a: "조용히 경이롭게 지켜보십시오." # 987163626158473936
+  pamir.0065.b: "모두 앞에서 주최자를 칭송하십시오." # 9674607866170745158
+  pamir.0066.t: "생애 이야기" # 14869830826151831723
+  pamir.0066.desc: "치니르 축제 기간 동안, 저는 참석자 중 한 명과 꽤나 좋은 대화를 나누었습니다. 우리는 서로의 경험에 대해 많은 것을 배우며 삶에 대한 생각과 이야기를 주고받았습니다." # 10251194302497829118
+  pamir.0066.a: "아주 흥미롭군, 내 친구!" # 4399675447101415745
+  pamir.0067.t: "타인 돕기" # 2855639272306548444
+  pamir.0067.desc: "비록 제가 치니르 연회를 즐기고는 있지만, 모두가 올 수 있는 것은 아닙니다. 너무 늙고 쇠약하거나 병든 이들은 명백한 이유로 참석하지 못하는 경우가 많습니다. 따라서 연회 기간 동안 노인들과 병자들에게 음식을 가져다주는 자원봉사를 하는 것이 관례입니다. 하지만 이는 힘든 일이 될 수 있으며, 제가 돕는다면 누군가의 병에 걸릴까 두렵습니다." # 13242608167874337121
+  pamir.0067.a: "누군가는 도와주겠지. 하지만 나는 아닐 거야." # 16250306677108042696
+  pamir.0067.b: "제가 자원하겠습니다! 모범을 보여야죠." # 6853865970472811482
+  pamir.0067.toast: "사소한 병에 걸렸습니다!" # 1471193056557678503
+  pamir.0068.t: "대화" # 4924207086066621817
+  pamir.0068.desc: "치니르를 위해 이곳에 와서 온갖 부류의 사람들을 만나는 것은 정말 특별한 경험입니다. 연회 중에 나누는 대화뿐만 아니라 엿듣는 대화에서도 많은 것을 배우고 있습니다." # 5303503774041872759
+  pamir.0068.a: "흥미롭군, 흥미로워." # 8133944325532826321
+  pamir.0069.t: "니간과 바트" # 1979748912151983568
+  pamir.0069.desc: "저는 #italic 니간#!과 #italic 바트#!를 즐기고 있습니다. 밀가루 죽과 녹인 버터죠. 소박한 식사이지만, 치니르 축하 행사에서 필수적인 요소입니다." # 16355025677781732181
+  pamir.0069.a: "맛은 소박할지 몰라도, 정말 든든하고 맛있습니다!" # 9907819118258550246
+  pamir.0069.b: "나는 농민들의 음식을 좋아하지 않지만, 체면은 유지해야지." # 2254486239817694458
+  pamir.0070.t: "쿤다" # 10654290415040693959
+  pamir.0070.desc: "치니르 축제의 수확철 동안, 여성들과 아이들은 바구니에 과일을 모으고 있으며, 이 과일들은 여러 용도로 사용될 것입니다. 예를 들어, 일부 과일은 다양한 음식에 사용되는 끈적한 과일 소스인 #italic 쿤다#!로 만들어집니다. 마을 여성 중 한 명이 시식용 쿤다를 제게 주었는데, 정말 맛있습니다." # 11601746636370313741
+  pamir.0070.a: "맛이 아주 달콤하군." # 4916252663843000301
+  pamir.0071.t: "염소 고기" # 7025632291163302835
+  pamir.0071.desc: "치니르 축제 기간 중에는 가문 밖의 누군가 수확을 돕는 사람에게 양이나 염소 고기를 대접하는 것이 일반적인 관례입니다. 제가 곡식 수확을 돕고 있는 농부가 그 고기를 저에게 대접하고 있습니다." # 7513796045471637892
+  pamir.0071.a: "감사합니다!" # 6978335405607418388
+  pamir.0072.t: "농업 교훈" # 17201634310163076494
+  pamir.0072.desc: "치니르 축제 기간 동안 농부들의 곡물 수확을 도우면서, 농업 노동과 마을 생활의 여러 측면에 대해 꽤 많이 배웠습니다." # 8903607770750444466
+  pamir.0072.a: "매우 깨우침이 있습니다." # 2798717674894770859
+  pamir.0073.t: "잎사귀 모으기" # 9939667338109892430
+  pamir.0073.desc: "수확철이 되면 사람들이 잎을 모아 자루에 담는 것이 관례입니다. 나중에 겨울 동안 이것들은 가축의 사료로 사용될 것입니다. 이는 치니르 축제 때부터 시작될 수 있으며, 저는 마을에서 이 임무를 맡은 이들을 도와야 할지 궁금합니다. 어쨌든 중요한 일이니, 저도 기여해야 할지도 모르겠습니다." # 16065447971167697105
+  pamir.0073.a: "좋아, 왜 안 되겠나? 재미있겠군." # 1352973939178838367
+  pamir.0073.b: "나는 평민들의 일을 하지 않을 것이다." # 4953177984759102399
+  pamir.0074.t: "과수원" # 1362939261646978527
+  pamir.0074.desc: "추수철의 일환으로 여성들과 아이들은 과수원으로 가서 과일이 가득 담긴 바구니를 모읍니다. 저는 그들이 이 일을 하는 모습을 지켜봅니다. 통통한 살구와 오디가 특히 인기가 많은 것 같으며, 이는 수확 중에서도 여성들과 아이들이 여유를 가지고 교류하는 비교적 느긋한 시기입니다." # 2165545379783705938
+  pamir.0074.a: "구경하며 경치를 즐기겠소." # 992881715542897382
+  pamir.0074.b: "이제 그들을 도울 시간입니다!" # 9448100118516514425
+  pamir.0074.c: "제가 남자라 할지라도 그들을 도와주세요." # 12495058222917560208
+  pamir.0075.t: "살구" # 5573531342808030605
+  pamir.0075.desc: "수확철이 되어 부녀자와 아이들이 과수원과 숲에서 과일을 따기 시작하면, 사람들은 적당한 선에서 수확 중인 과일을 간식으로 먹어도 괜찮습니다. 저는 살구 가득 담긴 바구니를 보고 몇 개 먹고 싶은 유혹을 느낍니다." # 2576833540122069698
+  pamir.0075.a: "배가 고프군. 연회를 즐길 시간이야!" # 15491361134446473540
+  pamir.0075.b: "자제하고 하나만 먹겠습니다." # 16096377026823867682
+  pamir.0076.t: "xxxxx" # 1951045980481827005
+  pamir.0076.desc: "xxxxx" # 1951045980481827005
+  pamir.0076.a: "xxxxx" # 1951045980481827005
+  pamir.0077.t: "xxxxx" # 1951045980481827005
+  pamir.0077.desc: "xxxxx" # 1951045980481827005
+  pamir.0077.a: "xxxxx" # 1951045980481827005
+  pamir.0078.t: "xxxxx" # 1951045980481827005
+  pamir.0078.desc: "xxxxx" # 1951045980481827005
+  pamir.0078.a: "xxxxx" # 1951045980481827005
+  pamir.0079.t: "xxxxx" # 1951045980481827005
+  pamir.0079.desc: "xxxxx" # 1951045980481827005
+  pamir.0079.a: "xxxxx" # 1951045980481827005
+  pamir.0080.t: "xxxxx" # 1951045980481827005
+  pamir.0080.desc: "xxxxx" # 1951045980481827005
+  pamir.0080.a: "xxxxx" # 1951045980481827005
+  pamir.0081.t: "xxxxx" # 1951045980481827005
+  pamir.0081.desc: "xxxxx" # 1951045980481827005
+  pamir.0081.a: "xxxxx" # 1951045980481827005
+  pamir.0082.t: "xxxxx" # 1951045980481827005
+  pamir.0082.desc: "xxxxx" # 1951045980481827005
+  pamir.0082.a: "xxxxx" # 1951045980481827005
+  pamir.0083.t: "xxxxx" # 1951045980481827005
+  pamir.0083.desc: "xxxxx" # 1951045980481827005
+  pamir.0083.a: "xxxxx" # 1951045980481827005
+  pamir.0084.t: "xxxxx" # 1951045980481827005
+  pamir.0084.desc: "xxxxx" # 1951045980481827005
+  pamir.0084.a: "xxxxx" # 1951045980481827005
+  pamir.0085.t: "xxxxx" # 1951045980481827005
+  pamir.0085.desc: "xxxxx" # 1951045980481827005
+  pamir.0085.a: "xxxxx" # 1951045980481827005
+  pamir.0086.t: "xxxxx" # 1951045980481827005
+  pamir.0086.desc: "xxxxx" # 1951045980481827005
+  pamir.0086.a: "xxxxx" # 1951045980481827005
+  pamir.0087.t: "xxxxx" # 1951045980481827005
+  pamir.0087.desc: "xxxxx" # 1951045980481827005
+  pamir.0087.a: "xxxxx" # 1951045980481827005
+  pamir.0088.t: "xxxxx" # 1951045980481827005
+  pamir.0088.desc: "xxxxx" # 1951045980481827005
+  pamir.0088.a: "xxxxx" # 1951045980481827005
+  pamir.0089.t: "xxxxx" # 1951045980481827005
+  pamir.0089.desc: "xxxxx" # 1951045980481827005
+  pamir.0089.a: "xxxxx" # 1951045980481827005
+  pamir.0090.t: "xxxxx" # 1951045980481827005
+  pamir.0090.desc: "xxxxx" # 1951045980481827005
+  pamir.0090.a: "xxxxx" # 1951045980481827005
+  pamir.0091.t: "xxxxx" # 1951045980481827005
+  pamir.0091.desc: "xxxxx" # 1951045980481827005
+  pamir.0091.a: "xxxxx" # 1951045980481827005
+  pamir.0092.t: "xxxxx" # 1951045980481827005
+  pamir.0092.desc: "xxxxx" # 1951045980481827005
+  pamir.0092.a: "xxxxx" # 1951045980481827005
+  pamir.0093.t: "xxxxx" # 1951045980481827005
+  pamir.0093.desc: "xxxxx" # 1951045980481827005
+  pamir.0093.a: "xxxxx" # 1951045980481827005
+  pamir.0094.t: "xxxxx" # 1951045980481827005
+  pamir.0094.desc: "xxxxx" # 1951045980481827005
+  pamir.0094.a: "xxxxx" # 1951045980481827005
+  pamir.0095.t: "xxxxx" # 1951045980481827005
+  pamir.0095.desc: "xxxxx" # 1951045980481827005
+  pamir.0095.a: "xxxxx" # 1951045980481827005
+  pamir.0096.t: "xxxxx" # 1951045980481827005
+  pamir.0096.desc: "xxxxx" # 1951045980481827005
+  pamir.0096.a: "xxxxx" # 1951045980481827005
+  pamir.0097.t: "xxxxx" # 1951045980481827005
+  pamir.0097.desc: "xxxxx" # 1951045980481827005
+  pamir.0097.a: "xxxxx" # 1951045980481827005
+  pamir.0098.t: "xxxxx" # 1951045980481827005
+  pamir.0098.desc: "xxxxx" # 1951045980481827005
+  pamir.0098.a: "xxxxx" # 1951045980481827005
+  pamir.0099.t: "xxxxx" # 1951045980481827005
+  pamir.0099.desc: "xxxxx" # 1951045980481827005
+  pamir.0099.a: "xxxxx" # 1951045980481827005
+  pamir.0100.t: "xxxxx" # 1951045980481827005
+  pamir.0100.desc: "xxxxx" # 1951045980481827005
+  pamir.0100.a: "xxxxx" # 1951045980481827005
+  pamir.0101.t: "나시르 호스로의 죽음" # 9984858682660616491
+  pamir.0101.desc: "위대한 [nasir_khusraw.GetFullName]께서 방금 세상을 떠났다는 소식을 들었습니다. 그는 능변의 시인이자 뛰어난 학자였을 뿐만 아니라, 이슬람(특히 [nasir_khusraw.GetFaith.GetAdjective] 분파)의 빛을 아프가니스탄 동부의 [badakhshan_duchy.GetNameNoTier] 땅에 전파하고자 했던 성인이었습니다. 이 때문에 그는 시아파와 수니파 무슬림 모두에게 존경을 받았습니다.\n\n[nasir_khusraw.GetFullName]께서는 말년의 대부분을 [badakhshan_county.GetNameNoTier]의 얌간 작은 마을에서 멀지 않은 곳의 은둔처에서 보내셨기에, 그의 추종자들이 그를 그곳에 묻기 위해 시신을 옮겼습니다. 그들은 그의 영예를 기리기 위해 작은 성소를 세우고 있으며, 이 사랑받는 성인에게 경의를 표하기 위해 얌간으로 순례하려는 순례자들에 대한 소문이 이미 널리 퍼졌습니다." # 13265884212566000024
+  pamir.0101.a: "진실로 우리는 알라에게 속해 있으며, 우리 모두 그분께로 돌아갈 것입니다." # 3833736821533416280
+  pamir.0101.tooltip: "[nasir_khusraw|E]의 사망으로, [badakhshan_county.GetNameNoTier] [county|E]의 [ruler|E]는 이제 #V Expand Nasir Khusraw's Shrine#!을 [decide|E]할 수 있습니다. 이 조치가 완료되면, [badakhshan_duchy.GetName] 내 또는 근처에 거주하는 무슬림들이 [go_on_a_pilgrimage_to_nasir_khusraws_shrine|E]를 할 수 있는 능력이 해금됩니다." # 10277031913118975219
+  pamir.0102.t: "나시르 쿠스로의 성소" # 1866290812436808013
+  pamir.0102.desc: "위대한 [nasir_khusraw.GetFullName]께서 돌아가신 이래로, 시아파와 수니파를 막론하고 모든 분파의 무슬림들로 이루어진 작지만 헌신적인 무리가 그의 묘소로 모여들어 이 시인, 학자, 성인에게 경의를 표하고 있습니다. 그곳에서 순례자들은 그의 모범을 통해 알라께 더 가까이 다가갈 영감을 얻습니다. 그의 묘소는 [badakhshan_county.GetNameNoTier] 내 제 영토에 속한 얌간(Yamgan)이라는 작은 마을 근처에 있습니다.\n\n그 때문에 저는 그의 묘소 주변에 소박하지만 잘 지어진 성소를 짓기 위해 자금을 투입하기로 결정했습니다. 이제 그는 그와 같은 인물에게 걸맞은 제대로 된 안식처를 갖게 될 것입니다. 이는 이 지역으로 더 많은 순례자를 불러들이고 지역 경제를 활성화하는 데 도움이 될 것이며, 물론 그 어떤 경우에도 이 성인을 기리는 것이 해가 될 리는 없습니다." # 8246118091006457995
+  pamir.0102.a: "이 일을 해낼 수 있어서 기쁘군." # 4834429743112157830
+  RICE_pamir_enable_nasir_khusraw_pilgrimage_desc: "[badakhshan_county.GetName] 근처에 거주하는 무슬림들은 이제 [go_on_a_pilgrimage_to_nasir_khusraws_shrine|E]를 할 수 있습니다." # 3253478122487199650
+  pamir.0103.t: "나시르 쿠스로의 성소" # 1866290812436808013
+  pamir.0103.desc: "위대한 [nasir_khusraw.GetFullName]께서 돌아가신 이래로, 시아파와 수니파를 막론하고 모든 분파의 무슬림들로 이루어진 작지만 헌신적인 무리가 그의 무덤으로 모여들어 이 시인, 학자, 성인에게 경의를 표하고 있습니다. 그곳에서 순례자들은 그의 모범을 통해 알라께 더 가까이 다가갈 영감을 얻습니다. 그의 무덤은 현재 [badakhshan_ruler.GetTitledFirstName]이 다스리고 있는, [badakhshan_county.GetNameNoTier]에 위치한 작은 마을 얌간 근처에 자리하고 있습니다.\n\n나시르 쿠스로우에 대한 진정한 존경심 때문이든, 혹은 냉소적인 계략이든, [badakhshan_ruler.GetTitledFirstName]은 나시르 쿠스로우의 무덤 주위에 소박하지만 잘 지어진 사당을 짓기 위해 일부 자금을 할당하기로 결정했습니다. 그리하여 그 성인에게 걸맞은, 존경받는 성인에게 적합한 안식처를 마련해 줄 것입니다." # 5991085187300788807
+  pamir.0103.a: "흥미로운 소식이로군…." # 14999355406101336855
+  pamir.0104.t: "종교와 철학을 어떻게 조화시킬 것인가?" # 14605219770208418599
+  pamir.0104.desc: "최근 들어 오래전에 읽었던 긴 시가 계속 머릿속을 맴돕니다. 이름 없는 페르시아 지식인 아부 알-하이탐 알-주르자니가 쓴 이 시는 종교와 철학에 관한 사려 깊고 도전적인 질문들을 던지고 있으며, 이로 인해 저 자신의 신념을 재고하게 만듭니다. 특히 저는 교양 있는 사람이라고 자부하지만, 그 시에서 다루는 종교와 고전 철학 사이의 문제들을 조화시키는 데 어려움을 겪고 있습니다.\n\n이 문제에 대해 [nasir_khusraw.GetFullName]에게 자문을 구하기로 결정했습니다. 모두가 그가 지혜와 뛰어난 통찰력으로 가득 찬 인물임을 알기 때문입니다. 사실 저는 그에게 알-주르자니의 시에 대한 답변을 저의 의뢰로 작성해 줄 의향이 있다고 말했습니다. 다행히도 그는 그러한 일을 기꺼이 하겠다고 말했습니다." # 17405124792432595815
+  pamir.0104.a: "최종 결과물이 기대되는 군!" # 4705921236203506084
+  pamir.0105.t: "xxxxx" # 1951045980481827005
+  pamir.0105.desc: "xxxxx" # 1951045980481827005
+  pamir.0105.a: "xxxxx" # 1951045980481827005
+  pamir.0106.opening: "지적인 [ROOT.Char.GetTitleAsNameNoTooltip] [ROOT.Char.GetFirstNameNoTooltip]께:" # 3946449278795959882
+  pamir.0106.desc: "얼마 전, 저는 당신에게 아부 알-하이탐 알-주르자니가 그의 사색적이고 심오한 시에서 제기한 질문들에 대한 통찰과 지침을 제공해 달라고 요청했었습니다. 저는 그가 던진 질문들을 밤새도록 숙고하며 저의 생각을 기록해 왔습니다.\n\n제가 #italic 철학과 종교의 화해#라고 이름 붙인 이 원고 사본에는 그 질문들에 대한 저의 답변이 담겨 있습니다. 이 글을 읽으신 후 당신의 의심은 사라지고, 마음은 밝아지며, 알라에 대한 믿음이 더욱 굳건해지기를 바랍니다." # 14224784049330028655
+  pamir.0106.a: "이것은 정말 고무적이군요. 꼼꼼히 읽어볼 날이 기다려집니다!" # 8147271669794615894
+  pamir.0107.t: "나시르 호스로의 마지막 저작" # 14353565930700845353
+  pamir.0107.desc: "[nasir_khusraw.GetFullName]께서 최근에 세상을 떠나셨고, 우리는 지혜와 신앙심이 깊은 분일 뿐만 아니라 좋은 친구 한 분을 잃은 것에 모두 슬퍼했습니다.\n\n얼마 전, 저는 그분에게 나의 신앙과 세상에서의 위치에 대해 의문을 품게 만든, 아부 알-하이탐 알-주르자니가 지은 난해한 시에 대해 글을 써달라고 의뢰했었습니다. [nasir_khusraw.GetFullName]께서 더 이상 이 세상에 계시지 않는다면, 과연 내가 진정으로 원하는 답을 찾을 수 있을지 내심 걱정되었습니다.\n\n하지만 기적인지, 그의 추종자 중 한 명이 그분이 돌아가시기 전에 작업 중이던 필사본을 발견했습니다. 그 제목은 #italic 철학과 종교의 조화#!이며, 놀랍게도 알-주르자니의 시가 제기했던 질문들에 완벽하게 답하고 있었습니다. 마치 [nasir_khusraw.GetFullName]께서 하늘에서 나에게 말씀하시는 것만 같습니다!" # 14339360536256335171
+  pamir.0107.a: "마샬라, 나의 의심은 사라지고, 내 마음은 밝아졌으며, 알라에 대한 나의 믿음은 더욱 굳건해졌소!" # 14155595633584058536
+  pamir.0108.t: "xxxxx" # 1951045980481827005
+  pamir.0108.desc: "xxxxx" # 1951045980481827005
+  pamir.0108.a: "xxxxx" # 1951045980481827005
+  pamir.0109.t: "xxxxx" # 1951045980481827005
+  pamir.0109.desc: "xxxxx" # 1951045980481827005
+  pamir.0109.a: "xxxxx" # 1951045980481827005
+  pamir.0110.t: "xxxxx" # 1951045980481827005
+  pamir.0110.desc: "xxxxx" # 1951045980481827005
+  pamir.0110.a: "xxxxx" # 1951045980481827005
+  pamir.0111.t: "브라후이인의 도착" # 5558355709166420217
+  pamir.0111.desc: "수 세대에 걸쳐 수많은 드라비다어 사용 부족들이 중앙 인도에 있던 본래의 고향에서 북쪽으로 이동해 왔습니다. #V 브라후이#!로 알려진 이들은 여러 차례에 걸쳐 발루치스탄 일부 지역에 정착하여 일부 지역 부족들을 흡수했으며, 최근 이슬람으로 개종했습니다. 그곳에서 그들은 유목민 및 반유목민으로서의 전통적인 생활 방식을 계속 이어갈 새로운 고향을 찾았습니다. 이 땅에 대한 지배권을 주장하는 지역 통치자들과 그들의 관계가 어떠할지는 두고 볼 일입니다." # 8189223316443270030
+  pamir.0111.a: "흥미로운 사실이로군…." # 1093967839446481457
+  RICE_pamir_brahui_migrations_happened_text: "#V 브라후이#! 부족이 발루치스탄으로 이주를 완료했으며, 이제 이 지역의 [rulers|E]에게 브라후이 [courtiers|E]가 나타날 확률이 생겼습니다." # 14458705785825244594
+  pamir.0112.t: "xxxxx" # 1951045980481827005
+  pamir.0112.desc: "xxxxx" # 1951045980481827005
+  pamir.0112.a: "xxxxx" # 1951045980481827005
+  pamir.0113.t: "나시르 호스로우" # 7226759512449512432
+  pamir.0113.desc: "수년 동안, 저는 이 왕국 저 왕국을 떠돌며 안식처를 찾던 무슬림 성자, [nasir_khusraw.GetFullName]에 대해 들어왔습니다. 그는 위대한 시인이자 학자로서 이슬람 세계 전역에서 그의 업적으로 유명했지만, 종파적인 통치자들의 표적이 되어 제대로 된 보금자리를 찾지 못했습니다. 하지만 이제는 다릅니다.\n\n바다흐샨 지역에 도착했다는 소식이 전해졌으며, 특히 [nasir_khusraw_county.GetNameNoTier]의 험준하고 고립된 지역에 그가 자리를 잡았다고 합니다. 보아하니 그는 의롭고 박식한 [nasir_khusraw_buddy.GetTitledFirstName]을 친구이자 후원자로 찾은 듯합니다. [nasir_khusraw_buddy.GetTitledFirstName]은 [nasir_khusraw.GetFullName]의 영적, 철학적 통찰력을 높이 평가하고 있습니다.\n\n그토록 유명한 인물이 이제 이 세상의 외딴곳에서 그의 곁에 머물고 있다니! 이제 [nasir_khusraw.GetFullName]은 그곳에 이슬람의 빛을 전파하기를 원합니다. 과연 그가 성공할 수 있을까요?" # 7444820821697058377
+  pamir.0113.a: "흥미롭군요." # 13936380627831839224
+  pamir.0113.tooltip: "[nasir_khusraw_buddy.GetTitledFirstName]가 그의 친구이자 스승인 [nasir_khusraw|E]가 바다흐샨에 이슬람의 빛을 전파하는 데 도움을 줄 수 있을까요? 시간이 말해줄 것입니다." # 6468413962458611096
+  pamir.0114.t: "xxxxx" # 1951045980481827005
+  pamir.0114.desc: "xxxxx" # 1951045980481827005
+  pamir.0114.a: "xxxxx" # 1951045980481827005
+  pamir.0115.t: "요정이 하늘로 돌아오다" # 18218224148794610502
+  pamir.0115.desc: "[azur_jamshid.GetTitledFirstName] 님, [gilgit_county.GetNameNoTier]의 요정 왕자이자 구원자가 최근 세상을 떠났습니다. 수년 전, 그분은 식인 폭군인 [shri_badat.GetTitledFirstName] 왕을 타도하고 처단하여 [gilgit_county.GetNameNoTier] 백성들을 더 나은 미래로 이끌었습니다. 비록 그분은 더 이상 이곳에 없지만, 현지 주민들은 앞으로도 오랫동안 그분의 유산을 기릴 것입니다." # 5827694633008177743
+  pamir.0115.a: "흥미롭군…." # 1733113532710551458
+  pamir.0115.tooltip: "[azur_jamshid|E]께서 서거하시고, [decision|E]를 통해 #V Shri Badat’s Palace#을 #V 파괴#함으로써 [GetModifier('RICE_pamir_shri_badats_palace').GetNameWithTooltip] [county_modifier|E]가 제거되었다면, #V Pamir#와 #V Ladakh#의 [duchies|E]에 있는 [rulers|E]들은 [decision|E]를 통해 #V Tumshiling Festival 후원#을 하실 수 있습니다." # 17676911870940462885
+  pamir.0115.tooltip.evil_azur_jamshid: "[azur_jamshid|E]께서는 돌아가셨지만, 그가 처음 구원했던 백성들을 잔혹한 바닷의 유산을 이어가며 배신했습니다. 그 역시 폭군이 되어 이전 폭군의 궁전을 개조했으며, 앞으로 여러 세대에 걸쳐 부정적으로 기억될 것입니다. 따라서 #V 파미르#!와 #V 라다크#!의 [duchies|E]에 있는 [rulers|E]들은 평소처럼 #V 툼쉴링 축제 후원하기#! [decision|E]에 접근할 수 없을 것입니다." # 8764174396544706490
+  pamir.0115.tooltip.evil_not_azur_jamshid: "[azur_jamshid|E]께서는 돌아가셨고 지역 설화에나 이름이 남을지 모르나, 잔혹했던 슈리 바닷의 유산은 계속되고 있습니다. 그의 궁전은 여전히 서 있을 뿐만 아니라 개축되었으며, 주민들은 공포 속에서 살고 있습니다. 따라서 #V 파미르#와 #V 라다크#의 [duchies|E]에 있는 [rulers|E]들은 평소처럼 #V 툼쉴링 축제 후원# [decision|E]에 접근할 수 없을 것입니다." # 13985361346016144367
+  pamir.0115.desc.evil_azur_jamshid: "[azur_jamshid.GetTitledFirstName], 요정 왕자이자 [gilgit_county.GetNameNoTier]의 구원자는 더 이상 없습니다. 수년 전, 그가 식인 폭군인 [shri_badat.GetTitledFirstName] 왕을 타도하고 처단했을 때, 그는 [gilgit_county.GetNameNoTier] 사람들을 더 낫고 밝은 미래로 이끌었습니다. 하지만 그는 마음속의 어둠을 받아들여 자신이 물리친 자를 모방하기 시작했고, 두려움과 증오를 받는 압제자로 변모했습니다. 누가 그를 이 어두운 길로 이끌었는지는 아무도 모를 일입니다.\n\n이제 그의 죽음으로, 어쩌면 [gilgit_county.GetNameNoTier] 사람들은 잠시나마 안식을 얻을지도 모릅니다. 어쩌면 아닐 수도 있고요. 어느 쪽이든, 그는 이 지역의 설화에서 좋게 기억되지는 않을 것입니다." # 2908100597095183478
+  pamir.0115.desc.evil_not_azur_jamshid: "[azur_jamshid.GetTitledFirstName], 요정 왕자이자 [gilgit_county.GetNameNoTier]의 구원자가 방금 세상을 떠났습니다. 몇 년 전, 그분은 식인종 폭군인 [shri_badat.GetTitledFirstName] 왕을 몰아내고 처단하여 [gilgit_county.GetNameNoTier] 백성들을 더 나은 미래로 이끌었습니다. 불행히도, [azur_jamshid.GetFirstName]께서 이 땅을 치유하는 임무를 완수하기 전에 새로운 폭군이 나타나 [shri_badat.GetTitledFirstName]의 끔찍한 유산을 이어받았습니다. [azur_jamshid.GetTitledFirstName]께서는 애틋하게 기억될 수 있겠지만, 현지인들의 기억 속에서 점차 희미해질 것입니다." # 16866683404118721997
+  pamir.0116.t: "xxxxx" # 1951045980481827005
+  pamir.0116.desc: "xxxxx" # 1951045980481827005
+  pamir.0116.a: "xxxxx" # 1951045980481827005
+  pamir.0117.t: "칼라지족의 부상" # 697081012938536404
+  pamir.0117.desc: "동이란 세계의 내륙 지역은 지난 수 세기 동안 수많은 민족이 흥망성쇠를 거듭하는 곳이었습니다. 이곳 험준한 산맥, 계곡, 평야에서는 부, 전쟁, 숭배가 여러 방식으로 뒤섞여 있습니다.\n\n헤프탈 제국이 멸망한 후, [hephthalite.GetCollectiveNoun]의 후예들은 이 지역에 여러 잔존 국가들을 세웠습니다. 토착민이든 다양한 이주민이든, 여러 민족의 존재는 시간이 지남에 따라 이 내륙 지역의 정치적, 문화적, 민족적 구성을 변화시켰습니다.\n\n한때 강력했던 [hephthalite.GetCollectiveNounNoTooltip]이 지배했던 땅에서, 최근 [my_new_culture.GetName]이라는 새로운 민족이 등장했습니다. 그들의 기원은 구별하기 어렵지만, 분명 우리 동족인 [old_culture.GetCollectiveNoun]의 요소가 포함되어 있을 것입니다. 이 새로운 부족들은 대체로 $heritage_turkic_name$적인 성향을 띠지만, 강한 $heritage_iranian_name$적 요소 또한 지니고 있습니다." # 2067790751898034563
+  pamir.0117.a: "이제 우리는 위대한 [my_new_culture.GetNameNoTooltip]의 일원입니다!" # 11906620417375343335
+  pamir.0117.b: "아니요, 저희는 여전히 옛 [old_culture.GetCollectiveNounNoTooltip]으로 정체성을 유지하고 있습니다." # 18286325374958563094
+  pamir.0118.t: "xxxxx" # 1951045980481827005
+  pamir.0118.desc: "xxxxx" # 1951045980481827005
+  pamir.0118.a: "xxxxx" # 1951045980481827005
+  pamir.0119.t: "xxxxx" # 1951045980481827005
+  pamir.0119.desc: "xxxxx" # 1951045980481827005
+  pamir.0119.a: "xxxxx" # 1951045980481827005
+  pamir.0120.t: "xxxxx" # 1951045980481827005
+  pamir.0120.desc: "xxxxx" # 1951045980481827005
+  pamir.0120.a: "xxxxx" # 1951045980481827005
+  pamir.0121.t: "xxxxx" # 1951045980481827005
+  pamir.0121.desc: "xxxxx" # 1951045980481827005
+  pamir.0121.a: "xxxxx" # 1951045980481827005
+  pamir.0122.t: "xxxxx" # 1951045980481827005
+  pamir.0122.desc: "xxxxx" # 1951045980481827005
+  pamir.0122.a: "xxxxx" # 1951045980481827005
+  pamir.0123.t: "xxxxx" # 1951045980481827005
+  pamir.0123.desc: "xxxxx" # 1951045980481827005
+  pamir.0123.a: "xxxxx" # 1951045980481827005
+  pamir.0124.t: "xxxxx" # 1951045980481827005
+  pamir.0124.desc: "xxxxx" # 1951045980481827005
+  pamir.0124.a: "xxxxx" # 1951045980481827005
+  pamir.0125.t: "xxxxx" # 1951045980481827005
+  pamir.0125.desc: "xxxxx" # 1951045980481827005
+  pamir.0125.a: "xxxxx" # 1951045980481827005
+  pamir.0126.t: "xxxxx" # 1951045980481827005
+  pamir.0126.desc: "xxxxx" # 1951045980481827005
+  pamir.0126.a: "xxxxx" # 1951045980481827005
+  pamir.0127.t: "xxxxx" # 1951045980481827005
+  pamir.0127.desc: "xxxxx" # 1951045980481827005
+  pamir.0127.a: "xxxxx" # 1951045980481827005
+  pamir.0128.t: "xxxxx" # 1951045980481827005
+  pamir.0128.desc: "xxxxx" # 1951045980481827005
+  pamir.0128.a: "xxxxx" # 1951045980481827005
+  pamir.0129.t: "xxxxx" # 1951045980481827005
+  pamir.0129.desc: "xxxxx" # 1951045980481827005
+  pamir.0129.a: "xxxxx" # 1951045980481827005
+  pamir.0130.t: "준비" # 666839747819429162
+  pamir.0130.desc: "저는 [badakhshan_county.GetNameNoTier]의 작은 마을 얌간으로 짧고 소박한 순례를 떠날 계획을 세웠습니다. 사실 저는 얌간 자체가 아니라 그 근처에 있는 성지로 향하는 중입니다. 그곳은 저명한 [nasir_khusraw.GetFullName] 대시인이자 학자이며 성인의 묘소가 있는 곳입니다. 바다흐샨과 파미르 주변의 많은 지역에서, 그가 생전에 이스마일파의 전도사였음에도 불구하고, 이곳의 시아파와 수니파 무슬림 모두에게 여전히 존경받고 있습니다. 많은 이들이 그의 성소를 방문할 기회를 잡으며, 저 또한 그리 할 작정입니다.\n\n이 위대한 인물의 성소를 방문하고 그의 모범을 따름으로써, 제 신앙을 강화하고 알라께 더 가까이 다가갈 수 있기를 바랍니다." # 11956095707340228793
+  pamir.0130.a: "저에게는 좋은 영적인 기회가 될 것입니다." # 12355497462976441188
+  pamir.0131.t: "얌간에게" # 4873158553283680534
+  pamir.0131.a: "진격하라!" # 8759586655781023716
+  pamir.0132.t: "도착" # 4877148824439775158
+  pamir.0132.desc: "길고 다소 험난했던 여정 끝에 얌간 마을을 지나 마침내 성지 유적에 도착했습니다. 소박한 집 크기에 불과한 작은 성소이지만, 이것이야말로 나시르 쿠스로에게 완벽하게 어울린다고 느낍니다. 이곳에는 부유하고 타락한 방탕자가 잠들어 있는 것이 아니라, 알라의 겸손하고 자비로운 종이 잠들어 있습니다.\n\n하지만 해가 지고 있으니 먼저 쉬어야겠습니다. 성소에 들어가는 것은 내일로 미루겠습니다. 그리 생각하며, 저는 흙길을 따라 순례자 숙소로 향합니다. 그곳은 국빈관 옆에 자리하고 있습니다. 그곳에서 저는 다른 방문객들과 다르지 않을 것이며, 저의 작위, 신분, 재산, 심지어 제가 따르는 이슬람 분파조차 아무런 의미가 없을 것입니다. 모든 분파의 무슬림들이 오랫동안 나시르 쿠스로에게 경의를 표해왔기 때문입니다." # 4095037390099312741
+  pamir.0132.a: "우리 모두는 알라의 눈앞에서 평등합니다." # 5440646875587546240
+  pamir.0133.t: "신전으로 들어가기" # 11467569495129450916
+  pamir.0133.desc: "아침이 밝았습니다. 오늘 저는 나시르 쿠스로우의 성소를 방문합니다. 하지만 먼저, 성소 주위를 여러 번 돌며 다양한 기도를 올릴 것입니다.\n\n모든 의식을 마치고 안으로 들어서니, 바깥 벽처럼 소박해 보이는 방들이 여러 개 있습니다. 어떤 이들에게 들으니 이 건물이 바로 나시르 쿠스로우가 수년 동안 살면서 시 등을 집필했던 곳이라고 합니다. 또한 벽에는 수많은 긁힌 자국과 얼룩들이 보이는데, 이는 수년간 독실한 순례자들이 새겨 넣은 글씨의 흔적입니다.\n\n마침내 저는 나시르 쿠스로우의 무덤이 있는 방으로 들어섭니다. 이곳 역시 겉보기에는 소박하지만, 이상하게도 제게 더 큰 영감과 기쁨을 줍니다. 안에는 몇 명의 다른 순례자들이 있었고, 그들은 대부분 기도에 집중하며 저를 무시합니다." # 10764312829705766172
+  pamir.0133.a: "방 안에서 빈자리를 하나 발견했습니다." # 6378664378525387843
+  pamir.0134.t: "기도" # 3105075337060657930
+  pamir.0134.desc: "기도를 시작하기 전에, 나는 다시 한번 방을 둘러보며 이 경험을 마음에 새깁니다. 비록 그 모습은 소박하지만, 그렇다고 불쾌하거나 단조롭다는 뜻은 아닙니다. 여전히 잘 장식되어 있으며, 나는 몇 가지 성스러운 물건들을 발견합니다. 예를 들어, 제단 위에는 향로와 램프가 놓여 있고, 더 눈에 띄는 것으로는 나시르 호스로우가 직접 썼다고 전해지는 꾸란 사본이 있습니다.\n\n나는 다시 정신을 집중하고, 이곳에 온 목적이 건축물을 감상하는 것이 아니라 알라께 예배하고 나시르 호스로우의 성스러운 삶과 업적을 되새기는 것임을 상기합니다. 기도를 시작하기 전에 잠시 눈을 감습니다." # 14016676517430618724
+  pamir.0134.a: "알라께 찬미를, 가장 자비로우시고 가장 은혜로우신 분이시여…." # 1480436068821970743
+  pamir.0135.t: "흔적을 남기다" # 10618349959135137071
+  pamir.0135.desc: "신사를 떠나기 전에, 제가 할 수 있는 마지막 한 가지 일이 있습니다. 저와 같은 순례자들이 벽에 글을 남기는 것이 이곳의 관습입니다. 어떤 이들은 이것을 신성한 장소에 낙서하는 것이라며 비난하지만, 많은 이들은 이를 자신들의 방문을 기념하고, 알라와 나시르 쿠스로우를 기리며, 어떤 면에서는 마지막 축복을 구하는 방법으로 여깁니다. 수년 동안 벽에는 몇 가지 전형적인 종류의 글들이 새겨져 왔습니다. 제가 이 벽에 무언가를 쓰고 싶다면 지금이 바로 그럴 때이므로, 저는 조용히 마음에 드는 건물의 구석으로 다가가 글을 쓸 준비를 합니다..." # 4118707624163120516
+  pamir.0135.a: "나시르 호스로가 쓴 아름다운 시 중 한 편의 사본입니다." # 15967689607254323279
+  pamir.0135.b: "알라께 바치는 나의 시, 그리고 선의 승리를 기원하며." # 10229370607209899836
+  pamir.0135.c: "세속적인 일에 대한 기도와 조언이 필요합니다." # 16175284635727690902
+  pamir.0135.d: "친척과 친구들을 위한 기도, 특히 세상을 떠난 이들을 위해 기도합니다." # 16191218716533924287
+  pamir.0135.e: "아무것도 없군. 이건 무의미해. 이럴 시간에 기도나 더 해야겠어." # 13024523781130162571
+  pamir.0135.message: "나시르 호스로우가 당신에게 영적인 영감을 주었습니다!" # 1118399982988368612
+  pamir.0136.t: "자선?" # 9276771107256094233
+  pamir.0136.desc: "저는 신전을 나와 몸은 활력이 넘치고 마음은 영감과 기쁨으로 가득 찼습니다. 이제 집으로 돌아갈 준비를 시작합니다.\n\n하지만 부유하거나 권력 있는 후원자들이 나시르 쿠스로의 신전을 방문할 때, 그들은 방문을 기념하여 다른 순례자들(특히 자신보다 불우한 이들)에게 자선을 베풀고 음식을 나누는 것이 관례라는 것을 기억해 냅니다. [ROOT.Char.GetTitleAsNameNoTooltip]으로서, 이곳을 떠나기 전에 이 기회를 이용해 자선을 베푸는 것이 마땅할 것입니다." # 1632110336057213938
+  pamir.0136.a: "저는 의무적인 규모의 자선과 나눔을 행할 것입니다." # 4291052309459861247
+  pamir.0136.b: "네! 여기에 있는 모든 이들에게 제가 할 수 있는 한 최대한 기부하겠습니다." # 10043080943727648253
+  pamir.0136.c: "내가 왜 그래야 하는가? 나는 이미 충분한 자선을 베풀었다." # 4603190062078005882
+  pamir.0137.t: "집으로 돌아가기" # 4273377872558241904
+  pamir.0137.desc: "파미르의 험준한 황야를 더 오래 헤맨 끝에, 이제 [nasir_khusraw.GetFullName]의 성지와 묘소로 떠났던 순례에서 돌아갈 시간입니다. 저는 많은 것을 배우고 경험했으며, 이 경험을 결코 잊지 못할 것입니다." # 15959084436126793443
+  pamir.0137.a: "알라의 뜻이 그러하시니! 그럴 만한 가치가 있었소." # 10013588960784626666
+  pamir.0138.t: "xxxxx" # 1951045980481827005
+  pamir.0138.desc: "xxxxx" # 1951045980481827005
+  pamir.0138.a: "xxxxx" # 1951045980481827005
+  pamir.0139.t: "xxxxx" # 1951045980481827005
+  pamir.0139.desc: "xxxxx" # 1951045980481827005
+  pamir.0139.a: "xxxxx" # 1951045980481827005
+  pamir.0140.t: "xxxxx" # 1951045980481827005
+  pamir.0140.desc: "xxxxx" # 1951045980481827005
+  pamir.0140.a: "xxxxx" # 1951045980481827005
+  pamir.0141.t: "xxxxx" # 1951045980481827005
+  pamir.0141.desc: "xxxxx" # 1951045980481827005
+  pamir.0141.a: "xxxxx" # 1951045980481827005
+  pamir.0142.t: "xxxxx" # 1951045980481827005
+  pamir.0142.desc: "xxxxx" # 1951045980481827005
+  pamir.0142.a: "xxxxx" # 1951045980481827005
+  pamir.0143.t: "xxxxx" # 1951045980481827005
+  pamir.0143.desc: "xxxxx" # 1951045980481827005
+  pamir.0143.a: "xxxxx" # 1951045980481827005
+  pamir.0144.t: "xxxxx" # 1951045980481827005
+  pamir.0144.desc: "xxxxx" # 1951045980481827005
+  pamir.0144.a: "xxxxx" # 1951045980481827005
+  pamir.0145.t: "xxxxx" # 1951045980481827005
+  pamir.0145.desc: "xxxxx" # 1951045980481827005
+  pamir.0145.a: "xxxxx" # 1951045980481827005
+  pamir.0146.t: "xxxxx" # 1951045980481827005
+  pamir.0146.desc: "xxxxx" # 1951045980481827005
+  pamir.0146.a: "xxxxx" # 1951045980481827005
+  pamir.0147.t: "xxxxx" # 1951045980481827005
+  pamir.0147.desc: "xxxxx" # 1951045980481827005
+  pamir.0147.a: "xxxxx" # 1951045980481827005
+  pamir.0148.t: "xxxxx" # 1951045980481827005
+  pamir.0148.desc: "xxxxx" # 1951045980481827005
+  pamir.0148.a: "xxxxx" # 1951045980481827005
+  pamir.0149.t: "xxxxx" # 1951045980481827005
+  pamir.0149.desc: "xxxxx" # 1951045980481827005
+  pamir.0149.a: "xxxxx" # 1951045980481827005
+  pamir.0150.t: "차우모스를 위한 조직 활동" # 11304753129884244768
+  pamir.0150.desc: "동지(冬至)가 다가오고 있으며, 이는 차우스 축제를 기념할 시간이 거의 다 되었음을 의미합니다. [ROOT.Char.GetFaith.GetAdjective] 방식에 따라 신들의 신봉자로서, 이 행사에 참여하는 것은 중요합니다. 이 시기는 한 해를 다음 해로 인도하는 데 필요한 의식을 행하고, 순수한 것과 불순한 것을 명확히 구분하는 신성한 때이기 때문입니다.\n\n저와 다른 지역 지도자들은 인근 마을 사람들을 모아 함께 올해를 위한 성대한 차우스를 준비하기 위해 열심히 노력할 것입니다. 궁극적으로, 우리가 즐길 수도 있고 즐길 수도 있는 재미에도 불구하고, 우리는 이 모든 것을 진지하게 받아들이고 행사가 영적으로 성공할 수 있도록 최선을 다해야 합니다." # 1734258482388072159
+  pamir.0150.a: "작업을 시작해보지." # 8071496781838104273
+  pamir.0151.t: "반데크" # 6988320913852425859
+  pamir.0151.desc: "올해 차우모스 준비가 진행 중이지만, 관례에 따라 저와 몇몇 저명한 현지인들은 #italic 반데크#! 의식을 거행해야 합니다. 필연적으로 한 해 동안 사람들이 세상을 떠나므로, #italic 반데크#! 는 고인의 친족들이 애도 기간을 끝내고 공동체에 다시 합류하도록 의례적으로 초대하는 기회입니다. 저는 이들 중 일부의 집을 방문하여 그들에게 차우모스에 참여해 달라고 공식적으로 요청하는 데 시간을 할애해야 합니다." # 3475515296299618914
+  pamir.0151.a: "지체 없이 시작합시다! 이 일은 차우모스 가문의 성공에 필수적입니다." # 16154318565065345050
+  pamir.0151.b: "하층민들에게 인사할 필요는 없소. 다른 지역 지도자들이 대신 가도록 하지." # 3284605832547339962
+  pamir.0152.t: "사라자리" # 14823642906721993264
+  pamir.0152.desc: "차모스는 정화 의식에 사용되는 신성한 식물인 주니퍼를 중심으로 하는 #italic 사라자리#! 의식으로 공식적으로 시작됩니다. 저와 다른 귀족들, 마을 주민들, 여행자들, 그리고 [ROOT.Char.Custom('DefaultPriestTitlePlural')] 및 기타 사람들이 지정된 장소에 모여 #italic 사라자리#! 를 지켜보고 있습니다. 이 의식 동안 어린 소년 소녀들은 성별에 따라 두 그룹으로 나뉘어 주니퍼 가지에 불을 붙이고, 신 발루마인에게 바치는 가장 많은 연기를 만들어내는 경쟁을 벌입니다." # 13023755379437001329
+  pamir.0152.desc.boy: "올해는 여자아이들보다 남자아이들이 만든 연기가 훨씬 더 자욱한 것으로 보아 남자아이들의 승리인 듯하군요! #italic 사라자리#! 행사가 끝나면 [ROOT.Char.Custom('DefaultPriestTitlePlural')]들이 노간주나무 가지를 들고 기도를 올립니다. 이어서 #italic 사라자리#!의 마지막 순서로, 아이들이 호두를 들고 마을을 신나게 뛰어다니며 모든 이의 안녕을 빌기 위해 각 집의 문을 호두로 두드립니다." # 2191210614007621261
+  pamir.0152.desc.girl: "올해는 소녀들이 승리한 듯하군요. 그들이 피운 연기가 소년들의 연기보다 훨씬 더 짙습니다! #italic 사라자리#! 행사가 끝나면, [ROOT.Char.Custom('DefaultPriestTitlePlural')]들이 노간주나무 가지를 들고 기도를 올립니다. 이어서 #italic 사라자리#!의 마지막 순서로, 아이들이 호두를 들고 마을을 신나게 뛰어다니며 각 집의 문을 이 호두로 두드려 모두의 안녕을 기원합니다." # 5591700127833828932
+  pamir.0152.a: "아주 좋군!" # 14656373444608048459
+  pamir.0153.t: "쿠탐루" # 3975980997452320847
+  pamir.0153.desc: "오늘은 #italic 쿠타므루#!로, 야생의 영역과 문명의 영역이 영적으로 가장 깊이 연결되는 중요한 날입니다.\n\n오전에는 아이들이 지역 사원 주위에 모여 #italic 추타약#! 의식을 치르며 사원의 벽, 문, 기둥에 산, 별, 여러 동물 등의 형상을 그립니다. 이 모든 것은 완전히 침묵 속에서 이루어집니다.\n\n오후에는 모두가 밀가루로 조각품을 만드는 데 집중합니다. 이 조각품들은 다음날 아침 일찍 목초지에 전시되어 방목을 위해 들판으로 이동하는 것을 상징하게 되며, 우리는 그것들을 먹는 것이 허용되지 않으므로 불신자들에게 팔릴 것입니다. 보통 조각품은 목동이나 여러 동물을 묘사하는데, 올해는 무엇을 조각하는 데 집중해야 할까요?" # 3766024089764610289
+  pamir.0153.a: "우리의 가축을 지키는 고귀한 양치기 개들." # 17822263847430912122
+  pamir.0153.b: "거친 지형에 사는 야생 수사슴들." # 2052681908453923717
+  pamir.0153.c: "우리에게 식량과 우유, 가죽을 제공하는 소들." # 5270726009574526609
+  pamir.0153.d: "우리의 겸손하고 근면한 양치기들이여." # 5317035432082577446
+  pamir.0153.e: "염소, 그들은 우리의 가장 신성한 동물입니다." # 17774466616188785040
+  pamir.0154.t: "마다히크" # 1134459842106523987
+  pamir.0154.desc: "차모스 주기의 다음 의식은 #italic 마다히크#!로, 돌아가신 조상들을 기리는 날입니다. 사원 밖에서는 #italic 칠리코틱#!이라 불리는 작은 목조 요새를 준비하여 그 안에 많은 음식을 놓습니다. 이 음식 탑에 불을 붙인 후, 우리 모두 서둘러 사원 안으로 들어가 조상들이 찾아올 시간과 공간을 드립니다. 사원 안에서 한 원로가 외칩니다.\"오 조상들이여, 오셔서 드시고 마신 뒤 떠나소서\"\n\n충분한 시간이 지나면 우리는 사원에서 나옵니다. 밖에서는 #italic 칠리코틱#!과 모든 음식이 완전히 재로 타버립니다." # 8761135443823316393
+  pamir.0154.a: "올해는 조상님들께서 만족하셨으리라." # 12263387059996833180
+  pamir.0155.t: "사웰릭 하리" # 17926711267786302562
+  pamir.0155.desc: "#italic 사웰릭 하리# 의 의식이 거행될 시간이군요. 이 의식에서는 쓸모없는 낡은 소지품을 버리고 새것으로 교체해야 합니다. 더 재미있는 점은, 지난 한 해 동안 일어났던 일들을 풍자하는 연극 공연이 있다는 것입니다. 물론 모두가 즐거운 분위기 속에서 다양한 공동체 구성원들이 조롱거리가 되자 모두가 웃음을 터뜨립니다. 얼마 전, 우리가 차우모스 축제를 준비할 때, 올해 공연의 주제를 무엇으로 정하기로 했었죠?" # 7214007209019759005
+  pamir.0155.a: "내가 이룬 여러 업적들 (혹은 과오들)" # 9656268967954783754
+  pamir.0155.b: "지역 마을 사람들의 삶에서 일어나는 사소한 일들" # 5595701543131515281
+  pamir.0155.c: "멀리서 일어난 중대사에 대한 소식" # 8312070674394530852
+  pamir.0156.t: "고슈닉" # 5635273140852692263
+  pamir.0156.desc: "오늘은 차오모스 주기의 중요한 날인 #italic 고쉬니크#입니다. 이날은 우리가 [ROOT.Char.GetFaith.GetAdjective] 신앙의 실천하는 구성원으로서 아이들을 공동체로 공식적으로 맞이하는 날입니다.\n약 일곱 살 또는 여덟 살이 된 소년 소녀들은 #italic 차일락삼바이크#를 거치는데, 이때 전통적인 튜닉을 입고 동물들이 그들을 위해 희생됩니다. 이 동물들의 피가 소년들에게 뿌려집니다. 나이가 더 많은 소년들은 대신 #italic 부트삼바이크#라는 유사한 의식을 거칩니다." # 13728347555651716448
+  pamir.0156.desc.child: "올해 태어난 아이들 중에는 나의 혈육도 있구나! 이제 다른 아이들과 더불어 그들 모두가 우리 종교에 진정으로 환영받게 되었도다!" # 13190548861984679268
+  pamir.0156.a: "다음 세대가 성장하는 모습을 보니 기쁘구려." # 11247250198718979566
+  pamir.0157.t: "고나 찬자" # 6320543427140742398
+  pamir.0157.desc: "오늘 밤은 #italic 고나 찬자#!의 밤입니다. 신성한 영역인 [ROOT.Char.GetFaith.DivineRealm]에서 신 발루마인이 천상의 준마를 타고 오셔서 우리를 축복해 주실 것입니다. 비록 그분이 최고신은 아니시지만, 태고적에 우리에게 올바른 의식을 가르쳐주신 우리의 신성한 수호자이십니다.\n\n자정에는 마을 근처의 높은 곳으로 가서 특별한 제단인 #italic 인드레인#! 앞에 설 것입니다. 그곳에서 [ROOT.Char.Custom('DefaultPriestTitle')]께서 기도를 인도하시는 가운데 발루마인께 음식과 동물 제물을 바칠 것입니다. 발루마인께 무엇을 도와달라고 청해야 할까요?" # 73512277349485282
+  pamir.0157.a: "발루마인이 저에게도 축복을 내려주시길 바랍니다." # 10128295830530969474
+  pamir.0158.t: "라왁 비이릭" # 3710190372022468997
+  pamir.0158.desc: "#italic 고나 찬자#! 다음 의식은 #italic 라왁 비이릭#!, 즉 여우의 날입니다. 여우는 교활한 동물로, 한 해의 행운과 불운을 책임집니다. 이 의식의 일환으로, 젊은이들은 이른 아침부터 근처 언덕과 숲을 돌아다니며 여우를 찾고, 여우들이 사는 동굴 근처에서 시끄러운 북과 음악을 연주하여 그들을 유인합니다. 만약 그들이 본 첫 번째 여우가 산의 순수한 거처인 언덕 위로 달려간다면, 다음 해에는 모든 이에게 행운이 깃들 것입니다. 만약 아래로 달려간다면, 불운이 닥칠 것입니다. 만약 여우를 한 마리도 찾지 못한다면… 아마도 올해는 그들이 우리보다 더 교활했나 봅니다." # 8568665688082591004
+  pamir.0158.a: "여우가 뭐라고 말하나요?" # 17551512146172829146
+  pamir.0158.toast.good: "여우가 언덕을 올랐습니다!" # 10920976148978415156
+  pamir.0158.toast.neutral: "여우를 찾지 못했습니다." # 14424467723765109789
+  pamir.0158.toast.bad: "여우가 언덕 아래로 내려갔습니다!" # 14500621504034006480
+  pamir.0159.t: "최후의 춤" # 129546690188091326
+  pamir.0159.desc: "여우 사냥이 끝나면 정오에 모두 마을로 돌아와 마지막이자 가장 큰 축제가 열립니다. 음식과 춤도 있지만, 무대의 중심을 차지하는 한 가지 공연이 있습니다.\n\n마을 광장 중앙에서 많은 이들이 얼굴을 가리고 있습니다. 뿐만 아니라, 가면을 썼든 안 썼든 그들 중 다수는 이성의 옷을 입고 있습니다. 어떤 남자들은 여자 옷을 입고, 어떤 여자들은 남자 옷을 입고 있습니다. 한편, 남자들은 두 그룹으로 나뉩니다. '순수한' 남자들은 과거의 엄숙하고 영예로운 노래를 부르는 반면, '불순한' 남자들은 거친 리듬의 외설적인 선율을 노래합니다. 이것이야말로 차오모스의 정점입니다. 즉, 영역의 경계가 무너졌다가 다시 세워지기 직전의 순간인 것입니다." # 7723871449694176755
+  pamir.0159.a: "훌륭하군!" # 16848862372218168470
+  pamir.0160.t: "차모스 종료" # 5868326381141937210
+  pamir.0160.desc: "마침내, 차모스의 모든 의식이 제대로 거행되었고 몇 주간 이어지던 축하 행사가 막을 내립니다. 우리 모두 참으로 많은 추억을 만들었군요! 새해가 밝았으니, 부디 괜찮은 한 해가 되기를 바랍니다." # 12265270476719556192
+  pamir.0160.a: "다음 기회에 뵙겠습니다." # 3527578574338849954
+  pamir.0161.t: "xxxxx" # 1951045980481827005
+  pamir.0161.desc: "xxxxx" # 1951045980481827005
+  pamir.0161.a: "xxxxx" # 1951045980481827005
+  pamir.0162.t: "xxxxx" # 1951045980481827005
+  pamir.0162.desc: "xxxxx" # 1951045980481827005
+  pamir.0162.a: "xxxxx" # 1951045980481827005
+  pamir.0163.t: "xxxxx" # 1951045980481827005
+  pamir.0163.desc: "xxxxx" # 1951045980481827005
+  pamir.0163.a: "xxxxx" # 1951045980481827005
+  pamir.0164.t: "xxxxx" # 1951045980481827005
+  pamir.0164.desc: "xxxxx" # 1951045980481827005
+  pamir.0164.a: "xxxxx" # 1951045980481827005
+  pamir.0165.t: "xxxxx" # 1951045980481827005
+  pamir.0165.desc: "xxxxx" # 1951045980481827005
+  pamir.0165.a: "xxxxx" # 1951045980481827005
+  pamir.0166.t: "xxxxx" # 1951045980481827005
+  pamir.0166.desc: "xxxxx" # 1951045980481827005
+  pamir.0166.a: "xxxxx" # 1951045980481827005
+  pamir.0167.t: "xxxxx" # 1951045980481827005
+  pamir.0167.desc: "xxxxx" # 1951045980481827005
+  pamir.0167.a: "xxxxx" # 1951045980481827005
+  pamir.0168.t: "xxxxx" # 1951045980481827005
+  pamir.0168.desc: "xxxxx" # 1951045980481827005
+  pamir.0168.a: "xxxxx" # 1951045980481827005
+  pamir.0169.t: "xxxxx" # 1951045980481827005
+  pamir.0169.desc: "xxxxx" # 1951045980481827005
+  pamir.0169.a: "xxxxx" # 1951045980481827005
+  pamir.0170.t: "xxxxx" # 1951045980481827005
+  pamir.0170.desc: "xxxxx" # 1951045980481827005
+  pamir.0170.a: "xxxxx" # 1951045980481827005
+  pamir.0171.t: "xxxxx" # 1951045980481827005
+  pamir.0171.desc: "xxxxx" # 1951045980481827005
+  pamir.0171.a: "xxxxx" # 1951045980481827005
+  pamir.0172.t: "xxxxx" # 1951045980481827005
+  pamir.0172.desc: "xxxxx" # 1951045980481827005
+  pamir.0172.a: "xxxxx" # 1951045980481827005
+  pamir.0173.t: "xxxxx" # 1951045980481827005
+  pamir.0173.desc: "xxxxx" # 1951045980481827005
+  pamir.0173.a: "xxxxx" # 1951045980481827005
+  pamir.0174.t: "xxxxx" # 1951045980481827005
+  pamir.0174.desc: "xxxxx" # 1951045980481827005
+  pamir.0174.a: "xxxxx" # 1951045980481827005
+  pamir.0175.t: "xxxxx" # 1951045980481827005
+  pamir.0175.desc: "xxxxx" # 1951045980481827005
+  pamir.0175.a: "xxxxx" # 1951045980481827005
+  pamir.0176.t: "xxxxx" # 1951045980481827005
+  pamir.0176.desc: "xxxxx" # 1951045980481827005
+  pamir.0176.a: "xxxxx" # 1951045980481827005
+  pamir.0177.t: "xxxxx" # 1951045980481827005
+  pamir.0177.desc: "xxxxx" # 1951045980481827005
+  pamir.0177.a: "xxxxx" # 1951045980481827005
+  pamir.0178.t: "xxxxx" # 1951045980481827005
+  pamir.0178.desc: "xxxxx" # 1951045980481827005
+  pamir.0178.a: "xxxxx" # 1951045980481827005
+  pamir.0179.t: "xxxxx" # 1951045980481827005
+  pamir.0179.desc: "xxxxx" # 1951045980481827005
+  pamir.0179.a: "xxxxx" # 1951045980481827005
+  pamir.0180.t: "툼실링을 준비하며" # 16259315253447764170
+  pamir.0180.desc: "비록 툼실링 축제가 매년 초겨울에 정기적으로 열리긴 하지만, 저는 가까운 마을에서 열리는 이 축제 중 하나를 공식적으로 후원해야 할 때라고 생각합니다. 특히 [gilgit_county.GetNameNoTier] 근처 파미르 고원 지역에 사는 이들에게, 이곳을 한때 지배하며 백성들을 억압했던 식인 폭군 [shri_badat.GetTitledFirstName]을 무찌른 영웅 [azur_jamshid.GetTitledFirstName]의 전설을 기리는 것은 중요한 행사입니다." # 3127457813973101120
+  pamir.0180.a: "준비합시다!" # 4130848738446070067
+  pamir.0181.t: "툼실링이 시작되다" # 7529205876335409737
+  pamir.0181.desc: "툼실링 축제가 곧 다가옵니다! 축제가 시작되기 며칠 전부터 겨울을 대비한 고기 식량이 건조되고 있습니다. 이 축제는 [azur_jamshid.GetTitledFirstName] 께서 [gilgit_county.GetNameNoTier] 에서 [shri_badat.GetTitledFirstName] 를 상대로 거둔 승리를 기념하는 것이지만, 지역 주민들이 겨울을 나기 위한 충분한 식량을 확보하는 중요한 의식이기도 합니다." # 3937306605940126266
+  pamir.0181.a: "이번 겨울이 우리에게 너무 혹독하지만 않기를 바랍니다." # 9554219154860408450
+  pamir.0182.t: "#bold 거대한 모닥불#!" # 4169338512570265925
+  pamir.0182.desc: "마침내 오늘, 아니 오늘 밤이 툼실링 축제입니다. 해가 지자마자 많은 남성들이 횃불을 들고 음악을 연주하며 마을에서 쏟아져 나와 그것들을 거대한 모닥불 속으로 던집니다.\n\n전설에 따르면, 잔혹한 [shri_badat.GetTitledFirstName]는 버터로 된 심장을 가지고 있었기에, 그를 물리치기 위해 [azur_jamshid.GetTitledFirstName]와 지역 주민들은 많은 횃불을 모아 [shri_badat.GetTitledFirstName]가 살던 궁전 주위에 쌓아 그의 심장을 파괴했다고 합니다. 어떤 이들은 이로써 폭군이 죽었다고 말하지만, 다른 많은 이들은 그저 약해졌을 뿐이며 그가 이 계곡 중 한 곳에 숨어 가끔씩 사악한 마법으로 주민들에게 저주를 내리고 있기 때문에 이 행사를 재현하는 것이 필수적이라고 말합니다." # 15592908711878504494
+  pamir.0182.a: "그가 아직 살아있는지 누가 알겠소?" # 9693266044045447680
+  pamir.0183.t: "노래와 축제" # 10277427753002079227
+  pamir.0183.desc: "위대한 모닥불이 타오르는 것을 모두가 만족스럽게 지켜보는 가운데, 마을 사람들은 [azur_jamshid.GetTitledFirstName]의 [shri_badat.GetTitledFirstName]에 대한 승리에 관한 다양한 노래를 부르기 시작하는데, 그중 일부는 그 시대로 거슬러 올라간다고 합니다. 예를 들어, [azur_jamshid.GetTitledFirstName]이 그와 다른 평민들에게 [shri_badat.GetTitledFirstName]의 궁전을 파괴하라고 지시했을 때 한 마을 사람이 불렀다는 노래가 있습니다.\n\n#italic ’내 본성은 단단한 쇠붙이라네,’ 슈리 바닷이 말했지.\n허나 나, 농부 뎀 싱의 아들 코토만이 강인하니,\n이 쇠스랑으로 그대의 왕궁을 땅바닥까지 허물리라.\n보라, 비록 그대가 저주받은 혈통일지라도,\n나, 뎀 싱의 아들은 단단한 쇠붙이라네;\n이 쇠스랑으로 그대의 궁전마저 평탄하게 만들리니;\n잘 보아라! 잘 보아라!#!" # 15224743003780345773
+  pamir.0183.a: "모두들 즐기십시오!" # 6111998269011293859
+  pamir.0184.t: "xxxxx" # 1951045980481827005
+  pamir.0184.desc: "xxxxx" # 1951045980481827005
+  pamir.0184.a: "xxxxx" # 1951045980481827005
+  pamir.0185.t: "xxxxx" # 1951045980481827005
+  pamir.0185.desc: "xxxxx" # 1951045980481827005
+  pamir.0185.a: "xxxxx" # 1951045980481827005
+  pamir.0186.t: "xxxxx" # 1951045980481827005
+  pamir.0186.desc: "xxxxx" # 1951045980481827005
+  pamir.0186.a: "xxxxx" # 1951045980481827005
+  pamir.0187.t: "xxxxx" # 1951045980481827005
+  pamir.0187.desc: "xxxxx" # 1951045980481827005
+  pamir.0187.a: "xxxxx" # 1951045980481827005
+  pamir.0188.t: "xxxxx" # 1951045980481827005
+  pamir.0188.desc: "xxxxx" # 1951045980481827005
+  pamir.0188.a: "xxxxx" # 1951045980481827005
+  pamir.0189.t: "xxxxx" # 1951045980481827005
+  pamir.0189.desc: "xxxxx" # 1951045980481827005
+  pamir.0189.a: "xxxxx" # 1951045980481827005
+  pamir.0190.t: "xxxxx" # 1951045980481827005
+  pamir.0190.desc: "xxxxx" # 1951045980481827005
+  pamir.0190.a: "xxxxx" # 1951045980481827005
+  pamir.0191.t: "xxxxx" # 1951045980481827005
+  pamir.0191.desc: "xxxxx" # 1951045980481827005
+  pamir.0191.a: "xxxxx" # 1951045980481827005
+  pamir.0192.t: "xxxxx" # 1951045980481827005
+  pamir.0192.desc: "xxxxx" # 1951045980481827005
+  pamir.0192.a: "xxxxx" # 1951045980481827005
+  pamir.0193.t: "xxxxx" # 1951045980481827005
+  pamir.0193.desc: "xxxxx" # 1951045980481827005
+  pamir.0193.a: "xxxxx" # 1951045980481827005
+  pamir.0194.t: "xxxxx" # 1951045980481827005
+  pamir.0194.desc: "xxxxx" # 1951045980481827005
+  pamir.0194.a: "xxxxx" # 1951045980481827005
+  pamir.0195.t: "xxxxx" # 1951045980481827005
+  pamir.0195.desc: "xxxxx" # 1951045980481827005
+  pamir.0195.a: "xxxxx" # 1951045980481827005
+  pamir.0196.t: "xxxxx" # 1951045980481827005
+  pamir.0196.desc: "xxxxx" # 1951045980481827005
+  pamir.0196.a: "xxxxx" # 1951045980481827005
+  pamir.0197.t: "xxxxx" # 1951045980481827005
+  pamir.0197.desc: "xxxxx" # 1951045980481827005
+  pamir.0197.a: "xxxxx" # 1951045980481827005
+  pamir.0198.t: "xxxxx" # 1951045980481827005
+  pamir.0198.desc: "xxxxx" # 1951045980481827005
+  pamir.0198.a: "xxxxx" # 1951045980481827005
+  pamir.0199.t: "xxxxx" # 1951045980481827005
+  pamir.0199.desc: "xxxxx" # 1951045980481827005
+  pamir.0199.a: "xxxxx" # 1951045980481827005
+  pamir.0200.t: "주니퍼" # 18314924962681274448
+  pamir.0200.desc: "나와 내 수행원들은 영지 내 파미르와 힌두쿠시 산맥을 여행하던 중 숲에서 잠시 길을 잃었습니다. 하지만 다행히도 이 지역 곳곳에서 자라는 많은 양의 노간주나무를 발견했습니다. 나는 이것을 여러 종교적 및 약초적 용도로 사용하기 위해 몇 개 수집하기로 결정했습니다." # 10526376326885233466
+  pamir.0200.a: "어쩌면 길을 잃은 것이 잘된 일일지도 모르지." # 12371301429118035212
+  pamir.0201.t: "사냥꾼들" # 4328436715851106090
+  pamir.0201.desc: "파미르 고원에는 인간이 거주하지 않고 인근 지역 마을의 사냥꾼들만이 방문하는 험준한 지역들이 있습니다. 최근 이 외딴 지역 중 한 곳에서 두 사냥꾼이 시비를 붙었는데, 서로의 사냥감을 상대방이 훔쳐갔다고 주장하고 있습니다. 이 문제가 제게 보고되었으며, 그들은 제가 이 사건에 대해 판결을 내려주기를 바라고 있습니다." # 15451877019367849918
+  pamir.0201.a: "북쪽의 사냥꾼이 더 설득력 있는 주장을 펼치고 있습니다." # 3098297605629148926
+  pamir.0201.b: "남쪽에서 온 사냥꾼의 주장이 더 설득력이 있군." # 3259471017630524634
+  pamir.0201.c: "둘 다 사악한 목적으로 나를 속이는 가짜들이로군!" # 12359340794116152280
+  pamir.0201.d: "이 천민들의 문제에 신경 쓸 시간이 없군." # 9858427099007065724
+  pamir.0202.t: "청금석" # 16699262193119199877
+  pamir.0202.desc: "아, 청금석이로군. 고대부터 귀하게 여겨져 온 귀한 푸른 보석이로다! 세상의 공급량 대부분이 파미르 고원의 바다흐샨에서 나오기 때문에, 현지인들은 오늘처럼 종종 가공하지 않은 청금석을 공물 형태로 내게 선물하곤 하지." # 7520010281394827912
+  pamir.0202.a: "선물에 대단히 감사합니다." # 12933116929650610594
+  pamir.0203.t: "사르이 상" # 9183546043095664959
+  pamir.0203.desc: "오늘 나는 이 지역의 큰 부의 원천인 사리 상의 남청석 광산을 시찰하고 있습니다. 최근 일부 광부들이 감독관들이 무자비하며 자신들을 과도하게 부리고 있으며, 심지어 일부 경우에는 노동자들에게 불필요한 부상을 입히고 있다고 말했습니다. 기댈 곳이 없는 그들은 나에게 호소하고 있습니다. 양측 모두 자신들의 주장을 펼치고 있지만, 안타깝게도 양쪽 모두 설득력이 있군요." # 5721577472770921809
+  pamir.0203.a: "나는 감독관들이 잘못했다고 생각하오. 사람들을 너무 혹사시켜서는 안 되오." # 6289538300537355353
+  pamir.0203.b: "광부들이 틀렸음이 분명하오. 그들은 게으르고 일을 덜 하길 원하고 있소!" # 15549251279164460562
+  pamir.0203.c: "어떤 충돌이 발생하기 전에 양측이 합의에 이르도록 도와주십시오." # 2265582504083163298
+  pamir.0204.t: "쿠히 랄" # 12551673079766154168
+  pamir.0204.desc: "오늘 나는 이 지역에 막대한 부를 가져다주는 루비 광산인 쿠흐이 랄을 시찰하고 있습니다. 최근 광부들 중 일부가 감독관들이 무자비하며 자신들을 과로하게 만들고, 심지어 경우에 따라서는 노동자들에게 불필요한 부상을 입히고 있다고 말했습니다. 기댈 곳이 없는 그들은 나에게 호소하고 있습니다. 양측 모두 자신의 주장을 펼치지만, 안타깝게도 양측의 주장이 모두 설득력이 있습니다." # 4473411308537438806
+  pamir.0204.a: "나는 감독관들이 잘못했다고 생각하오. 사람들을 너무 혹사시켜서는 안 되오." # 6289538300537355353
+  pamir.0204.b: "광부들이 틀렸음이 분명하오. 그들은 게으르고 일을 덜 하길 원하고 있소!" # 15549251279164460562
+  pamir.0204.c: "어떤 충돌이 발생하기 전에 양측이 합의에 이르도록 도와주십시오." # 2265582504083163298
+  pamir.0205.t: "청금석 밀수꾼들" # 8405295950280425080
+  pamir.0205.desc: "사르이 상의 청금석 광산에서, 일부 광부들이 이 귀한 푸른 보석들을 몰래 빼돌려 암시장에 팔아넘긴 혐의로 고발당했습니다. 이 범죄자들에게 어떤 조치를 취할지는 저에게 달렸습니다." # 8843781167987597747
+  pamir.0205.a: "그들은 그저 가족을 먹여 살리고 싶었을 뿐입니다. 그들을 보내주시오." # 14354643081898122734
+  pamir.0205.b: "투옥이 그 죄에 대한 공정한 처벌이 될 것입니다." # 6289197310386841580
+  pamir.0205.c: "다른 자들이 감히 시도할 경우 경고가 되도록 그들을 처형하시오." # 14184334078614158202
+  pamir.0206.t: "루비 밀수꾼들" # 7339111742747392915
+  pamir.0206.desc: "쿠히 랄의 루비 광산에서, 일부 광부들이 귀한 보석들을 몰래 빼돌려 암시장에 팔아넘긴 혐의를 받고 있습니다. 이 범죄자들을 어떻게 처리할지 제가 결정해야 합니다." # 1543020422799963465
+  pamir.0206.a: "그들은 그저 가족을 먹여 살리고 싶었을 뿐입니다. 그들을 보내주시오." # 14354643081898122734
+  pamir.0206.b: "투옥이 그 죄에 대한 공정한 처벌이 될 것입니다." # 6289197310386841580
+  pamir.0206.c: "다른 자들이 감히 시도할 경우 경고가 되도록 그들을 처형하시오." # 14184334078614158202
+  pamir.0207.t: "파미르 온천" # 16689036869730811311
+  pamir.0207.desc: "파미르 고원은 여러 온천의 본거지이며, 저는 오늘 현지인들 사이에서도 덜 알려진 곳 중 하나를 방문하기로 결정했습니다. 방해받지 않기 위해서였죠. 정말 편안했고, 비록 잠시 동안이었지만 걱정거리를 잊는 데 도움이 되었습니다." # 7027639725159892457
+  pamir.0207.a: "여행을 오게 되어 기쁩니다." # 9728068324175416889
+  pamir.0208.t: "아름다운 호수" # 9132323232924093376
+  pamir.0208.desc: "일부 사람들이 상상하기 어려울 수도 있겠지만, 그림 같은 호수들은 웅장한 파미르와 힌두 쿠시 산맥에서 찾아볼 수 있습니다. 오늘 저는 이 고지대에 있는 제 영토 내의 어딘가로 여행하던 중 그중 한 곳을 발견했습니다. 그 호수는 청금석이나 하늘처럼 가장 푸른빛을 띠고 있었으며, 주변은 화려한 식물들로 둘러싸여 있었습니다." # 13800295863894690638
+  pamir.0208.a: "자연의 경이로움이 이러하도다!" # 8919157571515101162
+  pamir.0209.t: "암각화" # 10386335757333195672
+  pamir.0209.desc: "파미르와 힌두쿠시 산맥에서는 암각화가 흔히 발견됩니다. 수세기 동안 사람들이 이 지역을 통과해 왔기에, 저 역시 여행 중에 하나를 발견한 것은 놀라운 일이 아닙니다. 이 암각화에는 사냥꾼, 동물들, 그리고 해와 나무와 같은 자연의 여러 모습들이 묘사되어 있는 듯합니다. 그 소박함에도 불구하고, 시대를 초월한 매력이 느껴집니다." # 7152482494493673373
+  pamir.0209.a: "우리보다 앞서간 이들에 대한 증거로다." # 2151740045500023748
+  pamir.0210.t: "해독 불가" # 3155447026566023155
+  pamir.0210.desc: "파미르와 힌두쿠시 산맥에서는 암각화가 흔히 발견됩니다. 이 지역은 수세기 동안 사람들이 오갔으니, 저 역시 여행 중에 하나를 발견한 것은 놀라운 일이 아닙니다. 이 암각화는 비교적 최근의 것으로 보이며, 사람들이 일상적인 활동을 하는 모습을 묘사하고 있습니다. 또한 우리 중 아무도 해독할 수 없는 언어로 된 몇몇 명문도 포함하고 있습니다." # 9203003281650009249
+  pamir.0210.a: "그 텍스트는 낡아서 어느 쪽으로든 읽기가 어렵습니다." # 16581805198409503229
+  pamir.0211.t: "와한" # 12974724194887469034
+  pamir.0211.desc: "와칸 회랑은 이 세상에서 가장 외지고도 경이로운 장소 중 하나일 것입니다. 오늘 내 영지의 정착지로 가기 위해 그곳을 지나면서, 나는 머리 위로 옅은 푸른 하늘을 보았습니다. 내 앞에는 끝없이 펼쳐진 녹색과 황갈색의 평원이 있었고, 내 양옆으로는 계곡을 따라 웅장하고 오래된 두 줄의 산맥이 버티고 있었습니다." # 6990350184489058756
+  pamir.0211.a: "수많은 이들이 수 세기 동안 이곳을 거쳐 갔지…." # 16050112076326347746
+  pamir.0212.t: "파미르의 유목민들" # 3018398254162533806
+  pamir.0212.desc: "[nomad_county.GetNameNoTier]의 한 계곡에 최근 몇몇 유목 부족들이 이주해 왔습니다. 이 지역의 여름 목초지는 종종 이 유목민들에게 매력적인 장소이기에 이는 드문 일이 아닙니다. 때로는 정착한 현지인들이 이들을 기꺼이 받아들이고 심지어 친구가 되기도 합니다. 하지만 다른 경우에는 두 집단 사이에 갈등이 발생하기도 합니다." # 1989046438272215317
+  pamir.0212.a: "이번에는 일이 잘 풀리기를 바라네." # 15846995890719645683
+  pamir.0212.toast.good: "유목민들이 평화롭게 정착합니다!" # 18119363749385946391
+  pamir.0212.toast.bad: "유목민들이 들어와 긴장을 유발합니다!" # 10378409954353931671
+  pamir.0213.t: "유목민에게 용병을 제의받으셨습니까?" # 6842705229110315661
+  pamir.0213.desc: "유목 부족 하나가 제 관할지인 [nomad_county.GetNameNoTier]의 파미르 고원 일부 지역으로 이주해 왔습니다. 그곳에는 보통 이런 유목민들을 끌어들이는 풍부한 여름 목초지가 있습니다. 이런 일은 자주 일어나지만, 이 유목 부족은 전쟁에 능숙하며 저의 휘하에서 전사로 복무할 것을 제안해 왔습니다. 이는 매력적인 제안이지만, 회의적인 현지인들에게는 의문을 살 수도 있겠지요." # 13224483999489855788
+  pamir.0213.a: "그들은 내 군대에 지원 부대로 복무할 수 있습니다." # 12156102888584384985
+  pamir.0213.b: "그들이 내 병력을 훈련시킬 수 있는 지역 민병대라면 더 낫겠지." # 4105032541960859645
+  pamir.0213.c: "지금 당장은 그들에게 어떤 도움도 필요하지 않습니다." # 14698535260859114182
+  RICE_pamir_nomad_spawn_event_troops: "파미르 유목 보조군" # 648601740215673678
+  pamir.0214.t: "음란한 그릇들" # 2894027809851896173
+  pamir.0214.desc: "파미르 지역 고유의 양 품종은 현지에서 #italic 나크지파르#! 또는 #italic 라마포이#!와 같은 이름으로 알려져 있으며, 거대한 뿔로 유명합니다. 이곳의 목자들은 종종 이러한 뿔로 소박하지만 아름다운 큰 그릇을 만듭니다. 오늘 현지인들에게 몇 개를 받았는데, 제가 주최할 모든 연회에 유용하게 쓰일 것입니다." # 16645733153025879535
+  pamir.0214.a: "그릇들은 분명 아름답습니다." # 4842755512203157985
+  pamir.0215.t: "거대한 뿔" # 3811940864282964942
+  pamir.0215.desc: "나는 내 영지 일부인 파미르 산맥을 여행하던 중, 지역 양치기 중 한 명의 거처에서 잠시 휴식을 취하고 있다. 그는 현지 방언으로 #italic 나크지파르#! 또는 #italic 라마포이#!라 불리는, 뿔이 큰 현지 품종 양 떼에 대해 기쁘게 이야기해 주었다. 이 뿔들이 너무 커서 그가 양 떼를 가두는 울타리조차 이 뿔들로 만들었다고 한다!" # 13176062846013914019
+  pamir.0215.a: "흥미로운 정보로군." # 3397736063046594888
+  pamir.0216.t: "부루쇼 분쟁" # 6373897660865528517
+  pamir.0216.desc: "파미르 고원에 위치한 작지만 강력한 민족인 부루쇼족은 전투력으로 유명합니다. 불행히도 제 영토 내의 두 부루쇼 부족, 구체적으로는 [burusho_county.GetNameNoTier] 지역의 두 부족이 불화를 일으키기 시작했습니다. 이대로 방치하면 지역 주민들 사이에 큰 혼란과 불필요한 갈등을 초래할 것이 분명합니다." # 5325287037426523962
+  pamir.0216.a: "우리가 할 수 있는 것이 없습니까? 그들에게 멈추라고 전해주십시오." # 2033956366470193923
+  pamir.0216.b: "나는 나의 외교 기술을 사용하여 이 분쟁을 해결할 것이다." # 14022835278803939443
+  pamir.0216.c: "나는 교활함과 속임수를 써서 이 분쟁을 해결할 것이다." # 5465585004144701101
+  pamir.0216.d: "군사적 위협을 사용하여 분쟁을 해결하겠습니다." # 13982805506733198433
+  pamir.0216.toast.bad: "우리의 불화 해결 시도는 실패했습니다." # 17770976480463557225
+  pamir.0216.toast.good: "우리의 불화 해결 시도가 성공했습니다" # 5437011735946400813
+  pamir.0217.t: "디람 피티" # 901132601202910467
+  pamir.0217.desc: "저는 $k_burusho_county$의 [burusho_county.GetNameNoTier]에 있는 외딴 파미르 계곡을 지나갔는데, 그곳은 부루쇼 사람들이 살고 있었습니다. 그곳에서 저는 흙길 위에 있는 가난한 농부를 만났는데, 그는 농부나 목동처럼 보였습니다. 그가 제 앞에 엎드려, 부루쇼 사람들의 전통적인 달콤한 맛의 밀빵인 #italic diram fitti#!의 절반을 저에게 바쳤는데, 그 빵에는 약간의 버터가 섞여 있었습니다. 그것이 그가 입고 있는 옷 외에 가진 전부였습니다." # 15336784710089769902
+  pamir.0217.a: "감사합니다! 당신은 의심할 여지 없이 훌륭한 분이십니다." # 2462897155551744810
+  pamir.0217.b: "저는 이것을 받아들일 수 없습니다. 당신이 저보다 이 음식이 더 필요합니다." # 8428965987943754119
+  pamir.0217.c: "네가 나에게 이런 보잘것없는 '선물'을 바치다니, 감히 그럴 수 있느냐! 당장 물러가라!" # 17536385381392145981
+  pamir.0217.d: "거절해야겠소. 대신 이 금을 가져가서 가족들을 먹이시오." # 15337917330900460010
+  pamir.0218.t: "부루쇼 요리" # 7594174823456834500
+  pamir.0218.desc: "저는 [burusho_county.GetNameNoTier]의 부루쇼 촌장 댁을 방문하고 있습니다. 부루쇼족은 파미르 지역의 외딴 계곡에서 수많은 세월 동안 살아왔으며, 제 영토 내에 거주하는 이들과 좋은 관계를 맺는 것이 중요합니다. 촌장은 양고기를 채운 매콤한 만두인 #italic 맘투#!, 밀과 삶은 고기로 만든 #italic 하리사#!, 그리고 평범한 플레인 요구르트 같은 부루쇼 별미를 제게 권합니다." # 17768564937864930661
+  pamir.0218.a: "감사합니다. 우선 이 맛있는 음식을 즐기도록 합시다!" # 11119026542679466439
+  pamir.0218.b: "입맛이 없으니, 용건부터 이야기하시지요." # 13488286429217889709
+  pamir.0219.t: "바트 포리지" # 5770555725888265526
+  pamir.0219.desc: "갑자기 #italic 바트#! 죽이 당기는군. 비록 소박하지만 파미르 이란인들의 전통적인 별미지. 이건 파미르 산맥 특정 지역에서만 자라는 희귀한 적색 밀인 #italic 러시-카흐트#!로 만든다네. 은은하면서도 풍부한 단맛이 나지만, 이 밀의 희귀성 때문에 요리사들이 만들려면 비쌀 걸세." # 1703757780337525925
+  pamir.0219.a: "다시 생각해보니, 그만두겠습니다." # 14998774913393035974
+  pamir.0219.b: "네! 제 갈증을 해소해야겠습니다." # 12123393310451231047
+  pamir.0220.t: "뽕나무 열매 요리" # 6104582170439217517
+  pamir.0220.desc: "뽕나무 열매는 파미르 이란인들에게 인기가 많으며, 때로는 가난한 가정이 몇 주 동안 오로지 뽕나무 열매에만 의지해 연명하기도 합니다. 저는 방금 저를 위해 대량의 뽕나무 열매를 받았는데, 제 요리사들이 이 열매를 무엇에 가장 많이 사용해야 할지 묻고 있습니다. 외부인들은 잘 모르는 뽕나무 열매의 유용한 점들이 많기 때문입니다." # 4446446272680420969
+  pamir.0220.a: "가능한 한 빨리 신선할 때 먹어야 합니다!" # 2501551822967196776
+  pamir.0220.b: "과일 잼과 시럽이 제게는 가장 맛있게 들리는군요!" # 14139338984899873470
+  pamir.0220.c: "#italic 픽흐트#!, 빵에 사용할 말린 뽕나무 가루입니다." # 1762056621276352577
+  pamir.0221.t: "새로운 가문" # 11130924794650859275
+  pamir.0221.desc: "지역 파미르 귀족이 새 거처 건축을 시작하려 합니다. 파미르 이란인들 사이의 관습에 따라, 그가 건축을 시작하기 전에 부지 안에 뽕나무를 심어야 합니다. 저는 그의 저명한 손님 중 한 명으로서 그 의식을 지켜보기 위해 그곳에 있습니다." # 16660150179888972389
+  pamir.0221.a: "모든 일이 잘 풀리기를 바랍니다." # 5876171479841105354
+  pamir.0222.t: "시로간" # 13786685380147421865
+  pamir.0222.desc: "저는 제 영지 내 파미르 이란인 마을 중 한 곳을 방문하고 있습니다. 주민들은 가난하지만 환대하며 친절합니다. 그들은 다양한 곡물과 콩으로 만든 오쉬(osh) 국수와, 이 지역의 관대함과 겸손의 중요성에 대한 우화와 관련되어 신성시되는 우유와 버터로 만든 유명한 #italic 시로간#!을 대접합니다." # 12728391895213736736
+  pamir.0222.a: "그들의 음식을 기쁘게 받아들이겠습니다." # 7740088457659201282
+  pamir.0222.b: "왜 더 맛있는 음식을 먹을 수 없는가?" # 1391737880871398937
+  pamir.0223.t: "오스톤스" # 4932765019089857193
+  pamir.0223.desc: "파미르 산맥에 있는 제 영토 일부 지역에서는 현지 언어로 #italic 오스톤#!이라고 불리는, 영적인 힘이 있다고 여겨져 천 조각이나 아름다운 돌로 장식된 고목들을 흔히 볼 수 있습니다. 제가 여행 중에 그중 하나를 발견했습니다. 아마도 이곳에 무언가를 남겨두는 것이 [ROOT.Char.GetFaith.HighGodName]의 축복을 받는 데 현명할지도 모르겠습니다." # 15482485238974105367
+  pamir.0223.a: "그냥 넘어가시지요. 아무것도 남기지 마십시오." # 13722631414299995030
+  pamir.0223.b: "천 조각을 남겨두다" # 6178092730244903522
+  pamir.0223.c: "일반 돌멩이 몇 개를 남겨두시오" # 3013550593068771421
+  pamir.0223.d: "귀한 보석 몇 개를 남겨두시오" # 16551997374595887337
+  pamir.0224.t: "카드고\n" # 969455019659537792
+  pamir.0224.desc: "내 영지 내 파미르 이란인들이 지배하는 지역을 여행하던 중, 현지 안내인이 우리 일행을 멈춰 세우더니 #italic 카담고!(qadamgoh)#를 발견했다고 말합니다. 이곳은 수 세대 전 현지 성인이나 성스러운 인물들이 방문했다고 전해지는 장소로, 보통 나무 숲이나 바위에 특별한 표시가 되어 있습니다. 안내인은 표시가 있는 곳으로 서둘러 다가가 [ROOT.Char.GetFaith.HighGodName]께 기도를 올립니다." # 5310395553862675882
+  pamir.0224.a: "안내자가 끝나기를 초조하게 기다립니다" # 16221301966534153561
+  pamir.0224.b: "안내자를 따라 기도를 올리십시오" # 3766704262200707396
+  pamir.0225.t: "불교 암각화" # 15351757810099750433
+  pamir.0225.desc: "파미르와 힌두쿠시 산맥의 왕들은 아주 먼 옛날, 이 땅에서 가장 독실한 불교도들이었다고 전해지며, 그들의 영향력의 흔적은 오늘날까지도 찾아볼 수 있습니다. 제가 파미르와 힌두쿠시 산맥에 있는 제 영토 일부의 한 마을로 가던 중, 부처를 묘사한 고대의 암각화를 지나쳤습니다." # 386965847274857380
+  pamir.0225.a: "기도를 드린 후 다음으로 넘어가시오." # 15982174344930119486
+  pamir.0225.b: "무시하고 계속 진행하십시오." # 9625354400754621972
+  pamir.0225.c: "이교도의 신성모독! 쳇!" # 12269457233163148975
+  pamir.0225.d: "정말 매혹적인 예술 작품이로군!" # 15671617983377846284
+  pamir.0226.t: "파리" # 2847235269458355551
+  pamir.0226.desc: "저는 제 영지 내 파미르 산맥에 있는 부루쇼족의 더 큰 마을 중 한 곳에 와 있습니다. 부루쇼족은 외지고 독특한 민족이지만, 제 영지 내의 그들은 저와 좋은 관계를 맺기 위해 노력하고 있습니다. 예를 들어, 저는 지금 그들의 샤먼, 즉 #italic 다얄#!을 방문 중입니다. 그는 황홀경에 빠져 이 땅에서 요정이라 불리는 #italic 파리#!와 소통하며, 그 #italic 파리#!는 [ROOT.Char.GetFaith.HighGodName]으로부터 온 중요한 조언을 저에게 주고 싶다고 말합니다." # 6269465285555970647
+  pamir.0226.a: "정중히 제안을 거절하겠습니다. 신성모독적으로 들리는군요!" # 3002555337103047566
+  pamir.0226.b: "아주 좋군! 내가 알아야 할 것을 말해주시오." # 4101454360390795145
+  pamir.0227.t: "그녀는 벨라스인가?" # 15558776049202220201
+  pamir.0227.desc: "내 영지 내 마을의 한 소녀가 내 앞에 끌려왔습니다. 현지인들은 그녀가 #italic 벨라스#!라고 주장하는데, 이는 파미르의 전설에 따르면 밤에 자신이 증오하는 남자와 여자를 공격하는 살아있는 여성의 복수심에 불타는 영혼이라고 합니다. 소녀는 자신이 무고하며, 경쟁자들에게 누명을 쓰고 있다고 맹세합니다. 그녀의 약혼자는 파혼했고, 마을 사람들은 그녀를 추방하고 처벌할 것을 요구하고 있습니다." # 4497440564382057312
+  pamir.0227.a: "이 미신적인 우둔함은 내 알 바 아니오!" # 15545338278684675925
+  pamir.0227.b: "그녀는 무죄일 것입니다. 그녀를 풀어주고, 방해하지 마십시오." # 13430884012913492017
+  pamir.0227.c: "그녀는 정말 #italic 벨라스#로군! 그녀를 투옥시켜라!" # 14865327650550425383
+  pamir.0227.d: "가련한 소녀가 위험에 처해 있습니다. 저와 함께 머물 수 있습니다." # 5837184020620145950
+  pamir.0228.t: "페리(Peri)의 후손이신가요?" # 7125627936997576310
+  pamir.0228.desc: "파미르와 힌두쿠시 산맥 아래 제가 통치하는 마을 중 한 곳을 방문하던 중, 마을 촌장이 먼 옛날 조상이 그곳의 요정 정령을 일컫는 현지어인 #italic 페리#!를 만나 사랑에 빠졌다는 이야기를 들려주었습니다. 그녀는 사라지기 전 그와 여러 아들을 낳았다고 합니다.\n\\\"이 이야기가 사실인지는 모르겠습니다\" 그 신사는 웃으며 말합니다.\"하지만 저는 사실이기를 바랍니다\"" # 16824067481536642244
+  pamir.0228.a: "그것이 당신과 당신의 가문이 왜 그리도 매력적인지 설명해 주는군요!" # 11101330952947960451
+  pamir.0228.b: "사실이겠지, 그저 허황된 상상일 뿐이겠지." # 1758384146149429604
+  pamir.0229.t: "헤프탈라이트의 유산" # 1799452205512003872
+  pamir.0229.desc: "저는 지역 장로들이 위대하고 강력했던 #bold 에프탈# 족에 대한 이야기를 들려주는 것을 듣고 있습니다. 에프탈 부족은 한때 파미르와 힌두 쿠시 산맥을 고향이라 불렀지만, 이제는 그들의 수가 줄어들어 주변의 다른 문화에 흡수되어 사라진 민족이 되었습니다." # 7565988069440593638
+  pamir.0229.a: "그들은 적수가 거의 없는 두려운 전사들이었습니다." # 9955165410110250063
+  pamir.0229.b: "그들은 또한 상인이자 탐험가이기도 했습니다." # 3879146524012867126
+  pamir.0230.t: "마을의 후크" # 17751262403672511305
+  pamir.0230.desc: "\"모든 땅에는 저마다의 #italic 훅#!이 있소, [ROOT.Char.GetTitleAsNameNoTooltip]\" 마을 원로가 내 팔을 툭툭 치며 설명한다.\n\n나는 공식적인 임무를 수행하기 위해 파미르와 힌두쿠시 산맥 고지대의 한 마을에 와 있다. 지금은 잠시 휴식을 취하며 현지 원로와 잡담을 나누는 중이다.\n\n그는 말을 잇는다.\"우리 말로 땅의 정령을 의미하지. #italic 훅#!은 물에서 올 수도 있고, 흙에서 올 수도 있소. 마을의 모든 사람, 남자와 여자, 늙은이와 젊은이는 그들의 #italic 훅#!을 공유하오. #italic 훅#!의 차이가 우리 마을 사람들은 온화하고, 지혜롭고, 예의 바른 반면, 아래쪽에 있는 마을 사람들은 무례하고, 성급하며, 화를 잘 내는 이유를 설명해 주지\"" # 14144811551913743171
+  pamir.0230.a: "#italic 훅#에 대한 현명한 통찰이십니다, 존경하는 어르신." # 11421628625338917586
+  pamir.0230.b: "내가 다른 마을에 가봤는데 그들은 그렇지 않던데!" # 11303296447618237860
+  pamir.0230.c: "이건 멍청한 농민들의 미신처럼 들리는군." # 14533234242701190581
+  pamir.0231.t: "아름다운 계곡" # 14549939154729979181
+  pamir.0231.desc: "파미르와 힌두쿠시 산맥은 춥고 황량할 수 있지만, 그곳에도 숨겨진 아름다움이 있습니다. 어느 날 영토를 여행하던 중, 가장 푸른빛의 풀과 만발한 꽃밭, 그리고 하늘만큼이나 푸른 물을 담은 몇 개의 호수가 있는 계곡을 발견합니다. 세상의 지붕에서나 볼 수 있는 이 낙원의 광경에 경외심을 느끼며 바라봅니다." # 15194389418806533373
+  pamir.0231.a: "놀랍군." # 5810287950095587796
+  pamir.0232.t: "xxxxx" # 1951045980481827005
+  pamir.0232.desc: "xxxxx" # 1951045980481827005
+  pamir.0232.a: "xxxxx" # 1951045980481827005
+  pamir.0233.t: "xxxxx" # 1951045980481827005
+  pamir.0233.desc: "xxxxx" # 1951045980481827005
+  pamir.0233.a: "xxxxx" # 1951045980481827005
+  pamir.0234.t: "xxxxx" # 1951045980481827005
+  pamir.0234.desc: "xxxxx" # 1951045980481827005
+  pamir.0234.a: "xxxxx" # 1951045980481827005
+  pamir.0235.t: "xxxxx" # 1951045980481827005
+  pamir.0235.desc: "xxxxx" # 1951045980481827005
+  pamir.0235.a: "xxxxx" # 1951045980481827005
+  pamir.0236.t: "xxxxx" # 1951045980481827005
+  pamir.0236.desc: "xxxxx" # 1951045980481827005
+  pamir.0236.a: "xxxxx" # 1951045980481827005
+  pamir.0237.t: "xxxxx" # 1951045980481827005
+  pamir.0237.desc: "xxxxx" # 1951045980481827005
+  pamir.0237.a: "xxxxx" # 1951045980481827005
+  pamir.0238.t: "xxxxx" # 1951045980481827005
+  pamir.0238.desc: "xxxxx" # 1951045980481827005
+  pamir.0238.a: "xxxxx" # 1951045980481827005
+  pamir.0239.t: "xxxxx" # 1951045980481827005
+  pamir.0239.desc: "xxxxx" # 1951045980481827005
+  pamir.0239.a: "xxxxx" # 1951045980481827005
+  pamir.0240.t: "xxxxx" # 1951045980481827005
+  pamir.0240.desc: "xxxxx" # 1951045980481827005
+  pamir.0240.a: "xxxxx" # 1951045980481827005
+  pamir.0241.t: "xxxxx" # 1951045980481827005
+  pamir.0241.desc: "xxxxx" # 1951045980481827005
+  pamir.0241.a: "xxxxx" # 1951045980481827005
+  pamir.0242.t: "xxxxx" # 1951045980481827005
+  pamir.0242.desc: "xxxxx" # 1951045980481827005
+  pamir.0242.a: "xxxxx" # 1951045980481827005
+  pamir.0243.t: "xxxxx" # 1951045980481827005
+  pamir.0243.desc: "xxxxx" # 1951045980481827005
+  pamir.0243.a: "xxxxx" # 1951045980481827005
+  pamir.0244.t: "xxxxx" # 1951045980481827005
+  pamir.0244.desc: "xxxxx" # 1951045980481827005
+  pamir.0244.a: "xxxxx" # 1951045980481827005
+  pamir.0245.t: "xxxxx" # 1951045980481827005
+  pamir.0245.desc: "xxxxx" # 1951045980481827005
+  pamir.0245.a: "xxxxx" # 1951045980481827005
+  pamir.0246.t: "xxxxx" # 1951045980481827005
+  pamir.0246.desc: "xxxxx" # 1951045980481827005
+  pamir.0246.a: "xxxxx" # 1951045980481827005
+  pamir.0247.t: "xxxxx" # 1951045980481827005
+  pamir.0247.desc: "xxxxx" # 1951045980481827005
+  pamir.0247.a: "xxxxx" # 1951045980481827005
+  pamir.0248.t: "xxxxx" # 1951045980481827005
+  pamir.0248.desc: "xxxxx" # 1951045980481827005
+  pamir.0248.a: "xxxxx" # 1951045980481827005
+  pamir.0249.t: "xxxxx" # 1951045980481827005
+  pamir.0249.desc: "xxxxx" # 1951045980481827005
+  pamir.0249.a: "xxxxx" # 1951045980481827005
+  pamir.0250.t: "헤프탈의 심장부, 되찾다" # 13950011278755637789
+  pamir.0250.desc: "그들은 한때 우리를 #bold 백훈족#!이라 부르며 두려워했지. 우리는 기원이 신비로운 민족이었으나 영광과 권력을 향한 열망으로 단결했었다. 하지만 우리는 야만적인 정복자들은 아니었소. 우리는 교역을 장려하고, 도시를 건설했으며, 우리가 다스리는 수많은 민족들을 문화적이고 번영하는 영토로 융화시켰지. 그런데 지금 헤프탈인의 잔재를 보시오! 우리는 겁먹은 양처럼 고산 황무지에 매달리는, 다투는 소규모 족장들로 전락했소.\n\n하지만 더는 아니다. 나는 파미르 고원에 있는 옛 헤프탈 국가의 핵심 지역에 대한 통치를 복원함으로써 우리의 영광을 되찾고 정체성을 강화하기 시작했다. 우리는 더 이상 옛 영광의 황폐한 폐허 위에서 군림하지 않을 것이다!\n\n하지만 아직 해야 할 일이 많다. 우리는 헤프탈 영향력을 확장하는 데 집중해야 한다. 문제는, 어디부터 시작해야 하는가 하는 점이다." # 1761824249413190352
+  pamir.0250.a: "북쪽, 우리가 왔던 광활한 스텝과 산맥으로." # 14993052391269494631
+  pamir.0250.a.tooltip: "만약 귀하 또는 다른 통치자가 나중에 #P 훈족 제국#을 복원하는 데 성공한다면, 전쟁 및 군대와 관련된 보너스를 받게 될 것입니다. #bold #X 이 선택은 되돌릴 수 없으니 신중하게 선택하십시오!#!#!" # 10493463282376905836
+  pamir.0250.a.tooltip.zunist: "만약 귀하나 다른 통치자가 나중에 #P 보너스#를 제공하는 헤프탈 제국을 복원한다면, 전쟁 및 군대와 관련된 보너스를 받게 될 것이며, (만약 여전히 따르고 있다면) [ROOT.Char.GetFaith.GetName] 신앙은 [GetFaithDoctrine('rice_zun_hephthalite_warriors_doctrine').GetBaseName] [doctrine|E]를 얻게 될 것입니다. #Bold #X 이 선택은 되돌릴 수 없으니 신중하게 선택하십시오!#!#!" # 113227682667601160
+  pamir.0250.b: "남쪽으로, 페르시아와 인도까지 가서 우리는 교역과 문화를 배웠습니다." # 16068792280392829203
+  pamir.0250.b.tooltip: "만약 귀하나 다른 통치자가 나중에 #P 훈족 제국#을 복원한다면, 상업 및 문화와 관련된 #P 보너스#를 받게 될 것입니다. #bold #X 이 선택은 되돌릴 수 없으니 신중하게 선택하십시오!#!#!" # 12095684564575554245
+  pamir.0250.b.tooltip.zunist: "만약 귀하나 다른 통치자가 나중에 #P 보너스#!를 얻게 될 #헤프탈 제국#을 복원한다면, 상업 및 문화와 관련된 보너스를 얻게 될 것이며, (만약 여전히 따르고 있다면) [ROOT.Char.GetFaith.GetName]은 [GetFaithDoctrine('rice_zun_hephthalite_culture_doctrine').GetBaseName] [doctrine|E]를 얻게 될 것입니다. #Bold #X 이 선택은 되돌릴 수 없으니 신중하게 선택하십시오!#!#!" # 11308550558591089296
+  pamir.0251.t: "헤프탈의 심장부, 되찾다" # 13950011278755637789
+  pamir.0251.desc.intro: "수세기 전, 헤프탈인들은 이란과 인도 전역의 많은 이들에게 공포를 심어주며 #bold 백색 훈족#!이라는 별명을 얻었습니다. 하지만 시대가 변했고, 그들은 파미르 고원의 본거지에서 멀리 떨어진 곳까지 작은 잔존 추장국들로 분열되었습니다." # 11802329341498401783
+  pamir.0251.desc.northern: "\n\n하지만 시대가 다시 변하고 있습니다. 수완이 좋은 [hephthalite_homeland_reclaimer.GetTitledFirstName]가 백훈의 유산을 계승한다고 주장하며 파미르 고원에 다시 헤프탈라이트의 통제권을 확립했습니다. [hephthalite_homeland_reclaimer.GetHerselfHimself]는 헤프탈라이트의 힘을 전쟁과 무력을 통해 재건하기 위해 북쪽의 스텝 지대를 바라보고 있습니다. [hephthalite_homeland_reclaimer.GetSheHe|U]는 그것이 그들의 원래 힘의 원천이라고 믿습니다. 일부는 이것이 쇠퇴하는 헤프탈라이트 국가의 마지막 발버둥일 뿐이라고 말하지만, 이 눈 덮인 산맥의 사람들을 이해하는 다른 이들은 더 잘 알고 있습니다. 그들은 헤프탈라이트 부흥을 걱정하고 있습니다." # 15168699239074152
+  pamir.0251.desc.southern: "\n\n하지만 다시 한번 시대가 변하고 있습니다. 수완 좋은 [hephthalite_homeland_reclaimer.GetTitledFirstName]께서, 자신을 백훈의 유산을 계승할 자라 칭하며 파미르에 헵탈 왕조의 통치를 재건했습니다. [hephthalite_homeland_reclaimer.GetSheHe|U]께서는 헵탈의 힘을 교역, 예술, 외교를 통해 재건하기 위해 이란과 인도의 백성들을 향해 남쪽을 바라보기 시작했습니다. 즉, 안정과 번영을 추구하는 것이죠. 일부는 이것이 쇠락해가는 헵탈 국가의 마지막 발버둥일 뿐이라고 말하지만, 이 눈 덮인 산맥의 사람들을 이해하는 이들은 그보다 더 잘 알고 있습니다. 그들은 헵탈의 부흥을 우려하고 있습니다." # 17538399910592688013
+  pamir.0251.desc.conclusion: "\n\n어쨌든 겨울이 영원히 지속되지는 않지. 봄이 오고 눈은 녹는다. 눈은 #italic 언제나#! 녹는 법이지." # 14127110060402795143
+  pamir.0251.a: "헤프탈인들에게 새로운 부흥기가 올 수 있을까요?" # 5225900472229066742
+  pamir.0252.t: "#bold 헤프탈 제국 부활#" # 13889209478241294787
+  pamir.0252.desc.intro: "그들은 한때 우리를 #bold 백훈족#!이라 불렀습니다. 약탈자, 무법자, 파괴자로 말이죠. 하지만 그들은 우리를 상인, 장인, 외교관으로도 알았습니다. 그러다 갑자기 위대한 에프탈 제국은 사라지고 조각나, 이제는 전설과 학자들의 기록에만 남아 있을 뿐입니다.\n\n하지만 우리의 영광스러운 과거에 대한 기억은 꺼지지 않았습니다. 우리는 외딴 산맥과 계곡에서 작은 잔존 국가들로 살아남았습니다. 그곳에서부터 우리는 부를 재건하고 파미르 고원에 있는 우리의 심장부를 되찾았습니다. 그리고 지금은 어떻냐고요?" # 5737089121634660208
+  pamir.0252.desc.northern: "#bold 에프탈 제국#이 부활했으며, 내가 그 칸으로 즉위했다. 우리는 더 이상 희미한 기억 속 존재가 아니다. 세상은 우리 기병대의 발굽 아래 떨 것이며, 사람들은 다시 한번 전 세계에서 에프탈인들에 대해 경외심을 담아 속삭일 것이다." # 13769997457953721280
+  pamir.0252.desc.southern: "#bold 에프탈 제국#이 부활했으며, 내가 그 샤한샤로 즉위했다. 우리는 더 이상 희미한 기억이 아니다. 교역과 예술, 그리고 우리 도시의 화려함을 통해 세상 사람들은 다시 한번 에프탈인들에 대해 경외심을 가지고 이야기하게 될 것이다." # 10923544859334624527
+  pamir.0252.a: "우리는 선조들의 재 속에서 다시 태어났노라!" # 8946352333489859743
+  pamir.0253.t: "#bold 헤프탈 제국 부활#" # 13889209478241294787
+  pamir.0253.desc.intro: "수세기 전, 그들은 #bold 백훈#이라 불리며 많은 이들에게 두려움의 대상이었습니다. 그러다 헵탈 제국은 작은 잔존 국가들의 모자이크로 붕괴하며 신화와 학자들의 기록 속으로 사라졌습니다.\n\n하지만 헵탈인들은 현지 인구에 점차 동화되면서도 살아남았습니다. 그리 오래지 않아 그들은 파미르 고원에 있는 본거지를 되찾았습니다. 이제 그들은 옛 영광을 되찾기 위한 또 다른 발걸음을 내디뎠습니다." # 7680503566188755494
+  pamir.0253.desc.northern: "[hephthalite_emperor.GetTitledFirstName]께서 복원된 헤프탈 제국의 칸으로 [hephthalite_emperor.GetHerselfHimself]에게 대관식을 올렸습니다. 헤프탈의 힘과 영향력이 다시 한번 확장되고 있으며, 그들의 군대는 이제 두려운 전사로서의 유산을 받아들일 작정임이 분명합니다." # 2102732487412227928
+  pamir.0253.desc.southern: "[hephthalite_emperor.GetTitledFirstName]께서 [hephthalite_emperor.GetHerselfHimself]에게 복원된 에프탈 제국의 샤(Shah)의 칭호를 수여했습니다. 수 세기에 걸쳐 에프탈인들은 계곡과 산악 지대에 번성하는 도시를 건설하는 법을 배웠으며, 이제는 무역과 예술을 통해 미래의 번영을 위한 토대를 마련하고자 합니다." # 17721479371432730883
+  pamir.0253.desc.conclusion: "파미르 산맥과 같은 눈 덮인 산에 사는 이들은 겨울이 영원히 지속되지 않는다는 것을 압니다. 봄이 왔고 눈이 녹았습니다." # 1676712548471674451
+  pamir.0253.a: "헤프탈인들에게 새로운 봄이 밝아옵니다." # 13011744446815370731
+  pamir.0254.t: "xxxxx" # 1951045980481827005
+  pamir.0254.desc: "xxxxx" # 1951045980481827005
+  pamir.0254.a: "xxxxx" # 1951045980481827005
+  pamir.0255.t: "xxxxx" # 1951045980481827005
+  pamir.0255.desc: "xxxxx" # 1951045980481827005
+  pamir.0255.a: "xxxxx" # 1951045980481827005
+  pamir.0256.t: "xxxxx" # 1951045980481827005
+  pamir.0256.desc: "xxxxx" # 1951045980481827005
+  pamir.0256.a: "xxxxx" # 1951045980481827005
+  pamir.0257.t: "xxxxx" # 1951045980481827005
+  pamir.0257.desc: "xxxxx" # 1951045980481827005
+  pamir.0257.a: "xxxxx" # 1951045980481827005
+  pamir.0258.t: "xxxxx" # 1951045980481827005
+  pamir.0258.desc: "xxxxx" # 1951045980481827005
+  pamir.0258.a: "xxxxx" # 1951045980481827005
+  pamir.0259.t: "xxxxx" # 1951045980481827005
+  pamir.0259.desc: "xxxxx" # 1951045980481827005
+  pamir.0259.a: "xxxxx" # 1951045980481827005
+  pamir.0260.t: "xxxxx" # 1951045980481827005
+  pamir.0260.desc: "xxxxx" # 1951045980481827005
+  pamir.0260.a: "xxxxx" # 1951045980481827005
+  pamir.0261.t: "xxxxx" # 1951045980481827005
+  pamir.0261.desc: "xxxxx" # 1951045980481827005
+  pamir.0261.a: "xxxxx" # 1951045980481827005
+  pamir.0262.t: "xxxxx" # 1951045980481827005
+  pamir.0262.desc: "xxxxx" # 1951045980481827005
+  pamir.0262.a: "xxxxx" # 1951045980481827005
+  pamir.0263.t: "xxxxx" # 1951045980481827005
+  pamir.0263.desc: "xxxxx" # 1951045980481827005
+  pamir.0263.a: "xxxxx" # 1951045980481827005
+  pamir.0264.t: "xxxxx" # 1951045980481827005
+  pamir.0264.desc: "xxxxx" # 1951045980481827005
+  pamir.0264.a: "xxxxx" # 1951045980481827005
+  pamir.0265.t: "xxxxx" # 1951045980481827005
+  pamir.0265.desc: "xxxxx" # 1951045980481827005
+  pamir.0265.a: "xxxxx" # 1951045980481827005
+  pamir.0266.t: "xxxxx" # 1951045980481827005
+  pamir.0266.desc: "xxxxx" # 1951045980481827005
+  pamir.0266.a: "xxxxx" # 1951045980481827005
+  pamir.0267.t: "xxxxx" # 1951045980481827005
+  pamir.0267.desc: "xxxxx" # 1951045980481827005
+  pamir.0267.a: "xxxxx" # 1951045980481827005
+  pamir.0268.t: "xxxxx" # 1951045980481827005
+  pamir.0268.desc: "xxxxx" # 1951045980481827005
+  pamir.0268.a: "xxxxx" # 1951045980481827005
+  pamir.0269.t: "xxxxx" # 1951045980481827005
+  pamir.0269.desc: "xxxxx" # 1951045980481827005
+  pamir.0269.a: "xxxxx" # 1951045980481827005
+  pamir.0270.t: "xxxxx" # 1951045980481827005
+  pamir.0270.desc: "xxxxx" # 1951045980481827005
+  pamir.0270.a: "xxxxx" # 1951045980481827005
+  pamir.0271.t: "xxxxx" # 1951045980481827005
+  pamir.0271.desc: "xxxxx" # 1951045980481827005
+  pamir.0271.a: "xxxxx" # 1951045980481827005
+  pamir.0272.t: "xxxxx" # 1951045980481827005
+  pamir.0272.desc: "xxxxx" # 1951045980481827005
+  pamir.0272.a: "xxxxx" # 1951045980481827005
+  pamir.0273.t: "xxxxx" # 1951045980481827005
+  pamir.0273.desc: "xxxxx" # 1951045980481827005
+  pamir.0273.a: "xxxxx" # 1951045980481827005
+  pamir.0274.t: "xxxxx" # 1951045980481827005
+  pamir.0274.desc: "xxxxx" # 1951045980481827005
+  pamir.0274.a: "xxxxx" # 1951045980481827005
+  pamir.0275.t: "xxxxx" # 1951045980481827005
+  pamir.0275.desc: "xxxxx" # 1951045980481827005
+  pamir.0275.a: "xxxxx" # 1951045980481827005
+  pamir.0276.t: "xxxxx" # 1951045980481827005
+  pamir.0276.desc: "xxxxx" # 1951045980481827005
+  pamir.0276.a: "xxxxx" # 1951045980481827005
+  pamir.0277.t: "xxxxx" # 1951045980481827005
+  pamir.0277.desc: "xxxxx" # 1951045980481827005
+  pamir.0277.a: "xxxxx" # 1951045980481827005
+  pamir.0278.t: "xxxxx" # 1951045980481827005
+  pamir.0278.desc: "xxxxx" # 1951045980481827005
+  pamir.0278.a: "xxxxx" # 1951045980481827005
+  pamir.0279.t: "xxxxx" # 1951045980481827005
+  pamir.0279.desc: "xxxxx" # 1951045980481827005
+  pamir.0279.a: "xxxxx" # 1951045980481827005
+  pamir.0280.t: "xxxxx" # 1951045980481827005
+  pamir.0280.desc: "xxxxx" # 1951045980481827005
+  pamir.0280.a: "xxxxx" # 1951045980481827005
+  pamir.0281.t: "xxxxx" # 1951045980481827005
+  pamir.0281.desc: "xxxxx" # 1951045980481827005
+  pamir.0281.a: "xxxxx" # 1951045980481827005
+  pamir.0282.t: "xxxxx" # 1951045980481827005
+  pamir.0282.desc: "xxxxx" # 1951045980481827005
+  pamir.0282.a: "xxxxx" # 1951045980481827005
+  pamir.0283.t: "xxxxx" # 1951045980481827005
+  pamir.0283.desc: "xxxxx" # 1951045980481827005
+  pamir.0283.a: "xxxxx" # 1951045980481827005
+  pamir.0284.t: "xxxxx" # 1951045980481827005
+  pamir.0284.desc: "xxxxx" # 1951045980481827005
+  pamir.0284.a: "xxxxx" # 1951045980481827005
+  pamir.0285.t: "xxxxx" # 1951045980481827005
+  pamir.0285.desc: "xxxxx" # 1951045980481827005
+  pamir.0285.a: "xxxxx" # 1951045980481827005
+  pamir.0286.t: "xxxxx" # 1951045980481827005
+  pamir.0286.desc: "xxxxx" # 1951045980481827005
+  pamir.0286.a: "xxxxx" # 1951045980481827005
+  pamir.0287.t: "xxxxx" # 1951045980481827005
+  pamir.0287.desc: "xxxxx" # 1951045980481827005
+  pamir.0287.a: "xxxxx" # 1951045980481827005
+  pamir.0288.t: "xxxxx" # 1951045980481827005
+  pamir.0288.desc: "xxxxx" # 1951045980481827005
+  pamir.0288.a: "xxxxx" # 1951045980481827005
+  pamir.0289.t: "xxxxx" # 1951045980481827005
+  pamir.0289.desc: "xxxxx" # 1951045980481827005
+  pamir.0289.a: "xxxxx" # 1951045980481827005
+  pamir.0290.t: "xxxxx" # 1951045980481827005
+  pamir.0290.desc: "xxxxx" # 1951045980481827005
+  pamir.0290.a: "xxxxx" # 1951045980481827005
+  pamir.0291.t: "xxxxx" # 1951045980481827005
+  pamir.0291.desc: "xxxxx" # 1951045980481827005
+  pamir.0291.a: "xxxxx" # 1951045980481827005
+  pamir.0292.t: "xxxxx" # 1951045980481827005
+  pamir.0292.desc: "xxxxx" # 1951045980481827005
+  pamir.0292.a: "xxxxx" # 1951045980481827005
+  pamir.0293.t: "xxxxx" # 1951045980481827005
+  pamir.0293.desc: "xxxxx" # 1951045980481827005
+  pamir.0293.a: "xxxxx" # 1951045980481827005
+  pamir.0294.t: "xxxxx" # 1951045980481827005
+  pamir.0294.desc: "xxxxx" # 1951045980481827005
+  pamir.0294.a: "xxxxx" # 1951045980481827005
+  pamir.0295.t: "xxxxx" # 1951045980481827005
+  pamir.0295.desc: "xxxxx" # 1951045980481827005
+  pamir.0295.a: "xxxxx" # 1951045980481827005
+  pamir.0296.t: "xxxxx" # 1951045980481827005
+  pamir.0296.desc: "xxxxx" # 1951045980481827005
+  pamir.0296.a: "xxxxx" # 1951045980481827005
+  pamir.0297.t: "xxxxx" # 1951045980481827005
+  pamir.0297.desc: "xxxxx" # 1951045980481827005
+  pamir.0297.a: "xxxxx" # 1951045980481827005
+  pamir.0298.t: "xxxxx" # 1951045980481827005
+  pamir.0298.desc: "xxxxx" # 1951045980481827005
+  pamir.0298.a: "xxxxx" # 1951045980481827005
+  pamir.0299.t: "xxxxx" # 1951045980481827005
+  pamir.0299.desc: "xxxxx" # 1951045980481827005
+  pamir.0299.a: "xxxxx" # 1951045980481827005

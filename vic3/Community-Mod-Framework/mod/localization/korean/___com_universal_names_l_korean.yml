@@ -1,0 +1,6 @@
+﻿l_korean:
+  com_universal_names_title: "[ROOT.GetCharacter.GetPrimaryRoleTitle]" # 8687612465256550383
+  com_universal_names_full_name: "[ROOT.GetCharacter.GetFullName]" # 3817953580445274046
+  com_universal_names_full_name_no_fmt: "[ROOT.GetCharacter.GetFullNameNoFormatting]" # 3357159057032643991
+  com_universal_names_full_name_w_title: "[ROOT.GetCharacter.GetFullNameWithTitle]" # 14075810899971338992
+  com_universal_names_full_name_w_title_no_fmt: "[ROOT.GetCharacter.GetFullNameWithTitleNoFormatting]" # 8638178681498888841

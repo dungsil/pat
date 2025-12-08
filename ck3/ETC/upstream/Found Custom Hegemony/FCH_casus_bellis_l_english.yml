@@ -1,0 +1,6 @@
+﻿# Kingdom and Empire Conquest custom localization by Guildar_
+
+l_english:
+# Titles for the wars along with definitions for kingdoms and empires:
+ CONQUEST_KINGDOM_CB_NAME:0 "Conquer [kingdom|E]"
+ CONQUEST_EMPIRE_CB_NAME:0 "Conquer [empire|E]"

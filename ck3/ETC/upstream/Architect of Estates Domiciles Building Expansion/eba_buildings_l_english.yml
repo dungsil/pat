@@ -1,0 +1,287 @@
+﻿l_english:
+## 升级等级限制
+eba_interior_building.tt.unlock: "Your [estate|E] has a corresponding [estate|E][building|E]"
+eba_interior_upgrade_level.tt.4: "Your [estate|E] has a level 4 corresponding [estate|E][building|E]"
+eba_interior_upgrade_level.tt.6: "Your [estate|E] has a level 6 corresponding [estate|E][building|E]"
+# 游牧
+ domicile_building_parameter_unlocks_lvl_7_external_yurt_upgrades: "Unlocks 7th level [domicile_buildings|E]"
+
+### 外槽
+## 警卫室
+guardhouse_05_domicile_building: "Guard Base"
+guardhouse_06_domicile_building: "Guard Command Post"
+## 仓库
+storage_warehouse_05_domicile_building: "Manor Warehouse"
+storage_warehouse_06_domicile_building: "House Warehouse"
+storage_granary_05_domicile_building: "Manor Granary"
+storage_granary_06_domicile_building: "House Granary"
+
+### 内槽
+## 神龛
+# 家族纪念碑
+temple_monument_01_domicile_building: "Monument"
+temple_monument_02_domicile_building: "Large Monument"
+temple_monument_03_domicile_building: "House Monument"
+temple_monument_04_domicile_building: "Legendary Monument"
+# 家族名人堂
+temple_hall_01_domicile_building: "Statue Hall"
+temple_hall_02_domicile_building: "Memorial Hall"
+temple_hall_03_domicile_building: "History Hall"
+temple_hall_04_domicile_building: "Hall of Fame"
+# 家谱图书馆
+temple_archive_01_domicile_building: "Exhibition Room"
+temple_archive_02_domicile_building: "Scribe Room"
+temple_archive_03_domicile_building: "Library"
+temple_archive_04_domicile_building: "House Archive"
+## 兵营
+# 战士公会
+barracks_knight_01_domicile_building: "Warrior Lodges"
+barracks_knight_02_domicile_building: "Squire Quarters"
+barracks_knight_03_domicile_building: "Warriors' Graves"
+barracks_knight_04_domicile_building: "Commemoration Hall"
+# 步兵训练场
+barracks_training_01_domicile_building: "Training Grounds"
+barracks_training_02_domicile_building: "New Barracks"
+barracks_training_03_domicile_building: "Barrack Blacksmith"
+barracks_training_04_domicile_building: "Infantry Training Grounds"
+# 征兵办公室
+barracks_levies_01_domicile_building: "Militia Camp"
+barracks_levies_02_domicile_building: "Recruitment Office"
+barracks_levies_03_domicile_building: "Recruitment Hall"
+barracks_levies_04_domicile_building: "Recruitment Square"
+## 塔楼
+# 家族要塞
+watchtower_fort_01_domicile_building: "Corner Tower"
+watchtower_fort_02_domicile_building: "Wall Tower"
+watchtower_fort_03_domicile_building: "Main Tower"
+watchtower_fort_04_domicile_building: "House Fortress"
+# 靶场
+watchtower_range_01_domicile_building: "Shooting Range"
+watchtower_range_02_domicile_building: "Bow Maker's Workshop"
+watchtower_range_03_domicile_building: "Archer Camp"
+watchtower_range_04_domicile_building: "Master Archer"
+# 哨兵
+watchtower_sentry_01_domicile_building: "Sentry Post"
+watchtower_sentry_02_domicile_building: "Mobile Sentry Post"
+watchtower_sentry_03_domicile_building: "Secret Sentry Post"
+watchtower_sentry_04_domicile_building: "Intelligence Office"
+## 警卫
+# 家族亲卫
+guardhouse_guard_01_domicile_building: "Elite Guards"
+guardhouse_guard_02_domicile_building: "House Guards"
+guardhouse_guard_03_domicile_building: "House Guard Regiments"
+guardhouse_guard_04_domicile_building: "House Guard Corps"
+# 军官住所
+guardhouse_officer_01_domicile_building: "Sergeant Academy"
+guardhouse_officer_02_domicile_building: "Officer Quarters"
+guardhouse_officer_03_domicile_building: "Tactics Training"
+guardhouse_officer_04_domicile_building: "Military Academy"
+# 线人
+guardhouse_spy_01_domicile_building: "Local Informants"
+guardhouse_spy_02_domicile_building: "Intelligence Scouts"
+guardhouse_spy_03_domicile_building: "Spy Training"
+guardhouse_spy_04_domicile_building: "Secret Hideout"
+## 花园
+# 园丁
+garden_gardener_01_domicile_building: "Nursery"
+garden_gardener_02_domicile_building: "Gardener's Quarters"
+garden_gardener_03_domicile_building: "Cultivation Grounds"
+garden_gardener_04_domicile_building: "Master Gardener"
+# 草药园
+garden_herb_01_domicile_building: "Herb Garden"
+garden_herb_02_domicile_building: "Herbalist's Quarters"
+garden_herb_03_domicile_building: "Herb Research Room"
+garden_herb_04_domicile_building: "Herbalist's Workshop"
+# 花园迷宫
+garden_maze_01_domicile_building: "Hedge Maze"
+garden_maze_02_domicile_building: "Fountain Garden"
+garden_maze_03_domicile_building: "Landscape Designer"
+garden_maze_04_domicile_building: "Grand Maze Garden"
+# 果酒工坊
+garden_wine_01_domicile_building: "Orchard"
+garden_wine_02_domicile_building: "Berry Garden"
+garden_wine_03_domicile_building: "Mixed Orchard"
+garden_wine_04_domicile_building: "Fruit Wine Workshop"
+## 马厩
+# 骑士大厅
+stabl_knight_01_domicile_building: "Knight Hall"
+stabl_knight_02_domicile_building: "Squire Quarters"
+stabl_knight_03_domicile_building: "Armory"
+stabl_knight_04_domicile_building: "Hall of Honor"
+# 驿站
+stable_caravanserai_01_domicile_building: "Small Caravanserai"
+stable_caravanserai_02_domicile_building: "Caravanserai"
+stable_caravanserai_03_domicile_building: "Merchant Caravanserai"
+stable_caravanserai_04_domicile_building: "Manor Inns"
+# 赛马场
+stable_race_01_domicile_building: "Small Racecourse"
+stable_race_02_domicile_building: "Racecourse"
+stable_race_03_domicile_building: "Large Racecourse"
+stable_race_04_domicile_building: "Legendary Racecourse"
+## 工坊
+# 学徒
+workshop_apprentice_01_domicile_building: "Apprentice Registry"
+workshop_apprentice_02_domicile_building: "Apprentice's Quarters"
+workshop_apprentice_03_domicile_building: "Large Apprentice's Quarters"
+workshop_apprentice_04_domicile_building: "Apprentice's Workshop"
+# 铁匠铺
+workshop_smith_01_domicile_building: "Blacksmiths"
+workshop_smith_02_domicile_building: "Smith Guild"
+workshop_smith_03_domicile_building: "Master Blacksmith"
+workshop_smith_04_domicile_building: "Forge"
+# 工匠行会
+workshop_guild_01_domicile_building: "Carpenter's Guild"
+workshop_guild_02_domicile_building: "Mason's Guild"
+workshop_guild_03_domicile_building: "Clothier's Guild"
+workshop_guild_04_domicile_building: "Artisan's Guild"
+## 仓库
+# 审计员
+storage_auditor_01_domicile_building: "Warehouse Auditor"
+storage_auditor_02_domicile_building: "Warehouse Ledger"
+storage_auditor_03_domicile_building: "Warehouse Archive"
+storage_auditor_04_domicile_building: "Administrator's Office"
+# 慈善厨房
+storage_kitchen_01_domicile_building: "Food Kitchen"
+storage_kitchen_02_domicile_building: "Mobile Kitchen"
+storage_kitchen_03_domicile_building: "Volunteer's Quarters"
+storage_kitchen_04_domicile_building: "Almoner's Office"
+# 大仓库
+storage_extra_01_domicile_building: "Extra Warehouse"
+storage_extra_02_domicile_building: "Cellar"
+storage_extra_03_domicile_building: "Icehouse"
+storage_extra_04_domicile_building: "Large Cellar"
+# 谷仓
+storage_food_01_domicile_building: "Food Reserve"
+storage_food_02_domicile_building: "Large Granary"
+storage_food_03_domicile_building: "Disaster Relief Granary"
+storage_food_04_domicile_building: "Food Storage Depot"
+## 市场
+# 仓库
+market_storage_01_domicile_building: "Goods Depot"
+market_storage_02_domicile_building: "Goods Warehouse"
+market_storage_03_domicile_building: "Market Warehouse"
+market_storage_04_domicile_building: "Commercial Warehouse"
+# 税局
+market_tax_01_domicile_building: "Customs"
+market_tax_02_domicile_building: "Tax Collector's Pavilion"
+market_tax_03_domicile_building: "Treasury"
+market_tax_04_domicile_building: "Tax Office"
+# 商人行会
+market_guild_01_domicile_building: "Market Stalls"
+market_guild_02_domicile_building: "Traveling Merchant"
+market_guild_03_domicile_building: "Market Plaza"
+market_guild_04_domicile_building: "Merchant's Guild"
+## 牧场
+# 牧马场
+grazing_pasture_01_domicile_building: "Small Horse Pasture"
+grazing_pasture_02_domicile_building: "Grazing Camp"
+grazing_pasture_03_domicile_building: "Large Horse Pasture"
+grazing_pasture_04_domicile_building: "Horse Trading Post"
+# 羊毛业
+grazing_wool_01_domicile_building: "Sheep Pasture"
+grazing_wool_02_domicile_building: "Wool Warehouse"
+grazing_wool_03_domicile_building: "Dyeing Workshop"
+grazing_wool_04_domicile_building: "Wool weaver's Workshop"
+# 骑兵学校
+grazing_cavalry_01_domicile_building: "Equestrian Training Ground"
+grazing_cavalry_02_domicile_building: "Cavalry Training Ground"
+grazing_cavalry_03_domicile_building: "Knight Jousting Arena"
+grazing_cavalry_04_domicile_building: "Cavalry School"
+## 粮田
+# 磨坊
+grain_mill_01_domicile_building: "Animal-powered Mill"
+grain_mill_02_domicile_building: "Industrial Mill"
+grain_mill_03_domicile_building: "Baker's Quarters"
+grain_mill_04_domicile_building: "Public Bakery"
+# 蔬菜田
+grain_vegetable_01_domicile_building: "Small Vegetable Garden"
+grain_vegetable_02_domicile_building: "Large Vegetable Garden"
+grain_vegetable_03_domicile_building: "Vegetable Field"
+grain_vegetable_04_domicile_building: "Vegetable Warehouse"
+# 啤酒工坊
+grain_beer_01_domicile_building: "Malt Pre-treatment"
+grain_beer_02_domicile_building: "Malt Crusher"
+grain_beer_03_domicile_building: "Wort Fermentation Tank"
+grain_beer_04_domicile_building: "Large Beer Workshop"
+## 葡萄园
+# 育种堆肥
+vineyard_breeding_01_domicile_building: "Compost Area"
+vineyard_breeding_02_domicile_building: "Gardener's Quarters"
+vineyard_breeding_03_domicile_building: "Breeding Nursery"
+vineyard_breeding_04_domicile_building: "Planting Expert"
+# 酒窖
+vineyard_cellar_01_domicile_building: "Wine Cellar"
+vineyard_cellar_02_domicile_building: "Display Hall"
+vineyard_cellar_03_domicile_building: "Tasting Room"
+vineyard_cellar_04_domicile_building: "Reception Room"
+# 葡萄酒工坊
+vineyard_wine_01_domicile_building: "Brewing Room"
+vineyard_wine_02_domicile_building: "Oak Barrel Storage"
+vineyard_wine_03_domicile_building: "Winemaker's Quarters"
+vineyard_wine_04_domicile_building: "Grand Winery"
+## 橄榄园
+# 榨油工坊
+olive_oil_01_domicile_building: "Traditional Oil Press"
+olive_oil_02_domicile_building: "Large Oil Press"
+olive_oil_03_domicile_building: "Large Olive Oil Workshop"
+olive_oil_04_domicile_building: "Extra Virgin Olive Oil"
+# 肥皂工坊
+olive_soap_01_domicile_building: "Olive Oil Soap"
+olive_soap_02_domicile_building: "Soap Workshop"
+olive_soap_03_domicile_building: "Soapmaker's Quarters"
+olive_soap_04_domicile_building: "Large Soap Workshop"
+# 香水工坊
+olive_perfume_01_domicile_building: "Spice Extraction"
+olive_perfume_02_domicile_building: "Perfumer's Quarters"
+olive_perfume_03_domicile_building: "Large Perfume Workshop"
+olive_perfume_04_domicile_building: "Master Perfumer"
+## 丝绸
+# 桑葚工艺
+silk_morus_01_domicile_building: "Mulberry Picking"
+silk_morus_02_domicile_building: "Mulberry Jam Workshop"
+silk_morus_03_domicile_building: "Mulberry Wine Workshop"
+silk_morus_04_domicile_building: "Mulberry Products Workshop"
+# 丝绸织造工坊
+silk_textile_01_domicile_building: "Silkworm Cocoon Processing"
+silk_textile_02_domicile_building: "Silk Weaving"
+silk_textile_03_domicile_building: "Fabric Dyeing"
+silk_textile_04_domicile_building: "Large Silk Workshop"
+# 丝绸市场
+silk_trade_01_domicile_building: "Silk Market"
+silk_trade_02_domicile_building: "Silk Warehouse"
+silk_trade_03_domicile_building: "Silk Showroom"
+silk_trade_04_domicile_building: "Silk Auction House"
+
+## 茶园
+# 茶坊
+ tea_matcha_factory_01_domicile_building: "Small Matcha Factory"
+ tea_matcha_factory_02_domicile_building: "Matcha Factory"
+ tea_matcha_factory_03_domicile_building: "Large Matcha Factory"
+ tea_matcha_factory_04_domicile_building: "Famous Matcha Factory"
+# 茶室
+ tea_medicine_house_01_domicile_building: "$east_asian_estate_teahouse_01_domicile_building$"
+ tea_medicine_house_02_domicile_building: "$east_asian_estate_teahouse_02_domicile_building$"
+ tea_medicine_house_03_domicile_building: "$east_asian_estate_teahouse_03_domicile_building$"
+ tea_medicine_house_04_domicile_building: "$east_asian_estate_teahouse_04_domicile_building$"
+# 烘焙坊
+ tea_roastery_01_domicile_building: "$east_asian_estate_roasting_house_01_domicile_building$"
+ tea_roastery_02_domicile_building: "$east_asian_estate_roasting_house_02_domicile_building$"
+ tea_roastery_03_domicile_building: "$east_asian_estate_roasting_house_03_domicile_building$"
+ tea_roastery_04_domicile_building: "$east_asian_estate_roasting_house_04_domicile_building$"
+
+## 稻田
+# 地窖
+ rice_cellar_cave_01_domicile_building: "$east_asian_estate_buffer_stock_granary_01_domicile_building$"
+ rice_cellar_cave_02_domicile_building: "$east_asian_estate_buffer_stock_granary_02_domicile_building$"
+ rice_cellar_cave_03_domicile_building: "$east_asian_estate_buffer_stock_granary_03_domicile_building$"
+ rice_cellar_cave_04_domicile_building: "$east_asian_estate_buffer_stock_granary_04_domicile_building$"
+# 米酒
+ rice_wine_stores_01_domicile_building: "$east_asian_estate_wine_press_01_domicile_building$"
+ rice_wine_stores_02_domicile_building: "$east_asian_estate_wine_press_02_domicile_building$"
+ rice_wine_stores_03_domicile_building: "$east_asian_estate_wine_press_03_domicile_building$"
+ rice_wine_stores_04_domicile_building: "$east_asian_estate_wine_press_04_domicile_building$"
+# 池塘
+ rice_fish_duck_ponds_01_domicile_building: "$east_asian_estate_rice_fish_duck_ponds_01_domicile_building$"
+ rice_fish_duck_ponds_02_domicile_building: "$east_asian_estate_rice_fish_duck_ponds_02_domicile_building$"
+ rice_fish_duck_ponds_03_domicile_building: "$east_asian_estate_rice_fish_duck_ponds_03_domicile_building$"
+ rice_fish_duck_ponds_04_domicile_building: "$east_asian_estate_rice_fish_duck_ponds_04_domicile_building$"

@@ -1,0 +1,5 @@
+﻿l_korean:
+  divorced: "$game_concept_divorce$" # 5023798728997605369
+  divorced_desc: "저는 [spouse.GetTitledFirstName]와 이혼했습니다." # 13294267873409160418
+  divorced_desc_second_perspective: "귀하는 [spouse.GetTitledFirstName]와 이혼했습니다." # 10717219936006026021
+  divorced_desc_third_perspective: "[owner.GetFirstName]이(가) [spouse.GetTitledFirstName]과(와) 이혼했습니다" # 14476536271843489512

@@ -1,0 +1,29 @@
+﻿l_korean:
+  found_hegemony_decision: "새로운 패권국 수립" # 9084926846084905536
+  found_hegemony_decision_desc: "저는 다른 모든 것을 압도하고 세상이 존재하는 한 영원히 지속될 패권을 세울 것입니다." # 12781983912351733171
+  found_hegemony_decision_confirm: "영지를 집결시키시오" # 880636378040250621
+  found_hegemony_decision_tooltip: "새로운 종주국 작위를 발견했습니다" # 16116139914599879173
+  create_new_hegemony: "새로운 종주국을 만듭니다" # 15829201558473503826
+  create_title_every_held_empire: "귀하가 [hold|E]하거나 [completely_control|E]하는 모든 제국 작위" # 12888224527742495820
+  create_custom_hegemony_de_jure_changes: "새로운 종주국의 [de_jure|E] [empires|E]가 되었습니다." # 14654118751442531822
+  found_hegemony_decision_three_empires_held: "귀하는 세 개 이상의 [empires|E]를 보유하고 있습니다" # 12059207346167087316
+  FCH_major_decisions.1.t: "새로운 [founder.GetTitleAsNameNoTooltip]이/가 떠오르다..." # 1827060812731653121
+  FCH_major_decisions.1.opening_empires: "나는 광대한 영토를 다스렸고, 세상에서 가장 강력한 통치자 중 한 명이 되었으며, [empire_1.GetNameNoTierNoTooltip], [empire_2.GetNameNoTierNoTooltip], 그리고 [empire_3.GetNameNoTierNoTooltip] 제국에 대한 통제력을 신들과 필적할 정도로 키웠노라!" # 2900927519241820781
+  FCH_major_decisions.1.opening: "모든 봉신들이 내 앞에 엎드려 내가 지금 쥐고 있는 힘에 떨고 있습니다. 심지어 [ROOT.Char.GetFaith.PriestNeuterPlural]조차도, 나의 힘과 지위를 고려할 때 [ROOT.Char.GetFaith.PantheonTerm]께서 나를 동등한 존재로 보시는지 두려워하며 궁금해하고 있습니다." # 18161918293748546492
+  FCH_major_decisions.1.i_am_religious_head: "\n\n모두가 이미 나를 신앙의 수장으로 여기고 있으니, 내가 왕관을 쓰고 광대한 영토의 통치자임을 선포하는 것이 놀랍지 않을 것이다. 결국, 내가 [ROOT.Char.GetFaith.PantheonTerm]에 그토록 가까운데, 어찌하여 내가 알려진 세계의 대부분을 다스리는 것이 허락되지 않겠는가?" # 10905386962541802922
+  FCH_major_decisions.1.blessed_by_religious_head: "\n\n[religious_figure.GetTitledFirstName]가 절하며 내 머리 위에 왕관을 씌우니, 새로운 [founder.GetTitleAsNameNoTooltip]가 된 나의 지위를 모두가 부러워한다는 것은 비밀이 아니겠지. 이제 세상이 내 발아래 떨고 있도다!" # 11356369216335396289
+  FCH_major_decisions.1.a: "[new_title.GetNameNoTierNoTooltip]께서 세상을 다스리게 되었습니다!" # 15279308824560214253
+  FCH_major_decisions.2.t: "왕국들의 집결..." # 3959593628394356818
+  FCH_major_decisions.2.opening: "[founder.GetFirstName] 님, 우리를 다스리신 [founder.GetLadyLord]께서는 수많은 광대한 영토와 함께 세계에서 가장 강력한 통치자 중 한 분이 되셨으며, [founder.GetFaith.PriestNeuterPlural]들과 함께 성대한 성채에서 [founder.GetHerHim]과 함께하도록 우리를 부르셨습니다. [founder.GetSheHe]께서 심지어 [ROOT.Char.GetFaith.PantheonTerm]의 영역과도 필적한다는 것이 분명해지자 우리 모두는 떨고 있는 것 같습니다!" # 12583043750164788095
+  FCH_major_decisions.2.i_am_religious_head: "\n\n나는 [founder.GetHerHis]의 머리에 [founder.GetHerHis]의 새 왕관을 씌워주며 예를 갖춥니다." # 15147887855492253080
+  FCH_major_decisions.2.religious_head_hegemony: "\n\n[founder.GetSheHe]께서 [founder.GetHerHis] 새 왕관을 [founder.GetHerHis] 머리에 올리시자," # 2068753360781134016
+  FCH_major_decisions.2.blessed_by_religious_head: "\n\n[religious_figure.GetTitledFirstName]께서는 새로운 왕관이 [founder.GetHerHis]의 머리 위에 씌워질 때 예를 갖추어 고개를 숙입니다." # 17311426759274008475
+  FCH_major_decisions.2.end: "[founder.GetFirstName]께서 신들과도 겨룰 만한 새로운 영역을 선포합니다! [founder.GetHerHis|U]의 신하들은 [founder.GetHerHim] 앞에 경의를 표하며 엎드립니다." # 8873121031232511430
+  FCH_major_decisions.2.a: "[new_title.GetNameNoTierNoTooltip]은 영원하리라!" # 5681038053782726732
+  FCH_major_decisions.3.t: "예상치 못한 주장" # 2311645373596181674
+  FCH_major_decisions.3.desc: "[founder.GetTitleAsNameNoTooltip] [founder.GetFirstName]께서 [new_title.GetNameNoTierNoTooltip]의 새로운 패권을 선포하며, #EMP 나의#! 정당한 영토 일부가 그 일부라고 주장하고 있습니다! [founder.GetSheHe]는 심지어 신들과도 견줄 만하다고 주장하는 뻔뻔함까지 보이고 있습니다! 얼마나 어리석고 오만한지!" # 12327345395572511019
+  FCH_major_decisions.3.a: "저 찬탈자는 머지않아 잊힐 것이오..." # 8239624479372547015
+  FCH_major_decisions.4.t: "권력 상승에 대한 소문" # 4960723079139477710
+  FCH_major_decisions.4.desc: "우리 영지에서 [founder.GetTitleAsNameNoTooltip] [founder.GetFirstName] 께서 [new_title.GetName]이라는 새로운 패권을 창설했다는 소문이 돌고 있습니다. 그가 신들과도 필적한다고 주장하니 이는 실로 우려스러운 일입니다! 이러한 주장은 어리석기 짝이 없으나, 그가 우리 영토를 넘보지 못하도록 경계해야 할 것입니다." # 13798376971780729735
+  FCH_major_decisions.4.a: "[founder.GetHerHis]의 영지가 머지않아 무너지기를 바라야겠군..." # 17619597002845916097
+  FCH_major_decisions.4.tooltip: "참고: 이 이벤트를 보고 계시다면, 헤게모니 지도 모드를 확인해 보시는 것을 추천합니다. 새로운 헤게모니가 지도상에 이전 헤게모니 경계선을 덮어썼을 수 있는 새로운 경계선을 가지고 있기 때문입니다." # 4896545872931798671

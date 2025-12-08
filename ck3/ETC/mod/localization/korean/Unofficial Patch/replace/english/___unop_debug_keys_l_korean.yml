@@ -1,0 +1,26 @@
+﻿l_korean:
+  unop_debug_grand_wedding_decision: "성대한 결혼식을 취소합니다" # 6413979708846275376
+  unop_debug_grand_wedding_decision_desc: "배우자 중 한 명의 죽음으로 인해 성대한 결혼식은 거행되지 않을 것임을 알려드립니다." # 15684374192967106056
+  unop_debug_grand_wedding_decision_tooltip: "이제 새로운 #bold 대규모 혼례#를 주선하실 수 있습니다." # 653459981937850952
+  unop_debug_grand_wedding_decision_confirm: "$unop_debug_grand_wedding_decision$" # 666986420645606132
+  unop_debug_travel_stuck_decision: "내 여행을 끝내기" # 11988098927497733336
+  unop_debug_travel_stuck_decision_desc: "이제 목적지에 도착했으니, 잠시 휴식을 취하도록 합시다." # 9293316745799198804
+  unop_debug_travel_stuck_decision_tooltip: "당신의 여정이 끝날 것입니다." # 7196693149109992414
+  unop_debug_travel_stuck_decision_confirm: "$unop_debug_travel_stuck_decision$" # 12650005234687191765
+  unop_fix_the_great_steppe_decision: "#P 위대한 초원을 바로잡자#!" # 6304600357606160777
+  unop_fix_the_great_steppe_decision_desc: "다음과 같은 대초원 관련 문제가 발생하면 이 결정을 사용하십시오:\n$BULLET$대초원의 계절이 속주에 영향을 미치지 않음\n$BULLET$상황 지도 모드에서 지역이 보이지 않음\n$BULLET$준비 감독 별 관측자 임무의 툴팁이 깨짐\n$BULLET$특정 유목 정복 명분이 사용 불가함\n\n이 결정은 현재 게임 세션에 한해 문제를 해결합니다. 이 문제가 패러독스에 의해 확실히 수정될 때까지 매 로드 후 한 번씩 사용하십시오.\n\n문제의 특성상 모드 내에서 이를 확실하게 감지하는 것이 불가능하므로, 이 문제가 해결된 후에도 이 결정은 계속 표시될 것입니다." # 17127201527884467290
+  unop_fix_the_great_steppe_decision_tooltip: "위대한 초원의 문제점들이 현재 게임 세션 동안 수정될 것입니다." # 6879974249654848500
+  unop_fix_the_great_steppe_decision_confirm: "$unop_fix_the_great_steppe_decision$" # 2792054315604326644
+  unop_debug_iberian_struggle_decision: "이베리아 투쟁 단계 변경" # 18202271331367447943
+  unop_debug_iberian_struggle_decision_desc: "지금 이 구절을 바꾸는 게 낫겠어!" # 11591236730015176491
+  unop_debug_iberian_struggle_decision_tooltip: "국면이 바뀔 것입니다." # 4002859101028987446
+  unop_debug_iberian_struggle_decision_confirm: "$unop_debug_iberian_struggle_decision$" # 9465332269409353520
+  CHOOSE_IBERIAN_STRUGGLE_PHASE_DECISION_NEXT_STEP_BUTTON: "단계 변경" # 4638780055496068043
+  toggle_to_compromise_tooltip: "$struggle_iberia_phase_compromise$로 변경" # 1711615618940200484
+  toggle_to_conciliation_tooltip: "$struggle_iberia_phase_conciliation$로 국면 변경" # 13662116905162682172
+  toggle_to_hostility_tooltip: "$struggle_iberia_phase_hostility$로 변경" # 11547117819562400617
+  toggle_to_opportunity_tooltip: "$struggle_iberia_phase_opportunity$로 단계 변경" # 7356903882696673820
+  unop_replace_dead_regent_decision: "대리 통치자 사망" # 17244667620320945046
+  unop_replace_dead_regent_decision_desc: "이제 현 통치자가 사망했으니, 새로운 통치자를 맞이할 때가 되었소." # 11016469103677678274
+  unop_replace_dead_regent_decision_tooltip: "다음 공동 통치자가 지명될 것입니다." # 4166940105135532564
+  unop_replace_dead_regent_decision_confirm: "$unop_replace_dead_regent_decision$" # 5897026824928092812

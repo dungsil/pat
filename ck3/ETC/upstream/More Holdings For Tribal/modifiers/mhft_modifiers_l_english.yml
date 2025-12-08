@@ -1,0 +1,6 @@
+﻿l_english:
+ 
+ t_church_holding_build_speed:0 "Tribal Temple [buildings|E] Construction Time"
+ t_church_holding_build_gold_cost:0 "Tribal Temple [buildings|E] Construction Cost"
+ t_church_holding_holding_build_speed:0 "Tribal Temple [holding|E] Construction Time"
+ t_church_holding_holding_build_gold_cost:0 "Tribal Temple [holding|E] Construction Cost"

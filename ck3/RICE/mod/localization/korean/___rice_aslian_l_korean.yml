@@ -1,0 +1,402 @@
+﻿l_korean:
+  RICE_any_realm_province_jungle_or_forest_req: "귀하의 [realm|E] 내 최소한 한 곳의 [county|E]가 #V forest#! 또는 #V jungle#! [terrain|E]를 가지고 있습니다." # 18428387346463876301
+  RICE_domicile_jungle_or_forest_req: "귀하의 [domicile|E]는 #V forest#! 또는 #V jungle#! [terrain|E] 지역에 위치하고 있습니다." # 4293822675949282957
+  RICE_any_held_county_southeast_asia_req: "당신은 [GetGeographicalRegion('world_asia_southeast').GetName]에 속한 [county|E]를 하나 이상 소유하고 있습니다." # 5247792654969477829
+  RICE_domicile_southeast_asia_req: "귀하의 [domicile|E]는 [GetGeographicalRegion('world_asia_southeast').GetName]에 있습니다." # 8925509144063227269
+  Kramuonsa: "크라무온사" # 17243571641822674593
+  RICE_sea_nomads_option: "바다 유목민 안내서" # 17452488600196675531
+  RICE_sea_nomads_option_desc: "동남아시아는 이 지역의 바다에서 태어나고 죽는 여러 [Glossary( '바다 유목민', 'SEA_NOMADS_GLOSS' )] 집단의 고향입니다. 그들은 합당한 대가를 받는다면 길잡이와 호위병으로 기꺼이 봉사할 것입니다." # 7377178563258680800
+  RICE_southeast_asian_tropical_goods_interaction: "희귀 열대 산품 교환" # 12563592586669594797
+  RICE_southeast_asian_tropical_goods_interaction_desc: "[recipient.GetShortUINamePossessiveNoTooltip] [realm|E]의 상인들과 희귀한 열대 산물을 교환할 의향이 있음을 제안합니다." # 18399566762670979678
+  RICE_southeast_asian_tropical_goods_interaction_notification: "우리 백성들이 희귀한 열대 산물을 모았는데, 귀국의 상인들이 교역에 관심을 가질 것이라 생각합니다. 이 물품들을 교환하기 위해 만날까요?" # 10488274006542351378
+  building_type_RICE_aslian_pahang_gold_mines_01: "파항 광산" # 10402558296115554514
+  building_type_RICE_aslian_pahang_gold_mines_01_desc: "파항 주변 지역은 수 세대 동안 동남아시아의 중요한 금 공급원이었습니다. 이곳에서 채굴된 금은 보통 해상 실크로드 시장에서 거래됩니다." # 10846347564574746334
+  building_RICE_aslian_pahang_gold_mines_01: "파항 광산 정착지" # 5154268329944375375
+  building_RICE_aslian_pahang_gold_mines_01_desc: "$building_rammelsberg_mines_01_desc$" # 1826550512862699185
+  building_RICE_aslian_pahang_gold_mines_02: "파항 광산" # 18080325194156835662
+  building_RICE_aslian_pahang_gold_mines_02_desc: "$building_rammelsberg_mines_02_desc$" # 17900462089297107088
+  building_RICE_aslian_pahang_gold_mines_03: "파항 대형 광산" # 2874951367054432919
+  building_RICE_aslian_pahang_gold_mines_03_desc: "$building_rammelsberg_mines_03_desc$" # 16535131840662613047
+  building_RICE_aslian_pahang_gold_mines_04: "파항 광산 단지" # 16955718476749301774
+  building_RICE_aslian_pahang_gold_mines_04_desc: "$building_rammelsberg_mines_04_desc$" # 498090809535580329
+  building_type_RICE_aslian_gunung_mulu_caves: "구눙 말루 동굴" # 11164146482441853656
+  building_type_RICE_aslian_gunung_mulu_caves_desc: "이 지역의 험준한 산맥에는 세계에서 가장 큰 동굴 시스템 중 일부가 자리하고 있으며, 그곳에서는 길을 잃고 영원히 헤맬 수도 있습니다. 석회암 지형과 끝없이 펼쳐진 정글로 둘러싸인 이곳은 비할 데 없는 자연의 아름다움을 간직한 곳입니다." # 5606886938925851919
+  building_RICE_aslian_gunung_mulu_caves: "$building_type_RICE_aslian_gunung_mulu_caves$" # 13773238168161023094
+  building_RICE_aslian_gunung_mulu_caves_desc: "$building_type_RICE_aslian_gunung_mulu_caves_desc$" # 16456380709841671964
+  RICE_aslian_aspiration_bah_lud_desc: "#bold [historical_aspiration_main_objectives|E]#!\n$EFFECT_LIST_BULLET$계속해서 #V 세노이#! 또는 #V 스망#! [culture|E] (또는 그러한 [culture|E]의 후손)으로 남기\n$EFFECT_LIST_BULLET$계속해서 #V 아슬란#! [faith|E] 유지하기\n$EFFECT_LIST_BULLET$ [GetTrait('lifestyle_mystic').GetName( GetNullCharacter )] [trait|E]의 [trait_level_track_xp|E]를 #V 100#! 달성하기\n$EFFECT_LIST_BULLET$최소 [gold_i|E] #V [EmptyScope.ScriptValue('RICE_aspiration_tiny_resource_bonus')]#! [gold|E] 보유하기\n$EFFECT_LIST_BULLET$ [GetModifier( 'prestige_level_3' ).GetNameWithTooltip|L] 이상의 [prestige_level|E] 또는 [GetModifier( 'piety_level_3' ).GetNameWithTooltip|L] 이상의 [piety_level|E] 보유하기\n$EFFECT_LIST_BULLET$최소 한 번 #bold $activity_RICE_aslian_siwang_ritual$#! [activity|E] 완료하기\n\n#bold 보상#!\n$EFFECT_LIST_BULLET$ @prestige_icon! #V [EmptyScope.ScriptValue('RICE_aspiration_medium_resource_bonus')]#! [prestige|E] 획득\n$EFFECT_LIST_BULLET$ @piety_icon! #V [EmptyScope.ScriptValue('RICE_aspiration_medium_resource_bonus')]#! [piety|E] 획득\n$EFFECT_LIST_BULLET$ @dynasty_prestige_icon! #V [EmptyScope.ScriptValue('RICE_aspiration_medium_resource_bonus')]#! [dynasty_prestige|E] 획득\n$EFFECT_LIST_BULLET$ [education_trait|E] 업그레이드\n\n#bold [historical_aspiration_bonus_objectives|E]#!\n$EFFECT_LIST_BULLET$최소 한 번 #bold $RICE_aslian_blood_sacrifice_decision$#! [decision|E] 실행 (보상: [intrigue_lifestyle|E] [perk|E] 획득)\n$EFFECT_LIST_BULLET$최소 한 번 #bold $RICE_austroasiatic_tiger_god_decision$#! [decision|E] 실행 (보상: [martial_lifestyle|E] [perk|E] 획득)\n$EFFECT_LIST_BULLET$최소 두 번 #bold $activity_RICE_aslian_siwang_ritual$#! [activity|E] 완료 (보상: @legitimacy_icon! #V [EmptyScope.ScriptValue('medium_legitimacy_gain')]#! [legitimacy|E] 획득)\n$EFFECT_LIST_BULLET$다른 [ruler|E]와 최소 한 번 #bold $RICE_southeast_asian_tropical_goods_interaction$#! [interaction|E] 성공적으로 수행 (보상: [stewardship_lifestyle|E] [perk|E] 획득)" # 630136896639862689
+  RICE_aslian_historical_aspiration_action_bah_lud: "#italic 나의 [Glossary( 'gunig', 'GUNIG_GLOSS' )]의 인도하심으로, 나는 적들을 물리치고, 공동체의 이웃들을 돕고, 전설적인 영웅이 되고자 한다.#!$RICE_aslian_aspiration_bah_lud_desc$" # 16930519296220422468
+  RICE_aslian_historical_aspiration_modifier_desc_bah_lud: "[GetModifier('RICE_aslian_aspiration_become_semai_hero').GetNameWithTooltip]" # 26918401356075946
+  RICE_aslian_aspiration_become_semai_hero: "[RICE_aspiration|E]: 전설적인 세마이 영웅이 되기" # 4920168356768992029
+  RICE_aslian_aspiration_become_semai_hero_desc: "#italic [Glossary( 'gunig', 'GUNIG_GLOSS' )]의 인도 아래, 룻은 자신의 적들을 물리치고, 공동체의 다른 이들을 도우며, 전설적인 영웅이 되고자 합니다!#!$RICE_aslian_aspiration_bah_lud_desc$\n\n" # 18043548313951750607
+  activity_RICE_aslian_siwang_ritual_host_an_a: "$host_activity_a$" # 13713790857143020716
+  activity_RICE_aslian_siwang_ritual: "시왕 의식" # 6862804782177371983
+  activity_RICE_aslian_siwang_ritual_desc: "사왕 의식은 우리를 육체적, 정신적 질병으로부터 치유하고 회복시키는 데 도움을 줄 수 있습니다. 이 의식은 [Glossary( 'gunig', 'GUNIG_GLOSS' )] 정령들의 도움이 필요하며, 이들은 소심하기 때문에 밤에 접촉해야 합니다." # 6974445613910276583
+  activity_RICE_aslian_siwang_ritual_selection_tooltip: "시왕 의식 거행하기\n\n$RICE_aslian_siwang_ritual_context_tooltip$" # 6617288362014016715
+  activity_RICE_aslian_siwang_ritual_host_desc: "$BULLET_WITH_TAB$ [stress_loss_i|E] [stress|E] 감소\n$BULLET_WITH_TAB$ [prestige_i|E] [prestige|E]\n$BULLET_WITH_TAB$ [piety_i|E] [piety|E]\n$BULLET_WITH_TAB$ [GetModifier('RICE_aslian_siwang_ritual_modifier').GetNameWithTooltip] [modifier|E]\n$BULLET_WITH_TAB$자격 있는 모든 참석자를 위한 [GetTrait('lifestyle_mystic').GetName(GetNullCharacter)] [trait|E]의 [trait_level_track_xp|E]" # 16853001787735254768
+  activity_RICE_aslian_siwang_ritual_guest_desc: "$activity_RICE_aslian_siwang_ritual_host_desc$" # 3544018778463553485
+  activity_RICE_aslian_siwang_ritual_province_desc: "사왕 의례가 이곳에서 거행될 것입니다." # 7435060538111409936
+  activity_RICE_aslian_siwang_ritual_destination_selection: "$activity_RICE_aslian_siwang_ritual_province_desc$" # 11572360322931329268
+  activity_RICE_aslian_siwang_ritual_guest_help_text: "$activity_RICE_aslian_siwang_ritual$" # 8566487531392011113
+  activity_RICE_aslian_siwang_ritual_predicted_cost: "이 방문의 비용은 주로 귀하의 [income|E]에 따라 결정됩니다." # 8882918087865338503
+  activity_RICE_aslian_siwang_ritual_conclusion_desc: "[GetActivityType( 'activity_RICE_aslian_siwang_ritual' ).GetName] 의식이 끝났습니다. 우리는 [Glossary( 'gunigs', 'GUNIG_GLOSS' )] 덕분에 치유되고 활력을 되찾았습니다." # 9300250168613745625
+  RICE_aslian_siwang_ritual_healing_phase: "치유" # 18289696712305291815
+  RICE_aslian_siwang_ritual_healing_phase_desc: "$senoi_pagan_priest$가 우리를 치유하고 활력을 되찾아 줄 [Glossary( 'gunig', 'GUNIG_GLOSS' )]를 소환할 것입니다." # 14966716440056788946
+  RICE_aslian_siwang_ritual_healing_intent_header: "치유" # 4604419357092657598
+  RICE_aslian_siwang_ritual_healing_intent: "치유" # 18289696712305291815
+  RICE_aslian_siwang_ritual_healing_intent_desc: "이것은 우리가 치유하고, 삶을 감사하며, 조상들과 선한 정령들에게 기도할 시간입니다." # 4980984072486531287
+  RICE_aslian_siwang_ritual_completed_log_title: "사왕 의식을 완료했습니다." # 1822657089193077917
+  RICE_aslian_siwang_ritual_completed_log: "[CHARACTER.GetShortUIName|U] 께서 사왕 의식을 완료했습니다." # 15246211393159609441
+  TRAVEL_NAME_FOR_activity_RICE_aslian_siwang_ritual: "[Character.GetFirstNamePossessiveNoTooltip] $activity_RICE_aslian_siwang_ritual$" # 4438794385510261464
+  RICE_aslian_performed_siwaac_blood_sacrifice: "시와크 피의 제물" # 264573142345891424
+  RICE_aslian_performed_siwaac_blood_sacrifice_desc: "이 인물은 최근 비바람이 몰아치는 가운데 천둥신을 달래기 위해 시와악 피의 제물을 바쳤습니다." # 10377205378169710127
+  RICE_austroasiatic_wise_tiger_modifier: "현명한 호랑이 정령에게 공물을 바쳤습니다." # 15467994628255312889
+  RICE_austroasiatic_majestic_tiger_modifier: "장엄한 호랑이 정령에게 공물을 바쳤습니다" # 18164496407046301447
+  rice_austroasiatic_retributive_tiger_modifier: "위험한 호랑이 정령에게 제물을 바쳤습니다" # 12527066327584815411
+  RICE_austroasiatic_savage_tiger_modifier: "#야만적인 호랑이 정령#에게 제물을 바쳤습니다" # 3783827585912700844
+  RICE_SEA_tropical_good_modifier: "수확된 열대우림 산물" # 17221626983044808992
+  RICE_SEA_tropical_good_modifier_desc: "이 인물은 공동체가 사용할 수 있도록 동남아시아의 열대우림에서만 발견되는 희귀한 물품들을 모았습니다.\n\n#weak 다른 [rulers|E]와 #V 희귀 열대 상품 교환#! [interaction|E]를 해금합니다#!" # 6797094876528696351
+  RICE_SEA_tropical_good_trade_modifier: "열대 우림 상품 획득" # 7102580996937726250
+  RICE_SEA_tropical_good_trade_modifier_desc: "이 인물은 동남아시아 열대우림에서만 구할 수 있는 희귀품들을 해당 지역에 사는 사람들과의 교역을 통해 획득했습니다." # 16210639205954526153
+  RICE_opinion_southeast_asian_rare_goods_trade: "열대우림 물품 교역" # 7709648029556311128
+  RICE_southeast_asian_local_trade_networks: "#bold 동남아시아 네트워크 확장#!" # 18225965109309107243
+  RICE_aslian_bah_lud: "바흐 루드" # 5656912973110996125
+  RICE_aslian_bah_lud_desc: "비록 [Glossary( 'Bah', 'BAH_MALAYSIA_GLOSS' )] 루드가 육체적으로 허약해 보이지만, 소문에 따르면 이는 적들을 혼란시키기 위한 단순한 기만이라고 합니다. 심지어 강력한 [Glossary( 'gunig', 'GUNIG_GLOSS' )] 정령들의 도움을 받고 있다는 속삭임도 있습니다." # 1362807059047720403
+  RICE_aslian_siwang_ritual_modifier: "사왕 의식에 참여함" # 9782771040522734156
+  RICE_aslian_siwang_ritual_halaa_modifier: "사망 의식에 할라크로서 참여함" # 795918590624229797
+  RICE_SEA_sea_nomads_modifier: "#bold 바다 유목민#과의 관계" # 15790651376841571409
+  RICE_SEA_sea_nomads_modifier_desc: "이 인물은 동남아시아의 저명한 해상 유목 부족들과 정치적, 경제적 유대를 맺고 있습니다.\n\n#weak [decision|E]를 해제하여 #bold $RICE_SEA_manage_sea_lanes$#!를 활성화합니다!" # 3394257326562217227
+  RICE_SEA_manage_sea_lanes_modifier: "#bold 해상 유목민 주둔 허가#" # 5703284708130451318
+  RICE_SEA_manage_sea_lanes_modifier_desc: "지역의 해안 지역에서 지방 통치자들이 해상 유목민 부족들을 고용하여 교역을 보호하고 장려하고 있습니다." # 12396110758827708827
+  RICE_aslian_blood_sacrifice_decision: "시와악의 피의 제물을 바치기" # 6663328517088979603
+  RICE_aslian_blood_sacrifice_decision_tooltip: "천둥이 칠 때, 우리 모두는 두려워합니다." # 76207826079663030
+  RICE_aslian_blood_sacrifice_decision_desc: "천둥의 등장은 우리가 금기를 어기거나 부도덕한 행동을 하여 천둥신이 노했음을 알리지만, 내 피를 바치는 간단한 제물로 그분을 달랠 수 있기를 바란다." # 9107643590831825781
+  RICE_aslian_blood_sacrifice_decision_effect_tooltip_1: "이 [decision|E]는 성인인 #V 여성#으로 생리 가능한 연령(최대 #V 45세#)일 경우 더 많은 [stress_loss_i|E] [stress|E]를 감소시키고 더 많은 [piety_i|E] [piety|E]를 부여합니다." # 3837727087731583368
+  RICE_aslian_blood_sacrifice_decision_confirm: "시작해보지!" # 331371430259311057
+  RICE_aslian_blood_sacrifice_decision_context_tooltip: "#emphasis 역사적 배경:#! xxxxxxxx" # 14932428209633311872
+  RICE_austroasiatic_tiger_god_decision: "호랑이 정령에게 공물을 바치기" # 14320831665018711790
+  RICE_austroasiatic_tiger_god_decision_tooltip: "호랑이는 어떤 모습이든 존중받아야 한다." # 9460540437930973419
+  RICE_austroasiatic_tiger_god_decision_desc: "호랑이 정령들은 [ROOT.Char.GetFaith.GetName] 세계관의 필수적인 부분입니다. 두려움, 존경, 헌신, 혹은 다른 어떤 이유로든, 정기적으로 호랑이 정령들에게 제물을 바치는 것이 중요합니다." # 28397114566430057
+  RICE_austroasiatic_tiger_god_decision_effect_tooltip_1: "이 [decision|E]를 통해 얻는 [character_modifier|E]는 귀하의 [faith|E]가 가진 #V $rice_doctrine_austroasiatic_tiger_god_name$#! [doctrine|E]에 따라 달라집니다." # 8476665621316639696
+  RICE_austroasiatic_tiger_god_decision_confirm: "제물을 준비하라!" # 17418423168661925689
+  RICE_austroasiatic_tiger_god_decision_context_tooltip: "#emphasis 역사적 배경:#! xxxxxxxx" # 14932428209633311872
+  RICE_SEA_harvest_rare_tropical_goods_decision: "희귀 열대 산물 수확" # 15130863003501902258
+  RICE_SEA_harvest_rare_tropical_goods_decision_tooltip: "우리는 외부인들과 교역하기 위해 구하기 힘든 물품들을 모아야 합니다." # 13011721948540303429
+  RICE_SEA_harvest_rare_tropical_goods_decision_desc: "[GetGeographicalRegion('world_asia_southeast').GetName]은 우리와 선조들이 대대로 사용해 온 열대 산물로 가득합니다. 우리는 이를 지속 가능한 방식으로 수확하여 우리 공동체의 이익을 도모할 수 있습니다." # 3060285464070142850
+  RICE_SEA_harvest_rare_tropical_goods_decision_effect_tooltip_1: "[GetModifier('RICE_SEA_tropical_good_modifier').GetNameWithTooltip] [modifier|E]가 활성화된 동안, 다른 [rulers|E]와 #V 희귀 열대 산물을 교환#!할 수 있는 [interaction|E]를 이용할 수 있습니다." # 16334906513870764329
+  RICE_SEA_harvest_rare_tropical_goods_decision_confirm: "이 재물을 수확합시다!" # 13935980573858451474
+  RICE_SEA_harvest_rare_tropical_goods_decision_context_tooltip: "#emphasis 역사적 배경:#! xxxxxxxx" # 14932428209633311872
+  RICE_SEA_manage_sea_lanes_sea_nomad: "주변 항로 관리" # 10700328207263574512
+  RICE_SEA_manage_sea_lanes: "#bold 직할령# 해상 유목민들에게 인근 해상로를 관리하도록 지시하십시오" # 9734069670526298820
+  RICE_SEA_manage_sea_lanes_tooltip: "동남아시아의 바다 유목민들은 다른 이들이 따라올 수 없을 정도로 물의 전문가들입니다." # 4764168612785449101
+  RICE_SEA_manage_sea_lanes_desc_sea_nomad: "우리는 [Glossary( 'Sea Nomads', 'SEA_NOMADS_GLOSS' )]는 [GetGeographicalRegion('world_asia_southeast').GetName]에서 유래했으며, 삶의 대부분을 바다에서 보냅니다. 우리 해상 영토의 번영을 유지하기 위해서는 인근 해로에 대한 통제를 강화하는 것이 필수적입니다." # 9868813965960280714
+  RICE_SEA_manage_sea_lanes_desc: "[GetGeographicalRegion('world_asia_southeast').GetName] 출신의 [Glossary( 'Sea Nomads', 'SEA_NOMADS_GLOSS' )]들은 삶의 대부분을 바다에서 보냅니다. 그들과의 관계를 활용하여 우리의 해상 영토 번영을 유지할 수 있을 것입니다." # 3051352318162835269
+  RICE_SEA_manage_sea_lanes_effect_tooltip_1: "이 [decision|E]의 [gold_i|E] [gold|E] 비용은 당신이 소유한 해안 [counties|E]의 수에 따라 달라집니다." # 7479401081392024589
+  RICE_SEA_manage_sea_lanes_confirm: "이 재물을 수확합시다!" # 13935980573858451474
+  RICE_SEA_manage_sea_lanes_context_tooltip: "#emphasis 역사적 배경:#! xxxxxxxx" # 14932428209633311872
+  aslian.0000.t: "xxxxx" # 1951045980481827005
+  aslian.0000.desc: "xxxxx" # 1951045980481827005
+  aslian.0000.a: "xxxxx" # 1951045980481827005
+  aslian.0001.t: "xxxxx" # 1951045980481827005
+  aslian.0001.desc: "xxxxx" # 1951045980481827005
+  aslian.0001.a: "xxxxx" # 1951045980481827005
+  aslian.0002.t: "xxxxx" # 1951045980481827005
+  aslian.0002.desc: "xxxxx" # 1951045980481827005
+  aslian.0002.a: "xxxxx" # 1951045980481827005
+  aslian.0003.t: "xxxxx" # 1951045980481827005
+  aslian.0003.desc: "xxxxx" # 1951045980481827005
+  aslian.0003.a: "xxxxx" # 1951045980481827005
+  aslian.0004.t: "xxxxx" # 1951045980481827005
+  aslian.0004.desc: "xxxxx" # 1951045980481827005
+  aslian.0004.a: "xxxxx" # 1951045980481827005
+  aslian.0005.t: "[courtier.GetCulture.GetNameNoTooltip] 해상 유목민" # 8317355598059587453
+  aslian.0005.desc: "누구의 기억이 닿는 한, [GetGeographicalRegion('world_asia_southeast').GetName]에 거주하는 [Glossary( 'Sea Nomads', 'SEA_NOMADS_GLOSS' )]들은 세상의 가장 숙련된 선원들조차 초보 육지 거주자처럼 보이게 만들었습니다. 그들은 바다에서 살고 바다에서 죽습니다.\n지역의 통치자들은 수년 동안 그들과 현명하게 협력해 왔습니다. 오늘, 그러한 기회가 저에게 찾아왔습니다.\n\n[courtier.GetCulture.GetName] 민족의 저명한 일원인 [courtier.GetFirstName]가 저에게 다가와, 제 영토를 통과하거나 근처를 지나는 [courtier.GetCulture.GetCollectiveNounNoTooltip]와 생산적인 관계를 구축하는 데 제가 열려 있기를 바라고 있습니다. 함께 우리는 해상 영토를 공동으로 보호하고, 무역에 종사하며, 정치적 유대를 강화할 수 있습니다." # 10127536623295548140
+  aslian.0005.a: "귀족의 백성들과의 우의를 환영합니다!" # 2750968982103478792
+  aslian.0005.b: "제 궁정에 머무르시오, 그리하여 우리가 함께 일할 수 있도록!" # 11868681056469555716
+  aslian.0005.c: "나는 당신 같은 자들에게는 관심이 없소." # 2673935578294401836
+  aslian.0006.t: "xxxxx" # 1951045980481827005
+  aslian.0006.desc: "xxxxx" # 1951045980481827005
+  aslian.0006.a: "xxxxx" # 1951045980481827005
+  aslian.0007.t: "xxxxx" # 1951045980481827005
+  aslian.0007.desc: "xxxxx" # 1951045980481827005
+  aslian.0007.a: "xxxxx" # 1951045980481827005
+  aslian.0008.t: "xxxxx" # 1951045980481827005
+  aslian.0008.desc: "xxxxx" # 1951045980481827005
+  aslian.0008.a: "xxxxx" # 1951045980481827005
+  aslian.0009.t: "xxxxx" # 1951045980481827005
+  aslian.0009.desc: "xxxxx" # 1951045980481827005
+  aslian.0009.a: "xxxxx" # 1951045980481827005
+  aslian.0010.t: "xxxxx" # 1951045980481827005
+  aslian.0010.desc: "xxxxx" # 1951045980481827005
+  aslian.0010.a: "xxxxx" # 1951045980481827005
+  aslian.0011.t: "xxxxx" # 1951045980481827005
+  aslian.0011.desc: "xxxxx" # 1951045980481827005
+  aslian.0011.a: "xxxxx" # 1951045980481827005
+  aslian.0012.t: "xxxxx" # 1951045980481827005
+  aslian.0012.desc: "xxxxx" # 1951045980481827005
+  aslian.0012.a: "xxxxx" # 1951045980481827005
+  aslian.0013.t: "xxxxx" # 1951045980481827005
+  aslian.0013.desc: "xxxxx" # 1951045980481827005
+  aslian.0013.a: "xxxxx" # 1951045980481827005
+  aslian.0014.t: "xxxxx" # 1951045980481827005
+  aslian.0014.desc: "xxxxx" # 1951045980481827005
+  aslian.0014.a: "xxxxx" # 1951045980481827005
+  aslian.0015.t: "xxxxx" # 1951045980481827005
+  aslian.0015.desc: "xxxxx" # 1951045980481827005
+  aslian.0015.a: "xxxxx" # 1951045980481827005
+  aslian.0016.t: "xxxxx" # 1951045980481827005
+  aslian.0016.desc: "xxxxx" # 1951045980481827005
+  aslian.0016.a: "xxxxx" # 1951045980481827005
+  aslian.0017.t: "xxxxx" # 1951045980481827005
+  aslian.0017.desc: "xxxxx" # 1951045980481827005
+  aslian.0017.a: "xxxxx" # 1951045980481827005
+  aslian.0018.t: "xxxxx" # 1951045980481827005
+  aslian.0018.desc: "xxxxx" # 1951045980481827005
+  aslian.0018.a: "xxxxx" # 1951045980481827005
+  aslian.0019.t: "xxxxx" # 1951045980481827005
+  aslian.0019.desc: "xxxxx" # 1951045980481827005
+  aslian.0019.a: "xxxxx" # 1951045980481827005
+  aslian.0020.t: "#bold 시와악 의식#!" # 4991831472330270825
+  aslian.0020.desc: "비가 세차고 거세게 내리더니, 하늘에서 물이 쏟아지고 천둥이 우리 주변의 땅을 뒤흔들었습니다. 우리 모두 뇌우가 온 이유를 알고 있습니다. 바로 천둥의 신인 [ROOT.Char.GetFaith.HighGodName]께서 우리를 벌하고 계신 것입니다.\n\n우리 중 누군가가 금기를 어겼거나, 후회 없이 죄악을 저질렀거나, 누군가에게 원치 않는 행동을 강요했거나, 혹은 수많은 부도덕한 일을 저질렀을 것입니다.\n\n다른 이들이 공포에 질려 비명을 지르며 허둥대는 동안, 우리 중 몇몇은 근처에 있던 날카로운 대나무 조각을 집어 정강이에 얕은 상처를 냅니다. 비와 천둥이 계속되는 가운데, 우리는 서둘러 피를 국자에 받아 하늘에 뿌립니다.\n\\\"용서하소서, [ROOT.Char.GetFaith.HighGodName]이시여! 저희는 악을 행할 의도가 없었습니다\" 우리는 외칩니다. 이 어리석은 신이 설득되어 우리를 내버려 두기를 바라며, 우리의 #italic siwaac#! 의식이 진심으로 보였기를 바랍니다." # 3737997605557215731
+  aslian.0020.a: "마침내 뇌우가 멎으니, 우리는 안도한다." # 18335505116402260584
+  aslian.0021.t: "xxxxx" # 1951045980481827005
+  aslian.0021.desc: "xxxxx" # 1951045980481827005
+  aslian.0021.a: "xxxxx" # 1951045980481827005
+  aslian.0022.t: "xxxxx" # 1951045980481827005
+  aslian.0022.desc: "xxxxx" # 1951045980481827005
+  aslian.0022.a: "xxxxx" # 1951045980481827005
+  aslian.0023.t: "xxxxx" # 1951045980481827005
+  aslian.0023.desc: "xxxxx" # 1951045980481827005
+  aslian.0023.a: "xxxxx" # 1951045980481827005
+  aslian.0024.t: "xxxxx" # 1951045980481827005
+  aslian.0024.desc: "xxxxx" # 1951045980481827005
+  aslian.0024.a: "xxxxx" # 1951045980481827005
+  aslian.0025.t: "xxxxx" # 1951045980481827005
+  aslian.0025.desc: "xxxxx" # 1951045980481827005
+  aslian.0025.a: "xxxxx" # 1951045980481827005
+  aslian.0026.t: "xxxxx" # 1951045980481827005
+  aslian.0026.desc: "xxxxx" # 1951045980481827005
+  aslian.0026.a: "xxxxx" # 1951045980481827005
+  aslian.0027.t: "xxxxx" # 1951045980481827005
+  aslian.0027.desc: "xxxxx" # 1951045980481827005
+  aslian.0027.a: "xxxxx" # 1951045980481827005
+  aslian.0028.t: "xxxxx" # 1951045980481827005
+  aslian.0028.desc: "xxxxx" # 1951045980481827005
+  aslian.0028.a: "xxxxx" # 1951045980481827005
+  aslian.0029.t: "xxxxx" # 1951045980481827005
+  aslian.0029.desc: "xxxxx" # 1951045980481827005
+  aslian.0029.a: "xxxxx" # 1951045980481827005
+  aslian.0030.t: "희귀한 열대 산물" # 16268940837795605598
+  aslian.0030.desc: "우리 [ROOT.Char.GetCulture.GetCollectiveNoun]는 이 땅의 숲을 그 누구보다 잘 압니다. 귀한 물질과 약초부터 아름다움 때문에 귀하게 여겨지는 짐승에 이르기까지, 외부인들이 찾기 어려워하는 희귀품들을 어디서 구할 수 있는지 알고 있습니다.\n\n저는 우리 공동체의 일원들을 보내 이러한 물품들을 찾아오도록 했습니다. 이 물품들 중 다수는 우리의 일상생활에 큰 도움이 되겠지만, 일부는 여행하는 상인들에게 팔아넘길 수도 있습니다. 외국인들은 종종 이러한\"이국적\" 물품들을 갈망하기 때문입니다." # 4966889622870620824
+  aslian.0030.a: "우리는 이 땅들을 다른 이들보다 잘 알고 있소." # 4788365780796799081
+  aslian.0030.tooltip: "[interaction|E]을 통한 #V $RICE_southeast_asian_tropical_goods_interaction$#! 상호작용은 이제 [GetModifier('RICE_SEA_tropical_good_modifier').GetNameWithTooltip] [modifier|E]가 활성화되어 있는 한 가능합니다." # 12004284749519771530
+  aslian.0031.t: "xxxxx" # 1951045980481827005
+  aslian.0031.desc: "xxxxx" # 1951045980481827005
+  aslian.0031.a: "xxxxx" # 1951045980481827005
+  aslian.0032.t: "xxxxx" # 1951045980481827005
+  aslian.0032.desc: "xxxxx" # 1951045980481827005
+  aslian.0032.a: "xxxxx" # 1951045980481827005
+  aslian.0033.t: "xxxxx" # 1951045980481827005
+  aslian.0033.desc: "xxxxx" # 1951045980481827005
+  aslian.0033.a: "xxxxx" # 1951045980481827005
+  aslian.0034.t: "xxxxx" # 1951045980481827005
+  aslian.0034.desc: "xxxxx" # 1951045980481827005
+  aslian.0034.a: "xxxxx" # 1951045980481827005
+  aslian.0035.t: "xxxxx" # 1951045980481827005
+  aslian.0035.desc: "xxxxx" # 1951045980481827005
+  aslian.0035.a: "xxxxx" # 1951045980481827005
+  aslian.0036.t: "xxxxx" # 1951045980481827005
+  aslian.0036.desc: "xxxxx" # 1951045980481827005
+  aslian.0036.a: "xxxxx" # 1951045980481827005
+  aslian.0037.t: "xxxxx" # 1951045980481827005
+  aslian.0037.desc: "xxxxx" # 1951045980481827005
+  aslian.0037.a: "xxxxx" # 1951045980481827005
+  aslian.0038.t: "xxxxx" # 1951045980481827005
+  aslian.0038.desc: "xxxxx" # 1951045980481827005
+  aslian.0038.a: "xxxxx" # 1951045980481827005
+  aslian.0039.t: "xxxxx" # 1951045980481827005
+  aslian.0039.desc: "xxxxx" # 1951045980481827005
+  aslian.0039.a: "xxxxx" # 1951045980481827005
+  aslian.0040.t: "xxxxx" # 1951045980481827005
+  aslian.0040.desc: "xxxxx" # 1951045980481827005
+  aslian.0040.a: "내가 $senoi_pagan_priest$로서 이 의식을 주관하겠다." # 14584193250284614996
+  aslian.0040.a.tooltip: "의식을 감독하는 $senoi_pagan_priest$로서, 당신은 [activity|E] 종료 시 추가 [prestige_i|E] [prestige|E]와 [piety_i|E] [piety|E]를 얻고, [GetTrait('lifestyle_mystic').GetName(GetNullCharacter)] [trait|E]에서 [trait_level_track_xp|E]를 얻게 될 것입니다(만약 가지고 있다면). 하지만 [stress_gain_i|E] [stress|E]를 얻게 됩니다(잃는 대신)." # 4739036132649779161
+  aslian.0040.b: "[candidate.GetFirstNameNoTooltip] 님께서 $senoi_pagan_priest$로서 이 의식을 주관하실 수 있습니다." # 6445883063648329869
+  aslian.0040.b.tooltip: "$senoi_pagan_priest$인 제가 의식을 감독하여, [candidate.GetFirstName]은 [activity|E] 종료 시 추가 [prestige_i|E] [prestige|E]와 [piety_i|E] [piety|E]를 얻고, [GetTrait('lifestyle_mystic').GetName(GetNullCharacter)] [trait|E] 경험치 [trait_level_track_xp|E]를 얻을 것입니다 (해당 특성이 있다면). 하지만 [stress|E]를 잃는 대신 [stress_gain_i|E] [stress|E]를 얻게 됩니다!" # 3745406440845290567
+  aslian.0040.c: "우리는 지역 $senoi_pagan_priest$가 이 의식을 주관하도록 할 수 있습니다." # 3473228889373816829
+  aslian.0041.t: "xxxxx" # 1951045980481827005
+  aslian.0041.desc: "xxxxx" # 1951045980481827005
+  aslian.0041.a: "xxxxx" # 1951045980481827005
+  aslian.0042.t: "xxxxx" # 1951045980481827005
+  aslian.0042.desc: "xxxxx" # 1951045980481827005
+  aslian.0042.a: "xxxxx" # 1951045980481827005
+  aslian.0043.t: "xxxxx" # 1951045980481827005
+  aslian.0043.desc: "xxxxx" # 1951045980481827005
+  aslian.0043.a: "xxxxx" # 1951045980481827005
+  aslian.0044.t: "xxxxx" # 1951045980481827005
+  aslian.0044.desc: "xxxxx" # 1951045980481827005
+  aslian.0044.a: "xxxxx" # 1951045980481827005
+  aslian.0045.t: "xxxxx" # 1951045980481827005
+  aslian.0045.desc: "xxxxx" # 1951045980481827005
+  aslian.0045.a: "xxxxx" # 1951045980481827005
+  aslian.0046.t: "xxxxx" # 1951045980481827005
+  aslian.0046.desc: "xxxxx" # 1951045980481827005
+  aslian.0046.a: "xxxxx" # 1951045980481827005
+  aslian.0047.t: "xxxxx" # 1951045980481827005
+  aslian.0047.desc: "xxxxx" # 1951045980481827005
+  aslian.0047.a: "xxxxx" # 1951045980481827005
+  aslian.0048.t: "xxxxx" # 1951045980481827005
+  aslian.0048.desc: "xxxxx" # 1951045980481827005
+  aslian.0048.a: "xxxxx" # 1951045980481827005
+  aslian.0049.t: "xxxxx" # 1951045980481827005
+  aslian.0049.desc: "xxxxx" # 1951045980481827005
+  aslian.0049.a: "xxxxx" # 1951045980481827005
+  aslian.0050.t: "xxxxx" # 1951045980481827005
+  aslian.0050.desc: "xxxxx" # 1951045980481827005
+  aslian.0050.a: "xxxxx" # 1951045980481827005
+  aslian.0051.t: "xxxxx" # 1951045980481827005
+  aslian.0051.desc: "xxxxx" # 1951045980481827005
+  aslian.0051.a: "xxxxx" # 1951045980481827005
+  aslian.0052.t: "xxxxx" # 1951045980481827005
+  aslian.0052.desc: "xxxxx" # 1951045980481827005
+  aslian.0052.a: "xxxxx" # 1951045980481827005
+  aslian.0053.t: "xxxxx" # 1951045980481827005
+  aslian.0053.desc: "xxxxx" # 1951045980481827005
+  aslian.0053.a: "xxxxx" # 1951045980481827005
+  aslian.0054.t: "xxxxx" # 1951045980481827005
+  aslian.0054.desc: "xxxxx" # 1951045980481827005
+  aslian.0054.a: "xxxxx" # 1951045980481827005
+  aslian.0055.t: "xxxxx" # 1951045980481827005
+  aslian.0055.desc: "xxxxx" # 1951045980481827005
+  aslian.0055.a: "xxxxx" # 1951045980481827005
+  aslian.0056.t: "xxxxx" # 1951045980481827005
+  aslian.0056.desc: "xxxxx" # 1951045980481827005
+  aslian.0056.a: "xxxxx" # 1951045980481827005
+  aslian.0057.t: "xxxxx" # 1951045980481827005
+  aslian.0057.desc: "xxxxx" # 1951045980481827005
+  aslian.0057.a: "xxxxx" # 1951045980481827005
+  aslian.0058.t: "xxxxx" # 1951045980481827005
+  aslian.0058.desc: "xxxxx" # 1951045980481827005
+  aslian.0058.a: "xxxxx" # 1951045980481827005
+  aslian.0059.t: "xxxxx" # 1951045980481827005
+  aslian.0059.desc: "xxxxx" # 1951045980481827005
+  aslian.0059.a: "xxxxx" # 1951045980481827005
+  aslian.0060.t: "xxxxx" # 1951045980481827005
+  aslian.0060.desc: "xxxxx" # 1951045980481827005
+  aslian.0060.a: "xxxxx" # 1951045980481827005
+  aslian.0061.t: "xxxxx" # 1951045980481827005
+  aslian.0061.desc: "xxxxx" # 1951045980481827005
+  aslian.0061.a: "xxxxx" # 1951045980481827005
+  aslian.0062.t: "xxxxx" # 1951045980481827005
+  aslian.0062.desc: "xxxxx" # 1951045980481827005
+  aslian.0062.a: "xxxxx" # 1951045980481827005
+  aslian.0063.t: "xxxxx" # 1951045980481827005
+  aslian.0063.desc: "xxxxx" # 1951045980481827005
+  aslian.0063.a: "xxxxx" # 1951045980481827005
+  aslian.0064.t: "xxxxx" # 1951045980481827005
+  aslian.0064.desc: "xxxxx" # 1951045980481827005
+  aslian.0064.a: "xxxxx" # 1951045980481827005
+  aslian.0065.t: "xxxxx" # 1951045980481827005
+  aslian.0065.desc: "xxxxx" # 1951045980481827005
+  aslian.0065.a: "xxxxx" # 1951045980481827005
+  aslian.0066.t: "xxxxx" # 1951045980481827005
+  aslian.0066.desc: "xxxxx" # 1951045980481827005
+  aslian.0066.a: "xxxxx" # 1951045980481827005
+  aslian.0067.t: "xxxxx" # 1951045980481827005
+  aslian.0067.desc: "xxxxx" # 1951045980481827005
+  aslian.0067.a: "xxxxx" # 1951045980481827005
+  aslian.0068.t: "xxxxx" # 1951045980481827005
+  aslian.0068.desc: "xxxxx" # 1951045980481827005
+  aslian.0068.a: "xxxxx" # 1951045980481827005
+  aslian.0069.t: "xxxxx" # 1951045980481827005
+  aslian.0069.desc: "xxxxx" # 1951045980481827005
+  aslian.0069.a: "xxxxx" # 1951045980481827005
+  aslian.0070.t: "xxxxx" # 1951045980481827005
+  aslian.0070.desc: "xxxxx" # 1951045980481827005
+  aslian.0070.a: "xxxxx" # 1951045980481827005
+  aslian.0071.t: "xxxxx" # 1951045980481827005
+  aslian.0071.desc: "xxxxx" # 1951045980481827005
+  aslian.0071.a: "xxxxx" # 1951045980481827005
+  aslian.0072.t: "xxxxx" # 1951045980481827005
+  aslian.0072.desc: "xxxxx" # 1951045980481827005
+  aslian.0072.a: "xxxxx" # 1951045980481827005
+  aslian.0073.t: "xxxxx" # 1951045980481827005
+  aslian.0073.desc: "xxxxx" # 1951045980481827005
+  aslian.0073.a: "xxxxx" # 1951045980481827005
+  aslian.0074.t: "xxxxx" # 1951045980481827005
+  aslian.0074.desc: "xxxxx" # 1951045980481827005
+  aslian.0074.a: "xxxxx" # 1951045980481827005
+  aslian.0075.t: "xxxxx" # 1951045980481827005
+  aslian.0075.desc: "xxxxx" # 1951045980481827005
+  aslian.0075.a: "xxxxx" # 1951045980481827005
+  aslian.0076.t: "xxxxx" # 1951045980481827005
+  aslian.0076.desc: "xxxxx" # 1951045980481827005
+  aslian.0076.a: "xxxxx" # 1951045980481827005
+  aslian.0077.t: "xxxxx" # 1951045980481827005
+  aslian.0077.desc: "xxxxx" # 1951045980481827005
+  aslian.0077.a: "xxxxx" # 1951045980481827005
+  aslian.0078.t: "xxxxx" # 1951045980481827005
+  aslian.0078.desc: "xxxxx" # 1951045980481827005
+  aslian.0078.a: "xxxxx" # 1951045980481827005
+  aslian.0079.t: "xxxxx" # 1951045980481827005
+  aslian.0079.desc: "xxxxx" # 1951045980481827005
+  aslian.0079.a: "xxxxx" # 1951045980481827005
+  aslian.0080.t: "xxxxx" # 1951045980481827005
+  aslian.0080.desc: "xxxxx" # 1951045980481827005
+  aslian.0080.a: "xxxxx" # 1951045980481827005
+  aslian.0081.t: "xxxxx" # 1951045980481827005
+  aslian.0081.desc: "xxxxx" # 1951045980481827005
+  aslian.0081.a: "xxxxx" # 1951045980481827005
+  aslian.0082.t: "xxxxx" # 1951045980481827005
+  aslian.0082.desc: "xxxxx" # 1951045980481827005
+  aslian.0082.a: "xxxxx" # 1951045980481827005
+  aslian.0083.t: "xxxxx" # 1951045980481827005
+  aslian.0083.desc: "xxxxx" # 1951045980481827005
+  aslian.0083.a: "xxxxx" # 1951045980481827005
+  aslian.0084.t: "xxxxx" # 1951045980481827005
+  aslian.0084.desc: "xxxxx" # 1951045980481827005
+  aslian.0084.a: "xxxxx" # 1951045980481827005
+  aslian.0085.t: "xxxxx" # 1951045980481827005
+  aslian.0085.desc: "xxxxx" # 1951045980481827005
+  aslian.0085.a: "xxxxx" # 1951045980481827005
+  aslian.0086.t: "xxxxx" # 1951045980481827005
+  aslian.0086.desc: "xxxxx" # 1951045980481827005
+  aslian.0086.a: "xxxxx" # 1951045980481827005
+  aslian.0087.t: "xxxxx" # 1951045980481827005
+  aslian.0087.desc: "xxxxx" # 1951045980481827005
+  aslian.0087.a: "xxxxx" # 1951045980481827005
+  aslian.0088.t: "xxxxx" # 1951045980481827005
+  aslian.0088.desc: "xxxxx" # 1951045980481827005
+  aslian.0088.a: "xxxxx" # 1951045980481827005
+  aslian.0089.t: "xxxxx" # 1951045980481827005
+  aslian.0089.desc: "xxxxx" # 1951045980481827005
+  aslian.0089.a: "xxxxx" # 1951045980481827005
+  aslian.0090.t: "xxxxx" # 1951045980481827005
+  aslian.0090.desc: "xxxxx" # 1951045980481827005
+  aslian.0090.a: "xxxxx" # 1951045980481827005
+  aslian.0091.t: "xxxxx" # 1951045980481827005
+  aslian.0091.desc: "xxxxx" # 1951045980481827005
+  aslian.0091.a: "xxxxx" # 1951045980481827005
+  aslian.0092.t: "xxxxx" # 1951045980481827005
+  aslian.0092.desc: "xxxxx" # 1951045980481827005
+  aslian.0092.a: "xxxxx" # 1951045980481827005
+  aslian.0093.t: "xxxxx" # 1951045980481827005
+  aslian.0093.desc: "xxxxx" # 1951045980481827005
+  aslian.0093.a: "xxxxx" # 1951045980481827005
+  aslian.0094.t: "xxxxx" # 1951045980481827005
+  aslian.0094.desc: "xxxxx" # 1951045980481827005
+  aslian.0094.a: "xxxxx" # 1951045980481827005
+  aslian.0095.t: "xxxxx" # 1951045980481827005
+  aslian.0095.desc: "xxxxx" # 1951045980481827005
+  aslian.0095.a: "xxxxx" # 1951045980481827005
+  aslian.0096.t: "xxxxx" # 1951045980481827005
+  aslian.0096.desc: "xxxxx" # 1951045980481827005
+  aslian.0096.a: "xxxxx" # 1951045980481827005
+  aslian.0097.t: "xxxxx" # 1951045980481827005
+  aslian.0097.desc: "xxxxx" # 1951045980481827005
+  aslian.0097.a: "xxxxx" # 1951045980481827005
+  aslian.0098.t: "xxxxx" # 1951045980481827005
+  aslian.0098.desc: "xxxxx" # 1951045980481827005
+  aslian.0098.a: "xxxxx" # 1951045980481827005
+  aslian.0099.t: "xxxxx" # 1951045980481827005
+  aslian.0099.desc: "xxxxx" # 1951045980481827005
+  aslian.0099.a: "xxxxx" # 1951045980481827005

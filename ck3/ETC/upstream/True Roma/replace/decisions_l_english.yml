@@ -1,0 +1,8 @@
+﻿l_english:
+ unify_italian_empire_decision:0 "Reclaim Western Roman Empire"
+ unify_italian_empire_decision_desc:0 "If the squabbling city-states and barbarous realms of Italy are brought once again under Imperial rule, the entire peninsula will regain its dignity and power. At that time, [Glossary( 'the Western Roman Empire', 'TRIUMPH_WRE_GLOSS')] will return to the stage of history."
+ TRIUMPH_WRE_GLOSS: "“#G the Western Roman Empire#!” is the western region ruled by Latin Romans. The Eastern Roman court secretary first coined the concept of the fall of the Western Roman Empire in 476 to justify Justinian's destruction of the Western Empire. In fact, the Western Roman Empire continued as a universal regime until the Senate and other political institutions of the Western Empire and the remaining manor system were completely destroyed by the East."
+ WRE_dismantle_byz_pretender_decision:0 "Prepare to unify the Roman Empire"
+ WRE_dismantle_byz_pretender_decision_desc:0 "I am a true Roman. I hold the legal land of the Roman Empire. I have the right to unify Rome. Since Diocletian divided Rome, the differences between the West and the East have become increasingly greater. In order to protect common interests, the Latins gradually handed over power to the Greeks, but the latter lost their ancestral teachings in the torrent of history. Now my army has recaptured the political center of the East, and the Greeks are in chaos. Now is the best time for us Romans to abolish division and move towards unification."
+ WRE_dismantle_byz_pretender_decision_confirm:0 "The road to unity!"
+ WRE_dismantle_byz_pretender_decision_tooltip:0 "Abolish the East-West division and unify Rome by force"

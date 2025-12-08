@@ -1,0 +1,4 @@
+[upstream]
+url = "https://github.com/ElTyranos/CommunityFlavorPack.git"
+localization = ["localization/english"]
+language = "english"

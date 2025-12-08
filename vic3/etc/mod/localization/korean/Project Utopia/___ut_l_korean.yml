@@ -1,0 +1,1363 @@
+﻿l_korean:
+  utopia.yes: "네" # 3389992145996609386
+  utopia.no: "아니요" # 3846534607940335394
+  utopia.progress_a: "전진!" # 7682828395903676343
+  utopia.progress_b: "유레카!" # 5060366209124956663
+  utopia.progress_c: "과학 만세" # 14466008170622467114
+  utopia.slow_progress: "단계별로..." # 4451528304803768881
+  utopia.continue: "계속하시오" # 8290055414134410818
+  utopia.cheat: "치트" # 17058308642036080902
+  utopia.disable: "비활성화" # 6816541973684341027
+  error: "오류" # 6600015402669342217
+  ut_heavy_industrial_machinery_je: "중공업 기계" # 13577841840697256317
+  ut_heavy_industrial_machinery_je_reason: "우리 국가의 근대화 여정에서 중대한 전환점이 되었습니다. 기초가 놓였고, 첫 번째 톱니바퀴가 장착되었으며, 용광로에 불이 붙었습니다. 중공업 기계를 위한 최초의 건물이 이제 자랑스럽게 스카이라인을 솟아올라 인간의 독창성과 야망을 증명하고 있습니다.\n\n일꾼들이 맨손으로 고된 노동을 하던 곳에, 이제 그들의 짐을 덜고 생산성을 배가시킬 거대한 기계들이 만들어집니다. 엔진이 포효하고 강철 소리가 전당에 울려 퍼지는 와중에도, 이 건물은 단순한 공장 그 이상입니다. 이는 미래가 단련되는 용광로입니다." # 14031032073959516871
+  ut_heavy_industrial_machinery_je.success.d: "기초는 다져졌고, 기계들은 설치되었습니다. 이제 우리 국가는 최초의 중기계 공장 개설과 더불어 산업 발전의 선두에 자랑스럽게 서게 되었습니다." # 3188620536622113644
+  ut_heavy_industrial_machinery_je.success.f: "연기와 강철로 시작되었소. 전쟁으로 황폐해진 세상의 그림자 속에서, 우리는 평화가 아닌 목적을 꿈꾸는 대담함을 가졌습니다. 터빈의 웅웅거림, 쇠끼리의 충돌, 톱니바퀴의 정밀함—이것이 새로운 시대의 가락입니다. 이 공장은 콘크리트와 리벳 이상의 것입니다. 이는 우리가 더 이상 타인에게 미래를 사지 않을 것이며, 우리 자신의 손으로 그것을 건설할 것이라는 약속입니다. 이제부터 모든 것이 달라질 것입니다." # 5849218210722456823
+  ut_heavy_industrial_machinery_je.fail: "중공업 기계가 고장 났습니다" # 7415116804005679311
+  ut_heavy_industrial_machinery_je.fail.d: "계획은 수립되었고 자원도 할당되었으나, 공장은 끝내 건설되지 못했습니다. 관리 부실, 병목 현상, 그리고 정치적 긴장이 해당 사업을 중단시켰습니다." # 2016294276453358975
+  ut_heavy_industrial_machinery_je.fail.f: "그들은 새로운 산업의 여명을 약속했습니다. 하지만 남은 것은 텅 빈 부지, 녹슨 비계, 그리고 증기기관이 포효했어야 할 자리에 드리운 침묵뿐이었습니다. 결국 우리에게 부족했던 것은 야망이 아니라 조정 능력이었고, 어쩌면 그것을 끝까지 밀고 나갈 용기였을지도 모릅니다." # 12905289913047985639
+  ut_cnc_machines_je: "CNC 공작기계" # 2225149181531569508
+  ut_cnc_machines_je_reason: "CNC(컴퓨터 수치 제어) 기계의 도입으로 중공업에 정밀성과 균일성의 새로운 시대가 열립니다. 가장 숙련된 장인의 손길조차 실패할 수 있는 곳에서, 이제 프로그래밍 가능한 기계들이 지치지 않는 정확성으로 복잡한 작업을 수행합니다. 한때 손으로 공들여 만들었던 부품들이 이제 기계적인 우아함으로 밀링되고, 드릴링되고, 절단됩니다. 오차 범위는 거의 제로로 줄어들고, 그와 함께 불완전함으로 인한 비용도 줄어듭니다.\n\n하지만 이 혁명은 단순한 기술적 진보 그 이상입니다. 그것은 노동의 본질 자체를 변화시킵니다. 숙련공들은 도구를 다루는 대신 기계를 지휘하는 조작원과 프로그래머가 됩니다. 생산은 빨라지고, 부품은 표준화되며, 인간의 변동성에 의해 제약받던 산업들은 자동화로 인해 해방됩니다. CNC 기계들이 공장 홀을 가로질러 윙윙거릴 때, 중공업은 계산된 교향곡이 됩니다." # 16874408358846708603
+  ut_cnc_machines_je.success.d: "CNC 기계의 도입은 우리 산업 자동화에 있어 결정적인 발걸음입니다. 이제 복잡한 작업들이 최고의 정밀도와 효율성으로 수행됩니다." # 13465351810003576875
+  ut_cnc_machines_je.success.f: "작업대의 소음을 부드러운 웅웅거림이 대신합니다. 톱니바퀴들이 조화롭게 맞물려 돌아가고, 깎여나간 쇳가루들이 프로그래밍된 완벽함의 박자에 맞춰 춤을 춥니다. 작업장에는 더 이상 혼돈이 없으며, 손이 아닌 코드가 만들어낸 질서가 군림합니다." # 6124421511933308965
+  ut_heavy_tractors_je: "중장비 트랙터" # 5593093489631989721
+  ut_heavy_tractors_je_reason: "강력한 트랙터의 도입과 활용으로 농업 생산성이 획기적으로 증대됩니다." # 15709647787060433912
+  ut_heavy_tractors_je.success.d: "강력한 트랙터의 도입으로 농업 생산성이 눈에 띄게 향상되었습니다. 이제 광활한 농지들이 효율성과 신뢰성을 갖추고 경작되고 있습니다." # 3683178930120462449
+  ut_heavy_tractors_je.success.f: "기계의 무게 아래 들판이 진동합니다. 한때 며칠이 걸리던 일이 이제 몇 시간 만에 이루어집니다. 디젤, 강철, 그리고 굳은 결의가 미래의 토양에 깊은 고랑을 새깁니다." # 13503320659753668100
+  ut_agrarian_planes_je: "농업용 항공기" # 18255650884435723150
+  ut_agrarian_planes_je_reason: "항공기를 이용한 농업 - 광대한 지역에 대한 비료 살포, 해충 구제, 파종." # 8811847422280387987
+  ut_agrarian_planes_je_done: "농업용 항공기 완성" # 3122306913392784627
+  ut_agrarian_planes_je.success.d: "농업용 항공기의 성공적인 배치와 함께 현대 농업의 새로운 장이 열렸습니다. 광대한 농경지가 이제 더 빠르고, 정밀하며, 경제적으로 경작되고 있습니다." # 9407677508027299220
+  ut_agrarian_planes_je.success.f: "금속 날개가 지평선을 선회합니다. 한때 손으로 하던 일이 이제 하늘에서 쏟아집니다: 비료, 씨앗, 희망. 들판은 기술로 숨 쉽니다." # 7254868365592353147
+  ut_plastic_je: "플라스틱" # 3859283588461675941
+  ut_plastic_je_reason: "플라스틱의 기초와 대량 생산은 수많은 산업 응용 분야에 혁명을 일으켰습니다." # 632467803942354456
+  ut_plastic_je.success.d: "플라스틱의 제조와 사용은 우리의 산업 기반에 혁명을 가져왔습니다. 새로운 재료들은 비용 효율적이고 다재다능한 생산을 가능하게 합니다." # 15008242615489219421
+  ut_plastic_je.success.f: "실험실에서 태어나 아이디어처럼 성형 가능한 플라스틱이 목재, 유리, 금속을 대체합니다. 수지와 화학으로부터 새로운 산업 시대가 성장합니다." # 4512783213150376893
+  ut_electronics_je: "전자공학" # 8906035645440450140
+  ut_electronics_je_reason: "현대 기계, 통신, 정보 처리를 위한 기초로서의 전자 부품 및 시스템." # 17465195496300601678
+  ut_electronics_je.success.d: "전자 부품의 성공적인 도입은 우리 산업에 정밀성, 자동화, 그리고 완전히 새로운 제어 능력을 가져다줍니다." # 5808300330794589175
+  ut_electronics_je.success.f: "납땜이 빛나고, 회로 통로가 속삭입니다. 한때 기계적 파동이 덜컹거렸던 곳에, 이제는 생각보다 빠르게 맥동이 흐릅니다." # 17282594479421956691
+  ut_computers_je: "컴퓨터" # 6464724871802620488
+  ut_computers_je_reason: "자동화를 통해 인간의 계획 및 통제를 지원하고 가속화하는 계산 기계." # 18272762068765331416
+  ut_computers_je.success.d: "컴퓨터의 성공적인 도입으로 정보 처리가 새로운 경지에 이르렀습니다. 계산 능력은 일상적인 업무를 대체하고, 논리가 목록을 대체합니다." # 17659770608908502727
+  ut_computers_je.success.f: "최초의 기계들은 생각합니다—빠르고, 논리적이며, 지칠 줄 모릅니다. 0과 1 사이에서 데이터와 가능성의 새로운 우주가 탄생합니다." # 3853671127231551936
+  ut_software_je: "소프트웨어" # 9057406967736462854
+  ut_software_je_reason: "기계와 컴퓨터를 제어하고 그 유용성을 비약적으로 확장하는 프로그램과 논리적 구조." # 4471950191482473800
+  ut_software_je.success.d: "소프트웨어의 개발과 사용은 기계에 언어를 부여합니다. 공정은 최적화되고, 임무는 자동화되며, 복잡성은 길들여집니다." # 9544566430370449888
+  ut_software_je.success.f: "보이지 않으나 어디에나 존재한다. 코드로 주조된 소프트웨어는 기계, 사상, 그리고 사회를 통제하니, 조용하나 강력하다." # 2522954410998358533
+  ut_consumer_goods_simple_je: "기본 소비재" # 10725085382132423094
+  ut_consumer_goods_simple_je_reason: "의류, 비누, 도구와 같이 일상적인 필요를 위한 기초 소비재의 생산." # 2055514227649040000
+  ut_consumer_goods_simple_je.success.d: "기초 소비재의 대량 생산은 인구의 필수적인 필요를 안정적으로 충족시키고 있습니다. 비누, 의류, 도구 등이 표준화되고 저렴해졌습니다." # 1246491867596740482
+  ut_consumer_goods_simple_je.success.f: "모든 선반 위에는 안정의 조각이 놓여 있습니다. 일상은 접근 가능해지고, 평범함은 더욱 존엄한 삶을 위한 토대가 됩니다." # 12669841690206744713
+  ut_consumer_goods_simple_je.fail: "기초 소비재 생산 실패" # 8957396559352294594
+  ut_consumer_goods_simple_je.fail.d: "기초 소비재의 계획된 생산이 실현되지 못했습니다. 기술적 난관, 공급 병목 현상, 그리고 조정 능력의 부재가 해당 계획의 실패로 이어졌습니다." # 2895353971259667294
+  ut_consumer_goods_simple_je.fail.f: "선반은 텅 비었고, 작업대는 소리 없이 멈춰 섰습니다. 단순해 보였던 일이 복잡해졌습니다. 비누와 직물, 도구 없이는 일상의 삶이 곤궁해지며, 충족되지 못한 필요와 함께 신뢰도 사라져 갑니다." # 10559095042632533515
+  ut_consumer_goods_complex_je: "고급 소비재" # 946005756592480223
+  ut_consumer_goods_complex_je_reason: "가정용 기기, 소비재 전자제품, 차량과 같은 고품질 소비재의 생산." # 11185171440849395787
+  ut_consumer_goods_complex_je.success.d: "고급 소비재 산업의 성공적인 확장은 가계, 운송, 그리고 여가를 혁신적으로 변화시켰습니다. 기술은 더 이상 사치가 아니라 삶의 질입니다." # 6914921627310633741
+  ut_consumer_goods_complex_je.success.f: "냉장고는 윙윙거리고, 라디오는 울려 퍼지며, 자동차는 굴러갑니다. 안락함은 대량 생산품이 되었고, 진보는 거실과 작업대 모두에 스며들었습니다." # 5716179563650068514
+  je_group_utopia: "유토피아" # 12086590480901384294
+  je_group_ai_buffs: "기술 혁신의 물결" # 13200228349002121429
+  je_wirtschaftswunder: "경제 기적" # 9066645344867081653
+  je_wirtschaftswunder_reason: "REPLACE_ME" # 8745063705845015763
+  je_wirtschaftswunder_others: "경제 기적 달성" # 14237728798635904336
+  je_wirtschaftswunder_others_reason: "REPLACE_ME" # 8745063705845015763
+  utopia_journal_society_2_wirtschaftswunder_title: "경제 기적" # 9066645344867081653
+  utopia_journal_society_2_wirtschaftswunder_desc: "숨 막히는 반전으로, 우리의 경제는 회복을 넘어 폭발적인 성장을 이루었습니다. 산업은 호황을 누리고 있으며, 고용률은 사상 최고치를 기록했고, 번영은 이제 많은 이들에게 꿈이 아닌 일상의 현실이 되었습니다." # 16745729563121864919
+  utopia_journal_society_2_wirtschaftswunder_flavor: "폐허 속에서 황금이 솟아났으니, 한때 잔해가 그을리던 곳에 공장들이 솟아나고 번영이 꽃피었으며 새로운 자의식이 자리 잡았습니다. 강력한 세계 경제, 전 세계적인 경제 성장, 그리고 기적의 정신이 절망을 추진력으로 바꾸었으니, 이는 노동자들이 미래의 기술자가 되고 기술 진보가 세계를 놀라게 한 시대였습니다." # 17323404359558336567
+  je_early_civil_aviation: "초기 민간 항공" # 13543633040405198809
+  je_early_civil_aviation_reason: "초기 민간 항공은 대담한 선구자들, 덜컹거리는 프로펠러 비행기, 그리고 초원과 들판에 급조된 활주로와 함께 시작되었습니다. 한때 군사적인 성격이었던 그것은 도시, 인민, 그리고 시장을 잇는 연결고리가 되었습니다. 모든 비행은 모험이었고, 모든 착륙은 승리였습니다. 개방된 조종석에는 승객이 아닌 몽상가들이 앉아 있었으며, 그들의 꿈에서 완전히 새로운 운송 시대가 탄생했습니다." # 13315070977569936541
+  je_modern_civil_aviation: "현대 민간 항공" # 16839455123295820201
+  je_modern_civil_aviation_reason: "현대의 민간 항공은 하늘을 길들였습니다. 덜컹거리는 복엽기는 매끄러운 제트기로, 우편 비행기는 하늘을 나는 도시로 변모했습니다. 공항들은 세계적으로 연결된 세상의 중심지로 변모하고 있습니다. 한때 며칠이 걸리던 일이 이제는 몇 시간 만에 이루어집니다. 빠르고, 편리하며, 효율적입니다. 하늘은 더 이상 경계가 아니라, 사업가, 가족, 몽상가, 그리고 진보 그 자체를 위한 통로가 되었습니다." # 1183360521255557128
+  je_urbanist_ig: "도시주의 운동" # 4211216849021320207
+  je_urbanist_ig_reason: "도시주의 운동은 건축 그 이상입니다. 그것은 우리가 함께 살아가는 방식에 대한 비전입니다. 성장하는 도시에서는 건물뿐만 아니라 사회도 만들어집니다. 도시 계획가, 사회 개혁가, 그리고 선구자들은 단지 기능할 뿐만 아니라 공원, 빛, 교통, 그리고 공공생활로 영감을 주는 도시 공간을 꿈꿉니다. 도시는 단순히 건설되는 것이 아니라, 더 나은 미래를 위한 무대로서 형성됩니다." # 12219038828126380915
+  concept_ut_research_institute: "연구소" # 4003839446474203573
+  concept_ut_research_institute_desc: "[GetBuildingType('building_ut_research_institute').GetName]을(를) 해금하면 [concept_decision]을 통해 설립할 수 있는 부지가 생기며, 이후 건설해야 합니다. 이 연구소는 국가의 주간 혁신 최대치에 $country_weekly_innovation_max_add$만큼 기여하는 주요 원천입니다. 대규모 연구 프로젝트를 해금할 수 있습니다.\n\n6시대 (1936-1961): [GetTechnology('nuclear_power').GetName]\n7시대 (1962-1986): [GetTechnology('high_tech_computers').GetName] (~10µm)\n8시대 (1987년 이후): [GetTechnology('generative_ai').GetName]\n\n작업 진행 중." # 17954986016373768716
+  ut_research_institute_found: "연구소를 발견했습니다" # 15187787558376570067
+  ut_research_institute_found_desc: "국가적인 [concept_ut_research_institute]를 설립하여 과학적 우수성을 통합하고, 기초 연구를 장려하며, 기술 발전을 구조적으로 가속화해야 합니다. 이 기관의 건설은 지식 기반 사회로 나아가는 길목의 중요한 이정표가 될 것입니다." # 3502883675898209857
+  ut_je_research_institute_founding: "연구소 설립" # 1510796765296833071
+  ut_je_research_institute_founding_reason: "우리 국가는 전용 연구소를 설립하여 혁신을 제도화할 준비를 하고 있습니다. 사상이 힘을 북돋는 이 시대에, 그러한 연구소의 설립은 전진하는 기념비적인 발걸음입니다. 이곳에서 지성들은 단련되고, 지식은 체계화되며, 돌발적인 사고가 아닌 계획에 의해 획기적인 발견이 탄생할 것입니다.\n이 연구소는 사회 구석구석의 과학자, 사상가, 기술관료들을 끌어들이는 등대가 될 것입니다. 불가능을 부인하는 것이 아니라 연구하는 호기심의 용광로가 될 것입니다." # 7062884259577743390
+  ut_je_research_institute_founding.success.d: "연구소가 가동되었습니다. 이곳은 혁신을 위한 체계적인 공간을 제공하여 기술 발전을 가속화하고 국가적 위신을 높이는 데 기여할 것입니다." # 7894608309004971837
+  ut_je_research_institute_founding.success.f: "한때 고독한 발명가들이 먼지 쌓인 지하실에서 애썼던 곳에, 이제는 온전한 학부들이 일사불란하게 움직입니다. 방정식으로 가득 찬 칠판, 에너지가 윙윙거리는 실험실—이것은 더 이상 단순한 실험이 아닙니다. 이것은 조직화된 천재성입니다." # 13293243887447321886
+  ut_research_institute_found_mod: "연구소 발의안" # 16795067931236842361
+  ut_research_institute_found_mod_desc: "국립 연구소의 초석이 놓이고 있습니다. 과학적 네트워크가 형성되고, 자원이 모이며, 미래 지식을 위한 기반 시설이 성장하고 있습니다." # 11521739645849750050
+  ut_je_research_institute_founding_goal: "#BOLD 3년#!의 설립 단계가 완료될 때까지 대기하십시오." # 17656057717253148862
+  ut_research_institute_found_unlock_tt: "[concept_ut_research_institute] 잠금 해제 (국가당 최대 1개)" # 9832641216626384137
+  ut_research_institute_can_construct_tt: "연구소를 위한 적절한 부지를 확인하고 측량하였습니다." # 13540891605512687221
+  ut_research_institute_site_mod: "연구소 부지" # 13957054015466830038
+  ut_je_research_institute_construction: "연구소 건설" # 16129642568816269926
+  ut_research_nuclear_power: "핵력 연구" # 5596614631115257315
+  ut_research_nuclear_power_desc: "핵분열의 강력한 에너지원으로서의 잠재력을 조사하십시오." # 6849549262466547208
+  ut_je_ut_research_nuclear_power: "원자력" # 2392928761989952497
+  ut_je_ut_research_nuclear_power_reason: "핵분열의 발견은 새로운 에너지 생산 시대로의 문을 열었습니다. 한때 이론적 개념이었던 것이 현실이 되었습니다. 바로 막대한 양의 에너지를 방출하는 제어된 핵반응입니다. 이는 단지 발전(發電)에 관한 것만이 아니라, 원자 자체를 제어하는 데 관한 것입니다.\n\n충분한 투자가 이루어진다면, 우리는 이 혁명을 이끌어 세계를 바꿀 새로운 에너지원을 창출할 수 있을 것입니다." # 16472295421339537927
+  ut_je_ut_research_nuclear_power_goal: "#BOLD 4년#! 연구 단계가 완료될 때까지 기다리십시오 (연구소가 100% 점유율일 경우 4년 소요)" # 8594056322319533326
+  ut_research_nuclear_power_mod: "핵력 연구" # 5596614631115257315
+  ut_je_nuclear_power_plant_construction: "원자력 발전소 건설" # 17417435773454938499
+  ut_je_nuclear_power_plant_construction_reason: "핵력에 대한 연구가 성공적으로 완료됨에 따라, 이제 다음 단계로 나아갈 준비가 되었습니다." # 4346058416622687736
+  ut_nuclear_power_plant_location: "원자력 발전소 건설" # 17417435773454938499
+  ut_nuclear_power_plant_location_desc: "원자력 발전소 건설에 적합한 장소를 선정하십시오." # 13706575569021693585
+  ut_je_nuclear_power_plant_construction_site: "원자력 발전소 건설 현장" # 12420944604358196693
+  ut_je_nuclear_power_plant_construction_site.success.d: "원자력 발전소 부지가 성공적으로 선정되었습니다." # 12031598397432149708
+  ut_je_nuclear_power_plant_construction_site.success.f: "원자력 발전소 부지가 성공적으로 선정되었습니다. 이 부지는 앞으로 여러 세대에 걸쳐 깨끗하고 효율적인 에너지를 공급할 시설 건설에 이상적인 장소입니다." # 11403468370578584784
+  ut_nuclear_power_plant_construction_site_mod: "가동 중인 원자력 발전소 건설 현장" # 927806695099366088
+  ut_share_nuclear_power_research: "핵력 연구 공유" # 18438818181650479454
+  ut_share_nuclear_power_research_name: "핵력 연구" # 12484104927010905389
+  ut_share_nuclear_power_research_desc: "우리의 핵력 연구에서 얻은 지식과 진보를 공유하시오." # 9401233050356197973
+  ut_share_nuclear_power_research_action_name: "$ut_share_nuclear_power_research_name$" # 13705160120068150319
+  ut_share_nuclear_power_research_action_propose_name: "$ut_share_nuclear_power_research_action_name$을 제안합니다" # 9630388704899597224
+  ut_share_nuclear_power_research_proposal_notification_name: "핵력 연구 제안서" # 10139280214956566146
+  ut_share_nuclear_power_research_proposal_notification_desc: "핵력 연구 공유 제안서가 발송되었습니다." # 12432139866911246006
+  ut_share_nuclear_power_research_proposal_accepted_name: "$ut_share_nuclear_power_research_name$ 수용됨" # 2537675341371120132
+  ut_share_nuclear_power_research_proposal_accepted_desc: "[TARGET_COUNTRY.GetName]이 $ut_share_nuclear_power_research_name$을(를) 수락했습니다." # 15953153066838446115
+  ut_share_nuclear_power_research_proposal_declined_name: "$ut_share_nuclear_power_research_name$ 거부됨" # 8540671425460953813
+  ut_share_nuclear_power_research_proposal_declined_desc: "[TARGET_COUNTRY.GetName]가 $ut_share_nuclear_power_research_name$을 거부했습니다." # 8790167536641637330
+  ut_share_nuclear_power_research_effects_desc: "REPLACE_ME" # 8745063705845015763
+  ut_share_nuclear_power_research_article_short_desc: "[TARGET_COUNTRY.GetNameNoFormatting]와 핵 에너지 연구를 공유합니다" # 4641254147253037814
+  ut_research_high_tech_computers: "첨단 컴퓨터 연구" # 2959775241571499084
+  ut_research_high_tech_computers_desc: "마이크로칩 기술에 대한 연구 계획을 시작하여 트랜지스터를 대체하십시오. 이 기계들은 현대적인 시뮬레이션, 산업 자동화, 그리고 군사적 우위의 기반이 될 것입니다." # 15533964202472342114
+  ut_je_ut_research_high_tech_computers_research: "첨단 기술 컴퓨터 연구" # 17152790645144278754
+  ut_je_ut_research_high_tech_computers_research_reason: "계산의 경계가 재편되고 있습니다. 고전적인 컴퓨터가 한계에 다다름에 따라, 새로운 세대의 고성능 기계들이 과학, 산업, 국방 분야에서 혁명적인 진보를 약속하고 있습니다. 충분한 투자를 통해 우리는 이 혁명을 주도할 수 있습니다. 바로 어떤 인간의 정신보다도 빠르게 사고하는 기계를 창조하는 것입니다.\n이것은 단순한 연구가 아닙니다. 미래를 위한 경쟁입니다." # 9770371573504886153
+  ut_je_ut_research_high_tech_computers_research.success.d: "고성능 컴퓨터의 새로운 세대 개발에 성공하였습니다. 이 기계들은 이전에 도달할 수 없었던 수준의 복잡성과 속도로 연산을 수행합니다." # 2039687203926044641
+  ut_je_ut_research_high_tech_computers_research.success.f: "액체 냉각 프로세서, 양자 요동, 신경망—순수한 논리의 시대는 합성적 사고의 우아함에 자리를 내어주고 있습니다. 우리의 기계는 더 이상 계산하지 않고 현실을 모델링합니다." # 730591691335108027
+  ut_research_high_tech_computers_research_mod: "첨단 기술 컴퓨터 연구" # 17152790645144278754
+  ut_research_high_tech_computers_research_mod_desc: "국가적 연구는 최첨단 컴퓨팅 기술 개발에 집중하고 있습니다. 시제품이 제작되고 있으며, 연구소는 확장되고 있으며, 연산 능력과 비전 사이의 경계가 흐려지기 시작합니다." # 5360798826274633439
+  ut_je_ut_research_high_tech_computers_research_goal: "#BOLD 4년#! 연구 단계가 완료될 때까지 기다리십시오 (연구소가 100% 점유율일 경우 4년 소요)" # 8594056322319533326
+  je_ut_new_dawn: "새로운 여명" # 17053231604827314489
+  je_ut_new_dawn_reason: "기술적, 문화적 진보는 정치적 변화의 [concept_ut_new_dawn]을 가져옵니다. [concept_ut_nd_path_to_utopia]로 가는 길이 닦일 수 있습니다. 귀국의 핵심 이념을 확고히 하십시오. 이 이념이 귀국이 나아갈 방향을 결정할 것입니다.\n[concept_ut_nd_path_to_utopia]를 위해 [concept_ut_nd_fascist_core], [concept_ut_nd_autocrat_core], [concept_ut_nd_democrat_core], 또는 [concept_ut_nd_communist_core] 중에서 선택하십시오." # 13040209632854565085
+  je_ut_new_dawn_immediate_tt: "$je_ut_new_dawn_reason$" # 15327448050819870664
+  je_ut_new_dawn_global_started_tt: "어떤 국가가 #b 새로운 여명#! 이벤트 연쇄를 시작했습니다." # 775794328406338795
+  je_ut_new_dawn_condition_tt: "[concept_ut_nd_democrat_core], [concept_ut_nd_autocrat_core], [concept_ut_nd_communist_core] 또는 [concept_ut_nd_fascist_core] [concept_ut_nd_path_to_utopia] 완료됨" # 4975923294801184624
+  je_ut_new_dawn_p2_condition_tt: "[concept_ut_nd_utopia]를 달성했습니까?" # 687672996815561449
+  je_ut_new_dawn_effect_tt: "[concept_ut_nd_utopia]!" # 11082840744107106897
+  new_dawn_mod: "새로운 여명" # 17053231604827314489
+  new_dawn_phase_2_mod: "새로운 여명: 이념 강화" # 11340974555826697947
+  event_new_dawn.1.t: "새로운 여명" # 17053231604827314489
+  event_new_dawn.1.d: "우리 국가에 새로운 정치적 물결이 일고 있으며, 우리는 이에 어떻게 대응할지 결정해야 합니다. 변화를 받아들일 것인가, 아니면 저항할 것인가? 우리 국가의 미래가 이 결정에 달려 있습니다." # 8341941388391228465
+  event_new_dawn.1.f: "새로운 여명이 밝아왔고, 이와 함께 새로운 정치 변화의 시대가 도래했습니다. 우리는 국민의 요구와 국가의 필요 사이에서 균형을 잡으며 이 험난한 상황을 신중하게 헤쳐나가야 합니다. 우리가 지금 내리는 선택들이 앞으로 수 세대에 걸쳐 우리 국가의 미래를 결정지을 것입니다." # 7128125863620459445
+  event_new_dawn.1.a: "새로운 여명으로" # 5520303903156759708
+  event_new_dawn.2.a: "핵심 이념의 토대를 구축하라" # 10022653797615191558
+  event_new_dawn.2.d.a: "권위주의 진영의 동맹국들이 주요 기관들의 지지를 등에 업고 신속하게 권력을 장악했습니다. 전환 과정은 질서정연하나 반대 세력이 없는 것은 아닙니다." # 9532992763517475587
+  event_new_dawn.2.d.d: "민주 연합이 강력한 위임으로 정권을 잡았습니다. 시민 사회는 활기를 띠고 있으며, 대중은 낙관적인 듯합니다—비록 앞날에 난관이 도사리고 있지만 말입니다." # 12489704146853565621
+  event_new_dawn.2.d.c: "공산주의자들이 통제권을 장악했으며, 급진적인 변혁을 약속하고 있습니다. 낡은 구조들은 해체되고 있으며, 인민들은 새로운 비전 아래 단결할 것을 촉구받고 있습니다." # 12178924698661365640
+  event_new_dawn.2.d.f: "파시스트 블록이 정권을 장악하고, 국가적 힘의 새로운 시대를 선포했습니다. 반대는 신속하게 짓밟히고, 규율을 통해 질서가 강제됩니다." # 15329679607181289742
+  event_new_dawn.2.f.a: "철권 통치는 자유를 희생시키더라도 통제를 회복시킵니다." # 12716562604322663180
+  event_new_dawn.2.f.d: "투표와 함께 희망이 솟아오르니, 합의를 통한 변화가 이루어지리라." # 13239245535941137225
+  event_new_dawn.2.f.c: "노동자 혁명이 국가를 재편합니다." # 5984490467275484698
+  event_new_dawn.2.f.f: "강자들이 정화된 미래로 나아가는 길을 선도합니다." # 15257889441998523403
+  event_new_dawn.3.t: "수도 진격" # 9114126476090516496
+  event_new_dawn.3.a: "그들이 장악하도록 두시오" # 3891277326789851626
+  event_new_dawn.3.b: "이 이념은 억압되어야 합니다." # 14279701756625285649
+  event_new_dawn.3.f.a: "비동맹 자치 세력의 부상은 정치적 균형을 뒤흔들고 있습니다. 그들의 권력 장악은 신속하여 반대나 협상의 여지를 거의 남기지 않았습니다." # 15152608322896227241
+  event_new_dawn.3.f.c: "예상치 못한 공산주의 세력이 현상 타파를 이루었습니다. 급진적인 재편이 진행 중이며, 이는 기득권층에게 큰 충격을 주고 있습니다." # 7726455072042448487
+  event_new_dawn.3.f.d: "민주주의 봉기가 성공하여 집권 엘리트들을 허를 찔렀습니다. 새로운 지도부는 개혁과 투명성을 약속합니다." # 18366887510108091955
+  event_new_dawn.3.f.f: "우리의 파시스트 지도자가 수도로 진격하고 있습니다. 어떻게 해야 합니까?" # 5277463249290232502
+  event_new_dawn.3.d.a: "정권이 몰락하고, 철권이 신속하게 들어섰습니다." # 6938734501302535751
+  event_new_dawn.3.d.d: "시위가 격화되고 통치자들이 흔들리면서, 그 여파로 민주주의가 뿌리내렸습니다." # 3841492388093455929
+  event_new_dawn.3.d.c: "혼란 속에서 선봉대가 출현하여, 노동자 국가를 열 새로운 순간을 포착했습니다." # 8057375577267605444
+  event_new_dawn.3.d.f: "질서가 붕괴되었으니, 오직 힘만이 국가의 영혼을 되찾을 수 있을 것입니다." # 1591140778760372801
+  event_new_dawn.11.t: "무장 병력이 지도부 교체를 요구하다" # 550638450181400228
+  event_new_dawn.11.f: "고위 군 관계자들이 국가의 불안정성을 근거로 현 지도부의 사임을 요구하고 있습니다. 그들은 자신들의 이익에 더 부합하는 새로운 상징적 인물을 제안하고 있습니다." # 12784694199598459540
+  event_new_dawn.11.d: "장군들이 발언할 때면, 대통령들조차 경청한다." # 5695795790864525801
+  event_new_dawn.democrat_leader: "새로운 민주주의 지도자를 임명하십시오" # 3009092618338443682
+  event_new_dawn.autocrat_leader: "독재적인 얼굴마담에게 권한을 부여하십시오" # 10736666923521075235
+  event_new_dawn.random_decision: "결과는 자연스럽게 결정되도록 두시오" # 16245778538492281113
+  event_new_dawn.suppress_random_decision: "의도치 않은 지도부 교체를 방지하십시오" # 6940675417524111014
+  event_new_dawn.30.t: "반체제 인사 탄압" # 6529962378126604205
+  event_new_dawn.30.d: "성장하는 반체제파 세력이 국가 통합을 위협하고 있습니다. 정부는 안정을 유지하기 위해 강력하게 탄압할지 여부를 고심하고 있습니다." # 10694593364527752771
+  event_new_dawn.30.f: "성장하는 반체제파 세력이 국가 통합을 위협하고 있습니다. 정부는 안정을 유지하기 위해 강력하게 탄압할지 여부를 고심하고 있습니다." # 10694593364527752771
+  event_new_dawn.30.o.self: "우리는 분열을 용납하지 않을 것이다. 단호하게 행동하라." # 17748828590739373111
+  event_new_dawn.30_tt: "상당히 야당 이념 집단의 세력을 약화시키거나, 급진파를 줄이기 위해 우리 정부를 강화하는 것 중 하나를 선택하십시오." # 14985073018986397245
+  event_new_dawn.30.o.armed_forces: "군대를 해산시키다" # 7240425863472491839
+  event_new_dawn.30.o.devout: "독실한 자들 억압" # 6652488455481561054
+  event_new_dawn.30.o.industrialists: "산업주의자들을 억압하라" # 2067650717696393311
+  event_new_dawn.30.o.intelligentsia: "지식인 계층을 억압하십시오" # 850674488837377029
+  event_new_dawn.30.o.landowners: "토지 귀족 세력 억압" # 4971244416899273680
+  event_new_dawn.30.o.petty_bourgeoisie: "소부르주아 계층을 억압하십시오" # 17266971365852674101
+  event_new_dawn.30.o.rural_folk: "농민층을 억누르다" # 3684240388888648939
+  event_new_dawn.30.o.trade_unions: "노동조합을 탄압하라" # 7925123493004497417
+  event_new_dawn.30.o.urbanists: "도시주의자들을 억압하라" # 124599797795668333
+  event_new_dawn.uprising.setback_fascist: "파시스트는 진보를 잃다" # 4084667899618523420
+  event_new_dawn.uprising.setback_communist: "공산주의 진척도 하락" # 7486916945336278842
+  event_new_dawn.uprising.setback_democrat: "민주당이 진보를 잃다" # 637392596814963144
+  event_new_dawn.uprising.setback_autocrat: "전제군주들은 진보를 잃는다" # 3933167351210883057
+  event_new_dawn.uprising.fascist_win: "파시스트의 수도 진격" # 12428341982544089343
+  event_new_dawn.uprising.communist_win: "공산주의자들의 수도 진격" # 2955948793868690430
+  event_new_dawn.uprising.democrat_win: "수도로 향하는 민주주의 행진" # 8388307093207890137
+  event_new_dawn.uprising.autocrat_win: "독재자 수도 진격" # 15687246420628748440
+  event_new_dawn.uprising.first_setback: "첫 번째 차질, 다시 진압할 수 없을 것임 (작업 진행 중)" # 14496930568592297437
+  event_new_dawn.998.cheat: "'떠오르는' 새 여명 (1단계) 치트" # 11441006536270648309
+  event_new_dawn.999.cheat: "새로운 여명: 유토피아로 가는 길 (2단계) 치트" # 12209136001953317720
+  event_new_dawn.cheat.add_new_dawn: "#bold 새로운 여명# 일지 항목 추가! (다음 틱에)" # 4609616927994228905
+  event_new_dawn.cheat.add_democratic_50: "50 #blue 민주주의#! 진보를 더합니다" # 18157680519292077309
+  event_new_dawn.cheat.add_autocratic_50: "#blue 50# #blue 자치주의#! 진보를 추가합니다" # 11325277140278327159
+  event_new_dawn.cheat.add_fascist_50: "#g 파시스트#! 진보 50 추가" # 16611542804314447543
+  event_new_dawn.cheat.add_communist_50: "#r 공산주의# 50 진행도 추가" # 9043850392862445282
+  event_new_dawn.cheat.remove_democratic_50: "#blue 민주주의# 진보 50 제거" # 18175042022694692520
+  event_new_dawn.cheat.remove_autocratic_50: "#blue 권위주의# 50을 제거합니다" # 2399116009456094431
+  event_new_dawn.cheat.remove_fascist_50: "#g 파시스트#! 진보 50 제거" # 16799434796565958951
+  event_new_dawn.cheat.remove_communist_50: "#r 공산주의#! 진보 50 제거" # 16559535908030341555
+  event_new_dawn.cheat.remove_focus_recently_changed: "최근 변경된 집중 제거" # 7124156883072470109
+  ut_new_dawn_status: "새로운 여명" # 17053231604827314489
+  ut_new_dawn_focus_recently_changed: "최근 초점이 변경되었습니다" # 15700964805396707987
+  ut_new_dawn_focus_selected_tt: "선택 집중" # 12869524334926862369
+  ut_new_dawn_focus_already_selected_tt: "포커스가 아직 선택되지 않았습니다" # 3057009470308203474
+  ut_new_dawn_focus_freeze_tt: "포커스가 비활성화되지 않음" # 2808912849444250939
+  ut_new_dawn_focus_tt: "국가는 선택된 이념으로 간주될 것이며, 이는 외교에 영향을 미칠 수 있습니다. \n다른 이념이 장악하는 것을 방지합니다." # 3556997858028841443
+  country_new_dawn_focus_selected_progress: "선택된 이념 진척도" # 15471527187550072551
+  country_new_dawn_focus_selected_progress_desc: "선택된 이념에 대한 [concept_ut_nd_progress_points]의 획득률을 증가시킵니다." # 6704252917560067818
+  je_ut_new_dawn_critical_lower_bound_fail_tt: "만약 #r [SCOPE.ScriptValue('new_dawn_ideology_critical_lower_bound')]#! #v #![concept_ut_nd_progress_points]의 임계값이 (지금 당장) 하회된다면, 일련의 사건들이 정치적 진전을 되돌리고 결국 새로운 뉴 던(New Dawn)을 촉발할 수 있습니다." # 6975998746393931380
+  ut_new_dawn_communist_focus: "공산주의 집중" # 12476104756523167558
+  ut_new_dawn_communist_focus_desc: "#italic 작업 중#!" # 8120795325269765367
+  ut_new_dawn_communist_bar: "공산주의" # 17405094933839376592
+  ut_new_dawn_communist_bar_desc: "공산주의 진척도: #v [JournalEntry.GetCurrentBarProgress(ScriptedProgressBar.Self)|%]#! ([JournalEntry.GetCurrentBarValue(ScriptedProgressBar.Self)|1]/[GetPlayer.MakeScope.ScriptValue('new_dawn_core_upper_bound')])" # 3088962432046591474
+  ut_nd_communist_progress_from_characters: "[concept_ut_nd_communist_characters]의 결합된 [concept_popularity]" # 11745959980145112341
+  ut_nd_communist_progress_from_igs: "[concept_clout]을 가진 [Concept('concept_interest_group', '$concept_interest_groups$')]과 [concept_ut_nd_communist_characters] [concept_leader]" # 10241405359220822308
+  ut_nd_communist_progress_from_laws: "[Concept('concept_law', '$concept_laws$')] 제정됨: [GetLawType('law_command_economy').GetName], [GetLawType('law_cooperative_ownership').GetName]" # 1380586966400950404
+  ut_nd_communist_progress_from_legitimacy: "[concept_ut_nd_communist_characters] [concept_ruler]의 [concept_legitimacy]" # 13365035475644295242
+  ut_nd_communist_progress_from_focus: "공산주의 집중" # 12476104756523167558
+  ut_nd_communist_progress_from_events: "이벤트 및 기타 효과" # 10460833253187781076
+  ut_new_dawn_communist_status: "공산주의 사상이 담론을 형성하고 있습니다" # 13115044380252583038
+  concept_ut_nd_communist_characters: "공산주의자 인물들" # 3504960871407897175
+  concept_ut_nd_communist_characters_desc: "공산주의자 캐릭터 이념은 [GetIdeology('ideology_anarchist').GetName], [GetIdeology('ideology_radical').GetName], [GetIdeology('ideology_communist').GetName], [GetIdeology('ideology_vanguardist').GetName], 그리고 [GetIdeology('ideology_nihilist').GetName]입니다.\n만약 공산주의 [concept_ut_nd_focus]가 활성화되어 있다면, [GetIdeology('ideology_moderate').GetName], [GetIdeology('ideology_land_reformer').GetName], [GetIdeology('ideology_modernizer_leader').GetName], 그리고 [GetIdeology('ideology_positivist').GetName]도 포함됩니다." # 5740414799616908882
+  je_ut_new_dawn_democrat_focus: "민주주의 중점" # 6204444316798236303
+  je_ut_new_dawn_democrat_focus_desc: "민주주의 중점 선택됨" # 8646850149966895269
+  je_ut_new_dawn_fascist_focus: "파시스트 중점" # 6488431582971330943
+  je_ut_new_dawn_fascist_focus_desc: "파시스트 중점 선택됨" # 8696387614800204516
+  je_ut_new_dawn_autocrat_focus: "전제주의적 중점" # 15048205500567095509
+  je_ut_new_dawn_autocrat_focus_desc: "전제주의 기조를 선택했습니다" # 5890007312372719788
+  je_ut_new_dawn_communist_focus: "공산주의 집중" # 12476104756523167558
+  je_ut_new_dawn_communist_focus_desc: "공산주의 중점 선택됨" # 15191645224632262518
+  ut_new_dawn_phase_2_progress_modifier: "x0.25 배수" # 17279867492555238654
+  ut_new_dawn_core_fascist_mod: "파시스트" # 4468782137562596950
+  je_ut_new_dawn_fascist_mod: "파시스트" # 4468782137562596950
+  ut_new_dawn_core_communist_mod: "공산주의" # 17405094933839376592
+  je_ut_new_dawn_communist_mod: "공산주의" # 17405094933839376592
+  ut_new_dawn_core_autocratic_mod: "전제적인" # 15606967643050215087
+  je_ut_new_dawn_autocratic_mod: "전제적인" # 15606967643050215087
+  ut_new_dawn_core_democratic_mod: "민주적인" # 12500336123865823944
+  je_ut_new_dawn_democratic_mod: "민주적인" # 12500336123865823944
+  ut_new_dawn_list_entry_start: "이념 진척도:" # 3143615436316741745
+  ut_new_dawn_fascist_list_entry: "[THIS.GetCountry.GetName] [THIS.GetCountry.MakeScope.Var('je_ut_new_dawn_core_progress').GetValue|b2] [THIS.GetCountry.GetCustom('ut_new_dawn_progress_trend')] @ut_nd_fascist!" # 16822709343164526340
+  ut_new_dawn_communist_list_entry: "[THIS.GetCountry.GetName] [THIS.GetCountry.MakeScope.Var('je_ut_new_dawn_core_progress').GetValue|b2] [THIS.GetCountry.GetCustom('ut_new_dawn_progress_trend')] @ut_nd_communist!" # 8526717762373865019
+  ut_new_dawn_democratic_list_entry: "[THIS.GetCountry.GetName] [THIS.GetCountry.MakeScope.Var('je_ut_new_dawn_core_progress').GetValue|b2] [THIS.GetCountry.GetCustom('ut_new_dawn_progress_trend')] @ut_nd_democrat!" # 14344601523982235537
+  ut_new_dawn_autocratic_list_entry: "[THIS.GetCountry.GetName] [THIS.GetCountry.MakeScope.Var('je_ut_new_dawn_core_progress').GetValue|b2] [THIS.GetCountry.GetCustom('ut_new_dawn_progress_trend')] @ut_nd_autocrat!" # 1704532458147567437
+  ut_progress_trend_max: "@profitability10!" # 5006526597556668515
+  ut_progress_trend_critical: "@profitability1!" # 11491505699123223633
+  ut_progress_trend_up4: "@profitability13!" # 4424653766839867916
+  ut_progress_trend_up3: "@profitability12!" # 639972425078312110
+  ut_progress_trend_up2: "@profitability11!" # 14614311424789616621
+  ut_progress_trend_up1: "@profitability9!" # 8186171982200662525
+  ut_progress_trend_neutral: "@profitability7!" # 17978393578393003338
+  ut_progress_trend_down1: "@profitability5!" # 1765385907660149280
+  ut_progress_trend_down2: "@profitability3!" # 300671677616943422
+  ut_progress_trend_down3: "@profitability2!" # 12268591328023132797
+  ut_progress_trend_down4: "@profitability1!" # 11491505699123223633
+  ut_new_dawn_democrat_focus: "민주주의 중점" # 6204444316798236303
+  ut_new_dawn_democrat_focus_desc: "#italic 미리보기: [concept_ut_nd_abilities] 및 [concept_ut_nd_milestones]의 기본 구현을 포함합니다.#!" # 8076366540660989115
+  ut_new_dawn_democrat_bar: "민주적인" # 12500336123865823944
+  ut_new_dawn_democrat_bar_desc: "민주주의 진보: #v [JournalEntry.GetCurrentBarProgress(ScriptedProgressBar.Self)|%]#! ([JournalEntry.GetCurrentBarValue(ScriptedProgressBar.Self)|1]/[GetPlayer.MakeScope.ScriptValue('new_dawn_core_upper_bound')])" # 15738406166621819660
+  ut_nd_democrat_progress_from_characters: "[concept_ut_nd_democrat_characters]의 결합된 [concept_popularity]" # 11754941210316697812
+  ut_nd_democrat_progress_from_igs: "[concept_clout]를 가진 [Concept('concept_interest_group', '$concept_interest_groups$')]와 [concept_ut_nd_democrat_characters] [concept_leader]" # 4305228090225977697
+  ut_nd_democrat_progress_from_laws: "[Concept('concept_law', '$concept_laws$')] 발효: [GetLawType('law_universal_suffrage').GetName], [GetLawType('law_census_voting').GetName]" # 5832693892708763329
+  ut_nd_democrat_progress_from_legitimacy: "[concept_ut_nd_democrat_characters] [concept_ruler]의 [concept_legitimacy]" # 1288454730185490724
+  ut_nd_democrat_progress_from_events: "이벤트 및 기타 효과" # 10460833253187781076
+  ut_nd_democrat_progress_from_focus: "민주주의 중점" # 6204444316798236303
+  concept_ut_nd_democrat_interest_group_tt: "IG는 [concept_ut_nd_democrat_characters] 이념을 가진 지도자를 보유하고 있습니다." # 3734181946892457105
+  concept_ut_nd_democrat_characters: "민주주의 인사들" # 10579737189813014284
+  concept_ut_nd_democrat_characters_desc: "민주주의 성향의 인물 이념은 [GetIdeology('ideology_liberal_leader').GetName], [GetIdeology('ideology_humanitarian').GetName], [GetIdeology('ideology_republican_leader').GetName], [GetIdeology('ideology_social_democrat').GetName], [GetIdeology('ideology_utopian').GetName], 그리고 [GetIdeology('ut_ideology_cosmopolitan_leader').GetName]입니다.\n만약 민주주의 [concept_ut_nd_focus]가 활성화되어 있다면, [GetIdeology('ideology_moderate').GetName], [GetIdeology('ideology_humanitarian_royalist').GetName], [GetIdeology('ideology_radical').GetName], [GetIdeology('ideology_pacifist').GetName], [GetIdeology('ideology_feminist').GetName], 그리고 [GetIdeology('ideology_modernizer_leader').GetName]도 포함됩니다." # 9579212132104605886
+  ut_new_dawn_democrat_status: "민주적 사상이 담론을 형성하다" # 1918153271099386268
+  ut_new_dawn_democrat_status_je: "민주적 사상이 뿌리내리고 있습니다" # 4631019185448869404
+  ut_nd_decaying_progress: "$new_dawn_phase_2_mod$" # 13591460370744866912
+  je_ut_new_dawn_democratic: "민주적 각성" # 11620699162190900697
+  je_ut_new_dawn_democratic_reason: "민중은 참여, 투명성, 그리고 자유 선거를 요구하고 있습니다. 전국적으로 새로운 정당들이 결성되고, 노동조합의 영향력이 커지고 있으며, 시민권을 요구하는 시위가 거리를 가득 메우고 있습니다. \n 이 각성이 안정적인 민주주의로 이어질지, 아니면 구체제 엘리트들에 의해 짓밟힐지는 이제 귀하의 손에 달려 있습니다. 개혁을 허용하시겠습니까, 아니면 수단과 방법을 가리지 않고 낡은 질서를 보존하려 하시겠습니까? \n #italic - [Concept('concept_ut_nd_democrat_core', '민주적')] [concept_ut_nd_path_to_utopia]#!" # 8219568234224816948
+  je_ut_new_dawn_points_bar: "진척 점수" # 10839315663281859777
+  je_ut_new_dawn_points_bar_desc: "진행 상황: #v [JournalEntry.GetCurrentBarProgress(ScriptedProgressBar.Self)|%]#! ([JournalEntry.GetCurrentBarValue(ScriptedProgressBar.Self)|1]/[SCOPE.ScriptValue('new_dawn_ideology_upper_bound')])" # 10769555409075175210
+  concept_ut_nd_progress_points: "진척 점수" # 10839315663281859777
+  concept_ut_nd_progress_points_desc: "진보 점수는 국가 내 이념의 확산을 나타냅니다. 이는 다양한 행동을 통해 획득됩니다. 새로운 여명의 부상 시기에는, 진보 점수가 이념을 채택하는 방향으로 이익 집단과 정치 지형이 얼마나 움직이는지를 측정합니다. 국가를 추월하고 [concept_ut_nd_path_to_utopia]를 시작하게 되면, 진보 점수는 다양한 행동에 사용될 수 있습니다." # 3177555464723125999
+  concept_ut_new_dawn: "새로운 여명" # 17053231604827314489
+  concept_ut_new_dawn_desc: "$je_ut_new_dawn_reason$" # 15327448050819870664
+  je_ut_new_dawn_democratic_complete_condition_tt: "저널 항목 내의 모든 [concept_ut_nd_milestones]가 완료되었습니다." # 2536752380727670263
+  je_ut_new_dawn_democratic_spirit: "민주 정신" # 14272364916060119054
+  je_ut_new_dawn_democratic_spirit_desc: "새로운 민주주의 정신이 자유민주주의 이상에 헌신하는 지식인들의 주도로 국가에 확산되고 있습니다. 나아가기 위해서는 정부 내에서 극단주의 이념을 명확히 배척해야 합니다." # 14243336721702674405
+  new_dawn_ideology_required_points_tt: "최소 #v [SCOPE.ScriptValue('new_dawn_ideology_required_points')] #![concept_ut_nd_progress_points] 필요" # 12359360816029312553
+  new_dawn_ideology_required_points_spend_tt: "#r [SCOPE.ScriptValue('new_dawn_ideology_spend_points')]#! 만큼의 #v #![concept_ut_nd_progress_points]를 소모하여 이 단계를 활성화합니다" # 15626551666936962613
+  new_dawn_ideology_upper_bound_tt: "Has #v [SCOPE.ScriptValue('new_dawn_ideology_upper_bound')] #!concept_ut_nd_progress_points" # 9702577961335522147
+  new_dawn_ideology_milestone_done_tt: "#v#가 [Concept('concept_ut_nd_milestones', 'Milestone')]을 완료하지 못했습니까?" # 5573977078575815082
+  new_dawn_ideology_previous_milestone_done_tt: "#v#가 이전 [Concept('concept_ut_nd_milestones', 'Milestone')]을 완료했습니까?" # 5969245574892275650
+  je_ut_new_dawn_democratic_cultural_values: "민주적 문화 가치" # 14708905375720682809
+  je_ut_new_dawn_democratic_cultural_values_desc: "민주주의의 토대는 다원주의와 개인의 자유를 존중하는 문화적 가치 위에서만 번성할 수 있습니다. 재계와 종교계의 주요 인사들이 보다 민주적인 세계관으로 선회하고 있습니다." # 3989171184453520242
+  je_ut_new_dawn_democratic_power_bloc: "민주주의 세력 연합" # 5614438162565685774
+  je_ut_new_dawn_democratic_power_bloc_desc: "민주주의 세력 연합의 형성은 국제 질서 내 영향력을 보장하고 패권적 정체성에 맞서 방어해 줍니다. 독립과 주권을 유지하는 자만이 민주적 이상을 수호할 수 있습니다." # 16303973286920404506
+  je_ut_new_dawn_democratic_power_bloc_tt: "국가가 민주주의 원칙에 기반한 세력 연합을 형성하거나 강화합니다." # 2302912738663273365
+  je_ut_new_dawn_democratic_power_bloc_mod: "민주주의 세력 연합" # 5614438162565685774
+  je_ut_new_dawn_democratic_fair_elections: "공정한 선거" # 16243853808431064194
+  je_ut_new_dawn_democratic_fair_elections_desc: "보통 선거는 정의로운 사회의 근간을 이룹니다. 공정한 선거 제도를 확립하는 것은 민주주의에 대한 대중의 신뢰를 강화합니다." # 16885737664767908639
+  je_ut_new_dawn_democratic_fair_elections_tt: "투명하고 공정한 선거를 통해 정치 체제의 정통성을 강화합니다" # 1626596967878548989
+  je_ut_new_dawn_democratic_fair_elections_mod: "공정한 선거" # 16243853808431064194
+  je_ut_new_dawn_democratic_final: "유토피아" # 12086590480901384294
+  je_ut_new_dawn_democratic_final_desc: "민주적 이상과 관행의 정점이며, 조화롭고 정의로운 사회로 이끄는 것." # 7224231223204837190
+  je_ut_new_dawn_autocratic: "전제주의 체제" # 13730396369443978406
+  je_ut_new_dawn_autocratic_reason: "백성들은 질서와 안정, 그리고 강력한 지도력을 요구하고 있습니다. \n #italic - [Concept('concept_ut_nd_autocrat_core', 'Autocracies')]은 [concept_ut_nd_path_to_utopia]가 없습니다#!" # 14979452963096164706
+  je_ut_new_dawn_autocratic_complete_condition_tt: "전제 유토피아는 존재하지 않으며, 해당 항목은 완료될 수 없습니다. 대신 그들은 반복 가능한 행동을 이용할 수 있습니다." # 2708468697548260554
+  je_ut_new_dawn_emergency_powers: "비상 권한" # 9287104982912753109
+  je_ut_new_dawn_emergency_powers_desc: "위기 시에는 국가가 단호하게 행동해야 합니다. 비상 권한은 위협과 도전에 신속하게 대응할 수 있도록 허용하지만, 민주적 제도를 훼손할 위험도 내포하고 있습니다." # 8969205784455750332
+  je_ut_new_dawn_emergency_powers_mod: "$je_ut_new_dawn_emergency_powers$" # 11887646932753919555
+  je_ut_new_dawn_strengthen_power: "권력 강화" # 5223493538862210054
+  je_ut_new_dawn_strengthen_power_desc: "질서와 안정을 유지하기 위해 국가는 그 권력을 강화해야만 합니다. 이는 군비 증강, 선전, 그리고 반대 세력 탄압을 포함한 다양한 수단을 통해 달성될 수 있습니다." # 6449198625624676389
+  je_ut_new_dawn_strengthen_power_mod: "$je_ut_new_dawn_strengthen_power$" # 6457976461638811943
+  je_ut_new_dawn_border_dispute: "국경 분쟁" # 15026078262635758016
+  je_ut_new_dawn_border_dispute_desc: "국경 분쟁은 국가 간의 긴장과 충돌을 야기할 수 있습니다. 이러한 분쟁은 평화롭고 외교적으로 해결하는 것이 중요하지만, 때로는 국익을 수호하기 위해 군사적 행동이 필요할 수도 있습니다." # 14344197781184361117
+  je_ut_new_dawn_border_dispute_mod: "$je_ut_new_dawn_border_dispute$" # 8702618228404499397
+  je_ut_new_dawn_suppress_dissidents: "반체제 인사 탄압" # 6529962378126604205
+  je_ut_new_dawn_suppress_dissidents_desc: "불만은 국가의 안정을 훼손하고 국가 안보를 위협할 수 있습니다. 내부 위협으로부터 국가를 보호하고 질서를 유지하기 위해 불만을 억압하는 것은 필요한 조치입니다." # 808420869459307606
+  je_ut_new_dawn_suppress_dissidents_mod: "$je_ut_new_dawn_suppress_dissidents$" # 568804126881833918
+  je_ut_new_dawn_outlaw_communists: "공산주의자 추방" # 12116914510403284022
+  je_ut_new_dawn_outlaw_communists_desc: "좌익 운동을 단속하고 공산당을 금지하십시오.\n\n#italic 역사적 배경#!\n1933년 2월 28일, 국회의사당 방화 사건에 이어 나치당은 국회의사당 방화령을 통과시켜 시민의 자유를 정지시키고 수천 명의 공산주의자들을 체포할 수 있게 했습니다. 독일 공산당(KPD)은 곧 불법화되었으며, 이는 정치적 반대파를 해체하는 첫걸음이었습니다." # 2640596061860842552
+  je_ut_new_dawn_form_paramilitary_groups: "준군사조직" # 17923767441101106939
+  je_ut_new_dawn_form_paramilitary_groups_desc: "당의 통치를 강제하기 위해 비공식적인 무장 조직을 창설하십시오.\n\n#italic 역사적 배경:#!\n1920년대부터 활동한 SA(돌격대)는 1930년대 초반에 강력한 준군사 조직으로 성장하여 유권자들을 위협하고 반대파 집회를 방해했습니다. 1934년 6월 30일, '긴 칼의 밤' 동안 히틀러는 권력을 공고히 하기 위해 SA 지도부를 숙청하고, 이념적으로 더 충실한 SS(친위대)를 격상시켰습니다." # 18087068362392390614
+  je_ut_new_dawn_conformity: "순응" # 11232690039993631266
+  je_ut_new_dawn_conformity_desc: "국가 이념과의 엄격한 사회적 일치를 장려하십시오.\n\n#italic 역사적 배경#!\n1933년에 시작된 나치당은 '동조화(Gleichschaltung)'라는 과정을 시행했는데, 이는 언론, 교육, 문화, 종교를 포함한 사회의 모든 측면을 나치 이념에 맞추는 과정이었습니다. 1933년 5월 2일, 독립적인 노동조합은 금지되었고 국가가 운영하는 독일 노동전선으로 대체되었습니다." # 1914004430822316219
+  je_ut_new_dawn_unite_heritage: "유산 통합" # 6272860780067252086
+  je_ut_new_dawn_unite_heritage_desc: "문화적 신화와 역사를 기반으로 공유된 국민 정체성 구축\n\n#italic 역사적 배경:#!\n나치 정권은 1935년에 설립된 아넨에르베(Ahnenerbe)와 같은 단체를 통해 게르만 역사의 신화적 비전을 장려했으며, 이는 유사 과학적인 인종 이론을 전파했습니다. 나치의 교육과 선전은 배타적이고 민족주의적인 정체성 아래 인구를 통합하기 위해 소위 아리아인의 과거를 미화했습니다." # 10203622576168109260
+  je_ut_new_dawn_volksgemeinschaft: "우리 - 그들이 아니다." # 9748374423490504776
+  je_ut_new_dawn_volksgemeinschaft_desc: "인종적으로 규정된 국민 공동체를 건설하여 외부인을 배제하십시오.\n\n#italic 역사적 배경:#!\n'민족 공동체(Volksgemeinschaft)'라는 개념은 1933년 이후 인종적으로 '순수한' 독일인들 사이의 단결을 증진하기 위해 사용되었습니다. 이는 유대인, 로마인, 장애인 및 기타 집단을 배제했으며, 1935년 반유대주의를 합법화하고 인종 분리를 제도화한 뉘른베르크 법의 토대를 마련했습니다.\n이러한 이데올로기는 체계적인 배제의 기반을 다졌고, 6백만 명 이상의 유대인과 기타 소외 계층이 국가 계획 하의 대량 학살인 홀로코스트로 이어지는 결과를 낳았습니다." # 12091980147066774103
+  je_ut_new_dawn_expansionism: "팽창주의" # 12986642312483030307
+  je_ut_new_dawn_expansionism_desc: "국가적 영광과 생활 공간 확보를 위해 영토 확장을 추구하십시오.\n\n#italic 역사적 배경:#!\n'레벤스라움'(생활 공간) 이데올로기에 고무된 나치 독일은 1938년 3월 오스트리아를 합병(안슐루스)하고, 1938년 9월 주데텐란트를 점령했으며, 1939년 9월 1일 폴란드를 침공하며 제2차 세계 대전을 촉발했습니다. 팽창은 동유럽을 정복하고 그곳 주민들을 이주시키는 것을 목표로 하는 나치 외교 정책의 핵심 기둥이었습니다." # 5939127229408844943
+  je_ut_new_dawn_fascist_final_tt: "[concept_ut_nd_fascist_final_context]: 오직 [ROOT.GetCountry.GetName]만이 존재한다" # 7364107488077478640
+  concept_ut_nd_fascist_final_context: "하나의 세계, 하나의 민족" # 6352556888322667137
+  concept_ut_nd_fascist_final_context_desc: "단일 이념과 인종 아래 영구적인 파시스트 질서를 수립하십시오.\n\n#italic 역사적 배경:#!\n나치 정권은 단일 정당이 이끌고 인종적으로 규정된 이념 아래 통합된 '천년 제국'을 구상했습니다. 이러한 비전은 영구적인 지배를 통해 세계를 재편하려는 목적으로 끊임없는 군비 확장, 선전, 그리고 대량 학살을 추동했습니다. 비록 12년(1933-1945) 동안만 지속되었지만, 이 정권의 행위는 전 세계에 재앙적인 결과를 남겼으며 이념이 어떻게 파괴를 부추길 수 있는지에 대한 경고로 남아 있습니다." # 18433745844914084534
+  je_ut_new_dawn_fascist_complete_condition_tt: "모든 [concept_ut_nd_milestones] 완료" # 1756441713990343559
+  concept_ut_nd_milestones: "업적" # 14344302139570954950
+  concept_ut_nd_milestones_desc: "마일스톤은 단 한 번 달성 가능한 행동입니다. 전제정치(Autocracy)를 제외한 모든 이념은 각기 다른 행동을 요구하며 다양한 효과를 [concept_ut_nd_path_to_utopia]에 부여하는 고유한 마일스톤 경로를 가집니다. 마일스톤은 핵심 이념을 상실하더라도 계속 활성화된 상태로 유지됩니다.\n\n#i 역사에서 영감을 얻음 #!" # 18191693752092254956
+  concept_ut_nd_actions: "행동" # 4770199439948519332
+  concept_ut_nd_actions_desc: "반복 가능한 행동" # 14524056748032572379
+  concept_ut_nd_abilities: "능력" # 4662327713131811050
+  concept_ut_nd_abilities_desc: "일회성이거나 반복 가능한 행동으로 상당한 효과를 제공합니다. 각 이념은 기본 세트를 가지고 있으며, 다양한 행동을 필요로 하고 여러 효과를 제공하는 고유한 능력을 가지고 있습니다. 보통 [concept_ut_nd_progress_points]을 소모합니다." # 9461565546688129460
+  je_ut_communist_one_communist_party: "명령 경제" # 5545792418987111910
+  je_ut_communist_one_communist_party_exclusive_tt: "#bold 아직#! #bold 협동 경제#! 경로를 시작하지 않았습니다" # 4755539616142310472
+  je_ut_communist_one_communist_party_effect_tt: "[GetLawType('ut_law_council_presidium').GetName]을(를) 해금합니다" # 1929474954918403185
+  je_ut_communist_a_communist_party: "협동 경제" # 4885563008485983344
+  je_ut_communist_a_communist_party_exclusive_tt: "#bold 아직#! #bold 명령 경제#! 경로를 시작하지 않았습니까" # 12171892451826030516
+  je_ut_communist_one_block: "평의회 연합" # 3254609269086092451
+  je_ut_new_dawn_communist_one_block_mod: "평의회 연합" # 3254609269086092451
+  je_ut_communist_one_people: "노동자 단결" # 16840089199189619258
+  je_ut_new_dawn_communist_one_people_mod: "노동자 연합" # 3004701246558019537
+  je_ut_communist_socialist_expansion: "연합 확장" # 10825827363781715367
+  je_ut_communist_socialist_expansion_mod: "연합 확장" # 10825827363781715367
+  je_ut_communist_world_revolution: "세계 혁명" # 12459629864326213562
+  je_ut_communist_world_revolution_effect_tt: "[GetLawType('ut_law_international_council').GetName]을(를) 해금합니다." # 15088731059560020785
+  je_ut_new_dawn_fascist: "파시즘" # 3776626123303565863
+  je_ut_new_dawn_fascist_reason: "#italic - [Concept('concept_ut_nd_fascist_core', '파시스트')]#!" # 3830247196949383151
+  je_ut_new_dawn_communist: "공산주의" # 10742938078053930733
+  je_ut_new_dawn_communist_reason: "민중은 평등과 정의, 그리고 계급 압제의 종식을 요구하고 있습니다. 전국적으로 노동자 평의회가 결성되고, 노동조합의 영향력이 커지고 있으며, 사회권 보장을 위한 시위가 거리를 가득 메우고 있습니다.\n이러한 각성이 어떤 결과를 낳을지는...\n#italic - [Concept('concept_ut_nd_communist_core', '공산주의자')] [concept_ut_nd_path_to_utopia]#!" # 15513564465094486386
+  je_ut_new_dawn_communist_complete_condition_tt: "절대 (작업 중)" # 4619665427130574120
+  ut_new_dawn_autocrat_focus: "전제주의적 중점" # 15048205500567095509
+  ut_new_dawn_autocrat_focus_desc: "#italic 미리보기: [concept_ut_nd_abilities]의 기본 구현을 포함합니다.#!" # 16374103579087457907
+  ut_new_dawn_autocrat_bar: "전제적인" # 15606967643050215087
+  ut_new_dawn_autocrat_bar_desc: "전제주의적 진보: #v [JournalEntry.GetCurrentBarProgress(ScriptedProgressBar.Self)|%]#! ([JournalEntry.GetCurrentBarValue(ScriptedProgressBar.Self)|1]/[GetPlayer.MakeScope.ScriptValue('new_dawn_core_upper_bound')])" # 5430680452137570846
+  ut_nd_autocrat_progress_from_characters: "[concept_ut_nd_autocrat_characters]의 결합된 [concept_popularity]" # 830835686125415206
+  ut_nd_autocrat_progress_from_igs: "[concept_clout]을 가진 [Concept('concept_interest_group', '$concept_interest_groups$')]와 [concept_ut_nd_autocrat_characters] [concept_leader]" # 13728791646356984403
+  ut_nd_autocrat_progress_from_laws: "[Concept('concept_law', '$concept_laws$')] 제정됨: [GetLawType('law_monarchy').GetName], [GetLawType('law_autocracy').GetName]" # 18211907996081364374
+  ut_nd_autocrat_progress_from_legitimacy: "[concept_ut_nd_autocrat_characters] [concept_ruler]의 [concept_legitimacy]" # 7707689907245789857
+  ut_nd_autocrat_progress_from_movements: "[concept_political_movement_support] von #bold 자치적인#! [Concept('concept_political_movement','$concept_political_movements$')]" # 13845451751455688839
+  ut_nd_autocrat_progress_from_focus: "전제주의적 중점" # 15048205500567095509
+  ut_nd_autocrat_progress_from_events: "이벤트 및 기타 효과" # 10460833253187781076
+  concept_ut_nd_autocrat_characters: "전제주의적 인물들" # 7226641921959923643
+  concept_ut_nd_autocrat_characters_desc: "권위주의적 성향의 인물 이념은 [GetIdeology('ideology_authoritarian').GetName], [GetIdeology('ideology_humanitarian_royalist').GetName], [GetIdeology('ideology_integralist').GetName], [GetIdeology('ideology_royalist').GetName], [GetIdeology('ideology_traditionalist').GetName], 그리고 [GetIdeology('ideology_traditionalist_minoritarian').GetName]입니다.\n권위주의 지도자가 [concept_ut_nd_focus]를 활성화한 경우, [GetIdeology('ideology_moderate').GetName], [GetIdeology('ideology_jingoist_leader').GetName], [GetIdeology('ideology_protectionist').GetName], 그리고 [GetIdeology('ideology_corporatist_leader').GetName]도 포함됩니다." # 8849009058464702497
+  ut_new_dawn_autocrat_status: "전제주의 사상이 담론을 형성하다" # 13662619647814326630
+  concept_ut_nd_fascist_core: "파시즘" # 3776626123303565863
+  concept_ut_nd_fascist_core_desc: "#bold 이념적 [concept_ut_nd_progress_points] 획득#!\n- $ut_nd_fascist_progress_from_characters$\n- $ut_nd_fascist_progress_from_igs$\n- $ut_nd_fascist_progress_from_laws$\n\n#bold [concept_ut_nd_milestones] 해금#! - 미정\n\n#bold [concept_ut_nd_abilities] 해금#!\n - 국가 합병 (주요국) - 미정\n - [GetDiplomaticActionType('ut_force_regime_change').GetName]\n\n#b 집중 효과#!\n[GetStaticModifier('je_ut_new_dawn_fascist_focus').GetDesc]\n\n#b 해금 효과#!\n[GetStaticModifier('je_ut_new_dawn_fascist_mod').GetDesc]\n\n#b [concept_ut_nd_stance]#!\n우호적: [concept_ut_nd_autocrat_core], [concept_ut_nd_fascist_core]\n반대: [concept_ut_nd_democrat_core], [concept_ut_nd_communist_core]\n\n#b [concept_ut_nd_path_to_utopia]#!\n맹목적인 복종, 군국주의, 그리고 '다르다'고 여겨지는 모든 자들에 대한 무자비한 예속을 통해 당신의 국민을 ... 유토피아로 변모시키십시오. 세계를 정복하십시오. 소수에게는 번영과 단결을 선사하되, 나머지 모든 이들의 자유와 존엄성을 희생시키십시오." # 4269540080216530645
+  concept_ut_nd_autocrat_core: "전제정" # 3283050701421056428
+  concept_ut_nd_autocrat_core_desc: "#bold 이념적 [concept_ut_nd_progress_points] 획득#!\n- $ut_nd_autocrat_progress_from_characters$\n- $ut_nd_autocrat_progress_from_igs$\n- $ut_nd_autocrat_progress_from_laws$\n\n#bold [concept_ut_nd_abilities] 해금#! - 미리보기\n - [GetLawType('ut_law_monarchy_autocratic').GetName]\n - [GetLawType('ut_law_monarchy_corporate_state').GetName]\n - #p 칙령:#! [GetStaticModifier('je_ut_new_dawn_emergency_powers_mod').GetName], [GetStaticModifier('je_ut_new_dawn_strengthen_power_mod').GetName], [GetStaticModifier('je_ut_new_dawn_border_dispute_mod').GetName],  [GetStaticModifier('je_ut_new_dawn_suppress_dissidents_mod').GetName]\n\n#b 집중 효과#!\n[GetStaticModifier('je_ut_new_dawn_autocrat_focus').GetDesc]\n\n#b 해금 효과#!\n[GetStaticModifier('je_ut_new_dawn_autocratic_mod').GetDesc]\n\n#b [concept_ut_nd_stance]#!\n우호: [concept_ut_nd_fascist_core], [concept_ut_nd_autocrat_core]\n중립: [concept_ut_nd_democrat_core]\n반대: [concept_ut_nd_communist_core]\n\n#b [concept_ut_nd_path_to_utopia]#!\n없음." # 8951903579118917747
+  concept_ut_nd_democrat_core: "민주주의" # 12171351702943594994
+  concept_ut_nd_democrat_core_desc: "#bold 이념적 [concept_ut_nd_progress_points] 획득#!\n- $ut_nd_democrat_progress_from_characters$\n- $ut_nd_democrat_progress_from_igs$\n- $ut_nd_democrat_progress_from_laws$\n\n#bold [concept_ut_nd_milestones] 해금#! - 미리보기\n이념 해금: [GetIdeology('ideology_liberal_democratic').GetName], [GetIdeology('ideology_reactionary_democratic').GetName], [GetIdeology('ideology_moralist_democratic').GetName], [GetIdeology('ideology_plutocratic_democratic').GetName], [GetIdeology('ideology_socialist_democratic').GetName], [GetIdeology('ideology_jingoist_democratic').GetName]\n특성 해금: [GetStaticModifier('je_ut_new_dawn_democratic_power_bloc_mod').GetDesc], [GetStaticModifier('je_ut_new_dawn_democratic_fair_elections_mod').GetDesc]\n\n#bold [concept_ut_nd_abilities] 해금#!\n - [GetDiplomaticActionType('ut_international_diplomatic_power_bloc_merge').GetName]\n - [GetArticleType('ut_democracy_article').GetNameNoIcon]\n - [GetLawType('ut_law_monarchy_democratic').GetName]\n\n#b 집중 특성#!\n[GetStaticModifier('je_ut_new_dawn_democrat_focus').GetDesc]\n\n#b 해금 특성#!\n[GetStaticModifier('je_ut_new_dawn_democratic_mod').GetDesc]\n\n#b [concept_ut_nd_stance]#!\n우호적: [concept_ut_nd_democrat_core]\n중립: [concept_ut_nd_communist_core], [concept_ut_nd_autocrat_core]\n반대: [concept_ut_nd_fascist_core]\n\n#b [concept_ut_nd_path_to_utopia]#!\n민주주의 제도를 강화하고 모든 시민이 참여, 존엄, 기회를 누리는 정의롭고 자유로운 사회를 건설하십시오. 평등, 개방성, 그리고 민중의 의지에 기반한 유토피아로 그대들의 백성을 이끄십시오." # 12863633686040661397
+  concept_ut_nd_communist_core: "공산주의" # 10742938078053930733
+  concept_ut_nd_communist_core_desc: "#bold 이념적 [concept_ut_nd_progress_points] 획득#!\n- $ut_nd_communist_progress_from_characters$\n- $ut_nd_communist_progress_from_igs$\n- $ut_nd_communist_progress_from_laws$\n\n#bold [concept_ut_nd_milestones] 해금#!:\n - 수정기 해금: [GetStaticModifier('je_ut_new_dawn_communist_one_block_mod').GetDesc], [GetStaticModifier('je_ut_new_dawn_communist_one_people_mod').GetDesc] 혹은 [GetStaticModifier('je_ut_communist_socialist_expansion_mod').GetDesc]\n - 이념 해금: [GetIdeology('ideology_reactionary_communist').GetName], [GetIdeology('ideology_plutocratic_communist').GetName] 혹은 [GetIdeology('ideology_urbanist_power_base').GetName] \n - 법률 변형 해금: [GetLawType('ut_law_international_council').GetName] 혹은 [GetLawType('ut_law_council_presidium').GetName]\n\n#bold [concept_ut_nd_abilities] 해금#! - 작업 중\n - [GetDiplomaticActionType('ut_force_become_subject').GetName] - 미리보기\n - [GetArticleType('ut_communism_article').GetNameNoIcon]\n - 강제 세력권 편입 - 추후 결정\n\n#b 중점 수정기#!\n[GetStaticModifier('je_ut_new_dawn_communist_focus').GetDesc]\n\n#b 해금 수정기#!\n[GetStaticModifier('je_ut_new_dawn_communist_mod').GetDesc]\n\n#b [concept_ut_nd_stance]#!\n호의적: [concept_ut_nd_communist_core]\n중립적: [concept_ut_nd_democrat_core], [concept_ut_nd_autocrat_core]\n반대: [concept_ut_nd_fascist_core]\n\n#b [concept_ut_nd_path_to_utopia]#!\n모든 생산 수단이 공동 소유되는 계급 없는 사회를 건설하십시오. 평등과 연대가 공존의 토대가 되는 유토피아로 그대들의 인민을 이끄십시오." # 12166943635236535458
+  concept_ut_nd_path_to_utopia: "유토피아로 가는 길" # 12923631650067632515
+  concept_ut_nd_path_to_utopia_desc: "이념이 [concept_ut_new_dawn] 기록 보관소 항목을 성공적으로 완료하면 [concept_ut_nd_path_to_utopia]를 시작할 수 있습니다. 각 이념은 동일한 기본 능력 세트, 특색 있는 능력, 특색 있는 수정치를 가지며 심지어 달성해야 할 [concept_ut_nd_utopia]를 가질 수도 있습니다.\nA [Concept('concept_humiliation', '굴욕당한')] 국가는 [concept_ut_nd_path_to_utopia]를 포기하고 새로운 이념을 선택할 가능성이 높습니다.\n\n#bold 기본 [concept_ut_nd_abilities]:#!\n - [GetDiplomaticActionType('ut_influence_new_dawn_major_power').GetName]\n - [GetDiplomaticActionType('ut_fund_ideology').GetName]\n - [GetDiplomaticActionType('ut_fund_opposition').GetName]\n\n#b '새로운 여명(New Dawn)'은 작업 진행 중입니다#!\n#italic 상태 참고 사항:\ntbd (추후 결정): 실제 작업 없음\nwip (작업 진행 중): 개발 진행 중, 패치 노트 확인 요망\nPreview: 피드백을 위한 초기 버전 제공; 불완전하며 최종본이 아님\n\n미리보기 [concept_ut_nd_milestones] 또는 [concept_ut_nd_abilities]가 없는 이념은 대신 보다 정적인 수정치를 특징으로 합니다.\n\n상태 참고 사항은 불완전할 수 있습니다.\n\n#i 프로젝트 유토피아를 지원하고 싶으시다면 - 스팀 창작마당에서 좋아요를 눌러주세요 <3#!" # 15954396149901809462
+  concept_ut_nd_utopia: "유토피아" # 12086590480901384294
+  concept_ut_nd_utopia_desc: "유토피아란 완전한 정의와 조화 속에서 인간이 완벽하게 번성하는 이상적인 상상의 사회이며, 이는 고취시키는 비전인 동시에 열망이기도 합니다." # 6744574969030442342
+  ut_new_dawn_fascist_focus: "파시스트 중점" # 6488431582971330943
+  ut_new_dawn_fascist_focus_desc: "#italic tbd: [concept_ut_nd_milestones]의 미리보기만 제공됩니다. #!" # 12974870335283527945
+  ut_new_dawn_fascist_bar: "파시스트" # 4468782137562596950
+  ut_new_dawn_fascist_bar_desc: "파시스트 진보: #v [JournalEntry.GetCurrentBarProgress(ScriptedProgressBar.Self)|%]#! ([JournalEntry.GetCurrentBarValue(ScriptedProgressBar.Self)|1]/[GetPlayer.MakeScope.ScriptValue('new_dawn_core_upper_bound')])" # 4711229484178980844
+  ut_nd_fascist_progress_from_characters: "[concept_ut_nd_fascist_characters]의 결합된 [concept_popularity]" # 17163773533618064286
+  ut_nd_fascist_progress_from_igs: "[concept_clout]을 가진 [Concept('concept_interest_group', '$concept_interest_groups$')]과 [concept_ut_nd_fascist_characters] [concept_leader]" # 10066293492198025538
+  ut_nd_fascist_progress_from_laws: "[Concept('concept_law', '$concept_laws$')] 제정됨: [GetLawType('law_ethnostate').GetName], [GetLawType('law_neo_ethno_state').GetName]" # 6140116174873630905
+  ut_nd_fascist_progress_from_legitimacy: "[concept_ut_nd_fascist_characters] [concept_ruler]의 [concept_legitimacy]" # 8292175163410779935
+  ut_nd_fascist_progress_from_focus: "파시스트 중점" # 6488431582971330943
+  ut_nd_fascist_progress_from_events: "이벤트 및 기타 효과" # 10460833253187781076
+  concept_ut_nd_fascist_characters: "파시스트 인물들" # 14003731504372189471
+  concept_ut_nd_fascist_characters_desc: "파시스트 성향의 이념은 [GetIdeology('ideology_ethno_nationalist').GetName]와 [GetIdeology('ideology_fascist').GetName]입니다.\n만약 파시스트 [concept_ut_nd_focus]가 활성화된 경우, 다음 이념들도 포함됩니다: [GetIdeology('ideology_moderate').GetName], [GetIdeology('ideology_corporatist_leader').GetName], [GetIdeology('ideology_land_reformer').GetName], [GetIdeology('ideology_modernizer_leader').GetName], 그리고 [GetIdeology('ut_ideology_national_socialist_leader').GetName]." # 3532067136905143642
+  ut_new_dawn_fascist_status: "파시스트 사상이 담론을 형성하다" # 14473269848191288928
+  ut_nd_multiplier_from_service_workers_0: "$service_workers$가 1% 미만일 때 x0.5 배율\n$ut_nd_mp_sw_note$" # 11389265477655121880
+  ut_nd_multiplier_from_service_workers_1: "$service_workers$ 점유율로 인한 x1.5 배수\n$ut_nd_mp_sw_note$" # 14417216808845071518
+  ut_nd_multiplier_from_service_workers_2: "$service_workers$ 점유율로부터의 2배 배수\n$ut_nd_mp_sw_note$" # 15116326890621599663
+  ut_nd_multiplier_from_service_workers_3: "$service_workers$ 점유율에서 2.5배 배수 적용\n$ut_nd_mp_sw_note$" # 11149969834859075711
+  ut_nd_multiplier_from_service_workers_4: "$service_workers$ 점유율에서 3배 배수\n$ut_nd_mp_sw_note$" # 7368678974853353908
+  ut_nd_mp_sw_note: "#italic 인구 점유율 0%에서 4%로. 최대 배율 3배.!#" # 18028498195982920512
+  concept_ut_nd_focus: "집중" # 13375377753976173523
+  concept_ut_nd_focus_desc: "#bold 신새벽#! 기록이 활성화되면 신새벽 이념에 집중하는 것이 가능해집니다. 이념에 집중하면 해당 이념이 지배적이 될 가능성이 훨씬 높아집니다." # 2614398429544479354
+  concept_ut_nd_stance: "입장" # 1382392799735194544
+  concept_ut_nd_stance_desc: "각 이념은 다른 이념에 대한 입장을 가지고 있습니다. 이 입장은 세력 블록 가입 및 유지 수용도, 그리고 대부분의 새로운 유토피아 프로젝트 행동에 영향을 미칩니다. 작업 진행 중입니다." # 7330284217806417943
+  je_ai_radio_researched: "라디오 연구 완료" # 15944463135971852075
+  je_ai_radio_researched_reason: "REPLACE_ME" # 8745063705845015763
+  je_ai_consumer_goods_researched: "소비재 연구 완료" # 261124568949457543
+  je_ai_consumer_goods_researched_reason: "REPLACE_ME" # 8745063705845015763
+  je_ai_advanced_consumer_goods_researched_reason: "REPLACE_ME" # 8745063705845015763
+  je_ai_not_ai: "변장한 인간" # 13906511062059806103
+  je_ai_not_ai_reason: "REPLACE_ME" # 8745063705845015763
+  service_workers: "@service_workers! $service_workers_no_icon$" # 3556790973045507558
+  service_workers_desc: "도시 서비스 부문, 즉 접객업, 소매업, 운송업에 종사하는 노동자들입니다. 이들은 서비스 경제의 필수적인 부분을 차지하며 다양한 노동력을 대표합니다. 대다수는 도시주의자들을 지지하며, 일부는 소부르주아나 노동조합을 지지합니다." # 9809995963345048474
+  service_workers_only_icon: "@service_workers!" # 15920042607951632165
+  service_workers_no_icon: "서비스 노동자들" # 1899366436157919047
+  POP_SERVICE_WORKERS: "$service_workers$ [concept_profession]" # 8567948534917175042
+  SERVICE_WORKERS_QUALIFICATIONS_DESC: "충분한 [concept_literacy]와 [concept_wealth]를 가진 인구 집단만이 #v $service_workers$#!가 될 수 있습니다. [concept_literacy]와 [concept_wealth]가 증가함에 따라 그 잠재력은 커집니다. #v $laborers$#!와 #v $clerks$#!는 특히 #v $service_workers$#!가 되기 쉽습니다." # 1108836090695187682
+  country_service_workers_pol_str_mult: "$service_workers$의 [concept_political_strength]" # 1500275679934856455
+  country_service_workers_pol_str_mult_desc: "$service_workers$의 [concept_political_strength] 증감" # 16032366828172521631
+  state_service_workers_investment_pool_contribution_add: "$service_workers$ [concept_investment_pool] 기여" # 17117000151721557577
+  state_service_workers_investment_pool_efficiency_mult: "$service_workers$ [concept_investment_pool] 기여 효율성" # 2516525829988780189
+  state_service_workers_investment_pool_contribution_add_desc: "$service_workers$가 그들의 이윤 중 얼마를 투자할 것인가." # 18007942991385955677
+  state_service_workers_investment_pool_efficiency_mult_desc: "$service_workers$가 [concept_investment_pool]에 기여하는 투자 이익의 증가 또는 감소." # 17777586058152693693
+  building_employment_service_workers_add: "$service_workers$ 레벨당" # 12687155340000607526
+  building_employment_service_workers_add_desc: "건물이 레벨당 고용할 수 있는 $service_workers$의 양을 수정합니다." # 15723167116502398572
+  country_service_workers_voting_power_add: "$service_workers$의 [concept_votes]로부터 얻은 [concept_political_strength]" # 550011929672928026
+  country_service_workers_voting_power_add_desc: "선거에서 $service_workers$의 [concept_votes]로 얻는 [concept_political_strength]의 증감" # 16009605837927368128
+  building_service_workers_mortality_mult: "$service_workers$ 사망률 배수" # 7757355471136741919
+  building_service_workers_mortality_mult_desc: "$service_workers$의 사망률 증가 또는 감소." # 9093042380853722733
+  ig_urbanists: "도시 계획가들" # 1317203667294947806
+  ig_urbanists_desc: "현대 도시 환경에서 접객업, 소매업, 운송업 및 기타 현대 경제 부문의 전문가들을 대변하는 서비스 노동자들." # 699651033701268086
+  ig_urbanists_only_icon: "@urbanists!" # 5497947939638946211
+  ig_variant_urbanists: "[GetInterestGroupVariant('ig_urbanists',GetPlayer).GetNameWithCountryVariant]" # 10422402088447238904
+  interest_group_ig_urbanists_pol_str_mult: "$ig_variant_urbanists$ [concept_political_strength]" # 15515776504899797759
+  interest_group_ig_urbanists_pol_str_mult_desc: "\"[GetInterestGroupVariant('ig_urbanists',GetPlayer).GetNameWithCountryVariant]\" [concept_interest_group]의 [concept_political_strength] 증가 또는 감소." # 13920449842895131244
+  interest_group_ig_urbanists_approval_add: "[concept_approval] ($ig_variant_urbanists$)" # 8644795020479108612
+  interest_group_ig_urbanists_approval_add_desc: "\"[GetInterestGroupVariant('ig_urbanists',GetPlayer).GetNameWithCountryVariant]\" [concept_interest_group]의 [concept_approval] 증감." # 613093803087602099
+  interest_group_ig_urbanists_pop_attraction_mult: "$ig_variant_urbanists$ 인구 유인 배수" # 7426613415643935762
+  interest_group_ig_urbanists_pop_attraction_mult_desc: "[concept_interest_group] \"[GetInterestGroupVariant('ig_urbanists',GetPlayer).GetNameWithCountryVariant]\"에 끌리는 인구에 대한 보너스 또는 감점." # 5918143953288232869
+  ideology_urbanist_liberalist: "도시 자유주의 이념" # 6933273714867668923
+  ideology_urbanist_power_base: "세계주의" # 7073706781269649818
+  ideology_urbanist_power_base_desc: "세계주의적 이념은 세계적 상호 연결성, 포용성, 그리고 인권 증진을 강조합니다. 이들은 개방된 국경, 다문화주의, 그리고 종교적 영향력이 배제된 세속적 통치를 지지합니다." # 10497727914301331883
+  ideology_urbanist_economy_base: "합리주의자들" # 1563667257923900251
+  ideology_urbanist_economy_base_desc: "합리주의 이념은 전문가에 의한 통치와 국가 및 사회의 효율적인 관리를 선호합니다. 그들은 과학 기반의 결정을 신뢰하며 교육, 기술, 공공 서비스를 지지합니다." # 8491192952078379971
+  ideology_urbanist_human_rights_base: "인문주의자들" # 4966856182843995141
+  ideology_urbanist_human_rights_base_desc: "인본주의 이념은 평등, 사회 정의, 그리고 개인의 권리 보호에 중점을 둡니다. 이들은 노예제와 착취를 거부하며 강력한 사회 안전망을 옹호합니다." # 4682297732557139666
+  ut_ideology_environmentalist_leader: "생태학자" # 13190361420013571986
+  ut_ideology_environmentalist_leader_desc: "#lore 환경보호주의자들.#!" # 12194615883939513028
+  ut_ideology_environmentalist_leader_unlock_tt: "[GetIdeology('ut_ideology_environmentalist_leader').GetName] [concept_ideology] 해금" # 3051129642846728052
+  ut_ideology_cosmopolitan: "세계주의" # 7073706781269649818
+  ut_ideology_cosmopolitan_desc: "세계주의적 이념은 국제 협력, 문화적 다양성, 그리고 인권 증진을 강조합니다. 그들은 개방된 국경, 다문화주의, 그리고 종교적 영향으로부터 자유로운 세속 정부를 주장합니다." # 1625685144144245516
+  ut_ideology_cosmopolitan_leader: "세계주의" # 7073706781269649818
+  ut_ideology_cosmopolitan_leader_desc: "세계주의적 이념은 국제 협력, 문화적 다양성, 그리고 인권 증진을 강조합니다. 그들은 개방된 국경, 다문화주의, 그리고 종교적 영향으로부터 자유로운 세속 정부를 주장합니다." # 1625685144144245516
+  ut_ideology_cosmopolitan_leader_unlock_tt: "[GetIdeology('ut_ideology_cosmopolitan_leader').GetName] [concept_ideology]을(를) 해금합니다." # 9430006229200137938
+  ut_ideology_autocratic_leader: "전제적인" # 15606967643050215087
+  ut_ideology_autocratic_leader_desc: "전제주의적 이념은 강력하고 중앙집권적인 권위와 질서를 우선시합니다. 이들은 종종 전통, 위계질서, 국가 통합을 강조하며, 안정과 통제를 위해 제한된 정치적 자유를 옹호합니다." # 45073143843590916
+  ut_ideology_autocratic_leader_unlock_tt: "[GetIdeology('ut_ideology_autocratic_leader').GetName] [concept_ideology] 잠금 해제" # 13784361484513480505
+  ut_ideology_national_socialist_leader: "파시스트 전체주의" # 16687659911576337312
+  ut_ideology_national_socialist_leader_desc: "이 지도자는 국가와 사회에 대한 절대적인 통제를 확립하고 단일 이념 아래 엄격한 복종과 단결을 강요하는 전체주의자입니다. 그들은 질서와 권위를 보존하기 위해 개인의 의지를 집단에 종속시키고 반대 의견을 근절해야 한다고 믿습니다. [concept_ut_nd_fascist_core] 또는 [concept_ut_nd_autocrat_core]일 가능성이 높습니다.\n\n#i 역사적 배경:\n이는 1940년대 나치 독일, 파시스트 이탈리아, 일본의 전체주의 독재를 반영하는 것으로, 국가와 사회에 대한 절대적인 통제를 추구했습니다.#" # 12729214733330487955
+  ut_ideology_national_socialist_leader_unlock_tt: "[GetIdeology('ut_ideology_national_socialist_leader').GetName] [concept_ideology] 해금" # 17812199965542287661
+  ut_ideology_totalitarian_communist_leader: "공산 전체주의" # 18216124655744133772
+  ut_ideology_totalitarian_communist_leader_desc: "이 지도자는 국가와 사회에 대한 절대적인 통제를 확립하고 단일 이념 아래 엄격한 복종과 단결을 강요하는 전체주의자입니다. 그들은 질서와 권위를 보존하기 위해 개인의 의지를 집단에 종속시키고 반대 의견을 근절해야 한다고 믿습니다. 권위주의적 [concept_ut_nd_communist_core]일 경우 그럴 가능성이 높습니다.\n\n#i 역사적 배경:\n소련과 마오쩌둥 치하 중국의 전체주의 독재 정권을 반영하며, 이는 국가와 사회에 대한 절대적인 통제를 추구했습니다.#!" # 16849644651622636678
+  ut_ideology_totalitarian_communist_leader_unlock_tt: "[GetIdeology('ut_ideology_totalitarian_communist_leader').GetName] [concept_ideology] 해금" # 15240628316424657444
+  ut_ideology_economical_corporatist_leader: "경제적 조합주의자" # 2489607705600981643
+  ut_ideology_economical_corporatist_leader_desc: "경제적 조합주의 이념은 강력한 기업 부문을 유지하면서 경제를 관리하는 데 있어 국가의 역할을 강조합니다. 이들은 경제 성장과 사회 안정을 달성하기 위해 정부와 기업 간의 협력을 주장합니다." # 9091763589606899923
+  ut_ideology_economical_corporatist_leader_unlock_tt: "[GetIdeology('ut_ideology_economical_corporatist_leader').GetName] [concept_ideology]을 해금합니다" # 15695718204260269281
+  ideology_liberal_democratic: "자유민주주의" # 13231608253010400249
+  ideology_liberal_democratic_desc: "#lore 이 집단은 개인의 자유, 시민권, 민주적 통치를 옹호합니다. 그들은 자유 시장, 제한된 정부 개입, 그리고 개인의 자유 보호를 주장합니다. [GetIdeology('ideology_liberal').GetName]을 대체합니다. #!" # 7508000661638084305
+  ideology_moralist_democratic: "도덕주의-민주주의" # 9865072237564997611
+  ideology_moralist_democratic_desc: "#lore 이 집단은 개인의 자유, 시민권, 민주적 통치를 강조합니다. 그들은 개인의 자유와 사회적 책임을 모두 증진하는 사회 및 경제 정책에 대한 균형 잡힌 접근 방식을 옹호합니다. [GetIdeology('ideology_moralist').GetName]을 대체합니다. #!" # 1089799303697179879
+  ideology_plutocratic_democratic: "엘리트주의자" # 507629626050516558
+  ideology_plutocratic_democratic_desc: "#lore 이 집단은 사회가 공공의 선을 위해 결정을 내릴 준비가 가장 잘 된 부유한 엘리트에 의해 통치되어야 한다고 믿습니다. 그들은 사회적 평등보다 경제 성장과 안정을 우선시하는 경향이 있습니다. [GetIdeology('ideology_plutocratic').GetName]을 대체합니다. [concept_ut_nd_democrat_core] 변형.#!" # 7460373897037155330
+  ideology_plutocratic_communist: "엘리트주의자" # 507629626050516558
+  ideology_plutocratic_communist_desc: "#lore 이 집단은 부유한 엘리트 계층이 공동선을 위해 가장 잘 판단할 수 있으므로 사회를 그들이 통치해야 한다고 믿습니다. 그들은 사회적 평등보다 경제 성장과 안정을 우선시하는 경향이 있습니다. [GetIdeology('ideology_plutocratic').GetName]를 대체합니다. [concept_ut_nd_communist_core] 변형입니다.#!" # 10477641717025623242
+  ideology_plutocratic_alternative: "엘리트주의자" # 507629626050516558
+  ideology_plutocratic_alternative_desc: "#lore 이 집단은 사회가 공동선을 위한 결정을 내릴 가장 적합한 부유한 엘리트에 의해 통치되어야 한다고 믿습니다. 그들은 종종 사회적 평등보다 경제 성장과 안정을 우선시합니다. [GetIdeology('ideology_plutocratic').GetName]을 대체합니다. #!" # 10768925660053627016
+  ideology_republican_alternative: "기술관료들" # 11043730338784322886
+  ideology_republican_alternative_desc: "이 집단은 전문가와 기술관료에 의한 통치를 신봉하며, 효율성과 합리적인 의사결정을 강조합니다. [GetIdeology('ideology_republican').GetName]을 대체합니다. (노선이 포기되면 상실됨)#!" # 896362331232217328
+  ideology_reactionary_democratic: "보수주의" # 13798856852811946831
+  ideology_reactionary_democratic_desc: "#lore 이 집단은 전통, 사회적 안정, 그리고 점진적인 변화를 중시합니다. 그들은 종종 기성 제도를 지지하며 급진적인 사회 또는 정치 개혁에 저항할 수 있습니다. [GetIdeology('ideology_reactionary').GetName]을 대체합니다. [concept_ut_nd_democrat_core] 변형입니다.#!" # 5933837262797512420
+  ideology_reactionary_communist: "보수주의" # 13798856852811946831
+  ideology_reactionary_communist_desc: "#lore 이 집단은 전통, 사회 안정, 점진적 변화를 중시합니다. 이들은 종종 기존의 제도를 지지하며 급격한 사회적 또는 정치적 개혁에 저항할 수 있습니다. [GetIdeology('ideology_reactionary').GetName]을 대체합니다. [concept_ut_nd_communist_core] 변형.#!" # 3938579926776639565
+  ut_ideology_reactionary_alternative: "보수주의" # 13798856852811946831
+  ut_ideology_reactionary_alternative_desc: "#lore 이 집단은 전통, 사회적 안정, 그리고 점진적인 변화를 중시합니다. 그들은 종종 기존의 제도를 지지하며 급격한 사회적 또는 정치적 개혁에 저항할 수 있습니다. [GetIdeology('ideology_reactionary').GetName]를 대체합니다. #!" # 3659757669996554811
+  ut_ideology_laissez_faire: "자유방임주의 (현대)" # 1182603572485657727
+  ut_ideology_laissez_faire_desc: "#lore 이 집단은 무역과 노동력의 자유로운 흐름을 신봉하며, 정부의 판단보다 시장의 판단을 선호합니다. [GetIdeology('ideology_laissez_faire').GetName]을 대체합니다.#!" # 14435470445645946718
+  ideology_jingoist_democratic: "안보 중심" # 4934837940536945155
+  ideology_jingoist_democratic_desc: "#lore 이 집단은 국가 안보, 강력한 국방, 애국심을 최우선으로 여깁니다. 이들은 강력한 군대를 옹호하며, 국가 이익을 수호하기 위해 개입주의적 외교 정책을 지지할 수 있습니다. [GetIdeology('ideology_jingoist').GetName]을 대체합니다. #!" # 12509615189371918860
+  ideology_socialist_democratic: "사회민주주의" # 16995867194862918508
+  ideology_socialist_democratic_desc: "#lore 이 집단은 사회 정의, 경제적 평등, 노동자 권리 보호를 주장합니다. 그들은 사회 복지를 보장하고 불평등을 줄이기 위해 상당한 정부 개입이 수반되는 혼합 경제를 지지합니다. [GetIdeology('ideology_socialist').GetName]을 대체합니다. #!" # 1428633020514119496
+  ig_trait_urbanist_loyal: "명망 높은 사회" # 3191229470399769151
+  ig_trait_urbanist_loyal_desc: "이 단체는 국경을 넘는 인구의 자유로운 이동을 옹호하며, 이는 문화 교류와 경제적 기회를 증진시킨다고 믿습니다. 그들은 제한적인 이민 정책에 반대하며 국제 협력을 강조합니다." # 5728795872877432928
+  ig_trait_urbanist_happy: "교육에 대한 접근성" # 12623609930500034324
+  ig_trait_urbanist_happy_desc: "이 집단은 연구, 혁신, 그리고 측정 가능한 성과에 의해 주도되는 사회를 옹호합니다. 그들은 지속적인 개선과 과학적 진보가 국가 성공의 열쇠라고 믿습니다." # 13984039724042815350
+  ig_trait_urbanist_unhappy: "차별" # 7004028675387415911
+  ut_movement_cosmopolitan_name: "세계주의 운동" # 6330089195014685056
+  ut_movement_humanist_name: "인본주의 운동" # 4512102944298813698
+  ut_movement_rationalists_name: "합리주의 운동" # 15668348593851631789
+  ut_movement_conservative_name: "보수주의 운동" # 5184034917753938895
+  ut_movement_sexual_liberation_name: "성 해방 운동" # 10456498917209234373
+  ut_movement_cosmopolitan_unlock_tt: "[GetIdeology('ut_ideology_cosmopolitan').GetName] [concept_political_movement]을(를) 해금합니다" # 13990472500736017639
+  ut_ig_ideology_urbanist_economy_base_unlock_tt: "$ig_urbanists$에게 [GetIdeology('ideology_urbanist_economy_base').GetName]을(를) 해금합니다." # 12308809769196199848
+  ut_movement_humanist_unlock_tt: "[GetIdeology('ideology_urbanist_human_rights_base').GetName] [concept_political_movement]을(를) 해금합니다" # 9346613174022290987
+  ut_movement_rationalists_unlock_tt: "[GetIdeology('ideology_urbanist_economy_base').GetName] [concept_political_movement]을(를) 해금합니다." # 6781897753956912084
+  ut_movement_conservative_unlock_tt: "[GetIdeology('ut_ideology_reactionary_alternative').GetName] [concept_political_movement]을(를) 해금합니다" # 4800328048717289081
+  ut_movement_sexual_liberation_unlock_tt: "성 해방 [concept_political_movement] 해금 (작업 중)" # 136171394780622853
+  ut_liberal_feminism_leader: "자유주의적 여성주의자" # 14019532800981938343
+  ut_liberal_feminism_leader_desc: "자유주의적 여성운동가들은 해방을 위해 노력하며 [GetIdeology('ideology_market_liberal').GetName] 개혁을 주장합니다. [concept_ut_nd_democrat_core]일 경우 그럴 가능성이 높습니다." # 8536193243291703061
+  ut_liberal_feminism_leader_unlock_tt: "[GetIdeology('ut_liberal_feminism_leader').GetName] [concept_ideology] 해금" # 5636465894335345608
+  ut_radical_feminism_leader: "급진적 여성주의자" # 1122764268595500146
+  ut_radical_feminism_leader_desc: "급진적 페미니스트들은 해방을 위해 노력하며 [GetIdeology('ideology_radical').GetName] 개혁을 주장합니다. [concept_ut_nd_communist_core]일 경우 그럴 가능성이 더 높습니다." # 17560247250561966708
+  ut_radical_feminism_leader_unlock_tt: "[GetIdeology('ut_radical_feminism_leader').GetName] [concept_ideology] 해금" # 10635218784913296881
+  ut_social_feminism_leader: "사회 페미니스트" # 9641604143346278152
+  ut_social_feminism_leader_desc: "사회주의 페미니스트들은 해방을 위해 노력하며 [GetIdeology('ideology_social_democrat').GetName] 개혁을 옹호합니다. [concept_ut_nd_democrat_core]이거나 [ut_new_dawn_core_communist_mod]일 경우 그럴 가능성이 더 높습니다." # 17193953102896059456
+  ut_social_feminism_leader_unlock_tt: "[GetIdeology('ut_social_feminism_leader').GetName] [concept_ideology] 해금" # 17407153911195008784
+  ut_increase_feminism_leader_unlock_tt: "문제가 해결되지 않을 경우, 모든 인물이 여성주의 이념을 가지고 출현할 확률이 증가합니다." # 11267637516694890853
+  lawgroup_environment_protection: "환경 보호" # 4392489182299377063
+  lawgroup_environment_protection_desc: "환경을 보호하고, 지속 가능성을 증진하며, 생태학적 균형을 보장하는 법률과 제도." # 15734535860725586178
+  lawgroup_food_safety: "식품 안전" # 2593063314019494871
+  lawgroup_food_safety_desc: "식품 생산 및 유통에 있어 식품 안전, 위생 및 품질 기준을 보장하는 법률과 제도." # 13743313426971057493
+  ut_law_monarchy_democratic: "입헌 군주제" # 5530005145278416811
+  ut_law_monarchy_democratic_desc: "군주의 권력이 실질적인 정치적 힘을 갖지 못하며 선출된 의회가 권위를 행사하는 체제." # 530000160411124579
+  ut_law_monarchy_autocratic: "절대 군주제" # 1483750625475619345
+  ut_law_monarchy_autocratic_desc: "군주가 최고의 권위를 가지는 체제." # 8066931210194280743
+  ut_law_monarchy_corporate_state: "최고 지도자" # 14326626968355281369
+  ut_law_monarchy_corporate_state_desc: "단일 지도자가 기업 또는 정당 구조의 지원을 받아 절대적인 권력을 보유하는 체제." # 9842273498895941091
+  ut_law_council_presidium: "평의회 상임위원회" # 15334086707316751756
+  ut_law_council_presidium_desc: "선출된 소수만이 권력을 공유하는 집단 지도 체제로, 종종 정당이나 정부 조직 내에서 나타납니다." # 5498040915343913345
+  ut_law_international_council: "국제 협의회" # 10363735094057935724
+  ut_law_international_council_desc: "다수의 국가들을 감독하며 협력과 공동 통치를 증진하는 초국가적 통치 기구." # 17653618724322729982
+  ut_law_subjecthood_fascist: "행정적 복종" # 4021381485477256364
+  ut_law_subjecthood_fascist_desc: "모든 정복된 민족은 첫 번째 국가의 신민입니다." # 1674616079568796748
+  law_social_market_economy: "사회적 시장 경제" # 8489814566595610052
+  law_social_market_economy_desc: "자유 경쟁과 사회 보장을 결합하여 번영과 사회적 균형을 증진하는 규제된 시장 경제." # 9585257663218324035
+  law_free_market_economy: "자유 시장 경제" # 4365193055549425874
+  law_free_market_economy_desc: "공급과 수요에 의해서만 가격과 생산이 결정되며 정부의 규제가 최소화된, 제어되지 않은 자본주의." # 3380019298731061725
+  law_state_capitalism_economy: "국가 자본주의" # 14147796169535297618
+  law_state_capitalism_economy_desc: "국가적 이익을 증진하고 경제 안정을 보장하기 위해 국가가 주요 산업과 자원을 통제하는 체제." # 11623097753563053732
+  law_corporate_economy: "기업 경제" # 3578006236887176895
+  law_corporate_economy_desc: "기업과 국가가 경제적 이익을 증진하고 사회적 안정을 보장하기 위해 긴밀하게 협력하는 체제." # 14406983193141501649
+  ut_law_tax_code: "세법" # 12583160779263739319
+  ut_law_tax_code_desc: "추가적인 조세 칙령을 허용하는 포괄적인 조세 제도." # 13379748391491736328
+  ut_law_tax_code_effect_tt: "추가적인 세금 칙령을 해금합니다." # 15006610385443470716
+  ut_law_tax_code_amend: "세법 개정" # 17346844835707256118
+  ut_law_tax_code_amend_desc: "개인 세금 세율을 올리거나 내리도록 세법을 수정하십시오." # 13121304340539117762
+  ut_tax_code_changed: "세법 변경" # 11090600399208464663
+  ut_tax_code_income_tax_raised: "소득세 인상" # 5379441452064149013
+  ut_tax_code_income_tax_lowered: "소득세 인하" # 10317945851411615387
+  ut_tax_code_consumption_tax_raised: "소비세 인상" # 13883521453527579531
+  ut_tax_code_consumption_tax_lowered: "소비세 인하" # 15551655972103600201
+  ut_tax_code_dividend_tax_raised: "배당세 인상" # 9639058694786913868
+  ut_tax_code_dividend_tax_lowered: "배당세 인하" # 6830578567279786234
+  ut_law_private_health_research: "사설 보건 연구" # 5666320228374023163
+  ut_law_private_health_research_desc: "민간 기업이 보건 연구를 수행하고 의학적 치료법을 개발하도록 허용하여 혁신을 가져올 수 있지만, 윤리적 우려도 제기합니다." # 5651301538960117493
+  ut_law_public_health_research: "공중 보건 연구" # 11480421604967042786
+  ut_law_public_health_research_desc: "공중 보건 문제에 중점을 두고 의료 발전이 전 인구에게 혜택을 주도록 보장하는 국가 지원 보건 연구 기관." # 18154871887265555234
+  law_free_trade_union: "자유 무역망" # 5311039335737374728
+  law_free_trade_union_desc: "내부 무역 장벽을 제거하고 경제적 이익 증진을 위해 공동 관세 정책을 추구하는 국가들의 연합체입니다." # 2945127444305816698
+  law_protectionism_union: "보호주의 블록" # 5937317063181636917
+  law_protectionism_union_desc: "외국의 경쟁으로부터 국내 산업을 보호하기 위해 공동 관세 및 무역 제한 조치를 취하는 국가들의 연합체입니다." # 16642486542563916397
+  law_compulsory_secondary_school: "의무 중등 교육" # 14111290511181149961
+  law_compulsory_secondary_school_desc: "모든 청소년은 중등 교육을 이수해야 합니다." # 1171173217584725333
+  law_compulsory_tertiary_school: "의무적 고등 교육" # 8074759175130898731
+  law_compulsory_tertiary_school_desc: "모든 시민은 숙련되고 유능한 노동력을 확보하기 위해 중등 교육을 넘어 직업 또는 학술 훈련을 이수해야 합니다." # 13660314202393358667
+  law_public_university: "공립 대학" # 12471684684514253615
+  law_public_university_desc: "사회적 배경에 관계없이 교육에 대한 접근성을 보장하고 연구를 진흥하는 국가 지원 고등 교육 기관." # 12347877249667891258
+  law_private_universities: "사립 대학교" # 3273222144888378594
+  law_task_forces: "태스크 포스" # 9704455277774303046
+  law_task_forces_desc: "신속한 위기 대응 또는 국방을 위한 특수 부대." # 1314280908181686284
+  law_neo_ethno_state: "신(新)민족국가" # 18293353242995098222
+  law_neo_ethno_state_desc: "모든 외국 문화는 차별받고 있습니다. 동화가 적극적으로 강제됩니다." # 17989061711187519167
+  EFFECTS_ON_ACCEPTANCE_law_neo_ethno_state: "#tooltippable #tooltip:$BREAKDOWN_TAG$ 낮은 수용도를 가진 팝들은 가혹한 삶을 살게 될 것이며, 더 높은 지위의 팝들은 더욱 번영할 것입니다#!#!" # 10409485947965970045
+  law_multicultural_globalism: "세계주의" # 18396424140801662158
+  law_multicultural_globalism_desc: "문화적 다양성과 국제 협력을 중시하는 개방적인 사회." # 3738292398492469537
+  EFFECTS_ON_ACCEPTANCE_law_multicultural_globalism: "#tooltippable #tooltip:$BREAKDOWN_TAG$ 계층은 비록 수용도가 낮더라도 사소한 부정적 결과만을 동반한 채 비슷한 삶을 영위할 것입니다#!#!" # 5019124612566714282
+  EFFECTS_ON_ACCEPTANCE_ut_law_subjecthood_fascist: "#tooltippable #tooltip:$BREAKDOWN_TAG$ 자국 영토 밖의 팝들은 낮은 수용도 수치와 척박한 삶에 직면하며, 더 높은 지위의 팝들 또한 억압받습니다!#" # 17234840862898294228
+  law_equal_rights_for_women: "평등권" # 14212396389574378671
+  law_equal_rights_for_women_desc: "교육, 고용, 정치 분야에서 여성에 대한 법적 평등을 실현하여 성차별을 근절하고, 남편의 아내에 대한 법적 권한을 종식시킵니다." # 7154180934963767173
+  law_affirmative_equality: "긍정적 평등" # 15404536376209914423
+  law_affirmative_equality_desc: "여성들이 겪었던 역사적 불평등의 지속적인 영향을 해결하고 극복하는 데 도움이 되는 할당제 및 지원 프로그램과 같은 표적 조치." # 10946604329857010102
+  law_privatized_bureaucrats: "민영화된 관료" # 1682591700836973207
+  law_privatized_bureaucrats_desc: "정부의 행정 업무를 민간 기업에 위탁하여 효율성을 증대시키고 비용을 절감합니다." # 18192720674617087912
+  law_no_environment_protection: "환경 보호법 없음" # 9682541323996603955
+  law_no_environment_protection_desc: "생태학적 결과나 지속 가능성을 고려하지 않은 천연자원의 산업적 착취." # 11613395371843908865
+  law_environment_protection_institute: "환경 보호법" # 4576848550102229774
+  law_environment_protection_institute_desc: "오염을 제한하고 자연 서식지를 보존하기 위한 기본적인 법적 규제." # 3137695161694829308
+  law_environment_protection_institute_two: "환경 보호국" # 2160956140869267792
+  law_environment_protection_institute_two_desc: "환경 규제를 감시하고 집행하며 생태학적 위험을 연구하는 정부 기관." # 1211760099095040709
+  law_food_safety_protection_institute_two: "식품 안전 당국" # 13928056225376690806
+  law_food_safety_protection_institute_two_desc: "식품 생산에 대한 위생 및 안전 규정을 집행하는 정부 기관." # 5276436769478903031
+  law_no_food_safety_protection: "식품 안전성 없음" # 2983380475427050084
+  law_no_food_safety_protection_desc: "식량 생산에 대한 통제력 부족은 인구에게 건강상의 위험을 초래할 수 있습니다." # 715860352896806203
+  law_food_safety_protection_institute: "식품 기준" # 7369388882513585124
+  law_food_safety_protection_institute_desc: "소비자들에게 안전한 식량을 보장하기 위한 법적으로 확립된 최소한의 위생 및 품질 기준." # 9879041755953904132
+  law_demobilized: "제대된" # 4556087221801130778
+  law_demobilized_desc: "군 병력의 대규모 감축 및 자원 민간 경제로의 재분배." # 14246789048539166161
+  law_private_pension: "사적 연금" # 6848917089239328756
+  law_ut_disability_insurance: "장애 보험" # 14358918813893211093
+  law_ut_disability_insurance_desc: "장애로 인해 노동할 수 없는 개인을 사회에 통합시키기 위한 재정적 지원." # 705087233207600268
+  law_ut_minimum_wage: "최저 임금" # 4687126341424774397
+  law_decolonization: "탈식민화" # 5388154808830992804
+  law_decolonization_desc: "이 국가는 과거 식민지들의 독립을 적극적으로 장려하고 있습니다." # 3952195611270745282
+  law_decolonization_effect_tt: "모든 속국들이 독립하게 될 것입니다. 만약 당신이 공산주의 경로에 있다면, 그들은 당신의 세력권에 합류할 것입니다." # 12747968110505090848
+  law_registration_process: "자격 있는 이주" # 4525586952353727153
+  law_registration_process_desc: "해당 국가는 규제된 이민 제도를 운영하고 있으며, 이민자들은 성공적으로 등록을 마친 후에야 거주 및 노동 권리를 부여받습니다." # 16998013113137348095
+  lawgroup_lgbt_rights: "성애 - 건설 중" # 7526678190131312178
+  lawgroup_lgbt_rights_desc: "피드백과 제안을 환영합니다" # 865248364678977834
+  law_mass_surveillance: "대규모 감시" # 12727718332908111589
+  law_mass_surveillance_desc: "플레이스홀더" # 17017330231920493834
+  law_lgbt_rights_0: "법적 침묵" # 15188999095101315500
+  law_lgbt_rights_0_desc: "법은 침묵하지만, 기대는 그렇지 않습니다. 동성애적 욕망은 그림자 속에 존재하며, 일부는 순응하고, 일부는 숨어 지내며, 또 다른 이들은 은밀히 만납니다. 법원이 아닌 가족이나 성직자들이 대부분의 단속을 담당합니다.\n피드백과 제안을 받습니다." # 1486468086504549168
+  law_lgbt_rights_1: "범죄화된" # 3035292779419517790
+  law_lgbt_rights_1_desc: "해당 주는 동성 간의 관계를 불법으로 규정하고 이를\"소도미(Sodomy\"라 칭합니다. 급습, 재판, 협박으로 인해 공동체는 지하로 숨어들게 되며, 스캔들과 공포가 나머지 역할을 수행합니다." # 15661569995773125950
+  law_lgbt_rights_2: "비범죄화된" # 10377544750567916529
+  law_lgbt_rights_2_desc: "성인 간의 합의된 행위는 더 이상 기소되지 않으나, 어떠한 인정이나 안전장치도 없습니다. 검열, 불평등한 동의 연령,\"공중 도\" 규정은 사람들을 신중하게 만들며 여전히 폭력으로 이어질 수 있습니다." # 6409892655741203872
+  law_lgbt_rights_3: "법적 보호" # 8754538578342463198
+  law_lgbt_rights_3_desc: "해당 국가는 차별을 금지하고 기본적인 권리를 인정합니다. 공공연한 곳에서 공동체 생활이 나타나지만, 반발이 일어날 수 있으며 실질적인 진전은 추가적인 집행과 문화적 발전에 달려 있습니다." # 921402920416718274
+  law_international_trade: "국제 무역" # 10485771952160860639
+  law_international_trade_desc: "국가 간 무역을 규율하는 규정과 협약." # 1501831638244741901
+  institution_epa: "환경 보호" # 4392489182299377063
+  institution_food_safety: "식품 안전" # 2593063314019494871
+  country_institution_epa_max_investment_add: "[concept_institution] $institution_epa$에 대한 최대 투자액" # 7934670052940898488
+  country_institution_food_safety_max_investment_add: "[concept_institution] $institution_food_safety$에 대한 최대 투자액" # 9281291449801518507
+  ut_international_diplomatic_power_bloc_merge: "민주주의 블록 통합" # 16336371122433907238
+  ut_international_diplomatic_power_bloc_merge_desc: "민주주의 세력 연합을 통합하자는 제안입니다. 수락할 경우, 상대국의 지도자와 해당 세력 연합의 모든 구성원이 우리 세력 연합에 가입하게 됩니다. 이들은 귀하의 세력 연합 가입 수용도가 충분히 높을 경우에만 잔류할 것입니다." # 2070432373684887905
+  ut_international_diplomatic_power_bloc_merge_effects_desc: "• 모든 민주주의 세력권 구성원이 다른 세력권에 가입하는 협정. 민주주의적 새 여명(New Dawn)을 통해 해금됩니다." # 11093685658531815229
+  ut_international_diplomatic_power_bloc_merge_points_them: "[TreatyDraft.GetRightCountry.GetName]: 최소 #v [SCOPE.ScriptValue('new_dawn_ideology_spend_points')] #![concept_ut_nd_progress_points] 필요" # 4869376618268310591
+  ut_international_diplomatic_power_bloc_merge_name: "$ut_international_diplomatic_power_bloc_merge$" # 13182780326431643884
+  ut_international_diplomatic_power_bloc_merge_action_name: "민주주의 블록 통합" # 16336371122433907238
+  ut_international_diplomatic_power_bloc_merge_proposal_notification_name: "민주주의 진영 통합 제안" # 2557607638139015332
+  ut_international_diplomatic_power_bloc_merge_proposal_notification_desc: "민주주의 세력 연합을 통합하자는 제안이 접수되었습니다." # 8779585397444208927
+  ut_international_diplomatic_power_bloc_merge_proposal_accepted_name: "$ut_international_diplomatic_power_bloc_merge$ 수락됨" # 15028391487048065097
+  ut_international_diplomatic_power_bloc_merge_proposal_accepted_desc: "[TARGET_COUNTRY.GetName]이 우리의 $ut_international_diplomatic_power_bloc_merge$ 제안을 수락했습니다." # 13257970682844987456
+  ut_international_diplomatic_power_bloc_merge_proposal_declined_name: "$ut_international_diplomatic_power_bloc_merge$ 거절됨" # 10221655644387064078
+  ut_international_diplomatic_power_bloc_merge_proposal_declined_desc: "[TARGET_COUNTRY.GetName]가 우리의 $ut_international_diplomatic_power_bloc_merge$ 제안을 거부했습니다." # 9178048629235732385
+  je_ut_new_dawn_democrat_focus_them: "[TreatyDraft.GetRightCountry.GetName]: #v $je_ut_new_dawn_democrat_focus$#! 효과를 보유하고 있습니다." # 7921181958119419143
+  ut_influence_new_dawn_major_power: "새로운 여명 전파" # 4617169779498020867
+  ut_influence_new_dawn_major_power_desc: "대상 국가에서 최초의 [concept_ut_new_dawn]을 시작하여 그들로 하여금 귀하의 이념에 집중하도록 강제함으로써 주요 열강들 사이에서 귀하의 이념을 고취하십시오." # 5784796698897108840
+  ut_influence_new_dawn_major_power_action_name: "$ut_influence_new_dawn_major_power$" # 14428713341465367976
+  ut_influence_new_dawn_major_power_action_propose_name: "$ut_influence_new_dawn_major_power_action_name$ 시작" # 74903397447091964
+  ut_influence_new_dawn_major_power_proposal_notification_name: "$ut_influence_new_dawn_major_power$ 제안" # 7354393599909701680
+  ut_influence_new_dawn_major_power_proposal_notification_desc: "[TARGET_COUNTRY.GetName] 내 $ut_influence_new_dawn_major_power$에 대한 제안이 발송되었습니다." # 8100297193748180339
+  ut_influence_new_dawn_major_power_proposal_accepted_name: "$ut_influence_new_dawn_major_power$ 수락됨" # 14361866746121751968
+  ut_influence_new_dawn_major_power_proposal_accepted_desc: "[TARGET_COUNTRY.GetName]에서 우리의 $ut_influence_new_dawn_major_power$ 요청을 수락했습니다." # 6760141213543912091
+  ut_influence_new_dawn_major_power_proposal_declined_name: "$ut_influence_new_dawn_major_power$ 거절됨" # 8809557057421628397
+  ut_influence_new_dawn_major_power_proposal_declined_desc: "[TARGET_COUNTRY.GetName]는 우리의 $ut_influence_new_dawn_major_power$ 요청을 거부했습니다." # 7631412943621847224
+  ut_influence_new_dawn_major_power_unlock_tt: "해금: #v $ut_influence_new_dawn_major_power$#!" # 9352171051876431192
+  UT_BOTH_SAME_IDEOLOGY: "두 국가 모두 같은 이념을 가짐" # 10328761411781726760
+  UT_BOTH_SAME_IDEOLOGY_OF_TARGET: "양국은 동일한 이념을 공유해야 합니다." # 3371536299250652863
+  UT_BOTH_DIFFERENT_IDEOLOGY: "서로 다른 이념들" # 4438253896160491826
+  UT_BOTH_DIFFERENT_IDEOLOGY_OF_TARGET: "양국은 서로 다른 이념을 가져야 합니다." # 4854836929609196045
+  UT_BOTH_DEMOCRATIC: "[concept_ut_nd_democrat_core] 모두" # 5407442975908976367
+  UT_STANCE_FAVORABLE: "호의적인 [concept_ut_nd_stance]" # 8784916524832460742
+  UT_STANCE_NEUTRAL: "중립 [concept_ut_nd_stance]" # 16160182466498537214
+  UT_STANCE_OPPOSING: "반대하는 [concept_ut_nd_stance]" # 13419171904255460046
+  ut_has_truce_with_target: "[ROOT.GetCountry.GetName]와 휴전 중입니다" # 6709922026293766824
+  ut_has_no_truce_with_target: "[ROOT.GetCountry.GetName]와 휴전 중이지 않습니다" # 11904298510391179452
+  ut_humiliate_power_bloc_goal: "강대국 연합 지도자 굴욕시키기" # 9252240852190722453
+  ut_humiliate_power_bloc_goal_action_name: "강대국 연합 지도자 굴욕시키기" # 9252240852190722453
+  ut_humiliate_power_bloc_goal_action_notification_name: "강대국 연합 지도자 굴욕시키기" # 9252240852190722453
+  ut_humiliate_power_bloc_goal_action_notification_desc: "[INITIATOR_COUNTRY.GetName]가 [TARGET_COUNTRY.GetName]를 굴욕시키고 그들을 자국의 세력권으로 편입시켰습니다." # 8578806072410422830
+  ut_humiliate_power_bloc_goal_proposal_accepted_name: "굴욕을 수락함" # 7358204805177719344
+  ut_humiliate_power_bloc_goal_proposal_accepted_desc: "[TARGET_COUNTRY.GetName]이 굴욕을 받아들이고 귀하의 세력권에 합류할 것입니다." # 5797013655655903458
+  ut_humiliate_power_bloc_goal_proposal_declined_name: "굴욕 거부됨" # 2756810958206990953
+  ut_humiliate_power_bloc_goal_proposal_declined_desc: "[TARGET_COUNTRY.GetName]이 굴욕 요구를 거부했습니다." # 183889544846185027
+  ut_humiliate_power_bloc_goal_proposal_notification_name: "굴욕적인 강대국 연합 지도자 제안" # 10171247750972208098
+  ut_humiliate_power_bloc_goal_proposal_notification_desc: "[TARGET_COUNTRY.GetName]을 굴욕시켜 귀국의 세력권으로 편입시키자는 제안이 전달되었습니다." # 16366520131499443860
+  ut_humiliate_power_bloc_goal_desc: "강제로 [Concept('concept_humiliation', '굴욕당한')] 경쟁 세력 연합 지도자에게 귀국 연합에 강제로 가입하도록 압력을 가하십시오. 이로 인해 그들의 세력 연합은 해체될 것입니다. 또한 [Concept('concept_humiliation', '굴욕당한')] 세력은 그들의 [concept_ut_nd_path_to_utopia]를 포기할 가능성이 높습니다." # 16322330153475636335
+  ut_research_agreement: "연구 협약" # 8834782944199401293
+  ut_research_agreement_desc: "양국은 연구 및 기술을 공유하여 최대 [concept_innovation] 역량을 현저히 증대시키는 데 동의합니다." # 3032885453303645968
+  ut_research_agreement_article_short_desc: "[FIRST_COUNTRY.GetAdjectiveNoFormatting]이(가) [SECOND_COUNTRY.GetAdjectiveNoFormatting] 연구자들과 연구 협약을 맺습니다." # 5294025861380378892
+  ut_research_agreement_action_name: "$ut_research_agreement$" # 9953488841046394000
+  ut_research_agreement_action_propose_name: "$ut_research_agreement$ 제안하기" # 8619168805585846224
+  ut_research_agreement_action_propose_desc: "[TARGET_COUNTRY.GetName]와 $ut_research_agreement$를 제안합니다." # 5023178988921195603
+  ut_research_agreement_action_break_name: "[INITIATOR_COUNTRY.GetName]이 $ut_research_agreement$를 중단합니다." # 6350671528980125333
+  ut_research_agreement_action_break_desc: "[INITIATOR_COUNTRY.GetName]이 $ut_research_agreement$를 중단했습니다." # 785849066862069295
+  ut_research_agreement_proposal_notification_name: "$ut_research_agreement$ 제안" # 3283193003688793821
+  ut_research_agreement_proposal_notification_desc: "[TARGET_COUNTRY.GetName]와 $ut_research_agreement$를 체결하자는 제안이 발송되었습니다." # 7528802064851757389
+  ut_research_agreement_proposal_accepted_name: "$ut_research_agreement$ 수락됨" # 6110771974803602755
+  ut_research_agreement_proposal_accepted_desc: "[TARGET_COUNTRY.GetName]가 우리의 $ut_research_agreement$ 수립 제안을 수락했습니다." # 7087401762185982822
+  ut_research_agreement_proposal_declined_name: "$ut_research_agreement$ 거절됨" # 11920683892924790868
+  ut_research_agreement_proposal_declined_desc: "[TARGET_COUNTRY.GetName]가 $ut_research_agreement$ 설립 제안을 거부했습니다." # 13411292938241333141
+  has_treaty_ut_research_agreement_with_trigger: "[ROOT.GetCountry.GetName]와 $ut_research_agreement$를 맺고 있지 않습니다." # 11200533872965352337
+  ut_research_assistance_treaty: "연구 지원" # 5567333989517503420
+  ut_research_assistance_treaty_desc: "원조 국가는 지원 대상 국가에 연구 지원을 제공합니다. 지원 대상 국가는 연구 속도에 적절한 향상을 얻습니다. 원조 국가는 연구 역량을 소모하지만, 최대 [concept_innovation] 능력치 또한 증가시킵니다." # 2051388050971343837
+  ut_research_assistance_treaty_article_short_desc: "[SOURCE_COUNTRY.GetNameNoFormatting]이 [TARGET_COUNTRY.GetNameNoFormatting]의 연구를 지원합니다." # 2663803476523874464
+  ut_research_assistance_treaty_action_name: "$ut_research_assistance_treaty$" # 7496666665870737971
+  ut_research_assistance_treaty_action_propose_name: "$ut_research_assistance_treaty$를 제안합니다" # 5678168193122803621
+  ut_research_assistance_treaty_action_propose_desc: "[TARGET_COUNTRY.GetName]과 $ut_research_assistance_treaty$를 제안합니다." # 13171494979452966372
+  ut_research_assistance_treaty_action_break_name: "[INITIATOR_COUNTRY.GetName]이 $ut_research_assistance_treaty$를 중단합니다." # 13331196194539867248
+  ut_research_assistance_treaty_action_break_desc: "[INITIATOR_COUNTRY.GetName]이(가) $ut_research_assistance_treaty$를 중단했습니다." # 13182037611203982635
+  ut_research_assistance_treaty_proposal_notification_name: "$ut_research_assistance_treaty$ 제안" # 5461839787412708172
+  ut_research_assistance_treaty_proposal_notification_desc: "[TARGET_COUNTRY.GetName]과의 $ut_research_assistance_treaty$ 체결 제안이 발송되었습니다." # 1214389506039356297
+  ut_research_assistance_treaty_proposal_accepted_name: "$ut_research_assistance_treaty$ 수락됨" # 12206571527437691372
+  ut_research_assistance_treaty_proposal_accepted_desc: "[TARGET_COUNTRY.GetName]가 우리의 $ut_research_assistance_treaty$ 수립 제안을 수락했습니다." # 18197288439887142152
+  ut_research_assistance_treaty_proposal_declined_name: "$ut_research_assistance_treaty$ 거절됨" # 17818801958508694256
+  ut_research_assistance_treaty_proposal_declined_desc: "[TARGET_COUNTRY.GetName]가 $ut_research_agreement$ 설립 제안을 거부했습니다." # 13411292938241333141
+  ut_democracy_article: "민주주의를 전파하라" # 16271868165263483957
+  ut_democracy_article_desc: "대상 국가에 [GetLawType('law_universal_suffrage').GetName] 개혁을 강제 시행합니다." # 1479803296947686115
+  ut_democracy_article_article_short_desc: "[TARGET_COUNTRY.GetNameNoFormatting]에 민주주의를 확산시킵니다" # 7852460893551088876
+  ut_communism_article: "공산주의를 전파하라" # 2205439388198074517
+  ut_communism_article_desc: "대상 국가에 [GetLawType('law_council_republic').GetName] 개혁을 강제합니다." # 9831617978802137605
+  ut_communism_article_article_short_desc: "[TARGET_COUNTRY.GetNameNoFormatting]에 공산주의를 전파합니다" # 16530968284096500837
+  ut_fund_ideology: "자금 이념" # 13031995961263523288
+  ut_fund_ideology_action_name: "$ut_fund_ideology$" # 18336230949779300406
+  ut_fund_ideology_action_propose_name: "$ut_fund_ideology_action_name$ 시작" # 9451226981584973384
+  ut_fund_ideology_action_break_name: "$ut_fund_ideology_action_name$ 중단" # 12011161909475645379
+  ut_fund_ideology_action_notification_break_name: "$ut_fund_ideology$ 중단됨" # 10421007694886678325
+  ut_fund_ideology_action_notification_break_desc: "[INITIATOR_COUNTRY.GetName]이(가) [TARGET_COUNTRY.GetName]에서 $ut_fund_ideology$ 지원을 중단했습니다." # 14720437816794523592
+  ut_fund_ideology_proposal_notification_name: "$ut_fund_ideology$ 제안" # 2264429466893349630
+  ut_fund_ideology_proposal_notification_desc: "[TARGET_COUNTRY.GetName]에 $ut_fund_ideology$를 지원하자는 제안이 전달되었습니다." # 5523552314418579803
+  ut_fund_ideology_proposal_accepted_name: "$ut_fund_ideology$ 수용됨" # 4772745549016031892
+  ut_fund_ideology_proposal_accepted_desc: "[TARGET_COUNTRY.GetName]가 우리의 $ut_fund_ideology$ 제안을 수락했습니다." # 14829307687633817854
+  ut_fund_ideology_proposal_declined_name: "$ut_fund_ideology$ 거절됨" # 8550334818612180084
+  ut_fund_ideology_proposal_declined_desc: "[TARGET_COUNTRY.GetName]이 우리의 $ut_fund_ideology$ 제안을 거부했습니다." # 14336390563625918306
+  ut_fund_ideology_pact_desc: "[SCOPE.GetRootScope.GetDiplomaticPact.GetFirstCountry.GetName]은 [SCOPE.GetRootScope.GetDiplomaticPact.GetSecondCountry.GetName] 내에 연합된 정치 단체에 자금을 지원하여, [SCOPE.GetRootScope.GetDiplomaticPact.GetFirstCountry.GetAdjectiveNoFormatting]의 이념에 따른 [SCOPE.GetRootScope.GetDiplomaticPact.GetSecondCountry.GetAdjectiveNoFormatting] 이념적 진보를 증대시킵니다.\n\n$ut_fund_ideology_effect$" # 1231577785326538265
+  ut_fund_ideology_desc: "대상 국가에서 지배 이념이 없는 정치 단체에 자금을 지원하여 그들의 이념적 진전을 증진시키십시오.\n\n$ut_fund_ideology_effect$" # 5562456374893512527
+  ut_fund_ideology_effect: "대상 국가가 자국 핵심 이념에 대해 원산지 국가로부터 #g 0.25#! [concept_ut_nd_progress_points]를 획득합니다." # 11859421331706520189
+  ut_has_new_dawn_progress_100: "#b 100#! [concept_ut_nd_progress_points]를 획득했습니다." # 12950677664963900484
+  ut_has_new_dawn_progress_75: "#b 75#! [concept_ut_nd_progress_points]가 있습니까" # 15134387598442850153
+  ut_has_new_dawn_progress_50: "#b 50#! [concept_ut_nd_progress_points]가 있습니까" # 11219397114242334635
+  ut_add_new_dawn_progress_50: "#b 50#! [concept_ut_nd_progress_points] 획득" # 7360645687627183077
+  ut_add_new_dawn_progress_neg_50: "#r 50#! [concept_ut_nd_progress_points]을(를) 상실합니다." # 18042012408106312534
+  ut_add_new_dawn_progress_neg_25: "#r 25#! [concept_ut_nd_progress_points] 상실" # 8991534038710673743
+  ut_force_become_subject: "집단화 평의회 공화국" # 2135505130795257279
+  ut_force_become_subject_desc: "대상 강대국 연합 구성원이 당신의 종속국이 되어 의회 공화국에 가입하도록 강제합니다. 그들은 반드시 [GetLawType('law_council_republic').GetName]이거나 [concept_ut_nd_communist_core]여야 합니다." # 14481462405800733704
+  ut_force_regime_change: "파시스트 정권 수립" # 13652985170871453420
+  ut_force_regime_change_desc: "목표 강대국 연합국의 일원을 귀하의 이념으로 강제 정권 교체합니다. 해당 국가는 귀하의 종속국이거나 소국이어야 합니다. 그들은 [GetLawType('law_corporate_state').GetName], [GetLawType('law_extraction_economy').GetName], 그리고 [GetLawType('ut_law_subjecthood_fascist').GetName]을 제정할 것입니다. [concept_protectorate]를 [concept_puppet]으로 전환합니다." # 8674693081533319660
+  ut_fund_opposition: "자금 지원 반대" # 14806211633244151399
+  ut_fund_opposition_action_name: "$ut_fund_opposition$" # 4263164571915493519
+  ut_fund_opposition_action_propose_name: "$ut_fund_opposition_action_name$ 시작" # 8391378925351040480
+  ut_fund_opposition_action_break_name: "$ut_fund_opposition_action_name$을 중단하십시오" # 2041561835632046803
+  ut_fund_opposition_desc: "대상 국가에서 집권 이념을 전복시키기 위해 야당에 자금을 지원합니다.\n\n$ut_fund_opposition_effect$" # 3041527763993730912
+  ut_fund_opposition_effect: "매달 #r 25#! 의 [concept_ut_nd_progress_points]를 핵심 이념에서 잃을 확률 2% (그들의 신천년 [concept_ut_nd_path_to_utopia] 일지 항목을 중단시킬 수 있음. 민주주의 국가는 전제주의 국가에 대해 50% 더 효과적이며, 온라인 포럼이 연구되었을 경우 추가로 25% 더 효과적이고, 소셜 미디어가 연구된 경우 효과가 증대됨)." # 7237336667427883478
+  ut_fund_opposition_pact_desc: "[SCOPE.GetRootScope.GetDiplomaticPact.GetFirstCountry.GetName]이(가) [SCOPE.GetRootScope.GetDiplomaticPact.GetSecondCountry.GetName] 내 반대파 단체에 자금을 지원하고 있습니다. 이는 [SCOPE.GetRootScope.GetDiplomaticPact.GetSecondCountry.GetAdjectiveNoFormatting] 반대파 단체의 이념 [concept_ut_nd_progress_points] 감소로 이어져 반란을 유발할 수 있습니다.\n\n$ut_fund_opposition_effect$" # 10373961363033418424
+  principle_group_modern_trade_league: "현대 무역 연맹" # 14506163169091253187
+  principle_group_modern_sovereign_empire: "근대 주권 국가" # 13861772820456972351
+  principle_group_modern_military_treaty_organization: "현대 군사 조약 기구" # 17254517057502988950
+  principle_group_modern_ideological_union: "현대 이념 연합" # 11257906651045141947
+  ut_principle_group_advanced_research: "연구 계획" # 17251031976752006829
+  principle_common_financial_policy_1: "일반 재정 정책" # 6672012603412992877
+  principle_common_financial_policy_2: "일반 재정 정책 2" # 5716326065806340310
+  principle_common_financial_policy_3: "일반 재정 정책 3" # 7718115596223647651
+  principle_commissariat_1: "코미사리아트 1" # 13317028127080584822
+  principle_commissariat_2: "집행위원회 2" # 6013253718505144714
+  principle_commissariat_3: "국무위원 3호" # 3274371967816300943
+  ut_principle_military_cooperation_1: "군사 조직 1" # 13912877262221687284
+  ut_principle_military_cooperation_2: "군사 조직 2" # 6849508799675182913
+  ut_principle_military_cooperation_3: "군사 조직 3" # 16177208675687133144
+  ut_modern_ideological_union_1: "이념 1" # 8483986776986647597
+  ut_modern_ideological_union_2: "이념 2" # 15817590249024397657
+  ut_modern_ideological_union_3: "이념 3" # 10673623713740788619
+  ut_principle_advanced_research_4: "연구 계획 1" # 3251693889838724170
+  ut_principle_advanced_research_5: "연구 계획 2" # 2775408223045950640
+  ut_principle_advanced_research_6: "연구 계획 3" # 16406759325888406726
+  ut_principle_group_freedom_of_transport_infrastructure: "운동 연합" # 8079478815620242305
+  ut_principle_freedom_of_movement_4: "운동 연합 1" # 13790412293818424230
+  ut_principle_freedom_of_movement_5: "운동 연합 2" # 16441481580616751442
+  ut_principle_freedom_of_movement_6: "운동 연합 3" # 4036985130130716477
+  ut_principle_group_war_industry: "전쟁 산업" # 2233724301470380793
+  ut_principle_war_industry_4: "전시 산업 1" # 12355905816499039791
+  ut_principle_war_industry_5: "전쟁 산업 2" # 14917419174659678818
+  ut_principle_war_industry_6: "전쟁 산업 3" # 18138100428173064713
+  ut_principle_group_food_standardization_upgrade: "높은 식량 표준화" # 16382308859907742625
+  ut_principle_food_standardization_4: "높은 식량 기준 1" # 14556505415940456340
+  ut_principle_food_standardization_5: "높은 식량 기준 2" # 11170418465870842815
+  ut_principle_food_standardization_6: "높은 식량 기준 3" # 12254682812325377251
+  ut_principle_group_security_bloc: "안보 동맹" # 15472033618600313751
+  ut_principle_security_bloc_4: "보안 블록 1" # 17044028634191398323
+  ut_principle_security_bloc_5: "보안 블록 2" # 159765769285029100
+  ut_principle_security_bloc_6: "보안 블록 3" # 17786740372645394563
+  ut_mobilization_option_cas_jet_planes: "근접 항공 지원" # 11561220155863772577
+  ut_mobilization_option_cas_jet_planes_desc: "제트 동력 근접 항공 지원기" # 13926637343570097269
+  ut_mobilization_option_evac_hospitals: "사상자 후송" # 11306304657886593
+  ut_mobilization_option_evac_hospitals_desc: "전투 지역으로부터 부상자들의 긴급 환자 후송." # 9833254764689154502
+  machinery_farming: "농장 트랙터" # 11271966615743762470
+  machinery_farming_desc: "트랙터와 수확기가 소와 낫을 대체합니다. 이 강철 짐승들은 전례 없는 속도로 들판을 갈고, 씨앗을 뿌리고, 작물을 거두어 기계화된 농업의 시대를 열고 있습니다." # 15275548974821516510
+  heavy_machinery_farming: "중장비 트랙터" # 5593093489631989721
+  heavy_machinery_farming_desc: "300마력 엔진을 장착한 강철 거인들이 기록적인 속도로 밭을 갈고 있습니다. 이 디젤 거인들은 소 수레를 대체하고 산업화된 단일 경작을 가능하게 하는 동시에, 그들의 풍선 타이어는 미래의 더스트 볼(Dust Bowl)을 위해 토양을 다져놓습니다." # 3176550917889551524
+  airplane_farming: "농업용 항공기" # 18255650884435723150
+  airplane_farming_desc: "농촌 비행기들이 논 위에 비료 구름을 뿌립니다. 프로펠러 비행기들은 공중에서 메뚜기 떼와 맞서 싸우니, 이는 정밀함과 환경적 부수적 피해 사이의 독성 발레와도 같습니다." # 1335505053453350127
+  drone_farming: "농업용 드론" # 8069065849104904892
+  drone_farming_desc: "쿼드콥터는 다중 스펙트럼 카메라를 이용하여 토양 영양분을 지도화합니다. 소규모 무리는 꽃에 수분하거나 미세 제초제 침으로 잡초를 지져버리며, 빅데이터는 수확량을 예측합니다." # 9363866368630624007
+  chemistry: "질산염 인산염 공정" # 17538497386143631085
+  chemistry_desc: "분젠 버너와 증류관은 합성 혁명을 낳습니다. 하버의 질소 고정부터 거북이를 질식시키는 플라스틱에 이르기까지—분자 연금술은 진보와 종말을 동시에 빚어냅니다." # 8510412689099544599
+  hybrid_crops: "혼종 작물" # 13351022320712946977
+  hybrid_crops_desc: "멘델의 후계자들이 옥수수 품종을 교배하여 두 배의 알갱이 밀도를 얻었습니다. 이 특허받은 슈퍼 작물들은 합성 비료를 갈망하며 농부들을 종자 순환에 묶어두지만, 수백만 명에게 식량을 공급합니다." # 4410862815704971140
+  high_yield_crops: "고수확 작물" # 11996592171640515625
+  high_yield_crops_desc: "터보차지 광합성을 하는 드워프 밀은 수경재배에서만 생존합니다. 녹색 혁명은 칼로리 기록을 위해 생물 다양성을 희생시키며 문명에 영양을 공급하는 동시에 생태계를 고갈시키고 있습니다." # 16886537824219238543
+  biotechnology: "생명공학" # 16313195163163331025
+  biotechnology_desc: "CRISPR 가위는 DNA를 색종이 조각처럼 잘라냅니다. 유전자 기술 박테리아는 인슐린을 분비하고, 터미네이터 유전자는 종자 재고를 불임으로 만듭니다—생물학은 프로그래밍 가능한 공장 실험실이 됩니다." # 677007268220513754
+  bauxite_mining: "바이어 공정" # 9629690637992668188
+  bauxite_mining_desc: "보크사이트 정제소는 붉은 점토에서 산화알루미늄을 생산합니다. 이 부식성 공정은 강과 숲을 소모시키지만, 이 가벼운 금속은 탄산음료 캔부터 고층 빌딩에 이르기까지 모든 것에 동력을 공급합니다." # 6850762031899265319
+  aluminum_base: "홀-에루-공정" # 1298293425605509107
+  aluminum_base_desc: "홀-에루 공정로는 맹렬한 전기분해를 위해 메가와트를 집어삼킵니다. 이 경량 금속은 비행선처럼 황제들의 머리 위에 왕관을 씌우지만, 그 엄청난 에너지 갈증은 온 지역을 암울하게 만듭니다." # 14618304484306061189
+  heavy_machinery_era_analog: "유압 기계" # 7714194831262245967
+  heavy_machinery_era_analog_desc: "증기 동력 유압 프레스가 강철을 고층 건물 형태로 벼려냅니다. 이 거대한 기계들은 암석을 부수고 금속을 성형하지만, 그 피스톤에서는 기름이 새고 보일러는 '쉭' 소리를 내며 폭발합니다." # 11873186044344315978
+  heavy_machinery_era_analog_two: "복잡한 조립 라인" # 13761263031240340238
+  heavy_machinery_era_analog_two_desc: "증기 동력식 압착기가 도로를 포장하고, 천장의 동력축이 공장을 채웁니다. 기름과 지렛대의 시대—잔혹할 정도로 효과적이지만, 언제나 고장 직전에 놓여있습니다." # 18092652919208926044
+  heavy_machinery_era_digital: "CNC 공작기계" # 2225149181531569508
+  heavy_machinery_era_digital_desc: "서보 모터는 CAD 파일로부터 마이크로미터 정밀도로 밀링 작업을 수행합니다. 디지털 정밀도는 동일한 공장에서 로켓 노즐과 아이폰 외장재를 모두 탄생시킵니다." # 15635805546838511093
+  heavy_machinery_era_web: "산업용 로봇" # 11110638893852144681
+  heavy_machinery_era_web_desc: "쿠카(KUKA) 로봇이 수 밀리초 만에 자동차 차체를 용접합니다. 네트워크로 연결된 조립 라인은 스스로를 최적화하지만, 사이버 공격이 이 금속 발레를 멈추게 합니다." # 6432763966395015502
+  heavy_machinery_industry: "특수 기계류" # 1536826966745736948
+  heavy_machinery_industry_desc: "터널 굴착기는 화강암을 뚫고, 800톤짜리 크레인은 마천루를 들어 올립니다. 문명의 모든 틈새를 위한 맞춤형 티타늄 거인들이 등장합니다." # 15235108573608410196
+  civilian_planes: "민간 항공기" # 2497245716190197653
+  civilian_planes_desc: "더글러스 DC-3기는 대륙들을 손이 닿는 곳으로 가져왔습니다. 비행에 대한 두려움은 일등석의 샴페인으로 바뀌었고, 대류권은 제트족 시대의 고속도로가 되었습니다." # 13642965668720700763
+  civilian_drones: "민간 무인기" # 14843783747776905055
+  civilian_drones_desc: "쿼드콥터는 피자를 배달하고 이웃을 염탐합니다. 취미 조종사들은 유튜브 파노라마 영상을 제작하는 동안 정부는 감시망을 시험하며—하늘은 민주화된 전쟁터가 됩니다." # 12936145087510969055
+  rare_earths_mining_era_analog: "희토류" # 9041622213556414193
+  rare_earths_mining_era_analog_desc: "모나자이트 모래는 워크맨용 자석을 위해 광부들에게 방사선을 쬐게 합니다. 이 이국적인 금속들은 보잘것없으면서도 대체 불가능하여, 광산 마을들을 유령 마을로 만듭니다." # 15833231397470920697
+  rare_earths_mining_era_digital: "용매 추출" # 4108872921874911394
+  rare_earths_mining_era_digital_desc: "산성 용액은 전자 폐기물에서 란타넘족 원소를 침출시킵니다. 도시 광산은 파괴적인 노천 채굴을 대체하지만, 여전히 유독성 유출수가 지하수로 스며듭니다." # 1427796214488800645
+  rare_earths_mining_era_connected: "고급 용매 추출" # 13185190958511910765
+  rare_earths_mining_era_connected_desc: "이온성 액체와 초임계 이산화탄소가 산성 용액을 대체합니다. 녹색 화학은 더 깨끗한 추출을 약속하지만, 에너지 수지가 맞아야 합니다." # 15429902996474560825
+  nuclear_power_research: "핵 연구" # 10019683908587750680
+  nuclear_power: "원자력" # 2392928761989952497
+  electronics: "전자공학" # 8906035645440450140
+  electronics_desc: "진공관이 라디오에서 지지직거립니다. 게르마늄 트랜지스터부터 양자 칩에 이르기까지—전자를 제어하는 것이 모든 기술 혁명의 원동력입니다." # 9692518090094502286
+  computers: "컴퓨터" # 6464724871802620488
+  computers_desc: "ENIAC의 복잡하게 얽힌 진공관들이 포병 계산표를 산출합니다. 천공 카드는 깜박이는 단말기로 자리를 내어주고 있지만—그럼에도 불구하고 사고하는 기계에 대한 꿈은 당분간 공상 과학으로 남아있습니다." # 3763407110863000813
+  high_tech_computers: "첨단 기술 컴퓨터" # 9532246278014192587
+  high_tech_computers_desc: "트랜지스터는 미세 칩으로 축소됩니다. 실리콘 웨이퍼가 클린룸에서 회전하는 동안, 무어의 법칙은 끊임없이 더 작아지는 패키지 안에 더 많은 동력을 예측합니다." # 3663111496087580447
+  software: "소프트웨어" # 9057406967736462854
+  software_desc: "포트란 코드가 홀러리스 카드를 가로지르며 질주합니다. 운영 체제는 문명의 윤활유가 되어, 토스터기마저 지배하는 눈에 보이지 않는 설계자가 됩니다." # 17136303918162831365
+  computers_steel_production: "통제 부대" # 10389083750142227192
+  computers_steel_production_desc: "압연 공장은 디지털 청사진으로 강철 슬래브를 성형합니다. 알고리즘은 교량과 면도기를 위해 합금을 최적화하며, 이는 첨단 기술과 중공업의 만남입니다." # 3484697382805427022
+  electronics_motors_production: "전자 제어 장치" # 16663412486487199512
+  electronics_motors_production_desc: "마이크로컨트롤러는 전기 모터를 정밀하게 제어합니다. 펄스 폭 변조(PWM) 신호의 마법은 잠수함 추진기를 조용하게 만들고 에스프레소 기계를 미세 조정합니다." # 9380876147440825062
+  heavy_machinery_mining_production: "버킷 휠 굴착기" # 13641922753584968167
+  heavy_machinery_mining_production_desc: "240미터 높이의 강철 괴물들이 갈탄층을 집어삼킵니다. 그들의 회전식 버킷은 매일 산을 움직이며, 기계적인 거물들이 풍경을 달 표면의 분화구로 바꾸어 놓습니다." # 10877944786562382448
+  internet: "인터넷" # 18294203111589887707
+  internet_desc: "아르파넷 패킷이 구리선을 통해 웅웅거립니다. 군사 암호에서 전 세계적인 모닥불로 변모하여, 고양이 영상과 혁명 모두에 불을 지피고 있습니다." # 16237598408248067399
+  generative_ai: "플레이스홀더" # 17017330231920493834
+  generative_ai_desc: "어쩌면 거대 언어 모델" # 7363562815612485268
+  software_motors_production: "디지털 제어 장치" # 10459334165547601942
+  software_motors_production_desc: "PID 제어기는 부하 변동을 실시간으로 완화합니다. 펌웨어 업데이트는 코드 서명이 유효할 경우 낡은 동력기에 새로운 활력을 불어넣습니다." # 2499184844938409094
+  trucks_era_analog: "평판 트럭" # 6976253151889191439
+  trucks_era_analog_desc: "시멘트 포대 아래에서 목재 발판이 삐걱거립니다. 디젤 매연과 기어 소음은 모든 트럭 운전수가 여전히 도로의 왕이었던 시대를 알립니다." # 3543812601533734278
+  trucks_era_web: "자율 주행 트럭" # 16888376640416113113
+  trucks_era_web_desc: "알고리즘이 호송 중인 40톤 트럭을 조종하며, 잠들지 않는 로봇 경주자들이 밀리초 단위로 정밀하게 차고 마감 시간을 맞춥니다." # 1184501939887782689
+  trucks_era_digital: "세미 트럭" # 4852496769959085176
+  trucks_era_digital_desc: "과급 엔진이 거대한 트레일러를 견인합니다. 원격 측정 기술이 경유 가격에 맞서 경로를 최적화하며, 물류는 수학적 전쟁 게임이 됩니다." # 16015437133450597026
+  consumer_goods_main_analog: "유사 소비재" # 15653271950940198167
+  consumer_goods_main_analog_desc: "손으로 돌리는 면도기와 베이클라이트 전화기. 버리기보다는 수리가 미덕이었던 세상—잦은 합선과 녹슨 칼날로 가득했던 시절." # 13697485150384296154
+  consumer_goods_main_house_hold_electrical: "전기 가정용 기기" # 7161385351301992371
+  consumer_goods_main_house_hold_electrical_desc: "냉장고는 식중독에 맞서 윙윙거리고, 진공청소기는 양탄자에서 석탄 먼지를 빨아들입니다. 전기로 작동되는 가정은 시간과 의존성 모두를 만들어냅니다." # 14716899648662097856
+  consumer_goods_main_plastic_revolution: "플라스틱 혁명" # 822905750017981031
+  consumer_goods_main_plastic_revolution_desc: "베이클라이트 단추와 나일론 스타킹이 세계를 정복합니다. 저렴하면서도 파괴할 수 없는 재료—미세 플라스틱이 먹이사슬을 침범하기 전까지는 말입니다." # 3633349077206226457
+  consumer_goods_main_entertainment_electrical: "전자 오락" # 4628623643915714514
+  consumer_goods_main_entertainment_electrical_desc: "진공관 텔레비전이 거실에서 깜박입니다. 워크맨이 믹스테이프를 되감고 있습니다—디지털화되어 비트로 녹아 사라지기 전까지 아날로그 매체가 대중문화를 형성합니다." # 3440941502975876335
+  consumer_goods_main_digital_products: "디지털 상품" # 13979248054531079518
+  consumer_goods_main_digital_products_desc: "MP3는 축음기 음반을 대체하고, 전자책은 도서관을 몰아냅니다. 무형의 소비가 선반 대신 구름을 채우고—보이지 않는 데이터 낭비를 남깁니다." # 12974047788500719964
+  consumer_goods_main_web_products: "웹 상품" # 2206369846787926615
+  consumer_goods_main_web_products_desc: "NFT는 예술품을 토큰화하고, 스트리밍은 CD 꽂이를 대체합니다. 소유권은 로그인으로 축소되었으니—이는 구독의 덫으로 가득 찬, 재산보다 접근의 시대입니다." # 9874548334092364829
+  plastics_nylon: "나일론" # 16240870255290357871
+  plastics_nylon_desc: "낙하산 섬유는 한때 병사들을 구했지만, 이후 여성의 다리를 감쌌습니다. 최초의 완전 합성 고분자는 전쟁과 여성 해방의 상징이 되었습니다." # 2494014408710713383
+  plastics_polyester: "폴리에스터" # 14442204369105209728
+  plastics_polyester_desc: "페트병이 유리병을 대체하고, 플리스 재킷이 산악인들을 따뜻하게 감싸줍니다. 이는 패션을 대중화시킨—동시에 바다를 미세 섬유로 범람시킨—소재입니다." # 3346172830512285132
+  plastics_polypropylene: "폴리프로필렌" # 9816317765052214216
+  plastics_polypropylene_desc: "..." # 184889789328169143
+  oil_synthetic_one: "바이오 에탄올" # 2773985757137478323
+  oil_synthetic_one_desc: "옥수수 속대는 주유소 연료로 발효됩니다. 녹색 휘발유는 석유 의존도를 낮추지만, 단일 경작은 바이오 연료와 식량 작물을 대립시킵니다." # 4016482395453011570
+  oil_synthetic_two: "바이오 디젤" # 14667096770380799658
+  oil_synthetic_two_desc: "조류 배양액은 황이 없는 연료를 생산합니다. 순환 경제는 이산화탄소 중립적인 트럭 운송대를 꿈꾸지만, 에너지 수지가 맞아야 합니다." # 1984093015917751056
+  industry_harbor: "산업 항구" # 9512342836710307679
+  industry_harbor_desc: "산업 항구..." # 17187860759382666656
+  heavy_industry_harbor: "산업 항구" # 9512342836710307679
+  heavy_industry_harbor_desc: "거대한 크레인이 화물 열차에서 직접 강철과 석탄을 바지선에 실어 나릅니다. 이 항구의 거인들은 연기 뿜는 굴뚝과 녹슨 선적 교량을 자랑하며 중공업의 심장이 되어, 시간당 원자재 철을 실은 화물선이 전 세계 생산을 위해 출항하게 만듭니다." # 12084379308372470433
+  ultra_heavy_industry_harbor: "컨테이너 항구" # 17163703803518471145
+  ultra_heavy_industry_harbor_desc: "마천루처럼 길쭉한 컨테이너선들이 자동화된 부두에 정박합니다. 표준화된 강철 상자들이 선박, 열차, 트럭 사이를 로봇처럼 오가며, 이는 전 세계 무역을 20피트 단위로 압축하는 물류의 향연입니다." # 12747020326455506518
+  ut_global_positioning_system: "범지구 위치 확인 시스템" # 3125186427832607271
+  ut_global_positioning_system_desc: "인공위성 군집이 지구로 위치 데이터를 전송합니다. GPS는 스마트폰부터 미사일에 이르기까지 모든 것을 안내하며, 지구를 디지털 지도로 탈바꿈시킵니다." # 9057605965157096801
+  ut_intermodal_container: "복합 운송 컨테이너" # 2400698131958436433
+  ut_intermodal_container_desc: "표준화된 강철 상자는 세계 무역에 혁명을 일으켰습니다. 선박에서 기차로, 다시 트럭으로—이 20피트 컨테이너들은 물류를 간소화하고 세계를 좁힙니다." # 14658815613461682963
+  light_ships_rockets_base: "수중청음기" # 2003893623680673958
+  light_ships_rockets_base_desc: "수중 마이크는 적 잠수함의 프로펠러 소음을 탐지합니다. 이 수중 음향 감시병들은 가장 미세한 진동까지도 감지하여 깊은 바다를 감시되는 미궁으로 만듭니다." # 2511058475184158242
+  light_ships_rockets_machinery: "화력 통제 체계" # 11315690681090857346
+  light_ships_rockets_machinery_desc: "능동 음파 펄스가 박쥐의 울음소리처럼 해저를 훑습니다. 현대적인 소나 처리 장치는 난파선과 잠수함을 구별하고 폭뢰의 실시간 충돌 경로를 계산합니다." # 3760718592469326761
+  heavy_ships_rockets_base: "지뢰 찾기" # 12968196601012643977
+  heavy_ships_rockets_base_desc: "기계식 아날로그 컴퓨터는 거리 측정기와 포탑을 연결합니다. 이 불을 뿜는 사이버네틱 시스템은 파도와 바람의 편차에 대한 탄도 수정을 계산하며, 이는 디지털 전장의 선구자라 할 수 있습니다." # 9978055942527899248
+  heavy_ships_rockets_software: "전자전 대응책" # 6334565004592494429
+  heavy_ships_rockets_software_desc: "재머들은 합성 반향 구름으로 적의 레이더를 혼란시키고, 전자전은 유령 함대를 창출하며, 암호 모듈들은 적의 무선 감청을 좌절시킵니다." # 933523239190552735
+  support_ships_rockets_base: "통합 레이더 체계" # 2550384045621399570
+  support_ships_rockets_base_desc: "회전하는 안테나는 하늘의 전자기적 그림을 구축합니다. 연결된 레이더 기지들은 200km 밖에서 항공기 편대를 삼각 측량하여 요격기들을 폭격기 무리에 대한 양치기 개처럼 인도합니다." # 16294104937324399279
+  support_ships_mine_sweeper: "소나 시스템" # 5010473867440395696
+  ut_anti_tank: "대전차 무기" # 4051529741556408197
+  ut_anti_tank_desc: "대물 저격총은 텅스텐 탄자를 발사하여 강철을 버터처럼 뚫어버립니다. 보병들은 두꺼운 전면 장갑이 무용지물이 되는 시가전에서 매복하는 법을 배웁니다." # 4954573106472625133
+  ut_anti_tank_guided: "자주포" # 1981983111403264537
+  ut_anti_tank_guided_desc: "유선 유도 미사일은 조준경의 시선선을 따라 비행합니다. 이 '스마트' 탄환들은 전차병들에게 언덕 뒤에 숨는 것이 생사가 걸린 문제가 되게 만듭니다." # 952405991182326887
+  ut_anti_tank_guided_two: "고급 유도 체계" # 15895810024021192556
+  ut_anti_tank_guided_two_desc: "차세대 유도 미사일은 진보된 표적 탐지 알고리즘을 사용합니다. 이 체계들은 움직이는 표적을 정확무오하게 요격할 수 있어 장갑 부대에게는 악몽과도 같습니다." # 11155808070655565830
+  task_forces: "특수 부대" # 4256486443353344391
+  task_forces_desc: "정예 부대는 야간 전투 및 인질 구출 훈련을 받습니다. 소음기가 장착된 무기와 야간 투시경을 갖추고, 그림자처럼 움직이며—신속하고, 치명적이며, 공식 기록에는 남지 않습니다." # 7757221565774019825
+  casualty_evacuations: "사상자 후송" # 8108979929118320729
+  casualty_evacuations_desc: "헬리콥터들이 전장에서 부상당한 병사들을 공중 수송합니다. 이 비행 구급차들은 후송 시간을 단축하고 생존율을 높여 의료병들을 최전선의 영웅으로 만듭니다." # 3408148220357807010
+  ut_tank_diesel_engine: "디젤 엔진" # 14434233865055179637
+  ut_tank_diesel_engine_desc: "다연료 엔진은 디젤부터 등유까지 무엇이든 연소시킬 수 있습니다. 신뢰성 있는 동력원은 물류를 붕괴 직전까지 몰아붙이는 작전 반경을 가능하게 합니다." # 13656838947971151072
+  ut_tank_radio: "라디오 통신망" # 8507469683537238135
+  ut_tank_radio_desc: "라디오는 전차 편대를 강철 덩어리로 동기화합니다. 지휘관들은 전파가 혼선으로 넘쳐나는 가운데 모스 부호로 포위망을 조율합니다." # 4134560427656379782
+  ut_tank_composite_armor: "복합 장갑" # 9036484326650570699
+  ut_tank_composite_armor_desc: "세라믹 판과 우라늄 층을 샌드위치처럼 용접했습니다. 이 층상 구조 기술은 성형 작약을 산산조각 내지만, 적진 후방에서의 수리는 악몽이 될 것입니다." # 973286792256775876
+  ut_tank_modern: "주력 전차" # 12857957144490513869
+  ut_tank_modern_desc: "120mm 활강포는 기동 중에도 정확하게 사격합니다. 안정화된 광학 장비, 핵·생물학·화학(NBC) 방호 능력, 그리고 다연료 필터는 이 전차들을 현대전의 움직이는 요새로 만듭니다." # 9565074160886823976
+  ut_tank_jet_engine: "가스 터빈" # 2894075648558738279
+  ut_tank_jet_engine_desc: "제트 엔진은 60톤의 거대 병기에 경주용 자동차의 속도를 선사합니다. 그러나 이들의 엄청난 등유 소모량은 전개에 제약을 가하며, 일부 지휘관들은 추가 연료 탱크를 확보하기 위해 장갑을 포기하고 있습니다." # 12716916201373333234
+  ut_tank_autoloader: "자동 장전기" # 13751622123884223776
+  ut_tank_autoloader_desc: "로봇 팔이 인간의 도움 없이 포탄을 장전합니다. 자동화로 승무원 수는 줄어들지만, 피격 시 탄약실은 시한폭탄으로 변모합니다." # 5069198212290629008
+  ut_tank_future: "미래형 전투 전차" # 3595340053375945408
+  ut_tank_future_desc: "능동 방어 체계가 미세 폭발로 수류탄을 요격합니다. 네트워크화된 센서는 완전한 360도 상황 인식을 제공하며—해당 전차는 움직이는 데이터 센터가 됩니다." # 14661992549100802138
+  ut_war_planes: "전투기" # 10027288187131300694
+  ut_war_planes_desc: "복엽기들이 회전하는 프로펠러 사이로 기관총을 쏘며 격돌합니다. 공중전은 여전히 기사도적 의례를 따르지만—편대 전술이 하늘을 군사화시키면서 변화합니다." # 16630256361860583111
+  ut_war_planes_2: "첨단 전투기" # 17913916555377824421
+  ut_war_planes_2_1: "최첨단 전쟁 비행기" # 15092890731767934280
+  ut_jet_planes: "제트 항공기" # 47098963301098514
+  ut_jet_planes_desc: "제트 엔진이 음속의 장벽을 찢습니다. MiG-15와 F-86이 초음속 선회 비행으로 격돌하며, 단 몇 초가 삶과 화염에 휩싸인 죽음을 가릅니다." # 6004529971256188126
+  ut_modern_planes: "현대 항공기" # 7526045313590165080
+  ut_anti_tank_guided_software: "대전차 유도 체계" # 2785582642701818572
+  ut_military_complex: "군사 복합체" # 10944059420291722536
+  light_ships_rockets_computers: "경쾌함 선박 전투 체계" # 12938180898705425742
+  heavy_ships_rockets_computers: "중(重)함선 전투 체계" # 17145539823193819837
+  support_ships_electronic_surveillance: "전자 감시함" # 7304273522225468952
+  combat_unit_type_support_systems: "지원 체계" # 14289237164280228476
+  combat_unit_type_advanced_support_systems: "고급 지원 체계" # 5802331554173881524
+  combat_unit_type_missile_corvettes: "미사일 코르벳함" # 13450551385606039539
+  combat_unit_type_surveillance_corvettes: "정찰 코르벳함" # 905612684479438710
+  combat_unit_type_capital_battleship: "전열함" # 14198923247877299028
+  combat_unit_type_modern_submarine: "현대식 잠수함" # 17073630598133626773
+  combat_unit_type_super_carrier: "슈퍼항공모함" # 2101422557773553500
+  combat_unit_type_armored_infantry: "장갑 보병" # 18335512898531465131
+  combat_unit_type_task_force_infantry: "기동부대 보병" # 14543417182717076931
+  combat_unit_type_motorized_artillery: "자주포" # 1981983111403264537
+  combat_unit_type_rocket_artillery: "로켓 포병" # 15081891605769264607
+  combat_unit_type_support_systems_desc: "전선 부대의 효과를 증진시키는 보급 및 전자 지원 부대." # 15364618352657328188
+  combat_unit_type_advanced_support_systems_desc: "최첨단 기술로 무장하여 전장에서 우월한 지원을 제공하는 고도로 전문화된 지원 부대입니다." # 11351969682617322620
+  combat_unit_type_missile_corvettes_desc: "신속한 해상 교전을 위해 미사일 시스템으로 무장한 빠르고 민첩한 함선." # 7758616708170174173
+  combat_unit_type_surveillance_corvettes_desc: "정찰 및 조정을 위해 첨단 센서와 통신 장비를 갖춘 해군 부대." # 12585173788341007777
+  combat_unit_type_capital_battleship_desc: "대규모 해전에서의 지배를 위해 설계된, 중무장 및 장갑을 갖춘 기함급 함선들." # 12867282724869455912
+  combat_unit_type_modern_submarine_desc: "어뢰와 순항 미사일로 무장하여 전략적 타격을 가할 수 있는 은밀한 수중 함선." # 3842878728533855494
+  combat_unit_type_super_carrier_desc: "광대한 거리에 걸쳐 영향력을 투사하는 이동식 항공모함 역할을 하는 거대한 항공모함." # 11611529755096974444
+  combat_unit_type_armored_infantry_desc: "중장비 개인 방호구와 생존력 강화를 위한 통합 지원 체계를 갖춘 보병 부대." # 5161083522663513920
+  combat_unit_type_task_force_infantry_desc: "고도로 훈련되었으며, 독립적으로 또는 다른 부대와 함께 특수 임무를 수행할 수 있는 유연한 부대입니다." # 6390740616375567239
+  combat_unit_type_motorized_artillery_desc: "차량에 탑재되어 전장에서의 신속한 배치와 재배치를 가능하게 하는 포병입니다." # 14266505767414095402
+  combat_unit_type_rocket_artillery_desc: "광범위한 지역에 폭발 화력을 퍼붓기 위해 일제히 로켓을 발사하는 포병대입니다." # 15962041789552319447
+  highway_projects: "고속도로" # 3969334153630841660
+  highway_projects_desc: "넓고 포장된 간선도로가 도시와 지역을 효율적으로 연결합니다. 고속도로는 물자 수송을 가속화하고, 통근 시간을 단축하며, 새로운 경제 발전 통로를 열어줍니다." # 15560086920578075639
+  heavy_machinery_builders: "콘크리트 포장재" # 9278456248390599686
+  heavy_machinery_builders_desc: "현대의 콘크리트 포장재는 도로 건설에 혁명을 일으키고 있습니다. 이 강철 거인들은 기록적인 시간 안에 정밀한 도로 판을 부어 산업 규모의 기반 시설을 위한 토대를 마련합니다." # 13447263128152871011
+  intercity_transport: "도시 간 교통" # 7513650679270991669
+  intercity_transport_desc: "고속 열차와 장거리 버스가 지역 경계를 가로지릅니다. 발달된 도시간 교통망은 국가를 축소시키고, 국민 통합을 증진시키며, 관광업을 활성화합니다." # 6850027223113892304
+  highspeed_transport: "고속 수송" # 11446324905162373556
+  highspeed_transport_desc: "증기 기관차가 전기 발전기로 자리를 내어주면서, 열차들은 시속 160킬로미터로 질주하기 시작합니다. 이 속도의 혁명은 가장 빠른 우편 마차마저 무색하게 만들며 도시 간의 체감 거리를 압축시킵니다." # 3607080729702214822
+  early_civil_aviation: "초기 민간 항공" # 13543633040405198809
+  early_civil_aviation_tech_tt: "게임당 한 번: 모든 국가가 20년간 기술 전파에 +10%를 얻습니다." # 12242206100146943748
+  civil_airlines: "민항" # 7670433653898062603
+  civil_airlines_desc: "민간 항공은 상업적 목적으로 승객과 화물을 운송하는 비군사적 항공 수송 서비스를 일컫습니다. 이는 세계적인 연결성, 경제 발전, 그리고 국제 무역 및 관광 촉진에 있어 필수적인 역할을 수행합니다." # 4707554023757983316
+  modern_civil_aviation: "현대 민간 항공" # 16839455123295820201
+  modern_civil_aviation_desc: "현대의 민간 항공은 현대의 항공 여행과 수송을 뒷받침하는 첨단 시스템, 기술 및 기반 시설을 포괄합니다. 이는 항공기 설계, 항공 교통 관리 및 국제 규정의 혁신에 의해 추진되며 안전성, 효율성 및 세계적 연결성을 강조합니다." # 3794707464937010499
+  modern_civil_aviation_tech_tt: "게임당 한 번: 모든 국가가 영구적으로 기술 전파 50을 획득합니다." # 7270638470249468498
+  international_commerce: "국제 상업" # 2641781259374375559
+  international_commerce_desc: "국제 상업이란 국경을 넘어선 재화, 용역, 자본의 교환을 의미합니다. 이는 세계 경제 통합을 촉진하고, 전문화를 장려하며, 각국이 더 광범위한 자원과 시장에 접근할 수 있도록 합니다." # 7591116099013667510
+  international_stock_exchange: "국제 증권 거래소" # 2652806207033279044
+
+  check_payments: "지불 내역 확인" # 14767920842408246181
+  check_payments_desc: "도매 거래에서 현금 대신 종이 어음이 사용되기 시작합니다. 수표의 도입은 추적 가능한 지불을 가능하게 하여 금융 중개자로서 은행의 성장을 촉진합니다." # 5718001299252653724
+  credit_cards: "신용카드" # 10552585215724664490
+  credit_cards_desc: "자성 띠와 PVC 카드는 디지털 시대의 여명을 알립니다. 이 소비의 열쇠는 충동적인 지출을 부추기며 세계적인 신용망의 기초를 다집니다." # 3454057528602313284
+  digital_payments: "디지털 결제" # 18125587242947548358
+  digital_payments_desc: "암호화된 데이터 패킷이 광섬유 케이블을 통해 빠르게 전송됩니다. 실시간 전송과 모바일 결제 앱은 실물 지갑을 박물관 유물로 만들고 있습니다." # 11325049377021764529
+  digital_trading: "디지털 거래" # 12395719261624693888
+  digital_trading_desc: "알고리즘이 밀리초 단위로 주식을 거래합니다. 증권 거래소는 고빈도 데이터 흐름의 무대가 됩니다." # 7068080634345244607
+  modern_economy: "개발 경제학" # 942507727480641556
+  modern_economy_desc: "개발 경제학은 개발도상국의 빈곤 감소와 번영을 뒷받침하는 경제적 요인들을 다룹니다. 이는 성장을 촉진하고 지속 가능한 진보를 이루는 동력이 무엇인지 탐구합니다." # 7370297128739799139
+  new_public_management: "신공공관리" # 5424873604312332044
+  new_public_management_desc: "효율성과 성과 향상을 위해 공공 행정에 민간 부문의 경영 방식을 적용하는 개념입니다. 이는 분권화, 성과 중심주의, 내부 경쟁을 강조합니다." # 2221313634119914361
+  digital_tax_declaration: "디지털 세금 신고" # 6913509114886178123
+  digital_tax_declaration_desc: "전자 양식과 자동화된 타당성 검사가 세금 징수를 현대화합니다." # 4087833393227053852
+  union_new_mandates: "국제법" # 6732919947244209837
+  union_new_mandates_tt_principles: "새로운 권력 블록 [concept_power_bloc_principle]을 해금합니다" # 9513454781090210349
+  union_new_mandates_tt_articles: "새로운 [concept_article]: [GetArticleType('ut_research_agreement').GetNameNoIcon], [GetArticleType('ut_research_assistance_treaty').GetNameNoIcon] 및 이념적 [concept_article]을(를) 해금합니다." # 15074016275234829448
+  union_new_mandates_desc: "초국가적 기구들이 기후 및 디지털 규제에 대한 권위를 얻게 됩니다. 순전히 경제적인 통합의 시대는 야심 찬 정치적 얽힘으로 자리를 내어줍니다." # 8638368149664057639
+  union_new_mandates_two: "국제 기구" # 856629468960562459
+  union_new_mandates_two_desc: "공동 군단과 클라우드 기반 인프라가 연방 초국가로의 전환을 알립니다. 국가 주권은 점차 초국가에 위임되고 있습니다." # 9208129941195007162
+  union_trade: "국제 무역 기구" # 5578808486268760884
+  union_trade_desc: "관세 없는 지대와 통일된 제품 표준은 대륙 내부 시장을 형성합니다. 보호주의는 거대한 규모에서 비교 우위의 논리에 자리를 내어줍니다." # 11271010669969388977
+  food_standards_one: "식품 기준" # 7369388882513585124
+  food_standards_one_desc: "주요 식료품 내 오염 물질에 대한 법적 한도. 식품 검사관들이 밀가루와 포르말린에 절인 생선에 대한 체계적인 단속에 착수합니다." # 16966221026005218727
+  food_standards_two: "식품 안전 당국" # 13928056225376690806
+  food_standards_two_desc: "정부 기관이 이제 농장에서 선반까지의 전체 생산 과정을 감시하게 되었습니다. 식품 교역에 위생 증명서가 의무화됩니다." # 1305987372189947078
+  food_standards_three: "라벨링 요구사항" # 4148685144192449148
+  food_standards_three_desc: "트랜스 지방, 알레르기 유발 물질 및 영양 성분표는 명확하게 공개되어야 합니다. 오해를 불러일으키는 식품 광고의 시대는 막을 내리기 시작했습니다." # 9470854143101468615
+  epa_one: "공기 순도" # 13868104776746231507
+  epa_one_desc: "산업용 필터와 차량 촉매 장치가 도시 위의 스모그를 걷어내고자 합니다. 최초로 미세 입자와 질소 산화물에 대한 규제가 법제화됩니다." # 872599435605830494
+  epa_two: "재활용 프로그램" # 897488758972447404
+  epa_two_desc: "폐기물 분리는 시민의 의무가 됩니다. 쓰레기 매립지는 첨단 재활용 공원으로 대체되어 로봇 팔이 플라스틱을 분류하고 유기성 폐기물을 발효시켜 바이오가스를 생산합니다." # 9711087337391986369
+  epa_three: "CFC 금지" # 897257892396270742
+  epa_three_desc: "염화불화탄소의 금지는 성층권 오존층을 보존합니다. 냉장고는 천연 냉매로 전환하고 에어로졸 캔은 펌프 기반 대안을 채택합니다." # 7977144342837338656
+  political_progress_1_cosmopolitan: "세계주의" # 3915836261885143996
+  political_progress_1_cosmopolitan_desc: "계몽주의 사상과 과학적 진보에 대한 신념이 종교적 독단을 밀어냅니다. 완벽하게 이성적으로 조직된 사회를 꿈꾸는 기술관료들의 새로운 정예 계층이 등장합니다." # 11157996618475640747
+  political_progress_2_rationalism: "합리주의" # 16657840187796290636
+  political_progress_2_rationalism_desc: "증거 기반 정책이 이념적 참호전(戰)을 대체합니다. 무작위 대조 시험이 사회 프로그램을 결정하고, 알고리즘이 선거구 경계를 최적화합니다." # 17779822736660241342
+  political_progress_3_neoliberalism: "신자유주의" # 12227027543381073863
+  political_progress_3_neoliberalism_desc: "계몽주의 사상과 과학적 진보에 대한 신념이 종교적 독단을 밀어냅니다. 완벽하게 이성적으로 조직된 사회를 꿈꾸는 기술관료들의 새로운 정예 계층이 등장합니다." # 11157996618475640747
+  political_progress_4_greens: "녹색 운동" # 14846859181220420721
+  political_progress_4_greens_desc: "증거 기반 정책이 이념적 참호전(戰)을 대체합니다. 무작위 대조 시험이 사회 프로그램을 결정하고, 알고리즘이 선거구 경계를 최적화합니다." # 17779822736660241342
+  national_socialism: "전체주의" # 15808850249098644224
+  national_socialism_desc: "권위주의적 통치, 인종적 순수성 교리, 국가 통제 경제 구조를 결합한 급진적 민족주의 이념으로, 역사적으로 전체주의 정권과 연관되어 있습니다." # 1318097964870490728
+  movie_industry: "영화 산업" # 8500173165563819135
+  movie_industry_desc: "영화는 강력한 문화적 동력으로 부상하여 여론을 형성하고, 국가 정체성을 투영하며, 패션에서부터 정치에 이르기까지 전 세계적인 모든 것에 영향을 미치고 있습니다." # 3243133173990653608
+  online_forums: "온라인 포럼" # 8578241905723487709
+  online_forums_desc: "분산된 토론 게시판은 틈새 공동체가 형성되고, 논쟁이 만개하며, 전통적인 매체 구조 밖에서 새로운 하위문화가 출현하도록 합니다." # 4266130556001213031
+  online_forums_tt: "반대 운동은 1.25배 더 효과적입니다" # 18292250581108612035
+  social_media: "소셜 미디어" # 7219841513393938813
+  social_media_desc: "디지털 플랫폼은 실시간 정보 공유, 대규모 동원, 그리고 알고리즘 기반의 콘텐츠가 공론과 행태를 형성하게 함으로써 소통 방식을 혁신하고 있습니다." # 13624332699085024655
+  social_media_tt: "반대 운동은 1.5배 더 효과적입니다" # 2335630171399650056
+  multicultural_globalism: "다문화주의" # 7138021334622128967
+  multicultural_globalism_desc: "다문화주의는 사회 내 다양한 문화적 정체성에 대한 인정과 지원을 의미합니다. 이는 모든 문화 집단에 대한 포용, 관용, 평등한 권리를 증진하는 동시에 상이한 전통, 언어, 신념의 공존을 장려합니다." # 4321148683537236723
+  anti_multicultural_globalism: "디지털 선전" # 4534559348196204156
+  anti_multicultural_globalism_desc: "대규모 선전 활동은 디지털 매체와 24시간 뉴스 보도 체제를 점점 더 활용하여 여론을 형성하고 있으며, 이는 종종 정보와 조작의 경계를 전 세계적인 규모로 모호하게 만들고 있습니다." # 9564935331834133260
+  anti_discrimination_laws: "차별 금지법" # 13876085760774365256
+  anti_discrimination_laws_desc: "차별 금지법은 인종, 성별, 종교, 성적 지향과 같은 특성을 이유로 한 부당한 대우로부터 개인을 보호하기 위해 마련된 법적 조치입니다. 이 법들은 평등을 증진하고 고용, 교육, 공공 서비스에 대한 동등한 접근을 보장하는 것을 목표로 합니다." # 7919884858885051637
+  emancipation_movement: "노예 해방 운동" # 3425757494323335778
+  emancipation_movement_desc: "작업 진행 중" # 6506854407950090328
+  lgbt_movement: "성소수자 운동" # 3707854814621333773
+  lgbt_movement_desc: "레즈비언, 게이, 양성애자, 트랜스젠더의 권리와 수용을 옹호하는 운동입니다. 이들은 활동, 법률 개혁, 문화적 변화를 통해 차별에 도전하며 사회적 평등과 인정을 추구합니다." # 8296946536084668307
+  feminism_2: "노예 해방" # 7992405545572441498
+  feminism_2_desc: "여성 해방 운동은 여성의 동등한 권리와 기회를 달성하고자 하는 사회적, 정치적 운동입니다. 이는 가부장적 구조를 해체하고 삶의 모든 측면에서 성 평등을 증진하는 것을 목표로 합니다." # 6523740529481555826
+  feminism_3: "긍정적 평등" # 15404536376209914423
+  feminism_3_desc: "균등 긍정 평등은 조치를 시행함으로써 여성과 남성의 동등한 결과를 달성하고자 하는 정책적 접근 방식입니다." # 17362621560823256751
+  public_universities: "공립 대학" # 12471684684514253615
+  public_universities_desc: "공립 대학은 정부가 자금을 지원하고 운영하는 고등 교육 기관입니다. 이들은 사회경제적 배경에 관계없이 모든 시민에게 접근 가능한 교육을 제공하는 것을 목표로 합니다." # 1553432929158251293
+  compulsory_secondary_school: "의무 중등 교육" # 14111290511181149961
+  compulsory_secondary_school_desc: "청소년은 18세까지 학교에 다녀야 합니다. 직업 학교는 산업계와 협력하여 노동 시장으로의 전환을 원활하게 합니다." # 11599314902625889369
+  compulsory_tertiary_school: "의무 대학 교육" # 12998925826272946976
+  compulsory_tertiary_school_desc: "대학 학위가 사회의 표준이 되었습니다. 캠퍼스 도시는 번성하지만, 공급 과잉으로 인해 박사 학위 소지자들이 불안정한 상황에서 택시를 운전하게 됩니다." # 15335104581122213152
+  technical_scientific_school_reforms: "기술-과학 학교 개혁" # 2195145563068148871
+  technical_scientific_school_reforms_desc: "교육과정이 근본적으로 개정되어 유아기부터 기술 지식, 디지털 역량, 과학적 사고를 장려합니다. 목표는 미래 지향적이고 혁신 주도적인 사회를 구축하는 것입니다." # 12652927572680856302
+  bg_modern_industry: "건물군 현대 산업" # 1328707411585668057
+  bg_bauxite_mining: "보크사이트 채광" # 17685468059543410967
+  bg_bauxite_mining_debug: "건설 집단 보크사이트 디버그" # 10310205431717758585
+  bg_rare_earths_mining: "희토류" # 9041622213556414193
+  bg_rare_earths_mining_debug: "건설 그룹 희토류 디버그" # 3245345688242940563
+  building_bauxite_mine: "보크사이트 광산" # 7118397363134900490
+  building_bauxite_mine_debug: "보크사이트 광산 (디버그)" # 2141240297701185284
+  building_rare_earths_mine: "희토류 광산" # 17133019715831370647
+  building_rare_earths_mine_debug: "희토류 광산 (디버그)" # 410512014639763259
+  building_aluminum_factory: "알루미늄 공장" # 1845708679705707198
+  building_plastic_factory: "플라스틱 공장" # 12775815211570247465
+  building_electronic_factory: "칩 공장" # 6283112906007686508
+  building_heavy_machinery_factory: "기계 공장" # 14331501321068536511
+  building_computer_factory: "컴퓨터 공장" # 12330555015024135288
+  building_commercial_factory: "상업 기업" # 13098828102859902158
+  building_software_company: "소프트웨어 회사" # 10651265085380864778
+  building_synthetic_oil: "석유 정제소" # 17016588097980709449
+  building_ut_research_institute: "연구소" # 4003839446474203573
+  building_renewable_power_plant: "재생 가능 발전소" # 3230914599876482491
+  building_ut_nuclear_power_plant_construction_site: "원자력 발전소 건설 현장" # 12420944604358196693
+  building_ut_nuclear_power_plant: "원자력 발전소" # 17401957840933142424
+  pmg_base_building_ut_research_institute: "기반" # 15230998859170780374
+  pmg_categories_building_ut_research_institute: "집중" # 13375377753976173523
+  ut_pm_research_institute_one: "기초 연구소" # 7072974178306089579
+  ut_pm_research_institute_two: "고급 연구소" # 7567059284741236709
+  ut_pm_research_institute_three: "최첨단 연구소" # 5187670529386537622
+  ut_pm_research_institute_no_focus: "초점 없음" # 3729016451044549227
+  ut_pm_research_institute_production_focus: "생산 집중" # 3658400059020143366
+  ut_pm_research_institute_military_focus: "군사 중점" # 15572204899958976279
+  ut_pm_research_institute_society_focus: "사회 중점" # 10556657528468916997
+  pmg_synthetic_oil_making_process: "기반" # 15230998859170780374
+  pmg_bauxite_making_process: "기반" # 15230998859170780374
+  pmg_logistics_bauxite_mine: "보크사이트 광산 물류" # 15007875025474962915
+  pmg_rare_earths_making_process: "기반" # 15230998859170780374
+  pmg_logistics_rare_earths_mine: "병참" # 1474048807603709462
+  pmg_aluminum_making_process: "기반" # 15230998859170780374
+  pmg_logistics_modern_industry: "병참" # 1474048807603709462
+  pmg_plastic_making_process: "기반" # 15230998859170780374
+  pmg_electronics_making_process: "기반" # 15230998859170780374
+  pmg_administration_modern_industry: "행정" # 7532094206896831928
+  pmg_synthetic_rubber: "기반" # 15230998859170780374
+  pmg_software_making_process: "기반" # 15230998859170780374
+  pmg_highway_cars: "기반" # 15230998859170780374
+  pmg_highway_trucks: "트럭" # 11316629981132377799
+  pmg_complex_consumer_goods_making_process: "복합 소비재" # 10522470116466748002
+  pmg_base_building_ut_nuclear_power_plant_construction: "건설" # 7035806065621117486
+  ut_pm_nuclear_power_plant_construction: "발전소 건설" # 17372647527393920831
+  pmg_base_building_ut_nuclear_power_plant: "기반" # 15230998859170780374
+  ut_pm_nuclear_power_plant_one: "원자력 발전소" # 17401957840933142424
+  pm_heavy_machinery_engines: "다기통 엔진" # 4272766973349266224
+  pm_electronics_engines: "ECU 엔진" # 7834411675964966439
+  pm_computers_engines: "복잡한 ECU 엔진" # 11049431734558850710
+  pm_truck_production: "트럭 생산" # 243297265452407696
+  pm_modern_automobiles: "현대식 자동차" # 1882924325249663866
+  pm_heavy_machinery_buildings: "크레인 및 굴착기 건설" # 8412987412415998827
+  pmg_heavy_machinery_making_process: "기반" # 15230998859170780374
+  pm_heavy_machinery_analog_process: "기계 장치" # 3253127265604709079
+  pm_heavy_machinery_electronics_process: "전기 기계" # 9641016612493582704
+  pm_heavy_machinery_digital_process: "디지털화된 기계" # 5131062361194921082
+  pm_heavy_machinery_coal_fired_plant: "중(重) 석탄 발전소" # 3961427454601925745
+  pm_heavy_machinery_oil_fired_plant: "중유 발전소" # 17691428973767317384
+  pm_electronics_circuits_process: "전자 회로" # 9927641517905293698
+  pm_electronics_transistors_process: "트랜지스터" # 9892040926127549027
+  pm_electronics_micro_chips_process: "마이크로칩" # 5260780322557374584
+  pmg_computers_making_process: "기반" # 15230998859170780374
+  pm_computers_electromechanical_process: "전자기계식 컴퓨터" # 17996487763289309535
+  pm_computers_transistors_process: "트랜지스터 컴퓨터" # 12419904815615059148
+  pm_computers_integrated_chips_process: "개인용 컴퓨터" # 15509868074037856748
+  pm_computers_micro_chips_process: "첨단 컴퓨터" # 17824136282313068153
+  pm_bauxite_steam_powered_mine: "증기 동력 보크사이트 광산" # 10019584320434818495
+  pm_bauxite_heavy_machinery_mine: "중장비" # 6852284947763741621
+  pm_bauxite_automated_heavy_machinery_mine: "자동 기계" # 5323911830401058216
+  pm_rare_earths_one_mine: "기초 희토류 채굴" # 3132718822018624467
+  pm_rare_earths_two_mine: "고급 희토류 채굴" # 18072424614073246063
+  pm_rare_earths_three_mine: "복잡한 희토류 채굴" # 12265992350487596545
+  pmg_consumer_goods_making_process: "기본" # 11884452299886114628
+  pm_consumer_goods_analog_process: "단순 생산" # 513100474248114054
+  pm_consumer_goods_electrical_process: "전기 장치" # 15920716512106500026
+  pm_consumer_goods_plastic_process: "플라스틱 소비재" # 295779122624470252
+  pm_hi_analogue_admin: "유사 행정" # 4383009708678568742
+  pm_hi_connected_admin: "연결된 행정" # 9698396722182612681
+  pm_hi_digital_admin: "디지털 행정" # 11184501952746348871
+  pm_hi_automated_admin: "자동 행정" # 1180106014984055534
+  pm_hi_rail_logistics: "철도 물류" # 18275135533919973536
+  pm_hi_no_logistics: "보급 없음" # 2819156693731565964
+  pm_hi_individual_logistics: "트럭 물류" # 14324540317784220043
+  pm_hi_just_in_time_logistics: "적시 물류" # 16083822301511216171
+  pm_hi_connected_logistics: "연결된 물류" # 9697346090889110774
+  ut_pm_research_department: "사회과학부" # 7732584192960417261
+  ut_pm_research_department_principle_movement: "국제 과학부" # 4799595557164072280
+  pm_oil_heavy_machinery_mine: "중장비" # 6852284947763741621
+  pm_oil_automated_heavy_machinery_mine: "자동 기계" # 5323911830401058216
+  pm_high_yield_crops: "고수확 작물" # 11996592171640515625
+  pm_farms_drone_support: "드론" # 15054901518611583576
+  pm_farms_plane_support: "농업용 항공기" # 18255650884435723150
+  pm_high_yield_crops_rice: "고수확 작물" # 11996592171640515625
+  pm_farms_plane_support_rice: "농업용 항공기" # 18255650884435723150
+  pm_farms_drone_support_rice: "드론" # 15054901518611583576
+  pm_farms_heavy_machinery_support: "중장비 트랙터" # 5593093489631989721
+  pm_farms_heavy_machinery_support_rice: "중장비 트랙터" # 5593093489631989721
+  pm_ut_factory_farming: "공장식 농업" # 5739157403556943232
+  pm_heavy_machinery_building_coal_mine: "중장비" # 6852284947763741621
+  pm_heavy_machinery_building_iron_mine: "중장비" # 6852284947763741621
+  pm_heavy_machinery_furnite: "CNC 공작기계" # 2225149181531569508
+  pm_automatic_controllers_steel: "자동 제어 장치" # 9383518599468687147
+  pm_synthetic_rubber: "합성 고무" # 10497239447374670003
+  pm_no_artificial_rubber: "고무 생산 불가" # 4756660195492639335
+  pm_synthetic_oil_one_process: "바이오에탄올" # 3517162057974930632
+  pm_synthetic_oil_two_process: "바이오디젤" # 15102017682891838239
+  pm_heavy_machinery_textile: "방직 기계" # 9854461677621879351
+  pm_plastics_textile: "플라스틱 방직기" # 15603701321483731659
+  pm_aluminum_one_process: "쇠데르베리 전극" # 13061331712233124638
+  pm_aluminum_two_process: "사전 구운 양극" # 17921304883306045876
+  pm_aluminum_three_process: "제련 재활용" # 9247273864027738883
+  pm_aluminum_packaging: "알루미늄 포장재" # 1891023417621497611
+  pm_plastic_packaging: "플라스틱 포장재" # 548567597216229173
+  pm_synthetic_rubber_plus: "폴리에스터" # 14442204369105209728
+  pm_plastic_one_process: "폴리에틸렌" # 5734499075192864745
+  pm_plastic_two_process: "폴리프로필렌" # 9816317765052214216
+  pm_highway_cars_one: "고속도로 차량" # 12951723550409493274
+  pm_highway_no_trucks: "고속도로 트럭 없음" # 8450896500535394481
+  pm_highway_trucks: "고속도로 트럭" # 8201932347089672574
+  pm_ut_industrial_port: "산업 항구" # 9512342836710307679
+  pm_ut_precision_tools: "정밀 공구" # 11600125655978650054
+  pm_complex_consumer_goods_none: "복잡한 소비재 없음" # 16341309484896823234
+  pm_complex_consumer_goods_electrical_process: "텔레비전" # 18338624930657706262
+  pm_complex_consumer_goods_computer_process: "개인용 컴퓨터" # 7915616022878927823
+  pm_complex_consumer_goods_software_process: "디지털 서비스" # 16799721211465030238
+  pm_software_one_process: "소프트웨어 개발" # 12930012993853021714
+  pm_elastics_two: "나일론 직물" # 10789382264608220507
+  pm_precision_tools_heavy_machinery: "CNC 공작기계" # 2225149181531569508
+  pm_pre_baked_dough_pieces: "미리 구운 반죽" # 13764397934066925084
+  pm_ut_modern_tank_production: "현대 전차 생산" # 4009424233740352525
+  pm_ut_jetplane_production: "제트 생산" # 16727071225788703974
+  ut_pm_semi_automatic_rifles: "반자동 소총" # 16305393904449859286
+  ut_pm_full_automatic_rifles: "자동 소총" # 10014801449179283010
+  ut_pm_hydraulic_recoil_mechanism: "유압식 반동 장치" # 14801846137082447403
+  ut_pm_self_propelled_artillery: "자주포" # 15308249461666024741
+  pm_trade_center_trade_quantity_utopia: "산업 무역" # 7856358904381510463
+  pm_supermarket: "슈퍼마켓" # 13421771486820915978
+  pm_shopping_district: "쇼핑 지구" # 11485043375108539660
+  ut_pm_film_industry_art: "영화 산업" # 4590791739095799540
+  ut_pm_film_industry_art_principle_movement: "국제 영화 산업" # 9357168574996606548
+  ut_pm_digital_art: "영화 및 비디오 게임 산업" # 9503671099985152863
+  pm_ut_industry_plastics: "산업용 플라스틱" # 11602062456278631026
+  pm_ut_telephones: "디지털 전화기" # 5877672394677890086
+  pm_ut_radios: "향상된 무선 수신기" # 14718593189175839729
+  ut_company_research: "연구 컨소시엄" # 12814664140428084594
+  ut_high_tech_company_research: "연구소" # 4003839446474203573
+  pm_ut_high_speed_electric_trains: "도시 간" # 17138055377838776342
+  pm_ut_high_speed_electric_trains_principle_transport_3: "도시 간 고속" # 123894451053590942
+  pm_computer_bureaucrats: "디지털 행정" # 11184501952746348871
+  pm_ut_research_department: "사회과학 연구소" # 8964591606295346849
+  pm_automatic_power_looms_2: "셔틀리스 직기" # 14754451995241471477
+  pm_assembly_lines_building_heavy_machinery_tools: "자동화된 조립 라인" # 1506362624764609531
+  pm_assembly_lines_building_heavy_machinery_arms: "자동화된 조립 라인" # 1506362624764609531
+  pm_assembly_lines_building_heavy_machinery_furniture: "자동화된 조립 라인" # 1506362624764609531
+  pm_assembly_lines_building_heavy_machinery_cars: "자동화된 조립 라인" # 1506362624764609531
+  pm_steel_heavy_machinery: "연속 주조 공장" # 6171985451569198220
+  pm_steel_computers: "산업용 로봇" # 11110638893852144681
+  bauxite: "보크사이트" # 1445528219541785425
+  aluminum: "알루미늄" # 17848561843000200427
+  rare_earths: "희토류" # 9041622213556414193
+  plastic: "플라스틱" # 11908367455635063980
+  trucks: "트럭" # 11316629981132377799
+  highways: "고속도로" # 3969334153630841660
+  consumer_goods: "소비재" # 13806164982934062102
+  heavy_machinery: "기계류" # 5327704758000683555
+  utopia_arms: "보병 장비" # 15774350727098793856
+  utopia_artillery: "중포" # 15679930957672792980
+  utopia_tanks: "중전차" # 6698343379109886188
+  utopia_jet_planes: "제트 비행기" # 9627080935124669549
+  utopia_battleship: "전함" # 10513563086829480403
+  prestige_good_generic_consumer_goods_simple: "세탁기" # 11291944922205725703
+  prestige_good_generic_consumer_goods_complex: "컬러 텔레비전" # 14145032654167416553
+  prestige_good_generic_computers_b2b: "메인프레임" # 14481900324386801367
+  prestige_good_generic_computers_b2c: "개인용 컴퓨터" # 15509868074037856748
+  prestige_good_generic_electronics: "고급 전자제품" # 7423793633553447221
+  prestige_good_generic_heavy_machinery_era_6: "타워 크레인" # 10941804536924976072
+  prestige_good_generic_heavy_machinery_era_7: "터널 굴착기" # 15008101456926949780
+  prestige_good_generic_heavy_machinery_era_8: "산업용 로봇" # 11110638893852144681
+  prestige_good_generic_plastic: "PVC" # 18008198438796031726
+  prestige_good_generic_software_b2b: "데이터베이스 소프트웨어" # 9800076409812069432
+  prestige_good_generic_software_b2c: "사무용 소프트웨어" # 18038107644110101259
+  goods_input_heavy_machinery_add: "@heavy_machinery! 중장비 투입" # 14469754190734537015
+  goods_input_heavy_machinery_add_desc: "건물들이 소비하는 @heavy_machinery! 중장비의 양" # 11089227882602219676
+  goods_input_plastic_add: "@plastic! 플라스틱 투입" # 4849830864355181794
+  goods_input_plastic_add_desc: "건물들이 소비하는 @plastic! 플라스틱의 양" # 12067951009631062712
+  goods_input_electronics_add: "@electronics! 전자 제품 입력" # 6164527417085568739
+  goods_input_electronics_add_desc: "건물들이 소비하는 @electronics! 전자제품의 양" # 6871357756628538961
+  goods_input_aluminum_add: "@aluminum! 알루미늄 투입" # 10899945623659552177
+  goods_input_aluminum_add_desc: "건물들이 소비하는 @aluminum! 알루미늄의 양" # 10713638115800925086
+  goods_input_bauxite_add: "@bauxite! 보크사이트 투입" # 9288422036142198369
+  goods_input_bauxite_add_desc: "건물들이 소비하는 @bauxite! 보크사이트의 양" # 14142113907226651931
+  goods_input_rare_earths_add: "@rare_earths! 희토류 투입" # 13840352215439262477
+  goods_input_rare_earths_add_desc: "건물들이 소비하는 @rare_earths! 희토류의 양" # 6412847752224050238
+  goods_input_computers_add: "@컴퓨터! 컴퓨터 입력" # 6201578238112498482
+  goods_input_computers_add_desc: "건물들이 소비하는 @computers! 컴퓨터의 양" # 9101023591029348018
+  goods_input_software_add: "@software! 소프트웨어 입력" # 442187135455387700
+  goods_input_software_add_desc: "건물들이 소비하는 @software! 소프트웨어의 양" # 260610510457377462
+  goods_input_internet_add: "@internet! 인터넷 입력" # 2981233260940748787
+  goods_input_internet_add_desc: "건물들이 소비하는 @internet! 인터넷의 양" # 10173681562724119992
+  goods_input_trucks_add: "@trucks! 트럭 투입" # 34313779903928594
+  goods_input_trucks_add_desc: "건물들이 소비하는 @trucks! 트럭의 양" # 16272166761334761982
+  goods_input_consumer_goods_add: "@consumer_goods! 소비재 투입" # 6908927520886106718
+  goods_input_consumer_goods_add_desc: "건물들이 소비하는 @consumer_goods! 소비재의 양" # 13943019555628194016
+  goods_input_utopia_arms_add: "@utopia_arms! 보병 장비 입력" # 11651764203311707828
+  goods_input_utopia_arms_add_desc: "건물에서 소모하는 @utopia_arms! 보병 장비의 양" # 2744198795300476653
+  goods_input_utopia_artillery_add: "@utopia_artillery! 중(重)포병 투입" # 215815668350043331
+  goods_input_utopia_artillery_add_desc: "건물에서 소모하는 @utopia_artillery! 중포의 양" # 14904202644149211953
+  goods_input_utopia_tanks_add: "@utopia_tanks! 중전차 입력" # 7781628554419575423
+  goods_input_utopia_tanks_add_desc: "건물에서 소모하는 @utopia_tanks! 중(重)전차의 양" # 6253042791217057266
+  goods_input_utopia_jet_planes_add: "@utopia_jet_planes! 제트기 투입" # 12036165083334647231
+  goods_input_utopia_jet_planes_add_desc: "건물들이 소비하는 @utopia_jet_planes! 제트기 양입니다." # 11712983250485629088
+  goods_input_utopia_battleship_add: "@utopia_battleship! 전함 입력" # 6721645812016627403
+  goods_input_utopia_battleship_add_desc: "건물들이 소비한 @utopia_battleship! 전함의 양" # 2871438077166492753
+  goods_output_heavy_machinery_add: "@heavy_machinery! 기계 생산량" # 16642713601441447937
+  goods_output_heavy_machinery_add_desc: "건물에서 생산되는 @heavy_machinery! 중장비의 양" # 14101834419056082377
+  goods_output_plastic_add: "@plastic! 플라스틱 생산량" # 2674248837579301120
+  goods_output_plastic_add_desc: "건물에서 생산되는 @plastic! 플라스틱의 양" # 1026515490894347038
+  goods_output_electronics_add: "@electronics! 전자제품 산출량" # 8166218767682618981
+  goods_output_electronics_add_desc: "건물들이 생산하는 @electronics! 전자 제품의 양" # 9386037192695104265
+  goods_output_aluminum_add: "@aluminum! 알루미늄 생산량" # 642101263389083006
+  goods_output_aluminum_add_desc: "건물에서 생산된 @aluminum! 알루미늄의 양" # 9999224702851514792
+  goods_output_bauxite_add: "@bauxite! 보크사이트 생산량" # 8495590888554005663
+  goods_output_bauxite_add_desc: "건물에서 생산하는 @bauxite! 보크사이트의 양" # 7311896169214123550
+  goods_output_rare_earths_add: "@rare_earths! 희토류 생산량" # 1427579594704039998
+  goods_output_rare_earths_add_desc: "건물에서 생산되는 @rare_earths! 희토류의 양" # 3367501792922213159
+  goods_output_computers_add: "@컴퓨터! 컴퓨터 출력" # 5860985060443214440
+  goods_output_computers_add_desc: "@computers! 건물에서 생산된 컴퓨터의 양" # 3094798989924972251
+  goods_output_software_add: "@software! 소프트웨어 산출물" # 3811995168868554308
+  goods_output_software_add_desc: "@software! 건물들이 생산하는 소프트웨어의 양" # 545078271925687498
+  goods_output_internet_add: "@internet! 인터넷 출력" # 15026804427256083770
+  goods_output_internet_add_desc: "건물에서 생산하는 @internet! 인터넷의 양" # 1610376312865214823
+  goods_output_trucks_add: "@trucks! 트럭 산출량" # 4100158158859240625
+  goods_output_trucks_add_desc: "건물에서 생산된 @trucks! 트럭의 양" # 9795480300101185591
+  goods_output_consumer_goods_add: "@consumer_goods! 소비재 생산량" # 13207857283808172614
+  goods_output_consumer_goods_add_desc: "건물에서 생산되는 @consumer_goods! 소비재의 양" # 15693020880356384240
+  goods_output_utopia_arms_add: "@utopia_arms! 보병 장비 생산량" # 16875455110994167062
+  goods_output_utopia_arms_add_desc: "건물에서 생산되는 @utopia_arms! 보병 장비의 양" # 5874402239145559246
+  goods_output_utopia_artillery_add: "@utopia_artillery! 중포 생산량" # 10308316677692240246
+  goods_output_utopia_artillery_add_desc: "건물에서 생산되는 @utopia_artillery! 중(重)포의 양" # 15257601374426917395
+  goods_output_utopia_tanks_add: "@utopia_tanks! 중전차 생산량" # 9454849493190324749
+  goods_output_utopia_tanks_add_desc: "건물에서 생산되는 @utopia_tanks! 중전차의 양" # 12127669768159104023
+  goods_output_utopia_jet_planes_add: "@utopia_jet_planes! 제트기 산출량" # 9629065311379664510
+  goods_output_utopia_jet_planes_add_desc: "건물에서 생산된 @utopia_jet_planes! 제트기 수량" # 9465838933418066408
+  goods_output_utopia_battleship_add: "@utopia_battleship! 전함 결과" # 3224208977207288528
+  goods_output_utopia_battleship_add_desc: "건물에서 생산된 @utopia_battleship! 전함의 양" # 9371434401039123329
+  goods_output_trucks_mult: "$trucks$ 상품 생산량" # 1823829918878101926
+  goods_output_trucks_mult_desc: "$trucks$ 생산에 대한 보너스 또는 페널티." # 10475993310552619974
+  state_highways_max_level_add: "$highways$의 최대 레벨 추가" # 4587641269296051775
+  state_highways_max_level_add_desc: "$highways$의 최대 단계를 1만큼 증가시킵니다." # 8969066555170725257
+  ut_commercial_goods_simple_company: "일렉트로노르드 가전 주식회사" # 4201265556381732816
+  ut_commercial_goods_complex_company: "컬러비전 주식회사" # 5051454849093437969
+  ut_mining_company: "센트럴메탈스 주식회사" # 15930261458929260151
+  ut_electronics_company: "마이크로테크 그룹 주식회사" # 7447465376482215398
+  ut_mainframe_computer_company: "시스템즈 그룹 주식회사" # 5671904997485902302
+  ut_personal_computer_company: "마이크로테크놀로지스 주식회사" # 7516513277542388802
+  ut_heavy_machinery_company_era_6: "크레인테크 주식회사" # 8665634936075165188
+  ut_heavy_machinery_company_era_7: "터널보어 주식회사" # 16443411777212243378
+  ut_heavy_machinery_company_era_8: "산업 로보틱스 주식회사" # 9429832627061765272
+  ut_software_company: "소프트웨어 솔루션스 주식회사" # 14692013015763097525
+  ut_software_company_era_7: "소프트웨어 솔루션스 주식회사" # 14692013015763097525
+  ut_software_company_era_8: "소프트웨어 솔루션스 주식회사" # 14692013015763097525
+  ut_synthetics_company: "신세틱스 주식회사" # 532444041311236090
+  ut_plastic_company: "플라스티폼 주식회사" # 14539738513767166599
+  building_heavy_machinery_factory_throughput_add: "$building_heavy_machinery_factory$ [concept_throughput]" # 12117530772717039730
+  building_heavy_machinery_factory_throughput_add_desc: "$building_heavy_machinery_factory$의 투입량과 산출량에 대한 보너스 또는 페널티입니다." # 16292595311595244413
+  building_group_bg_modern_industry_throughput_add: "$building_group_bg_modern_industry$ [concept_throughput]" # 13861294122045898884
+  building_group_bg_modern_industry_throughput_add_desc: "$building_group_bg_modern_industry$의 생산 및 산출에 대한 보너스 또는 페널티." # 2181714747664304546
+  building_plastic_factory_throughput_add: "$building_plastic_factory$ [concept_throughput]" # 1478910806082282111
+  building_plastic_factory_throughput_add_desc: "$building_plastic_factory$의 투입 및 산출에 대한 보너스 또는 페널티." # 624800254533889120
+  building_electronic_factory_throughput_add: "$building_electronic_factory$ [concept_throughput]" # 4963990117513528620
+  building_electronic_factory_throughput_add_desc: "$building_electronic_factory$의 투입 및 산출에 대한 보너스 또는 페널티." # 17945268553265389457
+  building_bauxite_mine_throughput_add: "$building_bauxite_mining$ [concept_throughput]" # 3583426965584802094
+  building_bauxite_mine_throughput_add_desc: "$building_bauxite_mining$에 대한 투입 및 산출에 보너스 또는 페널티를 부여합니다." # 16243909814323088967
+  building_aluminum_factory_throughput_add: "$building_aluminum_factory$ [concept_throughput]" # 2155165006458943914
+  building_aluminum_factory_throughput_add_desc: "$building_aluminum_factory$의 투입 및 산출에 대한 보너스 또는 페널티입니다." # 5608326644610392021
+  building_rare_earths_mine_throughput_add: "$building_rare_earths_mine$ [concept_throughput]" # 8242584825830714013
+  building_rare_earths_mine_throughput_add_desc: "$building_rare_earths_mine$의 투입 및 산출에 대한 보너스 또는 페널티." # 11493412136028110627
+  building_computer_factory_throughput_add: "$building_computer_factory$ [concept_throughput]" # 6645286178994396785
+  building_computer_factory_throughput_add_desc: "$building_computer_factory$의 투입 및 산출에 대한 보너스 또는 페널티입니다." # 1133999270150350143
+  building_software_company_throughput_add: "$building_software_company$ [concept_throughput]" # 14918790962632642599
+  building_software_company_throughput_add_desc: "$building_software_company$의 투입 및 산출에 대한 보너스 또는 페널티." # 7538314179519572297
+  building_commercial_factory_throughput_add: "$building_commercial_factory$ [concept_throughput]" # 6268208021228485961
+  building_commercial_factory_throughput_add_desc: "$building_commercial_factory$의 투입 및 산출에 대한 보너스 또는 페널티." # 6586901805113724559
+  building_synthetic_oil_throughput_add: "$building_synthetic_oil$ [concept_throughput]" # 404067292894930731
+  building_synthetic_oil_throughput_add_desc: "$building_synthetic_oil$의 투입 및 산출에 대한 보너스 또는 페널티입니다." # 1707181311582420459
+  smart_irrigation_building_tea_plantation: "지능형 관개" # 459460089558438453
+  smart_irrigation_building_tobacco_plantation: "지능형 관개" # 459460089558438453
+  smart_irrigation_building_sugar_plantation: "지능형 관개" # 459460089558438453
+  smart_irrigation_building_banana_plantation: "지능형 관개" # 459460089558438453
+  smart_irrigation_building_silk_plantation: "지능형 관개" # 459460089558438453
+  smart_irrigation_building_vineyard_plantation: "지능형 관개" # 459460089558438453
+  smart_irrigation_building_coffee_plantation: "지능형 관개" # 459460089558438453
+  smart_irrigation_building_dye_plantation: "지능형 관개" # 459460089558438453
+  agricultural_mechanization: "중장비 트랙터" # 5593093489631989721
+  slow_tech_progress: "느린 기술 진보" # 1470047175311595248
+  je_ai_advanced_consumer_goods_researched: "소비재" # 13806164982934062102
+  ai_great_power_buff_spread: "기술적 영향력 (열강)" # 4740824544293431087
+  ai_major_power_buff_spread: "기술적 영향력 (주요 강대국)" # 6642370388749526371
+  ai_below_major_power_buff_spread: "기술적 영향력 (소국)" # 17987976555933140662
+  wirtschaftswunder_modifier: "경제 기적" # 9066645344867081653
+  wirtschaftswunder_others_modifier: "경제 기적 (영향력)" # 1905684708196368761
+  early_civil_aviation_modifier_others: "초기 민간 항공" # 13543633040405198809
+  modern_civil_aviation_modifier_others: "현대 민간 항공" # 16839455123295820201
+  event_journal_ai: "기술 진보" # 122702575941034140
+  utopia_event_journal_ai_buff: "혁신의 물결" # 10296085984260933359
+  utopia_event_journal_ai_buff_tooltip: "AI 국가들은 혁신 전파에 상당한 보너스를 받습니다." # 15167878548293440154
+  ut_tech_preview_cheat_research: "프로젝트 유토피아: 기술 치트" # 1056265356493390839
+  ut_tech_preview_cheat_research_desc: "기술 미리보기의 일환으로, 막대한 양의 혁신과 [Concept('concept_ut_research_institute', '연구')]를 얻기 위해 치트를 사용할 수 있습니다." # 2179223903159775298
+  utopia_mod.2.t: "기술적 우위 확보" # 5485802123050519102
+  utopia_mod.2.d: "비공식적인 경로를 통해 귀국 행정부는 압도적인 수준의 혁신을 접하게 되었습니다. 비록 합법적이지는 않으나, 이 지름길은 미래의 단편을 엿보게 해주며, 이제 귀국은 이 우위를 점하여 미래를 만들어나갈 수 있습니다." # 3180838535042244973
+  utopia_mod.2.f: "시간 그 자체를 지배하는 것이야말로 진보가 아니겠습니까? 다른 이들이 윤리와 평등을 논하는 동안, 우리는 가능성의 장막을 찢어발겼습니다. 이 전례 없는 혁신의 물결로 우리는 느리고 관료적인 발전의 수세기를 뛰어넘습니다. 역사가 우리를 심판하든 — 혹은 잉크와 양피지가 아닌 회로와 강철로 쓰인 내일의 찬란함만이 존재하든 말입니다. 유토피아는 주어지는 것이 아닙니다. 쟁취하는 것입니다." # 1775646719883197834
+  ut_tech_preview_cheat_disable_tt: "치트를 영구적으로 비활성화합니다" # 3181697075266295965
+  ut_tech_preview_cheat_research_modifier: "금지된 기술" # 866435527735764191
+  ut_tech_preview_cheat_new_dawn: "프로젝트 유토피아: 새로운 여명 치트" # 3672664772143137072
+  ut_tech_preview_cheat_new_dawn_desc: "기술 미리보기의 일환으로, 당신은 [concept_ut_new_dawn]을 치트할 수 있습니다." # 3123345779794053453
+  unit_combat_unit_type_light_tanks_offense_add: "$combat_unit_type_light_tanks$ $unit_offense_add$" # 4448437193765536896
+  unit_combat_unit_type_light_tanks_offense_add_desc: "$combat_unit_type_light_tanks$ $unit_offense_add$" # 4448437193765536896
+  unit_combat_unit_type_motorized_artillery_offense_add: "$combat_unit_type_motorized_artillery$ $unit_offense_add$" # 6632297284020826406
+  unit_combat_unit_type_motorized_artillery_offense_add_desc: "$combat_unit_type_motorized_artillery$ $unit_offense_add$" # 6632297284020826406
+  unit_combat_unit_type_armored_infantry_offense_add: "$combat_unit_type_armored_infantry$ $unit_offense_add$" # 7815628963562222884
+  unit_combat_unit_type_armored_infantry_offense_add_desc: "$combat_unit_type_armored_infantry$ $unit_offense_add$" # 7815628963562222884
+  unit_combat_unit_type_task_force_infantry_defense_add: "$combat_unit_type_task_force_infantry$ $unit_defense_add$" # 14541016604280187044
+  unit_combat_unit_type_task_force_infantry_defense_add_desc: "$combat_unit_type_task_force_infantry$ $unit_defense_add$" # 14541016604280187044
+  unit_combat_unit_type_modern_submarine_offense_add: "$combat_unit_type_modern_submarine$ $unit_offense_add$" # 11979125652057002089
+  unit_combat_unit_type_modern_submarine_offense_add_desc: "$combat_unit_type_modern_submarine$ $unit_offense_add$" # 11979125652057002089

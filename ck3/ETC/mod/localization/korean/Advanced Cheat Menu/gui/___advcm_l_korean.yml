@@ -1,0 +1,583 @@
+﻿l_korean:
+  ADVCM_VIEW_TITLE: "고급 치트 메뉴" # 17145848902355311036
+  cheat_mark_for_edit_interaction: "수정 필요" # 14771017169314267085
+  cheat_mark_for_edit_vassals_interaction: "가신 편집용으로 표시" # 14610370844592588875
+  cheat_mark_for_edit_courtiers_interaction: "신하 편집용으로 표시" # 8108054273480104583
+  cheat_mark_for_edit_councillors_interaction: "평의회원 편집 표시" # 14180038685060367597
+  cheat_remove_for_edit_interaction: "편집용 표시 제거" # 709847605159211978
+  cheat_info_desc: "#F 왼쪽 클릭으로 추가, 오른쪽 클릭으로 제거#!" # 7632934433118053922
+  cheat_info_modifiers_desc: "#F 왼쪽 클릭으로 추가, 오른쪽 클릭으로 제거#!\n#F 특성들은 중첩되므로, 한 번 이상 클릭하면 여러 번 적용됩니다.#!" # 15681053652581259067
+  cheat_info_heir: "왼쪽 클릭: 해당 인물을 당신의 후계자로 지정합니다.\n오른쪽 클릭: 당신을 해당 인물의 후계자로 지정합니다." # 1761652742220994627
+  cheat_info_imprison: "왼쪽 클릭: 해당 인물을 가택 연금시킵니다.\n오른쪽 클릭: 해당 인물을 지하 감옥에 가둡니다." # 467914605833393184
+  cheat_info_alliance: "왼쪽 클릭: 해당 인물과 동맹을 맺습니다.\n오른쪽 클릭: 해당 인물과의 동맹을 파기합니다." # 12560502840999153203
+  advcm_vassalize_tt: "[Character.GetName]을 봉신으로 삼으십시오." # 12916442449575726350
+  advcm_tt_take_artifact: "#T 유물 획득#\n#! [GetGlobalVariable('advcm_artifact_selected_char').Char.GetName] 님이 유물을 획득합니다!" # 9265536833652806660
+  advcm_artifact_list_tt: "표시된 인물들이 소유한 유물 목록입니다." # 10290322019946866757
+  cheat_info_char_menu: "새로운 인물은 시간이 한 번 흐르거나 인물 창을 다시 열어야 나타날 수 있습니다." # 9995610816769615856
+  advcm_button_tt: "고급 치트 메뉴 열기" # 8087082797976513089
+  advcm_character_spawner_title: "인물 생성기" # 91163985039429565
+  advcm_change_to_my_culture: "내 문화로 변경" # 2307907350532731915
+  advcm_change_to_my_culture_tt: "다른 인물들을 나의 문화로 바꾸기" # 4053017263800397253
+  advcm_change_counties_to_my_culture: "내 문화로 백작령을 변경하십시오" # 17849075598643574986
+  advcm_change_counties_to_my_culture_tt: "표시된 인물들의 영지와 문화를 귀하의 문화로 변경합니다" # 11769434354148443025
+  advcm_change_counties_to_marked_character_culture: "영지를 지정된 인물의 문화로 변경" # 827441126426460304
+  advcm_change_counties_to_marked_character_culture_tt: "표시된 인물들의 영지를 그들의 문화로 변경합니다." # 13370866342295071446
+  advcm_change_to_my_religion: "내 신앙으로 개종하기" # 3844276270987522424
+  advcm_change_to_my_religion_tt: "다른 인물들을 당신의 종교로 개종시키기" # 11159089708337998082
+  advcm_change_counties_to_my_religion: "내 신앙으로 백작령을 바꾸시오" # 8973568149779601352
+  advcm_change_counties_to_my_religion_tt: "표시된 인물들의 영지와 그들의 종교를 당신의 종교로 변경합니다." # 432473311537816650
+  advcm_change_counties_to_marked_character_religion: "지역들을 지정된 인물의 종교로 변경" # 10003461071607609971
+  advcm_change_counties_to_marked_character_religion_tt: "표시된 인물들의 영지를 그들의 종교로 변경합니다." # 14292508302785843329
+  advcm_innovation_menu_title: "[GetPlayer.MakeScope.Var('selected_culture').Culture.GetNameNoTooltip] 문화 편집기 메뉴" # 4985110760212111547
+  advcm_tradition_warning: "@warning_icon! #N 이 전통은 DLC가 필요하거나 디버그용입니다.!" # 17868941560044716631
+  advcm_traits_tt: "특성 메뉴 열기" # 13013442039608121817
+  advcm_perkpoints_tt: "특전 점수 메뉴 열기" # 13676445420591811679
+  advcm_skills_tt: "기술 메뉴 열기" # 13108657757426795768
+  advcm_culture_tt: "문화 메뉴 열기" # 2165297796334721150
+  advcm_religion_tt: "종교 메뉴 열기" # 8541128026590323519
+  advcm_character_tt: "인물 생성기 메뉴 열기" # 17139890182930963328
+  advcm_modifiers_tt: "특성 메뉴 열기" # 10084353857798589741
+  advcm_sexuality_tt: "개방적 성생활 메뉴 열기" # 17809487188483349018
+  advcm_marked_characters: "표시된 인물들" # 5837170541645543812
+  advcm_marked_characters_tt: "표시된 인물 메뉴 열기" # 16996923688243426094
+  advcm_title_tt: "타이틀 메뉴 열기" # 16751801219543820962
+  advcm_title_menu_title: "작위" # 17162445776272168440
+  advcm_artifacts_tt: "유물 메뉴 열기" # 626076356427727531
+  advcm_increase_control: "영지 통치력 증가" # 8635071049162553299
+  advcm_increase_control_tt: "표시된 인물들의 봉토의 치안 수준을 100으로 높입니다." # 5542685742077894407
+  advcm_increase_development: "개발도 증가" # 10951833404414077224
+  advcm_increase_development_tt: "표시된 인물들의 봉토의 발전을 100으로 증가시키십시오." # 14332857214685966365
+  advcm_clear_marks: "모든 표시 지우기" # 10252699691837583152
+  advcm_clear_marks_tt: "왼쪽 클릭으로 모든 표시 지우기" # 17209535744504335377
+  advcm_debug_mode: "디버그 모드" # 17576418105125226890
+  advcm_debug_mode_tt: "디버그 모드 활성화/비활성화" # 4353156983304665759
+  advcm_increment: "증가량: [GetGlobalVariable('advcm_increment_value').GetValue]" # 1675117468850911796
+  advcm_increment_tt: "감소 또는 증가시킬 양" # 2626296439477209412
+  advcm_age: "나이: [Character.GetAge|0]" # 1888484600706997727
+  advcm_weight: "무게: [Character.GetCurrentWeight|0]" # 4051888453355447541
+  advcm_kill_tt: "이 인물을 처단하십시오" # 17170592367340302913
+  advcm_tributary_tt: "이 인물을 당신의 속국으로 만드시오" # 17414931990517471463
+  advcm_spawn_army_tt: "[GetGlobalVariable('advcm_increment_value').GetValue|0] 규모의 군대를 소환합니다." # 7429854701420401095
+  advcm_diplo_pp_tt: "좌클릭: 외교 특성 점수 1점 추가, 우클릭: 외교 특성 점수 1점 제거" # 4255148419252956697
+  advcm_martial_pp_tt: "좌클릭: 전투 특성 점수 1점 추가, 우클릭: 전투 특성 점수 1점 제거" # 14243864278322595210
+  advcm_stewardship_pp_tt: "좌클릭: 관리력 특성 점수 1점 추가, 우클릭: 관리력 특성 점수 1점 제거" # 6625315425184654797
+  advcm_intrigue_pp_tt: "좌클릭: 음모 특성 점수 1점 추가, 우클릭: 음모 특성 점수 1점 제거" # 16188164712078519919
+  advcm_learning_pp_tt: "좌클릭: 학문 특성 포인트 1점 추가, 우클릭: 학문 특성 포인트 1점 제거" # 13088357739896485373
+  advcm_wanderer_pp_tt: "좌클릭: 방랑 특성 점수 1점 추가, 우클릭: 방랑 특성 점수 1점 제거" # 9858838458585612826
+  advcm_show_key: "키 표시" # 14711943791341194194
+  advcm_show_owned_titles: "보유 작위 보기" # 3182370061127288996
+  advcm_empires: "제국들" # 14468802408961668715
+  advcm_kingdoms: "왕국들" # 13917061428188955182
+  advcm_duchies: "공작령들" # 2503023583693737583
+  advcm_counties: "백작령들" # 712769083973754484
+  advcm_add_strong_claim_tt: "강력한 영유권 추가" # 16778526539821858702
+  advcm_add_weak_claim_tt: "약한 명분 추가" # 15553428503968274905
+  advcm_take_title_tt: "작위 획득" # 18388992558124929967
+  advcm_destroy_title_tt: "직위 파괴" # 1410310351869363182
+  advcm_physical_traits_tt: "신체적 특성 보기" # 15738100092990833013
+  advcm_education_traits_tt: "교육 특성 표시" # 1583228432086869223
+  advcm_commander_traits_tt: "지휘관 특성 보기" # 5485978304967471847
+  advcm_lifestyle_traits_tt: "생활 방식 특성 보기" # 7532582432109294434
+  advcm_personality_traits_tt: "성격 특성 보기" # 15520929020560297584
+  advcm_health_traits_tt: "건강 특성 보기" # 12803500919008641117
+  advcm_fame_traits_tt: "명성 특성 표시" # 11783952941970669793
+  advcm_other_traits_tt: "다른 특성 보이기" # 14329731993017238058
+  advcm_trait_button_tt: "왼쪽 클릭하여 추가, 오른쪽 클릭하여 제거" # 12239048693835065232
+  ADVCM_STRESS_TOOLTIP: "#T [stress_level|E]: [Character.GetStressLevel|V]/[GetDefine('NCharacter', 'MAX_STRESS_LEVEL')|V]\n#![ConcatIfNeitherEmpty('#S 효과:#!\n', Character.StressLevelEffect )]\n[AddTextIf(Not(StringIsEmpty(Character.StressLevelEffect)), '\n')]#S [stress|E]: [stress_i][Character.GetStress|V]/[GetMaxStress|V]#!\n[Character.StressProgressDesc]" # 16952871028083031176
+  advcm_skill_diplomacy_tt: "#P 좌클릭:#! #P [GetPlayer.MakeScope.Var('advcm_diplomacy_value').GetValue|0] #![diplomacy|E] 추가 \n#N 우클릭:#! #N [GetPlayer.MakeScope.Var('advcm_diplomacy_value').GetValue|0]#! [diplomacy|E] 제거" # 8621632394345316504
+  advcm_skill_martial_tt: "#P 좌클릭:#! #P [GetPlayer.MakeScope.Var('advcm_martial_value').GetValue|0] #![martial|E] 추가 \n#N 우클릭:#! #N [GetPlayer.MakeScope.Var('advcm_martial_value').GetValue|0]#! [martial|E] 제거" # 13283970611903629601
+  advcm_skill_stewardship_tt: "#P 좌클릭:#! #P [GetPlayer.MakeScope.Var('advcm_stewardship_value').GetValue|0] #![stewardship|E] 추가 \n#N 우클릭:#! #N [GetPlayer.MakeScope.Var('advcm_stewardship_value').GetValue|0]#! [stewardship|E] 제거" # 6638477293882043146
+  advcm_skill_intrigue_tt: "#P 좌클릭:#! #P [GetPlayer.MakeScope.Var('advcm_intrigue_value').GetValue|0] #![intrigue|E] 추가 \n#N 우클릭:#! #N [GetPlayer.MakeScope.Var('advcm_intrigue_value').GetValue|0]#! [intrigue|E] 제거" # 15655934988806490979
+  advcm_skill_learning_tt: "#P 좌클릭:#! #P [GetPlayer.MakeScope.Var('advcm_learning_value').GetValue|0] #![learning|E] 추가 \n#N 우클릭:#! #N [GetPlayer.MakeScope.Var('advcm_learning_value').GetValue|0]#! [learning|E] 제거" # 12655952205360819868
+  advcm_skill_prowess_tt: "#P 좌클릭:#! #P [GetPlayer.MakeScope.Var('advcm_prowess_value').GetValue|0] #![prowess|E] 추가 \n#N 우클릭:#! #N [GetPlayer.MakeScope.Var('advcm_prowess_value').GetValue|0]#! [prowess|E] 제거" # 5932454473935652840
+  advcm_select_character: "인물 선택을 위해 클릭하십시오" # 9332360880333359093
+  advcm_select_character_alternate: "인물 선택" # 6001993377813451038
+  advcm_destroy_artifact_tt: "#T 유물 파괴#" # 6028260759978838375
+  advcm_edit_artifact_tt: "#T 유물 편집" # 16253749983956951545
+  advcm_artifact_list: "목록" # 6740096783212522605
+  advcm_arifact_list_title: "유물 목록" # 12566003366019717928
+  advcm_artifact_create_tt: "선택된 인물을 위한 유물 제작을 클릭하십시오." # 13032783738930456176
+  advcm_mark_character: "이 인물을 표시합니다" # 10148484166970408396
+  advcm_mark_vassals: "이 인물의 봉신들을 표시" # 11431557536069849234
+  advcm_mark_courtiers: "이 인물의 궁신들을 표시하십시오" # 9133722975014597436
+  advcm_mark_councillors: "이 인물의 평의회 구성원을 표시하십시오" # 16207432191582086900
+  advcm_mark_house: "이 인물과 이 인물의 가문 구성원을 표시하십시오." # 12059714547222526018
+  advcm_mark_dynasty: "이 인물과 이 인물의 왕조 구성원을 지정합니다." # 14917281838657093505
+  advcm_mods: "모드들" # 8193558555240689147
+  advcm_legion: "ADVCM 군단" # 2171751480221474857
+  actor_secondary_advcm_marry_off_interaction: "$actor_secondary_marry_off_interaction$" # 14329508413691808964
+  advcm_marriage_tt: "이 인물과 결혼하려면 클릭하십시오.\n비활성화되어 있다면 이 인물은 결혼할 수 없음을 의미합니다." # 13103105232759183188
+  advcm_axe_loc: "$motto_axe$" # 3761300924913265767
+  advcm_dagger_loc: "단검" # 5255772577967829934
+  advcm_hammer_loc: "$motto_hammer$" # 5865125122502144647
+  advcm_mace_loc: "$generatepoem_title_mace$" # 1700324147408929845
+  advcm_spear_loc: "$motto_spear$" # 11494600466304657630
+  advcm_sword_loc: "$motto_sword_word$" # 4770434995234218750
+  advcm_longsword_loc: "장검" # 17708262307240322061
+  advcm_sassanian_sword_loc: "$artifact_sassanian_sword_name$" # 14781174180540713300
+  advcm_bow_loc: "$motto_bow$" # 12416120101983739514
+  advcm_longbow_loc: "장궁" # 15927125333593013969
+  advcm_composite_bow_loc: "복합궁" # 10185510458606643628
+  advcm_crossbow_loc: "석궁" # 10246672697678070815
+  advcm_armor_loc: "$artifact_armor$" # 14226317301135967789
+  advcm_crown_loc: "$artifact_crown$" # 12584464376244346735
+  advcm_regalia_loc: "$artifact_regalia$" # 5413372917667225524
+  advcm_necklace_loc: "목걸이" # 11918026084554559404
+  advcm_brooch_loc: "브로치" # 11040610029531398868
+  advcm_small_shield_loc: "작은 방패" # 14905858449467791598
+  advcm_large_shield_loc: "큰 방패" # 9275190700104272773
+  advcm_tapestry_loc: "$artifact_tapestry$" # 4508766145191567518
+  advcm_throne_loc: "$artifact_throne$" # 7168534276150532468
+  advcm_small_box_loc: "작은 상자" # 12022475890622390326
+  advcm_medium_box_loc: "중간 상자" # 850989870955861725
+  advcm_goblet_loc: "술잔" # 10643794986569892212
+  advcm_cabinet_loc: "내각" # 5938625136258340261
+  advcm_chest_loc: "가슴" # 12863903649040785103
+  advcm_divan_loc: "디반" # 7058218525888086946
+  advcm_table_loc: "표" # 4385463537559970001
+  advcm_common_loc: "일반" # 9623056462206236233
+  advcm_masterwork_loc: "#color_dark_green $masterwork$" # 15333522650887798352
+  advcm_famed_loc: "#color_light_blue $famed$" # 14681929833783829250
+  advcm_illustrious_loc: "#D $illustrious$#" # 9755410540399903103
+  advcm_diplomacy_loc: "외교: [diplomacy_i]" # 4260369558047005033
+  advcm_diplomacy_loc1: "$advcm_diplomacy_loc$ [GetPlayer.MakeScope.Var('advcm_modifier1_value').GetValue|=+0]" # 937801913130813050
+  advcm_diplomacy_loc2: "$advcm_diplomacy_loc$ [GetPlayer.MakeScope.Var('advcm_modifier2_value').GetValue|=+0]" # 12768332340783817646
+  advcm_diplomacy_loc3: "$advcm_diplomacy_loc$ [GetPlayer.MakeScope.Var('advcm_modifier3_value').GetValue|=+0]" # 18250210931525568649
+  advcm_diplomacy_loc4: "$advcm_diplomacy_loc$ [GetPlayer.MakeScope.Var('advcm_modifier4_value').GetValue|=+0]" # 8441781523024717277
+  advcm_martial_loc: "무력: [martial_i]" # 8515394620181109862
+  advcm_martial_loc1: "$advcm_martial_loc$ [GetPlayer.MakeScope.Var('advcm_modifier1_value').GetValue|=+0]" # 1036096636400726902
+  advcm_martial_loc2: "$advcm_martial_loc$ [GetPlayer.MakeScope.Var('advcm_modifier2_value').GetValue|=+0]" # 17114224183310806856
+  advcm_martial_loc3: "$advcm_martial_loc$ [GetPlayer.MakeScope.Var('advcm_modifier3_value').GetValue|=+0]" # 17575423227750281808
+  advcm_martial_loc4: "$advcm_martial_loc$ [GetPlayer.MakeScope.Var('advcm_modifier4_value').GetValue|=+0]" # 7136834662416606883
+  advcm_stewardship_loc: "관리력: [stewardship_i]" # 6169513004419563087
+  advcm_stewardship_loc1: "$advcm_stewardship_loc$ [GetPlayer.MakeScope.Var('advcm_modifier1_value').GetValue|=+0]" # 15103679340796718144
+  advcm_stewardship_loc2: "$advcm_stewardship_loc$ [GetPlayer.MakeScope.Var('advcm_modifier2_value').GetValue|=+0]" # 14067421208103807248
+  advcm_stewardship_loc3: "$advcm_stewardship_loc$ [GetPlayer.MakeScope.Var('advcm_modifier3_value').GetValue|=+0]" # 14041210856927822009
+  advcm_stewardship_loc4: "$advcm_stewardship_loc$ [GetPlayer.MakeScope.Var('advcm_modifier4_value').GetValue|=+0]" # 10644230290635115397
+  advcm_intrigue_loc: "음모: [intrigue_i]" # 11758626627012369763
+  advcm_intrigue_loc1: "$advcm_intrigue_loc$ [GetPlayer.MakeScope.Var('advcm_modifier1_value').GetValue|=+0]" # 14440100988644541576
+  advcm_intrigue_loc2: "$advcm_intrigue_loc$ [GetPlayer.MakeScope.Var('advcm_modifier2_value').GetValue|=+0]" # 9086055963300393949
+  advcm_intrigue_loc3: "$advcm_intrigue_loc$ [GetPlayer.MakeScope.Var('advcm_modifier3_value').GetValue|=+0]" # 15840801988208112845
+  advcm_intrigue_loc4: "$advcm_intrigue_loc$ [GetPlayer.MakeScope.Var('advcm_modifier4_value').GetValue|=+0]" # 3415775580146752819
+  advcm_learning_loc: "학문: [learning_i]" # 11144250088888170042
+  advcm_learning_loc1: "$advcm_learning_loc$ [GetPlayer.MakeScope.Var('advcm_modifier1_value').GetValue|=+0]" # 14229653276299483081
+  advcm_learning_loc2: "$advcm_learning_loc$ [GetPlayer.MakeScope.Var('advcm_modifier2_value').GetValue|=+0]" # 911528268333295697
+  advcm_learning_loc3: "$advcm_learning_loc$ [GetPlayer.MakeScope.Var('advcm_modifier3_value').GetValue|=+0]" # 10575764783552365096
+  advcm_learning_loc4: "$advcm_learning_loc$ [GetPlayer.MakeScope.Var('advcm_modifier4_value').GetValue|=+0]" # 2432804075197655322
+  advcm_prowess_loc: "무력: [prowess_i]" # 9961947753783642986
+  advcm_prowess_loc1: "$advcm_prowess_loc$ [GetPlayer.MakeScope.Var('advcm_modifier1_value').GetValue|=+0]" # 5963690484607154716
+  advcm_prowess_loc2: "$advcm_prowess_loc$ [GetPlayer.MakeScope.Var('advcm_modifier2_value').GetValue|=+0]" # 13711887800569106291
+  advcm_prowess_loc3: "$advcm_prowess_loc$ [GetPlayer.MakeScope.Var('advcm_modifier3_value').GetValue|=+0]" # 2415727322938912861
+  advcm_prowess_loc4: "$advcm_prowess_loc$ [GetPlayer.MakeScope.Var('advcm_modifier4_value').GetValue|=+0]" # 1448897184940704611
+  advcm_knight_effectiveness_loc: "여기사 효율: [knight_i]" # 5961515184000836882
+  advcm_knight_effectiveness_loc1: "$advcm_knight_effectiveness_loc$ [Multiply_float(FixedPointToFloat(GetPlayer.MakeScope.Var('advcm_modifier1_value').GetValue), '(float)0.01')|=+%0]" # 11853118319655836864
+  advcm_knight_effectiveness_loc2: "$advcm_knight_effectiveness_loc$ [Multiply_float(FixedPointToFloat(GetPlayer.MakeScope.Var('advcm_modifier2_value').GetValue), '(float)0.01')|=+%0]" # 13855487274035351952
+  advcm_knight_effectiveness_loc3: "$advcm_knight_effectiveness_loc$ [Multiply_float(FixedPointToFloat(GetPlayer.MakeScope.Var('advcm_modifier3_value').GetValue), '(float)0.01')|=+%0]" # 3772385127205894673
+  advcm_knight_effectiveness_loc4: "$advcm_knight_effectiveness_loc$ [Multiply_float(FixedPointToFloat(GetPlayer.MakeScope.Var('advcm_modifier4_value').GetValue), '(float)0.01')|=+%0]" # 3603984220506329303
+  advcm_knight_limit_loc: "[knight_i] 기사의 수:" # 4333824110930941971
+  advcm_knight_limit_loc1: "$advcm_knight_limit_loc$ [GetPlayer.MakeScope.Var('advcm_modifier1_value').GetValue|=+0]" # 69015989457271378
+  advcm_knight_limit_loc2: "$advcm_knight_limit_loc$ [GetPlayer.MakeScope.Var('advcm_modifier2_value').GetValue|=+0]" # 12615265116526860332
+  advcm_knight_limit_loc3: "$advcm_knight_limit_loc$ [GetPlayer.MakeScope.Var('advcm_modifier3_value').GetValue|=+0]" # 15923743455962856766
+  advcm_knight_limit_loc4: "$advcm_knight_limit_loc$ [GetPlayer.MakeScope.Var('advcm_modifier4_value').GetValue|=+0]" # 17886120905374722023
+  advcm_tolerance_advantage_loc: "[command_modifier_i] 신앙 적대감 이점: @advantage_icon!" # 14213942569281042714
+  advcm_tolerance_advantage_loc1: "$advcm_tolerance_advantage_loc$ [GetPlayer.MakeScope.Var('advcm_modifier1_value').GetValue|=+0]" # 3938501685735458268
+  advcm_tolerance_advantage_loc2: "$advcm_tolerance_advantage_loc$ [GetPlayer.MakeScope.Var('advcm_modifier2_value').GetValue|=+0]" # 16149507003198709135
+  advcm_tolerance_advantage_loc3: "$advcm_tolerance_advantage_loc$ [GetPlayer.MakeScope.Var('advcm_modifier3_value').GetValue|=+0]" # 905783331144274240
+  advcm_tolerance_advantage_loc4: "$advcm_tolerance_advantage_loc$ [GetPlayer.MakeScope.Var('advcm_modifier4_value').GetValue|=+0]" # 7402978869088606887
+  advcm_controlled_province_advantage_loc: "통제 영토 방어자 우위: @advantage_icon!" # 8292183311908414578
+  advcm_controlled_province_advantage_loc1: "$advcm_controlled_province_advantage_loc$ [GetPlayer.MakeScope.Var('advcm_modifier1_value').GetValue|=+0]" # 5318652633717207413
+  advcm_controlled_province_advantage_loc2: "$advcm_controlled_province_advantage_loc$ [GetPlayer.MakeScope.Var('advcm_modifier2_value').GetValue|=+0]" # 17185343499724436258
+  advcm_controlled_province_advantage_loc3: "$advcm_controlled_province_advantage_loc$ [GetPlayer.MakeScope.Var('advcm_modifier3_value').GetValue|=+0]" # 12520612871397422906
+  advcm_controlled_province_advantage_loc4: "$advcm_controlled_province_advantage_loc$ [GetPlayer.MakeScope.Var('advcm_modifier4_value').GetValue|=+0]" # 11023478250624339444
+  advcm_levy_reinforcement_rate_loc: "병력 보충률: [soldier_i]" # 69122159091655762
+  advcm_levy_reinforcement_rate_loc1: "$advcm_levy_reinforcement_rate_loc$ [Multiply_float(FixedPointToFloat(GetPlayer.MakeScope.Var('advcm_modifier1_value').GetValue), '(float)0.01')|=+%0]" # 5520678838275485213
+  advcm_levy_reinforcement_rate_loc2: "$advcm_levy_reinforcement_rate_loc$ [Multiply_float(FixedPointToFloat(GetPlayer.MakeScope.Var('advcm_modifier2_value').GetValue), '(float)0.01')|=+%0]" # 13178615002126191007
+  advcm_levy_reinforcement_rate_loc3: "$advcm_levy_reinforcement_rate_loc$ [Multiply_float(FixedPointToFloat(GetPlayer.MakeScope.Var('advcm_modifier3_value').GetValue), '(float)0.01')|=+%0]" # 9630775812636352599
+  advcm_levy_reinforcement_rate_loc4: "$advcm_levy_reinforcement_rate_loc$ [Multiply_float(FixedPointToFloat(GetPlayer.MakeScope.Var('advcm_modifier4_value').GetValue), '(float)0.01')|=+%0]" # 7945131816006473492
+  advcm_levy_reinforcement_rate_same_faith_loc: "징집병 충원율 (동일 신앙): [soldier_i]" # 7324132638571412850
+  advcm_levy_reinforcement_rate_same_faith_loc1: "$advcm_levy_reinforcement_rate_same_faith_loc$ [Multiply_float(FixedPointToFloat(GetPlayer.MakeScope.Var('advcm_modifier1_value').GetValue), '(float)0.01')|=+%0]" # 1999882979697586343
+  advcm_levy_reinforcement_rate_same_faith_loc2: "$advcm_levy_reinforcement_rate_same_faith_loc$ [Multiply_float(FixedPointToFloat(GetPlayer.MakeScope.Var('advcm_modifier2_value').GetValue), '(float)0.01')|=+%0]" # 13007507900772643402
+  advcm_levy_reinforcement_rate_same_faith_loc3: "$advcm_levy_reinforcement_rate_same_faith_loc$ [Multiply_float(FixedPointToFloat(GetPlayer.MakeScope.Var('advcm_modifier3_value').GetValue), '(float)0.01')|=+%0]" # 6196654692502517772
+  advcm_levy_reinforcement_rate_same_faith_loc4: "$advcm_levy_reinforcement_rate_same_faith_loc$ [Multiply_float(FixedPointToFloat(GetPlayer.MakeScope.Var('advcm_modifier4_value').GetValue), '(float)0.01')|=+%0]" # 16391863346136054950
+  advcm_raid_speed_loc: "[command_modifier_i]약탈 속도: @raid_icon!" # 18263194753473761032
+  advcm_raid_speed_loc1: "$advcm_raid_speed_loc$ [Multiply_float(FixedPointToFloat(GetPlayer.MakeScope.Var('advcm_modifier1_value').GetValue), '(float)0.01')|=+%0]" # 2473293337489458630
+  advcm_raid_speed_loc2: "$advcm_raid_speed_loc$ [Multiply_float(FixedPointToFloat(GetPlayer.MakeScope.Var('advcm_modifier2_value').GetValue), '(float)0.01')|=+%0]" # 11667868794409568416
+  advcm_raid_speed_loc3: "$advcm_raid_speed_loc$ [Multiply_float(FixedPointToFloat(GetPlayer.MakeScope.Var('advcm_modifier3_value').GetValue), '(float)0.01')|=+%0]" # 16964196762884639165
+  advcm_raid_speed_loc4: "$advcm_raid_speed_loc$ [Multiply_float(FixedPointToFloat(GetPlayer.MakeScope.Var('advcm_modifier4_value').GetValue), '(float)0.01')|=+%0]" # 16410029531994689415
+  advcm_enemy_hard_casualty_modifier_loc: "[command_modifier_i]적 치명적 사상자:" # 17405811202316992959
+  advcm_enemy_hard_casualty_modifier_loc1: "$advcm_enemy_hard_casualty_modifier_loc$ [Multiply_float(FixedPointToFloat(GetPlayer.MakeScope.Var('advcm_modifier1_value').GetValue), '(float)0.01')|=+%0]" # 256563003786842778
+  advcm_enemy_hard_casualty_modifier_loc2: "$advcm_enemy_hard_casualty_modifier_loc$ [Multiply_float(FixedPointToFloat(GetPlayer.MakeScope.Var('advcm_modifier2_value').GetValue), '(float)0.01')|=+%0]" # 14344025321156301554
+  advcm_enemy_hard_casualty_modifier_loc3: "$advcm_enemy_hard_casualty_modifier_loc$ [Multiply_float(FixedPointToFloat(GetPlayer.MakeScope.Var('advcm_modifier3_value').GetValue), '(float)0.01')|=+%0]" # 4671222275244565849
+  advcm_enemy_hard_casualty_modifier_loc4: "$advcm_enemy_hard_casualty_modifier_loc$ [Multiply_float(FixedPointToFloat(GetPlayer.MakeScope.Var('advcm_modifier4_value').GetValue), '(float)0.01')|=+%0]" # 13135863242804817482
+  advcm_hard_casualty_modifier_loc: "[command_modifier_i]우호적 사상자:" # 18032161749287518485
+  advcm_hard_casualty_modifier_loc1: "$advcm_hard_casualty_modifier_loc$ [Multiply_float(FixedPointToFloat(GetPlayer.MakeScope.Var('advcm_modifier1_value').GetValue), '(float)0.01')|=-%0]" # 8384515562273377367
+  advcm_hard_casualty_modifier_loc2: "$advcm_hard_casualty_modifier_loc$ [Multiply_float(FixedPointToFloat(GetPlayer.MakeScope.Var('advcm_modifier2_value').GetValue), '(float)0.01')|=-%0]" # 15507847643322788007
+  advcm_hard_casualty_modifier_loc3: "$advcm_hard_casualty_modifier_loc$ [Multiply_float(FixedPointToFloat(GetPlayer.MakeScope.Var('advcm_modifier3_value').GetValue), '(float)0.01')|=-%0]" # 15661504750515687989
+  advcm_hard_casualty_modifier_loc4: "$advcm_hard_casualty_modifier_loc$ [Multiply_float(FixedPointToFloat(GetPlayer.MakeScope.Var('advcm_modifier4_value').GetValue), '(float)0.01')|=-%0]" # 16561002398635437743
+  advcm_heavy_cavalry_toughness_loc: "중기병 강인함: @toughness_icon!" # 5238421312371080858
+  advcm_heavy_cavalry_toughness_mult_loc1: "$advcm_heavy_cavalry_toughness_loc$ [Multiply_float(FixedPointToFloat(GetPlayer.MakeScope.Var('advcm_modifier1_value').GetValue), '(float)0.01')|=+%0]" # 6123534515904109617
+  advcm_heavy_cavalry_toughness_mult_loc2: "$advcm_heavy_cavalry_toughness_loc$ [Multiply_float(FixedPointToFloat(GetPlayer.MakeScope.Var('advcm_modifier2_value').GetValue), '(float)0.01')|=+%0]" # 17506499727015014546
+  advcm_heavy_cavalry_toughness_mult_loc3: "$advcm_heavy_cavalry_toughness_loc$ [Multiply_float(FixedPointToFloat(GetPlayer.MakeScope.Var('advcm_modifier3_value').GetValue), '(float)0.01')|=+%0]" # 7772232613088251268
+  advcm_heavy_cavalry_toughness_mult_loc4: "$advcm_heavy_cavalry_toughness_loc$ [Multiply_float(FixedPointToFloat(GetPlayer.MakeScope.Var('advcm_modifier4_value').GetValue), '(float)0.01')|=+%0]" # 14549390097686296364
+  advcm_heavy_infantry_toughness_loc: "중장 보병 강인함: @toughness_icon!" # 7153048413732196172
+  advcm_heavy_infantry_toughness_mult_loc1: "$advcm_heavy_infantry_toughness_loc$ [Multiply_float(FixedPointToFloat(GetPlayer.MakeScope.Var('advcm_modifier1_value').GetValue), '(float)0.01')|=+%0]" # 72195665317111713
+  advcm_heavy_infantry_toughness_mult_loc2: "$advcm_heavy_infantry_toughness_loc$ [Multiply_float(FixedPointToFloat(GetPlayer.MakeScope.Var('advcm_modifier2_value').GetValue), '(float)0.01')|=+%0]" # 4451957299903474610
+  advcm_heavy_infantry_toughness_mult_loc3: "$advcm_heavy_infantry_toughness_loc$ [Multiply_float(FixedPointToFloat(GetPlayer.MakeScope.Var('advcm_modifier3_value').GetValue), '(float)0.01')|=+%0]" # 1835935394537153813
+  advcm_heavy_infantry_toughness_mult_loc4: "$advcm_heavy_infantry_toughness_loc$ [Multiply_float(FixedPointToFloat(GetPlayer.MakeScope.Var('advcm_modifier4_value').GetValue), '(float)0.01')|=+%0]" # 16199410458777011685
+  advcm_plains_advantage_loc: "[command_modifier_i] 평원에서 이점: @advantage_icon!" # 11817533799661294559
+  advcm_plains_advantage_loc1: "$advcm_plains_advantage_loc$ [GetPlayer.MakeScope.Var('advcm_modifier1_value').GetValue|=+0]" # 2627217774510045236
+  advcm_plains_advantage_loc2: "$advcm_plains_advantage_loc$ [GetPlayer.MakeScope.Var('advcm_modifier2_value').GetValue|=+0]" # 9894291450203076210
+  advcm_plains_advantage_loc3: "$advcm_plains_advantage_loc$ [GetPlayer.MakeScope.Var('advcm_modifier3_value').GetValue|=+0]" # 10718541630042218002
+  advcm_plains_advantage_loc4: "$advcm_plains_advantage_loc$ [GetPlayer.MakeScope.Var('advcm_modifier4_value').GetValue|=+0]" # 15497423276704527121
+  advcm_farmlands_advantage_loc: "[command_modifier_i] 농경지 이점: @advantage_icon!" # 15864132145883861468
+  advcm_farmlands_advantage_loc1: "$advcm_farmlands_advantage_loc$ [GetPlayer.MakeScope.Var('advcm_modifier1_value').GetValue|=+0]" # 12009089592559305693
+  advcm_farmlands_advantage_loc2: "$advcm_farmlands_advantage_loc$ [GetPlayer.MakeScope.Var('advcm_modifier2_value').GetValue|=+0]" # 6330884193119351266
+  advcm_farmlands_advantage_loc3: "$advcm_farmlands_advantage_loc$ [GetPlayer.MakeScope.Var('advcm_modifier3_value').GetValue|=+0]" # 10177075629395955029
+  advcm_farmlands_advantage_loc4: "$advcm_farmlands_advantage_loc$ [GetPlayer.MakeScope.Var('advcm_modifier4_value').GetValue|=+0]" # 8478767260975565449
+  advcm_hills_advantage_loc: "[command_modifier_i] 언덕 지형 이점: @advantage_icon!" # 9944908867509432375
+  advcm_hills_advantage_loc1: "$advcm_hills_advantage_loc$ [GetPlayer.MakeScope.Var('advcm_modifier1_value').GetValue|=+0]" # 1342260648919500421
+  advcm_hills_advantage_loc2: "$advcm_hills_advantage_loc$ [GetPlayer.MakeScope.Var('advcm_modifier2_value').GetValue|=+0]" # 12042484570140469966
+  advcm_hills_advantage_loc3: "$advcm_hills_advantage_loc$ [GetPlayer.MakeScope.Var('advcm_modifier3_value').GetValue|=+0]" # 261988056430221509
+  advcm_hills_advantage_loc4: "$advcm_hills_advantage_loc$ [GetPlayer.MakeScope.Var('advcm_modifier4_value').GetValue|=+0]" # 9286199200627526685
+  advcm_mountains_advantage_loc: "[command_modifier_i] 산악 지형 이점: @advantage_icon!" # 93719072029737974
+  advcm_mountains_advantage_loc1: "$advcm_mountains_advantage_loc$ [GetPlayer.MakeScope.Var('advcm_modifier1_value').GetValue|=+0]" # 16680950070264519390
+  advcm_mountains_advantage_loc2: "$advcm_mountains_advantage_loc$ [GetPlayer.MakeScope.Var('advcm_modifier2_value').GetValue|=+0]" # 8366589027645167439
+  advcm_mountains_advantage_loc3: "$advcm_mountains_advantage_loc$ [GetPlayer.MakeScope.Var('advcm_modifier3_value').GetValue|=+0]" # 17062800769835522796
+  advcm_mountains_advantage_loc4: "$advcm_mountains_advantage_loc$ [GetPlayer.MakeScope.Var('advcm_modifier4_value').GetValue|=+0]" # 1624308585584203068
+  advcm_desert_advantage_loc: "[command_modifier_i] 사막에서의 이점: @advantage_icon!" # 15864412794018865787
+  advcm_desert_advantage_loc1: "$advcm_desert_advantage_loc$ [GetPlayer.MakeScope.Var('advcm_modifier1_value').GetValue|=+0]" # 4255157383902784923
+  advcm_desert_advantage_loc2: "$advcm_desert_advantage_loc$ [GetPlayer.MakeScope.Var('advcm_modifier2_value').GetValue|=+0]" # 18285957139222478838
+  advcm_desert_advantage_loc3: "$advcm_desert_advantage_loc$ [GetPlayer.MakeScope.Var('advcm_modifier3_value').GetValue|=+0]" # 229643407367986830
+  advcm_desert_advantage_loc4: "$advcm_desert_advantage_loc$ [GetPlayer.MakeScope.Var('advcm_modifier4_value').GetValue|=+0]" # 3626027995174993784
+  advcm_desert_mountains_advantage_loc: "[command_modifier_i] 사막 산악 지형에서의 이점: @advantage_icon!" # 7102825981397676322
+  advcm_desert_mountains_advantage_loc1: "$advcm_desert_mountains_advantage_loc$ [GetPlayer.MakeScope.Var('advcm_modifier1_value').GetValue|=+0]" # 1113379035521163054
+  advcm_desert_mountains_advantage_loc2: "$advcm_desert_mountains_advantage_loc$ [GetPlayer.MakeScope.Var('advcm_modifier2_value').GetValue|=+0]" # 16309874831862746626
+  advcm_desert_mountains_advantage_loc3: "$advcm_desert_mountains_advantage_loc$ [GetPlayer.MakeScope.Var('advcm_modifier3_value').GetValue|=+0]" # 10946717883053803586
+  advcm_desert_mountains_advantage_loc4: "$advcm_desert_mountains_advantage_loc$ [GetPlayer.MakeScope.Var('advcm_modifier4_value').GetValue|=+0]" # 5079490070743926746
+  advcm_oasis_advantage_loc: "[command_modifier_i] 오아시스에서의 이점: @advantage_icon!" # 10064357718937268565
+  advcm_oasis_advantage_loc1: "$advcm_oasis_advantage_loc$ [GetPlayer.MakeScope.Var('advcm_modifier1_value').GetValue|=+0]" # 9357395315032070873
+  advcm_oasis_advantage_loc2: "$advcm_oasis_advantage_loc$ [GetPlayer.MakeScope.Var('advcm_modifier2_value').GetValue|=+0]" # 11489079231450987483
+  advcm_oasis_advantage_loc3: "$advcm_oasis_advantage_loc$ [GetPlayer.MakeScope.Var('advcm_modifier3_value').GetValue|=+0]" # 6983364170178531111
+  advcm_oasis_advantage_loc4: "$advcm_oasis_advantage_loc$ [GetPlayer.MakeScope.Var('advcm_modifier4_value').GetValue|=+0]" # 3972249446213541949
+  advcm_jungle_advantage_loc: "[command_modifier_i] 정글에서의 이점: @advantage_icon!" # 12277735701778196876
+  advcm_jungle_advantage_loc1: "$advcm_jungle_advantage_loc$ [GetPlayer.MakeScope.Var('advcm_modifier1_value').GetValue|=+0]" # 17567868672688820480
+  advcm_jungle_advantage_loc2: "$advcm_jungle_advantage_loc$ [GetPlayer.MakeScope.Var('advcm_modifier2_value').GetValue|=+0]" # 5732281892448667332
+  advcm_jungle_advantage_loc3: "$advcm_jungle_advantage_loc$ [GetPlayer.MakeScope.Var('advcm_modifier3_value').GetValue|=+0]" # 138647805045423917
+  advcm_jungle_advantage_loc4: "$advcm_jungle_advantage_loc$ [GetPlayer.MakeScope.Var('advcm_modifier4_value').GetValue|=+0]" # 9003440730907079465
+  advcm_forest_advantage_loc: "[command_modifier_i] 숲에서의 이점: @advantage_icon!" # 5398373915438150481
+  advcm_forest_advantage_loc1: "$advcm_forest_advantage_loc$ [GetPlayer.MakeScope.Var('advcm_modifier1_value').GetValue|=+0]" # 15787989047034227673
+  advcm_forest_advantage_loc2: "$advcm_forest_advantage_loc$ [GetPlayer.MakeScope.Var('advcm_modifier2_value').GetValue|=+0]" # 16508161014230089420
+  advcm_forest_advantage_loc3: "$advcm_forest_advantage_loc$ [GetPlayer.MakeScope.Var('advcm_modifier3_value').GetValue|=+0]" # 7092089986413530378
+  advcm_forest_advantage_loc4: "$advcm_forest_advantage_loc$ [GetPlayer.MakeScope.Var('advcm_modifier4_value').GetValue|=+0]" # 11476762243588471554
+  advcm_taiga_advantage_loc: "[command_modifier_i] 타이가에서의 이점: @advantage_icon!" # 16701525182946089681
+  advcm_taiga_advantage_loc1: "$advcm_taiga_advantage_loc$ [GetPlayer.MakeScope.Var('advcm_modifier1_value').GetValue|=+0]" # 6852214807748234460
+  advcm_taiga_advantage_loc2: "$advcm_taiga_advantage_loc$ [GetPlayer.MakeScope.Var('advcm_modifier2_value').GetValue|=+0]" # 854223214201081214
+  advcm_taiga_advantage_loc3: "$advcm_taiga_advantage_loc$ [GetPlayer.MakeScope.Var('advcm_modifier3_value').GetValue|=+0]" # 4255712473810462868
+  advcm_taiga_advantage_loc4: "$advcm_taiga_advantage_loc$ [GetPlayer.MakeScope.Var('advcm_modifier4_value').GetValue|=+0]" # 15981910477203642512
+  advcm_wetlands_advantage_loc: "[command_modifier_i] 습지에서의 이점: @advantage_icon!" # 13641864135021644016
+  advcm_wetlands_advantage_loc1: "$advcm_wetlands_advantage_loc$ [GetPlayer.MakeScope.Var('advcm_modifier1_value').GetValue|=+0]" # 16634685383621026634
+  advcm_wetlands_advantage_loc2: "$advcm_wetlands_advantage_loc$ [GetPlayer.MakeScope.Var('advcm_modifier2_value').GetValue|=+0]" # 9439228048652092424
+  advcm_wetlands_advantage_loc3: "$advcm_wetlands_advantage_loc$ [GetPlayer.MakeScope.Var('advcm_modifier3_value').GetValue|=+0]" # 17403265410769852365
+  advcm_wetlands_advantage_loc4: "$advcm_wetlands_advantage_loc$ [GetPlayer.MakeScope.Var('advcm_modifier4_value').GetValue|=+0]" # 5543302878364050991
+  advcm_steppe_advantage_loc: "[command_modifier_i] 초원에서의 이점: @advantage_icon!" # 13783346998083811991
+  advcm_steppe_advantage_loc1: "$advcm_steppe_advantage_loc$ [GetPlayer.MakeScope.Var('advcm_modifier1_value').GetValue|=+0]" # 10692952209593330233
+  advcm_steppe_advantage_loc2: "$advcm_steppe_advantage_loc$ [GetPlayer.MakeScope.Var('advcm_modifier2_value').GetValue|=+0]" # 7084603704270827381
+  advcm_steppe_advantage_loc3: "$advcm_steppe_advantage_loc$ [GetPlayer.MakeScope.Var('advcm_modifier3_value').GetValue|=+0]" # 524654500472585851
+  advcm_steppe_advantage_loc4: "$advcm_steppe_advantage_loc$ [GetPlayer.MakeScope.Var('advcm_modifier4_value').GetValue|=+0]" # 15994249414899959058
+  advcm_floodplains_advantage_loc: "[command_modifier_i] 범람원에서 이점: @advantage_icon!" # 16485708336547926840
+  advcm_floodplains_advantage_loc1: "$advcm_floodplains_advantage_loc$ [GetPlayer.MakeScope.Var('advcm_modifier1_value').GetValue|=+0]" # 3154127010033045212
+  advcm_floodplains_advantage_loc2: "$advcm_floodplains_advantage_loc$ [GetPlayer.MakeScope.Var('advcm_modifier2_value').GetValue|=+0]" # 968021075384102129
+  advcm_floodplains_advantage_loc3: "$advcm_floodplains_advantage_loc$ [GetPlayer.MakeScope.Var('advcm_modifier3_value').GetValue|=+0]" # 472556043420543985
+  advcm_floodplains_advantage_loc4: "$advcm_floodplains_advantage_loc$ [GetPlayer.MakeScope.Var('advcm_modifier4_value').GetValue|=+0]" # 11901742554474714137
+  advcm_drylands_advantage_loc: "[command_modifier_i] 건조 지대 이점: @advantage_icon!" # 2262832926795983862
+  advcm_drylands_advantage_loc1: "$advcm_drylands_advantage_loc$ [GetPlayer.MakeScope.Var('advcm_modifier1_value').GetValue|=+0]" # 2869873850377017199
+  advcm_drylands_advantage_loc2: "$advcm_drylands_advantage_loc$ [GetPlayer.MakeScope.Var('advcm_modifier2_value').GetValue|=+0]" # 8912956000923378324
+  advcm_drylands_advantage_loc3: "$advcm_drylands_advantage_loc$ [GetPlayer.MakeScope.Var('advcm_modifier3_value').GetValue|=+0]" # 16922342848279463188
+  advcm_drylands_advantage_loc4: "$advcm_drylands_advantage_loc$ [GetPlayer.MakeScope.Var('advcm_modifier4_value').GetValue|=+0]" # 14914158265016017663
+  advcm_retreat_losses_loc: "[command_modifier_i]후퇴 손실:" # 372819383898655783
+  advcm_retreat_losses_loc1: "$advcm_retreat_losses_loc$ [Multiply_float(FixedPointToFloat(GetPlayer.MakeScope.Var('advcm_modifier1_value').GetValue), '(float)0.01')|=-%0]" # 1893001243904680689
+  advcm_retreat_losses_loc2: "$advcm_retreat_losses_loc$ [Multiply_float(FixedPointToFloat(GetPlayer.MakeScope.Var('advcm_modifier2_value').GetValue), '(float)0.01')|=-%0]" # 14011241882820008962
+  advcm_retreat_losses_loc3: "$advcm_retreat_losses_loc$ [Multiply_float(FixedPointToFloat(GetPlayer.MakeScope.Var('advcm_modifier3_value').GetValue), '(float)0.01')|=-%0]" # 18359956640090964664
+  advcm_retreat_losses_loc4: "$advcm_retreat_losses_loc$ [Multiply_float(FixedPointToFloat(GetPlayer.MakeScope.Var('advcm_modifier4_value').GetValue), '(float)0.01')|=-%0]" # 16354011367772123535
+  advcm_pursue_efficiency_loc: "[command_modifier_i]추격 효율:" # 16209037996224666922
+  advcm_pursue_efficiency_loc1: "$advcm_pursue_efficiency_loc$ [Multiply_float(FixedPointToFloat(GetPlayer.MakeScope.Var('advcm_modifier1_value').GetValue), '(float)0.01')|=+%0]" # 16890691441374463402
+  advcm_pursue_efficiency_loc2: "$advcm_pursue_efficiency_loc$ [Multiply_float(FixedPointToFloat(GetPlayer.MakeScope.Var('advcm_modifier2_value').GetValue), '(float)0.01')|=+%0]" # 12202655991522369430
+  advcm_pursue_efficiency_loc3: "$advcm_pursue_efficiency_loc$ [Multiply_float(FixedPointToFloat(GetPlayer.MakeScope.Var('advcm_modifier3_value').GetValue), '(float)0.01')|=+%0]" # 14412370349198679143
+  advcm_pursue_efficiency_loc4: "$advcm_pursue_efficiency_loc$ [Multiply_float(FixedPointToFloat(GetPlayer.MakeScope.Var('advcm_modifier4_value').GetValue), '(float)0.01')|=+%0]" # 11512990560964991873
+  advcm_monthly_prestige_loc: "월간 명성: [prestige_i]" # 16318444140643112480
+  advcm_monthly_prestige_loc1: "$advcm_monthly_prestige_loc$ [Multiply_float(FixedPointToFloat(GetPlayer.MakeScope.Var('advcm_modifier1_value').GetValue), '(float)0.01')|=+2] /달" # 3090736300935060836
+  advcm_monthly_prestige_loc2: "$advcm_monthly_prestige_loc$ [Multiply_float(FixedPointToFloat(GetPlayer.MakeScope.Var('advcm_modifier2_value').GetValue), '(float)0.01')|=+2]/month" # 1157560583539260115
+  advcm_monthly_prestige_loc3: "$advcm_monthly_prestige_loc$ [Multiply_float(FixedPointToFloat(GetPlayer.MakeScope.Var('advcm_modifier3_value').GetValue), '(float)0.01')|=+2]/달" # 15867863116296799464
+  advcm_monthly_prestige_loc4: "$advcm_monthly_prestige_loc$ [Multiply_float(FixedPointToFloat(GetPlayer.MakeScope.Var('advcm_modifier4_value').GetValue), '(float)0.01')|=+2]/month" # 14314423977807192197
+  advcm_monthly_piety_loc: "매월 신앙심: [piety_i]" # 9880273625608456295
+  advcm_monthly_piety_loc1: "$advcm_monthly_piety_loc$ [Multiply_float(FixedPointToFloat(GetPlayer.MakeScope.Var('advcm_modifier1_value').GetValue), '(float)0.01')|=+2]/month" # 14138924015432277821
+  advcm_monthly_piety_loc2: "$advcm_monthly_piety_loc$ [Multiply_float(FixedPointToFloat(GetPlayer.MakeScope.Var('advcm_modifier2_value').GetValue), '(float)0.01')|=+2]/달" # 15006298971577043236
+  advcm_monthly_piety_loc3: "$advcm_monthly_piety_loc$ [Multiply_float(FixedPointToFloat(GetPlayer.MakeScope.Var('advcm_modifier3_value').GetValue), '(float)0.01')|=+2]/month" # 13801556903680717228
+  advcm_monthly_piety_loc4: "$advcm_monthly_piety_loc$ [Multiply_float(FixedPointToFloat(GetPlayer.MakeScope.Var('advcm_modifier4_value').GetValue), '(float)0.01')|=+2]/month" # 7480442642268530336
+  advcm_monthly_dynasty_prestige_loc: "월간 명성: [dynasty_prestige_i]" # 5362459741212507288
+  advcm_monthly_dynasty_prestige_loc1: "$advcm_monthly_dynasty_prestige_loc$ [Multiply_float(FixedPointToFloat(GetPlayer.MakeScope.Var('advcm_modifier1_value').GetValue), '(float)0.01')|=+2] /달" # 15500022030112578853
+  advcm_monthly_dynasty_prestige_loc2: "$advcm_monthly_dynasty_prestige_loc$ [Multiply_float(FixedPointToFloat(GetPlayer.MakeScope.Var('advcm_modifier2_value').GetValue), '(float)0.01')|=+2]/월" # 10732330928818636461
+  advcm_monthly_dynasty_prestige_loc3: "$advcm_monthly_dynasty_prestige_loc$ [Multiply_float(FixedPointToFloat(GetPlayer.MakeScope.Var('advcm_modifier3_value').GetValue), '(float)0.01')|=+2]/month" # 16521696724112180512
+  advcm_monthly_dynasty_prestige_loc4: "$advcm_monthly_dynasty_prestige_loc$ [Multiply_float(FixedPointToFloat(GetPlayer.MakeScope.Var('advcm_modifier4_value').GetValue), '(float)0.01')|=+2]/월" # 11113328683045863463
+  advcm_short_reign_duration_mult_loc: "짧은 치세 기간:" # 15545856886313646883
+  advcm_short_reign_duration_mult_loc1: "$advcm_short_reign_duration_mult_loc$ [Multiply_float(FixedPointToFloat(GetPlayer.MakeScope.Var('advcm_modifier1_value').GetValue), '(float)0.01')|=-%0]" # 10365837227247783305
+  advcm_short_reign_duration_mult_loc2: "$advcm_short_reign_duration_mult_loc$ [Multiply_float(FixedPointToFloat(GetPlayer.MakeScope.Var('advcm_modifier2_value').GetValue), '(float)0.01')|=-%0]" # 2373562957871135521
+  advcm_short_reign_duration_mult_loc3: "$advcm_short_reign_duration_mult_loc$ [Multiply_float(FixedPointToFloat(GetPlayer.MakeScope.Var('advcm_modifier3_value').GetValue), '(float)0.01')|=-%0]" # 3392709894011953560
+  advcm_short_reign_duration_mult_loc4: "$advcm_short_reign_duration_mult_loc$ [Multiply_float(FixedPointToFloat(GetPlayer.MakeScope.Var('advcm_modifier4_value').GetValue), '(float)0.01')|=-%0]" # 490066655717568688
+  advcm_monthly_dynasty_prestige_mult_loc: "월간 명성: [dynasty_prestige_i]" # 5362459741212507288
+  advcm_monthly_dynasty_prestige_mult_loc1: "$advcm_monthly_dynasty_prestige_mult_loc$ [Multiply_float(FixedPointToFloat(GetPlayer.MakeScope.Var('advcm_modifier1_value').GetValue), '(float)0.01')|=%+0] /달" # 8838576686853629015
+  advcm_monthly_dynasty_prestige_mult_loc2: "$advcm_monthly_dynasty_prestige_mult_loc$ [Multiply_float(FixedPointToFloat(GetPlayer.MakeScope.Var('advcm_modifier2_value').GetValue), '(float)0.01')|=%+0]/달" # 7400596199044227062
+  advcm_monthly_dynasty_prestige_mult_loc3: "$advcm_monthly_dynasty_prestige_mult_loc$ [Multiply_float(FixedPointToFloat(GetPlayer.MakeScope.Var('advcm_modifier3_value').GetValue), '(float)0.01')|=%+0]/달" # 11445059382026727021
+  advcm_monthly_dynasty_prestige_mult_loc4: "$advcm_monthly_dynasty_prestige_mult_loc$ [Multiply_float(FixedPointToFloat(GetPlayer.MakeScope.Var('advcm_modifier4_value').GetValue), '(float)0.01')|=%+0]/달" # 6875156697718145293
+  advcm_court_grandeur_baseline_add_loc: "궁정 위엄 보너스:" # 668860348213549480
+  advcm_court_grandeur_baseline_add_loc1: "$advcm_court_grandeur_baseline_add_loc$ [GetPlayer.MakeScope.Var('advcm_modifier1_value').GetValue|=+0]" # 1443935499165321804
+  advcm_court_grandeur_baseline_add_loc2: "$advcm_court_grandeur_baseline_add_loc$ [GetPlayer.MakeScope.Var('advcm_modifier2_value').GetValue|=+0]" # 2861236445182040208
+  advcm_court_grandeur_baseline_add_loc3: "$advcm_court_grandeur_baseline_add_loc$ [GetPlayer.MakeScope.Var('advcm_modifier3_value').GetValue|=+0]" # 8630927977002276175
+  advcm_court_grandeur_baseline_add_loc4: "$advcm_court_grandeur_baseline_add_loc$ [GetPlayer.MakeScope.Var('advcm_modifier4_value').GetValue|=+0]" # 3186522044626933445
+  advcm_dynasty_opinion_loc: "왕조 평판:" # 9522252027222181215
+  advcm_dynasty_opinion_loc1: "$advcm_dynasty_opinion_loc$ [GetPlayer.MakeScope.Var('advcm_modifier1_value').GetValue|=+0]" # 7384966483437977549
+  advcm_dynasty_opinion_loc2: "$advcm_dynasty_opinion_loc$ [GetPlayer.MakeScope.Var('advcm_modifier2_value').GetValue|=+0]" # 5983135026552139721
+  advcm_dynasty_opinion_loc3: "$advcm_dynasty_opinion_loc$ [GetPlayer.MakeScope.Var('advcm_modifier3_value').GetValue|=+0]" # 12940416994849335108
+  advcm_dynasty_opinion_loc4: "$advcm_dynasty_opinion_loc$ [GetPlayer.MakeScope.Var('advcm_modifier4_value').GetValue|=+0]" # 7883889703359783660
+  advcm_child_opinion_loc: "자식의 의견:" # 8105224084500790685
+  advcm_child_opinion_loc1: "$advcm_child_opinion_loc$ [GetPlayer.MakeScope.Var('advcm_modifier1_value').GetValue|=+0]" # 17088734868922040829
+  advcm_child_opinion_loc2: "$advcm_child_opinion_loc$ [GetPlayer.MakeScope.Var('advcm_modifier2_value').GetValue|=+0]" # 6365926054888340482
+  advcm_child_opinion_loc3: "$advcm_child_opinion_loc$ [GetPlayer.MakeScope.Var('advcm_modifier3_value').GetValue|=+0]" # 5603220241763393950
+  advcm_child_opinion_loc4: "$advcm_child_opinion_loc$ [GetPlayer.MakeScope.Var('advcm_modifier4_value').GetValue|=+0]" # 3998077924936933936
+  advcm_spouse_opinion_loc: "배우자 의견:" # 2235705787652498996
+  advcm_spouse_opinion_loc1: "$advcm_spouse_opinion_loc$ [GetPlayer.MakeScope.Var('advcm_modifier1_value').GetValue|=+0]" # 15855534423789819975
+  advcm_spouse_opinion_loc2: "$advcm_spouse_opinion_loc$ [GetPlayer.MakeScope.Var('advcm_modifier2_value').GetValue|=+0]" # 17339147462321037190
+  advcm_spouse_opinion_loc3: "$advcm_spouse_opinion_loc$ [GetPlayer.MakeScope.Var('advcm_modifier3_value').GetValue|=+0]" # 16978753162996790094
+  advcm_spouse_opinion_loc4: "$advcm_spouse_opinion_loc$ [GetPlayer.MakeScope.Var('advcm_modifier4_value').GetValue|=+0]" # 14879630474194846132
+  advcm_general_opinion_loc: "일반적인 평판:" # 17901574443009466824
+  advcm_general_opinion_loc1: "$advcm_general_opinion_loc$ [GetPlayer.MakeScope.Var('advcm_modifier1_value').GetValue|=+0]" # 8237958559158792761
+  advcm_general_opinion_loc2: "$advcm_general_opinion_loc$ [GetPlayer.MakeScope.Var('advcm_modifier2_value').GetValue|=+0]" # 1925434203343297496
+  advcm_general_opinion_loc3: "$advcm_general_opinion_loc$ [GetPlayer.MakeScope.Var('advcm_modifier3_value').GetValue|=+0]" # 5290236025372941417
+  advcm_general_opinion_loc4: "$advcm_general_opinion_loc$ [GetPlayer.MakeScope.Var('advcm_modifier4_value').GetValue|=+0]" # 7983231159026854523
+  advcm_attraction_opinion_loc: "매력도 의견:" # 17743554512112930550
+  advcm_attraction_opinion_loc1: "$advcm_attraction_opinion_loc$ [GetPlayer.MakeScope.Var('advcm_modifier1_value').GetValue|=+0]" # 782666701721633615
+  advcm_attraction_opinion_loc2: "$advcm_attraction_opinion_loc$ [GetPlayer.MakeScope.Var('advcm_modifier2_value').GetValue|=+0]" # 7092137090307106518
+  advcm_attraction_opinion_loc3: "$advcm_attraction_opinion_loc$ [GetPlayer.MakeScope.Var('advcm_modifier3_value').GetValue|=+0]" # 7252445779347615021
+  advcm_attraction_opinion_loc4: "$advcm_attraction_opinion_loc$ [GetPlayer.MakeScope.Var('advcm_modifier4_value').GetValue|=+0]" # 8104999128343224512
+  advcm_vassal_opinion_loc: "봉신 의견:" # 3484351548376790767
+  advcm_vassal_opinion_loc1: "$advcm_vassal_opinion_loc$ [GetPlayer.MakeScope.Var('advcm_modifier1_value').GetValue|=+0]" # 6920742676061170738
+  advcm_vassal_opinion_loc2: "$advcm_vassal_opinion_loc$ [GetPlayer.MakeScope.Var('advcm_modifier2_value').GetValue|=+0]" # 12371646968752804213
+  advcm_vassal_opinion_loc3: "$advcm_vassal_opinion_loc$ [GetPlayer.MakeScope.Var('advcm_modifier3_value').GetValue|=+0]" # 9543187192136502652
+  advcm_vassal_opinion_loc4: "$advcm_vassal_opinion_loc$ [GetPlayer.MakeScope.Var('advcm_modifier4_value').GetValue|=+0]" # 5007409994914392355
+  advcm_courtier_and_guest_opinion_loc: "궁신 및 손님 의견:" # 15536112489003972314
+  advcm_courtier_and_guest_opinion_loc1: "$advcm_courtier_and_guest_opinion_loc$ [GetPlayer.MakeScope.Var('advcm_modifier1_value').GetValue|=+0]" # 8817682652344569466
+  advcm_courtier_and_guest_opinion_loc2: "$advcm_courtier_and_guest_opinion_loc$ [GetPlayer.MakeScope.Var('advcm_modifier2_value').GetValue|=+0]" # 9389932857518864730
+  advcm_courtier_and_guest_opinion_loc3: "$advcm_courtier_and_guest_opinion_loc$ [GetPlayer.MakeScope.Var('advcm_modifier3_value').GetValue|=+0]" # 15707822867775717772
+  advcm_courtier_and_guest_opinion_loc4: "$advcm_courtier_and_guest_opinion_loc$ [GetPlayer.MakeScope.Var('advcm_modifier4_value').GetValue|=+0]" # 4639325574480210411
+  advcm_same_faith_opinion_loc: "동일 신앙 의견:" # 5785506792678320893
+  advcm_same_faith_opinion_loc1: "$advcm_same_faith_opinion_loc$ [GetPlayer.MakeScope.Var('advcm_modifier1_value').GetValue|=+0]" # 14048068119656815902
+  advcm_same_faith_opinion_loc2: "$advcm_same_faith_opinion_loc$ [GetPlayer.MakeScope.Var('advcm_modifier2_value').GetValue|=+0]" # 758033982283263857
+  advcm_same_faith_opinion_loc3: "$advcm_same_faith_opinion_loc$ [GetPlayer.MakeScope.Var('advcm_modifier3_value').GetValue|=+0]" # 4120419992930262960
+  advcm_same_faith_opinion_loc4: "$advcm_same_faith_opinion_loc$ [GetPlayer.MakeScope.Var('advcm_modifier4_value').GetValue|=+0]" # 3948913665954285880
+  advcm_dread_gain_mult_loc: "공포 획득: @dread_icon!" # 1599808850187508977
+  advcm_dread_gain_mult_loc1: "$advcm_dread_gain_mult_loc$ [Multiply_float(FixedPointToFloat(GetPlayer.MakeScope.Var('advcm_modifier1_value').GetValue), '(float)0.01')|=+%0]" # 10911894750833314780
+  advcm_dread_gain_mult_loc2: "$advcm_dread_gain_mult_loc$ [Multiply_float(FixedPointToFloat(GetPlayer.MakeScope.Var('advcm_modifier2_value').GetValue), '(float)0.01')|=+%0]" # 13677135283962513174
+  advcm_dread_gain_mult_loc3: "$advcm_dread_gain_mult_loc$ [Multiply_float(FixedPointToFloat(GetPlayer.MakeScope.Var('advcm_modifier3_value').GetValue), '(float)0.01')|=+%0]" # 16234895755907280717
+  advcm_dread_gain_mult_loc4: "$advcm_dread_gain_mult_loc$ [Multiply_float(FixedPointToFloat(GetPlayer.MakeScope.Var('advcm_modifier4_value').GetValue), '(float)0.01')|=+%0]" # 3663761920956693986
+  advcm_tyranny_loss_mult_loc: "폭정 감소:" # 13653790029654924057
+  advcm_tyranny_loss_mult_loc1: "$advcm_tyranny_loss_mult_loc$ [Multiply_float(FixedPointToFloat(GetPlayer.MakeScope.Var('advcm_modifier1_value').GetValue), '(float)0.01')|=+%0]" # 9529038270128459225
+  advcm_tyranny_loss_mult_loc2: "$advcm_tyranny_loss_mult_loc$ [Multiply_float(FixedPointToFloat(GetPlayer.MakeScope.Var('advcm_modifier2_value').GetValue), '(float)0.01')|=+%0]" # 3963737363504024485
+  advcm_tyranny_loss_mult_loc3: "$advcm_tyranny_loss_mult_loc$ [Multiply_float(FixedPointToFloat(GetPlayer.MakeScope.Var('advcm_modifier3_value').GetValue), '(float)0.01')|=+%0]" # 9471680002335484943
+  advcm_tyranny_loss_mult_loc4: "$advcm_tyranny_loss_mult_loc$ [Multiply_float(FixedPointToFloat(GetPlayer.MakeScope.Var('advcm_modifier4_value').GetValue), '(float)0.01')|=+%0]" # 11470609942069590836
+  advcm_dread_baseline_loc: "자연적인 공포: @dread_icon!" # 17034386826269844472
+  advcm_dread_baseline_loc1: "$advcm_dread_baseline_loc$ [GetPlayer.MakeScope.Var('advcm_modifier1_value').GetValue|=+0]" # 9883172925806126356
+  advcm_dread_baseline_loc2: "$advcm_dread_baseline_loc$ [GetPlayer.MakeScope.Var('advcm_modifier2_value').GetValue|=+0]" # 9697125154168128293
+  advcm_dread_baseline_loc3: "$advcm_dread_baseline_loc$ [GetPlayer.MakeScope.Var('advcm_modifier3_value').GetValue|=+0]" # 2485893721604900017
+  advcm_dread_baseline_loc4: "$advcm_dread_baseline_loc$ [GetPlayer.MakeScope.Var('advcm_modifier4_value').GetValue|=+0]" # 9578765243502664665
+  advcm_mercenary_hire_cost_mult_loc: "용병 고용 비용: [gold_i]" # 6865931830251712375
+  advcm_mercenary_hire_cost_mult_loc1: "$advcm_mercenary_hire_cost_mult_loc$ [Multiply_float(FixedPointToFloat(GetPlayer.MakeScope.Var('advcm_modifier1_value').GetValue), '(float)0.01')|=-%2]" # 4684596806749833710
+  advcm_mercenary_hire_cost_mult_loc2: "$advcm_mercenary_hire_cost_mult_loc$ [Multiply_float(FixedPointToFloat(GetPlayer.MakeScope.Var('advcm_modifier2_value').GetValue), '(float)0.01')|=-%2]" # 10537102249543933935
+  advcm_mercenary_hire_cost_mult_loc3: "$advcm_mercenary_hire_cost_mult_loc$ [Multiply_float(FixedPointToFloat(GetPlayer.MakeScope.Var('advcm_modifier3_value').GetValue), '(float)0.01')|=-%2]" # 4479744687220257438
+  advcm_mercenary_hire_cost_mult_loc4: "$advcm_mercenary_hire_cost_mult_loc$ [Multiply_float(FixedPointToFloat(GetPlayer.MakeScope.Var('advcm_modifier4_value').GetValue), '(float)0.01')|=-%2]" # 2892618593482415408
+  advcm_vassal_tax_contribution_mult_loc: "봉신 조공: [gold_i]" # 8842006311389824554
+  advcm_vassal_tax_contribution_mult_loc1: "$advcm_vassal_tax_contribution_mult_loc$ [Multiply_float(FixedPointToFloat(GetPlayer.MakeScope.Var('advcm_modifier1_value').GetValue), '(float)0.01')|=+%0]" # 5950946916603000426
+  advcm_vassal_tax_contribution_mult_loc2: "$advcm_vassal_tax_contribution_mult_loc$ [Multiply_float(FixedPointToFloat(GetPlayer.MakeScope.Var('advcm_modifier2_value').GetValue), '(float)0.01')|=+%0]" # 142528739294837442
+  advcm_vassal_tax_contribution_mult_loc3: "$advcm_vassal_tax_contribution_mult_loc$ [Multiply_float(FixedPointToFloat(GetPlayer.MakeScope.Var('advcm_modifier3_value').GetValue), '(float)0.01')|=+%0]" # 4181734988289733342
+  advcm_vassal_tax_contribution_mult_loc4: "$advcm_vassal_tax_contribution_mult_loc$ [Multiply_float(FixedPointToFloat(GetPlayer.MakeScope.Var('advcm_modifier4_value').GetValue), '(float)0.01')|=+%0]" # 4810378822318361529
+  advcm_vassal_limit_loc: "봉신 한도:" # 10221768262954876386
+  advcm_vassal_limit_loc1: "$advcm_vassal_limit_loc$ [GetPlayer.MakeScope.Var('advcm_modifier1_value').GetValue|=+0]" # 14991990201889734658
+  advcm_vassal_limit_loc2: "$advcm_vassal_limit_loc$ [GetPlayer.MakeScope.Var('advcm_modifier2_value').GetValue|=+0]" # 15412685603653418858
+  advcm_vassal_limit_loc3: "$advcm_vassal_limit_loc$ [GetPlayer.MakeScope.Var('advcm_modifier3_value').GetValue|=+0]" # 5944147571494915974
+  advcm_vassal_limit_loc4: "$advcm_vassal_limit_loc$ [GetPlayer.MakeScope.Var('advcm_modifier4_value').GetValue|=+0]" # 6876557806669300595
+  advcm_men_at_arms_maintenance_loc: "병력 유지비: [gold_i]" # 9085739372187056512
+  advcm_men_at_arms_maintenance_loc1: "$advcm_men_at_arms_maintenance_loc$ [Multiply_float(FixedPointToFloat(GetPlayer.MakeScope.Var('advcm_modifier1_value').GetValue), '(float)0.01')|=-%2]" # 6614137571816034857
+  advcm_men_at_arms_maintenance_loc2: "$advcm_men_at_arms_maintenance_loc$ [Multiply_float(FixedPointToFloat(GetPlayer.MakeScope.Var('advcm_modifier2_value').GetValue), '(float)0.01')|=-%2]" # 10808278818728834944
+  advcm_men_at_arms_maintenance_loc3: "$advcm_men_at_arms_maintenance_loc$ [Multiply_float(FixedPointToFloat(GetPlayer.MakeScope.Var('advcm_modifier3_value').GetValue), '(float)0.01')|=-%2]" # 17024828309059522695
+  advcm_men_at_arms_maintenance_loc4: "$advcm_men_at_arms_maintenance_loc$ [Multiply_float(FixedPointToFloat(GetPlayer.MakeScope.Var('advcm_modifier4_value').GetValue), '(float)0.01')|=-%2]" # 7086571765364102836
+  advcm_domain_tax_mult_loc: "영지 세금: [gold_i]" # 6930494910204669891
+  advcm_domain_tax_mult_loc1: "$advcm_domain_tax_mult_loc$ [Multiply_float(FixedPointToFloat(GetPlayer.MakeScope.Var('advcm_modifier1_value').GetValue), '(float)0.01')|=+%0]" # 768478787614702840
+  advcm_domain_tax_mult_loc2: "$advcm_domain_tax_mult_loc$ [Multiply_float(FixedPointToFloat(GetPlayer.MakeScope.Var('advcm_modifier2_value').GetValue), '(float)0.01')|=+%0]" # 13540248240447513218
+  advcm_domain_tax_mult_loc3: "$advcm_domain_tax_mult_loc$ [Multiply_float(FixedPointToFloat(GetPlayer.MakeScope.Var('advcm_modifier3_value').GetValue), '(float)0.01')|=+%0]" # 13573064037558499150
+  advcm_domain_tax_mult_loc4: "$advcm_domain_tax_mult_loc$ [Multiply_float(FixedPointToFloat(GetPlayer.MakeScope.Var('advcm_modifier4_value').GetValue), '(float)0.01')|=+%0]" # 14731174912596663944
+  advcm_build_gold_cost_loc: "건물 건설 비용: [gold_i]" # 9921471302541396644
+  advcm_build_gold_cost_loc1: "$advcm_build_gold_cost_loc$ [Multiply_float(FixedPointToFloat(GetPlayer.MakeScope.Var('advcm_modifier1_value').GetValue), '(float)0.01')|=-%0]" # 12591408069815030605
+  advcm_build_gold_cost_loc2: "$advcm_build_gold_cost_loc$ [Multiply_float(FixedPointToFloat(GetPlayer.MakeScope.Var('advcm_modifier2_value').GetValue), '(float)0.01')|=-%0]" # 2456372318007276848
+  advcm_build_gold_cost_loc3: "$advcm_build_gold_cost_loc$ [Multiply_float(FixedPointToFloat(GetPlayer.MakeScope.Var('advcm_modifier3_value').GetValue), '(float)0.01')|=-%0]" # 14468487960168886733
+  advcm_build_gold_cost_loc4: "$advcm_build_gold_cost_loc$ [Multiply_float(FixedPointToFloat(GetPlayer.MakeScope.Var('advcm_modifier4_value').GetValue), '(float)0.01')|=-%0]" # 1888935161679854202
+  advcm_build_speed_loc: "건설 시간: @time_icon!" # 13957268444521685334
+  advcm_build_speed_loc1: "$advcm_build_speed_loc$ [Multiply_float(FixedPointToFloat(GetPlayer.MakeScope.Var('advcm_modifier1_value').GetValue), '(float)0.01')|=-%0]" # 1923432703163236060
+  advcm_build_speed_loc2: "$advcm_build_speed_loc$ [Multiply_float(FixedPointToFloat(GetPlayer.MakeScope.Var('advcm_modifier2_value').GetValue), '(float)0.01')|=-%0]" # 389067371418018864
+  advcm_build_speed_loc3: "$advcm_build_speed_loc$ [Multiply_float(FixedPointToFloat(GetPlayer.MakeScope.Var('advcm_modifier3_value').GetValue), '(float)0.01')|=-%0]" # 8497337408678349945
+  advcm_build_speed_loc4: "$advcm_build_speed_loc$ [Multiply_float(FixedPointToFloat(GetPlayer.MakeScope.Var('advcm_modifier4_value').GetValue), '(float)0.01')|=-%0]" # 13611430349645240054
+  advcm_monthly_income_mult_loc: "월 수입: [gold_i]" # 1226069400604329992
+  advcm_monthly_income_mult_loc1: "$advcm_monthly_income_mult_loc$ [Multiply_float(FixedPointToFloat(GetPlayer.MakeScope.Var('advcm_modifier1_value').GetValue), '(float)0.01')|=+%0]" # 6624518716889120353
+  advcm_monthly_income_mult_loc2: "$advcm_monthly_income_mult_loc$ [Multiply_float(FixedPointToFloat(GetPlayer.MakeScope.Var('advcm_modifier2_value').GetValue), '(float)0.01')|=+%0]" # 12870908460063783084
+  advcm_monthly_income_mult_loc3: "$advcm_monthly_income_mult_loc$ [Multiply_float(FixedPointToFloat(GetPlayer.MakeScope.Var('advcm_modifier3_value').GetValue), '(float)0.01')|=+%0]" # 14816298690719997650
+  advcm_monthly_income_mult_loc4: "$advcm_monthly_income_mult_loc$ [Multiply_float(FixedPointToFloat(GetPlayer.MakeScope.Var('advcm_modifier4_value').GetValue), '(float)0.01')|=+%0]" # 12563099645007717876
+  advcm_fertility_loc: "생산력:" # 10449679786297115386
+  advcm_fertility_loc1: "$advcm_fertility_loc$ [Multiply_float(FixedPointToFloat(GetPlayer.MakeScope.Var('advcm_modifier1_value').GetValue), '(float)0.01')|=+%0]" # 7464932963276073953
+  advcm_fertility_loc2: "$advcm_fertility_loc$ [Multiply_float(FixedPointToFloat(GetPlayer.MakeScope.Var('advcm_modifier2_value').GetValue), '(float)0.01')|=+%0]" # 15064252724892188603
+  advcm_fertility_loc3: "$advcm_fertility_loc$ [Multiply_float(FixedPointToFloat(GetPlayer.MakeScope.Var('advcm_modifier3_value').GetValue), '(float)0.01')|=+%0]" # 15374755380237368350
+  advcm_fertility_loc4: "$advcm_fertility_loc$ [Multiply_float(FixedPointToFloat(GetPlayer.MakeScope.Var('advcm_modifier4_value').GetValue), '(float)0.01')|=+%0]" # 8945612559304421426
+  advcm_stress_gain_mult_loc: "스트레스 획득: [stress_gain_i]" # 15834650331315607064
+  advcm_stress_gain_mult_loc1: "$advcm_stress_gain_mult_loc$ [Multiply_float(FixedPointToFloat(GetPlayer.MakeScope.Var('advcm_modifier1_value').GetValue), '(float)0.01')|=-%0]" # 17912286276693525590
+  advcm_stress_gain_mult_loc2: "$advcm_stress_gain_mult_loc$ [Multiply_float(FixedPointToFloat(GetPlayer.MakeScope.Var('advcm_modifier2_value').GetValue), '(float)0.01')|=-%0]" # 7706482603167706489
+  advcm_stress_gain_mult_loc3: "$advcm_stress_gain_mult_loc$ [Multiply_float(FixedPointToFloat(GetPlayer.MakeScope.Var('advcm_modifier3_value').GetValue), '(float)0.01')|=-%0]" # 6550914740680630825
+  advcm_stress_gain_mult_loc4: "$advcm_stress_gain_mult_loc$ [Multiply_float(FixedPointToFloat(GetPlayer.MakeScope.Var('advcm_modifier4_value').GetValue), '(float)0.01')|=-%0]" # 13512256349649123619
+  advcm_health_loc: "건강:" # 6873952969636421908
+  advcm_health_loc1: "$advcm_health_loc$ [Multiply_float(FixedPointToFloat(GetPlayer.MakeScope.Var('advcm_modifier1_value').GetValue), '(float)0.01')|=+2]" # 10632888752135879600
+  advcm_health_loc2: "$advcm_health_loc$ [Multiply_float(FixedPointToFloat(GetPlayer.MakeScope.Var('advcm_modifier2_value').GetValue), '(float)0.01')|=+2]" # 1665803997593184146
+  advcm_health_loc3: "$advcm_health_loc$ [Multiply_float(FixedPointToFloat(GetPlayer.MakeScope.Var('advcm_modifier3_value').GetValue), '(float)0.01')|=+2]" # 10370400351237696946
+  advcm_health_loc4: "$advcm_health_loc$ [Multiply_float(FixedPointToFloat(GetPlayer.MakeScope.Var('advcm_modifier4_value').GetValue), '(float)0.01')|=+2]" # 11802259237751405607
+  advcm_monthly_piety_gain_mult_loc: "매월 신앙심: [piety_i]" # 9880273625608456295
+  advcm_monthly_piety_gain_mult_loc1: "$advcm_monthly_piety_gain_mult_loc$ [Multiply_float(FixedPointToFloat(GetPlayer.MakeScope.Var('advcm_modifier1_value').GetValue), '(float)0.01')|=+%0]" # 4995206236485151018
+  advcm_monthly_piety_gain_mult_loc2: "$advcm_monthly_piety_gain_mult_loc$ [Multiply_float(FixedPointToFloat(GetPlayer.MakeScope.Var('advcm_modifier2_value').GetValue), '(float)0.01')|=+%0]" # 16239112730328091996
+  advcm_monthly_piety_gain_mult_loc3: "$advcm_monthly_piety_gain_mult_loc$ [Multiply_float(FixedPointToFloat(GetPlayer.MakeScope.Var('advcm_modifier3_value').GetValue), '(float)0.01')|=+%0]" # 10349168892034978377
+  advcm_monthly_piety_gain_mult_loc4: "$advcm_monthly_piety_gain_mult_loc$ [Multiply_float(FixedPointToFloat(GetPlayer.MakeScope.Var('advcm_modifier4_value').GetValue), '(float)0.01')|=+%0]" # 2745447583953089580
+  advcm_domain_limit_loc: "영지 한도:" # 3838605391592344858
+  advcm_domain_limit_loc1: "$advcm_domain_limit_loc$ [GetPlayer.MakeScope.Var('advcm_modifier1_value').GetValue|=+0]" # 16539690599634893394
+  advcm_domain_limit_loc2: "$advcm_domain_limit_loc$ [GetPlayer.MakeScope.Var('advcm_modifier2_value').GetValue|=+0]" # 5293577844433685173
+  advcm_domain_limit_loc3: "$advcm_domain_limit_loc$ [GetPlayer.MakeScope.Var('advcm_modifier3_value').GetValue|=+0]" # 10366372334945897902
+  advcm_domain_limit_loc4: "$advcm_domain_limit_loc$ [GetPlayer.MakeScope.Var('advcm_modifier4_value').GetValue|=+0]" # 6232734969440180973
+  advcm_owned_hostile_scheme_success_chance_add_loc: "적대적 책략 성공률: @scheme_success_icon!" # 18363033070091318604
+  advcm_owned_hostile_scheme_success_chance_add_loc1: "$advcm_owned_hostile_scheme_success_chance_add_loc$ [Multiply_float(FixedPointToFloat(GetPlayer.MakeScope.Var('advcm_modifier1_value').GetValue), '(float)0.01')|=+%0]" # 3518574358462401596
+  advcm_owned_hostile_scheme_success_chance_add_loc2: "$advcm_owned_hostile_scheme_success_chance_add_loc$ [Multiply_float(FixedPointToFloat(GetPlayer.MakeScope.Var('advcm_modifier2_value').GetValue), '(float)0.01')|=+%0]" # 9962245254457555295
+  advcm_owned_hostile_scheme_success_chance_add_loc3: "$advcm_owned_hostile_scheme_success_chance_add_loc$ [Multiply_float(FixedPointToFloat(GetPlayer.MakeScope.Var('advcm_modifier3_value').GetValue), '(float)0.01')|=+%0]" # 5589860922373881974
+  advcm_owned_hostile_scheme_success_chance_add_loc4: "$advcm_owned_hostile_scheme_success_chance_add_loc$ [Multiply_float(FixedPointToFloat(GetPlayer.MakeScope.Var('advcm_modifier4_value').GetValue), '(float)0.01')|=+%0]" # 1270375253807913644
+  advcm_owned_personal_scheme_success_chance_add_loc: "개인 계략 성공 확률: @scheme_success_icon!" # 10040092742838305271
+  advcm_owned_personal_scheme_success_chance_add_loc1: "$advcm_owned_personal_scheme_success_chance_add_loc$ [Multiply_float(FixedPointToFloat(GetPlayer.MakeScope.Var('advcm_modifier1_value').GetValue), '(float)0.01')|=+%0]" # 1954938572601302608
+  advcm_owned_personal_scheme_success_chance_add_loc2: "$advcm_owned_personal_scheme_success_chance_add_loc$ [Multiply_float(FixedPointToFloat(GetPlayer.MakeScope.Var('advcm_modifier2_value').GetValue), '(float)0.01')|=+%0]" # 7252045416154624117
+  advcm_owned_personal_scheme_success_chance_add_loc3: "$advcm_owned_personal_scheme_success_chance_add_loc$ [Multiply_float(FixedPointToFloat(GetPlayer.MakeScope.Var('advcm_modifier3_value').GetValue), '(float)0.01')|=+%0]" # 7034493848107453609
+  advcm_owned_personal_scheme_success_chance_add_loc4: "$advcm_owned_personal_scheme_success_chance_add_loc$ [Multiply_float(FixedPointToFloat(GetPlayer.MakeScope.Var('advcm_modifier4_value').GetValue), '(float)0.01')|=+%0]" # 7490818732602677745
+  advcm_hostile_scheme_power_add_loc: "적대적 책략력: @scheme_power_icon!" # 10504709859709724883
+  advcm_hostile_scheme_power_add_loc1: "$advcm_hostile_scheme_power_add_loc$ [GetPlayer.MakeScope.Var('advcm_modifier1_value').GetValue|=+0]" # 7794957781413845035
+  advcm_hostile_scheme_power_add_loc2: "$advcm_hostile_scheme_power_add_loc$ [GetPlayer.MakeScope.Var('advcm_modifier2_value').GetValue|=+0]" # 2129831482700075651
+  advcm_hostile_scheme_power_add_loc3: "$advcm_hostile_scheme_power_add_loc$ [GetPlayer.MakeScope.Var('advcm_modifier3_value').GetValue|=+0]" # 6538951531377387711
+  advcm_hostile_scheme_power_add_loc4: "$advcm_hostile_scheme_power_add_loc$ [GetPlayer.MakeScope.Var('advcm_modifier4_value').GetValue|=+0]" # 731248827076663804
+  advcm_personal_scheme_power_add_loc: "개인 계략 능력치: @scheme_power_icon!" # 16364988907463923361
+  advcm_personal_scheme_power_add_loc1: "$advcm_personal_scheme_power_add_loc$ [GetPlayer.MakeScope.Var('advcm_modifier1_value').GetValue|=+0]" # 3076536130449018700
+  advcm_personal_scheme_power_add_loc2: "$advcm_personal_scheme_power_add_loc$ [GetPlayer.MakeScope.Var('advcm_modifier2_value').GetValue|=+0]" # 12123066999655358995
+  advcm_personal_scheme_power_add_loc3: "$advcm_personal_scheme_power_add_loc$ [GetPlayer.MakeScope.Var('advcm_modifier3_value').GetValue|=+0]" # 13704994283164730985
+  advcm_personal_scheme_power_add_loc4: "$advcm_personal_scheme_power_add_loc$ [GetPlayer.MakeScope.Var('advcm_modifier4_value').GetValue|=+0]" # 12203969704242019666
+  advcm_owned_scheme_secrecy_add_loc: "계략 은밀성: @scheme_secrecy_icon!" # 15500334420710056421
+  advcm_owned_scheme_secrecy_add_loc1: "$advcm_owned_scheme_secrecy_add_loc$ [Multiply_float(FixedPointToFloat(GetPlayer.MakeScope.Var('advcm_modifier1_value').GetValue), '(float)0.01')|=+%0]" # 10224668455492843973
+  advcm_owned_scheme_secrecy_add_loc2: "$advcm_owned_scheme_secrecy_add_loc$ [Multiply_float(FixedPointToFloat(GetPlayer.MakeScope.Var('advcm_modifier2_value').GetValue), '(float)0.01')|=+%0]" # 9605057892701636521
+  advcm_owned_scheme_secrecy_add_loc3: "$advcm_owned_scheme_secrecy_add_loc$ [Multiply_float(FixedPointToFloat(GetPlayer.MakeScope.Var('advcm_modifier3_value').GetValue), '(float)0.01')|=+%0]" # 7537942409619938609
+  advcm_owned_scheme_secrecy_add_loc4: "$advcm_owned_scheme_secrecy_add_loc$ [Multiply_float(FixedPointToFloat(GetPlayer.MakeScope.Var('advcm_modifier4_value').GetValue), '(float)0.01')|=+%0]" # 12759689886528828578
+  advcm_learn_language_scheme_power_add_loc: "언어 습득 계획 능력:" # 3503640076764105521
+  advcm_learn_language_scheme_power_add_loc1: "$advcm_learn_language_scheme_power_add_loc$ [GetPlayer.MakeScope.Var('advcm_modifier1_value').GetValue|=+0]" # 12660590936139768708
+  advcm_learn_language_scheme_power_add_loc2: "$advcm_learn_language_scheme_power_add_loc$ [GetPlayer.MakeScope.Var('advcm_modifier2_value').GetValue|=+0]" # 731314614866356465
+  advcm_learn_language_scheme_power_add_loc3: "$advcm_learn_language_scheme_power_add_loc$ [GetPlayer.MakeScope.Var('advcm_modifier3_value').GetValue|=+0]" # 11869147983029546619
+  advcm_learn_language_scheme_power_add_loc4: "$advcm_learn_language_scheme_power_add_loc$ [GetPlayer.MakeScope.Var('advcm_modifier4_value').GetValue|=+0]" # 326085581706333635
+  advcm_hostile_scheme_resistance_add_loc: "적대적 책략 저항력: @scheme_power_icon!" # 3486770665896872428
+  advcm_hostile_scheme_resistance_add_loc1: "$advcm_hostile_scheme_resistance_add_loc$ [GetPlayer.MakeScope.Var('advcm_modifier1_value').GetValue|=+0]" # 17073481048664160904
+  advcm_hostile_scheme_resistance_add_loc2: "$advcm_hostile_scheme_resistance_add_loc$ [GetPlayer.MakeScope.Var('advcm_modifier2_value').GetValue|=+0]" # 11422765810026171416
+  advcm_hostile_scheme_resistance_add_loc3: "$advcm_hostile_scheme_resistance_add_loc$ [GetPlayer.MakeScope.Var('advcm_modifier3_value').GetValue|=+0]" # 18226672525812648687
+  advcm_hostile_scheme_resistance_add_loc4: "$advcm_hostile_scheme_resistance_add_loc$ [GetPlayer.MakeScope.Var('advcm_modifier4_value').GetValue|=+0]" # 16087090823218151134
+  advcm_monthly_diplomacy_lifestyle_xp_gain_mult_loc: "월간 외교 생활 방식 경험치:" # 12564433873047572597
+  advcm_monthly_diplomacy_lifestyle_xp_gain_mult_loc1: "$advcm_monthly_diplomacy_lifestyle_xp_gain_mult_loc$ [Multiply_float(FixedPointToFloat(GetPlayer.MakeScope.Var('advcm_modifier1_value').GetValue), '(float)0.01')|=+%0]" # 8243012750681781141
+  advcm_monthly_diplomacy_lifestyle_xp_gain_mult_loc2: "$advcm_monthly_diplomacy_lifestyle_xp_gain_mult_loc$ [Multiply_float(FixedPointToFloat(GetPlayer.MakeScope.Var('advcm_modifier2_value').GetValue), '(float)0.01')|=+%0]" # 11352168542859069179
+  advcm_monthly_diplomacy_lifestyle_xp_gain_mult_loc3: "$advcm_monthly_diplomacy_lifestyle_xp_gain_mult_loc$ [Multiply_float(FixedPointToFloat(GetPlayer.MakeScope.Var('advcm_modifier3_value').GetValue), '(float)0.01')|=+%0]" # 3239533494423367402
+  advcm_monthly_diplomacy_lifestyle_xp_gain_mult_loc4: "$advcm_monthly_diplomacy_lifestyle_xp_gain_mult_loc$ [Multiply_float(FixedPointToFloat(GetPlayer.MakeScope.Var('advcm_modifier4_value').GetValue), '(float)0.01')|=+%0]" # 2432434249195044957
+  advcm_monthly_martial_lifestyle_xp_gain_mult_loc: "월간 무력 생활 방식 경험치:" # 13507314564319802624
+  advcm_monthly_martial_lifestyle_xp_gain_mult_loc1: "$advcm_monthly_martial_lifestyle_xp_gain_mult_loc$ [Multiply_float(FixedPointToFloat(GetPlayer.MakeScope.Var('advcm_modifier1_value').GetValue), '(float)0.01')|=+%0]" # 833140872717821566
+  advcm_monthly_martial_lifestyle_xp_gain_mult_loc2: "$advcm_monthly_martial_lifestyle_xp_gain_mult_loc$ [Multiply_float(FixedPointToFloat(GetPlayer.MakeScope.Var('advcm_modifier2_value').GetValue), '(float)0.01')|=+%0]" # 12872873097773952243
+  advcm_monthly_martial_lifestyle_xp_gain_mult_loc3: "$advcm_monthly_martial_lifestyle_xp_gain_mult_loc$ [Multiply_float(FixedPointToFloat(GetPlayer.MakeScope.Var('advcm_modifier3_value').GetValue), '(float)0.01')|=+%0]" # 4633464013455059097
+  advcm_monthly_martial_lifestyle_xp_gain_mult_loc4: "$advcm_monthly_martial_lifestyle_xp_gain_mult_loc$ [Multiply_float(FixedPointToFloat(GetPlayer.MakeScope.Var('advcm_modifier4_value').GetValue), '(float)0.01')|=+%0]" # 2674303933528115940
+  advcm_monthly_stewardship_lifestyle_xp_gain_mult_loc: "월간 관리력 생활 방식 경험치:" # 10359969525801947092
+  advcm_monthly_stewardship_lifestyle_xp_gain_mult_loc1: "$advcm_monthly_stewardship_lifestyle_xp_gain_mult_loc$ [Multiply_float(FixedPointToFloat(GetPlayer.MakeScope.Var('advcm_modifier1_value').GetValue), '(float)0.01')|=+%0]" # 12162983526205176345
+  advcm_monthly_stewardship_lifestyle_xp_gain_mult_loc2: "$advcm_monthly_stewardship_lifestyle_xp_gain_mult_loc$ [Multiply_float(FixedPointToFloat(GetPlayer.MakeScope.Var('advcm_modifier2_value').GetValue), '(float)0.01')|=+%0]" # 14270448346831272414
+  advcm_monthly_stewardship_lifestyle_xp_gain_mult_loc3: "$advcm_monthly_stewardship_lifestyle_xp_gain_mult_loc$ [Multiply_float(FixedPointToFloat(GetPlayer.MakeScope.Var('advcm_modifier3_value').GetValue), '(float)0.01')|=+%0]" # 17933826993939682876
+  advcm_monthly_stewardship_lifestyle_xp_gain_mult_loc4: "$advcm_monthly_stewardship_lifestyle_xp_gain_mult_loc$ [Multiply_float(FixedPointToFloat(GetPlayer.MakeScope.Var('advcm_modifier4_value').GetValue), '(float)0.01')|=+%0]" # 13037243167944864698
+  advcm_monthly_intrigue_lifestyle_xp_gain_mult_loc: "월간 책략 생활 경험치:" # 6814541255318586478
+  advcm_monthly_intrigue_lifestyle_xp_gain_mult_loc1: "$advcm_monthly_intrigue_lifestyle_xp_gain_mult_loc$ [Multiply_float(FixedPointToFloat(GetPlayer.MakeScope.Var('advcm_modifier1_value').GetValue), '(float)0.01')|=+%0]" # 2069786043174865700
+  advcm_monthly_intrigue_lifestyle_xp_gain_mult_loc2: "$advcm_monthly_intrigue_lifestyle_xp_gain_mult_loc$ [Multiply_float(FixedPointToFloat(GetPlayer.MakeScope.Var('advcm_modifier2_value').GetValue), '(float)0.01')|=+%0]" # 3399407228988206022
+  advcm_monthly_intrigue_lifestyle_xp_gain_mult_loc3: "$advcm_monthly_intrigue_lifestyle_xp_gain_mult_loc$ [Multiply_float(FixedPointToFloat(GetPlayer.MakeScope.Var('advcm_modifier3_value').GetValue), '(float)0.01')|=+%0]" # 3280172054162686794
+  advcm_monthly_intrigue_lifestyle_xp_gain_mult_loc4: "$advcm_monthly_intrigue_lifestyle_xp_gain_mult_loc$ [Multiply_float(FixedPointToFloat(GetPlayer.MakeScope.Var('advcm_modifier4_value').GetValue), '(float)0.01')|=+%0]" # 12256965051193063998
+  advcm_monthly_learning_lifestyle_xp_gain_mult_loc: "월간 학습 생활 경험:" # 13331522196511268967
+  advcm_monthly_learning_lifestyle_xp_gain_mult_loc1: "$advcm_monthly_learning_lifestyle_xp_gain_mult_loc$ [Multiply_float(FixedPointToFloat(GetPlayer.MakeScope.Var('advcm_modifier1_value').GetValue), '(float)0.01')|=+%0]" # 986731293359772156
+  advcm_monthly_learning_lifestyle_xp_gain_mult_loc2: "$advcm_monthly_learning_lifestyle_xp_gain_mult_loc$ [Multiply_float(FixedPointToFloat(GetPlayer.MakeScope.Var('advcm_modifier2_value').GetValue), '(float)0.01')|=+%0]" # 1793991873409353843
+  advcm_monthly_learning_lifestyle_xp_gain_mult_loc3: "$advcm_monthly_learning_lifestyle_xp_gain_mult_loc$ [Multiply_float(FixedPointToFloat(GetPlayer.MakeScope.Var('advcm_modifier3_value').GetValue), '(float)0.01')|=+%0]" # 1443257860337416845
+  advcm_monthly_learning_lifestyle_xp_gain_mult_loc4: "$advcm_monthly_learning_lifestyle_xp_gain_mult_loc$ [Multiply_float(FixedPointToFloat(GetPlayer.MakeScope.Var('advcm_modifier4_value').GetValue), '(float)0.01')|=+%0]" # 10470471108846141405
+  advcm_years_of_fertility_loc: "생육 연수:" # 8911836170866971105
+  advcm_years_of_fertility_loc1: "$advcm_years_of_fertility_loc$ [GetPlayer.MakeScope.Var('advcm_modifier1_value').GetValue|=+0]" # 9317312160959418367
+  advcm_years_of_fertility_loc2: "$advcm_years_of_fertility_loc$ [GetPlayer.MakeScope.Var('advcm_modifier2_value').GetValue|=+0]" # 3330048561145209687
+  advcm_years_of_fertility_loc3: "$advcm_years_of_fertility_loc$ [GetPlayer.MakeScope.Var('advcm_modifier3_value').GetValue|=+0]" # 17578332219113576487
+  advcm_years_of_fertility_loc4: "$advcm_years_of_fertility_loc$ [GetPlayer.MakeScope.Var('advcm_modifier4_value').GetValue|=+0]" # 6204549491471695476
+  advcm_life_expectancy_loc: "기대 수명:" # 16700610396211990605
+  advcm_life_expectancy_loc1: "$advcm_life_expectancy_loc$ [GetPlayer.MakeScope.Var('advcm_modifier1_value').GetValue|=+0]" # 17353739531424922909
+  advcm_life_expectancy_loc2: "$advcm_life_expectancy_loc$ [GetPlayer.MakeScope.Var('advcm_modifier2_value').GetValue|=+0]" # 8670042869178215792
+  advcm_life_expectancy_loc3: "$advcm_life_expectancy_loc$ [GetPlayer.MakeScope.Var('advcm_modifier3_value').GetValue|=+0]" # 4710093330170091066
+  advcm_life_expectancy_loc4: "$advcm_life_expectancy_loc$ [GetPlayer.MakeScope.Var('advcm_modifier4_value').GetValue|=+0]" # 9499136513799614486
+  advcm_epidemic_resistance_loc: "역병 저항력: @epidemic_icon!" # 533658041156060844
+  advcm_epidemic_resistance_loc1: "$advcm_epidemic_resistance_loc$ [GetPlayer.MakeScope.Var('advcm_modifier1_value').GetValue|=+0]" # 17832835817431791988
+  advcm_epidemic_resistance_loc2: "$advcm_epidemic_resistance_loc$ [GetPlayer.MakeScope.Var('advcm_modifier2_value').GetValue|=+0]" # 5069163131829786143
+  advcm_epidemic_resistance_loc3: "$advcm_epidemic_resistance_loc$ [GetPlayer.MakeScope.Var('advcm_modifier3_value').GetValue|=+0]" # 6382126820035474467
+  advcm_epidemic_resistance_loc4: "$advcm_epidemic_resistance_loc$ [GetPlayer.MakeScope.Var('advcm_modifier4_value').GetValue|=+0]" # 6200670948723906731
+  advcm_modifier1_level: "[GetPlayer.MakeScope.Var('advcm_modifier1_value').GetValue|0]" # 12761518298566536645
+  advcm_modifier2_level: "[GetPlayer.MakeScope.Var('advcm_modifier2_value').GetValue|0]" # 9912022030283287587
+  advcm_modifier3_level: "[GetPlayer.MakeScope.Var('advcm_modifier3_value').GetValue|0]" # 5734576696162199692
+  advcm_modifier4_level: "[GetPlayer.MakeScope.Var('advcm_modifier4_value').GetValue|0]" # 6489446537506631200
+  advcm_modifier_1_loc: "수정자 1:" # 15401058521076234982
+  advcm_modifier_2_loc: "수정자 2:" # 1416305689881589783
+  advcm_modifier_3_loc: "수정자 3:" # 14797200534595146686
+  advcm_modifier_4_loc: "수정자 4:" # 12531357600005994204
+  advcm_character_spawner_stats: "능력치" # 872631009254314251
+  advcm_dynasty_generated: "생성됨" # 8577105862593963641
+  advcm_character_spawner_child_tt: "생성된 인물은 선택된 인물의 자식으로 지정됩니다. 이는 왕조 설정을 덮어씁니다." # 6469106301348510784
+  advcm_presets: "사전 설정" # 6333184213741647957
+  advcm_cc_OP_loc: "OP" # 12404553829519230429
+  advcm_cc_court_physician_loc: "궁정 의사" # 18426656106003658432
+  advcm_cc_cultural_emissary_loc: "문화 사절" # 10858870416113385132
+  advcm_cc_keeper_of_swans_loc: "백조지기" # 8625281902524226390
+  advcm_cc_chief_qadi_loc: "최고 카디" # 14101868037416408463
+  advcm_cc_garuda_loc: "가루다" # 17812637433512083253
+  advcm_cc_court_gardener_loc: "궁정 원예가" # 373211384625932187
+  advcm_cc_lady_in_waiting_loc: "시녀" # 2760555031103071918
+  advcm_cc_antiquarian_loc: "골동품 수집가" # 16097516045972889530
+  advcm_cc_caravan_master_loc: "대상단장" # 7738694568629852781
+  advcm_cc_wet_nurse_loc: "젖모" # 176767302680721214
+  advcm_cc_court_tutor_loc: "궁정 교사" # 1358197358295570695
+  advcm_cc_food_taster_loc: "음식 시식관" # 16864371581417991139
+  advcm_cc_master_of_horse_loc: "마상 시종장" # 6008930026156474306
+  advcm_cc_master_of_hunt_loc: "사냥의 대가" # 2719424066714422731
+  advcm_cc_royal_architect_loc: "왕실 건축가" # 13918440433211281657
+  advcm_cc_high_almoner_loc: "대총무" # 3668259354084065075
+  advcm_cc_seneschal_loc: "집사" # 7709452871958780579
+  advcm_cc_cupbearer_loc: "술잔지기" # 5991372308090402859
+  advcm_cc_chief_eunuch_loc: "수석 환관" # 11825076484081517550
+  advcm_cc_court_jester_loc: "궁정 광대" # 16194043128551187905
+  advcm_cc_court_poet_loc: "궁정 시인" # 9188231384044864014
+  advcm_cc_court_musician_loc: "궁정 악사" # 9172909954172182958
+  advcm_cc_bodyguard_loc: "호위병" # 16598454321878832297
+  advcm_cc_champion_loc: "챔피언" # 16395209722950494975
+  advcm_cc_executioner_loc: "교수형 집행관" # 11911114762230991919
+  advcm_cc_court_artificer_loc: "궁정 장인" # 55760946519452909
+  advcm_cc_master_assassin_loc: "암살단의 대가" # 16304035263789084461
+  advcm_cc_chronicler_loc: "사관" # 3325577813556024091
+  advcm_cc_court_scholar_loc: "궁정 학자" # 6296665057725976200
+  advcm_cc_charioteer_loc: "전차병" # 9302767528052867281
+  advcm_cc_bookmaker_loc: "북메이커" # 8409077477595940062
+  advcm_cc_akolouthos_loc: "아콜루토스" # 3946856692587331555
+  advcm_create_artifact_loc: "유물 제작" # 8061344823857224772
+  advcm_create_character_loc: "인물 생성" # 1951628797903399638
+  advcm_trait_cleanup_tt: "잘못된 로드 순서를 사용했다면 여기를 클릭하십시오." # 8054834130404728189
+  advcm_debug_color_test: "#D" # 16801708466569448998
+  advcm_red_color_test: "#R" # 1935906316867708778
+  advcm_yellow_color_test: "#P" # 4128464296507220592
+  advcm_blue_color_test: "#charioteer_blue" # 1135972512442653274

@@ -1,0 +1,10 @@
+﻿l_korean:
+  advcm_artifact_desc: "[GetPlayer.GetLocalizedText( 'test_saved_text' )]" # 18228562347927417479
+  advcm_artifact_desc_append: "[selected_artifact.GetDesc] [GetPlayer.GetLocalizedText( 'test_saved_text' )]" # 1370798697123241832
+  advcm_events.2.title: "유물 설명 변경" # 11000507365749090319
+  advcm_events.2.desc: "텍스트를 입력하고 선택지를 고르십시오." # 8307497891674483724
+  artifact_new_desc: "새로운 설명" # 8877015183400657422
+  artifact_append_desc: "설명에 추가" # 441495288827456816
+  advcm_events.1.title: "인물 이름 변경" # 3462767659058319669
+  advcm_events.1.desc: "새 이름을 입력한 후 해당 옵션을 클릭하십시오." # 987851277110801272
+  advcm_events.1.option: "나를 클릭하시오!" # 1923739016990043694

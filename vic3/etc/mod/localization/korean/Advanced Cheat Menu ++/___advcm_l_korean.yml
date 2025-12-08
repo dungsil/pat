@@ -1,0 +1,1147 @@
+﻿l_korean:
+  ADVCM_selecionar_pais: "국가 선택 및 수정" # 15628969415008974269
+  ADVCM_selecionar_pais_desc: "ADVCM 수정자를 추가할 국가를 선택하십시오" # 3975231641662097281
+  PPK_TEXT_BUTTON_1: "디버그 모드" # 17576418105125226890
+  PPK_TEXT_BUTTON_1_tooltip: "디버그 모드를 켜거나 끄려면 클릭하십시오" # 4908332801218696462
+  ResetCountryButton_text: "국가 초기화" # 5653528801067126239
+  ResetCountryButton_tooltip: "자신에게 국가 포인터를 되돌리려면 여기를 누르십시오" # 4533594361017454477
+  ResetModifiersButton_text: "수정자 초기화" # 17487272313979156954
+  ResetModifiersButton_tooltip: "모든 국가 수정치를 초기화하려면 여기를 클릭하십시오" # 4848244060470167204
+  TreasuryButton_text: "재무부" # 2716336994781876617
+  TreasuryButton_tooltip: "왼쪽 클릭 시 재무부에 £1M£ 증가. 오른쪽 클릭 시 재무부에서 £1M£ 감소." # 12865486928121460832
+  MintingButton_text: "주조" # 15547522810515191141
+  MintingButton_tooltip: "£10K£ 주조를 시작하려면 클릭하고, 비활성화하려면 마우스 오른쪽 버튼을 클릭하십시오." # 17409118387256437566
+  InfamyButton_text: "악명" # 8599787099336384704
+  InfamyButton_tooltip: "좌클릭 시 불명예를 100 증가시킵니다. 우클릭 시 불명예를 100 감소시킵니다." # 16989104525841461615
+  FastInstitutionsCommand_text: "제도" # 8001895225339801902
+  FastInstitutionsCommand_tooltip: "제도 조정이 즉시 완료됩니다. 클릭하여 즉시 건설하거나, 다시 클릭하여 비활성화하십시오. 모든 국가에 적용됩니다 (디버그 모드에서 사용되는 코드입니다)" # 18343384046549702265
+  FastBuildCommand_text: "건설 동력" # 4203744814243210070
+  FastBuildCommand_tooltip: "즉시 건설하려면 클릭하고, 비활성화하려면 다시 클릭하십시오. 모든 국가에 적용됩니다 (디버그 모드를 사용하는 코드입니다)" # 2792736141653657150
+  BureaucracyButton_text: "관료제" # 15749269195959694293
+  BureaucracyButton_tooltip: "좌클릭 시 관료제를 2.5천 증가시키고, 우클릭 시 제거합니다." # 16916775951749334309
+  AuthorityButton_text: "권위" # 1989211857377516393
+  AuthorityButton_tooltip: "좌클릭 시 권위 2.5천 증가, 우클릭 시 제거." # 17090129035766069231
+  InfluenceButton_text: "영향력" # 2029300584735285598
+  InfluenceButton_tooltip: "좌클릭 시 영향력을 2.5천 증가시키고, 우클릭 시 영향력을 제거합니다." # 15437538240428567488
+  ConvoyButton_text: "호송선" # 12957487188713382338
+  ConvoyButton_tooltip: "좌클릭 시 수송선 2.5천 척 증가, 우클릭 시 제거합니다." # 4394013847476321910
+  ResearchCommand_text: "브레인재크" # 12741752461488077091
+  ResearchCommand_tooltip: "즉시 연구하려면 클릭하고, 비활성화하려면 다시 클릭하십시오. 모든 국가에 적용됩니다 (디버그 모드를 사용하는 코드입니다)" # 11414090915556410012
+  PoliticalWillButton_text: "정치적 의지" # 14929792088770371595
+  PoliticalWillButton_tooltip: "즉시 발동하려면 클릭하고, 비활성화하려면 다시 클릭하십시오. 안전함" # 1480649244466951106
+  LoyalistsButton_text: "충성파" # 15004706147478921800
+  LoyalistsButton_tooltip: "좌클릭하여 충성파를 10% 증가시키십시오. 급진파를 추가하여 충성파를 감소시키십시오." # 2756888612784375410
+  RadicalsButton_text: "급진파" # 17971792929492210320
+  RadicalsButton_tooltip: "좌클릭하여 급진주의자를 10% 증가시키십시오. 급진주의자를 줄이려면 충성파를 추가하십시오." # 13458147102821766905
+  TechSpreadButton_text: "기술 확산" # 11751234582312122969
+  TechSpreadButton_tooltip: "이 수정자를 초기화하려면 여기를 마우스 오른쪽 버튼으로 클릭하십시오" # 8386429104085392788
+  FastHireCommand_text: "신속 고용" # 10077244185537411952
+  FastHireCommand_tooltip: "모든 건물이 일주일 내에 충분한 인력을 고용합니다. 즉시 건설하려면 클릭하고, 비활성화하려면 다시 클릭하십시오. (모든 국가에 적용됨) (디버그 모드에서 사용되는 코드입니다)" # 10908217092225057461
+  FastMobilizeCommand_text: "신속 동원" # 4339225030717378971
+  FastMobilizeCommand_tooltip: "즉시 군대를 건설하려면 완전히 동원하십시오. 다시 클릭하면 비활성화됩니다. 모든 국가에 적용됩니다 (디버그 모드를 사용하는 코드입니다)" # 990865793521357394
+  ResetApprovalButton_text: "집단 충성" # 16951904800207794905
+  ResetApprovalButton_tooltip: "이 모드에서 생성된 정치적 충성도 수정자를 삭제하려면 여기의 큰 버튼을 마우스 오른쪽 버튼으로 누르십시오." # 9126281234501280631
+  ApprovalButton_text: "집단 충성" # 16951904800207794905
+  ApprovalButton_tooltip: "모든 집단에 좌클릭 시 충성도 +100, 우클릭 시 충성도 -100 (중첩 가능). 이 모드의 충성도 변경 사항을 모두 되돌리려면, 여기에 우클릭하는 대신 큰 버튼에 우클릭하십시오." # 14252005142373008448
+  ArmedForcesLoyaltyButton_tooltip: "이 관심 단체에 좌클릭하면 충성도가 5만큼 증가합니다. 우클릭하면 충성도가 5만큼 감소합니다 (중첩 가능)." # 10139916746964710374
+  DevoutLoyaltyButton_tooltip: "이 관심 단체에 좌클릭하면 충성도가 5만큼 증가합니다. 우클릭하면 충성도가 5만큼 감소합니다 (중첩 가능)." # 10139916746964710374
+  IndustrialistsLoyaltyButton_tooltip: "이 관심 단체에 좌클릭하면 충성도가 5만큼 증가합니다. 우클릭하면 충성도가 5만큼 감소합니다 (중첩 가능)." # 10139916746964710374
+  IntelligensiaLoyaltyButton_tooltip: "이 관심 단체에 좌클릭하면 충성도가 5만큼 증가합니다. 우클릭하면 충성도가 5만큼 감소합니다 (중첩 가능)." # 10139916746964710374
+  LandownersLoyaltyButton_tooltip: "이 관심 단체에 좌클릭하면 충성도가 5만큼 증가합니다. 우클릭하면 충성도가 5만큼 감소합니다 (중첩 가능)." # 10139916746964710374
+  BourgeoisieLoyaltyButton_tooltip: "이 관심 단체에 좌클릭하면 충성도가 5만큼 증가합니다. 우클릭하면 충성도가 5만큼 감소합니다 (중첩 가능)." # 10139916746964710374
+  RuralFolkLoyaltyButton_tooltip: "이 관심 단체에 좌클릭하면 충성도가 5만큼 증가합니다. 우클릭하면 충성도가 5만큼 감소합니다 (중첩 가능)." # 10139916746964710374
+  TradeUnionsLoyaltyButton_tooltip: "이 관심 단체에 좌클릭하면 충성도가 5만큼 증가합니다. 우클릭하면 충성도가 5만큼 감소합니다 (중첩 가능)." # 10139916746964710374
+  InGovernmentLoyaltyButton_tooltip: "좌클릭 시 집권 중인 이익집단의 충성도를 5만큼 증가시킵니다. 우클릭 시 충성도를 5만큼 감소시킵니다 (중첩 가능)." # 16385656709388571280
+  OppositionLoyaltyButton_tooltip: "좌클릭 시 야당 이익집단의 충성도를 5만큼 높일 수 있습니다. 우클릭 시 충성도를 5만큼 낮출 수 있습니다 (중첩 가능)." # 1189543860041296126
+  ResetPoliticalPowerButton_text: "집단 세력" # 15955395551149603486
+  ResetPoliticalPowerButton_tooltip: "이 모드에서 가져온 이념 집단의 정치 권력을 삭제하려면 여기의 큰 버튼을 마우스 오른쪽 버튼으로 누르십시오." # 16330888219848230879
+  ArmedForcesPoliticalPowerButton_tooltip: "왼쪽 클릭 시 이 이익 집단의 영향력을 10% 증가시킵니다. 오른쪽 클릭 시 10% 감소시킵니다 (중첩 가능)." # 11818349324891481464
+  DevoutPoliticalPowerButton_tooltip: "왼쪽 클릭 시 이 이익 집단의 영향력을 10% 증가시킵니다. 오른쪽 클릭 시 10% 감소시킵니다 (중첩 가능)." # 11818349324891481464
+  IndustrialistsPoliticalPowerButton_tooltip: "왼쪽 클릭 시 이 이익 집단의 영향력을 10% 증가시킵니다. 오른쪽 클릭 시 10% 감소시킵니다 (중첩 가능)." # 11818349324891481464
+  IntelligensiaPoliticalPowerButton_tooltip: "왼쪽 클릭 시 이 이익 집단의 영향력을 10% 증가시킵니다. 오른쪽 클릭 시 10% 감소시킵니다 (중첩 가능)." # 11818349324891481464
+  LandownersPoliticalPowerButton_tooltip: "왼쪽 클릭 시 이 이익 집단의 영향력을 10% 증가시킵니다. 오른쪽 클릭 시 10% 감소시킵니다 (중첩 가능)." # 11818349324891481464
+  BourgeoisiePoliticalPowerButton_tooltip: "왼쪽 클릭 시 이 이익 집단의 영향력을 10% 증가시킵니다. 오른쪽 클릭 시 10% 감소시킵니다 (중첩 가능)." # 11818349324891481464
+  RuralFolkPoliticalPowerButton_tooltip: "왼쪽 클릭 시 이 이익 집단의 영향력을 10% 증가시킵니다. 오른쪽 클릭 시 10% 감소시킵니다 (중첩 가능)." # 11818349324891481464
+  TradeUnionsPoliticalPowerButton_tooltip: "왼쪽 클릭 시 이 이익 집단의 영향력을 10% 증가시킵니다. 오른쪽 클릭 시 10% 감소시킵니다 (중첩 가능)." # 11818349324891481464
+  KillingFieldsButton_text: "킬링 필드" # 1032255861415451285
+  KillingFieldsButton_tooltip: "클릭하여 +200% 사살률 효과를 얻고, 우클릭하여 제거하십시오." # 5741469022756551542
+  ImmortalsButton_text: "불멸자들" # 15074551945402827856
+  ImmortalsButton_tooltip: "클릭하여 +200% 회복률 수정치를 획득하거나, 우클릭하여 비활성화하십시오." # 14784484765754953052
+  GreatAttaccButton_text: "위대한 공격" # 9835795334313701136
+  GreatAttaccButton_tooltip: "클릭 시 육상 및 해상 공격력이 두 배로 증가하며, 우클릭 시 비활성화됩니다." # 18388906084314861902
+  GreatProteccButton_text: "위대한 보호자" # 15659928616367548715
+  GreatProteccButton_tooltip: "토글하여 육상 및 해상 방어에 2배의 효과를 얻으려면 클릭하고, 비활성화하려면 마우스 오른쪽 버튼을 클릭하십시오." # 1602962059675708230
+  YesmenCommand_text: "음유시인의 카리스마" # 15634673687975268455
+  YesmenCommand_tooltip: "모든 AI 국가들이 귀하의 다양한 외교적 요청에 동의하도록 클릭하십시오. 다시 클릭하면 이 기능이 비활성화됩니다. (이는 디버그 모드를 사용하는 코드입니다)" # 13654434610328899457
+  GrowthSerumButton_text: "성장 혈청" # 14283519541746867466
+  GrowthSerumButton_tooltip: "클릭 시 인구 증가율에 +50%의 수정치를 얻으며, 오른쪽 클릭 시 제거됩니다." # 16212355779943165059
+  EfficientFactoriesButton_text: "효율적인 공장!" # 13650858108507761674
+  EfficientFactoriesButton_tooltip: "입력 비용을 10% 감소시키려면 클릭하고, 비활성화하려면 마우스 오른쪽 버튼을 클릭하십시오." # 10475017360843429331
+  MassiveFactoriesButton_text: "거대한 공장들!" # 5289573627691147730
+  MassiveFactoriesButton_tooltip: "클릭하여 생산량(Throughput)을 10% 증가시키고, 우클릭하여 비활성화하십시오." # 14910251072973362421
+  TITULO_ABA_PRINCIPAL: "고급 치트 메뉴 ++ (책상에 머리를 박아 만든)" # 1207762021635043291
+  TITULO_ABA_GOVERNO: "정부 수정치" # 8901272253891276917
+  TITULO_ABA_SOCIEDADE: "사회 특성" # 13395143134778518045
+  TITULO_ABA_MILITAR: "군사 수정치" # 4423115236256253410
+  TITULO_ABA_ECONOMIA: "경제 수정치" # 8515350492070490534
+  TITULO_ABA_ESFERA: "영향권 수정자" # 5661086993235495202
+  TITULO_ABA_MODS: "모드 수정자" # 678893056260714106
+  TITULO_ABA_LEIS: "법률" # 11657213542491075958
+  TITULO_ABA_LEIS_GOVERNAMENTAIS: "권력 구조 법률" # 12852354198991963815
+  TITULO_ABA_LEIS_ECONOMICAS: "경제 법률" # 8384621863091427745
+  TITULO_ABA_LEIS_DIREITOS_HUMANOS: "인권법" # 6307940390074478948
+  PowerStructureLawsButton_text: "권력 구조" # 1129618730853822529
+  EconomyLawsButton_text: "경제" # 6117666191310622563
+  HumanRightsLawsButton_text: "인권" # 5060117347800274611
+  GovernmentTabButton_text: "정부" # 11193753907686482526
+  SocietyTabButton_text: "사회" # 5078132167076572738
+  MilitaryTabButton_text: "군대" # 7365445990119700666
+  EconomyTabButton_text: "경제" # 6117666191310622563
+  SphereTabButton_text: "구체" # 11612506150094566378
+  LawsTabButton_text: "법률" # 11657213542491075958
+  ModsTabButton_text: "모드" # 8193558555240689147
+  AbrirPainel: "고급 치트 메뉴 열기 ++" # 12954302096902367857
+  AbrirPainel_tooltip: "고급 치트 메뉴 열기 ++" # 12954302096902367857
+  OpenMainMenu_text: "국가" # 3930035898868749507
+  OpenMainMenu_tooltip: "국가 수정 메뉴 열기" # 9245223107270482791
+  OpenCharacterMenu_text: "인물" # 10151016681120054276
+  OpenCharacterMenu_tooltip: "캐릭터 수정 메뉴 열기" # 9068879935322783282
+  OpenInterestGroupMenu_text: "이해집단" # 2872691657831968591
+  OpenInterestGroupMenu_tooltip: "관심 그룹 수정 메뉴 열기" # 15732919852238715463
+  TaxCapacityButton_text: "세금 수용력" # 126783524555649560
+  TaxCapacityButton_tooltip: "이 수정자를 초기화하려면 여기를 마우스 오른쪽 버튼으로 클릭하십시오" # 8386429104085392788
+  TaxCapacityButtonAdd_tooltip: "여기를 좌클릭하여 세금 수용력 100을 추가하고, 우클릭하여 세금 수용력 200을 추가하십시오." # 8668791343298271048
+  TaxCapacityButtonRemove_tooltip: "왼쪽 클릭 시 세금 수용량 100을 제거합니다. 오른쪽 클릭 시 세금 수용량 200을 제거합니다." # 5621371884836045893
+  ResearchButton_text: "연구" # 7571598445458476832
+  ResearchButton_tooltip: "이 수정자를 초기화하려면 여기를 마우스 오른쪽 버튼으로 클릭하십시오" # 8386429104085392788
+  ResearchButtonAdd_tooltip: "여기를 좌클릭하여 혁신 50과 최대 혁신을 추가하십시오. 우클릭하여 혁신 100과 최대 혁신을 추가하십시오." # 3634148931647705802
+  ResearchButtonRemove_tooltip: "왼쪽 클릭 시 혁신 50과 최대 혁신을 제거합니다. 오른쪽 클릭 시 혁신 100과 최대 혁신을 제거합니다." # 3674553671055001525
+  PrestigeButton_text: "명성" # 4793926349831674903
+  PrestigeButton_tooltip: "이 수정자를 초기화하려면 여기를 마우스 오른쪽 버튼으로 클릭하십시오" # 8386429104085392788
+  PrestigeButtonAdd_tooltip: "좌클릭하여 명성 25를 추가하십시오. 우클릭하여 명성 50을 추가하십시오." # 8170204230553552266
+  PrestigeButtonRemove_tooltip: "여기를 좌클릭하여 명성 25를 제거하십시오; 여기를 우클릭하여 명성 50을 제거하십시오" # 17533155182082168851
+  LegitimacyButton_text: "정통성" # 5620217411538494537
+  LegitimacyButton_tooltip: "이 수정자를 초기화하려면 여기를 마우스 오른쪽 버튼으로 클릭하십시오" # 8386429104085392788
+  LegitimacyButtonAdd_tooltip: "좌클릭하여 정통성 10을 추가하십시오; 우클릭하여 정통성 20을 추가하십시오" # 2067160168721121679
+  LegitimacyButtonRemove_tooltip: "좌클릭 시 정통성 10 감소; 우클릭 시 정통성 20 감소" # 11377397395324987614
+  TensionDecayButton_text: "긴장도 감소" # 312500497998898244
+  TensionDecayButton_tooltip: "이 수정자를 초기화하려면 여기를 마우스 오른쪽 버튼으로 클릭하십시오" # 8386429104085392788
+  TensionDecayButtonAdd_tooltip: "좌측 클릭 시 긴장도 감소 속도가 50% 빨라집니다. 우측 클릭 시 긴장도 감소 속도가 200% 빨라집니다." # 11041538956338138413
+  TensionDecayButtonRemove_tooltip: "좌클릭 시 긴장도 감소 속도를 50%로 늦춥니다. 우클릭 시 긴장도 감소 속도를 200%로 늦춥니다." # 2705014904847183308
+  LawSuccessButton_text: "법률 통과" # 8911496960822032831
+  LawSuccessButton_tooltip: "이 수정자를 초기화하려면 여기를 마우스 오른쪽 버튼으로 클릭하십시오" # 8386429104085392788
+  LawSuccessButtonAdd_tooltip: "좌측 클릭 시 법안 성공 확률 10% 증가; 우측 클릭 시 법안 성공 확률 25% 증가" # 13462171132415491909
+  LawSuccessButtonRemove_tooltip: "왼쪽 클릭 시 법안 성공률 10% 감소; 오른쪽 클릭 시 법안 성공률 25% 감소" # 4723036669562996821
+  LawTimeButton_text: "법률 시간" # 11646650422819999400
+  LawTimeButton_tooltip: "이 수정자를 초기화하려면 여기를 마우스 오른쪽 버튼으로 클릭하십시오" # 8386429104085392788
+  LawTimeButtonAdd_tooltip: "왼쪽 클릭 시 법률 제정 시간이 10% 단축됩니다. 오른쪽 클릭 시 법률 제정 시간이 25% 단축됩니다." # 1615223196856708775
+  LawTimeButtonRemove_tooltip: "왼쪽 클릭 시 법률 제정 시간을 10% 늦춥니다. 오른쪽 클릭 시 법률 제정 시간을 25% 늦춥니다." # 7070633246860468611
+  LawStrikesButton_text: "법률 파업" # 6108785316092351711
+  LawStrikesButton_tooltip: "이 수정자를 초기화하려면 여기를 마우스 오른쪽 버튼으로 클릭하십시오" # 8386429104085392788
+  LawStrikesButtonAdd_tooltip: "여기를 좌클릭하여 법률 파업 한도를 1만큼 추가하십시오. 우클릭하여 법률 파업 한도를 3만큼 추가하십시오." # 9724989675528179473
+  LawStrikesButtonRemove_tooltip: "왼쪽 클릭 시 법률 파업 제한 1개를 제거합니다. 오른쪽 클릭 시 법률 파업 제한 3개를 제거합니다." # 18393895023096047995
+  BetterRelationsButton_text: "관계 개선" # 3063848828279176508
+  BetterRelationsButton_tooltip: "이 수정자를 초기화하려면 여기를 마우스 오른쪽 버튼으로 클릭하십시오" # 8386429104085392788
+  BetterRelationsButtonAdd_tooltip: "좌클릭 시 관계 개선 속도를 100% 가속합니다. 우클릭 시 관계 개선 속도를 500% 가속합니다." # 2883626886617495361
+  BetterRelationsButtonRemove_tooltip: "개선 속도를 100%로 늦추려면 여기를 왼쪽 클릭하십시오. 개선 속도를 500%로 늦추려면 오른쪽 클릭하십시오." # 11464762948557792720
+  DamageRelationsButton_text: "관계 악화" # 1498903432058195483
+  DamageRelationsButton_tooltip: "이 수정자를 초기화하려면 여기를 마우스 오른쪽 버튼으로 클릭하십시오" # 8386429104085392788
+  DamageRelationsButtonAdd_tooltip: "왼쪽 클릭 시 관계 피해를 100%로 가속합니다. 오른쪽 클릭 시 관계 피해를 500%로 가속합니다." # 16430679312553848311
+  DamageRelationsButtonRemove_tooltip: "100% 피해 배율에서 속도를 늦추려면 여기를 왼쪽 클릭하십시오. 500% 피해 배율에서 속도를 늦추려면 여기를 오른쪽 클릭하십시오." # 12846501581856847513
+  ColonyGrowthButton_text: "식민지 성장" # 984753073784160189
+  ColonyGrowthButton_tooltip: "이 수정자를 초기화하려면 여기를 마우스 오른쪽 버튼으로 클릭하십시오" # 8386429104085392788
+  ColonyGrowthButtonAdd_tooltip: "좌측 클릭 시 식민지 성장 속도가 1000% 증가합니다. 우측 클릭 시 식민지 성장 속도가 5000% 증가합니다." # 3478894040822674052
+  ColonyGrowthButtonRemove_tooltip: "여기를 좌클릭하면 식민지 성장 속도가 1000% 느려지고, 우클릭하면 5000% 느려집니다." # 17429873225418869637
+  ColonizationPercentageButton_text: "식민지화 비율" # 17555541131863450383
+  ColonizationPercentageButton_tooltip: "이 수정자를 초기화하려면 여기를 마우스 오른쪽 버튼으로 클릭하십시오" # 8386429104085392788
+  ColonizationPercentageButtonAdd_tooltip: "좌측 클릭 시 식민지 성장을 25% 가속화합니다. 우측 클릭 시 식민지 성장을 100% 가속화합니다." # 4722456978935607590
+  ColonizationPercentageButtonRemove_tooltip: "좌측 클릭 시 식민지 성장 속도를 25% 늦춥니다. 우측 클릭 시 식민지 성장 속도를 100% 늦춥니다." # 16425946606728425697
+  InterestButton_text: "관심" # 11540068239272458271
+  InterestButton_tooltip: "이 수정자를 초기화하려면 여기를 마우스 오른쪽 버튼으로 클릭하십시오" # 8386429104085392788
+  InterestButtonAdd_tooltip: "왼쪽 클릭 시 지역 관심 한도에 1을 추가합니다. 오른쪽 클릭 시 지역 관심 한도에 3을 추가합니다." # 8990111540038686111
+  InterestButtonRemove_tooltip: "관심 지역 한도를 1만큼 제거하려면 왼쪽을 클릭하십시오. 관심 지역 한도를 3만큼 제거하려면 오른쪽을 클릭하십시오." # 16296653166523145313
+  DiplomaticManeouverButton_text: "외교적 책략" # 13129504543207078743
+  DiplomaticManeouverButton_tooltip: "이 수정자를 초기화하려면 여기를 마우스 오른쪽 버튼으로 클릭하십시오" # 8386429104085392788
+  DiplomaticManeouverButtonAdd_tooltip: "여기를 좌클릭하여 외교 기동에 10을 더하거나, 우클릭하여 외교 기동에 25를 더하십시오." # 15510008170762743776
+  DiplomaticManeouverButtonRemove_tooltip: "왼쪽 클릭 시 외교 기동력을 10 감소시키고, 오른쪽 클릭 시 외교 기동력을 25 감소시킵니다." # 5858375813720396750
+  MaxInnovationButton_text: "최대 혁신" # 8019768466026446255
+  MaxInnovationButton_tooltip: "이 수정자를 초기화하려면 여기를 마우스 오른쪽 버튼으로 클릭하십시오" # 8386429104085392788
+  MaxInnovationButtonAdd_tooltip: "좌클릭하여 혁신 한도에 10을 추가하십시오. 우클릭하여 혁신 한도에 50을 추가하십시오." # 12531934383167896082
+  MaxInnovationButtonRemove_tooltip: "좌클릭하여 혁신 한도를 10만큼 제거하십시오; 우클릭하여 혁신 한도를 50만큼 제거하십시오" # 5206584588761584464
+  AddInnovationButton_text: "혁신 추가" # 12523870224124745648
+  AddInnovationButton_tooltip: "이 수정자를 초기화하려면 여기를 마우스 오른쪽 버튼으로 클릭하십시오" # 8386429104085392788
+  AddInnovationButtonAdd_tooltip: "여기를 좌클릭하여 혁신을 10 추가하십시오. 우클릭하여 혁신을 50 추가하십시오." # 9472296485768433903
+  AddInnovationButtonRemove_tooltip: "왼쪽 클릭 시 혁신에 10 감소; 오른쪽 클릭 시 혁신에 50 감소" # 10321274906977993397
+  InstitutionButton_text: "제도" # 386145427684179771
+  InstitutionButton_tooltip: "이 수정자를 초기화하려면 여기를 마우스 오른쪽 버튼으로 클릭하십시오" # 8386429104085392788
+  InstitutionButtonAdd_tooltip: "왼쪽 클릭 시 기관 수준 변경 속도가 50% 증가하며, 오른쪽 클릭 시 100% 증가합니다." # 2850387141778100738
+  InstitutionButtonRemove_tooltip: "왼쪽 클릭 시 기관 수준 변경 속도가 50% 느려지며, 오른쪽 클릭 시 100% 느려집니다." # 2724315151391917977
+  MegaInstitutionButton_text: "거대 제도" # 9862135898793150430
+  MegaInstitutionButton_tooltip: "이 수정자를 초기화하려면 여기를 마우스 오른쪽 버튼으로 클릭하십시오" # 8386429104085392788
+  MegaInstitutionButtonAdd_tooltip: "왼쪽 클릭 시 기관 수준 변경 속도가 500% 증가합니다. 오른쪽 클릭 시 기관 수준 변경 속도가 1000% 증가합니다." # 14148039880954629060
+  MegaInstitutionButtonRemove_tooltip: "좌클릭 시 기관 수준 변경 속도를 500% 늦춥니다. 우클릭 시 기관 수준 변경 속도를 1000% 늦춥니다." # 10538639480435842382
+  SubjectLawButton_text: "주법" # 5532916855066428011
+  SubjectLawButton_tooltip: "이 수정자를 초기화하려면 여기를 마우스 오른쪽 버튼으로 클릭하십시오" # 8386429104085392788
+  SubjectLawButtonAdd_tooltip: "좌클릭 시 피지배국 법률 변경에 10%를 추가합니다. 우클릭 시 피지배국 법률 변경에 25%를 추가합니다 (현재 작동하지 않음)." # 16572254925096203506
+  SubjectLawButtonRemove_tooltip: "좌측 클릭 시 피대상 법률 변경에 대한 10% 감소; 우측 클릭 시 피대상 법률 변경에 대한 25% 감소 (현재 작동하지 않음)" # 4215901961184996832
+  MegaResearchButton_text: "메가 연구" # 106382369265128387
+  MegaResearchButton_tooltip: "이 수정자를 초기화하려면 여기를 마우스 오른쪽 버튼으로 클릭하십시오" # 8386429104085392788
+  MegaResearchButtonAdd_tooltip: "좌클릭 시 혁신을 200만큼 추가하고 혁신을 최대로 설정합니다. 우클릭 시 혁신을 500만큼 추가하고 혁신을 최대로 설정합니다." # 10324885157959496500
+  MegaResearchButtonRemove_tooltip: "여기를 좌클릭하여 혁신 수치 200과 최대 혁신 수치를 제거하십시오. 여기를 우클릭하여 혁신 수치 500과 최대 혁신 수치를 제거하십시오." # 5735290249621718209
+  AgitatorButton_text: "선동가" # 6011642072633990889
+  AgitatorButton_tooltip: "이 수정자를 초기화하려면 여기를 마우스 오른쪽 버튼으로 클릭하십시오" # 8386429104085392788
+  AgitatorButtonAdd_tooltip: "왼쪽 클릭 시 선동가 슬롯 1개를 추가합니다. 오른쪽 클릭 시 선동가 슬롯 3개를 추가합니다." # 12878902132716077211
+  AgitatorButtonRemove_tooltip: "여기를 좌클릭하여 선동가 슬롯 1개를 제거하십시오. 우클릭하여 선동가 슬롯 3개를 제거하십시오." # 14341008546515177912
+  TechSpreadButtonAdd_tooltip: "여기를 좌클릭하여 기술 전파 슬롯 10개를 추가하십시오. 우클릭하여 기술 전파 슬롯 50개를 추가하십시오." # 3087787846398068467
+  TechSpreadButtonRemove_tooltip: "왼쪽 클릭 시 기술 전파 슬롯 10개를 제거합니다. 오른쪽 클릭 시 기술 전파 슬롯 50개를 제거합니다." # 5509899944477506601
+  PoliticalMovementBolsterButton_text: "정치 운동 지원" # 9946298466316802258
+  PoliticalMovementBolsterButton_tooltip: "이 수정자를 초기화하려면 여기를 마우스 오른쪽 버튼으로 클릭하십시오" # 8386429104085392788
+  PoliticalMovementBolsterButtonAdd_tooltip: "좌클릭 시 정치 운동 지원 효과를 10% 더 부여합니다. 우클릭 시 정치 운동 지원 효과를 25% 더 부여합니다." # 8697212209961713065
+  PoliticalMovementBolsterButtonRemove_tooltip: "좌클릭 시 정치 운동 증강 효과를 10% 더 제거합니다. 우클릭 시 정치 운동 증강 효과를 25% 더 제거합니다." # 443442633778209500
+  PoliticalMovementSuppressionButton_text: "정치 운동 탄압" # 7610472252369253913
+  PoliticalMovementSuppressionButton_tooltip: "이 수정자를 초기화하려면 여기를 마우스 오른쪽 버튼으로 클릭하십시오" # 8386429104085392788
+  PoliticalMovementSuppressionButtonAdd_tooltip: "좌클릭 시 정치 운동 탄압을 10% 추가로 적용합니다. 우클릭 시 정치 운동 탄압을 25% 추가로 적용합니다." # 1388282997350973748
+  PoliticalMovementSuppressionButtonRemove_tooltip: "좌클릭 시 정치 운동 탄압을 10% 더 제거하며, 우클릭 시 정치 운동 탄압을 25% 더 제거합니다." # 10858737585807450785
+  StateIncorporationButton_text: "주 편입" # 9079086084278448519
+  StateIncorporationButton_tooltip: "이 수정자를 초기화하려면 여기를 마우스 오른쪽 버튼으로 클릭하십시오" # 8386429104085392788
+  StateIncorporationButtonAdd_tooltip: "좌클릭 시 주 편입 속도 10% 증가; 우클릭 시 주 편입 속도 25% 증가" # 14679010027770609034
+  StateIncorporationButtonRemove_tooltip: "좌측 클릭 시 주 편입 속도 10% 감소; 우측 클릭 시 주 편입 속도 25% 감소" # 5278939339872045729
+  InfamyDecayButton_text: "악명 감소" # 5339931293121091906
+  InfamyDecayButton_tooltip: "이 수정자를 초기화하려면 여기를 마우스 오른쪽 버튼으로 클릭하십시오" # 8386429104085392788
+  InfamyDecayButtonAdd_tooltip: "좌클릭 시 불명예 감소 속도를 10% 증가시키고, 우클릭 시 불명예 감소 속도를 25% 증가시킵니다." # 15374563386989099628
+  InfamyDecayButtonRemove_tooltip: "왼쪽 클릭 시 불명예 감소 속도를 10% 감소시키고, 오른쪽 클릭 시 불명예 감소 속도를 25% 감소시킵니다." # 17331045937168853015
+  TaxIncomeButton_text: "세수입" # 14117138706226954924
+  TaxIncomeButton_tooltip: "이 수정자를 초기화하려면 여기를 마우스 오른쪽 버튼으로 클릭하십시오" # 8386429104085392788
+  TaxIncomeButtonAdd_tooltip: "왼쪽 클릭 시 세수입에 10%를 더하고, 오른쪽 클릭 시 세수입에 25%를 더합니다." # 6610541319595844895
+  TaxIncomeButtonRemove_tooltip: "세금 수입에서 10%를 제거하려면 왼쪽 클릭하십시오. 세금 수입에서 25%를 제거하려면 오른쪽 클릭하십시오." # 13978388597988068225
+  AssimilationButton_text: "동화" # 16592208182143337897
+  AssimilationButton_tooltip: "이 수정자를 초기화하려면 여기를 마우스 오른쪽 버튼으로 클릭하십시오" # 8386429104085392788
+  AssimilationButtonAdd_tooltip: "좌클릭 시 동화 속도를 50% 가속합니다. 우클릭 시 동화 속도를 200% 가속합니다." # 17918983738665126167
+  AssimilationButtonRemove_tooltip: "좌측 클릭 시 동화 속도를 50%로 늦춥니다. 우측 클릭 시 동화 속도를 200%로 늦춥니다." # 11810475063149589596
+  LiteracyButton_text: "문맹률" # 5199763297766602834
+  LiteracyButton_tooltip: "귀하의 인구 문맹률은 초기화할 수 없습니다." # 11374281796441466613
+  LiteracyButtonAdd_tooltip: "인구의 문맹률을 5% 낮추려면 왼쪽을 클릭하십시오. 인구의 문맹률을 10% 낮추려면 오른쪽을 클릭하십시오." # 9758628213808851009
+  LiteracyButtonRemove_tooltip: "왼쪽 클릭 시 인구의 문맹률을 5% 증가시키며, 오른쪽 클릭 시 인구의 문맹률을 10% 증가시킵니다." # 15773638390404043462
+  ImmigrationButton_text: "이민" # 12254953470753804345
+  ImmigrationButton_tooltip: "이 수정자를 초기화하려면 여기를 마우스 오른쪽 버튼으로 클릭하십시오" # 8386429104085392788
+  ImmigrationButtonAdd_tooltip: "좌클릭 시 이민 유입률에 25%를 더하고, 우클릭 시 이민 유입률에 150%를 더합니다." # 1649654836105317904
+  ImmigrationButtonRemove_tooltip: "좌클릭 시 이민 유입률을 25% 감소시키고, 우클릭 시 이민 유입률을 150% 감소시킵니다." # 16383063201221513061
+  EducationAccessButton_text: "교육 접근성" # 12829612085332000565
+  EducationAccessButton_tooltip: "이 수정자를 초기화하려면 여기를 마우스 오른쪽 버튼으로 클릭하십시오" # 8386429104085392788
+  EducationAccessButtonAdd_tooltip: "여기를 좌클릭하여 교육 접근성을 5% 추가하십시오. 우클릭하여 교육 접근성을 20% 추가하십시오." # 17783806744593232741
+  EducationAccessButtonRemove_tooltip: "여기를 좌클릭하여 교육 접근성을 5% 감소시키십시오; 여기를 우클릭하여 교육 접근성을 20% 감소시키십시오" # 2925619652216574782
+  QualificationButton_text: "자격" # 13505193944398917129
+  QualificationButton_tooltip: "이 수정자를 초기화하려면 여기를 마우스 오른쪽 버튼으로 클릭하십시오" # 8386429104085392788
+  QualificationButtonAdd_tooltip: "여기를 좌클릭하여 자격을 100% 더 추가하십시오. 여기를 우클릭하여 자격을 500% 더 추가하십시오." # 4248054504690813760
+  QualificationButtonRemove_tooltip: "100% 더 많은 자격을 제거하려면 왼쪽을 클릭하십시오. 500% 더 많은 자격을 제거하려면 오른쪽을 클릭하십시오." # 8749454922448544180
+  MinorGrowthButton_text: "소규모 성장" # 9741145834775511143
+  MinorGrowthButton_tooltip: "이 수정자를 초기화하려면 여기를 마우스 오른쪽 버튼으로 클릭하십시오" # 8386429104085392788
+  MinorGrowthButtonAdd_tooltip: "왼쪽 클릭 시 인구 성장률이 10% 증가하며, 오른쪽 클릭 시 25% 증가합니다." # 15419022903032473055
+  MinorGrowthButtonRemove_tooltip: "왼쪽 클릭 시 인구 증가율을 10% 더 감소시키고, 오른쪽 클릭 시 25% 더 감소시킵니다." # 15457455138998309992
+  WorkforceButton_text: "노동력" # 11924293465864065796
+  WorkforceButton_tooltip: "이 수정자를 초기화하려면 여기를 마우스 오른쪽 버튼으로 클릭하십시오" # 8386429104085392788
+  WorkforceButtonAdd_tooltip: "여기를 좌클릭하여 노동력 비율을 5% 증가시키십시오. 우클릭하여 노동력 비율을 10% 증가시키십시오 (100%를 초과하지 않도록 주의하십시오)." # 18434984916661349063
+  WorkforceButtonRemove_tooltip: "왼쪽 클릭 시 노동력 비율을 5% 감소시키며, 오른쪽 클릭 시 노동력 비율을 10% 감소시킵니다 (100%를 초과할 수 없습니다)." # 2553579216970803233
+  RevolutionProgressButton_text: "혁명 진행도" # 18171785358644464952
+  RevolutionProgressButton_tooltip: "이 수정자를 초기화하려면 여기를 마우스 오른쪽 버튼으로 클릭하십시오" # 8386429104085392788
+  RevolutionProgressButtonAdd_tooltip: "왼쪽 클릭 시 혁명 진행도를 10% 가속합니다. 오른쪽 클릭 시 혁명 진행도를 25% 가속합니다." # 5938515381693729650
+  RevolutionProgressButtonRemove_tooltip: "좌클릭 시 혁명 진행도를 10%만큼 늦추고, 우클릭 시 25%만큼 늦춥니다." # 3553321502086974
+  SecessionProgressButton_text: "분리_진행도" # 2234614518305572476
+  SecessionProgressButton_tooltip: "이 수정자를 초기화하려면 여기를 마우스 오른쪽 버튼으로 클릭하십시오" # 8386429104085392788
+  SecessionProgressButtonAdd_tooltip: "좌클릭 시 분리주의 진행도를 10% 가속합니다. 우클릭 시 분리주의 진행도를 25% 가속합니다." # 2949171541876966428
+  SecessionProgressButtonRemove_tooltip: "좌측 클릭 시 분리주의 진행도를 10% 늦춥니다. 우측 클릭 시 분리주의 진행도를 25% 늦춥니다." # 15718403968868755665
+  HyperAssimilationButton_text: "초고속 동화" # 12313179944979354279
+  HyperAssimilationButton_tooltip: "이 수정자를 초기화하려면 여기를 마우스 오른쪽 버튼으로 클릭하십시오" # 8386429104085392788
+  HyperAssimilationButtonAdd_tooltip: "좌측 클릭 시 동화 속도를 1000% 가속합니다. 우측 클릭 시 동화 속도를 5000% 가속합니다." # 238480947126444823
+  HyperAssimilationButtonRemove_tooltip: "1000% 동화 속도로 늦추려면 여기를 왼쪽 클릭하십시오. 5000% 동화 속도로 늦추려면 여기를 오른쪽 클릭하십시오." # 8005804365323708457
+  TurmoilButton_text: "혼란" # 15194534077648352841
+  TurmoilButton_tooltip: "이 수정자를 초기화하려면 여기를 마우스 오른쪽 버튼으로 클릭하십시오" # 8386429104085392788
+  TurmoilButtonAdd_tooltip: "여기를 좌클릭하여 혼란 효과에 10%를 더하거나, 우클릭하여 혼란 효과에 25%를 더하십시오." # 1116476321077042799
+  TurmoilButtonRemove_tooltip: "왼쪽 클릭 시 소요에 미치는 효과를 10% 제거합니다. 오른쪽 클릭 시 소요에 미치는 효과를 25% 제거합니다." # 18076606142844284128
+  ConversionButton_text: "전환" # 3621948411690603070
+  ConversionButton_tooltip: "이 수정자를 초기화하려면 여기를 마우스 오른쪽 버튼으로 클릭하십시오" # 8386429104085392788
+  ConversionButtonAdd_tooltip: "좌측 클릭 시 50% 속도로 전환을 가속화합니다. 우측 클릭 시 200% 속도로 전환을 가속화합니다." # 12356390554269662384
+  ConversionButtonRemove_tooltip: "좌측 클릭 시 50% 속도로 느려지며, 우측 클릭 시 200% 속도로 느려집니다." # 10474920567166275906
+  HyperConversionButton_text: "초고도 전환" # 8675334706332700942
+  HyperConversionButton_tooltip: "이 수정자를 초기화하려면 여기를 마우스 오른쪽 버튼으로 클릭하십시오" # 8386429104085392788
+  HyperConversionButtonAdd_tooltip: "좌클릭 시 1000% 속도로 전환을 가속화합니다. 우클릭 시 5000% 속도로 전환을 가속화합니다." # 9816429417745534479
+  HyperConversionButtonRemove_tooltip: "1000% 속도로 변환을 늦추려면 여기를 좌클릭하십시오. 5000% 속도로 변환을 늦추려면 여기를 우클릭하십시오." # 4728166759474533102
+  LivingStandardButton_text: "생활 수준" # 2460832683257332440
+  LivingStandardButton_tooltip: "이 수정자를 초기화하려면 여기를 마우스 오른쪽 버튼으로 클릭하십시오" # 8386429104085392788
+  LivingStandardButtonAdd_tooltip: "좌클릭하여 생활 수준을 1만큼 올리거나, 우클릭하여 생활 수준을 2.5만큼 올리십시오." # 3561925036957379522
+  LivingStandardButtonRemove_tooltip: "생활 수준을 1만큼 제거하려면 왼쪽 클릭하십시오. 생활 수준을 2.5만큼 제거하려면 오른쪽 클릭하십시오." # 6354756215862586893
+  MortalityButton_text: "사망률" # 16443185672760051473
+  MortalityButton_tooltip: "이 수정자를 초기화하려면 여기를 마우스 오른쪽 버튼으로 클릭하십시오" # 8386429104085392788
+  MortalityButtonAdd_tooltip: "여기를 좌클릭하여 사망률을 10% 증가시키십시오. 우클릭하여 사망률을 25% 증가시키십시오." # 16569830403330076666
+  MortalityButtonRemove_tooltip: "좌클릭하여 사망률을 10% 감소시키십시오. 우클릭하여 사망률을 25% 감소시키십시오." # 17590059491027866192
+  AssimilationThresholdButton_text: "동화 문턱값" # 3404230611118052789
+  AssimilationThresholdButton_tooltip: "이 수정자를 초기화하려면 여기를 마우스 오른쪽 버튼으로 클릭하십시오" # 8386429104085392788
+  AssimilationThresholdButtonAdd_tooltip: "좌측 클릭 시 동화 임계값에 100을 더하고, 우측 클릭 시 동화 임계값에 500을 더합니다." # 17114121838212133189
+  AssimilationThresholdButtonRemove_tooltip: "여기를 좌클릭하여 동화 문턱값에서 100을 제거하십시오. 우클릭하여 동화 문턱값에서 500을 제거하십시오." # 9542629578793120531
+  ConversionThresholdButton_text: "전환 임계값" # 16000679594249207754
+  ConversionThresholdButton_tooltip: "이 수정자를 초기화하려면 여기를 마우스 오른쪽 버튼으로 클릭하십시오" # 8386429104085392788
+  ConversionThresholdButtonAdd_tooltip: "좌클릭하여 전환 임계값에 100을 더하십시오. 우클릭하여 전환 임계값에 500을 더하십시오." # 1031504958925088763
+  ConversionThresholdButtonRemove_tooltip: "왼쪽 클릭 시 변환 임계값 100 제거; 오른쪽 클릭 시 변환 임계값 500 제거" # 5435408230997594448
+  MoraleResistanceButton_text: "사기 저항" # 3291261551044806923
+  MoraleResistanceButton_tooltip: "이 수정자를 초기화하려면 여기를 마우스 오른쪽 버튼으로 클릭하십시오" # 8386429104085392788
+  MoraleResistanceButtonAdd_tooltip: "왼쪽 클릭 시 사기 피해 저항력에 50%를 추가합니다. 오른쪽 클릭 시 사기 피해 저항력에 100%를 추가합니다." # 12973359485921170918
+  MoraleResistanceButtonRemove_tooltip: "왼쪽 클릭 시 사기 피해 저항력을 50% 제거합니다. 오른쪽 클릭 시 사기 피해 저항력을 100% 제거합니다." # 17572146310408107644
+  MoraleDamageButton_text: "사기 손상" # 4690559552012839363
+  MoraleDamageButton_tooltip: "이 수정자를 초기화하려면 여기를 마우스 오른쪽 버튼으로 클릭하십시오" # 8386429104085392788
+  MoraleDamageButtonAdd_tooltip: "좌클릭 시 사기 피해에 50%를 추가하며, 우클릭 시 사기 피해에 100%를 추가합니다." # 7984243481910197449
+  MoraleDamageButtonRemove_tooltip: "왼쪽 클릭 시 사기 피해 50%를 제거하며, 오른쪽 클릭 시 사기 피해 100%를 제거합니다." # 875407962562022838
+  MoraleRecoveryButton_text: "사기 회복" # 6721423263418292078
+  MoraleRecoveryButton_tooltip: "이 수정자를 초기화하려면 여기를 마우스 오른쪽 버튼으로 클릭하십시오" # 8386429104085392788
+  MoraleRecoveryButtonAdd_tooltip: "왼쪽 클릭 시 사기 회복 속도가 50% 빨라집니다. 오른쪽 클릭 시 사기 회복 속도가 100% 빨라집니다." # 7927076272938079041
+  MoraleRecoveryButtonRemove_tooltip: "좌측 클릭 시 사기 회복 속도가 50% 느려지며, 우측 클릭 시 사기 회복 속도가 100% 느려집니다." # 13506902160165705534
+  ArmyTrainingButton_text: "육군 훈련" # 8214622233841255582
+  ArmyTrainingButton_tooltip: "이 수정자를 초기화하려면 여기를 마우스 오른쪽 버튼으로 클릭하십시오" # 8386429104085392788
+  ArmyTrainingButtonAdd_tooltip: "좌클릭 시 군대 훈련 속도가 100% 증가하며, 우클릭 시 500% 증가합니다." # 6264293391227627715
+  ArmyTrainingButtonRemove_tooltip: "좌클릭 시 군대 훈련 속도를 100%로 늦춥니다. 우클릭 시 군대 훈련 속도를 500%로 늦춥니다." # 11291981134251700233
+  SupplyConsumptionButton_text: "소비 물자" # 10700621127332708138
+  SupplyConsumptionButton_tooltip: "이 수정자를 초기화하려면 여기를 마우스 오른쪽 버튼으로 클릭하십시오" # 8386429104085392788
+  SupplyConsumptionButtonAdd_tooltip: "왼쪽 클릭 시 보급품 소비량에 10%를 더하고, 오른쪽 클릭 시 보급품 소비량에 50%를 더합니다." # 10188952899746201505
+  SupplyConsumptionButtonRemove_tooltip: "왼쪽 클릭 시 공급 소비량 10% 감소; 오른쪽 클릭 시 공급 소비량 50% 감소" # 13575173508051109450
+  ArmyTravelSpeedButton_text: "육군 이동 속도" # 563093883771160358
+  ArmyTravelSpeedButton_tooltip: "이 수정자를 초기화하려면 여기를 마우스 오른쪽 버튼으로 클릭하십시오" # 8386429104085392788
+  ArmyTravelSpeedButtonAdd_tooltip: "좌클릭 시 통합 이동 속도를 100% 가속합니다. 우클릭 시 통합 이동 속도를 500% 가속합니다." # 1200616366899005000
+  ArmyTravelSpeedButtonRemove_tooltip: "좌측 클릭 시 통합 속도 100%로 감속합니다. 우측 클릭 시 통합 속도 500%로 감속합니다." # 2542727796995465934
+  WarExhaustionButton_text: "전쟁 피로도" # 17196490716435570738
+  WarExhaustionButton_tooltip: "이 수정자를 초기화하려면 여기를 마우스 오른쪽 버튼으로 클릭하십시오" # 8386429104085392788
+  WarExhaustionButtonAdd_tooltip: "왼쪽 클릭 시 전쟁 피로도 10% 증가; 오른쪽 클릭 시 전쟁 피로도 50% 증가" # 4560427435683129834
+  WarExhaustionButtonRemove_tooltip: "좌측 클릭 시 전쟁 피로도 획득량 10% 감소; 우측 클릭 시 전쟁 피로도 획득량 50% 감소" # 12207106191786519657
+  OrganizationGainButton_text: "조직 획득" # 16378325622772080945
+  OrganizationGainButton_tooltip: "이 수정자를 초기화하려면 여기를 마우스 오른쪽 버튼으로 클릭하십시오" # 8386429104085392788
+  OrganizationGainButtonAdd_tooltip: "왼쪽 클릭 시 조직 획득 속도가 50% 빨라집니다. 오른쪽 클릭 시 조직 획득 속도가 150% 빨라집니다." # 17915426311196713736
+  OrganizationGainButtonRemove_tooltip: "왼쪽 클릭 시 조직 획득 속도가 50% 느려지며, 오른쪽 클릭 시 조직 획득 속도가 150% 느려집니다." # 3349525588288572003
+  MobilizationSpeedButton_text: "동원 속도" # 15371424490122718068
+  MobilizationSpeedButton_tooltip: "이 수정자를 초기화하려면 여기를 마우스 오른쪽 버튼으로 클릭하십시오" # 8386429104085392788
+  MobilizationSpeedButtonAdd_tooltip: "좌측 클릭 시 50%의 속도로 동원 속도가 빨라집니다. 우측 클릭 시 150%의 속도로 동원 속도가 빨라집니다." # 11605263285352043573
+  MobilizationSpeedButtonRemove_tooltip: "좌클릭 시 50%의 징집 속도로 속도를 늦춥니다. 우클릭 시 150%의 징집 속도로 속도를 늦춥니다." # 8149201963145891344
+  AttackPowerButton_text: "공격력" # 14540322776806320843
+  AttackPowerButton_tooltip: "이 수정자를 초기화하려면 여기를 마우스 오른쪽 버튼으로 클릭하십시오" # 8386429104085392788
+  AttackPowerButtonAdd_tooltip: "좌클릭 시 공격력이 2 증가합니다. 우클릭 시 공격력이 5 증가합니다." # 3436283253990728733
+  AttackPowerButtonRemove_tooltip: "좌클릭 시 공격력 2 감소; 우클릭 시 공격력 5 감소" # 17103067181326051923
+  DefensePowerButton_text: "방위력" # 8390262904248686056
+  DefensePowerButton_tooltip: "이 수정자를 초기화하려면 여기를 마우스 오른쪽 버튼으로 클릭하십시오" # 8386429104085392788
+  DefensePowerButtonAdd_tooltip: "왼쪽 클릭 시 방어력을 2만큼 추가합니다. 오른쪽 클릭 시 방어력을 5만큼 추가합니다." # 10965879135642205920
+  DefensePowerButtonRemove_tooltip: "좌측 클릭 시 방어력 2 감소; 우측 클릭 시 방어력 5 감소" # 6606042160735915952
+  ExperienceGainButton_text: "경험치 획득" # 2942948843160903192
+  ExperienceGainButton_tooltip: "이 수정자를 초기화하려면 여기를 마우스 오른쪽 버튼으로 클릭하십시오" # 8386429104085392788
+  ExperienceGainButtonAdd_tooltip: "왼쪽 클릭 시 경험치 획득량 100%로 가속하며, 오른쪽 클릭 시 경험치 획득량 500%로 가속합니다." # 10125858228922907412
+  ExperienceGainButtonRemove_tooltip: "경험치 획득 속도를 100%로 늦추려면 여기를 왼쪽 클릭하십시오. 경험치 획득 속도를 500%로 늦추려면 여기를 오른쪽 클릭하십시오." # 58637329008852204
+  MilitaryGoodsCostsButton_text: "군수품 비용" # 9212173279150251849
+  MilitaryGoodsCostsButton_tooltip: "이 수정자를 초기화하려면 여기를 마우스 오른쪽 버튼으로 클릭하십시오" # 8386429104085392788
+  MilitaryGoodsCostsButtonAdd_tooltip: "왼쪽 클릭 시 군수품 가격이 10% 상승하며, 오른쪽 클릭 시 25% 상승합니다." # 11677832513058181011
+  MilitaryGoodsCostsButtonRemove_tooltip: "좌측 클릭 시 군수품 가격을 10% 감소시키고 경험치 획득량을 늘립니다. 우측 클릭 시 군수품 가격을 25% 감소시킵니다." # 10145785182163394548
+  MobilizationCostsButton_text: "동원 비용" # 18176040249600328880
+  MobilizationCostsButton_tooltip: "이 수정자를 초기화하려면 여기를 마우스 오른쪽 버튼으로 클릭하십시오" # 8386429104085392788
+  MobilizationCostsButtonAdd_tooltip: "좌측 클릭 시 징집 비용에 10%가 추가되며, 우측 클릭 시 징집 비용에 25%가 추가됩니다." # 11980049252095146464
+  MobilizationCostsButtonRemove_tooltip: "왼쪽 클릭 시 징병 비용 10% 감소; 오른쪽 클릭 시 징병 비용 25% 감소" # 14014001823675292937
+  BarracksMaxLevelButton_text: "병영 최대 레벨" # 650793451669676052
+  BarracksMaxLevelButton_tooltip: "이 수정자를 초기화하려면 여기를 마우스 오른쪽 버튼으로 클릭하십시오" # 8386429104085392788
+  BarracksMaxLevelButtonAdd_tooltip: "좌클릭 시 병영 최대 레벨에 5를 더합니다. 우클릭 시 병영 최대 레벨에 10을 더합니다." # 88723959270820388
+  BarracksMaxLevelButtonRemove_tooltip: "좌클릭 시 병영 최대 레벨을 5 감소시키고, 우클릭 시 병영 최대 레벨을 10 감소시킵니다." # 8776739928598077195
+  ConscriptionCenterMaxLevelButton_text: "징병소 최대 단계" # 7773023418098463634
+  ConscriptionCenterMaxLevelButton_tooltip: "이 수정자를 초기화하려면 여기를 마우스 오른쪽 버튼으로 클릭하십시오" # 8386429104085392788
+  ConscriptionCenterMaxLevelButtonAdd_tooltip: "좌클릭하여 징병소 최대 레벨에 5를 추가하십시오. 우클릭하여 징병소 최대 레벨에 10을 추가하십시오." # 8442005264177934775
+  ConscriptionCenterMaxLevelButtonRemove_tooltip: "좌클릭 시 징병소 최대 레벨을 5만큼 감소시키고, 우클릭 시 징병소 최대 레벨을 10만큼 감소시킵니다." # 7747270586417185818
+  NavalBaseMaxLevelButton_text: "해군 기지 최대치" # 2129258899344907984
+  NavalBaseMaxLevelButton_tooltip: "이 수정자를 초기화하려면 여기를 마우스 오른쪽 버튼으로 클릭하십시오" # 8386429104085392788
+  NavalBaseMaxLevelButtonAdd_tooltip: "좌측 클릭 시 해군 기지 최대 레벨에 5를 추가합니다. 우측 클릭 시 해군 기지 최대 레벨에 10을 추가합니다." # 16462853510644260241
+  NavalBaseMaxLevelButtonRemove_tooltip: "왼쪽 클릭 시 해군 기지 최대 레벨을 5만큼 제거합니다. 오른쪽 클릭 시 해군 기지 최대 레벨을 10만큼 제거합니다." # 15365392386622245606
+  ConstructionButton_text: "건설" # 7035806065621117486
+  ConstructionButton_tooltip: "이 수정자를 초기화하려면 여기를 마우스 오른쪽 버튼으로 클릭하십시오" # 8386429104085392788
+  ConstructionButtonAdd_tooltip: "왼쪽 클릭 시 건설 능력을 100 증가시키고, 오른쪽 클릭 시 건설 능력을 250 증가시킵니다." # 9589685339889391832
+  ConstructionButtonRemove_tooltip: "여기를 좌클릭하여 건설 역량을 100 감소시키십시오; 여기를 우클릭하여 건설 역량을 250 감소시키십시오" # 14986778407233964916
+  ConstructionEfficiencyButton_text: "건설 효율성" # 2081930288970383088
+  ConstructionEfficiencyButton_tooltip: "이 수정자를 초기화하려면 여기를 마우스 오른쪽 버튼으로 클릭하십시오" # 8386429104085392788
+  ConstructionEfficiencyButtonAdd_tooltip: "건설 효율성을 10% 증가시키려면 왼쪽을 클릭하십시오. 건설 효율성을 25% 증가시키려면 오른쪽을 클릭하십시오." # 2619232551226888640
+  ConstructionEfficiencyButtonRemove_tooltip: "왼쪽 클릭 시 건설 효율 10% 감소; 오른쪽 클릭 시 건설 효율 25% 감소" # 1938321705245100395
+  ConstructionProgressButton_text: "건설 진척도" # 2775950353130400568
+  ConstructionProgressButton_tooltip: "이 수정자를 초기화하려면 여기를 마우스 오른쪽 버튼으로 클릭하십시오" # 8386429104085392788
+  ConstructionProgressButtonAdd_tooltip: "좌측 클릭 시 건설 주간 최대 진척도에 5를 더하고, 우측 클릭 시 10을 더합니다." # 8975404056522998363
+  ConstructionProgressButtonRemove_tooltip: "여기를 좌클릭하면 주간 최대 건설 진척도에서 5를 제거합니다. 우클릭하면 주간 최대 건설 진척도에서 10을 제거합니다." # 8427010146590733906
+  InfrastructureButton_text: "인프라" # 11387123649535633893
+  InfrastructureButton_tooltip: "이 수정자를 초기화하려면 여기를 마우스 오른쪽 버튼으로 클릭하십시오" # 8386429104085392788
+  InfrastructureButtonAdd_tooltip: "좌측 클릭 시 기반 시설 100을 추가합니다. 우측 클릭 시 기반 시설 250을 추가합니다." # 11963688152342403549
+  InfrastructureButtonRemove_tooltip: "좌클릭 시 기반 시설 100을 제거합니다. 우클릭 시 기반 시설 250을 제거합니다." # 46299797110676341
+  PollutionButton_text: "오염" # 13145992339508877820
+  PollutionButton_tooltip: "이 수정자를 초기화하려면 여기를 마우스 오른쪽 버튼으로 클릭하십시오" # 8386429104085392788
+  PollutionButtonAdd_tooltip: "여기를 좌클릭하여 오염 100을 추가하십시오. 우클릭하여 오염 1000을 추가하십시오." # 5195018190703857476
+  PollutionButtonRemove_tooltip: "왼쪽 클릭 시 오염 100 제거; 오른쪽 클릭 시 오염 1000 제거" # 6775839708319227147
+  PollutionIssuesButton_text: "오염 문제" # 8252919901891631210
+  PollutionIssuesButton_tooltip: "이 수정자를 초기화하려면 여기를 마우스 오른쪽 버튼으로 클릭하십시오" # 8386429104085392788
+  PollutionIssuesButtonAdd_tooltip: "왼쪽 클릭 시 오염 효과에 10%를 추가합니다. 오른쪽 클릭 시 오염 효과에 25%를 추가합니다." # 17380471154802094255
+  PollutionIssuesButtonRemove_tooltip: "왼쪽 클릭 시 오염 효과를 10% 제거합니다. 오른쪽 클릭 시 오염 효과를 25% 제거합니다." # 1314197248498834446
+  ServicesThroughputButton_text: "서비스 처리량" # 18055784356593765048
+  ServicesThroughputButton_tooltip: "이 수정자를 초기화하려면 여기를 마우스 오른쪽 버튼으로 클릭하십시오" # 8386429104085392788
+  ServicesThroughputButtonAdd_tooltip: "여기를 좌클릭하여 서비스 처리량을 25% 늘리십시오. 여기를 우클릭하여 서비스 처리량을 50% 늘리십시오." # 2510324968660807366
+  ServicesThroughputButtonRemove_tooltip: "왼쪽 클릭 시 서비스로의 처리량(throughput)이 25% 더 감소하며, 오른쪽 클릭 시 50% 더 감소합니다." # 13844508924905165181
+  RailwayThroughputButton_text: "철도 통과량" # 4531305785393146045
+  RailwayThroughputButton_tooltip: "이 수정자를 초기화하려면 여기를 마우스 오른쪽 버튼으로 클릭하십시오" # 8386429104085392788
+  RailwayThroughputButtonAdd_tooltip: "좌클릭 시 철도 처리량을 25% 추가합니다. 우클릭 시 철도 처리량을 50% 추가합니다." # 9365645415120589147
+  RailwayThroughputButtonRemove_tooltip: "왼쪽 클릭 시 철도에 대한 처리량을 25% 더 제거합니다. 오른쪽 클릭 시 철도에 대한 처리량을 50% 더 제거합니다." # 5832589217836733797
+  PowerThroughputButton_text: "동력 처리량" # 7766972427018043877
+  PowerThroughputButton_tooltip: "이 수정자를 초기화하려면 여기를 마우스 오른쪽 버튼으로 클릭하십시오" # 8386429104085392788
+  PowerThroughputButtonAdd_tooltip: "전력 처리량을 25% 늘리려면 여기를 왼쪽 클릭하십시오. 전력 처리량을 50% 늘리려면 여기를 오른쪽 클릭하십시오." # 8759629517544585738
+  PowerThroughputButtonRemove_tooltip: "전력으로의 처리량을 25% 더 제거하려면 왼쪽 클릭하십시오. 전력으로의 처리량을 50% 더 제거하려면 오른쪽 클릭하십시오." # 6923596872063369077
+  MineThroughputButton_text: "광산 생산량" # 7784396305434023381
+  MineThroughputButton_tooltip: "이 수정자를 초기화하려면 여기를 마우스 오른쪽 버튼으로 클릭하십시오" # 8386429104085392788
+  MineThroughputButtonAdd_tooltip: "왼쪽 클릭 시 광산 생산량 10% 증가; 오른쪽 클릭 시 광산 생산량 25% 증가" # 2761025256896174831
+  MineThroughputButtonRemove_tooltip: "광산에 대한 처리량을 10% 더 제거하려면 왼쪽 클릭하십시오. 광산에 대한 처리량을 25% 더 제거하려면 오른쪽 클릭하십시오." # 17777472726393359605
+  OilThroughputButton_text: "석유 처리량" # 5236904262850784683
+  OilThroughputButton_tooltip: "이 수정자를 초기화하려면 여기를 마우스 오른쪽 버튼으로 클릭하십시오" # 8386429104085392788
+  OilThroughputButtonAdd_tooltip: "좌클릭 시 유전 및 고래잡이 생산량 10% 증가; 우클릭 시 유전 및 고래잡이 생산량 25% 증가" # 6658886927482841605
+  OilThroughputButtonRemove_tooltip: "좌클릭 시 유전 및 고래잡이 채굴량 10% 감소; 우클릭 시 유전 및 고래잡이 채굴량 25% 감소" # 13840054680313244343
+  LoggingThroughputButton_text: "처리량 기록" # 9834397987302238562
+  LoggingThroughputButton_tooltip: "이 수정자를 초기화하려면 여기를 마우스 오른쪽 버튼으로 클릭하십시오" # 8386429104085392788
+  LoggingThroughputButtonAdd_tooltip: "좌클릭 시 벌목장 생산량을 10% 증가시키고, 우클릭 시 벌목장 생산량을 25% 증가시킵니다." # 17656161046803212060
+  LoggingThroughputButtonRemove_tooltip: "좌클릭 시 벌목장의 생산량에 10% 추가 감소를 적용합니다. 우클릭 시 벌목장의 생산량에 25% 추가 감소를 적용합니다." # 17642477423247076427
+  AgricultureThroughputButton_text: "농업 생산량" # 5551305617042672634
+  AgricultureThroughputButton_tooltip: "이 수정자를 초기화하려면 여기를 마우스 오른쪽 버튼으로 클릭하십시오" # 8386429104085392788
+  AgricultureThroughputButtonAdd_tooltip: "왼쪽 클릭 시 농업 생산량 10% 증가; 오른쪽 클릭 시 농업 생산량 25% 증가" # 5722531460142606807
+  AgricultureThroughputButtonRemove_tooltip: "좌클릭 시 농업 생산량에 10% 더 많은 처리량을 제거합니다. 우클릭 시 농업 생산량에 25% 더 많은 처리량을 제거합니다." # 3139143787880930851
+  PlantationThroughputButton_text: "플랜테이션 생산량" # 12905512987676570663
+  PlantationThroughputButton_tooltip: "이 수정자를 초기화하려면 여기를 마우스 오른쪽 버튼으로 클릭하십시오" # 8386429104085392788
+  PlantationThroughputButtonAdd_tooltip: "플랜테이션 생산량을 10% 늘리려면 왼쪽을 클릭하십시오. 플랜테이션 생산량을 25% 늘리려면 오른쪽을 클릭하십시오." # 891139278440755560
+  PlantationThroughputButtonRemove_tooltip: "플랜테이션으로의 생산량 10% 추가 감소를 원하시면 좌측 클릭하십시오. 플랜테이션으로의 생산량 25% 추가 감소를 원하시면 우측 클릭하십시오." # 18065284597003527514
+  MegaMoneyButton_text: "메가 머니" # 17149587187894687162
+  MegaMoneyButton_tooltip: "이 수정자를 초기화하려면 여기를 마우스 오른쪽 버튼으로 클릭하십시오" # 8386429104085392788
+  MegaMoneyButtonAdd_tooltip: "여기를 좌클릭하여 100000의 화폐 주조 능력을 추가하십시오. 우클릭하여 1000000의 화폐 주조 능력을 추가하십시오." # 12298937679378246392
+  MegaMoneyButtonRemove_tooltip: "좌클릭 시 100000의 화폐 발행 능력을 제거합니다. 우클릭 시 1000000의 화폐 발행 능력을 제거합니다." # 11942443944247685243
+  ResourceDiscoveryButton_text: "자원 발견" # 15166007261609719879
+  ResourceDiscoveryButton_tooltip: "이 수정자를 초기화하려면 여기를 마우스 오른쪽 버튼으로 클릭하십시오" # 8386429104085392788
+  ResourceDiscoveryButtonAdd_tooltip: "자원 발견율에 50%를 추가하려면 왼쪽 클릭하십시오. 자원 발견율에 250%를 추가하려면 오른쪽 클릭하십시오." # 5325520513621480434
+  ResourceDiscoveryButtonRemove_tooltip: "왼쪽 클릭 시 자원 발견에 50% 감소; 오른쪽 클릭 시 자원 발견에 250% 감소" # 1262591140443459849
+  EmployeeUsageButton_text: "고용 인력 활용" # 5188896608228262790
+  EmployeeUsageButton_tooltip: "이 수정자를 초기화하려면 여기를 마우스 오른쪽 버튼으로 클릭하십시오" # 8386429104085392788
+  EmployeeUsageButtonAdd_tooltip: "좌측 클릭 시 기본 건물 그룹의 직원 활용도를 10% 추가합니다. 우측 클릭 시 기본 건물 그룹의 직원 활용도를 25% 추가합니다." # 10580251589328913032
+  EmployeeUsageButtonRemove_tooltip: "좌클릭 시 기존 건물 그룹의 고용 효율을 10% 감소시키고, 우클릭 시 25% 감소시킵니다." # 13765406659014319423
+  FoodSecurityButton_text: "식량 안보" # 11407672569823157750
+  FoodSecurityButton_tooltip: "이 수정자를 초기화하려면 여기를 마우스 오른쪽 버튼으로 클릭하십시오" # 8386429104085392788
+  FoodSecurityButtonAdd_tooltip: "왼쪽 클릭 시 식량 안보에 10% 추가; 오른쪽 클릭 시 식량 안보에 25% 추가" # 1296111520208246016
+  FoodSecurityButtonRemove_tooltip: "왼쪽 클릭 시 식량 안보에 10% 감소; 오른쪽 클릭 시 식량 안보에 25% 감소" # 8750402209509298617
+  MaxCompaniesButton_text: "최대 기업 수" # 17887541176162082847
+  MaxCompaniesButton_tooltip: "이 수정자를 초기화하려면 여기를 마우스 오른쪽 버튼으로 클릭하십시오" # 8386429104085392788
+  MaxCompaniesButtonAdd_tooltip: "회사를 추가할 한도를 1 늘리려면 왼쪽 클릭하십시오. 회사를 추가할 한도를 3 늘리려면 오른쪽 클릭하십시오." # 15633301941711232119
+  MaxCompaniesButtonRemove_tooltip: "왼쪽 클릭 시 회사 한도에서 1을 제거합니다. 오른쪽 클릭 시 회사 한도에서 3을 제거합니다." # 5224572780045621419
+  CompaniesThroughputButton_text: "기업 생산량" # 17721928611947427799
+  CompaniesThroughputButton_tooltip: "이 수정자를 초기화하려면 여기를 마우스 오른쪽 버튼으로 클릭하십시오" # 8386429104085392788
+  CompaniesThroughputButtonAdd_tooltip: "왼쪽 클릭 시 회사 생산량에 10%를 더하고; 오른쪽 클릭 시 회사 생산량에 25%를 더합니다." # 8960452401378380689
+  CompaniesThroughputButtonRemove_tooltip: "좌측 클릭 시 기업 생산량에 10% 감소 효과를 제거합니다. 우측 클릭 시 기업 생산량에 25% 감소 효과를 제거합니다." # 5714075210501394803
+  BuildingCashReservesLimitButton_text: "현금 비축" # 8868990423479099201
+  BuildingCashReservesLimitButton_tooltip: "이 수정자를 초기화하려면 여기를 마우스 오른쪽 버튼으로 클릭하십시오" # 8386429104085392788
+  BuildingCashReservesLimitButtonAdd_tooltip: "건물 현금 보유 한도를 10% 늘리려면 왼쪽을 클릭하십시오. 건물 현금 보유 한도를 25% 늘리려면 오른쪽을 클릭하십시오." # 6558380999181668703
+  BuildingCashReservesLimitButtonRemove_tooltip: "건물 현금 보유 한도를 10% 줄이려면 왼쪽 클릭하십시오. 건물 현금 보유 한도를 25% 줄이려면 오른쪽 클릭하십시오." # 10438774849876755742
+  DangerousWorkConditionButton_text: "위험한 작업 환경" # 15512944852642402932
+  DangerousWorkConditionButton_tooltip: "이 수정자를 초기화하려면 여기를 마우스 오른쪽 버튼으로 클릭하십시오" # 8386429104085392788
+  DangerousWorkConditionButtonAdd_tooltip: "건물들의 위험한 작업 환경을 10% 증가시키려면 왼쪽 클릭하십시오. 건물들의 위험한 작업 환경을 25% 증가시키려면 오른쪽 클릭하십시오." # 1585552501970921433
+  DangerousWorkConditionButtonRemove_tooltip: "건물의 위험한 작업 환경을 10% 감소시키려면 왼쪽 클릭하십시오. 25% 감소시키려면 오른쪽 클릭하십시오." # 6840839433653381092
+  MinimumWageButton_text: "최저 임금" # 4687126341424774397
+  MinimumWageButton_tooltip: "이 수정자를 초기화하려면 여기를 마우스 오른쪽 버튼으로 클릭하십시오" # 8386429104085392788
+  MinimumWageButtonAdd_tooltip: "건물 최저 임금을 10% 인상하려면 여기를 좌클릭하십시오. 건물 최저 임금을 25% 인상하려면 여기를 우클릭하십시오." # 11141315124151959006
+  MinimumWageButtonRemove_tooltip: "건물 최저 임금을 10% 감소시키려면 여기를 왼쪽 클릭하십시오. 건물 최저 임금을 25% 감소시키려면 여기를 오른쪽 클릭하십시오." # 13431431415576914991
+  ConstructionGoodsCostsButton_text: "건설 자재 비용" # 16818896225059986290
+  ConstructionGoodsCostsButton_tooltip: "이 수정자를 초기화하려면 여기를 마우스 오른쪽 버튼으로 클릭하십시오" # 8386429104085392788
+  ConstructionGoodsCostsButtonAdd_tooltip: "왼쪽 클릭 시 건설재 비용이 10% 증가합니다. 오른쪽 클릭 시 건설재 비용이 25% 증가합니다." # 3548263439629072063
+  ConstructionGoodsCostsButtonRemove_tooltip: "좌클릭 시 건설재 비용을 10% 감소시키고, 우클릭 시 건설재 비용을 25% 감소시킵니다." # 17482415753425949820
+  CompanyCharterButton_text: "회사 헌장" # 17181536508367117185
+  CompanyCharterButton_tooltip: "이 수정자를 초기화하려면 여기를 마우스 오른쪽 버튼으로 클릭하십시오" # 8386429104085392788
+  CompanyCharterButtonAdd_tooltip: "좌클릭하여 회사 설립 허가량을 1만큼 늘리십시오. 우클릭하여 회사 설립 허가량을 3만큼 늘리십시오." # 831216579160513597
+  CompanyCharterButtonRemove_tooltip: "좌측 클릭 시 회사 허가 용량을 1만큼 감소시키고, 우측 클릭 시 회사 허가 용량을 3만큼 감소시킵니다." # 10316723896918676628
+  StateTradeCapacityButton_text: "주 무역 수용력" # 1668599691899160804
+  StateTradeCapacityButton_tooltip: "이 수정자를 초기화하려면 여기를 마우스 오른쪽 버튼으로 클릭하십시오" # 8386429104085392788
+  StateTradeCapacityButtonAdd_tooltip: "왼쪽 클릭 시 해당 주의 무역 수용량을 10% 증가시키고, 오른쪽 클릭 시 25% 증가시킵니다." # 6371069805661677036
+  StateTradeCapacityButtonRemove_tooltip: "좌클릭 시 해당 주의 무역 수용량을 10% 감소시키며, 우클릭 시 25% 감소시킵니다." # 1645373031110722147
+  StateTradeQuantityButton_text: "주 수량 수용력" # 16731164743894334927
+  StateTradeQuantityButton_tooltip: "이 수정자를 초기화하려면 여기를 마우스 오른쪽 버튼으로 클릭하십시오" # 8386429104085392788
+  StateTradeQuantityButtonAdd_tooltip: "좌클릭 시 해당 주의 수량 수용량을 10% 증가시키며, 우클릭 시 25% 증가시킵니다." # 14514860980739554294
+  StateTradeQuantityButtonRemove_tooltip: "좌클릭 시 해당 주의 수량 생산 능력치가 10% 감소합니다. 우클릭 시 해당 주의 수량 생산 능력치가 25% 감소합니다." # 6468022469288826608
+  ConvoysCapacityButton_text: "호송선 용량" # 1217494338624206512
+  ConvoysCapacityButton_tooltip: "이 수정자를 초기화하려면 여기를 마우스 오른쪽 버튼으로 클릭하십시오" # 8386429104085392788
+  ConvoysCapacityButtonAdd_tooltip: "좌측 클릭 시 호송선 수용량을 10% 증가시키고, 우측 클릭 시 호송선 수용량을 25% 증가시킵니다." # 6310158531662551362
+  ConvoysCapacityButtonRemove_tooltip: "좌클릭 시 호송선 수용량을 10% 감소시키고, 우클릭 시 25% 감소시킵니다." # 4476781984185338628
+  TradeAdvantageButton_text: "무역 우위" # 11076706466174753780
+  TradeAdvantageButton_tooltip: "이 수정자를 초기화하려면 여기를 마우스 오른쪽 버튼으로 클릭하십시오" # 8386429104085392788
+  TradeAdvantageButtonAdd_tooltip: "왼쪽 클릭 시 교역 우위를 10% 증가시키며, 오른쪽 클릭 시 교역 우위를 25% 증가시킵니다." # 11631171341700282390
+  TradeAdvantageButtonRemove_tooltip: "왼쪽 클릭 시 무역 우위가 10% 감소합니다. 오른쪽 클릭 시 무역 우위가 25% 감소합니다." # 5278333004100436986
+  PowerBlocCohesionButton_text: "강대국 연합 결속력" # 6260045216766367395
+  PowerBlocCohesionButton_tooltip: "이 수정자를 초기화하려면 여기를 마우스 오른쪽 버튼으로 클릭하십시오" # 8386429104085392788
+  PowerBlocCohesionButtonAdd_tooltip: "좌클릭 시 세력 결속력에 20%를 더하고, 우클릭 시 세력 결속력에 50%를 더합니다." # 5576583956877532265
+  PowerBlocCohesionButtonRemove_tooltip: "좌측 클릭 시 연합체 결속력이 20% 감소합니다. 우측 클릭 시 연합체 결속력이 50% 감소합니다." # 15575051755843102409
+  PowerBlocCohesionPointsButton_text: "권력 연합 결속력 포인트" # 10106394473302657561
+  PowerBlocCohesionPointsButton_tooltip: "이 수정자를 초기화하려면 여기를 마우스 오른쪽 버튼으로 클릭하십시오" # 8386429104085392788
+  PowerBlocCohesionPointsButtonAdd_tooltip: "좌클릭하여 세력 결속력에 1 포인트를 추가하고, 우클릭하여 세력 결속력에 5 포인트를 추가하십시오." # 5557257523612836127
+  PowerBlocCohesionPointsButtonRemove_tooltip: "왼쪽 클릭 시 세력 결속력 1 포인트를 제거합니다. 오른쪽 클릭 시 세력 결속력 5 포인트를 제거합니다." # 8987960810625772609
+  PowerBlocLeverageButton_text: "강대국 영향력" # 5864340672238371956
+  PowerBlocLeverageButton_tooltip: "이 수정자를 초기화하려면 여기를 마우스 오른쪽 버튼으로 클릭하십시오" # 8386429104085392788
+  PowerBlocLeverageButtonAdd_tooltip: "좌클릭하여 세력 집단 영향력을 20% 추가하십시오. 우클릭하여 세력 집단 영향력을 50% 추가하십시오." # 17493571189300127346
+  PowerBlocLeverageButtonRemove_tooltip: "좌클릭 시 권력 블록 영향력 20% 감소; 우클릭 시 권력 블록 영향력 50% 감소" # 12954758016188051649
+  PowerBlocMandateButton_text: "강대국 연합 칙령" # 3123766952896278053
+  PowerBlocMandateButton_tooltip: "이 수정자를 초기화하려면 여기를 마우스 오른쪽 버튼으로 클릭하십시오" # 8386429104085392788
+  PowerBlocMandateButtonAdd_tooltip: "좌클릭 시 세력 집단 위임을 20% 추가합니다. 우클릭 시 세력 집단 위임을 50% 추가합니다." # 12573696852085887561
+  PowerBlocMandateButtonRemove_tooltip: "좌클릭 시 권력 블록 위임을 20% 제거합니다. 우클릭 시 권력 블록 위임을 50% 제거합니다." # 10091415232954045475
+  PowerBlocMegaMandateButton_text: "강대국 연합 거대 칙령" # 5966344377441486285
+  PowerBlocMegaMandateButton_tooltip: "이 수정자를 초기화하려면 여기를 마우스 오른쪽 버튼으로 클릭하십시오" # 8386429104085392788
+  PowerBlocMegaMandateButtonAdd_tooltip: "좌클릭 시 세력권 위임에 1000%를 추가합니다. 우클릭 시 세력권 위임에 5000%를 추가합니다." # 15161812316906055518
+  PowerBlocMegaMandateButtonRemove_tooltip: "좌측 클릭 시 권력 블록 위임에 대한 1000%를 제거합니다. 우측 클릭 시 권력 블록 위임에 대한 5000%를 제거합니다." # 3178702218619798759
+  LeverageGenerationButton_text: "레버리지 생성" # 2235824892453356149
+  LeverageGenerationButton_tooltip: "이 수정자를 초기화하려면 여기를 마우스 오른쪽 버튼으로 클릭하십시오" # 8386429104085392788
+  LeverageGenerationButtonAdd_tooltip: "여기를 좌클릭하여 레버리지 생산량을 20% 증가시키십시오; 우클릭하여 레버리지 생산량을 50% 증가시키십시오" # 4971139544802427088
+  LeverageGenerationButtonRemove_tooltip: "레버리지 생산을 위해 20%를 제거하려면 여기를 왼쪽 클릭하십시오. 레버리지 생산을 위해 50%를 제거하려면 여기를 오른쪽 클릭하십시오." # 16698383299076040480
+  LeverageResistanceButton_text: "저항 이용" # 7302369228749158451
+  LeverageResistanceButton_tooltip: "이 수정자를 초기화하려면 여기를 마우스 오른쪽 버튼으로 클릭하십시오" # 8386429104085392788
+  LeverageResistanceButtonAdd_tooltip: "좌클릭하여 레버리지 저항을 20% 추가하십시오. 우클릭하여 레버리지 저항을 50% 추가하십시오." # 1447134696091367281
+  LeverageResistanceButtonRemove_tooltip: "좌클릭하여 레버리지 저항을 20% 제거하십시오. 우클릭하여 레버리지 저항을 50% 제거하십시오." # 4947883295119151540
+  SubjectLibertyDesireButton_text: "주제: 자유 열망" # 6694441984292887633
+  SubjectLibertyDesireButton_tooltip: "이 수정자를 초기화하려면 여기를 마우스 오른쪽 버튼으로 클릭하십시오" # 8386429104085392788
+  SubjectLibertyDesireButtonAdd_tooltip: "왼쪽 클릭 시 피지배국 복종도 1 증가; 오른쪽 클릭 시 피지배국 복종도 3 증가" # 7207459152727244903
+  SubjectLibertyDesireButtonRemove_tooltip: "좌클릭하여 종속국의 자유 의지 1을 제거하십시오. 우클릭하여 종속국의 자유 의지 3을 제거하십시오." # 13822062929420284267
+  OwnLibertyDesireButton_text: "자체적인 자유 의지" # 15620543779272571552
+  OwnLibertyDesireButton_tooltip: "이 수정자를 초기화하려면 여기를 마우스 오른쪽 버튼으로 클릭하십시오" # 8386429104085392788
+  OwnLibertyDesireButtonAdd_tooltip: "좌측 클릭 시 자국의 자유 의지 1 증가; 우측 클릭 시 자국의 자유 의지 3 증가" # 6923880842363618440
+  OwnLibertyDesireButtonRemove_tooltip: "왼쪽 클릭 시 본인의 자유 의지 1 감소; 오른쪽 클릭 시 본인의 자유 의지 3 감소" # 578856245024412981
+  BETTER_POLITICS: "더 나은 정치" # 8387016177648881733
+  IdeologyGroupsLawOpinionButton_text: "법률 의견" # 10851769639576069605
+  IdeologyGroupsLawOpinionButton_tooltip: "이 수정자를 초기화하려면 여기를 마우스 오른쪽 버튼으로 클릭하십시오" # 8386429104085392788
+  IdeologyGroupsLawOpinionButtonAdd_tooltip: "좌클릭 시 법률 제정에 대한 모든 이념 집단의 의견에 5를 더합니다; 우클릭 시 법률 제정에 대한 모든 이념 집단의 의견에 20을 더합니다." # 16986768560457680928
+  IdeologyGroupsLawOpinionButtonRemove_tooltip: "왼쪽 클릭 시 법률 제정에 대한 모든 이익집단의 의견에서 5를 제거합니다. 오른쪽 클릭 시 법률 제정에 대한 모든 이익집단의 의견에서 20을 제거합니다." # 3166870322993605590
+  LAWS_GOVERNANCE_PRINCIPLES: "통치 원칙" # 5298399230927788498
+  LAWS_DISTRIBUTION_OF_POWER: "권력 분배" # 11618637831639819478
+  LAWS_CITIZENSHIP: "시민권" # 18294184458511062868
+  LAWS_CHURCH_AND_STATE: "교회와 국가" # 4195816342389782339
+  LAWS_BUREAUCRACY: "관료제" # 15749269195959694293
+  LAWS_ARMY_MODEL: "군대 모형" # 4205596460053966172
+  LAWS_INTERNAL_SECURITY: "내부 치안" # 17095164857730086695
+  LAWS_ECONOMIC_SYSTEM: "경제 체제" # 14246664054747334552
+  LAWS_TRADE_POLICY: "무역 정책" # 9845320624798151255
+  LAWS_TAXATION: "조세" # 8529506254788578443
+  LAWS_LAND_REFORM: "토지 개혁" # 3666954020182850027
+  LAWS_COLONIZATION: "식민지 개척" # 6890359241882468532
+  LAWS_POLICING: "경찰 업무" # 13708312645704028034
+  LAWS_EDUCATION_SYSTEM: "교육 제도" # 11925506791058428054
+  LAWS_HEALTH_SYSTEM: "의료 체계" # 2259459658724742869
+  LAWS_FREE_SPEECH: "언론의 자유" # 11826297397278305064
+  LAWS_LABOR_RIGHTS: "노동권" # 2854693506494292421
+  LAWS_CHILDREN_RIGHTS: "아동 권리" # 17291349696246178078
+  LAWS_RIGHTS_OF_WOMEN: "여성의 권리" # 12168325950164545329
+  LAWS_WELFARE: "복지" # 18200595644626363600
+  LAWS_MIGRATION: "이주" # 16486988040962898112
+  LAWS_SLAVERY: "노예제" # 7299259271728532074
+  LAWS_LABOR_ASSOCIATIONS: "노동 조합" # 5474755091870819346
+  SetGovernamentalLawMonarchyButton_tooltip: "즉시 군주제를 시행하시오" # 10169147685230023397
+  SetGovernamentalLawPresidentialRepublicButton_tooltip: "즉시 대통령 공화국을 선포하시오" # 4188262764628784155
+  SetGovernamentalLawParliamentaryRepublicButton_tooltip: "즉시 의회 공화국을 선포하시오" # 8679284839301396012
+  SetGovernamentalLawTheocracyButton_tooltip: "즉시 신정정치를 시행하십시오" # 6153992990743597645
+  SetGovernamentalLawCouncilRepublicButton_tooltip: "즉시 평의회 공화국을 선포하라" # 1959190429149737115
+  SetGovernamentalLawCorporateStateButton_tooltip: "즉시 기업 국가를 시행하십시오" # 697670326556344657
+  SetGovernamentalLawAutocracyButton_tooltip: "즉시 전제정치를 시행하십시오" # 1759829944769091628
+  SetGovernamentalLawTechnocracyButton_tooltip: "즉시 기술관료제를 시행하라" # 1346209418672420859
+  SetGovernamentalLawOligarchyButton_tooltip: "즉시 과두정치를 시행하라" # 14846220555058051194
+  SetGovernamentalLawLandedVotingButton_tooltip: "즉시 토지 소유자 투표제를 시행하십시오." # 17158940913019546315
+  SetGovernamentalLawWealthVotingButton_tooltip: "즉시 재산 투표제를 시행하십시오" # 4274073175168948415
+  SetGovernamentalLawCensusSuffrageButton_tooltip: "즉시 인구 조사 선거를 시행하십시오" # 11587883751813759282
+  SetGovernamentalLawUniversalSuffrageButton_tooltip: "즉시 보통 선거를 시행하시오" # 4467786373119028880
+  SetGovernamentalLawAnarchyButton_tooltip: "즉시 무정부 상태를 선포하시오" # 13063345593361188662
+  SetGovernamentalLawSinglePartyStateButton_tooltip: "즉시 일당 국가를 시행하십시오" # 4880048216210419491
+  SetGovernamentalLawEthnostateButton_tooltip: "즉시 민족국가를 시행하십시오." # 10107903783258182309
+  SetGovernamentalLawNationalSupremacyButton_tooltip: "즉시 국가 우월주의를 시행하시오" # 8978559858204786726
+  SetGovernamentalLawRacialSegregationButton_tooltip: "즉시 인종 분리 정책을 시행하십시오" # 14295503458251140245
+  SetGovernamentalLawCulturalExclusionButton_tooltip: "즉시 문화적 배제를 시행하시오" # 8840815437198502748
+  SetGovernamentalLawMulticulturalismButton_tooltip: "즉시 다문화주의를 시행하십시오" # 15481648575723288276
+  SetGovernamentalLawStateReligionButton_tooltip: "즉시 국교를 제정하십시오" # 11804473065715859262
+  SetGovernamentalLawFreedomOfConscienceButton_tooltip: "즉시 양심의 자유를 시행하시오" # 8035971996851363265
+  SetGovernamentalLawTotalSeparationButton_tooltip: "즉시 완전한 분리법을 시행하라" # 14884387376185543201
+  SetGovernamentalLawStateAtheismButton_tooltip: "즉시 국가 무신론을 시행하시오" # 5409354206121879762
+  SetGovernamentalLawHereditaryBureaucratsButton_tooltip: "즉시 세습 관료제를 시행하십시오" # 3385567735051601175
+  SetGovernamentalLawAppointedBureaucratsButton_tooltip: "즉시 임명된 관료제를 시행하십시오" # 955270557215719068
+  SetGovernamentalLawElectedBureaucratsButton_tooltip: "즉시 선출 관료제를 시행하십시오" # 7392848000098038849
+  SetGovernamentalLawPeasantLeviesButton_tooltip: "즉시 농민 징집령을 발동하십시오" # 4615014069902054999
+  SetGovernamentalLawProfessionalArmyButton_tooltip: "즉시 전문군대 법령을 시행하십시오." # 17148704613440303133
+  SetGovernamentalLawNationalMilitiaButton_tooltip: "즉시 국민 민병대를 발령하십시오" # 2734489291368151091
+  SetGovernamentalLawMassConscriptionButton_tooltip: "즉시 총력 징집을 시행하십시오" # 920993788223868156
+  SetGovernamentalLawNoHomeAffairsButton_tooltip: "즉시 무관부(無管部)를 시행하시오" # 11090838208758614566
+  SetGovernamentalLawNationalGuardButton_tooltip: "즉시 국민군을 소집하시오" # 17634056786147378467
+  SetGovernamentalLawSecretPoliceButton_tooltip: "즉시 비밀 경찰을 시행하시오" # 3064853855581190536
+  SetGovernamentalLawGuaranteedLibertiesButton_tooltip: "즉시 #bold 자유 보장#을 시행하시오" # 9191793724482033786
+  SetEconomicLawTraditionalismButton_tooltip: "즉시 전통주의를 시행하시오" # 16569278928619857184
+  SetEconomicLawInterventionismButton_tooltip: "즉시 개입주의를 시행하십시오" # 17075988793743623420
+  SetEconomicLawAgrarianismButton_tooltip: "즉시 농본주의를 시행하라" # 8314790860775732107
+  SetEconomicLawIndustryBannedButton_tooltip: "즉시 산업 금지 조치를 시행하십시오" # 17956453486804989575
+  SetEconomicLawExtractionEconomyButton_tooltip: "즉시 수탈 경제를 시행하십시오" # 17988985186786716055
+  SetEconomicLawLaissezFaireButton_tooltip: "즉시 자유방임주의를 시행하라" # 2644901749107956797
+  SetEconomicLawCooperativeOwnershipButton_tooltip: "즉시 협동 소유제를 시행하십시오" # 288723675020283211
+  SetEconomicLawCommandEconomyButton_tooltip: "즉시 계획 경제를 시행하십시오" # 3730037523475905577
+  SetEconomicLawMercantilismButton_tooltip: "즉시 중상주의를 시행하시오" # 14658904451970963067
+  SetEconomicLawProtectionismButton_tooltip: "즉시 보호주의를 시행하라" # 7200518613124044976
+  SetEconomicLawFreeTradeButton_tooltip: "즉시 자유 무역을 시행하라" # 1170429993821244003
+  SetEconomicLawIsolationismButton_tooltip: "즉시 고립주의를 시행하시오" # 16931710349903883210
+  SetEconomicLawConsumptionBasedTaxationButton_tooltip: "즉시 소비 기반 과세를 시행하라" # 17581349913861489233
+  SetEconomicLawLandBasedTaxationButton_tooltip: "즉시 토지 기반 과세를 시행하십시오" # 13290324422438330527
+  SetEconomicLawPerCapitaTaxationButton_tooltip: "즉시 인두세 기반 과세법을 시행하시오" # 3469835004333809438
+  SetEconomicLawProportionalTaxationButton_tooltip: "즉시 비례세법을 시행하라" # 1269958894715139425
+  SetEconomicLawGraduatedTaxationButton_tooltip: "즉시 누진세법을 제정하라" # 14285660931369825217
+  SetEconomicLawSerfdomButton_tooltip: "즉시 농노제를 시행하라" # 5632873128673394404
+  SetEconomicLawTenantFarmersButton_tooltip: "즉시 소작농 제도를 시행하십시오" # 17944671266306089009
+  SetEconomicLawCommercializedAgricultureButton_tooltip: "즉시 상업화된 농업을 시행하십시오" # 885713428557906340
+  SetEconomicLawHomesteadingButton_tooltip: "즉시 정착을 시행하시오" # 7273021568066867501
+  SetEconomicLawCollectivizedAgricultureButton_tooltip: "즉시 집단농업을 시행하십시오" # 6210438389336928038
+  SetEconomicLawNoColonialAffairsButton_tooltip: "즉시 식민지 업무 금지를 발효하시오" # 8597366919485310999
+  SetEconomicLawFrontierColonizationButton_tooltip: "즉시 개척지 개척을 시행하시오" # 16396471467623911143
+  SetEconomicLawColonialResettlementButton_tooltip: "즉시 식민지 재정착을 시행하시오" # 12742660559448612391
+  SetEconomicLawColonialExploitationButton_tooltip: "즉시 식민지 수탈을 시행하시오" # 1923477338533467434
+  SetEconomicLawNoPoliceButton_tooltip: "즉시 경찰력 폐지를 시행하라" # 10733255106088311755
+  SetEconomicLawLocalPoliceForceButton_tooltip: "즉시 지방 경찰을 시행하십시오" # 8881634266105580664
+  SetEconomicLawDedicatedPoliceForceButton_tooltip: "즉시 전담 경찰력 제도를 시행하십시오" # 117996719456692244
+  SetEconomicLawMilitarizedPoliceForceButton_tooltip: "즉시 군경찰 제도(Militarized Police Force)를 시행하십시오" # 1085673224153130321
+  SetEconomicLawNoSchoolsButton_tooltip: "즉시 무학교령을 시행하시오" # 3800651648428005362
+  SetEconomicLawReligiousSchoolsButton_tooltip: "종교 학교를 즉시 시행하시오" # 1289780201064000763
+  SetEconomicLawPrivateSchoolsButton_tooltip: "즉시 사립학교를 시행하십시오" # 6028303129707964013
+  SetEconomicLawPublicSchoolsButton_tooltip: "즉시 공립학교를 시행하십시오" # 11432209750850009102
+  SetEconomicLawNoHealthSystemButton_tooltip: "즉시 무의료 시스템을 시행하십시오" # 7404773368614142256
+  SetEconomicLawCharityHospitalsButton_tooltip: "즉시 자선 병원을 시행하십시오." # 16828374194196230016
+  SetEconomicLawPrivateHealthInsuranceButton_tooltip: "즉시 민간 건강 보험을 시행하십시오." # 13889678302372884258
+  SetEconomicLawPublicHealthInsuranceButton_tooltip: "즉시 공중 보건 보험을 시행하시오" # 11645235783262968469
+  SetHumanRightsLawOutlawedDissentButton_tooltip: "즉시 반체제 인사 추방을 시행하십시오" # 18097325262622619118
+  SetHumanRightsLawCensorshipButton_tooltip: "즉시 검열을 시행하라" # 2653954179968258587
+  SetHumanRightsLawRightOfAssemblyButton_tooltip: "즉시 집회의 권리를 시행하시오" # 2017184887078951447
+  SetHumanRightsLawProtectedSpeechButton_tooltip: "즉시 언론 보호법을 제정하라" # 8831005855691960946
+  SetHumanRightsLawNoWorkersRightsButton_tooltip: "즉시 노동자 권리 폐지 조치를 시행하시오" # 12509692443007392108
+  SetHumanRightsLawRegulatoryBodiesButton_tooltip: "즉시 규제 기관을 제정하십시오" # 15959225622120756071
+  SetHumanRightsLawWorkersProtectionsButton_tooltip: "즉시 노동자 보호법을 시행하시오" # 2335456824995666843
+  SetHumanRightsLawChildLaborAllowedButton_tooltip: "즉시 노동 허용을 시행하십시오" # 4256584355889721242
+  SetHumanRightsLawRestrictedChildLaborButton_tooltip: "즉시 제한된 아동 노동을 시행하시오" # 14759455013516357084
+  SetHumanRightsLawCompulsoryPrimarySchoolButton_tooltip: "즉시 의무 초등 교육을 시행하십시오" # 1924700239024273725
+  SetHumanRightsLawLegalGuardianshipButton_tooltip: "즉시 법적 후견인을 임명하시오" # 12050197936401142798
+  SetHumanRightsLawPropertiedWomenButton_tooltip: "즉시 재산권을 가진 여성 법안을 시행하십시오" # 6047567805623177934
+  SetHumanRightsLawWomenInTheWorkplaceButton_tooltip: "즉시 여성 노동 도입을 시행하십시오" # 12542988660394745438
+  SetHumanRightsLawWomensSuffrageButton_tooltip: "즉시 여성 참정권을 시행하시오" # 15141268462445485361
+  SetHumanRightsLawNoSocialSecurityButton_tooltip: "즉시 사회 보장 폐지를 시행하시오" # 10248892967799082145
+  SetHumanRightsLawPoorLawsButton_tooltip: "즉시 빈민법을 시행하시오" # 17074770264387599942
+  SetHumanRightsLawWageSubsidiesButton_tooltip: "즉시 임금 보조금을 시행하십시오" # 1176551728478329404
+  SetHumanRightsLawOldAgePensionButton_tooltip: "즉시 노령 연금을 시행하십시오" # 10004023614737217452
+  SetHumanRightsLawNoMigrationControlsButton_tooltip: "즉시 이주 통제를 폐지하십시오" # 17773266721778091555
+  SetHumanRightsLawMigrationControlsButton_tooltip: "즉시 이주 통제를 시행하라" # 9005077168084651246
+  SetHumanRightsLawClosedBordersButton_tooltip: "즉시 국경 폐쇄를 시행하십시오" # 5956544553485537879
+  SetHumanRightsLawSlaveryBannedButton_tooltip: "즉시 노예제 폐지법을 시행하십시오." # 13106873749914974232
+  SetHumanRightsLawDebtSlaveryButton_tooltip: "즉시 채무 노예제를 시행하라" # 18113152701803738982
+  SetHumanRightsLawSlaveTradeButton_tooltip: "즉시 노예 무역을 시행하라" # 8589423577332786490
+  SetHumanRightsLawLegacySlaveryButton_tooltip: "즉시 유산 노예제도를 시행하십시오" # 12481783836161999500
+  SetHumanRightsLawGuildSystemButton_tooltip: "즉시 조합 제도(Guild System)를 시행하시오" # 10606849936877582778
+  SetHumanRightsLawCombinationActsButton_tooltip: "즉시 조합법을 제정하라" # 13490356077676725296
+  SetHumanRightsLawAntiStrikeLawsButton_tooltip: "즉시 파업 금지법을 발효하십시오" # 4623463222667284447
+  SetHumanRightsLawRightToAssociateButton_tooltip: "즉시 결사의 자유 법안 발효" # 8979990267518405940
+  SetHumanRightsLawCorporatizedUnionsButton_tooltip: "즉시 법인화된 노동조합들이 시행합니다" # 1297481595010154554
+  select_character_to_modify: "수정할 인물 선택" # 1002213414749863697
+  TITULO_ABA_PERSONAGEM: "고급 인물 모딩 (책상에 머리를 찧으며 얻은 결과)" # 17429755863331972612
+  TITULO_ABA_TRACOS_MILITARES: "군사 특성" # 17816986683424327495
+  TITULO_ABA_TRACOS_POLITICOS: "정치적 특성" # 8876129653725254676
+  TITULO_ABA_TRACOS_MULTICLASSE: "다중 직업 특성" # 14191947262130706717
+  TITULO_ABA_TRACOS_CONDICAO: "조건 특성" # 5281183791714325693
+  TITULO_ABA_TRACOS_PERSONALIDADE: "성격 특성" # 17290847045487120174
+  TITULO_ABA_IDEOLOGIAS: "이념들" # 16108961899581330740
+  IdeologiesButton_text: "이념들" # 16108961899581330740
+  TRACOS_DE_HABILIDADE: "능력 특성" # 643749387603716003
+  MilitaryTraitsButton_text: "군사 특성" # 17816986683424327495
+  PoliticalTraitsButton_text: "정치적 특성" # 8876129653725254676
+  MultiClassTraitsButton_text: "다중 계급 특성" # 2182891561791237256
+  OUTROS_TRACOS: "기타 특성" # 12486013980614473244
+  PersonalityTraitsButton_text: "성격 특성" # 17290847045487120174
+  ConditionTraitsButton_text: "조건 특성" # 5281183791714325693
+  immortal_character_text: "불멸의 인물:" # 8000201936878692909
+  YesImmortalCharacterButton_text: "네" # 3389992145996609386
+  YesImmortalCharacterButton_tooltip: "현재 선택된 인물에게 불멸을 부여합니다" # 11681901604693340392
+  NoImmortalCharacterButton_text: "아니요" # 3846534607940335394
+  NoImmortalCharacterButton_tooltip: "현재 선택된 인물의 불멸 속성을 제거합니다" # 4084490955519895115
+  MODIFICANDO: "수정 중" # 17115000985082913655
+  TRACOS_GENERAIS: "장군 특성" # 1732759001003953958
+  Resupply_commanderButton_text: "보급품 징발 전문가" # 11834861321837788731
+  Resupply_commanderButton_tooltip: "공급 소요 전문가 특성을 추가하려면 왼쪽 클릭하고, 공급 소요 전문가 특성을 제거하려면 오른쪽 클릭하십시오." # 17218855956993787037
+  PillagerButton_text: "약탈자" # 14913525675114335449
+  PillagerButton_tooltip: "좌클릭하여 약탈자 특성을 추가하고 우클릭하여 약탈자 특성을 제거하십시오." # 9075065427572491072
+  SurveyorButton_text: "측량사" # 12543326871592055126
+  SurveyorButton_tooltip: "왼쪽 클릭으로 측량가 특성을 추가하고 오른쪽 클릭으로 측량가 특성을 제거하십시오." # 3846877213887128731
+  Forest_commanderButton_text: "삼림 전투 전문가" # 9713006055179522913
+  Forest_commanderButton_tooltip: "좌클릭하여 산림 전투 전문가 특성을 추가하고 우클릭하여 산림 전투 전문가 특성을 제거하십시오." # 14429732264714821319
+  Plains_commanderButton_text: "개방 지형 사령관" # 12059340936176717712
+  Plains_commanderButton_tooltip: "좌클릭하여 개방 지형 지휘관 특성을 추가하고 우클릭하여 개방 지형 지휘관 특성을 제거하십시오." # 11618851511649214098
+  Mountain_commanderButton_text: "산악전 전문가" # 13504053649755101395
+  Mountain_commanderButton_tooltip: "왼쪽 클릭으로 산악 전투 전문가 특성을 추가하고 오른쪽 클릭으로 산악 전투 전문가 특성을 제거하십시오." # 11569173419306972170
+  Basic_artillery_commanderButton_text: "기본 포병 지휘관" # 18148067349718652262
+  Basic_artillery_commanderButton_tooltip: "기본 포병 지휘관 특성을 추가하려면 왼쪽 클릭하고, 기본 포병 지휘관 특성을 제거하려면 오른쪽 클릭하십시오." # 18256709307130671664
+  Experienced_artillery_commanderButton_text: "숙련된 포병 지휘관" # 7660598260491128160
+  Experienced_artillery_commanderButton_tooltip: "경험 많은 포병 지휘관 특성을 추가하려면 왼쪽 클릭을, 경험 많은 포병 지휘관 특성을 제거하려면 오른쪽 클릭을 하십시오." # 8061462086841129696
+  Expert_artillery_commanderButton_text: "전문 포병 사령관" # 2262112405059036062
+  Expert_artillery_commanderButton_tooltip: "전문 포병 지휘관 특성을 추가하려면 좌클릭하고, 제거하려면 우클릭하십시오." # 11650345753463353830
+  Stalwart_defenderButton_text: "굳건한 수호자" # 9810658064285980098
+  Stalwart_defenderButton_tooltip: "좌클릭하여 #bold 굳건한 수호자# 특성을 추가하고 우클릭하여 #bold 굳건한 수호자# 특성을 제거하십시오." # 12469114971756354304
+  Trench_ratButton_text: "참호 쥐" # 6193586872867981573
+  Trench_ratButton_tooltip: "좌클릭하여 참호병 특성을 추가하고 우클릭하여 참호병 특성을 제거하십시오." # 10817156048887584955
+  Defense_in_depth_specialistButton_text: "심층 방어 전문가" # 3864704578342238690
+  Defense_in_depth_specialistButton_tooltip: "방어 심화 전문가 특성을 추가하려면 좌클릭하고, 방어 심화 전문가 특성을 제거하려면 우클릭하십시오." # 8331760004022870708
+  Basic_offensive_plannerButton_text: "공세 계획관" # 8921052577089540042
+  Basic_offensive_plannerButton_tooltip: "공격 계획가 특성을 추가하려면 왼쪽 클릭을, 공격 계획가 특성을 제거하려면 오른쪽 클릭을 하십시오." # 322704305846916674
+  Experienced_offensive_plannerButton_text: "숙련된 공격 계획관" # 3334777734392480645
+  Experienced_offensive_plannerButton_tooltip: "좌클릭하여 #bold 숙련된 공세 계획가# 특성을 추가하고 우클릭하여 #bold 숙련된 공세 계획가# 특성을 제거하십시오." # 10489938084077412013
+  Expert_offensive_plannerButton_text: "전문 공격 계획가" # 13302900423633629201
+  Expert_offensive_plannerButton_tooltip: "전문 공격 계획가 특성을 추가하려면 좌클릭하고, 전문 공격 계획가 특성을 제거하려면 우클릭하십시오." # 10559481172390492227
+  Basic_defensive_strategistButton_text: "방어 전략가" # 14388664054212759786
+  Basic_defensive_strategistButton_tooltip: "좌클릭하여 방어 전략가 특성을 추가하고 우클릭하여 방어 전략가 특성을 제거하십시오." # 10846218143963074960
+  Experienced_defensive_strategistButton_text: "노련한 방어 전략가" # 15753379963949267099
+  Experienced_defensive_strategistButton_tooltip: "경험 많은 방어 전략가 특성을 추가하려면 왼쪽 클릭하고, 경험 많은 방어 전략가 특성을 제거하려면 오른쪽 클릭하십시오." # 13688258828732691214
+  Expert_defensive_strategistButton_text: "전문 방어 전략가" # 13319742893543996543
+  Expert_defensive_strategistButton_tooltip: "좌클릭하여 #bold 전문가적 방어 전략가# 특성을 추가하고 우클릭하여 #bold 전문가적 방어 전략가# 특성을 제거하십시오." # 531917340108630814
+  TRACOS_ALMIRANTES: "제독 특성" # 6033721524071226402
+  Basic_naval_commanderButton_text: "해군 제독" # 17472327198055117608
+  Basic_naval_commanderButton_tooltip: "좌클릭하여 해군 지휘관 특성을 추가하고 우클릭하여 해군 지휘관 특성을 제거하십시오." # 1971310953855877639
+  Experienced_naval_commanderButton_text: "숙련된 해군 지휘관" # 13399851629638387222
+  Experienced_naval_commanderButton_tooltip: "왼쪽 클릭으로 숙련된 해군 지휘관 특성을 추가하고 오른쪽 클릭으로 숙련된 해군 지휘관 특성을 제거하십시오." # 455768203098157806
+  Expert_naval_commanderButton_text: "전문 해군 지휘관" # 9048225514828382666
+  Expert_naval_commanderButton_tooltip: "좌클릭 시 전문 해군 지휘관 특성을 추가하고 우클릭 시 전문 해군 지휘관 특성을 제거합니다." # 1840815674783091984
+  Convoy_raider_commanderButton_text: "호송선 약탈자" # 13302268059951010676
+  Convoy_raider_commanderButton_tooltip: "좌클릭하여 호송대 약탈자 특성을 추가하고 우클릭하여 호송대 약탈자 특성을 제거하십시오." # 15253468917300601759
+  Experienced_convoy_raiderButton_text: "숙련된 호송대 약탈자" # 4886866970909404185
+  Experienced_convoy_raiderButton_tooltip: "좌클릭하여 숙련된 호송대 약탈자 특성을 추가하고 우클릭하여 숙련된 호송대 약탈자 특성을 제거하십시오." # 111375530323019158
+  Expert_convoy_raiderButton_text: "전문 호송대 약탈자" # 14360509910740732470
+  Expert_convoy_raiderButton_tooltip: "전문 호송대 약탈자 특성을 추가하려면 좌클릭하고, 전문 호송대 약탈자 특성을 제거하려면 우클릭하십시오." # 14638757023668428747
+  Traditionalist_commanderButton_text: "전통주의 사령관" # 861673068251966663
+  Traditionalist_commanderButton_tooltip: "좌측 클릭하여 전통주의자 지휘관 특성을 추가하고 우측 클릭하여 전통주의자 지휘관 특성을 제거하십시오." # 3239155439622777983
+  Popular_commanderButton_text: "인기 있는 사령관" # 10842953768756314840
+  Popular_commanderButton_tooltip: "좌클릭하여 인기 있는 지휘관 특성을 추가하고 우클릭하여 인기 있는 지휘관 특성을 제거하십시오." # 11767222320385711874
+  Celebrity_commanderButton_text: "유명한 지휘관" # 10722271192741326026
+  Celebrity_commanderButton_tooltip: "왼쪽 클릭하여 유명 사령관 특성을 추가하고 오른쪽 클릭하여 유명 사령관 특성을 제거하십시오." # 2101329876081591564
+  Dockyard_masterButton_text: "조선소 조직원" # 9248131580739749650
+  Dockyard_masterButton_tooltip: "좌클릭하여 조선소 조직원 특성을 추가하고 우클릭하여 조선소 조직원 특성을 제거하십시오." # 14276205529200041770
+  TRACOS_POLITICOS: "정치인 특성" # 10564781458433028606
+  Basic_diplomatButton_text: "외교관" # 12440045631056547666
+  Basic_diplomatButton_tooltip: "좌클릭하여 외교관 특성을 추가하고 우클릭하여 외교관 특성을 제거하십시오" # 8829137074874061353
+  Experienced_diplomatButton_text: "숙련된 외교관" # 9143608431548444872
+  Experienced_diplomatButton_tooltip: "왼쪽 클릭으로 경험 많은 외교관 특성을 추가하고 오른쪽 클릭으로 경험 많은 외교관 특성을 제거하십시오." # 5182731543061460174
+  Masterful_diplomatButton_text: "능숙한 외교관" # 478602758201703853
+  Masterful_diplomatButton_tooltip: "마스터 외교관 특성을 추가하려면 좌클릭하고, 마스터 외교관 특성을 제거하려면 우클릭하십시오." # 9231967465382315547
+  Basic_colonial_administratorButton_text: "식민지 행정관" # 9415853091651726354
+  Basic_colonial_administratorButton_tooltip: "좌클릭하여 식민지 행정관 특성을 추가하고 우클릭하여 식민지 행정관 특성을 제거하십시오." # 6401260721550227731
+  Experienced_colonial_administratorButton_text: "경험 많은 식민지 행정관" # 14432121101037935990
+  Experienced_colonial_administratorButton_tooltip: "좌클릭하여 숙련된 식민지 행정관 특성을 추가하고 우클릭하여 숙련된 식민지 행정관 특성을 제거하십시오." # 605205824765806301
+  Expert_colonial_administratorButton_text: "전문 식민지 행정관" # 17704740696113621087
+  Expert_colonial_administratorButton_tooltip: "전문 식민 행정가 특성을 추가하려면 좌클릭하고, 전문 식민 행정가 특성을 제거하려면 우클릭하십시오." # 4080749345112754315
+  Basic_political_operatorButton_text: "정치 공작원" # 16617813756075952063
+  Basic_political_operatorButton_tooltip: "정치 운영자 특성을 추가하려면 왼쪽 클릭하고, 정치 운영자 특성을 제거하려면 오른쪽 클릭하십시오." # 18161909813104177627
+  Experienced_political_operatorButton_text: "숙련된 정치 운영가" # 16824197255720049745
+  Experienced_political_operatorButton_tooltip: "좌클릭하여 #bold 숙련된 정치 운영가# 특성을 추가하고 우클릭하여 #bold 숙련된 정치 운영가# 특성을 제거하십시오." # 8575084449450526214
+  Expert_political_operatorButton_text: "정치 전문가" # 12289899181459924489
+  Expert_political_operatorButton_tooltip: "좌클릭하여 #bold 전문 정치 운영가# 특성을 추가하고 우클릭하여 #bold 전문 정치 운영가# 특성을 제거하십시오." # 2246200112001351660
+  Inspirational_oratorButton_text: "영감을 주는 웅변가" # 11984370192337127925
+  Inspirational_oratorButton_tooltip: "영감을 주는 웅변가 특성을 추가하려면 왼쪽 클릭, 영감을 주는 웅변가 특성을 제거하려면 오른쪽 클릭하십시오." # 8397002149212573366
+  DemagogueButton_text: "선동가" # 5903237802835422618
+  DemagogueButton_tooltip: "좌클릭하여 선동가 특성을 추가하고 우클릭하여 선동가 특성을 제거하십시오." # 1974682826489512660
+  FirebrandButton_text: "선동가" # 12416830009117617371
+  FirebrandButton_tooltip: "좌클릭하여 선동가 특성을 추가하고 우클릭하여 선동가 특성을 제거하십시오." # 16156028609658994746
+  TRACOS_MULTICLASSE: "다중 계급 특성" # 2182891561791237256
+  ExplorerButton_text: "탐험가" # 3734392016253657973
+  ExplorerButton_tooltip: "탐험가 특성을 추가하려면 왼쪽 클릭, 탐험가 특성을 제거하려면 오른쪽 클릭하십시오." # 5798991871512688167
+  BanditButton_text: "산적" # 1677295816124958550
+  BanditButton_tooltip: "좌클릭하여 산적 특성을 추가하고 우클릭하여 산적 특성을 제거하십시오." # 2904340309475229688
+  EruditeButton_text: "박식한" # 12497407654474973296
+  EruditeButton_tooltip: "좌클릭하여 박식함 특성을 추가하고 우클릭하여 박식함 특성을 제거하십시오." # 8352906389570015704
+  LiteraryButton_text: "문학" # 13731400515327277546
+  LiteraryButton_tooltip: "좌클릭하여 문학적 특성을 추가하고 우클릭하여 문학적 특성을 제거하십시오." # 3620950191857967043
+  EngineerButton_text: "기술자" # 7182046474123999707
+  EngineerButton_tooltip: "왼쪽 클릭으로 기술자 특성을 추가하고 오른쪽 클릭으로 기술자 특성을 제거하십시오." # 3259899810692009920
+  Master_bureaucratButton_text: "관료 대감" # 3738162436140518974
+  Master_bureaucratButton_tooltip: "마스터 관료 특성을 추가하려면 왼쪽 클릭을, 마스터 관료 특성을 제거하려면 오른쪽 클릭을 하십시오." # 6440197090022989462
+  Political_appointeeButton_text: "정치 임명직" # 11560750862165121949
+  Political_appointeeButton_tooltip: "좌클릭하여 정치 임명 특성을 추가하고 우클릭하여 정치 임명 특성을 제거하십시오." # 15211184452320695515
+  IneptButton_text: "서투른" # 12468627686105622289
+  IneptButton_tooltip: "좌클릭하여 #bold 무능#[/bold] 특성을 추가하고 우클릭하여 #bold 무능#[/bold] 특성을 제거하십시오." # 12556735866459082519
+  InexperiencedButton_text: "미숙함" # 13405945504200551296
+  InexperiencedButton_tooltip: "좌클릭하여 미숙함 특성을 추가하고 우클릭하여 미숙함 특성을 제거하십시오." # 10507266318990509158
+  TRACOS_CONDICAO: "조건 특성" # 5281183791714325693
+  AlcoholicButton_text: "알코올 중독자" # 13320720595098570460
+  AlcoholicButton_tooltip: "좌클릭으로 주정뱅이 특성을 추가하고 우클릭으로 주정뱅이 특성을 제거하십시오." # 6880246825252924474
+  Opium_addictionButton_text: "아편 중독자" # 1551730313605657538
+  Opium_addictionButton_tooltip: "왼쪽 클릭 시 아편 중독자 특성을 추가하고, 오른쪽 클릭 시 아편 중독자 특성을 제거합니다." # 4662876073637072746
+  Cocaine_addictionButton_text: "코카인 중독자" # 13452023708065816989
+  Cocaine_addictionButton_tooltip: "좌클릭하여 코카인 중독자 특성을 추가하고 우클릭하여 코카인 중독자 특성을 제거하십시오." # 17316252702049627924
+  CancerButton_text: "암" # 17058610208155936049
+  CancerButton_tooltip: "왼쪽 클릭 시 암 특성을 추가하고 오른쪽 클릭 시 암 특성을 제거합니다." # 7697474963761482821
+  ScarredButton_text: "흉터가 남은" # 9055822472492019009
+  ScarredButton_tooltip: "좌클릭하여 흉터 특성을 추가하고 우클릭하여 흉터 특성을 제거하십시오" # 14002603625619309005
+  SenileButton_text: "노쇠한" # 14754410478127577889
+  SenileButton_tooltip: "좌클릭하여 노쇠 특성을 추가하고 우클릭하여 노쇠 특성을 제거하십시오" # 9212309141475068283
+  SyphilisButton_text: "매독" # 2813991966878898002
+  SyphilisButton_tooltip: "좌클릭하여 매독 특성을 추가하고 우클릭하여 매독 특성을 제거하십시오." # 11534531399631436368
+  ShellshockedButton_text: "포탄 쇼크" # 11865134523583458620
+  ShellshockedButton_tooltip: "좌클릭하여 충격(Shell Shock) 특성을 추가하고 우클릭하여 충격(Shell Shock) 특성을 제거하십시오." # 18371172557707014635
+  WoundedButton_text: "부상당함" # 17250887821819717798
+  WoundedButton_tooltip: "왼쪽 클릭 시 부상 특성을 추가하고, 오른쪽 클릭 시 부상 특성을 제거합니다." # 9865723858886974757
+  Psychological_afflictionButton_text: "심리적 고통" # 9151154254078150223
+  Psychological_afflictionButton_tooltip: "심리적 고통 특성을 추가하려면 왼쪽 클릭하고, 심리적 고통 특성을 제거하려면 오른쪽 클릭하십시오." # 3840504221746739050
+  Expensive_tastesButton_text: "호화로운 취향" # 18328509165352187572
+  Expensive_tastesButton_tooltip: "왼쪽 클릭으로 #bold 사치 취향# 특성을 추가하고 오른쪽 클릭으로 #bold 사치 취향# 특성을 제거하십시오." # 13955893602668709353
+  Kidney_stonesButton_text: "신장 결석" # 3139104572749794757
+  Kidney_stonesButton_tooltip: "좌클릭하여 신장 결석 특성을 추가하고 우클릭하여 신장 결석 특성을 제거하십시오." # 3101818593956336906
+  Beetle_earButton_text: "딱정벌레 귀" # 14356629805140307635
+  Beetle_earButton_tooltip: "왼쪽 클릭으로 딱지 귀 특성을 추가하고 오른쪽 클릭으로 딱지 귀 특성을 제거하십시오." # 6226797709072182035
+  SicklyButton_text: "병약한" # 10265763162844895236
+  SicklyButton_tooltip: "좌클릭하여 #bold 병약함# 특성을 추가하고 우클릭하여 #bold 병약함# 특성을 제거하십시오." # 4648019127951196770
+  TRACOS_PERSONALIDADE: "성격 특성" # 17290847045487120174
+  Trait_childButton_text: "아이" # 2957435531258033855
+  Trait_childButton_tooltip: "왼쪽 클릭으로 자식 특성을 추가하고 오른쪽 클릭으로 자식 특성을 제거하십시오" # 14297544713526914625
+  DirectButton_text: "직접" # 9865257861517335054
+  DirectButton_tooltip: "직접 특성을 추가하려면 왼쪽 클릭하고, 직접 특성을 제거하려면 오른쪽 클릭하십시오." # 15637219865289552755
+  PersistentButton_text: "지속적인" # 12405485305401056902
+  PersistentButton_tooltip: "지속적인 특성을 추가하려면 왼쪽 클릭하고, 지속적인 특성을 제거하려면 오른쪽 클릭하십시오." # 2574573585306971834
+  CautiousButton_text: "신중한" # 6474703587249131200
+  CautiousButton_tooltip: "좌클릭하여 신중 특성을 추가하고 우클릭하여 신중 특성을 제거하십시오." # 1968214049910527025
+  ArrogantButton_text: "거만한" # 1863547791340634152
+  ArrogantButton_tooltip: "좌클릭하여 오만한 특성을 추가하고 우클릭하여 오만한 특성을 제거하십시오." # 1300036012971503097
+  BigotedButton_text: "편협한" # 6847871651707557612
+  BigotedButton_tooltip: "왼쪽 클릭으로 #bold 편협함# 특성을 추가하고 오른쪽 클릭으로 #bold 편협함# 특성을 제거하십시오." # 7518899162614466068
+  RecklessButton_text: "무모한" # 6547843133784628352
+  RecklessButton_tooltip: "좌클릭으로 #bold 무모함# 특성을 추가하고 우클릭으로 #bold 무모함# 특성을 제거하십시오." # 7239644051473954100
+  TactfulButton_text: "신중한" # 6997591167520326664
+  TactfulButton_tooltip: "좌클릭하여 #bold 솜씨 좋은# 특성을 추가하고 우클릭하여 #bold 솜씨 좋은# 특성을 제거하십시오." # 13467747435491916088
+  AmbitiousButton_text: "야심찬" # 17165968937342388130
+  AmbitiousButton_tooltip: "좌클릭하여 야심가 특성을 추가하고 우클릭하여 야심가 특성을 제거하십시오." # 5645087611716524512
+  ImperiousButton_text: "제국주의" # 15386924460142599623
+  ImperiousButton_tooltip: "왼쪽 클릭 시 오만한 특성을 추가하고, 오른쪽 클릭 시 오만한 특성을 제거합니다." # 10152097295149651216
+  WrathfulButton_text: "격노" # 2041385134160651484
+  WrathfulButton_tooltip: "분노한 특성을 추가하려면 왼쪽 클릭, 분노한 특성을 제거하려면 오른쪽 클릭하십시오." # 1059212155148506211
+  ReservedButton_text: "예약됨" # 3184086966475214036
+  ReservedButton_tooltip: "예약된 특성을 추가하려면 왼쪽 클릭을, 예약된 특성을 제거하려면 오른쪽 클릭을 하십시오." # 8565814734749811081
+  CruelButton_text: "잔인한" # 14265465146583074252
+  CruelButton_tooltip: "왼쪽 클릭으로 #bold 잔혹함# 특성을 추가하고 오른쪽 클릭으로 #bold 잔혹함# 특성을 제거하십시오." # 6884570461356907813
+  MeticulousButton_text: "세심한" # 7609981156722491234
+  MeticulousButton_tooltip: "좌클릭하여 #bold 성실함# 특성을 추가하고 우클릭하여 #bold 성실함# 특성을 제거하십시오." # 6737553610761151983
+  CharismaticButton_text: "카리스마 넘치는" # 4161243137079121706
+  CharismaticButton_tooltip: "좌클릭하여 카리스마 특성을 추가하고 우클릭하여 카리스마 특성을 제거하십시오." # 1623792009266560206
+  RomanticButton_text: "낭만적인" # 388180021714885554
+  RomanticButton_tooltip: "좌클릭하여 낭만주의 특성을 추가하고 우클릭하여 낭만주의 특성을 제거하십시오." # 16753753062824355457
+  BraveButton_text: "용감한" # 2786304100060608235
+  BraveButton_tooltip: "좌클릭하여 #bold 용감# 특성을 추가하고 우클릭하여 #bold 용감# 특성을 제거하십시오." # 14937808549256138854
+  InnovativeButton_text: "혁신적인" # 5058658089593773239
+  InnovativeButton_tooltip: "혁신적 특성을 추가하려면 좌클릭하고, 혁신적 특성을 제거하려면 우클릭하십시오." # 6204582062839245970
+  HedonistButton_text: "쾌락주의자" # 3372894826875863248
+  HedonistButton_tooltip: "좌클릭하여 쾌락주의자 특성을 추가하고 우클릭하여 쾌락주의자 특성을 제거하십시오." # 12283128323916019532
+  PiousButton_text: "경건한" # 846496253500730501
+  PiousButton_tooltip: "좌클릭하여 독실함 특성을 추가하고 우클릭하여 독실함 특성을 제거하십시오." # 7963762637463656838
+  ImposingButton_text: "부과하는" # 12471442572982321727
+  ImposingButton_tooltip: "좌클릭하여 #bold 위압적# 특성을 추가하고 우클릭하여 #bold 위압적# 특성을 제거하십시오." # 10787620178940032721
+  HonorableButton_text: "영광스러운" # 6391675523107381116
+  HonorableButton_tooltip: "좌클릭하여 #bold 명예로운# 특성을 추가하고 우클릭하여 #bold 명예로운# 특성을 제거하십시오." # 9964474034767514370
+  RuthlessButton_text: "무자비한" # 6916009657038621192
+  RuthlessButton_tooltip: "좌클릭하여 #bold 무자비# 특성을 추가하고 우클릭하여 #bold 무자비# 특성을 제거하십시오." # 939445112712611853
+  CompliantButton_text: "준수함" # 3858372143400674338
+  CompliantButton_tooltip: "좌클릭하여 #bold 순응적# 특성을 추가하고 우클릭하여 #bold 순응적# 특성을 제거하십시오." # 9265567309299952046
+  AestheteButton_text: "심미주의자" # 17870615743172537066
+  AestheteButton_tooltip: "좌클릭하여 심미주의자 특성을 추가하고 우클릭하여 심미주의자 특성을 제거하십시오." # 9362186404769316391
+  Social_banditButton_text: "사회적 무법자" # 12381488768230012998
+  Social_banditButton_tooltip: "좌클릭하여 사회적 무법자 특성을 추가하고 우클릭하여 사회적 무법자 특성을 제거하십시오." # 4778197347707377608
+  GrifterButton_text: "사기꾼" # 3936461052461644119
+  GrifterButton_tooltip: "좌클릭하여 사기꾼 특성을 추가하고 우클릭하여 사기꾼 특성을 제거하십시오." # 16063881366034714354
+  War_criminalButton_text: "전범" # 14835681320415580806
+  War_criminalButton_tooltip: "왼쪽 클릭으로 전쟁 범죄자 특성을 추가하고 오른쪽 클릭으로 전쟁 범죄자 특성을 제거하십시오." # 17713694912535869810
+  Basic_entrepreneurButton_text: "기초 기업가" # 2030315071328775805
+  Basic_entrepreneurButton_tooltip: "기본 기업가 특성을 추가하려면 좌클릭하고, 기본 기업가 특성을 제거하려면 우클릭하십시오." # 2453209040445756999
+  Experienced_entrepreneurButton_text: "경험 많은 기업가" # 3571045602201146450
+  Experienced_entrepreneurButton_tooltip: "좌클릭하여 숙련된 기업가 특성을 추가하고 우클릭하여 숙련된 기업가 특성을 제거하십시오." # 11520550970284163911
+  Expert_entrepreneurButton_text: "전문 기업가" # 265247565193619396
+  Expert_entrepreneurButton_tooltip: "좌클릭하여 숙련된 기업가 특성을 추가하고 우클릭하여 숙련된 기업가 특성을 제거하십시오." # 11074051293716606680
+  IDEOLOGIAS: "이념들" # 16108961899581330740
+  Ideology_moderateButton_text: "보통" # 14032676472620407314
+  Ideology_moderateButton_tooltip: "온건주의 이념을 채택하도록 캐릭터를 선택하려면 왼쪽 클릭하십시오." # 3253348105547291206
+  Ideology_traditionalistButton_text: "전통주의자" # 17505885482386348427
+  Ideology_traditionalistButton_tooltip: "전통주의 이념을 채택하려면 왼쪽 클릭하십시오." # 15849213877419292587
+  Ideology_traditionalist_minoritarianButton_text: "소수 민족 전통주의자" # 6549427479274211654
+  Ideology_traditionalist_minoritarianButton_tooltip: "좌클릭하여 해당 인물이 소수파 전통주의 이념을 채택하도록 하십시오." # 11716408687265916408
+  Ideology_nihilistButton_text: "허무주의자" # 16602664355147207389
+  Ideology_nihilistButton_tooltip: "캐릭터가 허무주의 이념을 채택하도록 좌클릭하십시오" # 9377780197901817957
+  Ideology_republican_leaderButton_text: "공화주의" # 4321275191303353534
+  Ideology_republican_leaderButton_tooltip: "공화주의 이념을 채택하려면 왼쪽 클릭하십시오." # 10312284486337174646
+  Ideology_radicalButton_text: "급진적인" # 9169073566596624562
+  Ideology_radicalButton_tooltip: "좌클릭하여 해당 인물이 급진주의 이념을 채택하게 하십시오." # 4512212032046535400
+  Ideology_reformerButton_text: "개혁가" # 3159243904042802219
+  Ideology_reformerButton_tooltip: "좌클릭하여 해당 인물이 개혁주의 이념을 채택하도록 하십시오." # 16334780537556322347
+  Ideology_feministButton_text: "여성주의자" # 7312289578003156232
+  Ideology_feministButton_tooltip: "페미니스트 이념을 채택하려면 왼쪽 클릭하십시오." # 12746509701797943963
+  Ideology_abolitionistButton_text: "노예제 폐지론자" # 6443228445989637526
+  Ideology_abolitionistButton_tooltip: "좌클릭하여 해당 인물이 #bold 폐지주의# 사상을 채택하도록 하십시오." # 6380578545687897299
+  Ideology_slaverButton_text: "노예상인" # 3230233728135965515
+  Ideology_slaverButton_tooltip: "좌클릭하여 해당 인물이 노예제 이념을 채택하도록 하십시오." # 3178156440405015998
+  Ideology_pacifistButton_text: "평화주의자" # 2739944992774181389
+  Ideology_pacifistButton_tooltip: "좌클릭하여 해당 인물이 평화주의 이념을 채택하게 하십시오" # 10533238023747659510
+  Ideology_jingoist_leaderButton_text: "군국주의자" # 17335770522638357662
+  Ideology_jingoist_leaderButton_tooltip: "좌클릭하여 해당 인물이 #bold 호전주의# 이념을 채택하게 하십시오." # 2358183676621253352
+  Ideology_royalistButton_text: "왕당파" # 1921611183213216407
+  Ideology_royalistButton_tooltip: "왕당파 이념을 채택하려면 왼쪽 클릭하십시오." # 3863613860272171866
+  Ideology_social_democratButton_text: "사회민주주의자" # 17168130355002465321
+  Ideology_social_democratButton_tooltip: "좌클릭하여 해당 인물이 사회민주주의 이념을 채택하도록 하십시오" # 14769504751185902126
+  Ideology_communistButton_text: "공산주의자" # 17405094933839376592
+  Ideology_communistButton_tooltip: "공산주의 사상을 채택하려면 왼쪽 클릭하십시오." # 4116125870082290500
+  Ideology_vanguardistButton_text: "선봉주의" # 2028301814338872636
+  Ideology_vanguardistButton_tooltip: "뱅가드주의 이념을 채택하도록 좌클릭하십시오" # 11164745026213457644
+  Ideology_fascistButton_text: "파시스트" # 4468782137562596950
+  Ideology_fascistButton_tooltip: "파시스트 이념을 채택하려면 왼쪽 클릭하십시오." # 9468457170702708497
+  Ideology_anarchistButton_text: "무정부주의자" # 5777696145623761088
+  Ideology_anarchistButton_tooltip: "왼쪽 클릭하여 해당 인물이 아나키스트 이념을 채택하게 하십시오" # 13002713379892463797
+  Ideology_ethno_nationalistButton_text: "민족주의적" # 2960953299751891810
+  Ideology_ethno_nationalistButton_tooltip: "좌클릭하여 해당 인물이 민족주의 이데올로기를 채택하도록 하십시오" # 9468332334875063268
+  Ideology_theocratButton_text: "신정정치주의자" # 17609995141435148587
+  Ideology_theocratButton_tooltip: "좌클릭하여 해당 인물이 성직주의 이념을 채택하도록 하십시오." # 14846353855216200825
+  Ideology_market_liberalButton_text: "시장 자유주의" # 6520069642512289497
+  Ideology_market_liberalButton_tooltip: "좌클릭하여 해당 인물이 #bold 시장 자유주의# 이념을 채택하도록 하십시오." # 14909863161829458753
+  Ideology_ludditeButton_text: "러다이트" # 4269536042005840466
+  Ideology_ludditeButton_tooltip: "좌클릭하여 해당 인물이 러다이트 이념을 채택하도록 하십시오" # 11822951440731201456
+  Ideology_authoritarianButton_text: "권위주의" # 5450081390824480732
+  Ideology_authoritarianButton_tooltip: "좌클릭하여 해당 인물이 권위주의 이념을 채택하도록 하십시오." # 5403363163192398324
+  Ideology_protectionistButton_text: "보호주의" # 1035145750055044652
+  Ideology_protectionistButton_tooltip: "보호주의 이념을 채택하려면 왼쪽 클릭하십시오." # 17174690166701849644
+  Ideology_humanitarianButton_text: "인도주의적" # 17390685599940885961
+  Ideology_humanitarianButton_tooltip: "왼쪽 클릭하여 해당 인물이 인도주의 이념을 채택하도록 하십시오." # 16025002620494554890
+  Ideology_jacksonian_democratButton_text: "잭슨 민주당원" # 4711862333303056391
+  Ideology_jacksonian_democratButton_tooltip: "잭슨 민주당 이념을 채택하려면 왼쪽 클릭하십시오." # 10366374128646909151
+  Ideology_positivistButton_text: "실증주의자" # 5724545357039807862
+  Ideology_positivistButton_tooltip: "왼쪽 클릭하여 해당 인물이 실증주의 이념을 채택하게 하십시오" # 14864226141811390843
+  Ideology_land_reformerButton_text: "토지 개혁가" # 4901726581609147569
+  Ideology_land_reformerButton_tooltip: "좌클릭하여 해당 인물이 개혁주의 이념을 채택하도록 하십시오" # 13613750306189534106
+  Ideology_integralistButton_text: "통합주의자" # 18415852524896561322
+  Ideology_integralistButton_tooltip: "적분주의 이념을 채택하도록 문자를 좌클릭하십시오" # 14713442613835562009
+  Ideology_liberal_leaderButton_text: "민주주의자" # 15225950801803702488
+  Ideology_liberal_leaderButton_tooltip: "왼쪽 클릭으로 해당 인물이 민주주의 이념을 채택하게 하십시오." # 12801048163763241962
+  Ideology_corporatist_leaderButton_text: "코포라티스트" # 16503584740010156702
+  Ideology_corporatist_leaderButton_tooltip: "좌측 클릭하여 해당 인물이 협동조합주의 이념을 채택하도록 하십시오." # 15002921057536239128
+  Ideology_humanitarian_royalistButton_text: "계몽주의적 왕당파" # 3252518236841393642
+  Ideology_humanitarian_royalistButton_tooltip: "좌측 클릭 시 해당 인물이 계몽주의적 왕당파 이념을 채택합니다." # 13745818076832722025
+  Ideology_despotic_utopianButton_text: "전제적 유토피아" # 6705383382561122997
+  Ideology_despotic_utopianButton_tooltip: "왼쪽 클릭하여 해당 인물이 #bold 독재적 유토피아주의# 사상을 채택하게 하십시오." # 16834050185951706944
+  Ideology_utilitarian_leaderButton_text: "공리주의" # 16569021181428715149
+  Ideology_utilitarian_leaderButton_tooltip: "좌클릭하여 해당 인물이 공리주의 이념을 채택하도록 하십시오" # 15453360412928761151
+  Ideology_sovereignist_leaderButton_text: "주권주의자" # 6920219929993598019
+  Ideology_sovereignist_leaderButton_tooltip: "좌클릭하여 해당 인물이 주권주의 이념을 채택하도록 하십시오." # 9265596130215547238
+  Ideology_utopianButton_text: "유토피아적" # 13978658014655392203
+  Ideology_utopianButton_tooltip: "좌클릭하여 해당 인물이 공상주의 이념을 채택하도록 하십시오." # 6361926795878572896
+  Ideology_modernizer_leaderButton_text: "현대화주의자" # 16542082622819425103
+  Ideology_modernizer_leaderButton_tooltip: "현대주의 이념을 채택하도록 좌클릭하십시오" # 13492052109561021185
+  Ideology_orleanistButton_text: "오를레앙파" # 8691509627526827129
+  Ideology_orleanistButton_tooltip: "왼쪽 클릭하여 해당 인물이 오를레앙주의 이념을 채택하도록 하십시오." # 9647874841260345883
+  Ideology_legitimistButton_text: "정통주의자" # 3533465488389569044
+  Ideology_legitimistButton_tooltip: "좌클릭하여 해당 인물이 정통주의 이념을 채택하도록 하십시오." # 15512600717624590703
+  Ideology_bonapartistButton_text: "보나파르트주의" # 9499749979059850676
+  Ideology_bonapartistButton_tooltip: "좌클릭하여 해당 인물이 보나파르트주의 이념을 채택하도록 하십시오." # 12577674054414661343
+  Craveiro: "크라베이루" # 6241536870667994530
+  select_interest_group_to_modify: "이해관계를 선택하여 수정하십시오" # 12591304386731532265
+  make_character_interest_group_leader: "관심 집단 지도자 만들기" # 15996347373902924240
+  TITULO_ABA_GRUPO_INTERESSE: "고급 이익집단 모딩" # 6646053792047482254
+  TITULO_ABA_IG_IDEOLOGIAS: "IG 이념" # 9409469172919384685
+  TITULO_ABA_IG_IDEOLOGIAS_EVENTOS: "IG 이벤트 이념들" # 15998534013026484808
+  TITULO_ABA_IG_IDEOLOGIAS_EXPANSOES: "IG 확장 이념" # 16589113316121276094
+  IGIdeologiesButton_text: "이념들" # 16108961899581330740
+  IGIdeologiesEventButton_text: "이벤트 이념" # 6438260313661018112
+  IGIdeologiesExpansionButton_text: "확장 이념들" # 14797554487069338261
+  IG_IDEOLOGIAS: "이념들" # 16108961899581330740
+  IG_IDEOLOGIAS_EVENTOS: "이벤트 이념" # 6438260313661018112
+  IG_IDEOLOGIAS_EXPANSOES: "확장 이념들" # 14797554487069338261
+  Interest_Group_ideology_paternalisticButton_text: "가부장적인" # 2588741357649477700
+  Interest_Group_ideology_paternalisticButton_tooltip: "좌클릭하여 해당 이념 단체를 #bold 가부장주의# 이념으로 채택하게 하거나, 우클릭하여 이를 제거하십시오." # 13668400663132428299
+  Interest_Group_ideology_laissez_faireButton_text: "자유방임주의" # 5218776488555828248
+  Interest_Group_ideology_laissez_faireButton_tooltip: "좌클릭하여 해당 이익 집단이 자유방임주의 이념을 채택하게 하거나, 우클릭하여 제거하십시오." # 3639717380423975983
+  Interest_Group_ideology_individualistButton_text: "개인주의자" # 16387364453512226158
+  Interest_Group_ideology_individualistButton_tooltip: "좌클릭하여 해당 이념 단체를 개인주의 이념으로 채택하게 하고, 우클릭하여 이를 제거하십시오." # 11211146501628307219
+  Interest_Group_ideology_stratocraticButton_text: "군부 독재의" # 13996457009309591048
+  Interest_Group_ideology_stratocraticButton_tooltip: "좌클릭하여 해당 이익집단이 전제주의 이념을 채택하게 하거나, 우클릭하여 제거하십시오." # 211863064959175196
+  Interest_Group_ideology_oligarchicButton_text: "과두적인" # 2768744197978257593
+  Interest_Group_ideology_oligarchicButton_tooltip: "좌클릭하여 해당 이익집단이 과두제 이념을 채택하게 하거나, 우클릭하여 제거하십시오." # 7337201769221636441
+  Interest_Group_ideology_piousButton_text: "경건한" # 846496253500730501
+  Interest_Group_ideology_piousButton_tooltip: "좌클릭하여 관심 단체가 #bold 경건주의# 이념을 채택하게 하고, 우클릭하여 이를 제거하십시오." # 3455580690642754076
+  Interest_Group_ideology_agrarianButton_text: "농업의" # 10987464539595942299
+  Interest_Group_ideology_agrarianButton_tooltip: "왼쪽 클릭으로 해당 이익 단체에 농업주의 이념을 채택시키고, 오른쪽 클릭으로 이념을 제거하십시오." # 12373354472348805507
+  Interest_Group_ideology_particularistButton_text: "분리주의자" # 16452314515740619772
+  Interest_Group_ideology_particularistButton_tooltip: "좌클릭하여 해당 이익 집단이 분리주의 이념을 채택하게 하거나, 우클릭하여 이를 제거하십시오." # 9977881810985285596
+  Interest_Group_ideology_isolationistButton_text: "고립주의" # 8787157408708981068
+  Interest_Group_ideology_isolationistButton_tooltip: "좌클릭하여 해당 이익 단체가 고립주의 이념을 채택하게 하거나, 우클릭하여 제거하십시오." # 3564867265081675945
+  Interest_Group_ideology_moralistButton_text: "도덕주의자" # 10795022972217985862
+  Interest_Group_ideology_moralistButton_tooltip: "왼쪽 클릭으로 해당 이념 단체를 도덕주의 이념으로 채택하게 하고, 오른쪽 클릭으로 제거하십시오." # 5197116006000978613
+  Interest_Group_ideology_meritocraticButton_text: "능력주의적" # 9614456977005771254
+  Interest_Group_ideology_meritocraticButton_tooltip: "좌클릭하여 해당 이익 집단이 메리토크라시 이념을 채택하게 하거나, 우클릭하여 이를 제거하십시오." # 2342115519273041579
+  Interest_Group_ideology_patrioticButton_text: "애국적인" # 7689768029941360011
+  Interest_Group_ideology_patrioticButton_tooltip: "관심 단체가 애국주의 이념을 채택하도록 하려면 왼쪽 클릭하시고, 제거하려면 오른쪽 클릭하십시오." # 5686261171436439710
+  Interest_Group_ideology_loyalistButton_text: "충성파" # 15628333857138825141
+  Interest_Group_ideology_loyalistButton_tooltip: "좌클릭 시 해당 이익 단체가 왕당파 이념을 채택하며, 우클릭 시 이를 제거합니다." # 6092160019494701026
+  Interest_Group_ideology_jingoistButton_text: "군국주의자" # 17335770522638357662
+  Interest_Group_ideology_jingoistButton_tooltip: "관심 단체가 호전주의 이념을 채택하려면 왼쪽 클릭을, 제거하려면 오른쪽 클릭을 하십시오." # 15455141486194079981
+  Interest_Group_ideology_liberalButton_text: "자유주의" # 13086567676722101150
+  Interest_Group_ideology_liberalButton_tooltip: "왼쪽 클릭 시 해당 이익 집단이 자유주의 이념을 채택하며, 오른쪽 클릭 시 이념을 제거합니다." # 17635186652159745170
+  Interest_Group_ideology_anti_clericalButton_text: "반교권" # 9170228133855755916
+  Interest_Group_ideology_anti_clericalButton_tooltip: "좌클릭하여 해당 이익 집단이 반교권주의 이념을 채택하게 하십시오. 우클릭하여 이를 제거하십시오." # 5034490661668268570
+  Interest_Group_ideology_republicanButton_text: "공화주의" # 4321275191303353534
+  Interest_Group_ideology_republicanButton_tooltip: "좌클릭하여 해당 이익 집단이 공화주의 이념을 채택하게 하십시오. 우클릭하여 이념을 제거하십시오." # 14076379170030984395
+  Interest_Group_ideology_proletarianButton_text: "프롤레타리아" # 11619132863004024932
+  Interest_Group_ideology_proletarianButton_tooltip: "좌클릭 시 해당 이익집단이 프롤레타리아 이념을 채택하며, 우클릭 시 해당 이념을 제거합니다." # 3588084080138796368
+  Interest_Group_ideology_egalitarianButton_text: "평등주의" # 17954366348957807315
+  Interest_Group_ideology_egalitarianButton_tooltip: "좌클릭하여 해당 이익 집단에 평등주의 이념을 채택시키고, 우클릭하여 이념을 제거하십시오." # 1687118531487683593
+  Interest_Group_ideology_populistButton_text: "포퓰리스트" # 1749718300304941528
+  Interest_Group_ideology_populistButton_tooltip: "좌클릭하여 해당 이익 집단이 대중주의 이념을 채택하게 하고, 우클릭하여 이를 제거하십시오." # 16088090599793855817
+  Interest_Group_ideology_socialistButton_text: "사회주의자" # 3261957402647864113
+  Interest_Group_ideology_socialistButton_tooltip: "왼쪽 클릭 시 해당 이념 단체를 사회주의 이념으로 채택시키고, 오른쪽 클릭 시 이념을 제거합니다." # 11274719702065980160
+  Interest_Group_ideology_reactionaryButton_text: "반동주의" # 7662653161453193458
+  Interest_Group_ideology_reactionaryButton_tooltip: "좌클릭하여 해당 이익 단체가 보수주의 이념을 채택하게 하십시오. 우클릭하여 이를 제거하십시오." # 10916587929533749604
+  Interest_Group_ideology_plutocraticButton_text: "금권적인" # 9748872157654612528
+  Interest_Group_ideology_plutocraticButton_tooltip: "좌클릭하여 해당 이익집단에 금권주의 이념을 채택시키고, 우클릭하여 이념을 제거하십시오." # 14705061168428014122
+  Interest_Group_ideology_patriarchalButton_text: "가부장적인" # 17535175115538190900
+  Interest_Group_ideology_patriarchalButton_tooltip: "좌클릭하여 해당 이익 집단이 가부장제 이념을 채택하게 하고, 우클릭하여 제거하십시오." # 2774188486920529869
+  Interest_Group_ideology_anti_slaveryButton_text: "노예제 폐지" # 6116855558695139003
+  Interest_Group_ideology_anti_slaveryButton_tooltip: "좌클릭하여 특정 이익 집단에 #bold 노예제 폐지# 사상을 채택시키고, 우클릭하여 해당 사상을 제거하십시오." # 5317369367737859413
+  Interest_Group_ideology_pro_slaveryButton_text: "노예제 찬성" # 9909245746349514426
+  Interest_Group_ideology_pro_slaveryButton_tooltip: "좌클릭하여 해당 이익 단체가 노예제 찬성 이념을 채택하게 하십시오. 우클릭하여 해당 이념을 제거하십시오." # 11901792496137353007
+  Interest_Group_ideology_corporatistButton_text: "코포라티스트" # 16503584740010156702
+  Interest_Group_ideology_corporatistButton_tooltip: "좌클릭하여 해당 이익 집단이 코퍼레이티즘 이념을 채택하게 하거나, 우클릭하여 이를 제거하십시오." # 6149471190152743938
+  Interest_Group_ideology_patriarchal_suffrageButton_text: "현대 가부장제" # 106412009660521829
+  Interest_Group_ideology_patriarchal_suffrageButton_tooltip: "좌클릭하여 해당 이익 단체가 #bold 근대적 가부장제# 이념을 채택하게 하고, 우클릭하여 이를 제거하십시오." # 3097588359683676449
+  Interest_Group_ideology_feminist_igButton_text: "여성주의자" # 7312289578003156232
+  Interest_Group_ideology_feminist_igButton_tooltip: "좌클릭하여 관심 단체가 페미니스트 이념을 채택하게 하고, 우클릭하여 이를 제거하십시오." # 4035135550387581900
+  Interest_Group_ideology_modernizerButton_text: "현대화주의자" # 16542082622819425103
+  Interest_Group_ideology_modernizerButton_tooltip: "좌클릭하여 해당 이익 집단이 현대주의 이념을 채택하게 하고, 우클릭하여 제거하십시오." # 15789548862225761944
+  Interest_Group_ideology_liberal_modernButton_text: "자유주의" # 13086567676722101150
+  Interest_Group_ideology_liberal_modernButton_tooltip: "왼쪽 클릭 시 해당 이익 집단이 자유주의 이념을 채택하며, 오른쪽 클릭 시 이념을 제거합니다." # 17635186652159745170
+  Interest_Group_ideology_egalitarian_modernButton_text: "평등주의" # 17954366348957807315
+  Interest_Group_ideology_egalitarian_modernButton_tooltip: "좌클릭하여 해당 이익 집단에 평등주의 이념을 채택시키고, 우클릭하여 이념을 제거하십시오." # 1687118531487683593
+  Interest_Group_ideology_republican_paternalisticButton_text: "엘리트주의자" # 507629626050516558
+  Interest_Group_ideology_republican_paternalisticButton_tooltip: "좌클릭하여 해당 이익 집단이 엘리트주의 이념을 채택하게 하고, 우클릭하여 제거하십시오." # 2963546476531727832
+  Interest_Group_ideology_scholar_paternalisticButton_text: "향신계층" # 4631178594413004864
+  Interest_Group_ideology_scholar_paternalisticButton_tooltip: "좌클릭하여 해당 이익 집단이 학자-신사 이념을 채택하게 하고, 우클릭하여 이념을 제거하십시오." # 549907053554020091
+  Interest_Group_ideology_junker_paternalisticButton_text: "융커" # 5786721365141245582
+  Interest_Group_ideology_junker_paternalisticButton_tooltip: "좌클릭하여 해당 이익집단이 융커 이념을 채택하게 하거나, 우클릭하여 이를 제거하십시오." # 9006572414213583569
+  Interest_Group_ideology_papal_paternalisticButton_text: "남작령의" # 12046433964600721411
+  Interest_Group_ideology_papal_paternalisticButton_tooltip: "좌측 클릭으로 해당 이익집단에 남작주의 이념을 채택시키고, 우측 클릭으로 이를 제거하십시오." # 5511817806522849496
+  Interest_Group_ideology_papal_moralistButton_text: "교황청의" # 1293015769023822844
+  Interest_Group_ideology_papal_moralistButton_tooltip: "좌클릭하여 해당 이익 단체가 교황주의 이념을 채택하게 하십시오. 우클릭하여 이념을 제거하십시오." # 14848280024414972512
+  Interest_Group_ideology_confucianButton_text: "유교" # 4764736317841895784
+  Interest_Group_ideology_confucianButton_tooltip: "좌클릭하여 해당 이익 집단이 유교 이념을 채택하게 하십시오. 우클릭하여 이념을 제거하십시오." # 10860253620051011089
+  Interest_Group_ideology_bakufuButton_text: "막부" # 2086838587593809169
+  Interest_Group_ideology_bakufuButton_tooltip: "좌클릭하여 해당 이익 단체가 막부 이념을 채택하게 하십시오. 우클릭하여 막부 이념을 제거하십시오." # 10432145963104078715
+  Interest_Group_ideology_shinto_moralistButton_text: "신토 신앙심" # 5896517994073632651
+  Interest_Group_ideology_shinto_moralistButton_tooltip: "좌클릭하여 해당 이익 단체가 신토 신앙심 이념을 채택하게 하고, 우클릭하여 제거하십시오." # 5311932909129919498
+  Interest_Group_ideology_caudillismoButton_text: "카우디요주의" # 7184762483181679655
+  Interest_Group_ideology_caudillismoButton_tooltip: "좌클릭하여 해당 이익집단이 카우디요주의 이념을 채택하게 하거나, 우클릭하여 제거하십시오." # 18338004864832225705
+  Interest_Group_ideology_austrian_hegemonyButton_text: "오스트리아의 패권주의자들" # 723658783087077638
+  Interest_Group_ideology_austrian_hegemonyButton_tooltip: "좌클릭하여 해당 이익 집단에 오스트리아 헤게모니스트 이념을 채택시키고, 우클릭하여 제거하십시오." # 4531881520865054147
+  Interest_Group_ideology_russian_patriarchButton_text: "러시아 정교회 총대주교좌" # 9206729569081411795
+  Interest_Group_ideology_russian_patriarchButton_tooltip: "좌클릭하여 해당 이념 단체를 러시아 정교회 총대주교 이념으로 채택시키고, 우클릭하여 제거하십시오." # 10716187443984579663
+  Interest_Group_ideology_orthodox_patriarchButton_text: "정교회 총대주교 제도" # 15686227632535501815
+  Interest_Group_ideology_orthodox_patriarchButton_tooltip: "좌클릭하여 해당 이익 집단이 정교회 가부장제 이념을 채택하게 하거나, 우클릭하여 제거하십시오." # 6591927189595550234
+  Interest_Group_ideology_buddhist_moralistButton_text: "불교 도덕주의자" # 3343566152478965026
+  Interest_Group_ideology_buddhist_moralistButton_tooltip: "불교 도덕주의 이념을 채택하려면 왼쪽 클릭을, 이를 제거하려면 오른쪽 클릭을 하십시오." # 17296261149416064655
+  Interest_Group_ideology_hindu_moralistButton_text: "힌두교 도덕주의자" # 2634312747054191424
+  Interest_Group_ideology_hindu_moralistButton_tooltip: "왼쪽 클릭으로 해당 이익집단에 힌두교 도덕주의 이념을 채택시키고, 오른쪽 클릭으로 이를 제거하십시오." # 4499218635818861131
+  Interest_Group_ideology_hindu_moralist_british_indiaButton_text: "힌두교 도덕주의자 (식민지)" # 2627167962805892825
+  Interest_Group_ideology_hindu_moralist_british_indiaButton_tooltip: "힌두 도덕주의자(식민지) 이념을 채택하려면 왼쪽 클릭하고, 제거하려면 오른쪽 클릭하십시오." # 3714861827406983148
+  Interest_Group_ideology_sikh_moralistButton_text: "시크교 도덕주의자" # 3595769008976226075
+  Interest_Group_ideology_sikh_moralistButton_tooltip: "관심 단체가 시크교 도덕주의 이념을 채택하도록 하려면 왼쪽 클릭하십시오. 해당 이념을 제거하려면 오른쪽 클릭하십시오." # 6384563557016028510
+  Interest_Group_ideology_sikh_militancyButton_text: "시크교도들의 무장 투쟁" # 9281067632714584058
+  Interest_Group_ideology_sikh_militancyButton_tooltip: "좌클릭하여 이 관심 단체가 시크교도 무장주의 이념을 채택하도록 하십시오. 우클릭하여 이를 제거하십시오." # 16613055053685219570
+  Interest_Group_ideology_oriental_orthodox_patriarchButton_text: "동방 정교회 총대주교 관구" # 5297658620734808550
+  Interest_Group_ideology_oriental_orthodox_patriarchButton_tooltip: "관심 단체가 동방 정교회 총대주교 이념을 채택하게 하려면 왼쪽 클릭을, 이념을 제거하려면 오른쪽 클릭을 하십시오." # 18081273738791099525
+  Interest_Group_ideology_heavenly_kingdom_theocraticButton_text: "신앙인" # 2410896059751402661
+  Interest_Group_ideology_heavenly_kingdom_theocraticButton_tooltip: "좌클릭하여 해당 이익 집단이 #bold 신앙가# 이념을 채택하게 하고, 우클릭하여 이를 제거하십시오." # 8258483602537753011
+  Interest_Group_ideology_agrarian_jeffersonianButton_text: "제퍼소니언" # 1629427068240400143
+  Interest_Group_ideology_agrarian_jeffersonianButton_tooltip: "좌클릭하여 해당 이익 집단이 제퍼슨주의를 채택하게 하거나, 우클릭하여 이를 제거하십시오." # 8071453258817338495
+  Interest_Group_ideology_constitutionalistButton_text: "입헌주의자" # 16352558765574778298
+  Interest_Group_ideology_constitutionalistButton_tooltip: "좌클릭하여 해당 이익 집단이 입헌주의 이념을 채택하도록 하거나, 우클릭하여 제거하십시오." # 555950459334883794
+  Interest_Group_ideology_colonialistButton_text: "식민주의자" # 16356469342341062363
+  Interest_Group_ideology_colonialistButton_tooltip: "좌클릭하여 해당 이익 단체가 식민주의 이념을 채택하게 하십시오. 우클릭하여 이념을 제거하십시오." # 12528596647849889695
+  Interest_Group_ideology_utilitarian_millianButton_text: "공리주의" # 16569021181428715149
+  Interest_Group_ideology_utilitarian_millianButton_tooltip: "좌클릭하여 해당 이익집단이 공리주의 이념을 채택하게 하거나, 우클릭하여 이를 제거하십시오." # 9658882553050054212
+  Interest_Group_ideology_sovereignistButton_text: "주권주의자" # 6920219929993598019
+  Interest_Group_ideology_sovereignistButton_tooltip: "좌클릭하여 해당 이익 집단이 주권주의 이념을 채택하게 하거나, 우클릭하여 이념을 제거하십시오." # 7215312128876764202
+  Interest_Group_ideology_enclavistButton_text: "고립주의자" # 12527131051239507599
+  Interest_Group_ideology_enclavistButton_tooltip: "관심 단체가 고립주의 사상을 채택하도록 하려면 왼쪽 클릭하십시오. 고립주의 사상을 제거하려면 오른쪽 클릭하십시오." # 15958714089619337569
+  Interest_Group_ideology_malthusianButton_text: "맬서스주의" # 4199515002707785068
+  Interest_Group_ideology_malthusianButton_tooltip: "좌클릭하여 해당 이익 단체가 맬서스주의 이념을 채택하게 하고, 우클릭하여 제거하십시오." # 14097820334047366456
+  Interest_Group_ideology_magnatialButton_text: "대지주의" # 10828543460087874282
+  Interest_Group_ideology_magnatialButton_tooltip: "좌클릭하여 해당 이익 집단이 대지주 이념을 채택하게 하거나, 우클릭하여 이념을 제거하십시오." # 331509943964602325
+  TITULO_ABA_LISTA_PERSONAGENS_HISTORICOS: "역사적 인물들" # 16173542266722438249
+  TITULO_ABA_CRIADOR_PERSONAGEM: "고급 인물 생성기" # 9231822547211690529
+  female_variable_text: "여성:" # 14635065883078249602
+  ruler_variable_text: "통치자:" # 5065068696988336643
+  heir_variable_text: "상속자:" # 1137097842163164064
+  ig_leader_variable_text: "IG 지도자:" # 13885914894248433998
+  general_variable_text: "장군:" # 8002511540529891878
+  admiral_variable_text: "제독:" # 4384309282881292276
+  agitator_variable_text: "선동가" # 8778272664244598906
+  force_culture_variable_text: "강제 문화:" # 15129825942435835556
+  custom_age_variable_text: "맞춤 시대:" # 6742928028498888972
+  age_variable_text: "선택된 시대:" # 10198936441392578455
+  interest_group_display_text: "이해집단" # 13752806617538655329
+  historical_characters_button_text: "역사적 인물들" # 13339637643940288428
+  gerar_personagem_aleatorio_text: "무작위 인물" # 13354390175692183616
+  SIM_button_text: "심" # 6372030878777702721
+  NAO_button_text: "아니요" # 3846534607940335394
+  PAIS_AFEGANISTAO: "아프가니스탄" # 11558557600514852429
+  PAIS_ALGERIA: "알제리" # 17616484437540725194
+  PAIS_ARGENTINA: "아르헨티나" # 2641584483717183537
+  PAIS_AUSTRALIA: "오스트레일리아" # 5582616722382949531
+  PAIS_AUSTRIA: "오스트리아" # 15918700757378880515
+  PAIS_BAVARIA: "바이에른" # 13975629432963486257
+  PAIS_CEYLON_BRITANICO: "영국령 실론" # 12673129731136707557
+  PAIS_BELGICA: "벨기에" # 7964810548219636021
+  PAIS_INDIAS_ORIENTAIS: "동인도" # 17234657429067809184
+  PAIS_BOLIVIA: "볼리비아" # 18249099529686446586
+  PAIS_BRASIL: "브라질" # 3088188066034690191
+  PAIS_BULGARIA: "불가리아" # 17897698333082636313
+  PAIS_BURMA: "버마" # 9314925031121438693
+  PAIS_CANADA: "캐나다" # 5089371483281433904
+  PAIS_CIRCASSIA: "체르케스" # 3508877140222499140
+  PAIS_CHINA: "중국" # 8179003118226865418
+  PAIS_CHILE: "칠레" # 11794327614960996202
+  PAIS_COLOMBIA: "콜롬비아" # 12939939322758960435
+  PAIS_DAI_NAM: "다이남" # 2935085615470641093
+  PAIS_KRAKOW: "크라쿠프" # 15167023224969073709
+  PAIS_DINAMARCA: "덴마크" # 8789891637499125133
+  PAIS_EQUADOR: "에콰도르" # 12127975947849309084
+  PAIS_EGITO: "이집트" # 11031902146291920265
+  PAIS_ETIOPIA: "에티오피아" # 1019522971165084192
+  PAIS_FINLANDIA: "핀란드" # 7078817927513712671
+  PAIS_FRANCA: "프랑스" # 12567961438181248415
+  PAIS_GRA-BRETANHA: "영국" # 20959191513411627
+  PAIS_GRECIA: "그리스" # 4575239149457283832
+  PAIS_GWALIOR: "괄리오르" # 9535991679797321246
+  PAIS_HAITI: "아이티" # 2856506872924080126
+  PAIS_HANNOVER: "하노버" # 1543302565718209946
+  PAIS_HINDUSTAN: "힌두스탄" # 14481007186977712234
+  PAIS_HUNGRIA: "헝가리" # 4868995994851276825
+  PAIS_ESTADOS_PRINCIPES_DA_INDIA: "인도 번왕국들" # 16195110269742886290
+  PAIS_ITALIA: "이탈리아" # 9907955680882886529
+  PAIS_JAPAO: "일본" # 14869080358121592291
+  PAIS_JHANSI: "잔시" # 653689869207762559
+  PAIS_KOREIA: "조선" # 16127042930838450541
+  PAIS_KRACOVIA: "크라쿠프" # 15167023224969073709
+  PAIS_LADAKH: "라다크" # 6954699252157191874
+  PAIS_MADAGASCAR: "마다가스카르" # 13522422853873011669
+  PAIS_MEXICO: "멕시코" # 9955785546537859335
+  PAIS_MONTENEGRO: "몬테네그로" # 11718425809042872895
+  PAIS_MARROCOS: "모로코" # 2340123536191334405
+  PAIS_NATIVO_AMERICANO: "북미 원주민" # 6640038397433451624
+  PAIS_PAISES_BAIXOS: "네덜란드" # 7814692178470027236
+  PAIS_NORUEGA: "노르웨이" # 8074791172176479739
+  PAIS_PERSIA: "페르시아" # 16750602246730616709
+  PAIS_PERU: "페루" # 16412880108856764493
+  PAIS_PORTUGAL: "포르투갈" # 11561859582305568797
+  PAIS_PARAGUAI: "파라과이" # 10103747498777964990
+  PAIS_PRUSSIA: "프로이센" # 7873854587915133478
+  PAIS_RUSSIA: "러시아" # 3730495421653901464
+  PAIS_SAXONIA: "작센" # 17482446389350135579
+  PAIS_SOUTH_AFRICA: "남아프리카" # 15588109165220093948
+  PAIS_SIAM: "시암" # 9367508363099403997
+  PAIS_SIKH_EMPIRE: "시크 제국" # 17553892913231967687
+  PAIS_ESPANHA: "스페인" # 4830967897364919086
+  PAIS_SUECIA: "스웨덴" # 12609119773893086503
+  PAIS_TEXAS: "텍사스" # 7574077467830088543
+  PAIS_TUNISIA: "튀니지" # 13895937948613752767
+  PAIS_TURQUIA: "튀르키예" # 2814085671897638730
+  PAIS_UNIAO_DA_AMERICA_CENTRAL: "중앙아메리카 연합" # 1666371912042275351
+  PAIS_URUGUAI: "우루과이" # 2142263871617305932
+  PAIS_ESTADOS_UNIDOS: "미국" # 6720691122576221326
+  PAIS_VENEZUELA: "베네수엘라" # 4891085884942490997
+  PAIS_AGITADORES: "선동가들" # 612595736618396275

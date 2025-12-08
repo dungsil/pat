@@ -1,0 +1,10 @@
+﻿l_korean:
+  demand_artifact_interaction_extra_icon: "$hook_extra_icon$" # 2514920243271261704
+  demand_dynasty_banner_interaction_extra_icon: "$hook_extra_icon$" # 2514920243271261704
+  diarch_swing_scales_currency_interaction_extra_icon: "$hook_extra_icon$" # 2514920243271261704
+  gift_artifact_interaction_extra_icon: "$hook_extra_icon$" # 2514920243271261704
+  ep3_switch_faction_war_sides_interaction_extra_icon: "$hook_extra_icon$" # 2514920243271261704
+  ep3_hof_ask_for_influence_interaction_extra_icon: "$hook_extra_icon$" # 2514920243271261704
+  request_co_emperor_interaction_extra_icon: "$hook_extra_icon$" # 2514920243271261704
+  request_raid_remit_interaction_extra_icon: "$hook_extra_icon$" # 2514920243271261704
+  ask_for_pardon_interaction_extra_icon: "$hook_extra_icon$" # 2514920243271261704

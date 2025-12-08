@@ -1,0 +1,33 @@
+﻿l_korean:
+  DIPLO_ACTION_MERGE_SUBJECT: "$DIPLO_ACTION_RELATIONS$는 $relations_amicable$보다 낮지 않습니다" # 15525448635998391055
+  merge_subject: "종속국 통합" # 1910659224645313969
+  merge_subject_action_name: "통합 영토" # 11207299286426882217
+  merge_subject_desc: "#header $merge_subject$#!\n$TOOLTIP_DELIMITER$\n자신의 종속국과 즉각적이고 무조건적으로 합병할 수 있는 일종의 [concept_instant_diplomatic_action]입니다." # 17368570634564427271
+  merge_subject_proposal_notification_name: "$merge_subject_action_name$를 제안합니다" # 4047024734155712255
+  merge_subject_proposal_notification_desc: "[INITIATOR_COUNTRY.GetName]가 우리의 국토를 통일할 것을 제안합니다" # 16789737746210210340
+  merge_subject_proposal_notification_effects_desc: "$merge_subject_action_name$" # 18202131791886183541
+  merge_subject_proposal_accepted_name: "$merge_subject_action_name$ 수락" # 10735886660843585134
+  merge_subject_proposal_accepted_desc: "[TARGET_COUNTRY.GetName]이 저희의 국가 영토 병합 제안을 수락했습니다." # 16585259392959122957
+  merge_subject_proposal_declined_name: "$merge_subject_action_name$ 거부" # 10083418871332382309
+  merge_subject_proposal_declined_desc: "[TARGET_COUNTRY.GetName]은 그들의 국토를 합병하자는 우리의 제안을 거부했습니다." # 12492091579206595299
+  merge_subject_proposal_third_party_accepted_name: "$merge_subject_action_name$ 수락" # 10735886660843585134
+  merge_subject_proposal_third_party_accepted_desc: "[INITIATOR_COUNTRY.GetName]이(가) [TARGET_COUNTRY.GetName]의 모든 영토를 합병했습니다." # 14738334018811090162
+  merge_subject_proposal_third_party_declined_name: "$merge_subject_action_name$ 거부" # 10083418871332382309
+  merge_subject_proposal_third_party_declined_desc: "[TARGET_COUNTRY.GetName]이(가) [INITIATOR_COUNTRY.GetName]과의 합병을 거부했습니다." # 13650868285155744237
+  rule_ai_merge_subject: "$merge_subject$" # 6027655183955263002
+  setting_ai_can_not_use: "피지배국 통합 금지" # 13258117489709393459
+  setting_ai_can_not_use_desc: "AI가 외교 행동을 금지하도록 설정: [concept_subject]를 [Concept('concept_country', '$concept_countries$')]에 통합" # 15190651232863522845
+  setting_ai_can_use: "피사체 통합 허용" # 4644821217056755865
+  setting_ai_can_use_desc: "외교 행동 허용: [concept_subject]를 [Concept('concept_country', '$concept_countries$')]에 통합합니다.\n참고: AI는 이 외교 행동을 플레이어에게 보내지 않을 것입니다." # 1831775303778175770
+  merge_subject_cheat: "속국 만들기 치트 통합" # 16400640600946755289
+  rule_merge_subject_cheat: "$merge_subject$" # 6027655183955263002
+  setting_balanced_merge: "피정복국이 균형 잡힘" # 14976442750151645680
+  setting_balanced_merge_desc: "외교 행동: [concept_subject] [Concept('concept_country', '$concept_countries$')] 통합은 일반적인 플레이에 균형 잡혀 있습니다." # 17318693421766715770
+  setting_cheat_merge: "피정복국은 치트입니다" # 15047253612644092861
+  setting_cheat_merge_desc: "외교 행동: [concept_subject] [Concept('concept_country', '$concept_countries$')] 통합은 강력한 치트입니다." # 12964673336967425555
+  setting_disabled_merge: "종속국 비활성화" # 11309527947018865488
+  setting_disabled_merge_desc: "외교 행동: [concept_subject] [Concept('concept_country', '$concept_countries$')] 병합은 불가능합니다." # 5911397953898534138
+  DIPLOMATIC_ACCEPTANCE_BREAK_FREE: "그들은 #v $ai_strategy_subject_break_free$#의 [concept_ai_strategy]를 추구하고 있습니다!" # 13540212376082775801
+  DIPLOMATIC_ACCEPTANCE_STRENGTHEN_SELF: "그들은 #v $ai_strategy_subject_strengthen_self$#!의 [concept_ai_strategy]를 추구하고 있습니다." # 15621723044761573795
+  DIPLOMATIC_ACCEPTANCE_MAINTAIN_AUTONOMY: "그들은 #v $ai_strategy_subject_maintain_autonomy$#!의 [concept_ai_strategy]를 추구하고 있습니다." # 15574967109184633023
+  DIPLOMATIC_ACCEPTANCE_OVERLORD_COMPLIANCE: "그들은 #v $ai_strategy_subject_overlord_compliance$#라는 [concept_ai_strategy]를 추구하고 있습니다!" # 2174044683154366388

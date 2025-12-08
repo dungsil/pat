@@ -1,0 +1,156 @@
+﻿l_korean:
+  break_up_with_soulmate_interaction: "소울메이트와 헤어지기" # 2671903223895851414
+  break_up_with_soulmate_interaction_desc: "[recipient.GetShortUINameNoTooltip]와 [soulmate|E] [relation|E]를 종료합니다." # 16529565228478048830
+  break_up_with_soulmate_interaction_notification: "소울메이트와 헤어짐" # 15597608488965129573
+  birth.3012.t: "$birth.3001.t$" # 11775392680023311663
+  tax_avoidance_crime: "세금 납부를 거부했습니다" # 3757781500201259900
+  involved_in_iberian_struggle: "당신은 $iberian_struggle$에 연루되어 있습니다." # 16614644446829878169
+  culture_is_iberian: "당신의 문화는 $heritage_iberian_name$ 유산을 가지고 있습니다." # 7489946978451348033
+  IS_GONE_ADVENTURING: "모험을 떠났습니다" # 4820451541790305562
+  not_serving_diarch: "공식적인 [diarch|E]가 아닙니다." # 16760139903943797917
+  gruesome_festival_faithful_political_neutral_option_log_title: "$gruesome_festival_immediate_log_title$" # 16912560354630178276
+  gruesome_festival_faithful_political_friendly_option_log_title: "$gruesome_festival_immediate_log_title$" # 16912560354630178276
+  gruesome_festival_faithful_political_converted_option_log_title: "$gruesome_festival_immediate_log_title$" # 16912560354630178276
+  hunt_can_hunt_parameter_tt: "[culture|E]는 사냥을 할 수 있습니다" # 18292736319512235080
+  IS_NOT_AI_TRIGGER: "AI가 아닙니다" # 1484074921452978430
+  I_AM_AI_TRIGGER: "당신은 AI입니다." # 10363356557568019049
+  I_AM_NOT_AI_TRIGGER: "당신은 AI가 아닙니다." # 15203790973286245788
+  THEY_ARE_AI_TRIGGER: "그들은 인공지능입니다" # 1251094757613632813
+  THEY_ARE_NOT_AI_TRIGGER: "그들은 AI가 아닙니다." # 5326906568144264049
+  MOD_ATTRITION_PREFIX: "@attrition_icon!" # 11499312372748792083
+  MOD_ATTRITION_RAID_PREFIX: "@attrition_icon_raid!" # 5062724284681287864
+  LIST_GAINS_POTENTIAL_RIVAL: "당신과 적대 관계를 형성하는 데 가까워지고 있습니다." # 11222917191065784050
+  feature_animal_skull_type_fox: "$feature_animal_hide_type_fox$" # 17145842438746746520
+  feature_animal_skull_type_hare: "$feature_animal_hide_type_hare$" # 3215709882328612133
+  death_trampled_by_horse: "말에 짓밟혀 사망했습니다." # 10276664154463560127
+  LACKS_OVERLAPPING_CULTRAD_TRADITION_CITY_KEEPERS_NOT: "$tradition_city_keepers_name$ [tradition|E]와 호환되지 않습니다." # 1683129306713043776
+  WOMENMEN_ARE_ALLOWED_TO_BE_WARRIORS_IN_MARTIAL_CUSTOM: "[TARGET_CHARACTER.GetCulture.GetName] [culture|E]의 [martial_custom|E]는 [TARGET_CHARACTER.GetWomenMen]이 전투원이 되는 것을 허용합니다." # 912213362857532527
+  WOMENMEN_ARE_NOT_ALLOWED_TO_BE_WARRIORS_IN_MARTIAL_CUSTOM: "[TARGET_CHARACTER.GetCulture.GetName] [culture|E]의 [martial_custom|E]는 #bold 허용하지 않음#! [TARGET_CHARACTER.GetWomenMen]이 전투원이 되는 것을" # 14598193526838890410
+  holy_order_candidate_departs_title: "후보자 명단 공개" # 12978493320545479438
+  holy_order_candidate_departs_tt: "[unop_char_sent_to_holy_order.GetFirstNameNoTooltip]가 [unop_grandmaster_of_holy_order.GetCapitalLocation.GetNameNoTooltip]로 떠납니다." # 7378857540323234613
+  holy_order_candidate_leaves_for_holy_order_tt: "@alert_icon! #alert_trial [unop_char_sent_to_holy_order.GetFirstName] 께서는 먼저 [unop_grandmaster_of_holy_order.GetFirstNamePossessive] 궁정으로 [travel|E] 가셔야 합니다#!" # 5058355024244411604
+  holy_order_candidate_arrived_title: "후보자가 도착했습니다" # 3963562436558464765
+  holy_order_candidate_arrived_desc: "[unop_char_sent_to_holy_order.GetTitledFirstName] 님께서 [unop_char_sent_to_holy_order.GetHerHis]의 새 보금자리에 도착하셨습니다." # 9016025441424296034
+  char_interaction.0080.desc_ward_self: "귀공자다운 정신을 위한 귀족적인 양육이라니, 기꺼이 가르쳐 드리겠습니다!" # 8012654598217530520
+  TBC_OPINION_HUMILIATION_TRAIT_FICKLE: "[GetTrait('fickle').GetName(recipient.Self)]는 $TBC_OPINION_HUMILIATION$: $VALUE|=+0$에 대해 긍정적으로 생각합니다." # 10530953233337907238
+  activity_hunt_province_desc_legendary_sighting: "#P +++ 전설적인 [ROOT.Province.GetTitle.GetDeJureLiege.Custom('GetLegendaryColor')|UV] [ROOT.Province.GetTitle.GetDeJureLiege.Custom('GetAnimalType')|UV] 목격담#!\n" # 4711858413232254265
+  UNOP_IS_NOT_THE_SPOUSE_OF_CHARACTER_COURT_POSITION: "#bold 아니#! [hiring_liege.GetShortUINamePossessive] [spouse|E]" # 16124121832177949094
+  every_participant_that_can_eat_the_beast: "짐승을 먹을 수 있는 모든 참가자" # 9745312427510699424
+  every_participant_that_cannot_eat_the_beast: "짐승을 먹을 수 없는 모든 참가자" # 16815726577205607853
+  ACTIVITY_GUEST_OPTIONS_TOURNAMENT_PRIZES_VERY_GOOD: "$tournament_prizes_very_good$: $VALUE|=+0$" # 1565335690465556912
+  ACTIVITY_GUEST_OPTIONS_TOURNAMENT_PRIZES_SPLENDID: "$tournament_prizes_splendid$: $VALUE|=+0$" # 10962669027756657592
+  unop_playdate_invalid_independent_count: "[independent|E]일 경우, 당신은 반드시 [duke|E]이거나 그 이상의 작위를 가져야 합니다." # 1943371580901680900
+  learn_commander_trait.14.t: "$trait_open_terrain_expert$" # 438960277377340007
+  learn_commander_trait.15.t: "$trait_rough_terrain_expert$" # 17714848997652023738
+  learn_commander_trait.16.t: "$trait_forest_fighter$" # 12382150447239134627
+  learn_commander_trait.17.t: "$trait_cautious_leader$" # 6500837632060824918
+  learn_commander_trait.18.t: "$trait_organizer$" # 2877434369131906384
+  parent_managing_county_modifier: "군주령 관리자 지정" # 15327676844283520925
+  parent_managing_county_modifier_desc: "이 인물의 부모 중 한 명이 이 백작령을 면밀히 주시하고 있습니다." # 17448059366766954278
+  hunt.4900.a.befriend: "#EMP 바로 이것이 [ROOT.Char.Custom('GetAnimalType')]을 길들이는 방법이지#!." # 17870628269417285252
+  maximum_legend_quality_discount_reach_tt: "당신의 [legend|E] 업그레이드에 대한 할인율이 #difficulty_easy 증가하여 최대치에 도달했습니다!" # 14263044538718298892
+  minimum_legend_quality_discount_reach_tt: "당신의 [legend|E] 업그레이드에 대한 할인율이 #difficulty_hard 하락하여 최저치에 도달했습니다!" # 794375449130048693
+  secrets.0124.b.tt.conditional_refused: "[secret_owner.GetTitledFirstName]이 반란을 일으킬 수 있습니다." # 6569109495026076281
+  ep2_tournament_events.3504.wound_tt: "$playdate.3001.a_injured$" # 2681775274278788821
+  ep2_tournament_events.3504.incapable_tt: "그대는 [GetTrait('incapable').GetName( GetPlayer )]이 되었습니다." # 14520707211150632233
+  ep2_tournament_events.3504.death_tt: "$harm.0000.tt.death.failure$" # 12359058622625101194
+  can_hunt_unicorn_or_dragon: "유니콘 혹은 용 (광인)" # 14886071797175135289
+  can_hunt_big_dog: "큰 개(늑대, 하이에나, 스라소니)를 사냥할 수 있습니다." # 10193662886433385134
+  can_hunt_big_cat: "사자, 호랑이, 표범 같은 대형 고양잇과 동물을 사냥할 수 있습니까?" # 5938840622535153849
+  can_hunt_bear: "곰을 사냥할 수 있습니다" # 1572028809905395054
+  can_hunt_boar: "멧돼지를 사냥할 수 있습니다" # 5496133028219576441
+  can_hunt_hare: "산토끼를 사냥할 수 있습니다" # 16216343118171642279
+  can_hunt_deer_antelope: "사슴이나 영양을 사냥할 수 있습니다." # 7803994103672827632
+  can_hunt_bison: "들소를 사냥할 수 있습니다" # 14883739020428508073
+  can_hunt_aurochs: "들소 사냥을 할 수 있습니다" # 1519756581050286097
+  court.3031.c.tt: "모든 [reference_county.GetCountyData.GetCulture.GetName] [realm|E] [counties|E] ([THIS.ScriptValue('unop_court3031_number_of_counties_of_culture')|V0])" # 5098340430099385882
+  raid_insight_courtyard: "궁정 통찰" # 14601044406719624729
+  raid_insight_courtyard_desc: "$raid_insight_shared$\n안뜰 [estate_building|E] 비용: #P -25%#!" # 16815300014228285267
+  raid_insight_market: "시장 동향" # 10355092349042187145
+  raid_insight_market_desc: "$raid_insight_shared$\n시장 [estate_building|E] 비용: #P -25%#!" # 17186450636595508437
+  court_position_unyielding_defender_trait: "[GetTrait('unyielding_defender').GetName( ROOT.Char )]" # 2998480714768995401
+  court_position_disloyal_trait: "[GetTrait('disloyal').GetName( ROOT.Char )]" # 7991500557136989847
+  FACTION_REASON_ADMIN_BORN_IN_PURPLE: "[claimant|E]는 [GetTrait('born_in_the_purple').GetName( GetNullCharacter )]였습니다: $VALUE|+0=$" # 15262432681684081986
+  leg_demand_fealty_cb: "$DEMAND_FEALTY_CB_NAME$" # 7857265213410545015
+  scheme_agent_aptitude.trait.lifestyle_hunter: "[GetTrait('lifestyle_hunter').GetName( GetNullCharacter )]" # 2850587252427360446
+  scheme_agent_aptitude.trait.lifestyle_traveler: "[GetTrait('lifestyle_traveler').GetName( GetNullCharacter )]" # 734825295085317902
+  scheme_agent_aptitude.trait.lifestyle_mystic: "[GetTrait('lifestyle_mystic').GetName( GetNullCharacter )]" # 10731058737810887161
+  scheme_agent_aptitude.trait.lifestyle_herbalist: "[GetTrait('lifestyle_herbalist').GetName( GetNullCharacter )]" # 13219366931331904720
+  scheme_agent_aptitude.trait.lifestyle_physician: "[GetTrait('lifestyle_physician').GetName( GetNullCharacter )]" # 14185273761885448796
+  EVENT_WINDOW_OPTION_AVAILABLE_SKILLED_AGENT: "이 선택지는 당신의 [agent|E]가 특정 [skills|E]를 가지고 있을 때 이용 가능합니다." # 6762624015641990702
+  EVENT_WINDOW_OPTION_AVAILABLE_HAVE_JESTER: "이 선택지는 귀하가 [court_position|E]인 [GetCourtPositionType('court_jester_court_position').GetName()]를 보유하고 있기 때문에 이용 가능합니다." # 18410842563636917309
+  EVENT_WINDOW_OPTION_AVAILABLE_HAVE_SENESCHAL: "이 선택지는 귀하가 [GetCourtPositionType('seneschal_court_position').GetName()] [court_position|E]를 보유하고 있기 때문에 이용 가능합니다." # 10522769228568020065
+  EVENT_WINDOW_OPTION_AVAILABLE_HAVE_TUTOR: "이 선택지는 귀하가 [court_position|E]인 [GetCourtPositionType('court_tutor_court_position').GetName()]를 보유하고 있기 때문에 이용 가능합니다." # 7831916430501176130
+  EVENT_WINDOW_OPTION_AVAILABLE_HAVE_EXECUTIONER: "이 선택지는 당신이 [GetCourtPositionType('executioner_court_position').GetName()] [court_position|E]를 보유하고 있기 때문에 이용 가능합니다." # 11508103009478400595
+  TARGET_FAMILY_IS_DOMINANT: "대상 [house|E]는 [dominant_family|E]입니다: $VALUE|=+0$" # 10483925350285644276
+  unop.7004: "이름이 $c_new_england$로 변경되었습니다." # 15012381049604323713
+  court_brewmaster_aptitude_tooltip: "[candidate.GetHerHisMy|U] [aptitude|E]는 [candidate.GetCourtPositionAptitude( GetCourtPositionType( 'court_brewmaster_court_position' ) )]입니다" # 404380608579656242
+  court_brewmaster_old_holder_aptitude_tooltip: "[candidate.GetHerHisMy|U] [aptitude|E]는 [candidate.GetCourtPositionAptitude( GetCourtPositionType( 'court_brewmaster_court_position' ) )] #weak ([old_holder.GetFirstName] [old_holder.GetCourtPositionAptitude( GetCourtPositionType( 'court_brewmaster_court_position' ) )])#!" # 7469996215159884385
+  court_brewmaster_salary_tooltip: "[GetCourtPositionType( 'court_brewmaster_court_position' ).GetName()]의 월급은 [gold_i][SCOPE.ScriptValue('minor_court_position_salary')|2]입니다." # 13433499157519774979
+  charioteer_aptitude_tooltip: "[candidate.GetHerHisMy|U] [aptitude|E]는 [candidate.GetCourtPositionAptitude( GetCourtPositionType( 'charioteer_court_position' ) )]입니다" # 12381517921097589876
+  charioteer_old_holder_aptitude_tooltip: "[candidate.GetHerHisMy|U] [aptitude|E]는 [candidate.GetCourtPositionAptitude( GetCourtPositionType( 'charioteer_court_position' ) )] #weak ([old_holder.GetFirstName] [old_holder.GetCourtPositionAptitude( GetCourtPositionType( 'charioteer_court_position' ) )])#!" # 5557105909107494394
+  charioteer_salary_tooltip: "[GetCourtPositionType( 'charioteer_court_position' ).GetName()]의 월급은 [gold_i][SCOPE.ScriptValue('minor_court_position_salary')|2]입니다." # 14859588227449422321
+  unop_unlock_charioteer_training_task: "당신의 [estate|E]에 [GetDomicileBuilding('stable_chariot_04').GetName]이 필요합니다." # 1823449972754730520
+  TOP_LIEGE_EQUAL_THIRD: "[CHARACTER.GetShortUIName|U]님은 [TARGET_CHARACTER.GetShortUINamePossessive] [top_liege|E]이십니다." # 13850046613279778406
+  TOP_LIEGE_EQUAL_THIRD_NOT: "[CHARACTER.GetShortUIName|U]는 #bold 가 아닙니다#! [TARGET_CHARACTER.GetShortUINamePossessive]의 [top_liege|E]" # 14696963168472278160
+  scheme_agent_aptitude.trait.giant: "[GetTrait('giant').GetName( GetNullCharacter )]" # 9794284657307152380
+  scheme_agent_aptitude.trait.vengeful: "[GetTrait('vengeful').GetName( GetNullCharacter )]" # 10679400093797194118
+  scheme_agent_aptitude.trait.journaller: "[GetTrait('journaller').GetName( GetNullCharacter )]" # 17969042430588677345
+  scheme_agent_aptitude.trait.profligate: "[GetTrait('profligate').GetName( GetNullCharacter )]" # 11043983263584746236
+  unop_mass_evict_guests: "$stress_threshold.2341.a.reclusive.list_guest$" # 13035347805419237519
+  unop_mass_evict_guests_and_courtiers: "$custom.every_guest_and_unimportant_courtier$가 떠납니다." # 12710051894676797129
+  north_african_religion_adherent_plural: "아마지그인" # 8135561478529703552
+  great_hall: "대연회장" # 11212194794723867843
+  watermills_windmills_cities_name: "[GetCultureTradition('tradition_city_keepers').GetName]" # 17614667872163785263
+  not_available_because_intent_tt: "이 선택지는 현재 [THIS.Char.GetInvolvedActivityIntent.GetName] [intent|e]에 관여하고 있어 사용할 수 없습니다." # 13370104002902741245
+  locale_window_status_resign: "에서 사임했다" # 12114382000557802149
+  locale_window_status_discalified: "에서 실격 처리되었다" # 7291165258449500078
+  SCHEME_TRAIT_BRAVE: "[GetTrait('brave').GetName( owner.Self )]: $VALUE|+0=$" # 828954692753807815
+  HAS_CALLOUS_TRAIT: "[GetTrait('callous').GetName( GetNullCharacter )] [trait|E]: $VALUE|=+0=$" # 7183638887155334627
+  contact_list_request_interaction.request_feast_cooldown: "#color_white [GetActivityType( 'activity_feast' ).GetName]#을(를) 다시 요청하려면 [GetCurrentDateWithDiff( GetVarTimeRemaining( actor.MakeScope, 'laamp_recently_requested_feast') )|V]까지 기다려야 합니다!" # 9549326077276938479
+  TOP_LIEGE_EQUAL_FIRST_NOT: "그대는 [TARGET_CHARACTER.GetShortUIName]의 [top_liege|E]가 아닙니다." # 17902024267317525664
+  camp_party_honorary_guest: "$honorary_guest_desc$" # 8846529048204537506
+  camp_party_honorary_guest_desc: "$honorary_guest_desc$" # 8846529048204537506
+  court_position_subject_brewing: "양조" # 3693653633782019525
+  local_holding_type_concept_nomadic_holding: "[nomadic_holding|E]" # 17841005039259373490
+  local_holding_type_nomadic_holding: "$game_concept_nomadic_holding$" # 1469790828159892373
+  local_holding_type_herder_holding: "$game_concept_herder_holding$" # 10961393522217902344
+  local_holding_type_capitalized_nomadic_holding: "$game_concept_nomadic_holding$" # 1469790828159892373
+  local_holding_type_capitalized_herder_holding: "$game_concept_herder_holding$" # 10961393522217902344
+  ATTACKING_TRIBUTARY: "\n#S [tributary|E]를 공격하면 [tributary_contract|E]가 파기됩니다#!" # 10820709588943241015
+  unop_offer_concubine_opinion: "후궁을 받았습니다" # 8855672700615985290
+  unop_offer_courtier_opinion: "궁신을 받았습니다" # 18238821688161379292
+  ALREADY_OFFERED_CONCUBINE_WARNING: "@warning_icon! #X 당신은 이미 [recipient.GetShortUIName]에게 [concubine|E]를 바쳤습니다. 다른 이를 보내면 기존의 [opinion|E] 수정치가 #underline 덮어씌워집니다#!#이!" # 9540711568789316478
+  ALREADY_OFFERED_COURTIER_WARNING: "@warning_icon! #X 이미 [recipient.GetShortUIName]에게 [courtier|E]를 제안한 상태이므로, 다른 인물을 보내면 기존의 [opinion|E] 수정치가 #underline 덮어씌워집니다#!#이!" # 16871557270316271526
+  yeke_jarquchi_improve_court_task_tt: "@aptitude:4:color_green![aptitude|E]의 다른 [court_positions|E]: #p +[SCOPE.ScriptValue('yeke_jarquchi_improve_court_value')|0]#!" # 9259384047716287413
+  unop_zealous_nomad_cannot_convert: "당신은 #bold 둘 다#! [GetTrait('zealous').GetName( actor )]와 [GetTrait('nomadic_philosophy').GetName( actor )] 특성을 가지고 있습니다." # 5674889823418379615
+  court_position_engineered_for_destruction_modifier: "[GetPerk('engineered_for_destruction_perk').GetName( GetNullCharacter )]" # 7885552331617936543
+  ll_cs_s1p1_rational: "당신의 지성은" # 14373219185067998080
+  ll_cs_s2p2_rational: "당신이 말하는 모든 단어를 빛나게 다듬겠습니다." # 8327751397593152654
+  unop_already_two_caravanserai_in_county: "해당 백작령에는 이미 $building_type_caravanserai_01$ 건축물이 2개 있습니다." # 10146426331799249415
+  unop_no_second_caravanserai: "[GetCultureTradition('tradition_caravaneers').GetName] [culture_tradition|E]이 있어야 해당 군에 $building_type_caravanserai_01$을 추가로 건설할 수 있습니다." # 10470650020133354599
+  VASSAL_CONTRIBUTION_AT_WAR_WITH_LIEGE: "$IS_AT_WAR_WITH_LIEGE$" # 42047485819933252
+  action_join_tributary_war_combined_label: "$action_join_tributary_warcombined_label$" # 4781362314624266239
+  agent_dread_yurt_01_domicile_building_with_value: "$agent_dread_yurt_01_domicile_building$ : $VALUE|+0$" # 11933580115742103978
+  unop_msg_offer_courtier_accepted_tt: "[secondary_actor.GetTitledFirstName]가 이제 [recipient.GetTitledFirstNamePossessive]의 궁신이 되었습니다." # 3896875184583428828
+  unop_msg_demand_courtier_accepted_tt: "[secondary_actor.GetTitledFirstName]가 이제 당신의 궁신이 되었습니다." # 7012360187406325206
+  has_court_tutor_domicile_building: "[GetDomicileBuilding('family_yurt_03').GetName]를 소유하고 있습니까" # 15038544269161214555
+  rites_of_passage_trigger_astrologer: "귀하의 [GetCourtPositionType('court_astrologer_court_position').GetName()] 직책이 비었습니다." # 14988882968787842198
+  unite_the_western_slavs_decision_titles_empire_tt_2: "모든 서슬라브 [kingdom|E] [title|E]의 영토는 [unop_west_slavia.GetName]의 [de_jure|E]가 될 것입니다." # 10213295034490183316
+  unop_invite_to_activity_flavor_funeral: "저는 곧 [GetActivityType('activity_funeral').GetName]을 거행할 예정이니, 귀하를 초대합니다." # 17099434328155946642
+  unop_invite_to_activity_flavor_chariot_race: "저는 곧 [GetActivityType('activity_chariot_race').GetName]를 개최할 예정이며, 귀하를 초대하고자 합니다." # 10734695639433392079
+  obedience_value_loyal_soldiers: "[traditions|E]로부터" # 3891419488054939428
+  unop_special_contract_march_border_trigger: "[unop_vassal.GetName]의 영지가 외국의 [realm|E]와 접경하고 있습니다." # 2320655090929517256
+  unop_join_war_interaction_recipient_suzerain_no_defensive_war: "귀하의 [suzerain|E] [recipient.GetUIName]께서는 방어 전쟁 중이 아닙니다." # 7366892329186613933
+  unop_prepare_travels_character_modifier: "$prepare_travels_modifier$" # 17125844021971962756
+  unop_prepare_travels_character_modifier_desc: "$prepare_travels_modifier_desc$" # 3830108807030378020
+  unop_prepare_travels_character_modifier_scale_desc: "$prepare_travels_modifier_scale_desc$" # 9649855507227813509
+  tributary_modify_vassal_contract_unnecessary_hook_usage_vassal_favor: "현재 [tributary|E]에 유리한 계약에는 [hook|E]를 사용할 수 없으며, [TARGET_CHARACTER.GetShortUIName]에게 유리하게 변경하려면 $VALUE|V0$가 필요합니다." # 13740133493053686541
+  tributary_modify_vassal_contract_unnecessary_hook_usage_equal: "당신은 [tributary|E]에게 공정한 계약에 [hook|E]를 사용할 수 없습니다." # 6569531160839016991
+  has_relation_potential_rival_trigger: "[TARGET_CHARACTER.GetShortUIName]는 [CHARACTER.GetShortUIName]의 잠재적 정적으로 표시되었습니다." # 14894456397308625566
+  activity_coronation_predicted_cost: "[GetActivityType( 'activity_coronation' ).GetNameNoTooltip]의 비용은 주로 선택하는 [activity_options|E]에 의해 영향을 받습니다." # 17489603879815194098
+  activity_local_examination_predicted_cost: "[GetActivityType( 'activity_local_examination' ).GetNameNoTooltip] 활동의 비용은 주로 선택하는 [activity_options|E]에 의해 영향을 받습니다." # 7361544282234818728
+  activity_imperial_examination_predicted_cost: "[activity_imperial_examination]의 [GetActivityType( 'activity_imperial_examination' ).GetNameNoTooltip] 비용은 주로 선택하는 [activity_options|E]에 의해 영향을 받습니다." # 15478451550677580398
+  action_join_tributary_warcombined_group_label: "$action_join_tributary_war_combined_group_label$" # 17179665197196104814
+  strong_test_hook: "강력한 테스트 후크" # 4504319005253556699
+  perpetual_test_hook: "영구 테스트 훅" # 2389756978004895709

@@ -1,0 +1,152 @@
+name: CK3 translate
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 * * * *" # 매시간 정각에 작동
+  push:
+    branches: [ main ]
+    paths:
+      - "ck3/**/upstream/**"
+
+concurrency:
+  group: translation
+  cancel-in-progress: false
+
+jobs:
+  translate:
+    runs-on: self-hosted
+    permissions:
+      contents: write
+      issues: write
+    env:
+      GOOGLE_AI_STUDIO_TOKEN: "${{secrets.GOOGLE_AI_STUDIO_TOKEN}}"
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+      - uses: actions/cache/restore@v4
+        with:
+          key: translate-cache
+          path: "**.db"
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v6
+        with:
+          node-version-file: .node-version
+      - name: Clean workspace
+        run: rm -rf node_modules && pnpm store prune
+      - run: pnpm install --frozen-lockfile
+      - name: Run CK3 translation
+        id: translate
+        run: pnpm ck3
+        continue-on-error: true
+      - name: Save cache
+        if: always()
+        uses: actions/cache/save@v4
+        with:
+          key: translate-cache
+          path: "**.db"
+      - name: Commit translated files
+        if: always()
+        uses: stefanzweifel/git-auto-commit-action@v7
+        with:
+          push: true
+          commit: --signoff
+          default_author: github_actor
+          commit_message: "chore(ck3): 번역 파일 업데이트 [skip ci]"
+          pull_options: '--rebase --autostash'
+      - name: Create issue for untranslated items
+        if: always()
+        uses: actions/github-script@v8
+        with:
+          script: |
+            const fs = require('fs');
+            const path = require('path');
+
+            const filePath = path.join(process.cwd(), 'ck3-untranslated-items.json');
+
+            if (!fs.existsSync(filePath)) {
+              console.log('번역되지 않은 항목이 없습니다.');
+              return;
+            }
+
+            const data = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
+
+            if (!data.items || data.items.length === 0) {
+              console.log('번역되지 않은 항목이 없습니다.');
+              return;
+            }
+
+            // 기존 이슈 검색 (동일한 제목의 열린 이슈가 있는지 확인)
+            const existingIssues = await github.rest.issues.listForRepo({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              state: 'open',
+              labels: 'translation-refused,ck3'
+            });
+
+            // 모드별로 항목 그룹화 (prototype pollution 방지)
+            const itemsByMod = Object.create(null);
+            for (const item of data.items) {
+              if (!itemsByMod[item.mod]) {
+                itemsByMod[item.mod] = [];
+              }
+              itemsByMod[item.mod].push(item);
+            }
+
+            for (const [mod, items] of Object.entries(itemsByMod)) {
+              const title = `[CK3] 번역 거부 항목 발생: ${mod}`;
+
+              // 동일한 제목의 열린 이슈가 있는지 확인
+              const existingIssue = existingIssues.data.find(issue => issue.title === title);
+
+              // 이슈 본문 생성
+              let body = `## 번역 거부 항목\n\n`;
+              body += `**게임**: CK3\n`;
+              body += `**모드**: ${mod}\n`;
+              body += `**발생 시간**: ${data.timestamp}\n\n`;
+              body += `### 항목 목록\n\n`;
+              body += `| 파일 | 키 | 원문 |\n`;
+              body += `|------|-----|------|\n`;
+
+              for (const item of items) {
+                const rawMessage = item.message;
+                const escapedMessage = rawMessage.replace(/\|/g, '\\|').replace(/\n/g, ' ').replace(/`/g, '\\`');
+                let displayMessage = escapedMessage;
+                let detailsSection = '';
+                // 긴 메시지는 잘라서 표시하고, 전체 메시지는 접을 수 있는 섹션으로 표시
+                if (rawMessage.length > 100 || rawMessage.includes('\n')) {
+                  displayMessage = escapedMessage.slice(0, 100) + '...';
+                  const detailsMessage = rawMessage.replace(/\|/g, '\\|').replace(/`/g, '\\`');
+                  detailsSection = `<details><summary>전체 메시지 보기</summary>\n\n\`\`\`\n${detailsMessage}\n\`\`\`\n\n</details>\n`;
+                }
+                body += `| ${item.file} | \`${item.key}\` | ${displayMessage} |\n`;
+                if (detailsSection) {
+                  body += detailsSection;
+                }
+              }
+
+              body += `\n---\n`;
+              body += `이 이슈는 자동으로 생성되었습니다. 수동 번역이 필요한 항목입니다.\n`;
+
+              if (existingIssue) {
+                // 기존 이슈에 코멘트 추가
+                await github.rest.issues.createComment({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  issue_number: existingIssue.number,
+                  body: `## 추가 번역 거부 항목 발견\n\n${body}`
+                });
+                console.log(`기존 이슈 #${existingIssue.number}에 코멘트를 추가했습니다.`);
+              } else {
+                // 새 이슈 생성
+                const newIssue = await github.rest.issues.create({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  title: title,
+                  body: body,
+                  labels: ['translation-refused', 'ck3']
+                });
+                console.log(`새 이슈 #${newIssue.data.number}를 생성했습니다.`);
+              }
+            }

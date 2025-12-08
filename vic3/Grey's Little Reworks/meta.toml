@@ -1,0 +1,11 @@
+[upstream]
+url = "https://github.com/MasterOfGrey/Grey-Victoria3-Reworks.git"
+localization = [
+  "Soft Econ Adjustments/localization/english",
+  "Soft Pop Adjustments/localization/english",
+  "Subject Interaction Suite/localization/english",
+  "Populist Legal Power/localization/english",
+  "Sinosphere Korean/localization/english",
+  "Urban Synergy Unleashed/localization/english"
+]
+language = "english"

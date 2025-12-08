@@ -1,0 +1,77 @@
+﻿l_korean:
+  ask_subject_to_fight: "신민들에게 싸우도록 명령하기" # 13445771198595181769
+  ask_subject_to_fight_action_name: "신민들에게 싸우도록 명령하기" # 13445771198595181769
+  ask_subject_to_fight_desc: "신민들에게 싸우도록 명령하기" # 13445771198595181769
+  subject_fight_for_lord: "신민들에게 싸우도록 명령하기" # 13445771198595181769
+  FX_subject_fight.1.t: "신민들에게 싸우도록 명령하기" # 13445771198595181769
+  FX_subject_fight.1.d: "싸울 대상을 선택하십시오" # 1189252048279158595
+  FX_subject_fight.1.f: "외교전을 선택하십시오" # 13859747271866973106
+  FX_subject_fight.LD.return_state: "[SCOPE.sCountry('subject_initiator').GetName]은(는) [SCOPE.sCountry('FX_subject_fight_target_country').GetName]에 대해 최소 1개의 영유권을 가지고 있습니다." # 12129229838599727874
+  FX_subject_fight.LD.treaty_port: "[SCOPE.sCountry('FX_subject_fight_target_country').GetName]은 최소 1개의 [concept_treaty_port]를 보유하고 있습니다." # 4284113204665719667
+  FX_subject_fight.LD.conquer_state: "[SCOPE.sCountry('FX_subject_fight_target_country').GetName]는 1개 이상의 [concept_state]를 보유하고 있습니다." # 7134473920709794713
+  FX_subject_fight.LD.annex_war: "[SCOPE.sCountry('FX_subject_fight_target_country').GetName]은 3개 이하의 [Concept('concept_state','$concept_states$')]를 보유하고 있습니다." # 9111975328554590013
+  subject_initiator1: "[SCOPE.sCountry('subject_initiator1').GetName]" # 118866811378042111
+  subject_initiator2: "[SCOPE.sCountry('subject_initiator2').GetName]" # 2681254479410666512
+  subject_initiator3: "[SCOPE.sCountry('subject_initiator3').GetName]" # 17913624424233372365
+  subject_initiator4: "[SCOPE.sCountry('subject_initiator4').GetName]" # 18225497306600106799
+  subject_initiator5: "[SCOPE.sCountry('subject_initiator5').GetName]" # 15242540978477926712
+  subject_initiator6: "[SCOPE.sCountry('subject_initiator6').GetName]" # 9373899874624541483
+  subject_initiator7: "[SCOPE.sCountry('subject_initiator7').GetName]" # 17269566670003330734
+  subject_initiator8: "[SCOPE.sCountry('subject_initiator8').GetName]" # 3632874083727059291
+  subject_initiator9: "[SCOPE.sCountry('subject_initiator9').GetName]" # 12988938395321374635
+  subject_initiator10: "[SCOPE.sCountry('subject_initiator10').GetName]" # 5072444189054176353
+  FX_abort: "디버그: 중단 및 초기화" # 9489033780942648241
+  potential_target_state1: "[SCOPE.sState('potential_target_state1').GetName]" # 2176503262153314616
+  potential_target_state2: "[SCOPE.sState('potential_target_state2').GetName]" # 16007056530684128854
+  potential_target_state3: "[SCOPE.sState('potential_target_state3').GetName]" # 14285466050577608
+  potential_target_state4: "[SCOPE.sState('potential_target_state4').GetName]" # 2244834820756719377
+  potential_target_state5: "[SCOPE.sState('potential_target_state5').GetName]" # 48356476031085264
+  potential_target_state6: "[SCOPE.sState('potential_target_state6').GetName]" # 16807717645701453878
+  potential_target_state7: "[SCOPE.sState('potential_target_state7').GetName]" # 1784476506808775321
+  potential_target_state8: "[SCOPE.sState('potential_target_state8').GetName]" # 18131243569579388048
+  potential_target_state9: "[SCOPE.sState('potential_target_state9').GetName]" # 1271790506033836148
+  potential_target_state10: "[SCOPE.sState('potential_target_state10').GetName]" # 2755249822906316194
+  potential_target_state11: "[SCOPE.sState('potential_target_state11').GetName]" # 18265595230586827964
+  potential_target_state12: "[SCOPE.sState('potential_target_state12').GetName]" # 7262997747847090
+  potential_target_state13: "[SCOPE.sState('potential_target_state13').GetName]" # 9934583243350851539
+  potential_target_state14: "[SCOPE.sState('potential_target_state14').GetName]" # 13561711470936278479
+  potential_target_state15: "[SCOPE.sState('potential_target_state15').GetName]" # 18137449930160246900
+  potential_target_state16: "[SCOPE.sState('potential_target_state16').GetName]" # 747226864950577197
+  potential_target_state17: "[SCOPE.sState('potential_target_state17').GetName]" # 7138917091827917255
+  potential_target_state18: "[SCOPE.sState('potential_target_state18').GetName]" # 5814070694346291659
+  potential_target_state19: "[SCOPE.sState('potential_target_state19').GetName]" # 12277849855682411240
+  potential_target_state20: "[SCOPE.sState('potential_target_state20').GetName]" # 8320060911747093079
+  potential_target_state21: "[SCOPE.sState('potential_target_state21').GetName]" # 17512082772371026208
+  potential_target_state22: "[SCOPE.sState('potential_target_state22').GetName]" # 16878939148528852904
+  potential_target_state23: "[SCOPE.sState('potential_target_state23').GetName]" # 10459727218427892233
+  potential_target_state24: "[SCOPE.sState('potential_target_state24').GetName]" # 13726383751463359916
+  potential_target_state25: "[SCOPE.sState('potential_target_state25').GetName]" # 12036234140300633086
+  potential_target_state26: "[SCOPE.sState('potential_target_state26').GetName]" # 14514449246234103420
+  potential_target_state27: "[SCOPE.sState('potential_target_state27').GetName]" # 3469722700855934323
+  potential_target_state28: "[SCOPE.sState('potential_target_state28').GetName]" # 16369540750417984277
+  potential_target_state29: "[SCOPE.sState('potential_target_state29').GetName]" # 6617199978299131384
+  potential_target_state30: "[SCOPE.sState('potential_target_state30').GetName]" # 9906023749754456678
+  potential_target_state31: "[SCOPE.sState('potential_target_state31').GetName]" # 6170973280299137029
+  potential_target_state32: "[SCOPE.sState('potential_target_state32').GetName]" # 12930185178135467158
+  potential_target_state33: "[SCOPE.sState('potential_target_state33').GetName]" # 10324316094945305920
+  potential_target_state34: "[SCOPE.sState('potential_target_state34').GetName]" # 12941690989741878513
+  potential_target_state35: "[SCOPE.sState('potential_target_state35').GetName]" # 3864639361075231524
+  potential_target_state36: "[SCOPE.sState('potential_target_state36').GetName]" # 12733248298400459781
+  potential_target_state37: "[SCOPE.sState('potential_target_state37').GetName]" # 13352868127984730503
+  potential_target_state38: "[SCOPE.sState('potential_target_state38').GetName]" # 4614663245334153686
+  potential_target_state39: "[SCOPE.sState('potential_target_state39').GetName]" # 652446899052498799
+  potential_target_state40: "[SCOPE.sState('potential_target_state40').GetName]" # 14851280817832245954
+  potential_target_state41: "[SCOPE.sState('potential_target_state41').GetName]" # 8703904345007434781
+  potential_target_state42: "[SCOPE.sState('potential_target_state42').GetName]" # 781853093850575189
+  potential_target_state43: "[SCOPE.sState('potential_target_state43').GetName]" # 6906446257739342982
+  potential_target_state44: "[SCOPE.sState('potential_target_state44').GetName]" # 11464921549452692629
+  potential_target_state45: "[SCOPE.sState('potential_target_state45').GetName]" # 16477932497735237055
+  potential_target_state46: "[SCOPE.sState('potential_target_state46').GetName]" # 4020811148640414702
+  potential_target_state47: "[SCOPE.sState('potential_target_state47').GetName]" # 7006311545829849485
+  potential_target_state48: "[SCOPE.sState('potential_target_state48').GetName]" # 11759293627042156067
+  potential_target_state49: "[SCOPE.sState('potential_target_state49').GetName]" # 3204490727845522127
+  potential_target_state50: "[SCOPE.sState('potential_target_state50').GetName]" # 13414306814548830919
+  potential_target_state51: "[SCOPE.sState('potential_target_state51').GetName]" # 13683096477454241561
+  potential_target_state52: "[SCOPE.sState('potential_target_state52').GetName]" # 4407500018300176239
+  potential_target_state53: "[SCOPE.sState('potential_target_state53').GetName]" # 5056922030289163149
+  potential_target_state54: "[SCOPE.sState('potential_target_state54').GetName]" # 17052560024394562298

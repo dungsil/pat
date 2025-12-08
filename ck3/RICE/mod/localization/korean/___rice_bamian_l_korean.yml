@@ -1,0 +1,432 @@
+﻿l_korean:
+  Harthamah: "하르타마흐" # 7161761806437937346
+  Murzahim: "무르자힘" # 11126373654134725830
+  Abu_Harb_Muhammad: "아부 하르브 무함마드" # 8988302802273310326
+  dynn_RICE_bamian: "샤르 바미얀" # 14552760575283164773
+  dynn_RICE_bamian_2: "바미안" # 12832161242311535223
+  dynn_RICE_warwaliz: "와르왈리즈" # 11571496020057309499
+  dynn_RICE_jewish_bamian_dynasty: "바미안의" # 16541202783144436178
+  dynn_RICE_saidi_dynasty: "사이드" # 6625448710713543911
+  Siman_Tov: "시만-토브" # 18441174306673273039
+  Hiwi: "히위" # 15606731342237149438
+  dynn_RICE_jewish_al_balkhi: "알발키" # 7767996443753541019
+  activity_RICE_bamian_buddhas_non_buddhist_visit_host_an_a: "$host_activity_a$" # 13713790857143020716
+  activity_RICE_bamian_buddhas_non_buddhist_visit: "$c_bamian$ 석상으로의 여정" # 9211082183212512209
+  activity_RICE_bamian_buddhas_non_buddhist_visit_desc: "이슬람 학자들과 시인들은 $c_bamian$의 석상들을 세상의 경이로움, 즉 #italic 'aja'ib#!으로 분류합니다. 나는 [GetPlayer.GetFaith.CreatorNamePossessive]의 창조물을 더 잘 이해하기 위해 이 석상들과 그들이 있는 아름다운 계곡을 유람해야겠습니다." # 12502093691182628061
+  activity_RICE_bamian_buddhas_non_buddhist_visit_selection_tooltip: "$c_bamian$의 유명한 우상 조각상들을 방문하십시오.\n\n$activity_RICE_bamian_buddhas_non_buddhist_visit_context_tooltip$" # 6195405183096251125
+  activity_RICE_bamian_buddhas_non_buddhist_visit_context_tooltip: "#emphasis 역사적 배경:#! 아프가니스탄이 이슬람화된 이후에도 바미안의 부처상에 대한 무슬림들의 태도는 탈레반 정부가 2001년에 이 상들을 파괴한 것과는 대조적으로, 시간과 장소에 따라 다양했습니다. 예를 들어, 지역 전설에서는 두 상을 비운의 연인들이 돌로 변한 것이라고 믿었습니다. 이러한 이야기는 수 세기 동안 바미안에 거주했던 하자라족 사이에서 큰 영향을 미쳤으며, 일부 학자들은 탈레반이 하자라족에 대한 지속적인 억압의 일환으로 이 상들을 파괴했다고 추측할 정도로 그 영향력이 컸습니다. 중세 이슬람 학자들과 시인들은 이 상들과 그 아름다움을 경탄할 만한 경이로움, 즉 #italic '아자이브'#!로 분류하고 심지어 칭송하기도 했습니다. 예를 들어, 무굴 제국의 창시자인 바부르의 형제였던 자한기르 미르자는 1506년에 군사 원정 중 바미안에 들러 이 상들을 구경하기도 했습니다." # 16647197999467889233
+  activity_RICE_bamian_buddhas_non_buddhist_visit_host_desc: "$BULLET_WITH_TAB$ [stress_loss_i|E][stress|E] 상실\n$BULLET_WITH_TAB$ [intent|E]에 따라 [prestige_i|E][prestige|E] 및/또는 [piety_i|E][piety|E] 획득\n$BULLET_WITH_TAB$ [intent|E]에 따라 #P 긍정적인#! [character_modifier|E] 획득\n$BULLET_WITH_TAB$ [lifestyle|E]에서 [experience|E] 획득" # 8116751845229493159
+  activity_RICE_bamian_buddhas_non_buddhist_visit_guest_desc: "$activity_RICE_bamian_buddhas_non_buddhist_visit_host_desc$" # 3504984405575677479
+  activity_RICE_bamian_buddhas_non_buddhist_visit_destination_selection: "$activity_RICE_bamian_buddhas_non_buddhist_visit_province_desc$" # 15920609691846501713
+  activity_RICE_bamian_buddhas_non_buddhist_visit_guest_help_text: "$activity_RICE_bamian_buddhas_non_buddhist_visit$" # 1285617316210566297
+  activity_RICE_bamian_buddhas_non_buddhist_visit_predicted_cost: "이 방문 비용은 귀하의 [income|E]에 따라 책정됩니다." # 14876553790667835804
+  activity_RICE_bamian_buddhas_non_buddhist_visit_conclusion_desc: "우리의 [GetActivityType( 'activity_RICE_bamian_buddhas_non_buddhist_visit' ).GetName]이 종료되었습니다. 정말 감명 깊은 방문이었습니다!" # 9364670763378008148
+  RICE_bamian_buddhas_non_buddhist_visit_wonder_phase: "경이" # 15226064303863059114
+  RICE_bamian_buddhas_non_buddhist_visit_wonder_phase_desc: "이 웅장한 구조물들을 바라보며 창조의 경이로움을 감상하시오." # 2856304919511671054
+  RICE_bamian_buddhas_non_buddhist_visit_sightseeing_intent_header: "관광:" # 2476136775350558583
+  RICE_bamian_buddhas_non_buddhist_visit_sightseeing_intent: "관광:" # 17802927806077341369
+  RICE_bamian_buddhas_non_buddhist_visit_sightseeing_intent_desc: "장엄한 경치와 석상 및 주변 풍경을 감상하십시오. @prestige_icon! #V [EmptyScope.ScriptValue('RICE_bamian_non_buddhist_visit_resource_value')]#! [prestige|E]와 [GetModifier('RICE_bamian_visit_sightseeing_intent_modifier').GetNameWithTooltip] [modifier|E]를 얻습니다. 만약 그대가 [GetTrait('content').GetName( GetNullCharacter )|U]이거나 [GetTrait('patient').GetName( GetNullCharacter )]라면 추가적인 [stress_loss_i|E] [stress|E]를 잃습니다." # 11464500626938974743
+  RICE_bamian_buddhas_non_buddhist_visit_inspiration_intent_header: "영감:" # 9639368161916342946
+  RICE_bamian_buddhas_non_buddhist_visit_inspiration_intent: "영감:" # 8083511320522232880
+  RICE_bamian_buddhas_non_buddhist_visit_inspiration_intent_desc: "이 경이로운 아름다움을 지닌 신비로운 조각상들이 당신의 영감이 되어, 당신 영혼의 가장 깊은 곳을 일깨워주기를! @piety_icon! #V [EmptyScope.ScriptValue('RICE_bamian_non_buddhist_visit_resource_value')]#! [piety|E]와 [GetModifier('RICE_bamian_visit_inspired_intent_modifier').GetNameWithTooltip] [modifier|E]를 얻습니다. 만약 당신이 [GetTrait('ambitious').GetName( GetNullCharacter )|U]이거나 [GetTrait('diligent').GetName( GetNullCharacter )]라면 추가적인 [stress_loss_i|E] [stress|E]를 잃습니다." # 3637037606385545650
+  RICE_bamian_buddhas_non_buddhist_visit_examination_intent_header: "심사:" # 13404674930457253708
+  RICE_bamian_buddhas_non_buddhist_visit_examination_intent: "심사:" # 2807792894492851995
+  RICE_bamian_buddhas_non_buddhist_visit_examination_intent_desc: "세계적인 경이로움인 이 조각상들의 예술성과 그 주변의 전설을 연구하여 더 깊이 감상해 봅시다. @piety_icon! #V [EmptyScope.ScriptValue('RICE_bamian_non_buddhist_visit_resource_value')]#! [piety|E]와 [GetModifier('RICE_bamian_visit_examination_intent_modifier').GetNameWithTooltip] [modifier|E]를 얻습니다. 만약 그대가 [GetTrait('shy').GetName( GetNullCharacter )|U] 또는 [GetTrait('zealous').GetName( GetNullCharacter )] 특성을 가지고 있다면 추가적인 [stress_loss_i|E] [stress|E]를 잃습니다." # 12061392970416149398
+  RICE_bamian_buddhas_non_buddhist_visit_romantic_intent_header: "낭만적:" # 1333728361432046942
+  RICE_bamian_buddhas_non_buddhist_visit_romantic_intent: "낭만적:" # 388180021714885554
+  RICE_bamian_buddhas_non_buddhist_visit_romantic_intent_desc: "두 조각상에 얽힌 민간 전설을 되새겨 봅시다. 종종 이루어질 수 없는 연인들에 관한 이야기들이죠. @prestige_icon! #V [EmptyScope.ScriptValue('RICE_bamian_non_buddhist_visit_resource_value')]#! [prestige|E]를 얻고 [GetModifier('RICE_bamian_visit_romantic_intent_modifier').GetNameWithTooltip] [modifier|E]를 얻습니다. 만약 그대가 [GetTrait('lustful').GetName( GetNullCharacter )|U]이거나 [GetTrait('gregarious').GetName( GetNullCharacter )]라면 추가적인 [stress_loss_i|E] [stress|E]를 잃습니다." # 13500546388523711833
+  RICE_bamian_buddhas_non_buddhist_visit_understanding_intent_header: "이해했습니다." # 9616630965795122166
+  RICE_bamian_buddhas_non_buddhist_visit_understanding_intent: "이해했습니다." # 5314353771306289756
+  RICE_bamian_buddhas_non_buddhist_visit_understanding_intent_desc: "이 우상들에게 경배하러 오는 이교도 순례자들과 대화하여 그들을 더 잘 이해하십시오. @prestige_icon! #V [EmptyScope.ScriptValue('RICE_bamian_non_buddhist_visit_resource_value')]#! [prestige|E]와 [GetModifier('RICE_bamian_visit_understanding_intent_modifier').GetNameWithTooltip] [modifier|E]를 얻습니다. 만약 그대가 [GetTrait('humble').GetName( GetNullCharacter )|U]이거나 [GetTrait('compassionate').GetName( GetNullCharacter )]라면 추가적인 [stress_loss_i|E] [stress|E]를 잃습니다." # 7243806025379533438
+  RICE_bamian_buddhas_non_buddhist_visit_completed_log_title: "$c_bamian$ 석상 순례 완료" # 14022102256008273370
+  RICE_bamian_buddhas_non_buddhist_visit_completed_log: "[CHARACTER.GetShortUIName|U]께서 $c_bamian$의 석상들을 보러 떠났던 여정을 마쳤습니다. 정말 경이로운 광경이었습니다!" # 17541700906497047524
+  TRAVEL_NAME_FOR_activity_RICE_bamian_buddhas_non_buddhist_visit: "[Character.GetFirstNamePossessiveNoTooltip] $activity_RICE_bamian_buddhas_non_buddhist_visit$" # 12261522834894288532
+  RICE_bamian_buddhas_non_buddhist_visit_understanding_intent_req: "[GetTitleByKey('c_bamian').GetNameNoTier] 또는 그 [ruler|E]는 불교 [faith|E]를 따라야 합니다." # 963109701639862482
+  NOT_RICE_bamian_buddhas_non_buddhist_visit_understanding_intent_req: "$RICE_bamian_buddhas_non_buddhist_visit_understanding_intent_req$" # 16050576424762687130
+  activity_RICE_bamian_pilgrimage_host_an_a: "$host_activity_a$" # 13713790857143020716
+  activity_RICE_bamian_pilgrimage: "$c_bamian$ 불상으로의 성지 순례" # 17826732424254767787
+  activity_RICE_bamian_pilgrimage_desc: "$c_bamian$은 여러 세대에 걸쳐 불교 신자들의 예배 장소였습니다. 산비탈에 새겨진 강력한 $building_type_buddhas_of_bamian_01$은 크게 숭배받고 있으며, 역사적인 고타마 붓다와 태초의 첫 번째 붓다인 비로자나불을 묘사하고 있습니다." # 10966822816274289887
+  activity_RICE_bamian_pilgrimage_selection_tooltip: "[GetTitleByKey('c_bamian').GetNameNoTier]로 [local_pilgrimage|E]를 떠나십시오.\n\n$activity_RICE_bamian_pilgrimage_context_tooltip$" # 3411557367296068771
+  activity_RICE_bamian_pilgrimage_context_tooltip: "#emphasis 역사적 배경:#! 고대 후기와 초기 중세 시대에 바미안은 마하야나 사상과 연계된 대중부(Mahasamghika) 불교 종파의 종교적 중심지였습니다. 유명한 바미안 석불상은 600년경 투르크족 지배 하의 힐라탈 귀족들이 세웠을 가능성이 높으며, 이란 및 인도 양식과 모티프를 통합하여 간다라 예술 양식의 후기 발전을 보여줍니다. 예를 들어, 작은 석불상의 예술 작품에는 이란의 미트라일 가능성이 있는 태양신이 묘사되어 있습니다. 어쨌든, 7세기 중국 순례자 현장(Xuanzang), 8세기 한국 순례자 혜초(Hyecho), 10세기 이슬람 학자 이븐 알나딤(Ibn al-Nadim)과 같은 다양한 1차 사료들은 이 장소가 많은 순례자들을 끌어모았으며 그와 관련된 다양한 종교 의식이 행해졌음을 언급합니다." # 3631903127523016885
+  activity_RICE_bamian_pilgrimage_host_desc: "$activity_RICE_local_pilgrimage_host_desc$\n$BULLET_WITH_TAB$ 봉헌하는 불상에 따라 #P 유익한#! [character_modifier|E]을(를) 얻게 됩니다." # 4544009118275671158
+  activity_RICE_bamian_pilgrimage_guest_desc: "$activity_RICE_bamian_pilgrimage_host_desc$" # 9486438427001619458
+  activity_RICE_bamian_pilgrimage_province_desc: "[GetTitleByKey('c_bamian').GetNameNoTier]은 [GetReligionByKey('buddhism_religion').GetName] 신봉자들에게 중요한 성지입니다." # 3002618609312443943
+  activity_RICE_bamian_pilgrimage_destination_selection: "$activity_RICE_bamian_pilgrimage_province_desc$" # 850162914186429929
+  activity_RICE_bamian_pilgrimage_guest_help_text: "$activity_RICE_bamian_pilgrimage$" # 14544769093174356641
+  activity_RICE_bamian_pilgrimage_predicted_cost: "[local_pilgrimage|E] 비용은 [GetTitleByKey('c_bamian').GetNameNoTier]으로 떠날 때 선택하는 [activity_options|E]에 따라 달라집니다." # 14564751592772463407
+  activity_RICE_bamian_pilgrimage_conclusion_desc: "$c_bamian$의 부처상들을 가까이에서 뵙는 것은 정신적으로 고무적이었습니다. 우리의 [GetActivityType( 'activity_RICE_bamian_pilgrimage' ).GetName]이 끝났습니다." # 14771663406910131842
+  RICE_bamian_pilgrimage_completed_log_title: "$c_bamian$ 불상 순례 완료" # 4469242767992858121
+  RICE_bamian_pilgrimage_completed_log: "[CHARACTER.GetShortUIName|U]께서 $c_bamian$ 불상으로 향하는 [CHARACTER.GetHerHis] [local_pilgrimage|E]를 마치셨습니다." # 1253803013745686821
+  RICE_bamian_negligence_log_title: "조각상에 다가가는 중 정신이 팔림" # 10792875164549801372
+  RICE_bamian_negligence_log: "[CHARACTER.GetShortUIName|U]께서 종교 의식을 수행하던 중 [CHARACTER.GetSheHe]가 조각상에 다가오자 정신이 팔렸습니다." # 6259308724147295165
+  RICE_bamian_negligence_went_back_log_title: "종교 의식을 다시 수행했습니다." # 1952703478529415770
+  RICE_bamian_negligence_went_back_log: "정신이 팔렸던 [CHARACTER.GetShortUIName|U]는 종교 의식을 제대로 다시 거행하기 위해 $c_bamian$ 불상들을 처음 보았던 곳으로 돌아가기로 결정했습니다." # 8697155983729728171
+  RICE_bamian_negligence_ignored_log_title: "종교 의례를 다시 수행하지 않았습니다" # 16428780714151925188
+  RICE_bamian_negligence_ignored_log: "잠시 정신이 팔린 [CHARACTER.GetShortUIName|U]는 종교 의식을 제대로 다시 행하기 위해 $c_bamian$ 불상들을 처음 보았던 곳으로 돌아가지 않기로 결정했습니다." # 11512975854126751200
+  RICE_bamian_offerings_none_log_title: "추가적인 봉헌 없음" # 650890927378557288
+  RICE_bamian_offerings_none_log: "[CHARACTER.GetShortUIName|U]께서는 $c_bamian$의 불상에 추가적인 공물을 바치지 않으셨습니다." # 10862291667527789320
+  RICE_bamian_offerings_siddhartha_log_title: "싯다르타 석상에 드리는 추가 공물" # 13442575982439257934
+  RICE_bamian_offerings_siddhartha_log: "[CHARACTER.GetShortUIName|U]께서 역사적 부처인 싯다르타의 조각상에 추가적인 공물을 바쳤습니다." # 2734047918030529372
+  RICE_bamian_offerings_vairocana_log_title: "바이로차나 석상에 대한 추가 공물" # 8198497469293577938
+  RICE_bamian_offerings_vairocana_log: "[CHARACTER.GetShortUIName|U]께서 태초의 부처인 비로자나불 상에 추가 공물을 바쳤습니다." # 13749599073102143844
+  RICE_bamian_offerings_both_log_title: "$c_bamian$ 불상 두 기에 대한 추가 공물" # 14359337130408728177
+  RICE_bamian_offerings_both_log: "[CHARACTER.GetShortUIName|U]께서 $c_bamian$의 불상 두 곳에 추가 공물을 바쳤습니다." # 1458087620014408719
+  TRAVEL_NAME_FOR_activity_RICE_bamian_pilgrimage: "[Character.GetFirstNamePossessiveNoTooltip] $activity_RICE_bamian_pilgrimage$" # 5972592070609136681
+  RICE_bamian_close_to_bamian_req: "귀하의 [capital|E]는 [GetTitleByKey('c_bamian').GetNameNoTier] 근처에 있습니다." # 10705047043237388105
+  RICE_bamian_in_bamian_req: "귀하의 [camp|E]는 [GetTitleByKey('b_bamian').GetNameNoTier]에 있습니다." # 2431786138744530738
+  RICE_bamian_siman_tov_modifier: "바미얀의 유대인 저명인사" # 13866525626525590551
+  RICE_bamian_siman_tov_modifier_desc: "시만-토브의 아버지는 아프가니스탄 바미얀 계곡의 현지 도시 엘리트 계층이었던 유다 벤 다니엘이었습니다. 이 지역의 다른 유대인들과 달리 농업 생산에 자주 관여하지 않았던 그의 아버지는 토지 소유자이자 무역에 종사하는 상인, 돈을 빌려주는 고리대금업자, 그리고 아마도 국가의 징세관이었기에 다양한 경제 활동을 벌였습니다. 따라서 시만-토브는 아버지의 지위와 사업을 물려받았습니다." # 7879184403743548827
+  RICE_bamian_shahr_e_zohak_recently_repaired_small: "샤흐르-에 조하크의 최근 소규모 보수 공사" # 11765908775080759716
+  RICE_bamian_shahr_e_zohak_recently_repaired_medium: "샤흐르 에 조하크의 최근 주요 보수 공사" # 9600802566739747274
+  RICE_bamian_shahr_e_zohak_recently_repaired_large: "샤흐르 에 조하크의 최근 주요 보수 공사" # 16555450777813222149
+  RICE_bamian_offerings_siddhartha_modifier: "바미얀의 싯다르타 부처상에 드리는 추가 공물" # 8164396413303286717
+  RICE_bamian_offerings_vairocana_modifier: "바미안의 비로자나불상에 대한 추가 공물" # 17691226664679099783
+  RICE_bamian_visit_sightseeing_intent_modifier: "바미안의 불상들을 감상했음" # 2991480139528501869
+  RICE_bamian_visit_inspired_intent_modifier: "바미안 석상 방문 후 영감을 얻음" # 755558207780971015
+  RICE_bamian_visit_examination_intent_modifier: "바미안의 우상들에 대해 연구하고 숙고함" # 14489855649679735368
+  RICE_bamian_visit_romantic_intent_modifier: "바미안 석상에 대한 낭만적인 전설을 즐겼습니다." # 15377437154065143828
+  RICE_bamian_visit_understanding_intent_modifier: "바미안 우상 숭배 불교도들과 대화했습니다" # 9158239513122653866
+  RICE_bamian_hiwi_al_balkhi_modifier: "#bold 악명 높은 자유사상가#" # 6499127145174356199
+  RICE_bamian_hiwi_al_balkhi_modifier_desc: "히위 알발키만큼 논란을 일으킨 인물은 드뭅니다. 이 회의적인 유대인 학자는 성경과 그 신성한 기원을 비판한 그의 #italic 200가지 질문#으로 가장 잘 알려져 있습니다. 많은 유대인들이 그를 이단자, 심지어 무신론자로 규탄했습니다. 하지만 그를 종교를 폐지하려는 것이 아니라, 경전에 얽매이지 않고 신의 진정한 본질을 더 잘 이해하고자 하는 급진적인 사상가로 보는 이들도 적지 않을 것입니다." # 13873944575759084431
+  RICE_bamian_muslim_understanding_buddhists: "무슬림과 불교의 유사점에 대해 숙고하며" # 12704892255850974548
+  RICE_bamian_cliche_poetry: "우상 같은 얼굴에 대한 진부한 시 쓰기" # 16575841549896991297
+  RICE_bamian_supported_buddhist_translators: "극동 지역의 불교 후원자들" # 18047128672419077298
+  RICE_bamian_trapusa_and_bhallika_modifier: "트라푸사와 발리카에게서 영감을 받아" # 7637564064840702405
+  RICE_bamian_repair_shahr_e_zohak: "샤흐르에 조하크 복구" # 5683250389612801643
+  RICE_bamian_repair_shahr_e_zohak_tooltip: "[GetTitleByKey('c_bamian').GetNameNoTier]를 보호하는 이 요새들이 수리가 필요합니다." # 17586684075676865660
+  RICE_bamian_repair_shahr_e_zohak_desc: "호라산에서 가장 인상적인 요새 중 하나인 샤흐르-에 조하크는 [GetTitleByKey('c_bamian').GetNameNoTier] 계곡의 전략적 요충지에 자리 잡고 있습니다. 이 요새 도시를 보수한다면, 우리는 이 지역을 외부 위협으로부터 안전하게 지키고 상인과 여행자들에게 안전을 제공할 수 있을 것입니다." # 8888714021462641286
+  RICE_bamian_repair_shahr_e_zohak_confirm: "복구 작업에 필요한 자원을 보내시오!" # 9250188306709019439
+  RICE_bamian_repair_shahr_e_zohak_effect_tooltip_1: "수리 비용에 따라 [prestige_i|E][prestige|E]와 [dynasty_prestige_i|E][dynasty_prestige|E]를 얻게 됩니다." # 15583419806863868851
+  RICE_bamian_repair_shahr_e_zohak_effect_tooltip_2: "[GetTitleByKey('c_bamian').GetNameNoTier]는 #P 긍정적인#! [county_modifier|E]를 받아 [fort_level_i|E] [fort_level|E|E], [development_i|E] [development|E], @garrison_icon! [garrison|E] 규모, 그리고 [control_i|E] [control|E]가 상승합니다." # 13016385586976755902
+  RICE_bamian_repair_shahr_e_zohak_effect_tooltip_3: "[modifier|E]의 강도는 수리 비용으로 얼마나 지출했는지에 따라 달라집니다 #weak (최소 비용: @gold_icon! [EmptyScope.ScriptValue('RICE_misc_horse_sacrifice_cost_minor')])#!" # 6593434160967563831
+  RICE_bamian_repair_shahr_e_zohak_context_tooltip: "#emphasis 역사적 배경:#! 샤흐르-에 조하크는 아프가니스탄에 건설된 요새 중 가장 인상적인 건축물 중 하나로, 한 학자는 이곳을\"아프가니스탄의 크라크 데 슈발리\"라고 칭하기도 했습니다. 이곳은 헵탈인, 가즈나비드, 구르 왕조, 티무르 왕조와 같은 여러 집단에 의해 점령되었습니다. 조하크는 페르시아 신화에 등장하는 사악한 인물이며, 이 요새가 왜 그의 이름을 따서 명명되었는지는 불분명하지만, 그는 인근 구르 왕조의 조상이라고 전해집니다. 전설에 따르면, 이 요새 도시는 칭기즈 칸이 포위 공격했을 때 그의 손자의 죽음에 대한 복수로 모든 주민들이 학살당하며 파괴되었다고 합니다." # 6313178828114151862
+  RICE_bamian_shahr_e_zohak_recently_repaired_req: "샤르-에 조하크는 최근에 보수되지 않았습니다." # 13394970890448184270
+  bamian.0000.t: "xxxxx" # 1951045980481827005
+  bamian.0000.desc: "xxxxx" # 1951045980481827005
+  bamian.0000.a: "xxxxx" # 1951045980481827005
+  bamian.0001.t: "$c_bamian$의 왕들" # 7258651479284794360
+  bamian.0001.desc: "우리 왕조는 여러 세대에 걸쳐 [GetTitleByKey('c_bamian').GetNameNoTier]를 통치해 왔습니다. 비록 코라산 전체의 군주인 [caliph.GetHouse.GetName] 왕조는 [islam.GetName]을 따르고 있지만, 우리 왕족 전체가 그들의 신앙으로 개종한 것은 아닙니다. 우리 중 일부는 여전히 [buddhist.GetName]을 신봉하고 있으며, 나의 [ROOT.Char.Custom2('RelationToMeShort', harthamah)], [harthamah.GetFullName]처럼 칼리파를 위해 장군과 총독으로 복무하며 개종한 이들도 있습니다.\n\n어쨌든, [caliph.GetHouse.GetNameNoTooltip] 칼리파들은 이제 쇠퇴하고 있습니다. 이 불확실한 시기에 우리는 어떻게 나아갈지 신중해야 합니다. 우리는 칼리파들의 깃발 아래 유능하게 싸워왔고, 일반적으로 그들에게 어떤 문제도 일으키지 않았지만, 우리가 오래된 전통을 고수하든 새로운 것을 받아들이든, 때가 되면 우리에게 문제가 닥칠 수 있습니다." # 9643742225231781442
+  bamian.0001.a: "아버지처럼, 저도 [caliph.GetHouse.GetNameNoTooltip] 궁정에 충성스럽게 봉사하겠습니다." # 426642605658048823
+  bamian.0001.b: "조상들의 방식을 따른다면 신중해야만 하오." # 15278135875801147820
+  bamian.0001.c: "불확실한 시기입니다. [mahayana.HighGodName]께서 우리를 지켜주시길!" # 3189072466595305792
+  bamian.0001.d: "나는 정치적으로 기민해야 하지만, 마음속에는 다르마를 간직해야 한다." # 1481495390269832794
+  bamian.0001.e: "예언자의 말씀은 진실이니, 내가 그 말씀을 새겨들어야 하리라." # 17966270968837032658
+  bamian.0001.stay_faith: "그대는 계속해서 [GetPlayer.GetFaith.GetAdjective] [faith|E]를 따릅니다." # 12312041960161949714
+  bamian.0001.fake_faith: "당신은 공개적으로 [ashari.GetName]을 따르지만, 비밀리에 [mahayana.GetAdjective] [faith|E]를 실천할 것입니다." # 11324163934158713376
+  bamian.0002.t: "xxxxx" # 1951045980481827005
+  bamian.0002.desc: "xxxxx" # 1951045980481827005
+  bamian.0002.a: "xxxxx" # 1951045980481827005
+  bamian.0003.t: "xxxxx" # 1951045980481827005
+  bamian.0003.desc: "xxxxx" # 1951045980481827005
+  bamian.0003.a: "xxxxx" # 1951045980481827005
+  bamian.0004.t: "xxxxx" # 1951045980481827005
+  bamian.0004.desc: "xxxxx" # 1951045980481827005
+  bamian.0004.a: "xxxxx" # 1951045980481827005
+  bamian.0005.t: "xxxxx" # 1951045980481827005
+  bamian.0005.desc: "xxxxx" # 1951045980481827005
+  bamian.0005.a: "xxxxx" # 1951045980481827005
+  bamian.0006.t: "xxxxx" # 1951045980481827005
+  bamian.0006.desc: "xxxxx" # 1951045980481827005
+  bamian.0006.a: "xxxxx" # 1951045980481827005
+  bamian.0007.t: "xxxxx" # 1951045980481827005
+  bamian.0007.desc: "xxxxx" # 1951045980481827005
+  bamian.0007.a: "xxxxx" # 1951045980481827005
+  bamian.0008.t: "xxxxx" # 1951045980481827005
+  bamian.0008.desc: "xxxxx" # 1951045980481827005
+  bamian.0008.a: "xxxxx" # 1951045980481827005
+  bamian.0009.t: "xxxxx" # 1951045980481827005
+  bamian.0009.desc: "xxxxx" # 1951045980481827005
+  bamian.0009.a: "xxxxx" # 1951045980481827005
+  bamian.0010.t: "xxxxx" # 1951045980481827005
+  bamian.0010.desc: "xxxxx" # 1951045980481827005
+  bamian.0010.a: "xxxxx" # 1951045980481827005
+  bamian.0011.t: "xxxxx" # 1951045980481827005
+  bamian.0011.desc: "xxxxx" # 1951045980481827005
+  bamian.0011.a: "xxxxx" # 1951045980481827005
+  bamian.0012.t: "xxxxx" # 1951045980481827005
+  bamian.0012.desc: "xxxxx" # 1951045980481827005
+  bamian.0012.a: "xxxxx" # 1951045980481827005
+  bamian.0013.t: "xxxxx" # 1951045980481827005
+  bamian.0013.desc: "xxxxx" # 1951045980481827005
+  bamian.0013.a: "xxxxx" # 1951045980481827005
+  bamian.0014.t: "xxxxx" # 1951045980481827005
+  bamian.0014.desc: "xxxxx" # 1951045980481827005
+  bamian.0014.a: "xxxxx" # 1951045980481827005
+  bamian.0015.t: "xxxxx" # 1951045980481827005
+  bamian.0015.desc: "xxxxx" # 1951045980481827005
+  bamian.0015.a: "xxxxx" # 1951045980481827005
+  bamian.0016.t: "xxxxx" # 1951045980481827005
+  bamian.0016.desc: "xxxxx" # 1951045980481827005
+  bamian.0016.a: "xxxxx" # 1951045980481827005
+  bamian.0017.t: "xxxxx" # 1951045980481827005
+  bamian.0017.desc: "xxxxx" # 1951045980481827005
+  bamian.0017.a: "xxxxx" # 1951045980481827005
+  bamian.0018.t: "xxxxx" # 1951045980481827005
+  bamian.0018.desc: "xxxxx" # 1951045980481827005
+  bamian.0018.a: "xxxxx" # 1951045980481827005
+  bamian.0019.t: "xxxxx" # 1951045980481827005
+  bamian.0019.desc: "xxxxx" # 1951045980481827005
+  bamian.0019.a: "xxxxx" # 1951045980481827005
+  bamian.0020.t: "$RICEmisc.0011.t$" # 4416038440741163422
+  bamian.0020.desc: "많은 이들이 [GetTitleByKey('c_bamian').GetNameNoTier]의 거대한 계곡과 그곳 절벽에 새겨진 기념비적인 크기의 눈부시게 빛나는 석상들에 대해 들어보았습니다. 이 우상 석상들의 기원은 불분명하지만, 이교도들이 이곳에 와서 숭배하거나, 혹은 옛날 옛적에 그랬다는 소문이 있습니다.\n\n어느 쪽이든, 저는 이 유명한 우상들의 아름다움을 감상하기 위해 몇몇 산과 계곡을 넘어 그곳을 방문할 계획을 세웠습니다." # 11000183045024262661
+  bamian.0020.desc.islam: "\n\n[ROOT.Char.GetFaith.GetReligion.GetAdjective] 학자들과 시인들은 이 조각상들을 세상의 경이로움, 즉 #italic '아자이브'#!로 분류했습니다. 누가 감히 [ROOT.Char.GetFaith.HighGodName]의 경이로운 창조물을 즐기는 것에 대해 불평하겠습니까?" # 14655369958977493535
+  bamian.0020.a: "조각상들이 벌써부터 기대되는군!" # 8200754440241538980
+  bamian.0021.t: "조각상들을 바라보다" # 4074602505396843592
+  bamian.0021.desc: "우리는 [GetTitleByKey('c_bamian').GetNameNoTier]의 석상 앞에 도착했습니다. 시인들이 묘사한 대로 웅장하군요. 산비탈에 조각된 두 개의 거대한 석상은 우뚝 솟아 있습니다. 수행원들과 저는 이 두 석상의 영광에 감탄하고 있는데, 더 큰 석상은 '붉은 우상'으로 알려져 있고 작은 석상은 '흰 우상'이라 불립니다." # 667224279743082432
+  bamian.0021.desc.sightseeing: "우리는 천천히 관광하며 두 석상을 둘러보고 근처 동굴들을 탐험했는데, 그곳은 다채로운 벽화들로 장식되어 있었습니다. 어떤 것은 즐겁고 기분 좋았지만, 어떤 것은 섬뜩하거나 심지어 무섭기까지 했습니다.\n\n그 외에도 우리는 주변 시골에서 휴식을 취하며 계곡과 주변 산들의 경치를 감상하는 데 시간을 보냈습니다." # 5477578103582764696
+  bamian.0021.desc.inspiration: "나는 이 두 조각상을 깊이 묵상하며 시간을 보낸다. 애초에 이 우상들이 이곳에 세워질 수 있었다는 사실이 얼마나 놀라운가!\n\n이것들이 인간에 의해 세워졌든, 아니면 [ROOT.Char.GetFaith.HighGodName] [ROOT.Char.GetFaith.HighGodHerselfHimself]께서 세우셨든, 폐허가 되고 낡은 상태임에도 불구하고 이 조각상들의 웅장함과 아름다움에 필적할 만한 기념물은 거의 없다는 데에는 의심의 여지가 없다. 이는 나로 하여금 이 우상들처럼, 어떤 면에서는 영원불멸할 수 있도록 위대한 업적을 이루고 싶게 만든다." # 116845759483632416
+  bamian.0021.desc.examination: "내 수행원 중 일부는 우상과 주변 동굴의 벽화들을 무심히 감탄하는 동안, 나는 이 우상들을 주의 깊게 연구하며 그 예술적, 미학적 디자인에 대해 숙고할 시간을 갖는다.\n\n우상들과 벽화들은 폐허가 되고 낡은 상태임에도 불구하고 흠잡을 데 없는 예술성을 지니고 있으며, 통치자, 정령, 악마, 그리고 인간과 초자연적인 다른 존재들의 모습들을 볼 수 있다. 이는 참으로 매혹적이며, 보잘것없는 [ROOT.Char.GetTitleAsNameNoTooltip]인 나의 우주에서의 위치에 대해 더 깊이 생각하게 만든다." # 12462750696136900350
+  bamian.0021.desc.romantic: "저는 안내자들과 시간을 보내며 그들이 이 석상들에 대해 아는 바를 논의합니다. 현지 전설에 따르면, 서로 다른 두 나라의 왕자와 공주가 사랑에 빠졌으나 결혼할 수 없었다고 합니다. 어떤 이들은 그들이 각각 이집트와 중국 출신이라고 말하고, 또 다른 이들은 그들이 두 경쟁적인 지역 왕들의 자식들이었다고 주장합니다.\n\n어느 쪽이든, 그들은 영원히 서로를 그리워하며 바라보도록 이 돌 석상으로 변했다고 합니다." # 17923881306761928649
+  bamian.0021.desc.understanding: "아직도 소위 #bold [buddhist.GetAdjective]# 종교를 따르며 이 우상들을 숭배하는 자들이 남아있습니다. 그들의 이교도적인 관습에 흥미를 느낀 저는 그들의 종교 의식과, 그들의 영적 스승을 대표한다고 주장하는 이 우상들을 왜 숭배하는지에 대해 논의해 보기로 했습니다.\n\n이 허황된 이야기가 얼마나 타당한지는 모르겠지만, 이 이교도들과 그들의 사상을 더 잘 이해하는 데는 도움이 될 것입니다." # 1879043998969833196
+  bamian.0021.a: "참으로 경이로운 광경이로군." # 8193808139043727829
+  bamian.0022.t: "결론" # 3822412533199628403
+  bamian.0022.desc: "[GetTitleByKey('c_bamian').GetNameNoTier]에서 시간을 보내고 그곳의 경이로운 우상 조각상들을 둘러본 후, 이제 집으로 돌아갈 시간입니다.\n의심할 여지 없이, 그 우상들은 세계의 경이롭다는 명성에 걸맞았으며, 제 눈으로 직접 볼 기회를 얻게 되어 기쁩니다." # 14365428174171114630
+  bamian.0022.a: "어쩌면 나중에 그들을 다시 방문할지도 모르지." # 5173168445289253069
+  bamian.0023.t: "xxxxx" # 1951045980481827005
+  bamian.0023.desc: "xxxxx" # 1951045980481827005
+  bamian.0023.a: "xxxxx" # 1951045980481827005
+  bamian.0024.t: "xxxxx" # 1951045980481827005
+  bamian.0024.desc: "xxxxx" # 1951045980481827005
+  bamian.0024.a: "xxxxx" # 1951045980481827005
+  bamian.0025.t: "xxxxx" # 1951045980481827005
+  bamian.0025.desc: "xxxxx" # 1951045980481827005
+  bamian.0025.a: "xxxxx" # 1951045980481827005
+  bamian.0026.t: "xxxxx" # 1951045980481827005
+  bamian.0026.desc: "xxxxx" # 1951045980481827005
+  bamian.0026.a: "xxxxx" # 1951045980481827005
+  bamian.0027.t: "xxxxx" # 1951045980481827005
+  bamian.0027.desc: "xxxxx" # 1951045980481827005
+  bamian.0027.a: "xxxxx" # 1951045980481827005
+  bamian.0028.t: "xxxxx" # 1951045980481827005
+  bamian.0028.desc: "xxxxx" # 1951045980481827005
+  bamian.0028.a: "xxxxx" # 1951045980481827005
+  bamian.0029.t: "xxxxx" # 1951045980481827005
+  bamian.0029.desc: "xxxxx" # 1951045980481827005
+  bamian.0029.a: "xxxxx" # 1951045980481827005
+  bamian.0030.t: "$RICEmisc.0011.t$" # 4416038440741163422
+  bamian.0030.desc: "많은 #bold [buddhist.GetAdjective]# 신봉자들은 [GetTitleByKey('c_bamian').GetNameNoTier]의 장엄한 계곡에 대해 알고 있습니다. 그곳은 절벽 면에 조각된 기념비적인 두 개의 웅장하고 빛나는 석상이 자리한 곳으로, 현세의 역사적 부처이신 고타마 붓다와 태초의 부처이신 바이로차나를 형상화하고 있습니다.\n\n수 세대 동안 사람들은 이 석상들을 순례하며 찾아왔으며, 저 또한 그리 할 작정입니다. 저는 이 순례를 위한 준비를 마쳤으며, 곧 그 석상들을 향해 떠날 것입니다." # 9452904652411499518
+  bamian.0030.a: "부처님께서 이 여정에서 우리를 지켜주시기를!" # 4318119871945901521
+  bamian.0031.t: "$bamian.0021.t$" # 8572906914754512863
+  bamian.0031.desc: "[GetTitleByKey('c_bamian').GetNameNoTier] 계곡에 도착하자 모두가 기뻐했습니다. 계곡의 두 거대한 불상이 시야에 들어왔기 때문입니다. 이는 단 한 가지를 의미할 뿐입니다.\n\n우리는 즉시 불상을 향해 천천히 나아가면서 종교 의식을 시작합니다. 염불, 엎드려 절하기, 향 태우기 등이 이어집니다.\n\n이곳의 전통은 불상을 보는 즉시 이러한 의식을 시작해야 한다는 것입니다. 그리고 불상에 도달할 때까지 의식을 계속 수행해야 합니다. 만약 이 의식을 망친다면, 우상을 처음 본 곳으로 되돌아가 이 모든 것을 다시 시작해야 한다고 하니, 부디 부처님께서 제가 집중력을 유지하여 의식을 망치지 않도록 도와주시기를 바랍니다." # 3554991142089869263
+  bamian.0031.a: "집중하는 데 전혀 문제가 없을 거라 확신합니다." # 5800154494154295054
+  bamian.0031.b: "저는 최선을 다해 집중해야 합니다. 게으름은 금물입니다!" # 632885288247391397
+  bamian.0031.info: "#emphasis 역사적 배경:#! 10세기 이슬람 페르시아 학자 이븐 알 나딤(Ibn al-Nadim)이 저술한 지식 개론서인 #italic 키타브 알 피흐리스트(Kitāb al-Fihrist)#!에는 바미안의 부처상과 관련된 몇 가지 풍습이 언급되어 있습니다. 전해지기로는, 순례자들이 부처상으로 가는 도중에 필요한 종교 의식을 소홀히 수행하면, 처음 부처상을 보았던 곳으로 돌아가 모든 것을 다시 해야 했다고 합니다. 바미안과 그 왕족 일부가 10세기까지도 불교를 유지하고 있었을 가능성이 높기 때문에 이븐 알 나딤이 이 정보를 접했을 수도 있습니다." # 8814124097847361862
+  bamian.0031.success: "그대는 흔들림 없이 조각상들에게 의식을 행합니다" # 13136728836288210054
+  bamian.0031.failure: "당신은 조각상에 다가가는 도중 길에서 정신이 팔립니다." # 12545146307139151662
+  bamian.0032.t: "불운한 방해 요소들" # 14004650805675361745
+  bamian.0032.desc: "저런! 부처상으로 향하는 길에 정신이 너무 산만했군. 아마도 [GetTitleByKey('c_bamian').GetNameNoTier]의 아름다움에 넋을 잃었거나, 고향의 중요한 일 때문에 걱정했거나, 아니면 세속적인 문제에 대해 생각하고 있었을지도 모르지.\n\n어느 쪽이든, 나는 그 석상에 가는 길에 행하던 [ROOT.Char.GetFaith.GetAdjective] 의식 중 일부를 망쳐버렸어. 보통 이럴 때는 처음으로 지평선에 부처상이 보였던 원래 장소까지 전부 되돌아가서 처음부터 다시 해야 한다고 하더군…." # 15654351772860503693
+  bamian.0032.a: "이번에는 더 집중하겠습니다!" # 12006949301523751776
+  bamian.0032.b: "나는 [ROOT.Char.GetTitleAsNameNoTooltip]이니, 이 정도는 용서받을 수 있겠지...." # 11867057648536161403
+  bamian.0033.t: "조각상 앞에 서서" # 5339268510613576245
+  bamian.0033.desc: "마침내 [GetTitleByKey('c_bamian').GetNameNoTier]의 장엄한 불상에 도착했소! 두 불상은 나와 여기에 있는 모든 이들을 압도하는 높이로 솟아 있소.\n\n더 큰 불상은 궁극적인 지혜와 깨달음을 상징하며 모든 다른 부처가 발현되는 근원인 비로자나불을 나타내오. 작은 불상은 역사 속의 부처인 싯다르타를 나타내오.\n\n이 불상에 오기까지 많은 의식을 행했지만, 향을 피우고, 영적인 서약과 염원을 세우며, 불상에 공물을 바치는 것과 같은 할 일이 아직 남아 있소. 어쩌면 내가 헌신적인 [ROOT.Char.GetFaith.GetAdherentName]임을 보이기 위해 더 많은 공물을 바칠 수도 있겠소." # 9547307810118942197
+  bamian.0033.a: "의무적인 공물만 바치십시오" # 15263131185325054961
+  bamian.0033.b: "싯다르타에게 공물을 바치십시오" # 17710706641244895886
+  bamian.0033.c: "비로자나불께 공물을 바치십시오" # 1771319381336410032
+  bamian.0033.d: "두 조각상 모두에게 제물을 바치시오" # 2025607734413843637
+  RICE_bamian_no_offerings_tooltip: "두 조각상 모두에게 추가적인 봉헌은 이루어지지 않았습니다." # 8858101075852844186
+  bamian.0034.t: "결론" # 3822412533199628403
+  bamian.0034.desc: "[GetTitleByKey('c_bamian').GetNameNoTier]의 불상들에게 순례의 일환으로 행해야 했던 모든 종교 의식을 마친 후, 나는 이 석상들이 위치한 장소를 둘러보며 그 가치를 더 깊이 이해하는 시간을 가졌습니다.\n\n두 석상을 둘러싼 곳에는 수많은 동굴과 벽면이 있는데, 이곳에는 강력한 왕부터 태양신에 이르기까지 광범위한 주제를 묘사한 벽화들이 그려져 있습니다. [buddhist.GetName]의 독실한 신도들이 이곳을 처음 만들었을 때만큼 생생한 색감은 아니며 페인트는 바래긴 했지만, 여전히 숨 막힐 듯한 광경입니다.\n\n아아, 각 동굴을 하나하나 살펴보는 데 며칠을 보낼 수도 있겠지만, 이곳에 머물 시간이 그리 많지 않습니다. 영적인 체험을 마쳤으니 이제 집으로 돌아갈 시간입니다." # 6180818641375266407
+  bamian.0034.a: "삼보께서 우리에게 축복을 내려주시기를!" # 16455975279713876500
+  bamian.0035.t: "xxxxx" # 1951045980481827005
+  bamian.0035.desc: "xxxxx" # 1951045980481827005
+  bamian.0035.a: "xxxxx" # 1951045980481827005
+  bamian.0036.t: "xxxxx" # 1951045980481827005
+  bamian.0036.desc: "xxxxx" # 1951045980481827005
+  bamian.0036.a: "xxxxx" # 1951045980481827005
+  bamian.0037.t: "xxxxx" # 1951045980481827005
+  bamian.0037.desc: "xxxxx" # 1951045980481827005
+  bamian.0037.a: "xxxxx" # 1951045980481827005
+  bamian.0038.t: "xxxxx" # 1951045980481827005
+  bamian.0038.desc: "xxxxx" # 1951045980481827005
+  bamian.0038.a: "xxxxx" # 1951045980481827005
+  bamian.0039.t: "xxxxx" # 1951045980481827005
+  bamian.0039.desc: "xxxxx" # 1951045980481827005
+  bamian.0039.a: "xxxxx" # 1951045980481827005
+  bamian.0040.t: "샤흐르 에 조하크" # 13750156390861949779
+  bamian.0040.desc: "[GetTitleByKey('c_bamian').GetNameNoTier] 계곡의 동쪽에는 고대의 요새 단지가 있습니다. 어떤 이들은 이곳을 #italic 조하크의 도시#!, 즉 #italic 조하크#!의 성채라고 부릅니다.\n\n이란의 전설에 따르면, #italic 조하크#!는 영웅과 전설의 시대에 가장 사악하고 잔인했던 마법사 왕 중 한 명이었습니다. 이 요새가 왜 #italic 조하크#!와 연관되었는지는 아무도 모르지만, 확실히 위협적으로 들리게는 만듭니다.\n\n어느 쪽이든, 수 세기에 걸쳐 여러 왕과 군벌들이 이 부지를 끊임없이 보수하고 개조해 왔습니다. 이곳은 계곡의 가장 동쪽 끝에 있는 전략적 위치를 차지하고 있어 군대와 교역의 흐름을 쉽게 통제할 수 있습니다. 저는 이 요새를 수리해야 하는데, 이 프로젝트에 얼마를 기꺼이 지출할 의향이 있습니까?" # 1591872083979737
+  bamian.0040.a: "지금 당장은 작은 수리들만 필요합니다." # 17755548843106327158
+  bamian.0040.b: "중규모 수리가 이 요새를 활력을 되찾게 할 것입니다." # 17325095780508897074
+  bamian.0040.c: "이곳을 옛 영광으로 되돌리기 위한 대대적인 수리" # 5663540660904719926
+  bamian.0040.d: "xxxxx" # 1951045980481827005
+  bamian.0041.t: "xxxxx" # 1951045980481827005
+  bamian.0041.desc: "xxxxx" # 1951045980481827005
+  bamian.0041.a: "xxxxx" # 1951045980481827005
+  bamian.0042.t: "xxxxx" # 1951045980481827005
+  bamian.0042.desc: "xxxxx" # 1951045980481827005
+  bamian.0042.a: "xxxxx" # 1951045980481827005
+  bamian.0043.t: "xxxxx" # 1951045980481827005
+  bamian.0043.desc: "xxxxx" # 1951045980481827005
+  bamian.0043.a: "xxxxx" # 1951045980481827005
+  bamian.0044.t: "xxxxx" # 1951045980481827005
+  bamian.0044.desc: "xxxxx" # 1951045980481827005
+  bamian.0044.a: "xxxxx" # 1951045980481827005
+  bamian.0045.t: "xxxxx" # 1951045980481827005
+  bamian.0045.desc: "xxxxx" # 1951045980481827005
+  bamian.0045.a: "xxxxx" # 1951045980481827005
+  bamian.0046.t: "xxxxx" # 1951045980481827005
+  bamian.0046.desc: "xxxxx" # 1951045980481827005
+  bamian.0046.a: "xxxxx" # 1951045980481827005
+  bamian.0047.t: "xxxxx" # 1951045980481827005
+  bamian.0047.desc: "xxxxx" # 1951045980481827005
+  bamian.0047.a: "xxxxx" # 1951045980481827005
+  bamian.0048.t: "xxxxx" # 1951045980481827005
+  bamian.0048.desc: "xxxxx" # 1951045980481827005
+  bamian.0048.a: "xxxxx" # 1951045980481827005
+  bamian.0049.t: "xxxxx" # 1951045980481827005
+  bamian.0049.desc: "xxxxx" # 1951045980481827005
+  bamian.0049.a: "xxxxx" # 1951045980481827005
+  bamian.0050.t: "유사한 의식들" # 4934806225025222569
+  bamian.0050.desc: "비록 제가 [ROOT.Char.GetFaith.GetAdjective] 신앙을 따르지만, 제 영지 내에는 [buddhist.GetAdjective] 종교를 따르는 자들이 있습니다.\n\n우리 중 다수가 이 이교도들이 성스러운 건물 주위를 돌면서 여러 의식을 행하는 기이한 관습에 주목했습니다. 저는 일부 [ROOT.Char.GetFaith.GetAdjectiveNoTooltip] 학자들과 [ROOT.Char.Custom('DefaultPriestTitlePlural')]들에게 왜 이들이 그런 행동을 하는지 설명해 달라고 요청했는데, 이는 모든 독실한 무슬림이 수행해야 하는 하지(Hajj)를 크게 떠올리게 했기 때문입니다.\n\n일부 박식한 이들은 제 추측이 맞다고 말하며, 이러한 관습이 카바 신전과 하지에서 영감을 받았으며, 그들이 올바른 일신론을 믿던 시절의 왜곡된 기억이라고 했습니다. 하지만 다른 이들은 분명히 다른 관습이라며 동의하지 않습니다." # 17009851230124737315
+  bamian.0050.a: "어쩌면 우리도 그들과 크게 다르지 않을지도 모르지." # 13489914107687411857
+  bamian.0050.b: "이 어리석은 이교도들이 진정한 종교를 거부했도다!" # 4941975629643592734
+  bamian.0051.t: "시적 상투어" # 15842191597210223067
+  bamian.0051.desc: "저는 [ROOT.Char.GetCulture.GetName]의 시를 연습하고 있습니다. 엘리트 계층의 일원으로서, 교양 없는 얼간이로 보이지 않으려면 시에 대해 알아야 합니다.\n\n오늘 밤 저는 처음에 시의 적절한 주제를 찾는 데 어려움을 겪었습니다. 몇 번 생각한 끝에 마침내 주제를 생각해냈습니다. 바로 #italic bot#!, 즉 신상 말입니다!\n\n[ROOT.Char.GetFaith.GetReligion.GetAdjective] 세계의 교육받은 사람들 사이에서 아름다운 연인의 얼굴을 #italic bot#!에 비유하거나, 낭만적인 사랑에 #italic bot#! 숭배의 은유를 사용하는 것은 매우, 매우 진부한 일입니다. 하지만 현재의 작가적 슬럼프를 감안할 때, 뭐라도 얻는 게 낫겠죠.\n\n저는 이렇게 쓰기 시작합니다: #italic 내 사랑의 얼굴은 신상과 같고, 나는 [ROOT.Char.Custom('GetHerHimOpposite')]을 숭배하는 수도승이로다…#italic" # 4097304746800552782
+  bamian.0051.a: "상투적이지만, 적어도 내 아이디어는 샘솟고 있군!" # 16453923392927114001
+  bamian.0052.t: "극동의 순례자" # 7145164460482839633
+  bamian.0052.desc: "멀리 동방에서 온 #bold [buddhist.GetAdjective]# 순례승인 [monk.GetFirstName] 님께서 제 영지를 지나가고 계십니다. 그분은 새로운 경전을 얻고 #bold [monk.GetFaith.GetAdjective]# 가르침을 더 깊이 이해하기 위해 [GetGeographicalRegion('world_india').GetName]로 가시기를 원한다고 말씀하셨습니다.\n\n이처럼 교양 있고 저명한 손님을 맞이하는 것은 드문 일이라, 저는 [monk.GetHerHim]를 제 궁정으로 모셔 원하는 만큼 머무르도록 허락했습니다. [monk.GetFirstNameNoTooltip] 님께서는 심지어 [monk.GetSheHe]께서 고향으로 돌아가시면 저와 저의 환대하는 영지에 대해 다른 이들에게 이야기해 주겠다고 제게 말씀해 주셨습니다." # 13394566473348921171
+  bamian.0052.desc.buddhist: "[ROOT.Char.GetFaith.HighGodName]의 신도인 저로서는, 제 궁정에 이토록 박식하고 세 가지 보물에 헌신하는 [monk.GetWomanMan]이 계시다는 사실이 정말 기쁩니다. 저는 [monk.GetHerHim]이 이곳에 머물기를 바라지만, [monk.GetHerHis]의 업보가 [GetGeographicalRegion('world_india').GetNameNoTooltip]으로 [monk.GetHerHim]을 이끌어 모든 중생을 도울 수 있게 되리라 생각합니다." # 15601468943596737059
+  bamian.0052.desc.non_buddhist: "비록 내가 [ROOT.Char.GetFaith.HighGodName]을 섬기지만, [monk.GetFirstNameNoTooltip] 같은 이교도조차 [monk.GetHerHis] 신앙에 쏟는 헌신은 존경할 만하다고 생각한다. 적어도 이 [monk.GetWomanMan]에게 후하게 대접함으로써 외국인들에게 내 영토가 상인과 여행자를 환영하는 곳임을 알릴 수 있으니, 이는 우리 경제와 외교에 이롭다." # 10772252919148587610
+  bamian.0052.a: "안녕히 가시길 바랍니다." # 4103000629984494533
+  bamian.0052.toast: "[monk.GetFullName] 님께서 귀하의 환대에 감명받으셨습니다!" # 1458313053010599714
+  bamian.0053.t: "번역가들" # 8101384886254179603
+  bamian.0053.desc: "저의 영지 내에서 뛰어난 재능과 학식을 갖춘 [ROOT.Char.GetCulture.GetName]계 [ROOT.Char.Custom('DefaultPriestTitlePlural')] 몇몇이 철학과 종교에 대한 통달함과 여러 언어를 배울 수 있는 능력 덕분에 두각을 나타내고 있습니다. 그들 중 몇몇은 [ROOT.Char.GetFaith.GetReligion.GetName]의 영향력이 커지고 있다고 알려져 있지만, [ROOT.Char.GetFaith.GetReligion.GetAdjective] 경전에 정통한 [ROOT.Char.Custom('DefaultPriestTitlePlural')]은 많지 않다는 먼 동쪽으로 가고 싶어 합니다.\n\n어쨌든, 이 웅변에 능한 [ROOT.Char.Custom('DefaultPriestTitlePlural')]들은 동쪽으로 여행하여 목마른 현재 무지한 학생들에게 번역가와 멘토로 봉사하며 다르마를 전파할 작정이며, 저의 도움을 구하고 있습니다. 그들은 제가 그들의 여정을 후원하고 여행 서류와 어쩌면 호위대까지 제공한다면, 모든 지각 있는 존재들을 돕는 공로로 큰 공덕을 쌓을 것이라고 말합니다." # 3478796278816961862
+  bamian.0053.a: "제가 당신의 고귀한 노력에 힘을 보태겠습니다." # 10131912124118289214
+  bamian.0053.b: "제가 당신을 돕기 위해 자금을 따로 떼어 줄 수가 없습니다." # 13540943106420301116
+  bamian.0054.t: "트라푸사 및 발리카" # 15997351911908770550
+  bamian.0054.desc: "오늘 저는 [ROOT.Char.GetFaith.GetAdjective] [ROOT.Char.Custom('DefaultPriestTitlePlural')]께서 설교하시는 것을 듣고 있습니다. 구체적으로 그분들은 부처님의 첫 두 제자인 #bold 트라푸사#!와 #bold 발리카#!에 대한 이야기를 들려주고 계십니다.\n\n전설에 따르면, 그들은 [GetTitleByKey('c_balkh').GetNameNoTier] 시 출신의 두 상인 형제였다고 합니다. 마침 그곳을 지나가던 중 깨달음을 얻으신 부처님께 첫 번째 식사를 대접했으며, 나중에 부처님의 머리카락 사리를 받고 그것을 모실 곳이 필요했을 때 고향에 최초의 #italic 스투파#! 구조물을 세웠다고 합니다.\n\n진실로 이 지역 사람들은 [ROOT.Char.GetFaith.GetReligion.GetName]와 깊은 역사를 가지고 있습니다. 우리는 이 두 형제를 본받아야 할 귀감으로 삼아야 합니다." # 4206449517636120340
+  bamian.0054.a: "그들의 업적은 실로 고무적이로다." # 2179883913533209555
+  bamian.0055.t: "xxxxx" # 1951045980481827005
+  bamian.0055.desc: "xxxxx" # 1951045980481827005
+  bamian.0055.a: "xxxxx" # 1951045980481827005
+  bamian.0056.t: "xxxxx" # 1951045980481827005
+  bamian.0056.desc: "xxxxx" # 1951045980481827005
+  bamian.0056.a: "xxxxx" # 1951045980481827005
+  bamian.0057.t: "xxxxx" # 1951045980481827005
+  bamian.0057.desc: "xxxxx" # 1951045980481827005
+  bamian.0057.a: "xxxxx" # 1951045980481827005
+  bamian.0058.t: "xxxxx" # 1951045980481827005
+  bamian.0058.desc: "xxxxx" # 1951045980481827005
+  bamian.0058.a: "xxxxx" # 1951045980481827005
+  bamian.0059.t: "xxxxx" # 1951045980481827005
+  bamian.0059.desc: "xxxxx" # 1951045980481827005
+  bamian.0059.a: "xxxxx" # 1951045980481827005
+  bamian.0060.t: "xxxxx" # 1951045980481827005
+  bamian.0060.desc: "xxxxx" # 1951045980481827005
+  bamian.0060.a: "xxxxx" # 1951045980481827005
+  bamian.0061.t: "xxxxx" # 1951045980481827005
+  bamian.0061.desc: "xxxxx" # 1951045980481827005
+  bamian.0061.a: "xxxxx" # 1951045980481827005
+  bamian.0062.t: "xxxxx" # 1951045980481827005
+  bamian.0062.desc: "xxxxx" # 1951045980481827005
+  bamian.0062.a: "xxxxx" # 1951045980481827005
+  bamian.0063.t: "xxxxx" # 1951045980481827005
+  bamian.0063.desc: "xxxxx" # 1951045980481827005
+  bamian.0063.a: "xxxxx" # 1951045980481827005
+  bamian.0064.t: "xxxxx" # 1951045980481827005
+  bamian.0064.desc: "xxxxx" # 1951045980481827005
+  bamian.0064.a: "xxxxx" # 1951045980481827005
+  bamian.0065.t: "xxxxx" # 1951045980481827005
+  bamian.0065.desc: "xxxxx" # 1951045980481827005
+  bamian.0065.a: "xxxxx" # 1951045980481827005
+  bamian.0066.t: "xxxxx" # 1951045980481827005
+  bamian.0066.desc: "xxxxx" # 1951045980481827005
+  bamian.0066.a: "xxxxx" # 1951045980481827005
+  bamian.0067.t: "xxxxx" # 1951045980481827005
+  bamian.0067.desc: "xxxxx" # 1951045980481827005
+  bamian.0067.a: "xxxxx" # 1951045980481827005
+  bamian.0068.t: "xxxxx" # 1951045980481827005
+  bamian.0068.desc: "xxxxx" # 1951045980481827005
+  bamian.0068.a: "xxxxx" # 1951045980481827005
+  bamian.0069.t: "xxxxx" # 1951045980481827005
+  bamian.0069.desc: "xxxxx" # 1951045980481827005
+  bamian.0069.a: "xxxxx" # 1951045980481827005
+  bamian.0070.t: "xxxxx" # 1951045980481827005
+  bamian.0070.desc: "xxxxx" # 1951045980481827005
+  bamian.0070.a: "xxxxx" # 1951045980481827005
+  bamian.0071.t: "xxxxx" # 1951045980481827005
+  bamian.0071.desc: "xxxxx" # 1951045980481827005
+  bamian.0071.a: "xxxxx" # 1951045980481827005
+  bamian.0072.t: "xxxxx" # 1951045980481827005
+  bamian.0072.desc: "xxxxx" # 1951045980481827005
+  bamian.0072.a: "xxxxx" # 1951045980481827005
+  bamian.0073.t: "xxxxx" # 1951045980481827005
+  bamian.0073.desc: "xxxxx" # 1951045980481827005
+  bamian.0073.a: "xxxxx" # 1951045980481827005
+  bamian.0074.t: "xxxxx" # 1951045980481827005
+  bamian.0074.desc: "xxxxx" # 1951045980481827005
+  bamian.0074.a: "xxxxx" # 1951045980481827005
+  bamian.0075.t: "xxxxx" # 1951045980481827005
+  bamian.0075.desc: "xxxxx" # 1951045980481827005
+  bamian.0075.a: "xxxxx" # 1951045980481827005
+  bamian.0076.t: "xxxxx" # 1951045980481827005
+  bamian.0076.desc: "xxxxx" # 1951045980481827005
+  bamian.0076.a: "xxxxx" # 1951045980481827005
+  bamian.0077.t: "xxxxx" # 1951045980481827005
+  bamian.0077.desc: "xxxxx" # 1951045980481827005
+  bamian.0077.a: "xxxxx" # 1951045980481827005
+  bamian.0078.t: "xxxxx" # 1951045980481827005
+  bamian.0078.desc: "xxxxx" # 1951045980481827005
+  bamian.0078.a: "xxxxx" # 1951045980481827005
+  bamian.0079.t: "xxxxx" # 1951045980481827005
+  bamian.0079.desc: "xxxxx" # 1951045980481827005
+  bamian.0079.a: "xxxxx" # 1951045980481827005
+  bamian.0080.t: "xxxxx" # 1951045980481827005
+  bamian.0080.desc: "xxxxx" # 1951045980481827005
+  bamian.0080.a: "xxxxx" # 1951045980481827005
+  bamian.0081.t: "xxxxx" # 1951045980481827005
+  bamian.0081.desc: "xxxxx" # 1951045980481827005
+  bamian.0081.a: "xxxxx" # 1951045980481827005
+  bamian.0082.t: "xxxxx" # 1951045980481827005
+  bamian.0082.desc: "xxxxx" # 1951045980481827005
+  bamian.0082.a: "xxxxx" # 1951045980481827005
+  bamian.0083.t: "xxxxx" # 1951045980481827005
+  bamian.0083.desc: "xxxxx" # 1951045980481827005
+  bamian.0083.a: "xxxxx" # 1951045980481827005
+  bamian.0084.t: "xxxxx" # 1951045980481827005
+  bamian.0084.desc: "xxxxx" # 1951045980481827005
+  bamian.0084.a: "xxxxx" # 1951045980481827005
+  bamian.0085.t: "xxxxx" # 1951045980481827005
+  bamian.0085.desc: "xxxxx" # 1951045980481827005
+  bamian.0085.a: "xxxxx" # 1951045980481827005
+  bamian.0086.t: "xxxxx" # 1951045980481827005
+  bamian.0086.desc: "xxxxx" # 1951045980481827005
+  bamian.0086.a: "xxxxx" # 1951045980481827005
+  bamian.0087.t: "xxxxx" # 1951045980481827005
+  bamian.0087.desc: "xxxxx" # 1951045980481827005
+  bamian.0087.a: "xxxxx" # 1951045980481827005
+  bamian.0088.t: "xxxxx" # 1951045980481827005
+  bamian.0088.desc: "xxxxx" # 1951045980481827005
+  bamian.0088.a: "xxxxx" # 1951045980481827005
+  bamian.0089.t: "xxxxx" # 1951045980481827005
+  bamian.0089.desc: "xxxxx" # 1951045980481827005
+  bamian.0089.a: "xxxxx" # 1951045980481827005
+  bamian.0090.t: "xxxxx" # 1951045980481827005
+  bamian.0090.desc: "xxxxx" # 1951045980481827005
+  bamian.0090.a: "xxxxx" # 1951045980481827005
+  bamian.0091.t: "xxxxx" # 1951045980481827005
+  bamian.0091.desc: "xxxxx" # 1951045980481827005
+  bamian.0091.a: "xxxxx" # 1951045980481827005
+  bamian.0092.t: "xxxxx" # 1951045980481827005
+  bamian.0092.desc: "xxxxx" # 1951045980481827005
+  bamian.0092.a: "xxxxx" # 1951045980481827005
+  bamian.0093.t: "xxxxx" # 1951045980481827005
+  bamian.0093.desc: "xxxxx" # 1951045980481827005
+  bamian.0093.a: "xxxxx" # 1951045980481827005
+  bamian.0094.t: "xxxxx" # 1951045980481827005
+  bamian.0094.desc: "xxxxx" # 1951045980481827005
+  bamian.0094.a: "xxxxx" # 1951045980481827005
+  bamian.0095.t: "xxxxx" # 1951045980481827005
+  bamian.0095.desc: "xxxxx" # 1951045980481827005
+  bamian.0095.a: "xxxxx" # 1951045980481827005
+  bamian.0096.t: "xxxxx" # 1951045980481827005
+  bamian.0096.desc: "xxxxx" # 1951045980481827005
+  bamian.0096.a: "xxxxx" # 1951045980481827005
+  bamian.0097.t: "xxxxx" # 1951045980481827005
+  bamian.0097.desc: "xxxxx" # 1951045980481827005
+  bamian.0097.a: "xxxxx" # 1951045980481827005
+  bamian.0098.t: "xxxxx" # 1951045980481827005
+  bamian.0098.desc: "xxxxx" # 1951045980481827005
+  bamian.0098.a: "xxxxx" # 1951045980481827005
+  bamian.0099.t: "xxxxx" # 1951045980481827005
+  bamian.0099.desc: "xxxxx" # 1951045980481827005
+  bamian.0099.a: "xxxxx" # 1951045980481827005

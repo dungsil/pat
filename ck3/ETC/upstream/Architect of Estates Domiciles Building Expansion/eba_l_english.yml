@@ -1,0 +1,7 @@
+﻿l_english:
+# 解锁乡村壁炉
+ eba_grand_solar:0 "$ep3_governor_yearly.3030.t$"
+ eba_grand_solar_tooltip:0 "Unlock [GetDomicileBuilding('grand_solar_01').GetName] [estate|E] [building|E]"
+ eba_grand_solar_effect:0 "Unlock [GetDomicileBuilding('grand_solar_01').GetName] [estate|E] [building|E]"
+ eba_grand_solar_desc:0 "Cattle grow fat in the fields. Youths, untroubled by martial duties, lay sunning themselves in the grass. In our happy towns, traders operate freely and ministers attend to matters of public betterment.\n\nThis comfortable life is best savored with kin."
+ eba_grand_solar_confirm:0 "$ep3_governor_yearly.3030.t$"

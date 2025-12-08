@@ -1,0 +1,28 @@
+﻿l_korean:
+  open_border: "개방 국경" # 8061232073324980307
+  open_border_action_name: "$open_border$" # 3290281310426070859
+  open_border_action_propose_name: "국경 개방 개시" # 14808999069298421829
+  open_border_action_break_name: "국경 개방 중단" # 4578142907449591525
+  open_border_pact_desc: "[SCOPE.GetRootScope.GetDiplomaticPact.GetFirstCountry.GetName]이 [SCOPE.GetRootScope.GetDiplomaticPact.GetSecondCountry.GetName]의 국경을 개방합니다.\n 현재 8단계 중 #variable [SCOPE.GetRootScope.GetDiplomaticPact.GetSecondCountry.MakeScope.Var('border_opening_progress').GetValue]#! 단계가 진행되었습니다." # 4768403082724302980
+  open_border_desc: "#header $open_border$#!\n$TOOLTIP_DELIMITER$\n지정된 국가의 국경을 개방합니다." # 951535347915567019
+  open_border_action_notification_name: "[INITIATOR_COUNTRY.GetName] 국경 개방" # 16828560513002372707
+  open_border_action_notification_desc: "[INITIATOR_COUNTRY.GetName]이 우리나라의 국경을 개방합니다." # 15864064004005079867
+  open_border_action_notification_break_name: "[INITIATOR_COUNTRY.GetName]에 의한 국경 폐쇄 중단" # 14611600744735290883
+  open_border_action_notification_break_desc: "[INITIATOR_COUNTRY.GetName]가 저희 국가의 국경을 개방하려는 시도를 중단했습니다." # 3268219820747675362
+  open_border_effect_desc_global: "국경 개방 개시" # 14808999069298421829
+  open_border_effect_desc_first: "[COUNTRY.GetAdjectiveNoFlag]가 [TARGET_COUNTRY.GetName]와 국경 개방을 시작합니다." # 18319655410839629533
+  open_border_effect_desc_third: "[COUNTRY.GetName]이(가) [AddTextIf(ObjectsEqual(GetMetaPlayer.GetPlayedOrObservedCountry.Self, TARGET_COUNTRY.Self),TARGET_COUNTRY.GetNameNoFlag)][AddTextIf(Not(ObjectsEqual(GetMetaPlayer.GetPlayedOrObservedCountry.Self, TARGET_COUNTRY.Self)),TARGET_COUNTRY.GetName)]와(과) 개방 국경을 개시합니다." # 8073248189472413041
+  open_border_trigger_desc_global: "개방 국경 진행 중" # 4587472265772197666
+  open_border_trigger_false_desc_global: "현재 국경 개방 절차를 진행하고 있지 않습니다." # 11100371955950642938
+  open_border_trigger_desc_first: "[COUNTRY.GetAdjectiveNoFlag]은 [TARGET_COUNTRY.GetName]와 국경을 개방했습니다." # 3065728020030285289
+  open_border_trigger_false_desc_first: "[COUNTRY.GetAdjectiveNoFlag]는 현재 [TARGET_COUNTRY.GetName]와 개방된 국경을 가지고 있지 않습니다." # 6037462837075382243
+  open_border_trigger_desc_third: "[COUNTRY.GetName]은 [AddTextIf(ObjectsEqual(GetMetaPlayer.GetPlayedOrObservedCountry.Self, TARGET_COUNTRY.Self),TARGET_COUNTRY.GetNameNoFlag)][AddTextIf(Not(ObjectsEqual(GetMetaPlayer.GetPlayedOrObservedCountry.Self, TARGET_COUNTRY.Self)),TARGET_COUNTRY.GetName)]와 국경을 개방했습니다." # 9571641511949380833
+  open_border_trigger_false_desc_third: "[COUNTRY.GetName]은 현재 [AddTextIf(ObjectsEqual(GetMetaPlayer.GetPlayedOrObservedCountry.Self, TARGET_COUNTRY.Self),TARGET_COUNTRY.GetNameNoFlag)][AddTextIf(Not(ObjectsEqual(GetMetaPlayer.GetPlayedOrObservedCountry.Self, TARGET_COUNTRY.Self)),TARGET_COUNTRY.GetName)]와 개방된 국경을 가지고 있지 않습니다." # 5583522482627391595
+  ib_events.03.t: "개방 국경" # 8061232073324980307
+  ib_events.03.d: "자부심 넘치는 [ROOT.GetCountry.GetName]은 [SCOPE.sCountry('openborders_target_country').GetName]과의 국경 개방을 성공적으로 완료했습니다. [SCOPE.sCountry('openborders_target_country').GetName]은 본국과의 교류 증대를 통해 영원한 번영을 누릴 것입니다." # 1080175918108815691
+  ib_events.03.f: "[ROOT.GetCountry.GetName] 만세!" # 14790848653475303579
+  ib_events.03.a: "잘 했소." # 14562174443526593361
+  open_border_weekly_effect: "[GetLawGroup('lawgroup_migration').GetName] [concept_law]이(가) [concept_subject]의 [GetLawType('law_closed_borders').GetName]에서 [GetLawType('law_migration_controls').GetName]로 바뀌고, [GetLawType('law_migration_controls').GetName]은(는) [GetLawType('law_no_migration_controls').GetName]으로 바뀝니다. 매주 진척도가 생길 확률이 20%이며, 성공하려면 8점의 진척도가 필요합니다.매주 진척도가 생길 확률이 20%이며, 성공하려면 8점의 진척도가 필요합니다." # 5638831693714502779
+  notification_MoG_SIS_border_opened_name: "[SCOPE.sCountry('openborders_target_country').GetName] 국경 개방" # 11969123437450554770
+  notification_MoG_SIS_border_opened_desc: "[SCOPE.sCountry('openborders_target_country').GetName]이(가) [SCOPE.sLawType('new_law').GetName]을(를) 채택했습니다." # 12155821980972008191
+  notification_MoG_SIS_border_opened_tooltip: "#header $notification_MoG_SIS_border_opened_name$#!\n$notification_MoG_SIS_border_opened_desc$" # 7123370337714984674

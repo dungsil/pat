@@ -1,0 +1,23 @@
+﻿l_korean:
+  all_holy_order_masters: "모든 대영주" # 6440463548647462260
+  all_holy_order_masters_same_faith: "[donator.GetFaith.GetAdjectiveNoTooltip] 신앙의 모든 대영주께서는" # 9813879898930174944
+  holy_order.0292.second_time: "다시 한번 상기시켜 드리지만, 당신은 저에게 #bold [SCOPE.GetValue('loan_amount_owed')|0]# 골드를 빚지고 있습니다!" # 6785912014510374211
+  holy_order.0292.opening: "당신은 내 명에 #bold [SCOPE.GetValue('loan_amount_owed')|0]#! 금을 빚지고 있소." # 11753710703120335315
+  repay_holy_order_loan_decision: "$repay_loan_decision$" # 1189303986898690253
+  repay_holy_order_loan_decision_confirm: "$repay_loan_decision_confirm$" # 14709016379948944074
+  repay_holy_order_loan_decision_desc_intro: "제가 [ROOT.Char.GetTitleAsNameNoTooltip]으로서 빚을 지고 있다는 것은 품위에 맞지 않습니다. 빚을 갚을 때가 왔습니다." # 4473807896444032870
+  repay_holy_order_loan_decision_desc_all_new_char: "[ROOT.Var('loan_story').Var('original_loan_holder').Char.GetTitledFirstName]의 후계자로서, 이제 그 빚을 갚아야 할 의무가 나에게로 넘어왔다." # 11062679740750142649
+  repay_holy_order_loan_decision_desc_inherited_loan_char: "[ROOT.Var('loan_story').Var('original_loan_holder').Char.GetTitledFirstName]의 후계자로서, [ROOT.Var('loan_story').Var('original_loan_lender').Char.GetTitledFirstName]께서 빌려주신 금을 갚아야 할 의무가 이제 저에게 넘어왔습니다." # 7089352622514766960
+  repay_holy_order_loan_decision_desc_new_holy_master_char: "자금은 [ROOT.Var('loan_story').Var('original_loan_lender').Char.GetTitledFirstName]가 빌려주었으나, 현재 성스러운 교단은 [ROOT.Var('loan_story').Var('holy_order').HolyOrder.GetOwner.GetTitledFirstName]가 이끌고 있습니다." # 3673751878428281350
+  repay_holy_order_loan_decision_desc_all_same_char: "\n\n나는 [ROOT.Var('loan_story').Var('holy_order').HolyOrder.GetOwner.GetTitledFirstName]께서 빌려주신 £gold£를 갚아야만 하오." # 10031324050776392073
+  repay_holy_order_loan_decision_desc_outro: "\n\n이 차용은 [ROOT.Var('loan_story').Var('loan_month').GetValue|0]/[ROOT.Var('loan_story').Var('loan_day').GetValue|0]/[ROOT.Var('loan_story').Var('loan_year').GetValue|0]에 체결되었습니다." # 6337377018285537925
+  loan_story.0001.title: "기사단의 몰락" # 14970486082841384518
+  loan_story.0001.intro: "저에게 돈을 빌려주었던 성스러운 교단이 몰락하면서, 제 빚에 대한 기억도 함께 희미해졌습니다." # 2308944601478117033
+  loan_story.0001.body: "이제 아무런 걱정 없이 그 돈을 가질 수 있겠군." # 12101319966537739616
+  loan_story.0001.outro: "\n\n하지만 이것이 우리의 성스러운 교단에 무엇을 의미하는가?" # 8487153309084118651
+  loan_story.0001.option.a: "$vassal.2205.c$" # 18232679866533139925
+  loan_story.0002.title: "깜짝 상속" # 7189677934107524572
+  loan_story.0002.intro: "내 [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('original_loan_holder'))]께서 돌아가신 지 며칠이 지났습니다." # 1713981261941815513
+  loan_story.0002.body: "\n\n내 조언가 중 한 명이 [holy_order.GetName] 성스러운 교단으로부터 전서 한 통을 가져왔습니다. 그들은 나의 [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('original_loan_holder'))]께서 그들에게 [SCOPE.GetValue('gold_owed')|0] 골드를 빚졌다고 알려왔습니다." # 17256386344207271216
+  loan_story.0002.outro: "후계자로서, 이 빚을 갚아야 할 의무가 이제 나에게로 넘어왔다." # 701370325949223153
+  loan_story.0002.option.a: "이\"선\"이 없었어도 잘 지냈을 텐데." # 14589836396536742103

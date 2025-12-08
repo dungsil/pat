@@ -1,0 +1,3 @@
+﻿l_english:
+ ep3_roman_restoration.household_gods_tenet: "The [GetFaithDoctrine('tenet_household_gods').GetBaseName] [core_tenet|E] is unlocked for [GetFaithByKey( 'romanic_pagan_old' ).GetName]"
+ may_choose_to_convert_hellenic_desc: "May choose to convert to [GetFaithByKey( 'romanic_pagan_old' ).GetName]"

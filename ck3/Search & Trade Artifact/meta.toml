@@ -1,0 +1,4 @@
+[upstream]
+url = "https://github.com/pharaox/artifact_trade.git"
+localization = ["localization/english", "localization/replace/english"]
+language = "english"

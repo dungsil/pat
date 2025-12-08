@@ -1,0 +1,399 @@
+﻿l_korean:
+  RICE_capital_in_britannia_or_francia_req: "[capital|E]는 [GetGeographicalRegion('world_europe_west_britannia').GetName] 또는 [GetGeographicalRegion('world_europe_west_francia').GetName]에 위치해 있습니다." # 14710199226085516009
+  RICE_decision_breton_culture_requirement: "귀하의 [culture|E]는 브르타뉴에서 유래했거나 브르타뉴와 혼합되었습니다." # 6121120882421792164
+  RICE_breton_aspiration_constance_desc: "#bold [historical_aspiration_main_objectives|E]#!\n$EFFECT_LIST_BULLET$ [ruler|E]가 되어 [GetTitleByKey('d_brittany').GetNameNoTier]를 [completely_control|E]하십시오\n$EFFECT_LIST_BULLET$ [adult|E] 연령의 [child|E]를 두고, 그가 당신의 [house|E]의 [primary_heir|E]가 되게 하십시오\n$EFFECT_LIST_BULLET$ [king|E] 또는 [emperor|E] [rank|E]의 [ruler|E]와 최소 하나의 [alliance|E]를 맺으십시오\n\n#bold 보상#!\n$EFFECT_LIST_BULLET$@prestige_icon! #V [EmptyScope.ScriptValue('RICE_aspiration_medium_resource_bonus')]#! [prestige|E] 획득\n$EFFECT_LIST_BULLET$@dynasty_prestige_icon! #V [EmptyScope.ScriptValue('RICE_aspiration_large_resource_bonus')]#! [dynasty_prestige|E] 획득\n$EFFECT_LIST_BULLET$@legitimacy_icon! #V [EmptyScope.ScriptValue('medium_legitimacy_gain')]#! [legitimacy|E] 획득\n\n#bold [historical_aspiration_bonus_objectives|E]#!\n$EFFECT_LIST_BULLET$ [independent|E] [ruler|E]가 되십시오 (보상: @dynasty_prestige_icon! #V [EmptyScope.ScriptValue('RICE_aspiration_large_resource_bonus')]#! [dynasty_prestige|E] 획득)\n$EFFECT_LIST_BULLET$ [king|E] 또는 [emperor|E] [rank|E]의 [rulers|E]와 최소 두 개의 [alliances|E]를 맺으십시오 (보상: [diplomacy_lifestyle|E] [perk|E] 획득)\n$EFFECT_LIST_BULLET$최소 #V 10#! [counties|E]를 통치하십시오 (보상: [special_troops|E] #V 500#! 획득, 여기에는 일부 [men_at_arms|E] 포함)" # 1489974702777600551
+  RICE_breton_historical_aspiration_action_constance: "#italic [GetTitleByKey('d_brittany').GetNameNoTier]#은 더 큰 세력들에게 둘러싸여 있으며, 그들은 여성이 통치하는—바로 당신을—이용하여 지배하려 하기에 위태로운 상황에 처해 있습니다. 당신은 가문과 자녀들의 유산을 지키고, [GetTitleByKey('d_brittany').GetNameNoTier]의 독립, 혹은 적어도 자치권을 유지하기 위해 할 수 있는 모든 것을 해야 합니다!# $RICE_breton_aspiration_constance_desc$" # 18253816313991647358
+  RICE_breton_historical_aspiration_modifier_desc_constance: "[GetModifier('RICE_breton_aspiration_secure_rule_over_brittany').GetNameWithTooltip]" # 16598881085446994762
+  RICE_breton_aspiration_secure_rule_over_brittany: "[aspiration|E]: 브르타뉴에 가문의 통치를 확립하라" # 10352799722609145979
+  RICE_breton_aspiration_secure_rule_over_brittany_desc: "#italic [GetTitleByKey('d_brittany').GetNameNoTier]#는 더 큰 세력들에게 둘러싸여 그들의 통제하에 놓이거나, 여성이 통치한다는 사실을 이용당할 위기에 처해 있습니다. 그녀는 자신의 가문과 자식들의 상속 재산을 지키고, [GetTitleByKey('d_brittany').GetNameNoTier]의 독립 혹은 최소한의 자치권을 유지하기 위해 할 수 있는 모든 것을 해야 합니다!#$RICE_breton_aspiration_constance_desc$\n\n" # 2128026246545472979
+  RICE_breton_tro_breizh_host_memory: "[GetActivityType( 'activity_RICE_breton_tro_breizh' ).GetName]에 참가했습니다." # 12081803980993174498
+  RICE_breton_tro_breizh_host_memory_first_perspective: "저는 [GetActivityType( 'activity_RICE_breton_tro_breizh' ).GetName]에 참여했습니다." # 1424760714202298532
+  RICE_breton_tro_breizh_host_memory_second_perspective: "당신은 [GetActivityType( 'activity_RICE_breton_tro_breizh' ).GetName]에 참여했습니다." # 5027667436192660545
+  RICE_breton_tro_breizh_host_memory_third_perspective: "[owner.GetName]께서 [GetActivityType(  'activity_RICE_breton_tro_breizh' ).GetName]에 참여하셨습니다." # 3681537881068309385
+  RICE_breton_tro_breizh_guest_memory: "[host.GetTitledFirstName]와 함께 [GetActivityType( 'activity_RICE_breton_tro_breizh' ).GetName]에 참가했습니다." # 9552476223273247642
+  RICE_breton_tro_breizh_guest_memory_first_perspective: "저는 [host.GetTitledFirstName]와 함께 [GetActivityType( 'activity_RICE_breton_tro_breizh' ).GetName]에 다녀왔습니다." # 12595278200754997870
+  RICE_breton_tro_breizh_guest_memory_second_perspective: "[host.GetTitledFirstName]와 함께 [GetActivityType( 'activity_RICE_breton_tro_breizh' ).GetName]에 참여했습니다." # 1850396540871448474
+  RICE_breton_tro_breizh_guest_memory_third_perspective: "[owner.GetName]께서 [host.GetTitledFirstName]와 함께 [GetActivityType(  'activity_RICE_breton_tro_breizh' ).GetName]에 참여하셨습니다." # 16426030877772376315
+  activity_tro_breizh_host_an_a: "$host_activity_a$" # 13713790857143020716
+  activity_tro_breizh: "트루 브레이즈 순례" # 2647241280700260965
+  activity_tro_breizh_name: "[ACTIVITY.GetOwner.GetNamePossessiveOrMy|U]의 브르타뉴 7대 성지 순례" # 13242859135794374061
+  activity_RICE_breton_tro_breizh: "트루 브레이즈 순례" # 2647241280700260965
+  activity_RICE_breton_tro_breizh_desc: "[GetTitleByKey('d_brittany').GetNameNoTier]의 일곱 성스러운 창립 성인들은 각각 일곱 개의 특정 도시와 연관되어 있으며, 이 도시들은 [local_pilgrimage|E]의 장소가 됩니다." # 10555690743912938285
+  activity_RICE_breton_tro_breizh_selection_tooltip: "[GetTitleByKey('d_brittany').GetNameNoTier] 내 여러 중요한 도시들을 순례하는 [local_pilgrimage|E]를 떠나보십시오.\n\n$RICE_tro_breizh_context_tooltip$" # 9096401584271507732
+  activity_RICE_breton_tro_breizh_host_desc: "$activity_RICE_local_pilgrimage_host_desc$\n$BULLET_WITH_TAB$ [GetModifier('RICE_breton_recent_tro_breizh').GetNameWithTooltip] [character_modifier|E]" # 5308395444945021269
+  activity_RICE_breton_tro_breizh_guest_desc: "$activity_RICE_breton_tro_breizh_host_desc$" # 1867992609536706847
+  activity_RICE_breton_tro_breizh_destination_selection: "$activity_RICE_breton_tro_breizh_province_desc$" # 6643021726970753497
+  activity_RICE_breton_tro_breizh_guest_help_text: "$activity_RICE_breton_tro_breizh$" # 5197363348919581016
+  activity_RICE_breton_tro_breizh_predicted_cost: "[GetTitleByKey('d_brittany').GetNameNoTier]에서의 [local_pilgrimage|E] 비용은 귀하가 선택하는 [activity_options|E]에 따라 달라집니다." # 17175877057964180411
+  activity_RICE_breton_tro_breizh_conclusion_desc: "우리의 [GetActivityType( 'activity_RICE_breton_tro_breizh' ).GetName]이 끝났습니다. [GetTitleByKey('d_brittany').GetNameNoTier]의 이 중요하고 신성한 장소들을 여행한 것은 고무적이었습니다!" # 10537075645299453917
+  RICE_breton_tro_breizh_completed_log_title: "트로 브레 이즈 완료" # 4685948963000944640
+  RICE_breton_tro_breizh_completed_log: "[CHARACTER.GetShortUIName|U]께서 [CHARACTER.GetHerHis] 트로 브레이즈를 완수하셨습니다." # 16353394389273336734
+  TRAVEL_NAME_FOR_activity_RICE_breton_tro_breizh: "[Character.GetFirstNamePossessiveNoTooltip] $activity_RICE_breton_tro_breizh$" # 1733105121290062289
+  activity_RICE_breton_tro_breizh_owner: "순례자" # 384073485693042227
+  RICE_breton_in_quimper_req: "귀하의 [camp|E]는 [GetTitleByKey('b_quimper').GetNameNoTier]에 있습니다." # 15845533822828957895
+  RICE_breton_guerande_salterns: "게랑드의 염전" # 10948808675016201628
+  RICE_breton_guerande_salterns_desc: "게랑드(브르타뉴어로 그웬란) 마을은 거대한 염전 근처에 자리 잡고 있습니다. 수 세기 동안 이곳 사람들은 지역 염전에서 소금을 채취하여 상당한 이익을 얻어 왔습니다." # 109910273814275904
+  RICE_breton_recent_tro_breizh: "브르타뉴 순례 완료" # 3520928736035499911
+  RICE_breton_recent_tro_breizh_desc: "이 인물은 최근 브르타뉴의 많은 브르타뉴인들이 행하는 고대의 기독교 순례인 '브르타뉴 순례'를 마쳤습니다. 전통적으로 이 순례는 브르타뉴 내의 일곱 성지를 아우릅니다." # 9215592111842069202
+  RICE_breton_calvary_small: "소형 기병" # 2918073670185371433
+  RICE_breton_calvary_small_desc: "이 인물은 최근 브르타뉴 정착지에 소규모의 기마상 혹은 기념비적인 공공 십자가 조형물 건설을 위한 자금을 기부했습니다. 규모는 작지만, 경건함을 보여주는 좋은 행동입니다." # 10338327187675265396
+  RICE_breton_calvary_medium: "중기병" # 16601707645682802404
+  RICE_breton_calvary_medium_desc: "이 인물은 최근 브르타뉴 정착지에 중형 규모의 기마상, 혹은 기념비적인 공공 십자가 조각상을 세우기 위한 자금을 기부했습니다. 이는 유일하신 참된 신앙의 증거가 될 것입니다." # 15145518676098210467
+  RICE_breton_calvary_large: "대형 기병" # 9073694047259291140
+  RICE_breton_calvary_large_desc: "이 인물이 최근 브르타뉴 정착지에 대규모 기병상, 즉 기념비적인 공공 십자가 조각상 건립을 위해 자금을 기부했습니다. 이 조각상은 그 웅장함과 아름다움으로 많은 이들에게 영감을 줄 것입니다!" # 13111100765992982893
+  RICE_breton_observed_treguier_merchants: "트레기예 상인들이 일하는 것을 목격함" # 12600150894931762835
+  RICE_breton_treguier_pilgrim_stories: "트레기예에서 순례자들과의 대화" # 6522667482894607492
+  RICE_breton_fruits_of_dol: "브르타뉴 도시 돌에서 과일을 구입했습니다." # 10855964072001958510
+  RICE_breton_merlins_blessing: "멀린의 축복" # 12520722132414902123
+  RICE_breton_merlins_blessing_desc: "그들은 이 인물이 아서 왕 전설에 나오는 유명한 인물인 멀린의 가묘를 방문한 후 일종의 신성한 축복을 받았다고 말합니다." # 217427402366228003
+  RICE_breton_using_carnac_stones: "카르낙 석재를 이용한 건설 프로젝트" # 8851846434769155024
+  RICE_breton_eagle_fern_minor: "#weak 독수리 고사리 달임약#!" # 18354154695820936767
+  RICE_breton_eagle_fern_major: "독수리 고사리 혼합물 (강력)" # 8654897321210549493
+  RICE_breton_golden_grass: "황금 풀 영약" # 7003102715276268625
+  RICE_breton_impressive_herbal_knowledge: "브르타뉴에서 발견되는 약초와 식물에 대한 인상적인 지식" # 4048787361443504400
+  RICE_breton_ankou_sightings: "앙쿠 목격" # 5582347130686609319
+  RICE_breton_ankou_sightings_desc: "최근 이 지역에서는 브르타뉴 민속에 나오는 죽음의 정령인 앙쿠(Ankou)의 목격담이 많아졌습니다. 이 목격담과 연관되어 불행한 사건과 사망 사고가 여러 건 발생했지만, 좀 더 이성적인 학자들은 이러한 믿음이 대중적 히스테리에 불과할 것이라고 주장합니다." # 14022536272103746644
+  RICE_breton_chouchen_too_much: "너무 독한 초우첸 사이다를 마셨다" # 4814025321863006136
+  RICE_breton_tales_of_ys: "최근 들려오는 이스에 대한 이야기들" # 970145226437582440
+  RICE_breton_tales_of_ys_desc: "이쉬는 브르타뉴에 있던 막대한 부와 권력을 자랑하던 전설적인 도시로, 수많은 세대 전에 바다에 삼켜졌다고 전해집니다. 이 인물은 최근 바닷속에서 그 도시의 유적을 보았다고 주장하는 누군가를 만났습니다." # 10391723285562607255
+  RICE_breton_salted_butter_feasts: "브르타뉴 소금 버터와 함께하는 연회" # 14421428960162324176
+  RICE_breton_chouchen_aphrodasiac: "슈센 최음제" # 4157353184800597727
+  RICE_breton_chouchen_aphrodasiac_desc: "이 인물은 최근 슈센주를 많이 마셨습니다. 브르타뉴 전설에 따르면 이 종류의 벌꿀술은 최음제로도 사용될 수 있다고 합니다." # 3747801767875831181
+  RICE_breton_eating_salted_butter: "브르타뉴 소금 버터 많이 먹기" # 4518771978014387962
+  RICE_tro_breizh: "브르타뉴 순례를 떠나기" # 17048663501830673413
+  RICE_tro_breizh_tooltip: "브르타뉴의 일곱 성인을 순례하는 '브르타뉴 순방'을 떠나게 될 것입니다." # 16939051521675507041
+  RICE_tro_breizh_desc: "나는 트로 브레이즈 성지 순례를 떠나 브르타뉴의 일곱 성인 설립자와 관련된 도시들을 방문할 것입니다." # 1577276814441728348
+  RICE_tro_breizh_effect_tooltip: "당신은 브르타뉴의 일곱 마을을 방문하게 될 것이며, 각 마을은 지역 브르타뉴 성인에게 봉헌되어 있습니다." # 10565932616847560062
+  RICE_tro_breizh_confirm: "브르타뉴로 진격하라!" # 9434906192127186980
+  RICE_erect_calvary_sculpture: "십자가상 건립" # 9469257151612398212
+  RICE_erect_calvary_sculpture_tooltip: "지역 마을에 기병 조각상 건설을 후원하겠습니다." # 10069398393879863542
+  RICE_erect_calvary_sculpture_desc: "저는 지역 마을에 기병대, 즉 기념비적인 공공 십자가상 건설을 후원하겠습니다." # 6241345706143565416
+  RICE_erect_calvary_sculpture_effect_tooltip: "귀하의 수도는 10년 동안 특별한 효과를 받게 될 것입니다." # 9445390467892421905
+  RICE_erect_calvary_sculpture_extra_cost_tooltip: "더 큰 기병대는 건설 비용이 더 많이 들 것입니다." # 8481657542430306777
+  RICE_erect_calvary_sculpture_confirm: "건설을 시작해 봅시다!" # 18381223603181914751
+  RICE_breton_decision_calvary_requirement: "#weak 브르타뉴#!, #weak 북부 프랑스#!, #weak 포르투갈#! 또는 #weak 저지대 국가#!의 속령을 소유하고 있습니다." # 7390199772008389121
+  RICE_tro_breizh_context_tooltip: "#emphasis 역사적 배경:#! 지역 순례는 수세기 동안 브르타뉴 문화의 중요한 부분이었습니다(기독교 세계의 다른 많은 지역과 마찬가지로), '트루 브레이즈(Tro Breizh)'는 현대적인 용어이자 개념이지만, 이 지역의 역사적 순례를 대표하기 위해 편의상 사용되었습니다." # 2182484876699327225
+  RICE_erect_calvary_sculpture_context_tooltip: "#emphasis 역사적 배경:#! 칼바리(기병대와 혼동해서는 안 됨)는 후기 중세 및 근세에 나타나는 기념비적인 건축물의 한 종류로, 주로 브르타뉴와 같은 대륙 서유럽의 여러 지역에서 발견됩니다." # 4907239539083605766
+  breton.0000.t: "xxxxx" # 1951045980481827005
+  breton.0000.desc: "xxxxx" # 1951045980481827005
+  breton.0000.a: "xxxxx" # 1951045980481827005
+  breton.0001.t: "[GetTitleByKey('d_brittany').GetNameNoTier]의 여공작" # 6880395017439797993
+  breton.0001.desc: "[constance.GetTitledFirstName]는 기묘한 상황을 통해 아버지인 [conan.GetTitledFirstName]로부터 왕위를 물려받았습니다. [conan.GetSheHe|U]는 일부 [constance.GetCulture.GetName] 귀족들의 반란을 진압하기 위해 [henry.GetTitledFirstName]에게 도움을 간청했었습니다.\n\n하지만 [henry.GetFirstNameNoTooltip]에게는 몇 가지 조건이 있었습니다. 즉, [conan.GetFirstNameNoTooltip]이 자신의 딸인 [constance.GetFirstNameNoTooltip]을 [henry.GetFirstNamePossessiveNoTooltip]의 아들인 [geoffrey.GetTitledFirstName]와 약혼시키는 것이었습니다. 모욕에 굴욕을 더하듯, [henry.GetFirstNameNoTooltip]은 나중에 [conan.GetFirstNameNoTooltip]에게 왕위에서 물러나라고 강요했습니다.\n\n[constance.GetFirstNameNoTooltip]은 자신이 위태롭고 위험한 상황에 처해 있음을 깨닫습니다. 만약 [constance.GetHerHis] 가문이 잉글랜드, 프랑스 또는 다른 인근 왕국들의 계략으로부터 살아남으려면, [constance.GetSheHe]는 자신의 모든 재치와 정치적 기술을 사용하여 [constance.GetHerHis] 후계자들이 정당한 상속권을 빼앗기지 않도록 보장해야 할 것입니다." # 12651827797832750846
+  breton.0001.a: "[GetTitleByKey('d_brittany').GetNameNoTierNoTooltip]에겐 위험한 시기입니다...." # 538486664683808222
+  breton.0002.t: "$RICE_historical_aspiration_fulfilled_title$" # 6312590152546762382
+  breton.0002.desc: "제가 살아남을 것이라고 모두가 예상한 것은 아니라고 말해도 과언이 아닙니다. 저와 [GetTitleByKey('d_brittany').GetNameNoTier]는 유럽의 강대국들 사이의 거대한 게임에서 그저 졸개에 불과할 운명이었습니다.\n\n하지만 정치와 책략, 그리고 약간의 전투를 통해 저는 [constance.GetHouse.GetName] 가문의 다음 세대를 위해 [GetTitleByKey('d_brittany').GetNameNoTierNoTooltip]을 확보하는 데 성공했습니다.\n\n그럼에도 불구하고 우리는 항상 경계해야 하며, 적들이 우리의 약점을 이용하지 않도록 조심해야 합니다. 저의 임무는 아직 끝나지 않았으며, 우리 가문이 이 영토들을 유지하도록 계속 노력해야 합니다. 때가 되면 [heir.GetTitledFirstName]가 저의 뒤를 이을 것입니다." # 3536520395790518489
+  breton.0002.a: "#bold [constance.GetHouse.GetNameNoTooltip] 가문에 영광을!#" # 14315377613123473310
+  breton.0003.t: "xxxxx" # 1951045980481827005
+  breton.0003.desc: "xxxxx" # 1951045980481827005
+  breton.0003.a: "xxxxx" # 1951045980481827005
+  breton.0004.t: "xxxxx" # 1951045980481827005
+  breton.0004.desc: "xxxxx" # 1951045980481827005
+  breton.0004.a: "xxxxx" # 1951045980481827005
+  breton.0005.t: "xxxxx" # 1951045980481827005
+  breton.0005.desc: "xxxxx" # 1951045980481827005
+  breton.0005.a: "xxxxx" # 1951045980481827005
+  breton.0006.t: "xxxxx" # 1951045980481827005
+  breton.0006.desc: "xxxxx" # 1951045980481827005
+  breton.0006.a: "xxxxx" # 1951045980481827005
+  breton.0007.t: "xxxxx" # 1951045980481827005
+  breton.0007.desc: "xxxxx" # 1951045980481827005
+  breton.0007.a: "xxxxx" # 1951045980481827005
+  breton.0008.t: "xxxxx" # 1951045980481827005
+  breton.0008.desc: "xxxxx" # 1951045980481827005
+  breton.0008.a: "xxxxx" # 1951045980481827005
+  breton.0009.t: "xxxxx" # 1951045980481827005
+  breton.0009.desc: "xxxxx" # 1951045980481827005
+  breton.0009.a: "xxxxx" # 1951045980481827005
+  breton.0010.t: "기병대 양성" # 16529307697879415278
+  breton.0010.desc: "새로운 십자가상을 건설하기에 적합한 정착지를 발견했습니다. 이는 예수 그리스도의 십자가 처형을 묘사하는 아름다운 기념물이 될 것이며, 충분히 크다면 복되신 동정 마리아, 여러 사도 및 성인들의 조각상도 포함할 수 있을 것입니다. 이제 이 기념물이 얼마나 장엄할지를 결정할, 이 프로젝트에 기꺼이 제공할 자금의 규모를 정해야 합니다." # 15607778491440512864
+  breton.0010.a: "소액의 자금" # 12970833399773681720
+  breton.0010.b: "적당한 규모의 자금" # 14261197993437895235
+  breton.0010.c: "막대한 자금" # 15333952289989668324
+  breton.0010.d: "신경 쓰지 않겠습니다" # 15302717357255559345
+  breton.0011.t: "xxxxx" # 1951045980481827005
+  breton.0011.desc: "xxxxx" # 1951045980481827005
+  breton.0011.a: "xxxxx" # 1951045980481827005
+  breton.0012.t: "xxxxx" # 1951045980481827005
+  breton.0012.desc: "xxxxx" # 1951045980481827005
+  breton.0012.a: "xxxxx" # 1951045980481827005
+  breton.0013.t: "xxxxx" # 1951045980481827005
+  breton.0013.desc: "xxxxx" # 1951045980481827005
+  breton.0013.a: "xxxxx" # 1951045980481827005
+  breton.0014.t: "xxxxx" # 1951045980481827005
+  breton.0014.desc: "xxxxx" # 1951045980481827005
+  breton.0014.a: "xxxxx" # 1951045980481827005
+  breton.0015.t: "xxxxx" # 1951045980481827005
+  breton.0015.desc: "xxxxx" # 1951045980481827005
+  breton.0015.a: "xxxxx" # 1951045980481827005
+  breton.0016.t: "xxxxx" # 1951045980481827005
+  breton.0016.desc: "xxxxx" # 1951045980481827005
+  breton.0016.a: "xxxxx" # 1951045980481827005
+  breton.0017.t: "xxxxx" # 1951045980481827005
+  breton.0017.desc: "xxxxx" # 1951045980481827005
+  breton.0017.a: "xxxxx" # 1951045980481827005
+  breton.0018.t: "xxxxx" # 1951045980481827005
+  breton.0018.desc: "xxxxx" # 1951045980481827005
+  breton.0018.a: "xxxxx" # 1951045980481827005
+  breton.0019.t: "xxxxx" # 1951045980481827005
+  breton.0019.desc: "xxxxx" # 1951045980481827005
+  breton.0019.a: "xxxxx" # 1951045980481827005
+  breton.0020.t: "브르타뉴 순례를 준비하며" # 2296967259520446701
+  breton.0020.desc: "브르타뉴 사람들은 트로 브레이즈 성지 순례를 마치지 않으면 사후세계에서 고통받으며 그곳에서 순례를 마쳐야 한다고들 하더군. 이 성지 순례를 할 때가 된 것 같소! 예를 들어 예루살렘까지 가는 것만큼 명예롭거나 고된 여정은 아니지만, 이것은 우리 유산의 중요한 일부이지." # 12903785149245936207
+  breton.0020.a: "이제 떠날 시간이다!" # 8136960349514672355
+  breton.0021.t: "#bold 트로 브레이즈#가 시작됩니다" # 3128006281643285029
+  breton.0021.desc: "날이 밝았습니다. 이제 트로 브레즈 순례를 시작할 시간입니다! 저는 브르타뉴의 건국 성인들이 있는 일곱 도시로 여행하며 그 과정에서 많은 신앙심을 얻을 것입니다." # 6895554138577061613
+  breton.0021.a: "첫 번째는 캥페르, 성 코렌틴의 도시입니다." # 13149704936800087663
+  breton.0022.t: "캥페르" # 13037231185534830910
+  breton.0022.desc: "소박한 캥페르 마을은 내가 바라던 만큼 우아하거나 사치스럽지는 않지만, 분명 그 나름의 매력이 있군. 이곳의 보수적인 사람들은 매우 신앙심이 깊고, 종교적인 분위기는 나의 성지 순례를 시작하기에 좋은 출발점이야.\n\n나는 기도하고 묵상하기 위해 생 코랑탱 성당으로 향한다. 그는 이 마을의 초대 주교였으며, 그의 몸 일부가 다시 자라나 필요할 때마다 스스로를 부양할 수 있게 해주는 기적의 물고기를 가졌다고 전해진다. 기도한 후에, 캥페르를 떠나기 전에 현지 음식을 꼭 즐겨야겠어!" # 6940667483822943920
+  breton.0022.a: "내일 나는 생폴드레옹으로 떠난다." # 15245499582582530361
+  breton.0023.t: "생폴드레옹" # 9362749635498593920
+  breton.0023.desc: "생폴드레옹은 그림 같은 해변과 상쾌한 바닷바람이 축복처럼 내리는 사랑스러운 해안 도시입니다. 이곳에서는 특이하게도 많은 채소와 과일이 자라는데, 이는 이 도시의 위대한 성인인 성 파울루스 아우렐리아누스에 얽힌 이야기들을 고려하면 놀라운 일이 아닙니다.\n\n바로 이곳에 성 파울루스 아우렐리아누스가 중요한 수도원을 세웠습니다. 그는 고기를 먹기를 거부하는 흥미로운 습관이 있었으며, 거의 한 세기 반을 살았다고 전해집니다. 트레기예로 떠나기 전에 그의 금욕적인 태도를 어떤 식으로든 기려야 할지도 모르겠습니다." # 3242922071456616265
+  breton.0023.a: "#bold 세인트폴드레옹#에 머무는 동안에는 어떤 종류의 고기도 먹지 않겠습니다!" # 1759563832202109583
+  breton.0023.b: "고기가 없다고요? 좋은 생각이 아닌 것 같군요. 여기 있는 것만으로도 충분합니다." # 9234978571653006674
+  breton.0024.t: "트레기예" # 15573633888542196506
+  breton.0024.desc: "트레기에는 생폴드레옹과 같은 해안 도시이지만 훨씬 더 활기가 넘칩니다. 중요한 지역 항구로서 상업과 무역으로 늘 분주합니다. 어쩌면 이곳은 좀 더 사색적이고 종교적인 경험을 하기에 항상 최적의 장소는 아닐지 모르지만, 그것이 반드시 나쁜 것만은 아닙니다.\n\n트레기에는 저명한 은둔자이자 수도사였으며 나중에 이 도시의 주교가 된 성 투드발의 도시입니다. 순례자들의 인파를 헤치고 나아가야 하니, 그분의 인내심을 본받아야겠습니다.\n\n이곳을 지나면 생브리외로 갑니다." # 15239987931442571133
+  breton.0024.a: "상인들을 지켜보며 내가 있는 동안 사업이 어떻게 돌아가는지 확인해 보시오." # 17951549660713202204
+  breton.0024.b: "세계적인 순례자들과 대화하며 그들의 이야기를 들어보십시오" # 1247968766335255072
+  breton.0024.c: "영적인 일에 집중하고, 성 투드왈 교회에서 기도하십시오." # 10670069674656314490
+  breton.0025.t: "생브리외" # 11148855589963361583
+  breton.0025.desc: "이제 나는 생브리외에 도착했다. 또 다른 항구 도시로군. 최근에 거쳐 온 번잡한 도시들에 조금 지쳤는데, 다행히 생브리외는 그 자연적인 만으로 안식처를 제공한다. 푸른 물결 아래로 펼쳐진 광활한 녹지 풍경이로구나. 현지인들이 말해줬는데, 이곳 성지에서는 수백, 수천 마리의 새들이 번성하는 모습을 보고 들을 수 있다고 한다.\n\n이곳은 이 마을의 중심인 수도원을 세운 위대한 성 브리옥의 도시다. 내가 조용히 기도에 전념할 수 있는, 그가 세운 예배당에 머물게 되어 운이 좋군. 참으로 성스러운 곳이로다!" # 9213873926429398588
+  breton.0025.a: "제가 다음으로 향할 곳은 생말로입니다." # 5622050232283068066
+  breton.0026.t: "생말루" # 9521233301312608231
+  breton.0026.desc: "처음에는 생말로에 가는 것이 조금 망설여졌습니다. 그곳은 해적, 시끄러운 선원들, 그리고 무시무시한 모험가들이 들끓는 거친 동네로 알려져 있으니까요. 하지만 이곳에도 그들의 환경에도 불구하고(혹은 어쩌면 그 환경 덕분에) 훌륭한 미덕을 지닌 평범한 사람들이 살고 있다는 것을 깨달았습니다.\n\n생말로의 수호성인인 성 말로는 어쩌면 이 도시에 어느 정도 어울리는지도 모르겠습니다. 제가 들은 바에 따르면 그는 성 브렌단(Saint Brendan)의 제자였으며, 그의 스승과 함께 높은 바다를 항해하며 모험했고, 축복받은 섬(Blessed Isles)이라 불리는 신비로운 땅에 도달했다고 합니다. 그 섬들에서 그는 이교도들을 얼마나 개종시켰을까요?\n\n이곳에서의 일을 마치면 다음으로 돌(Dol)로 여행할 생각입니다." # 7581939499319048130
+  breton.0026.a: "악당들과 어울리며 그들을 이해해보십시오. 그들 또한 신의 자녀들이 아니겠습니까?" # 16564092829496753832
+  breton.0026.b: "마을의 조용한 쪽으로 머무르시오. 나는 경건하고 덕망 있는 사람들과의 교류를 선호하오." # 6730406015306544182
+  breton.0027.t: "돌" # 984151921018207234
+  breton.0027.desc: "돌은 역사가 가득한 곳입니다. 예를 들어, 이곳에서 성 텔로가 부드릭 왕의 명을 받아 지역 주민들을 공포에 떨게 했던 끔찍한 용을 처치했다고 들었습니다. 제가 그 전투를 직접 볼 수 있었다면 얼마나 좋았을까요! 성인이 악한 용과 맞서는 모습은 정말 장관이었을 겁니다.\n\n또한, 성 텔로와 성 돌이 오늘날까지 남아있는 과수원을 조성한 곳도 바로 이곳입니다. 이 나무들 아래를 거닐 때면, 저는 신의 창조물인 자연 속에서 편안함을 느끼지 않을 수 없습니다. 그들이 맺는 과일이 맛있는 것은 말할 것도 없고요.\n\n이곳 다음이면 우리의 여정은 거의 끝납니다. 마지막으로 반(Vannes)에 들를 곳이 하나 남아있습니다." # 16508043137907310435
+  breton.0027.a: "여기 있는 동안 맛있는 과일을 좀 사야겠군." # 4854442942229157739
+  breton.0027.b: "과일을 살 필요가 없다 - 불필요한 지출이다." # 9437113645622367286
+  breton.0028.t: "반스" # 5006815465099779169
+  breton.0028.desc: "저는 트로 브레이즈 순례를 거의 마쳤습니다. 이제 순례의 일곱 번째이자 마지막 도착지인 반에 도착했습니다. 이곳은 고대 정착지임에도 불구하고—학자들에 따르면 로마 황제 이전으로 거슬러 올라가는—매우 즐겁고 흥미로운 곳이기도 합니다. 예를 들어, 저는 현지인들이\"반과 그의 아\"라고 부르는 우스꽝스럽게 부풀어 오른 우스꽝스러운 화강암 조각상들에서 큰 즐거움을 찾았습니다. 일부 현지인들은 이 지역에 흩어져 있는 고대의 거대한 돌들에 얽힌 전설도 설명해 주었습니다.\n\n하지만 지금은 즐거움이 아닌 종교에 집중할 때입니다. 저는 반의 성인인 성 파테른을 생각합니다. 이 성인은 위대한 브리튼 영웅인 강력한 아서 왕의 동시대 인물이었다고 합니다. 전설에 따르면 그는 왕의 탐욕을 길들이고 군주를 겸손하게 만들었다고 합니다. 어쨌든 저 또한 덕목을 실천해야 합니다. 이것이 제가 이 순례를 떠난 이유이기도 하니까요." # 8028098364109871889
+  breton.0028.a: "나의 여정은 거의 끝났다." # 16182833815595676998
+  breton.0029.t: "트로 브레 이즈 종료" # 12567458971814264554
+  breton.0029.desc: "나의 옛 거처가 지평선 너머로 우뚝 솟아 있구나. 브르타뉴의 모든 독실한 기독교도들이 의심할 여지 없이 따라야 할 일곱 성지를 순례하며 여행을 마친 나는 고향에 돌아왔다. 이 순례를 통해 많은 것을 성찰했고, 우리 땅의 영적인 경이로움과 종교적 유산을 목도했다." # 9016635152327288919
+  breton.0029.a: "제가 살아있는 동안 겪었던 일들을 모두 기억할 수 있기를 바랍니다." # 5354343386442529202
+  breton.0030.t: "xxxxx" # 1951045980481827005
+  breton.0030.desc: "xxxxx" # 1951045980481827005
+  breton.0030.a: "xxxxx" # 1951045980481827005
+  breton.0031.t: "xxxxx" # 1951045980481827005
+  breton.0031.desc: "xxxxx" # 1951045980481827005
+  breton.0031.a: "xxxxx" # 1951045980481827005
+  breton.0032.t: "xxxxx" # 1951045980481827005
+  breton.0032.desc: "xxxxx" # 1951045980481827005
+  breton.0032.a: "xxxxx" # 1951045980481827005
+  breton.0033.t: "xxxxx" # 1951045980481827005
+  breton.0033.desc: "xxxxx" # 1951045980481827005
+  breton.0033.a: "xxxxx" # 1951045980481827005
+  breton.0034.t: "xxxxx" # 1951045980481827005
+  breton.0034.desc: "xxxxx" # 1951045980481827005
+  breton.0034.a: "xxxxx" # 1951045980481827005
+  breton.0035.t: "xxxxx" # 1951045980481827005
+  breton.0035.desc: "xxxxx" # 1951045980481827005
+  breton.0035.a: "xxxxx" # 1951045980481827005
+  breton.0036.t: "xxxxx" # 1951045980481827005
+  breton.0036.desc: "xxxxx" # 1951045980481827005
+  breton.0036.a: "xxxxx" # 1951045980481827005
+  breton.0037.t: "xxxxx" # 1951045980481827005
+  breton.0037.desc: "xxxxx" # 1951045980481827005
+  breton.0037.a: "xxxxx" # 1951045980481827005
+  breton.0038.t: "xxxxx" # 1951045980481827005
+  breton.0038.desc: "xxxxx" # 1951045980481827005
+  breton.0038.a: "xxxxx" # 1951045980481827005
+  breton.0039.t: "xxxxx" # 1951045980481827005
+  breton.0039.desc: "xxxxx" # 1951045980481827005
+  breton.0039.a: "xxxxx" # 1951045980481827005
+  breton.0040.t: "xxxxx" # 1951045980481827005
+  breton.0040.desc: "xxxxx" # 1951045980481827005
+  breton.0040.a: "xxxxx" # 1951045980481827005
+  breton.0041.t: "xxxxx" # 1951045980481827005
+  breton.0041.desc: "xxxxx" # 1951045980481827005
+  breton.0041.a: "xxxxx" # 1951045980481827005
+  breton.0042.t: "xxxxx" # 1951045980481827005
+  breton.0042.desc: "xxxxx" # 1951045980481827005
+  breton.0042.a: "xxxxx" # 1951045980481827005
+  breton.0043.t: "xxxxx" # 1951045980481827005
+  breton.0043.desc: "xxxxx" # 1951045980481827005
+  breton.0043.a: "xxxxx" # 1951045980481827005
+  breton.0044.t: "xxxxx" # 1951045980481827005
+  breton.0044.desc: "xxxxx" # 1951045980481827005
+  breton.0044.a: "xxxxx" # 1951045980481827005
+  breton.0045.t: "xxxxx" # 1951045980481827005
+  breton.0045.desc: "xxxxx" # 1951045980481827005
+  breton.0045.a: "xxxxx" # 1951045980481827005
+  breton.0046.t: "xxxxx" # 1951045980481827005
+  breton.0046.desc: "xxxxx" # 1951045980481827005
+  breton.0046.a: "xxxxx" # 1951045980481827005
+  breton.0047.t: "xxxxx" # 1951045980481827005
+  breton.0047.desc: "xxxxx" # 1951045980481827005
+  breton.0047.a: "xxxxx" # 1951045980481827005
+  breton.0048.t: "xxxxx" # 1951045980481827005
+  breton.0048.desc: "xxxxx" # 1951045980481827005
+  breton.0048.a: "xxxxx" # 1951045980481827005
+  breton.0049.t: "xxxxx" # 1951045980481827005
+  breton.0049.desc: "xxxxx" # 1951045980481827005
+  breton.0049.a: "xxxxx" # 1951045980481827005
+  breton.0050.t: "멀린의 무덤" # 311110728467526342
+  breton.0050.desc: "당신이 통치하는 브르타뉴의 숲이 우거진 지역은 아서 왕 전설과 연관되어 있습니다. 현지 브르타뉴 민속에서는 이곳에 특히 멀린의 무덤과 같은 몇몇 주목할 만한 장소가 있다고 주장합니다. 호기심에 당신은 오늘 그 장소를 방문했고, 그곳이 숲속 작은 공터에 있는 커다란 조각된 바위 외에는 아무것도 아니라는 것을 알게 되었습니다. 정말 아서 왕의 전설적인 궁정 마법사 멀린이 묻힌 곳이 이곳일까요? 바위 옆에 꽃이나 약간의 음식이 담긴 소박한 제물을 남기면 소원을 이룰 수 있다고들 합니다." # 7112896869457781654
+  breton.0050.a: "우스꽝스러운 미신이군! 하지만 이 지역은 평화로워 보이니, 여기서 좀 쉬어야겠어." # 8998573142685266983
+  breton.0050.b: "이 위대한 분의 묘소를 뵙게 되어 영광입니다. 꽃을 바치겠습니다." # 10239752304962453869
+  breton.0051.t: "카르나크의 석상들" # 13857566581524180837
+  breton.0051.desc: "브르타뉴에는 깔끔한 형태로 배열된 고대의 돌판들이 곳곳에서 발견되는데, 특히 카르나크 마을 근처에서 그러합니다. 일부 지역 주민들은 우리 관할 구역 내의 돌들을 지역 건설 프로젝트에 사용하고 있습니다. 하지만, 이 돌들이 고대의 성인들이 세운 것이므로 건드려서는 안 된다고 주장하며 그러한 행위를 경계하는 이들도 있습니다." # 16279917564949463634
+  breton.0051.a: "평민들이 그들을 마음대로 하게 두시오." # 13002307381130741267
+  breton.0051.b: "어쩌면 내가 가진 돌들을 내 프로젝트에 사용할 수도 있겠군!" # 16735088778353083126
+  breton.0051.c: "진실로, 우리는 그러한 신성한 장소를 방해해서는 안 됩니다!" # 15381828960949090252
+  breton.0052.t: "거인의 돌" # 13841729590741217395
+  breton.0052.desc: "브르타뉴를 여행하던 중, 나는 잘 정돈된 거대한 돌들이 모여 있는 장소를 발견했습니다. 나는 양 떼를 그 돌 중 하나 아래에 쉬게 하는 한 양치기를 발견하고 그와 대화를 나누었습니다. 그가 들은 이야기에 따르면, 이 돌들은 이곳에 살았던 고대 거인 종족이 세운 것이며, 그 거인들이 아서 왕의 기사들과 싸웠다고 합니다." # 4760863740858031964
+  breton.0052.a: "하! 그건 한물간 음유시인이 지어낸 허무맹랑한 이야기로 들리는군." # 6054263556537947210
+  breton.0052.b: "그럴듯하군. 많은 브르타뉴 지역이 아서 왕 전설과 관련이 있지." # 8382081122546972908
+  breton.0053.t: "매의 고사리" # 17676237754630128445
+  breton.0053.desc: "독수리 고사리는 유럽 대부분 지역에서 발견되는 식물이지만, 특히 브르타뉴인들은 이를 올바르게 사용하면 신비한 힘으로 가득 차 있다고 여깁니다. 저의 브르타뉴인 하인들 중 일부는 남자나 여자가 고사리 포자를 모아 입에 넣음으로써 비현실적인 힘을 축적했다는 이야기를 들려주었습니다. 그 힘은 투명해지는 것부터 보물을 찾거나 다른 이들이 숨기는 비밀을 알아내는 것까지 다양합니다. 최소한 저에게는 행운을 가져다줄 것입니다.\n\n이 하인들은 근처에서 자라는 고사리를 모아 일종의 약초 혼합물을 만드는 데 사용하자고 제안했습니다." # 2547892590497895696
+  breton.0053.a: "신비한 힘이든 아니든, 나는 언제나 약간의 행운을 더할 수 있지!" # 7653368069755274033
+  breton.0053.b: "이건 무의미하군. 이성적인 사람들은 미신이 아니라 [ROOT.Char.GetFaith.HighGodName]을 믿지." # 9166530521271707727
+  breton.0053.c: "얼토당토않군! 왜 입에 잡초를 쑤셔 넣는 거지?" # 2710098495805321054
+  breton.0054.t: "황금 초원" # 254558498465507857
+  breton.0054.desc: "브르타뉴에는 황금 풀, 즉 '아우르 이오텐(aour iaotenn)'이라 불리는 희귀하고 찾기 힘든 식물이 있습니다. 전설에 따르면 이 식물은 덕망 있는 자만이 발견할 수 있다고 합니다. 어쨌든, 덕이 높기로 소문난 한 브르타뉴 농부가 이 황금 풀을 발견했다고 주장하며 저에게 그것을 바치겠다고 합니다. 이것을 약으로 마시면 힘이 열 배로 증가한다고 합니다." # 6566531004911470636
+  breton.0054.a: "열 배는 아닐지라도, 올바른 약초가 효과가 있다는 것은 사실입니다!" # 8895769366048491920
+  breton.0054.b: "그건 황금 풀이 아닌 것 같소.... 이건 ...라고 알려진 약초처럼 보이는군." # 7802329265893247706
+  breton.0055.t: "망각의 풀" # 2583321987973686910
+  breton.0055.desc: "저는 브르타뉴 영지 내 평범한 초원 중 한 곳에서 산책을 하고 있었는데, 아주 기묘한 방식으로 길을 잃었습니다. 그날 아침, 저는 정체를 알 수 없는 식물을 밟았던 것이 기억납니다. 다음 순간, 저는 1~2마일 떨어진 초원 다른 곳에 서 있었고, 경비병과 시종들이 놀라서 저를 부르는 소리에 해가 지고 있었습니다. 저는 멍한 상태였던 것 같습니다. 무슨 일이 일어났는지 전혀 기억나지 않습니다!\n\n모든 이들에게 무슨 일이 있었는지 이야기하자, 저의 시종 중 나이 든 브르타뉴 남자가 지혜롭게 고개를 끄덕이며 제가 망각의 풀을 밟은 것이 틀림없다고 말했습니다. 현지 전설에 따르면, 그것은 희귀하지만 위험한 식물이라고 합니다. 그것을 밟으면 방향 감각을 잃고 정처 없이 헤매게 된다고 합니다!" # 13013622580172047512
+  breton.0055.a: "저는... 앞으로 이곳에서 산책하는 것은 피해야 할 것 같습니다." # 3890922992995304021
+  breton.0056.t: "브르타뉴 해산물" # 10960669454286922090
+  breton.0056.desc: "오늘 저는 먼 곳에서 온 고귀한 외국인 손님을 맞이하여 그분을 기리는 작은 연회를 열고 있습니다. 연회에는 제가 다스리는 영토의 다양한 진미와 요리들이 준비되었으며, 그중에는 브르타뉴 해안의 유명한 해산물도 포함되어 있습니다. 손님께서 특히 브르타뉴 굴과 가리비, 홍합을 매우 즐기시는 것 같군요!" # 6286423844307512320
+  breton.0056.a: "게랑드의 우리 지역 소금과 함께 드십시오!" # 2184837836927009035
+  breton.0057.t: "브르타뉴 노인" # 15528295852971704876
+  breton.0057.desc: "나는 늦은 밤 가장 아끼는 두 하인과 술을 마시고 있었다. 우리 셋이 집으로 돌아가던 중, 삐걱거리는 낡은 수레에 탄 노인을 발견했다. 아직 술에 취한 하인들이 그 수레에 돌을 던져 바퀴 축 하나를 부숴버렸다. 그들은 웃으며 나에게도 동참하라고 했지만, 나는 뭔가 잘못되었다는 느낌이 들었다. 저런 노인이 한밤중에 무슨 일로 저곳에 있는 걸까?" # 10390424828211321759
+  breton.0057.a: "그 행동은 용납할 수 없소! 늙은이가 수레를 고치는 것을 내가 돕겠소." # 16171339875666183053
+  breton.0057.b: "도망쳐라! 저 수상한 자가 무슨 짓을 꾸밀지 누가 알겠는가?" # 17349554243504281964
+  breton.0057.c: "그 남자는 무시하고 그냥 넘어가야겠소." # 22755812779055742
+  breton.0058.t: "앙쿠" # 723304156773520728
+  breton.0058.desc: "오늘 아침 제가 가장 아끼던 시종 두 명이 자연사했다는 소식을 들었습니다 (겉보기에는 그렇다고 하더군요). 게다가 제 머리카락의 상당 부분이 하얗게 변해버렸습니다. 어제 만났던 그 수상한 노인과 관련이 있을 게 분명합니다...\n\n아, 하늘이시여 저를 지켜주소서! 그 노인이 누구였는지 알겠습니다. 그는 브르타뉴를 떠도는 죽음의 사자, 앙쿠였습니다!" # 9680752135436668204
+  breton.0058.a: "아무도 무슨 일이 있었는지 알아서는 안 됩니다." # 16653980226179474795
+  breton.0059.t: "슈셴 벌꿀술" # 4421502795567220505
+  breton.0059.desc: "제가 현지 유력 인사들과 함께 브르타뉴식 꿀술인 슈센을 마시고 있을 때, 그들 중 한 명이 술의 취하게 하는 효과를 높이기 위해 벌 독을 첨가하는 것을 제안합니다.\"작은 마을 중 한 곳에서 전에 시도해 본 적이 있소\" 그가 주장합니다.\"정말 특별한 경험이었지\"" # 10874404617714319084
+  breton.0059.a: "정신이 나갔습니까? 이것으로 저에게는 충분합니다." # 18423715493914324709
+  breton.0059.b: "네, 그거 좋군요. 벌 독을 찾아봅시다!" # 5377754912172330433
+  breton.0060.t: "브르타뉴 크레이프" # 4762040607186714130
+  breton.0060.desc: "오늘 밤 멀리서 손님들이 오시는데, 브르타뉴 최고의 크레이프를 대접하고 싶소. 달콤한 것을 드릴까요, 아니면 짭짤한 것을 드릴까요?" # 6657018026649651802
+  breton.0060.a: "달콤하군" # 16477110979379258313
+  breton.0060.b: "맛있는" # 834904726824957571
+  breton.0060.c: "둘 다 하면 어떨까요?" # 3033846323014059473
+  breton.0061.t: "부굴 노즈" # 13543234831259445559
+  breton.0061.desc: "저는 작은 선술집에 들러 맛있는 음식과 술을 즐기며 휴식을 취하고 있습니다. 오늘 밤에는 음유시인이 있어 여러 브르타뉴 이야기를 들려주고 있습니다. 그중 하나는 '밤의 목동'이라 불리는 부굴 노즈(Bugul Noz)라는 존재에 관한 이야기인데, 그는 브르타뉴 숲속에 살고 있다고 합니다. 그는 겉모습이 흉측하여 그를 보는 이들이 공포에 질려 죽을 지경이라고 하지만, 실제로는 매우 온화하고 친절한 영혼이며, 자비심의 화신이라고 합니다. 이 때문에 그가 근처에 누군가 있는 것을 알면, 그들이 스스로 놀라지 않고 안전하게 집으로 돌아갈 수 있도록 소리쳐서 떠나라고 말한다고 합니다. 이런 방식으로 그는 사람들이 밤에 위험한 지역을 피하도록 돕는 셈이지요." # 8274892730174652383
+  breton.0061.a: "저 괴물은 끔찍하게 못생겼을 게 분명해. 다시는 보고 싶지 않군!" # 14724615855909895205
+  breton.0061.b: "그의 연민에도 불구하고 홀로 살아야 하는 비극적인 인물이로다." # 537710892296671546
+  breton.0062.t: "전설적인 도시 이스" # 17171318088014388250
+  breton.0062.desc: "굶주리고 누더기를 걸친 브르타뉴 출신 선원 한 명이 최근 근처 마을 해안에 떠밀려 왔습니다. 그는 최근 폭풍우에 난파된 상선의 선원이었으며, 그가 유일한 생존자일 가능성이 높습니다.\n\n마침 제가 그 마을을 방문하고 있던 참이라, 그를 찾아가 보았습니다. 우리가 그의 경험에 대해 이야기를 나누던 중, 그는 배가 침몰하며 거센 파도에 휩쓸려가는 동안 물속에서 전설적인 도시 이스(Ys)의 폐허를 보았다고 주장했습니다. 브르타뉴 전설에 따르면, 이스는 한때 브르타뉴 해안에 있던 번성했던 전설적인 도시였으나 후에 바다에 삼켜졌다고 합니다." # 11793704234203902656
+  breton.0062.a: "환각이었을까, 아니면 정말이었을까...." # 3533723282105274138
+  breton.0063.t: "너무 많은 가염 버터?" # 5628907590526297718
+  breton.0063.desc: "요즘 들어 소금에 절인 버터를 꽤 많이 비축해 둔 것 같군. 브르타뉴의 현지 요리는 언제나 소금에 절인 버터에 의존해 왔지, 어쩌면 지나칠 정도로 말이야. 하지만 어떤 음식이든 훌륭한 곁들임이라는 점은 부정할 수 없지." # 12587349916824476312
+  breton.0063.a: "남는 염장 버터를 모두 팔아버리시오" # 13770766022498696288
+  breton.0063.b: "지역의 저명인사들에게 소금에 절인 버터를 선물하십시오" # 9666643023417564144
+  breton.0063.c: "다가올 연회를 위해 버터를 아껴두시오" # 17035346559305546898
+  breton.0064.t: "슈셴" # 14668408245494877698
+  breton.0064.desc: "오늘 밤 나는 브르타뉴에서 인기 있는 벌꿀술의 한 종류인 슈센을 마시고 있다. 맛도 좋을 뿐만 아니라, 충분한 양을 마시면 최음제 역할도 한다고 들었다." # 16604373419617839872
+  breton.0064.a: "터무니없는 노파의 이야기처럼 들리는군." # 18398746494752911532
+  breton.0065.t: "많은 소금 버터" # 923746187152454101
+  breton.0065.desc: "브르타뉴 영지 일부 지역 귀족들이 제게 상당한 양의 소금에 절인 버터를 선물했습니다. 그곳에서는 이 물품을 귀하게 여기며, 맛도 꽤 훌륭하더군요!" # 16408613869460939611
+  breton.0065.a: "대단히 감사합니다." # 10211346842330356496
+  breton.0066.t: "xxxxx" # 1951045980481827005
+  breton.0066.desc: "xxxxx" # 1951045980481827005
+  breton.0066.a: "xxxxx" # 1951045980481827005
+  breton.0067.t: "xxxxx" # 1951045980481827005
+  breton.0067.desc: "xxxxx" # 1951045980481827005
+  breton.0067.a: "xxxxx" # 1951045980481827005
+  breton.0068.t: "xxxxx" # 1951045980481827005
+  breton.0068.desc: "xxxxx" # 1951045980481827005
+  breton.0068.a: "xxxxx" # 1951045980481827005
+  breton.0069.t: "xxxxx" # 1951045980481827005
+  breton.0069.desc: "xxxxx" # 1951045980481827005
+  breton.0069.a: "xxxxx" # 1951045980481827005
+  breton.0070.t: "xxxxx" # 1951045980481827005
+  breton.0070.desc: "xxxxx" # 1951045980481827005
+  breton.0070.a: "xxxxx" # 1951045980481827005
+  breton.0071.t: "xxxxx" # 1951045980481827005
+  breton.0071.desc: "xxxxx" # 1951045980481827005
+  breton.0071.a: "xxxxx" # 1951045980481827005
+  breton.0072.t: "xxxxx" # 1951045980481827005
+  breton.0072.desc: "xxxxx" # 1951045980481827005
+  breton.0072.a: "xxxxx" # 1951045980481827005
+  breton.0073.t: "xxxxx" # 1951045980481827005
+  breton.0073.desc: "xxxxx" # 1951045980481827005
+  breton.0073.a: "xxxxx" # 1951045980481827005
+  breton.0074.t: "xxxxx" # 1951045980481827005
+  breton.0074.desc: "xxxxx" # 1951045980481827005
+  breton.0074.a: "xxxxx" # 1951045980481827005
+  breton.0075.t: "xxxxx" # 1951045980481827005
+  breton.0075.desc: "xxxxx" # 1951045980481827005
+  breton.0075.a: "xxxxx" # 1951045980481827005
+  breton.0076.t: "xxxxx" # 1951045980481827005
+  breton.0076.desc: "xxxxx" # 1951045980481827005
+  breton.0076.a: "xxxxx" # 1951045980481827005
+  breton.0077.t: "xxxxx" # 1951045980481827005
+  breton.0077.desc: "xxxxx" # 1951045980481827005
+  breton.0077.a: "xxxxx" # 1951045980481827005
+  breton.0078.t: "xxxxx" # 1951045980481827005
+  breton.0078.desc: "xxxxx" # 1951045980481827005
+  breton.0078.a: "xxxxx" # 1951045980481827005
+  breton.0079.t: "xxxxx" # 1951045980481827005
+  breton.0079.desc: "xxxxx" # 1951045980481827005
+  breton.0079.a: "xxxxx" # 1951045980481827005
+  breton.0080.t: "xxxxx" # 1951045980481827005
+  breton.0080.desc: "xxxxx" # 1951045980481827005
+  breton.0080.a: "xxxxx" # 1951045980481827005
+  breton.0081.t: "xxxxx" # 1951045980481827005
+  breton.0081.desc: "xxxxx" # 1951045980481827005
+  breton.0081.a: "xxxxx" # 1951045980481827005
+  breton.0082.t: "xxxxx" # 1951045980481827005
+  breton.0082.desc: "xxxxx" # 1951045980481827005
+  breton.0082.a: "xxxxx" # 1951045980481827005
+  breton.0083.t: "xxxxx" # 1951045980481827005
+  breton.0083.desc: "xxxxx" # 1951045980481827005
+  breton.0083.a: "xxxxx" # 1951045980481827005
+  breton.0084.t: "xxxxx" # 1951045980481827005
+  breton.0084.desc: "xxxxx" # 1951045980481827005
+  breton.0084.a: "xxxxx" # 1951045980481827005
+  breton.0085.t: "xxxxx" # 1951045980481827005
+  breton.0085.desc: "xxxxx" # 1951045980481827005
+  breton.0085.a: "xxxxx" # 1951045980481827005
+  breton.0086.t: "xxxxx" # 1951045980481827005
+  breton.0086.desc: "xxxxx" # 1951045980481827005
+  breton.0086.a: "xxxxx" # 1951045980481827005
+  breton.0087.t: "xxxxx" # 1951045980481827005
+  breton.0087.desc: "xxxxx" # 1951045980481827005
+  breton.0087.a: "xxxxx" # 1951045980481827005
+  breton.0088.t: "xxxxx" # 1951045980481827005
+  breton.0088.desc: "xxxxx" # 1951045980481827005
+  breton.0088.a: "xxxxx" # 1951045980481827005
+  breton.0089.t: "xxxxx" # 1951045980481827005
+  breton.0089.desc: "xxxxx" # 1951045980481827005
+  breton.0089.a: "xxxxx" # 1951045980481827005
+  breton.0090.t: "xxxxx" # 1951045980481827005
+  breton.0090.desc: "xxxxx" # 1951045980481827005
+  breton.0090.a: "xxxxx" # 1951045980481827005
+  breton.0091.t: "xxxxx" # 1951045980481827005
+  breton.0091.desc: "xxxxx" # 1951045980481827005
+  breton.0091.a: "xxxxx" # 1951045980481827005
+  breton.0092.t: "xxxxx" # 1951045980481827005
+  breton.0092.desc: "xxxxx" # 1951045980481827005
+  breton.0092.a: "xxxxx" # 1951045980481827005
+  breton.0093.t: "xxxxx" # 1951045980481827005
+  breton.0093.desc: "xxxxx" # 1951045980481827005
+  breton.0093.a: "xxxxx" # 1951045980481827005
+  breton.0094.t: "xxxxx" # 1951045980481827005
+  breton.0094.desc: "xxxxx" # 1951045980481827005
+  breton.0094.a: "xxxxx" # 1951045980481827005
+  breton.0095.t: "xxxxx" # 1951045980481827005
+  breton.0095.desc: "xxxxx" # 1951045980481827005
+  breton.0095.a: "xxxxx" # 1951045980481827005
+  breton.0096.t: "xxxxx" # 1951045980481827005
+  breton.0096.desc: "xxxxx" # 1951045980481827005
+  breton.0096.a: "xxxxx" # 1951045980481827005
+  breton.0097.t: "xxxxx" # 1951045980481827005
+  breton.0097.desc: "xxxxx" # 1951045980481827005
+  breton.0097.a: "xxxxx" # 1951045980481827005
+  breton.0098.t: "xxxxx" # 1951045980481827005
+  breton.0098.desc: "xxxxx" # 1951045980481827005
+  breton.0098.a: "xxxxx" # 1951045980481827005
+  breton.0099.t: "xxxxx" # 1951045980481827005
+  breton.0099.desc: "xxxxx" # 1951045980481827005
+  breton.0099.a: "xxxxx" # 1951045980481827005

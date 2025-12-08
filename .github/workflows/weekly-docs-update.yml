@@ -1,0 +1,69 @@
+name: Weekly Documentation Update Request
+
+on:
+  schedule:
+    - cron: '0 0 * * 1' # 매주 월요일 UTC 0시 (한국시간 오전 9시)
+  workflow_dispatch:
+
+jobs:
+  create-docs-update-issue:
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+      contents: read
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Get changes from last week
+        id: changes
+        run: |
+          # [skip ci] 커밋 제외하고 지난 7일간 변경사항 수집
+          CHANGES=$(git log --since="7 days ago" --oneline --no-merges | grep -v "\[skip ci\]" || echo "변경사항 없음")
+          echo "changes<<EOF" >> $GITHUB_OUTPUT
+          echo "$CHANGES" >> $GITHUB_OUTPUT
+          echo "EOF" >> $GITHUB_OUTPUT
+
+      - name: Create documentation update issue
+        uses: actions/github-script@v8
+        env:
+          CHANGES: ${{ steps.changes.outputs.changes }}
+        with:
+          script: |
+            const changes = process.env.CHANGES;
+            const date = new Date().toISOString().split('T')[0];
+            
+            const issueBody = `@copilot
+            
+            지난 주의 변경사항을 바탕으로 문서를 현행화해주세요.
+            
+            ## 지난 7일간 변경사항
+            
+            \`\`\`
+            ${changes}
+            \`\`\`
+            
+            <!-- 예시 형식:
+            93281a6 feat: Add weekly documentation update workflow
+            07c8da3 Add translation for 'hegemony' in dictionary
+            a1b2c3d fix: Update parser to handle edge cases
+            -->
+            
+            ## 요청사항
+            
+            다음 문서들을 검토하고 필요한 경우 업데이트해주세요:
+            - README.md
+            - AGENTS.md
+            - docs/ 폴더 하위 문서들
+            
+            변경사항이 문서에 반영되어야 할 내용이 있다면 업데이트를 진행해주세요.`;
+            
+            await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: `📚 주간 문서 현행화 요청 (${date})`,
+              body: issueBody,
+              labels: ['documentation', 'copilot']
+            });

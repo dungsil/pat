@@ -1,0 +1,90 @@
+name: Invalidate translations on dictionary update
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [ main ]
+    paths:
+      - "scripts/utils/dictionary.ts"
+
+concurrency:
+  group: translation
+  cancel-in-progress: false
+
+jobs:
+  invalidate-and-retranslate:
+    runs-on: self-hosted
+    permissions:
+      contents: write
+    env:
+      GOOGLE_AI_STUDIO_TOKEN: "${{secrets.GOOGLE_AI_STUDIO_TOKEN}}"
+    steps:
+      - name: Clean workspace
+        run: |
+          if [ -z "$GITHUB_WORKSPACE" ]; then
+            echo "GITHUB_WORKSPACE is not set, skipping workspace cleanup"
+            exit 0
+          fi
+          if [[ "$GITHUB_WORKSPACE" != /home/runner/_work/* ]]; then
+            echo "GITHUB_WORKSPACE has unexpected value: $GITHUB_WORKSPACE, skipping workspace cleanup"
+            exit 0
+          fi
+          rm -rf "$GITHUB_WORKSPACE"
+          mkdir -p "$GITHUB_WORKSPACE"
+      - uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - uses: actions/cache@v4
+        if: always()
+        with:
+          key: translate-cache
+          path: "**.db"
+
+      - uses: pnpm/action-setup@v4
+
+      - uses: actions/setup-node@v6
+        with:
+          cache: 'pnpm'
+          node-version-file: .node-version
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Update upstream repositories
+        run: pnpm upstream
+        continue-on-error: true
+
+      - name: Invalidate CK3 translations based on dictionary update
+        run: pnpm ck3:update-dict -- --since-commit ${{ github.sha }}
+        continue-on-error: true
+
+      - name: Retranslate incorrect CK3 items
+        run: pnpm ck3:retranslate
+        continue-on-error: true
+
+      - name: Invalidate Stellaris translations based on dictionary update
+        run: pnpm stellaris:update-dict -- --since-commit ${{ github.sha }}
+        continue-on-error: true
+
+      - name: Retranslate incorrect Stellaris items
+        run: pnpm stellaris:retranslate
+        continue-on-error: true
+
+      - name: Invalidate VIC3 translations based on dictionary update
+        run: pnpm vic3:update-dict -- --since-commit ${{ github.sha }}
+        continue-on-error: true
+
+      - name: Retranslate incorrect VIC3 items
+        run: pnpm vic3:retranslate
+        continue-on-error: true
+
+      - name: Commit invalidated translations
+        if: always()
+        uses: stefanzweifel/git-auto-commit-action@v7
+        with:
+          push: true
+          commit: --signoff
+          default_author: github_actor
+          commit_message: "chore: dictionary 업데이트에 따른 번역 무효화 [skip ci]"
+          pull_options: '--rebase --autostash'

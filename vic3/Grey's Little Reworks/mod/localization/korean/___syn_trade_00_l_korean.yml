@@ -1,0 +1,27 @@
+﻿l_korean:
+  laws_synergize_trade: "무역 정책 시너지화" # 14844972513407305290
+  laws_synergize_trade_action_name: "$laws_synergize_trade$" # 344613407384583509
+  laws_synergize_trade_action_propose_name: "무역 정책 시너지 창출 시작" # 12458678526570149274
+  laws_synergize_trade_action_break_name: "무역 정책 시너지 중단" # 2432944818955179909
+  laws_synergize_trade_pact_desc: "[SCOPE.GetRootScope.GetDiplomaticPact.GetFirstCountry.GetName]은 [SCOPE.GetRootScope.GetDiplomaticPact.GetSecondCountry.GetName]의 무역 정책을 자신들의 정책과 시너지를 내도록 재편합니다.\n 현재 8단계 중 #variable [SCOPE.GetRootScope.GetDiplomaticPact.GetSecondCountry.MakeScope.Var('synergize_trade_progress').GetValue]#! 단계가 진행되었습니다." # 8028371306754072801
+  laws_synergize_trade_desc: "#header $laws_synergize_trade$#!\n$TOOLTIP_DELIMITER$\n지정된 국가의 무역 정책과 시너지를 일으킵니다." # 7554185593822836116
+  laws_synergize_trade_action_notification_name: "[INITIATOR_COUNTRY.GetName] 무역 정책 협력 강화" # 4368623535939469722
+  laws_synergize_trade_action_notification_desc: "[INITIATOR_COUNTRY.GetName]가 우리 국가의 무역 정책을 시너지화하고 있습니다." # 15313725528306954075
+  laws_synergize_trade_action_notification_break_name: "[INITIATOR_COUNTRY.GetName]의 무역 정책 시너지 효과 중단" # 8987274302532356543
+  laws_synergize_trade_action_notification_break_desc: "[INITIATOR_COUNTRY.GetName]가 우리 국가의 무역 정책을 조화시키려는 노력을 중단했습니다." # 8350749238582410155
+  laws_synergize_trade_effect_desc_global: "무역 정책 시너지 창출 시작" # 12458678526570149274
+  laws_synergize_trade_effect_desc_first: "[COUNTRY.GetAdjectiveNoFlag]가 [TARGET_COUNTRY.GetName]와 무역 정책 시너지를 개시합니다." # 13606468104484743087
+  laws_synergize_trade_effect_desc_third: "[COUNTRY.GetName]이(가) [AddTextIf(ObjectsEqual(GetMetaPlayer.GetPlayedOrObservedCountry.Self, TARGET_COUNTRY.Self),TARGET_COUNTRY.GetNameNoFlag)][AddTextIf(Not(ObjectsEqual(GetMetaPlayer.GetPlayedOrObservedCountry.Self, TARGET_COUNTRY.Self)),TARGET_COUNTRY.GetName)]와 무역 정책의 시너지를 개시합니다." # 1856786078740155764
+  laws_synergize_trade_trigger_desc_global: "무역 정책 시너지화 진행 중" # 17472763660391937897
+  laws_synergize_trade_trigger_false_desc_global: "현재 무역 정책을 시너지화하는 과정에 있지 않습니다." # 14770065843292562377
+  laws_synergize_trade_trigger_desc_first: "[COUNTRY.GetAdjectiveNoFlag]는 [TARGET_COUNTRY.GetName]와 협력적인 무역 정책 체계를 갖추고 있습니다." # 5383154513194788052
+  laws_synergize_trade_trigger_false_desc_first: "[COUNTRY.GetAdjectiveNoFlag]는 현재 [TARGET_COUNTRY.GetName]와 시너지 효과가 있는 무역 정책 체계를 갖추고 있지 않습니다." # 18395551609032988006
+  laws_synergize_trade_trigger_desc_third: "[COUNTRY.GetName]은 [AddTextIf(ObjectsEqual(GetMetaPlayer.GetPlayedOrObservedCountry.Self, TARGET_COUNTRY.Self),TARGET_COUNTRY.GetNameNoFlag)][AddTextIf(Not(ObjectsEqual(GetMetaPlayer.GetPlayedOrObservedCountry.Self, TARGET_COUNTRY.Self)),TARGET_COUNTRY.GetName)]와 상호 시너지를 내는 무역 정책 체계를 가지고 있습니다." # 5318477936904710217
+  laws_synergize_trade_trigger_false_desc_third: "[COUNTRY.GetName]은 현재 [AddTextIf(ObjectsEqual(GetMetaPlayer.GetPlayedOrObservedCountry.Self, TARGET_COUNTRY.Self),TARGET_COUNTRY.GetNameNoFlag)][AddTextIf(Not(ObjectsEqual(GetMetaPlayer.GetPlayedOrObservedCountry.Self, TARGET_COUNTRY.Self)),TARGET_COUNTRY.GetName)]와 시너지 효과를 내는 무역 정책 시스템을 갖추고 있지 않습니다." # 2647528728089711487
+  mog_syn_events.04.t: "상업 무역 시너지!" # 3744793021790300920
+  mog_syn_events.04.d: "자랑스러운 [ROOT.GetCountry.GetName]은 [SCOPE.sCountry('synergize_trade_target_country').GetName]과의 무역 정책 조율을 성공적으로 완료했습니다. [SCOPE.sCountry('synergize_trade_target_country').GetName]은 본국과의 결속 강화로 영원한 번영을 누릴 것입니다." # 2683912433099491985
+  mog_syn_events.04.f: "[ROOT.GetCountry.GetName] 만세!" # 14790848653475303579
+  mog_syn_events.04.a: "잘 하였소." # 14562174443526593361
+  laws_synergize_trade_weekly_effect: "피지배국의 [concept_subject]를 우리의 [GetLawGroup('lawgroup_trade_policy').GetName] [concept_law]와 일치하도록 변경합니다. 매주 20%의 확률로 진척되며, 성공하려면 8점의 진척도가 필요합니다." # 8475595173876667209
+  overlord_syn_cost_trade: "무역 정책 시너지 효과 비용" # 3386826918407902388
+  active_synergize_trade_tt: "다른 $laws_synergize_trade$ 조치의 수가 1 미만입니다." # 7967718707268457991

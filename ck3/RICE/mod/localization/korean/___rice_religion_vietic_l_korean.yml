@@ -1,0 +1,70 @@
+﻿l_korean:
+  vietic_religion: "베트족" # 9898951332419351525
+  vietic_religion_adj: "베트족" # 9898951332419351525
+  vietic_religion_adherent: "베트" # 8864212849931797578
+  vietic_religion_adherent_plural: "비엣족" # 15020130777742035918
+  vietic_religion_desc: "베트어 사용 민족들의 신앙은 영매를 통해 소통할 수 있는 다양한 지역 신들에 대한 숭배에 중점을 두고 있습니다." # 13644935281420915753
+  viet_pagan: "타나이즘" # 376901747508990616
+  viet_pagan_adj: "타니스" # 3877067321701400879
+  viet_pagan_adherent: "타니스" # 3877067321701400879
+  viet_pagan_adherent_plural: "타니스들" # 16203042555302821183
+  viet_pagan_desc: "비엣족의 토속 신앙은 조상신, 천신, 그리고 영매를 통해 소통할 수 있는 자연의 신들을 중심으로 이루어져 있습니다. 이러한 신앙은 불교, 힌두교, 도교의 영향도 받았습니다." # 18353613282127436841
+  viet_pagan_high_god_name: "옹 뜨로이" # 6726854214381142681
+  viet_pagan_high_god_name_possessive: "옹 뜨로이의" # 15225202403791336478
+  viet_pagan_high_god_name_alternate: "응옥 호앙" # 18080723747300318893
+  viet_pagan_high_god_name_alternate_possessive: "응옥 호앙의" # 4406841137277969066
+  viet_pagan_good_god: "친절한 정령들" # 16355588206463771389
+  viet_pagan_good_god_possessive: "친절한 영혼들" # 4692634362578769666
+  viet_pagan_devil_name: "적대적인 영혼들" # 3127791296155848847
+  viet_pagan_devil_name_possessive: "적대적인 영혼들" # 4723231201756655572
+  viet_pagan_death_deity_name: "디아 마우" # 12427754782585341031
+  viet_pagan_death_deity_name_possessive: "디아 마우스" # 2459114691329879444
+  viet_pagan_death_deity_herhis: "그녀" # 4744265488540400035
+  viet_pagan_good_god_mau_thuong_thien: "마우 트엉 티엔" # 46794639602386941
+  viet_pagan_good_god_mau_thuong_ngan: "마우 트엉 응안" # 5796592370079595018
+  viet_pagan_good_god_mau_thoai: "마우 토아이" # 12881021695371496523
+  viet_pagan_good_god_than_nong: "탄 농" # 5111111176803772812
+  viet_pagan_good_god_ca_ong: "까 옹" # 15214057680015910292
+  viet_pagan_good_god_hai_ba_trung: "하이 바 쯩" # 14294487308263369454
+  viet_pagan_good_god_ba_trieu: "바 찌에우" # 6130128976766850153
+  viet_pagan_good_god_kinh_duong_vuong: "낀즈엉 브엉" # 10834247461352701513
+  viet_pagan_creator_god_name: "$viet_pagan_high_god_name$" # 11339753018461469505
+  viet_pagan_creator_god_name_possessive: "$viet_pagan_high_god_name_possessive$" # 8471342046372539669
+  viet_pagan_health_god_name: "티엔 이 아 나" # 3238962651809764580
+  viet_pagan_health_god_name_possessive: "티엔 이 아 나의" # 13586519698314462633
+  viet_pagan_fertility_god_name: "어 코" # 17532406025916210334
+  viet_pagan_fertility_god_name_possessive: "아우 코의" # 1974338076595914972
+  viet_pagan_wealth_god_name: "탄타이" # 9399195092972530146
+  viet_pagan_wealth_god_name_possessive: "탄 타이의" # 11364953405107105056
+  viet_pagan_household_god_name: "타오 꾸안" # 16197348990756587274
+  viet_pagan_household_god_name_possessive: "타오 꾸안의" # 3928648012252022153
+  viet_pagan_fate_god_name: "남 타오" # 8540027829672230110
+  viet_pagan_fate_god_name_possessive: "남 타오의" # 6450990074739324739
+  viet_pagan_knowledge_god_name: "콩 투" # 14734731305315911779
+  viet_pagan_knowledge_god_name_possessive: "콩 투" # 14734731305315911779
+  viet_pagan_war_god_name: "김꾸이" # 16482840454424731490
+  viet_pagan_war_god_name_possessive: "김뀌의" # 1687667746378100979
+  viet_pagan_trickster_god_name: "톤 응오 콩" # 7591424363727127387
+  viet_pagan_trickster_god_name_possessive: "톤 응오 콩의" # 15567353891876044546
+  viet_pagan_night_god_name: "항응아" # 6925584927267941584
+  viet_pagan_night_god_name_possessive: "항응아의" # 4965040158964529748
+  viet_pagan_water_god_name: "락 롱 꾸언" # 6076777436603513377
+  viet_pagan_water_god_name_possessive: "락 롱 꾸언의" # 11688117230912772081
+  viet_pagan_house_of_worship: "메으" # 12674101523557848189
+  viet_pagan_house_of_worship_plural: "미유스" # 16463736742749897512
+  viet_pagan_religious_symbol: "오색 깃발" # 1170545175345168342
+  viet_pagan_religious_text: "고대의 전설" # 9359094983789711604
+  viet_pagan_religious_head_title: "고 타이 꿍" # 337639137939975928
+  viet_pagan_religious_head_title_name: "최고 의회" # 15038947742583190916
+  viet_pagan_devotee: "신봉자" # 16996875086266395993
+  viet_pagan_devotee_plural: "신도들" # 15412075443944701231
+  viet_pagan_priest: "타이 꿍" # 18026906634336308808
+  viet_pagan_priest_plural: "타이 꿍" # 18026906634336308808
+  viet_pagan_priest_term_plural: "타이 꿍" # 18026906634336308808
+  viet_pagan_priest_alternate_plural: "장로들" # 5696275286659332166
+  viet_pagan_divine_realm: "하늘" # 281074639492266792
+  viet_pagan_afterlife: "지옥" # 6004375176333440231
+  viet_pagan_bishop: "추장 짜이 꿍" # 2455449154947674320
+  viet_pagan_bishop_plural: "추장 짜이 꿍" # 2455449154947674320
+  viet_pagan_witch_god_name: "탄" # 9325609097576007814
+  viet_pagan_witch_god_name_possessive: "탄 마우의" # 11187030879051367307

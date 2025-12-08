@@ -1,0 +1,1364 @@
+﻿l_korean:
+  RICE_upper_tibet: "티베트 상부" # 12919248543915589189
+  RICE_upper_tibet_req: "[GetGeographicalRegion('RICE_upper_tibet').GetName] 내 [county|E]를 소유하고 있습니다." # 4746393887987715298
+  RICE_western_northern_tibet: "서부 및 북부 티베트" # 10534063757173330090
+  RICE_western_northern_tibet_req: "[GetGeographicalRegion('RICE_western_northern_tibet').GetName] 내에 [county|E]를 소유하고 있습니다." # 4466665055101142595
+  RICE_eastern_tibet: "동부 티베트" # 10008336184238919578
+  RICE_eastern_tibet_req: "[GetGeographicalRegion('RICE_eastern_tibet').GetName] 내의 [county|E]를 소유하고 있습니다." # 152283293135002656
+  RICE_drokpa_horsemen: "창탕 드로크파" # 16833474053530047134
+  RICE_drokpa_horsemen_flavor: "#F 티베트의 유목민들은 대체로 강인하고 억센 무리지만, 티베트의 가장 혹독한 지역인 창탕 고원 지대에서 유래한 유목민들은 용맹과 무자비함을 동등하게 지닌 기병으로 알려져 많은 이들이 두려워하는, 그야말로 무시무시한 존재들입니다.#!" # 12037252595809967366
+  fervor_gain_bon_convert: "$old_bon$으로부터 변환" # 7388731577561950110
+  innovation_RICE_glacier_grafting: "빙하 접목" # 7525568146123480084
+  innovation_RICE_glacier_grafting_desc: "빙하 결혼이라는 의례적인 절차를 통해 지역 주민들은 남성 빙하와 여성 빙하를 결합하여 산과 계곡의 농경지에 물을 대기 위한 새로운 빙하를 만들 수 있습니다." # 5267861715969039128
+  innovation_RICE_netsang_relationships: "네트상 관계" # 2822963733318107111
+  innovation_RICE_netsang_relationships_desc: "히말라야 고원의 유목 가문들은 종종 히말라야 남쪽에 있는 가문들과 네트상(Netsang)이라고 불리는 '가상의' 친족 관계를 맺습니다. 이러한 관계는 여러 세대에 걸쳐 지속되며, 관계를 맺은 가문들은 서로에게 교역 특권을 부여하고 상대방의 영지를 방문할 때 숙소를 제공합니다." # 11327011672570957068
+  RICE_glacier_grafting_activity_unlock: "[GetActivityType( 'activity_RICE_glacier_marriage' ).GetName] [activity|E]를 [GetTerrain( 'mountains' ).GetName] 또는 [GetTerrain( 'desert_mountains' ).GetName]에서 해금합니다." # 4385111243796195368
+  RICE_netsang_relationships_bonus_tt: "[decision|E]인 #V $RICE_zhangzhung_western_tibet_salt_decision$#!은 [gold_i|E] [gold|E]가 덜 듭니다." # 5668907458867885141
+  bon_religion_opinion: "$bon_religion_adherent$ 호감도" # 13994734382200906911
+  nick_RICE_guru_rinpoche: "구루 린포체" # 454575335116702228
+  nick_RICE_guru_rinpoche_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] 께서는 [GetFaithByKey('lamaism').GetAdherentNamePlural]들에게 역사적 부처이자 탄트라 가르침을 [GetGeographicalRegion('world_tibet').GetName]에 전파하는 데 도움을 준 샤카무니 부처의 화신으로 추앙받고 있습니다. 따라서 [CHARACTER.GetSheHe|U]는 귀한 스승을 의미하는 #italic 구루 린포체#!로 알려져 있습니다. [CHARACTER.GetSheHe|U]는 또한 #italic [GetTitleByKey('b_oddiyana').GetNameNoTier]에서 태어난 연꽃#!이라고도 불립니다." # 12127317171315755021
+  nyima_ozer: "니마 외제르" # 8493970227654162989
+  chokyi_khorlo: "초키 코를로" # 16244942771541761320
+  jomo_yeshe_dron: "조모 예셰 드론" # 8694985299310730059
+  Jobuma: "조부마" # 13243556756630651122
+  namkha_ozer: "남카 외제르" # 4213375450324389779
+  namkha_pel: "남카 펠" # 14053586131082905713
+  RICE_mani_stones_option: "마니석" # 11907637984357386716
+  RICE_mani_stones_option_desc: "여행하는 동안, 당신은 도로, 강, 성벽, 돌무더기 및 기타 신성한 장소 옆에 [Glossary( 'mani stones', 'MANI_STONE_GLOSS' )]를 세울 수 있도록 최선을 다해야 합니다." # 14880403729684082188
+  dpal_dus_sgra: "드빨 두스 스그라" # 14185744153582252125
+  RICE_dynn_hrugs_wer: "흐루그스" # 17852809078297172361
+  RICE_dynn_mang_wer: "망" # 681553021534334856
+  chakchang_lhadok: "착창 라독" # 446487706629185643
+  _or_za: "오르 자" # 6531589159730584707
+  hrugs_wer_dog_donor: "개" # 1854447679198500061
+  dmag_pon_lha_blon: "드막 폰 라 블론" # 12600713193895590974
+  za_eng_ba_rgyal: "자엥 바 걀" # 3524775660235558772
+  byang_chub_shesrab: "병축 셰스랍" # 9969357746017289051
+  seng_spyan: "셍 스판" # 1221418518776168496
+  RICE_dynn_yudra: "유드라" # 2119735842897850411
+  nick_RICE_great_translator: "위대한 번역가" # 8047044599938333387
+  nick_RICE_great_translator_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U]께서는 #italic 로첸#! 또는 위대한 역경가로 알려져 있으며, [GetFaithByKey('lamaism').GetName]의 신실한 추종자들 사이에서는 그가 초자연적인 힘을 지녔다고 믿는 이들도 있습니다. [CHARACTER.GetHerHis|U]께서는 [GetGeographicalRegion('world_india').GetName]로 여행하여 그곳에서 [GetReligionByKey('buddhism_religion').GetName]에 대해 배우고, 부처의 진정한 가르침을 전파하려는 [CHARACTER.GetHerHis]의 노력을 강화하며, [GetGeographicalRegion('world_tibet').GetName]에 종교 기관과 사원을 건설한 공로로 큰 명성을 얻으셨습니다." # 13921976886003995717
+  nick_RICE_lesser_translator: "소번역가" # 7830017302289861337
+  nick_RICE_lesser_translator_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U]께서는 소(小) 번역가로 알려져 있는데, 이는 [CHARACTER.GetSheHe]께서 그 자체로 훌륭한 번역가이심에도 불구하고, 더 유명하고 명성이 높은 대(大) 번역가인 $rinchen_zangpo$의 사촌이기 때문입니다. [CHARACTER.GetSheHe|U]께서는 [GetGeographicalRegion('world_tibet').GetName]으로 되돌려 보낼 [GetReligionByKey('buddhism_religion').GetAdjective] 지식과 유물을 찾기 위해 사촌과 함께 [GetGeographicalRegion('world_india').GetName]에 동행했었습니다." # 14981459279171607046
+  rinchen_zangpo: "린첸 장포" # 3372311734165787840
+  shonu_wangchuk: "쇼누 왕축" # 14792921457371129442
+  yuthokdra: "유톡드라" # 3851833560831663034
+  e_zhangzhung: "장중" # 6278435704551082691
+  e_zhangzhung_adj: "장중" # 6278435704551082691
+  RICE_every_county_in_upper_tibet: "[GetGeographicalRegion('RICE_upper_tibet').GetName] 내에 소유한 모든 [county|E]" # 8249299123237986061
+  Padmasambhava: "파드마삼바바" # 18092546564678086542
+  sherab_wangchuk: "셰랍 왕축" # 3931627748824161930
+  legpe_sherab: "레그페 셰랍" # 16273591276011812788
+  yonten_wangchuk: "욘텐 왕축" # 9456726867272592500
+  kunring_shetso: "쿤링 셰초" # 9191754146097249954
+  khutsa_dawo: "쿠차 다오" # 4231864483370453906
+  RICE_dynn_khutsa_dawo: "스파" # 15272472653779003813
+  RICE_dynn_khyungpo: "컁포" # 7850079278587984630
+  naro_bonchung: "나로 뵌충" # 5950296398528088966
+  nick_RICE_jetsun: "젭순" # 13568294621041885067
+  nick_RICE_jetsun_desc: "#italic 제춘#! (남성) 또는 #italic 제춘나#! (여성)은\"존경받는 \" 또는\"성스러운 \"을 의미하는 칭호입니다. 티베트 불교에서 매우 존경받는 종교 스승들에게 주어집니다." # 2185949889668053371
+  nick_RICE_jetsunma: "젭순마" # 10903527857198149962
+  nick_RICE_jetsunma_desc: "$nick_RICE_jetsun_desc$" # 15413869318943319234
+  fervor_gain_RICE_milarepa_event: "밀라레파의 카일라스 산에서의 추정된 영적 승리" # 12244642931111127056
+  RICE_every_tantric_buddhist_faith: "[GetReligionByKey('buddhism_religion').GetAdjective] [faith|E] 중 [GetFaithDoctrine('rice_vajrayana_canon_doctrine').GetBaseName] [doctrine|E]를 가진 모든" # 8348076659674873000
+  RICE_every_terton_courtier_or_guest: "[courtier|E]나 [guest|E] 중 [GetTrait('RICE_terton').GetName( GetNullCharacter )] [trait|E]를 가졌거나 [GetModifier('RICE_terton_candidate').GetNameWithTooltip] [character_modifier|E]를 가진 모든 인물" # 10281321567263083562
+  RICE_patronizing_tertons_opinion: "[Glossary( 'tertöns', 'TERTON_GLOSS' )]을 후원함" # 5133644184119353959
+  Drapa_Ngonshe: "드라파 응온쉐" # 3734975987554071250
+  Zhangtag_Karwa: "장탁 카르와" # 13569239402866246708
+  Lhase_Shewa_Gronma: "라세 셰와 그론마" # 6604652888550077112
+  Sangye_Lama: "상예 라마" # 187412042527872375
+  zhangzhung.minor_terma.message.specific_terton: "[terton.GetTitledFirstName]이(가) [RICE_minor_terma|E]를 발견했습니다." # 5796537290247708243
+  zhangzhung.minor_terma.message.generic: "지역 [Glossary( 'tertöns', 'TERTON_GLOSS' )]가 [RICE_minor_terma|E]를 발견했습니다." # 6177177098639017259
+  zhangzhung.minor_terma.message.self: "새로운 [RICE_minor_terma|E]를 발견했습니다." # 6851877444694596890
+  RICE_zhangzhung_pillars_neutral: "[GetPlayer.Custom('RICE_tibet_deities_type')]께서는 어떤 간청에도 응답하지 않으시는 듯합니다." # 10613765852813373984
+  RICE_zhangzhung_pillars_neutral_tooltip: "$RICE_zhangzhung_pillars_neutral$" # 13437106255390783378
+  RICE_greater_himalayan_region: "히말라야 대산맥" # 2773217846633796725
+  RICE_greater_himalayan_region_capital_req: "[capital|E]는 [GetGeographicalRegion('RICE_greater_himalayan_region').GetName]에 위치해 있습니다." # 1445312579649414396
+  Humar: "후마르" # 14022034763949036858
+  Milarepa: "밀라레파" # 9467045929041699370
+  RICE_tibet_deities_type_deities: "신들" # 10024869336305504466
+  RICE_tibet_deities_type_spirits: "영혼들" # 14535763589429283235
+  RICE_random_tibetan_buddhist_figure_01: "석가모니 부처" # 16915828092187849667
+  RICE_random_tibetan_buddhist_figure_02: "미륵불" # 3888141791654014635
+  RICE_random_tibetan_buddhist_figure_03: "관세음보살" # 9777771839554864077
+  RICE_random_tibetan_buddhist_figure_04: "문수보살" # 11325013947009127270
+  RICE_random_tibetan_buddhist_figure_05: "마하칼라" # 13953910886819798010
+  RICE_random_tibetan_buddhist_figure_06: "녹색 타라" # 17321461059434410104
+  RICE_random_tibetan_buddhist_figure_07: "흰색 타라" # 429129078608161711
+  RICE_random_tibetan_buddhist_figure_08: "약사여래" # 12164789137438849652
+  RICE_random_tibetan_buddhist_figure_09: "$Padmasambhava$" # 6263536974006756125
+  RICE_random_tibetan_buddhist_figure_10: "팔덴 라모" # 2892076128489661903
+  RICE_random_tibetan_buddhist_figure_11: "바즈라파니" # 14510964925903814203
+  RICE_random_tibetan_buddhist_figure_12: "푸른 타라" # 1113122919767063993
+  RICE_random_tibetan_buddhist_figure_13: "차크라삼바라" # 3198727834506708052
+  RICE_random_tibetan_buddhist_figure_14: "톤파 셴랍" # 9974683340638540394
+  RICE_random_tibetan_buddhist_figure_15: "셴라 외카르" # 12735721874727165094
+  RICE_random_tibetan_buddhist_figure_16: "쿤투장포" # 5110072773311766124
+  RICE_random_tibetan_buddhist_figure_17: "마규 상초그 타르투그" # 12564837924676314317
+  RICE_random_tibetan_buddhist_figure_18: "트로워 초촉 카갸잉" # 10395376802499007844
+  RICE_random_tibetan_buddhist_figure_19: "웰스 응암파" # 7923750734332430132
+  RICE_random_tibetan_buddhist_figure_20: "메리" # 18367659121407307958
+  RICE_random_tibetan_buddhist_figure_21: "톤파 셴랍 미워체" # 8182173772431626477
+  RICE_random_tibetan_buddhist_figure_22: "푸르파" # 17081672027677578090
+  RICE_random_terton_location_01: "수수한 바위 안에서" # 11193719457873218206
+  RICE_random_terton_location_02: "상서로운 만트라와 상징이 새겨진 바위 안에서" # 11518316012520865931
+  RICE_random_terton_location_03: "호수 바닥에" # 13133427515540551291
+  RICE_random_terton_location_04: "오래전에 잊힌 수도원의 성벽 안에서" # 4591660873876057567
+  RICE_random_terton_location_05: "지역 수도원의 성벽 안에서" # 17030584827832438300
+  RICE_random_terton_location_06: "오래전에 잊힌 사원의 벽 속에서" # 2124110686051956897
+  RICE_random_terton_location_07: "지역 사원의 성벽 안에" # 8039885507385860338
+  RICE_random_terton_location_08: "작고 보잘것없는 동굴 안에서" # 4262080387860254925
+  RICE_random_terton_location_09: "거대한 동굴 지대에서" # 14653990827102044114
+  RICE_random_terton_location_10: "강바닥 가장자리에서" # 17638008366205498405
+  RICE_random_terton_occurence_time_01: "지난 밤에," # 18437228664543319818
+  RICE_random_terton_occurence_time_02: "그날 아침, 발견되기 전에," # 13450859849003304920
+  RICE_random_terton_occurence_time_03: "그날 오후, 발견 이후," # 2162187302265108270
+  RICE_random_terton_occurence_time_04: "그날 저녁, 그 사실을 발견한 후에," # 12128739654784302764
+  RICE_random_terton_occurence_time_05: "발견이 이루어지는 동안," # 483239672012652686
+  RICE_random_terton_occurence_time_06: "발견이 이루어지기 직전에," # 1259477733020865565
+  RICE_random_terton_occurence_time_07: "발견이 이루어진 직후," # 17357428333984942108
+  RICE_random_terton_occurence_time_08: "발견의 어느 시점에" # 10748032369380135212
+  RICE_random_terton_occurence_time_09: "발견되기 전날," # 4878981218119519386
+  RICE_random_terton_occurence_time_10: "발견된 다음 날," # 14390622132974698177
+  RICE_random_terton_occurence_01: "하늘에서 [Glossary( 'dakinis', 'DAKINI_GLOSS' )]가 춤추는 것을 목격했습니다." # 4901082285646341702
+  RICE_random_terton_occurence_02: "[Glossary( '다키니', 'DAKINI_GLOSS' )]가 환영에 나타나, 어떤 [Glossary( '테르퇸', 'TERTON_GLOSS' )]도 발견에 대해 지나치게 흥분하거나 거만해서는 안 된다고 말했습니다. 거짓 테르퇸들은 세속적인 명성과 인정을 추구하기 때문입니다." # 12889133670569921369
+  RICE_random_terton_occurence_03: "근처 바위에 이전에 보이지 않던 신성한 만트라들이 나타난 것을 보았다." # 10441739144307666899
+  RICE_random_terton_occurence_04: "멀리서 기분 좋은 음악 소리가 들려왔으나, 그 근원은 알 수 없었습니다." # 2505835845281331793
+  RICE_random_terton_occurence_05: "주변에 기분 좋고 향긋한 냄새가 가득 찬 것을 감지했습니다." # 16130741562655722378
+  RICE_random_terton_occurence_06: "이유 없이 쓰러져 의식을 잃었으나, 곧바로 회복했습니다." # 12562025758260330164
+  RICE_random_terton_occurence_07: "온 지역을 감싸는 듯한 빛줄기가 보였다." # 5134513551772806480
+  RICE_random_terton_occurence_08: "하늘에서 영광스러운 무지개를 보았다." # 7163835435220101959
+  RICE_random_terton_occurence_09: "과거 생애에 대한 환영을 보았는데, 미래에 이 테르마가 발견될 것이라 예언되었던 것이었습니다." # 7820132126310382087
+  RICE_random_terton_occurence_10: "잠시 의식을 잃었는데, 강력하고 자비로운 수많은 신들이 등장하는 기분 좋은 꿈을 꾸었습니다." # 14823627792843847009
+  RICE_random_terton_occurence_11: "[ROOT.Char.Custom('RICE_random_tibetan_buddhist_figure')]께 기도한 후 기적적으로 사라진 거센 폭풍우에 갇혔습니다." # 8899786428194892766
+  RICE_random_terton_occurence_12: "하늘 가득 무수한 부처님들이 밤하늘의 별처럼 빛나며 그 지역을 비추고 있었습니다." # 5724334020085614072
+  RICE_random_terton_occurence_13: "지난 생에 이 테르마를 되찾겠다고 맹세한 직후, 그 생에서 죽음을 맞이하는 환영을 보았다." # 3698121539529735210
+  RICE_random_terton_occurence_14: "이유는 알 수 없으나 기쁨의 눈물을 터뜨렸습니다." # 4761782352133451935
+  RICE_random_terton_occurence_15: "마치 더 높은 힘에 이끌린 듯, [ROOT.Char.Custom('RICE_random_tibetan_buddhist_figure')]의 이름을 부르짖지 않을 수 없었습니다." # 12062101096526896237
+  RICE_random_terton_occurence_16: "테르마를 수호하는 분노한 신이 경의를 표하며 때가 되었다고 말하는 환영을 보았습니다." # 13488306978244977358
+  RICE_random_terton_occurence_17: "[ROOT.Char.Custom('RICE_random_tibetan_buddhist_figure')]께 기도하며 분노한 신이 테르마를 지키는 환영을 보았네." # 9421102626363552397
+  RICE_random_terton_occurence_18: "분노에 찬 신성한 테르마 수호자가 [ROOT.Char.Custom('RICE_random_tibetan_buddhist_figure')]로 변하는 환영을 보았습니다." # 3522483167471574436
+  RICE_random_terton_occurence_19: "짧은 지진을 겪었지만, 기적적으로 아무런 피해도 없었고 다친 사람도 없었습니다." # 14835003172279774419
+  RICE_terma_ritual_object_01: "[Glossary( 'vajra', 'VAJRA_GLOSS' )]" # 10606001110667574716
+  RICE_terma_ritual_object_02: "의식용 종" # 4185854285085564757
+  RICE_terma_ritual_object_03: "의식용 단검" # 18441030380210598317
+  RICE_terma_ritual_object_04: "소라 껍데기" # 9208074593189175723
+  RICE_terma_ritual_object_05: "화병" # 13568433174019678216
+  RICE_terma_ritual_object_06: "파리채" # 7919747733322180017
+  RICE_terma_ritual_object_07: "해골 잔" # 1461457878762698214
+  RICE_terma_ritual_object_08: "[Glossary( '마니차', 'PRAYER_WHEEL_GLOSS' )]" # 9767713940247707364
+  RICE_terma_ritual_object_09: "양면 북" # 16361429419363497910
+  RICE_terma_ritual_object_material_01: "[ROOT.Char.GetCurrentLocation.Custom('GetRandomRegionalWood')] 목재" # 14846454865013824835
+  RICE_terma_ritual_object_material_02: "목재" # 15454407821117531576
+  RICE_terma_ritual_object_material_03: "돌" # 1384869268430940400
+  RICE_terma_ritual_object_material_04: "뼈" # 14493001836151041859
+  RICE_terma_ritual_object_material_05: "금속" # 6354539918384935592
+  RICE_terma_ritual_object_material_06: "청동" # 9023857990623544011
+  RICE_terma_ritual_object_material_07: "철" # 18144531609599721576
+  RICE_terma_ritual_object_material_08: "금" # 1278023373275349225
+  RICE_terma_ritual_object_material_09: "은" # 8172738259129064666
+  RICE_terma_ritual_object_material_10: "좋은 목재" # 437251648835225277
+  RICE_terton_person_self: "나" # 12677399051867059349
+  RICE_terton_person_other: "[terton.GetFirstNameNoTooltip]" # 11361148848082841004
+  game_concept_RICE_tibet_treasure_revealers: "보물 발견자들" # 5067895300185557011
+  game_concept_RICE_tibet_treasure_revealer: "보물 발견자" # 603278104015250531
+  game_concept_RICE_tertons: "터르퇸" # 2542261319317557552
+  game_concept_RICE_terton: "테르퇸" # 2554074627641513879
+  game_concept_RICE_terton_desc: "[Glossary( 'tertöns', 'TERTON_GLOSS' )] 또는 보물 발견자들은 티베트 불교(특히 닝마파)와 뵌에서 숨겨진 신성한 보물인 [RICE_termas]를 찾아내는 종교 인물들입니다. 이 메커니즘은 $bon_religion_adj$ 또는 $west_himalayan_adj$ 신앙을 가진 자, [GetFaithDoctrine('rice_bon_deities_new_doctrine').GetBaseName] [doctrine|E]를 가진 자, 혹은 티베트 문화 [heritage|E]의 불교도에게 적용 가능합니다.\n\nTertön들은 [GetTrait('RICE_terton').GetName( GetNullCharacter )] [trait|E]로 표현됩니다. 이를 얻기 위해 자격이 되는 인물들(주로 [courtiers|E]이지만 드물게 [rulers|E]도 가능)은 가끔 발생하는 이벤트를 통해 $RICE_terton_candidate$ [modifier|E]를 얻을 수 있습니다.\n\nTertön 또는 잠재적 Tertön들은 매년 [RICE_termas|E]나 [RICE_minor_termas|E]를 발견할 기회를 가지며, 이 기회는 당신이 Tertön인지 잠재적 Tertön인지에 따라 $RICE_zhangzhung_search_for_termas$ 또는 $RICE_zhangzhung_patronize_tertons$ [decisions|E]를 통해 높일 수 있습니다." # 1446536980485349239
+  game_concept_RICE_tibet_hidden_treasures: "숨겨진 보물" # 2548330354667958869
+  game_concept_RICE_tibet_hidden_treasure: "숨겨진 보물" # 14911478171528837125
+  game_concept_RICE_termas: "테르마스" # 119390696189019399
+  game_concept_RICE_terma: "테르마" # 14169546854392634837
+  game_concept_RICE_terma_desc: "[Glossary( 'termas', '테르마_용어집' )]라고 불리는 숨겨진 보물은 티베트 불교(특히 닝마파)와 뵌(Bön)교의 특정 종교 인물인 [RICE_tertons|E]에 의해 발견됩니다.\n\n매년, [GetTrait('RICE_terton').GetName( GetNullCharacter )] [trait|E] 특성을 지닌 인물이나 $RICE_terton_candidate$ [modifier|E]를 가진 인물이 [RICE_terma|E]나 [RICE_minor_terma|E]를 발견할 기회가 생기는데, 이는 당신이 테르톤인지 잠재적 테르톤인지에 따라 $RICE_zhangzhung_search_for_termas$ 또는 $RICE_zhangzhung_patronize_tertons$ [decisions|E]를 통해 그 확률을 높일 수 있습니다.\n\n주요 테르마가 발견되면, 그것은 #bold 공인#! 수준이 의문, 수용, 숭배의 세 단계로 나뉩니다. 이는 테르마가 제공하는 게임 내 보너스( [artifacts|E]부터 [gold_i|E] [gold|E] 및 [character_modifiers|E]에 이르기까지)의 강도에 영향을 미칩니다." # 16994075875229853732
+  game_concept_RICE_minor_termas: "소규모 테르마이" # 16094819349186334370
+  game_concept_RICE_minor_terma: "소규모 테르마" # 2699168671798143634
+  game_concept_RICE_minor_terma_desc: "사소한 [Glossary( 'termas', 'TERMA_GLOSS' )]는 [RICE_tertons|E]가 발견하는 숨겨진 보물로, 더 주요한 [RICE_terma|E] 발견만큼 두드러지지는 않으며, 소폭의 [piety_i|E] [piety|E] 및 [prestige_i|E] [prestige|E] 증가로 나타납니다.\n\n매년, 테르퇸이나 잠재적 테르퇸이 사소한 테르마를 발견할 기회가 있습니다. 이 기회는 귀하가 테르퇸인지 잠재적 테르퇸인지에 따라 $RICE_zhangzhung_search_for_termas$ 또는 $RICE_zhangzhung_patronize_tertons$ [decisions|E]를 통해 증대될 수 있습니다." # 16308467926499540591
+  RICE_terma_intro_desc: "이 [terton.GetFaith.GetAdjective] [RICE_terma|E]는 [terton.GetSheHe]가 상서로운 환영이나 꿈을 통해 그것을 찾을 수 있는 곳을 확인한 후, [location.GetName]에서 [RICE_terton|E] [terton.GetFullName]에 의해 세상에 알려졌습니다." # 11338950394946524636
+  RICE_terma_intro_questioned_desc: "이것은 #bold 의심스러운#! [RICE_terma|E]입니다. 평소 [RICE_terton|E] 제도를 믿지 않는 분파를 제외하고도 그 진정성에 회의적인 시각이 적지 않기 때문입니다." # 8188684392178672245
+  RICE_terma_intro_accepted_desc: "이것은 #bold 용인할 만한#! [RICE_terma|E]이며, 평소의 [RICE_terton|E] 제도를 믿지 않는 분파주의자들을 제외하고는 상당수의 사람들이 그 정통성을 믿고 있습니다." # 10926108551151283219
+  RICE_terma_intro_venerated_desc: "이곳은 #bold 성스러운#! [RICE_terma|E]로, 평소에는 [RICE_terton|E] 제도를 믿지 않는 분파주의자들까지도 그 진정성을 믿는 이들이 많습니다." # 6710979710457349326
+  RICE_terma_statue_name: "[terton.GetFaith.GetAdjectiveNoTooltip] 석상" # 1714700934376891996
+  RICE_terma_statue_desc: "이 [RICE_terma|E]는 [GetPlayer.Custom('RICE_random_tibetan_buddhist_figure')]의 조각상입니다. 명상 자세로 앉아 고요한 표정으로 응시하고 있습니다." # 3345968061656676790
+  RICE_terma_statue_questioned_desc: "$RICE_terma_intro_desc$$RICE_terma_intro_questioned_desc$" # 7338971302213042415
+  RICE_terma_statue_accepted_desc: "$RICE_terma_intro_desc$$RICE_terma_statue_desc$\n\n$RICE_terma_intro_accepted_desc$" # 3919884405997989026
+  RICE_terma_statue_venerated_desc: "$RICE_terma_intro_desc$$RICE_terma_statue_desc$\n\n$RICE_terma_intro_venerated_desc$" # 4640061494053404899
+  RICE_terma_sacred_image_name: "[terton.GetFaith.GetAdjectiveNoTooltip] 신성한 성상" # 11841830860514802036
+  RICE_terma_sacred_image_desc: "이 [RICE_terma|E]는 다양한 인물들에게 둘러싸인 [GetPlayer.Custom('RICE_random_tibetan_buddhist_figure')]의 예술적 묘사입니다. 그들은 모두 다양한 명상 또는 의식적 자세로 평온하게 보는 이를 응시하고 있습니다." # 7680858591846011266
+  RICE_terma_sacred_image_questioned_desc: "$RICE_terma_intro_desc$$RICE_terma_sacred_image_desc$\n\n$RICE_terma_intro_questioned_desc$" # 6449712669808823788
+  RICE_terma_sacred_image_accepted_desc: "$RICE_terma_intro_desc$$RICE_terma_sacred_image_desc$\n\n$RICE_terma_intro_accepted_desc$" # 2704554523305277742
+  RICE_terma_sacred_image_venerated_desc: "$RICE_terma_intro_desc$$RICE_terma_sacred_image_desc$\n\n$RICE_terma_intro_venerated_desc$" # 7857552696811982680
+  RICE_terma_ritual_instrument_name: "[terton.GetFaith.GetAdjectiveNoTooltip] 의식 도구" # 3304679043181289042
+  RICE_terma_ritual_instrument_desc: "이 [RICE_terma|E]는 [GetPlayer.Custom('RICE_terma_ritual_object')]이며, [GetPlayer.Custom('RICE_terma_ritual_object_material')]로 만들어져 다양한 [terton.GetFaith.GetAdjectiveNoTooltip] 의식과 제례에 사용됩니다." # 18029298245132591680
+  RICE_terma_ritual_instrument_questioned_desc: "$RICE_terma_intro_desc$$RICE_terma_ritual_instrument_desc$\n\n$RICE_terma_intro_questioned_desc$" # 17948866224014039611
+  RICE_terma_ritual_instrument_accepted_desc: "$RICE_terma_intro_desc$$RICE_terma_ritual_instrument_desc$\n\n$RICE_terma_intro_accepted_desc$" # 2203743346181928111
+  RICE_terma_ritual_instrument_venerated_desc: "$RICE_terma_intro_desc$$RICE_terma_ritual_instrument_desc$\n\n$RICE_terma_intro_venerated_desc$" # 17636297766089982576
+  RICE_terma_scholarly_texts_name: "[terton.GetFaith.GetAdjectiveNoTooltip] 학술 문헌" # 11660750081683621781
+  RICE_terma_scholarly_texts_desc: "이 [RICE_terma|E]는 [terton.GetFaith.GetAdjectiveNoTooltip] 전통의 학술 서적으로, 의학, 천문학, 역사 등 세속적이고 물리적인 세계와 관련된 다양한 주제를 다루고 있습니다." # 17995256442316845655
+  RICE_terma_scholarly_texts_questioned_desc: "$RICE_terma_intro_desc$$RICE_terma_scholarly_texts_desc$\n\n$RICE_terma_intro_questioned_desc$" # 2935696284872377194
+  RICE_terma_scholarly_texts_accepted_desc: "$RICE_terma_intro_desc$$RICE_terma_scholarly_texts_desc$\n\n$RICE_terma_intro_accepted_desc$" # 5303575235801824285
+  RICE_terma_scholarly_texts_venerated_desc: "$RICE_terma_intro_desc$$RICE_terma_scholarly_texts_desc$\n\n$RICE_terma_intro_venerated_desc$" # 17689178922692946893
+  RICE_terma_teachings_physical_name: "[terton.GetFaith.GetAdjectiveNoTooltip] 교리 ([Glossary( 'Sater', 'SATER_GLOSS' )])" # 462664400420699998
+  RICE_terma_teachings_physical_desc: "이 [RICE_terma|E]는 [terton.GetFaith.GetAdjectiveNoTooltip] 종교의 가르침을 두루마리에 기록한 것으로, 깨달음의 길로 나아가는 독자에게 도움이 되는 중요한 영적 주제를 깊이 다루고 있습니다. 이것은 본래 물리적인 형태로 숨겨져 있던 [Glossary( 'earth treasure', 'SATER_GLOSS' )]입니다." # 17204734023366111476
+  RICE_terma_teachings_physical_questioned_desc: "$RICE_terma_intro_desc$$RICE_terma_teachings_physical_desc$\n\n$RICE_terma_intro_questioned_desc$" # 4635092827666286518
+  RICE_terma_teachings_physical_accepted_desc: "$RICE_terma_intro_desc$$RICE_terma_teachings_physical_desc$\n\n$RICE_terma_intro_accepted_desc$" # 10316216738188329528
+  RICE_terma_teachings_physical_venerated_desc: "$RICE_terma_intro_desc$$RICE_terma_teachings_physical_desc$\n\n$RICE_terma_intro_venerated_desc$" # 11903948675984826358
+  RICE_terma_teachings_internal_name: "[terton.GetFaith.GetAdjectiveNoTooltip] 가르침 ([Glossary( 'Gongter', 'GONGTER_GLOSS' )])" # 10430897072025931218
+  RICE_terma_teachings_internal_desc: "이 [RICE_terma|E]는 두루마리에 적힌 [terton.GetFaith.GetAdjectiveNoTooltip] 종교적 가르침으로, 깨달음으로 나아가는 길에 독자를 돕는 중요한 영적 주제들을 깊이 다루고 있습니다. 이는 [terton.GetFirstNameNoTooltip]에게 계시되어 [terton.GetSheHe]가 기록한 [Glossary( 'mind treasure', 'GONGTER_GLOSS' )]입니다." # 17128050517669175201
+  RICE_terma_teachings_internal_questioned_desc: "$RICE_terma_intro_desc$$RICE_terma_teachings_internal_desc$\n\n$RICE_terma_intro_questioned_desc$" # 4403335703303901188
+  RICE_terma_teachings_internal_accepted_desc: "$RICE_terma_intro_desc$$RICE_terma_teachings_internal_desc$\n\n$RICE_terma_intro_accepted_desc$" # 14948025758628125110
+  RICE_terma_teachings_internal_venerated_desc: "$RICE_terma_intro_desc$$RICE_terma_teachings_internal_desc$\n\n$RICE_terma_intro_venerated_desc$" # 6788620265798957683
+  building_type_RICE_zhangzhung_tsaparang_fortress: "차파랑 요새" # 7823899301342434738
+  building_type_RICE_zhangzhung_tsaparang_fortress_desc: "피라미드 모양의 바위 꼭대기에 자리한 차파랑의 요새와 궁전은 이 지역 통치자들이 휘두르는 권력의 상징입니다. 이 복합 단지는 많은 사원, 수도원, 동굴, 터널 및 기타 구조물로 이루어져 있습니다. 이 지역 통치자들이 거주하는 거처 위에는 여름 궁전이 있습니다." # 17764385813799767238
+  building_RICE_zhangzhung_tsaparang_fortress: "$building_type_RICE_zhangzhung_tsaparang_fortress$" # 17067226342172694044
+  building_RICE_zhangzhung_tsaparang_fortress_desc: "$building_type_RICE_zhangzhung_tsaparang_fortress_desc$" # 17356996342753580125
+  building_type_RICE_zhangzhung_lake_dangra: "당그라 호수" # 750378993425580712
+  building_type_RICE_zhangzhung_lake_dangra_desc: "당라 호수의 맑은 물은 지역 신앙에 따르면 우주와 모든 지각 있는 존재의 근원이라고 믿어집니다. 호수 주변의 비옥한 땅은 경작을 가능하게 하며, 고대 장주(Zhangzhung) 왕국의 수도가 이곳에 있었다고 전해집니다." # 5493223679691563170
+  building_RICE_zhangzhung_lake_dangra: "$building_type_RICE_zhangzhung_lake_dangra$" # 10624447061122473309
+  building_RICE_zhangzhung_lake_dangra_desc: "$building_type_RICE_zhangzhung_lake_dangra_desc$" # 1642044062871939677
+  building_type_RICE_zhangzhung_tabo_monastery: "타보 수도원" # 9591801988055058688
+  building_type_RICE_zhangzhung_tabo_monastery_desc: "건조하고 추운 스피티 계곡을 내려다보는 타보 사원은 불교 종교와 학문의 지역 중심지 역할을 합니다. 이곳에는 여러 사원, 동굴, 스투파가 있으며, 다양한 신들과 불교 설화 속 이야기를 묘사하는 장엄한 프레스코화로 장식되어 있습니다." # 2799093158290103040
+  building_RICE_zhangzhung_tabo_monastery: "$building_type_RICE_zhangzhung_tabo_monastery$" # 15373586281659747981
+  building_RICE_zhangzhung_tabo_monastery_desc: "$building_type_RICE_zhangzhung_tabo_monastery_desc$" # 11627118246624463507
+  building_type_RICE_zhangzhung_kangra_fort: "강라 요새" # 9219704385494983756
+  building_type_RICE_zhangzhung_kangra_fort_desc: "만지 강과 방강가 강 두 강 사이에 있는 작은 언덕에 자리한 캉그라 성은 히말라야 산맥에서 가장 큰 요새 중 하나입니다. 전해지기로는 수세기 전으로 거슬러 올라가는 역사를 지니고 있으며, 막대한 보물과 다양한 지역 신들의 아름다운 조각상들을 보호하는 것으로도 알려져 있습니다." # 10081167272768711497
+  building_RICE_zhangzhung_kangra_fort: "$building_type_RICE_zhangzhung_kangra_fort$" # 11941727149289894529
+  building_RICE_zhangzhung_kangra_fort_desc: "$building_type_RICE_zhangzhung_kangra_fort_desc$" # 5692238010675619475
+  building_type_RICE_zhangzhung_phuktal_monastery: "푸크탈 수도원" # 10046952179490099422
+  building_type_RICE_zhangzhung_phuktal_monastery_desc: "가장 가까운 주요 정착지에서 하루 거리에 있는 외딴 룽낙 계곡에는 절벽 위의 거대한 자연 동굴을 중심으로 지어진 종교 단지인 푸크탈 사원이 있습니다. 부처의 직계 제자들로부터 시작하여 수많은 깨달은 영적 스승들이 수세기 동안 이 동굴에 머물렀다고 전해집니다. 이 지역에는 성스러운 샘과 의료 시설도 있습니다." # 190687318704328864
+  building_RICE_zhangzhung_phuktal_monastery: "$building_type_RICE_zhangzhung_phuktal_monastery$" # 17291797718454766774
+  building_RICE_zhangzhung_phuktal_monastery_desc: "$building_type_RICE_zhangzhung_phuktal_monastery_desc$" # 4461982053659605386
+  building_type_RICE_zhangzhung_alchi_monastery: "알치 수도원" # 4774974928750238393
+  building_type_RICE_zhangzhung_alchi_monastery_desc: "알치의 수도원 단지는 라다크 산맥에 위치한 불교 학문과 종교의 중심지입니다. 그 건물들에서 발견되는 아름다운 예술 작품들은 이 지역에 티베트와 인도 예술 및 종교 전통의 영향을 모두 보여줍니다." # 16708404824713130349
+  building_RICE_zhangzhung_alchi_monastery: "$building_type_RICE_zhangzhung_alchi_monastery$" # 16490846968269636357
+  building_RICE_zhangzhung_alchi_monastery_desc: "$building_type_RICE_zhangzhung_alchi_monastery_desc$" # 4649685617318705872
+  building_type_RICE_sacred_rocks_of_hunza: "훈자의 성스러운 바위들" # 13391827304700849151
+  building_type_RICE_sacred_rocks_of_hunza_desc: "훈자 강 계곡은 파미르와 힌두쿠시 산맥을 가로지르며 실크로드를 따라 교역과 이동을 용이하게 하는 중요한 경로 중 하나입니다. 이 웅장한 바위들에는 오랫동안 암각화가 새겨져 왔지만, 이 암각화는 상부와 하부로 나뉘어 있어 그중에서도 가장 주목할 만합니다. 이는 수 세기에 걸쳐 다양한 문화와 신념을 가진 여행자들이 새긴 것으로, 이 지역에서 이루어진 위대한 인물 및 사상의 교류를 증명합니다." # 583681657067298488
+  building_RICE_sacred_rocks_of_hunza: "훈자의 성스러운 바위들" # 13391827304700849151
+  building_RICE_sacred_rocks_of_hunza_desc: "훈자 강 계곡은 파미르와 힌두쿠시 산맥을 가로지르며 실크로드를 따라 교역과 이동을 용이하게 하는 중요한 경로 중 하나입니다. 이 웅장한 바위들에는 오랫동안 암각화가 새겨져 왔지만, 이 암각화는 상부와 하부로 나뉘어 있어 그중에서도 가장 주목할 만합니다. 이는 수 세기에 걸쳐 다양한 문화와 신념을 가진 여행자들이 새긴 것으로, 이 지역에서 이루어진 위대한 인물 및 사상의 교류를 증명합니다." # 583681657067298488
+  trait_RICE_terton: "테르퇸" # 2554074627641513879
+  trait_RICE_terton_desc: "이 인물은 티베트에서 유래한 종교 전통에 중요한 고대의 숨겨진 문헌, 즉 [Glossary( 'terma', 'TERMA_GLOSS' )]를 발견한 [RICE_tibet_treasure_revealer|E]입니다." # 14477724364259928569
+  trait_RICE_terton_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip]께서는 티베트에서 유래한 종교 전통에 중요한 고대 숨겨진 경전, 즉 [Glossary( 'terma', 'TERMA_GLOSS' )]를 발견한 [RICE_tibet_treasure_revealer|E]입니다." # 13583985973115574183
+  trait_RICE_terton_2: "주요 텡톤" # 15476337763491914500
+  trait_RICE_terton_2_desc: "이 인물은 저명한 [RICE_tibet_treasure_revealer|E]로, 티베트에서 유래한 종교 전통에 중요한 고대의 숨겨진 많은 문헌, 즉 [Glossary( 'terma', 'TERMA_GLOSS' )]를 발견했습니다. 그들은 영적 지식으로 존경받고 있습니다." # 3709097793860674961
+  trait_RICE_terton_2_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip]께서는 티베트에서 유래한 종교 전통에 중요한 고대의 숨겨진 문헌, 즉 [Glossary( 'terma', 'TERMA_GLOSS' )]를 많이 발견한 저명한 [RICE_tibet_treasure_revealer|E]이십니다. [ROOT.Char.GetSheHe|U]께서는 그분의 영적 지식으로 존경받고 계십니다." # 6125718534692163966
+  trait_RICE_terton_3: "테르퇸 왕" # 111890483410862306
+  trait_RICE_terton_3_desc: "이 인물은 현 시대 최고의 [RICE_tibet_treasure_revealer|E] 중 한 명으로, 티베트에서 유래한 종교 전통에 중요한 수많은 고대 숨겨진 경전, 즉 [Glossary( 'terma', 'TERMA_GLOSS' )]를 발견했습니다. 그들은 영적인 지식으로 인해 널리 숭앙받고 있습니다." # 1494635474748918312
+  trait_RICE_terton_3_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip]께서는 현시대 가장 위대한 [RICE_tibet_treasure_revealer|E] 중 한 분으로, 티베트에서 유래한 종교적 전통에 중요한 수많은 고대 숨겨진 경전, 즉 [Glossary( 'terma', 'TERMA_GLOSS' )]를 발견하셨습니다. [ROOT.Char.GetSheHe|U]께서는 그분의 영적 지식으로 인해 널리 숭앙받고 계십니다." # 8256520266311346743
+  trait_track_RICE_terton: "$trait_RICE_terton$" # 131200073207984188
+  trait_track_RICE_terton_desc: "[Glossary( 'karmic conditions', 'KARMIC_CONDITIONS_GLOSS' )]가 무르익으면, 선업을 쌓은 자는 모든 중생에게 큰 이익을 가져다줄 숨겨진 보물을 발견하게 될 것입니다." # 8666124954560419049
+  RICE_terton_bonus_modifier_1: "[Glossary( 'karmic conditions', 'KARMIC_CONDITIONS_GLOSS' )]가 무르익으면, 선업을 쌓은 자는 모든 중생에게 큰 이익을 가져다줄 숨겨진 보물을 발견하게 될 것입니다." # 8666124954560419049
+  TRAIT_FLAG_DESC_rice_terton_bonus_modifier_1: "#bold 발견# 확률 증가! [Glossary( 'terma', 'TERMA_GLOSS' )]" # 17463904979157549223
+  activity_RICE_glacier_marriage_host_an_a: "$host_activity_a$" # 13713790857143020716
+  activity_RICE_glacier_marriage: "빙하 결혼" # 6413759800821444928
+  activity_RICE_glacier_marriage_desc: "'남성 빙하'와 '여성 빙하'의 조각들을 의례적인 행사, 즉 일종의 결혼식을 통해 결합함으로써 산에 새로운 빙하를 접목시켜 아래 계곡과 언덕에 추가적인 관개원을 만들 수 있습니다." # 12172478194699058645
+  activity_RICE_glacier_marriage_selection_tooltip: "지역 주민들의 빙하 결혼식을 돕습니다.\n\n$activity_RICE_glacier_marriage_context_tooltip$" # 6781618440341595628
+  activity_RICE_glacier_marriage_context_tooltip: "#emphasis 역사적 배경:#! 힌두쿠시와 서부 히말라야 산맥에는 빙하를 관개 목적으로 '성장'시키는 전통이 있는데, 이는 회색빛이거나 흙먼지로 인해 갈색을 띠는 수컷 빙하와 순수한 색을 가진 암컷 빙하 사이의 소위 '빙하 결혼식'이라는 의례화된 과정을 통해 이루어집니다. 전설에 따르면, 성직자들이 중세 시대에 몽골인, 티베트인, 혹은 카슈가르 통치자라고 일컬어지는 침략자들로부터 지역 주민들을 보호하기 위한 자연 방벽을 만들기 위해 이 방법을 현지인들에게 가르쳤다고 합니다." # 8669462437439229245
+  activity_RICE_glacier_marriage_host_desc: "$BULLET_WITH_TAB$ [prestige_i|E][prestige|E]\n$BULLET_WITH_TAB$ [piety_i|E][piety|E]\n$BULLET_WITH_TAB$ [county|E]에서 열리는 [activity|E]는 #P 이로운#! [county_modifier|E|E]를 얻어 [development_i|E] [development|E]와 [gold_i|E] [taxes|E]가 증가합니다." # 15738424840432029997
+  activity_RICE_glacier_marriage_guest_desc: "$activity_RICE_glacier_marriage_host_desc$" # 6398353649918391545
+  activity_RICE_glacier_marriage_destination_selection: "$activity_RICE_glacier_marriage_province_desc$" # 1787673961539814725
+  activity_RICE_glacier_marriage_guest_help_text: "$activity_RICE_glacier_marriage$" # 12609155805049353067
+  activity_RICE_glacier_marriage_predicted_cost: "이 [activity|E]의 비용은 선택하는 [activity_options|E]에 따라 달라집니다." # 658366464949161382
+  activity_RICE_glacier_marriage_conclusion_desc: "우리의 [GetActivityType( 'activity_RICE_glacier_marriage' ).GetName]가 마무리되었고, 새로운 빙하가 탄생했습니다!" # 16990706893097838293
+  RICE_glacier_marriage_sacrifice_amount: "희생" # 11421588474970910012
+  RICE_glacier_marriage_sacrifice_amount_small: "소박한 희생" # 1441759101154490516
+  RICE_glacier_marriage_sacrifice_amount_small_desc: "$BULLET_WITH_TAB$기본 [piety_i|E] 획득: #V [EmptyScope.ScriptValue('RICE_glacier_marriage_base_piety_small')]#! [piety|E]\n$BULLET_WITH_TAB$기본 [prestige_i|E] 획득: #V [EmptyScope.ScriptValue('RICE_glacier_marriage_base_prestige_small')]#! [prestige|E]\n$BULLET_WITH_TAB$ [activity|E]가 열리는 [county|E]에서 더 강력한 [county_modifiers|E]를 얻을 확률 감소\n\n#weak 적절한 제물이 지역 정령들에게 바쳐져 이 빙하 결혼식이 순조롭게 진행되도록 할 것입니다.#" # 1884916731937424768
+  RICE_glacier_marriage_sacrifice_amount_medium: "보통" # 7377651229498775580
+  RICE_glacier_marriage_sacrifice_amount_medium_desc: "$BULLET_WITH_TAB$기본 [piety_i|E] 획득 #V [EmptyScope.ScriptValue('RICE_glacier_marriage_base_piety_medium')]#! [piety|E]\n$BULLET_WITH_TAB$기본 [prestige_i|E] 획득 #V [EmptyScope.ScriptValue('RICE_glacier_marriage_base_prestige_medium')]#! [prestige|E]\n$BULLET_WITH_TAB$ [activity|E]가 진행되는 [county|E]에서 더 강력한 [county_modifiers|E]를 얻을 적절한 기회\n\n#weak 빙하 결혼이 성공하려면, 우리는 지역 정령들에게 소박한 제물 이상의 것을 바쳐야 합니다.#" # 17644142001860456052
+  RICE_glacier_marriage_sacrifice_amount_large: "거대한" # 2290692482761374841
+  RICE_glacier_marriage_sacrifice_amount_large_desc: "$BULLET_WITH_TAB$기본 [piety_i|E] #V [EmptyScope.ScriptValue('RICE_glacier_marriage_base_piety_large')]#! 획득 [piety|E]\n$BULLET_WITH_TAB$기본 [prestige_i|E] #V [EmptyScope.ScriptValue('RICE_glacier_marriage_base_prestige_large')]#! 획득 [prestige|E]\n$BULLET_WITH_TAB$ [activity|E]가 열리는 [county|E]에서 더 강력한 [county_modifiers|E]를 얻을 확률 증가\n\n#weak 이 빙하 결혼식이 잘 성사되도록 하려면, 현지 정령들에게 성대한 제물을 바쳐야만 한다. 그보다 못한 것은 용납할 수 없다!#" # 12503885570276577347
+  RICE_glacier_marriage_wedding_phase: "결혼식" # 1116248789541768685
+  RICE_glacier_marriage_wedding_phase_desc: "우리는 새로운 빙하를 만들기 위해 수컷 빙하와 암컷 빙하를 함께 모읍니다." # 3264252413704992111
+  RICE_glacier_marriage_ritual_intent_header: "의식" # 13781907821707693583
+  RICE_glacier_marriage_ritual_intent: "의식" # 15674658978138415862
+  RICE_glacier_marriage_ritual_intent_desc: "당신은 산속에서 남성 빙하와 여성 빙하의 결혼식에 참여합니다." # 1583477428316222447
+  RICE_glacier_marriage_completed_log_title: "$activity_RICE_glacier_marriage$ 종료" # 16898564583181668727
+  RICE_glacier_marriage_completed_log: "[CHARACTER.GetShortUIName|U]께서 $activity_RICE_glacier_marriage$를 지켜보는 것을 마치셨습니다." # 11306015215693759641
+  TRAVEL_NAME_FOR_activity_RICE_glacier_marriage: "[Character.GetFirstNamePossessiveNoTooltip] $activity_RICE_glacier_marriage$" # 5712029230398824518
+  activity_RICE_glacier_marriage_province_mountains_desc: "빙하는 산악 지대와 추운 지형에서 발견됩니다." # 14138233486840048786
+  activity_RICE_zhangzhung_kinnaur_flower_festival_host_an_a: "$host_activity_a$" # 13713790857143020716
+  activity_RICE_zhangzhung_kinnaur_flower_festival: "풀라이치 축제" # 10641106726593219386
+  activity_RICE_zhangzhung_kinnaur_flower_festival_desc: "가을이 오면서 꽃의 축제인 풀라이치(Fulaich)가 시작될 징조가 보입니다. 사람들은 만개한 가장 아름다운 야생화를 채집하기 위해 고지대로 가서 지역 신들에게 바치며, 최근에 세상을 떠난 이들을 기리고 신탁에게 미래를 점쳐달라고 기원합니다." # 5879350083614053189
+  activity_RICE_zhangzhung_kinnaur_flower_festival_selection_tooltip: "지역 풀라이치 축제에 참가합니다.\n\n$activity_RICE_zhangzhung_kinnaur_flower_festival_context_tooltip$" # 15728243262298937212
+  activity_RICE_zhangzhung_kinnaur_flower_festival_context_tooltip: "#emphasis 역사적 배경:#! #italic 풀라이치#! 축제 또는 꽃 축제는 현재 인도 히마찰프라데시 주에 위치한 [GetTitleByKey('d_kinnaur').GetNameNoTier] 계곡의 전통적인 축제입니다. 이 축제는 산의 꽃들을 모아 이 지역의 계곡, 산, 숲에 거주하는 지역 신들에게 바치는 것을 중심으로 이루어집니다. 또한 세상을 떠난 가족 구성원에게 경의를 표하고 지역 신탁가들에게 미래에 대한 예언을 구하는 기회이기도 합니다." # 5916743164051425117
+  activity_RICE_zhangzhung_kinnaur_flower_festival_host_desc: "$BULLET_WITH_TAB$ [prestige_i|E][prestige|E]\n$BULLET_WITH_TAB$ [piety_i|E][piety|E]\n$BULLET_WITH_TAB$스트레스 [stress_loss_i|E][stress|E] 감소\n$BULLET_WITH_TAB$점괘 결과에 따라 본인에게 #P 이로운# [character_modifiers|E] 또는 [activity|E]가 열리는 [county|E]에 [county_modifiers|E]를 얻을 확률\n$BULLET_WITH_TAB$지정된 가문 구성원은 #bold 꽃 수집가#!가 되어 추가 보너스를 얻을 수 있습니다." # 843132060803960133
+  activity_RICE_zhangzhung_kinnaur_flower_festival_guest_desc: "$activity_RICE_zhangzhung_kinnaur_flower_festival_host_desc$" # 14733203611542512989
+  activity_RICE_zhangzhung_kinnaur_flower_festival_province_mountains_desc: "#P ++ 이곳의 산들은 아름다운 초원을 품고 있소.#!\n\n#italic 이 [activity|E]가 끝나면 [prestige_i|E] [prestige|E]와 [piety_i|E] [piety|E]가 증가할 것이오.!#" # 4398256133566090641
+  activity_RICE_zhangzhung_kinnaur_flower_festival_destination_selection: "$activity_RICE_zhangzhung_kinnaur_flower_festival_province_desc$" # 7083534061307028415
+  activity_RICE_zhangzhung_kinnaur_flower_festival_guest_help_text: "$activity_RICE_zhangzhung_kinnaur_flower_festival$" # 15033006866394528620
+  activity_RICE_zhangzhung_kinnaur_flower_festival_predicted_cost: "이 [activity|E]의 비용은 선택하는 [activity_options|E]에 따라 달라집니다." # 658366464949161382
+  activity_RICE_zhangzhung_kinnaur_flower_festival_conclusion_desc: "[GetActivityType( 'activity_RICE_zhangzhung_kinnaur_flower_festival' ).GetName]이 종료되었습니다. 정말 아름다운 행사였군요!" # 8659587255357872604
+  RICE_zhangzhung_kinnaur_flower_festival_sacrifice_amount_type: "희생량" # 15367156406848473421
+  RICE_zhangzhung_kinnaur_flower_festival_sacrifice_amount_small: "작은" # 11665425638542725414
+  RICE_zhangzhung_kinnaur_flower_festival_sacrifice_amount_small_desc: "$EFFECT_LIST_BULLET$ 기본 [piety_i|E] #V [GetPlayer.MakeScope.ScriptValue('RICE_zhangzhung_kinnaur_flower_festival_base_piety_small')]#! [piety|E] 및 [prestige_i|E] #V [GetPlayer.MakeScope.ScriptValue('RICE_zhangzhung_kinnaur_flower_festival_base_prestige_small')]#! [prestige|E] 획득\n$EFFECT_LIST_BULLET$ 신탁으로부터 [modifier|E]를 얻을 #V [EmptyScope.ScriptValue('RICE_zhangzhung_kinnaur_flower_festival_oracle_chance_low')]%#! 확률\n\n#weak 우리가 모은 꽃 외에도, 지역 신들에게 의무적인 희생과 제물을 바칠 것입니다.#" # 7705814031850355542
+  RICE_zhangzhung_kinnaur_flower_festival_sacrifice_amount_medium: "보통" # 7377651229498775580
+  RICE_zhangzhung_kinnaur_flower_festival_sacrifice_amount_medium_desc: "$EFFECT_LIST_BULLET$ 기본 [piety_i|E] #V [GetPlayer.MakeScope.ScriptValue('RICE_zhangzhung_kinnaur_flower_festival_base_piety_medium')]#! [piety|E] 및 [prestige_i|E] #V [GetPlayer.MakeScope.ScriptValue('RICE_zhangzhung_kinnaur_flower_festival_base_prestige_medium')]#! [prestige|E] 획득\n$EFFECT_LIST_BULLET$ 점술가로부터 [modifier|E]를 얻을 #V [EmptyScope.ScriptValue('RICE_zhangzhung_kinnaur_flower_festival_oracle_chance_medium')]%#! 확률\n\n#weak 지역 신들에게 단순한 제물이나 기본적인 봉헌물보다 더 나은 것을 바쳐야 한다!#!" # 15092195447956424841
+  RICE_zhangzhung_kinnaur_flower_festival_sacrifice_amount_large: "거대한" # 2290692482761374841
+  RICE_zhangzhung_kinnaur_flower_festival_sacrifice_amount_large_desc: "$EFFECT_LIST_BULLET$ 기본 [piety_i|E] #V [GetPlayer.MakeScope.ScriptValue('RICE_zhangzhung_kinnaur_flower_festival_base_piety_large')]#! [piety|E] 및 [prestige_i|E] #V [GetPlayer.MakeScope.ScriptValue('RICE_zhangzhung_kinnaur_flower_festival_base_prestige_large')]#! [prestige|E] 획득\n$EFFECT_LIST_BULLET$ 신탁으로부터 [modifier|E]를 얻을 #V [EmptyScope.ScriptValue('RICE_zhangzhung_kinnaur_flower_festival_oracle_chance_high')]%#! 확률\n\n#weak 우리가 지역 신들을 진정으로 기리고자 한다면, 그들에게 위대한 희생과 많은 제물을 바쳐야만 하오.#" # 6901897369501337846
+  RICE_zhangzhung_kinnaur_flower_festival_sacrifice_amount: "$RICE_zhangzhung_kinnaur_flower_festival_sacrifice_amount_type$" # 17409202216427680617
+  RICE_zhangzhung_kinnaur_flower_festival_collection_phase: "꽃 수집" # 10863939301307613197
+  RICE_zhangzhung_kinnaur_flower_festival_collection_phase_desc: "지역 마을 사람들이 아름다운 꽃을 채집하기 위해 고지대 황무지로 여행합니다." # 3091743454776009637
+  RICE_zhangzhung_kinnaur_flower_festival_offerings_phase: "종교적 봉헌" # 14636710869917334287
+  RICE_zhangzhung_kinnaur_flower_festival_offerings_phase_desc: "우리가 모은 꽃들은 지역 신들에게 바쳐질 것입니다." # 16484701606080713608
+  RICE_zhangzhung_kinnaur_flower_festival_respect_intent_header: "존경:" # 18226717266321563071
+  RICE_zhangzhung_kinnaur_flower_festival_respect_intent: "존경:" # 2453150022979536680
+  RICE_zhangzhung_kinnaur_flower_festival_respect_intent_desc: "귀하는 최근 세상을 떠난 이를 기리고 신들을 숭배하고자 합니다. [dynasty_prestige_i|E] #V [GetPlayer.MakeScope.ScriptValue('RICE_zhangzhung_kinnaur_flower_festival_dynasty_prestige_gain')]#! [dynasty_prestige|E]를 획득합니다. [GetTrait('zealous').GetName( GetNullCharacter )|U] 및 [GetTrait('diligent').GetName( GetNullCharacter )] 특성을 가진 인물들은 추가 [stress_loss_i|E] [stress|E]를 잃게 됩니다." # 17706606747278207415
+  RICE_zhangzhung_kinnaur_flower_festival_divination_intent_header: "점술:" # 8988062888925447979
+  RICE_zhangzhung_kinnaur_flower_festival_divination_intent: "점술:" # 2305778532447250308
+  RICE_zhangzhung_kinnaur_flower_festival_divination_intent_desc: "당신은 신탁의 미래 예언을 이해하고 싶어 합니다. #P 좋은#! [modifier|E]를 받을 확률이 #V 10%#! 증가합니다. [GetTrait('ambitious').GetName( GetNullCharacter )|U] 및 [GetTrait('humble').GetName( GetNullCharacter )] 특성을 가진 인물은 추가적인 [stress_loss_i|E] [stress|E]를 잃게 됩니다." # 11634213007289296805
+  RICE_zhangzhung_kinnaur_flower_festival_rejoicement_intent_header: "기쁨의 환호:" # 1710371888373249886
+  RICE_zhangzhung_kinnaur_flower_festival_rejoicement_intent: "기쁨의 환호:" # 15067830652735157463
+  RICE_zhangzhung_kinnaur_flower_festival_rejoicement_intent_desc: "여러분과 함께 축하하며 최근의 상실로부터 치유하는 데 집중합니다. 모든 참석자는 당신에게 [opinion_i|E] #P +10#! [opinion|E]을 얻습니다. [GetTrait('gregarious').GetName( GetNullCharacter )|U] 및 [GetTrait('generous').GetName( GetNullCharacter )] 특성을 가진 인물들은 추가로 [stress_loss_i|E] [stress|E]를 잃습니다." # 7566194468664253765
+  RICE_zhangzhung_kinnaur_flower_festival_completed_log_title: "$activity_RICE_zhangzhung_kinnaur_flower_festival$ 종료" # 13463973161220379708
+  RICE_zhangzhung_kinnaur_flower_festival_completed_log: "[CHARACTER.GetShortUIName|U]께서 풀라이치 축제 참여를 마쳤습니다." # 1675754918748494624
+  TRAVEL_NAME_FOR_activity_RICE_zhangzhung_kinnaur_flower_festival: "[Character.GetFirstNamePossessiveNoTooltip] $activity_RICE_zhangzhung_kinnaur_flower_festival$" # 12010547183456537941
+  RICE_special_guest_flower_collector: "꽃 수집가" # 7233310360911066616
+  RICE_special_guest_flower_collector_for_host: "$RICE_special_guest_flower_collector$" # 4210976970902172030
+  RICE_special_guest_flower_collector_desc: "각 가문은 자신들 중 한 명을 $RICE_special_guest_flower_collector$로 선정할 수 있습니다. 이들은 신들을 기쁘게 할 아름다운 꽃을 찾아 산으로 들어가는 영광을 누리게 됩니다. 이 영광스러운 임무를 위해 선택된 [guest|E]는 [piety_i|E] [piety|E]와 [prestige_i|E] [prestige|E]를 얻고, 당신에 대한 [opinion|E]이 상승할 것입니다.\n\n#N $RICE_special_guest_flower_collector$로 자격을 갖추려면, 손님은 주최자의 가까운 또는 먼 [family|E] 출신이어야 합니다.#!" # 16765998365730118990
+  RICE_special_guest_flower_collector_desc_for_host: "$RICE_special_guest_flower_collector_desc$" # 3635746943533733713
+  RICE_zhangzhung_kinnaur_flower_festival_collector_returns_log_title: "꽃 수집가들의 귀환" # 13098170973955379001
+  RICE_zhangzhung_kinnaur_flower_festival_collector_returns_log: "[CHARACTER.GetShortUIName|U]가 다른 꽃 채집가들과 함께 수많은 산악 야생화를 들고 돌아왔습니다." # 3920337385975861181
+  RICE_zhangzhung_kinnaur_flower_festival_collector_sacrifice_log_title: "바쳐진 희생" # 8666206460677172503
+  RICE_zhangzhung_kinnaur_flower_festival_collector_sacrifice_log: "지역 산신에게 제물이 바쳐집니다." # 2568550236694910109
+  RICE_zhangzhung_kinnaur_flower_festival_oracle_good_log_title: "훌륭한 신탁의 예언이로다" # 13147868657338433466
+  RICE_zhangzhung_kinnaur_flower_festival_oracle_good_log: "신탁은 가까운 미래에 누군가에게 긍정적인 일이 생길 것이라고 예언했습니다." # 1448367046516703898
+  activity_RICE_festival_losar_host_an_a: "$host_activity_a$" # 13713790857143020716
+  activity_RICE_festival_losar: "로사르 축제" # 14447579722502513209
+  activity_RICE_festival_losar_desc: "로사르는 티베트력의 새해 축제이며, 티베트인들이 가장 즐기는 축제 중 하나입니다." # 5574167239387611580
+  activity_RICE_festival_losar_selection_tooltip: "새해를 맞이합시다!\n\n$RICE_festival_losar_desc_context_tooltip$" # 17068598407433187796
+  activity_RICE_festival_losar_host_desc: "$BULLET_WITH_TAB$ [stress_loss_i|E] [stress|E] 감소\n$BULLET_WITH_TAB$ [piety_i] [piety|E]\n$BULLET_WITH_TAB$ [prestige_i] [prestige|E]\n$BULLET_WITH_TAB$최대 [gold_i|E] #V [EmptyScope.ScriptValue('RICE_losar_gift_amount')]#! 만큼의 [gold|E]를 선물로 증정\n$BULLET_WITH_TAB$귀하의 [capital|E]에 #P 유익한#! [county_modifiers|E] 부여" # 7328556346428113569
+  RICE_festival_losar_desc_context_tooltip: "#emphasis 역사적 배경:#! 로사르는 티베트 민족의 새해 축제로, 전통적으로 15일간 지속됩니다. 새해 날짜는 티베트 태음태양력에 기반하며, 일반적으로 그레고리력의 2월이나 3월 중 어느 시기에 해당합니다." # 8988447256829650312
+  activity_RICE_festival_losar_guest_desc: "[piety_i] [piety|E] 획득" # 15956444138895960840
+  activity_RICE_festival_losar_province_desc: "이곳은 로사르 축제를 위해 사람들이 초대될 장소입니다." # 16755732369194149586
+  activity_RICE_festival_losar_destination_selection: "$activity_RICE_festival_losar_province_desc$" # 11638980124708838815
+  activity_RICE_festival_losar_guest_help_text: "$activity_RICE_festival_losar$" # 4643808410987718084
+  activity_RICE_festival_losar_predicted_cost: "축하 행사의 비용은 귀하가 어떤 [activity_options|E]를 선택하는지에 따라 달라집니다." # 5533355821360829221
+  activity_RICE_festival_losar_conclusion_desc: "[GetActivityType( 'activity_RICE_festival_losar' ).GetName] 행사가 끝났습니다. 저의 행동이 좋은 업보를 가져다주기를 바랍니다!" # 7451677130684631477
+  dharma_decision_losar_month_requirement: "로사르는 2월이나 3월경에 일어납니다." # 1852606243520839818
+  RICE_festival_losar_gift_type: "선물" # 2606541427898960113
+  RICE_festival_losar_gift_small: "작은" # 11665425638542725414
+  RICE_festival_losar_gift_small_desc: "$EFFECT_LIST_BULLET$ [capital|E]이(가) [GetModifier('RICE_losar_small_gift_modifier').GetNameWithTooltip] [county_modifier|E]를 획득합니다.\n$EFFECT_LIST_BULLET$ 추가 [prestige_i|E] #V [EmptyScope.ScriptValue('miniscule_prestige_gain')]#! [prestige|E] 획득\n#weak 로사르 기간 동안 평민들에게 작고 소박한 선물이 주어질 것입니다. 그들은 다른 것은 필요 없습니다!#" # 17417299686827442121
+  RICE_festival_losar_gift_medium: "보통" # 7377651229498775580
+  RICE_festival_losar_gift_medium_desc: "$EFFECT_LIST_BULLET$ [capital|E]에 [GetModifier('RICE_losar_medium_gift_modifier').GetNameWithTooltip] [county_modifier|E] 부여\n$EFFECT_LIST_BULLET$ 추가 [prestige_i|E] #V [EmptyScope.ScriptValue('minor_prestige_gain')]#! 획득 [prestige|E]\n\n#weak 로사르 기간 동안 평민들에게 존경할 만한 선물을 바쳐야 합니다. 우리는 최소한의 의무 이상을 행해야 할 책임이 있습니다.#" # 14944843437382130915
+  RICE_festival_losar_gift_large: "거대함" # 2290692482761374841
+  RICE_festival_losar_gift_large_desc: "$EFFECT_LIST_BULLET$ [capital|E]에 [GetModifier('RICE_losar_large_gift_modifier').GetNameWithTooltip] [county_modifier|E] 부여\n$EFFECT_LIST_BULLET$ 추가 [prestige_i|E] #V [EmptyScope.ScriptValue('medium_prestige_gain')]#! [prestige|E] 획득\n\n#weak 로사르 기간 동안 평민들에게 성대한 선물을 내릴 것입니다. 우리의 관대함과 자비심으로 큰 덕을 쌓을 것입니다!#!" # 2811915241310035769
+  RICE_festival_losar_gift_amount: "평민들에게 주는 선물의 규모." # 7974558087624117755
+  RICE_festival_losar_celebration_phase: "의식" # 3878012746933025863
+  RICE_festival_losar_celebration_phase_desc: "로사르를 기념하고 새해를 맞이하십시오." # 2436740826452018271
+  RICE_festival_losar_completed_log_title: "로사르 완료" # 12222183216441620475
+  RICE_festival_losar_completed_log: "[CHARACTER.GetShortUIName|U] 께서 로사르를 기념했습니다." # 11130416374469042603
+  TRAVEL_NAME_FOR_activity_RICE_festival_losar: "[Character.GetFirstNamePossessiveNoTooltip] $activity_RICE_festival_losar$" # 4930963007225862149
+  RICE_festival_losar_host_memory: "기념할 만한 [GetActivityType('activity_RICE_festival_losar').GetName]" # 12371549921776309871
+  RICE_festival_losar_host_memory_first_perspective: "저는 [GetActivityType('activity_RICE_festival_losar').GetName]을 기념했습니다." # 10400494414459387143
+  RICE_festival_losar_host_memory_second_perspective: "당신은 [GetActivityType('activity_RICE_festival_losar').GetName]를 기념했습니다." # 14052083428510832248
+  RICE_festival_losar_host_memory_third_perspective: "[owner.GetName]께서 [GetActivityType('activity_RICE_festival_losar').GetName]을 기념하셨습니다." # 1962791947427412410
+  RICE_festival_losar_guest_memory: "[host.GetTitledFirstNamePossessive]의 [GetActivityType('activity_RICE_festival_losar').GetName]을 기념했습니다." # 15699848385107288341
+  RICE_festival_losar_guest_memory_first_perspective: "저는 [host.GetTitledFirstNamePossessive]의 [GetActivityType('activity_RICE_festival_losar').GetName]을 기념했습니다." # 689391550458556872
+  RICE_festival_losar_guest_memory_second_perspective: "당신은 [host.GetTitledFirstNamePossessive]의 [GetActivityType('activity_RICE_festival_losar').GetName]를 축하했습니다." # 8842726371009787081
+  RICE_festival_losar_guest_memory_third_perspective: "[owner.GetName]께서 [host.GetTitledFirstNamePossessive]의 [GetActivityType('activity_RICE_festival_losar').GetName]을 기념하셨습니다." # 162378507120789485
+  RICE_festival_losar_worship_intent_header: "숭배:" # 5975529624042931288
+  RICE_festival_losar_worship_intent: "숭배:" # 7766295194512236388
+  RICE_festival_losar_worship_intent_desc: "축하 행사의 종교적 측면에 집중하십시오. [activity|E]를 수행하면 추가 [piety_i|E] #V 50#! [piety|E]를 얻습니다. 만약 그대가 [GetTrait('zealous').GetName( GetNullCharacter )]이거나 [GetTrait('humble').GetName( GetNullCharacter )]라면 추가 [stress_loss_i|E] [stress|E]를 잃습니다." # 9903924849508413186
+  RICE_festival_losar_reputation_intent_header: "명성:" # 6075904094411210055
+  RICE_festival_losar_reputation_intent: "명성:" # 4914268119379995417
+  RICE_festival_losar_reputation_intent_desc: "이 축제 기간 동안의 헌납을 통해 그대 모두가 그대의 헌신을 알게 되기를 바라오. [activity|E]가 완료되면 추가로 [prestige_i|E] #V 50#! [prestige|E]를 얻으시오. 만약 그대가 [GetTrait('ambitious').GetName( GetNullCharacter )]이거나 [GetTrait('arrogant').GetName( GetNullCharacter )]라면 추가로 [stress_loss_i|E] [stress|E]를 잃을 것이오." # 17451666907572612268
+  RICE_losar_large_gift_modifier: "일반 백성에게 주는 성대한 로사르 축하 선물" # 17821650560498837952
+  RICE_losar_large_gift_modifier_desc: "이곳의 평민들은 최근 로사르 축제의 일환으로 지역 지도자들로부터 성대한 선물을 받았습니다." # 14413188953743938139
+  RICE_losar_medium_gift_modifier: "#bold 대규모 로사르 하사품#을 평민들에게" # 14464558069625844035
+  RICE_losar_medium_gift_modifier_desc: "이곳의 평민들은 최근 로사르 축제의 일환으로 지역 지도자들로부터 많은 선물을 받았습니다." # 5696696283884410524
+  RICE_losar_small_gift_modifier: "평민들을 위한 작은 로사르 선물" # 6862621586446253370
+  RICE_losar_small_gift_modifier_desc: "이곳의 평민들은 최근 로사르 축제의 일환으로 지역 지도자들로부터 작은 선물을 받았습니다." # 975830755729885235
+  RICE_zhangzhung_pillars_bad_diplomacy_1: "기둥에 기원하기: 불리한 결과 (명성)" # 12793802403687214347
+  RICE_zhangzhung_pillars_bad_diplomacy_2: "기둥에 기원하기: 불리한 결과 (명성)" # 12793802403687214347
+  RICE_zhangzhung_pillars_bad_diplomacy_3: "기둥에 기원하기: 불리한 결과 (명성)" # 12793802403687214347
+  RICE_zhangzhung_pillars_bad_diplomacy_4: "기둥에 기원하기: 불리한 결과 (명성)" # 12793802403687214347
+  RICE_zhangzhung_pillars_bad_diplomacy_5: "기둥에 기원하기: 불리한 결과 (명성)" # 12793802403687214347
+  RICE_zhangzhung_pillars_good_diplomacy_1: "기둥에 대한 간청, 유리한 결과 (명성)" # 16944594982330991571
+  RICE_zhangzhung_pillars_good_diplomacy_2: "기둥에 대한 간청, 유리한 결과 (명성)" # 16944594982330991571
+  RICE_zhangzhung_pillars_good_diplomacy_3: "기둥에 대한 간청, 유리한 결과 (명성)" # 16944594982330991571
+  RICE_zhangzhung_pillars_good_diplomacy_4: "기둥에 대한 간청, 유리한 결과 (명성)" # 16944594982330991571
+  RICE_zhangzhung_pillars_good_diplomacy_5: "기둥에 대한 간청, 유리한 결과 (명성)" # 16944594982330991571
+  RICE_zhangzhung_pillars_bad_martial_1: "불리한 결과의 기둥 봉헌 (군사)" # 7168745802744341697
+  RICE_zhangzhung_pillars_bad_martial_2: "불리한 결과의 기둥 봉헌 (군사)" # 7168745802744341697
+  RICE_zhangzhung_pillars_bad_martial_3: "불리한 결과의 기둥 봉헌 (군사)" # 7168745802744341697
+  RICE_zhangzhung_pillars_bad_martial_4: "불리한 결과의 기둥 봉헌 (군사)" # 7168745802744341697
+  RICE_zhangzhung_pillars_bad_martial_5: "불리한 결과의 기둥 봉헌 (군사)" # 7168745802744341697
+  RICE_zhangzhung_pillars_good_martial_1: "기둥 봉헌: 유리한 결과 (군사)" # 14500535051487795600
+  RICE_zhangzhung_pillars_good_martial_2: "기둥 봉헌: 유리한 결과 (군사)" # 14500535051487795600
+  RICE_zhangzhung_pillars_good_martial_3: "기둥 봉헌: 유리한 결과 (군사)" # 14500535051487795600
+  RICE_zhangzhung_pillars_good_martial_4: "기둥 봉헌: 유리한 결과 (군사)" # 14500535051487795600
+  RICE_zhangzhung_pillars_good_martial_5: "기둥 봉헌: 유리한 결과 (군사)" # 14500535051487795600
+  RICE_zhangzhung_pillars_bad_stewardship_1: "불리한 결과를 낳은 기둥에 대한 탄원 (자원)" # 18131136916761644191
+  RICE_zhangzhung_pillars_bad_stewardship_2: "불리한 결과를 낳은 기둥에 대한 탄원 (자원)" # 18131136916761644191
+  RICE_zhangzhung_pillars_bad_stewardship_3: "불리한 결과를 낳은 기둥에 대한 탄원 (자원)" # 18131136916761644191
+  RICE_zhangzhung_pillars_bad_stewardship_4: "불리한 결과를 낳은 기둥에 대한 탄원 (자원)" # 18131136916761644191
+  RICE_zhangzhung_pillars_bad_stewardship_5: "불리한 결과를 낳은 기둥에 대한 탄원 (자원)" # 18131136916761644191
+  RICE_zhangzhung_pillars_good_stewardship_1: "기둥에 대한 간청: 자원 우세 결과" # 1406849676615855284
+  RICE_zhangzhung_pillars_good_stewardship_2: "기둥에 대한 간청: 자원 우세 결과" # 1406849676615855284
+  RICE_zhangzhung_pillars_good_stewardship_3: "기둥에 대한 간청: 자원 우세 결과" # 1406849676615855284
+  RICE_zhangzhung_pillars_good_stewardship_4: "기둥에 대한 간청: 자원 우세 결과" # 1406849676615855284
+  RICE_zhangzhung_pillars_good_stewardship_5: "기둥에 대한 간청: 자원 우세 결과" # 1406849676615855284
+  RICE_zhangzhung_pillars_bad_intrigue_1: "기둥에 드리는 기원, 불리한 결과 (개인 안전)" # 3462256106742626635
+  RICE_zhangzhung_pillars_bad_intrigue_2: "기둥에 드리는 기원, 불리한 결과 (개인 안전)" # 3462256106742626635
+  RICE_zhangzhung_pillars_bad_intrigue_3: "기둥에 기원하기: 불리한 결과 (개인 안전)" # 3462256106742626635
+  RICE_zhangzhung_pillars_bad_intrigue_4: "기둥에 기원하기: 불리한 결과 (개인 안전)" # 3462256106742626635
+  RICE_zhangzhung_pillars_bad_intrigue_5: "기둥에 기원하기: 불리한 결과 (개인 안전)" # 3462256106742626635
+  RICE_zhangzhung_pillars_good_intrigue_1: "기둥에 기원하기 (좋은 결과) (개인 안전)" # 3936678389756844750
+  RICE_zhangzhung_pillars_good_intrigue_2: "기둥에 기원하기 (좋은 결과) (개인 안전)" # 3936678389756844750
+  RICE_zhangzhung_pillars_good_intrigue_3: "기둥에 기원하기 (좋은 결과) (개인 안전)" # 3936678389756844750
+  RICE_zhangzhung_pillars_good_intrigue_4: "기둥에 기원하기 (좋은 결과) (개인 안전)" # 3936678389756844750
+  RICE_zhangzhung_pillars_good_intrigue_5: "기둥에 기원하기 (좋은 결과) (개인 안전)" # 3936678389756844750
+  RICE_zhangzhung_pillars_bad_learning_1: "기둥에 기도하기: 불리한 결과 (지성)" # 9776923349528944865
+  RICE_zhangzhung_pillars_bad_learning_2: "기둥에 기도하기: 불리한 결과 (지성)" # 9776923349528944865
+  RICE_zhangzhung_pillars_bad_learning_3: "기둥에 기도하기: 불리한 결과 (지성)" # 9776923349528944865
+  RICE_zhangzhung_pillars_bad_learning_4: "기둥에 기도하기: 불리한 결과 (지성)" # 9776923349528944865
+  RICE_zhangzhung_pillars_bad_learning_5: "기둥에 기도하기: 불리한 결과 (지성)" # 9776923349528944865
+  RICE_zhangzhung_pillars_good_learning_1: "기둥에 기원하기: 지성 관련 좋은 결과" # 6628343319632962895
+  RICE_zhangzhung_pillars_good_learning_2: "기둥에 기원하기: 지성 관련 좋은 결과" # 6628343319632962895
+  RICE_zhangzhung_pillars_good_learning_3: "기둥에 기원하기: 지성 관련 좋은 결과" # 6628343319632962895
+  RICE_zhangzhung_pillars_good_learning_4: "기둥에 기원하기: 지성 관련 좋은 결과" # 6628343319632962895
+  RICE_zhangzhung_pillars_good_learning_5: "기둥에 기원하기: 지성 관련 좋은 결과" # 6628343319632962895
+  RICE_zhangzhung_hrugs_wer_modifier: "린첸 장포의 일족" # 5216782950168521238
+  RICE_zhangzhung_hrugs_wer_modifier_desc: "이 씨족은 10세기와 11세기에 구게 왕들의 후원 아래 활동했던 위대한 티베트 불교 경전 번역가인 린첸 상포와 같은 씨족입니다. 이 씨족은 역사적으로 불교 기관과 불교 예술에 대한 후원으로 명성이 높았습니다." # 3065994855592182394
+  RICE_zhangzhung_governor_of_brusha: "부루샤의 전 총독" # 7208848825015188907
+  RICE_zhangzhung_governor_of_brusha_desc: "그다지 오래 전이 아닙니다. 구게 왕국이 파미르의 [Glossary( 'Brusha', 'BRUSHA_GLOSS' )] 지역을 완전히 장악했을 때, 이 인물은 그곳의 총독으로서 국내외의 적으로부터 그곳을 굳건히 방어하고 있었습니다." # 5476168647266858334
+  RICE_zhangzhung_brusha_governor_inscription: "브루샤 총독에 대한 엄숙한 찬사" # 1422162513489923870
+  RICE_zhangzhung_brusha_governor_inscription_desc: "최근 이곳의 커다란 바위에 구게의 평의원이었으며 [Glossary( 'Brusha', 'BRUSHA_GLOSS' )]의 전 총독이었던 $dpal_dus_sgra$를 엄숙하게 찬양하는 비문이 세워졌습니다. 그의 지도력은 구게의 서쪽 국경을 국내외의 적으로부터 방어하는 데 결정적인 역할을 했습니다. 이 비문에는 다양한 불교 종교 상징과 요소들이 포함되어 있습니다." # 14099956411886456824
+  RICE_zhangzhung_avenger_of_ligmikya: "$Likmigyal$의 복수자" # 2470300527000124919
+  RICE_zhangzhung_avenger_of_ligmikya_desc: "이 왕조는 히말라야 고원에서 전설적인 장주(Zhangzhung) 국가의 부흥을 주도했습니다. $Likmigyal$ 왕 치하의 장주가 티베트인들에게 정복당한 후, 진정한 뵌(Bön) 가르침은 한동안 고난을 겪었지만 이제 부활했습니다. 오래전에 멸망한 $Likmigyal$ 왕의 복수가 이루어진 것입니다." # 3280241128341009971
+  RICE_zhangzhung_restorer_of_bon: "뵌교의 복원자" # 16791248142934223778
+  RICE_zhangzhung_restorer_of_bon_desc: "이 왕조는 히말라야 고원에서 전설적인 장주국(Zhangzhung) 부흥을 주도했습니다. 한때 뵌교와 학문의 번성했던 중심지였던 장주국이 티베트인들에게 정복당한 후, 진정한 가르침은 한동안 고통받았으나 이제 다시 부활했습니다. 뵌교는 다시 한번 제자리를 되찾았습니다." # 10684482906517516669
+  RICE_zhangzhung_new_silver_palace: "가루다 계곡의 은빛 성채" # 1586366854683919528
+  RICE_zhangzhung_new_silver_palace_desc: "전설적인 장주국(Zhangzhung)의 부흥과 함께, 옛 수도의 위치가 시간의 안개 속에 사라졌기에 이곳에 새로운 장주국의 수도가 세워졌습니다. 이 지역이 여전히 장주국의 수도 역할을 하든 아니든, 이곳은 서부 히말라야의 주요 문화 및 경제 중심지가 되었습니다." # 7832904981233217884
+  RICE_milarepa_modifier: "위대한 요기" # 15671670112459521379
+  RICE_milarepa_modifier_desc: "밀라레파는 과거 자신을 해친 자들에게 복수하기 위해 사악한 마법을 사용하여 흉악한 살인을 저질렀으나, 자신의 행동을 뉘우쳤습니다. 그는 부정적인 업장을 정화하기 위해 위대한 불교 학자이자 스승인 마르파 [Glossary( 'Lotsawa', 'LOTSAWA_GLOSS' )] 밑에서 수많은 시련을 겪어야 했습니다. 이제 그 자신도 영적인 대가가 되어 일부 사람들은 그가 기적적이고 초자연적인 힘을 지녔다고 믿으며, 그는 다른 이들을 가르치거나 멀리 떨어진 동굴과 산속에서 명상 수행을 하며 시간을 보냅니다." # 9600737380644529578
+  RICE_zhangzhung_zuthulpuk_monastery_recently_built: "주툴푹 수도원 최근 건설됨" # 1333405013025993911
+  RICE_zhangzhung_zuthulpuk_monastery_recently_built_desc: "위대한 불교 영적 스승 밀라레파가 카일라스 산에서 본교 수행자들과 경쟁하던 중 기적으로 주툴푹 동굴 사원을 즉흥적으로 창조했다는 전설이 있습니다. 사실 여부와 관계없이, 지역 지도자들은 이 장소를 정식 사원으로 만들어 멀고 가까운 불교도들에게 이 장소의 매력을 높였습니다." # 3330304378530915191
+  RICE_zhangzhung_built_zuthulpuk_monastery: "주툴푸크 수도원 건설" # 2209898344714800829
+  RICE_zhangzhung_built_zuthulpuk_monastery_desc: "이 인물은 주툴푹 유적지를 제대로 된 수도원으로 만드는 데 공헌했습니다. 그 수도원은 위대한 불교 영적 스승인 밀라레파가 기적으로 순식간에 세웠다고 전해집니다. 어쨌든, 이 인물이 그러한 사업을 후원할 수 있었다는 것은 밀라레파와 깊은 업보적인 연결고리가 있음을 분명히 보여줍니다." # 2884113583058485427
+  RICE_terton_candidate: "잠재적 테르퇸" # 8363916426446510935
+  RICE_terton_candidate_desc: "이 인물은 자신이 잠재적인 [Glossary( 'tertön', 'TERTON_GLOSS' )]일 수 있음을 암시하는 꿈, 환상 또는 기타 길조의 징후를 경험했습니다. 그들은 미래에 [Glossary( 'termas', 'TERMA_GLOSS' )]를 발견하게 될까요?\n\n#italic 이 [character_modifier|E]가 활성화되어 있는 한, 그리고 이 인물이 적절한 [faith|E]를 가지고 있다면, 매년 [RICE_tibet_treasure_revealer|E]가 되어 [RICE_tibet_hidden_treasures|E]를 발견할 가능성이 생깁니다.#!" # 12078466946941643694
+  RICE_zhangzhung_patronizing_tertons: "테르톤 후원하기" # 11822562329675402240
+  RICE_zhangzhung_patronizing_tertons_desc: "이 인물은 [Glossary( 'tertöns', 'TERTON_GLOSS' )]가 그들의 영지에서 [Glossary( 'termas', 'TERMA_GLOSS' )]를 발견하려는 노력에 재정적, 물질적, 정치적 지원을 제공하고 있습니다.\n\n#italic 이 [character_modifier|E]가 활성화되어 있는 동안, 기존의 [RICE_tibet_treasure_revealers|E]가 매년 [RICE_tibet_hidden_treasures|E]를 발견할 확률이 높아집니다. 또한 이 인물의 [courtiers|E]가 [GetModifier('RICE_terton_candidate').GetNameWithTooltip] [character_modifier|E] [character_modifier|E]를 얻을 확률도 높아집니다.#!" # 16846262400914306787
+  RICE_zhangzhung_searching_for_termas: "테르마스 찾기" # 10196320924354050699
+  RICE_zhangzhung_searching_for_termas_desc: "이 인물은 특정 [Glossary( 'termas', 'TERMA_GLOSS' )]의 위치를 가리키는 상서로운 환영과 징조를 받고 있을 수 있습니다. 그들은 이러한 환영과 징조 뒤에 숨겨진 진실을 밝히는 데 집중하느라 일상 업무에는 덜 관여하게 됩니다.\n\n#italic 이 [character_modifier|E]가 활성화되어 있는 동안, 이 인물이 매년 [RICE_termas|E], 특히 [RICE_minor_termas|E]를 발견할 확률이 증가합니다.#!" # 18316239315134141461
+  RICE_zhangzhung_discovering_termas: "테르마 공개" # 437958091605816294
+  RICE_zhangzhung_discovering_termas_desc: "이 인물은 오래전에 숨겨졌으며 이제 세상에 드러내고자 하는 [Glossary( 'terma', 'TERMA_GLOSS' )]의 잠재적인 장소를 가리키는 꿈, 환상 또는 기타 길조의 징표를 보았습니다." # 7603422103015836480
+  RICE_zhangzhung_kinnaur_oracle_county_modifier_1: "길조의 신탁 예언" # 4035416873256033257
+  RICE_zhangzhung_kinnaur_oracle_county_modifier_1_desc: "최근 이곳에서 열린 #italic 풀라이치#! 축제에서 지역 신의 신탁이 이곳에 사는 백성들에게 좋은 일이 있을 것이라고 말했습니다." # 3039512604408704851
+  RICE_zhangzhung_kinnaur_oracle_county_modifier_2: "$RICE_zhangzhung_kinnaur_oracle_county_modifier_1$" # 3074043187756564264
+  RICE_zhangzhung_kinnaur_oracle_county_modifier_2_desc: "$RICE_zhangzhung_kinnaur_oracle_county_modifier_1_desc$" # 1026371634750977020
+  RICE_zhangzhung_kinnaur_oracle_county_modifier_3: "$RICE_zhangzhung_kinnaur_oracle_county_modifier_1$" # 3074043187756564264
+  RICE_zhangzhung_kinnaur_oracle_county_modifier_3_desc: "$RICE_zhangzhung_kinnaur_oracle_county_modifier_1_desc$" # 1026371634750977020
+  RICE_zhangzhung_kinnaur_oracle_county_modifier_4: "$RICE_zhangzhung_kinnaur_oracle_county_modifier_1$" # 3074043187756564264
+  RICE_zhangzhung_kinnaur_oracle_county_modifier_4_desc: "$RICE_zhangzhung_kinnaur_oracle_county_modifier_1_desc$" # 1026371634750977020
+  RICE_zhangzhung_kinnaur_oracle_county_modifier_5: "$RICE_zhangzhung_kinnaur_oracle_county_modifier_1$" # 3074043187756564264
+  RICE_zhangzhung_kinnaur_oracle_county_modifier_5_desc: "$RICE_zhangzhung_kinnaur_oracle_county_modifier_1_desc$" # 1026371634750977020
+  RICE_zhangzhung_kinnaur_oracle_character_modifier_1: "길조의 신탁 예언" # 4035416873256033257
+  RICE_zhangzhung_kinnaur_oracle_character_modifier_1_desc: "이 인물은 최근 풀라이치 축제에 참석했으며, 그곳 지역 신의 신탁이 그들에게 미래에 행운이 찾아올 것이라고 예언했습니다." # 3328321781675375223
+  RICE_zhangzhung_kinnaur_oracle_character_modifier_2: "$RICE_zhangzhung_kinnaur_oracle_character_modifier_1$" # 13763300720054920786
+  RICE_zhangzhung_kinnaur_oracle_character_modifier_2_desc: "$RICE_zhangzhung_kinnaur_oracle_character_modifier_1_desc$" # 17658624441400108195
+  RICE_zhangzhung_kinnaur_oracle_character_modifier_3: "$RICE_zhangzhung_kinnaur_oracle_character_modifier_1$" # 13763300720054920786
+  RICE_zhangzhung_kinnaur_oracle_character_modifier_3_desc: "$RICE_zhangzhung_kinnaur_oracle_character_modifier_1_desc$" # 17658624441400108195
+  RICE_zhangzhung_kinnaur_oracle_character_modifier_4: "$RICE_zhangzhung_kinnaur_oracle_character_modifier_1$" # 13763300720054920786
+  RICE_zhangzhung_kinnaur_oracle_character_modifier_4_desc: "$RICE_zhangzhung_kinnaur_oracle_character_modifier_1_desc$" # 17658624441400108195
+  RICE_zhangzhung_kinnaur_oracle_character_modifier_5: "$RICE_zhangzhung_kinnaur_oracle_character_modifier_1$" # 13763300720054920786
+  RICE_zhangzhung_kinnaur_oracle_character_modifier_5_desc: "$RICE_zhangzhung_kinnaur_oracle_character_modifier_1_desc$" # 17658624441400108195
+  RICE_kinnaur_festival_bonus_opinion: "풀라이치 축제에 저를 초대했군요." # 6119123278176943368
+  RICE_kinnaur_festival_flower_collector_opinion: "풀라이치 축제의 가문 지정 꽃 수집가" # 13743418462855373118
+  RICE_terma_medicine_modifier: "숨겨진 보물 약재" # 5665964936792869282
+  RICE_terma_medicine_modifier_desc: "이 인물은 [Glossary( '지모', 'SATER_GLOSS' )] 유형의 [Glossary( '테르마', 'TERMA_GLOSS' )] 귀한 물질로 만든 약환을 복용했습니다. 이러한 물질은 치유 효과가 있을 뿐만 아니라 많은 축복을 가져다주며, 깨달음을 얻는 데 도움을 준다고 전해집니다." # 14149004860855975610
+  RICE_terma_county_modifier_1: "종교 건축물 발견의 테르마" # 17998721295760110190
+  RICE_terma_county_modifier_1_desc: "한 [RICE_terton|E]가 이곳에서 이전에 필멸의 눈에 가려져 있던 종교적 구조물의 형태를 띤 [RICE_terma|E]를 발견했습니다." # 7431027951535595224
+  RICE_terma_county_modifier_2: "$RICE_terma_county_modifier_1$" # 10881916337215161599
+  RICE_terma_county_modifier_2_desc: "$RICE_terma_county_modifier_1_desc$" # 9951660250351388652
+  RICE_terma_county_modifier_3: "$RICE_terma_county_modifier_1$" # 10881916337215161599
+  RICE_terma_county_modifier_3_desc: "$RICE_terma_county_modifier_1_desc$" # 9951660250351388652
+  RICE_terma_county_modifier_4: "$RICE_terma_county_modifier_1$" # 10881916337215161599
+  RICE_terma_county_modifier_4_desc: "$RICE_terma_county_modifier_1_desc$" # 9951660250351388652
+  RICE_terma_county_modifier_5: "$RICE_terma_county_modifier_1$" # 10881916337215161599
+  RICE_terma_county_modifier_5_desc: "$RICE_terma_county_modifier_1_desc$" # 9951660250351388652
+  RICE_terma_county_modifier_6: "$RICE_terma_county_modifier_1$" # 10881916337215161599
+  RICE_terma_county_modifier_6_desc: "$RICE_terma_county_modifier_1_desc$" # 9951660250351388652
+  RICE_terma_county_modifier_7: "$RICE_terma_county_modifier_1$" # 10881916337215161599
+  RICE_terma_county_modifier_7_desc: "$RICE_terma_county_modifier_1_desc$" # 9951660250351388652
+  RICE_terma_county_modifier_8: "$RICE_terma_county_modifier_1$" # 10881916337215161599
+  RICE_terma_county_modifier_8_desc: "$RICE_terma_county_modifier_1_desc$" # 9951660250351388652
+  RICE_terma_county_modifier_9: "$RICE_terma_county_modifier_1$" # 10881916337215161599
+  RICE_terma_county_modifier_9_desc: "$RICE_terma_county_modifier_1_desc$" # 9951660250351388652
+  RICE_zhangzhung_padmasambhava_cave: "파드마삼바바께서 방문하신 동굴" # 4145263392706941451
+  RICE_zhangzhung_padmasambhava_cave_desc: "이 지역의 한 동굴이 최근 유명해졌습니다. 인도의 탄트라 불교 대가인 위대한 파드마삼바바께서 꿈에서 지역 주민들을 찾아와 오래전 그가 그 동굴을 명상 장소로 사용했음을 증명해 보였기 때문입니다. 이제 그곳은 지역 순례자와 신도들에게 인기 있는 장소가 되었습니다." # 18018019492202091604
+  RICE_zhangzhung_demon_fortress: "악마 요새 재점령" # 4982055888334208597
+  RICE_zhangzhung_demon_fortress_desc: "지역의 전설에 따르면, 이 지역에 있는 요새화된 폐허 중 전략적 요충지를 내려다보는 한 곳에 마왕이 거주했다고 합니다. 그는 결국 덕망 높은 영웅들과 영적 스승들이 이끄는 티베트 군대에 의해 패배했습니다. 이제 그 요새는 이 장소에서 뿜어져 나오는 어둠의 마법을 두려워하는 주민들의 반대에도 불구하고 최근 통치자들에 의해 다시 점령되었습니다." # 12197287425905800067
+  RICE_zhangzhung_religious_argument_opinion: "종교적 논쟁" # 17958656915228102016
+  RICE_zhangzhung_musk_county_modifier: "번성하는 티베트 사향 산업" # 15814178096430279558
+  RICE_zhangzhung_impure_merchants: "불순한 상인들" # 15260075080561607614
+  RICE_zhangzhung_impure_merchants_desc: "전통적으로 이 지역 사람들은 종교적 신념 때문에 낯선 이들을 불결하다고 여겨 경계하며, 특히 그 낯선 이들이 지역 마을에 들어가기 전 정화 의식을 올바르게 행하지 않으면 더욱 그렇습니다. 통치자들이 억지로 마을 사람들에게 외국 상인들의 존재를 받아들이게 하여 무역은 증가했지만, 긴장감 또한 고조되고 있습니다." # 451737272313758820
+  RICE_zhangzhung_xenophobic_locals: "외국인 혐오 토착민" # 15842629644848255546
+  RICE_zhangzhung_xenophobic_locals_desc: "전통적으로 이 지역 사람들은 종교적 신념 때문에 이방인을 불순하다고 여겨 경계하며, 특히 현지 마을에 들어가기 전에 정화 의식을 제대로 행하지 않는 이방인에 대해 더욱 그러합니다. 통치자들은 마을 사람들의 우려에 무관심하며, 무역이나 여행을 위해 이 지역에 들어오는 외국인들에게 편파적이라고 여겨집니다." # 771943478114033841
+  RICE_zhangzhung_prosperous_village_trade: "번성하는 마을 교역" # 10449598297765432750
+  RICE_zhangzhung_prosperous_village_trade_desc: "전통적으로 이 지역 사람들은 종교적 신념 때문에 낯선 이들을 불결하다고 여겨 경계하며, 특히 그 낯선 이들이 지역 마을에 들어가기 전에 자신을 정화하는 올바른 의식을 행하지 않을 경우 더욱 그렇습니다. 하지만 통치자들은 양측이 서로를 존중하는 한, 이 마을들과 외국 상인들 간의 교역을 부드럽게 장려할 수 있었습니다." # 16794569665988276068
+  RICE_zhangzhung_mountain_lake_goddess_prayer: "산악 호수의 여신께 기도드렸습니다." # 1871367693394060682
+  RICE_zhangzhung_brackish_lake_demons: "탁한 호수 악마에게 저주받음" # 1006767086314747212
+  RICE_zhangzhung_brackish_lake_demons_desc: "이 인물은 성가신 악마들이 사는 곳으로 알려진 기수(汽水) 산악 호수들을 지나쳤습니다. 무슨 이유에서인지 그들은 이 악마들에게 제물을 바치거나 어떤 존경의 표시도 보이지 않았고, 그래서 어떤 이들은 이 불운한 바보가 악마들에게 저주를 받았다고 믿습니다." # 12904614269065306232
+  RICE_zhangzhung_khyung_royal: "#bold 왕실 크슝의 축복#!" # 16505650409588493119
+  RICE_zhangzhung_khyung_royal_desc: "이 인물은 뿔 달린 독수리인 '캭융(khyung)'이 자신을 보호하고 정치적 지위를 재확인하는 꿈을 꾸었습니다. 대부분의 티베트인들은 이를 길조로 여길 것입니다." # 14242618178866228355
+  RICE_zhangzhung_khyung_spiritual: "영적인 큥의 축복" # 4589509656698233407
+  RICE_zhangzhung_khyung_spiritual_desc: "이 인물은 뿔 달린 독수리인 '큥(khyung)'이 자신을 보호하고 종교적 지침을 내려주는 꿈을 꾸었습니다. 대다수의 티베트인들은 이를 길조로 여길 것입니다." # 15889290923598600244
+  RICE_glacier_marriage_modifier_small: "빙하 결혼 (소소한 성공)" # 7363854837972360426
+  RICE_glacier_marriage_modifier_medium: "빙하의 결혼 (보통 성공)" # 12953234135229795186
+  RICE_glacier_marriage_modifier_large: "빙하의 결혼 (대성공)" # 10541351788495224763
+  RICE_zhangzhung_adopt_new_tibetan_faith: "티베트의 새로운 신앙을 찾으시오" # 6189946353516124
+  RICE_zhangzhung_adopt_new_tibetan_faith_tooltip: "이제 이 땅에 새로운 영적 길을 개척할 때입니다." # 17438540649625765471
+  RICE_zhangzhung_adopt_new_tibetan_faith_desc: "영원한 것은 없으니. 옛 티베트 제국의 붕괴는 히말라야 고원에 불확실성과 혼돈의 시대를 열었습니다. 우리는 낡은 [GetFaithByKey('old_bon').GetAdjective] 신념과 제도를 버리거나 적어도 재평가하고 개혁해야 하지만, 올바른 영적 길은 무엇일까요?" # 17262620383907798133
+  RICE_zhangzhung_adopt_new_tibetan_faith_effect_tooltip_1: "이것이 올바른 길이다!" # 11231250938887537971
+  RICE_zhangzhung_adopt_new_tibetan_faith_confirm: "이것이 올바른 길이다!" # 11231250938887537971
+  RICE_zhangzhung_adopt_new_tibetan_faith_context_tooltip: "#emphasis 역사적 배경:#! 전통적인 기록에 따르면 티베트 제국의 멸망은 티베트에게 영적인 암흑기를 가져왔으며, 이는 10세기 후반에 불교와 승려 보존교가 티베트 전역으로 퍼지기 시작한 #italic phyi-dar#!, 즉 부흥 또는 후기 전파 시대로 알려진 시기에 이르러서야 끝났다고 여겨집니다. 학계는 실제로 그러한 단순한 발전이 있었는지에 대한 기존의 통념에 복잡성을 더하고 있습니다. 게임 내에서 [GetFaithByKey('old_bon').GetName]으로 표현되는 많은 전통적인 티베트 신앙이 중세 시대를 넘어 잘 생존했다는 강력한 증거가 있지만, 불교와 새로운 형태의 보존교가 인구 전반에 걸쳐 널리 퍼지기 시작하면서 이에 대한 후원이 증가했다는 것 또한 분명합니다." # 12351484927741099640
+  RICE_ADOPT_NEW_TIBETAN_FAITH_PICK_ACTION_TYPE: "모든 지각 있는 존재들에게!" # 15352419623789680948
+  choose_nangchos_name: "[GetFaithByKey('lamaism').GetName]" # 11524319460922365152
+  choose_nangchos_desc: "[GetFaithByKey('lamaism').GetNameNoTooltip]" # 1553333024799797202
+  choose_nangchos_tooltip: "$Songtsen_Gampo$와 같은 왕들과 파드마삼바바와 같은 현명한 스승들의 노력으로, [GetGeographicalRegion('world_tibet').GetName]의 신들은 진정되었고 다르마의 수호자가 되었으며, [GetReligionByKey('buddhism_religion').GetName]은 [GetFaithByKey('lamaism').GetName]의 형태로 번성했습니다. 때때로 [GetFaithByKey('old_bon').GetName]과 긴장된 관계를 맺기도 하지만, [GetFaithByKey('lamaism').GetNameNoTooltip]의 길은 우리의 오랜 영적 관습을 유지하면서도 부처님의 지혜로운 가르침을 따르는 것이 가능하다는 것을 보여줍니다." # 15544818931895295687
+  choose_new_bon_name: "[GetFaithByKey('bon').GetName]" # 6306350304525784508
+  choose_new_bon_desc: "[GetFaithByKey('bon').GetNameNoTooltip]" # 12193856084853989535
+  choose_new_bon_tooltip: "[GetFaithByKey('old_bon').GetAdherentNamePlural]은 한때 [GetGeographicalRegion('world_tibet').GetName] 전역에서 발견되었으나, 잘못된 [GetReligionByKey('buddhism_religion').GetAdjective] 광신도들의 박해로 쇠퇴했습니다. 하지만 이제 희망이 있습니다. 현명한 [Glossary( 'tertöns', 'TERTON_GLOSS' )]들이 고대의 선조들이 숨겨둔 가르침을 발굴하여, [GetFaithByKey('bon').GetName]의 부흥을 예고하고 있습니다. [GetReligionByKey('buddhism_religion').GetAdherentNamePlural]이 우리에게 적대적이든 우호적이든 상관없이, 이러한 발견은 우리의 길이 깨달음에 이르는 데 있어 그들의 길만큼이나 통찰력 있고 유효한 길임을 증명합니다. 어쩌면 그들보다 더 그럴지도 모릅니다." # 11444211941444481545
+  choose_mahayana_name: "[GetFaithByKey('mahayana').GetName]" # 11133408013248348124
+  choose_mahayana_desc: "[GetFaithByKey('mahayana').GetNameNoTooltip]" # 6452220549192997194
+  choose_mahayana_tooltip: "전설에 따르면, 황제 $Trisong_Detsen$의 치세 동안, [GetGeographicalRegion('world_tibet').GetName]에서 [GetReligionByKey('buddhism_religion').GetName]의 근본을 결정하기 위해 [GetFaithByKey('vajrayana').GetName]와 [GetFaithByKey('mahayana').GetName] 승려들 사이에 대논쟁이 벌어졌다고 합니다. 이야기에 따르면, 전자가 승리하여 [GetFaithByKey('lamaism').GetName]가 탄생했다고 합니다. 하지만 [GetFaithByKey('mahayana').GetAdherentNamePluralNoTooltip]가 진정한 승자였다고 주장하는 이들도 있습니다. 어쩌면 아시아의 다른 지역에서 [GetFaithByKey('mahayana').GetNameNoTooltip]가 인기를 얻고 있다는 사실이 우리 땅에 가장 적합한 길임을 보여주는 것일지도 모릅니다...." # 18183021377163718850
+  choose_vajrayana_name: "[GetFaithByKey('vajrayana').GetName]" # 6635884936435067064
+  choose_vajrayana_desc: "[GetFaithByKey('vajrayana').GetNameNoTooltip]" # 6071235381685669132
+  choose_vajrayana_tooltip: "전설에 따르면, 황제 $Trisong_Detsen$의 치세 동안 [GetGeographicalRegion('world_tibet').GetName]에서 [GetReligionByKey('buddhism_religion').GetName]의 근본을 정하기 위해 [GetFaithByKey('vajrayana').GetName] 승려들과 [GetFaithByKey('mahayana').GetName] 승려들 사이에 대논쟁이 열렸다고 합니다. 비록 전자가 승리했지만, 일부는 [GetFaithByKey('lamaism').GetName]이 [GetFaithByKey('old_bon').GetAdjective] 사상을 받아들여 그 뿌리에서 벗어났다고 믿습니다. 우리의 영적 전진이 장애물, 혼란, 그리고 거짓 교리로부터 자유로워지도록, 진정한 [GetFaithByKey('vajrayana').GetAdjective] 가르침이 다시 한번 전파될 때입니다." # 14389449013351913468
+  choose_manichean_name: "[GetFaithByKey('manichean').GetName]" # 3223729067971731732
+  choose_manichean_desc: "[GetFaithByKey('manichean').GetNameNoTooltip]" # 3083892791377125733
+  choose_manichean_tooltip: "만약 [GetReligionByKey('buddhism_religion').GetName]가 험난한 산악 지대인 [GetGeographicalRegion('world_tibet').GetName]에 퍼질 수 있었다면, 왜 [GetFaithByKey('manichean').GetName]는 안 되겠습니까? [GetFaithByKey('manichean').GetAdherentNamePluralNoTooltip]들은 자신들의 창시자 역시 붓다였다고 주장합니다. 마니가 가르친 빛의 길이야말로 우리의 고대 [GetFaithByKey('old_bon').GetAdjective] 방식과 우리가 생각했던 것보다 더 잘 맞을지도 모르며, 다른 가르침이 실패했던 곳에서 우리의 땅이 영적으로 번성할 수 있도록 해줄지도 모릅니다." # 3861676292404023053
+  choose_shaivism_name: "[GetFaithByKey('shaivism').GetName]" # 8740354987534316610
+  choose_shaivism_desc: "[GetFaithByKey('shaivism').GetNameNoTooltip]" # 8629244400878189352
+  choose_shaivism_tooltip: "비록 [GetReligionByKey('buddhism_religion').GetName]가 [GetGeographicalRegion('world_india').GetName]에서 [GetGeographicalRegion('world_tibet').GetName]로 전파되었지만, 후자는 수많은 종교의 본거지입니다. 이 두 지역의 접경 지대에서는 심지어 자신들의 토착 신들이 [GetReligionByKey('hinduism_religion').GetName]의 신들과 동일하다고 믿는 이들도 있는데, 특히 [GetFaithByKey('shaivism').GetAdjective] 종파를 따르는 자들이 그러합니다. 그들의 예를 따라 [GetFaithByKey('shaivism').GetNameNoTooltip]을 받아들이는 것이 올바른 길이 될 수 있으며, 이를 통해 우리의 옛 방식을 기리고 남쪽의 강력하고 박식한 이웃들과 유대를 형성할 수 있을 것입니다." # 7248698426756509384
+  choose_zhengyi_name: "[GetFaithByKey('zhengyi').GetName]" # 15242731379245553867
+  choose_zhengyi_desc: "[GetFaithByKey('zhengyi').GetNameNoTooltip]" # 10968910924442306639
+  choose_zhengyi_tooltip: "중원의 백성들은 [GetGeographicalRegion('world_tibet').GetName]의 백성들과 오랜 교류의 역사를 가지고 있습니다. 공자와 같은 그들의 종교 지도자나 철학자들은 우리에게 알려져 있거나 심지어 숭배되기도 합니다. 그렇다면 [GetFaithByKey('zhengyi').GetNameNoTooltip] 종파와 같은 그들의 정신적 신념과 사상을 받아들이는 것이 그렇게 무리한 일일까요? 그렇게 하는 것은 우리가 영적으로 나아갈 길일 뿐만 아니라, 동쪽의 교양 있는 이웃들과 유대를 형성할 수 있게 해줄 것입니다." # 3437360251248716163
+  choose_nestorian_name: "[GetFaithByKey('nestorian').GetName]" # 16898562356523810907
+  choose_nestorian_desc: "[GetFaithByKey('nestorian').GetNameNoTooltip]" # 7528773339128403878
+  choose_nestorian_tooltip: "만약 [GetReligionByKey('buddhism_religion').GetName]이 [GetGeographicalRegion('world_tibet').GetName]의 험준한 산악 지대에 퍼질 수 있었다면, [GetFaithByKey('nestorian').GetName]도 불가능할 이유가 없지 않겠습니까? [GetFaithByKey('nestorian').GetNameNoTooltip]은 주변 많은 땅에 퍼져 있으며, 그들의 구원과 신에 대한 가르침은 일부 사람들에게 꽤나 매력적입니다. 어쩌면 이것이 올바른 나아갈 길일 수 있으며, 그리스도의 말씀을 믿는 멀리 떨어진 왕국들의 강력한 우방을 찾는 데 도움이 될 것입니다." # 11033883085068801963
+  choose_RICE_maturidi_name: "[GetFaithByKey('maturidi').GetName]" # 5648966459109796115
+  choose_RICE_maturidi_desc: "[GetFaithByKey('maturidi').GetNameNoTooltip]" # 14040613506075460700
+  choose_RICE_maturidi_tooltip: "[GetGeographicalRegion('world_middle_east_persia').GetName]의 상인들과 여행자들이 때때로 우리 영토에 무역을 위해 찾아오며, 그들 중 일부는 [GetReligionByKey('islam_religion').GetName]의 교리를 따릅니다. 그들의 유일신에 대한 믿음은 우리의 전통적인 신앙과는 다르지만, 그들의 정의와 자선에 대한 헌신은 칭송할 만하며, 그들의 신조를 받아들이는 것이 올바른 길이며 서쪽 이웃들과 유대를 형성할 수 있게 해줄 것입니다." # 17009316936748909007
+  choose_khurmazta_name: "[GetFaithByKey('khurmazta').GetName]" # 3761067629123984479
+  choose_khurmazta_desc: "[GetFaithByKey('khurmazta').GetNameNoTooltip]" # 16110099145300800492
+  choose_khurmazta_tooltip: "[GetGeographicalRegion('world_middle_east_persia').GetName]의 상인들과 여행자들이 가끔 우리 영토로 교역을 위해 찾아오는데, 그들 중 일부는 [GetReligionByKey('zoroastrianism_religion').GetName]의 교리를 따릅니다. 우리의 신념과 이란인들의 신념 사이에는 약간의 유사점이 있으며, 동부 이란 세계에서 발견되는 이 신념의 변형 또한 우리와 다르지 않게 숭배하고 두려워해야 할 신들의 존재를 상정합니다. 아마도 그들의 사상을 받아들이는 것이 서쪽 이웃들과의 관계를 구축하는 동시에 우리의 오랜 방식을 존중하면서 앞으로 나아갈 길을 찾는 데 도움이 될 수 있을 것입니다." # 12382375962866155542
+  RICE_zhangzhung_title_decision: "장주중을 부흥시키십시오" # 17869377306647145715
+  RICE_zhangzhung_title_decision_tooltip: "히말라야 산맥에서 우리 백성이 다시 일어설 것입니다!" # 18124788618381894378
+  RICE_zhangzhung_title_decision_desc: "오래전, [GetTitleByKey('e_zhangzhung').GetNameNoTier]는 히말라야 고원의 가장 위대한 왕국이었습니다. 하지만 교활한 신흥 야를룽 왕조가 침공했을 때 모든 것이 변했죠. 그럼에도 우리 선조들의 유산은 지역 전설 속에 살아 숨 쉬고 있습니다. 이 전설을 다시 현실로 되돌려 이 고대 왕국을 부흥시킬 수 있을까요?" # 2143662582203206697
+  RICE_zhangzhung_title_decision_confirm: "우리의 조상들의 왕국을 되찾으리라!" # 12037982288711571328
+  RICE_zhangzhung_title_decision_effect_tooltip_1: "[GetTitleByKey('e_zhangzhung').GetNameNoTier]의 봉신은 #bold $RICE_zhangzhung_rebuild_the_silver_castle$#! [decision|E]를 사용할 수 있게 됩니다." # 2357720286304211728
+  RICE_zhangzhung_title_decision_context_tooltip: "#emphasis 역사적 배경:#! 잘 알려지지 않은 장중(Zhangzhung) 문명은 청동기 시대부터 7세기 티베트 제국에게 정복될 때까지 서부 티베트 대부분을 지배했습니다. 그들은 문자로 된 기록을 남기지 않았으므로, 우리가 가진 최선의 자료는 고고학적 유적과 그들의 멸망 후 수세기가 지나서야 나타난 기록들뿐입니다. 티베트의 토착 종교인 본교는 장중이 한때 자신들의 종교의 근원이었던 강력한 왕국이었다고 믿습니다. 하지만 학자들의 견해는 더 나뉩니다. 일부는 장중 국가가 실제로 존재한 적이 없으며, 기껏해야 소규모 국가들의 집단이었을 뿐이라고 주장합니다. 다른 이들은 장중이 존재했지만, 오히려 연합체에 가까웠을 것이라고 생각합니다. 어느 쪽이든 장중인들은 오늘날의 티베트인들에게 흡수되었고 티베트에 지속적인 영향을 남겼습니다." # 2950394258054967890
+  RICE_zhangzhung_rebuild_the_silver_castle: "은성 성채를 재건하십시오" # 13131052639566746766
+  RICE_zhangzhung_rebuild_the_silver_castle_tooltip: "장주웅이 부활했으니, 이제 그 고대 수도도 부활시킬 때로다." # 2520352382372076670
+  RICE_zhangzhung_rebuild_the_silver_castle_desc: "옛날 옛적에 최초의 [GetTitleByKey('e_zhangzhung').GetNameNoTier] 왕국에는 #italic 가루다 계곡의 은빛 성채#!라는 전설적인 수도가 있었습니다. [GetTitleByKey('e_zhangzhung').GetNameNoTierNoTooltip]의 부흥과 함께, 히말라야의 정치적, 문화적, 경제적 중심지가 될 새로운 #italic 가루다 계곡의 은빛 성채#!를 세우는 것이 마땅할 것입니다." # 896833028766899079
+  RICE_zhangzhung_rebuild_the_silver_castle_effect_tooltip_1: "[county_modifier|E]는 일단 배치되면 이동할 수 없습니다!" # 10959522220410517996
+  RICE_zhangzhung_rebuild_the_silver_castle_confirm: "공물을 준비하시오!" # 17418423168661925689
+  RICE_zhangzhung_rebuild_the_silver_castle_context_tooltip: "#emphasis 역사적 배경:#! 전설에 따르면, 장중 문명은 가루다 계곡의 은궁이라는 곳에 수도를 두었다고 합니다. 서부 히말라야 고원에는 청동기 시대부터 7세기에 이르기까지 지속된 장중 시대로 거슬러 올라가는 여러 고대의 요새화된 정착지들이 있습니다. 이러한 고고학적 유적을 바탕으로, 현대 학자들은 그러한 장소가 실제로 존재했다고 가정할 때 그곳이 어디였을지에 대해 몇 가지 다른 장소를 제안해 왔습니다." # 9299211600988302940
+  RICE_zhangzhung_supplicate_ancient_pillars: "고대 기둥에 기도하기" # 7225337788526699362
+  RICE_zhangzhung_supplicate_ancient_pillars_tooltip: "[GetGeographicalRegion('RICE_upper_tibet').GetName]은 특별하고 마법적인 힘이 깃든 신비로운 고대 기둥들로 가득합니다." # 6613246198631977845
+  RICE_zhangzhung_supplicate_ancient_pillars_desc: "[GetGeographicalRegion('RICE_upper_tibet').GetName] 전역에는 신비롭고 고대의 기둥들이 흩어져 있으며, 일부는 문명과 동떨어진 황량한 지역에 배열되어 있습니다. 보통 사람들은 그 파괴적인 힘이 풀려날까 두려워 기둥들을 피합니다. 하지만 때로는 기둥과 관련된 [GetPlayer.Custom('RICE_tibet_deities_type')]께 간청하여 그들의 호의를 얻고 막대한 이익을 얻기도 합니다." # 17668403940512665600
+  RICE_zhangzhung_supplicate_ancient_pillars_effect_tooltip_1: "귀하는 #P 유익한#! 또는 #N 해로운#! [character_modifiers|E]를 얻을 수 있으며, 이는 귀하의 [traits|E]와 [piety_level|E]에 따라 귀하의 [skills|E] 및 기타 이점을 개선하거나 감소시킵니다." # 13767435209445273181
+  RICE_zhangzhung_supplicate_ancient_pillars_confirm: "버터와 향을 준비하라!" # 13030123498436291246
+  RICE_zhangzhung_supplicate_ancient_pillars_context_tooltip: "#emphasis 역사적 배경:#! [GetGeographicalRegion('RICE_upper_tibet').GetName]에서는 기둥들이 고대 불교 이전의 풍경에서 눈에 띄는 부분을 차지합니다. 이 기둥들은 다양한 종교적 혹은 정치적 기능을 위해 세워졌을 수 있으나, 7세기 또는 8세기경 티베트가 장주(Zhangzhung)를 정복한 이후에는 더 이상 세워지지 않았습니다. 이 기둥들이 존재하는 이유에 대해서는 선사시대에 마법처럼 나타났거나, 옛 영웅이나 통치자들이 세웠다는 믿음부터, 장례 기념물이거나 숭배를 위한 것이었다는 등 다양한 지역 전설이 존재합니다. 이 기둥들은 신들에 의해 특별한 힘이 깃들었다고 믿어졌기 때문에, 신들에게 기원하려는 의도가 아니라면 일반적으로 피하게 됩니다." # 11284899176800975265
+  RICE_zhangzhung_western_tibet_salt_decision: "히말라야 소금 원정대 자금을 지원합니다" # 11449192422868143296
+  RICE_zhangzhung_western_tibet_salt_decision_tooltip: "[GetGeographicalRegion('RICE_western_northern_tibet').GetName]에서 소금을 채취하는 것은 어렵지만 수익성이 좋은 사업입니다." # 2169668831099752313
+  RICE_zhangzhung_western_tibet_salt_decision_desc: "[Glossary( 'Drokpas', 'DROKPA_GLOSS' )]는 종종 소금 호수와 염전에서 소금을 채취하기 위해 [GetGeographicalRegion('RICE_western_northern_tibet').GetName]의 고지대로 이동합니다. 그들은 이 험난한 지형에 익숙하며, 종종 신성한 장소에 있는 소금을 채취하는 데 필요한 적절한 의식을 알고 있습니다. 이는 수익성이 좋은 사업이므로 소금 탐사 원정에 자금을 지원해야겠습니다." # 6506473015094991553
+  RICE_zhangzhung_western_tibet_salt_decision_effect_tooltip_1: "귀하는 #V [GetPlayer.MakeScope.ScriptValue('RICE_himalayan_salt_expedition_success_chance')|0]%#!의 성공 확률을 가지며, 이는 귀하의 [piety_i|E] [piety_level|E], [traits|E], 그리고 특히 [stewardship|E]와 같은 [skills|E]에 영향을 받습니다." # 7453455942660426161
+  RICE_zhangzhung_western_tibet_salt_decision_effect_tooltip_2: "원정 시작 시, 추가 [piety_i|E] [piety|E]를 소모하여 성공 확률을 높일 수 있습니다." # 9371372881780019527
+  RICE_zhangzhung_western_tibet_salt_decision_effect_tooltip_3: "성공한다면, 무작위 양의 [prestige_i|E|E] [prestige|E] (최대 #bold #V [prestige_i|E] [GetPlayer.MakeScope.ScriptValue('RICE_himalayan_salt_expedition_max_prestige_display_value')|0]#!까지)와 [gold_i|E] [gold|E] (최대 #bold #V [gold_i|E] [GetPlayer.MakeScope.ScriptValue('RICE_himalayan_salt_expedition_max_gold_display_value')|0]#!까지)를 획득할 것입니다." # 10278529993384442610
+  RICE_zhangzhung_western_tibet_salt_decision_effect_tooltip_4: "[THIS.Char.GetCulture.GetName] [culture|E]가 $tradition_RICE_changthang_nomads_name$ [tradition|E]를 가지고 있기 때문에, 원정 성공 확률이 #P 25%# 증가합니다!" # 15796614561371906633
+  RICE_zhangzhung_western_tibet_salt_decision_confirm: "#italic 드록파인#들이 원정에 합류하는 데 관심을 보이고 있습니다!" # 7759570283631545892
+  RICE_zhangzhung_western_tibet_salt_decision_context_tooltip: "#emphasis 역사적 배경:#! 수세기 동안 티베트인들은 티베트 북부 고원과 고지대의 여러 호수와 염전에서 소금을 채취해 왔습니다. 혹독한 기후에 익숙한 강인한 [Glossary( 'drokpas', 'DROKPA_GLOSS' )], 즉 유목민들이 이러한 채취 작업에 종종 관여합니다. 소금이 발견되는 장소는 종종 다양한 신이나 깨달은 존재들의 거처로 여겨지기 때문에, 이러한 원정에는 종교적인 차원이 있습니다. 따라서 소금 채취 과정은 엄격하게 의례화되어 있으며, 올바른 기도와 종교 의식, 원정 중 적절한 행동, 그리고 비밀스러운 '소금 언어'의 사용을 포함합니다." # 13863162076964673939
+  RICE_zhangzhung_zuthulpuk_monastery_decision: "주툴푸크 수도원 축성하기" # 14361653844472540564
+  RICE_zhangzhung_zuthulpuk_monastery_decision_tooltip: "그들은 밀라레파가 카일라스 산 근처에 기적적으로 수도원을 세웠다고 말합니다. 우리가 그것으로 무언가를 할 수 있을까요?" # 5639236338970591998
+  RICE_zhangzhung_zuthulpuk_monastery_decision_desc: "카일라스 산은 [religions|E] 여러 종교에 신성한 곳이며, 여기에는 [GetReligionByKey('buddhism_religion').GetName]도 포함됩니다. 위대한 #bold 밀라레파#!라는 [GetReligionByKey('buddhism_religion').GetAdjectiveNoTooltip] 요기(yogi)가 기적 대결에서 전통적인 [GetReligionByKey('bon_religion').GetAdjective] 교리를 따르는 수행자들을 물리쳤을 때, 그 산은 성산에 대한 새로운 관심을 불러일으켰습니다. 그가 행한 기적 중 하나는 그곳에 동굴 수도원을 짓는 것이었습니다. 어쩌면 우리가 그것을 제대로 된 구조물로 만들 수 있을지도 모릅니다." # 14190525003510816750
+  RICE_zhangzhung_zuthulpuk_monastery_decision_effect_tooltip_1: "만약 [faith|E]가 [GetReligionByKey('buddhism_religion').GetAdjective] 신앙이고 [doctrine|E]가 [GetFaithDoctrine('rice_vajrayana_canon_doctrine').GetBaseName] 교리라면, 추가로 [piety_i|E] [piety|E]를 얻습니다." # 6051511233493032731
+  RICE_zhangzhung_zuthulpuk_monastery_decision_effect_tooltip_2: "귀하의 [culture|E]가 $heritage_tibetan_name$ [heritage|E]일 경우 추가 [prestige_i|E] [prestige|E]를 얻습니다." # 14750948928096749611
+  RICE_zhangzhung_zuthulpuk_monastery_decision_confirm: "밀라레파 님, 저희의 마음을 다르마로 향하게 하소서!" # 2437621177321623914
+  RICE_zhangzhung_zuthulpuk_monastery_decision_context_tooltip: "#emphasis 역사적 배경:#! '기적의 동굴'을 뜻하는 주툴푹 수도원은 불교, 뵌교, 힌두교, 자이나교의 가장 성스러운 장소 중 하나인 카일라스 산 근처 동굴에 자리하고 있습니다. 이곳은 티베트의 요기 밀라레파(11세기경)가 뵌교의 대가인 나로 뵌충을 기적 대결에서 물리쳤다고 전해지는 곳입니다. 밀라레파가 자신의 기적 중 하나로 이 동굴 수도원을 즉석에서 만들었다고 전해집니다." # 17350763619358002945
+  RICE_zhangzhung_patronize_tertons: "테르톤 후원하기" # 12090938759156520889
+  RICE_zhangzhung_patronize_tertons_tooltip: "귀하의 영토 내 [RICE_tertons|E]가 [RICE_termas|E]를 발견하거나 나타날 확률을 높입니다." # 8152796664296285385
+  RICE_zhangzhung_patronize_tertons_desc: "[Glossary( 'tertöns', 'TERTON_GLOSS' )]들이 [ROOT.Char.GetFaith.GetAdjective] [Glossary( 'termas', 'TERMA_GLOSS' )]를 발견하기 위해 열심히 노력하고 있습니다. 저는 이 신성한 보물을 찾는 데 있어 진정성 있는 이들을 재정적, 물질적, 정치적으로 지원해야 합니다." # 7601396210130369616
+  RICE_zhangzhung_patronize_tertons_effect_tooltip_1: "[GetModifier('RICE_zhangzhung_patronizing_tertons').GetNameWithTooltip] [character_modifier|E]가 활성화되어 있는 동안:\n$EFFECT_LIST_BULLET$귀하의 [court|E] 내 기존 [RICE_tertons|E]는 매년 [RICE_termas|E]를 발견할 확률이 높아집니다.\n$EFFECT_LIST_BULLET$귀하의 [courtiers|E] 중 한 명이 [GetModifier('RICE_terton_candidate').GetNameWithTooltip] [character_modifier|E]를 얻을 확률이 높아집니다.\n$EFFECT_LIST_BULLET$매년 시작 시, 소규모 [RICE_termas|E]로부터 무작위 양의 [piety_i|E] [piety|E] 및 [prestige_i|E] [prestige|E]를 얻을 #V [GetPlayer.MakeScope.ScriptValue('RICE_yearly_minor_terma_chance')|0]%#!의 확률이 있으며, 획득량은 [piety_i|E] #V [GetPlayer.MakeScope.ScriptValue('RICE_yearly_minor_terma_min_piety')|0]#!에서 [piety_i|E] #V [GetPlayer.MakeScope.ScriptValue('RICE_yearly_minor_terma_max_piety')|0]#! 사이, 그리고 [prestige_i|E] #V [GetPlayer.MakeScope.ScriptValue('RICE_yearly_minor_terma_min_prestige')|0]#!에서 [prestige_i|E] #V [GetPlayer.MakeScope.ScriptValue('RICE_yearly_minor_terma_max_prestige')|0]#! 사이입니다.\n$EFFECT_LIST_BULLET$이 모든 효과의 확률은 귀하의 [piety_level|E]와 [traits|E]에 의해 영향을 받습니다." # 3571971466597941317
+  RICE_zhangzhung_patronize_tertons_confirm: "그들의 종교적 업적은 가치가 매우 높습니다!" # 4266005931066997051
+  RICE_zhangzhung_patronize_tertons_context_tooltip: "#emphasis 역사적 배경:#! $TERTON_GLOSS$" # 12964466740435891767
+  RICE_zhangzhung_search_for_termas: "테르마스를 찾습니다" # 5794709805483310023
+  RICE_zhangzhung_search_for_termas_tooltip: "[RICE_termas|E]가 어디에 있을지 단서를 찾아보십시오." # 15659317160515724872
+  RICE_zhangzhung_search_for_termas_desc: "저는 상서로운 환영과 징조를 받아 [ROOT.Char.GetFaith.GetAdjective] [Glossary( 'termas', 'TERMA_GLOSS' )]가 어디에 있을지 알게 된 것 같습니다. 이러한 환영과 징조가 진실인지, 그리고 그것이 어디를 가리키는지 분별하기 위해 정신적으로나 지적으로 집중해야 할 것입니다." # 11987871388293035803
+  RICE_zhangzhung_search_for_termas_effect_tooltip_1: "[GetModifier('RICE_zhangzhung_searching_for_termas').GetNameWithTooltip] [character_modifier|E]가 활성화되어 있는 동안:\n$EFFECT_LIST_BULLET$매년 [RICE_termas|E]를 발견할 기회가 생깁니다\n$EFFECT_LIST_BULLET$해 시작 시, 소규모 [RICE_termas|E]로부터 무작위 양의 [piety_i|E] [piety|E]와 [prestige_i|E] [prestige|E]를 얻을 확률이 #V [GetPlayer.MakeScope.ScriptValue('RICE_yearly_minor_terma_self_chance')|0]%#!이며, 획득량은 [piety_i|E] #V [GetPlayer.MakeScope.ScriptValue('RICE_yearly_minor_terma_min_piety')|0]#!에서 [piety_i|E] #V [GetPlayer.MakeScope.ScriptValue('RICE_yearly_minor_terma_max_piety')|0]#! 사이, 그리고 [prestige_i|E] #V [GetPlayer.MakeScope.ScriptValue('RICE_yearly_minor_terma_min_prestige')|0]#!에서 [prestige_i|E] #V [GetPlayer.MakeScope.ScriptValue('RICE_yearly_minor_terma_max_prestige')|0]#! 사이입니다\n$EFFECT_LIST_BULLET$이 모든 효과의 확률은 귀하의 [piety_level|E]와 [traits|E]에 의해 영향을 받습니다." # 18311570153849079752
+  RICE_zhangzhung_search_for_termas_confirm: "저는 모든 지각 있는 존재를 돕고 싶습니다!" # 2119848732819033529
+  RICE_zhangzhung_search_for_termas_context_tooltip: "#emphasis 역사적 배경:#! $TERTON_GLOSS$" # 12964466740435891767
+  zhangzhung.0000.t: "xxxxx" # 1951045980481827005
+  zhangzhung.0000.desc: "xxxxx" # 1951045980481827005
+  zhangzhung.0000.a: "xxxxx" # 1951045980481827005
+  zhangzhung.0001.t: "xxxxx" # 1951045980481827005
+  zhangzhung.0001.desc: "xxxxx" # 1951045980481827005
+  zhangzhung.0001.a: "xxxxx" # 1951045980481827005
+  zhangzhung.0002.t: "[milarepa.GetFirstNameNicknamedNoTooltip]이 카일라스 산에 있소" # 14994788327633489640
+  zhangzhung.0002.desc: "[GetGeographicalRegion('world_tibet').GetName] 전역에 전설적인 두 영적 스승, 즉 [GetReligionByKey('buddhism_religion').GetAdjective] [milarepa.GetFirstNameNicknamed]와 [GetFaithByKey('bon').GetAdjective] [naro_bonchung.GetFirstName] 사이의 종교적 대결에 대한 이야기가 들불처럼 퍼지고 있습니다. 이 대결은 우주에서 가장 성스러운 산 중 하나인 카일라스 산, 그중에서도 [GetTitleByKey('c_purang').GetNameNoTier] 근처에서 벌어질 예정이며, 누가 더 위대한 기적을 만들어내는지로 승부가 결정될 것이라고 합니다.\n\n모든 이가 [GetReligionByKey('buddhism_religion').GetName]와 토착 종교인 [GetReligionByKey('bon_religion').GetName] 교리를 적으로 보는 것은 아닙니다. 예를 들어, 두 종교 모두에 공헌한 영적 스승들도 존재합니다. 하지만 카일라스 산에서의 이 기적 대결은 이 두 전통 간의 경쟁을 상징적으로 보여줍니다. 이번 대결은 성스러운 산의 지배권을 둘러싼 싸움이었습니다." # 3989117691615603259
+  zhangzhung.0002.a: "그래서, 무슨 일이 일어났습니까?" # 7258620040557972582
+  zhangzhung.0003.t: "$zhangzhung.0002.t$" # 3048376749311696604
+  zhangzhung.0003.desc: "전설에 따르면, [milarepa.GetFirstNameNicknamed]가 [naro_bonchung.GetFirstName]와의 이 기적 대결에서 승리했다고 합니다. 결정적인 시합은 누가 먼저 산에 오르느냐였죠. [naro_bonchung.GetFirstNameNoTooltip]가 마법 북을 타고 산 위로 날아오를 때, [milarepa.GetFirstNameNoTooltip]는 아무것도 하지 않고 그저 명상만 하고 있었는데, [naro_bonchung.GetFirstNameNoTooltip]가 산 정상에 거의 다다랐을 때, [milarepa.GetFirstNameNoTooltip]가 햇살 한 줄기에 발을 디뎌 즉시 산봉우리에 나타났다고 합니다.\n\n정확히 무슨 일이 있었는지에 대해서는 많은 논쟁이 있지만, [GetReligionByKey('buddhism_religion').GetAdherentNamePluralNoTooltip]들은 이를 토착 [GetReligionByKey('bon_religion').GetAdjective] 전통에 대한 영광스러운 승리라고 선포하고 있습니다. 그들은 [milarepa.GetFirstNameNoTooltip]가 이 위대한 업적을 이룬 후 카일라스 산 주변에서 명상하며 시간을 보낼 작정이라고 말합니다." # 9018894116521960125
+  zhangzhung.0003.a: "[milarepa.GetFirstNamePossessiveNoTooltip]의 승리가 모든 중생에게 큰 이익을 가져다주기를." # 10577392398558047748
+  zhangzhung.0003.b: "어리석은 자들은 '기적을 행하는 자'와 진정한 영적 수행자를 혼동하는군!" # 11890138390905613592
+  zhangzhung.0003.c: "그들은 카일라스 산이 [ROOT.Char.GetFaith.GetAdherentNamePlural]에게도 성스러운 곳이라는 것을 모르는가?" # 8629564454195442876
+  zhangzhung.0003.d: "비록 우리가 다른 [GetReligionByKey('buddhism_religion').GetAdjective] 혈통이지만, 듣기 좋은 말이군요!" # 15114552289776662638
+  zhangzhung.0003.e: "그렇다니... 흥미로운 사실이군?" # 9561649099868832548
+  zhangzhung.0003.tooltip: "[GetReligionByKey('buddhism_religion').GetAdjective] [rulers|E]께서 [GetTitleByKey('c_purang').GetNameNoTier]를 통치하고 있다면, 카일라스 산 근처에서 #bold $RICE_zhangzhung_zuthulpuk_monastery_decision$# [decision|E]를 내릴 수 있습니다." # 12382315741174598197
+  zhangzhung.0004.t: "xxxxx" # 1951045980481827005
+  zhangzhung.0004.desc: "xxxxx" # 1951045980481827005
+  zhangzhung.0004.a: "xxxxx" # 1951045980481827005
+  zhangzhung.0005.t: "xxxxx" # 1951045980481827005
+  zhangzhung.0005.desc: "xxxxx" # 1951045980481827005
+  zhangzhung.0005.a: "xxxxx" # 1951045980481827005
+  zhangzhung.0006.t: "xxxxx" # 1951045980481827005
+  zhangzhung.0006.desc: "xxxxx" # 1951045980481827005
+  zhangzhung.0006.a: "xxxxx" # 1951045980481827005
+  zhangzhung.0007.t: "xxxxx" # 1951045980481827005
+  zhangzhung.0007.desc: "xxxxx" # 1951045980481827005
+  zhangzhung.0007.a: "xxxxx" # 1951045980481827005
+  zhangzhung.0008.t: "xxxxx" # 1951045980481827005
+  zhangzhung.0008.desc: "xxxxx" # 1951045980481827005
+  zhangzhung.0008.a: "xxxxx" # 1951045980481827005
+  zhangzhung.0009.t: "xxxxx" # 1951045980481827005
+  zhangzhung.0009.desc: "xxxxx" # 1951045980481827005
+  zhangzhung.0009.a: "xxxxx" # 1951045980481827005
+  zhangzhung.0010.t: "고대의 기둥" # 7438939608629835683
+  zhangzhung.0010.desc.upper_tibet: "[GetGeographicalRegion('RICE_upper_tibet').GetName] 전역에 걸쳐 신비롭고 고대의 기둥들이 흩어져 있습니다. 어떤 이들은 태초에 저절로 생겨났다고 말하고, 어떤 이들은 사나운 영혼들을 통제하기 위해 세워졌다고 말하며, 또 다른 이들은 이 기념물들이 지나간 왕들과 영웅들을 기리는 것이라고 말합니다." # 11307521340264113611
+  zhangzhung.0010.desc.outside_upper_tibet: "[GetGeographicalRegion('RICE_upper_tibet').GetName]에는 기둥에 대한 많은 전설이 있습니다. 어떤 이들은 그것들이 태초에 저절로 생겨났다고 말하고, 다른 이들은 적대적인 영혼을 통제하기 위해 세워졌다고 말하며, 또 다른 이들은 이 기념물들이 고대 왕과 영웅들을 기린다고 말합니다. [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTier]에는 정확히 같지는 않지만 비슷한 기원을 가졌을 법한 고대의 석조 기념물이 있습니다." # 785077203335339255
+  zhangzhung.0010.desc: "막강한 [GetPlayer.Custom('RICE_tibet_deities_type')]와 연관된 이 기둥들은 파괴적인 힘 때문에 피하는 대상입니다. 물론, 이 [GetPlayer.Custom('RICE_tibet_deities_type')]에게 위험을 무릅쓰고 간청하여 그들의 축복을 받고자 하는 경우가 아니라면 말이죠.\n\n저는 [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTier]에 있는 이런 종류의 기둥을 방문하고 있습니다. [ROOT.Char.GetFaith.PriestNeuterPlural]들이 몇 가지 기도를 올린 후, 저는 수정, 버터, 향, 그리고 다른 귀중한 물건들을 제물로 바치고… 에 대한 도움을 [GetPlayer.Custom('RICE_tibet_deities_type')]에게 청합니다." # 636193080651746609
+  zhangzhung.0010.a: "나의 #bold 명성#! 그리고 타인과의 관계" # 10884111372184203305
+  zhangzhung.0010.b: "#bold 군사 문제#! 그리고 모든 적에 대한 승리" # 13772890325509562245
+  zhangzhung.0010.c: "재물과 #bold 자원#의 풍요로움!" # 5302015550958697365
+  zhangzhung.0010.d: "저의 #bold 개인적인 안전#을 지켜주십시오!" # 6465971811702031309
+  zhangzhung.0010.e: "#bold 지력#! 및 정신적 성장을 진전시키기" # 11600485789324083218
+  RICE_zhangzhung_pillars_bad: "[GetPlayer.Custom('RICE_tibet_deities_type')]께서 당신의 간청에 불만을 품으셨습니다!" # 1956402460052966130
+  RICE_zhangzhung_pillars_bad_short: "#N 나쁜 결과로군#!" # 10851782698402296098
+  RICE_zhangzhung_pillars_good: "[GetPlayer.Custom('RICE_tibet_deities_type')]께서 당신의 간청에 만족하셨습니다!" # 13762215274741035949
+  RICE_zhangzhung_pillars_good_short: "#P 훌륭한 결과로군#!" # 8076865324419795280
+  RICE_zhangzhung_pillars_neutral_short: "아무 일도 일어나지 않는군" # 13429127944269588381
+  zhangzhung.0011.t: "소금 원정대의 출발" # 1296771697934323928
+  zhangzhung.0011.desc: "[GetGeographicalRegion('RICE_western_northern_tibet').GetName]의 고지대는 소금 호수와 염전이 많습니다. 소금 거래는 수익성이 좋은 사업이기에, 저는 그곳의 호수나 염전에서 소금을 채취하기 위해 [Glossary( 'drokpas', 'DROKPA_GLOSS' )] 탐험대를 후원하기로 결정했습니다.\n\n제가 고용한 #italic 드록파#! 유목민들은 떠날 준비가 되었지만, 먼저 그들의 지도자와 이야기를 나누었습니다. 그는 이 소금 호수나 염전이 종종 신성한 장소이며, [ROOT.Char.GetFaith.HighGodName]께서 그곳의 수호자로 지정하신 신성한 존재들이 거주하고 있다고 설명합니다. 탐험 기간 동안 대원들은 단정하게 행동하고, 이 [GetPlayer.Custom('RICE_tibet_deities_type')]들에게 향과 같은 제물을 자주 바치며 기도해야 할 것입니다.\n\n아마도 제가 이 유목민들을 위해 기도하고 제물을 바치는 것으로 도울 수 있을 것입니다. 결국 우리는 그들의 신성한 거처에서 소금을 가져가기 위해 이 [GetPlayer.Custom('RICE_tibet_deities_type')]들에게 허락을 구하는 것이니까요…." # 3284440458630089794
+  zhangzhung.0011.a: "나는 이미 이 #italic 드로크파#!들에게 충분한 도움을 주었다." # 2749886394699305907
+  zhangzhung.0011.a.tooltip: "성공 확률은 #V [GetPlayer.MakeScope.ScriptValue('RICE_himalayan_salt_expedition_success_chance')|0]%#!로 유지됩니다." # 3971459265010969102
+  zhangzhung.0011.b: "좀 더 많은 헌금이 우리에게 도움이 될 수 있겠군요." # 2043739234172753854
+  zhangzhung.0011.b.tooltip: "성공 확률이 #V 5%#! 만큼 증가하여 #V [GetPlayer.MakeScope.ScriptValue('RICE_himalayan_salt_expedition_success_chance_small_piety_boost_value')|0]%#! 가 됩니다." # 2911212171131065412
+  zhangzhung.0011.c: "많은 봉헌물을 바치는 것은 신의 은총을 보장할 것입니다!" # 11041259241837512961
+  zhangzhung.0011.c.tooltip: "성공 확률이 #V 10%#! 증가하며, #V [GetPlayer.MakeScope.ScriptValue('RICE_himalayan_salt_expedition_success_chance_large_piety_boost_value')|0]%#! 까지 오릅니다." # 6039090331124578853
+  zhangzhung.0011.general.tooltip: "원정은 완료하는 데 1~3개월이 소요될 것입니다." # 16607447067153105836
+  zhangzhung.0012.t: "소금 원정대가 돌아오다" # 18428308253926123024
+  zhangzhung.0012.desc: "몇 주가 지난 후, 제가 고용한 [Glossary( 'drokpas', 'DROKPA_GLOSS' )]들이 [GetGeographicalRegion('RICE_western_northern_tibet').GetName]의 염호나 염전에서 소금을 채취하는 원정을 마치고 돌아왔습니다." # 939240060828045319
+  zhangzhung.0012.desc.success: "원정대장이 만족스러운 표정으로 그들의 성공을 보고합니다. 그들이 행군했던 지역의 신성한 존재들의 축복 덕분에, 상당한 양의 소금을 수확할 수 있었습니다." # 1896637338148005648
+  zhangzhung.0012.desc.failure: "원정대장이 실망한, 아니 낙담한 기색으로 원정이 실패했음을 보고합니다.\n\n#italic 드록파#! 유목민들이 소금을 채취하려던 지역의 신성한 존재들이 그들에게 불운을 가져다준 것이 분명합니다. 아마도 이 [GetPlayer.Custom('RICE_tibet_deities_type')]들은 그들의 올바르지 못한 행동이나 적절한 제물이 없었던 것에 불쾌했을 것입니다.\n\n원인이 무엇이든, 제가 고용한 #italic 드록파#!들은 소금을 많이 채취하지 못했고, 그들이 채취한 얼마 안 되는 소금마저도 사용한 보급품 값을 치르는 데 다 써야 했습니다." # 2664497564508315854
+  zhangzhung.0012.desc.low: "그렇지만 그 원정은 그다지 성공적이지 못했다고 지도자가 나에게 경고합니다. 그들은 불운에 시달렸으며, 이는 틀림없이 우리가 충분한 존경심을 표하지 않았다고 생각하는 [GetPlayer.Custom('RICE_tibet_deities_type')] 때문일 것입니다. 그 결과, 확보한 소금의 양은 우리가 바라던 것보다 적었지만, 여전히 그 여정의 비용 일부를 갚기에는 충분할 것입니다." # 5867767820044289691
+  zhangzhung.0012.desc.medium: "전체적으로는 그들이 얻은 것 중 가장 큰 수확은 아니지만, 소금 시장에서 꽤 괜찮은 이익을 남기기에는 충분합니다. 분명 [GetPlayer.Custom('RICE_tibet_deities_type')]께서는 #italic 드록파들의#! 행동과 제물을 만족스럽게 여기셨고, 이번 원정에 도움을 주셨습니다. 그들의 귀환을 축하하기 위해 곧 [Glossary( 'tsaw bvi nang skyid', 'TSAW_BVI_NANG_SKYID_GLOSS' )] 잔치가 열릴 것입니다." # 9699482685216150275
+  zhangzhung.0012.desc.high: "사실, 지도자에 따르면 이번에 얻은 소금은 평균 수확량보다 훨씬 많으며, 우리는 이로 인해 짭짤한 이득을 볼 것입니다! [GetPlayer.Custom('RICE_tibet_deities_type')]께서 #italic 드록파들의#! 행동과 제물에 꽤 만족하셔서 이러한 행운이 찾아온 것이 분명합니다. 이를 축하하기 위해 성대한 [Glossary( 'tsaw bvi nang skyid', 'TSAW_BVI_NANG_SKYID_GLOSS' )] 잔치가 열릴 것입니다!" # 356779217715139310
+  zhangzhung.0012.a.failure: "실망스럽군. 우리가 [GetPlayer.Custom('RICE_tibet_deities_type')] 때문에 방해받은 것인가?" # 15157171283099211990
+  zhangzhung.0012.a.low: "그것이 아무것도 없는 것보다는 낫겠지." # 8442407174472251404
+  zhangzhung.0012.a.medium: "원정대가 잘 되어 다행이군." # 2726136145129742321
+  zhangzhung.0012.a.high: "신성한 존재들의 영광을 위하여!" # 2181605843976574905
+  zhangzhung.0013.t: "[GetTitleByKey('e_zhangzhung').GetNameNoTierNoTooltip]의 부흥" # 2594053853921530729
+  zhangzhung.0013.desc: "오래전, 위대한 힘과 영광은 [GetGeographicalRegion('RICE_upper_tibet').GetName]에 있는 [GetTitleByKey('e_zhangzhung').GetNameNoTier]의 백성들에게 속해 있었습니다. 이 모든 것은 [GetTitleByKey('e_zhangzhung').GetNameNoTierNoTooltip]의 마지막 통치자인 [last_zhangzhung.GetFirstName]가 [GetTitleByKey('e_tibet').GetNameNoTier]의 첫 번째 황제의 누이인 [songtsen_gampo.GetFirstName]와 결혼하면서 끝이 났습니다. [songtsen_gampo.GetFirstNameNoTooltip]은 그의 처남이 누이에게 모욕과 학대를 가했다고 주장하며 전쟁을 선포했고, 전투에서 [last_zhangzhung.GetFirstNameNoTooltip]을 격파하고 살해했습니다.\n\n아직도 [zhangzhung_reviver.GetFirstName]와 같이 이 전설적인 배신을 기억하는 이들이 있습니다. 하지만 시대는 다시 한번 변하고 있습니다. 고대 [zhangzhung.GetCollectiveNoun]의 후손인 [zhangzhung_reviver.GetFirstNameNoTooltip]이 이 고원 지대의 대부분을 통합하고 옛 [GetTitleByKey('e_zhangzhung').GetNameNoTooltip]의 부활을 선포했기 때문입니다." # 11713208292956457926
+  zhangzhung.0013.desc.bon: "수많은 [zhangzhung_reviver.GetFaith.GetAdherentNamePlural]들은 [GetTitleByKey('e_zhangzhung').GetNameNoTierNoTooltip]의 몰락을 그들의 종교가 쇠퇴하기 시작한 시점으로 여깁니다. 이제 그들은 [last_zhangzhung.GetFirstNameNoTooltip]에 대한 복수가 이루어졌을 뿐만 아니라, 그들의 고대의 신앙이 마땅히 있어야 할 자리로 회복되고 있으며, [zhangzhung.GetNameNoTooltip]의 황금기가 시작되었다고 믿고 있습니다." # 2525198462232486526
+  zhangzhung.0013.desc.non_bon: "비록 옛 방식이 부활하지 못할 수도 있고, 고대 [zhangzhung.GetCollectiveNoun]의 후예들이 새로운 신앙과 사상을 받아들였을지라도, 그들은 여전히 [GetTitleByKey('e_zhangzhung').GetNameNoTierNoTooltip]의 복원이 선조들을 기리고 [last_zhangzhung.GetFirstNameNoTooltip]의 복수를 할 것이라 믿습니다. 어쩌면 [zhangzhung.GetNameNoTooltip]의 황금기가 시작되었을지도 모릅니다." # 14640045535890070246
+  zhangzhung.0013.a: "[GetGeographicalRegion('world_tibet').GetNameNoTooltip]의 역사에 또 다른 장이 시작됩니다." # 15184687614038407048
+  zhangzhung.0014.t: "가루다 계곡의 새로운 은빛 성채" # 16964374425272844928
+  zhangzhung.0014.desc: "옛 전설에 따르면, 고대 [GetTitleByKey('e_zhangzhung').GetNameNoTier]의 통치자들은 [GetGeographicalRegion('RICE_upper_tibet').GetName] 고지대에 있는 #italic 가루다 계곡의 은빛 성채#!로 알려진 곳에서 통치했다고 합니다.\n\n아아, 비록 [GetTitleByKey('e_zhangzhung').GetNameNoTierNoTooltip]이 부활했지만, 이 옛 수도가 정확히 어디인지는 아무도 확실히 알지 못합니다. 지역 전설에 따르면 [GetGeographicalRegion('RICE_upper_tibet').GetNameNoTooltip]에는 이 신성한 수도일 수 있는 고대 유적들이 있지만, 이는 의심스러운 주장일 뿐입니다.\n\n어쨌든 새로운 시대가 도래했으니, 저는 우리가 새로운 #italic 가루다 계곡의 은빛 성채#!를 세우는 것이 마땅하다고 판단했습니다. 현재 수도인 [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTier]는 히말라야에서 가장 위대한 도시이자 요새로 변모할 것입니다. 이곳은 이 고지대에서 무역, 학문, 군사력의 빛나는 등대가 될 것이며, 이제 모든 이들이 다시 한번 [GetTitleByKey('e_zhangzhung').GetNameNoTierNoTooltip]의 이름을 두려움과 경외심, 존경심을 담아 부르게 될 것입니다!" # 6518536043170767221
+  zhangzhung.0014.a: "우리는 계속해서 더욱 강력해질 수 있을 뿐이오!" # 6286532929319165950
+  zhangzhung.0015.t: "주툴풀크 수도원" # 14593520576754209722
+  zhangzhung.0015.desc: "[milarepa.GetFirstName]께서 뵌교(Bön) 교사들을 기적 대결에서 물리치고, 카일라스 산에서 영원히 [GetReligionByKey('buddhism_religion').GetName]의 우위를 확고히 했을 때, 그분의 기적 중 하나는 손과 발로 동굴 사원을 즉석에서 만들어냈다고 전해집니다. 승리 후, 그분은 이 장소를 명상 및 기타 심화된 영적 수행을 위해 사용하셨습니다.\n\n이 작은 동굴은 그때부터 지금까지 남아 있으며,\"기적의 동\"을 의미하는 #italic Zuthulpuk#!으로 널리 알려져 있습니다. 하지만 저는 이곳을 제대로 된 건물과 이를 관리할 [ROOT.Char.GetFaith.PriestNeuterPlural]이 있는 정식 사원으로 탈바꿈시켜야 한다고 생각합니다.\n\n이에 저는 지역 종교 당국과 협력하여 이 동굴 주변에 상당한 규모의 사원을 지을 수 있도록 조치하고 있습니다. 이제 카일라스 산을 찾는 [GetReligionByKey('buddhism_religion').GetAdjectiveNoTooltip] 순례자들은 (문자 그대로) [milarepa.GetFirstNameNoTooltip]의 발자취를 더욱 쉽게 따를 수 있을 것입니다." # 9597657508991251921
+  zhangzhung.0015.a: "모든 중생에게 이로움이 있기를!" # 16192158908131216075
+  zhangzhung.0016.t: "최초의 테르톤들" # 4241665225531941814
+  zhangzhung.0016.desc: "[GetTitleByKey('e_tibet').GetNameNoTier] 제국의 붕괴는 [langdarma.GetTitledFirstName]의 암살 이후 내전으로 이어졌고, 이는 사회적, 정치적 격변뿐만 아니라 [GetReligionByKey('buddhism_religion').GetAdjective]와 토착 [GetReligionByKey('bon_religion').GetAdjective] 종교 기관들의 쇠퇴를 가져왔습니다.\n\n하지만 진정한 교리를 배우고자 하는 이들에게는 희망이 있습니다. 오래전 이 가르침을 전파했던 현명한 영적 스승들, 특히 [padmasambhava.GetFirstName]은 현 시대의 상황을 예견하고 그들의 가르침과 다른 성물들을 [Glossary( 'termas', 'TERMA_GLOSS' )]의 형태로 숨겨두었다고 말하는 이들이 있습니다. 이 성스러운 보물들은 오직 자격 있는 보물 발견자, 즉 [Glossary( 'tertöns', 'TERTON_GLOSS' )]만이 [Glossary( 'karmic conditions', 'KARMIC_CONDITIONS_GLOSS' )]이 무르익고 사회가 그것을 받아들일 준비가 되었을 때 발견할 수 있습니다.\n\n최근 [GetGeographicalRegion('world_tibet').GetName] 전역, 특히 [GetFaithByKey('lamaism').GetName]의 #italic 니잉마#! 종파와 [GetFaithByKey('bon').GetAdherentNamePlural] 사이에서 [Glossary( 'tertöns', 'TERTON_GLOSS' )]들이 나타나기 시작했습니다. 일부 [GetReligionByKey('buddhism_religion').GetAdherentNamePluralNoTooltip]들은 전반적으로 #italic 테르톤#!에 대해 회의적이지만, 더 많은 #italic 테르마#!가 발견됨에 따라 이 현상이 지역 전반에서 더 많은 수용을 얻게 될지도 모릅니다." # 5278300283916142368
+  zhangzhung.0016.a: "이 #italic 성스러운 용어#!들은 어떤 #italic 영지#!를 발견할 수 있을까요?" # 18111715911206321984
+  zhangzhung.0016.b: "미신적인 헛소리로 들리는군!" # 3720754584994200896
+  zhangzhung.0016.tooltip.1: "[decisions|E] 및 [RICE_tertons|E]와 관련된 사건들과 [RICE_termas|E]의 발견은 이제 그들의 [culture|E]가 $heritage_tibetan_name$ [heritage|E]에 속하고, [GetReligionByKey('buddhism_religion').GetAdjective] [faith|E]를 믿거나, 혹은 [GetReligionByKey('bon_religion').GetAdjective] 또는 [GetReligionByKey('west_himalayan_religion').GetAdjective] [faith|E]를 믿으며 [GetFaithDoctrine('rice_bon_deities_new_doctrine').GetBaseName] [doctrine|E]를 가진 인물들에게 발생할 수 있습니다." # 43340704484834871
+  zhangzhung.0016.tooltip.2: "[RICE_tertons|E]는 비교적 드물 것이며, 미래에 더 널리 받아들여지는 현상이 되기 전까지는 성공 확률이 낮을 것입니다." # 2357021990066297005
+  zhangzhung.0016.tooltip.3: "#bold $RICE_zhangzhung_patronize_tertons$#! [decision|E]은 [court|E]에 [RICE_terton|E]이나 [GetModifier('RICE_terton_candidate').GetNameWithTooltip]을 보유하지 않은 [rulers|E]는 사용할 수 없습니다." # 10871334307438043740
+  zhangzhung.0016.info: "#emphasis 역사적 배경:#! $TERTON_GLOSS$" # 12964466740435891767
+  zhangzhung.0017.t: "테르퇸의 부상" # 5710675227140091824
+  zhangzhung.0017.desc: "[GetTitleByKey('e_tibet').GetNameNoTier] 제국의 붕괴는 [GetReligionByKey('buddhism_religion').GetAdjective]와 토착 [GetReligionByKey('bon_religion').GetAdjective] 종교 가르침의 쇠퇴를 가져왔습니다. 하지만, [GetGeographicalRegion('world_tibet').GetName]은 신성했던 과거를 되찾고 영적인 미래를 확보하기 시작했습니다.\n\n[GetGeographicalRegion('world_tibet').GetNameNoTooltip]에서 [GetReligionByKey('buddhism_religion').GetName]과 토착 [GetReligionByKey('bon_religion').GetAdjective] 전통의 르네상스에 관여하는 영적 스승 계층 중 하나는 #italic 테르톤#!이라 불리는 이들입니다. 이들은 숨겨진 가르침과 [Glossary( 'termas', 'TERMA_GLOSS' )]라 알려진 성스러운 물건을 발견하는 데 특화된 '보물 발견자'들입니다. 자칭 #italic 테르톤#!이라고 하는 모든 이가 진실한 것은 아니지만, 여기저기서 #italic 테르마#!가 발견되고 있으며, 이 현상은 비록 주로 [GetFaithByKey('lamaism').GetName]의 #italic 니잉마#! 종파 및 [GetFaithByKey('bon').GetName]과 연관되어 있지만, 이 지역의 많은 [GetReligionByKey('buddhism_religion').GetAdjectiveNoTooltip] 종파 전반에서 수용이 증가하고 있습니다.\n\n[padmasambhava.GetFirstName]과 같은 종교적 스승들이 수 세기 전에 숨기고 이제 이 테르톤들이 밝혀낸 이 가르침들은 [GetGeographicalRegion('world_tibet').GetNameNoTooltip]에서 [GetReligionByKey('buddhism_religion').GetAdjective] 및 토착 [GetReligionByKey('bon_religion').GetAdjective] 가르침의 부흥에 의심할 여지 없이 기여하고 있습니다." # 958205592059241584
+  zhangzhung.0017.a: "진정한 가르침이 널리 퍼지고 있습니다!" # 16879876957992254461
+  zhangzhung.0017.b: "하! 이 사기꾼들은 [ROOT.Char.GetFaith.HighGodName]의 진정한 길을 전혀 모르는군." # 960785705375674599
+  zhangzhung.0017.tooltip.1: "[RICE_tertons|E]는 이제 더 널리 인정받는 종교 제도가 되었으므로 이전보다 덜 희귀해지며 [RICE_termas|E]를 발견할 확률이 높아질 것입니다." # 22640754261402785
+  zhangzhung.0017.tooltip.2: "[decision|E]인 #bold $RICE_zhangzhung_patronize_tertons$#!은 [court|E]에 [RICE_terton|E]나 [GetModifier('RICE_terton_candidate').GetNameWithTooltip]를 보유하고 있는지 여부와 관계없이 요구 사항을 충족하는 [rulers|E]에게 제공될 것입니다." # 8004762443949041543
+  zhangzhung.0017.tooltip.3: "[RICE_termas|E]의 성공적인 발견으로 [piety_i|E] [piety|E] 보상이 증가했습니다." # 14490665344852564291
+  zhangzhung.0017.info: "#emphasis 역사적 배경:#! $TERTON_GLOSS$" # 12964466740435891767
+  zhangzhung.0018.t: "[ROOT.Char.GetFaith.GetNameNoTooltip]의 [GetGeographicalRegion('world_tibet').GetNameNoTooltip] 내 전파" # 15612232497171530529
+  zhangzhung.0018.desc: "[GetTitleByKey('e_tibet').GetName]의 몰락은 히말라야 지역에 혼란스러운 시대를 가져왔습니다. 사람들은 올바른 길을 알지 못하는 영적인 암흑기가 뒤따랐습니다.\n\n이제 [GetGeographicalRegion('world_tibet').GetName]이 재건됨에 따라, 멀고 가까운 사람들이 진정한 교리를 찾고 있습니다. 고대의 [GetFaithByKey('old_bon').GetAdjective] 신들이 깨달은 영적 스승들에 의해 길들여져, 다른 전통의 추종자들과 가르침을 수호하는 [GetPlayer.Custom('RICE_tibet_deities_type')]로 변모하고 있다는 이야기가 퍼지고 있습니다. 저 또한 이 전통들 중 하나에 귀의했습니다." # 15347769736593480243
+  zhangzhung.0018.desc.lamaism: "[GetFaithByKey('lamaism').GetName].\n\n오래전, $Songtsen_Gampo$와 같은 왕들과 파드마삼바바와 같은 스승들이 [GetGeographicalRegion('world_tibet').GetNameNoTooltip]에 [GetReligionByKey('buddhism_religion').GetName]을 가져왔습니다. 최근 이러한 교리가 널리 전파되고 부흥하면서, 다시금 이 땅에 퍼져나가고 있습니다. 부처님과 보살님께 영광을! 망상을 물리치는 다르마에 영광을! 영원히 번성할 상가에 영광을!" # 5368071072744573252
+  zhangzhung.0018.desc.new_bon: "[GetFaithByKey('bon').GetName].\n\n일부 덜 온건한 [GetReligionByKey('buddhism_religion').GetAdherentNamePlural]들은 옛 [GetReligionByKey('bon_religion').GetAdjective] 방식이 사악하며, 기껏해야 자신들의 길을 희미하게 모방한 것에 불과하다고 주장하지만, 진실은 그 반대입니다. 우리는 수세기 동안의 박해 끝에 톤파 셰랍 미워체(Tonpa Shenrab Miwoche)의 가르침을 되찾고 다시 배우기 시작했을 뿐입니다. 우리의 새로운 헌신이 모두에게 행복과 이익을 가져다주기를 기원합니다!" # 1925559867069863818
+  zhangzhung.0018.desc.mahayana: "[GetFaithByKey('mahayana').GetName].\n\n수 세기 전, [GetGeographicalRegion('world_tibet').GetNameNoTooltip]의 여러 [GetReligionByKey('buddhism_religion').GetAdjective] 분파들 사이에 큰 논쟁이 있었고, [GetFaithByKey('mahayana').GetNameNoTooltip]가 패배한 것으로 알려져 있습니다. 하지만 나 같은 일부는 우리가 사실 이겼다고 알고 있습니다. 이제 진정한 [GetFaithByKey('mahayana').GetNameNoTooltip]가 이 고지대로 돌아옵니다. 대승의 가르침이 모든 중생을 위해 위대한 자비를 얻는 데 도움이 되기를 바랍니다!" # 18171741168732449870
+  zhangzhung.0018.desc.vajrayana: "[GetFaithByKey('vajrayana').GetName].\n\n수세기 전, [GetGeographicalRegion('world_tibet').GetNameNoTooltip]의 여러 [GetReligionByKey('buddhism_religion').GetAdjective] 학파 지지자들 사이에 큰 논쟁이 있었고, [GetFaithByKey('vajrayana').GetNameNoTooltip]이 승리했습니다. 하지만 이곳의 [GetReligionByKey('buddhism_religion').GetAdherentNamePluralNoTooltip]은 길을 잃었습니다. 우리는 탄트라 수행의 근본으로 돌아가야 합니다. 비밀스러운 수레가 우리를 인도하여 모든 망상과 깨달음으로 가는 모든 장애물과 걸림돌을 물리칠 수 있기를 바랍니다!" # 1264576901834402308
+  zhangzhung.0018.desc.manichean: "[GetFaithByKey('manichean').GetName].\n\n빛의 길이요, 위대한 예언자 마니께서 가르치신 길은 우리가 믿는 오래된 [GetFaithByKey('old_bon').GetAdjective] 신앙과 [GetReligionByKey('buddhism_religion').GetAdjective] 신앙과 생각보다 더 잘 부합합니다. 실로 마니는 새로운 붓다, 빛의 붓다이시며, 그분의 가르침이야말로 구원으로 향하는 유일한 진정한 길입니다." # 439956632349719860
+  zhangzhung.0018.desc.shaivism: "[GetFaithByKey('shaivism').GetName].\n\n[GetFaithByKey('old_bon').GetName]의 신들은 [GetReligionByKey('hinduism_religion').GetName]의 신들과 어느 정도 유사점이 있으므로, 우리는 특히 [GetFaithByKey('shaivism').GetNameNoTooltip]에 끌리는 것이 당연합니다. 모든 생명을 기르고 양육하며 햇살과 같은 축복을 내려주시는 시바 신께서 우리의 앞길을 밝혀주실 것입니다." # 13845565060831437818
+  zhangzhung.0018.desc.zhengyi: "[GetFaithByKey('zhengyi').GetName].\n\n수 세기에 걸쳐 중원 이웃들과의 관계가 변동해왔지만, 상품과 사상의 생산적인 교류가 있었음은 부정할 수 없습니다. 만약 그들의 종교적 철학이 우리에게 적합하다면 왜 받아들이지 않겠습니까? 천 리 길도 한 걸음부터이니, 이것이 더 나은 새 시대로 나아가는 우리의 첫걸음이 될 것입니다." # 9979098780213154895
+  zhangzhung.0018.desc.nestorian: "[GetFaithByKey('nestorian').GetName].\n\n[GetReligionByKey('christianity_religion').GetAdjective] 교회는 멀리까지 퍼져나갔고, 마침내 우리의 심장과 영혼에 닿았습니다. 그리스도의 복음을 통해 우리는 평화와 진정한 구원을 찾을 수 있습니다. 왕이신 그리스도께 영광을! 신께서 우리의 죄를 씻어주시고, [GetGeographicalRegion('world_tibet').GetNameNoTooltip]의 땅을 새롭게 축성해 주시기를!" # 16459080059253107809
+  zhangzhung.0018.desc.maturidi: "[GetFaithByKey('maturidi').GetName].\n\n[GetReligionByKey('islam_religion').GetName]의 교리는 정의와 자선의 이상을 강조하며 큰 매력을 지니고 있습니다. [GetGeographicalRegion('world_tibet').GetNameNoTooltip]의 땅이 자비롭고 은혜로우신 알라의 이름을 영원히 찬양하게 하소서. 알라 외에는 신이 없으며, 무함마드는 알라의 사도이십니다!" # 12160782588326473713
+  zhangzhung.0018.desc.khurmazta: "[GetFaithByKey('khurmazta').GetName].\n\n[GetFaithByKey('old_bon').GetName]의 신들은 동방 형태의 [GetReligionByKey('zoroastrianism_religion').GetName]의 신들과 어느 정도 유사점을 가지고 있기에, 우리는 특히 [GetFaithByKey('khurmazta').GetNameNoTooltip]에 끌리는 것이 당연합니다. 이제 성스러운 불꽃이 밝게 타오르며, 종종 추운 [GetGeographicalRegion('world_tibet').GetNameNoTooltip]의 산악 지대에서 우리의 마음을 따뜻하게 해줍니다. 우리 모두 선한 생각, 선한 말, 선한 행동에 헌신합시다!" # 8978794746386463250
+  zhangzhung.0018.a: "[ROOT.Char.GetFaith.GetNameNoTooltip]가 [GetGeographicalRegion('world_tibet').GetNameNoTooltip] 전역으로 퍼져나갈 것입니다!" # 8991592745979598639
+  zhangzhung.0019.t: "xxxxx" # 1951045980481827005
+  zhangzhung.0019.desc: "xxxxx" # 1951045980481827005
+  zhangzhung.0019.a: "xxxxx" # 1951045980481827005
+  zhangzhung.0020.t: "xxxxx" # 1951045980481827005
+  zhangzhung.0020.desc: "xxxxx" # 1951045980481827005
+  zhangzhung.0020.a: "xxxxx" # 1951045980481827005
+  zhangzhung.0021.t: "xxxxx" # 1951045980481827005
+  zhangzhung.0021.desc: "xxxxx" # 1951045980481827005
+  zhangzhung.0021.a: "xxxxx" # 1951045980481827005
+  zhangzhung.0022.t: "[padmasambhava.GetNicknameNoTooltip]을 꿈꾸며" # 15819081813090928327
+  zhangzhung.0022.t.bon: "톤파 셰랍을 꿈꾸며" # 10402784687326128491
+  zhangzhung.0022.desc: "모두들 [nyangral.GetTitledFirstName]가 최근 [padmasambhava.GetFirstName]께서 [padmasambhava.GetHerselfHimself]에 대해 꾸었던 기적적인 꿈에 대해 떠들썩합니다. 그리하여 저는 [nyangral.GetFirstNameNoTooltip]를 소환하여 그 꿈에 대해 이야기해 달라고 청하고자 합니다.\n\\\"[nyangral.GetSheHe]가 말합니다. 정말 놀라웠어요! 거대한 말들을 탄 수많은 남녀들이 저에게 찾아왔는데, 그들을 이끈 이는 바로 [padmasambhava.GetNickname]였습니다. 거대한 잔치와 꿀물이 가득한 꽃병이 있었고, [padmasambhava.GetSheHe]께서는 제 눈앞에서 수많은 기적을 보여주셨습니다. 이는 분명 상서로운 징조이며, 제 [Glossary( 'karmic fruit', 'KARMIC_CONDITIONS_GLOSS' )]의 결과일 것입니다\"\n\n[nyangral.GetFirstNameNoTooltip]를 아는 일부 [ROOT.Char.GetFaith.GetAdherentNamePlural]들은 이제 [nyangral.GetSheHe]가 [padmasambhava.GetFirstNamePossessiveNoTooltip] 제자 중 한 명의 환생일지도 모른다고 믿고 있습니다! [nyangral.GetSheHe]가 잠재적인 [Glossary( 'tertön', 'TERTON_GLOSS' )]가 되어 위대한 [Glossary( 'termas', 'TERMA_GLOSS' )]를 발견할 수 있을까요?" # 6780562600602574508
+  zhangzhung.0022.desc.bon: "모두가 최근 [nyangral.GetTitledFirstName]께서 톤파 셰랍 본인을 포함한 여러 신들과 영적 스승들에 대한 경이로운 꿈을 꾸셨다고 떠들어대고 있습니다. 그래서 저는 [nyangral.GetFirstNameNoTooltip]을 소환하여 그 꿈에 대해 이야기해 달라고 요청합니다.\n\\\"[nyangral.GetSheHe]가 말합니다. 정말 굉장했어요! 강력한 말들을 탄 수많은 남녀들이 저에게 왔는데, 그들을 이끄는 분은 다름 아닌 톤파 셰랍 미워체였습니다. 거대한 잔치와 함께 꿀술이 가득 찬 큰 항아리가 있었고, 저는 제 눈앞에서 수많은 기적을 목격했습니다. 이것은 분명 길조이며, 저의 [Glossary( 'karmic fruit', 'KARMIC_CONDITIONS_GLOSS' )]의 결과일 것입니다.”\n\n[nyangral.GetFirstNameNoTooltip]을 아는 일부 [ROOT.Char.GetFaith.GetAdherentNamePlural]들은 이제 [nyangral.GetSheHe]가 뵌(Bön) 종교가 박해받던 시절에 숨겨진 [Glossary( 'termas', 'TERMA_GLOSS' )]를 찾아낼 수 있는 [Glossary( 'tertön', 'TERTON_GLOSS' )]일지도 모른다고 믿고 있습니다!" # 13880359737408947112
+  zhangzhung.0022.desc.self: "믿기 어려웠습니다. 지난밤, 저는 [padmasambhava.GetFirstName] [padmasambhava.GetHerselfHimself]의 기적적인 꿈을 꾸었습니다. 저는 [ROOT.Char.GetFaith.DevilName]가 사람들에게 종교적 웅장함에 대한 망상을 주어 속일 수 있다는 것을 알기에 의심을 품었습니다. 그래서 저는 조언을 구하기 위해 몇몇 [ROOT.Char.GetFaith.PriestNeuterPlural]들을 소집했습니다.\n\n저는 그들에게 거대한 말을 탄 수많은 남녀들이 바로 [padmasambhava.GetNickname]의 인도로 저에게 다가오는 것을 보았고, 그 후에 꿀술이 가득 담긴 큰 병과 함께 성대한 잔치가 열렸으며, [padmasambhava.GetSheHe]께서 제 눈앞에서 많은 기적을 행하셨다고 이야기했습니다. 제가 이 모든 것을 말하자, [ROOT.Char.GetFaith.PriestNeuterPlural]들은 모두 동의하며 그중 한 명이 말했습니다.\"이것은 분명 상서로운 징조이며, 당신의 [Glossary( 'karmic fruit', 'KARMIC_CONDITIONS_GLOSS' )]의 결과일 것입니다\"\n\n이제 일부 [ROOT.Char.GetFaith.GetAdherentNamePlural]들은 제가 [padmasambhava.GetFirstNamePossessiveNoTooltip] 제자 중 한 명의 환생일지도 모른다고 믿고 있습니다! 제가 잠재적인 [Glossary( 'tertön', 'TERTON_GLOSS' )]가 되어 위대한 [Glossary( 'termas', 'TERMA_GLOSS' )]를 발견할 수 있을까요?" # 15140303187487095529
+  zhangzhung.0022.desc.self_bon: "믿기 어려웠습니다. 지난밤, 톤파 셰랍을 비롯한 여러 신들과 영적 스승들이 나오는 기적적인 꿈을 꾸었습니다. 저는 [ROOT.Char.GetFaith.DevilName]가 종교적 웅장함에 대한 망상으로 사람들을 속일 수 있다는 것을 알기에 의심을 품었습니다. 그래서 저는 조언을 구하기 위해 몇몇 [ROOT.Char.GetFaith.PriestNeuterPlural]들을 소환했습니다.\n\n저는 그들에게 거대한 말들을 탄 수많은 남녀들이 톤파 셰랍의 인솔하에 저에게 다가오는 것을 보았고, 그 후에 꿀이 가득 찬 큰 항아리와 함께 성대한 연회가 열렸으며, 제 눈앞에서 수많은 기적을 목격했다고 이야기했습니다. 제가 이 모든 것을 말하자, [ROOT.Char.GetFaith.PriestNeuterPlural]들은 모두 동의하며 그중 한 명이 말했습니다.\"이것은 틀림없이 상서로운 징조이며, 당신의 [Glossary( 'karmic fruit', 'KARMIC_CONDITIONS_GLOSS' )]의 결과일 것입니다\"\n\n이제 일부 [ROOT.Char.GetFaith.GetAdherentNamePlural]들은 제가 뵌(Bön)이 박해받던 시절에 오랫동안 숨겨졌던 [Glossary( 'termas', 'TERMA_GLOSS' )]를 발견할 수 있는 [Glossary( 'tertön', 'TERTON_GLOSS' )]일지도 모른다고 믿고 있습니다!" # 7015497616380445486
+  zhangzhung.0022.a: "그러한 꿈은 그대의 위대한 영적 운명을 보여주는 것이니...." # 4879676009842506651
+  zhangzhung.0022.a.tooltip: "[nyangral.GetUIName]가 미래에 [RICE_terma|E]를 발견하여 [RICE_terton|E]가 될 가능성이 있으며, 그 결과 #bold [GetTrait('RICE_terton').GetName( GetNullCharacter )]# [trait|E]를 얻을 수 있습니다." # 18388606085053893379
+  zhangzhung.0022.b: "그저 평범한 종교적 꿈일지도 모릅니다." # 6662611702326124656
+  zhangzhung.0022.info: "#emphasis 역사적 배경:#! [Glossary( 'tertöns', 'TERTON_GLOSS' )]의 티베트 불교 성인전에서는 그들의 보물 발견자로서의 경력이 길조의 꿈을 꾸고 난 후에 시작되는 것이 드물지 않습니다. 이 꿈들에는 종종 [GetTitleByKey('b_oddiyana').GetNameNoTier] 출신의 전설적인 불교 스승인 파드마삼바바가 등장하는데, 그분은 티베트에 불교를 전파하는 데 중요한 역할을 했다고 전해집니다. 구루 린포체로도 알려진 파드마삼바바는 티베트 전역에 흩어져 있는 많은 [Glossary( 'termas', 'TERMA_GLOSS' )]를 숨긴 책임이 있다고 믿어집니다. 이 사건의 꿈은 가장 초기이자 가장 중요한 #italic tertöns#! 중 한 명인 니앙렐 니마 외제르(1124–1192)가 10살 때 꾸었던 꿈을 바탕으로 하고 있으며, 이는 그의 영적 여정에 영감을 주었습니다." # 13238162566257447878
+  zhangzhung.0023.t: "테르퇸 후원하기" # 12429182103789349602
+  zhangzhung.0023.desc: "모든 [ROOT.Char.GetFaith.GetAdherentName]가 [Glossary( 'tertön', 'TERTON_GLOSS' )]라는 제도를 믿는 것은 아닙니다. 이는 올바른 업보를 받은 이들이 발견하기를 기다리는 [Glossary( 'termas', 'TERMA_GLOSS' )], 즉 숨겨진 보물이 존재한다는 생각입니다. 하지만 저 자신은 일부 테르마가 실제로 오래전에 숨겨진 진정한 종교적 보물이라고 믿습니다.\n\n따라서 저와 같이 자금과 자원을 가진 사람들이 이 보물을 찾으려는 테르톤들을 후원해야 하며, 저는 오늘부터 그렇게 할 계획입니다.\n\n테르톤들을 후원함으로써, [Glossary( 'karmic conditions', 'KARMIC_CONDITIONS_GLOSS' )]가 무르익었을 때, 그들은 현 시대의 모든 중생의 이익을 위해 위대하고 중요한 테르마를 발견할 수 있을 것입니다." # 3780638342760819542
+  zhangzhung.0023.a: "그들이 많은 테르마를 발견하기를 바랍니다." # 10033505542148883053
+  zhangzhung.0024.t: "테르마스 찾기" # 10196320924354050699
+  zhangzhung.0024.desc.intro.not_terton: "비록 내가 언젠가 [Glossary( 'tertön', 'TERTON_GLOSS' )]가 될 수 있다는 계시나 꿈을 받았을지라도, 더 많은 [Glossary( 'termas', 'TERMA_GLOSS' )]를 발견할 것이라는 보장은 없습니다. 때로는 그러한 계시나 꿈이 아무것도 가져오지 못하거나, 심지어 망상일 수도 있습니다." # 15413867932885960861
+  zhangzhung.0024.desc.intro.terton: "비록 제가 하나 이상의 발견을 이룬 저명한 [Glossary( 'tertön', 'TERTON_GLOSS' )]이지만, 앞으로 [Glossary( 'termas', 'TERMA_GLOSS' )]를 더 발견할 것이라는 보장은 없습니다. 결국 단 하나의 테르마만을 발견한 유명한 테르퇸들도 있으니까요." # 16912009786659158308
+  zhangzhung.0024.desc: "하지만 저는 모든 지각 있는 존재들의 이익을 위해 더 많은 테르마를 발견하고자 하는 염원을 가지고 있습니다.\n\n테르마의 위치를 알려주는 환영과 꿈은 쉽게 찾아오지 않으니, 저는 자주 기도하고 정신적 노력을 집중하여 테르마가 있을 수 있는 유망한 징후들을 분별할 계획입니다." # 14800451192138582709
+  zhangzhung.0024.a: "자비로우신 [GetPlayer.Custom('RICE_tibet_deities_type')]께서 저의 염원을 이루도록 도와주시길!" # 728608635555399983
+  zhangzhung.0025.t: "xxxxx" # 1951045980481827005
+  zhangzhung.0025.desc: "xxxxx" # 1951045980481827005
+  zhangzhung.0025.a: "xxxxx" # 1951045980481827005
+  zhangzhung.0026.t: "xxxxx" # 1951045980481827005
+  zhangzhung.0026.desc: "xxxxx" # 1951045980481827005
+  zhangzhung.0026.a: "xxxxx" # 1951045980481827005
+  zhangzhung.0027.t: "xxxxx" # 1951045980481827005
+  zhangzhung.0027.desc: "xxxxx" # 1951045980481827005
+  zhangzhung.0027.a: "xxxxx" # 1951045980481827005
+  zhangzhung.0028.t: "xxxxx" # 1951045980481827005
+  zhangzhung.0028.desc: "xxxxx" # 1951045980481827005
+  zhangzhung.0028.a: "xxxxx" # 1951045980481827005
+  zhangzhung.0029.t: "xxxxx" # 1951045980481827005
+  zhangzhung.0029.desc: "xxxxx" # 1951045980481827005
+  zhangzhung.0029.a: "xxxxx" # 1951045980481827005
+  zhangzhung.0030.t: "xxxxx" # 1951045980481827005
+  zhangzhung.0030.desc: "xxxxx" # 1951045980481827005
+  zhangzhung.0030.a: "xxxxx" # 1951045980481827005
+  zhangzhung.0031.t: "테르마의 환영" # 1440345485057180650
+  zhangzhung.0031.desc.intro.great_terton: "[terton.GetTitledFirstName]께서는 많은 [Glossary( 'termas', 'TERMA_GLOSS' )]를 발견하신, 우리 시대 가장 저명한 [Glossary( 'tertöns', 'TERTON_GLOSS' )] 중 한 분으로 여겨집니다." # 9447441645643561906
+  zhangzhung.0031.desc.intro.terton: "[terton.GetTitledFirstName]께서는 과거 [Glossary( 'tertön', 'TERTON_GLOSS' )]로서 어느 정도 성공을 거두었으며, 일부 [Glossary( 'termas', 'TERMA_GLOSS' )]를 발견하기도 하셨습니다." # 7481508678157914823
+  zhangzhung.0031.desc.intro.not_terton: "얼마 전, [terton.GetTitledFirstName]께서는 [terton.GetSheHe]께서 미래에 [Glossary( 'tertön', 'TERTON_GLOSS' )]가 되어 [Glossary( 'termas', 'TERMA_GLOSS' )]를 발견할 수 있다는 환상과 꿈을 꾸셨습니다." # 10244632503773413435
+  zhangzhung.0031.desc.middle: "\n\n이제 [terton.GetSheHe]는 다시 다음과 같은 기이한 꿈을 꾸고 있습니다." # 4656481631034264311
+  zhangzhung.0031.desc.buddhism: "[padmasambhava.GetFirstName] 그 외에는 아무도 없습니다." # 12884289800518427744
+  zhangzhung.0031.desc.not_buddhism: "고대 뵌교 스승들," # 7069489293389359443
+  zhangzhung.0031.desc: "[terton.GetHerHim]에게 숨겨진 성스러운 보물의 위치를 알려줍니다.\n\n만약 꿈이 진짜라면, 그 꿈들은 오래전에 테르마가 숨겨졌던 장소인 [target_province.GetName] 근처를 가리키는 것 같습니다. 비록 [terton.GetFirstNameNoTooltip]께서는 의심을 품고 계시지만, 그분은 정말로 발견되기를 기다리는 테르마가 있는지 확인하기 위해 그곳으로 여행하는 것을 고려하고 계십니다." # 14112737371612097109
+  zhangzhung.0031.a: "그대의 축복을 받으시오 – 행운을 비오!" # 4674376880678012425
+  zhangzhung.0031.a.tooltip: "[terton.GetUIName]가 [target_province.GetName]으로 [travel|E]하여 [RICE_terma|E]를 찾을 것입니다. 만약 찾게 된다면, [terton.GetSheHe]가 [terton.GetHerHis] 목적지에 도착하는 즉시 알려드리겠습니다." # 4095515079181004363
+  zhangzhung.0031.b: "의심이 드는군요. 이곳에 계셔야겠습니다." # 7387009554529340782
+  zhangzhung.0032.t: "xxxxx" # 1951045980481827005
+  zhangzhung.0032.desc: "xxxxx" # 1951045980481827005
+  zhangzhung.0032.a: "xxxxx" # 1951045980481827005
+  zhangzhung.0033.t: "테르마 발견" # 6899655753824279004
+  zhangzhung.0033.desc.intro: "[terton.GetFirstName]가 [Glossary( 'terma', 'TERMA_GLOSS' )]를 발견했다는 소식이 들려왔습니다. 이는 [terton.GetHerHis]의 예언과 꿈에서 보았던 바와 일치합니다." # 4820791810332418190
+  zhangzhung.0033.desc.intro.failure: "[terton.GetFirstName]가 [location.GetName]에 도착했다는 소식이 들려왔습니다. 이는 [terton.GetHerHis]의 예언과 꿈이 나타낸 바와 정확히 일치합니다. 하지만 그가 도착하자마자 무언가 잘못된 것이 분명합니다. [terton.GetSheHe]가 찾던 [Glossary( 'terma', 'TERMA_GLOSS' )]는 어디에서도 보이지 않았습니다." # 7281811609622371264
+  zhangzhung.0033.desc.intro.bon: "[location.GetName]에서 있었던 대대적인 박해 시기에 그들을 보호하기 위해 고대 본교 스승들이 숨겨 놓은 것입니다." # 18194716571338345829
+  zhangzhung.0033.desc.intro.buddhist: "[padmasambhava.GetFirstName]께서 [location.GetName]을 지나시면서 오래전에 숨기셨습니다. [padmasambhava.GetSheHe]께서는" # 13805602208911498700
+  zhangzhung.0033.desc.teachings_physical: "테르마는 [terton.GetFaith.GetAdjective]의 영적 가르침이 적힌 두루마리입니다. 그것은 [GetPlayer.Custom('RICE_random_terton_location')]에서 발견되었습니다." # 10407480737974463185
+  zhangzhung.0033.desc.teachings_internal: "[GetPlayer.Custom('RICE_random_terton_location')|U]에서 영적 가르침에 대한 환상이 촉발되었습니다. 이는 과거 생에서 받았던 [terton.GetFaith.GetAdjective]의 영적인 가르침입니다." # 13105512856994893448
+  zhangzhung.0033.desc.artifact_statue: "테르마는 [terton.GetFaith.GetAdjective] 전통의 종교적 인물 조각상입니다. 그것은 [GetPlayer.Custom('RICE_random_terton_location')]에서 발견되었습니다." # 4176592096763332745
+  zhangzhung.0033.desc.artifact_sacred_image: "테르마는 [terton.GetFaith.GetAdjective] 전통의 성직자 형상을 묘사한 예술 작품입니다. 이것은 [GetPlayer.Custom('RICE_random_terton_location')]에서 발견되었습니다." # 11619081117902014638
+  zhangzhung.0033.desc.artifact_ritual_instrument: "테르마는 [terton.GetFaith.GetAdjective] 의식에서 사용되는 제례 도구입니다. 그것은 [GetPlayer.Custom('RICE_random_terton_location')]에서 발견되었습니다." # 17223533981405093052
+  zhangzhung.0033.desc.religious_building: "[terton.GetFirstNameNoTooltip]께서는 [GetPlayer.Custom('RICE_random_terton_location')]을(를) 둘러보셨고, 어쩐 일인지 [terton.GetFaith.GetAdjective]의 탑이 홀연히 나타났습니다." # 829144306108066725
+  zhangzhung.0033.desc.riches: "테르마는 보석과 기타 재물들의 은닉처였습니다. 그것은 [GetPlayer.Custom('RICE_random_terton_location')]에서 발견되었습니다." # 8291465202718647934
+  zhangzhung.0033.desc.artifact_scholarly_texts: "테르마는 학술적 주제를 설명하는 두루마리입니다. 이 두루마리는 [GetPlayer.Custom('RICE_random_terton_location')]에서 발견되었습니다." # 555163177216079146
+  zhangzhung.0033.desc.medicine: "테르마는 약용 환으로 만들 수 있는 귀중한 물질이었습니다. 그것은 [GetPlayer.Custom('RICE_random_terton_location')]에서 발견되었습니다." # 12916654654506797906
+  zhangzhung.0033.desc.middle.failure: "\n\n[terton.GetSheHe]가 아무리 노력해도 종교적인 징후는 전혀 나타나지 않았고, 더 이상의 꿈이나 환영도 없었습니다. 대체 무슨 일일까요? [terton.GetFirstNameNoTooltip]는 영적으로 부족하여 선업이 부족했던 걸까요? 아니면 테르마를 꺼내기 위해 올바른 의식과 기도를 수행하지 않았던 걸까요? 그 지역의 신들이 테르마를 보호하고 있어 분노한 것일까요? 아니면 이것이 흑마술과 사악한 세력으로 인해 발생한 망상이었을까요?" # 11377409816737493061
+  zhangzhung.0033.desc.middle: "[terton.Custom('RICE_random_terton_occurence_time')] [terton.GetFirstNameNoTooltip] [terton.Custom('RICE_random_terton_occurence')] 상서로운 징조로다!" # 14148641222141758897
+  zhangzhung.0033.desc.questioned: "하지만 이 테르마는 일부에게 #bold 의심스러운#! 발견으로 여겨집니다. [terton.GetFaith.GetReligion.GetAdjective]의 회의론자와 분파주의자들이 언제나 [Glossary( 'termas', 'TERMA_GLOSS' )]의 신뢰성에 의문을 제기하지만, 분명 이것은 진짜일 것입니다!" # 13261347023665609698
+  zhangzhung.0033.desc.accepted: "이 테르마는 일반적으로 #bold 받아들여지는#! 발견입니다. [terton.GetFaith.GetReligion.GetAdjective] 회의론자들과 이단자들이 [Glossary( 'termas', 'TERMA_GLOSS' )]의 신뢰성에 의문을 제기하는 경우는 항상 있지만, 이 테르마에 대해서는 큰 논란이 없습니다." # 7055302881462798584
+  zhangzhung.0033.desc.venerated: "이 테르마는 의심할 여지 없이 #bold 숭상받는#! 발견물이 될 것입니다. 그 영적인 속성과 발견 당시의 정황은 평소 [terton.GetFaith.GetReligion.GetAdjective] 회의론자들과 [Glossary( 'termas', 'TERMA_GLOSS' )]의 신빙성에 의문을 제기하던 분파주의자들조차도 그것이 진짜임을 확신하게 만들었습니다." # 11107274081341045155
+  zhangzhung.0033.a: "얼마나 상서로운가! 이 보물을 간직하겠소." # 15918020601192442156
+  zhangzhung.0033.b: "이 보물을 가질 영광을 누릴 자격이 있소." # 8443536421737730474
+  zhangzhung.0033.c: "지역 [ROOT.Char.GetFaith.HouseOfWorship]에 보물을 기부합시다." # 6468775965110155977
+  zhangzhung.0033.d: "얼마나 안타까운가." # 4993555256698322332
+  zhangzhung.0034.t: "xxxxx" # 1951045980481827005
+  zhangzhung.0034.desc: "xxxxx" # 1951045980481827005
+  zhangzhung.0034.a: "xxxxx" # 1951045980481827005
+  zhangzhung.0035.t: "xxxxx" # 1951045980481827005
+  zhangzhung.0035.desc: "xxxxx" # 1951045980481827005
+  zhangzhung.0035.a: "xxxxx" # 1951045980481827005
+  zhangzhung.0036.t: "xxxxx" # 1951045980481827005
+  zhangzhung.0036.desc: "xxxxx" # 1951045980481827005
+  zhangzhung.0036.a: "xxxxx" # 1951045980481827005
+  zhangzhung.0037.t: "xxxxx" # 1951045980481827005
+  zhangzhung.0037.desc: "xxxxx" # 1951045980481827005
+  zhangzhung.0037.a: "xxxxx" # 1951045980481827005
+  zhangzhung.0038.t: "xxxxx" # 1951045980481827005
+  zhangzhung.0038.desc: "xxxxx" # 1951045980481827005
+  zhangzhung.0038.a: "xxxxx" # 1951045980481827005
+  zhangzhung.0039.t: "xxxxx" # 1951045980481827005
+  zhangzhung.0039.desc: "xxxxx" # 1951045980481827005
+  zhangzhung.0039.a: "xxxxx" # 1951045980481827005
+  zhangzhung.0040.t: "$zhangzhung.0031.t$" # 13423196657700910234
+  zhangzhung.0040.desc.intro.great_terton: "일부 사람들은 제가 당대 가장 저명한 [Glossary( 'tertöns', 'TERTON_GLOSS' )] 중 한 명이며, 수많은 [Glossary( 'termas', 'TERMA_GLOSS' )]를 발견했다고 여깁니다." # 10391542702663195902
+  zhangzhung.0040.desc.intro.terton: "저는 과거에 [Glossary( 'tertön', 'TERTON_GLOSS' )]로서 어느 정도 성공을 거두었으며, 몇몇 [Glossary( 'termas', 'TERMA_GLOSS' )]를 발견했습니다." # 4861034990445348264
+  zhangzhung.0040.desc.intro.not_terton: "얼마 전, 저는 미래에 제가 [Glossary( 'tertön', 'TERTON_GLOSS' )]가 되어 [Glossary( 'termas', 'TERMA_GLOSS' )]를 발견할 수 있을 것이라는 환상과 꿈을 꾸었습니다." # 18174573876818988971
+  zhangzhung.0040.desc.middle: "\n\n이제, 나는 또다시 이상한 꿈을 꾸고 있는데, 그 꿈에는" # 10385109451929629584
+  zhangzhung.0040.desc.buddhism: "$zhangzhung.0031.desc.buddhism$" # 17094206093443487480
+  zhangzhung.0040.desc.not_buddhism: "$zhangzhung.0031.desc.not_buddhism$" # 5429553809963486801
+  zhangzhung.0040.desc: "숨겨진 성스러운 보물의 위치를 알려주고 있군.\n\n꿈이 진실이라면, 그 꿈들은 오래전에 테르마가 숨겨졌던 장소인 [target_province.GetName] 근처를 가리키는 것 같소. 의심은 가지만, 혹시라도 정말로 발견되기를 기다리는 테르마가 있는지 그곳으로 여행을 떠나봐야겠소. 찾아본다고 해로울 건 없겠지?" # 13608252145013660762
+  zhangzhung.0040.a: "만약 그것이 내 업보라면, 나는 그것을 찾아낼 것이다!" # 3747617594580823761
+  zhangzhung.0040.a.tooltip: "당신은 [RICE_terma|E]를 찾기 위해 [target_province.GetName]으로 [travel|E]할 것입니다." # 13353852118091144308
+  zhangzhung.0040.b: "의심이 가니, 다른 할 일이 있소." # 1127707503056586142
+  zhangzhung.0041.t: "$zhangzhung.0033.t$" # 8863776345319599380
+  zhangzhung.0041.desc.intro: "저의 환상과 꿈이 가리키는 곳에 도달하여 [Glossary( 'terma', 'TERMA_GLOSS' )]를 찾아내는 데 성공했습니다." # 1375384438450454706
+  zhangzhung.0041.desc.intro.failure: "마침내 나의 환상과 꿈이 [Glossary( 'terma', 'TERMA_GLOSS' )]를 찾을 수 있다고 말해준 장소에 도착했다. 하지만 도착해보니 무언가 잘못된 것이 분명하다. [Glossary( 'terma', 'TERMA_GLOSS' )]는 어디에도 보이지 않았다." # 14123075778642132569
+  zhangzhung.0041.desc.middle.failure: "\n\n제가 무슨 짓을 했든 종교적인 것은 전혀 나타나지 않았고, 더 이상의 꿈이나 계시도 없었습니다. 무슨 일이 일어난 걸까요? 제가 영적으로 부족했고 선업이 없었던 걸까요? 아니면 테르마를 꺼내기 위해 올바른 의식과 기도를 수행하지 못한 걸까요? 그 지역의 신들이 테르마를 지키고 있어서 화가 난 걸까요? 아니면 이것이 흑마술과 사악한 힘으로 인한 망상이었을까요?" # 17197445481712769634
+  zhangzhung.0041.desc.middle: "[terton.Custom('RICE_random_terton_occurence_time')] 나는 [terton.Custom('RICE_random_terton_occurence')] 상서로운 징조를 보았소!" # 9613960110132709449
+  zhangzhung.0041.a: "$zhangzhung.0033.a$" # 3209290208017786732
+  zhangzhung.0041.b: "$zhangzhung.0033.c$" # 16504800431116508389
+  zhangzhung.0041.c: "이것은 참으로 실망스럽군요." # 10519801153425644507
+  zhangzhung.0042.t: "xxxxx" # 1951045980481827005
+  zhangzhung.0042.desc: "xxxxx" # 1951045980481827005
+  zhangzhung.0042.a: "xxxxx" # 1951045980481827005
+  zhangzhung.0043.t: "xxxxx" # 1951045980481827005
+  zhangzhung.0043.desc: "xxxxx" # 1951045980481827005
+  zhangzhung.0043.a: "xxxxx" # 1951045980481827005
+  zhangzhung.0044.t: "xxxxx" # 1951045980481827005
+  zhangzhung.0044.desc: "xxxxx" # 1951045980481827005
+  zhangzhung.0044.a: "xxxxx" # 1951045980481827005
+  zhangzhung.0045.t: "xxxxx" # 1951045980481827005
+  zhangzhung.0045.desc: "xxxxx" # 1951045980481827005
+  zhangzhung.0045.a: "xxxxx" # 1951045980481827005
+  zhangzhung.0046.t: "xxxxx" # 1951045980481827005
+  zhangzhung.0046.desc: "xxxxx" # 1951045980481827005
+  zhangzhung.0046.a: "xxxxx" # 1951045980481827005
+  zhangzhung.0047.t: "xxxxx" # 1951045980481827005
+  zhangzhung.0047.desc: "xxxxx" # 1951045980481827005
+  zhangzhung.0047.a: "xxxxx" # 1951045980481827005
+  zhangzhung.0048.t: "xxxxx" # 1951045980481827005
+  zhangzhung.0048.desc: "xxxxx" # 1951045980481827005
+  zhangzhung.0048.a: "xxxxx" # 1951045980481827005
+  zhangzhung.0049.t: "xxxxx" # 1951045980481827005
+  zhangzhung.0049.desc: "xxxxx" # 1951045980481827005
+  zhangzhung.0049.a: "xxxxx" # 1951045980481827005
+  zhangzhung.0050.t: "xxxxx" # 1951045980481827005
+  zhangzhung.0050.desc: "xxxxx" # 1951045980481827005
+  zhangzhung.0050.a: "xxxxx" # 1951045980481827005
+  zhangzhung.0051.t: "xxxxx" # 1951045980481827005
+  zhangzhung.0051.desc: "xxxxx" # 1951045980481827005
+  zhangzhung.0051.a: "xxxxx" # 1951045980481827005
+  zhangzhung.0052.t: "xxxxx" # 1951045980481827005
+  zhangzhung.0052.desc: "xxxxx" # 1951045980481827005
+  zhangzhung.0052.a: "xxxxx" # 1951045980481827005
+  zhangzhung.0053.t: "xxxxx" # 1951045980481827005
+  zhangzhung.0053.desc: "xxxxx" # 1951045980481827005
+  zhangzhung.0053.a: "xxxxx" # 1951045980481827005
+  zhangzhung.0054.t: "xxxxx" # 1951045980481827005
+  zhangzhung.0054.desc: "xxxxx" # 1951045980481827005
+  zhangzhung.0054.a: "xxxxx" # 1951045980481827005
+  zhangzhung.0055.t: "xxxxx" # 1951045980481827005
+  zhangzhung.0055.desc: "xxxxx" # 1951045980481827005
+  zhangzhung.0055.a: "xxxxx" # 1951045980481827005
+  zhangzhung.0056.t: "xxxxx" # 1951045980481827005
+  zhangzhung.0056.desc: "xxxxx" # 1951045980481827005
+  zhangzhung.0056.a: "xxxxx" # 1951045980481827005
+  zhangzhung.0057.t: "xxxxx" # 1951045980481827005
+  zhangzhung.0057.desc: "xxxxx" # 1951045980481827005
+  zhangzhung.0057.a: "xxxxx" # 1951045980481827005
+  zhangzhung.0058.t: "xxxxx" # 1951045980481827005
+  zhangzhung.0058.desc: "xxxxx" # 1951045980481827005
+  zhangzhung.0058.a: "xxxxx" # 1951045980481827005
+  zhangzhung.0059.t: "xxxxx" # 1951045980481827005
+  zhangzhung.0059.desc: "xxxxx" # 1951045980481827005
+  zhangzhung.0059.a: "xxxxx" # 1951045980481827005
+  zhangzhung.0060.t: "xxxxx" # 1951045980481827005
+  zhangzhung.0060.desc: "xxxxx" # 1951045980481827005
+  zhangzhung.0060.a: "xxxxx" # 1951045980481827005
+  zhangzhung.0061.t: "xxxxx" # 1951045980481827005
+  zhangzhung.0061.desc: "xxxxx" # 1951045980481827005
+  zhangzhung.0061.a: "xxxxx" # 1951045980481827005
+  zhangzhung.0062.t: "xxxxx" # 1951045980481827005
+  zhangzhung.0062.desc: "xxxxx" # 1951045980481827005
+  zhangzhung.0062.a: "xxxxx" # 1951045980481827005
+  zhangzhung.0063.t: "xxxxx" # 1951045980481827005
+  zhangzhung.0063.desc: "xxxxx" # 1951045980481827005
+  zhangzhung.0063.a: "xxxxx" # 1951045980481827005
+  zhangzhung.0064.t: "xxxxx" # 1951045980481827005
+  zhangzhung.0064.desc: "xxxxx" # 1951045980481827005
+  zhangzhung.0064.a: "xxxxx" # 1951045980481827005
+  zhangzhung.0065.t: "xxxxx" # 1951045980481827005
+  zhangzhung.0065.desc: "xxxxx" # 1951045980481827005
+  zhangzhung.0065.a: "xxxxx" # 1951045980481827005
+  zhangzhung.0066.t: "xxxxx" # 1951045980481827005
+  zhangzhung.0066.desc: "xxxxx" # 1951045980481827005
+  zhangzhung.0066.a: "xxxxx" # 1951045980481827005
+  zhangzhung.0067.t: "xxxxx" # 1951045980481827005
+  zhangzhung.0067.desc: "xxxxx" # 1951045980481827005
+  zhangzhung.0067.a: "xxxxx" # 1951045980481827005
+  zhangzhung.0068.t: "xxxxx" # 1951045980481827005
+  zhangzhung.0068.desc: "xxxxx" # 1951045980481827005
+  zhangzhung.0068.a: "xxxxx" # 1951045980481827005
+  zhangzhung.0069.t: "xxxxx" # 1951045980481827005
+  zhangzhung.0069.desc: "xxxxx" # 1951045980481827005
+  zhangzhung.0069.a: "xxxxx" # 1951045980481827005
+  zhangzhung.0070.t: "xxxxx" # 1951045980481827005
+  zhangzhung.0070.desc: "xxxxx" # 1951045980481827005
+  zhangzhung.0070.a: "xxxxx" # 1951045980481827005
+  zhangzhung.0071.t: "xxxxx" # 1951045980481827005
+  zhangzhung.0071.desc: "xxxxx" # 1951045980481827005
+  zhangzhung.0071.a: "xxxxx" # 1951045980481827005
+  zhangzhung.0072.t: "xxxxx" # 1951045980481827005
+  zhangzhung.0072.desc: "xxxxx" # 1951045980481827005
+  zhangzhung.0072.a: "xxxxx" # 1951045980481827005
+  zhangzhung.0073.t: "xxxxx" # 1951045980481827005
+  zhangzhung.0073.desc: "xxxxx" # 1951045980481827005
+  zhangzhung.0073.a: "xxxxx" # 1951045980481827005
+  zhangzhung.0074.t: "xxxxx" # 1951045980481827005
+  zhangzhung.0074.desc: "xxxxx" # 1951045980481827005
+  zhangzhung.0074.a: "xxxxx" # 1951045980481827005
+  zhangzhung.0075.t: "xxxxx" # 1951045980481827005
+  zhangzhung.0075.desc: "xxxxx" # 1951045980481827005
+  zhangzhung.0075.a: "xxxxx" # 1951045980481827005
+  zhangzhung.0076.t: "xxxxx" # 1951045980481827005
+  zhangzhung.0076.desc: "xxxxx" # 1951045980481827005
+  zhangzhung.0076.a: "xxxxx" # 1951045980481827005
+  zhangzhung.0077.t: "xxxxx" # 1951045980481827005
+  zhangzhung.0077.desc: "xxxxx" # 1951045980481827005
+  zhangzhung.0077.a: "xxxxx" # 1951045980481827005
+  zhangzhung.0078.t: "xxxxx" # 1951045980481827005
+  zhangzhung.0078.desc: "xxxxx" # 1951045980481827005
+  zhangzhung.0078.a: "xxxxx" # 1951045980481827005
+  zhangzhung.0079.t: "xxxxx" # 1951045980481827005
+  zhangzhung.0079.desc: "xxxxx" # 1951045980481827005
+  zhangzhung.0079.a: "xxxxx" # 1951045980481827005
+  zhangzhung.0080.t: "xxxxx" # 1951045980481827005
+  zhangzhung.0080.desc: "xxxxx" # 1951045980481827005
+  zhangzhung.0080.a: "xxxxx" # 1951045980481827005
+  zhangzhung.0081.t: "xxxxx" # 1951045980481827005
+  zhangzhung.0081.desc: "xxxxx" # 1951045980481827005
+  zhangzhung.0081.a: "xxxxx" # 1951045980481827005
+  zhangzhung.0082.t: "xxxxx" # 1951045980481827005
+  zhangzhung.0082.desc: "xxxxx" # 1951045980481827005
+  zhangzhung.0082.a: "xxxxx" # 1951045980481827005
+  zhangzhung.0083.t: "xxxxx" # 1951045980481827005
+  zhangzhung.0083.desc: "xxxxx" # 1951045980481827005
+  zhangzhung.0083.a: "xxxxx" # 1951045980481827005
+  zhangzhung.0084.t: "xxxxx" # 1951045980481827005
+  zhangzhung.0084.desc: "xxxxx" # 1951045980481827005
+  zhangzhung.0084.a: "xxxxx" # 1951045980481827005
+  zhangzhung.0085.t: "xxxxx" # 1951045980481827005
+  zhangzhung.0085.desc: "xxxxx" # 1951045980481827005
+  zhangzhung.0085.a: "xxxxx" # 1951045980481827005
+  zhangzhung.0086.t: "xxxxx" # 1951045980481827005
+  zhangzhung.0086.desc: "xxxxx" # 1951045980481827005
+  zhangzhung.0086.a: "xxxxx" # 1951045980481827005
+  zhangzhung.0087.t: "xxxxx" # 1951045980481827005
+  zhangzhung.0087.desc: "xxxxx" # 1951045980481827005
+  zhangzhung.0087.a: "xxxxx" # 1951045980481827005
+  zhangzhung.0088.t: "xxxxx" # 1951045980481827005
+  zhangzhung.0088.desc: "xxxxx" # 1951045980481827005
+  zhangzhung.0088.a: "xxxxx" # 1951045980481827005
+  zhangzhung.0089.t: "xxxxx" # 1951045980481827005
+  zhangzhung.0089.desc: "xxxxx" # 1951045980481827005
+  zhangzhung.0089.a: "xxxxx" # 1951045980481827005
+  zhangzhung.0090.t: "준비" # 666839747819429162
+  zhangzhung.0090.desc: "[culture.GetName]의 [county.GetNameNoTier] 현지인들은 오래전부터 #bold 빙하 결혼#!이라는 과정을 통해 높은 산에 빙하를 키우는 법을 배웠습니다. 이 과정은 수컷 빙하와 암컷 빙하의 조각들을 모아 새로운 빙하를 만드는 방식입니다. 이를 통해 현지인들은 자신들의 밭과 작물에 수년간 꾸준한 관개 공급이 이루어지도록 보장합니다.\n\n저는 곧 [location.GetName]으로 가서 제가 직접 후원한 빙하 결혼식을 직접 볼 예정입니다. 이 새로운 빙하가 앞으로 수년간 현지인들에게 큰 풍요를 가져다주기를 모두가 희망하고 있습니다." # 11460279047831591815
+  zhangzhung.0090.a: "산으로 가자!" # 9787992526273383845
+  zhangzhung.0091.t: "남성 빙하와 여성 빙하" # 8282750223040570828
+  zhangzhung.0091.desc: "제가 [location.GetName]에 도착했을 때, 빙하 결혼식이 막 시작되려 하고 있었습니다.\n\n지역 마을 출신의 강하고 튼튼한 [ROOT.Char.Custom('WomenMenPeople_GenderPreference')]들이 산으로 올라가 수컷 빙하 조각과 암컷 빙하 조각을 모읍니다. 수컷 빙하는 더 갈색과 회색빛을 띠며 잔해가 많은 것이고, 암컷 빙하는 더 순수한 흰색과 푸른색입니다.\n\n조각들을 모은 후, 이 [ROOT.Char.Custom('WomenMenPeople_GenderPreference')]들은 조각들이 차갑게 유지되도록 건초와 숯을 채운 특별한 바구니에 담아, 새로운 빙하가 세워질 지정된 장소로 운반합니다. 일단 우리 나머지 사람들은 이 두 빙하의 결합이 풍성한 결실을 맺도록 [ROOT.Char.GetFaith.GetAdjective]적인 기도와 제물을 올릴 것입니다." # 11903170131907854201
+  zhangzhung.0091.a: "이것이 성공적인 '혼인'이기를 바라오!" # 16157077071218731777
+  zhangzhung.0092.t: "새로운 빙하의 탄생" # 15947411924528101247
+  zhangzhung.0092.desc: "우리는 새로운 빙하가 생겨날 산악 지대에서, 남성 빙하의 조각과 여성 빙하의 조각을 가지고 온 [ROOT.Char.Custom('WomenMenPeople_GenderPreference')]와 조우했습니다. 그들이 이 조각들을 구하러 떠난 지 며칠 후였습니다. 그들은 조각들이 땅에 닿지 않도록 조심스럽게 운반했으며, 내내 [ROOT.Char.GetFaith.GetAdjective] 기도를 올리고 있다고 합니다.\n\n우리는 빙하 조각들이 그 장소에서 물, 숯, 톱밥, 천 조각, 그리고 밀겨와 함께 섞이는 것을 지켜봅니다. 현지인들은 이 물질들이 새로운 빙하를 차갑게 유지시켜 준다고 제게 말합니다.\n\n또 한 차례의 기도와 의식이 끝난 후, 혼례는 완료되었고, 수년 후 우리는 이곳에 아름다운 빙하가 자라나 아래 계곡과 언덕에 풍부한 물을 공급해주기를 간절히 바랄 뿐입니다!" # 1260189041949592874
+  zhangzhung.0092.a: "부디 거대하고 웅장한 빙하가 되기를 바라네." # 5417759979805075859
+  zhangzhung.0093.t: "xxxxx" # 1951045980481827005
+  zhangzhung.0093.desc: "xxxxx" # 1951045980481827005
+  zhangzhung.0093.a: "xxxxx" # 1951045980481827005
+  zhangzhung.0094.t: "xxxxx" # 1951045980481827005
+  zhangzhung.0094.desc: "xxxxx" # 1951045980481827005
+  zhangzhung.0094.a: "xxxxx" # 1951045980481827005
+  zhangzhung.0095.t: "xxxxx" # 1951045980481827005
+  zhangzhung.0095.desc: "xxxxx" # 1951045980481827005
+  zhangzhung.0095.a: "xxxxx" # 1951045980481827005
+  zhangzhung.0096.t: "xxxxx" # 1951045980481827005
+  zhangzhung.0096.desc: "xxxxx" # 1951045980481827005
+  zhangzhung.0096.a: "xxxxx" # 1951045980481827005
+  zhangzhung.0097.t: "xxxxx" # 1951045980481827005
+  zhangzhung.0097.desc: "xxxxx" # 1951045980481827005
+  zhangzhung.0097.a: "xxxxx" # 1951045980481827005
+  zhangzhung.0098.t: "xxxxx" # 1951045980481827005
+  zhangzhung.0098.desc: "xxxxx" # 1951045980481827005
+  zhangzhung.0098.a: "xxxxx" # 1951045980481827005
+  zhangzhung.0099.t: "xxxxx" # 1951045980481827005
+  zhangzhung.0099.desc: "xxxxx" # 1951045980481827005
+  zhangzhung.0099.a: "xxxxx" # 1951045980481827005
+  zhangzhung.0100.t: "신성한 고원으로" # 16610165975835810776
+  zhangzhung.0100.desc: "여름과 가을의 경계는 [ROOT.Char.GetInvolvedActivity.GetShortName]의 시기를 알리며, 이는 고원 지대의 신성한 꽃들을 중심으로 열리는 전통적인 [ROOT.Char.GetFaith.GetAdjective] 축제입니다.\n\n저는 [ROOT.Char.GetTravelPlan.GetData.GetNextDestination.GetProvince.GetName]의 한 마을로 향하고 있습니다. 그곳의 고원 지대는 신성한 기운이 가득하여, 저는 그곳의 지역 산신을 기리는 축제에 참여하고 싶습니다." # 13690621699504760810
+  zhangzhung.0100.a: "꽃 축제로 나아가자!" # 10893119582039274983
+  zhangzhung.0101.t: "산맥 속으로" # 8503041024947713238
+  zhangzhung.0101.desc: "저는 풀라이치 축제가 열릴 [location.GetName]의 고지대 마을에 도착했습니다. 주변의 때 묻지 않은 언덕과 산들을 보며 감탄합니다. 이 고지대에서는 신성한 순수함을 많이 느낄 수 있군요.\n\n벌써 마을 사람들은 행사를 준비하느라 분주합니다. 꽃 수집가들이라는 일단의 사람들이 곧 신성한 산악 야생화를 채집하기 위해 황야로 떠나는데, 이는 큰 영광입니다. 한편, 나머지 우리는 다양한 의식을 행하고 죽은 자들과 조상들에게 제물을 바칩니다." # 12720254648587151945
+  zhangzhung.0101.desc.flower_collector: "나는 [flower_collector.GetFirstName]가 다른 화초 수집가들과 합류하기 전에 그를 잘 배웅할 것입니다. 나는 [flower_collector.GetSheHe]가 신성한 야생화를 수확하는 데 참여함으로써 우리 가문에 큰 영광을 가져다줄 것이라 확신합니다!" # 10799158500402813403
+  zhangzhung.0101.a: "이제 꽃 수집가들이 돌아오기를 기다려야 합니다." # 11690032274254766427
+  zhangzhung.0102.t: "꽃 수집가들의 귀환" # 10837665585306680197
+  zhangzhung.0102.desc.intro: "꽃 수집가들이 고지대에서 돌아와 산에서 나는 야생화로 가득 찬 짐 꾸러미와 바구니를 가져왔습니다. 모두가 이 꽃들의 신성한 순수함을 느낄 수 있습니다. 꽃 수집가들은 고지대 동굴에서 밤을 보냈으며, 산신령들을 모욕하지 않도록 적절한 의식을 거행했음을 우리에게 말해줍니다." # 1819801213489317242
+  zhangzhung.0102.desc.flower_collector: "저는 또한 [flower_collector.GetFirstName] 님께서 산에서 보여주신 노고에 축하를 전합니다." # 88562402885589480
+  zhangzhung.0102.desc.no_flower_collector: "그들의 노고에 진심으로 축하의 뜻을 전합니다." # 17912153839900401713
+  zhangzhung.0102.desc: "– 마을의 토착 신께서 흡족해하시겠군!\n\n이후 꽃들은 배포되는데, 토착 신의 우상이 담긴 가마가 북, 트럼펫 소리와 춤과 함께 마을을 행진합니다. 꽃다발과 화환이 마을 전체를 장식하기 위해 만들어지며, 일부는 조상들에게 바치는 제물로 주어집니다. 나를 포함한 많은 사람들도 머리나 모자에 꽃을 장식합니다." # 8265111217764136125
+  zhangzhung.0102.a: "마을 신에게 바치는 위대한 희생을 바칠 시간입니다." # 15918025912322713352
+  zhangzhung.0103.t: "희생" # 12638257141458607469
+  zhangzhung.0103.desc: "꽃으로 장식된 마을 신의 가마와 우상이 마을 장터로 옮겨졌습니다. 이곳에서 축제의 가장 중요한 행사, 즉 제물이 바쳐질 것이며, 신의 신탁이 가까운 미래에 대한 예언을 할 수 있게 될 것입니다." # 4169092466436507687
+  zhangzhung.0103.desc.old_bon: "희생 제물은 태고적부터 그래왔듯이 숫양의 희생이며, 이 산악 지대에서 숫양은 신성한 동물이기 때문입니다. 모두에게 더 많은 꽃이 뿌려지는 가운데, 숫양들이 신의 우상 앞에 끌려옵니다. 그들의 목이 베이고 피가 흐르기 시작합니다." # 9210628317847883706
+  zhangzhung.0103.desc.new_bon: "옛날에는 신들에게 염소를 제물로 바쳤지만, 현명하고 독실한 스승들이 그 옛날의 제물이 잔인하고 불필요하다고 가르쳤습니다. 아직도 신들이 실제 제물을 필요로 한다고 믿는 이들이 일부 있지만, 요즘 우리는 동물의 형상을 한 반죽과 신성한 물질로 만든 '제물'을 바칩니다." # 293485940865373044
+  zhangzhung.0103.a: "마을 신을 만족시킬 제물이로다!" # 2659216738084541149
+  zhangzhung.0104.t: "신탁" # 27513418207813093
+  zhangzhung.0104.desc: "내 눈앞의 광경은 아름다운 야생화의 모습입니다. 모두의 머리와 옷을 장식하는 꽃들, 우리 주변 건물을 꾸미는 꽃들, 땅과 공중에 가득한 꽃들, 그리고 마을 신의 우상을 밝히는 꽃들입니다.\n\n우리가 신상을 중심으로 즐겁게 춤추고 노래하는 동안, 신탁관은 다음 해에 대한 예언을 하기 위해 황홀경에 빠져듭니다. 곧 예언의 말이 흘러나오기 시작합니다!" # 6165541713174770876
+  zhangzhung.0104.a: "우리에게 좋은 예언이 있을까요?" # 2401676366349283134
+  zhangzhung.0105.t: "향연" # 6418101565111522586
+  zhangzhung.0105.desc: "희생 제의와 신탁의 예언이 끝난 후, 마을 신의 가마는 다시 지역 사원으로 옮겨집니다.\n\n그곳에서 우리는 수 세대 동안 이 마을을 지켜온 신의 우상에게 절하고 기도하며 경의를 표한 뒤, 춤추고 노래하며 술을 마시는 등 한바탕 흥겹게 축제를 벌입니다." # 3222813047969891724
+  zhangzhung.0105.a: "모두 즐거운 시간을 보냈습니다!" # 12702740224710043502
+  zhangzhung.0106.t: "결론" # 3822412533199628403
+  zhangzhung.0106.desc: "마침내 풀라이치 축제가 끝이 났습니다. 이 땅의 마을 신은 틀림없이 기뻐했고, 백성들은 즐거운 기분이며, 영적으로 순수하고 신성한 산야생화가 사방에 가득하여 이 지역을 더없이 보기 좋게 만들고 있습니다.\n\n이토록 즐거운 행사가 끝났으니 이제 집으로 돌아갈 시간입니다. 마을을 떠나며, 저는 야생화 한 송이를 집어 손에서 빙글빙글 돌립니다." # 3885958356063183710
+  zhangzhung.0106.a: "정말 아름답군, 이 꽃들은…." # 9380725319414913233
+  zhangzhung.0107.t: "xxxxx" # 1951045980481827005
+  zhangzhung.0107.desc: "xxxxx" # 1951045980481827005
+  zhangzhung.0107.a: "xxxxx" # 1951045980481827005
+  zhangzhung.0108.t: "xxxxx" # 1951045980481827005
+  zhangzhung.0108.desc: "xxxxx" # 1951045980481827005
+  zhangzhung.0108.a: "xxxxx" # 1951045980481827005
+  zhangzhung.0109.t: "xxxxx" # 1951045980481827005
+  zhangzhung.0109.desc: "xxxxx" # 1951045980481827005
+  zhangzhung.0109.a: "xxxxx" # 1951045980481827005
+  zhangzhung.0110.t: "xxxxx" # 1951045980481827005
+  zhangzhung.0110.desc: "xxxxx" # 1951045980481827005
+  zhangzhung.0110.a: "xxxxx" # 1951045980481827005
+  zhangzhung.0111.t: "xxxxx" # 1951045980481827005
+  zhangzhung.0111.desc: "xxxxx" # 1951045980481827005
+  zhangzhung.0111.a: "xxxxx" # 1951045980481827005
+  zhangzhung.0112.t: "xxxxx" # 1951045980481827005
+  zhangzhung.0112.desc: "xxxxx" # 1951045980481827005
+  zhangzhung.0112.a: "xxxxx" # 1951045980481827005
+  zhangzhung.0113.t: "xxxxx" # 1951045980481827005
+  zhangzhung.0113.desc: "xxxxx" # 1951045980481827005
+  zhangzhung.0113.a: "xxxxx" # 1951045980481827005
+  zhangzhung.0114.t: "xxxxx" # 1951045980481827005
+  zhangzhung.0114.desc: "xxxxx" # 1951045980481827005
+  zhangzhung.0114.a: "xxxxx" # 1951045980481827005
+  zhangzhung.0115.t: "xxxxx" # 1951045980481827005
+  zhangzhung.0115.desc: "xxxxx" # 1951045980481827005
+  zhangzhung.0115.a: "xxxxx" # 1951045980481827005
+  zhangzhung.0116.t: "xxxxx" # 1951045980481827005
+  zhangzhung.0116.desc: "xxxxx" # 1951045980481827005
+  zhangzhung.0116.a: "xxxxx" # 1951045980481827005
+  zhangzhung.0117.t: "xxxxx" # 1951045980481827005
+  zhangzhung.0117.desc: "xxxxx" # 1951045980481827005
+  zhangzhung.0117.a: "xxxxx" # 1951045980481827005
+  zhangzhung.0118.t: "xxxxx" # 1951045980481827005
+  zhangzhung.0118.desc: "xxxxx" # 1951045980481827005
+  zhangzhung.0118.a: "xxxxx" # 1951045980481827005
+  zhangzhung.0119.t: "xxxxx" # 1951045980481827005
+  zhangzhung.0119.desc: "xxxxx" # 1951045980481827005
+  zhangzhung.0119.a: "xxxxx" # 1951045980481827005
+  zhangzhung.0120.t: "브루샤의 전 총독" # 5232478145611330331
+  zhangzhung.0120.desc: "미래는 불확실합니다. 저 자신의 미래뿐만 아니라, 제가 수년간 충성스럽게 섬겨온 위대한 [odetsen.GetTitledFirstName] 님의 시절부터 함께해 온 [GetTitleByKey('k_guge').GetNameNoTier]의 미래도 마찬가지입니다.\n\n젊은 시절, 저는 서부 변경에 위치한 [Glossary( 'Brusha', 'BRUSHA_GLOSS' )]의 총독으로 임명되었습니다. 이곳은 피에 굶주린 악마를 숭배하는 자들과 가까워 위험한 땅이었고, 사방에서 야만족들의 잦은 공격을 받았습니다. 비록 우리는 동쪽 계곡 쪽으로 후퇴했지만, 당분간은 우리의 입지가 여전히 안전합니다.\n\n#italic Brusha#!의 총독으로 재임하는 동안, 저는 다음 사항들에 집중했습니다…" # 8265802537222508303
+  zhangzhung.0120.a: "영토 전역에 [ROOT.Char.GetFaith.GetReligion.GetAdjectiveNoTooltip] [ROOT.Char.GetFaith.HouseOfWorshipPlural]을 건설하고 있습니다." # 1016958747206380870
+  zhangzhung.0120.b: "협조적인 지역 씨족들과 관계를 가꾸기." # 8732420741620370356
+  zhangzhung.0120.c: "산악 지대의 방어선을 확보합니다." # 7082659428187169360
+  zhangzhung.0120.d: "높은 지위의 정부 관료로서 삶을 즐기고 있군." # 12144786159395373747
+  zhangzhung.0121.t: "$zhangzhung.0120.t$" # 15345875656502911017
+  zhangzhung.0121.desc: "저는 [GetTitleByKey('k_guge').GetNameNoTier]의 관료로서 제 인생의 많은 부분을 바쳤으며, 오래전 옛 제국인 [GetTitleByKey('e_tibet').GetNameNoTier]이 멸망한 후 이 지역에 질서와 진정한 [GetReligionByKey('buddhism_religion').GetAdjective] 교리를 회복시키기 위해 그 통치자들이 얼마나 많은 노력을 기울였는지 지켜보았습니다.\n\n저의 오랜 봉사로 인해 제 삶은 여러 면에서 영향을 받았고, 제 가문인 [ROOT.Char.GetDynasty.GetName]에게도 수년 동안 많은 일들이 있었습니다…." # 510314006914388753
+  zhangzhung.0121.a: "저는 제 가문보다는 제 경력에 더 집중했습니다." # 6112958423110322033
+  zhangzhung.0121.a.tooltip: "당신은 기존 [family|E]와 [heirs|E] 없이 시작하지 않을 것입니다." # 5013889901016247215
+  zhangzhung.0121.b: "우리는 훌륭한 가문을 일으켜 우리의 지위를 격상시켰습니다." # 4776229338989719299
+  zhangzhung.0121.b.tooltip: "기존 [family|E]를 가지고 시작하며, 최소한 한 명의 [spouse|E]와 [child|E]가 있어야 합니다." # 9773406482636485960
+  zhangzhung.0122.t: "$zhangzhung.0120.t$" # 15345875656502911017
+  zhangzhung.0122.desc: "전반적으로, 비록 이제 늙어가는 몸이지만, 내가 이룬 업적에 대해 자부심을 느낄 수 있소. 사실 최근에는 [GetTitleByKey('c_purig').GetNameNoTier]에서 그리 멀지 않은 곳에 내 이름을 딴 기념비를 세우는 영광을 누렸는데, 이는 수년 전 [Glossary( 'Brusha', 'BRUSHA_GLOSS' )]의 총독으로서 봉사한 것에 대한 엄숙한 찬사라오.\n\n내 노고가 헛되지 않았고, 사람들이 내가 한 일을 기억해 줄 것이라는 사실을 알게 되어 기쁘오. 하지만 아직 해야 할 일이 많이 남아 있고, 왕국에 봉사할 수 있는 좋은 세월이 몇 년 더 남았을지도 모르지. 이 변경 지역에서 내 경력의 마지막을 향한 나의 집중점은..." # 5075940739435215069
+  zhangzhung.0122.a: "이 산맥과 계곡을 방어한다." # 112466768224512256
+  zhangzhung.0122.b: "지역의 공동체를 발전시킵니다." # 8731864958200075440
+  zhangzhung.0122.c: "[GetReligionByKey('buddhism_religion').GetAdjective] 제도 지원." # 3239029929719717084
+  zhangzhung.0122.info: "#emphasis 역사적 배경:#! #bold 달 두스그라#! 는 구게 왕국의 고위 관료였으며, 11세기 초중반에 [Glossary( 'Brusha', 'BRUSHA_GLOSS' )] 변경 지방의 총독을 지냈습니다. 이 지역은 아마도 부루쇼족이 거주하던 영토에 해당하며, 티베트인들에게 한때 상실되었던 곳입니다. 그는 구게에서 저명했으며 특히 스피티와 키나우르에 영지를 소유했던 룸 또는 룸 웨르 씨족의 일원이었습니다. 그의 업적을 기리는 비문이 라다크의 푸리그에서 발견되었습니다. 그에 대한 이 작은 이벤트 연쇄는 그에 대해 알려진 바가 많지 않기 때문에 대부분 허구이며, 플레이어에게 약간의 역할극 기회를 제공하고 그의 삶이 어떻게 진행되었을지 상상력을 발휘하도록 고안되었습니다." # 13854170740722153363
+  zhangzhung.0123.t: "xxxxx" # 1951045980481827005
+  zhangzhung.0123.desc: "xxxxx" # 1951045980481827005
+  zhangzhung.0123.a: "xxxxx" # 1951045980481827005
+  zhangzhung.0124.t: "xxxxx" # 1951045980481827005
+  zhangzhung.0124.desc: "xxxxx" # 1951045980481827005
+  zhangzhung.0124.a: "xxxxx" # 1951045980481827005
+  zhangzhung.0125.t: "xxxxx" # 1951045980481827005
+  zhangzhung.0125.desc: "xxxxx" # 1951045980481827005
+  zhangzhung.0125.a: "xxxxx" # 1951045980481827005
+  zhangzhung.0126.t: "xxxxx" # 1951045980481827005
+  zhangzhung.0126.desc: "xxxxx" # 1951045980481827005
+  zhangzhung.0126.a: "xxxxx" # 1951045980481827005
+  zhangzhung.0127.t: "xxxxx" # 1951045980481827005
+  zhangzhung.0127.desc: "xxxxx" # 1951045980481827005
+  zhangzhung.0127.a: "xxxxx" # 1951045980481827005
+  zhangzhung.0128.t: "xxxxx" # 1951045980481827005
+  zhangzhung.0128.desc: "xxxxx" # 1951045980481827005
+  zhangzhung.0128.a: "xxxxx" # 1951045980481827005
+  zhangzhung.0129.t: "xxxxx" # 1951045980481827005
+  zhangzhung.0129.desc: "xxxxx" # 1951045980481827005
+  zhangzhung.0129.a: "xxxxx" # 1951045980481827005
+  zhangzhung.0130.t: "[rinchen_zangpo.GetDynasty.GetNameNoTooltip] 일족" # 966234489030159454
+  zhangzhung.0130.desc: "[rinchen_zangpo.GetDynasty.GetName] 가문은 자랑할 것이 많습니다. 우리는 이 고원 지대에서 [GetTitleByKey('k_guge').GetNameNoTier] 전역에 걸쳐 광범위한 [GetReligionByKey('buddhism_religion').GetName] 후원 덕분에 저명합니다.\n\n실제로 [rinchen_zangpo.GetDynasty.GetNameNoTooltip] 가문의 일부인 [rinchen_zangpo.GetHouse.GetName] 가문의 일원은 바로 [rinchen_zangpo.GetFirstNameNicknamed]이며, 많은 이들이 그를 최근 시대 가장 위대한 [rinchen_zangpo.GetCulture.GetHeritage.GetName] [GetReligionByKey('buddhism_religion').GetAdjective] 사상가 중 한 명으로 여기고 있습니다. [rinchen_zangpo.GetHerHis|U] 명성은 [GetGeographicalRegion('world_tibet').GetName]에 [GetReligionByKey('buddhism_religion').GetAdjective] 가르침을 전파하고 수도원을 건설한 공로로 온 땅에 퍼져나갔습니다.\n\n이리하여 우리는 이 지역에 세속적이면서도 영적인 이해관계를 걸고 있습니다. 우리가 이 땅에 대한 정치적, 종교적 영향력을 계속 행사할 것이라는 점은 의심의 여지가 없습니다." # 6173161876485261869
+  zhangzhung.0130.a: "여기서 다르마—그리고 우리 가문—가 번성할 것입니다!" # 13572691578704221717
+  zhangzhung.0130.info: "#emphasis 역사적 배경:#! #italic [rinchen_zangpo.GetDynasty.GetNameNoTooltip]#! 또는 #italic [rinchen_zangpo.GetDynasty.GetName] 웨르#는 중세 서부 티베트에서 가장 저명했던 귀족 가문 중 하나로, 구게 왕국이 지배하던 지역이었다. 이들의 일원으로는 11세기 티베트 불교에서 가장 유명한 역경가이자 학자 중 한 명인 흐룩스 씨족의 유드라 가문 출신인 린첸 장포(958–1055)가 있다. 그들은 주요 불교 후원자들이었으며, 서부 티베트에서 현존하는 가장 오래되고 역사적으로 중요한 두 수도원인 톨링과 타보 등 지역 내 여러 수도원의 벽화나 비문에서 그들의 모습이 묘사되거나 언급되곤 한다." # 15495889600091318387
+  zhangzhung.0131.t: "xxxxx" # 1951045980481827005
+  zhangzhung.0131.desc: "xxxxx" # 1951045980481827005
+  zhangzhung.0131.a: "xxxxx" # 1951045980481827005
+  zhangzhung.0132.t: "xxxxx" # 1951045980481827005
+  zhangzhung.0132.desc: "xxxxx" # 1951045980481827005
+  zhangzhung.0132.a: "xxxxx" # 1951045980481827005
+  zhangzhung.0133.t: "xxxxx" # 1951045980481827005
+  zhangzhung.0133.desc: "xxxxx" # 1951045980481827005
+  zhangzhung.0133.a: "xxxxx" # 1951045980481827005
+  zhangzhung.0134.t: "xxxxx" # 1951045980481827005
+  zhangzhung.0134.desc: "xxxxx" # 1951045980481827005
+  zhangzhung.0134.a: "xxxxx" # 1951045980481827005
+  zhangzhung.0135.t: "xxxxx" # 1951045980481827005
+  zhangzhung.0135.desc: "xxxxx" # 1951045980481827005
+  zhangzhung.0135.a: "xxxxx" # 1951045980481827005
+  zhangzhung.0136.t: "xxxxx" # 1951045980481827005
+  zhangzhung.0136.desc: "xxxxx" # 1951045980481827005
+  zhangzhung.0136.a: "xxxxx" # 1951045980481827005
+  zhangzhung.0137.t: "xxxxx" # 1951045980481827005
+  zhangzhung.0137.desc: "xxxxx" # 1951045980481827005
+  zhangzhung.0137.a: "xxxxx" # 1951045980481827005
+  zhangzhung.0138.t: "xxxxx" # 1951045980481827005
+  zhangzhung.0138.desc: "xxxxx" # 1951045980481827005
+  zhangzhung.0138.a: "xxxxx" # 1951045980481827005
+  zhangzhung.0139.t: "xxxxx" # 1951045980481827005
+  zhangzhung.0139.desc: "xxxxx" # 1951045980481827005
+  zhangzhung.0139.a: "xxxxx" # 1951045980481827005
+  zhangzhung.0140.t: "xxxxx" # 1951045980481827005
+  zhangzhung.0140.desc: "xxxxx" # 1951045980481827005
+  zhangzhung.0140.a: "xxxxx" # 1951045980481827005
+  zhangzhung.0141.t: "xxxxx" # 1951045980481827005
+  zhangzhung.0141.desc: "xxxxx" # 1951045980481827005
+  zhangzhung.0141.a: "xxxxx" # 1951045980481827005
+  zhangzhung.0142.t: "xxxxx" # 1951045980481827005
+  zhangzhung.0142.desc: "xxxxx" # 1951045980481827005
+  zhangzhung.0142.a: "xxxxx" # 1951045980481827005
+  zhangzhung.0143.t: "xxxxx" # 1951045980481827005
+  zhangzhung.0143.desc: "xxxxx" # 1951045980481827005
+  zhangzhung.0143.a: "xxxxx" # 1951045980481827005
+  zhangzhung.0144.t: "xxxxx" # 1951045980481827005
+  zhangzhung.0144.desc: "xxxxx" # 1951045980481827005
+  zhangzhung.0144.a: "xxxxx" # 1951045980481827005
+  zhangzhung.0145.t: "xxxxx" # 1951045980481827005
+  zhangzhung.0145.desc: "xxxxx" # 1951045980481827005
+  zhangzhung.0145.a: "xxxxx" # 1951045980481827005
+  zhangzhung.0146.t: "xxxxx" # 1951045980481827005
+  zhangzhung.0146.desc: "xxxxx" # 1951045980481827005
+  zhangzhung.0146.a: "xxxxx" # 1951045980481827005
+  zhangzhung.0147.t: "xxxxx" # 1951045980481827005
+  zhangzhung.0147.desc: "xxxxx" # 1951045980481827005
+  zhangzhung.0147.a: "xxxxx" # 1951045980481827005
+  zhangzhung.0148.t: "xxxxx" # 1951045980481827005
+  zhangzhung.0148.desc: "xxxxx" # 1951045980481827005
+  zhangzhung.0148.a: "xxxxx" # 1951045980481827005
+  zhangzhung.0149.t: "xxxxx" # 1951045980481827005
+  zhangzhung.0149.desc: "xxxxx" # 1951045980481827005
+  zhangzhung.0149.a: "xxxxx" # 1951045980481827005
+  zhangzhung.0150.t: "아름다운 탕카" # 2297042557476057349
+  zhangzhung.0150.desc: "오늘, 저는 [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTier]에 있는 작은 [ROOT.Char.GetFaith.GetAdjective] 수도원을 방문했습니다. 그곳의 [ROOT.Char.GetFaith.PriestNeuterPlural]들은 제가 장수하고 [ROOT.Char.GetFaith.GetReligion.GetName]의 수호자가 되기를 기원하는 의식을 거행했습니다.\n\n의식이 끝나자, 저는 의식에 사용되었던 벽에 걸린 훌륭한 [Glossary( 'thangka', 'THANGKA_GLOSS' )]을 감상할 시간을 가졌습니다. 그것은 그림으로 된 아름다운 예술 작품으로, 이번 경우에는 다른 [GetPlayer.Custom('RICE_tibet_deities_type')]들과 [Glossary( 'dakinis', 'DAKINI_GLOSS' )]에 둘러싸인 [GetPlayer.Custom('RICE_random_tibetan_buddhist_figure')]를 묘사하고 있었습니다.\n\n이 행사에 동행했던 저의 [chaplain.GetCouncilTitle], [chaplain.GetTitledFirstName]가 제게 말했습니다.\"이것이 이 수도원에서 가장 오래된 #italic thangka#라고 들었소! 보통 이런 수도원들은 귀한 보물을 좀처럼 꺼내지 않는데, 하물며 외지인에게 보여주기까지 하는 경우는 드물지. [ROOT.Char.GetFaith.PriestNeuterPlural]께서 당신의 방문을 큰 영광으로 여기는 것이 틀림없소\"" # 11465372354247901723
+  zhangzhung.0150.a: "그럴 자격이 있지! 내가 바로 [ROOT.Char.GetTitleAsNameNoTooltip]인데!" # 11362763547538523688
+  zhangzhung.0150.b: "이것을 보게 될 업보라니, 참으로 겸허해지는군." # 7302739892110154872
+  zhangzhung.0150.c: "이 수도원에 헌금하여 감사를 표해야겠소." # 15864165603406661422
+  zhangzhung.0151.t: "[padmasambhava.GetFirstNameNoTooltip]의 동굴" # 16836338210218299336
+  zhangzhung.0151.desc: "[county.GetNameNoTier]에서 발견된 동굴에 대한 이야기와 전설이 퍼지고 있습니다. 현지인들은 머나먼 옛날 위대한 [padmasambhava.GetNickname]께서 명상 수행을 위해 그 동굴을 사용했다는 사실을 알게 되었다고 합니다. 이는 [padmasambhava.GetSheHe]께서 꿈에 나타나 일부 주민들에게 현현하셨기 때문이라고 합니다.\n\n현지인들은 [padmasambhava.GetFirstNameNoTooltip]의 축복을 받기 위해 그 동굴로 대거 몰려들고 있습니다." # 12381771984154059030
+  zhangzhung.0151.a: "흥미롭군! 잘 되었군." # 5070771234325259803
+  zhangzhung.0151.b: "정말로 진품인가? 잘 모르겠군." # 4998878856107821060
+  zhangzhung.0152.t: "$travel_event_prefix$ 전설적인 바위 각인" # 12648828543358227520
+  zhangzhung.0152.desc: "우리가 지나가는 길에 거대한 발자국처럼 보이는 커다란 바위가 있습니다. 그 주변에는 기도하고 있는 일부 현지 [culture.GetCollectiveNoun]들이 있습니다.\n\n이 현지인들에게 묻자, 오래전에 위대한 영적 깨달음을 얻은 [faith.GetAdjective] [ROOT.Char.GetFaith.PriestNeuter]께서 하늘을 날다가 비둘기 형상의 [Glossary( 'dakini', 'DAKINI_GLOSS' )]를 쫓았다고 합니다. 그를 잡으려던 노력 때문에 다양한 바위와 지형 곳곳에 흔적이 남았고, 오늘날 이 지역 사람들은 이 흔적들을 [faith.GetAdjective] 종교적 헌신을 위한 장소로 찾아온다고 합니다." # 9532575006033956902
+  zhangzhung.0152.a: "여기서도 기도를 드려야 할지도 모르겠군." # 9648299162029064496
+  zhangzhung.0152.b: "일부 [ROOT.Char.GetFaith.PriestNeuter]가 뜬금없는 다키니를 쫓는 데 시간을 낭비하는 이유가 무엇이겠습니까?" # 14995189607315747584
+  zhangzhung.0152.info: "#emphasis 역사적 배경:#! 이 이벤트는 티베트 불교 승려이자 음악가였던 갸왈와 고창파(1189-1258년)에 대한 전설에 기반합니다. 그는 한때 비둘기 형상의 다키니를 쫓았다고 전해집니다. 그가 바위에 자신의 몸 자국을 남겼다고 전해지는 장소 근처에 사원이 세워졌으며, 이 돌에는 영적인 기운이 가득하다고 합니다." # 11478836515552272124
+  zhangzhung.0153.t: "악마의 요새" # 11991571891035812394
+  zhangzhung.0153.desc: "[county.GetNameNoTier]에 있는 버려진 요새의 폐허에 대한 전설이 있습니다. 지역 민속과 당신의 영지 내 일부 고대 문헌 학자들이 당신에게 말하기를, 그곳은 한때 마왕의 거처였다고 합니다.\n\n짐작컨대, 이 마왕은 한 명의 깨달음을 얻은 [ROOT.Char.GetFaith.GetReligion.GetAdjective] 종교 교사와 함께, 이 마왕의 어두운 마법을 물리친 의로운 통치자가 힘을 합쳐 패퇴시켰다고 합니다.\n\n하지만 그럼에도 불구하고, 지역 주민들은 여전히 그곳에 어두운 마법이 남아있다고 믿으며 두려움에 떨며 그 장소를 피하고 있습니다. 그 요새는 전략적인 위치를 차지하고 있기에 저는 그곳을 되찾을까 생각했지만, 다른 이들은 제가 재고하도록 설득하려 합니다." # 8901292998870783493
+  zhangzhung.0153.a: "암흑 마법이든 아니든, 우리는 그곳에 요새가 필요합니다." # 10131103136106210995
+  zhangzhung.0153.b: "그들이 옳아... 흉조가 서린 장소로군." # 5211713430365779084
+  zhangzhung.0153.info: "#emphasis 역사적 배경:#! 히말라야 일부 지역에서 고대의 요새화된 폐허들은 지역 전설 속에서 악마적인 세력의 성이나 궁전과 연관되곤 하는데, 특히 티베트 서부와 라다크 지역에서 그러합니다. 이 지역은 불교 이전의 장중 왕국이 있었던 곳으로, 그 건축 양식은 이후 티베트 거주자들의 양식과 크게 달랐습니다. 예를 들어, 10세기에 구게 왕국이 건국된 것은 불교 세력이 악마의 왕인 레티 공약(Reti Gongyak)을 정복하고 사라진 장중 왕국의 옛 수도를 점령한 후에 일어났다고 전해집니다. 때로는 이러한 악마적 세력이 올바른 종교적 스승이나 영웅에 의해 길들여져 수호신으로 변모하기도 했습니다." # 15678636224643779779
+  zhangzhung.0154.t: "신성과의 교류" # 15111548127278942218
+  zhangzhung.0154.desc: "[county.GetNameNoTier]의 평민 여성이 최근 아이를 낳았으나, 아버지가 누구인지는 아무도 모릅니다. 그녀는 최근 영적인 사람들이 많이 찾는 근처 호수로 순례를 갔을 때 산을 여행하던 중 산의 [GetPlayer.Custom('RICE_tibet_deities_type')]를 만났다고 주장합니다. 그녀는 그들 중 한 명과 정을 나누었고, 그가 바로 아버지라고 말합니다.\n\n실제로 [GetGeographicalRegion('RICE_greater_himalayan_region').GetName] 전역에는 이 지역의 산 [GetPlayer.Custom('RICE_tibet_deities_type')]가 현지 여성들과 어울린다는 전설이 있어, 이번에도 그런 일이 일어났다고 해도 이상할 것은 없습니다…." # 7802692724634796630
+  zhangzhung.0154.a: "그 아이에게 신성한 혈통이 깃들어 있나 보군요!" # 4991983897950009782
+  zhangzhung.0154.b: "그녀는 친부의 신분을 감추려고 분명히 노력하고 있습니다." # 18302259095044070254
+  zhangzhung.0155.t: "히말라야 무덤 도굴꾼들" # 7464604222556639515
+  zhangzhung.0155.desc: "지역의 평민들이 오늘 그에게 경의를 표하며, 금과 은으로 만든 금속 물품과 신성한 돌과 같은 귀한 물건들을 바쳤습니다. 그들은 이것이 최근 [county.GetNameNoTier]의 고대 무덤을 약탈하여 얻은 것이라고 말합니다.\n\n이러한 무덤에서 보물을 찾는 행위는 새로운 것이 아니며, 심지어 성직자들 사이에서도 널리 퍼져 있고 용인되는 일입니다. [GetGeographicalRegion('world_tibet').GetName]의 일부 사람들 사이에서는, 이 지역의 [ROOT.Char.GetFaith.GetReligion.GetAdherentNamePlural]들이 그러한 물건들이 위대한 영적 힘을 지니고 있다고 강하게 믿기 때문입니다.\n\n관습상, 무덤의 원래 소유주나 가족을 알 수 없는 경우 발견한 자가 그 물건들을 소유하도록 허용됩니다. 하지만… 이런 선물을 받는 것은 어딘가 찜찜합니다." # 17327351310115785582
+  zhangzhung.0155.a: "선물은 선물이지요. 감사합니다!" # 5369912934920942869
+  zhangzhung.0155.b: "이 물품들을 무덤으로 돌려보내시오." # 17171822585258355240
+  zhangzhung.0155.info: "#emphasis 역사적 배경:#! 티베트 고원에서 무덤을 뒤져 보물을 찾는 행위는 중세 시대부터 역사 기록에 남아 있습니다. 이러한 무덤에서 발견된 물품들은 마법적 또는 영적인 힘을 지니고 있다고 믿어졌으며, 최소한 매우 귀중한 물건으로 여겨졌습니다. 때로는 이러한 물품들이 여러 세대에 걸쳐 전해지기도 했습니다." # 7244168638189869706
+  zhangzhung.0156.t: "산속에서 평온하게 잠들다" # 13881185875692490965
+  zhangzhung.0156.desc: "최근 지역 [ROOT.Char.GetFaith.GetAdjective] 귀족 한 분이 세상을 떠났습니다. 그분은 지역 사회에서 중요한 인물이었기에, 전통에 따라 그분의 유가족들이 추모의 의미로 산길목에 휴식처를 세우고 있습니다. 그곳에 선물을 남겨 고인의 영혼이 평안히 안식하도록 도울 수 있다고 합니다.\n\n지역 주민들이 이 휴식처 건립에 기부하여 힘을 보탤 의향이 있는지 묻고 있습니다." # 6858723661526317405
+  zhangzhung.0156.a: "네, 기꺼이 돕겠습니다!" # 16950160501381382814
+  zhangzhung.0156.b: "이건 내 알 바가 아니군." # 1863403758329469064
+  zhangzhung.0156.info: "#emphasis 역사적 배경:#! 키나우르에서는 죽은 조상의 넋을 기리기 위해 가족들이 산길 고갯마루에 쉼터를 짓는 풍습이 있습니다. 그들은 이곳에서 주로 삶에 필요한 물건들을 선물로 주었는데, 이는 그러한 물건들이 사후 세계에서 고인이 사용될 것이며, 그들의 영혼이 평안히 쉴 수 있도록 돕는다고 믿기 때문입니다." # 7142988674914183743
+  zhangzhung.0157.t: "[ROOT.Char.GetHouse.GetNameNoTooltip] 가문의 김슈" # 14588098303176655730
+  zhangzhung.0157.desc: "[ROOT.Char.GetFaith.GetAdherentNamePlural] 내 모든 가문은 자신들의 신인 #italic 김슈#!를 모십니다. 모든 #italic 김슈#!는 그 가문을 보살피므로 부엌에 신당을 마련하고 정기적으로 기도하는 것이 중요합니다.\n\n이번 주, 신탁은 가까운 시일 내에 행운과 번영을 기원하기 위해 [ROOT.Char.GetHouse.GetName] 가문의 #italic 김슈#!에게 제물을 바치고 기도해야 한다고 말했습니다.\n\n이에 저는 기도문을 인도하며 우리의 #italic 김슈#!께 다양한 맛있는 음식과 귀한 물품들을 바칩니다." # 10916517731604511098
+  zhangzhung.0157.a: "저희를 계속해서 지켜주시옵소서, 존경하는 분이시여." # 12390290387726349015
+  zhangzhung.0158.t: "[padmasambhava.GetNicknameNoTooltip]의 탄생" # 17354093891942523698
+  zhangzhung.0158.desc: "[GetGeographicalRegion('world_tibet').GetName]에 있는 수많은 [ROOT.Char.GetFaith.GetReligion.GetAdherentNamePlural]들은 여러 세대 전 불타의 가르침을 탄트라 형태로 전파하기 위해 이 지역에 오신 위대한 [padmasambhava.GetFirstNameNicknamed]를 숭배합니다.\n\n시간이 흐르면서 그의 위대한 업적과 기적적인 생애에 대한 수많은 이야기가 퍼져나갔으며, 일부는 서로 모순되기도 합니다. 지금 [courtier_1.GetFirstName]와 [courtier_2.GetFirstName]가 [padmasambhava.GetNickname]의 탄생에 대해 논쟁 중입니다.\n\n“기적적인 탄생이었소!” [courtier_1.GetFirstNameNoTooltip]가 주장합니다. “연꽃에서 저절로 태어났다는 것, 그것이 많은 [Glossary( 'termas', 'TERMA_GLOSS' )]에서 말하는 바이며, 우리는 그 진실을 어찌 부인할 수 있겠소?”\n\n“[courtier_2.GetFirstNameNoTooltip]가 반박합니다. “검증된 종교 학자들과 스승들이 전승한 통상적인 경전에는 그가 평범한 인간 어머니에게서 태어났다고 명확히 나와 있소. 그는 신이 아니라 위대한 영적 스승이었지.”" # 7535551856255751076
+  zhangzhung.0158.a: "그와 같은 기적적인 인물이라면 기적적인 탄생을 했을 것이 틀림없다!" # 245564751628455497
+  zhangzhung.0158.b: "나는 검증된 학술 자료를 신뢰합니다. 그에게는 평범한 출생이 있었습니다." # 927873238611913762
+  zhangzhung.0158.info: "티베트의 가장 중요한 종교적 인물 중 한 명으로서 파드마삼바바를 둘러싼 전설, 그중에서도 그의 탄생에 관한 전설에는 여러 가지 다른 판본이 존재합니다. 예를 들어, 티베트학자 안-마리 블롱도(Anne-Marie Blondeau)는 파드마삼바바의 탄생에 얽힌 이야기에는 크게 두 가지 주요 변형이 있다고 설득력 있게 주장했습니다. 하나는 흔히 '기적적인 탄생'(#italic rdzus skyes#!)이라고 불리는 유형으로, 파드마삼바바가 아시아 종교에서 환생과 순결의 흔한 상징인 연꽃에서 태어났다고 묘사합니다. 이러한 이야기는 신화적이고 초월적인 요소가 더 쉽게 받아들여질 수 있는 [Glossary( 'treasure texts', 'TERMA_GLOSS' )]에서 자주 발견됩니다. 다른 유형의 이야기는 자연적인 '자궁 출생'(#italic mngal skyes#!)을 강조하며, 현상에 대한 덜 환상적인 설명을 선호하는 경향이 있는 보다 전통적인 문헌과 전승된 저작물에서 주로 발견됩니다." # 8889850514338264013
+  zhangzhung.0159.t: "[county.GetNameNoTierNoTooltip]의 사향 산업" # 14323729064483769643
+  zhangzhung.0159.desc: "티베트 사향노루의 분비선에서 얻은 사향은 국제 시장에서 [GetGeographicalRegion('world_tibet').GetName]의 주요 수출품 중 하나이며, 들리는 바에 의하면 전 세계 많은 이들이 이 제품을 칭송하고 높이 평가하고 있습니다.\n\n요즘 들어 [county.GetNameNoTier]에서 생산된 사향이 그 품질로 명성을 얻고 있으며, 상인들은 이를 통해 더 큰 이익을 얻고 있습니다." # 10727951492627091808
+  zhangzhung.0159.a: "훌륭하군!" # 4941506436412555079
+  zhangzhung.0159.info: "#emphasis 역사적 배경:#! 고대 티베트에서는 원자재와 같은 다른 산물이 주요 수출품이었던 것과는 대조적으로, 티베트의 가장 큰 수출품 중 하나는 사향이었습니다. 이는 매우 두드러져서 당시 페르시아와 아랍 문헌들은 사향을 티베트와 강하게 연관지었으며, 비록 이러한 문헌들이 티베트인들이 예멘 이주민의 후손이라고 믿는 등 티베트에 대해 부정확한 정보를 담고 있는 경우가 많았더라도 그러했습니다." # 4245844609679540731
+  zhangzhung.0160.t: "불순한 이방인들" # 9557794409761923210
+  zhangzhung.0160.desc: "[ROOT.Char.GetFaith.GetAdjective] 신앙은 순수함의 중요성을 강조하며, 이로 인해 외래의 인물, 사물, 장소는 불순함 때문에 매우 의심받는 경우가 많습니다. 전통적으로 해외여행에서 돌아온 후에도 정화 의식을 거쳐야 합니다.\n\n최근 [county.GetNameNoTier]의 여행 상인들과 일부 지역 마을 사이에 긴장이 고조되고 있습니다. 현지 주민들은 상인들이 통과를 허가받기 전에 적절한 정화 의식을 거부하며 자신들의 관습을 무시한다고 주장합니다. 반면, 외국 상인들은 현지인들이 차별적으로 행동하며 통과를 막고 있으며, 자신들이 무슨 짓을 하든 불순하다고 여기고 있다고 주장합니다." # 6385861403061638142
+  zhangzhung.0160.a: "상인들을 통과시켜 주시오 – 그들은 이미 최선을 다하고 있소!" # 5475839584162823959
+  zhangzhung.0160.b: "상인들에게 의례를 더 잘 수행하도록 압력을 가하십시오." # 17751933747416715293
+  zhangzhung.0160.c: "두 세력을 생산적인 방식으로 중재하도록 노력해 보십시오." # 15340487690144836776
+  zhangzhung.0160.c.failure: "양측은 합의에 이르지 못했습니다." # 7552166818267761879
+  zhangzhung.0160.c.success: "양측이 합의에 이르렀습니다" # 8852084986285823545
+  zhangzhung.0160.info: "#emphasis 역사적 배경:#! 파미르와 서부 히말라야의 다르드족 사이에서는, 이들의 전통 신앙이 게임 내에서 [GetReligionByKey('peristani_religion').GetAdjective] [religion|E]로 표현되는데, 순수성이 극도로 중요합니다. 때로는 적절한 정화 의식을 치를 수 있더라도, 외국에서 들어온 것으로 간주되는 사람, 음식 및 기타 물품에 대한 마을 접근이 거부될 수 있습니다. 때로는 마을이나 부족에 따라 이러한 제한이 중요한 의식 기간과 같이 특정 시기에만 유효하기도 합니다." # 16364861829668382365
+  zhangzhung.0161.t: "성스러운 산의 호수들" # 14329694110591125016
+  zhangzhung.0161.desc: "[GetGeographicalRegion('RICE_upper_tibet').GetName]의 고지대는 많은 큰 호수들의 터전입니다. 전통적으로 많은 [ROOT.Char.GetFaith.GetReligion.GetAdherentNamePlural]들은 이 호수들이 때 묻지 않은 산맥 근처에 자리하고 있어 신성한 에너지를 지니고 있으며, 일부 호수에는 다산과 부를 증진시키는 여러 여신들이 깃들어 있다고 믿습니다.\n\n제 거처에서 그리 멀지 않은 곳에도 그런 호수가 하나 있는데, 현지인들이 다산과 부를 기원하며 지역 여신에게 기도하러 가끔 찾는 곳입니다. 저도 그곳에 가서 이 여신께 기도하고 제물을 바쳐보는 것이 어떨까요?" # 17252145612889756587
+  zhangzhung.0161.a: "예, 예를 표하러 가야겠군요." # 17934791959935231667
+  zhangzhung.0161.b: "지금은 이것이 필요하지 않습니다." # 2956453396821007402
+  zhangzhung.0162.t: "$travel_event_prefix$ 전설적인 호수 목격담" # 11408904811836520172
+  zhangzhung.0162.desc: "[ROOT.Char.GetCurrentLocation.GetName]의 산악 호수를 지나던 중, 저는 현지 순례자 몇 명과 마주쳐 이야기를 나누게 되었습니다.\n\n우리가 대화하는 동안, 저는 호수 물속에서 물고기들을 발견했고 대화는 자연스럽게 그쪽으로 흘러갔습니다. 한 순례자가 이 물에서 거대한 황금 물고기와 용을 보았다는 이야기를 들려주었는데, 이런 일들이 비록 드물긴 하지만, 듣자 하니 [GetGeographicalRegion('world_tibet').GetName]에서는 드문 일이 아니라고 합니다." # 3184501311853868791
+  zhangzhung.0162.a: "얼마나 흥미롭고 상서로운가!" # 9675062714358951686
+  zhangzhung.0162.b: "다소 터무니없게 들리는군." # 4297059722359812834
+  zhangzhung.0162.info: "#emphasis 역사적 배경:#! [GetGeographicalRegion('world_tibet').GetName]의 외딴 고원지대에는 다양한 종류의 물고기처럼 그곳에서 발견되는 수역의 극한 환경에 적응한 일부 수생종이 있습니다. 하지만 지역 전설과 신화에는 거대한 황금 물고기나 용처럼 과학적으로 확인되지 않은 훨씬 더 큰 동물들에 대한 이야기가 전해집니다." # 188923132106395563
+  zhangzhung.0163.t: "$travel_event_prefix$ 악마의 호수들" # 5177703811874420668
+  zhangzhung.0163.desc: "우리는 [ROOT.Char.GetCurrentLocation.GetName]에 있는 한 마을에 잠시 들렀는데, 마을 사람들이 우리에게 경고했습니다. 앞쪽에는 소금기 있고 얕은 호수들이 있는데, 그곳은 [GetGeographicalRegion('world_tibet').GetName]의 여러 악마들이 사는 곳으로 알려져 있다고 합니다.\n\n“돌아서 가는 것이 낫겠소.” 마을 장로가 내게 말합니다. “호수에 도착하면 악마들을 달래기 위해 제물을 바쳐볼 수도 있겠지만, 그럴 돈이나 자원이 없다면 여정을 잠시 미루는 것이 나을 것이오. 그 악마들은 성가신 무리들이니.”" # 4149414019196516260
+  zhangzhung.0163.a: "호수 주변을 돌아 악마들을 피하자." # 13657874524540535933
+  zhangzhung.0163.b: "호수에서 악마들에게 제물을 바치겠소." # 4359840463015964648
+  zhangzhung.0163.c: "신경 쓰이는 악마 따위 누가 신경 쓰겠소?" # 10321971057906285709
+  zhangzhung.0163.c.message: "하지만 악마들은 그대의 무례함을 매우 신경 씁니다" # 8961057530121196656
+  zhangzhung.0164.t: "뿔 달린 독수리" # 10328996832535495406
+  zhangzhung.0164.desc: "지난밤, 뿔 달린 독수리인 #italic 캬웅#!이 나타나 제가 알 수 없는 꿈의 세계를 여행하는 동안 저를 보호하고 인도하는 꿈을 꾸었습니다.\n\n오래된 문헌에 따르면 #italic 캬웅#!은 고대 [GetTitleByKey('e_zhangzhung').GetNameNoTier]의 통치자와 사제들의 상징이었으며, 이 뿔 달린 독수리들은 종종 [GetGeographicalRegion('world_tibet').GetName]의 강력하고 자비로운 [GetPlayer.Custom('RICE_tibet_deities_type')]와 연관된다고 합니다.\n\n이 꿈이 좋은 징조였을까요?" # 13683442359432419959
+  zhangzhung.0164.a: "이는 제가 [ROOT.Char.GetTitleAsNameNoTooltip]으로서 일을 잘하고 있다는 뜻이군요!" # 4950144260291306037
+  zhangzhung.0164.b: "#italic 큥#!은 명백히 영적인 수호자였다." # 15745490223755719383
+  zhangzhung.0164.info: "#emphasis 역사적 배경:#! #italic 캬웅#!이라고 알려진 뿔 달린 독수리는 티베트 토착 전설에 등장하는 생물입니다. 티베트에 불교가 도래하면서 인도 신화에 나오는 인간의 팔과 몸을 가진 독수리인 #italic 가루다#!와 혼합되었습니다. #italic 캬웅#!에 대한 언급은 가장 초기의 티베트 문헌에서 찾아볼 수 있으며, #italic 캬웅#!을 묘사하는 것으로 추정되는 문헌보다 앞선 시기의 암각화가 티베트 전역에서 발견되었습니다." # 4225302265895100893
+  zhangzhung.0165.t: "xxxxx" # 1951045980481827005
+  zhangzhung.0165.desc: "xxxxx" # 1951045980481827005
+  zhangzhung.0165.a: "xxxxx" # 1951045980481827005
+  zhangzhung.0166.t: "xxxxx" # 1951045980481827005
+  zhangzhung.0166.desc: "xxxxx" # 1951045980481827005
+  zhangzhung.0166.a: "xxxxx" # 1951045980481827005
+  zhangzhung.0167.t: "xxxxx" # 1951045980481827005
+  zhangzhung.0167.desc: "xxxxx" # 1951045980481827005
+  zhangzhung.0167.a: "xxxxx" # 1951045980481827005
+  zhangzhung.0168.t: "xxxxx" # 1951045980481827005
+  zhangzhung.0168.desc: "xxxxx" # 1951045980481827005
+  zhangzhung.0168.a: "xxxxx" # 1951045980481827005
+  zhangzhung.0169.t: "xxxxx" # 1951045980481827005
+  zhangzhung.0169.desc: "xxxxx" # 1951045980481827005
+  zhangzhung.0169.a: "xxxxx" # 1951045980481827005
+  zhangzhung.0170.t: "xxxxx" # 1951045980481827005
+  zhangzhung.0170.desc: "xxxxx" # 1951045980481827005
+  zhangzhung.0170.a: "xxxxx" # 1951045980481827005
+  zhangzhung.0171.t: "xxxxx" # 1951045980481827005
+  zhangzhung.0171.desc: "xxxxx" # 1951045980481827005
+  zhangzhung.0171.a: "xxxxx" # 1951045980481827005
+  zhangzhung.0172.t: "xxxxx" # 1951045980481827005
+  zhangzhung.0172.desc: "xxxxx" # 1951045980481827005
+  zhangzhung.0172.a: "xxxxx" # 1951045980481827005
+  zhangzhung.0173.t: "xxxxx" # 1951045980481827005
+  zhangzhung.0173.desc: "xxxxx" # 1951045980481827005
+  zhangzhung.0173.a: "xxxxx" # 1951045980481827005
+  zhangzhung.0174.t: "xxxxx" # 1951045980481827005
+  zhangzhung.0174.desc: "xxxxx" # 1951045980481827005
+  zhangzhung.0174.a: "xxxxx" # 1951045980481827005
+  zhangzhung.0175.t: "xxxxx" # 1951045980481827005
+  zhangzhung.0175.desc: "xxxxx" # 1951045980481827005
+  zhangzhung.0175.a: "xxxxx" # 1951045980481827005
+  zhangzhung.0176.t: "xxxxx" # 1951045980481827005
+  zhangzhung.0176.desc: "xxxxx" # 1951045980481827005
+  zhangzhung.0176.a: "xxxxx" # 1951045980481827005
+  zhangzhung.0177.t: "xxxxx" # 1951045980481827005
+  zhangzhung.0177.desc: "xxxxx" # 1951045980481827005
+  zhangzhung.0177.a: "xxxxx" # 1951045980481827005
+  zhangzhung.0178.t: "xxxxx" # 1951045980481827005
+  zhangzhung.0178.desc: "xxxxx" # 1951045980481827005
+  zhangzhung.0178.a: "xxxxx" # 1951045980481827005
+  zhangzhung.0179.t: "xxxxx" # 1951045980481827005
+  zhangzhung.0179.desc: "xxxxx" # 1951045980481827005
+  zhangzhung.0179.a: "xxxxx" # 1951045980481827005
+  zhangzhung.0180.t: "xxxxx" # 1951045980481827005
+  zhangzhung.0180.desc: "xxxxx" # 1951045980481827005
+  zhangzhung.0180.a: "xxxxx" # 1951045980481827005
+  zhangzhung.0181.t: "xxxxx" # 1951045980481827005
+  zhangzhung.0181.desc: "xxxxx" # 1951045980481827005
+  zhangzhung.0181.a: "xxxxx" # 1951045980481827005
+  zhangzhung.0182.t: "xxxxx" # 1951045980481827005
+  zhangzhung.0182.desc: "xxxxx" # 1951045980481827005
+  zhangzhung.0182.a: "xxxxx" # 1951045980481827005
+  zhangzhung.0183.t: "xxxxx" # 1951045980481827005
+  zhangzhung.0183.desc: "xxxxx" # 1951045980481827005
+  zhangzhung.0183.a: "xxxxx" # 1951045980481827005
+  zhangzhung.0184.t: "xxxxx" # 1951045980481827005
+  zhangzhung.0184.desc: "xxxxx" # 1951045980481827005
+  zhangzhung.0184.a: "xxxxx" # 1951045980481827005
+  zhangzhung.0185.t: "xxxxx" # 1951045980481827005
+  zhangzhung.0185.desc: "xxxxx" # 1951045980481827005
+  zhangzhung.0185.a: "xxxxx" # 1951045980481827005
+  zhangzhung.0186.t: "xxxxx" # 1951045980481827005
+  zhangzhung.0186.desc: "xxxxx" # 1951045980481827005
+  zhangzhung.0186.a: "xxxxx" # 1951045980481827005
+  zhangzhung.0187.t: "xxxxx" # 1951045980481827005
+  zhangzhung.0187.desc: "xxxxx" # 1951045980481827005
+  zhangzhung.0187.a: "xxxxx" # 1951045980481827005
+  zhangzhung.0188.t: "xxxxx" # 1951045980481827005
+  zhangzhung.0188.desc: "xxxxx" # 1951045980481827005
+  zhangzhung.0188.a: "xxxxx" # 1951045980481827005
+  zhangzhung.0189.t: "xxxxx" # 1951045980481827005
+  zhangzhung.0189.desc: "xxxxx" # 1951045980481827005
+  zhangzhung.0189.a: "xxxxx" # 1951045980481827005
+  zhangzhung.0190.t: "xxxxx" # 1951045980481827005
+  zhangzhung.0190.desc: "xxxxx" # 1951045980481827005
+  zhangzhung.0190.a: "xxxxx" # 1951045980481827005
+  zhangzhung.0191.t: "xxxxx" # 1951045980481827005
+  zhangzhung.0191.desc: "xxxxx" # 1951045980481827005
+  zhangzhung.0191.a: "xxxxx" # 1951045980481827005
+  zhangzhung.0192.t: "xxxxx" # 1951045980481827005
+  zhangzhung.0192.desc: "xxxxx" # 1951045980481827005
+  zhangzhung.0192.a: "xxxxx" # 1951045980481827005
+  zhangzhung.0193.t: "xxxxx" # 1951045980481827005
+  zhangzhung.0193.desc: "xxxxx" # 1951045980481827005
+  zhangzhung.0193.a: "xxxxx" # 1951045980481827005
+  zhangzhung.0194.t: "xxxxx" # 1951045980481827005
+  zhangzhung.0194.desc: "xxxxx" # 1951045980481827005
+  zhangzhung.0194.a: "xxxxx" # 1951045980481827005
+  zhangzhung.0195.t: "xxxxx" # 1951045980481827005
+  zhangzhung.0195.desc: "xxxxx" # 1951045980481827005
+  zhangzhung.0195.a: "xxxxx" # 1951045980481827005
+  zhangzhung.0196.t: "xxxxx" # 1951045980481827005
+  zhangzhung.0196.desc: "xxxxx" # 1951045980481827005
+  zhangzhung.0196.a: "xxxxx" # 1951045980481827005
+  zhangzhung.0197.t: "xxxxx" # 1951045980481827005
+  zhangzhung.0197.desc: "xxxxx" # 1951045980481827005
+  zhangzhung.0197.a: "xxxxx" # 1951045980481827005
+  zhangzhung.0198.t: "xxxxx" # 1951045980481827005
+  zhangzhung.0198.desc: "xxxxx" # 1951045980481827005
+  zhangzhung.0198.a: "xxxxx" # 1951045980481827005
+  zhangzhung.0199.t: "xxxxx" # 1951045980481827005
+  zhangzhung.0199.desc: "xxxxx" # 1951045980481827005
+  zhangzhung.0199.a: "xxxxx" # 1951045980481827005
+  dharma_festivals.060.t: "로사르가 시작됩니다!" # 12113241330377813400
+  dharma_festivals.060.desc: "신하들이 새해 축제가 시작되었음을 모두에게 알렸습니다. 귀천을 막론하고 모든 이들이 집안을 청소할 것이며, 하인들은 [Glossary( 'guthuk', 'GUTHUK_GLOSS' )]와 다른 음식을 만들기 시작했습니다." # 784790726375450925
+  dharma_festivals.060.clean: "크샤시데륵 푼숨촉!" # 3388886861535866510
+  dharma_festivals.061.t: "라마 로사르" # 11226790062138061334
+  dharma_festivals.061.desc: "오늘은 로사르, 라마 로사르의 첫날입니다.\n\n이날 사람들은 스승과 영적 지도자들에게 경의를 표하고 [ROOT.Char.GetFaith.HouseOfWorshipPlural]를 방문합니다. 제가 지역 [ROOT.Char.GetFaith.GetAdjective] [ROOT.Char.GetFaith.HouseOfWorship]를 방문했을 때, 몇몇 농민들이 새해의 풍년을 기원하며 가정 제단에 제물을 바치는 것을 볼 수 있었습니다." # 1168853244363804068
+  dharma_festivals.061.guru: "타시 델렉!" # 13532189786797982085
+  dharma_festivals.062.t: "왕 로사르" # 7689150381811033574
+  dharma_festivals.062.desc: "오늘은 로사르 축제의 둘째 날입니다.\n\n이날 신하들과 궁정 인사들은 저에게 경의를 표하고 선물을 바칩니다. 제가 궁궐에 앉아 있으면, 저를 찾아온 수많은 손님들을 맞이합니다. 그들 중 일부는 저에게 선물을 가지고 오기도 합니다!" # 14103160795368865109
+  dharma_festivals.062.king: "로사르 베이 타시 델렉!" # 11357837491258735078
+  dharma_festivals.063.t: "평민들을 위한 선물" # 14931591430027088964
+  dharma_festivals.063.desc: "저와 같은 높은 지위에 있는 사람만이 로사르 둘째 날에 선물을 받는 것은 아닙니다.\n\n저와 같은 이들이 일반 백성들에게 선물을 주어 저의 자비심과 관대함을 보여주고 제가 얼마나 위대한지 드러내는 풍습도 있습니다. 이는 제가 많은 공덕을 쌓는 데 도움이 될 것입니다." # 18043813812167148280
+  dharma_festivals.063.large: "제가 그들에게 큰 선물을 주었습니다." # 3160321461659278065
+  dharma_festivals.063.medium: "그들에게 큰 선물을 주었소" # 5379564021932060629
+  dharma_festivals.063.small: "그들에게 작은 선물을 주었습니다." # 1630624835254299766
+  dharma_festivals.064.t: "최경 로사르" # 6361978477790780102
+  dharma_festivals.064.desc: "오늘은 로사르의 셋째 날, 최경 로사르입니다.\n\n이날 사람들은 [ROOT.Char.GetFaith.HouseOfWorshipPlural]에 가서 [ROOT.Char.GetFaith.HighGodName]께, [ROOT.Char.GetFaith.random_GoodGodNames] 및 다른 영적 존재들에게 기도를 올립니다. 사람들은 궁궐과 [ROOT.Char.GetFaith.HouseOfWorshipPlural] 주변에 기도 깃발을 걸고, 새해의 번영을 기원하며 향을 피웁니다." # 16225769097994052958
+  dharma_festivals.064.prayers: "타시 델렉!" # 13532189786797982085
+  dharma_festivals.065.t: "춤과 연극" # 9257132281752591834
+  dharma_festivals.065.desc: "통상적으로 로사르 기간에는 [ROOT.Char.GetFaith.HouseOfWorshipPlural]에서의 기도와 종교 의식이 끝난 후 춤과 연극이 이어집니다. 이곳에서 사람들은 정교한 가면과 의상을 입고 춤을 추며 이야기를 들려줍니다.\n\n그 이야기들은 우리 과거의 위대한 서사시들을 다룹니다. 신화, 전설, 역사가 뒤섞여, 고대의 왕, 전사, 그리고 [ROOT.Char.GetFaith.PriestNeuterPlural]들이 악마, 사악한 마법사, 증오심 가득한 신들 및 기타 사악한 존재와 감정이라는 적대적인 세력에 맞섰을 때 겪었던 투쟁을 우리 모두가 배우고 즐깁니다." # 10184496466568261042
+  dharma_festivals.065.dance: "정말 대단한 광경이군!" # 5339890307559009494
+  dharma_festivals.066.t: "가족 및 궁정과의 향연" # 14850245799050411327
+  dharma_festivals.066.desc: "[ROOT.Char.GetFaith.HouseOfWorship]에서의 춤이 끝난 후, 가족 및 궁정 인물들과 함께 향연을 여는 것은 전통입니다.\n\n오늘 저희 집에서 열리는 이 성대한 연회에 많은 사람들이 모였습니다. 하인들이 다가와 당신에게 구툭을 대접하고, [Glossary( 'dresi', 'DRESI_GLOSS' )], [Glossary( 'thukpa', 'THUKPA_GLOSS' )], [Glossary( 'momos', 'MOMO_GLOSS' )]부터 버터차, 쿠키, 고기, 과일, 빵 등 다양한 별미와 창 맥주를 제공합니다." # 17628156845066084685
+  dharma_festivals.066.feast: "모두에게 번영과 행운이 깃들기를!" # 17415537247991931693
+  dharma_festivals.067.t: "결론" # 3822412533199628403
+  dharma_festivals.067.desc: "로사르 축제가 마침내 끝났으며, 축제의 즐거운 분위기는 며칠 더 이어질 것입니다. 아아, 모든 것이 덧없듯이, 모든 좋은 것들 역시 끝이 나야만 하는 것 같습니다." # 11891305610502008079
+  dharma_festivals.067.home: "축제가 이제 끝났습니다." # 493449509155308930

@@ -1,0 +1,14 @@
+﻿l_korean:
+  consolidate_north_sea_realms_decision: "북해 영지 통합" # 11768287367063673740
+  consolidate_north_sea_realms_decision_desc: "북해 패권을 안정적인 법정 구조로 공식화하여, 귀하의 패권 아래 북해 제국을 수립하고 잉글랜드, 덴마크, 노르웨이를 이에 묶으십시오." # 10852060107883218420
+  consolidate_north_sea_realms_decision_tooltip: "[e_north_sea|E]를 [h_north_sea|E] 아래에 두고, [k_england|E], [k_denmark|E], 그리고 [k_norway|E]를 그 법정상 봉신으로 지정하십시오." # 15258922569209241598
+  h_north_sea: "북해 지배령" # 7477861575127622741
+  h_north_sea_adj: "북해" # 8781653658072879198
+  h_north_sea_article: "그" # 8417196396288596625
+  title_nsoverlord: "군주" # 5861586027196928178
+  title_nshegemony: "영지" # 134640798382268692
+  e_north_sea: "앵글로-스칸디나비아 왕국" # 7718655778847184148
+  e_north_sea_adj: "앵글로-스칸디나비아" # 16034591218760643988
+  e_north_sea_article: "그" # 8417196396288596625
+  consolidate_north_sea_realms_scripted_effect: "이것은 노르웨이, 잉글랜드, 덴마크 세 왕국을 하나의 제국 아래의 법적 구조로 통합하며, 이는 해당 지배권에 법적으로 귀속됩니다." # 1289494257294860732
+  consolidate_north_sea_realms_decision_confirm: "확인" # 10063624747035951899

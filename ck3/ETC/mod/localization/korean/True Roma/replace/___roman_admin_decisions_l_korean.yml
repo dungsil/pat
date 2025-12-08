@@ -1,0 +1,14 @@
+﻿l_korean:
+  WRE_convert_to_administrative_decision: "서로마 정치 체제를 재건하십시오" # 8740359921406330100
+  WRE_convert_to_administrative_decision_desc: "서로마 제국은 오랜 역사를 지닌 관료 제도를 가지고 있습니다. 제국의 영광을 되찾은 후, 우리는 더 낮은 비용으로 현재의 봉건 정치를 대체할 수 있을 것입니다. 모든 로마인들은 이것이 서로마 제국을 더 나은 미래로 이끌 것이라고 믿습니다." # 10793370953110089593
+  WRE_convert_to_administrative_decision_confirm: "로마인은 결코 죽지 않는다!" # 1637710550655006559
+  WRE_convert_to_administrative_decision_tooltip: "서로마 정치 체제를 재건하십시오" # 8740359921406330100
+  province_WRE_decision: "#bold 트라얀 국경 재확립#" # 15809860085437145080
+  province_WRE_decision_desc: "트라야누스는 서로마에서 전례 없는 영토를 획득했으며, 지금까지 그를 능가한 이는 없습니다. 로마 제국의 부흥과 더불어 신하들이 저를 통치자로 더욱 존경하게 되면서, 저는 트라야누스와 저를 비교하지 않을 수 없습니다. 저는 저나 저의 후손들이 결국 트라야누스를 능가하고 제국의 서부 영토 전체를 되찾을 것이라 믿습니다." # 7400741009555503840
+  province_WRE_decision_confirm: "영원 그 너머로!" # 13106645704965813338
+  province_WRE_decision_tooltip: "숲을 건너고, 강을 건너, 심지어 트라야누스도 보지 못했던 곳까지 영토를 확장하네" # 5033067518897066767
+  WRE_africa_north_west: "서로마 아프리카" # 967156285093054798
+  WRE_south_germania: "남부 게르마니아" # 12128635193468156054
+  WRE_roman_britannia: "로마 브리타니아" # 6144405247543519753
+  all_province_back_to_rome: "귀하의 주 작위는 현재 귀하가 통제하는 #X ALL#! [kingdom|E] 작위들의 [de_jure|E] 봉주가 됩니다." # 17376012089895172394
+  there_is_no_hre_exist: "아무도 신성 로마 제국 작위를 보유하고 있지 않으며, 귀하도 마찬가지입니다." # 13132157534189422334

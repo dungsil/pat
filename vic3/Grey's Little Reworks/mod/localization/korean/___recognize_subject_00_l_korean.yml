@@ -1,0 +1,22 @@
+﻿l_korean:
+  DIPLO_ACTION_GET_RECOGNIZED: "$DIPLO_ACTION_RELATIONS$가 $relations_cordial$보다 작지 않습니다" # 1354474770733230879
+  get_recognized: "동맹국에 승인 요청" # 538982617976675935
+  recognize: "인식하다" # 16750707752131291259
+  get_recognized_action_name: "동맹국에 승인 요청" # 538982617976675935
+  recognize_action_name: "인식하다" # 16750707752131291259
+  get_recognized_desc: "#header $get_recognized$#!\n$TOOLTIP_DELIMITER$\n동맹국인 열강에게 세계 무대에서 우리를 승인해 달라고 요청할 수 있는 일종의 [concept_instant_diplomatic_action]입니다." # 16867062456298845312
+  recognize_desc: "#header $recognize$#!\n$TOOLTIP_DELIMITER$\n세계 무대에서 타국을 승인할 수 있는 일종의 [concept_instant_diplomatic_action]입니다." # 4694487090412416342
+  get_recognized_proposal_notification_name: "$get_recognized_action_name$을 제안합니다." # 6491226470012552359
+  get_recognized_proposal_notification_desc: "[INITIATOR_COUNTRY.GetName]이 우리의 공식적인 외교 승인을 요청합니다." # 9586120012289486861
+  get_recognized_proposal_notification_effects_desc: "$get_recognized_action_name$" # 13635493138888058421
+  recognize_proposal_notification_name: "$recognize_action_name$을 제안합니다" # 14169144555147156280
+  recognize_proposal_notification_desc: "우리는 [INITIATOR_COUNTRY.GetName]에 공식적인 외교 승인을 부여합니다." # 15481453396123658337
+  recognize_proposal_notification_effects_desc: "$recognize_action_name$" # 727839368913781259
+  get_recognized_proposal_accepted_name: "$get_recognized_action_name$를 수락합니다" # 2117270906205147110
+  get_recognized_proposal_accepted_desc: "[TARGET_COUNTRY.GetName]이 우리를 세계에 공인하는 데 동의했습니다." # 6686068462224114487
+  get_recognized_proposal_declined_name: "$merge_subject_action_name$ 거부" # 10083418871332382309
+  get_recognized_proposal_declined_desc: "[TARGET_COUNTRY.GetName]은 세계에 우리를 승인하기를 거부했습니다." # 4000190608139826121
+  get_recognized_proposal_third_party_accepted_name: "$merge_subject_action_name$ 수락" # 10735886660843585134
+  get_recognized_proposal_third_party_accepted_desc: "[INITIATOR_COUNTRY.GetName]가 [TARGET_COUNTRY.GetName]에 의해 세계 무대에서 인정받았으니, 새로운 시대가 도래했소." # 8987776236576830725
+  get_recognized_proposal_third_party_declined_name: "$merge_subject_action_name$ 거부" # 10083418871332382309
+  get_recognized_proposal_third_party_declined_desc: "[TARGET_COUNTRY.GetName]가 [INITIATOR_COUNTRY.GetName]를 승인하기를 거부했습니다. 우리는 무력으로 세계 무대에 우뚝 서야 할지도 모릅니다!" # 17167882356347961229
