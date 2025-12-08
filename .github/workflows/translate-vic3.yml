@@ -23,18 +23,6 @@ jobs:
     env:
       GOOGLE_AI_STUDIO_TOKEN: "${{secrets.GOOGLE_AI_STUDIO_TOKEN}}"
     steps:
-      - name: Clean workspace
-        run: |
-          if [ -z "$GITHUB_WORKSPACE" ]; then
-            echo "GITHUB_WORKSPACE is not set, skipping workspace cleanup"
-            exit 0
-          fi
-          if [[ "$GITHUB_WORKSPACE" != /home/runner/_work/* ]]; then
-            echo "GITHUB_WORKSPACE has unexpected value: $GITHUB_WORKSPACE, skipping workspace cleanup"
-            exit 0
-          fi
-          rm -rf "$GITHUB_WORKSPACE"
-          mkdir -p "$GITHUB_WORKSPACE"
       - uses: actions/checkout@v6
         with:
           fetch-depth: 0
@@ -74,21 +62,21 @@ jobs:
           script: |
             const fs = require('fs');
             const path = require('path');
-            
+
             const filePath = path.join(process.cwd(), 'vic3-untranslated-items.json');
-            
+
             if (!fs.existsSync(filePath)) {
               console.log('번역되지 않은 항목이 없습니다.');
               return;
             }
-            
+
             const data = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
-            
+
             if (!data.items || data.items.length === 0) {
               console.log('번역되지 않은 항목이 없습니다.');
               return;
             }
-            
+
             // 기존 이슈 검색 (동일한 제목의 열린 이슈가 있는지 확인)
             const existingIssues = await github.rest.issues.listForRepo({
               owner: context.repo.owner,
@@ -96,7 +84,7 @@ jobs:
               state: 'open',
               labels: 'translation-refused,vic3'
             });
-            
+
             // 모드별로 항목 그룹화 (prototype pollution 방지)
             const itemsByMod = Object.create(null);
             for (const item of data.items) {
@@ -105,13 +93,13 @@ jobs:
               }
               itemsByMod[item.mod].push(item);
             }
-            
+
             for (const [mod, items] of Object.entries(itemsByMod)) {
               const title = `[VIC3] 번역 거부 항목 발생: ${mod}`;
-              
+
               // 동일한 제목의 열린 이슈가 있는지 확인
               const existingIssue = existingIssues.data.find(issue => issue.title === title);
-              
+
               // 이슈 본문 생성
               let body = `## 번역 거부 항목\n\n`;
               body += `**게임**: VIC3\n`;
@@ -120,7 +108,7 @@ jobs:
               body += `### 항목 목록\n\n`;
               body += `| 파일 | 키 | 원문 |\n`;
               body += `|------|-----|------|\n`;
-              
+
               for (const item of items) {
                 const rawMessage = item.message;
                 const escapedMessage = rawMessage.replace(/\|/g, '\\|').replace(/\n/g, ' ').replace(/`/g, '\\`');
@@ -137,10 +125,10 @@ jobs:
                   body += detailsSection;
                 }
               }
-              
+
               body += `\n---\n`;
               body += `이 이슈는 자동으로 생성되었습니다. 수동 번역이 필요한 항목입니다.\n`;
-              
+
               if (existingIssue) {
                 // 기존 이슈에 코멘트 추가
                 await github.rest.issues.createComment({
