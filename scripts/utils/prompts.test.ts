@@ -3,22 +3,44 @@ import { shouldUseTransliteration, getSystemPrompt, CK3_SYSTEM_PROMPT, CK3_TRANS
 
 describe('시스템 프롬프트', () => {
   describe('getSystemPrompt', () => {
-    it('CK3 게임 타입에 대해 CK3 프롬프트를 반환해야 함', () => {
-      const prompt = getSystemPrompt('ck3')
-      
-      expect(prompt).toBe(CK3_SYSTEM_PROMPT)
+    describe('번역 모드 (useTransliteration=false)', () => {
+      it('CK3 게임 타입에 대해 CK3 프롬프트를 반환해야 함', () => {
+        const prompt = getSystemPrompt('ck3', false)
+        
+        expect(prompt).toBe(CK3_SYSTEM_PROMPT)
+      })
+
+      it('Stellaris 게임 타입에 대해 Stellaris 프롬프트를 반환해야 함', () => {
+        const prompt = getSystemPrompt('stellaris', false)
+        
+        expect(prompt).toBe(STELLARIS_SYSTEM_PROMPT)
+      })
+
+      it('VIC3 게임 타입에 대해 VIC3 프롬프트를 반환해야 함', () => {
+        const prompt = getSystemPrompt('vic3', false)
+        
+        expect(prompt).toBe(VIC3_SYSTEM_PROMPT)
+      })
     })
 
-    it('Stellaris 게임 타입에 대해 Stellaris 프롬프트를 반환해야 함', () => {
-      const prompt = getSystemPrompt('stellaris')
-      
-      expect(prompt).toBe(STELLARIS_SYSTEM_PROMPT)
-    })
+    describe('음역 모드 (useTransliteration=true)', () => {
+      it('CK3 음역 모드에 대해 CK3 음역 프롬프트를 반환해야 함', () => {
+        const prompt = getSystemPrompt('ck3', true)
+        
+        expect(prompt).toBe(CK3_TRANSLITERATION_PROMPT)
+      })
 
-    it('VIC3 게임 타입에 대해 VIC3 프롬프트를 반환해야 함', () => {
-      const prompt = getSystemPrompt('vic3')
-      
-      expect(prompt).toBe(VIC3_SYSTEM_PROMPT)
+      it('Stellaris 음역 모드에 대해 Stellaris 음역 프롬프트를 반환해야 함', () => {
+        const prompt = getSystemPrompt('stellaris', true)
+        
+        expect(prompt).toBe(STELLARIS_TRANSLITERATION_PROMPT)
+      })
+
+      it('VIC3 음역 모드에 대해 VIC3 음역 프롬프트를 반환해야 함', () => {
+        const prompt = getSystemPrompt('vic3', true)
+        
+        expect(prompt).toBe(VIC3_TRANSLITERATION_PROMPT)
+      })
     })
 
     it('지원하지 않는 게임 타입에 대해 오류를 발생시켜야 함', () => {

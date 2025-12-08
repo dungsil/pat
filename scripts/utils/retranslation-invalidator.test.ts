@@ -19,30 +19,4 @@ describe('재번역 무효화', () => {
       expect(() => getLocalizationFolderName('invalid' as any)).toThrow('Unsupported game type: invalid')
     })
   })
-
-  describe('파일명 변환 규칙', () => {
-    it('원본 파일명에 ___ 접두사를 추가하고 언어를 변경해야 함', () => {
-      // 파일명 변환 규칙 검증: event_l_english.yml → ___event_l_korean.yml
-      const sourceFile = 'event_l_english.yml'
-      const sourceLanguage = 'english'
-      
-      const targetFileName = '___' + sourceFile.replace(`_l_${sourceLanguage}.yml`, '_l_korean.yml')
-      
-      expect(targetFileName).toBe('___event_l_korean.yml')
-    })
-
-    it('replace 경로를 포함한 locPath는 korean/replace로 매핑되어야 함', () => {
-      // replace 경로 처리 규칙 검증:
-      // - locPath에 'replace' 포함 시: korean/replace
-      // - locPath에 'replace' 미포함 시: korean
-      const locPathWithReplace = 'localization/replace'
-      const locPathWithoutReplace = 'localization/english'
-      
-      const targetPathWithReplace = locPathWithReplace.includes('replace') ? 'korean/replace' : 'korean'
-      const targetPathWithoutReplace = locPathWithoutReplace.includes('replace') ? 'korean/replace' : 'korean'
-      
-      expect(targetPathWithReplace).toBe('korean/replace')
-      expect(targetPathWithoutReplace).toBe('korean')
-    })
-  })
 })
