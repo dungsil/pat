@@ -110,7 +110,73 @@ pnpm exec tsc --noEmit scripts/utils/ai.ts
 
 ### 3. 테스트
 
-현재 프로젝트에는 자동화된 테스트가 없습니다. 수동 테스트를 수행하세요:
+이 프로젝트는 Vitest를 사용하여 자동화된 테스트를 제공합니다.
+
+#### 테스트 실행
+
+```bash
+# 전체 테스트 실행
+pnpm test
+
+# 특정 테스트 파일 실행
+pnpm test -- prompts
+
+# 워치 모드로 테스트 실행
+pnpm test:watch
+
+# 커버리지와 함께 테스트 실행
+pnpm test:coverage
+```
+
+#### 테스트 작성 원칙
+
+**제거/작성하지 말아야 할 테스트:**
+- 라이브러리/OS API 래퍼 동작 테스트 (예: 해시 라이브러리의 유니코드 처리, 파일 시스템 호출)
+- 타이밍/구현 세부사항 테스트 (예: 재시도 백오프 간격, 속도 제한 타이밍)
+- 정적 문자열 내용 검증 테스트 (예: 프롬프트에 특정 키워드 포함 여부)
+
+**작성해야 할 테스트:**
+- 비즈니스 로직 및 애플리케이션 동작 테스트
+- 함수 로직 테스트 (입력에 따른 출력, 오류 처리)
+- 데이터 변환 테스트 (파일명 변환, 경로 매핑 등)
+
+#### 테스트 예제
+
+```typescript
+// ✅ 좋은 예: 비즈니스 로직 테스트
+describe('getLocalizationFolderName', () => {
+  it('CK3는 localization 폴더를 반환해야 함', () => {
+    expect(getLocalizationFolderName('ck3')).toBe('localization')
+  })
+  
+  it('Stellaris는 localisation 폴더를 반환해야 함', () => {
+    expect(getLocalizationFolderName('stellaris')).toBe('localisation')
+  })
+  
+  it('지원하지 않는 게임 타입에 대해 오류를 발생시켜야 함', () => {
+    expect(() => getLocalizationFolderName('invalid')).toThrow()
+  })
+})
+
+// ❌ 나쁜 예: 정적 문자열 내용 검증
+describe('프롬프트 내용', () => {
+  it('프롬프트에 특정 키워드가 포함되어야 함', () => {
+    expect(PROMPT).toContain('Translation Instructions')  // 비즈니스 로직 아님
+  })
+})
+
+// ❌ 나쁜 예: 라이브러리 래퍼 동작
+describe('해싱', () => {
+  it('유니코드 문자를 처리할 수 있어야 함', () => {
+    // xxhash 라이브러리의 동작을 테스트하는 것
+    expect(hashing('한글')).toBeTruthy()
+  })
+})
+```
+
+#### 수동 통합 테스트
+
+자동화된 단위 테스트 외에도 수동 통합 테스트를 수행할 수 있습니다:
 
 ```bash
 # 로컬 테스트 모드 생성
@@ -134,6 +200,7 @@ pnpm ck3
 # 결과 확인
 cat ck3/TestMod/mod/localization/korean/___test_l_korean.yml
 ```
+
 
 ### 4. 코드 리뷰 준비
 
