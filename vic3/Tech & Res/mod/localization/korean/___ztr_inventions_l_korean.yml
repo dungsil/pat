@@ -466,3 +466,4 @@
   cryptographic_communication_desc: "제2차 세계 대전 중 적절히 활용된 이후, 암호 통신 기술은 현저히 발전하였으며 이제 민감한 정보를 보다 안전하게 보호하고 기밀 통신을 용이하게 하기 위해 다양한 민간 분야에서 널리 사용되고 있습니다." # 13198040295552047232
   increase_nuclear_strike_power_bool_tt: "#v Increase#! 시 귀하의 #negative_value 핵 공격력#이 일정량 #v Increase#!될 것입니다." # 9605969785257657595
   increase_nuclear_strike_defence_bool_tt: "#v Increase#! 시 귀하의 #blue_value 핵 공격 방어#!가 일정량만큼 증가할 것입니다." # 14499746221696550840
+  country_disable_greener_grass_campaign_bool_tt: "'더 푸른 초원 캠페인' [concept_decree]을 #r 비활성화#할 것인데, 이는 사람들이 더 이상 농촌 지역으로 이주하기를 원치 않기 때문입니다." # 10124811514343012832

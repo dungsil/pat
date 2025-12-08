@@ -104,3 +104,4 @@
   ztr_je_russian_absolutism_government_petition_status: "[SCOPE.gsInterestGroup('government_petition_ig').GetName]이 [SCOPE.sLaw('government_petition_law').GetName]의 통과를 청원하고 있습니다. #negative_value 공산주의자#!들에 대항하여 그들의 지지를 얻으려면, 우리는 그들의 요구를 진지하게 고려해야만 합니다." # 3216646127680842041
   ztr_je_russian_absolutism_government_petition_reason: "[SCOPE.gsInterestGroup('government_petition_ig').GetName]이 [SCOPE.sLaw('government_petition_law').GetName]의 통과를 청원하고 있습니다.\n\n[SCOPE.sLaw('government_petition_law').GetName]이 성공적으로 통과되면, #gold_value 자유주의자들#!은 크게 기뻐할 것이며, [ROOT.GetCountry.GetName]의 질서와 안정을 유지하려는 우리의 노력에 지지를 제공할 수도 있습니다." # 10438582578139570388
   ztr_tooltip_russia_loses_european_periphery: "[ROOT.GetCountry.GetName]은 유럽 통제 변방을 #negative_value 상실할# 것입니다." # 6403648657355501836
+  research_center_can_construct_tt: "연구소를 위한 적절한 부지를 확인하고 측량했습니다." # 5608323372346021698
