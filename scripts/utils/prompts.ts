@@ -57,32 +57,12 @@ ensuring historical accuracy and game-specific nuances while adhering to strict 
 10. Romanize non-Korean proper nouns using the official Korean romanization system:
     - Example: "Blemmye" → "블렘미", "Karakoram" → "카라코람"
 
-11. When translating place names or titles, use the Korean equivalent if commonly recognized, otherwise transliterate:
-    - Example: "France" → "프랑스", but "Elephantine" → "엘레판티네"
+11. Use “그” for gender-specific nouns
 
-12. Use “그” for gender-specific nouns
-
-13. Every character the user types is a string that needs to be translated. Translate them all if the user types them.
-    Simple affirmations (Ok, I got it), exclamations (Excellent!), or strings like “Yu” are all sentences that need to be translated.
-    Short, non-meaningful strings are usually specific proper names, such as family names, people's names, etc.
-    If you don't understand the meaning, translate it exactly as it's pronounced.
-
-14. When translating short words that appear to be proper nouns (especially dynasty/family name prefixes), prefer phonetic transliteration over dictionary translation:
-    - Preferred: "ui" → "우이", "of" → "오브", "del" → "델", "du" → "두", "as-" → "앗-", "z" → "즈"
-    - Avoid: "ui" → "사용자 인터페이스", "of" → "의", "del" → "삭제", "du" → "당신"
-
-15. For dynasty/family names, transliterate the name itself without adding explanatory Korean suffixes unless the context requires it:
-    - Preferred: "Abbadid" → "압바드", "Aghlabid" → "아글라브", "Ahmadid" → "아흐마드"
-    - Avoid: "Abbadid" → "압바드 왕조", "Aghlabid" → "아글라브 왕조" (unless context requires clarification)
-
-16. For very short words (1-3 letters) that could be proper names, consider phonetic transliteration when the context suggests they are names rather than common words:
-    - Context-appropriate: "Are" (as name) → "아레", "Altar" (as place name) → "알터"
-    - But use semantic translation if context clearly indicates: "are" (in a sentence) may need contextual translation
-
-17. every medieval demonym (adjective/noun) into the corresponding Korean country, people, or cultural name; strip all English suffixes.
+12. every medieval demonym (adjective/noun) into the corresponding Korean country, people, or cultural name; strip all English suffixes.
     - Examples: "English" → "잉글랜드", "French" → "프랑스", "Polish" → "폴란드", "Hungarian" → "헝가리", "Norwegian" → "노르웨이"
 
-18. "The" is generally omitted in Korean, so do not force a translation. "The Kingdom" should be translated as "왕국".
+13. "The" is generally omitted in Korean, so do not force a translation. "The Kingdom" should be translated as "왕국".
 
 ### Example Translation:
 Original: "The #bold High King# of $k_ireland$ has called a grand feast at [county.GetName]!"
@@ -170,25 +150,9 @@ ensuring scientific accuracy and futuristic nuances while adhering to strict for
 10. Romanize alien species names and proper nouns using the official Korean romanization system:
     - Example: "Klaxon" → "클락손", "Vultaum" → "불타움"
 
-11. When translating place names or technologies, use the Korean equivalent if commonly recognized, otherwise transliterate:
-    - Example: "Sol System" → "태양계", but "Kepler-442" → "케플러-442"
+11. Use "그" for gender-specific nouns when appropriate
 
-12. Use "그" for gender-specific nouns when appropriate
-
-13. Every character the user types is a string that needs to be translated. Translate them all if the user types them.
-    Simple affirmations (Ok, I got it), exclamations (Excellent!), or strings like "Zroni" are all sentences that need to be translated.
-    Short, non-meaningful strings are usually specific proper names, such as species names, planet names, etc.
-    If you don't understand the meaning, translate it exactly as it's pronounced.
-
-14. When translating short words that appear to be proper nouns, prefer phonetic transliteration over dictionary translation:
-    - Preferred: "ui" → "우이", "of" → "오브", "del" → "델", "du" → "두"
-    - Avoid: "ui" → "사용자 인터페이스", "of" → "의", "del" → "삭제", "du" → "당신"
-
-15. For very short words (1-3 letters) that could be proper names, consider phonetic transliteration when the context suggests they are names:
-    - Context-appropriate: "Are" (as name) → "아레", "Altar" (as place name) → "알터"
-    - But use semantic translation if context clearly indicates common usage
-
-16. Technical identifiers containing underscores or following naming conventions (e.g., snake_case like "com_icon_*", "mod_*") should NOT be translated - keep them exactly as-is:
+12. Technical identifiers containing underscores or following naming conventions (e.g., snake_case like "com_icon_*", "mod_*") should NOT be translated - keep them exactly as-is:
     - CORRECT: "com_icon_rise_of_communism" → "com_icon_rise_of_communism"
     - WRONG: "com_icon_rise_of_communism" → "공산주의_봉기_아이콘"
 
@@ -273,25 +237,9 @@ ensuring historical accuracy and period-appropriate nuances while adhering to st
 10. Romanize non-Korean proper nouns using the official Korean romanization system:
     - Example: "Prussia" → "프로이센", "Ottoman Empire" → "오스만 제국"
 
-11. When translating place names or technologies, use the Korean equivalent if commonly recognized, otherwise transliterate:
-    - Example: "United Kingdom" → "영국", but "Tanganyika" → "탕가니카"
+11. Use "그" for gender-specific nouns when appropriate
 
-12. Use "그" for gender-specific nouns when appropriate
-
-13. Every character the user types is a string that needs to be translated. Translate them all if the user types them.
-    Simple affirmations (Ok, I got it), exclamations (Excellent!), or strings like "Bismarck" are all sentences that need to be translated.
-    Short, non-meaningful strings are usually specific proper names, such as country names, leader names, etc.
-    If you don't understand the meaning, translate it exactly as it's pronounced.
-
-14. When translating short words that appear to be proper nouns, prefer phonetic transliteration over dictionary translation:
-    - Preferred: "ui" → "우이", "of" → "오브", "del" → "델", "du" → "두"
-    - Avoid: "ui" → "사용자 인터페이스", "of" → "의", "del" → "삭제", "du" → "당신"
-
-15. For very short words (1-3 letters) that could be proper names, consider phonetic transliteration when the context suggests they are names:
-    - Context-appropriate: "Are" (as name) → "아레", "Altar" (as place name) → "알터"
-    - But use semantic translation if context clearly indicates common usage
-
-16. Technical identifiers containing underscores or following naming conventions (e.g., snake_case like "com_icon_*", "mod_*") should NOT be translated - keep them exactly as-is:
+12. Technical identifiers containing underscores or following naming conventions (e.g., snake_case like "com_icon_*", "mod_*") should NOT be translated - keep them exactly as-is:
     - CORRECT: "com_icon_rise_of_communism" → "com_icon_rise_of_communism"
     - WRONG: "com_icon_rise_of_communism" → "공산주의_봉기_아이콘"
 
