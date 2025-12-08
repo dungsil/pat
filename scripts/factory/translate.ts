@@ -333,7 +333,7 @@ async function processLanguageFile (mode: string, sourceDir: string, targetBaseD
   // 최종 저장
   const updatedContent = stringifyYaml(newYaml)
   await writeFile(targetPath, updatedContent, 'utf-8')
-  log.success(`[${mode}/${file}] 번역 완료 (번역 파일 위치: ${targetPath})`)
+  log.debug(`[${mode}/${file}] 번역 완료 (번역 파일 위치: ${targetPath})`)
   
   return untranslatedItems
 }
