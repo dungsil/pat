@@ -22,13 +22,14 @@ describe('재번역 무효화', () => {
 
   describe('파일명 변환 규칙', () => {
     it('원본 파일명에 ___ 접두사를 추가하고 언어를 변경해야 함', () => {
-      // 실제 로직 테스트: invalidateModLocalization에서 파일명 변환
-      // targetFileName = '___' + base.replace(`_l_${sourceLanguage}.yml`, '_l_korean.yml')
-      // 여기서는 base 대신 sourceFile을 사용하여 동일한 변환 로직을 검증
-      const sourceFile = 'event_l_english.yml'
+      // 실제 구현에서 invalidateModLocalization은 다음과 같이 파일명을 변환:
+      // const { dir, base } = parse(file)
+      // const targetFileName = '___' + base.replace(`_l_${sourceLanguage}.yml`, '_l_korean.yml')
+      // 
+      // 이 테스트는 파일의 base name에 대해 동일한 변환 로직을 검증
+      const sourceFile = 'event_l_english.yml'  // base name 역할
       const sourceLanguage = 'english'
       
-      // 실제 비즈니스 로직을 시뮬레이션
       const targetFileName = '___' + sourceFile.replace(`_l_${sourceLanguage}.yml`, '_l_korean.yml')
       
       expect(targetFileName).toBe('___event_l_korean.yml')
