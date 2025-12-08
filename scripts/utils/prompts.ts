@@ -498,8 +498,11 @@ export function shouldUseTransliteration(filename: string): boolean {
   const lowerFilename = filename.toLowerCase()
   
   // 음역 대상 키워드 목록
-  // Note: 'character_name'은 'character_name_list' 등의 패턴을 잡기 위해 유지
-  // 'name_list'는 'name_lists'로 대체 가능하지만, 명시성을 위해 유지
+  // - 'culture', 'cultures': 문화 이름 파일 (예: rice_cultures_l_english.yml)
+  // - 'dynasty', 'dynasties': 왕조 이름 파일 (예: wap_dynasty_names_l_english.yml)
+  // - 'names': 이름 파일 (예: RICE_sea_character_names_l_english.yml)
+  // - 'character_name': 단수형 패턴 (예: character_name_list_l_english.yml)
+  // - 'name_list': 이름 목록 파일 (예: culture_name_lists_l_english.yml)
   const transliterationKeywords = [
     'culture',
     'cultures',

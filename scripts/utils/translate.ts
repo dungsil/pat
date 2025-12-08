@@ -187,6 +187,7 @@ export async function translate (text: string, gameType: GameType = 'ck3', retry
 
   // 캐시에 이미 번역된 텍스트가 있는 경우 캐시에서 반환
   // 음역 모드가 활성화된 경우 캐시 키에 접미사 추가하여 별도로 관리
+  // Note: cacheKey를 일관되게 사용하여 번역/음역 모드별 캐시를 분리
   const cacheKey = useTransliteration ? `${normalizedText}__TRANSLITERATION__` : normalizedText
   
   if (await hasCache(cacheKey, gameType)) {
@@ -195,6 +196,7 @@ export async function translate (text: string, gameType: GameType = 'ck3', retry
     if (cached) {
       const sanitizedCached = sanitizeTranslationText(cached)
 
+      // 캐시 내용이 sanitize되었으면 같은 cacheKey로 업데이트
       if (sanitizedCached !== cached) {
         await setCache(cacheKey, sanitizedCached, gameType)
       }
