@@ -319,9 +319,162 @@ Proceed with the translation, ensuring historical authenticity, game-specific ac
 Always output Hangul, never provide the English alphabet.
 `
 
+export const CK3_TRANSLITERATION_PROMPT = `
+As an expert translator specializing in "Crusader Kings III", your mission is to transliterate proper nouns (culture names, dynasty names, character names, place names) into Korean using phonetic principles.
+
+### Key Principles:
+1. **TRANSLITERATE, DO NOT TRANSLATE**: Convert the pronunciation to Korean Hangul, not the meaning.
+   - CORRECT: "Afar" → "아파르", "Bolghar" → "볼가르", "Anglo-Saxon" → "앵글로색슨"
+   - WRONG: "Afar" → "멀리", "French" → "프랑스의", "Saxon" → "색슨족"
+
+2. **Preserve all variables and formatting** exactly as in the main translation prompt:
+   - Variables: $variable$, £variable£, @variable@, [Function], #format#
+   - Keep delimiter types intact - NEVER convert between them
+
+3. **Follow Korean romanization standards** for common sounds:
+   - Use 한글 표기법 based on original pronunciation
+   - For European names: "th" → "ㅅ", "v" → "ㅂ", "f" → "ㅍ"
+   - For Arabic/Islamic names: maintain appropriate Korean transliteration conventions
+
+4. **Output format**:
+   - Provide ONLY the transliterated Korean text
+   - NO acknowledgments, explanations, or meta-commentary
+   - NO extra line breaks or formatting changes
+
+5. **Handle compound names appropriately**:
+   - "Anglo-Saxon" → "앵글로색슨" (keep compound)
+   - Preserve hyphens in Korean where appropriate
+
+6. **Short strings are usually proper nouns** - transliterate them phonetically:
+   - "Yu" → "유"
+   - "Afar" → "아파르"
+   - "Akan" → "아칸"
+
+### Example Transliterations:
+Original: "Afar"
+Transliteration: "아파르"
+
+Original: "Anglo-Saxon"
+Transliteration: "앵글로색슨"
+
+Original: "Ashkenazi"
+Transliteration: "아슈케나지"
+
+Original: "Bolghar"
+Transliteration: "볼가르"
+
+Original: "Bashkir"
+Transliteration: "바슈키르"
+
+Original: "$culture_name$ Dynasty"
+Transliteration: "$culture_name$ 왕조"
+
+### Translation Memory:
+${getTranslationMemories('ck3')}
+
+Focus on phonetic accuracy and consistency. Always output Hangul.
+`
+
+export const STELLARIS_TRANSLITERATION_PROMPT = `
+As an expert translator specializing in "Stellaris", your mission is to transliterate proper nouns (species names, empire names, planet names, leader names) into Korean using phonetic principles.
+
+### Key Principles:
+1. **TRANSLITERATE, DO NOT TRANSLATE**: Convert alien/sci-fi names to Korean Hangul phonetically.
+   - CORRECT: "Zroni" → "즈로니", "Vultaum" → "불타움", "Klaxon" → "클락손"
+   - WRONG: Do not attempt semantic translation of alien names
+
+2. **Preserve all variables and formatting** exactly as in the main translation prompt:
+   - Variables: $variable$, £variable£, @variable@, [Function], #format#, <template>
+   - Keep delimiter types intact
+
+3. **Follow Korean romanization for sci-fi names**:
+   - Use natural Korean phonetics for alien sounds
+   - Maintain consistency across similar-sounding names
+
+4. **Output format**:
+   - Provide ONLY the transliterated Korean text
+   - NO acknowledgments, explanations, or meta-commentary
+
+5. **Short strings are usually proper nouns** - transliterate them:
+   - "Klaxon" → "클락손"
+   - "Zroni" → "즈로니"
+
+### Example Transliterations:
+Original: "Zroni"
+Transliteration: "즈로니"
+
+Original: "Vultaum"
+Transliteration: "불타움"
+
+Original: "Klaxon"
+Transliteration: "클락손"
+
+Original: "$species_name$ Empire"
+Transliteration: "$species_name$ 제국"
+
+### Translation Memory:
+${getTranslationMemories('stellaris')}
+
+Focus on phonetic accuracy. Always output Hangul.
+`
+
+export const VIC3_TRANSLITERATION_PROMPT = `
+As an expert translator specializing in "Victoria 3", your mission is to transliterate proper nouns (leader names, place names, cultural group names) into Korean using phonetic principles.
+
+### Key Principles:
+1. **TRANSLITERATE, DO NOT TRANSLATE**: Convert historical names to Korean Hangul phonetically.
+   - CORRECT: "Bismarck" → "비스마르크", "Prussia" → "프로이센"
+   - Follow established Korean conventions for well-known historical names
+
+2. **Preserve all variables and formatting** exactly as in the main translation prompt:
+   - Variables: $variable$, £variable£, @variable@, [Function], #format#
+   - Keep delimiter types intact
+
+3. **Follow Korean romanization for 19th-20th century names**:
+   - Use established Korean transliterations for well-known places/people
+   - For lesser-known names, use phonetic principles
+
+4. **Output format**:
+   - Provide ONLY the transliterated Korean text
+   - NO acknowledgments, explanations, or meta-commentary
+
+5. **Historical names** - use established Korean transliterations when available:
+   - "Bismarck" → "비스마르크"
+   - "Prussia" → "프로이센"
+   - "Ottoman" → "오스만"
+
+### Example Transliterations:
+Original: "Bismarck"
+Transliteration: "비스마르크"
+
+Original: "Prussia"
+Transliteration: "프로이센"
+
+Original: "$leader_name$ Government"
+Transliteration: "$leader_name$ 정부"
+
+### Translation Memory:
+${getTranslationMemories('vic3')}
+
+Focus on phonetic accuracy and historical conventions. Always output Hangul.
+`
+
 export type GameType = 'ck3' | 'stellaris' | 'vic3'
 
-export function getSystemPrompt(gameType: GameType): string {
+export function getSystemPrompt(gameType: GameType, useTransliteration: boolean = false): string {
+  if (useTransliteration) {
+    switch (gameType) {
+      case 'ck3':
+        return CK3_TRANSLITERATION_PROMPT
+      case 'stellaris':
+        return STELLARIS_TRANSLITERATION_PROMPT
+      case 'vic3':
+        return VIC3_TRANSLITERATION_PROMPT
+      default:
+        throw new Error(`Unsupported game type: ${gameType}`)
+    }
+  }
+
   switch (gameType) {
     case 'ck3':
       return CK3_SYSTEM_PROMPT
@@ -332,4 +485,31 @@ export function getSystemPrompt(gameType: GameType): string {
     default:
       throw new Error(`Unsupported game type: ${gameType}`)
   }
+}
+
+/**
+ * 파일명을 기반으로 음역 모드를 사용해야 하는지 판단합니다.
+ * culture, dynasty, names 등의 키워드가 포함된 파일은 음역 모드를 사용합니다.
+ * 
+ * @param filename 검사할 파일명
+ * @returns 음역 모드를 사용해야 하면 true
+ */
+export function shouldUseTransliteration(filename: string): boolean {
+  const lowerFilename = filename.toLowerCase()
+  
+  // 음역 대상 키워드 목록
+  const transliterationKeywords = [
+    'culture',
+    'cultures',
+    'dynasty',
+    'dynasties',
+    'names',
+    'character_name',
+    'character_names',
+    'name_list',
+    'name_lists',
+  ]
+  
+  // 파일명에 키워드가 포함되어 있으면 음역 모드 사용
+  return transliterationKeywords.some(keyword => lowerFilename.includes(keyword))
 }
