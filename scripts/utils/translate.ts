@@ -187,9 +187,9 @@ export async function translate (text: string, gameType: GameType = 'ck3', retry
 
   // 캐시에 이미 번역된 텍스트가 있는 경우 캐시에서 반환
   // 음역 모드가 활성화된 경우 캐시 키에 음역 prefix 추가하여 별도로 관리
-  // 캐시 키 구조 (모든 게임 통일):
-  // - 번역: "gameType:text"
-  // - 음역: "gameType:transliteration:text"
+  // 캐시 키 구조 (모든 게임 통일, 실제 캐시 키는 cache.ts의 getCacheKey()에서 gameType: prefix가 추가됨):
+  // - 번역: "gameType:text" (예: "ck3:Hello World")
+  // - 음역: "gameType:transliteration:text" (예: "ck3:transliteration:Afar")
   const transliterationPrefix = useTransliteration ? 'transliteration:' : ''
   const cacheKey = `${transliterationPrefix}${normalizedText}`
   
