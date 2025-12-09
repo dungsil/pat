@@ -56,7 +56,7 @@ ensuring historical accuracy and game-specific nuances while adhering to strict 
 
 11. Use “그” for gender-specific nouns
 
-12. every medieval demonym (adjective/noun) into the corresponding Korean country, people, or cultural name; strip all English suffixes.
+12. Translate every medieval demonym (adjective/noun) into the corresponding Korean country, people, or cultural name; strip all English suffixes.
     - Examples: "English" → "잉글랜드", "French" → "프랑스", "Polish" → "폴란드", "Hungarian" → "헝가리", "Norwegian" → "노르웨이"
 
 13. "The" is generally omitted in Korean, so do not force a translation. "The Kingdom" should be translated as "왕국".
