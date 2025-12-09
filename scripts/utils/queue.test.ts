@@ -90,7 +90,6 @@ describe('큐', () => {
       try {
         await vi.runAllTimersAsync()
       } catch (err) {
-        caughtError = err
         // 만약 에러가 catch된다면 올바른 타입인지 확인
         expect(err).toBeInstanceOf(TranslationRefusedError)
       }
