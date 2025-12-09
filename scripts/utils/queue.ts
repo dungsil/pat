@@ -51,7 +51,7 @@ async function processQueue (): Promise<void> {
       while (translationQueue.length > 0) {
         const remainingTask = translationQueue.shift()
         if (remainingTask) {
-          remainingTask.reject(new Error('큐 처리가 이전 에러로 인해 중단됨'))
+          remainingTask.reject(new Error('큐 처리가 이전 에러로 인해 중단됨', { cause: error }))
         }
       }
       isProcessing = false
