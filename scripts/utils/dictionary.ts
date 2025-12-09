@@ -24,7 +24,7 @@ function loadDictionaryFromFile(filename: string): Record<string, string> {
       if (typeof value === 'string') {
         dict[key] = value
       } else {
-        console.warn(`Skipping non-string value in ${filename}: ${key} (type: ${typeof value})`)
+        console.warn(`[dictionary] 비문자열 값을 건너뜁니다: ${filename}의 ${key} (타입: ${typeof value})`)
       }
     }
     

@@ -26,7 +26,7 @@ function loadPromptFromFile(filename: string, gameType: GameType): string {
     
     return content
   } catch (error: any) {
-    throw new Error(`Failed to load prompt from ${filename}: ${error.message}\nExpected path: ${filePath}`)
+    throw new Error(`프롬프트 로드 실패: ${filename}: ${error.message}\n예상 경로: ${filePath}`)
   }
 }
 
