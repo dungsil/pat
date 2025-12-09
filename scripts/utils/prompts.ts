@@ -10,10 +10,12 @@ export type { GameType }
 const projectRoot = join(import.meta.dirname, '../..')
 
 /**
- * Markdown 파일에서 프롬프트를 로드합니다.
- * @param filename 파일명 (prompts/ 디렉토리 기준 상대 경로)
- * @param gameType 게임 타입 (번역 메모리 치환용)
- * @returns 프롬프트 문자열
+ * Load a Markdown prompt from the repository prompts directory and apply template substitutions.
+ *
+ * @param filename - Path to the prompt file relative to the `prompts/` directory
+ * @param gameType - Game type used to generate translation memory and proper-noun substitutions
+ * @returns The prompt content with `{{TRANSLATION_MEMORY}}` and `{{PROPER_NOUNS_DICTIONARY}}` replaced
+ * @throws Error if the file cannot be read or processing fails
  */
 function loadPromptFromFile(filename: string, gameType: GameType): string {
   const filePath = join(projectRoot, 'prompts', filename)
@@ -31,9 +33,10 @@ function loadPromptFromFile(filename: string, gameType: GameType): string {
 }
 
 /**
- * 고유명사 사전을 음역 프롬프트용 포맷으로 변환합니다.
- * @param gameType 게임 타입
- * @returns 포맷팅된 고유명사 사전 문자열
+ * Produce a string of proper-noun examples formatted for inclusion in transliteration prompts.
+ *
+ * @param gameType - The game identifier used to select which proper-noun dictionary to format
+ * @returns A newline-joined list of entries in the form ` - "key" → "value"`, or the placeholder `"(No transliteration examples available for this game yet)"` if the dictionary is empty
  */
 function getProperNounsForPrompt(gameType: GameType): string {
   const properNouns = getProperNouns(gameType)
@@ -54,6 +57,16 @@ export const CK3_TRANSLITERATION_PROMPT = loadPromptFromFile('ck3-transliteratio
 export const STELLARIS_TRANSLITERATION_PROMPT = loadPromptFromFile('stellaris-transliteration.md', 'stellaris')
 export const VIC3_TRANSLITERATION_PROMPT = loadPromptFromFile('vic3-transliteration.md', 'vic3')
 
+/**
+ * Selects the appropriate system prompt for a given game.
+ *
+ * When `useTransliteration` is true, returns the game's transliteration prompt; otherwise returns the standard system prompt.
+ *
+ * @param gameType - The game identifier ('ck3', 'stellaris', or 'vic3')
+ * @param useTransliteration - If true, return the transliteration prompt instead of the standard prompt
+ * @returns The prompt text for the requested game and mode
+ * @throws Error if `gameType` is not supported
+ */
 export function getSystemPrompt(gameType: GameType, useTransliteration: boolean = false): string {
   if (useTransliteration) {
     switch (gameType) {

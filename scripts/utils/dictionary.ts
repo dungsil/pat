@@ -8,9 +8,13 @@ import { join } from 'node:path'
 const projectRoot = join(import.meta.dirname, '../..')
 
 /**
- * TOML 파일에서 단어사전을 로드합니다.
- * @param filename 파일명 (dictionaries/ 디렉토리 기준 상대 경로)
- * @returns 단어사전 객체
+ * Load a dictionary from a TOML file in the module's dictionaries directory.
+ *
+ * Parses the TOML file and returns an object containing only entries whose values are strings.
+ *
+ * @param filename - File name relative to the `dictionaries/` directory
+ * @returns A mapping of dictionary keys to their string values
+ * @throws Error if the file cannot be read or the TOML cannot be parsed
  */
 function loadDictionaryFromFile(filename: string): Record<string, string> {
   const filePath = join(projectRoot, 'dictionaries', filename)

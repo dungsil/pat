@@ -189,8 +189,14 @@ async function findUpstreamEnglishFile(koreanFilePath: string, gameType: string)
 }
 
 /**
- * 딕셔너리 파일에 새로운 항목들을 추가합니다.
- * TOML 파일로 직접 추가합니다.
+ * Append new localization entries to game-specific TOML dictionary files.
+ *
+ * Skips entries whose keys already exist (case-insensitive). CK3 entries are appended to
+ * dictionaries/ck3-glossary.toml (proper-nouns are not relocated automatically); other game
+ * entries are appended to dictionaries/{game}.toml. Keys and values are escaped and written
+ * as TOML string key/value pairs.
+ *
+ * @param entries - Array of dictionary entries to add; duplicate keys are ignored
  */
 async function addEntriesToDictionary(entries: DictionaryEntry[]): Promise<void> {
   if (entries.length === 0) {
@@ -284,6 +290,11 @@ async function addEntriesToDictionary(entries: DictionaryEntry[]): Promise<void>
   log.success('딕셔너리 파일 업데이트 완료')
 }
 
+/**
+ * Orchestrates the CLI workflow to extract dictionary entries from a git commit and append them to game-specific TOML dictionary files.
+ *
+ * Reads the commit ID from the second command-line argument. If `--help` or `-h` is provided, prints usage information and exits with code 0. If the commit ID is missing, prints usage guidance and exits with code 1. Otherwise, extracts dictionary changes from the specified commit, appends new entries to the appropriate TOML files, and logs completion. On any runtime error, logs the error and exits with code 1.
+ */
 async function main() {
   try {
     const commitId = process.argv[2]
