@@ -343,6 +343,32 @@ pnpm ck3:update-dict -- --since-commit HEAD
 pnpm ck3
 ```
 
+### GitHub Actions Workflows
+
+The project uses separate GitHub Actions workflows for different translation invalidation scenarios:
+
+**1. Dictionary Update Workflow** (`.github/workflows/invalidate-on-dictionary-update.yml`):
+- **Trigger**: Automatically runs when `scripts/utils/dictionary.ts` is modified and pushed to main
+- **Purpose**: Invalidates translations affected by dictionary changes
+- **Commands executed**: `pnpm {game}:update-dict -- --since-commit {sha}`
+- **Commit message**: "chore: 단어사전 업데이트에 따른 번역 무효화 [skip ci]"
+- **When to use**: When you add or modify translation dictionary entries
+
+**2. Retranslation Workflow** (`.github/workflows/retranslate-invalid-translations.yml`):
+- **Trigger**: Runs on schedule (weekly, every Sunday at midnight) or manual dispatch
+- **Purpose**: Finds and re-translates items that failed validation rules
+- **Commands executed**: `pnpm {game}:retranslate`
+- **Commit message**: "chore: 유효하지 않은 번역 재번역 [skip ci]"
+- **When to use**: To periodically clean up incorrectly translated items (e.g., items with untranslated technical identifiers)
+
+**3. Game Translation Workflows** (`.github/workflows/translate-{game}.yml`):
+- **Trigger**: Runs on schedule (hourly at different minutes) or when upstream files change
+- **Purpose**: Main translation process for each game
+- **Commands executed**: `pnpm {game}`
+- **Commit message**: "chore({game}): 번역 파일 업데이트 [skip ci]"
+
+**Concurrency control**: All workflows use the same `translation` concurrency group to prevent simultaneous execution, ensuring commits remain clear and separate.
+
 ### Code Style Guidelines
 
 **Important**: All code comments and test names should be written in Korean.
