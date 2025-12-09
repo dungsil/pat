@@ -650,37 +650,7 @@ function validateTransliteration(
   sourceText: string,
   translatedText: string
 ): ValidationResult {
-  // 일반적인 한국어 단어 목록 (의미 번역에 자주 사용되는 단어들)
-  // 음역에는 거의 나타나지 않는 일상 단어들
-  const commonKoreanWords = [
-    '문화', '왕조', '이름', '사람', '사람들',
-    '나라', '국가', '왕국', '제국', '공화국',
-    '동쪽', '서쪽', '남쪽', '북쪽', '중앙',
-    '크다', '작다', '높다', '낮다', '멀다', '멀리', '가깝다',
-    '새로운', '오래된', '옛', '고대',
-    '바다', '산', '강', '숲', '평원', '사막',
-    '신성한', '거룩한', '성스러운',
-    '위대한', '강력한', '약한',
-    '빛', '어둠', '그림자',
-    '황금', '은', '철',
-    '붉은', '푸른', '검은', '하얀', '녹색',
-    '하늘', '땅', '불', '물', '바람',
-    '동부', '서부', '남부', '북부'
-  ]
-
-  const normalizedTranslation = translatedText.toLowerCase()
-  
-  // 1. 일반적인 한국어 단어가 포함되어 있는지 확인
-  for (const word of commonKoreanWords) {
-    if (normalizedTranslation.includes(word)) {
-      return {
-        isValid: false,
-        reason: `의미 번역 감지: "${word}" 포함 (음역 필요)`
-      }
-    }
-  }
-
-  // 2. 음절 수 차이 검증
+  // 음절 수 차이 검증
   // 원본 영어 단어의 음절 수와 한국어 음절 수가 크게 차이나면 의미 번역일 가능성
   const sourceLength = sourceText.replace(/[^a-zA-Z]/g, '').length
   const translationLength = translatedText.replace(/[^가-힣]/g, '').length

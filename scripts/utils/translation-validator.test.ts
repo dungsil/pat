@@ -1514,22 +1514,22 @@ describe('리터럴 텍스트와 완전한 변수가 인접한 패턴 처리', (
 })
 
 describe('음역 검증', () => {
-  describe('의미 번역 감지 (일반적인 한국어 단어)', () => {
-    it('일반적인 한국어 단어가 포함된 경우 의미 번역으로 감지해야 함', () => {
+  describe('의미 번역 감지 (음절 수 불균형)', () => {
+    it('짧은 원본에 대해 너무 긴 번역은 의미 번역으로 감지해야 함', () => {
       const sourceEntries = {
-        culture_1: ['Afar', ''],
-        culture_2: ['Eastern Bantu', '']
+        culture_1: ['Afar', ''], // 4글자
+        culture_2: ['Test', ''] // 4글자
       }
       const translationEntries = {
-        culture_1: ['멀리', 'hash1'], // "멀리" = "far away" (의미 번역)
-        culture_2: ['동부 반투', 'hash2'] // "동부" = "eastern" (의미 번역)
+        culture_1: ['아주아주아주먼매우먼곳의먼지역', 'hash1'], // 16글자 (4배)
+        culture_2: ['매우긴설명문장입니다정말긴데요', 'hash2'] // 15글자 (3.75배)
       }
       
       const result = validateTranslationEntries(sourceEntries, translationEntries, 'ck3', true)
       
       expect(result.length).toBe(2)
-      expect(result[0].reason).toContain('의미 번역 감지')
-      expect(result[1].reason).toContain('의미 번역 감지')
+      expect(result[0].reason).toContain('음절 수 불균형')
+      expect(result[1].reason).toContain('음절 수 불균형')
     })
 
     it('음역된 경우 유효한 것으로 수락해야 함', () => {
@@ -1547,34 +1547,6 @@ describe('음역 검증', () => {
       const result = validateTranslationEntries(sourceEntries, translationEntries, 'ck3', true)
       
       expect(result.length).toBe(0)
-    })
-
-    it('일반 단어가 포함된 경우 의미 번역으로 감지해야 함', () => {
-      const sourceEntries = {
-        dynasty_1: ['Golden', '']
-      }
-      const translationEntries = {
-        dynasty_1: ['황금색', 'hash1'] // "황금" 포함
-      }
-      
-      const result = validateTranslationEntries(sourceEntries, translationEntries, 'ck3', true)
-      
-      expect(result.length).toBe(1)
-      expect(result[0].reason).toContain('황금')
-    })
-
-    it('방향을 나타내는 단어가 포함된 경우 의미 번역으로 감지해야 함', () => {
-      const sourceEntries = {
-        culture_1: ['Northern', '']
-      }
-      const translationEntries = {
-        culture_1: ['북쪽 지역', 'hash1'] // "북쪽" 포함
-      }
-      
-      const result = validateTranslationEntries(sourceEntries, translationEntries, 'ck3', true)
-      
-      expect(result.length).toBe(1)
-      expect(result[0].reason).toContain('북쪽')
     })
   })
 
@@ -1613,14 +1585,13 @@ describe('음역 검증', () => {
         name_1: ['VeryLongNameExample', ''] // 19글자
       }
       const translationEntries = {
-        name_1: ['매우 긴 이름의 예시입니다', 'hash1'] // 긴 번역이지만 원본도 김
+        name_1: ['매우긴이름의예시입니다', 'hash1'] // 긴 번역이지만 원본도 김
       }
       
       const result = validateTranslationEntries(sourceEntries, translationEntries, 'ck3', true)
       
       // 원본이 10자 초과이므로 음절 수 검증 건너뜀
-      expect(result.length).toBe(1) // "이름" 키워드로 인해 의미 번역 감지
-      expect(result[0].reason).toContain('이름')
+      expect(result.length).toBe(0)
     })
   })
 
@@ -1670,26 +1641,26 @@ describe('음역 검증', () => {
 
     it('기존 검증 통과하고 음역 검증 실패 시 음역 오류를 반환해야 함', () => {
       const sourceEntries = {
-        culture_1: ['Afar', '']
+        culture_1: ['Test', ''] // 4글자
       }
       const translationEntries = {
-        culture_1: ['멀리', 'hash1'] // 기존 검증 OK, 음역 검증 실패
+        culture_1: ['매우긴설명문장입니다정말긴데요', 'hash1'] // 15글자 (기존 검증 OK, 음역 검증 실패)
       }
       
       const result = validateTranslationEntries(sourceEntries, translationEntries, 'ck3', true)
       
       expect(result.length).toBe(1)
-      expect(result[0].reason).toContain('의미 번역')
+      expect(result[0].reason).toContain('음절 수 불균형')
     })
   })
 
   describe('decisions/desc/event 키 제외', () => {
     it('decision 키워드가 포함된 키는 음역 검증을 건너뛰어야 함', () => {
       const sourceEntries = {
-        roman_culture_decision_desc: ['Roman culture conversion', '']
+        roman_culture_decision_desc: ['Very long decision description', '']
       }
       const translationEntries = {
-        roman_culture_decision_desc: ['로마 문화로 개종', 'hash1'] // "문화" 포함이지만 decision이므로 OK
+        roman_culture_decision_desc: ['매우긴결정설명문장입니다', 'hash1'] // 긴 텍스트지만 decision이므로 OK
       }
       
       const result = validateTranslationEntries(sourceEntries, translationEntries, 'ck3', true)
@@ -1699,10 +1670,10 @@ describe('음역 검증', () => {
 
     it('desc 키워드가 포함된 키는 음역 검증을 건너뛰어야 함', () => {
       const sourceEntries = {
-        heritage_desc: ['Eastern culture', '']
+        heritage_desc: ['Very long description text here', '']
       }
       const translationEntries = {
-        heritage_desc: ['동쪽 문화', 'hash1'] // "동쪽", "문화" 포함이지만 desc이므로 OK
+        heritage_desc: ['매우긴설명텍스트가여기있습니다', 'hash1'] // 긴 텍스트지만 desc이므로 OK
       }
       
       const result = validateTranslationEntries(sourceEntries, translationEntries, 'ck3', true)
@@ -1712,10 +1683,10 @@ describe('음역 검증', () => {
 
     it('event 키워드가 포함된 키는 음역 검증을 건너뛰어야 함', () => {
       const sourceEntries = {
-        culture_event_1: ['Ancient kingdom', '']
+        culture_event_1: ['Very long event description', '']
       }
       const translationEntries = {
-        culture_event_1: ['고대 왕국', 'hash1'] // "고대", "왕국" 포함이지만 event이므로 OK
+        culture_event_1: ['매우긴이벤트설명문장입니다', 'hash1'] // 긴 텍스트지만 event이므로 OK
       }
       
       const result = validateTranslationEntries(sourceEntries, translationEntries, 'ck3', true)
@@ -1725,24 +1696,24 @@ describe('음역 검증', () => {
 
     it('일반 culture/dynasty/names 키는 여전히 음역 검증을 수행해야 함', () => {
       const sourceEntries = {
-        heritage_name: ['Eastern', '']
+        heritage_name: ['Test', ''] // 4글자
       }
       const translationEntries = {
-        heritage_name: ['동쪽', 'hash1'] // "동쪽" 포함 - 의미 번역
+        heritage_name: ['매우긴설명문장입니다정말긴데요', 'hash1'] // 15글자 (4 * 3.75배 - 음절 수 불균형)
       }
       
       const result = validateTranslationEntries(sourceEntries, translationEntries, 'ck3', true)
       
       expect(result.length).toBe(1)
-      expect(result[0].reason).toContain('동쪽')
+      expect(result[0].reason).toContain('음절 수 불균형')
     })
 
     it('여러 제외 키워드가 있어도 하나만 매칭되면 건너뛰어야 함', () => {
       const sourceEntries = {
-        roman_culture_decision_event_desc: ['People and culture', '']
+        roman_culture_decision_event_desc: ['Long text', '']
       }
       const translationEntries = {
-        roman_culture_decision_event_desc: ['사람과 문화', 'hash1'] // decision+event+desc이므로 OK
+        roman_culture_decision_event_desc: ['매우긴텍스트입니다', 'hash1'] // decision+event+desc이므로 OK
       }
       
       const result = validateTranslationEntries(sourceEntries, translationEntries, 'ck3', true)
