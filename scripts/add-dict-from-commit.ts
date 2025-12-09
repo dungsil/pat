@@ -260,13 +260,15 @@ async function addEntriesToDictionary(entries: DictionaryEntry[]): Promise<void>
     // TOML 형식으로 새 항목 생성
     const newEntriesText = newEntries
       .map(entry => {
-        // TOML 문자열 이스케이프: 백슬래시, 따옴표, 개행, 탭, 캐리지 리턴
+        // TOML 문자열 이스케이프: 백슬래시, 따옴표, 개행, 탭, 캐리지 리턴, 폼 피드, 백스페이스
         const escapedValue = entry.value
           .replace(/\\/g, '\\\\')
           .replace(/"/g, '\\"')
           .replace(/\n/g, '\\n')
           .replace(/\t/g, '\\t')
           .replace(/\r/g, '\\r')
+          .replace(/\f/g, '\\f')
+          .replace(/\b/g, '\\b')
         // 키도 항상 따옴표로 감싸기 (특수문자, 공백 등 안전하게 처리)
         const escapedKey = entry.key
           .replace(/\\/g, '\\\\')
@@ -274,6 +276,8 @@ async function addEntriesToDictionary(entries: DictionaryEntry[]): Promise<void>
           .replace(/\n/g, '\\n')
           .replace(/\t/g, '\\t')
           .replace(/\r/g, '\\r')
+          .replace(/\f/g, '\\f')
+          .replace(/\b/g, '\\b')
         return `"${escapedKey}" = "${escapedValue}"`
       })
       .join('\n')
