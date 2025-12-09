@@ -1,111 +1,119 @@
-import { describe, it, expect, vi, beforeEach, afterEach } from 'vitest'
-import { addQueue } from './queue'
+import { describe, expect, it, vi, beforeEach } from 'vitest'
 import { TranslationRefusedError } from './ai'
 
-// 테스트 중 로그 출력을 억제하기 위해 logger를 mock
-vi.mock('./logger', () => ({
-  log: {
-    warn: vi.fn(),
-    info: vi.fn(),
-    error: vi.fn(),
-    debug: vi.fn(),
-  }
+// delay와 logger를 최소 동작으로 모킹
+vi.mock('./delay', () => ({
+  delay: vi.fn(() => Promise.resolve())
 }))
 
-describe('큐', () => {
+const logSpies = vi.hoisted(() => ({
+  warn: vi.fn(),
+  debug: vi.fn(),
+  info: vi.fn(),
+  error: vi.fn()
+}))
+
+vi.mock('./logger', () => ({
+  log: logSpies
+}))
+
+describe('큐 동작', () => {
   beforeEach(() => {
-    vi.useFakeTimers()
+    vi.clearAllMocks()
+    vi.resetModules()
   })
 
-  afterEach(() => {
-    vi.restoreAllMocks()
-    vi.useRealTimers()
+  it('작업이 순차 실행되고 Promise가 resolve되어야 함', async () => {
+    const { addQueue } = await import('./queue')
+    const order: string[] = []
+
+    const first = addQueue('t1', async () => { order.push('첫번째') })
+    const second = addQueue('t2', async () => { order.push('두번째') })
+
+    await Promise.all([first, second])
+    expect(order).toEqual(['첫번째', '두번째'])
   })
 
-  describe('addQueue', () => {
-    it('큐에 추가된 작업을 실행해야 함', async () => {
-      const mockTask = vi.fn().mockResolvedValue(undefined)
-      
-      addQueue('test-key', mockTask)
-      
-      // 작업 처리 대기
-      await vi.runAllTimersAsync()
-      
-      expect(mockTask).toHaveBeenCalledTimes(1)
+  it('TranslationRefusedError 발생 시 Promise가 reject되어야 함', async () => {
+    const { addQueue } = await import('./queue')
+
+    const promise = addQueue('refuse', async () => {
+      throw new TranslationRefusedError('text', 'reason')
     })
 
-    it('작업을 순차적으로 처리해야 함', async () => {
-      const executionOrder: number[] = []
-      
-      const task1 = vi.fn(async () => {
-        executionOrder.push(1)
-      })
-      const task2 = vi.fn(async () => {
-        executionOrder.push(2)
-      })
-      const task3 = vi.fn(async () => {
-        executionOrder.push(3)
-      })
-      
-      addQueue('key1', task1)
-      addQueue('key2', task2)
-      addQueue('key3', task3)
-      
-      await vi.runAllTimersAsync()
-      
-      expect(executionOrder).toEqual([1, 2, 3])
+    await expect(promise).rejects.toBeInstanceOf(TranslationRefusedError)
+  })
+
+  it('일반 오류는 재시도 후 성공하면 resolve되어야 함', async () => {
+    const { addQueue } = await import('./queue')
+    const delayMock = (await import('./delay')).delay as unknown as vi.Mock
+
+    const task = vi.fn()
+      .mockRejectedValueOnce(new Error('일시 오류'))
+      .mockResolvedValueOnce(undefined)
+
+    await addQueue('retry', async () => task())
+
+    expect(task).toHaveBeenCalledTimes(2)
+    expect(delayMock).toHaveBeenCalled()
+  })
+
+  it('TranslationRefusedError 발생 시 남은 작업들도 모두 reject되어야 함', async () => {
+    const { addQueue } = await import('./queue')
+    
+    // 첫 번째 작업은 TranslationRefusedError를 발생시킴
+    const firstPromise = addQueue('first', async () => {
+      throw new TranslationRefusedError('text', 'reason')
+    })
+    
+    // 두 번째와 세 번째 작업은 큐에 대기
+    const secondPromise = addQueue('second', async () => {
+      // 이 작업은 실행되지 않아야 함
+    })
+    const thirdPromise = addQueue('third', async () => {
+      // 이 작업도 실행되지 않아야 함
     })
 
-    it('실패 시 재시도해야 함', async () => {
-      let attemptCount = 0
-      const mockTask = vi.fn(async () => {
-        attemptCount++
-        if (attemptCount < 3) {
-          throw new Error('Temporary failure')
-        }
-      })
-      
-      addQueue('test-key', mockTask)
-      
-      // 재시도 실행
-      await vi.runAllTimersAsync()
-      
-      // 3번 시도해야 함 (초기 + 2번 재시도)
-      expect(mockTask).toHaveBeenCalledTimes(3)
-    })
+    // 첫 번째는 TranslationRefusedError로 reject
+    await expect(firstPromise).rejects.toBeInstanceOf(TranslationRefusedError)
+    
+    // 나머지는 cascading error로 reject
+    await expect(secondPromise).rejects.toThrow('큐 처리가 이전 에러로 인해 중단됨')
+    await expect(thirdPromise).rejects.toThrow('큐 처리가 이전 에러로 인해 중단됨')
+  })
 
-    it('TranslationRefusedError는 재시도 없이 즉시 전파해야 함', async () => {
-      const error = new TranslationRefusedError('test text', 'PROHIBITED_CONTENT')
-      const mockTask = vi.fn(async () => {
-        throw error
-      })
-      
-      // addQueue 호출
-      addQueue('test-key', mockTask)
-      
-      // unhandled rejection을 캡처하기 위한 핸들러 설정
-      let rejectionError: any = null
-      const rejectionHandler = (reason: any) => {
-        rejectionError = reason
-      }
-      process.once('unhandledRejection', rejectionHandler)
-      
-      // 큐 처리
-      try {
-        await vi.runAllTimersAsync()
-      } catch (err) {
-        // catch된 경우 타입 검증
-        expect(err).toBeInstanceOf(TranslationRefusedError)
-      }
-      
-      // 비동기 에러 처리를 위한 대기
-      await new Promise(resolve => process.nextTick(resolve))
-      
-      // unhandled rejection이 발생했고 올바른 타입인지 확인
-      expect(rejectionError).toBeInstanceOf(TranslationRefusedError)
-      
-      // 핵심 검증: 재시도 없이 한 번만 실행되어야 함
-      expect(mockTask).toHaveBeenCalledTimes(1)
-    })
+  it('일반 오류가 MAX_RETRIES 초과 시 reject되어야 함', async () => {
+    const { addQueue } = await import('./queue')
+    const delayMock = (await import('./delay')).delay as unknown as vi.Mock
+    
+    // 6번 연속 실패하는 작업 (초기 시도 1회 + 재시도 5회)
+    const task = vi.fn().mockRejectedValue(new Error('지속적인 오류'))
+
+    const promise = addQueue('max-retry', async () => task())
+
+    await expect(promise).rejects.toThrow('지속적인 오류')
+    // 초기 시도 1회 + 재시도 5회 = 총 6회
+    expect(task).toHaveBeenCalledTimes(6)
+    // 재시도 5회에 대한 delay 호출
+    expect(delayMock).toHaveBeenCalledTimes(5)
+  })
+
+  it('일반 오류는 여러 번 재시도 후 성공하면 resolve되어야 함', async () => {
+    const { addQueue } = await import('./queue')
+    const delayMock = (await import('./delay')).delay as unknown as vi.Mock
+
+    // 3번 실패 후 성공
+    const task = vi.fn()
+      .mockRejectedValueOnce(new Error('첫 번째 오류'))
+      .mockRejectedValueOnce(new Error('두 번째 오류'))
+      .mockRejectedValueOnce(new Error('세 번째 오류'))
+      .mockResolvedValueOnce(undefined)
+
+    await addQueue('multi-retry', async () => task())
+
+    // 초기 시도 1회 + 재시도 3회 = 총 4회
+    expect(task).toHaveBeenCalledTimes(4)
+    // 재시도 3회에 대한 delay 호출
+    expect(delayMock).toHaveBeenCalledTimes(3)
   })
 })
