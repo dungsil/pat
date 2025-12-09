@@ -1,5 +1,6 @@
 import { describe, it, expect, vi, beforeEach, afterEach } from 'vitest'
 import { addQueue } from './queue'
+import { TranslationRefusedError } from './ai'
 
 // 테스트 중 로그 출력을 억제하기 위해 logger를 mock
 vi.mock('./logger', () => ({
@@ -71,6 +72,26 @@ describe('큐', () => {
       
       // 3번 시도해야 함 (초기 + 2번 재시도)
       expect(mockTask).toHaveBeenCalledTimes(3)
+    })
+
+    it('TranslationRefusedError는 재시도 없이 즉시 전파해야 함', async () => {
+      const error = new TranslationRefusedError('test text', 'PROHIBITED_CONTENT')
+      const mockTask = vi.fn(async () => {
+        throw error
+      })
+      
+      // addQueue 호출
+      addQueue('test-key', mockTask)
+      
+      // 큐 처리 (에러는 무시)
+      try {
+        await vi.runAllTimersAsync()
+      } catch {
+        // 에러 무시 - 우리는 재시도 횟수만 확인하면 됨
+      }
+      
+      // 재시도 없이 한 번만 실행되어야 함 (중요한 검증 포인트)
+      expect(mockTask).toHaveBeenCalledTimes(1)
     })
   })
 })
