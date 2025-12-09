@@ -1,6 +1,10 @@
 import { readFileSync } from 'node:fs'
 import { join } from 'node:path'
+import { type GameType } from './types'
 import { getTranslationMemories, getProperNouns } from './dictionary'
+
+// Re-export GameType for backward compatibility
+export type { GameType }
 
 // 프로젝트 루트 디렉토리
 const projectRoot = join(import.meta.dirname, '../..')
@@ -13,13 +17,17 @@ const projectRoot = join(import.meta.dirname, '../..')
  */
 function loadPromptFromFile(filename: string, gameType: GameType): string {
   const filePath = join(projectRoot, 'prompts', filename)
-  let content = readFileSync(filePath, 'utf-8')
-  
-  // 템플릿 치환
-  content = content.replace(/\{\{TRANSLATION_MEMORY\}\}/g, getTranslationMemories(gameType))
-  content = content.replace(/\{\{PROPER_NOUNS_DICTIONARY\}\}/g, getProperNounsForPrompt(gameType))
-  
-  return content
+  try {
+    let content = readFileSync(filePath, 'utf-8')
+    
+    // 템플릿 치환
+    content = content.replace(/\{\{TRANSLATION_MEMORY\}\}/g, getTranslationMemories(gameType))
+    content = content.replace(/\{\{PROPER_NOUNS_DICTIONARY\}\}/g, getProperNounsForPrompt(gameType))
+    
+    return content
+  } catch (error: any) {
+    throw new Error(`Failed to load prompt from ${filename}: ${error.message}`)
+  }
 }
 
 /**
@@ -37,8 +45,6 @@ function getProperNounsForPrompt(gameType: GameType): string {
   
   return entries.map(([key, value]) => ` - "${key}" → "${value}"`).join('\n')
 }
-
-export type GameType = 'ck3' | 'stellaris' | 'vic3'
 
 // 프롬프트 상수들 (외부 파일에서 로드)
 export const CK3_SYSTEM_PROMPT = loadPromptFromFile('ck3-translation.md', 'ck3')

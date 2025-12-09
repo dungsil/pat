@@ -1,5 +1,5 @@
 // noinspection SpellCheckingInspection
-import { type GameType } from './prompts'
+import { type GameType } from './types'
 import { parse as parseToml } from '@iarna/toml'
 import { readFileSync } from 'node:fs'
 import { join } from 'node:path'
@@ -14,18 +14,22 @@ const projectRoot = join(import.meta.dirname, '../..')
  */
 function loadDictionaryFromFile(filename: string): Record<string, string> {
   const filePath = join(projectRoot, 'dictionaries', filename)
-  const content = readFileSync(filePath, 'utf-8')
-  const parsed = parseToml(content)
-  
-  // TOML 파싱 결과를 Record<string, string>으로 변환
-  const dict: Record<string, string> = {}
-  for (const [key, value] of Object.entries(parsed)) {
-    if (typeof value === 'string') {
-      dict[key] = value
+  try {
+    const content = readFileSync(filePath, 'utf-8')
+    const parsed = parseToml(content)
+    
+    // TOML 파싱 결과를 Record<string, string>으로 변환
+    const dict: Record<string, string> = {}
+    for (const [key, value] of Object.entries(parsed)) {
+      if (typeof value === 'string') {
+        dict[key] = value
+      }
     }
+    
+    return dict
+  } catch (error: any) {
+    throw new Error(`Failed to load dictionary from ${filename}: ${error.message}`)
   }
-  
-  return dict
 }
 
 // CK3 일반 용어 사전 (번역 메모리로 LLM에 전달됨)
