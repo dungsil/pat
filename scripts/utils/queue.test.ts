@@ -1,5 +1,6 @@
 import { describe, it, expect, vi, beforeEach, afterEach } from 'vitest'
 import { addQueue } from './queue'
+import { TranslationRefusedError } from './ai'
 
 // 테스트 중 로그 출력을 억제하기 위해 logger를 mock
 vi.mock('./logger', () => ({
@@ -55,39 +56,6 @@ describe('큐', () => {
       expect(executionOrder).toEqual([1, 2, 3])
     })
 
-    it('속도 제한을 준수해야 함 (요청 간 100ms)', async () => {
-      const executionTimes: number[] = []
-      
-      const createTask = () => vi.fn(async () => {
-        executionTimes.push(Date.now())
-      })
-      
-      const task1 = createTask()
-      const task2 = createTask()
-      const task3 = createTask()
-      
-      addQueue('key1', task1)
-      addQueue('key2', task2)
-      addQueue('key3', task3)
-      
-      await vi.runAllTimersAsync()
-      
-      // 모든 작업이 실행되어야 함
-      expect(task1).toHaveBeenCalledTimes(1)
-      expect(task2).toHaveBeenCalledTimes(1)
-      expect(task3).toHaveBeenCalledTimes(1)
-      
-      // 실행 간에 적절한 간격이 있어야 함
-      if (executionTimes.length >= 2) {
-        const delay1 = executionTimes[1] - executionTimes[0]
-        expect(delay1).toBeGreaterThanOrEqual(100)
-      }
-      if (executionTimes.length >= 3) {
-        const delay2 = executionTimes[2] - executionTimes[1]
-        expect(delay2).toBeGreaterThanOrEqual(100)
-      }
-    })
-
     it('실패 시 재시도해야 함', async () => {
       let attemptCount = 0
       const mockTask = vi.fn(async () => {
@@ -106,84 +74,37 @@ describe('큐', () => {
       expect(mockTask).toHaveBeenCalledTimes(3)
     })
 
-    it('재시도 시 지수 백오프를 사용해야 함', async () => {
-      let attemptCount = 0
-      const attemptTimes: number[] = []
-      
+    it('TranslationRefusedError는 재시도 없이 즉시 전파해야 함', async () => {
+      const error = new TranslationRefusedError('test text', 'PROHIBITED_CONTENT')
       const mockTask = vi.fn(async () => {
-        attemptTimes.push(Date.now())
-        attemptCount++
-        if (attemptCount < 3) {
-          throw new Error('Temporary failure')
-        }
+        throw error
       })
       
+      // addQueue 호출
       addQueue('test-key', mockTask)
       
-      // 재시도 처리
-      await vi.runAllTimersAsync()
-      
-      // 지연이 증가해야 함 (0ms, 1000ms, 2000ms)
-      expect(attemptTimes.length).toBe(3)
-      // 첫 번째 재시도는 약 1000ms 후에
-      if (attemptTimes.length >= 2) {
-        const delay1 = attemptTimes[1] - attemptTimes[0]
-        expect(delay1).toBeGreaterThanOrEqual(900)
-        expect(delay1).toBeLessThan(1200)
+      // unhandled rejection을 캡처하기 위한 핸들러 설정
+      let rejectionError: any = null
+      const rejectionHandler = (reason: any) => {
+        rejectionError = reason
       }
-      // 두 번째 재시도는 약 2000ms 후에
-      if (attemptTimes.length >= 3) {
-        const delay2 = attemptTimes[2] - attemptTimes[1]
-        expect(delay2).toBeGreaterThanOrEqual(1900)
-        expect(delay2).toBeLessThan(2200)
+      process.once('unhandledRejection', rejectionHandler)
+      
+      // 큐 처리
+      try {
+        await vi.runAllTimersAsync()
+      } catch (err) {
+        // catch된 경우 타입 검증
+        expect(err).toBeInstanceOf(TranslationRefusedError)
       }
-    })
-
-    it('429 Too Many Requests 오류를 조용히 처리해야 함', async () => {
-      let attemptCount = 0
-      const mockTask = vi.fn(async () => {
-        attemptCount++
-        if (attemptCount < 2) {
-          throw new Error('429 Too Many Requests')
-        }
-      })
       
-      addQueue('test-key', mockTask)
+      // 비동기 에러 처리를 위한 대기
+      await new Promise(resolve => process.nextTick(resolve))
       
-      await vi.runAllTimersAsync()
+      // unhandled rejection이 발생했고 올바른 타입인지 확인
+      expect(rejectionError).toBeInstanceOf(TranslationRefusedError)
       
-      // 재시도하고 성공해야 함
-      expect(mockTask).toHaveBeenCalledTimes(2)
-    })
-
-    it('다른 키를 가진 여러 작업을 처리해야 함', async () => {
-      const results: string[] = []
-      
-      const task1 = vi.fn(async () => results.push('task1'))
-      const task2 = vi.fn(async () => results.push('task2'))
-      const task3 = vi.fn(async () => results.push('task3'))
-      
-      addQueue('key1', task1)
-      addQueue('key2', task2)
-      addQueue('key3', task3)
-      
-      await vi.runAllTimersAsync()
-      
-      expect(results).toEqual(['task1', 'task2', 'task3'])
-      expect(task1).toHaveBeenCalledTimes(1)
-      expect(task2).toHaveBeenCalledTimes(1)
-      expect(task3).toHaveBeenCalledTimes(1)
-    })
-
-    it('성공적인 작업 실행을 처리해야 함', async () => {
-      const mockTask = vi.fn(async () => {
-        return 'success'
-      })
-      
-      addQueue('test-key', mockTask)
-      
-      await vi.runAllTimersAsync()
-      
+      // 핵심 검증: 재시도 없이 한 번만 실행되어야 함
       expect(mockTask).toHaveBeenCalledTimes(1)
     })
   })

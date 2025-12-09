@@ -353,7 +353,7 @@
   bpm_hog_antagonism_modifier_ultra: "[GetStaticModifier('bpm_hog_antagonism_ultra_modifier').GetDesc]" # 16863371094686623510
   bpm_hog_synergy_modifier_low: "#v 낮은 시너지 (#N < 60%#!) 효과:#!\n[GetStaticModifier('bpm_low_synergy_modifier').GetDesc]" # 17742544761873352102
   bpm_hog_synergy_modifier_mid: "#v 중간 수준(#YB 60% ~ 80%#!) 시너지로부터의 시너지 효과:#!\n[GetStaticModifier('bpm_mid_synergy_modifier').GetDesc]" # 1842854574100787044
-  bpm_hog_synergy_modifier_high: "#v 높은 시너지로부터 (#P => 80%#!) 시너지 효과:#!\n[GetStaticModifier('bpm_high_synergy_modifier').GetDesc]" # 10609770833440570297
+  bpm_hog_synergy_modifier_high: "#v 높은 시너지 효과# (#P => 80%#!)#!\n[GetStaticModifier('bpm_high_synergy_modifier').GetDesc]" # 10609770833440570297
   bpm_hog_antagonism_modifier: "[concept_bpm_antagonism]" # 14148578215335003907
   bpm_hog_antagonism_double_modifier: "[concept_bpm_antagonism]" # 14148578215335003907
   bpm_hog_antagonism_triple_modifier: "[concept_bpm_antagonism]" # 14148578215335003907

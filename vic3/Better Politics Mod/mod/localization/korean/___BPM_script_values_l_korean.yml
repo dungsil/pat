@@ -63,7 +63,7 @@
   BPM_VALUE_FROM_LABORER_RADICALS: "[concept_radical] [GetPopType('laborers').GetName]로부터" # 15630439224457726586
   BPM_VALUE_FROM_MACHINIST_RADICALS: "[concept_radical] [GetPopType('machinists').GetName]로부터" # 16597426101365578148
   BPM_VALUE_FROM_LABORER_LOYALISTS: "[concept_loyalist] [GetPopType('laborers').GetName]로부터" # 69739404931403483
-  BPM_VALUE_FROM_MACHINIST_LOYALISTS: "[concept_loyalist] [GetPopType('machinists').GetName]로부터" # 17205081138549728686
+  BPM_VALUE_FROM_MACHINIST_LOYALISTS: "[concept_loyalist] [GetPopType('machinists').GetName]으로부터" # 17205081138549728686
   BPM_VALUE_FROM_SYNDICALISM_DEVELOPMENT: "#yellow $je_bpm_syndicalism$#! 일지 항목 진행 상황" # 12263823700701350921
   BPM_VALUE_FROM_AGRARIAN_SOCIALISM_DEVELOPMENT: "#yellow $je_bpm_agrarian_socialism$#! 일지 항목 진척도" # 18257236578972870278
   BPM_VALUE_FROM_SOCS_POPULARITY: "[GetInterestGroupVariant('ig_socialists', GetPlayer).GetName]의 인기" # 3535345396433656716
