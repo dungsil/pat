@@ -8,6 +8,10 @@ const translationQueue: QueueTask[] = []
 // MAX_RETRIES = 5는 재시도 횟수 0~4를 의미 (총 5회 시도)
 const MAX_RETRIES = 5
 const RETRY_DELAYS = [1_000, 2_000, 8_000, 10_000, 60_000] // 밀리초 단위
+// MAX_RETRIES와 RETRY_DELAYS.length가 동기화되도록 보장하여 배열 범위 초과 오류 방지
+if (MAX_RETRIES !== RETRY_DELAYS.length) {
+  throw new Error(`MAX_RETRIES (${MAX_RETRIES})와 RETRY_DELAYS.length (${RETRY_DELAYS.length})는 동일해야 합니다.`)
+}
 
 let lastRequestTime = 0
 let isProcessing = false
