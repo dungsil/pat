@@ -26,7 +26,7 @@ function loadPromptFromFile(filename: string, gameType: GameType): string {
     
     return content
   } catch (error: any) {
-    throw new Error(`Failed to load prompt from ${filename}: ${error.message}`)
+    throw new Error(`Failed to load prompt from ${filename}: ${error.message}\nExpected path: ${filePath}`)
   }
 }
 
@@ -47,6 +47,9 @@ function getProperNounsForPrompt(gameType: GameType): string {
 }
 
 // 프롬프트 상수들 (외부 파일에서 로드)
+// 참고: 프롬프트는 모듈 로드 시점에 즉시 로드되며 캐싱됩니다.
+// - 프롬프트 파일이 누락되거나 오류가 있으면 애플리케이션 시작 시 실패합니다.
+// - 프롬프트나 딕셔너리 변경사항은 애플리케이션 재시작 후 반영됩니다.
 export const CK3_SYSTEM_PROMPT = loadPromptFromFile('ck3-translation.md', 'ck3')
 export const STELLARIS_SYSTEM_PROMPT = loadPromptFromFile('stellaris-translation.md', 'stellaris')
 export const VIC3_SYSTEM_PROMPT = loadPromptFromFile('vic3-translation.md', 'vic3')

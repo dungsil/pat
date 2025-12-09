@@ -30,7 +30,21 @@ function loadDictionaryFromFile(filename: string): Record<string, string> {
     
     return dict
   } catch (error: any) {
-    throw new Error(`Failed to load dictionary from ${filename}: ${error.message}`)
+    if (error.code === 'ENOENT') {
+      console.warn(
+        `[dictionary] 딕셔너리 파일을 찾을 수 없습니다: ${filePath}\n` +
+        `빈 딕셔너리가 대신 사용됩니다.\n` +
+        `해결 방법: 위 경로에 TOML 형식의 파일을 생성하세요.`
+      )
+      return {}
+    } else {
+      console.warn(
+        `[dictionary] 딕셔너리 로드 실패: ${filePath}: ${error.message}\n` +
+        `빈 딕셔너리가 대신 사용됩니다.\n` +
+        `해결 방법: 파일의 TOML 문법 오류를 확인하세요.`
+      )
+      return {}
+    }
   }
 }
 
