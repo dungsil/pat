@@ -6,7 +6,7 @@ type QueueTask = { key: string, queue: () => Promise<void>, resolve: () => void,
 const translationQueue: QueueTask[] = []
 
 const MAX_RETRIES = 5
-const RETRY_DELAYS = [0, 1_000, 2_000, 8_000, 10_000, 60_000] // 밀리초 단위
+const RETRY_DELAYS = [1_000, 2_000, 8_000, 10_000, 60_000] // 밀리초 단위
 
 let lastRequestTime = 0
 let isProcessing = false
@@ -79,7 +79,7 @@ async function executeTaskWithRetry (task: QueueTask, retryCount = 0): Promise<v
       log.info(`요청에 실패하여 잠시후 다시 시도합니다. (${retryCount + 1})`)
 
       // 지수 백오프
-      const retryDelay = RETRY_DELAYS[retryCount + 1]
+      const retryDelay = RETRY_DELAYS[retryCount]
       await delay(retryDelay)
 
       // 재시도
