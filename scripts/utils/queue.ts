@@ -19,7 +19,7 @@ let isProcessing = false
 /**
  * 번역 요청을 큐에 등록하고 완료 여부를 Promise로 반환합니다.
  * TranslationRefusedError는 재시도 없이 즉시 전파되고,
- * 그 외 에러는 최대 5회 재시도 후 전파됩니다.
+ * 그 외 에러는 초기 시도 1회 + 최대 5회 재시도 후 전파됩니다.
  */
 export function addQueue (key: string, newQueue: () => Promise<void>) {
   return new Promise<void>((resolve, reject) => {
