@@ -27,7 +27,7 @@
   name_list_bosnian: "보스니아" # 14754548021326262301
   name_list_bozo: "보조" # 10111694290399198298
   name_list_breton: "브르통" # 17210625050808934593
-  name_list_bulgarian: "불가리아"
+  name_list_bulgarian: "불가리아" # 14170808198290753008
   name_list_burmese: "버마" # 3146603654476622884
   name_list_buryat: "부랴트" # 13306937870277646631
   name_list_butr: "부트르" # 1893165264245244798
@@ -124,7 +124,7 @@
   name_list_nupe: "누페" # 6146683205848347178
   name_list_occitan: "옥시탄" # 8807325151624828595
   name_list_oirat: "오이라트" # 13521836679494531581
-  name_list_old_saxon: "고대 작센"
+  name_list_old_saxon: "고대 작센" # 2194168361249889710
   name_list_ongud: "옹구드" # 6540665891391712687
   name_list_oriya: "오리야" # 10672918804719441824
   name_list_outremer: "오트르메르" # 9028554378112149140
@@ -190,11 +190,11 @@
   name_list_yoruba: "요루바" # 8036794169201759893
   name_list_yughur: "위구르족" # 4173339231401629836
   name_list_zaghawa: "자가와" # 9519759607935676496
-  name_list_east_bantu: "동부 반투"
+  name_list_east_bantu: "동부 반투" # 12192776203346968613
   name_list_zhangzhung: "장중" # 6278435704551082691
   name_list_hunnic: "훈족" # 3029167522647558798
-  name_list_ancient_egyptian: "고대 이집트"
-  name_list_trojan: "고대 그리스"
+  name_list_ancient_egyptian: "고대 이집트" # 16425986647521006689
+  name_list_trojan: "고대 그리스" # 5161379816568803290
   name_list_late_norman: "노르만" # 1097769598834340326
   name_list_bizika: "비지카" # 17827326411406622953
   name_list_zhonghua: "중화" # 8801336896851301805
@@ -211,7 +211,7 @@
   name_list_bisayan: "비스야" # 3321457226592725182
   name_list_iloko: "일로코" # 1151052321379640056
   name_list_khmer: "크메르" # 15747279793173351473
-  name_list_nakkavaram: "나카바람"
+  name_list_nakkavaram: "나카바람" # 10162973578683567180
   name_list_tai: "타이" # 12569629590335882843
   name_list_vietnamese: "베트남어" # 4885811323177202147
   name_list_malay: "말레이" # 15997868164458754586
