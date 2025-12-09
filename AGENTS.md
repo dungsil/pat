@@ -178,7 +178,10 @@ language = "english"                          # Source language
 - Manual translation dictionary for game-specific terms and proper nouns
 - Separate dictionaries for each game type (CK3, Stellaris, VIC3)
 - Two dictionary types: general glossary (for translation) and proper nouns (for transliteration)
-- `add-dict-from-commit.ts` script extracts dictionary entries from git commits and adds them to the dictionary file
+- `add-dict-from-commit.ts` script extracts dictionary entries from git commits and adds them to TOML dictionary files
+  - Automatically writes to the appropriate TOML file based on game type
+  - CK3 entries are added to `ck3-glossary.toml` (proper nouns can be manually moved to `ck3-proper-nouns.toml`)
+  - Stellaris entries go to `stellaris.toml`, VIC3 entries to `vic3.toml`
 - Supports automatic duplicate detection when adding entries
 - Usage: `pnpm add-dict <commit-id>` to import dictionary changes from a specific commit
 - **Editing**: Dictionary files can be edited directly without code changes, just restart the application
