@@ -736,15 +736,23 @@ export function validateTranslationEntries(
     }
 
     // 음역 모드인 경우 의미 번역 여부 추가 검증
+    // decisions, desc, event 키는 일반 번역 컨텍스트이므로 음역 검증 제외
     if (useTransliteration && validation.isValid) {
-      const transliterationValidation = validateTransliteration(sourceValue, translatedValue)
-      if (!transliterationValidation.isValid) {
-        invalidEntries.push({
-          key,
-          sourceValue,
-          translatedValue,
-          reason: transliterationValidation.reason || '의미 번역 감지 (음역 필요)'
-        })
+      const isRegularTranslationContext = 
+        key.includes('decision') || 
+        key.includes('desc') || 
+        key.includes('event')
+      
+      if (!isRegularTranslationContext) {
+        const transliterationValidation = validateTransliteration(sourceValue, translatedValue)
+        if (!transliterationValidation.isValid) {
+          invalidEntries.push({
+            key,
+            sourceValue,
+            translatedValue,
+            reason: transliterationValidation.reason || '의미 번역 감지 (음역 필요)'
+          })
+        }
       }
     }
   }

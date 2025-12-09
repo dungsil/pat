@@ -1682,4 +1682,72 @@ describe('음역 검증', () => {
       expect(result[0].reason).toContain('의미 번역')
     })
   })
+
+  describe('decisions/desc/event 키 제외', () => {
+    it('decision 키워드가 포함된 키는 음역 검증을 건너뛰어야 함', () => {
+      const sourceEntries = {
+        roman_culture_decision_desc: ['Roman culture conversion', '']
+      }
+      const translationEntries = {
+        roman_culture_decision_desc: ['로마 문화로 개종', 'hash1'] // "문화" 포함이지만 decision이므로 OK
+      }
+      
+      const result = validateTranslationEntries(sourceEntries, translationEntries, 'ck3', true)
+      
+      expect(result.length).toBe(0)
+    })
+
+    it('desc 키워드가 포함된 키는 음역 검증을 건너뛰어야 함', () => {
+      const sourceEntries = {
+        heritage_desc: ['Eastern culture', '']
+      }
+      const translationEntries = {
+        heritage_desc: ['동쪽 문화', 'hash1'] // "동쪽", "문화" 포함이지만 desc이므로 OK
+      }
+      
+      const result = validateTranslationEntries(sourceEntries, translationEntries, 'ck3', true)
+      
+      expect(result.length).toBe(0)
+    })
+
+    it('event 키워드가 포함된 키는 음역 검증을 건너뛰어야 함', () => {
+      const sourceEntries = {
+        culture_event_1: ['Ancient kingdom', '']
+      }
+      const translationEntries = {
+        culture_event_1: ['고대 왕국', 'hash1'] // "고대", "왕국" 포함이지만 event이므로 OK
+      }
+      
+      const result = validateTranslationEntries(sourceEntries, translationEntries, 'ck3', true)
+      
+      expect(result.length).toBe(0)
+    })
+
+    it('일반 culture/dynasty/names 키는 여전히 음역 검증을 수행해야 함', () => {
+      const sourceEntries = {
+        heritage_name: ['Eastern', '']
+      }
+      const translationEntries = {
+        heritage_name: ['동쪽', 'hash1'] // "동쪽" 포함 - 의미 번역
+      }
+      
+      const result = validateTranslationEntries(sourceEntries, translationEntries, 'ck3', true)
+      
+      expect(result.length).toBe(1)
+      expect(result[0].reason).toContain('동쪽')
+    })
+
+    it('여러 제외 키워드가 있어도 하나만 매칭되면 건너뛰어야 함', () => {
+      const sourceEntries = {
+        roman_culture_decision_event_desc: ['People and culture', '']
+      }
+      const translationEntries = {
+        roman_culture_decision_event_desc: ['사람과 문화', 'hash1'] // decision+event+desc이므로 OK
+      }
+      
+      const result = validateTranslationEntries(sourceEntries, translationEntries, 'ck3', true)
+      
+      expect(result.length).toBe(0)
+    })
+  })
 })
