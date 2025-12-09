@@ -11,6 +11,10 @@ const RETRY_DELAYS = [1_000, 2_000, 8_000, 10_000, 60_000] // 밀리초 단위
 let lastRequestTime = 0
 let isProcessing = false
 
+/**
+ * 번역 요청을 큐에 등록하고 완료 여부를 Promise로 반환합니다.
+ * 실패 시에는 거부된 에러를 그대로 전파하여 상위 로직이 중단/저장 동작을 수행할 수 있게 합니다.
+ */
 export function addQueue (key: string, newQueue: () => Promise<void>) {
   return new Promise<void>((resolve, reject) => {
     translationQueue.push({ key, queue: newQueue, resolve, reject })
