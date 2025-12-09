@@ -99,3 +99,35 @@
   activity_VIET_giant_shade_tree_visit_destination_selection: "$activity_VIET_giant_shade_tree_visit_province_desc$" # 6409434970622184284
   activity_VIET_giant_shade_tree_visit_guest_help_text: "$activity_VIET_giant_shade_tree_visit$" # 11115021530868715441
   activity_VIET_giant_shade_tree_visit_predicted_cost: "거대한 그늘나무를 방문하는 비용은 주로 귀하의 [income|E]에 따라 결정됩니다." # 17896829489030796862
+  activity_VIET_giant_shade_tree_visit_conclusion_desc: "[GetActivityType( 'activity_VIET_giant_shade_tree_visit' ).GetName] 행사가 끝났습니다. 휴식을 취하기에 정말 훌륭한 나무였군요!" # 11112012520005394976
+  VIET_giant_shade_tree_visit_rest_phase: "휴식" # 8265914529196551580
+  VIET_giant_shade_tree_visit_rest_phase_desc: "거대한 나무들은 소풍을 즐기고, 낮잠을 자고, 전반적으로 그저 휴식을 취하기에 좋은 장소입니다." # 8404498287783071941
+  VIET_giant_shade_tree_visit_relaxation_intent_header: "휴식:" # 14517665651769141762
+  VIET_giant_shade_tree_visit_relaxation_intent: "휴식:" # 5134121907771394555
+  VIET_giant_shade_tree_visit_relaxation_intent_desc: "거대한 그늘나무 아래에서 휴식을 취하게 될 것입니다." # 17502422928310899987
+  VIET_giant_shade_tree_visit_completed_log_title: "거대한 그늘나무 방문 완료" # 5631022320763534035
+  VIET_giant_shade_tree_visit_completed_log: "[CHARACTER.GetShortUIName|U]께서 [PROVINCE.GetBaronyNameExplicitly]의 거대한 그늘나무 방문을 마치셨습니다." # 8307977759322582911
+  VIET_decision_relax_at_a_giant_shade_tree_req: "[domain|E] 내 모든 [county|E]는 [GetModifier('VIET_giant_shade_tree').GetNameWithTooltip] [county_modifier|E]를 보유하고 있습니다." # 13788012408407555275
+  TRAVEL_NAME_FOR_activity_VIET_giant_shade_tree_visit: "[Character.GetFirstNamePossessiveNoTooltip] $activity_VIET_giant_shade_tree_visit$" # 13615916978272613705
+  activity_VIET_ancient_stone_monument_examination_host_an_a: "$host_activity_an$" # 2045561106244749009
+  activity_VIET_ancient_stone_monument_examination: "고대 석조 기념물 조사" # 8239112491350716788
+  activity_VIET_ancient_stone_monument_examination_desc: "고대의 석조 기념물은 일부 학자들에게는 흔한 것일 수 있지만, 학문적 소양이 없는 사람들의 흥미를 끌어 일반인들조차 그것을 감탄하고 더 잘 이해하도록 영감을 주는 기념물들도 있습니다." # 5455446157276307952
+  activity_VIET_ancient_stone_monument_examination_rewards_tooltip: "$BULLET_WITH_TAB$ [piety_i] [piety|E] 획득\n$BULLET_WITH_TAB$ [stress_loss_i|E] [stress|E] 감소\n$BULLET_WITH_TAB$ [GetModifier('VIET_examined_ancient_stone_monument').GetNameWithTooltip] [character_modifier|E] 획득" # 16410106076350659145
+  activity_VIET_ancient_stone_monument_examination_selection_tooltip: "지역의 고대 석조 기념물로 가십시오.\n\n예상 보상:$activity_VIET_ancient_stone_monument_examination_rewards_tooltip$" # 4804263272946016753
+  activity_VIET_ancient_stone_monument_examination_host_desc: "$activity_VIET_ancient_stone_monument_examination_rewards_tooltip$\n\n$VIET_decision_examine_ancient_stone_monument_context_tooltip$" # 15416068278927669048
+  activity_VIET_ancient_stone_monument_examination_guest_desc: "$activity_VIET_ancient_stone_monument_examination_host_desc$" # 15800086386674332912
+  activity_VIET_ancient_stone_monument_examination_province_desc: "이곳에는 주목할 만한 고대의 석조 기념물이 있습니다." # 8673071306735519189
+  activity_VIET_ancient_stone_monument_examination_destination_selection: "$activity_VIET_ancient_stone_monument_examination_province_desc$" # 1569369514302666853
+  activity_VIET_ancient_stone_monument_examination_guest_help_text: "$activity_VIET_ancient_stone_monument_examination$" # 12085930346675869137
+  activity_VIET_ancient_stone_monument_examination_predicted_cost: "고대 석조 기념물을 조사하는 비용은 주로 귀하의 [income|E]에 따라 결정됩니다." # 9850407647516201714
+  activity_VIET_ancient_stone_monument_examination_conclusion_desc: "[GetActivityType( 'activity_VIET_ancient_stone_monument_examination' ).GetName]이 끝났습니다. 꽤 통찰력이 있었습니다!" # 13793706311598589106
+  VIET_ancient_stone_monument_examination_examination_phase: "심사" # 2807792894492851995
+  VIET_ancient_stone_monument_examination_examination_phase_desc: "이 유적들은 정말로 매혹적이로군!" # 1074104254839996323
+  VIET_ancient_stone_monument_examination_curiosity_intent_header: "호기심:" # 6542558464702859944
+  VIET_ancient_stone_monument_examination_curiosity_intent: "호기심:" # 6560274987374450652
+  VIET_ancient_stone_monument_examination_curiosity_intent_desc: "이 낡은 유적들이 왜 그토록 대단한지 알게 될 것입니다." # 16532513995508212722
+  VIET_ancient_stone_monument_relax_completed_log_title: "고대 석조 기념물 옆에서 휴식을 취하는 것을 완료했습니다." # 4799552269896644882
+  VIET_ancient_stone_monument_relax_completed_log: "[CHARACTER.GetShortUIName|U]께서 [PROVINCE.GetBaronyNameExplicitly]의 고대 석조 기념물 옆에서 휴식을 마쳤습니다." # 14633253707417461945
+  VIET_ancient_stone_monument_study_completed_log_title: "고대 석조 기념물 연구 완료" # 1608827373107136778
+  VIET_ancient_stone_monument_study_completed_log: "[CHARACTER.GetShortUIName|U]께서 [PROVINCE.GetBaronyNameExplicitly]에 있는 고대 석조 기념물에 대한 연구를 마쳤습니다." # 16800932345347821330
+  TRAVEL_NAME_FOR_activity_VIET_ancient_stone_monument_examination: "[Character.GetFirstNamePossessiveNoTooltip] $activity_VIET_ancient_stone_monument_examination$" # 985677844636736145
