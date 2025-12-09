@@ -1514,7 +1514,7 @@ describe('리터럴 텍스트와 완전한 변수가 인접한 패턴 처리', (
 })
 
 describe('음역 검증', () => {
-  describe('의미 번역 감지 (음절 수 불균형)', () => {
+  describe('의미 번역 감지 (문자 수 불균형)', () => {
     it('짧은 원본에 대해 너무 긴 번역은 의미 번역으로 감지해야 함', () => {
       const sourceEntries = {
         culture_1: ['Afar', ''], // 4글자
@@ -1528,8 +1528,8 @@ describe('음역 검증', () => {
       const result = validateTranslationEntries(sourceEntries, translationEntries, 'ck3', true)
       
       expect(result.length).toBe(2)
-      expect(result[0].reason).toContain('음절 수 불균형')
-      expect(result[1].reason).toContain('음절 수 불균형')
+      expect(result[0].reason).toContain('문자 수 불균형')
+      expect(result[1].reason).toContain('문자 수 불균형')
     })
 
     it('음역된 경우 유효한 것으로 수락해야 함', () => {
@@ -1550,7 +1550,7 @@ describe('음역 검증', () => {
     })
   })
 
-  describe('음절 수 불균형 감지', () => {
+  describe('문자 수 불균형 감지', () => {
     it('짧은 원본에 대해 너무 긴 번역은 의미 번역으로 감지해야 함', () => {
       const sourceEntries = {
         name_1: ['Afar', ''] // 4글자
@@ -1562,7 +1562,7 @@ describe('음역 검증', () => {
       const result = validateTranslationEntries(sourceEntries, translationEntries, 'ck3', true)
       
       expect(result.length).toBe(1)
-      expect(result[0].reason).toContain('음절 수 불균형')
+      expect(result[0].reason).toContain('문자 수 불균형')
     })
 
     it('적절한 길이의 음역은 수락해야 함', () => {
@@ -1650,7 +1650,7 @@ describe('음역 검증', () => {
       const result = validateTranslationEntries(sourceEntries, translationEntries, 'ck3', true)
       
       expect(result.length).toBe(1)
-      expect(result[0].reason).toContain('음절 수 불균형')
+      expect(result[0].reason).toContain('문자 수 불균형')
     })
   })
 
@@ -1681,12 +1681,12 @@ describe('음역 검증', () => {
       expect(result.length).toBe(0)
     })
 
-    it('event 키워드가 포함된 키는 음역 검증을 건너뛰어야 함', () => {
+    it('event 키워드로 끝나는 키는 음역 검증을 건너뛰어야 함', () => {
       const sourceEntries = {
-        culture_event_1: ['Very long event description', '']
+        culture_event: ['Very long event description', '']
       }
       const translationEntries = {
-        culture_event_1: ['매우긴이벤트설명문장입니다', 'hash1'] // 긴 텍스트지만 event이므로 OK
+        culture_event: ['매우긴이벤트설명문장입니다', 'hash1'] // 긴 텍스트지만 event으로 끝나므로 OK
       }
       
       const result = validateTranslationEntries(sourceEntries, translationEntries, 'ck3', true)
@@ -1699,13 +1699,13 @@ describe('음역 검증', () => {
         heritage_name: ['Test', ''] // 4글자
       }
       const translationEntries = {
-        heritage_name: ['매우긴설명문장입니다정말긴데요', 'hash1'] // 15글자 (4 * 3.75배 - 음절 수 불균형)
+        heritage_name: ['매우긴설명문장입니다정말긴데요', 'hash1'] // 15글자 (4 * 3.75배 - 문자 수 불균형)
       }
       
       const result = validateTranslationEntries(sourceEntries, translationEntries, 'ck3', true)
       
       expect(result.length).toBe(1)
-      expect(result[0].reason).toContain('음절 수 불균형')
+      expect(result[0].reason).toContain('문자 수 불균형')
     })
 
     it('여러 제외 키워드가 있어도 하나만 매칭되면 건너뛰어야 함', () => {
@@ -1732,7 +1732,7 @@ describe('음역 검증', () => {
       const result = validateTranslationEntries(sourceEntries, translationEntries, 'ck3', true)
       
       expect(result.length).toBe(1) // indecision은 제외되지 않음
-      expect(result[0].reason).toContain('음절 수 불균형')
+      expect(result[0].reason).toContain('문자 수 불균형')
     })
 
     it('키 중간에 desc가 있는 경우(descendant 등)는 검증해야 함', () => {
@@ -1746,7 +1746,7 @@ describe('음역 검증', () => {
       const result = validateTranslationEntries(sourceEntries, translationEntries, 'ck3', true)
       
       expect(result.length).toBe(1) // descendant는 제외되지 않음
-      expect(result[0].reason).toContain('음절 수 불균형')
+      expect(result[0].reason).toContain('문자 수 불균형')
     })
 
     it('키 중간에 event가 있는 경우(prevention 등)는 검증해야 함', () => {
@@ -1760,11 +1760,24 @@ describe('음역 검증', () => {
       const result = validateTranslationEntries(sourceEntries, translationEntries, 'ck3', true)
       
       expect(result.length).toBe(1) // prevention은 제외되지 않음
-      expect(result[0].reason).toContain('음절 수 불균형')
+      expect(result[0].reason).toContain('문자 수 불균형')
     })
   })
 
-  describe('음절 수 불균형 경계값 테스트', () => {
+  describe('문자 수 불균형 경계값 테스트', () => {
+    it('원본이 숫자/기호만 있을 때 (sourceLength=0) 검증을 건너뛰어야 함', () => {
+      const sourceEntries = {
+        test_name: ['123', ''] // 문자가 없음
+      }
+      const translationEntries = {
+        test_name: ['매우긴한국어번역입니다', 'hash1'] // 길지만 원본에 문자가 없으므로 통과
+      }
+      
+      const result = validateTranslationEntries(sourceEntries, translationEntries, 'ck3', true)
+      
+      expect(result.length).toBe(0) // sourceLength가 0이므로 검증 건너뜀
+    })
+
     it('원본 10자, 번역 30자 (정확히 3배)는 통과해야 함', () => {
       const sourceEntries = {
         test_name: ['abcdefghij', ''] // 정확히 10자
@@ -1789,7 +1802,7 @@ describe('음역 검증', () => {
       const result = validateTranslationEntries(sourceEntries, translationEntries, 'ck3', true)
       
       expect(result.length).toBe(1) // 3배 초과이므로 무효화
-      expect(result[0].reason).toContain('음절 수 불균형')
+      expect(result[0].reason).toContain('문자 수 불균형')
     })
 
     it('원본 11자 (임계값 초과)는 번역이 길어도 검증하지 않음', () => {
