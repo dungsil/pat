@@ -765,6 +765,7 @@ const ck3ProperNouns: Record<string, string> = {
   'vch ': '베흐 ',
   'guy ': '기 ',
   'ult ': '울트 ',
+  ondol: '온돌',
 }
 
 // Stellaris 전용 딕셔너리
