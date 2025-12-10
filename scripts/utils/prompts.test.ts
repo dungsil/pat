@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest'
-import { shouldUseTransliteration, shouldUseTransliterationForKey, getSystemPrompt, CK3_SYSTEM_PROMPT, CK3_TRANSLITERATION_PROMPT, STELLARIS_SYSTEM_PROMPT, STELLARIS_TRANSLITERATION_PROMPT, VIC3_SYSTEM_PROMPT, VIC3_TRANSLITERATION_PROMPT } from './prompts'
+import { shouldUseTransliteration, shouldUseTransliterationForKey, isRegularTranslationContext, getSystemPrompt, CK3_SYSTEM_PROMPT, CK3_TRANSLITERATION_PROMPT, STELLARIS_SYSTEM_PROMPT, STELLARIS_TRANSLITERATION_PROMPT, VIC3_SYSTEM_PROMPT, VIC3_TRANSLITERATION_PROMPT } from './prompts'
 
 describe('시스템 프롬프트', () => {
   describe('getSystemPrompt', () => {
@@ -176,6 +176,40 @@ describe('shouldUseTransliteration', () => {
   })
 })
 
+describe('isRegularTranslationContext', () => {
+  it('decision으로 끝나는 키는 일반 번역 컨텍스트여야 함', () => {
+    expect(isRegularTranslationContext('some_decision')).toBe(true)
+    expect(isRegularTranslationContext('important_decision')).toBe(true)
+    expect(isRegularTranslationContext('decision')).toBe(true)
+  })
+
+  it('desc로 끝나는 키는 일반 번역 컨텍스트여야 함', () => {
+    expect(isRegularTranslationContext('heritage_desc')).toBe(true)
+    expect(isRegularTranslationContext('culture_desc')).toBe(true)
+    expect(isRegularTranslationContext('desc')).toBe(true)
+  })
+
+  it('event로 끝나는 키는 일반 번역 컨텍스트여야 함', () => {
+    expect(isRegularTranslationContext('culture_event')).toBe(true)
+    expect(isRegularTranslationContext('dynasty_event')).toBe(true)
+    expect(isRegularTranslationContext('event')).toBe(true)
+  })
+
+  it('대소문자 구분 없이 작동해야 함', () => {
+    expect(isRegularTranslationContext('SOME_DECISION')).toBe(true)
+    expect(isRegularTranslationContext('Heritage_Desc')).toBe(true)
+    expect(isRegularTranslationContext('CULTURE_EVENT')).toBe(true)
+  })
+
+  it('일반 키는 일반 번역 컨텍스트가 아니어야 함', () => {
+    expect(isRegularTranslationContext('modifier')).toBe(false)
+    expect(isRegularTranslationContext('dynasty_name')).toBe(false)
+    expect(isRegularTranslationContext('culture_adj')).toBe(false)
+    expect(isRegularTranslationContext('event_title')).toBe(false)
+    expect(isRegularTranslationContext('decision_tooltip')).toBe(false)
+  })
+})
+
 describe('shouldUseTransliterationForKey', () => {
   describe('음역 모드를 사용해야 하는 키 패턴', () => {
     it('_adj로 끝나는 키는 음역 모드를 사용해야 함', () => {
@@ -236,6 +270,24 @@ describe('shouldUseTransliterationForKey', () => {
       expect(shouldUseTransliterationForKey('name_something_else')).toBe(false)
       expect(shouldUseTransliterationForKey('adj_value_modifier')).toBe(false)
       expect(shouldUseTransliterationForKey('culture_name_tooltip')).toBe(false)
+    })
+    
+    it('음역 접미사와 제외 패턴이 모두 있는 키는 번역 모드를 사용해야 함 (제외 패턴 우선)', () => {
+      // tradition_ 패턴이 있으면 _adj나 _name이 있어도 제외
+      expect(shouldUseTransliterationForKey('tradition_adj')).toBe(false)
+      expect(shouldUseTransliterationForKey('tradition_name')).toBe(false)
+      
+      // _loc 패턴이 있으면 _adj나 _name이 있어도 제외
+      expect(shouldUseTransliterationForKey('some_loc_adj')).toBe(false)
+      expect(shouldUseTransliterationForKey('text_loc_name')).toBe(false)
+      
+      // culture_parameter 패턴이 있으면 _adj나 _name이 있어도 제외
+      expect(shouldUseTransliterationForKey('culture_parameter_name')).toBe(false)
+      expect(shouldUseTransliterationForKey('culture_parameter_adj')).toBe(false)
+      
+      // _interaction 패턴이 있으면 _adj나 _name이 있어도 제외
+      expect(shouldUseTransliterationForKey('some_interaction_name')).toBe(false)
+      expect(shouldUseTransliterationForKey('custom_interaction_adj')).toBe(false)
     })
   })
 })

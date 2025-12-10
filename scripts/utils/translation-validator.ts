@@ -1,4 +1,4 @@
-import { type GameType, shouldUseTransliterationForKey } from './prompts'
+import { type GameType, shouldUseTransliterationForKey, isRegularTranslationContext } from './prompts'
 
 /**
  * 번역 검증 규칙:
@@ -722,9 +722,7 @@ export function validateTranslationEntries(
     
     if (shouldTransliterate && validation.isValid) {
       // 키가 decision, desc, event로 끝나는 경우 제외 (예: heritage_desc, culture_event, decision)
-      const isRegularTranslationContext = /(?:^|_)(decision|desc|event)$/.test(key)
-      
-      if (!isRegularTranslationContext) {
+      if (!isRegularTranslationContext(key)) {
         const transliterationValidation = validateTransliteration(sourceValue, translatedValue)
         if (!transliterationValidation.isValid) {
           invalidEntries.push({
