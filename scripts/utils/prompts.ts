@@ -199,7 +199,7 @@ export function shouldUseTransliterationForKey(key: string): boolean {
   
   // shouldUseTransliteration에서 사용하는 키 제외 패턴과 동일하게 검사
   // 이 패턴들이 포함된 키는 음역 모드를 사용하지 않음
-  const exclusionPatterns = ['tradition_', '_loc', 'culture_parameter', '_interaction']
+  const exclusionPatterns = ['tradition_', '_loc', 'culture_parameter', '_interaction', '_desc']
   if (exclusionPatterns.some(pattern => lowerKey.includes(pattern))) {
     return false
   }
