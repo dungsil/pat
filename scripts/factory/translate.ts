@@ -203,10 +203,10 @@ async function processLanguageFile (mode: string, sourceDir: string, targetBaseD
   const sourcePath = join(sourceDir, file)
   const untranslatedItems: UntranslatedItem[] = []
 
-  // 파일명을 기반으로 음역 모드 감지
-  const useTransliteration = shouldUseTransliteration(file)
-  if (useTransliteration) {
-    log.info(`[${mode}/${file}] 음역 모드 활성화됨 (파일명에 culture/dynasty/names 키워드 감지)`)
+  // 파일명을 기반으로 음역 모드 파일인지 감지
+  const isTransliterationFile = shouldUseTransliteration(file)
+  if (isTransliterationFile) {
+    log.info(`[${mode}/${file}] 음역 대상 파일 감지 (파일명에 culture/dynasty/names 키워드 포함)`)
   }
 
   // 파일 순서를 최상위로 유지해 덮어쓸 수 있도록 앞에 '___'를 붙임 (ex: `___00_culture_l_english.yml`)
@@ -282,7 +282,7 @@ async function processLanguageFile (mode: string, sourceDir: string, targetBaseD
     log.verbose(`[${mode}/${file}:${key}] 번역파일 문자열: ${targetHash} | "${targetValue}"`)
 
     // 음역 모드 결정: 파일 레벨 우선, 그 다음 키 레벨 검사
-    const shouldTransliterate = useTransliteration || shouldUseTransliterationForKey(key)
+    const shouldTransliterate = useTransliteration || shouldUseTransliterationForKey(file, key)
     
     // 키 레벨 음역 모드가 활성화된 경우 로그 출력
     if (!useTransliteration && shouldTransliterate) {
