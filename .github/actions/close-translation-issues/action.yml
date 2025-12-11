@@ -8,5 +8,20 @@ inputs:
     description: 'GitHub token for API access'
     required: true
 runs:
-  using: 'node20'
-  main: 'index.js'
+  using: 'composite'
+  steps:
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '20'
+    - name: Install dependencies
+      shell: bash
+      run: |
+        cd ${{ github.action_path }}
+        npm ci --production
+    - name: Run action
+      shell: bash
+      env:
+        INPUT_GAME: ${{ inputs.game }}
+        INPUT_GITHUB_TOKEN: ${{ inputs.github-token }}
+      run: node ${{ github.action_path }}/index.js
