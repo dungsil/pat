@@ -48,7 +48,7 @@ async function run() {
             let existingBody = issue.body || '';
             existingBody = existingBody.replace(/\*\*마지막 업데이트\*\*:[^\n]*\n*/g, '');
             // 이전에 추가된 성공 메시지와 footer만 제거 (원본 테이블은 유지)
-            existingBody = existingBody.replace(/\n---\n(?:✅ \*\*모든 항목이 성공적으로 번역되었습니다\.\*\*[\s\S]*)?(?:이 이슈는 자동으로 생성[\s\S]*)?$/, '');
+            existingBody = existingBody.replace(/\n---\n✅ \*\*모든 항목이 성공적으로 번역되었습니다\.\*\*[\s\S]*?\*\*마지막 업데이트\*\*:[^\n]*\n*\n---\n이 이슈는 자동으로 생성[\s\S]*?$/, '');
 
             // 성공 메시지 추가
             let updatedBody = existingBody.trim() + '\n\n---\n\n';
