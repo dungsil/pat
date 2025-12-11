@@ -4,20 +4,21 @@
   trigger_is_com_progress_bar_hidden: "지정된 진행률 표시줄이 숨겨져 있습니다." # 14540080453350424627
   trigger_is_com_progress_bar_hidden_not: "지정된 진행 표시줄이 보입니다" # 188302637952557424
   error_no_progress_bar_scope: "CMF: 정의된 $progress_bar$ 범위가 없습니다" # 11753352475328340846
-  com_default_bar: "com_blue_bar" # 11206517288324753150
-  com_blue_bar: "com_blue_bar" # 11206517288324753150
-  com_green_bar: "com_green_bar" # 13263945049235784702
-  com_bad_bar: "com_red_bar" # 7897211845126229629
-  com_red_bar: "com_red_bar" # 7897211845126229629
-  com_gold_bar: "com_gold_bar" # 4745846893664701199
-  com_white_bar: "com_white_bar" # 14064887198746645544
+  com_default_bar: "기본" # 14633529491185867926
+  com_blue_bar: "기본" # 14633529491185867926
+  com_green_bar: "녹색" # 7475655757874500677
+  com_bad_bar: "나쁨" # 5248052566871051679
+  com_red_bar: "나쁨" # 5248052566871051679
+  com_gold_bar: "금" # 1278023373275349225
+  com_white_bar: "백색" # 3826074793905145729
+  com_transparent_bar: "투명한" # 9602674536010221041
   com_target_journal_icon: "com_target_journal_icon" # 980923728735017704
   com_target_gold_marker: "com_target_gold_marker" # 6887880783226645070
   com_target_gold_bar: "com_target_gold_bar" # 1046553755264060833
-  com_target_gold_line: "com_target_gold_line" # 16812816769315042439
-  com_target_white_line: "com_target_white_line" # 2871941288087451614
-  com_target_red_line: "com_target_red_line" # 16630116801640838144
-  com_target_bad_line: "com_target_red_line" # 16630116801640838144
-  com_target_blue_line: "com_target_blue_line" # 838832943651998103
-  com_target_default_line: "com_target_blue_line" # 838832943651998103
-  com_target_green_line: "com_target_green_line" # 10900111535226394919
+  com_target_gold_line: "$com_gold_bar$" # 12464324383272608890
+  com_target_white_line: "$com_white_bar$" # 16189809696205354887
+  com_target_red_line: "$com_bad_bar$" # 14688120454109524787
+  com_target_bad_line: "$com_bad_bar$" # 14688120454109524787
+  com_target_blue_line: "$com_default_bar$" # 2962824104557531842
+  com_target_default_line: "$com_default_bar$" # 2962824104557531842
+  com_target_green_line: "$com_green_bar$" # 11487554695451821761
