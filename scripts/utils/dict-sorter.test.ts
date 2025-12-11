@@ -5,9 +5,9 @@ import {
   sortBlocks, 
   blocksToToml,
   type CommentBlock
-} from './utils/dict-sorter'
+} from './dict-sorter'
 
-describe('sort-dict', () => {
+describe('dict-sorter', () => {
   describe('parseTomlWithComments', () => {
     it('주석 블록으로 그룹화할 수 있어야 함', () => {
       const content = `# 주석 1
@@ -43,6 +43,15 @@ describe('sort-dict', () => {
       
       expect(blocks).toHaveLength(2)
     })
+
+    it('따옴표 없는 키도 파싱해야 함', () => {
+      const content = `key = "value"`
+
+      const blocks = parseTomlWithComments(content)
+      
+      expect(blocks[0].entries[0].key).toBe('key')
+      expect(blocks[0].entries[0].value).toBe('"value"')
+    })
   })
 
   describe('normalizeKeyForSorting', () => {
@@ -59,7 +68,7 @@ describe('sort-dict', () => {
 
   describe('sortBlocks', () => {
     it('엔트리를 알파벳 순으로 정렬해야 함', () => {
-      const blocks = [{
+      const blocks: CommentBlock[] = [{
         comments: ['# 테스트'],
         entries: [
           { key: '"c"', value: '"3"' },
@@ -76,7 +85,7 @@ describe('sort-dict', () => {
     })
 
     it('대소문자를 구분하지 않고 정렬해야 함', () => {
-      const blocks = [{
+      const blocks: CommentBlock[] = [{
         comments: [],
         entries: [
           { key: '"Z"', value: '"1"' },
@@ -93,7 +102,7 @@ describe('sort-dict', () => {
     })
 
     it('각 블록을 독립적으로 정렬해야 함', () => {
-      const blocks = [
+      const blocks: CommentBlock[] = [
         {
           comments: ['# 블록 1'],
           entries: [
@@ -121,7 +130,7 @@ describe('sort-dict', () => {
 
   describe('blocksToToml', () => {
     it('블록을 TOML 형식으로 변환해야 함', () => {
-      const blocks = [{
+      const blocks: CommentBlock[] = [{
         comments: ['# 주석'],
         entries: [
           { key: '"key1"', value: '"value1"' },
@@ -135,7 +144,7 @@ describe('sort-dict', () => {
     })
 
     it('인라인 주석을 보존해야 함', () => {
-      const blocks = [{
+      const blocks: CommentBlock[] = [{
         comments: [],
         entries: [
           { key: '"key"', value: '"value"', inlineComment: '# 인라인' }
@@ -148,7 +157,7 @@ describe('sort-dict', () => {
     })
 
     it('블록 사이에 빈 줄을 추가해야 함', () => {
-      const blocks = [
+      const blocks: CommentBlock[] = [
         {
           comments: ['# 블록 1'],
           entries: [{ key: '"key1"', value: '"value1"' }]
