@@ -113,37 +113,62 @@ export async function processModTranslations ({ rootDir, mods, gameType, onlyHas
       }
     }
 
-    try {
-      const results = await Promise.all(processes)
-      const untranslatedItems = results.flat()
-      allUntranslatedItems.push(...untranslatedItems)
-      log.success(`[${mod}] 번역 완료`)
-      
-      // 번역되지 않은 항목 요약 출력
-      if (untranslatedItems.length > 0) {
-        for (const item of untranslatedItems) {
-          log.warn(`  [${item.mod}/${item.file}:${item.key}] "${item.message}"`)
+    // Promise.allSettled를 사용하여 모든 파일 처리가 완료될 때까지 대기
+    // 일부 파일에서 번역 거부가 발생해도 다른 파일들의 결과를 모두 수집
+    const results = await Promise.allSettled(processes)
+    
+    let hasRefusalError = false
+    let refusalError: TranslationRefusalStopError | null = null
+    const untranslatedItems: UntranslatedItem[] = []
+    
+    for (const result of results) {
+      if (result.status === 'fulfilled') {
+        // 성공한 경우: 번역되지 않은 항목들을 수집
+        untranslatedItems.push(...result.value)
+      } else {
+        // 실패한 경우: 에러 타입에 따라 처리
+        const error = result.reason
+        if (error instanceof TimeoutReachedError) {
+          log.warn(`[${mod}] 타임아웃으로 인해 번역 중단됨`)
+          log.info(`타임아웃 도달: 처리된 작업까지 저장하고 종료합니다`)
+          // 타임아웃 시에도 현재까지 수집된 항목 반환
+          allUntranslatedItems.push(...untranslatedItems)
+          return saveAndReturnResult(projectRoot, gameType, allUntranslatedItems)
+        } else if (error instanceof TranslationRefusalStopError) {
+          // 번역 거부 에러는 첫 번째 것만 기록하고 나머지 파일 처리는 계속
+          if (!hasRefusalError) {
+            hasRefusalError = true
+            refusalError = error
+            log.warn(`[${mod}] 번역 거부로 인해 일부 파일 처리 중단됨`)
+            log.info(`번역 거부: 처리된 작업(${error.processedCount}/${error.totalEntries})까지 저장함`)
+            log.info(`거부 사유: ${error.originalError.reason}`)
+          }
+          // 거부된 항목을 수집
+          untranslatedItems.push(error.refusedItem)
+        } else {
+          // 다른 예외는 그대로 throw
+          throw error
         }
-      } else if (!onlyHash) {
-        log.success(`모든 항목이 성공적으로 번역되었습니다.`)
       }
-    } catch (error) {
-      if (error instanceof TimeoutReachedError) {
-        log.warn(`[${mod}] 타임아웃으로 인해 번역 중단됨`)
-        log.info(`타임아웃 도달: 처리된 작업까지 저장하고 종료합니다`)
-        // 타임아웃 시에도 현재까지 수집된 항목 반환
-        return saveAndReturnResult(projectRoot, gameType, allUntranslatedItems)
+    }
+    
+    allUntranslatedItems.push(...untranslatedItems)
+    
+    // 번역 거부가 있었다면 종료
+    if (hasRefusalError) {
+      log.info(`번역 거부 발생으로 번역 프로세스를 종료합니다`)
+      return saveAndReturnResult(projectRoot, gameType, allUntranslatedItems)
+    }
+    
+    log.success(`[${mod}] 번역 완료`)
+    
+    // 번역되지 않은 항목 요약 출력
+    if (untranslatedItems.length > 0) {
+      for (const item of untranslatedItems) {
+        log.warn(`  [${item.mod}/${item.file}:${item.key}] "${item.message}"`)
       }
-      if (error instanceof TranslationRefusalStopError) {
-        log.warn(`[${mod}] 번역 거부로 인해 번역 중단됨`)
-        log.info(`번역 거부: 처리된 작업(${error.processedCount}/${error.totalEntries})까지 저장하고 종료합니다`)
-        log.info(`거부 사유: ${error.originalError.reason}`)
-        // 거부된 항목을 allUntranslatedItems에 추가
-        allUntranslatedItems.push(error.refusedItem)
-        // 거부된 항목을 포함하여 결과 반환
-        return saveAndReturnResult(projectRoot, gameType, allUntranslatedItems)
-      }
-      throw error
+    } else if (!onlyHash) {
+      log.success(`모든 항목이 성공적으로 번역되었습니다.`)
     }
   }
 

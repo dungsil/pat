@@ -572,6 +572,106 @@ language = "english"
     // 정리
     await rm(testDir, { recursive: true, force: true })
   })
+
+  it('한 모드에 여러 파일이 있을 때 번역 거부가 발생해도 다른 파일들은 정상 처리되어야 함', async () => {
+    const testDir = join(tmpdir(), `translate-test-multi-files-${Date.now()}`)
+    const ck3Dir = join(testDir, 'ck3')
+    
+    // 1개의 모드에 여러 파일 생성
+    const modDir = join(ck3Dir, 'test-mod')
+    const upstreamDir = join(modDir, 'upstream')
+
+    await mkdir(upstreamDir, { recursive: true })
+
+    // meta.toml 생성
+    await writeFile(join(modDir, 'meta.toml'), `
+[upstream]
+localization = ["."]
+language = "english"
+`, 'utf-8')
+
+    // file1: 번역 성공
+    await writeFile(join(upstreamDir, 'file1_l_english.yml'), `l_english:
+ key1:0 "Value 1"
+ key2:0 "Value 2"
+`, 'utf-8')
+
+    // file2: 번역 거부 발생
+    await writeFile(join(upstreamDir, 'file2_l_english.yml'), `l_english:
+ key3:0 "Value 3"
+ key4:0 "Forbidden Content"
+ key5:0 "Value 5"
+`, 'utf-8')
+
+    // file3: 번역 성공
+    await writeFile(join(upstreamDir, 'file3_l_english.yml'), `l_english:
+ key6:0 "Value 6"
+ key7:0 "Value 7"
+`, 'utf-8')
+
+    const { translate, TranslationRefusedError } = await import('../utils/translate')
+    
+    // Forbidden Content에 대해 번역 거부
+    vi.mocked(translate).mockImplementation(async (text: string) => {
+      if (text.includes('Forbidden Content')) {
+        throw new TranslationRefusedError(text, 'SAFETY - 금지된 콘텐츠')
+      }
+      return `[KO]${text}`
+    })
+
+    const { processModTranslations } = await import('./translate')
+    const result = await processModTranslations({
+      rootDir: ck3Dir,
+      mods: ['test-mod'],
+      gameType: 'ck3',
+      onlyHash: false
+    })
+
+    // 번역 거부된 항목이 1개 있어야 함
+    expect(result.untranslatedItems).toBeDefined()
+    expect(result.untranslatedItems.length).toBe(1)
+    expect(result.untranslatedItems[0].key).toBe('key4')
+    expect(result.untranslatedItems[0].file).toBe('file2_l_english.yml')
+    expect(result.untranslatedItems[0].message).toContain('Forbidden Content')
+    expect(result.untranslatedItems[0].message).toContain('번역 거부')
+
+    // file1의 번역 파일이 정상적으로 생성되었는지 확인
+    const file1Output = join(modDir, 'mod', 'localization', 'korean', '___file1_l_korean.yml')
+    const file1Content = await readFile(file1Output, 'utf-8')
+    const file1Yaml = parseYaml(file1Content)
+    expect(file1Yaml.l_korean['key1'][0]).toBe('[KO]Value 1')
+    expect(file1Yaml.l_korean['key2'][0]).toBe('[KO]Value 2')
+
+    // file2의 번역 파일이 부분적으로 생성되었는지 확인
+    const file2Output = join(modDir, 'mod', 'localization', 'korean', '___file2_l_korean.yml')
+    const file2Content = await readFile(file2Output, 'utf-8')
+    const file2Yaml = parseYaml(file2Content)
+    // key3는 번역되었어야 함 (거부 이전)
+    expect(file2Yaml.l_korean['key3'][0]).toBe('[KO]Value 3')
+    // key4는 저장되지 않았어야 함 (중단됨)
+    expect(file2Yaml.l_korean['key4']).toBeUndefined()
+    // key5도 저장되지 않았어야 함 (거부 이후)
+    expect(file2Yaml.l_korean['key5']).toBeUndefined()
+
+    // file3의 번역 파일이 정상적으로 생성되었는지 확인
+    const file3Output = join(modDir, 'mod', 'localization', 'korean', '___file3_l_korean.yml')
+    const file3Content = await readFile(file3Output, 'utf-8')
+    const file3Yaml = parseYaml(file3Content)
+    expect(file3Yaml.l_korean['key6'][0]).toBe('[KO]Value 6')
+    expect(file3Yaml.l_korean['key7'][0]).toBe('[KO]Value 7')
+
+    // JSON 파일 확인
+    const jsonPath = join(testDir, 'ck3-untranslated-items.json')
+    const jsonContent = await readFile(jsonPath, 'utf-8')
+    const jsonData = JSON.parse(jsonContent)
+    
+    expect(jsonData.items.length).toBe(1)
+    expect(jsonData.items[0].key).toBe('key4')
+    expect(jsonData.items[0].file).toBe('file2_l_english.yml')
+
+    // 정리
+    await rm(testDir, { recursive: true, force: true })
+  })
 })
 
 // 지정된 개수의 항목을 가진 YAML 파일을 생성하는 헬퍼 함수
