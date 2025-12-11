@@ -1,0 +1,401 @@
+﻿l_korean:
+  VIET_heard_about_Scarborough_Fair: "스카버러 박람회에 대해 들었소" # 15177439365176209270
+  VIET_heard_about_Scarborough_Fair_desc: "스카버러 장터에 가실 건가요?\n파슬리, 세이지, 로즈마리, 그리고 타임\n그곳에 사는 이에게 안부를 전해주세요\n그녀는 한때 나의 진실한 연인이었지요" # 16198401124187029665
+  VIET_oblivion_dream_pells_gate: "작은 숲속 마을을 꿈꾸다" # 1604667829189320936
+  VIET_oblivion_dream_pells_gate_desc: "이 인물은 최근에 그림 같은 시냇물 근처 작은 숲속 마을로 여행을 떠나는 기분 좋은 꿈을 꾸었습니다." # 12315401845617920121
+  VIET_oblivion_dream_odiil_farm: "공격받는 작은 마을에 대한 꿈" # 18354735490542386385
+  VIET_oblivion_dream_odiil_farm_desc: "이 인물은 최근에 살인마 괴물들로부터 작은 마을을 영웅적으로 돕고 그들의 아들들과 함께 마을을 지켜내는 고무적인 꿈을 꾸었습니다." # 15663804685792391537
+  VIET_oblivion_dream_weye: "낚시 마을을 꿈꾸다" # 4636613348429182309
+  VIET_oblivion_dream_weye_desc: "이 인물은 최근에 웅장한 수도 근처의 호숫가에 있는 작은 어촌 마을에서 휴식을 취하는 고무적인 꿈을 꾸었습니다." # 17401028149412065805
+  VIET_oblivion_dream_faregyl: "아늑한 여관을 꿈꾸다" # 451069816518751669
+  VIET_oblivion_dream_faregyl_desc: "이 인물은 최근에 야생의 여관에 머물며 다른 손님이 만든 맛있는 빵을 먹었던 기분 좋은 꿈을 꾸었습니다." # 7828962403707309881
+  VIET_oblivion_dream_cloud_ruler_temple: "산속 사원을 꿈꾸다" # 4005900526647493292
+  VIET_oblivion_dream_cloud_ruler_temple_desc: "이 인물은 최근 산속의 장엄한 고대 사원을 방문하는 고무적인 꿈을 꾸었습니다. 그 사원은 고대적이고 고귀한 전사 집단이 지키고 있었습니다." # 5283183306998265640
+  VIET_overheard_oblivion_conversation: "흔히 들을 수 있는 대화" # 5803840564379931367
+  VIET_overheard_oblivion_conversation_desc: "다른 이들도 똑같이 말하는 것을 들었습니다." # 12640248871945629610
+  VIET_gave_servants_advice: "하인에게 조언을 건넴" # 10281205082534746810
+  VIET_rumors_of_peasant_child: "소문으로만 떠도는 농민의 사생아" # 3944163447905357335
+  VIET_rumors_of_peasant_child_desc: "이 인물이 평민과 부적절한 관계를 맺어 사생아를 두었다는 소문이 돌고 있습니다. 그러한 소문은 근거가 없으나 계속해서 퍼지고 있습니다." # 3377484192617512934
+  VIET_scorpion_sting: "전갈에게 쏘이다" # 9473323022607190580
+  VIET_dagoth_ur_dream: "황금 가면을 쓴 형상을 꿈꾸다" # 18192906152107254373
+  VIET_dagoth_ur_dream_desc: "불과 전쟁을 헤치고 내게 오라. 환영하노라." # 10651538968362432021
+  VIET_has_fruit_loops_poops: "다채로운 배설물" # 6184756780776521797
+  VIET_has_fruit_loops_poops_desc: "이 인물은 배설물의 색깔이 종종 이상하게 나타나는 기이한 의학적 상태를 가지고 있으나, 의원들은 이를 알려진 어떠한 질병과도 연관 짓지 못하고 있습니다." # 9126435463696980306
+  VIET_ate_good_food: "음식을 잘 먹었소" # 6095946086154715300
+  VIET_amused_ruler: "재미있군" # 2734681759399601624
+  VIET_amused_ruler_desc: "하하! 정말 재미있군!" # 6808662467674601239
+  VIET_sexy_arugula: "루꼴라에 자극받아" # 16920645411901021272
+  VIET_sexy_arugula_desc: "이 인물은 최근 루꼴라를 많이 먹고 있습니다. 이 식물은 일종의 최음제로 여겨지죠." # 8602599070674046231
+  VIET_popeye_spinach_lover: "시금치 애호가" # 13904501259574431766
+  VIET_eating_pickled_eggs: "절인 달걀 많이 먹기" # 17145088711053757450
+  VIET_lake_rumare_dream_lake: "거대한 호수를 꿈꾸다" # 4814739425791317520
+  VIET_lake_rumare_dream_lake_desc: "눈앞에는 이제껏 본 중 가장 아름다운 호수가 펼쳐져 있었습니다. 그곳은 그 자체로 바다라 칭할 만큼 거대했고, 호숫가를 따라 농지와 작은 마을들이 점점이 박혀 있는 목가적인 풍경이 둘러싸고 있었습니다." # 15413395870436282195
+  VIET_lake_rumare_dream_wayshrine: "대리석 신전을 꿈꾸다" # 8181071710894655707
+  VIET_lake_rumare_dream_wayshrine_desc: "그것은 특별히 크지 않았다. 오히려 격상된 제단에 가까웠으며, 지붕은 사라진 지 오래였고 대리석 기둥들은 닳고 부서져 있었다. 그럼에도 불구하고 고대의 영적인 힘의 기운이 여전히 그곳에서 뿜어져 나오고 있었다." # 8060109384540598504
+  VIET_lake_rumare_dream_forest: "부드러운 숲을 꿈꾸다" # 8720759822624040533
+  VIET_lake_rumare_dream_forest_desc: "일부 숲은 어둡고 위험하지만, 이곳은 그와 정반대였습니다. 빛이 보였고, 새들과 다른 친근한 생명체들이 길을 안내해 주었기 때문입니다. 하지만 이곳에 아직 발견되지 않은 어떤 비밀이 숨겨져 있을지는 아무도 모르겠지요." # 3623366824323000377
+  VIET_lake_rumare_dream_cottage: "아늑한 오두막집을 꿈꾸다" # 11806183320962207558
+  VIET_lake_rumare_dream_cottage_desc: "내부에는 쫄깃한 빵, 아삭한 채소, 부서지는 치즈와 같이 신선하고 따뜻한 음식이 있었습니다. 벽난로 옆에는 작은 불이 타오르고 있었고, 푹신하고 아늑한 침대 옆에는 몇 개의 양탄자와 의자가 소박한 장식으로 놓여 있었습니다." # 884288254035311137
+  VIET_oblivion_dream_bruma: "고대의 신전을 꿈꾸다" # 4244169351722410093
+  VIET_oblivion_dream_bruma_desc: "이곳의 성스러운 돌들은 많은 것을 담고 있습니다. 사원이자 요새이며, 안식처이기도 하죠. 하지만 이곳은 또한 이곳을 지킬 만큼 현명하고 강한 자들의 보금자리이기도 합니다." # 5552239033982356396
+  VIET_oblivion_dream_anvil: "세계적인 항구의 꿈" # 15191747264943473006
+  VIET_oblivion_dream_anvil_desc: "도시의 많은 주민들이 직간접적으로 선박과 항해와 관련되어 있습니다... 뱃사람들, 선주들, 바다 무역으로 부자가 되거나 가난해진 이들, 그리고 바다를 따르는 이들의 외로운 아내들이죠." # 1386354308311666778
+  VIET_oblivion_dream_leyawiin: "신비로운 늪지대의 꿈" # 1048625170873257232
+  VIET_oblivion_dream_leyawiin_desc: "\"늪지대는 파리만 익숙해지면 그리 나쁘지 않소. 그리고 늘 길을 잃는다는 점만 빼면 말이오\"" # 2938951702740551779
+  VIET_oblivion_dream_east_lake_rumare: "꽃밭을 꿈꾸다" # 4299019912134685153
+  VIET_oblivion_dream_east_lake_rumare_desc: "호수 주변의 숲이 경작지를 위해 개간되었으나, 그 밖은 대부분 황무지입니다." # 12722209509862764574
+  VIET_moved_to_tears: "예술에 감동하여 눈물을 흘리다" # 16961750194737828218
+  VIET_moved_to_tears_desc: "태어날 때 우리는 울부짖지, 이 거대한 어리석음의 무대에 오게 되었다고." # 17958380918505819924
+  VIET_unmoved_by_art: "예술에 감동받지 않음" # 137573862347964190
+  VIET_unmoved_by_art_desc: "어떤 사람들은 그저 아무것도 좋아하지 않지." # 12620581629052278
+  VIET_auriels_ascension: "신성한 승천" # 14402086672243625514
+  VIET_auriels_ascension_desc: "그들은 이 인물의 거처 근처 마을에 신성한 존재의 현신이 나타났다고 말합니다. 이 인물은 이를 좋은 징조로 생각합니다." # 7476825136887538360
+  VIET_repressing_auriels_ascension_cult: "새로운 신앙 억압하기" # 5785325424675275750
+  VIET_repressing_auriels_ascension_cult_desc: "이 인물의 거주지 근처 마을에 신성의 현신이 나타났으며, 이를 중심으로 컬트가 형성되고 있다고 합니다. 이 인물은 이를 진압하려 하고 있습니다." # 5974469575715865229
+  VIET_good_flute_music: "훌륭한 피리 연주" # 3713328345337053525
+  VIET_read_book_hotel_del_luna: "최근에 사랑과 삶에 관한 놀라운 소설을 읽었다네" # 9713371440980904804
+  VIET_read_book_hotel_del_luna_desc: "우리는 살면서 가장 예상치 못한 순간에 멋진 이야기를 접하곤 합니다." # 16382996439963184416
+  VIET_mysterious_vision_past: "경험한 과거의 신비로운 환영" # 14082278371968733928
+  VIET_read_cute_love_story: "단순한 사랑 이야기를 읽어보시오" # 3040342552382724826
+  VIET_read_cute_love_story_desc: "때로는 가장 단순하고 사랑스러운 이야기들이 우리에게 가장 큰 감동을 줍니다." # 4842911345820072590
+  VIET_learning_local_lore: "지역 전승 학습하기" # 10211499894036722668
+  VIET_learning_local_lore_desc: "이 인물은 주변에 거주하는 사람들의 지역 전설, 신화, 관습, 신앙 등에 대해 이것저것 배우고 있습니다." # 15063720912324467365
+  VIET_lustful_ruler: "욕정에 사로잡히다" # 6031072729684817510
+  VIET_lustful_ruler_desc: "이 인물은 평소보다 훨씬 더 흥분하고 있습니다. 그의 연인들이 감당할 수 있을까요?" # 9926616329417455243
+  VIET_late_night_work: "#bold 심야 작업#!" # 6815056605213769685
+  VIET_gave_cook_advice: "요리사에게 조언을 건넸다" # 16489860184368015323
+  VIET_guanz_food: "관즈에서 맛있는 음식을 먹었다" # 15565110644334809315
+  VIET_guanz_food_desc: "이 인물은 최근 유목민들의 일종의 '임시 정거장'인 관즈(guanz)에 들렀습니다. 그곳에서 그들은 정말 맛있는 음식을 잔뜩 먹었습니다." # 5683979416709459083
+  VIET_open_minded_about_incest: "근친상간 관계에 관대함" # 14162375680375835541
+  VIET_deviant_opinion: "이단적인 의견" # 10132447182504902452
+  VIET_deviant_opinion_desc: "이 인물이 최근에... 특정 종류의 행위에 관심이 있을지도 모른다고 암시했습니다. 물론, 실제로 무언가를 했다고 말하지는 않았지만, 누가 확실히 알겠습니까?" # 17974515602003049404
+  VIET_skeptical_about_fantasy_stories: "환상적인 이야기에 대한 회의감" # 17454339094881809988
+  VIET_heard_fantasy_stories: "머나먼 땅에 대한 환상적인 이야기를 들었다" # 1742885209649807294
+  VIET_heard_fantasy_stories_desc: "세상은 고대의 신비로 가득합니다." # 18395889585891342610
+  VIET_interesting_talk_with_stranger: "#흥미로운 낯선 이와의 대화#" # 13100890948665314365
+  VIET_interesting_talk_with_stranger_desc: "이 인물은 이전에 만난 적 없는 누군가와 최근에 좋은 대화를 나누었습니다. 비록 다시는 그 낯선 이와 마주치지 않겠지만, 그 대화가 어떤 식으로든 이 인물에게 영향을 미쳤을 것입니다." # 17256598081369955971
+  VIET_thinking_about_foreign_lands: "#bold 해외 영토에 대한 고찰#!" # 11684504044884561401
+  VIET_thinking_about_foreign_lands_desc: "이 인물은 요즘 멀리 떨어진 왕국들의 백성, 풍습, 지리에 대해 골똘히 생각하고 있습니다." # 13589753733008960801
+  VIET_open_to_new_ideas: "새로운 생각에 열려 있음" # 17908976775818906200
+  VIET_im_curious: "궁금하군" # 129011688161630805
+  VIET_im_curious_desc: "\"궁금하군! 궁금하군! 궁금하군\"" # 15712847573276387111
+  VIET_heard_eerie_story: "섬뜩한 이야기를 들었다네" # 7516555105646328096
+  VIET_heard_eerie_story_desc: "이 인물은 최근 섬뜩한 이야기를 들었습니다. 세상에는 기이한 것들이 많으며, 그러한 것들을 찾기 위해 반드시 문명의 경계를 넘을 필요는 없습니다. 기이한 것은 어디에서나 발견될 수 있으니까요." # 13108759695095418388
+  VIET_navel_gazing: "자기 도취자" # 12093156598144703930
+  VIET_navel_gazing_desc: "\"삶의 의미는 무엇인가\"" # 16903728126324268832
+  VIET_impressed_others_with_knowledge: "지식으로 타인에게 깊은 인상을 남김" # 4586833268752849653
+  VIET_curled_up_with_good_book: "#bold 좋은 책과 함께 웅크리다#" # 8406365838663612997
+  VIET_curled_up_with_good_book_desc: "상상 속 인물과 장소에 대한 이야기가 있는데 누가 사람을 필요로 하겠는가?" # 13971394383501649299
+  VIET_constructive_criticism: "건설적인 비판을 가함" # 15401469245605833526
+  VIET_art_censorship: "검열 예술" # 16028987728765250712
+  VIET_abstract_religious_art: "추상적인 종교 미술을 좋아함" # 6440972452015395276
+  VIET_abstract_religious_art_desc: "그게 무엇을 상징하는지는 모르겠지만, 정말 멋져 보이는군!" # 16389810993003235508
+  VIET_examined_old_ruins: "오래된 유적 조사 완료" # 1221080891377704834
+  VIET_memorable_dramatic_play: "최근에 본 인상 깊은 드라마 연극" # 3653428052558382224
+  VIET_memorable_dramatic_play_desc: "인간의 본질을 설명하고 우리 마음속 깊은 곳에서 설명할 수 없는 무언가를 느끼게 하는 이야기는 언제나 존재합니다." # 4083922145636394651
+  VIET_simple_doesnt_like_drama_play: "마음에 들지 않았어" # 335357904771582928
+  VIET_simple_doesnt_like_drama_play_desc: "이 인물은 최근에 연극을 관람했는데, 그저 미미하다고 생각했습니다." # 7189368714986382153
+  VIET_efficient_time: "효율적인 시간" # 5762477608085154058
+  VIET_efficient_time_desc: "이 인물은 생산성을 극대화하기 위해 시간을 효율적으로 관리합니다." # 8529639368414158648
+  VIET_caring_leader: "자애로운 지도자" # 1548920835758641694
+  VIET_noontime_sun_headache: "태양 때문에 가벼운 두통이 생기다" # 5694161136194441330
+  VIET_opinion_didnt_get_angry: "화내지 않음" # 13569170490479830883
+  VIET_opinion_angry_at_me: "나에게 분노함" # 625757842734125674
+  VIET_opinion_bumped_into_me: "내게 부딪혔다" # 5126478361123614781
+  VIET_opinion_fruit_loops_poops_help: "소화 불량 개선에 도움을 주었음" # 14280216695428753922
+  VIET_opinion_angry_eggshells: "달걀 껍데기가 들어간 상한 음식" # 5144686938394022590
+  VIET_opinion_forgave_me: "나를 용서하시오" # 16261134689448196241
+  VIET_opinion_approved_of_cabbage_hate: "양배추 혐오를 승인함" # 15065015881255224700
+  VIET_opinion_disapproved_of_cabbage_hate: "양배추 혐오를 불승인함" # 8796091456402458514
+  VIET_opinion_north_african_tea: "북아프리카 민트차 의례" # 14772785664533568736
+  VIET_opinion_prayed_for_me: "나를 위해 기도함" # 7967294062635130954
+  VIET_opinion_nagged_me: "잔소리했어" # 14902967769570671113
+  VIET_opinion_doesnt_care_about_me: "나에겐 상관없다" # 1159565875437557545
+  VIET_opinion_interesting_conversation: "흥미로운 대화로군" # 13380106289267598674
+  VIET_haunted_by_ghost_for_sin: "죄악으로 인해 유령에게 시달리다" # 14914285294090874419
+  VIET_opinion_mutual_compassion: "상호 연민" # 8714119306550787612
+  VIET_opinion_ignored_child: "도움이 필요한 아이를 무시함" # 9131666416893811714
+  VIET_oblivion_dream_dark_brotherhood: "#bold 명예로운 암살자들의 결사#에 가입하는 꿈을 꾸다" # 11935565914242333526
+  VIET_oblivion_dream_dark_brotherhood_desc: "그대는 살인자요. 생명을 거두는 자이며, 영혼을 수확하는 자입니다. 그대의 업적, 그대의 죽음의 기술이 어둠을 기쁘게 하는군요." # 11150723005386010492
+  VIET_oblivion_dream_fighters_guild: "#bold 고귀한 용병단에 합류하는 꿈#!" # 603014831417424222
+  VIET_oblivion_dream_fighters_guild_desc: "용병들이 모집 중이라는 소문이 들리는군. 돈벌이로는 나쁘지 않겠지... 배짱이 있다면 말이야." # 6149615083187630366
+  VIET_oblivion_dream_thieves_guild: "#bold 영웅적인 도둑들의 협회#에 가입하는 꿈을 꾸다" # 3016088248551775496
+  VIET_oblivion_dream_thieves_guild_desc: "\"이게 무슨 농담인가! 도둑떼들이 길드를 만들려고 한다니 상상이 가는가\"" # 47775960497884291
+  VIET_oblivion_dream_mages_guild: "현명한 남녀들로 이루어진 학파에 합류하는 꿈을 꾸다" # 11151535474041215529
+  VIET_oblivion_dream_mages_guild_desc: "우리가 학자들에게 더 높은 기준을 적용하려 노력하더라도, 그들 역시 인간일 뿐입니다. 이제 여러분이 깨달으시길 바라는 것은 이 학파가 분열되고 오용될 수 있지만, 동시에 경이로운 성과를 이룰 수도 있다는 점입니다." # 12259110251939248857
+  VIET_oblivion_dream_arena: "검투사 팀에 합류하는 꿈을 꾸다" # 1819429183397763642
+  VIET_oblivion_dream_arena_desc: "\"최고의 기술은 생존자들에 의해 전수된다\"" # 10201863395943136164
+  VIET_opinion_survived_night_ruins: "고대 유적지에서 하룻밤을 함께 보냈습니다" # 3621973603937873586
+  VIET_values_scholarly_perspectives: "학문적 관점을 중시함" # 4541052120681695166
+  VIET_values_adventurer_experiences: "모험가들의 경험에 가치를 부여합니다" # 17958189680460129324
+  VIET_world_war_1_dream: "모든 전쟁을 끝낼 전쟁에 대한 꿈" # 10843503086782572990
+  VIET_world_war_1_dream_desc: "끔찍하고 참혹한 미래의 꿈, 즉 인간들이 잔혹하고 뒤틀린 마법으로 서로를 갈가리 찢고 수천 명이 죽어 나가는 미래를 꾼 뒤, 이 인물의 세상에 대한 관점은 완전히 바뀌었습니다." # 11744389218867253566
+  VIET_whore_of_babylon_dream: "종말의 형상에 대한 불길한 꿈" # 16622385388615703795
+  VIET_dream_future_good: "축복받은 미래를 꿈꾸다" # 12141061237181352183
+  VIET_dream_future_bad: "저주받은 미래를 꿈꾸다" # 15862137290920890840
+  VIET_memory_of_first_love: "첫사랑의 기억" # 17321497891541245598
+  VIET_memory_of_first_love_desc: "그의 마음속에서, 그는 그녀를 사랑할 것입니다. 언제나." # 16545596499823953157
+  VIET_small_house_fire: "작은 집 화재" # 3300712447216723439
+  VIET_chopped_some_wood: "나무 몇 개를 쪼갰다" # 12241086131560185546
+  VIET_torch_burn: "횃불에 가벼운 화상을 입었습니다" # 8969454348910199280
+  VIET_mysterious_horizon_fires: "신비로운 지평선의 불꽃" # 9691492491993691300
+  VIET_mysterious_horizon_fires_desc: "이따금 이 인물의 집에서 지평선 너머로 이상한 불길이 보이지만, 누가 혹은 무엇이 원인인지는 전혀 알 수 없습니다." # 3870258389806165297
+  VIET_house_fire_safety_measures: "가옥 주변 화재 안전 개선" # 505626396850439230
+  VIET_dislikes_commoners: "천민을 싫어함" # 8444517014671787095
+  VIET_dislikes_commoners_desc: "\"오, 물론이죠, 내 사랑. 저는 모든 하층민 쓰레기들을 혐오합니다. 그들은 게으르고 무식한 대중이며 우리가 그들을 위해 무엇을 하는지조차 모르죠\"" # 8498072058699738590
+  VIET_friend_of_beggars: "걸인들의 친구" # 14100087991306454537
+  VIET_bought_baklava_normal: "바클라바를 구매했다" # 12347638823566162730
+  VIET_bought_baklava_sweet_cheese: "달콤한 치즈를 곁들인 바클라바를 샀습니다" # 64644282268274048
+  VIET_bought_baklava_spices: "계피와 정향으로 향을 낸 바클라바를 구매했습니다." # 7198283799432395010
+  VIET_bought_baklava_fruits: "베리로 얹은 바클라바" # 8785496299999440144
+  VIET_baklava_fanatic: "바클라바 광신도" # 10279668459991609657
+  VIET_baklava_fanatic_desc: "바클라바에 집착하며 삶의 모든 측면에 그것을 주입하려는 자들은 참으로 이상한 자들이다." # 16138063721623645220
+  VIET_baklava_envoy_gifts: "사절들에게 바클라바를 선물하기" # 5923881659102218385
+  VIET_baklava_guests_banquets: "연회에서 손님들에게 바클라바 대접하기" # 9554223068012197742
+  VIET_baklava_donate_to_poor: "거지들과 고아들에게 바클라바를 기부하기" # 4279602579004641354
+  VIET_baklava_keep_for_self: "탐욕스럽게 바클라바를 지키기" # 12677346291669743569
+  VIET_one_time_lovemaking: "일회성 정사" # 7524262415884808706
+  VIET_one_time_lovemaking_desc: "이 인물은 최근 누군가와 가벼운 만남을 가졌으며, 아마도 낯선 상대였을 것입니다. 그들은 분명 그 경험을 즐겼지만, 상대방이 원했든 원하지 않았든 똑같이 느꼈기를 바랄 뿐입니다!" # 15163277393534616953
+  VIET_jon_battle_born_soldier: "시적인 근위병" # 2168378124560229086
+  VIET_jon_battle_born_soldier_desc: "이 인물은 승진하기 전까지 친근하고 올바른 삶의 태도와 시인으로서의 기량으로 유명했던 근위병이었습니다." # 6465780982559962022
+  VIET_is_lydia_from_skyrim: "빈정대는 하녀" # 10271118892639191688
+  VIET_is_lydia_from_skyrim_desc: "이 여인은 젊은 시절 하녀에 불과했으나, 다른 이들의 짐을 지극히 헌신적으로 짊어지겠다고 맹세했을지라도, 이따금 쏘아붙이는 비꼬는 말을 삼키지 않았던 것은 아닙니다. 그녀의 비범한 근면함, 충성심, 그리고 무엇보다도 악명 높은 비꼬는 태도를 그녀의 상급자들이 알아차렸고, 그녀가 사회적 사다리를 오르도록 허락했습니다." # 7870507308973655378
+  VIET_sinmir_good_defense_advice: "노인에게 듣는 방어에 관한 좋은 조언" # 14861611520992043096
+  VIET_sinmir_bad_defense_advice: "노인으로부터 듣는 방어에 대한 나쁜 조언" # 17014014450546350508
+  VIET_moss_exercise: "이끼 청소로 단련됨" # 3287729004099604588
+  VIET_outdoors_nap: "야외에서 꿀잠을 잤다" # 2063514179996500299
+  VIET_opinion_gave_me_a_gift: "선물을 증정함" # 11677850752929952335
+  VIET_cinnamon_toast_crunch_addict: "계피에 집착함" # 5530208967141561795
+  VIET_cinnamon_toast_crunch_addict_desc: "이 인물은 계피와 계피로 만든 모든 것을 좋아합니다. 특히 계피를 바싹 구운 끈적한 빵을 말이죠!" # 17789789273190388475
+  VIET_strange_female_bodyguard: "위험한 아마존 여전사 호위병" # 11520200149183597130
+  VIET_strange_female_bodyguard_desc: "이 통치자의 호위병 중 한 명은 칼과 활에 능한 두려운 여인입니다. 그녀를 곁에 두는 것은 다소 파격적이고 논란의 여지가 있지만, 그녀는 매우 유능함을 증명했으며 언제나 위험과 죽음의 기운을 풍기고 있어 감히 공개적으로 그녀에게 이의를 제기하는 자는 거의 없습니다." # 18114712858640855720
+  VIET_ignored_disapproval_and_mockery: "무시와 조롱" # 17515436201734685422
+  VIET_tiring_travel: "고된 여정" # 10269708460800879705
+  VIET_tiring_travel_desc: "이 인물은 최근 여기저기 돌아다니느라 지쳐 있습니다." # 14507745846095564748
+  VIET_sun_wu_kong_story: "손오공의 이야기를 들었소" # 8906128362051631478
+  VIET_egyptian_sunscreen: "이집트 조리법으로 만든 자외선 차단제" # 15920831651779211055
+  VIET_egyptian_sunscreen_desc: "이 인물은 현재 피부에 발라 햇볕에 타는 것과 그을림을 방지하는 데 사용되는, 오래된 이집트식 조리법을 바탕으로 쌀, 자스민, 루핀 및 기타 약초로 주로 만든 오일을 소지하고 있습니다." # 5850896894547324072
+  VIET_stared_at_sun: "해를 너무 오래 바라보았다" # 13391343109198573942
+  VIET_permanent_sun_damage: "영구적인 태양 손상 (눈)" # 4846165923052188074
+  VIET_permanent_sun_damage_desc: "이 인물은 살면서 어느 시점에 태양을 너무 오래 쳐다보는 어리석은 짓을 저질러 눈에 영구적인 손상을 입었습니다. 완전히 맹인이 된 것은 아니지만, 시력이 예전 같지 않습니다." # 13639860821860741497
+  VIET_numerology_prediction_good: "수비학자의 점괘 (좋음)" # 14551510425665012475
+  VIET_numerology_prediction_bad: "수비학자의 해석 (나쁨)" # 12813172676622224271
+  VIET_advanced_finger_counting: "고급 손가락 계산법" # 14441543656365939305
+  VIET_guards_on_alert: "경계 태세에 돌입한 근위병들" # 15281390722884321944
+  VIET_special_rock: "특별한 바위" # 8406926956057166325
+  VIET_boulder_blessing: "바위의 축복" # 13160941762469489467
+  VIET_has_dinosaur_bone: "고대 생물의 뼈" # 17527808520991237776
+  VIET_has_dinosaur_bone_desc: "이 인물의 집은 전설적이거나 신화적인 짐승의 뼈로 장식되어 있습니다. 학자들은 그것이 정확히 무엇인지 알아내지 못했습니다." # 11578975663530799065
+  VIET_opinion_shiny_pebble_gift: "반짝이는 조약돌 선물" # 1126428431574003835
+  VIET_religiously_tolerant_ruler: "종교적 차이 용인하기" # 2309289040495499721
+  VIET_magical_napkins: "불에 타지 않는 냅킨" # 293485832137964041
+  VIET_magical_napkins_desc: "이 인물은 석면으로 만들어진 불에 타지 않는 냅킨을 소유하고 있습니다." # 1952760458370180700
+  VIET_bad_acne: "심한 여드름" # 6966099244917092245
+  VIET_skeptical_ruler: "회의적" # 17233423630014407107
+  VIET_purchase_herbs_small: "약초 구입 (소량)" # 2233872959932634441
+  VIET_purchase_herbs_medium: "약초 구입 (중급)" # 4034408089589285691
+  VIET_purchase_herbs_large: "약초 (대량) 구매" # 15261278094327731951
+  VIET_wolf_protector: "신비로운 늑대 수호자" # 16391480165147138282
+  VIET_wolf_protector_desc: "저 멀리서 홀로 서서 마치 이 인물을 지키려는 듯이 지켜보는 저 고독한 늑대는 누구인가?" # 12633888657035241775
+  VIET_impressed_reasoning_skills: "논리력으로 타인을 감명시킴" # 14653653364772594580
+  VIET_magnificent_castle_dream: "장엄한 성을 꿈꾸다" # 3946932596465184105
+  VIET_impressed_medical_skills: "의학 지식으로 타인에게 깊은 인상을 남김" # 8343092024011110315
+  VIET_notorious_jailbreak: "악명 높은 탈옥" # 14682010758006235297
+  VIET_notorious_jailbreak_desc: "이 인물의 감옥에 갇혀 있던 난폭하고 정신 나간 범죄자가 탈옥하여 살인 행각을 벌이다가 붙잡혔습니다. 이는 이 인물의 지도력과 관리 능력에 나쁜 영향을 미칩니다." # 2244777715895513189
+  VIET_loves_cute_maids: "하녀 애인" # 16558571922689306288
+  VIET_loves_cute_maids_desc: "이 인물은 매력적인 젊은 하녀에게 약점이 있는 것으로 알려져 있습니다." # 7437778402850661544
+  VIET_opinion_ignore_maid_harassment: "하녀들을 마음껏 부리게 해주시오" # 11810936114747108182
+  VIET_opinion_warned_about_maids: "시녀들을 괴롭히는 것에 대해 경고했음" # 10790845280575886029
+  VIET_opinion_maid_harasser: "내 하녀들을 괴롭히기" # 15950186056294468287
+  VIET_reduce_construction_noise: "평민들에게 건축 소음을 줄이도록 명령함" # 13079625301009695258
+  VIET_reduce_construction_noise_desc: "지역 귀족들의 불만으로 인해, 이 인물은 평민들의 건설 프로젝트를 축소하거나 중단하도록 강제했습니다. 이는 당연히 많은 이들의 심기를 건드렸습니다." # 6402889892309435668
+  VIET_opinion_supported_construction_noise: "건설 소음에 대한 불만을 경청함" # 5366917812770456001
+  VIET_opinion_ignored_construction_noise: "건설 소음에 대한 나의 불만을 무시했다" # 9639391098601742362
+  VIET_opinion_compromise_construction_noise: "건설 소음 문제에 대해 타협하다" # 11429914883055953184
+  VIET_discussed_mysterious_scroll_with_scholars: "학자들과 신비로운 두루마리에 대해 논의함" # 3866111781138740769
+  VIET_nobleman_with_criminal_problems: "범죄 문제에 시달리는 귀족" # 10915698060754106452
+  VIET_nobleman_with_criminal_problems_desc: "이 인물은 한때 지역 범죄 조직의 표적이었으나, 자비로운 영주께서 그에게 보호를 베풀어 주시기로 결정하면서 도움을 받았습니다." # 7240480895982369181
+  VIET_talked_about_sand: "모래에 대해 이야기하다" # 16170116672625281820
+  VIET_studying_ancient_clothes: "고대 의복 연구하기" # 2797259970914917941
+  VIET_helped_solve_old_murder_mystery: "오래된 살인 미스터리 해결에 도움을 줌" # 16421925360231539177
+  VIET_helped_solve_old_murder_mystery_desc: "그들의 교활함과 더불어 피해자의 유골을 발견한 행운 덕분에, 이 인물은 그동안 미해결로 남아있던 지역 당국의 살인 미스터리를 해결하는 데 도움을 주었습니다." # 1397242862797965234
+  VIET_explored_cave: "황무지의 동굴을 탐험함" # 4896374980582450627
+  VIET_lapidary_study: "보석학 연구" # 10250137127832626190
+  VIET_lapidary_study_desc: "초심자가 돌에 대한 더 확실한 정보를 발굴하는 것은 험난한 시작이 될 수 있다는 것은 명백하지만, 만약 숨겨진 지식의 보석을 발견한다면, 이는 대지의 비밀에 대한 확고한 진실을 발견하는 디딤돌이 될 것입니다." # 5837175214315664790
+  VIET_thunderstone_studies: "지역 학자들에게 천둥석을 기증함" # 1179646172988122727
+  VIET_thunderstone_studies_desc: "이 인물의 영지에서 최근 천둥석이 발견되었으며, 그는 이를 지역 학자들에게 연구하도록 맡기기로 결정했습니다." # 10050424990014536857
+  VIET_opinion_believed_sandman_story: "내 모래 요정 이야기를 믿어주었네" # 17962277823458213264
+  VIET_opinion_didnt_believe_sandman_story: "내 모래 요정 이야기를 믿지 않았어" # 1933800132509463315
+  VIET_opinion_sandman_dialogue_agree: "모래 인간 이야기에 동의하다" # 5471209674432707779
+  VIET_opinion_sandman_dialogue_disagree: "모래요정 이야기에 대해 나와 의견이 달랐군" # 16372517137849736636
+  VIET_comforting_dream_deceased: "죽은 자의 위안이 되는 꿈" # 16348371798221260613
+  VIET_comforting_dream_deceased_desc: "이 인물은 최근에 세상을 떠난 소중한 누군가에 대한 위안이 되는 꿈을 꾸었습니다." # 9783550699396676908
+  VIET_deathbed_wisdom: "임종의 지혜" # 1208458373711879447
+  VIET_deathbed_wisdom_desc: "이 인물은 세상을 떠나기 전 가까운 이에게서 최근 귀중한 조언이나 통찰을 얻었습니다." # 15888479776810329962
+  VIET_rat_spirit_blessings: "신비로운 생물의 축복" # 4107506210728063478
+  VIET_rat_spirit_blessings_desc: "대지의 피조물들 또한 우리의 형제자매가 아니겠습니까?" # 11953678588480470248
+  VIET_dying_acquaintance_advice: "죽어가는 지인의 조언" # 11884043356381871147
+  VIET_dying_acquaintance_advice_desc: "이 인물은 죽은 이들의 영혼에게서 조언을 받았다고 주장하는 지인에게서 여러 사안에 대한 조언을 받았습니다. 가장 이상한 점은 그 조언이 꽤나 도움이 되었다는 것입니다." # 2000464637039117259
+  VIET_beggar_burial: "품위 있는 장례를 치러준 거지" # 15025174961398883666
+  VIET_beggar_burial_desc: "사회 최하층민조차도 존엄성을 가질 권리가 있다 - 적어도 이 인물은 그렇게 믿고 있다." # 13748622227689174862
+  VIET_opinion_didnt_believe_me_myling: "마일링을 만났다는 내 이야기를 믿지 않는군" # 14066295085086213772
+  VIET_opinion_believes_me_myling: "마일링을 만났다는 내 이야기가 믿어졌다" # 9560718177773336753
+  VIET_deaths_blessing: "죽음의 축복" # 912773629091029674
+  VIET_deaths_blessing_desc: "죽음이 젊은 처녀의 모습으로 이 인물을 꿈이나 환영 속에서 실수로 찾아왔는데, 이 인물의 공손함 때문에 행운과 복을 내려주기로 했다는 소문이 돌고 있습니다. 물론, 그것은 소문에 불과하죠. 살아있는 자들 사이에서는 그 진실이 영원히 밝혀지지 않을 수도 있습니다." # 14661573187567720111
+  VIET_zombie_outbreak_stories: "#bold 망령의 소문#" # 17394438646070095915
+  VIET_zombie_outbreak_stories_desc: "이 지역에서 언데드가 무덤에서 일어나고 있다는 소문이 돌고 있습니다. 학자부터 성직자에 이르기까지 많은 교양 있고 박식한 이들은 이것이 아마도 무지한 농민들의 헛소문에 불과할 것이라 믿고 있습니다. 아마도 그럴 겁니다." # 10309642055262280706
+  VIET_happy_memory_of_parents: "부모님에 대한 행복했던 기억 되살리기" # 11648971263409220648
+  VIET_friendly_ghost_stalker: "친절한 유령" # 13350073879531403504
+  VIET_friendly_ghost_stalker_desc: "사람들은 이 인물에게 친근하고 장난기 많은 영혼이 붙어 다니며 비밀리에 온갖 일들을 돕는다고들 합니다. 이것이 미신일까요, 아니면 진실일까요? 누가 알겠습니까." # 6425484140370537900
+  VIET_let_necrophiliac_go: "부정적인 시체 애호가를 풀어주기" # 2320823328667911287
+  VIET_executed_necrophiliac: "시체 성애 혐의로 기소된 자를 처형함" # 4526179590601510339
+  VIET_imprisoned_necrophiliac: "#bold 시신 강간 혐의로 투옥된 남자#!" # 252789231479328561
+  VIET_heartless_towards_servants: "하인들에게 무자비함" # 7311948348983497408
+  VIET_comforted_servant: "시종을 위로하다" # 13117700434040018650
+  VIET_tombstones_warning: "묘비의 경고에 대해 생각하기" # 6195032631278834172
+  VIET_tombstones_warning_desc: "\"우리는 꿈을 이루는 재료와 같으며, 우리의 짧은 삶은 잠으로 마무리된다\"" # 14621730306378423194
+  VIET_servants_death_love_lesson: "잃어버린 사랑에 대한 삶의 교훈" # 17577941737464693137
+  VIET_final_journey_dream_relative: "최후의 여정에 대한 꿈" # 6803591200030772251
+  VIET_final_journey_dream_relative_desc: "이 인물의 친척이 최근에 사망하기 전에, 그 친척은 깊은 잠에 빠져 죽은 조부모와 대화하는 듯한 소리를 냈습니다. 그가 의식을 잃은 동안, 그는 알아들을 수 없는 말들을 중얼거렸는데, 그 모습은 푸른 하늘 아래 부드러운 바람 소리를 연상시켰습니다. 간신히 들릴 듯 말 듯 했던 그의 마지막 말은 이러했습니다.\"사랑해요\"" # 12136675025070733035
+  VIET_opinion_confused: "혼란스럽군" # 17080012184964603703
+  VIET_opinion_likes_arms: "살집 있는 팔을 좋아함" # 1329291199589037475
+  VIET_opinion_insensitive_comments: "둔감한 발언을 하다" # 17632208864421736785
+  VIET_opinion_chastised_ghost_pranker: "유령 장난으로 꾸짖음을 당하다" # 16971959402116048116
+  VIET_opinion_supported_ghost_pranker: "내 유령 장난이 재미있었다고 생각함" # 6118938949047221526
+  VIET_opinion_chastised_ghost_prank_victim: "유령 장난에 속았다고 나를 창피하게 만들었네" # 4261034247171446996
+  VIET_opinion_supported_ghost_prank_victim: "유령 장난 후 위로받다" # 18317746298431724491
+  VIET_opinion_scooby_doo_villain_release: "나를 벌하지 않았네" # 6288790115226341114
+  VIET_opinion_scooby_doo_villain_forced_apology: "지역 주민들에게 사과하도록 강요당함" # 16346346218592963826
+  VIET_opinion_scooby_doo_villain_forced_reward: "지역 주민들에게 배상하도록 강요당함" # 10259707668275456048
+  VIET_scooby_doo_villain_let_go: "가짜 유령을 보내라" # 3875020484814854212
+  VIET_scooby_doo_villain_let_go_desc: "이 인물은 영지의 통치자로서, 현지 주민들을 유령인 척하며 괴롭히는 궁신을 처벌하지 않았습니다." # 7141535567532687096
+  VIET_scooby_doo_villain_punisher: "처벌받은 가짜 유령" # 600405684101524480
+  VIET_scooby_doo_villain_punisher_desc: "이 인물은 영지의 통치자로서, 현지 주민들을 괴롭히기 위해 유령 행세를 하던 궁신 중 한 명을 처벌했습니다." # 8485230181905390406
+  VIET_haunted_house_curse: "# 저주받은 집의 저주#" # 12383225420475666376
+  VIET_hospitality_spirit_cursed: "영혼의 저주" # 12423423936841163769
+  VIET_hospitality_spirit_cursed_desc: "이 인물은 자신의 집을 방문한 유령과의 시련에서 실패했습니다. 적어도 그들의 하인들은 그렇게 주장했지만, 그러한 초자연적인 사건이 사실이었는지 아니면 그저 이 인물의 상상에 불과했는지는 누가 알겠습니까?" # 8438059455631134341
+  VIET_hospitality_spirit_blessing: "영혼의 축복" # 6947282740735136681
+  VIET_hospitality_spirit_blessing_desc: "이 인물은 집을 방문한 유령으로부터 인품 시험을 통과했다고 합니다. 적어도 그들의 하인들은 그렇게 주장했는데, 그런 초자연적인 사건이 사실이었는지 아니면 그저 이 인물의 상상에 불과했는지는 누가 알겠습니까?" # 14834972167281441610
+  VIET_party_with_servants: "하인들과 어울리다" # 4502657400892556426
+  VIET_forbade_effigy_celebration: "#bold 우상 숭배 금지#" # 10093809981599266878
+  VIET_bad_hangover: "심한 숙취" # 9154584087172072828
+  VIET_opinion_bad_hangover_break: "숙취 후 하루 쉬어야겠군" # 8150016280347651673
+  VIET_opinion_bad_hangover_relief: "숙취 해소제를 주셨군요" # 12822865036002150609
+  VIET_opinion_bad_hangover_mockery: "숙취 때문에 나를 비웃었군" # 6924542887845115646
+  VIET_ate_bad_baklava: "바클라바를 잘못 먹었다" # 8736474277665791067
+  VIET_sympathetic: "동정심 많은" # 2076827696806084429
+  VIET_smuggling_side_business: "밀수 부업" # 12399749790135321461
+  VIET_smuggling_side_business_desc: "이 인물은 자신이 집행해야 할 법률을 어기면서까지 불법적인 밀수를 저지르는 것으로 알려져 있습니다." # 4106941943020746427
+  VIET_indoors_nap: "꿀잠 잤음" # 13796581897535324737
+  VIET_tasty_snack: "맛있는 간식" # 18425758343377435763
+  VIET_feeling_reclusive: "은둔하고 싶군" # 1101017859679593502
+  VIET_satisfied_work: "작업에 만족함" # 2528708617588118821
+  VIET_taking_a_break: "잠시 휴식" # 5644580413343751340
+  VIET_taking_a_break_desc: "때로는 인생에서 열심히 노력하는 것이 해결책이 아닐 수 있으며, 오히려 상황을 악화시킬 수도 있습니다." # 12059597150484249599
+  VIET_orphan_beggar_girl: "고아 거지 소녀" # 18097191438731681511
+  VIET_orphan_beggar_girl_desc: "이 여인은 어린 시절 고아가 되어 구걸하며 살았습니다. 하지만 자비로운 통치자가 그녀를 자신의 궁정으로 데려오면서 새로운 삶의 기회를 얻게 되었습니다." # 14659987407350078207
+  VIET_orphan_gave_me_home: "내가 고아였을 때 나를 거두어 주셨다" # 12375408228537836331
+  VIET_the_greedy: "탐욕스럽게 행동하기" # 687565783531409160
+  VIET_arbitrary_ruling: "자의적인 통치" # 5607415449345681229
+  VIET_cynical_mood: "냉소적인 기분" # 12778791989700631943
+  VIET_cynical_mood_desc: "이 인물은 요즘 삶에 대해 염증을 느끼고 있습니다." # 487631374963947782
+  VIET_values_other_opinions: "가치관 타인의 의견" # 11857001587161167591
+  VIET_values_other_opinions_desc: "이 인물은 다른 관점을 이해하려고 최선을 다합니다 (적어도 그런 척이라도 합니다)." # 17276031055384034223
+  VIET_feeling_sad: "슬픔을 느끼는 중" # 6628375026586341315
+  VIET_feeling_unproductive: "생산성이 떨어진다" # 7958683824731696736
+  VIET_orphan_noble_boy: "고아 귀족 소년" # 14426751917860787132
+  VIET_orphan_noble_boy_desc: "이 인물은 어린 시절 양친을 모두 잃었으나, 자비로운 통치자께서 그를 자신의 궁정으로 데려와 삶의 두 번째 기회를 얻었습니다." # 8547612081231987867
+  VIET_defeated_bandit: "직접 격파한 도적" # 18342613975591643042
+  VIET_defeated_bandit_desc: "이 인물은 최근 홀로 있는 도적 떼에게 기습당했으나, 영웅적으로 그 악당을 물리쳤습니다." # 4893832765987718420
+  VIET_the_prude: "지나치게 점잖은 태도" # 3136995081261845896
+  VIET_the_prude_desc: "최근 들어 일부 사람들이 이 인물이 삶에 대해 다소 금욕적인 태도를 가지고 있다고 인식하고 있습니다. 어쩌면 그들은 정말로 자기만족적인 위선자일 수도 있고, 아니면 그저 성품이 더 절제되고 인내심이 강한 것일 수도 있습니다. 누가 알겠습니까?" # 3473907053048379297
+  VIET_loosening_up: "긴장 풀기" # 16947584055556343995
+  VIET_loosening_up_desc: "다른 이들이 이 인물이 너무 뻣뻣하다고 말했기에, 이 인물은 조금 느긋해지기로 결정했습니다. 하지만 이것이 과연 그들의 진정한 모습일까요, 아니면 자신이 아닌 모습으로 보이도록 압박감을 느끼고 있는 것일까요?" # 7002187895764889241
+  VIET_miscellaneous_shopping: "무작위 상품을 구매했습니다" # 14572736610456646867
+  VIET_gave_business_advice: "사업 조언을 제공함" # 12984054008020691409
+  VIET_blacksmith_discussion: "대장장이와 대화함" # 7680849512845707830
+  VIET_blacksmith_discussion_desc: "이 인물은 최근 지역 대장장이와 흥미롭고 유익한 대화를 나누었고, 그 과정에서 대장장이의 기술에 대해 몇 가지를 배웠습니다." # 12396508874540884033
+  VIET_adventurer_left_for_dead_origin: "죽은 자들의 도시" # 9929191915338612557
+  VIET_adventurer_left_for_dead_origin_desc: "이 방랑하던 여행자는 한때 산적들에게 습격당해 죽을 뻔했으나 (적어도 그들은 그렇게 주장합니다), 한 귀족 남성이나 여성의 자비 덕분에 목숨을 건졌다고 합니다." # 1521732437904085549
+  VIET_opinion_saved_my_life: "내 목숨을 구했군" # 8126422845985768554
+  VIET_smelling_smells: "냄새를 맡다" # 1955082751694001344
+  VIET_smelling_smells_desc: "요즘 이 인물은 가끔 지독한 냄새를 맡는데, 다른 누구도 그 냄새를 감지하지 못합니다." # 7070149807969336010
+  VIET_elderberry_tea: "엘더베리 차" # 15544268632093296709
+  VIET_elderberry_tea_desc: "이 인물이 즐겨 마시는 것으로 알려진 딱총나무 꽃과 열매로 만든 약초차는 많은 신체적 질병에 대한 완화를 제공한다고 합니다. 부디 사실이기를 바랄 뿐입니다!" # 6561615984524383502
+  VIET_prison_ghost_curse: "감옥의 저주" # 1423957127793128407
+  VIET_prison_ghost_curse_desc: "일부 사람들은 이 인물이 지하 감옥에 머무는 처형당한 범죄자의 유령에게 저주를 받았다고 주장합니다." # 6876925825366045781
+  VIET_witnessed_public_fornication: "공개된 간통 목격" # 10990359062769571878
+  VIET_threesome_with_commoners: "평민과 매춘부와의 삼인조 관계" # 5932746023732781568
+  VIET_cook_knowledge: "요리와 음식에 대해 배우기" # 14224164947465378321
+  VIET_opinion_miswak_advice_good: "미스왁 사용에 대한 조언에 감사드립니다" # 4060989250948589785
+  VIET_opinion_miswak_advice_bad: "미스왁 사용에 대한 조언 거부" # 17826751850095772446
+  VIET_using_miswak_more: "미스왁을 사용하여" # 16349131492091464941
+  VIET_using_miswak_more_usage_desc: "이 인물은 미스왁(miswak) 나무젓가락을 더 자주 사용하기로 결정했습니다. 미스왁은 특히 중동 지역에서 수 세기 동안 이를 닦는 데 사용되어 온 특별한 잔가지입니다." # 15184218107818730161
+  VIET_toothbrush_pervert: "음란한 이야기들" # 12489843789885186053
+  VIET_toothbrush_pervert_desc: "이 인물은 다른 사람들에게 사람들이 저지를 수 있는 일탈적인 행동에 대해 이야기하는 것을 좋아합니다. 혹시 그 인물 자신도 그런 행동에 연루되어 있을까요?" # 11196465150169668294
+  VIET_keep_mind_pure: "순수한 마음을 유지하고 싶다" # 7155302305515319614
+  VIET_politely_listened_to_weirdness: "이상한 이야기를 공손하게 듣습니다" # 11271945487107096649
+  VIET_cleans_tongue: "혀를 정기적으로 닦기" # 4934150508236497573
+  VIET_loves_toothbrushing: "양치질을 사랑함" # 11063512373442073560
+  VIET_loves_toothbrushing_desc: "이 인물은 자신의 치아 상태를 양호하게 유지하기 위해 모든 의학적 조언을 따를 것입니다." # 16232611140471289289
+  VIET_opinion_afraid_of_pranks: "장난이 두렵다" # 1253728613740449715
+  VIET_constant_toothaches: "끊이지 않는 치통" # 4889458235178787345
+  VIET_mouth_sores: "성가신 구강 궤양" # 1952494655624613372
+  VIET_skilled_tooth_extraction: "최근 숙련된 이발사에게 이를 뽑았다" # 12289094145643478200
+  VIET_good_mouthwash: "좋은 구강 청정제" # 2993061824667934709
+  VIET_good_mouthwash_desc: "이 인물은 최근 기분 좋고 만족스러운 구강 청결제 제조법을 발견했습니다. 그 결과, 매일 그것을 사용하여 입 냄새를 없애고 치아 건강을 유지하고 있습니다." # 6600430374034195934
+  VIET_teeth_whitening: "치아 미백" # 16119575727698871432
+  VIET_teeth_whitening_desc: "의사가 지시한 대로, 이 인물은 매일 태운 포도나무, 엘프독, 세이지를 섞은 약초 연고를 치아에 발라 치아 변색을 예방합니다." # 9279523732234310902
+  VIET_remembering_childhood_love: "어린 시절의 사랑을 추억하며" # 12590345713955636704
+  VIET_remembering_childhood_love_desc: "\"우리는 너무나 어렸고, 너무나 순수했지... 그리고 지금 이 순간에도, 수많은 세월이 흘렀지만, 우리가 함께 나눴던 웃음과 기쁨의 추억이 나를 괴롭히는군\"" # 8274716297573256534
+  VIET_rewarded_oblivion_guard: "충실한 근위병에게 보상하기" # 13520667366247042449
+  VIET_opinion_chastised_me_in_public: "공개적으로 질책하다" # 6319355194510721557
+  VIET_opinion_inappropriate_speech: "부적절한 언행" # 4141593476228030168
+  VIET_comforted_heartbroken_lad: "상심한 청년을 위로함" # 14803995830113774742
+  VIET_chinese_rumors: "중국에 매료되었군" # 1688942625326192560
+  VIET_chinese_rumors_desc: "이 인물은 중국의 최신 소식과 이야기에 관심이 많습니다. 물론 그 이야기들이 사실인지는 전혀 다른 문제입니다." # 18095438277710889058
+  VIET_girl_power: "여성 역량 강화 지원" # 2001864272119226909
+  VIET_girl_power_desc: "여성들이 통치한다면 상황이 분명히 더 나아질 텐데... 그렇지 않나?" # 7137950656414836991
+  VIET_sexist_against_women: "여성을 깔봄" # 3825455130437327732
+  VIET_sexist_against_women_desc: "\"나는 여자에게 아무런 악감정도 없소. 내 어머니도 여성이었으니 말이오! 그저 남자보다 열등할 뿐이지. 그게 현실이오\"" # 4166202536100456543
+  VIET_nerd_hates_sports: "스포츠를 혐오함" # 11060580966751312201
+  VIET_female_rumors_bodyguards: "호위병에 대한 소문" # 7765123595484131517
+  VIET_female_rumors_bodyguards_desc: "이 여인이 잘생긴 호위병 중 한 명과 바람을 피우고 있다는 악의적인 소문이 돌고 있습니다. 아니면 더 심하게는, 그녀가 그들 여러 명과 한꺼번에 방탕한 난교를 벌인다는 소문도 있습니다!" # 7623447710514665530
+  VIET_lack_of_good_sleep: "수면 부족" # 9889155131203583931
+  VIET_interesting_idealistic_ideas: "흥미로운 이상주의적 생각들" # 12781481572951946419
+  VIET_interesting_idealistic_ideas_desc: "이 인물은 불가능해 보이는 무언가를 꿈꾸고 있습니다. 하지만 의지만 있다면 무엇이든 가능하지 않겠습니까?" # 532738672723627079
+  VIET_quick_nap: "짧은 낮잠" # 15810940666848638433
+  VIET_quick_nap_desc: "쪽잠을 자는 것은 정신을 재충전하는 데 도움이 된다고 권장됩니다. 이 인물은 그 조언을 따르고 있습니다." # 11991864444355707154
+  VIET_sore_muscles: "근육통을 앓고 있음" # 2716386794778463415
+  VIET_read_book_romance: "최근에 로맨스 소설을 읽었다네" # 6456303569955398240
+  VIET_read_book_romance_desc: "\"청컨대, 나리, 말씀해주시오, 사랑이 이토록 갑작스레 마음을 사로잡는 것이 가능하겠소\"" # 2017107145101649785
+  VIET_read_book_gritty: "최근에 거칠고 어두운 소설을 읽었소" # 9540646771754327859
+  VIET_read_book_gritty_desc: "어떤 이들은 어둠, 허무주의, 그리고 무분별한 난교와 유혈이 가득한 이야기가 그 이야기를 더 낫게 만든다고 생각합니다. 이 인물은 그런 망상에 빠진 자 중 하나입니다." # 17821130611520986644
+  VIET_read_book_fantasy: "최근에 환상적인 모험 소설을 읽었다네" # 12862027600536629712
+  VIET_read_book_fantasy_desc: "\"문을 나서는 것은 위험한 일이지. 길로 발을 내딛는 순간, 정신을 똑바로 차리지 않으면 어디로 휩쓸려 갈지 알 수 없으니까\"" # 15492584303675216542
+  VIET_read_book_slice_of_life: "최근에 재미있는 일상 이야기 모음집을 읽었소" # 8264874384466933248
+  VIET_read_book_slice_of_life_desc: "인간은 진실을 갈망하거나, 혹은 자신이 알고 있는 것이 진실이라고 믿는 것을 갈망합니다. 다시 말해, 진실이 정확히 무엇인지는 두 번째 문제입니다. 무엇이 진실이고 무엇이 거짓인지 조심하십시오. 즉, 항상 스스로를 의심하십시오. 글을 읽어 내려가면서 내면의 악마를 품으십시오... 그리고 그쯤 되면 이미 내 함정에 빠졌을지도 모른다는 사실도 잊지 않겠습니다." # 5963564545012219808
+  VIET_minty_fresh_breath: "상쾌한 숨결" # 3238030230990230152
+  VIET_herbal_mouth_cleaning_other: "입가심 허브 사용하기" # 14022625628527664228
+  VIET_trinkets_odds_and_ends: "잡동사니와 자잘한 물품들" # 11158358250924783378
+  VIET_trinkets_odds_and_ends_desc: "\"어떤 이들은 이것을 고물이라 부르지. 나는? 보물이라 부른다네\"" # 2549555778090462988
+  VIET_abandoned_a_baby: "아기를 유기함" # 16312768181840555955
+  VIET_abaonded_as_a_child: "이 인물은 갓난아기 때 친부모에게 버려졌습니다. 혈통은 알 수 없으나 다행히 떠돌이 귀족에게 발견되어 양부모 밑에서 자랐습니다." # 5473048247457894300
+  VIET_opinion_abandoned_baby: "아기를 유기함" # 16312768181840555955
+  VIET_opinion_adopted_parent: "양부모" # 17751883238328616860
+  VIET_opinion_adopted_child: "양자" # 14137125884484852896
+  VIET_hired_new_dutiful_servants: "새로운 충실한 하인 고용" # 13567501187861002343
+  VIET_saved_abandoned_baby: "버려진 아기를 구했습니다" # 11863718117038798438
+  VIET_horehound_tea: "산사나무 잎차를 마셨다" # 5494885066796602006
+  VIET_mountain_tea: "발칸 산맥 차를 마셨다" # 2725983589102512215
+  VIET_chinese_black_tea_gift: "중국산 흑차 양호" # 15591464287236653162
+  VIET_chinese_black_tea_gift_desc: "이 인물은 현재 많은 흑차를 소지하고 있습니다. 중국산 이 고급 흑차는 어떤 사교 모임에서든 단연 돋보일 것입니다!" # 11254529538841581093
+  VIET_incest_debate: "가족애에 대한 사려 깊은 토론" # 1859035086581561795
+  VIET_incest_debate_desc: "이 인물은 최근 근친혼에 대한 훌륭한 대화를 나누었습니다. 다른 문화권의 일부 야만인들이 그렇게 신성하고, 의롭고, 문명화된 행위를 사악하다고 생각하는 것은 참으로 비극입니다!" # 10734735535050888336
+  VIET_otumeel_prankster: "#weak '무해한' 장난꾸러기#!" # 15231471430316326722
+  VIET_otumeel_prankster_desc: "이 귀족은 사람들의 집을 돌아다니며 물건들을 훔치려는 것이 아니라, 무작위 상자나 통에 넣어두는 것을 좋아합니다. 그는 물건을 훔친 적이 없으며 그 외에는 괜찮은 편인데, 대체 어떻게 이런 이상한 습관을 갖게 되었을까요?" # 11220458990186047735
+  VIET_borissean_scholar_conversations: "은둔 학자를 정기적으로 방문함" # 5441851918142871968
+  VIET_borissean_scholar_conversations_desc: "이따금씩, 이 인물은 다른 이들과 떨어져 홀로 사는 은둔한 학자를 찾아갑니다. 그 학자는 보통 사람들을 싫어하지만, 무슨 연유에선지 이 인물만은 용인해 주며 방문할 때마다 다양한 주제에 대해 논합니다." # 10753911827349433332
+  VIET_hears_voices_like_thamriel: "친근한 목소리들이 들려온다" # 15994214285284464469
+  VIET_drinking_basic_tonic: "약초 강장제 마시기" # 14575102307344677175
+  VIET_drinking_basic_tonic_desc: "이 약초, 식물, 동물 부위, 뼈, 돌의 조합은 학식이 있고 검증된 의료 시술자들에 의해 현재 부자와 가난한 자 모두에게 가장 효과적인 건강 강장제 중 하나로 확인되었습니다." # 10713049159058133437
