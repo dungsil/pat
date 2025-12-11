@@ -199,3 +199,179 @@
   VIETmisc.7046.desc: "얼마 전, 저는 [county.GetNameNoTier]를 여행하고 있었습니다. 그곳에서 저는 [elder.GetWomanMan]인 [elder.GetFirstNameNoTooltip]라는 노파의 집에서 머물렀습니다.\n\n[elder.GetHerHim]이 나이가 많아 속이기 쉬웠기에, 저는 그분의 소지품을 훔치는 것을 참을 수 없었습니다... 라고 생각했죠.\n\n알고 보니, 시골에서 홀로 살고 있음에도 불구하고, [elder.GetFirstNameNoTooltip]는 수년 동안 주변 여러 정착지에서 존경받아 온 덕분에 [county.GetNameNoTierNoTooltip]에서 #italic 매우#! 잘 알려진 인물이었습니다. 제가 그분의 물건을 훔친 것이 발각되었고, 이제 [ROOT.Char.GetTitledFirstNameNoTooltip]가 늙은 [elder.GetWomanMan]에게서 물건을 훔쳐야 할 정도로 비참하게 탐욕스러웠다는 소문이 퍼지고 있습니다!" # 11694202828522783724
   VIETmisc.7046.a: "이런." # 18311732011150879925
   VIETmisc.7047.t: "$travel_event_prefix$ 목재 판자 도난 사건" # 3505130881544205016
+  VIETmisc.7047.desc: "[ROOT.Char.GetCurrentLocation.GetName]의 일부 도로는 여행의 편의를 위해 일부 지역에서 흔히 그렇듯 나무 널빤지로 덮여 있습니다. 하지만 이 나무들은 특히 시골 지역에서 도난의 대상이 되기 쉽다는 것은 놀라운 일이 아닐 것입니다.\n\n마침 우리가 접근하려 할 때, 이 나무 널빤지들을 훔치려던 불량배 일당을 마주쳤습니다. 그들은 우리가 다가가자마자 나무를 가지고 달아나려 했습니다." # 11122752632721659810
+  VIETmisc.7047.a: "이것은 우리가 처리해야 할 문제가 아닙니다." # 10897294710188490964
+  VIETmisc.7047.b: "그들을 쫓아가자!" # 3364655269827055922
+  VIETmisc.7047.b.failure: "도둑들을 붙잡는 데 실패했습니다." # 7594602271681897346
+  VIETmisc.7047.b.success: "도둑들을 붙잡았소" # 9699114389529760185
+  VIETmisc.7047.info: "#emphasis 역사적 배경:#! 중세 시대의 흙길은 때때로 여행자들의 이동을 돕기 위해 나무 널빤지로 보강되곤 했습니다. 하지만 포장된 도로의 돌처럼, 이 널빤지들도 종종 도난당하는 일이 있었습니다. 예를 들어, 13세기 프랑스 법률 문서인 #italic 보베지 관습법#!의 일부는 도로에 관한 규정을 논하며, 사람들이 도로에 사용된 돌이나 나무 널빤지를 불법적으로 훔쳐가서 도로가 예상보다 좁아지는 문제에 대해 언급하고 있습니다." # 4597210964524624154
+  VIETmisc.7048.t: "$travel_event_prefix$ 별자리를 연구하며" # 13792747942222342391
+  VIETmisc.7048.desc: "“무슨 일을 하고 있소?” 나는 [traveler.GetTitledFirstName]에게 물었다.\n\n오늘 밤은 잠들기가 힘들었다. 아마도 여정 때문에 몸의 평소 리듬이 깨진 탓이리라. 그래서 나는 밖으로 나와 모닥불 옆에 앉았다. [traveler.GetFirstNameNoTooltip] 역시 그때 당번이 아니었음에도 깨어 있었기에, 나는 그/그녀 옆에 자리를 잡았다.\n\n[traveler.GetHerHis] 얼굴에 사색적인 표정을 띤 채, [traveler.GetFirstNameNoTooltip]은 밤하늘을 가리키며 미소를 지었다. “저 별들을 말이오…. 가끔은 그저 바라보는 것이 좋소. 장엄하지 않소? 매일 이런 경이로움을 볼 수 있게 해준 [traveler.GetFaith.NightGodName]께 감사할 따름이오. 당신도 몇몇 별자리는 알아보겠지?”" # 17743768932662604952
+  VIETmisc.7048.a: "그 별자리가 [ROOT.Char.Custom('RandomDivinity')]의 [ROOT.Char.Custom('GetAccessory')|U]인가?" # 10185989030059994346
+  VIETmisc.7048.b: "딱히. 그냥 다시 자러 가야겠군." # 14219246057073562262
+  VIETmisc.7049.t: "다시, 밤하늘 아래에서" # 17975362397426006287
+  VIETmisc.7049.desc: "오늘 밤, 이런저런 이유로 잠을 이룰 수가 없었습니다. 한숨을 쉬며 침실 밖으로 나섰습니다.\n\n제 경비병들은 무슨 일이 생겼나 싶어 깜짝 놀라지만, 저는 손을 들어 모든 것이 괜찮다고 안심시킵니다. 그들은 저를 홀로 두었고, 저는 밖에서 이리저리 서성입니다.\n\n그때 밤하늘을 올려다보았고, 그리 오래지 않은 옛날 저와 [traveler.GetTitledFirstName]가 함께 별을 바라보며 별자리를 공부했던 저녁을 떠올렸습니다. 저는 혼자 픽 웃으며, 우리가 이야기했던 별자리 몇 개를 가리키려 손가락을 치켜들었습니다." # 18415821365840236587
+  VIETmisc.7049.a: "[ROOT.Char.Custom('GetPubAdjective')|U] [ROOT.Char.Custom('GetRandomRegionalSmallGame')|U]의 별자리가…." # 1602332051701204785
+  VIETmisc.7050.t: "$travel_event_prefix$ 갑옷 입은 문어" # 17595920226922806162
+  VIETmisc.7050.desc: "[ROOT.Char.GetCurrentLocation.GetName]의 해안가를 뱃길로 지나던 중, 우리는 아래의 맑고 푸르스름한 물속에서 매우 기이한 광경을 목격했습니다. 모래 바닥을 기어 다니는 작은 문어 몇 마리가 부서진 코코넛 껍데기를 들고 다니는 것이었습니다. 이 문어들은 코코넛 껍데기를 갑옷처럼 두르고 있었는데, 보는 이로 하여금 웃음을 자아내게 했습니다.\n\n나룻배 사공은 이 광경이 흔한 일은 아니지만, 이 지역에서는 들어본 적이 있는 일이라고 말했습니다. 이 지역의 [ROOT.Char.GetCurrentLocation.GetCulture.GetCollectiveNoun] 주민들이 일상생활에서 코코넛을 광범위하게 사용하기 때문이라고 합니다." # 6246760941066734287
+  VIETmisc.7050.a: "흥미롭지만 우스꽝스러운 광경이로군." # 2137805175555895906
+  VIETmisc.7050.b: "음... 이로써 몇 가지 군사적 구상이 떠오르는군!" # 6340235140222584685
+  VIETmisc.7050.info: "#emphasis 생물학적 배경:#! #italic 암피옥토푸스 마르기나투스#!는 코코넛 문어 또는 줄무늬 문어로 알려진 문어 종으로, 서태평양 원산이며 때때로 식용으로 어획됩니다. 이 문어는 두족류 지능의 한 예시인데, 포식자나 기타 위험으로부터 자신을 보호하기 위해 종종 조개껍데기를 이동식 갑옷으로 사용하기 때문입니다. 인도네시아에서 인간이 거주하는 지역 가까이에 사는 이 종의 개체들은 조개껍데신 대신 버려진 코코넛 껍데기를 모아 사용하는 것이 관찰되었는데, 이는 그들이 현지 환경에 적응하는 능력과 미래의 위협에 대비하는 계획 능력이 있음을 시사합니다." # 6641871023781846137
+  VIETmisc.7051.t: "$travel_event_prefix$ 반딧불이" # 9546611371477341739
+  VIETmisc.7051.desc: "해가 지고 있을 때 우리는 [ROOT.Char.GetCurrentLocation.GetName]을 지나고 있었습니다. 야영지를 찾던 중, 우리는 섬뜩한 광경을 마주쳤습니다. 죽은 [ROOT.Char.GetCurrentLocation.Custom('GetRandomAppropriateTree')] 나무들이 원을 그리고 서 있었습니다. 그 원 안에는 비정상적으로 큰 거미줄로 뒤덮인 바위들이 있었고, 놀랍게도 사람의 해골 두 개가 놓여 있었습니다.\n\\\"[scared.GetFirstName]이 목이 잠긴 채 두려움에 떨며 속삭였습니다.\"이곳은 저주받았어. 어서 떠나야 해\"\n\\\"[brave.GetFirstName]이 반대했습니다. [brave.GetSheHe|U]는 죽은 나무들을 가리키며 말했습니다.\"저것 좀 봐. #italic 반딧불이#!잖아. 저건 길조야. 여기서 야영해야겠어\"\n\n나는 이곳에 야영할지 고민하며 반딧불이들을 바라보았습니다. 반딧불이들은 마치 밤하늘에 부드럽게 반짝이는 별들처럼 땅과 죽은 나무들을 비추고 있었습니다. 나는 내 마음속에서 설명할 수 없는 감정이 솟아오르는 것을 느꼈습니다." # 3973896940857766691
+  VIETmisc.7051.a: "좀 더 멀리 떨어진 곳에 야영합시다." # 17924089217136621892
+  VIETmisc.7051.b: "오늘 밤 우리는 이곳에 야영할 것이다." # 2817821407370451762
+  VIETmisc.7051.b.toast: "다음 날 아침...." # 4614990320634687521
+  VIETmisc.7051.b.toast.desc: "잠에서 깨어났을 때, 반딧불이들이 밤사이에 죽었다는 것을 깨달았습니다." # 15801252162281254457
+  VIETmisc.7052.t: "$travel_event_prefix$ 오래 기다려온 도착" # 7637520458312399302
+  VIETmisc.7052.desc: "우리의 여정은 최근 여러 고난과 위험을 겪으며 험난했지만, 오늘 오후에야 마침내 [ROOT.Char.GetCurrentLocation.GetName]의 큰 항구 도시에 도착했습니다.\n\n따뜻한 햇살이 우리를 부드럽게 비추고, 시원하고 상쾌한 바닷바람이 지친 얼굴을 감싸 안았으며, 경비병들은 우리를 성문 안으로 들여보내 주었습니다. 아마도 지난 며칠간 겪었던 어려움 때문이겠지만, 우리는 이루 말할 수 없이 안도했고 행복했습니다.\n\n마을 중앙에는 커다란 [ROOT.Char.GetCurrentLocation.Custom('GetRandomAppropriateTree')] 나무 한 그루가 서 있었고, 말없이 수행원들과 저는 그 그늘 아래에서 쉬고 있는 몇몇 현지인들과 합류했습니다." # 15387189387299283266
+  VIETmisc.7052.a: "드디어 도착해서 정말 기쁘군." # 11892201609877490270
+  VIETmisc.7052.b: "우리는 며칠 이상 이곳에서 쉬어야 합니다." # 16252741844362558452
+  VIETmisc.7053.t: "$travel_event_prefix$ $VIETmisc.7054.t$" # 16248212427239872721
+  VIETmisc.7053.desc: "[ROOT.Char.GetCurrentLocation.GetName] 길을 따라 걷다가 나무 근처에서 무언가를 가지고 놀고 있는 두 마리의 고양이, 한 마리는 회색이고 다른 한 마리는 흰색인 것을 발견했습니다. 호기심에 우리는 살금살금 다가갔습니다.\n\n복숭아로군요. 근처 복숭아나무에서 떨어진 복숭아를 가지고 놀고 있었습니다.\n\\\"고양이도 복숭아를 먹던가\" 나는 한가롭게 혼잣말을 했습니다.\"본 적이 없는 것 같은데\"" # 13416576325917102495
+  VIETmisc.7053.a: "두 고양이가 정말 사랑스러운 광경이로군!" # 14938413776752471532
+  VIETmisc.7053.b: "그냥 고양이들뿐이니, 다들 가자." # 5062030616754611902
+  VIETmisc.7053.c: "[ROOT.Char.GetFaith.HighGodName]께서 보내신 징표임이 틀림없다!" # 6496239074309265166
+  VIETmisc.7054.t: "복숭아 고양이들" # 9423910059420330373
+  VIETmisc.7054.desc: "얼마 전 여행 중에 복숭아나무에서 떨어진 복숭아 몇 개를 가지고 놀고 있는 회색 고양이 한 마리와 흰색 고양이 한 마리를 만났었지요.\n\n지난밤, 설명할 수 없는 이유로 그 고양이들이 복숭아를 가지고 노는 꿈을 다시 꾸었습니다. 하지만 이번에는 무언가 달라진 느낌이었습니다.\n\n어쩐지, 그 꿈을 꾸고 나니 마음이 더욱 편안해지고 평화로워지는 기분이었습니다." # 12388200560837951725
+  VIETmisc.7054.a: "나는 기분 좋은 미소를 띠며 잠에서 깬다." # 14751699759442622633
+  VIETmisc.7055.t: "$travel_event_prefix$ 간통과 계몽" # 18129404809488437659
+  VIETmisc.7055.desc: "우리는 [ROOT.Char.GetCurrentLocation.GetName]에 있는 [culture.GetName] 신사에 들렀습니다. 이 신사는 한때 명망 있던 지역 가문의 시조를 기리기 위해 오래전에 세워진 곳이었습니다.\n\n전설에 따르면, 이 군인은 종종 원정에 나갔고 아내와 아들을 친구에게 맡기곤 했습니다. 그러나 어느 날 돌아왔을 때, 그는 아내와 그 친구가 간음하는 현장을 목격했습니다. 그는 검을 뽑아 그들을 죽이려 했으나 마지막 순간에 멈췄습니다. 그는 황야로 물러나 명망 높고 깨달음을 얻은 은둔자가 되었습니다.\n\n그 남자의 후손인, 현명한 성품을 지닌 [heir.GetWomanMan]인 [heir.GetFirstName]은 [heir.GetHerselfHimself] 이 이야기를 들려준 후 껄껄 웃으며 말했습니다.\"요즘은 성스러운 삶을 사는 것에 신경 쓰는 이가 거의 없습니다. 모두가 즉각적인 부처가 되기를 원하죠. 제 조상의 본보기가 우리에게 즉각적인 불신(佛身)에 이르는 진정한 길은 오직 하나뿐임을 가르쳐 줍니다. 바로 검을 내려놓는 것이죠\"" # 6073151967860969886
+  VIETmisc.7055.a: "동의합니다. 현명한 말씀이십니다." # 14846920871348959086
+  VIETmisc.7055.b: "그대의 조상이 그들을 살려두지 말았어야 했는데." # 16509682195614154726
+  VIETmisc.7055.c: "당신도 덕망이 높아 보이는군요. 저를 위해 일해 보시겠습니까?" # 8679378068083611472
+  VIETmisc.7055.info: "$VIETmisc.liaozhai_zhiyi.intro$ 이 이야기는 친구와 바람피우던 아내를 붙잡고 거의 살해할 뻔했으나 결국 용서한 한 군인에 대한 것입니다. 그 후 그는 많은 이들의 존경을 받는 유명한 은사가 되었지만, 정작 본인은 그 관심에 즐거워하지 않았습니다. 이 이야기는 당시 사람들이 지금과 마찬가지로 즉각적인 영적 깨달음과 성취를 원했지만, 이야기 속 군인처럼 덕 있는 삶을 살기 위해 실제로 무언가를 하려는 의지는 없었음을 풍자합니다." # 684495882622373045
+  VIETmisc.7056.t: "$travel_event_prefix$ 늑대들" # 7050603776712881456
+  VIETmisc.7056.desc: "[ROOT.Char.GetCurrentLocation.GetName]의 시장 마을은 훌륭한 음식으로 가득했습니다. 무엇을 먹을지 결정하던 중, 우리는 수다쟁이 도살자 [butcher.GetFirstName]을 만났는데, 그가 어젯밤 겪었던 무서운 일에 대해 이야기해 주었습니다.\n\n집으로 돌아가는 길에 뼈 몇 개와 도살용 칼을 들고 가던 그는 자신을 죽여 먹으려는 듯한 늑대 두 마리를 만났습니다. 그는 늑대들의 주의를 돌리기 위해 뼈를 던졌지만, 늑대들은 계속 그를 따라왔고, 그는 근처 들판의 건초 더미 속에 숨었습니다.\n\n늑대들은 그가 나오기를 기다렸고, 한 마리는 지루해하며 떠나고 다른 한 마리는 잠이 들었습니다. 그는 잠든 늑대에게 덮쳐 칼로 그 늑대를 죽였습니다. 그러자 그는 다른 늑대가 멀리서 구덩이를 파는 것을 보았고, 잠든 늑대가 자신을 유인하여 다른 늑대가 뒤에서 공격하게 하려고 일부러 잔 척했다는 것을 깨달았습니다. 도살자는 이어서 두 번째 늑대마저 죽이고 탈출했습니다." # 10120402002232964624
+  VIETmisc.7056.a: "늑대들은 교활했지만, 당신은 그보다 더 교활하오!" # 1261924042958033615
+  VIETmisc.7056.b: "#italic 그렇게# 무섭게 들리지는 않았는데." # 9788862423238480511
+  VIETmisc.7056.info: "$VIETmisc.liaozhai_zhiyi.intro$ 이 이야기는 도살자가 자신을 죽이려 드는 두 마리의 늑대를 제거하려 했던 여러 시도들을 다룹니다. 요즘 이 이야기는 그 비교적 단순함과 어려운 상황에서도 드러나는 한 사람의 결단력과 교활함에 대한 명확한 교훈 덕분에 중국 학교에서 흔히 가르쳐지고 있습니다." # 7365306388370188287
+  VIETmisc.7057.t: "$travel_event_prefix$ xxxxx" # 9370684753389527943
+  VIETmisc.7057.desc: "xxxxx" # 1951045980481827005
+  VIETmisc.7057.a: "xxxxx" # 1951045980481827005
+  VIETmisc.7058.t: "$travel_event_prefix$ xxxxx" # 9370684753389527943
+  VIETmisc.7058.desc: "xxxxx" # 1951045980481827005
+  VIETmisc.7058.a: "xxxxx" # 1951045980481827005
+  VIETmisc.7059.t: "$travel_event_prefix$ xxxxx" # 9370684753389527943
+  VIETmisc.7059.desc: "xxxxx" # 1951045980481827005
+  VIETmisc.7059.a: "xxxxx" # 1951045980481827005
+  VIETmisc.7060.t: "$travel_event_prefix$ xxxxx" # 9370684753389527943
+  VIETmisc.7060.desc: "xxxxx" # 1951045980481827005
+  VIETmisc.7060.a: "xxxxx" # 1951045980481827005
+  VIETmisc.7061.t: "$travel_event_prefix$ xxxxx" # 9370684753389527943
+  VIETmisc.7061.desc: "xxxxx" # 1951045980481827005
+  VIETmisc.7061.a: "xxxxx" # 1951045980481827005
+  VIETmisc.7062.t: "$travel_event_prefix$ xxxxx" # 9370684753389527943
+  VIETmisc.7062.desc: "xxxxx" # 1951045980481827005
+  VIETmisc.7062.a: "xxxxx" # 1951045980481827005
+  VIETmisc.7063.t: "$travel_event_prefix$ xxxxx" # 9370684753389527943
+  VIETmisc.7063.desc: "xxxxx" # 1951045980481827005
+  VIETmisc.7063.a: "xxxxx" # 1951045980481827005
+  VIETmisc.7064.t: "$travel_event_prefix$ xxxxx" # 9370684753389527943
+  VIETmisc.7064.desc: "xxxxx" # 1951045980481827005
+  VIETmisc.7064.a: "xxxxx" # 1951045980481827005
+  VIETmisc.7065.t: "$travel_event_prefix$ xxxxx" # 9370684753389527943
+  VIETmisc.7065.desc: "xxxxx" # 1951045980481827005
+  VIETmisc.7065.a: "xxxxx" # 1951045980481827005
+  VIETmisc.7066.t: "$travel_event_prefix$ xxxxx" # 9370684753389527943
+  VIETmisc.7066.desc: "xxxxx" # 1951045980481827005
+  VIETmisc.7066.a: "xxxxx" # 1951045980481827005
+  VIETmisc.7067.t: "$travel_event_prefix$ xxxxx" # 9370684753389527943
+  VIETmisc.7067.desc: "xxxxx" # 1951045980481827005
+  VIETmisc.7067.a: "xxxxx" # 1951045980481827005
+  VIETmisc.7068.t: "$travel_event_prefix$ xxxxx" # 9370684753389527943
+  VIETmisc.7068.desc: "xxxxx" # 1951045980481827005
+  VIETmisc.7068.a: "xxxxx" # 1951045980481827005
+  VIETmisc.7069.t: "$travel_event_prefix$ xxxxx" # 9370684753389527943
+  VIETmisc.7069.desc: "xxxxx" # 1951045980481827005
+  VIETmisc.7069.a: "xxxxx" # 1951045980481827005
+  VIETmisc.7070.t: "$travel_event_prefix$ xxxxx" # 9370684753389527943
+  VIETmisc.7070.desc: "xxxxx" # 1951045980481827005
+  VIETmisc.7070.a: "xxxxx" # 1951045980481827005
+  VIETmisc.7071.t: "$travel_event_prefix$ xxxxx" # 9370684753389527943
+  VIETmisc.7071.desc: "xxxxx" # 1951045980481827005
+  VIETmisc.7071.a: "xxxxx" # 1951045980481827005
+  VIETmisc.7072.t: "$travel_event_prefix$ xxxxx" # 9370684753389527943
+  VIETmisc.7072.desc: "xxxxx" # 1951045980481827005
+  VIETmisc.7072.a: "xxxxx" # 1951045980481827005
+  VIETmisc.7073.t: "$travel_event_prefix$ xxxxx" # 9370684753389527943
+  VIETmisc.7073.desc: "xxxxx" # 1951045980481827005
+  VIETmisc.7073.a: "xxxxx" # 1951045980481827005
+  VIETmisc.7074.t: "$travel_event_prefix$ xxxxx" # 9370684753389527943
+  VIETmisc.7074.desc: "xxxxx" # 1951045980481827005
+  VIETmisc.7074.a: "xxxxx" # 1951045980481827005
+  VIETmisc.7075.t: "$travel_event_prefix$ xxxxx" # 9370684753389527943
+  VIETmisc.7075.desc: "xxxxx" # 1951045980481827005
+  VIETmisc.7075.a: "xxxxx" # 1951045980481827005
+  VIETmisc.7076.t: "$travel_event_prefix$ xxxxx" # 9370684753389527943
+  VIETmisc.7076.desc: "xxxxx" # 1951045980481827005
+  VIETmisc.7076.a: "xxxxx" # 1951045980481827005
+  VIETmisc.7077.t: "$travel_event_prefix$ xxxxx" # 9370684753389527943
+  VIETmisc.7077.desc: "xxxxx" # 1951045980481827005
+  VIETmisc.7077.a: "xxxxx" # 1951045980481827005
+  VIETmisc.7078.t: "$travel_event_prefix$ xxxxx" # 9370684753389527943
+  VIETmisc.7078.desc: "xxxxx" # 1951045980481827005
+  VIETmisc.7078.a: "xxxxx" # 1951045980481827005
+  VIETmisc.7079.t: "$travel_event_prefix$ xxxxx" # 9370684753389527943
+  VIETmisc.7079.desc: "xxxxx" # 1951045980481827005
+  VIETmisc.7079.a: "xxxxx" # 1951045980481827005
+  VIETmisc.7080.t: "$travel_event_prefix$ xxxxx" # 9370684753389527943
+  VIETmisc.7080.desc: "xxxxx" # 1951045980481827005
+  VIETmisc.7080.a: "xxxxx" # 1951045980481827005
+  VIETmisc.7081.t: "$travel_event_prefix$ xxxxx" # 9370684753389527943
+  VIETmisc.7081.desc: "xxxxx" # 1951045980481827005
+  VIETmisc.7081.a: "xxxxx" # 1951045980481827005
+  VIETmisc.7082.t: "$travel_event_prefix$ xxxxx" # 9370684753389527943
+  VIETmisc.7082.desc: "xxxxx" # 1951045980481827005
+  VIETmisc.7082.a: "xxxxx" # 1951045980481827005
+  VIETmisc.7083.t: "$travel_event_prefix$ xxxxx" # 9370684753389527943
+  VIETmisc.7083.desc: "xxxxx" # 1951045980481827005
+  VIETmisc.7083.a: "xxxxx" # 1951045980481827005
+  VIETmisc.7084.t: "$travel_event_prefix$ xxxxx" # 9370684753389527943
+  VIETmisc.7084.desc: "xxxxx" # 1951045980481827005
+  VIETmisc.7084.a: "xxxxx" # 1951045980481827005
+  VIETmisc.7085.t: "$travel_event_prefix$ xxxxx" # 9370684753389527943
+  VIETmisc.7085.desc: "xxxxx" # 1951045980481827005
+  VIETmisc.7085.a: "xxxxx" # 1951045980481827005
+  VIETmisc.7086.t: "$travel_event_prefix$ xxxxx" # 9370684753389527943
+  VIETmisc.7086.desc: "xxxxx" # 1951045980481827005
+  VIETmisc.7086.a: "xxxxx" # 1951045980481827005
+  VIETmisc.7087.t: "$travel_event_prefix$ xxxxx" # 9370684753389527943
+  VIETmisc.7087.desc: "xxxxx" # 1951045980481827005
+  VIETmisc.7087.a: "xxxxx" # 1951045980481827005
+  VIETmisc.7088.t: "$travel_event_prefix$ xxxxx" # 9370684753389527943
+  VIETmisc.7088.desc: "xxxxx" # 1951045980481827005
+  VIETmisc.7088.a: "xxxxx" # 1951045980481827005
+  VIETmisc.7089.t: "$travel_event_prefix$ xxxxx" # 9370684753389527943
+  VIETmisc.7089.desc: "xxxxx" # 1951045980481827005
+  VIETmisc.7089.a: "xxxxx" # 1951045980481827005
+  VIETmisc.7090.t: "$travel_event_prefix$ xxxxx" # 9370684753389527943
+  VIETmisc.7090.desc: "xxxxx" # 1951045980481827005
+  VIETmisc.7090.a: "xxxxx" # 1951045980481827005
+  VIETmisc.7091.t: "$travel_event_prefix$ xxxxx" # 9370684753389527943
+  VIETmisc.7091.desc: "xxxxx" # 1951045980481827005
+  VIETmisc.7091.a: "xxxxx" # 1951045980481827005
+  VIETmisc.7092.t: "$travel_event_prefix$ xxxxx" # 9370684753389527943
+  VIETmisc.7092.desc: "xxxxx" # 1951045980481827005
+  VIETmisc.7092.a: "xxxxx" # 1951045980481827005
+  VIETmisc.7093.t: "$travel_event_prefix$ xxxxx" # 9370684753389527943
+  VIETmisc.7093.desc: "xxxxx" # 1951045980481827005
+  VIETmisc.7093.a: "xxxxx" # 1951045980481827005
+  VIETmisc.7094.t: "$travel_event_prefix$ xxxxx" # 9370684753389527943
+  VIETmisc.7094.desc: "xxxxx" # 1951045980481827005
+  VIETmisc.7094.a: "xxxxx" # 1951045980481827005
+  VIETmisc.7095.t: "$travel_event_prefix$ xxxxx" # 9370684753389527943
+  VIETmisc.7095.desc: "xxxxx" # 1951045980481827005
+  VIETmisc.7095.a: "xxxxx" # 1951045980481827005
+  VIETmisc.7096.t: "$travel_event_prefix$ xxxxx" # 9370684753389527943
+  VIETmisc.7096.desc: "xxxxx" # 1951045980481827005
+  VIETmisc.7096.a: "xxxxx" # 1951045980481827005
+  VIETmisc.7097.t: "$travel_event_prefix$ xxxxx" # 9370684753389527943
+  VIETmisc.7097.desc: "xxxxx" # 1951045980481827005
+  VIETmisc.7097.a: "xxxxx" # 1951045980481827005
+  VIETmisc.7098.t: "$travel_event_prefix$ xxxxx" # 9370684753389527943
+  VIETmisc.7098.desc: "xxxxx" # 1951045980481827005
+  VIETmisc.7098.a: "xxxxx" # 1951045980481827005
+  VIETmisc.7099.t: "$travel_event_prefix$ xxxxx" # 9370684753389527943
+  VIETmisc.7099.desc: "xxxxx" # 1951045980481827005
+  VIETmisc.7099.a: "xxxxx" # 1951045980481827005
