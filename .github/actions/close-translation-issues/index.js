@@ -18,8 +18,19 @@ function hasUntranslatedItems(filePath) {
 
 async function run() {
   try {
-    const gameType = core.getInput('game', { required: true });
-    const token = core.getInput('github-token', { required: true });
+    // 복합 액션에서는 INPUT_ 환경 변수를 직접 읽어야 함
+    const gameType = process.env.INPUT_GAME;
+    const token = process.env.INPUT_GITHUB_TOKEN;
+    
+    if (!gameType) {
+      core.setFailed('game input is required');
+      return;
+    }
+    if (!token) {
+      core.setFailed('github-token input is required');
+      return;
+    }
+    
     const octokit = github.getOctokit(token);
     const { context } = github;
 
