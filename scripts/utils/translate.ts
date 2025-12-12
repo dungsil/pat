@@ -227,7 +227,7 @@ export async function translate (text: string, gameType: GameType = 'ck3', retry
     // 기타 오류도 재throw
     throw error
   }
-  
+
   log.debug(`AI 번역 결과: ${normalizedText} -> ${translatedText}${useTransliteration ? ' (음역 모드)' : ''}`)
 
   // 잘못된 결과 재 번역 시도
