@@ -5,6 +5,21 @@ import { log } from './logger'
 type QueueTask = { key: string, queue: () => Promise<void>, resolve: () => void, reject: (reason?: any) => void }
 const translationQueue: QueueTask[] = []
 
+/**
+ * 에러가 TranslationRefusedError인지 확인합니다.
+ * 
+ * 두 가지 체크를 모두 수행하는 이유:
+ * 1. instanceof 체크: 정상적인 실행 환경에서 동작
+ * 2. error.name 체크: 테스트 환경에서 vi.resetModules() 사용 시,
+ *    동적 임포트로 인해 클래스 인스턴스가 달라져서 instanceof가 실패함
+ */
+function isTranslationRefusedError(error: unknown): boolean {
+  return (
+    error instanceof TranslationRefusedError ||
+    (error instanceof Error && error.name === 'TranslationRefusedError')
+  )
+}
+
 // MAX_RETRIES = 5는 재시도 횟수 0~4를 의미 (총 5회 시도)
 const MAX_RETRIES = 5
 const RETRY_DELAYS = [1_000, 2_000, 8_000, 10_000, 60_000] // 밀리초 단위
@@ -53,7 +68,13 @@ async function processQueue (): Promise<void> {
       task.resolve()
     } catch (error) {
       task.reject(error)
-      // 남은 작업들도 모두 reject 처리
+      
+      // TranslationRefusedError는 다음 작업으로 계속 진행
+      if (isTranslationRefusedError(error)) {
+        continue
+      }
+      
+      // 일반 에러는 큐를 중단하고 남은 작업들도 reject 처리
       while (translationQueue.length > 0) {
         const remainingTask = translationQueue.shift()
         if (remainingTask) {
@@ -61,9 +82,6 @@ async function processQueue (): Promise<void> {
         }
       }
       isProcessing = false
-      if (translationQueue.length > 0) {
-        void processQueue()
-      }
       return
     }
   }
@@ -80,7 +98,7 @@ async function executeTaskWithRetry (task: QueueTask, retryCount = 0): Promise<v
     await task.queue()
   } catch (error) {
     // TranslationRefusedError는 재시도 없이 즉시 전파
-    if (error instanceof TranslationRefusedError) {
+    if (isTranslationRefusedError(error)) {
       throw error
     }
 
