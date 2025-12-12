@@ -189,7 +189,6 @@ class TimeoutReachedError extends Error {
 }
 
 
-
 async function processLanguageFile (mode: string, sourceDir: string, targetBaseDir: string, file: string, sourceLanguage: string, gameType: GameType, onlyHash: boolean, startTime: number, timeoutMs: number | null): Promise<UntranslatedItem[]> {
   const sourcePath = join(sourceDir, file)
   const untranslatedItems: UntranslatedItem[] = []
