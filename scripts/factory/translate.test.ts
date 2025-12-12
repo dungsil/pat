@@ -411,7 +411,7 @@ language = "english"
     })).rejects.toThrow(/upstream 디렉토리가 존재하지 않습니다/)
   })
 
-  it('번역 거부 시 현재까지 작업을 저장하고 정상 종료해야 함', async () => {
+  it('번역 거부 시 원문을 유지하고 다음 항목 처리를 계속해야 함', async () => {
     const entryCount = 10
     const sourceContent = createLargeYamlFile(entryCount, 'english')
 
@@ -459,22 +459,28 @@ language = "english"
     expect(result.untranslatedItems[0].message).toContain('Test value 5')
     expect(result.untranslatedItems[0].message).toContain('번역 거부')
 
-    // 출력 파일이 존재하고 부분적으로 번역되었는지 확인
+    // 출력 파일이 존재하고 모든 항목이 저장되었는지 확인
     const outputPath = join(modDir, 'mod', 'localization', 'korean', '___refusal_l_korean.yml')
     await access(outputPath) // 파일이 없으면 예외 발생
 
-    // 파일에 일부 콘텐츠가 있는지 확인 (부분 번역 저장됨)
+    // 파일에 모든 콘텐츠가 있는지 확인
     const outputContent = await readFile(outputPath, 'utf-8')
     expect(outputContent).toBeTruthy()
     expect(outputContent).toContain('l_korean')
 
-    // test_key_0 ~ test_key_4 까지는 번역되었는지 확인
     const parsedOutput = parseYaml(outputContent)
+    
+    // test_key_0 ~ test_key_4 까지는 번역되었는지 확인
     expect(parsedOutput.l_korean['test_key_0'][0]).toBe('[KO]Test value 0')
     expect(parsedOutput.l_korean['test_key_4'][0]).toBe('[KO]Test value 4')
 
-    // test_key_5 이후는 저장되지 않아야 함 (중단되었으므로)
-    expect(parsedOutput.l_korean['test_key_5']).toBeUndefined()
+    // test_key_5는 원문 그대로 유지되어야 함, hash는 null
+    expect(parsedOutput.l_korean['test_key_5'][0]).toBe('Test value 5')
+    expect(parsedOutput.l_korean['test_key_5'][1]).toBeNull()
+    
+    // test_key_6 ~ test_key_9도 정상 번역되었는지 확인 (거부 이후에도 계속 처리됨)
+    expect(parsedOutput.l_korean['test_key_6'][0]).toBe('[KO]Test value 6')
+    expect(parsedOutput.l_korean['test_key_9'][0]).toBe('[KO]Test value 9')
     
     // JSON 파일이 생성되었는지 확인 (projectRoot = testDir)
     const jsonPath = join(testDir, 'ck3-untranslated-items.json')
@@ -563,11 +569,14 @@ language = "english"
     expect(mod1Content).toContain('[KO]Value 1')
     expect(mod1Content).toContain('[KO]Value 2')
 
-    // mod2의 번역 파일은 부분적으로 생성되었는지 확인
+    // mod2의 번역 파일이 모두 생성되었는지 확인 (원문 포함)
     const mod2Output = join(mod2Dir, 'mod', 'localization', 'korean', '___mod2_l_korean.yml')
     const mod2Content = await readFile(mod2Output, 'utf-8')
-    expect(mod2Content).toContain('[KO]Value 3')
-    expect(mod2Content).not.toContain('Bunsom') // 거부된 항목은 번역되지 않음
+    const mod2Yaml = parseYaml(mod2Content)
+    expect(mod2Yaml.l_korean['key3'][0]).toBe('[KO]Value 3')
+    // key4는 원문 그대로 유지되어야 함
+    expect(mod2Yaml.l_korean['key4'][0]).toBe('Bunsom')
+    expect(mod2Yaml.l_korean['key4'][1]).toBeNull()
 
     // 정리
     await rm(testDir, { recursive: true, force: true })
@@ -642,16 +651,17 @@ language = "english"
     expect(file1Yaml.l_korean['key1'][0]).toBe('[KO]Value 1')
     expect(file1Yaml.l_korean['key2'][0]).toBe('[KO]Value 2')
 
-    // file2의 번역 파일이 부분적으로 생성되었는지 확인
+    // file2의 번역 파일이 완전히 생성되었는지 확인 (원문 포함)
     const file2Output = join(modDir, 'mod', 'localization', 'korean', '___file2_l_korean.yml')
     const file2Content = await readFile(file2Output, 'utf-8')
     const file2Yaml = parseYaml(file2Content)
     // key3는 번역되었어야 함 (거부 이전)
     expect(file2Yaml.l_korean['key3'][0]).toBe('[KO]Value 3')
-    // key4는 저장되지 않았어야 함 (중단됨)
-    expect(file2Yaml.l_korean['key4']).toBeUndefined()
-    // key5도 저장되지 않았어야 함 (거부 이후)
-    expect(file2Yaml.l_korean['key5']).toBeUndefined()
+    // key4는 원문 그대로 유지되어야 함, hash는 null
+    expect(file2Yaml.l_korean['key4'][0]).toBe('Forbidden Content')
+    expect(file2Yaml.l_korean['key4'][1]).toBeNull()
+    // key5도 정상 번역되었어야 함 (거부 이후에도 계속 진행)
+    expect(file2Yaml.l_korean['key5'][0]).toBe('[KO]Value 5')
 
     // file3의 번역 파일이 정상적으로 생성되었는지 확인
     const file3Output = join(modDir, 'mod', 'localization', 'korean', '___file3_l_korean.yml')

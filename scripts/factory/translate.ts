@@ -117,8 +117,6 @@ export async function processModTranslations ({ rootDir, mods, gameType, onlyHas
     // 일부 파일에서 번역 거부가 발생해도 다른 파일들의 결과를 모두 수집
     const results = await Promise.allSettled(processes)
     
-    let hasRefusalError = false
-    let refusalError: TranslationRefusalStopError | null = null
     const untranslatedItems: UntranslatedItem[] = []
     
     for (const result of results) {
@@ -134,17 +132,6 @@ export async function processModTranslations ({ rootDir, mods, gameType, onlyHas
           // 타임아웃 시에도 현재까지 수집된 항목 반환
           allUntranslatedItems.push(...untranslatedItems)
           return saveAndReturnResult(projectRoot, gameType, allUntranslatedItems)
-        } else if (error instanceof TranslationRefusalStopError) {
-          // 번역 거부 에러는 첫 번째 것만 기록하고 나머지 파일 처리는 계속
-          if (!hasRefusalError) {
-            hasRefusalError = true
-            refusalError = error
-            log.warn(`[${mod}] 번역 거부로 인해 일부 파일 처리 중단됨`)
-            log.info(`번역 거부: 처리된 작업(${error.processedCount}/${error.totalEntries})까지 저장함`)
-            log.info(`거부 사유: ${error.originalError.reason}`)
-          }
-          // 거부된 항목을 수집
-          untranslatedItems.push(error.refusedItem)
         } else {
           // 다른 예외는 그대로 throw
           throw error
@@ -153,12 +140,6 @@ export async function processModTranslations ({ rootDir, mods, gameType, onlyHas
     }
     
     allUntranslatedItems.push(...untranslatedItems)
-    
-    // 번역 거부가 있었다면 종료
-    if (hasRefusalError) {
-      log.info(`번역 거부 발생으로 번역 프로세스를 종료합니다`)
-      return saveAndReturnResult(projectRoot, gameType, allUntranslatedItems)
-    }
     
     log.success(`[${mod}] 번역 완료`)
     
@@ -207,22 +188,7 @@ class TimeoutReachedError extends Error {
   }
 }
 
-/**
- * 번역 거부로 인해 번역이 중단되었을 때 발생하는 에러
- * 파일은 이미 저장된 상태이며, 이 에러는 상위에서 graceful exit을 수행하기 위해 사용됨
- */
-class TranslationRefusalStopError extends Error {
-  constructor(
-    public readonly targetPath: string,
-    public readonly processedCount: number,
-    public readonly totalEntries: number,
-    public readonly originalError: TranslationRefusedError,
-    public readonly refusedItem: UntranslatedItem
-  ) {
-    super(`번역 거부로 중단: ${originalError.message}`)
-    this.name = 'TranslationRefusalStopError'
-  }
-}
+
 
 async function processLanguageFile (mode: string, sourceDir: string, targetBaseDir: string, file: string, sourceLanguage: string, gameType: GameType, onlyHash: boolean, startTime: number, timeoutMs: number | null): Promise<UntranslatedItem[]> {
   const sourcePath = join(sourceDir, file)
@@ -334,19 +300,18 @@ async function processLanguageFile (mode: string, sourceDir: string, targetBaseD
           message: sourceValue
         })
       } else if (error instanceof TranslationRefusedError) {
-        // 번역 거부 시 현재까지 작업 저장 후 중단
+        // 번역 거부 시 원문을 유지하고 계속 진행
         log.warn(`[${mode}/${file}:${key}] 번역 거부됨: ${error.reason}`)
-        log.info(`[${mode}/${file}] 번역 거부로 인해 현재까지 작업(${processedCount}/${totalEntries})을 저장합니다.`)
-        const updatedContent = stringifyYaml(newYaml)
-        await writeFile(targetPath, updatedContent, 'utf-8')
-        // 거부된 항목을 에러와 함께 전달
-        const refusedItem: UntranslatedItem = {
+        log.info(`[${mode}/${file}:${key}] 원문을 유지하고 다음 항목으로 계속 진행합니다.`)
+        translatedValue = sourceValue
+        hashForEntry = null
+        // 번역되지 않은 항목 추적
+        untranslatedItems.push({
           mod: mode,
           file,
           key,
           message: `${sourceValue} (번역 거부: ${error.reason})`
-        }
-        throw new TranslationRefusalStopError(targetPath, processedCount, totalEntries, error, refusedItem)
+        })
       } else {
         throw error
       }
