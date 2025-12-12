@@ -389,7 +389,7 @@ describe('TranslationRefusedError 처리', () => {
   })
 
   it('TranslationRefusedError가 발생하면 상위로 전파해야 함', async () => {
-    const { translate, TranslationRefusedError } = await import('./translate')
+    const { translate } = await import('./translate')
     const { translateAI } = await import('./ai')
 
     // TranslationRefusedError를 던지도록 모킹
