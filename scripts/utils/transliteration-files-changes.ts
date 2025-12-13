@@ -18,6 +18,12 @@ export interface TransliterationFileChange {
 export async function getChangedTransliterationFiles(commitId: string): Promise<TransliterationFileChange[]> {
   log.info(`transliteration_files 변경사항 확인 중 (커밋: ${commitId})`)
 
+  // commitId 검증 (command injection 방지)
+  // Git ref 형식만 허용: 알파벳, 숫자, ~, ^, -, _, /, . 
+  if (!/^[a-zA-Z0-9~^_.\/-]+$/.test(commitId)) {
+    throw new Error(`Invalid commit ID format: ${commitId}`)
+  }
+
   try {
     // meta.toml 파일의 변경사항 가져오기
     const { stdout: diffOutput } = await execAsync(
@@ -66,7 +72,7 @@ export async function getChangedTransliterationFiles(commitId: string): Promise<
           (
             (line.match(/^[-+]?\s*$/) && !line.includes('"')) || // 빈 줄
             line.match(/^[-+]?\s*\]\s*$/) ||                     // 배열 종료 ]
-            line.match(/^[-+]?\s*\[.*\]/)                       // 새 섹션 시작
+            line.match(/^[-+]?\s*\[[^\]]+\]\s*$/)                // 새 섹션 시작 (TOML table header)
           )
         ) {
           inTransliterationSection = false

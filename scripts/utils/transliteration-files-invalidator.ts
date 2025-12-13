@@ -85,7 +85,8 @@ export async function invalidateTransliterationFilesChanges(
       log.success(`[${modName}] 완료`)
     } catch (error) {
       log.error(`[${modName}] 오류 발생:`, error)
-      throw error
+      // 다른 모드 처리를 계속하기 위해 throw하지 않음
+      // 대신 오류를 기록하고 계속 진행
     }
   }
 
@@ -100,11 +101,15 @@ async function invalidateAffectedFiles(
   gameType: GameType,
   affectedFiles: string[]
 ): Promise<number> {
+  // locPath가 'replace'로 끝나는지 확인 (더 정확한 경로 매칭)
+  const pathSegments = locPath.split('/').filter(Boolean)
+  const isReplacePath = pathSegments[pathSegments.length - 1] === 'replace'
+  
   const targetDir = join(
     modDir,
     'mod',
     getLocalizationFolderName(gameType),
-    locPath.includes('replace') ? 'korean/replace' : 'korean'
+    isReplacePath ? 'korean/replace' : 'korean'
   )
 
   let invalidatedCount = 0

@@ -71,8 +71,17 @@ jobs:
         run: jiti scripts/vic3.ts updateTransliterationFiles --since-commit=${{ github.sha }}
         continue-on-error: true
 
+      - name: Check for file changes
+        id: check_changes
+        run: |
+          if [[ -n "$(git status --porcelain)" ]]; then
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+          else
+            echo "has_changes=false" >> $GITHUB_OUTPUT
+          fi
+
       - name: Commit invalidated translations
-        if: steps.invalidate-ck3.outcome == 'success' || steps.invalidate-stellaris.outcome == 'success' || steps.invalidate-vic3.outcome == 'success'
+        if: steps.check_changes.outputs.has_changes == 'true'
         uses: stefanzweifel/git-auto-commit-action@v7
         with:
           push: true
