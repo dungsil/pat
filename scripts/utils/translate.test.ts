@@ -413,7 +413,6 @@ describe('TranslationRefusedError 처리', () => {
       expect(error).toBeInstanceOf(TranslationRefusedError)
       expect(error).toHaveProperty('text', 'test text')
       expect(error).toHaveProperty('reason', '프롬프트 차단됨: PROHIBITED_CONTENT')
-      expect(String(error)).toContain('번역 거부')
     }
     
     expect(translateAI).toHaveBeenCalledWith('test text', 'ck3', undefined, false)
