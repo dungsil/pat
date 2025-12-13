@@ -3,6 +3,34 @@ const github = require('@actions/github');
 const fs = require('fs');
 const path = require('path');
 
+// 테이블에서 키를 추출하기 위한 정규식: | 파일 | `키` | 원문 | 형식
+const TABLE_KEY_REGEX = /\|\s*[^|]+\s*\|\s*`([^`]+)`\s*\|/g;
+
+/**
+ * 항목을 테이블 행으로 포맷팅
+ * @param {Object} item - 항목 객체 (file, key, message 포함)
+ * @returns {string} 포맷된 테이블 행 문자열
+ */
+function formatItemAsTableRow(item) {
+  const rawMessage = item.message;
+  const escapedMessage = rawMessage.replace(/\|/g, '\\|').replace(/\n/g, ' ').replace(/`/g, '\\`');
+  let displayMessage = escapedMessage;
+  let detailsSection = '';
+  
+  // 긴 메시지는 잘라서 표시하고, 전체 메시지는 접을 수 있는 섹션으로 표시
+  if (rawMessage.length > 100 || rawMessage.includes('\n')) {
+    displayMessage = escapedMessage.slice(0, 100) + '...';
+    const detailsMessage = rawMessage.replace(/\|/g, '\\|').replace(/`/g, '\\`');
+    detailsSection = `<details><summary>전체 메시지 보기</summary>\n\n\`\`\`\n${detailsMessage}\n\`\`\`\n\n</details>\n`;
+  }
+  
+  let row = `| ${item.file} | \`${item.key}\` | ${displayMessage} |\n`;
+  if (detailsSection) {
+    row += detailsSection;
+  }
+  return row;
+}
+
 async function run() {
   try {
     // 복합 액션에서는 INPUT_ 환경 변수를 직접 읽어야 함
@@ -46,6 +74,9 @@ async function run() {
       return;
     }
 
+    // timestamp 필드 검증 및 기본값 설정
+    const timestamp = data.timestamp || '알 수 없음';
+
     // 기존 이슈 검색 (동일한 제목의 열린 이슈가 있는지 확인)
     const existingIssues = await octokit.rest.issues.listForRepo({
       owner: context.repo.owner,
@@ -84,9 +115,8 @@ async function run() {
         // 기존 이슈 본문에서 이미 존재하는 키 추출
         const existingBody = existingIssue.body || '';
         const existingKeys = new Set();
-        const keyRegex = /\|\s*[^|]+\s*\|\s*`([^`]+)`\s*\|/g;
         let match;
-        while ((match = keyRegex.exec(existingBody)) !== null) {
+        while ((match = TABLE_KEY_REGEX.exec(existingBody)) !== null) {
           existingKeys.add(match[1]);
         }
 
@@ -118,13 +148,18 @@ async function run() {
         }
 
         // 테이블 끝 위치 찾기 (테이블 시작점부터 검사)
+        // 알고리즘:
+        // 1. tableStartLine + 2부터 시작 (헤더와 구분선 건너뛰기)
+        // 2. 테이블 행(|로 시작), <details> 섹션, 빈 줄을 모두 테이블의 일부로 간주
+        // 3. 테이블 구조가 아닌 줄을 만나면 테이블의 끝으로 판단
         let tableEndLine = tableStartLine + 1; // 최소한 구분선 다음에 삽입
-        // 테이블 헤더와 구분선을 건너뛰고 검사 (tableStartLine + 2부터)
         for (let i = tableStartLine + 2; i < lines.length; i++) {
           const line = lines[i].trim();
+          // 테이블 행, details 섹션, 빈 줄은 계속 진행
           if (line.startsWith('|') || line.startsWith('<details>') || line.startsWith('</details>') || line === '') {
             tableEndLine = i;
           } else {
+            // 그 외의 경우 테이블 끝
             break;
           }
         }
@@ -143,25 +178,12 @@ async function run() {
         // 새 항목들을 테이블에 추가
         let newRows = '';
         for (const item of newItems) {
-          const rawMessage = item.message;
-          const escapedMessage = rawMessage.replace(/\|/g, '\\|').replace(/\n/g, ' ').replace(/`/g, '\\`');
-          let displayMessage = escapedMessage;
-          let detailsSection = '';
-          // 긴 메시지는 잘라서 표시하고, 전체 메시지는 접을 수 있는 섹션으로 표시
-          if (rawMessage.length > 100 || rawMessage.includes('\n')) {
-            displayMessage = escapedMessage.slice(0, 100) + '...';
-            const detailsMessage = rawMessage.replace(/\|/g, '\\|').replace(/`/g, '\\`');
-            detailsSection = `<details><summary>전체 메시지 보기</summary>\n\n\`\`\`\n${detailsMessage}\n\`\`\`\n\n</details>\n`;
-          }
-          newRows += `| ${item.file} | \`${item.key}\` | ${displayMessage} |\n`;
-          if (detailsSection) {
-            newRows += detailsSection;
-          }
+          newRows += formatItemAsTableRow(item);
         }
 
         // 본문 업데이트
         updatedBody = updatedBody.slice(0, insertPosition) + newRows + updatedBody.slice(insertPosition);
-        updatedBody += `\n**마지막 업데이트**: ${data.timestamp}\n\n`;
+        updatedBody += `\n**마지막 업데이트**: ${timestamp}\n\n`;
         updatedBody += `---\n`;
         updatedBody += `이 이슈는 자동으로 생성되었습니다. 수동 번역이 필요한 항목입니다.\n`;
 
@@ -178,26 +200,13 @@ async function run() {
         let body = `## 번역 거부 항목\n\n`;
         body += `**게임**: ${gameDisplayName}\n`;
         body += `**모드**: ${mod}\n`;
-        body += `**발생 시간**: ${data.timestamp}\n\n`;
+        body += `**발생 시간**: ${timestamp}\n\n`;
         body += `### 항목 목록\n\n`;
         body += `| 파일 | 키 | 원문 |\n`;
         body += `|------|-----|------|\n`;
 
         for (const item of items) {
-          const rawMessage = item.message;
-          const escapedMessage = rawMessage.replace(/\|/g, '\\|').replace(/\n/g, ' ').replace(/`/g, '\\`');
-          let displayMessage = escapedMessage;
-          let detailsSection = '';
-          // 긴 메시지는 잘라서 표시하고, 전체 메시지는 접을 수 있는 섹션으로 표시
-          if (rawMessage.length > 100 || rawMessage.includes('\n')) {
-            displayMessage = escapedMessage.slice(0, 100) + '...';
-            const detailsMessage = rawMessage.replace(/\|/g, '\\|').replace(/`/g, '\\`');
-            detailsSection = `<details><summary>전체 메시지 보기</summary>\n\n\`\`\`\n${detailsMessage}\n\`\`\`\n\n</details>\n`;
-          }
-          body += `| ${item.file} | \`${item.key}\` | ${displayMessage} |\n`;
-          if (detailsSection) {
-            body += detailsSection;
-          }
+          body += formatItemAsTableRow(item);
         }
 
         body += `\n---\n`;
