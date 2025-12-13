@@ -36,10 +36,11 @@ vi.mock('../utils/upstream', () => ({
   updateAllUpstreams: vi.fn(() => Promise.resolve())
 }))
 
-// child_process의 exec 모킹
+// child_process의 exec 모킹 - git checkout 명령을 실제로 시뮬레이션
+const mockExecAsync = vi.fn()
+
 vi.mock('node:child_process', () => ({
   exec: vi.fn((cmd: string, options: any, callback: any) => {
-    // git checkout 명령은 성공한 것으로 처리
     if (callback) {
       callback(null, { stdout: '', stderr: '' })
     }
@@ -51,14 +52,28 @@ vi.mock('node:child_process', () => ({
 
 vi.mock('node:util', async () => {
   const actual = await vi.importActual<typeof import('node:util')>('node:util')
+  const { rm } = await import('node:fs/promises')
+  
   return {
     ...actual,
     promisify: (fn: any) => {
       return async (cmd: string, options?: any) => {
-        // git checkout 명령은 성공한 것으로 처리
-        if (cmd.includes('git checkout')) {
-          return { stdout: '', stderr: '' }
+        mockExecAsync(cmd, options)
+        
+        // git checkout 명령 시뮬레이션: 파일을 삭제하여 "롤백" 효과 재현
+        if (cmd.includes('git checkout HEAD --')) {
+          const match = cmd.match(/git checkout HEAD -- "(.+)"/)
+          if (match) {
+            const filePath = match[1]
+            try {
+              // 테스트에서는 파일을 삭제하여 롤백을 시뮬레이션
+              await rm(filePath, { force: true })
+            } catch (error) {
+              // 파일이 없으면 무시
+            }
+          }
         }
+        
         return { stdout: '', stderr: '' }
       }
     }
@@ -72,6 +87,9 @@ describe('파일 정리 및 빈 파일 방지', () => {
     // 테스트를 위한 임시 디렉토리 생성
     testDir = join(tmpdir(), `translate-cleanup-test-${Date.now()}`)
     await mkdir(testDir, { recursive: true })
+    
+    // mock 초기화
+    mockExecAsync.mockClear()
   })
 
   afterEach(async () => {
@@ -134,13 +152,17 @@ language = "english"
       onlyHash: false
     })
 
-    // file1은 여전히 존재해야 함
+    // file1은 여전히 존재해야 함 (upstream에 여전히 존재)
     await access(file1Output)
     
-    // file2는 git checkout으로 롤백 시도됨
-    // 테스트 환경에서는 git 리포지토리가 아니므로 롤백이 실패하고 파일은 그대로 유지됨
-    // 실제 프로덕션 환경에서는 git HEAD 상태로 롤백됨
-    expect(existsSync(file2Output)).toBe(true) // 테스트 환경에서는 파일이 유지됨
+    // file2는 git checkout으로 롤백됨 (테스트에서는 삭제로 시뮬레이션)
+    expect(existsSync(file2Output)).toBe(false)
+    
+    // git checkout 명령이 file2에 대해 호출되었는지 확인
+    expect(mockExecAsync).toHaveBeenCalledWith(
+      expect.stringContaining('git checkout HEAD --'),
+      expect.objectContaining({ cwd: expect.any(String) })
+    )
   })
 
   it('빈 YAML 파일(항목이 없는 파일)은 생성하지 않아야 함', async () => {
@@ -220,9 +242,8 @@ language = "english"
       onlyHash: false
     })
 
-    // 빈 파일은 git checkout으로 롤백 시도됨
-    // 테스트 환경에서는 git 리포지토리가 아니므로 파일은 그대로 유지됨
-    expect(existsSync(testOutput)).toBe(true)
+    // 빈 파일은 git checkout으로 롤백됨 (테스트에서는 삭제로 시뮬레이션)
+    expect(existsSync(testOutput)).toBe(false)
   })
 
   it('여러 파일 중 일부가 업스트림에서 삭제되면 해당 파일의 변경사항이 롤백되어야 함', async () => {
@@ -283,8 +304,8 @@ language = "english"
     await access(file1Output)
     await access(file3Output)
     
-    // file2는 git checkout으로 롤백 시도됨 (테스트 환경에서는 파일 유지됨)
-    expect(existsSync(file2Output)).toBe(true)
+    // file2는 git checkout으로 롤백됨 (테스트에서는 삭제로 시뮬레이션)
+    expect(existsSync(file2Output)).toBe(false)
   })
 
   it('하위 디렉토리의 파일도 올바르게 변경사항이 롤백되어야 함', async () => {
@@ -330,7 +351,7 @@ language = "english"
       onlyHash: false
     })
 
-    // 파일의 변경사항이 git checkout으로 롤백 시도됨 (테스트 환경에서는 파일 유지됨)
-    expect(existsSync(nestedOutput)).toBe(true)
+    // 파일의 변경사항이 git checkout으로 롤백됨 (테스트에서는 삭제로 시뮬레이션)
+    expect(existsSync(nestedOutput)).toBe(false)
   })
 })
