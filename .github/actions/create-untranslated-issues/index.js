@@ -6,12 +6,16 @@ async function run() {
   try {
     const game = process.env.INPUT_GAME;
     const token = process.env.INPUT_GITHUB_TOKEN;
+    const repository = process.env.GITHUB_REPOSITORY;
 
     if (!game) {
       throw new Error('game input is required');
     }
     if (!token) {
       throw new Error('github-token input is required');
+    }
+    if (!repository || !repository.includes('/')) {
+      throw new Error('GITHUB_REPOSITORY environment variable is required and must be in owner/repo format');
     }
 
     // game 이름을 대문자로 변환 (이슈 제목용)
@@ -22,7 +26,7 @@ async function run() {
     const octokit = new Octokit({ auth: token });
     
     // GitHub Actions 환경 변수에서 repo 정보 가져오기
-    const [owner, repo] = process.env.GITHUB_REPOSITORY.split('/');
+    const [owner, repo] = repository.split('/');
 
     const filePath = path.join(process.cwd(), `${game}-untranslated-items.json`);
 
@@ -31,7 +35,12 @@ async function run() {
       return;
     }
 
-    const data = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
+    let data;
+    try {
+      data = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
+    } catch (error) {
+      throw new Error(`Failed to parse ${filePath}: ${error.message}. The file may contain invalid JSON.`);
+    }
 
     if (!data.items || data.items.length === 0) {
       console.log('번역되지 않은 항목이 없습니다.');
