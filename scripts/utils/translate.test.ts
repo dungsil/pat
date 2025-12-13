@@ -400,9 +400,9 @@ describe('TranslationRefusedError 처리', () => {
     const { translate } = await import('./translate')
     const { translateAI } = await import('./ai')
 
-    // TranslationRefusedError를 던지도록 모킹
+    // TranslationRefusedError를 던지도록 모킹 (Once 사용: 다른 테스트에 영향 없도록)
     const testError = new TranslationRefusedError('test text', '프롬프트 차단됨: PROHIBITED_CONTENT')
-    vi.mocked(translateAI).mockRejectedValue(testError)
+    vi.mocked(translateAI).mockRejectedValueOnce(testError)
 
     // 에러 타입과 속성 검증 (try-catch 사용: 여러 속성을 상세히 검증하기 위함)
     try {
