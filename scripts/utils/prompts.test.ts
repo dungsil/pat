@@ -216,10 +216,15 @@ describe('shouldUseTransliteration', () => {
       expect(shouldUseTransliteration('custom_l_english.yml', 'normal_key', manualList)).toBe(true)
     })
 
-    it('부분 매칭을 지원해야 함', () => {
-      const manualList = ['custom_names']
-      expect(shouldUseTransliteration('mod_custom_names_l_english.yml', undefined, manualList)).toBe(true)
-      expect(shouldUseTransliteration('custom_names_extended_l_english.yml', undefined, manualList)).toBe(true)
+    it('와일드카드로 부분 매칭을 지원해야 함', () => {
+      const manualList = ['*custom_events*']
+      expect(shouldUseTransliteration('mod_custom_events_l_english.yml', undefined, manualList)).toBe(true)
+      expect(shouldUseTransliteration('custom_events_extended_l_english.yml', undefined, manualList)).toBe(true)
+      // 정확한 이름은 와일드카드 없이도 매칭됨
+      const exactList = ['custom_events_l_english.yml']
+      expect(shouldUseTransliteration('custom_events_l_english.yml', undefined, exactList)).toBe(true)
+      // 정확한 이름과 다르면 매칭 안 됨 (자동 감지도 안 되는 파일명 사용)
+      expect(shouldUseTransliteration('mod_custom_events_l_english.yml', undefined, exactList)).toBe(false)
     })
   })
 })
