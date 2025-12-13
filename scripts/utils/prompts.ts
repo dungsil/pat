@@ -105,30 +105,34 @@ export function shouldUseTransliteration(filename: string, key?: string, manualL
   const baseFilename = filename.split('/').pop() || filename
   const lowerFilename = baseFilename.toLowerCase()
   
+  // 키 제외 패턴 (번역 모드를 사용해야 하는 키 패턴)
+  const translationOnlyPatterns = [
+    '_loc',
+    '_desc',
+    'tradition_',
+    'culture_parameter',
+    '_interaction',
+  ]
+  
   // 수동 지정 목록이 있으면 먼저 검사
   if (manualList && manualList.length > 0) {
     // 파일명이 수동 지정 패턴 중 하나와 일치하는지 확인
     const isManuallySpecified = manualList.some(pattern => {
       const lowerPattern = pattern.toLowerCase()
       // 와일드카드 패턴 지원 (간단한 glob 패턴: * 를 .* 로 변환)
+      // 먼저 * 를 임시 플레이스홀더로 변환, 특수 문자 이스케이프 후, 플레이스홀더를 .* 로 변환
       const regexPattern = lowerPattern
+        .replace(/\*/g, '\x00WILDCARD\x00') // * 를 임시 플레이스홀더로
         .replace(/[.+?^${}()|[\]\\]/g, '\\$&') // 특수 문자 이스케이프
-        .replace(/\*/g, '.*') // * 를 .* 로 변환
+        .replace(/\x00WILDCARD\x00/g, '.*') // 플레이스홀더를 .* 로 변환
       const regex = new RegExp(`^${regexPattern}$`)
-      return regex.test(lowerFilename) || lowerFilename.includes(lowerPattern)
+      return regex.test(lowerFilename)
     })
     
     if (isManuallySpecified) {
       // 수동 지정된 파일이지만, 키 제외 패턴은 여전히 적용
       if (key) {
         const lowerKey = key.toLowerCase()
-        const translationOnlyPatterns = [
-          '_loc',
-          '_desc',
-          'tradition_',
-          'culture_parameter',
-          '_interaction',
-        ]
         const shouldSkipTransliteration = translationOnlyPatterns.some(pattern => 
           lowerKey.includes(pattern)
         )
@@ -182,20 +186,7 @@ export function shouldUseTransliteration(filename: string, key?: string, manualL
     return true
   }
   
-  // 키에 다음 패턴이 포함되면 음역 모드를 사용하지 않음 (일반 번역 사용)
-  // - '_loc': 현지화된 설명 텍스트
-  // - '_desc': 설명(description) 텍스트  
-  // - 'tradition_': 전통(tradition) 관련 텍스트
-  // - 'culture_parameter': 문화 파라미터 텍스트
-  // - '_interaction': 상호작용 텍스트
-  const translationOnlyPatterns = [
-    '_loc',
-    '_desc',
-    'tradition_',
-    'culture_parameter',
-    '_interaction',
-  ]
-  
+  // 키에 제외 패턴이 포함되면 음역 모드를 사용하지 않음 (일반 번역 사용)
   const lowerKey = key.toLowerCase()
   const shouldSkipTransliteration = translationOnlyPatterns.some(pattern => 
     lowerKey.includes(pattern)
