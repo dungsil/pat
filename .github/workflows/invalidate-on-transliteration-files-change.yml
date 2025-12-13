@@ -56,12 +56,23 @@ jobs:
         run: pnpm upstream
         continue-on-error: true
 
-      - name: Invalidate translations for changed transliteration_files
-        run: pnpm invalidate-transliteration-files -- --since-commit ${{ github.sha }}
+      - name: Invalidate CK3 translations for changed transliteration_files
+        id: invalidate-ck3
+        run: jiti scripts/ck3.ts updateTransliterationFiles --since-commit=${{ github.sha }}
+        continue-on-error: true
+
+      - name: Invalidate Stellaris translations for changed transliteration_files
+        id: invalidate-stellaris
+        run: jiti scripts/stellaris.ts updateTransliterationFiles --since-commit=${{ github.sha }}
+        continue-on-error: true
+
+      - name: Invalidate VIC3 translations for changed transliteration_files
+        id: invalidate-vic3
+        run: jiti scripts/vic3.ts updateTransliterationFiles --since-commit=${{ github.sha }}
         continue-on-error: true
 
       - name: Commit invalidated translations
-        if: always()
+        if: steps.invalidate-ck3.outcome == 'success' || steps.invalidate-stellaris.outcome == 'success' || steps.invalidate-vic3.outcome == 'success'
         uses: stefanzweifel/git-auto-commit-action@v7
         with:
           push: true

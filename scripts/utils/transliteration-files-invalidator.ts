@@ -3,6 +3,7 @@ import { join, parse } from 'pathe'
 import { parseToml, parseYaml, stringifyYaml } from '../parser'
 import { log } from './logger'
 import { type GameType } from './prompts'
+import { matchWildcardPattern } from './pattern-matcher'
 import { getChangedTransliterationFiles, type TransliterationFileChange } from './transliteration-files-changes'
 
 interface ModMeta {
@@ -119,20 +120,8 @@ async function invalidateAffectedFiles(
       const sourceFileName = base.replace('___', '').replace('_l_korean.yml', `_l_${sourceLanguage}.yml`)
       
       const isAffected = affectedFiles.some(affectedFile => {
-        // 정확한 매칭
-        if (affectedFile === sourceFileName) return true
-        
-        // 와일드카드 매칭
-        if (affectedFile.includes('*')) {
-          const pattern = affectedFile
-            .replace(/\*/g, '__WILDCARD_PLACEHOLDER__')
-            .replace(/[.+?^${}()|[\]\\]/g, '\\$&')
-            .replace(/__WILDCARD_PLACEHOLDER__/g, '.*')
-          const regex = new RegExp(`^${pattern}$`, 'i')
-          return regex.test(sourceFileName)
-        }
-        
-        return false
+        // 정확한 매칭 또는 와일드카드 매칭
+        return matchWildcardPattern(affectedFile, sourceFileName)
       })
 
       if (!isAffected) continue

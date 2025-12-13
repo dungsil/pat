@@ -54,14 +54,21 @@ export async function getChangedTransliterationFiles(commitId: string): Promise<
       for (let i = 0; i < lines.length; i++) {
         const line = lines[i]
         
-        // transliteration_files 섹션 시작 감지
-        if (line.includes('transliteration_files')) {
+        // transliteration_files 섹션 시작 감지 (TOML 키 선언만 매칭)
+        if (/^[-+]?\s*transliteration_files\s*=/.test(line)) {
           inTransliterationSection = true
           continue
         }
         
-        // 섹션 종료 감지 (빈 줄이나 다른 섹션)
-        if (inTransliterationSection && line.match(/^[-+]?\s*$/) && !line.includes('"')) {
+        // 섹션 종료 감지 (빈 줄, 배열 종료(]), 또는 다른 섹션 시작([...]))
+        if (
+          inTransliterationSection &&
+          (
+            (line.match(/^[-+]?\s*$/) && !line.includes('"')) || // 빈 줄
+            line.match(/^[-+]?\s*\]\s*$/) ||                     // 배열 종료 ]
+            line.match(/^[-+]?\s*\[.*\]/)                       // 새 섹션 시작
+          )
+        ) {
           inTransliterationSection = false
           continue
         }
