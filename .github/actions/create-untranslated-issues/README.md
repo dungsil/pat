@@ -51,4 +51,4 @@ npm install
 npm install
 ```
 
-코드를 수정한 후 변경사항을 커밋하면 됩니다. `node_modules`는 `.gitignore`에 포함되어 있으므로 GitHub Actions에서 자동으로 설치됩니다.
+코드를 수정한 후 변경사항을 커밋하면 됩니다. `node_modules`는 `.gitignore`에 포함되어 있으므로 커밋되지 않으며, GitHub Actions 실행 시 `npm ci --production`으로 설치됩니다.
