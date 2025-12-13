@@ -115,6 +115,8 @@ async function run() {
         // 기존 이슈 본문에서 이미 존재하는 키 추출
         const existingBody = existingIssue.body || '';
         const existingKeys = new Set();
+        // 전역 플래그 정규식 사용 시 lastIndex 초기화 필요
+        TABLE_KEY_REGEX.lastIndex = 0;
         let match;
         while ((match = TABLE_KEY_REGEX.exec(existingBody)) !== null) {
           existingKeys.add(match[1]);
