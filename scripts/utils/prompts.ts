@@ -122,9 +122,9 @@ export function shouldUseTransliteration(filename: string, key?: string, manualL
       // 와일드카드 패턴 지원 (간단한 glob 패턴: * 를 .* 로 변환)
       // 먼저 * 를 임시 플레이스홀더로 변환, 특수 문자 이스케이프 후, 플레이스홀더를 .* 로 변환
       const regexPattern = lowerPattern
-        .replace(/\*/g, '\x00WILDCARD\x00') // * 를 임시 플레이스홀더로
+        .replace(/\*/g, '__WILDCARD_PLACEHOLDER__') // * 를 임시 플레이스홀더로
         .replace(/[.+?^${}()|[\]\\]/g, '\\$&') // 특수 문자 이스케이프
-        .replace(/\x00WILDCARD\x00/g, '.*') // 플레이스홀더를 .* 로 변환
+        .replace(/__WILDCARD_PLACEHOLDER__/g, '.*') // 플레이스홀더를 .* 로 변환
       const regex = new RegExp(`^${regexPattern}$`)
       return regex.test(lowerFilename)
     })
