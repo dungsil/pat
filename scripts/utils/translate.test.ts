@@ -403,13 +403,20 @@ describe('TranslationRefusedError 처리', () => {
     // TranslationRefusedError를 던지도록 모킹 (Once 사용: 다른 테스트에 영향 없도록)
     const testError = new TranslationRefusedError('test text', '프롬프트 차단됨: PROHIBITED_CONTENT')
     vi.mocked(translateAI).mockRejectedValueOnce(testError)
-    // 에러 타입과 속성 검증 (expect(...).rejects를 사용하여 여러 속성 검증)
-    await expect(translate('test text', 'ck3')).rejects.toMatchObject({
-      name: 'TranslationRefusedError',
-      text: 'test text',
-      reason: '프롬프트 차단됨: PROHIBITED_CONTENT',
-    })
-    await expect(translate('test text', 'ck3')).rejects.toThrow('번역 거부')
+
+    // 에러 타입과 속성 검증: 한 번만 호출하여 에러를 받아 여러 속성 검증
+    let caughtError: any
+    try {
+      await translate('test text', 'ck3')
+      expect.fail('Expected translate to throw TranslationRefusedError')
+    } catch (err) {
+      caughtError = err
+    }
+    
+    expect(caughtError).toBeInstanceOf(TranslationRefusedError)
+    expect(caughtError).toHaveProperty('text', 'test text')
+    expect(caughtError).toHaveProperty('reason', '프롬프트 차단됨: PROHIBITED_CONTENT')
+    expect(caughtError.message).toContain('번역 거부')
     
     expect(translateAI).toHaveBeenCalledWith('test text', 'ck3', undefined, false)
   })
