@@ -1,0 +1,71 @@
+name: Invalidate translations on transliteration_files change
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [ main ]
+    paths:
+      - "**/meta.toml"
+
+concurrency:
+  group: translation
+  cancel-in-progress: false
+
+jobs:
+  invalidate-transliteration-files:
+    runs-on: self-hosted
+    permissions:
+      contents: write
+    env:
+      GOOGLE_AI_STUDIO_TOKEN: "${{secrets.GOOGLE_AI_STUDIO_TOKEN}}"
+      LOG_LEVEL: "${{ vars.LOG_LEVEL }}"
+    steps:
+      - name: Clean workspace
+        run: |
+          if [ -z "$GITHUB_WORKSPACE" ]; then
+            echo "GITHUB_WORKSPACE is not set, skipping workspace cleanup"
+            exit 0
+          fi
+          if [[ "$GITHUB_WORKSPACE" != /home/runner/_work/* ]]; then
+            echo "GITHUB_WORKSPACE has unexpected value: $GITHUB_WORKSPACE, skipping workspace cleanup"
+            exit 0
+          fi
+          rm -rf "$GITHUB_WORKSPACE"
+          mkdir -p "$GITHUB_WORKSPACE"
+      - uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - uses: actions/cache@v4
+        if: always()
+        with:
+          key: translate-cache
+          path: "**.db"
+
+      - uses: pnpm/action-setup@v4
+
+      - uses: actions/setup-node@v6
+        with:
+          cache: 'pnpm'
+          node-version-file: .node-version
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Update upstream repositories
+        run: pnpm upstream
+        continue-on-error: true
+
+      - name: Invalidate translations for changed transliteration_files
+        run: pnpm invalidate-transliteration-files -- --since-commit ${{ github.sha }}
+        continue-on-error: true
+
+      - name: Commit invalidated translations
+        if: always()
+        uses: stefanzweifel/git-auto-commit-action@v7
+        with:
+          push: true
+          commit: --signoff
+          default_author: github_actor
+          commit_message: "chore: transliteration_files 변경에 따른 번역 무효화 [skip ci]"
+          pull_options: '--rebase --autostash'

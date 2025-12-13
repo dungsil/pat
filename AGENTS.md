@@ -83,6 +83,10 @@ pnpm stellaris:update-dict -- --since-date "2024-01-01"
 # For transliteration files (culture, dynasty, names), also detects semantic translations
 pnpm stellaris:retranslate
 
+# Invalidate translations when transliteration_files list changes in meta.toml
+# This marks affected files for retranslation with the correct mode
+pnpm invalidate-transliteration-files -- --since-commit <commit-id>
+
 # Add dictionary entries from a git commit
 pnpm add-dict <commit-id>
 
@@ -521,7 +525,15 @@ The project uses separate GitHub Actions workflows for different translation inv
 - **Commit message**: "chore: 유효하지 않은 번역 재번역 [skip ci]"
 - **When to use**: To periodically clean up incorrectly translated items (e.g., items with untranslated technical identifiers)
 
-**3. Game Translation Workflows** (`.github/workflows/translate-{game}.yml`):
+**3. Transliteration Files Change Workflow** (`.github/workflows/invalidate-on-transliteration-files-change.yml`):
+- **Trigger**: Automatically runs when `**/meta.toml` files are modified and pushed to main
+- **Purpose**: Invalidates translations when files are added/removed from `transliteration_files` option
+- **Commands executed**: `pnpm invalidate-transliteration-files -- --since-commit {sha}`
+- **Commit message**: "chore: transliteration_files 변경에 따른 번역 무효화 [skip ci]"
+- **When to use**: When you add or remove files from the `transliteration_files` array in meta.toml
+- **Why needed**: Files need to be retranslated when switching between semantic translation and transliteration mode
+
+**4. Game Translation Workflows** (`.github/workflows/translate-{game}.yml`):
 - **Trigger**: Runs on schedule (hourly at different minutes) or when upstream files change
 - **Purpose**: Main translation process for each game
 - **Commands executed**: `pnpm {game}`
