@@ -58,17 +58,17 @@ jobs:
 
       - name: Invalidate CK3 translations for changed transliteration_files
         id: invalidate-ck3
-        run: jiti scripts/ck3.ts updateTransliterationFiles --since-commit=${{ github.sha }}
+        run: pnpm ck3:retransliteration --since-commit=${{ github.sha }}
         continue-on-error: true
 
       - name: Invalidate Stellaris translations for changed transliteration_files
         id: invalidate-stellaris
-        run: jiti scripts/stellaris.ts updateTransliterationFiles --since-commit=${{ github.sha }}
+        run: pnpm stellaris:retransliteration --since-commit=${{ github.sha }}
         continue-on-error: true
 
       - name: Invalidate VIC3 translations for changed transliteration_files
         id: invalidate-vic3
-        run: jiti scripts/vic3.ts updateTransliterationFiles --since-commit=${{ github.sha }}
+        run: pnpm vic3:retransliteration --since-commit=${{ github.sha }}
         continue-on-error: true
 
       - name: Check for file changes
