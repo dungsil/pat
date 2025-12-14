@@ -279,10 +279,28 @@ describe('shouldUseTransliterationForKey', () => {
       expect(shouldUseTransliterationForKey('character_name')).toBe(true)
     })
 
+    it('dynn_로 시작하는 키는 음역 모드를 사용해야 함 (왕조 이름)', () => {
+      expect(shouldUseTransliterationForKey('dynn_Austmadur')).toBe(true)
+      expect(shouldUseTransliterationForKey('dynn_RICE_leslie')).toBe(true)
+      expect(shouldUseTransliterationForKey('dynn_Motolomi')).toBe(true)
+      expect(shouldUseTransliterationForKey('dynn_RICE_bamian')).toBe(true)
+      expect(shouldUseTransliterationForKey('dynn_at-Timnahid')).toBe(true)
+    })
+
+    it('dynnp_로 시작하는 키는 음역 모드를 사용해야 함 (왕조 접두사)', () => {
+      expect(shouldUseTransliterationForKey('dynnp_al-')).toBe(true)
+      expect(shouldUseTransliterationForKey('dynnp_de')).toBe(true)
+      expect(shouldUseTransliterationForKey('dynnp_banu')).toBe(true)
+      expect(shouldUseTransliterationForKey('dynnp_della')).toBe(true)
+      expect(shouldUseTransliterationForKey('dynnp_ad-')).toBe(true)
+    })
+
     it('대소문자 구분 없이 작동해야 함', () => {
       expect(shouldUseTransliterationForKey('DYNASTY_NAME')).toBe(true)
       expect(shouldUseTransliterationForKey('Culture_Adj')).toBe(true)
       expect(shouldUseTransliterationForKey('DYN_C_PINGNAN_GUO_ADJ')).toBe(true)
+      expect(shouldUseTransliterationForKey('DYNN_Austmadur')).toBe(true)
+      expect(shouldUseTransliterationForKey('DYNNP_AL-')).toBe(true)
     })
   })
 
@@ -341,6 +359,21 @@ describe('shouldUseTransliterationForKey', () => {
       // _interaction 패턴이 있으면 _adj나 _name이 있어도 제외
       expect(shouldUseTransliterationForKey('some_interaction_name')).toBe(false)
       expect(shouldUseTransliterationForKey('custom_interaction_adj')).toBe(false)
+    })
+    
+    it('dynn_/dynnp_로 시작하지만 제외 패턴이 포함된 키는 번역 모드를 사용해야 함 (제외 패턴 우선)', () => {
+      // 실제로는 이런 경우가 거의 없지만, 제외 패턴은 항상 우선 적용
+      expect(shouldUseTransliterationForKey('dynn_some_desc')).toBe(false)
+      expect(shouldUseTransliterationForKey('dynn_tradition_something')).toBe(false)
+      expect(shouldUseTransliterationForKey('dynnp_culture_parameter')).toBe(false)
+      expect(shouldUseTransliterationForKey('dynn_loc_test')).toBe(false)
+    })
+    
+    it('dynn_/dynnp_로 시작하지만 일반 번역 컨텍스트로 끝나는 키는 번역 모드를 사용해야 함', () => {
+      // 실제로는 이런 경우가 거의 없지만, 일반 번역 컨텍스트 패턴이 우선
+      expect(shouldUseTransliterationForKey('dynn_something_desc')).toBe(false)
+      expect(shouldUseTransliterationForKey('dynn_test_event')).toBe(false)
+      expect(shouldUseTransliterationForKey('dynnp_some_decision')).toBe(false)
     })
   })
 })
