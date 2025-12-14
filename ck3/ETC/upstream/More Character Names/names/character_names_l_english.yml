@@ -53336,7 +53336,7 @@
  Ceolaf:0 "Ceolaf"
  Cathwulf:0 "Cathwulf"
  CE_dmon:0 "Cædmon" #Changed name in quotes - Cædmon, is the earliest recorded Anglo-Saxon poet.
- Cam:0 "Cam" # https://en.wikipedia.org/wiki/Campsall - Campsall's Anglo-Saxon name, Camshalh which translates to "Cam's nook of land"
+ Cam:0 "Cam" # https://en.wikipedia.org/wiki/Campsall - Campsall's Anglo-Saxon name, Camshalh which translates to - Cam's nook of land
 
  Deorwine:0 "Deorwine"
  Dudda:0 "Dudda"
@@ -53794,7 +53794,7 @@
  SwE_fbert:0 "Swæfbert"
  SwiT_red:0 "Swiþred"
  Swegen:0 "Swegen"
- Streon:0 "Streon" # https://en.wikipedia.org/wiki/Whitby#History - Whitby's Anglo-Saxon name, Streonæshalch which translates to "Streon's nook of land"
+ Streon:0 "Streon" # https://en.wikipedia.org/wiki/Whitby#History - Whitby's Anglo-Saxon name, Streonæshalch which translates to - Streon's nook of land
 
  Tatberht:0 "Tatberht"
  TatnoD_:0 "Tatnoð"
@@ -75670,7 +75670,7 @@
  Hakuseki:0 "Hakuseki"
  Tsunashige:0 "Tsunashige"
  TO_tomono:0 "Tōtomono"
- Mao_JP:0 "Mao" #Means "True Fish" in Japanese, not to be mistaken with the Chinese name "Mao"
+ Mao_JP:0 "Mao" #Means - True Fish - in Japanese, not to be mistaken with the Chinese name - Mao
  Kazuseki:0 "Kazuseki" #Semi Fictional
  Yukitsugu:0 "Yukitsugu" #Semi Fictional
  Takiji:0 "Takiji" #Semi Fictional
@@ -75727,6 +75727,22 @@
  Masahide:0 "Masahide" #Semi Fictional
  Harumichi:0 "Harumichi" #Semi Fictional
  TomoburO_:0 "Tomoburō" #Semi Fictional
+ Katsuie:0 "Katsuie" # https://en.wikipedia.org/wiki/Shibata_Katsuie - The name of a retainer of Oda Nobunaga
+ Motoaki:0 "Motoaki" # The name of Takeda Motoaki
+ ShichirO_emon:0 "Shichirōemon" # https://en.wikipedia.org/wiki/Akaza_Shichirōemon - The name of a samurai from the late Sengoku period who served the Saitō clan
+ Terukage:0 "Terukage" # https://en.wikipedia.org/wiki/Akai_Terukage - The name of a samurai from the Sengoku period
+ Mitsu_uji:0 "Mitsu'uji" #Semi Fictional
+ Hideharu:0 "Hideharu" # https://en.wikipedia.org/wiki/Hatano_Hideharu - The name of a noble from the Hatano clan that were retainers of the Miyoshi clan
+ Motohide:0 "Motohide" # https://en.wikipedia.org/wiki/Hatano_Hideharu - The name of a member of the Hatano clan that had adopted Hideharu 
+ Nagayoshi:0 "Nagayoshi" # https://en.wikipedia.org/wiki/Miyoshi_Nagayoshi - The name of a member of the Miyoshi clan and was a daimyō 
+ Terumitsu:0 "Terumitsu" # https://en.wikipedia.org/wiki/Akai_Teruko - Father of Akai Teruko
+ Shigeru:0 "Shigeru" # https://en.wikipedia.org/wiki/Akai_Teruko - Husband of Akai Teruko, was a warlord
+ Ujisada:0 "Ujisada" # https://en.wikipedia.org/wiki/Munakata_Saikaku - Husband of Munakata Saikaku
+ DO_setsu:0 "Dōsetsu" # https://en.wikipedia.org/wiki/Tachibana_Dōsetsu - A famous Ōtomo retainer whose famous for being stance against Christianity in the Ōtomo's domain, also the father of Tachibana Ginchiyo
+ Akitsura:0 "Akitsura" # https://en.wikipedia.org/wiki/Tachibana_Dōsetsu - Dōsetsu's birth name
+ Munetora:0 "Munetora" # https://en.wikipedia.org/wiki/Tachibana_Muneshige - Muneshige's alternative name
+ ShO_un:0 "Shōun" # https://en.wikipedia.org/wiki/Takahashi_Shigetane - Shigetane's alternative name
+ Toyohisa:0 "Toyohisa" # https://en.wikipedia.org/wiki/Shimazu_Iehisa - One of Shimazu Iehisa's sons
 
  # More Character Names - Japanese - Female - sources https://en.wikipedia.org/wiki/Category:12th-century_Japanese_women - https://en.wikipedia.org/wiki/Category:9th-century_Japanese_poets - mainly 9th-17th century lists - It's become difficult to find historical names, I'll try and find old fashioned names
  Sen:0 "Sen"
@@ -75783,6 +75799,9 @@
  Naishi:0 "Naishi" # https://en.wikipedia.org/wiki/Koshikibu_no_Naishi - The name of a Waka poet
  Ai_JP:0 "Ai" #Semi Fictional
  Aiko_JP:0 "Aiko" #Semi Fictional
+ Saikaku:0 "Saikaku" # https://en.wikipedia.org/wiki/Munakata_Saikaku - The name of a female samurai warlord
+ Ginchiyo:0 "Ginchiyo" # https://en.wikipedia.org/wiki/Tachibana_Ginchiyo - The name of a female head of the Tachibana clan and onna-musha during the Sengoku period
+ SesshO_:0 "Sesshō" # https://en.wikipedia.org/wiki/Shimazu_Yoshihisa - The name of Yoshihisa's mother
 
  # More Character Names - Emishi - Male - sources *mostly fictional* as most of the default Emishi names seem to be mispellings of Japanese names from what I've researched - There isn't much historical Emishi figures unfortunately
  Shimatsukami:0 "Shimatsukami"
