@@ -206,6 +206,7 @@ export function isRegularTranslationContext(key: string): boolean {
 /**
  * 키 이름을 기반으로 해당 키가 음역 모드를 사용해야 하는지 판단합니다.
  * _adj, _name 등으로 끝나는 키는 고유명사일 가능성이 높아 음역 모드를 사용합니다.
+ * dynn_, dynnp_로 시작하는 키는 왕조 이름/접두사로 음역 모드를 사용합니다.
  * 단, 일반 번역 컨텍스트를 나타내는 키(decision, desc, event 등으로 끝나는 키)는 제외합니다.
  * 또한 shouldUseTransliteration에서 사용하는 제외 패턴도 동일하게 적용합니다.
  * 
@@ -226,6 +227,14 @@ export function shouldUseTransliterationForKey(key: string): boolean {
   // 이 패턴들이 포함된 키는 음역 모드를 사용하지 않음
   if (TRANSLATION_ONLY_PATTERNS.some(pattern => lowerKey.includes(pattern))) {
     return false
+  }
+  
+  // 왕조 이름/접두사 키 패턴
+  // dynn_: 왕조 이름 (예: dynn_Austmadur, dynn_RICE_leslie)
+  // dynnp_: 왕조 접두사 (예: dynnp_al-, dynnp_de, dynnp_banu)
+  const dynastyPrefixes = ['dynn_', 'dynnp_']
+  if (dynastyPrefixes.some(prefix => lowerKey.startsWith(prefix))) {
+    return true
   }
   
   // 고유명사를 나타내는 접미사 패턴
