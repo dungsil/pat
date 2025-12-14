@@ -787,7 +787,8 @@
   minaro_pagan_old_desc: "$minaro_pagan_desc$" # 13572079910696209751
   game_concept_yazata: "야자타" # 7648753090942239054
   game_concept_yazatas: "야자타스" # 17174465067736259752
-  game_concept_yazatas_desc: "야자타는 $zoroastrianism_religion$에서 숭배나 공경을 받을 자격이 있는 존재들입니다. 일부에게는 독립된 신들이며, 다른 이들에게는 최고신의 발현입니다.\n\n$zoroastrianism_religion_adj$ [faiths|E]는 역사, 문화, 지리, 그리고 인접한 신앙 체계와의 접촉 등의 이유로 중요했던 야자타들의 집합을 나타내는 다양한 [doctrines|E]를 가질 수 있습니다.\n\n$rice_zoroastrian_no_yazatas_doctrine_name$ [doctrine|E]를 가진 [faith|E]를 제외하고, 모든 $zoroastrianism_religion_adj$ [rulers|E]는 $RICE_khwarezm_worship_yazata$를 위한 [decision|E]를 사용할 수 있으며, 이는 당신이 선택하는 야자타에 따라 혜택을 주는 일시적인 [character_modifier|E]를 부여합니다. 사용 가능한 야자타는 당신의 야자타 [doctrine|E]에 따라 달라집니다.\n\n특정 야자타 [doctrines|E]는 심지어 [zoroastrian_cult_center|E]를 설립하는 [decision|E]에 접근할 수 있게 해주며, 이는 야자타 숭배에 대한 추가적인 혜택을 제공합니다." # 1492534203989583675
+  game_concept_yazata_desc: "야자타는 $zoroastrianism_religion$에서 숭배나 존경을 받을 자격이 있는 존재들입니다. 어떤 이들에게는 별개의 신들이고, 다른 이들에게는 최고신의 발현입니다.\n$zoroastrianism_religion_adj$ [faiths|E]는 역사, 문화, 지리, 그리고 인접한 신앙 체계와의 접촉 등의 이유로 중요하게 여겨진 야자타들의 집합을 나타내는 다양한 [doctrines|E]를 가질 수 있습니다.\n\n[faith|E]가 $rice_zoroastrian_no_yazatas_doctrine_name$ [doctrine|E]를 가진 경우를 제외하고, 모든 $zoroastrianism_religion_adj$ [rulers|E]는 $RICE_khwarezm_worship_yazata$라는 [decision|E]를 사용할 수 있으며, 이는 당신이 어떤 야자타를 선택했는지에 따라 이점을 주는 일시적인 [character_modifier|E]를 부여합니다. 사용 가능한 야자타는 당신의 야자타 [doctrine|E]에 따라 달라집니다.\n\n특정 야자타 [doctrines|E]는 야자타 숭배에 대한 추가적인 이점을 제공하는 [zoroastrian_cult_center|E]를 건립하는 [decision|E]에 접근할 수 있게 해주기도 합니다." # 1492534203989583675
+  game_concept_yazatas_desc: "$game_concept_yazata_desc$" # 9387163405039362390
   game_concept_zoroastrian_cult_centers_short: "숭배 중심지" # 2142296599474036170
   game_concept_zoroastrian_cult_center_short: "숭배 중심지" # 1181497533773867265
   game_concept_zoroastrian_cult_centers: "지역 조로아스터교 신앙 중심지" # 3179233670209212884

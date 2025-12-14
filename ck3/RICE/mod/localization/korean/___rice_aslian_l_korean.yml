@@ -53,7 +53,6 @@
   RICE_aslian_siwang_ritual_type_summoning_desc: "$EFFECT_LIST_BULLET$ [GetModifier('RICE_aslian_siwang_ritual_summoning').GetNameWithTooltip] [character_modifier|E] 획득\n\n#weak [Glossary( 'gunigs', 'GUNIG_GLOSS' )]를 소환하여 현세와 영적인 문제에 도움을 받을 수 있습니다.#!" # 8702747802928528900
   RICE_aslian_siwang_ritual_type_exorcizing: "퇴마 의식" # 1208066591673358621
   RICE_aslian_siwang_ritual_type_exorcizing_desc: "$EFFECT_LIST_BULLET$ [GetModifier('RICE_aslian_siwang_ritual_exorcizing').GetNameWithTooltip] [character_modifier|E] 획득\n\n#weak [Glossary( 'gunigs', 'GUNIG_GLOSS' )]는 사악한 영혼이 끼치는 해악에 저항하는 데 도움을 줄 수 있습니다.#" # 9538808455870633329
-  RICE_east_asian_poetry_gathering_type_grand: "우아한 경쟁" # 2973644708631442123
   RICE_aslian_siwang_ritual_healing_phase: "의식" # 3878012746933025863
   RICE_aslian_siwang_ritual_healing_phase_desc: "$senoi_pagan_priest$가 우리를 치유하고 활력을 되찾아 줄 [Glossary( 'gunig', 'GUNIG_GLOSS' )]를 소환할 것입니다." # 14966716440056788946
   RICE_aslian_siwang_ritual_healing_intent_header: "의례:" # 13781907821707693583

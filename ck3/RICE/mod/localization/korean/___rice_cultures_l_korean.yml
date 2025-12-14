@@ -249,7 +249,7 @@
   tradition_RICE_spear_masters_competitions_desc: "#F 이 문화권의 사람들은 독립적이고 분산된 씨족으로 사는 것을 선호하지만, #italic 창의 달인#! 또는 #italic 작살의 달인#!이라 불리는 계층이 그들을 지배하며, 이들은 종교적 지도력을 제공하고, 황소 희생을 관리하며, 분쟁을 중재하고, 의례적인 전쟁에서 그들을 이끈다.#" # 449498142062617657
   culture_parameter_unlock_rice_sabir_activity: "[GetActivityType('activity_RICE_nubia_sibir_festival').GetName] [activity|E]을(를) 해금합니다." # 5344578683939452021
   culture_parameter_unlock_rice_nilotic_sacrifice_activity: "#V 소 희생#! [activity|E]을 [faith|E]에 상관없이 해금합니다" # 14825740628789296363
-  culture_parameter_unlock_rice_cattle_raid_intent: "[RICE_cattle_raid_intent|E] [raid_intent|E]을(를) 해금합니다" # 17920151931866733063
+  culture_parameter_unlock_rice_cattle_raid_intent: "언락스 더 #V $RICE_cattle_raid_intent$#! [raid_intent|E]" # 14154399977620261722
   tradition_RICE_cattle_economy_name: "가축 경제" # 18314006590114456694
   tradition_RICE_cattle_economy_desc: "#F 이 문화권의 백성들은 자신들의 가축을 지키기 위해 많은 노력을 기울일 것이며, 그 가축을 명성과 지위의 상징으로 여깁니다. 그들은 심지어 약탈과 의례적인 전쟁을 통해 적들의 가축마저 빼앗을 것입니다.!#" # 11130186245832361646
   tradition_RICE_darfur_mountain_palaces_name: "산 속의 궁전들" # 9074118695225079930
@@ -6021,3 +6021,82 @@
   dynn_Tuti: "투투" # 5384936853244400087
   dynn_Topno: "톱노" # 6592282618512597978
   dynn_Kongari: "콩가리" # 17231844471963769108
+  dynn_Alorsetar: "알로세타르" # 11875585574175348422
+  dynn_Atmadikara: "아트마디카라" # 10277273895415892368
+  dynn_Barumun: "바룸운" # 18143012542214177243
+  dynn_Batupahat: "바투파핫" # 11670404135096635544
+  dynn_Cupak: "쿠팍" # 7400074832088988476
+  dynn_Daremaseraya: "다레마세라야" # 14898530441237096814
+  dynn_Demak: "데막" # 11549714180509740759
+  dynn_Hujunglangit: "후중랑잇" # 1348147365683984603
+  dynn_Inderagiri: "인더기리" # 13540105844692113006
+  dynn_Iradikrama: "이라디크라마" # 7549208155238403528
+  dynn_Jayasurata: "자야수라타" # 11677045850294521263
+  dynn_Kampar: "캄파르" # 15829168634414656737
+  dynn_Kandali: "칸달리" # 5960219017029233027
+  dynn_Kemingking: "케밍킹" # 1151171675505396003
+  dynn_Korinci: "코린치" # 16355662318691144101
+  dynn_Kotakapur: "코타카푸르" # 11393276177445784483
+  dynn_Kramawijaya: "크라마위자야" # 9480649131350753403
+  dynn_Kunangan: "쿠낭안" # 5304550484860736894
+  dynn_Laksamana: "락사마나" # 7197918251392787218
+  dynn_Lingga: "링가" # 3450207575718884484
+  dynn_Linggau: "링가우" # 5693208082323119195
+  dynn_Lopakalai: "로파칼라이" # 4045602199228154807
+  dynn_Mangkuto: "망쿠토" # 3761273926410944126
+  dynn_Manismato: "마니스마토" # 11058650914672544429
+  dynn_Mataram: "마타람" # 10910616823950371528
+  dynn_Melaka: "멜라카" # 15058530027014541925
+  dynn_Muar: "무아르" # 12622912811320898119
+  dynn_Ngurawan: "응우라완" # 4527580516596473963
+  dynn_Palimbang: "팔림방" # 18325568502746820115
+  dynn_Pariaman: "파리아만" # 8785275713855430099
+  dynn_Perpatih: "페르파티" # 5198573287535416567
+  dynn_Prameswara: "프라메스와라" # 12581549534306152533
+  dynn_Pulukadang: "풀루카당" # 17815120316854743147
+  dynn_Purba: "푸르바" # 4831319459526629779
+  dynn_Rimba: "림바" # 9818364910224203263
+  dynn_Rokan: "로칸" # 15642118566616091339
+  dynn_Sakean: "사케안" # 16529871747066277991
+  dynn_Sekayu: "세카유" # 2795025142701654706
+  dynn_Sekumbung: "세쿰붕" # 10395917327020592430
+  dynn_Seningbertam: "세닝베르탐" # 11694663163285523613
+  dynn_Seningujong: "세닝종" # 17692521417575879226
+  dynn_Seputih: "세푸티" # 9705042350865207203
+  dynn_Seripanglima: "세리팡리마" # 10382786184336995428
+  dynn_Siak: "시아크" # 17337500919127710022
+  dynn_Sijunjung: "시준중" # 1116702987470535726
+  dynn_Silau: "실라우" # 10135498647110793146
+  dynn_Samaharya: "사마하르야" # 2824410277345181543
+  dynn_Sumajaya: "수마자야" # 6078201478396352047
+  dynn_Suratinaya: "수라티나야" # 14470995114343119232
+  dynn_Tanahtinggi: "타나팅기" # 18285837405102870962
+  dynn_Tanjung: "탄중" # 3684769685398010630
+  dynn_Tebingtinggi: "테빙팅기" # 6391704116553835483
+  dynn_Telagamas: "텔라마가스" # 3384777222900074372
+  dynn_Telukraya: "텔루크라야" # 2548407716332146707
+  dynn_Titigajah: "티티가자" # 16934377404179500464
+  dynn_Wampu: "밤푸" # 628746849426686025
+  dynn_Wangka: "왕카" # 6953552833122467386
+  dynn_Aka: "아카" # 15014584571445088878
+  dynn_Agid: "아기드" # 387898525874175166
+  dynn_Biadut: "비아두트" # 16035863785629975352
+  dynn_Biagel: "비아겔" # 11173583544673125853
+  dynn_Degi: "데기" # 14345952592148547633
+  dynn_Desu: "데스" # 11964399225744849384
+  dynn_Dupu: "두푸" # 8343358098978481773
+  dynn_Ganda: "간다" # 6878691041135798440
+  dynn_Gerey: "게레이" # 12952095225089980357
+  dynn_Gilang: "길랑" # 6519096674068762943
+  dynn_Kabuan: "카부안" # 14040496666292450583
+  dynn_Karat: "카라트" # 14295435449215912250
+  dynn_Kaksan: "칵산" # 12905886960749727207
+  dynn_Kudur: "쿠두르" # 1910136912591087892
+  dynn_Hayin: "하이인" # 13967607592487307952
+  dynn_Ian: "이안" # 14265662817125642483
+  dynn_Lapsay: "랩세이" # 5201922883456915900
+  dynn_Lumlum: "룸룸" # 3849432285185902354
+  dynn_Limlim: "림림" # 3194986163460035478
+  dynn_Puned: "푸네드" # 2537988172136766657
+  dynn_Sangay: "상가이" # 6539518629411481865
+  dynn_Selub: "셀루브" # 14112311269278288074
