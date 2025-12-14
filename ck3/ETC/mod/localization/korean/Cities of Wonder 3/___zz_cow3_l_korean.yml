@@ -1,0 +1,82 @@
+﻿l_korean:
+  rule_allow_quick_build: "#P COW3#! 성채 건설 결정 허용" # 7219444044798514720
+  setting_yes_quick_build: "네" # 3389992145996609386
+  setting_yes_quick_build_desc: "건물을 건설하는 결정을 내릴 수 있습니다" # 7948248571362480138
+  setting_no_quick_build: "아니" # 3846534607940335394
+  setting_no_quick_build_desc: "부르그는 개발도 성장과 성 레벨을 통해 자연적으로 생성되어야 합니다." # 12739283097097958021
+  rule_burge_dev_requirement: "#P COW3#! 개발 요구사항" # 12090621682087742597
+  setting_normal_dev_requirement: "일반 요구 사항" # 4467588916477949403
+  setting_normal_dev_requirement_desc: "경이로운 도시 특수 건물은 개발도가 50, 75, 100에 도달하면 자동으로 업그레이드됩니다." # 6837069407730176237
+  setting_easy_dev_requirement: "여기는 무법천지라네" # 15783435343446415914
+  setting_easy_dev_requirement_desc: "경이로운 도시 업그레이드가 30, 50, 75 레벨에서 활성화되며, 이는 후반 게임에 엄청난 양의 금 생산량을 만들어냅니다." # 15673738336895833756
+  rule_hard_mode_limit: "#P COW3#! 경이로운 도시 한도" # 16106776134989087123
+  setting_5_burge_limit: "미쳐 날뛰어 보자" # 4367141241208235218
+  setting_5_burge_limit_desc: "직접 소유한 영지 내에 다섯 개의 경이로운 도시를 건설할 수 있으며, 귀하의 영지 내에는 최대 아홉 개까지 건설할 수 있습니다." # 16421115631178427610
+  setting_2_burge_limit: "금화가 흘러넘치게 하라" # 2900449540370701251
+  setting_2_burge_limit_desc: "귀하가 직접 소유한 영지 내에 두 개의 불가사의한 도시를 건설할 수 있으며, 귀하의 영지 내에는 최대 다섯 개까지 건설할 수 있습니다." # 18384768304953184793
+  setting_1_burge_limit: "균형을 위해 제한됨" # 10365191244690307608
+  setting_1_burge_limit_desc: "귀하가 소유한 영지 중 단 하나의 경이로운 도시만을 건설할 수 있으며, 귀하의 영지 내에는 총 두 개까지만 건설할 수 있습니다." # 4463224470506972657
+  setting_no_burge_limit: "제한 없음" # 3388458324233608818
+  setting_no_burge_limit_desc: "경이로운 도시들을 개인 소유 영지 및 영토 내에 무제한으로 건설할 수 있습니다." # 7384165097431345141
+  rule_cow3_allow_new_burge: "#P COW3#! 성벽 건설 결정" # 1178390473791837231
+  setting_yes_allow_new_burg: "켜짐" # 14367041983676599459
+  setting_yes_allow_new_burg_desc: "성채를 건설하는 결정을 활성화합니다.\n이는 비용이 매우 많이 듭니다." # 12820088073241364196
+  setting_no_allow_new_burg: "끄기" # 8927729592684634549
+  setting_no_allow_new_burg_desc: "성벽 건설 결정을 비활성화합니다" # 16955709963017957554
+  rule_populate_burges: "#P COW3#! 역사적인 대도시들" # 1052770012602706985
+  setting_do_populate: "켜짐" # 14367041983676599459
+  setting_do_populate_desc: "28개가 넘는 역사적인 도시들이 부르가로 시작합니다." # 14354369951735744613
+  setting_dont_populate: "끄기" # 8927729592684634549
+  setting_dont_populate_desc: "성 및 도시는 기본 1단계 영지로 시작합니다." # 10385029387236130671
+  rule_use_burge_backgrounds: "#P COW3#! 그래픽 설정" # 8841086804753603589
+  setting_use_backgrounds: "전체 기능" # 14199678722813764330
+  setting_use_backgrounds_desc: "경이로운 도시들은 추가적인 보너스와 특성도 얻습니다." # 785231830153525545
+  setting_dont_use_backgrounds: "그래픽 전용" # 15420512759259378319
+  setting_dont_use_backgrounds_desc: "기본 게임 기능 - 개발된 영지는 추가적인 그래픽을 얻지만, 추가적인 보너스나 특성은 없습니다." # 2842867506472273900
+  building_type_cow_city_gates_01: "마라케시의 성문" # 7789715895546677751
+  building_cow_city_gates_01: "마라케시의 성문" # 7789715895546677751
+  building_cow_city_gates_01_desc: "마라케시의 수많은 성문들(#weak (바브)#! )은 웅장한 성벽을 따라 늘어서 있습니다.\n\n마라케시의 황토빛 붉은 성벽에 있는 각 성문은 고대의 전투, 실패한 반란, 혹은 술이 도시로 몰래 들어오는 것을 막던 중세 세관 초소 등 들려줄 이야기가 있습니다." # 1675858633349598647
+  populate.0001.t: "경이로운 도시 3에 오신 것을 환영합니다" # 16669303818996217679
+  populate.0001.a: "세상을 채워라!" # 4308567375393694703
+  populate.0001.b: "그대로 두시오" # 1651238875194676400
+  populate.0001.a.tt: "세상에 20개가 넘는 경이로운 도시를 즉시 추가하십시오." # 8980089178748165086
+  populate.0001.b.tt: "모든 속주는 변경되지 않으며, 경이로운 도시를 자연적으로 건설해야 합니다." # 1394322582636976383
+  populate.0001.desc: "Cities of Wonder 3를 플레이해 주셔서 감사합니다!\n\n원작자인 Kurthakon이 구상한 이 세계에서 계속 플레이해 주신다니 정말 기쁩니다.\n\n이 모드를 기존 저장 파일에 추가하는 것이므로, 역사적인 경이의 도시들을 세계에 추가하거나 현재 상태 그대로 둘 중 하나를 선택할 수 있습니다.\n\n어떤 것을 선택하시겠습니까?" # 16122920657382146676
+  populate.0002.t: "[my_barony.GetBaronyNameExplicitlyNoTooltip]은 경이로운 도시입니다!" # 4169546801138516435
+  populate.0002.desc: "나의 [GetPlayer.GetLadyLord|U]여, 아시다시피 [my_barony.GetBaronyNameExplicitly]는 세계의 위대한 도시 중 하나로 성장했습니다. 이로 인해 강력한 방어 시설, 활발한 경제, 그리고 생동감 넘치는 문화를 자랑하고 있지요.\n\n[GetPlayer.GetTitleAsNameNoTooltip] [GetPlayer.GetFirstNameNoTooltip] 그대, [my_barony.GetBaronyNameExplicitlyNoTooltip]를 다른 경이로운 도시들과 차별화하기 위해 어떤 독특한 구조물을 건설했는지 다시 한번 상기시켜 주시오." # 40815955593773197
+  populate.0003.t: "[new_barony.GetBaronyNameExplicitlyNoTooltip]의 위상이 높아졌습니다!" # 7722550595251681045
+  populate.0003.desc: "저의 [GetPlayer.GetLadyLord|U]님, 아시다시피 [new_barony.GetBaronyNameExplicitly]는 계속해서 번성하여 이제 진정한 경이의 도시라 칭할 수 있는 세계의 몇 안 되는 도시 중 하나로 성장했습니다. 그에 따라 가장 강력한 방어 시설, 가장 강력한 경제, 그리고 세계에서 가장 활기찬 문화를 자랑합니다.\n\n[GetPlayer.GetTitleAsNameNoTooltip] [GetPlayer.GetFirstNameNoTooltip]님, [new_barony.GetBaronyNameExplicitlyNoTooltip] 내에서 다른 경이의 도시들과 차별화되는 최근 완공된 독특한 구조물들이 무엇이었는지 다시 한번 상기시켜 주시겠습니까?" # 6779353845916189230
+  populate.0002.a: "세상을 고취시킬 위대한 대학" # 6516450286791535490
+  populate.0002.tt.a: "[GetBuilding('cow_generic_university_01').GetName]을 건설했습니다." # 9713262255251324817
+  populate.0002.b: "지식을 보관할 경이로운 도서관" # 1931099038423540525
+  populate.0002.tt.b: "귀하는 [GetBuilding('cow_generic_library_01').GetName]을 건설했습니다." # 8445085619115417652
+  populate.0001.c: "새로운 대성당" # 13593413722229085114
+  populate.0001.tt.c: "[GetBuilding('cow_christian_cathedral_01').GetName]을 건설합니다." # 4178300689764035047
+  populate.0001.d: "새로운 대성 모스크" # 12010896390662944518
+  populate.0001.tt.d: "[GetBuilding('cow_muslim_mosque_01').GetName]을 건설했습니다." # 17894069729633085613
+  populate.0001.e: "새로운 대규모 성스러운 회당" # 3860714525006620727
+  populate.0001.tt.e: "귀하는 [GetBuilding('cow_jewish_synagogue_01').GetName]을 건설합니다." # 1495895218752442404
+  populate.0001.f: "경외심을 불러일으키는 사원" # 14649944068777961310
+  populate.0001.tt.f: "[GetBuilding('cow_pagan_temple_01').GetName]을 건설했습니다." # 18218404187276726138
+  populate.0001.g: "경외심을 불러일으키는 사원" # 14649944068777961310
+  populate.0001.tt.g: "대사원\n#weak 이 영지:#!\n[tax|E]: @gold_icon!#P 월당 +0.5#이!\n[levies|E]: @soldier_icon!#P +250#이!\n\n#weak 이 백작령:#!\n[levy|E] 규모: @soldier_icon!#P +5%#이!\n[holding|E] [taxes|E]: @gold_icon!#P +5%#이!\n[development_growth|E]: @development_icon!#P +10%#이!\n\n#weak 이 영지의 통치자:#!\n[piety|E]: @piety_icon!#P 월당 +0.1#이!\n[knight_effectiveness|E]: @knight_icon!#P +7%#이!\n[levy|E] 보충률: @soldier_icon!#P +5%#이!\n[control|E] 성장: @control_icon!#P +2%#이!" # 6670952013970957696
+  populate.0001.h: "경외심을 불러일으키는 사원" # 14649944068777961310
+  populate.0001.tt.h: "[GetBuilding('cow_indian_temple_01').GetName]을 건설했습니다." # 11877839839691755184
+  populate.0001.i: "경외심을 불러일으키는 사원" # 14649944068777961310
+  populate.0001.tt.i: "[GetBuilding('cow_zoroastrian_temple_01').GetName]을 건설했습니다." # 3700162762078831622
+  populate.0001.j: "세계적으로 명성이 자자한 궁전" # 8898503195659676381
+  populate.0001.tt.j: "[GetBuilding('cow_royal_palace_01').GetName]을 건설했습니다." # 1326568757790012831
+  populate.0001.k: "세계 최대의 시장" # 4512557310493636299
+  populate.0001.tt.k: "[GetBuilding('cow_great_harbor_01').GetName]을 건설했습니다." # 10097179421134192165
+  populate.0001.l: "난공불락의 우뚝 솟은 성벽" # 14681585507754321210
+  populate.0001.tt.l: "귀하는 [GetBuilding('cow_walls_new').GetName]을 건설했습니다." # 15130403237308531101
+  populate.0001.m: "천 년을 버틸 요새" # 17010633018612384117
+  populate.0001.tt.m: "[GetBuilding('cow_grand_fortress_01').GetName]을 건설했습니다." # 14577796130306220521
+  populate.0001.n: "역사상 가장 위대한 등대" # 16444968486350998874
+  populate.0001.tt.n: "귀하는 [GetBuilding('cow_great_lighthouse_01').GetName]을 건설했습니다." # 2292294091532034002
+  populate.0001.o: "세상을 즐겁게 할 새로운 콜로세움" # 12880065973280216624
+  populate.0001.tt.o: "귀하는 [GetBuilding('cow_grand_amphitheatre_01').GetName]을 건설했습니다." # 8209610073030396719
+  found_local_kingdom_decision: "지역 왕국을 발견했습니다" # 17314310738140714415
+  found_local_kingdom_decision_tooltip: "경이로운 도시의 후원 아래, 그대는 스스로를 [ROOT.Char.Custom('GetQueenKing')|U]로 즉위시킬 수 있을 것입니다." # 3359029711479858236
+  found_local_kingdom_decision_confirm: "그들의 새로운 [ROOT.Char.Custom('GetQueenKing')|U]를 보게 하라!" # 3805369031612303549
+  found_local_kingdom_decision_desc: "[ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip]은 거대한 부르그로 성장했지만, 스스로 왕이라 칭하는 많은 이들은 여전히 그들의 의지를 따를 신민 하나 없이 끝없이 펼쳐진 땅을 다스리고 있습니다.\n\n하지만 저는 세상이 이제껏 보아온 가장 위대한 도시 중 하나를 다스리고 있습니다. 저의 신민은 수십만에 달하며, 저의 군대는 이 땅에 흩어져 있는 거대한 제국들의 군대보다도 더 웅장합니다. 이제 세상이 [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip]의 힘을 알 때가 되었습니다!" # 4488510595024092409
