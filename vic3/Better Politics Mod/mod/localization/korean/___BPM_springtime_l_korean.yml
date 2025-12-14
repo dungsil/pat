@@ -148,7 +148,7 @@
   notification_bpm_1848_danubia_desc: "혁명가들이 합스부르크 가문을 추방시켰으며, 제국이 혼란에 빠진 가운데 임시정부가 제국을 동등한 국가들의 연합체로 재편하는 협상을 진행했습니다." # 13922699819646561734
   notification_bpm_1848_hungarian_revolution_name: "#v 페스트에 혁명이 일어났다!#!" # 1788864778843034531
   notification_bpm_1848_hungarian_revolution_desc: "헝가리 수도의 자유주의자들이 새로운 정부를 선포했습니다. 오스트리아 부대가 질서를 회복하기 위해 진격 중입니다." # 7736920015540663510
-  notification_bpm_1848_baden_name: "#v Popular Revolution in [SCOPE.sC('baden_revolter').GetCountry.GetName]!#!"
+  notification_bpm_1848_baden_name: "#v [SCOPE.sC('baden_revolter').GetCountry.GetName]에서 대중 혁명 발발!#!" # 1340255862164913480
   notification_bpm_1848_baden_desc: "[SCOPE.sC('baden_revolter').GetCountry.GetName]의 민주주의 선동가들이 독일의 자유를 신장하기 위한 혁명을 이끌었습니다!" # 7675989629028316840
   notification_bpm_1848_fail_name: "#v 프랑크푸르트 의회 해산!#!" # 8135118989674756216
   notification_bpm_1848_fail_desc: "헌법과 지도력 문제에 대해 단합하지 못하면서, 프랑크푸르트 의회는 붕괴했습니다." # 5730345805813899820
