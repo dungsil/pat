@@ -999,3 +999,503 @@
   RICE_saint_catherine_monastery_inspired_collection_of_icons_desc: "$RICE_saint_catherine_monastery_inspired_base_desc$ 은 [Glossary( '성상 모음', 'SAINT_CATHERINE_ICONS' )] 입니다." # 12599072712024535827
   RICE_saint_catherine_monastery_inspired_monasterys_library: "성 카타리나 수도원 도서관에서 영감을 받아" # 410041608303464522
   RICE_saint_catherine_monastery_inspired_monasterys_library_desc: "$RICE_saint_catherine_monastery_inspired_base_desc$ 은 [Glossary( '수도원 도서관', 'SAINT_CATHERINE_LIBRARY' )]입니다." # 2849447005653958147
+  RICE_saint_catherine_monastery_inspired_path_of_moses: "모세의 길에서 영감을 받아" # 14013677451769865951
+  RICE_saint_catherine_monastery_inspired_path_of_moses_desc: "$RICE_saint_catherine_monastery_inspired_base_desc$ [Glossary( '모세의 길', 'SAINT_CATHERINE_PATH_OF_MOSES' )]의 기반이 됩니다." # 2611127933030824250
+  RICE_saint_catherine_monastery_inspired_relics_of_saint_catherine: "성 카타리나의 유물에서 영감을 받아" # 14876041686584165583
+  RICE_saint_catherine_monastery_inspired_relics_of_saint_catherine_desc: "$RICE_saint_catherine_monastery_inspired_base_desc$ [Glossary( '성 카타리나의 유물', 'SAINT_CATHERINE_RELICS' )]의 근간이 되는 수도원." # 14520626646754808786
+  RICE_saint_catherine_monastery_inspired_well_of_moses: "모세의 우물에서 영감을 받아" # 11548419022482870503
+  RICE_saint_catherine_monastery_inspired_well_of_moses_desc: "$RICE_saint_catherine_monastery_inspired_base_desc$ [Glossary( '모세의 우물', 'SAINT_CATHERINE_WELL_OF_MOSES' )]." # 12644638937007951748
+  RICE_coptic_saint_anthony_pilgrimage_garden_inspired: "성 안토니오의 정원에서 영감을 받아" # 9792572532488712856
+  RICE_coptic_saint_anthony_pilgrimage_garden_inspired_desc: "성 안토니우스 수도원으로 성지 순례를 가는 동안, 이 인물은 그곳의 유명한 정원을 조사하며 정원 관리에 대해 많은 것을 배웠습니다. 이 정원의 과수원, 포도밭, 농장은 [GetGeographicalRegion('ghw_region_egypt').GetName]의 어떤 수도원보다도 가장 규모가 큽니다." # 6292914304278889775
+  RICE_coptic_saint_anthony_pilgrimage_mount_colzim_inspired: "콜짐 산에서 영감을 받아" # 14723530233009339217
+  RICE_coptic_saint_anthony_pilgrimage_mount_colzim_inspired_desc: "성 안토니오 수도원으로 성지 순례를 하던 중, 이 인물은 수도원 근처에 성 안토니오가 오래전에 거처했던 동굴과 가까운 샘까지 힘든 등반을 감행했습니다. 이는 육체적으로는 고되었지만 정신적으로는 감동적인 경험이었습니다." # 12409270829854277285
+  RICE_coptic_saint_anthony_pilgrimage_ascetics_inspired: "성 안토니오 금욕주의자들에게서 영감을 받아" # 11094922988641506259
+  RICE_coptic_saint_anthony_pilgrimage_ascetics_inspired_desc: "순례의 일환으로 이 인물이 방문했던 성 안토니오 수도원은 수 세기 동안 긴밀하게 뭉친 금욕주의자들의 공동체였습니다. 그들을 보며 이 인물은 자신을 더 나은 사람으로 만들기 위해 이 금욕주의자들과 그들의 사고방식을 더 깊이 이해하고자 했습니다." # 3219929349045302611
+  RICE_nubia_belly_of_stones: "돌의 배" # 12427840837785293511
+  RICE_nubia_belly_of_stones_desc: "돌의 배, 혹은 #italic 바트 알-하자르#!는 두 번째 폭포에서 남쪽으로 뻗어 나가는 나일강의 구간입니다. 이곳은 위험하고 황량하며 바위투성이인 지형으로 악명이 높습니다. 이곳에 사는 이는 거의 없지만, 곤경의 시기에는 유배자나 난민들이 이곳으로 도피하는 경향이 있습니다. 수 세기에 걸쳐 현명한 통치자들은 이 지역에 작은 요새, 감시 초소, 세관을 건설하여 물자 이동을 통제해 왔습니다." # 8639364397422208797
+  RICE_nubia_daju_migrations_modifier: "다주 이주" # 2770153517172677271
+  RICE_nubia_daju_migrations_modifier_desc: "최근 몇 년간 누비아에서 다주(Daju) 이주민, 혹은 그 후예들의 물결이 이곳에 도착하여 이 지역의 정치, 경제, 문화 지형을 변화시키고 있습니다." # 16353076844490871821
+  RICE_baqt_greatly_improved_defenses: "강화된 변경 방어 (효과적인 결과)" # 12910916734852729065
+  RICE_baqt_mixed_result_defenses: "강화된 국경 방어 (혼합된 결과)" # 1597209272479180712
+  RICE_baqt_border_intelligence_positive_1: "유용한 이집트-누비아 국경 정보" # 3755104229532536625
+  RICE_baqt_border_intelligence_positive_2: "$RICE_baqt_border_intelligence_positive_1$" # 8131338450514990448
+  RICE_baqt_border_intelligence_positive_3: "$RICE_baqt_border_intelligence_positive_1$" # 8131338450514990448
+  RICE_baqt_border_intelligence_positive_4: "$RICE_baqt_border_intelligence_positive_1$" # 8131338450514990448
+  RICE_baqt_border_intelligence_positive_5: "$RICE_baqt_border_intelligence_positive_1$" # 8131338450514990448
+  RICE_baqt_border_intelligence_negative_1: "이집트-누비아 국경 정보 오류" # 2336020469960420095
+  RICE_baqt_border_intelligence_negative_2: "$RICE_baqt_border_intelligence_negative_1$" # 2425888966581591068
+  RICE_baqt_border_intelligence_negative_3: "$RICE_baqt_border_intelligence_negative_1$" # 2425888966581591068
+  RICE_baqt_border_intelligence_negative_4: "$RICE_baqt_border_intelligence_negative_1$" # 2425888966581591068
+  RICE_baqt_border_intelligence_negative_5: "$RICE_baqt_border_intelligence_negative_1$" # 2425888966581591068
+  RICE_baqt_border_intelligence_positive_major_1: "이집트-누비아 국경 정보: 매우 유용함" # 5504688161218948670
+  RICE_baqt_border_intelligence_positive_major_2: "$RICE_baqt_border_intelligence_positive_major_1$" # 4554306378418990364
+  RICE_baqt_border_intelligence_positive_major_3: "$RICE_baqt_border_intelligence_positive_major_1$" # 4554306378418990364
+  RICE_baqt_border_intelligence_positive_major_4: "$RICE_baqt_border_intelligence_positive_major_1$" # 4554306378418990364
+  RICE_baqt_border_intelligence_positive_major_5: "$RICE_baqt_border_intelligence_positive_major_1$" # 4554306378418990364
+  RICE_baqt_border_intelligence_negative_major_1: "매우 부정확한 이집트-누비아 국경 정보" # 7925764001042090056
+  RICE_baqt_border_intelligence_negative_major_2: "$RICE_baqt_border_intelligence_negative_major_1$" # 13487039902299255914
+  RICE_baqt_border_intelligence_negative_major_3: "$RICE_baqt_border_intelligence_negative_major_1$" # 13487039902299255914
+  RICE_baqt_border_intelligence_negative_major_4: "$RICE_baqt_border_intelligence_negative_major_1$" # 13487039902299255914
+  RICE_baqt_border_intelligence_negative_major_5: "$RICE_baqt_border_intelligence_negative_major_1$" # 13487039902299255914
+  RICE_nubia_sibir_province_modifier_1: "최근 시비르 축제에서 영감을 받은 공동체" # 6366300922196351383
+  RICE_nubia_sibir_province_modifier_1_desc: "최근 시비르 축제가 이곳 지역 부족들의 무예 정신과 동료애를 되살렸습니다." # 14260745327375122836
+  RICE_nubia_sibir_province_modifier_2: "$RICE_nubia_sibir_province_modifier_1$" # 3194616337373962358
+  RICE_nubia_sibir_province_modifier_2_desc: "$RICE_nubia_sibir_province_modifier_1_desc$" # 17641344957045002588
+  RICE_nubia_sibir_province_modifier_3: "$RICE_nubia_sibir_province_modifier_1$" # 3194616337373962358
+  RICE_nubia_sibir_province_modifier_3_desc: "$RICE_nubia_sibir_province_modifier_1_desc$" # 17641344957045002588
+  RICE_nubia_sibir_character_modifier_1: "최근 시비르 축제에 고무된 추종자들" # 18136714712545764582
+  RICE_nubia_sibir_character_modifier_1_desc: "최근 시비르 축제를 개최한 후, 이 인물의 추종자들은 지역 청년들이 보여준 건강함과 용맹함에 크게 고무되었습니다." # 11554392658868184668
+  RICE_nubia_sibir_character_modifier_2: "$RICE_nubia_sibir_character_modifier_1$" # 2109722455340785955
+  RICE_nubia_sibir_character_modifier_2_desc: "$RICE_nubia_sibir_character_modifier_1_desc$" # 7027841975050950648
+  RICE_nubia_sibir_character_modifier_3: "$RICE_nubia_sibir_character_modifier_1$" # 2109722455340785955
+  RICE_nubia_sibir_character_modifier_3_desc: "$RICE_nubia_sibir_character_modifier_1_desc$" # 7027841975050950648
+  RICE_nubia_blames_subordinates: "부하 탓하기" # 6412155886043171084
+  RICE_nubia_blames_subordinates_desc: "상황이 잘 풀리지 않을 때, 이 인물은 그 책임이 정당하든 아니든 자신보다 못한 자들에게 책임을 전가하는 경향이 있습니다." # 1366144088615673482
+  RICE_opinion_compensated_for_lost_slaves: "도망친 노예들에 대해 보상해 주시오" # 15841971832319383599
+  RICE_nubia_mountain_lake_positive_1: "산악 호수 신탁: 길한 예언" # 10421909362500658119
+  RICE_nubia_mountain_lake_positive_2: "$RICE_nubia_mountain_lake_positive_1$" # 14659706671174397635
+  RICE_nubia_mountain_lake_positive_3: "$RICE_nubia_mountain_lake_positive_1$" # 14659706671174397635
+  RICE_nubia_mountain_lake_positive_4: "$RICE_nubia_mountain_lake_positive_1$" # 14659706671174397635
+  RICE_nubia_mountain_lake_positive_5: "$RICE_nubia_mountain_lake_positive_1$" # 14659706671174397635
+  RICE_nubia_mountain_lake_positive_6: "$RICE_nubia_mountain_lake_positive_1$" # 14659706671174397635
+  RICE_nubia_mountain_lake_positive_7: "$RICE_nubia_mountain_lake_positive_1$" # 14659706671174397635
+  RICE_nubia_mountain_lake_positive_8: "$RICE_nubia_mountain_lake_positive_1$" # 14659706671174397635
+  RICE_nubia_mountain_lake_positive_9: "$RICE_nubia_mountain_lake_positive_1$" # 14659706671174397635
+  RICE_nubia_mountain_lake_positive_10: "$RICE_nubia_mountain_lake_positive_1$" # 14659706671174397635
+  RICE_nubia_mountain_lake_positive_11: "$RICE_nubia_mountain_lake_positive_1$" # 14659706671174397635
+  RICE_nubia_mountain_lake_positive_12: "$RICE_nubia_mountain_lake_positive_1$" # 14659706671174397635
+  RICE_nubia_mountain_lake_positive_13: "$RICE_nubia_mountain_lake_positive_1$" # 14659706671174397635
+  RICE_nubia_mountain_lake_positive_14: "$RICE_nubia_mountain_lake_positive_1$" # 14659706671174397635
+  RICE_nubia_mountain_lake_positive_15: "$RICE_nubia_mountain_lake_positive_1$" # 14659706671174397635
+  RICE_nubia_mountain_lake_positive_16: "$RICE_nubia_mountain_lake_positive_1$" # 14659706671174397635
+  RICE_nubia_mountain_lake_positive_17: "$RICE_nubia_mountain_lake_positive_1$" # 14659706671174397635
+  RICE_nubia_mountain_lake_positive_18: "$RICE_nubia_mountain_lake_positive_1$" # 14659706671174397635
+  RICE_nubia_mountain_lake_positive_19: "$RICE_nubia_mountain_lake_positive_1$" # 14659706671174397635
+  RICE_nubia_mountain_lake_positive_20: "$RICE_nubia_mountain_lake_positive_1$" # 14659706671174397635
+  RICE_nubia_mountain_lake_negative_1: "산악 호수의 신탁: 불길한 징조" # 10134528137759203683
+  RICE_nubia_mountain_lake_negative_2: "$RICE_nubia_mountain_lake_negative_1$" # 11368042599167624533
+  RICE_nubia_mountain_lake_negative_3: "$RICE_nubia_mountain_lake_negative_1$" # 11368042599167624533
+  RICE_nubia_mountain_lake_negative_4: "$RICE_nubia_mountain_lake_negative_1$" # 11368042599167624533
+  RICE_nubia_mountain_lake_negative_5: "$RICE_nubia_mountain_lake_negative_1$" # 11368042599167624533
+  RICE_nubia_mountain_lake_negative_6: "$RICE_nubia_mountain_lake_negative_1$" # 11368042599167624533
+  RICE_nubia_mountain_lake_negative_7: "$RICE_nubia_mountain_lake_negative_1$" # 11368042599167624533
+  RICE_nubia_mountain_lake_negative_8: "$RICE_nubia_mountain_lake_negative_1$" # 11368042599167624533
+  RICE_nubia_mountain_lake_negative_9: "$RICE_nubia_mountain_lake_negative_1$" # 11368042599167624533
+  RICE_nubia_mountain_lake_negative_10: "$RICE_nubia_mountain_lake_negative_1$" # 11368042599167624533
+  RICE_nubia_mountain_lake_negative_11: "$RICE_nubia_mountain_lake_negative_1$" # 11368042599167624533
+  RICE_nubia_mountain_lake_negative_12: "$RICE_nubia_mountain_lake_negative_1$" # 11368042599167624533
+  RICE_nubia_mountain_lake_negative_13: "$RICE_nubia_mountain_lake_negative_1$" # 11368042599167624533
+  RICE_nubia_mountain_lake_negative_14: "$RICE_nubia_mountain_lake_negative_1$" # 11368042599167624533
+  RICE_nubia_mountain_lake_negative_15: "$RICE_nubia_mountain_lake_negative_1$" # 11368042599167624533
+  RICE_nubia_mountain_lake_negative_16: "$RICE_nubia_mountain_lake_negative_1$" # 11368042599167624533
+  RICE_nubia_mountain_lake_negative_17: "$RICE_nubia_mountain_lake_negative_1$" # 11368042599167624533
+  RICE_nubia_mountain_lake_negative_18: "$RICE_nubia_mountain_lake_negative_1$" # 11368042599167624533
+  RICE_nubia_mountain_lake_negative_19: "$RICE_nubia_mountain_lake_negative_1$" # 11368042599167624533
+  RICE_nubia_mountain_lake_negative_20: "$RICE_nubia_mountain_lake_negative_1$" # 11368042599167624533
+  RICE_nubia_keeper_of_granaries_1187: "곡물 창고 관리자" # 12515023358835108494
+  RICE_nubia_keeper_of_granaries_1187_desc: "이 인물은 경력의 어느 시점에 마쿠리아에서 곡물 창고 관리관인 [Glossary( 'shoung', 'SHOUNG_GLOSS' )] 작위를 획득했습니다." # 13104514316290575248
+  RICE_nubia_sunt_boats_character: "선박" # 16557590203481421981
+  RICE_nubia_sunt_boats_character_desc: "이 인물은 나일 강변 마을 주민들에게 조선 용역을 맡겼습니다. 이들은 [Glossary( 'sunt', 'SUNT_GLOSS' )] 목재로 만든 배의 품질이 뛰어나기로 유명합니다. 이 덕분에 그들의 병력이 위대한 강을 따라 오르내리기가 더 수월해질 것입니다." # 11808719367795110480
+  RICE_nubia_sunt_boats_county: "순트 조선 산업" # 17040283221519703643
+  RICE_nubia_sunt_boats_county_desc: "지역 통치자들은 나일강 이 지역에 거주하는 조선공들을 지지하고 있는데, 그들은 [Glossary( 'sunt', 'SUNT_GLOSS' )] 나무로 만든 배의 품질로 유명하기 때문입니다. 이 배들 중 다수는 나일강을 따라 고기잡이용으로 사용됩니다." # 10186299611450415104
+  RICE_nubia_scribes_studying_nubian: "누비아를 연구하는 서기들" # 14095182205399491228
+  RICE_nubia_scribes_studying_coptic: "이집트 학자들" # 13982528843348216209
+  RICE_nubia_scribes_studying_greek: "그리스어 연구 학자들" # 1893439021150664447
+  RICE_nubia_scribes_studying_arabic: "아랍어 연구 서기관들" # 10462682141088773919
+  RICE_nubia_prefers_byzantine_clothing: "비잔티움 양식 선호" # 10153437043578898462
+  RICE_nubia_prefers_byzantine_clothing_desc: "이 누비아 인물은 과거 비잔티움 제국이 누비아에 미쳤던 영향으로 인해, 비잔티움 제국에서 유행했거나 현재 유행하는 양식을 선호합니다." # 9885732951277100129
+  RICE_nubia_prefers_indigenous_clothing: "토착 누비아 복식을 선호함" # 6466370947204147340
+  RICE_nubia_prefers_indigenous_clothing_desc: "이 누비아 인물은 구식 비잔티움 양식과는 대조적으로 인기를 얻고 있는 토착 양식에 기반한 복장을 선호합니다." # 3307625970719663902
+  RICE_nubia_similar_fashion_preferences: "비슷한 복장 취향" # 11094028916257130111
+  RICE_nubia_dissimilar_fashion_preferences: "서로 다른 패션 취향" # 16144757871195774055
+  RICE_nubia_encouraging_era_of_hegira: "히즈라력 사용 승인" # 9780541086028089191
+  RICE_nubia_encouraging_era_of_hegira_desc: "이 통치자는 무슬림이 아니거나 아니었지만, 문서에 날짜를 기록할 때 일부 서기들이 [Glossary( 'Era of the Hegira', 'ERA_OF_THE_HEGIRA_GLOSS' )]을 사용하는 것을 용인하고 있습니다." # 6198335540966088945
+  RICE_nubia_discouraging_era_of_hegira: "히즈라력 사용 단념시키기" # 9794825512760484084
+  RICE_nubia_discouraging_era_of_hegira_desc: "이 통치자는 비무슬림 서기관들이 문서를 작성할 때 날짜를 계산할 때 [Glossary( 'Era of the Hegira', 'ERA_OF_THE_HEGIRA_GLOSS' )]를 사용하는 것을 막고 있습니다." # 4323379893849303456
+  RICE_nubia_respects_local_spirits: "지역 영혼 존중" # 12249033518886485340
+  RICE_nubia_disrespects_local_spirits: "지역 정령을 자극함" # 6357139962033367319
+  RICE_nubia_generous_to_commoners: "평민에게 관대한" # 14248898243648388051
+  RICE_nubia_encouraging_monks_away_from_farming: "수도사들이 농사에서 멀어지도록 장려하기" # 10535563175244533331
+  RICE_nubia_encouraging_monks_away_from_farming_desc: "이 인물은 [Glossary( 'Sayings of the Desert Fathers', 'SAYINGS_OF_THE_DESERT_FATHERS_GLOSS' )]에서 발견되는 [Glossary( 'Abba Poemen', 'ABBA_POEMEN_GLOSS' )]의 말씀을 마음에 새기고, 유혹을 피하고 영적인 문제에 집중하기 위해 기독교 수도사들에게 농사와 같은 세속적인 직업을 버리도록 권장합니다." # 8860804560634392267
+  RICE_nubia_red_brick_mounds: "고대 붉은 벽돌 무더기 발견" # 3734424161677504076
+  RICE_nubia_raphael_inspiration_spiritual: "성 라파엘의 영적인 영감으로" # 17711587088064809472
+  RICE_nubia_raphael_inspiration_enemies: "성 라파엘의 영감을 받아 적과 싸우다" # 12376147499205183771
+  RICE_nubia_cynical_ruler: "종교적 회의론을 보이다" # 7905327740605525787
+  RICE_nubia_interested_in_foreign_art: "외국 예술에 대한 관심" # 1209558725802702847
+  RICE_nubia_oikonomos_modifier: "전직 경제관료" # 2258258403288588904
+  RICE_nubia_oikonomos_modifier_desc: "이 인물은 본래 누비아의 기독교 수도원에서 [Glossary( 'oikonomos', 'OIKONOMOS_GLOSS' )]로 일했던 배경을 가지고 있습니다." # 536200284540432722
+  RICE_nubia_saint_epimachos_devotee: "성 에피마코스에게 헌신함" # 5825945388683597350
+  RICE_nubia_saint_epimachos_devotee_desc: "이 인물은 누비아에서 널리 존경받는 [Glossary( 'Saint Epimachos', 'SAINT_EPIMACHOS_GLOSS' )]에 대한 신앙심에서 힘을 얻습니다." # 8896242093067325597
+  RICE_nubia_freed_me: "나를 해방시키다" # 12453569940361014630
+  RICE_nubia_kept_me_enslaved: "나를 풀어주기를 거부함" # 4927519227280427988
+  RICE_nubia_encouraged_my_religiosity: "나의 종교적 목표를 고무시키다" # 2782359487116105261
+  RICE_nubia_soulou_political: "소울루 중점: 정치 문제" # 11585933181172198481
+  RICE_nubia_soulou_political_desc: "이 인물은 정치적으로 민감한 메시지를 처리하는 데 사용하는 [Glossary( 'soulou', 'SOULOU_GLOSS' )]를 활용하고 있습니다." # 734311130431535764
+  RICE_nubia_soulou_personal: "소울루 집중: 개인사" # 13525387801233335109
+  RICE_nubia_soulou_personal_desc: "이 인물은 개인적인 일을 더 신중하게 처리하기 위해 [Glossary( 'soulou', 'SOULOU_GLOSS' )]를 사용하고 있습니다." # 7386146362392364968
+  RICE_nubia_soulou_correspondence: "소울루 집중: 효율적인 서신 교환" # 15282389833845692212
+  RICE_nubia_soulou_correspondence_desc: "이 인물은 다른 이들과 더 빠르고 효율적으로 소통하는 데 사용하는 [Glossary( 'soulou', 'SOULOU_GLOSS' )]를 이용하고 있습니다." # 16621734718351227
+  RICE_nubia_hermits_in_ancient_tomb: "기독교 은둔자들이 고대 무덤을 용도 변경하다" # 5423981145744975830
+  RICE_nubia_helped_christian_hermits: "지지받는 기독교 은둔자" # 9683513462020111111
+  RICE_nubia_accused_of_being_slave: "노예로 고발당함" # 5781055393922962200
+  RICE_nubia_accused_of_being_slave_desc: "이 아프리카 인물은 자신이 이집트의 노예 상인들에게 납치되어 노예가 된 자유인이었다고 주장하지만, 그 주장이 사실인지 아니면 그렇게 주장하는 노예인지는 판단하기 어렵습니다." # 408515753424063504
+  RICE_nubia_inspired_by_saint_hilaria: "성 힐라리아에게서 영감을 받아" # 2904490175310931082
+  RICE_nubia_inspired_by_saint_hilaria_desc: "[Glossary( '성 힐라리아', 'SAINT_HILARIA_GLOSS' )]의 이야기는 이 여인의 신앙심에 큰 영감을 주었습니다." # 1926572079811104082
+  RICE_nubia_enjoying_ful_medames: "풀 메다메스를 즐김" # 15118658441734441201
+  RICE_nubia_enjoying_ful_medames_desc: "이 인물은 매일 아침 맛있는 [Glossary( '풀 메다메스', 'FUL_MEDAMES_GLOSS' )] 한 그릇을 즐기는 습관이 있습니다." # 11788963629671457498
+  RICE_nubia_ancient_pottery_workshops: "고대 도자기 공방 지원" # 7070909617278719208
+  RICE_nubia_encountered_an_ablemba: "아블렘바를 만났습니다" # 15115401491515640496
+  RICE_nubia_encountered_an_ablemba_desc: "이 인물은 누비아의 오래된 유적지 근처에서 [Glossary( 'ablemba', 'ABLEMBA_GLOSS' )]를 우연히 발견했다고 주장합니다. 사악한 초자연적 정령과의 이러한 조우는 그를 심히 동요하게 만들었습니다." # 2600500540705650789
+  RICE_nubia_archers_emulating_ancestors: "제자들을 본받는 자들" # 2076439484314707621
+  RICE_nubia_archers_emulating_ancestors_desc: "이 인물은 고용된 궁수들에게 누비아 궁수의 전설적인 업적을 본받으라고 격려하고 있습니다." # 10489458874739549994
+  RICE_nubia_archers_discourage_foreigners: "두려운 제자 징벌자의 이야기" # 10493257637074956666
+  RICE_nubia_archers_discourage_foreigners_desc: "이 인물은 누비아 궁수들의 이전 세대가 남긴 전설적인 업적에 대한 이야기를 이용하여 적들이 자신의 영토를 약탈하거나 공격하는 것을 단념시키고 있습니다." # 7719393034916898056
+  RICE_nubia_respects_powerful_women: "강력한 여성을 존중함" # 4691636729403885375
+  RICE_nubia_respects_powerful_women_desc: "기억이 닿는 한, 이 인물과 같은 누비아 기독교인들은 여성들을 대단히 존경해 왔으며, 그들이 성모 마리아와 유사한 일종의 성스러움을 지니고 있다고 믿어왔습니다." # 13418778514215054903
+  RICE_nubia_protective_pots: "보호용 단지" # 2974681720976336089
+  RICE_nubia_protective_pots_desc: "이 인물의 가신단에는 [Glossary( 'Raphael', 'ARCHANGEL_RAPHAEL_GLOSS' )]와 [Glossary( 'Epimachos', 'SAINT_EPIMACHOS_GLOSS' )]와 같은 기독교 천사와 성인의 이름이 붙은 여러 항아리들이 있는데, 이는 그러한 조치들이 세속적이든 초자연적이든 해악으로부터 그 항아리들을 보호해 줄 것이라고 믿기 때문입니다." # 7367787641121522320
+  RICE_nubia_very_protective_pots: "매우 보호적인 냄비" # 12750631515799958816
+  RICE_nubia_very_protective_pots_desc: "이 인물의 가신단에 있는 거의 모든 냄비에는 [Glossary( 'Raphael', 'ARCHANGEL_RAPHAEL_GLOSS' )]나 [Glossary( 'Epimachos', 'SAINT_EPIMACHOS_GLOSS' )]와 같은 기독교 천사와 성인의 이름이 붙어 있는데, 이는 그러한 조치들이 세속적이든 초자연적이든 모든 해악으로부터 그들을 보호해 줄 것이라 믿기 때문입니다." # 11599553980488401058
+  RICE_nubia_saqia_dispute_opinion: "사키아 분쟁" # 14918153012971362205
+  RICE_nubia_investing_in_local_saqia: "지역 사키아에 투자하기" # 7259169840054830095
+  RICE_nubia_investing_in_local_saqia_desc: "이 인물은 하나 이상의 지역 [Glossary( 'saqias', 'SAQIA_GLOSS' )]에 자원을 투자했습니다." # 4404820183648262410
+  RICE_nubia_learning_about_nile_seasons: "나일강 계절에 대해 배우기" # 3141637119682137396
+  RICE_nubia_learning_about_nile_seasons_desc: "이 인물은 최근 나일강 주변의 계절이 삶에 미치는 영향에 대해 알게 되었는데, 예를 들어 [Glossary( 'cold season', 'NUBIA_COLD_SEASON_2_GLOSS' )]이 강을 따라 이어지는 교역로에 영향을 줄 수 있다는 점입니다." # 152121471982722079
+  RICE_nubia_sayings_of_the_desert_fathers_political: "사막의 교부들의 격언에서 정치적으로 영감을 받음" # 17027920608167242992
+  RICE_nubia_sayings_of_the_desert_fathers_political_desc: "이 인물은 최근 [Glossary( 'Sayings of the Desert Fathers', 'SAYINGS_OF_THE_DESERT_FATHERS_GLOSS' )]을 읽고 큰 영감을 받았습니다. 그들은 이 가르침을 자신의 정치 생활에 적용하고자 합니다." # 3359096893999367168
+  RICE_nubia_sayings_of_the_desert_fathers_spiritual: "사막의 교부들의 가르침에서 영감을 받음" # 13125174532951537829
+  RICE_nubia_sayings_of_the_desert_fathers_spiritual_desc: "이 인물은 최근 [Glossary( '사막의 교부들의 격언', 'SAYINGS_OF_THE_DESERT_FATHERS_GLOSS' )]을 읽고 큰 감명을 받았습니다. 그 결과 영적으로 자신을 수양하려 하고 있습니다." # 3750960143538501248
+  RICE_nubia_learning_about_gossi_grain_silos: "고시 곡물 창고에 대해 배우기" # 10027776466589250855
+  RICE_nubia_learning_about_gossi_grain_silos_desc: "이 인물은 최근 소위 $innovation_RICE_gossi_grain_silos$에 대한 통찰을 얻었으며, 이 흙 사일로를 만드는 방법과 이것이 농업 및 식량 저장고를 어떻게 개선할 수 있는지 알게 되었습니다." # 8631761779081109178
+  RICE_nubia_fellow_raphael_devotee: "성 라파엘의 동지여" # 13886044756405675376
+  RICE_nubia_enthusiastic_saint_raphael_devotee: "성 라파엘의 열렬한 신봉자" # 3667474637254943731
+  RICE_nubia_enthusiastic_saint_raphael_devotee_desc: "이 인물은 [Glossary( 'Saint Raphael', 'ARCHANGEL_RAPHAEL_GLOSS' )]에게 열렬히 기도하며, 이를 통해 자신의 건강이 기적적으로 호전되었다고 믿거나, 최소한 건강이 더 나빠지는 것을 막아주었다고 생각합니다." # 8012341797395375233
+  RICE_nubia_casual_saint_raphael_devotee: "성 라파엘의 평신도 신자" # 11773348282184074761
+  RICE_nubia_casual_saint_raphael_devotee_desc: "이 인물은 [Glossary( '성 라파엘', 'ARCHANGEL_RAPHAEL_GLOSS' )]에게 다른 이들보다 더 자주 기도하지만, 강박적인 수준은 아닙니다. 그들은 이러한 기도가 자신의 건강에 미미하지만 실질적인 긍정적 영향을 미쳤다고 믿고 있습니다." # 6307197658522239131
+  RICE_nubia_buried_infant_under_servants_quarters: "하인들의 거처 아래 묻힌 영아" # 9396612348096766696
+  RICE_nubia_buried_infant_under_servants_quarters_desc: "그들의 하인 중 한 명의 아기가 죽었을 때, 이 인물은 아이의 영혼을 위로하고 산모의 임신 가능성을 높여준다고 믿어지는 오래된 지역 관습에 따라, 슬픔에 잠긴 부모가 하인들의 거처 아래에 아기를 묻도록 허락했습니다. 하지만 모두가 이 생각에 편안함을 느끼는 것은 아닙니다." # 14473572364986165731
+  RICE_nubia_drinking_karkade: "카르카데를 즐겨 마심" # 8689237263249955382
+  RICE_nubia_drinking_karkade_desc: "최근 이 인물은 대부분의 날에 [Glossary( 'karkade', 'KARKADE_GLOSS' )]를 꼭 챙겨 마시고 있습니다." # 826710134042145393
+  RICE_nubia_enjoys_making_karkade: "카르카데 만들기를 즐김" # 6010728466705807505
+  RICE_nubia_enjoys_making_karkade_desc: "이 인물은 자신의 지위에 걸맞은지 여부와 상관없이, 그저 [Glossary( 'karkade', 'KARKADE_GLOSS' )]를 너무 좋아하기 때문에 하인들과 함께 그것을 만드는 데 참여하는 것을 즐깁니다." # 433507472204817498
+  RICE_opinion_sibir_festival: "위대한 시비르 축제" # 13050329756048091323
+  RICE_nile_pastoralists_positive_modifier: "나일 농목축민과의 관계 개선" # 6306608061886194325
+  RICE_nile_pastoralists_positive_modifier_desc: "[RICE_nile_river|E]의 이 지역을 따라 자리한 토착 농경 공동체들은 이 지역의 목축민 이웃들에게 더욱 우호적이고 친근한 태도를 길러왔습니다." # 9207219398760766203
+  RICE_nile_pastoralists_positive_modifier_enhanced: "나일 농목민과의 관계 대폭 개선" # 15767606600617875258
+  RICE_nile_pastoralists_positive_modifier_enhanced_desc: "[RICE_nile_river|E]를 따라 위치한 지역 농경 공동체들은 이 지역의 목축 생활을 하는 이웃들에게 전례 없이 더 우호적이고 친근한 태도를 길러왔으며, 이는 모두의 번영으로 이어졌습니다." # 12894016587538618176
+  RICE_nile_pastoralists_negative_modifier: "나일 농목민과의 긴장된 관계" # 12353080871422486419
+  RICE_nile_pastoralists_negative_modifier_desc: "Local agrarian communities along this part of the [RICE_nile_river|E] have taken a weary, even antagonistic attitude towards their more pastoralist neighbors in this region."
+  RICE_nile_farmers_positive_modifier: "나일 농민과의 관계 개선" # 5568238927147983032
+  RICE_nile_farmers_positive_modifier_desc: "[RICE_nile_river|E]를 따라 거주하는 지역의 농목민 공동체들은 이 지역의 더 농업에 치중하는 이웃들을 보호하고 돕는 데 헌신해 왔습니다." # 15544687313361927281
+  RICE_nile_farmers_positive_modifier_enhanced: "나일 농민들과의 관계 대폭 개선" # 18100651955156051710
+  RICE_nile_farmers_positive_modifier_enhanced_desc: "[RICE_nile_river|E]의 이 지역에 거주하는 토착 농목축 공동체들은 이 지역의 더 농업적인 이웃들을 보호하고 돕는 데 전례 없는 헌신을 보이고 있으며, 이는 모두의 번영으로 이어지고 있습니다." # 1110975926538867516
+  RICE_nile_farmers_negative_modifier: "나일 강 농민과의 관계 악화" # 2077189487746058292
+  RICE_nile_farmers_negative_modifier_desc: "[RICE_nile_river|E] 이 지역의 토착 농목민 공동체들은 이 지역의 농업 공동체 이웃들을 착취하고 약탈하는 경향이 있습니다." # 3697643071321760339
+  RICE_nubia_expanded_nile_irrigation_networks: "나일 관개망 확장" # 7150828301407529220
+  RICE_nubia_expanded_nile_irrigation_networks_desc: "지역 공동체들은 나일강의 수역을 확장하기 위해 누비아에서 흔히 사용되는 [Glossary( 'saqia', 'SAQIA_GLOSS' )]와 같은 검증된 기술과 특정 수로 굴착 방식을 활용하고 있습니다." # 3164635657105386262
+  RICE_nubia_maintained_hafirs: "하피즈 유지하기" # 14163142523457902371
+  RICE_nubia_maintained_hafirs_desc: "지역 공동체들은 새로운 [Glossary( 'hafirs', 'HAFIR_GLOSS' )]를 건설하거나, 혹은 더 가능성 높게는 기존에 있던 (상당히 오래된 것도 있는) 시설을 확장하여 이 지역에 항상 충분한 물 공급이 이루어지도록 하고 있습니다.\n\n#EMP $RICE_nubia_agriculture_decision_hafir_effect_tooltip_1$#!" # 7957801749826582165
+  RICE_nubia_imported_cattle: "비누비아 가축 수입" # 16502008796816667095
+  RICE_nubia_imported_cattle_desc: "지역 공동체들은 이 지역에 더 다양한 종류의 소를 공급하기 위해 외래종 소를 수입하고 있으며, 이는 구식 누비아 품종의 소와는 대조를 이룹니다." # 17588727903626727823
+  RICE_nubia_bred_cattle: "누비아 소 교배" # 16303854679515182652
+  RICE_nubia_bred_cattle_desc: "지역 공동체들은 누비아 사회에서 언제나 두드러졌던 자신들의 기존 품종 소들을 더욱 많이 번식시키는 데 자원을 할애하고 있습니다." # 7144126680078855214
+  RICE_nubia_grew_pig_herds: "돼지 떼 기르기" # 13171268758843768372
+  RICE_nubia_grew_pig_herds_desc: "지역 공동체들은 정착지에 돼지 수를 늘리고 있습니다. 돼지는 소 다음으로 인기 있는 식량원으로, 특히 하층 계급 사이에서 그렇습니다." # 13496174878736557397
+  RICE_baqt_textiles_modifier: "직물" # 13669869604464063423
+  RICE_baqt_textiles_modifier_desc: "이 인물은 [RICE_baqt|E]의 조항에 따라 이집트로부터 아마포, 고급 의복, 양탄자 등의 직물을 어떤 협정에 따라 받았습니다." # 4678231870288263682
+  RICE_baqt_foodstuffs_modifier: "식료품" # 8911817472641406008
+  RICE_baqt_foodstuffs_modifier_desc: "이 인물은 [RICE_baqt|E] 조항에 따라 이집트로부터 밀, 렌틸콩, 채소와 같은 식량을 어떤 협약의 일환으로 받았습니다." # 10895944719609782782
+  RICE_baqt_olive_oil_modifier: "올리브유" # 654923880038929165
+  RICE_baqt_olive_oil_modifier_desc: "이 인물은 [RICE_baqt|E]의 조항에 따라 어떤 합의의 일환으로 이집트에서 생산되었든 지중해의 다른 곳에서 생산되었든 이집트로부터 올리브유를 받았습니다." # 5429602443334622495
+  RICE_baqt_wine_modifier: "포도주" # 17415895695032836235
+  RICE_baqt_wine_modifier_desc: "이 인물은 [RICE_baqt|E] 조항에 따라 맺은 모종의 협약의 일환으로, 먼 곳에서 수입된 많은 양의 이집트 와인을 받았습니다." # 15661847225675656757
+  RICE_baqt_glass_modifier: "유리" # 244099202766225328
+  RICE_baqt_glass_modifier_desc: "이 인물은 [RICE_baqt|E] 조항에 따라 모종의 협정을 통해 이집트에서 생산되었든 혹은 다른 곳에서 왔든 유리를 받았습니다." # 13936621698320432053
+  RICE_baqt_horses_modifier: "말" # 9308949916707412917
+  RICE_baqt_horses_modifier_desc: "이 인물은 [RICE_baqt|E] 조항에 따라 이집트로부터 어떤 협정의 일환으로 말을 받았습니다." # 15677839429619503621
+  RICE_baqt_exotic_beasts_modifier: "이국적인 야수들" # 9797592043724360127
+  RICE_baqt_exotic_beasts_modifier_desc: "이 인물은 [RICE_baqt|E]의 조항에 따라 맺은 어떤 협정의 일환으로, 주로 더 남쪽의 아프리카 땅에서 포획한 이국적인 짐승들을 누비아로부터 받았습니다." # 578205330957670438
+  RICE_baqt_metals_modifier: "금속" # 5056476756637120335
+  RICE_baqt_metals_modifier_desc: "이 인물은 [RICE_baqt|E]의 조항에 따라 누비아로부터 금, 광석, 보석과 같은 금속을 받았으며, 이는 그곳의 광산에서 나온 것입니다." # 7978576031752745095
+  RICE_baqt_ebony_modifier: "흑단" # 9486594748198777539
+  RICE_baqt_ebony_modifier_desc: "이 인물은 [RICE_baqt|E]의 조항에 따라, 아프리카 심장부 남쪽 숲에서 나는 흑단(에보니)을 누비아로부터 받았습니다." # 16007056513101336468
+  RICE_baqt_slaves_modifier: "노예들" # 1543596905193636940
+  RICE_baqt_slaves_modifier_desc: "이 인물은 [RICE_baqt|E]의 조항에 따라 맺은 모종의 협약의 일환으로, 아프리카 전역에서 벌인 약탈과 전쟁으로 얻은 누비아 출신 노예들을 받았습니다." # 1963850718812127479
+  RICE_baqt_ivory_modifier: "상아" # 14252718672862720068
+  RICE_baqt_ivory_modifier_desc: "이 인물은 [RICE_baqt|E]의 조항에 따라, 더 남쪽 아프리카 깊은 곳의 코끼리에게서 얻은 상아를 누비아로부터 받았습니다." # 11076112520631737189
+  RICE_baqt_animal_skins_modifier: "동물 가죽" # 745339437075752558
+  RICE_baqt_animal_skins_modifier_desc: "이 인물은 [RICE_baqt|E]의 조항에 따라 어떤 합의의 일부로 누비아에서 얻은 동물 가죽을 받았습니다. 이 가죽은 누비아 현지에서 얻었거나 더 깊은 아프리카 지역에서 가져온 것일 수 있습니다." # 3295103446716777970
+  RICE_opinion_baqt_correspondence_good: "국경 변경 총독과의 훌륭한 서신 교환" # 12833700243093285955
+  RICE_opinion_baqt_correspondence_bad: "변경 영주들과의 불화" # 17686567746775180191
+  RICE_opinion_baqt_land_sales_good: "개척지 매각에 대한 공동 작업 성공" # 1448694007184864965
+  RICE_opinion_baqt_land_sales_bad: "개척지 매각에 관한 협력 문제" # 1876143541628753027
+  RICE_east_african_tattoo_decision: "액막이 문신 받기" # 18188763571291023219
+  RICE_east_african_tattoo_decision_tooltip: "이 종교적 문신들이 나를 해악으로부터 지켜줄 것이다." # 3463786935179533191
+  RICE_east_african_tattoo_decision_desc: "[ROOT.Char.GetCulture.GetName] [ROOT.Char.GetFaith.GetAdherentNamePlural]들은 흔히 신성한 상징, 예를 들어 [ROOT.Char.GetFaith.ReligiousSymbol] 모양의 작은 보호 부적 문신을 새기곤 합니다. 저도 그런 문신을 새겨야겠습니다." # 29969534906015875
+  RICE_east_african_tattoo_decision_effect_tooltip_1: "xxxxx" # 1951045980481827005
+  RICE_east_african_tattoo_decision_confirm: "문신을 새길 시간이로군!" # 10620526028617425129
+  RICE_east_african_tattoo_decision_context_tooltip: "#emphasis 역사적 배경:#! 종교적 문신은 고대 이집트에서 에티오피아에 이르기까지 고대부터 아프리카 북동부의 많은 지역에서 중요하게 여겨져 왔습니다. 고고학자들은 중세 누비아인의 미라 시신에서 성 미카엘의 모노그램이나 십자가를 묘사한 문신을 발견하기도 했습니다. 심지어 더 최근의 시기에도 콥트 기독교인들은 주로 무슬림 사회에서 소수자로서의 정체성을 강화하기 위해 작은 십자가 문신을 새기곤 했습니다. 역사적으로, 그리고 심지어 오늘날 일부 집단 사이에서도 이러한 문신은 보호적인 영적 힘을 지니고 있다고 믿어졌습니다." # 14438968305123134663
+  RICE_nubia_repaint_banganarti: "방가나르티의 왕실 인물 재도색" # 641036524062959462
+  RICE_nubia_repaint_banganarti_tooltip: "방가나르티 교회 단지 성벽에 당신의 선임자를 세우십시오." # 14446510945838150391
+  RICE_nubia_repaint_banganarti_desc: "오랜 세월 동안, [GetTitleByKey('b_old_dongola').GetNameNoTier] 근처의 중요한 순례지인 반가나르티는 이 지역 왕족과 연관되어 왔습니다. 그곳의 관습은 통치자들이 교회 벽에 있는 오래전에 죽은 통치자들의 초상화를 최근에 사망한 이전 통치자의 초상화로 교체하는 것입니다." # 14151218431334632885
+  RICE_nubia_repaint_banganarti_effect_tooltip_1: "xxxxx" # 1951045980481827005
+  RICE_nubia_repaint_banganarti_confirm: "이제 내가 반가르티에 흔적을 남길 차례로군!" # 13374652554640622292
+  RICE_nubia_repaint_banganarti_context_tooltip: "#emphasis 역사적 배경:#! xxxxx" # 15679297959543210897
+  RICE_nubia_repaint_banganarti_predecessor_req: "귀하의 [primary_title|E]의 선대 통치자가 사망했으며, 사망 당시 [GetReligionByKey('christianity_religion').GetAdjective] [faith|E] 신앙을 가지고 있었습니다." # 6988527011578552654
+  RICE_nubia_agriculture_decision: "누비아 나일강 농업 관행에 참여하기" # 10519261537883978811
+  RICE_nubia_agriculture_decision_tooltip: "나일강을 따라 농업 생산량을 늘릴 수 있는 다양한 전통적인 방법들이 있습니다." # 15041148094301410690
+  RICE_nubia_agriculture_decision_desc: "[ROOT.Char.GetCulture.GetCollectiveNoun]와 우리 조상들이 [GetGeographicalRegion('RICE_nile_river_valley').GetName]에 거주해 온 이래로, 우리는 위대한 나일 강을 따라 농업 생산량을 증진시키기 위해 다양한 전통적인 방식을 활용해 왔습니다." # 4899184683777482995
+  RICE_nubia_agriculture_decision_effect_tooltip_1: "xxxxx" # 1951045980481827005
+  RICE_nubia_agriculture_decision_hafir_effect_tooltip_1: "#bold $RICE_nile_farmers_positive_decision$#! 또는 #bold $RICE_nile_pastoralists_positive_decision$#! [decisions|E]를 내릴 경우, [county|E]가 [GetModifier('RICE_nubia_maintained_hafirs').GetNameWithTooltip] [modifier|E]를 보유하고 있다면 획득하는 [county_modifiers|E]의 보너스가 증가합니다." # 2619344117965436795
+  RICE_nubia_agriculture_decision_confirm: "[ROOT.Char.GetFaith.HighGodName]께 나일 강에 감사드리옵니다!" # 8220230895453885968
+  RICE_nubia_agriculture_decision_context_tooltip: "#emphasis 역사적 배경:#! 고대부터 누비아인들은 북쪽의 이집트 이웃들처럼 수단 지역의 나일강 범람을 최대한 활용하기 위해 다양한 방법을 사용해 왔습니다. 이러한 방법들 중 다수는 공동체 전체나 지역 엘리트들의 지원을 필요로 했습니다." # 15626925654416331448
+  RICE_NUBIAN_AGRICULTURE_PICK_TYPE: "나일강은 영원하리라!" # 309023020133615628
+  RICE_nubia_agriculture_decision_select_text: "[RICE_nile|E]를 따라 농업 생산성을 어떻게 개선해야 할까요?\n$select_one_of_the_available_option_step_one_top_text$" # 12919215693499595481
+  RICE_nubia_agriculture_expand_irrigation_name: "#Bold Expand Nile Irrigation Networks#!"
+  RICE_nubia_agriculture_expand_irrigation_desc: "$RICE_nubia_agriculture_expand_irrigation_name$" # 17922547575904932525
+  RICE_nubia_agriculture_expand_irrigation_tooltip: "#italic 고대로부터 우리 조상들은 나일강 물길을 넓히고 이 땅의 비옥함을 극대화하기 위해 다양한 방법을 사용해 왔습니다!#" # 18038976574983372196
+  RICE_nubia_agriculture_construct_hafirs_name: "#Bold Maintain Hafirs#!"
+  RICE_nubia_agriculture_construct_hafirs_desc: "$RICE_nubia_agriculture_construct_hafirs_name$" # 13279514181146875406
+  RICE_nubia_agriculture_construct_hafirs_tooltip: "#italic [Glossary( '하피르', 'HAFIR_GLOSS' )]는 이집트의 [Glossary( '파라오', 'PHARAOH_GLOSS' )]와 쿠시의 [Glossary( '코레', 'QORE_GLOSS' )], 그리고 [Glossary( '칸다케', 'KANDAKE_GLOSS' )] 시대부터 이 지역에 건설되어 왔습니다. 농부와 목축민 모두 이 물 저장 시설을 이용합니다.#!" # 15318910396540650305
+  RICE_nubia_agriculture_grow_pigs_name: "#Bold Grow Pig Herds#!"
+  RICE_nubia_agriculture_grow_pigs_desc: "$RICE_nubia_agriculture_grow_pigs_name$" # 12937814148753864044
+  RICE_nubia_agriculture_grow_pigs_tooltip: "#italic 비록 소가 우리 민족에게 가장 높이 평가받는 가축이지만, 돼지 역시 특히 하층 계급과 종교 기관에게 나일강 유역의 여러 공동체에서 상당히 중요합니다!#" # 5375059683627654856
+  RICE_nubia_agriculture_import_cattle_name: "#Bold Import Cattle#!"
+  RICE_nubia_agriculture_import_cattle_desc: "$RICE_nubia_agriculture_import_cattle_name$" # 2338185906505290052
+  RICE_nubia_agriculture_import_cattle_tooltip: "#italic 일부 누비아 공동체들이 장거리 무역로를 이용하여 다양한 유익한 특징을 가진 새로운 종류의 소들을 수입하고 있습니다!#" # 13126546350000037356
+  RICE_nubia_agriculture_breed_cattle_name: "#Bold Breed Cattle#!"
+  RICE_nubia_agriculture_breed_cattle_desc: "$RICE_nubia_agriculture_breed_cattle_name$" # 3774760883322365436
+  RICE_nubia_agriculture_breed_cattle_tooltip: "#italic 소는 고대부터 누비아인들의 삶에 필수적인 부분이었습니다. 특정 고대 소 품종들은 오늘날까지도 사육되고 있으며 종교 기관과 연관되어 있습니다!#" # 17807259444663679345
+  RICE_nubia_rebuild_banganarti_church: "방간나르티의 교회를 재건하십시오" # 6222358408312204795
+  RICE_nubia_rebuild_banganarti_church_tooltip: "반가나르티의 낡은 교회가 무너져가고 있으니, 새 교회를 지어야 합니다." # 16704611616434440548
+  RICE_nubia_rebuild_banganarti_church_desc: "[GetTitleByKey('b_old_dongola').GetNameNoTier] 근처에 있는 방가나르티의 교회는 [Glossary( 'Archangel Raphael', 'ARCHANGEL_RAPHAEL_GLOSS' )]에 대한 지역적인 신앙의 장소입니다. 허나 교회의 구조가 무너져 내리고 있습니다. 이 교회를 단순히 복원하는 것을 넘어 재건한다면, 멀고 가까운 곳의 더 많은 [GetReligionByKey('christianity_religion').GetAdjective] 신도들을 끌어들일 수 있을지도 모릅니다...." # 4390192337886469912
+  RICE_nubia_rebuild_banganarti_church_effect_tooltip_1: "[GetActivityType( 'activity_RICE_nubia_banganarti_pilgrimage' ).GetName] [activity|E]는 [GetTitleByKey('b_old_dongola').GetNameNoTier] 근처의 더 넓은 지리적 범위에 있는 [rulers|E]에게 허용될 것입니다." # 11846925629657263241
+  RICE_nubia_rebuild_banganarti_church_effect_tooltip_2: "[Glossary( 'Archangel Raphael', 'ARCHANGEL_RAPHAEL_GLOSS' )] 성소에서 [GetActivityType( 'activity_RICE_nubia_banganarti_pilgrimage' ).GetName] [activity|E]를 수행하는 동안 #V 꿈 계시#!가 성공할 확률이 상당히 높아집니다." # 2837056627065396383
+  RICE_nubia_rebuild_banganarti_church_effect_tooltip_3: "$RICE_nubia_banganarti_pilgrimage_dream_incubation_type_large$ [activity_option|E]을(를) 해금하여 [Glossary( 'Archangel Raphael', 'ARCHANGEL_RAPHAEL_GLOSS' )] 성소에서 성공적인 #V 꿈 배양#! 확률을 더욱 높일 수 있도록 [GetActivityType( 'activity_RICE_nubia_banganarti_pilgrimage' ).GetName] [activity|E]에 사용할 수 있습니다." # 5555031789912097609
+  RICE_nubia_rebuild_banganarti_church_confirm: "성 라파엘을 찬양하라!" # 3824039909822012781
+  RICE_nubia_rebuild_banganarti_church_context_tooltip: "#emphasis 역사적 배경:#! 마쿠리아 왕국의 수도 동골라 근처에 위치한 방가나르티는 특히 중세 후기에 누비아의 주요 기독교 순례 및 신앙의 중심지였습니다. 마쿠리아 왕족의 후원을 많이 받았으며, 그들의 모습이 많은 예술 작품에 등장합니다. 이곳은 성 라파엘과 깊은 관련이 있었습니다. 너무나 유명하여 맹인 무슬림과 프랑스 출신의 카탈루냐어 사용자가 이곳을 방문했다는 증거가 남아있습니다." # 2294238904978037092
+  RICE_nubia_update_list_of_faras_bishops: "파라스 대성당의 주교 목록 업데이트" # 11055248287140016840
+  RICE_nubia_update_list_of_faras_bishops_tooltip: "파라스의 대성당은 그들의 주교 목록을 벽에 보관하고 있습니다." # 8087957482221447501
+  RICE_nubia_update_list_of_faras_bishops_desc: "[GetTitleByKey('b_faras').GetNameNoTier]의 장엄한 대성당은 [GetReligionByKey('christianity_religion').GetName]가 처음으로 [GetGeographicalRegion('RICE_greater_nubia_region').GetName]에 도달한 곳을 기념하며, 수 세기에 걸친 주교들의 이름을 조각상과 함께 성당 벽에 새겨두고 있습니다. 우리는 이 목록을 갱신하여 신자들이 마땅히 그래야 할 대로 계속해서 경배할 수 있도록 해야 할 것입니다." # 11899197151376959310
+  RICE_nubia_update_list_of_faras_bishops_effect_tooltip_1: "xxxxx" # 1951045980481827005
+  RICE_nubia_update_list_of_faras_bishops_confirm: "이 대성당이 오래오래 지속되기를!" # 13779362350869191031
+  RICE_nubia_update_list_of_faras_bishops_context_tooltip: "#emphasis 역사적 배경:#! 전통적인 기록에 따르면, 기독교가 누비아에 처음 도래한 것은 북부 누비아의 노바티아 왕국이 서기 543년에 기독교로 개종했을 때였지만, 그보다 수십 년 전부터 기독교화가 진행되고 있었을 가능성이 높습니다. 노바티아의 수도 파라스에 있는 대성당은 노바티아가 마쿠리아에 흡수된 이후에도 수세기 동안 누비아 기독교의 주요 중심지 역할을 했습니다. 대성당의 일부 구역에는 13세기까지도 도시의 주교 목록이 보존되어 있었는데, 이는 누비아인들이 일종의 기념 또는 종교적 관습으로 사용했을 수도 있습니다." # 15031960982854282906
+  RICE_nubia_update_list_of_faras_bishops_req: "아직 이 [decision|E]를 내리지 않았습니다" # 11195520197597460161
+  RICE_christian_commission_donor_portrait: "후원자 초상화 제작 의뢰" # 4603443032377928260
+  RICE_christian_commission_donor_portrait_tooltip: "어딘가에 있는 [GetReligionByKey('christianity_religion').GetAdjectiveNoTooltip] 종교 건물에 자신의 초상화를 의뢰하십시오." # 2818017987926062728
+  RICE_christian_commission_donor_portrait_desc: "수 세기 동안 강력하지만 독실한 [GetReligionByKey('christianity_religion').GetAdherentNamePlural]들은 교회나 대성당과 같은 더 큰 예술 작품 안에 자신들의 초상화를 후원함으로써 신앙심을 증명해 왔습니다. 저 또한 저 자신의 그러한 그림을 후원하고 싶습니다." # 9411073190949562952
+  RICE_christian_commission_donor_portrait_effect_tooltip_1: "귀하가 얻는 기본 [piety_i|E] [piety|E], [prestige_i|E] [prestige|E], 그리고 [legitimacy_i|E] [legitimacy|E]의 양은 귀하의 [piety_level|E]와 [rank|E]에 따라 결정됩니다." # 6555183836394440965
+  RICE_christian_commission_donor_portrait_confirm: "[GetPlayer.GetFaith.HighGodNameAlternate]의 이름으로!" # 11117564559731851289
+  RICE_christian_commission_donor_portrait_context_tooltip: "#emphasis 역사적 배경:#! 중세 기독교 세계에서 잉글랜드부터 에티오피아에 이르기까지 사람들은 자신들의 모습이 담긴 기독교 장면이나 주제의 예술 작품을 의뢰했습니다. 때로는 미묘했는데, 예를 들어 탄생 장면에서 기증자가 주변의 '무작위' 평민으로 묘사되기도 했습니다. 다른 경우에는 더 노골적이어서, 누비아에서는 왕족들이 교회의 벽에 크고 눈에 잘 띄며 아름다운 그림으로 자주 묘사되었습니다." # 17237250203621045421
+  RICE_christian_donor_portrait_PICK_TYPE: "$RICE_christian_commission_donor_portrait_confirm$" # 604399744317760723
+  RICE_christian_commission_donor_portrait_select_text: "이 기부자 초상의 초점은 무엇으로 해야 할까요?\n$select_one_of_the_available_option_step_one_top_text$" # 10251273107469490999
+  RICE_christian_donor_portrait_self_name: "#Bold Myself#!"
+  RICE_christian_donor_portrait_self_desc: "$RICE_christian_donor_portrait_self_name$" # 7725756218471756839
+  RICE_christian_donor_portrait_self_tooltip: "#italic 기증자 초상화는 저의 종교적 헌신을 보여주는 저의 모습으로 제작될 것입니다.#!\n\n$EFFECT_LIST_BULLET$귀하의 [rank|E]에 따라 보너스 [legitimacy_i|E] #V [EmptyScope.ScriptValue('minor_legitimacy_gain')]#! [legitimacy|E] 획득\n$EFFECT_LIST_BULLET$귀하의 [rank|E]에 따라 보너스 [prestige_i|E] [prestige|E] 획득" # 3678374691973809478
+  RICE_christian_donor_portrait_family_name: "#Bold Close Family#!"
+  RICE_christian_donor_portrait_family_desc: "$RICE_christian_donor_portrait_family_name$" # 5658735133339024247
+  RICE_christian_donor_portrait_family_tooltip: "#italic 기증자 초상화에는 나와 가까운 친족들이 묘사될 것입니다.#!\n\n$EFFECT_LIST_BULLET$ [close_family|E]로부터 [opinion_i|E] [opinion|E] 증가\n$EFFECT_LIST_BULLET$ [rank|E]에 따라 보너스 [dynasty_prestige_i|E] [dynasty_prestige|E] 획득" # 4464815097826045005
+  RICE_christian_donor_portrait_clergy_name: "#Bold Clergy#!"
+  RICE_christian_donor_portrait_clergy_desc: "$RICE_christian_donor_portrait_clergy_name$" # 11908112790167954694
+  RICE_christian_donor_portrait_clergy_tooltip: "#italic 기부자 초상화에는 나와 나의 [court|E]의 [clergy|E]가 함께 묘사될 것입니다.#!\n\n$EFFECT_LIST_BULLET$ [court_chaplain|E] 및 [clergy|E] 신분인 모든 [courtiers|E]와 [vassals|e]로부터 [opinion_i|E] [opinion|E] 증가\n$EFFECT_LIST_BULLET$ [rank|E]에 따라 보너스 [piety_i|E] [piety|E] 획득" # 35580651607854541
+  RICE_nile_pastoralists_positive_decision: "나일 목축민 여러분, 환영합니다" # 5475422695996965399
+  RICE_nile_pastoralists_positive_decision_tooltip: "우리는 목축업 이웃들과 협력할 수 있습니다." # 17837017050135476157
+  RICE_nile_pastoralists_positive_decision_desc: "[RICE_nile_river|E]의 비옥한 물길은 수 세기 동안 목축민들과 다른 농목민들을 끌어들여 왔습니다. 그들과의 교류가 항상 평화롭지는 않았지만, 협력할 기회도 있었으니, 우호적인 이들을 우리 영토로 맞이해야 할 것입니다." # 16286535551405371874
+  RICE_nile_pastoralists_positive_decision_effect_tooltip_1: "#P 증가#! [opinion|E]가 [tribal|E] 또는 [nomadic|E] [government|E]를 가진 주변 [rulers|E]와" # 8773124762920850682
+  RICE_nile_pastoralists_positive_decision_effect_tooltip_2: "[gold|E] [gold_i|E] #V [GetPlayer.MakeScope.ScriptValue('RICE_pastoralist_decision_bonus_min')]#!에서 [gold_i|E] #V [GetPlayer.MakeScope.ScriptValue('RICE_pastoralist_decision_bonus_max')]#! 사이의 무작위 양을 지불하고 [men_at_arms|E] 일부를 포함한 추가 [special_troops|E]를 얻을 수 있습니다." # 9962233068498023176
+  RICE_nile_pastoralists_positive_decision_effect_tooltip_3: "[county_modifier|E]인 [GetModifier('RICE_nubia_maintained_hafirs').GetNameWithTooltip]을 가진 [counties|E]는 대신 [modifier|E]인 [GetModifier('RICE_nile_pastoralists_positive_modifier_enhanced').GetNameWithTooltip]을 얻게 됩니다." # 11415174237592547537
+  RICE_nile_pastoralists_positive_decision_effect_tooltip_4: "이 [decision|E]는 [RICE_nile_river|E]가 현재 [bad_nile_flood|E]를 겪고 있을 경우 #P 적은#! [gold_i|E] [gold|E]의 비용이 듭니다." # 10855341471868739566
+  RICE_nile_pastoralists_positive_decision_confirm: "함께라면 번영할 수 있을 것입니다!" # 12804308550015091711
+  RICE_nile_pastoralists_positive_decision_context_tooltip: "#emphasis 역사적 배경:#! 나일강 유역에는 정착 공동체와 목축 공동체가 수천 년 동안 공존해 왔으며, 때로는 평화와 교역 속에서, 때로는 더 적대적인 환경 속에서 함께했습니다. 실제로는 이 둘을 가르는 경계가 모호할 수 있는데, 많은 목축민들이 때때로 농업을 이용했으며, 나일강의 더 도시화된 지역의 통치자들은 종종 목축 집단과 긴밀한 정치적 유대를 맺기도 했습니다." # 14291731933682028028
+  RICE_nile_pastoralists_negative_decision: "나일 강 유목민을 물리치다" # 372086801275656957
+  RICE_nile_pastoralists_negative_decision_tooltip: "우리는 목축민 이웃들을 순진하게 믿어서는 안 됩니다." # 13580414814805696492
+  RICE_nile_pastoralists_negative_decision_desc: "[RICE_nile_river|E]의 비옥한 물줄기는 수세기 동안 목축민들과 다른 농경-목축민들을 끌어들여 왔습니다. 일부는 우호적일 수도 있지만, 다른 많은 이들은 우리의 정착지에 골칫거리이거나 심지어 위협이 되므로, 그들이 우리 영토로 들어오는 것을 막기 위해 우리가 할 수 있는 일을 해야 합니다." # 8307990386671449201
+  RICE_nile_pastoralists_negative_decision_effect_tooltip_1: "#N 감소#! [government|E]가 [tribal|E] 또는 [nomadic|E]인 인근 [rulers|E]와의 [opinion|E]" # 12377396011284384885
+  RICE_nile_pastoralists_negative_decision_effect_tooltip_2: "이 [decision|E]는 [RICE_nile_river|E]가 현재 [good_nile_flood|E]를 겪고 있다면 #N 만큼의 추가 [gold_i|E] [gold|E]가 듭니다!" # 3193377237447093276
+  RICE_nile_pastoralists_negative_decision_confirm: "우리는 그들을 경계해야 하오!" # 2032278529346137530
+  RICE_nile_pastoralists_negative_decision_context_tooltip: "$RICE_nile_pastoralists_positive_decision_context_tooltip$" # 6956385304939953978
+  RICE_nile_farmers_positive_decision: "나일강 농민 보호" # 15993054177210344008
+  RICE_nile_farmers_positive_decision_tooltip: "우리의 농경 이웃들은 희생양이 되기보다는 친구로 지내는 것이 더 낫습니다." # 2020255923941762938
+  RICE_nile_farmers_positive_decision_desc: "우리 목축민 동족 중 일부는 [RICE_nile_river|E]를 따라 정착한 공동체를 약탈하고 착취해야 할 자원으로 보지만, 우리 중 더 지혜로운 이들은 우리가 그들을 지원한다면, 적이 아닌 동맹이자 파트너로서 모두가 장기적으로 번영할 수 있음을 알고 있습니다." # 18439179684101895934
+  RICE_nile_farmers_positive_decision_effect_tooltip_1: "#P 증가#! [tribal|E] 또는 [nomadic|E] [government|E]를 보유하지 않은 주변 [rulers|E]와의 [opinion|E]" # 8128067276924898128
+  RICE_nile_farmers_positive_decision_effect_tooltip_2: "[county_modifier|E]인 [GetModifier('RICE_nubia_maintained_hafirs').GetNameWithTooltip]를 가진 [counties|E]는 대신 [modifier|E]인 [GetModifier('RICE_nile_farmers_positive_modifier_enhanced').GetNameWithTooltip]를 얻게 됩니다." # 10231198451669129054
+  RICE_nile_farmers_positive_decision_effect_tooltip_3: "이 [decision|E]는 [RICE_nile_river|E]가 현재 [good_nile_flood|E]를 겪고 있을 경우 [gold_i|E] [gold|E]이 #N 적게# 듭니다" # 1938480948365819288
+  RICE_nile_farmers_positive_decision_confirm: "함께라면 번영할 수 있을 것입니다!" # 12804308550015091711
+  RICE_nile_farmers_positive_decision_context_tooltip: "$RICE_nile_pastoralists_positive_decision_context_tooltip$" # 6956385304939953978
+  RICE_nile_farmers_negative_decision: "나일강 농민 약탈" # 3291813566482481080
+  RICE_nile_farmers_negative_decision_tooltip: "우리의 농경 이웃들은 우리가 착취할 수 있는 나약한 존재들이다." # 5496737631346896811
+  RICE_nile_farmers_negative_decision_desc: "[RICE_nile_river|E]의 정주 공동체들은 때때로 우리와 우호적인 관계를 맺을 수도 있지만, 그들을 약탈하고 착취해야 할 자원으로 여기는 자들도 분명히 존재합니다. 내 영토 아래 사는 이 공동체들은 평화롭게 살고 싶다면 우리에게 합당한 대가를 지불해야 할 것입니다." # 6344469873250098076
+  RICE_nile_farmers_negative_decision_effect_tooltip_1: "#N 감소#! [tribal|E]나 [nomadic|E] [government|E]를 가지지 않은 주변 [rulers|E]와의 [opinion|E]" # 18314575283896411547
+  RICE_nile_farmers_negative_decision_effect_tooltip_2: "[gold_i|E] #V [GetPlayer.MakeScope.ScriptValue('RICE_pastoralist_decision_bonus_min')]#!에서 [gold_i|E] #V [GetPlayer.MakeScope.ScriptValue('RICE_pastoralist_decision_bonus_max')]#! 사이의 무작위 양의 [gold|E]를 획득합니다" # 17514408857030212011
+  RICE_nile_farmers_negative_decision_effect_tooltip_3: "획득할 수 있는 최대 [gold|E]는 귀하의 [skills|E]와 [RICE_nile_river|E]를 따라 소유한 [counties|E] 수에 따라 결정됩니다." # 8620971340768134420
+  RICE_nile_farmers_negative_decision_effect_tooltip_4: "이 [decision|E]는 [RICE_nile_river|E]가 현재 [bad_nile_flood|E]를 겪고 있다면 #N 만큼의 추가 [gold_i|E] [gold|E]가 소모됩니다!" # 14326629451179529975
+  RICE_nile_farmers_negative_decision_confirm: "그들이 우리를 섬기는 것이지, 우리가 그들을 섬기는 것이 아닙니다!" # 16433346619542299034
+  RICE_nile_farmers_negative_decision_context_tooltip: "$RICE_nile_pastoralists_positive_decision_context_tooltip$" # 6956385304939953978
+  RICE_eldad_ha_dani_decision: "다니족에 대한 이야기를 퍼뜨리십시오" # 3661073241957456701
+  RICE_eldad_ha_dani_decision_tooltip: "지역 유대인 공동체들은 단 지파에 대한 장대한 이야기와 엘다드 하-다니의 모험담을 듣게 될 것입니다!" # 16363075334880212678
+  RICE_eldad_ha_dani_decision_desc: "이제 [GetPlayer.GetCapitalLocation.GetName]에 있는 지역 [GetReligionByKey('judaism_religion').GetAdjective] 공동체로 가서 나의 모험담과 잃어버린 단 지파의 후손들에 대해 이야기해 줄 때가 되었소. 환상적인 이야기로 그들에게 더 위대한 업적을 고취시켜야 할까, 아니면 우리의 [religion|E]에 대해 더 통찰력 있는 논평을 제공해야 할까?" # 10938189693199588049
+  RICE_eldad_ha_dani_decision_effect_tooltip_1: "이 [decision|E]는 성공하든 실패하든 앞으로 #V 5#!년 동안 [GetPlayer.GetCapitalLocation.GetName]에서 내릴 수 없습니다." # 11539519848211041304
+  RICE_eldad_ha_dani_decision_effect_tooltip_2: "성공 여부는 지역 유대인들이 귀하의 이야기에 얼마나 #V 호의적으로 반응하는지#와 이후 이벤트에서 귀하가 내리는 선택에 달려 있습니다." # 4837922664110032577
+  RICE_eldad_ha_dani_decision_success: "#P 성공#!" # 11321957038260216534
+  RICE_eldad_ha_dani_decision_success_tooltip_1: "#V [GetPlayer.MakeScope.ScriptValue('RICE_the_danite_trait_medium_xp_gain')]# 만큼 [GetTrait('RICE_the_danite').GetName( GetNullCharacter )] [trait|E]의 선택된 [trait_level_track|E]에서 경험치를 획득합니다." # 3505173292103767761
+  RICE_eldad_ha_dani_decision_success_tooltip_2: "[gold_i|E] #V [GetPlayer.MakeScope.ScriptValue('RICE_nubia_eldad_ha_dani_decision_gold_gain_min')]#!에서 [gold_i|E] #V [GetPlayer.MakeScope.ScriptValue('RICE_nubia_eldad_ha_dani_decision_gold_gain_max')]#! 사이의 무작위 양의 [gold|E]를 획득합니다." # 2227479678636189855
+  RICE_eldad_ha_dani_decision_failure: "#N 실패#!" # 7194330705291454738
+  RICE_eldad_ha_dani_decision_failure_tooltip_1: "선택한 [GetTrait('RICE_the_danite').GetName( GetNullCharacter )] [trait|E]의 [trait_level_track|E]에서 #V [GetPlayer.MakeScope.ScriptValue('RICE_the_danite_trait_small_xp_gain')]#! 경험치를 획득합니다" # 14977200584129290974
+  RICE_eldad_ha_dani_decision_confirm: "그리고 주님께서 나에게 말하도록 움직이신다!" # 8411300772132582721
+  RICE_eldad_ha_dani_decision_context_tooltip: "#emphasis 역사적 배경:#! 엘다드 하-다니는 9세기의 신비로운 유대인 여행가로, 메소포타미아, 북아프리카, 이베리아를 거쳐 다녔으며, 에티오피아에서 식인종에게 붙잡혔던 일이나 페르시아에 있는 잃어버린 이스라엘 부족인 잇사갈 부족과 한동안 함께 살았던 일 등 아프리카와 아시아 전역에서 겪은 다양한 모험담을 주장했습니다. 가장 흥미로운 점은 그가 자신을 잃어버린 단 지파의 일원이라고 주장했는데, 그 지파가 오래전 나일강 근처, 즉 누비아나 에티오피아 어딘가에 깊숙이 정착했다고 말했습니다. 그의 동시대 사람들 중 일부는 그를 사기꾼으로 의심했으며, 현대 학자들조차 그의 기이한 주장들에 대해 확신하지 못하고 있습니다. 일부는 그가 예멘 유대인과 관련이 있을 수 있다고 추측하기도 합니다." # 14053296773585586935
+  RICE_danite_decision_done_recently_req: "[GetPlayer.GetCapitalLocation.GetName]에서 지난 #V 5#년 동안 $RICE_eldad_ha_dani_decision$ [decision|E]가 실행된 적이 없습니다." # 15233545729367325471
+  RICE_baqt_frontier_decision: "행정 나일강 경계 업무 수행" # 15918724782058738181
+  RICE_baqt_frontier_decision_tooltip: "우리는 변경 지역 관리자로서 일상적인 임무를 수행해야 합니다." # 6820327184922747443
+  RICE_baqt_frontier_decision_desc: "저는 [ROOT.Char.GetTopLiege.GetPrimaryTitle.GetName]의 [ROOT.Char.Custom('RICE_nubia_egypt_border_official_gloss_type_loc')]로서, [RICE_baqt_treaty|E]의 조항에 따라 이집트와 누비아 사이의 국경을 유지하기 위해 저의 능력으로 관료제의 여러 기능을 조화롭게 활용합니다." # 15766338823472431736
+  RICE_baqt_frontier_decision_effect_tooltip_1: "#P 성공#! 이 관료적 과업에서 성공하면 [RICE_baqt_accord|E] [situation_phase|E]의 촉매제가 될 [situation|E]를 얻게 될 것이며, #N 실패#! 하면 [RICE_baqt_discord|E] [situation_phase|E]의 촉매제가 될 것입니다." # 3839437477536783114
+  RICE_baqt_frontier_decision_effect_tooltip_2: "대부분의 선택지에서 추가적인 [gold_i|E] [gold|E]를 지불하여 성공 확률을 높일 수 있습니다." # 4309227063188584384
+  RICE_baqt_frontier_decision_confirm: "또 서류 작업할 시간이군...." # 3533796864260762036
+  RICE_baqt_frontier_decision_context_tooltip: "#emphasis 역사적 배경:#! 파라오 시대부터 아스완 주변의 제1차 폭포는 전통적으로 이집트와 누비아의 경계 역할을 해왔습니다. 7세기에 아랍인들과 누비아인들이 [RICE_baqt_treaty|E]에 합의하고 이 경계의 지위를 재확인한 이후, [Glossary( 'Governors of Aswan', 'GOVERNOR_OF_ASWAN_GLOSS' )]와 [Glossary( 'Eparchs of Nobatia', 'LORD_OF_THE_MOUNTAIN_GLOSS' )]는 각각 이집트와 누비아의 바크트(Baqt) 행정을 담당하고 국경을 수비하는 관리들이 되었습니다. 고고학자들이 발견한 방대한 문서 기록들은 이들, 그들의 부하들, 그리고 그들과 교류했던 사람들의 활동을 증명하고 있습니다. 이 문서들은 상인들의 불만 사항부터 지루한 보급품 목록, 토지 매매에 관한 법률 문서에 이르기까지 다양합니다." # 1304603067605804106
+  RICE_baqt_frontier_decision_success: "성공" # 4590994119335504568
+  RICE_baqt_frontier_decision_failure: "실패" # 14979873703388360010
+  RICE_baqt_frontier_lord_of_the_mountain_trait_xp_gain: "[trait_level_track_xp|E] 획득, [GetTrait('RICE_lord_of_the_mountain').GetName( GetNullCharacter )] [trait|E]에서" # 1623825261250038276
+  RICE_baqt_frontier_governor_of_aswan_trait_xp_gain: "[trait_level_track_xp|E] 획득, [GetTrait('RICE_governor_of_aswan').GetName( GetNullCharacter )] [trait|E]에서" # 10453160543516871756
+  RICE_BAQT_FRONTIER_DECISION_PICK_TYPE: "$RICE_baqt_frontier_decision_confirm$" # 8472310778890497401
+  RICE_baqt_frontier_decision_select_text: "이집트와 누비아의 국경과 관련하여 우리가 처리해야 할 일은 무엇입니까?\n$select_one_of_the_available_option_step_one_top_text$" # 14386140336944283174
+  RICE_baqt_frontier_correpsondence_name: "#**볼드**는 **상대방**과 일치합니다#!" # 16303384147483968378
+  RICE_baqt_frontier_correpsondence_desc: "$RICE_baqt_frontier_correpsondence_name$" # 8334062752930751257
+  RICE_baqt_frontier_correpsondence_tooltip: "#italic 누비아와 이집트의 국경 총독들 간의 잦은 소통은, 비록 형식적인 메시지와 선물 교환을 통해서일지라도, 양 지역 주민들 간의 우호적인 관계를 유지하고 적대감을 줄이는 데 필수적입니다!#" # 857330000109919997
+  RICE_baqt_frontier_correpsondence_effect_1_tt: "이 임무의 성공 여부는 귀하의 [diplomacy_i|E] [diplomacy|E] [skill|E], 상대방이 귀하를 얼마나 [opinion_i|E] [opinion|E]하고 있는지, 그리고 양측의 [traits|E]에 달려 있습니다." # 11301598963504158277
+  RICE_baqt_frontier_correpsondence_success_1_tt: "#P 획득#! [prestige_i|E] [prestige|E]" # 14584734806231213858
+  RICE_baqt_frontier_correpsondence_success_2_tt: "#P 향상된#! [opinion_i|E] [opinion|E]를 얻고 상대방과 [friendship|E]를 맺을 수도 있습니다" # 17108223944987953736
+  RICE_baqt_frontier_correpsondence_success_3_tt: "앞으로 몇 년간 다른 [rulers|E], 특히 귀하와 동등한 지위의 통치자들이 모든 [RICE_baqt_interactions|E]를 수락할 확률이 높아집니다." # 5421631668474559398
+  RICE_baqt_frontier_correpsondence_failure_1_tt: "#N 상실#! [prestige_i|E] [prestige|E]" # 10711092091067601647
+  RICE_baqt_frontier_correpsondence_failure_2_tt: "#N 감소#! [opinion_i|E] [opinion|E]를 얻고 상대방과 [rivalry|E]를 형성할 수 있습니다" # 6864060400760304238
+  RICE_baqt_frontier_correpsondence_failure_3_tt: "다른 [rulers|E], 특히 귀하와 동등한 지위의 통치자들이 향후 몇 년간 어떠한 [RICE_baqt_interactions|E]도 받아들일 확률이 낮아집니다." # 16168732273757914819
+  RICE_baqt_frontier_fortify_name: "#Bold Fortify the Border#!\" "
+  RICE_baqt_frontier_fortify_desc: "$RICE_baqt_frontier_fortify_name$" # 15348755328730006007
+  RICE_baqt_frontier_fortify_tooltip: "#italic 나일강은 그 풍요로움을 이용하려는 군대, 도적 떼, 그리고 기타 말썽꾼들을 끌어들였습니다. 강 계곡을 따라 이동하는 사람들의 국경 안전은 잘 배치되고 잘 유지되는 국경 요새에 달려 있습니다#!" # 2630584411439250376
+  RICE_baqt_frontier_fortify_effect_1_tt: "이 임무의 성공은 귀하의 [martial_i|E] [martial|E] [skill|E]에 달려 있습니다" # 13589493822087800229
+  RICE_baqt_frontier_fortify_success_1_tt: "$RICE_baqt_frontier_correpsondence_success_1_tt$" # 6698008566954225144
+  RICE_baqt_frontier_fortify_success_2_tt: "귀하가 [GetGeographicalRegion('RICE_egypt_and_nubia_frontier').GetName]에서 [completely_control|E]하는 모든 [counties|E]는 [control_i|E] [control|E]와 [GetModifier('RICE_baqt_greatly_improved_defenses').GetNameWithTooltip] [county_modifier|E]를 얻습니다." # 12737207054300190262
+  RICE_baqt_frontier_fortify_success_3_tt: "#P 개선됨#! [opinion_i|E] [opinion|E]를 얻고, [courtier|E] 또는 [vassal|E]와 [friendship|E]를 맺을 수도 있습니다." # 8770888792348474437
+  RICE_baqt_frontier_fortify_failure_1_tt: "$RICE_baqt_frontier_correpsondence_failure_1_tt$" # 14286203263365992298
+  RICE_baqt_frontier_fortify_failure_2_tt: "[GetGeographicalRegion('RICE_egypt_and_nubia_frontier').GetName] 내 귀하가 [completely_control|E]하는 모든 [counties|E]는 [GetModifier('RICE_baqt_mixed_result_defenses').GetNameWithTooltip] [county_modifier|E]를 얻고 [control|E] [control_i|E]를 잃습니다." # 11852995088522824441
+  RICE_baqt_frontier_fortify_failure_3_tt: "#N 감소#! [opinion_i|E] [opinion|E]를 얻고, [courtier|E] 또는 [vassal|E]와 [rivalry|E]를 형성할 수 있습니다." # 15732132182200727270
+  RICE_baqt_frontier_land_sales_name: "#Bold Oversee Land Sales#!"
+  RICE_baqt_frontier_land_sales_desc: "$RICE_baqt_frontier_land_sales_name$" # 11003725693871655897
+  RICE_baqt_frontier_land_sales_tooltip: "#italic 나일강 유역의 농경지는 여러 민족이 섞여 살고 있으며 수익성이 높기 때문에, 이 지역의 합법적인 토지 매매를 인증하는 데 현지 행정 당국을 참여시키는 것이 중요합니다#!" # 10691639821911391706
+  RICE_baqt_frontier_land_sales_effect_1_tt: "이 임무의 성공 여부는 귀하의 [stewardship_i|E] [stewardship|E] [skill|E]에 달려 있습니다." # 1499775164799764754
+  RICE_baqt_frontier_land_sales_success_1_tt: "$RICE_baqt_frontier_correpsondence_success_1_tt$" # 6698008566954225144
+  RICE_baqt_frontier_land_sales_success_2_tt: "귀하가 [GetGeographicalRegion('RICE_egypt_and_nubia_frontier').GetName]에서 [completely_control|E]하는 모든 [counties|E]는 [development_i|E]의 [development_growth|E]를 얻습니다." # 16834970342691869394
+  RICE_baqt_frontier_land_sales_success_3_tt: "#P 개선됨#! [opinion_i|E] [opinion|E]를 얻고, [courtier|E] 또는 [vassal|E]와 [friendship|E]를 맺을 수도 있습니다." # 8770888792348474437
+  RICE_baqt_frontier_land_sales_failure_1_tt: "$RICE_baqt_frontier_correpsondence_failure_1_tt$" # 14286203263365992298
+  RICE_baqt_frontier_land_sales_failure_2_tt: "[GetGeographicalRegion('RICE_egypt_and_nubia_frontier').GetName] 내에서 [completely_control|E]하고 있는 모든 [counties|E]는 [development_i|E]의 [development_growth|E]를 잃습니다." # 13809161239206517791
+  RICE_baqt_frontier_land_sales_failure_3_tt: "#N 감소#! [opinion_i|E] [opinion|E]를 얻고, [courtier|E] 또는 [vassal|E]와 [rivalry|E]를 형성할 수 있습니다." # 15732132182200727270
+  RICE_baqt_frontier_scrutinize_name: "#Bold Scrutinize Travelers#!"
+  RICE_baqt_frontier_scrutinize_desc: "$RICE_baqt_frontier_scrutinize_name$" # 16647673966710804672
+  RICE_baqt_frontier_scrutinize_tooltip: "#italic 이집트와 누비아의 국경 지대를 통과하는 것은 엄격히 감시받고 있습니다. 우리는 말썽꾼들의 진입을 막고, 국경 반대편에 있는 범죄자나 수배된 도망자들을 송환해야 합니다#!" # 5611242079070732510
+  RICE_baqt_frontier_scrutinize_effect_1_tt: "이 임무의 성공 여부는 귀하의 [intrigue_i|E] [intrigue|E] [skill|E]에 달려 있습니다." # 9821610698773558943
+  RICE_baqt_frontier_scrutinize_effect_2_tt: "국경 반대편에서 도망쳐 온 재능 있는 [character|E]를 찾아내어 당신의 [court|E]에 영입할 수 있을지도 모릅니다." # 5980845756159510000
+  RICE_baqt_frontier_scrutinize_success_1_tt: "#P 보너스#와 관련된 [intrigue_i|E] [intrigue|E] [character_modifiers|E] 획득" # 6823614920415045096
+  RICE_baqt_frontier_scrutinize_success_2_tt: "#P 향상된#! [opinion_i|E] [opinion|E]를 얻고 상대방과 [friendship|E]를 맺을 수도 있습니다" # 17108223944987953736
+  RICE_baqt_frontier_scrutinize_failure_1_tt: "#N 불이익#을 동반하는 [intrigue_i|E] [intrigue|E] 관련 [character_modifiers|E] 획득" # 7056655524672008584
+  RICE_baqt_frontier_scrutinize_failure_2_tt: "#N 감소#! [opinion_i|E] [opinion|E]를 얻고 상대방과 [rivalry|E]를 형성할 수 있습니다" # 6864060400760304238
+  RICE_baqt_frontier_process_name: "#Bold Process Routine Paperwork#!"
+  RICE_baqt_frontier_process_desc: "$RICE_baqt_frontier_process_name$" # 1090236486966186484
+  RICE_baqt_frontier_process_tooltip: "#italic 국경 관리들은 국경을 통과하거나 양쪽에 자산이나 연줄이 있는 백성들이 제출하는 불만, 요청 및 기타 서류들을 끊임없이 살펴봐야 합니다. 이 서류 작업이 과연 끝날 수는 있을까요?!#" # 297191288143577857
+  RICE_baqt_frontier_process_effect_1_tt: "다른 임무와 달리, 이 임무는 성공이나 실패 결과가 없습니다. 대신, 다른 선택지보다 관련 [traits|E]에서 #V만큼 더 많은# [trait_level_track_xp|E]를 얻게 됩니다." # 1261540972485788251
+  RICE_baqt_frontier_report_name: "#Bold Send Report to Superiors#!"
+  RICE_baqt_frontier_report_desc: "$RICE_baqt_frontier_report_name$" # 13980281675655547397
+  RICE_baqt_frontier_report_tooltip: "#italic 이집트와 누비아의 경계는 종종 권력의 중심지에서 멀리 떨어져 있으므로, 수도의 지도부가 이 지역에서 벌어지는 일들을 숙지하여 효과적인 지정학적 정책을 결정하는 것이 중요합니다!#" # 8851619757686028422
+  RICE_baqt_frontier_report_success_1_tt: "#P 개선됨#! [liege|E]로부터의 [opinion_i|E] [opinion|E] 및 어쩌면 그에게서 [gold_i|E] [gold|E] 선물을 받을 수도 있습니다." # 3092042355302165011
+  RICE_baqt_frontier_report_success_2_tt: "[legitimacy_i|E] [legitimacy|E] 획득" # 8349348790441119766
+  RICE_baqt_frontier_report_failure_1_tt: "#N 감소#! 당신의 [liege|E]로부터의 [opinion_i|E] [opinion|E]" # 4856181029457182613
+  RICE_baqt_frontier_report_failure_2_tt: "#bold 주요#! 실패일 경우 [legitimacy_i|E] [legitimacy|E]를 잃습니다" # 11614727328051751048
+  RICE_baqt_frontier_report_effect_1_tt: "이 임무의 성공 여부는 귀하의 [learning_i|E] [learning|E] [skill|E]에 달려 있습니다." # 4713689647808326055
+  RICE_baqt_frontier_traffic_positive_name: "#Bold Encourage Cross-Border Traffic#!"
+  RICE_baqt_frontier_traffic_positive_desc: "$RICE_baqt_frontier_traffic_positive_name$" # 9323386047303391970
+  RICE_baqt_frontier_traffic_positive_tooltip: "#italic 평화와 번영의 시기에는, 우리 지역 경제를 활성화하고 공동체를 풍요롭게 할 국경 너머의 상인, 모험가, 이주민 등 모든 이들을 환영합니다#!" # 17830357726888557752
+  RICE_baqt_frontier_traffic_negative_name: "#Bold Discourage Cross-Border Traffic#!"
+  RICE_baqt_frontier_traffic_negative_desc: "$RICE_baqt_frontier_traffic_negative_name$" # 9089673326019374600
+  RICE_baqt_frontier_traffic_negative_tooltip: "#italic 전쟁과 불확실성의 시기에는, 국경 너머에서 오는 우리 영토의 통행량을 줄여야만 합니다. 그들의 존재가 더 많은 불안과 갈등을 야기할 수 있기 때문입니다!#" # 14168566147734831132
+  RICE_nubia_bestow_kanz_al_dawla: "국고의 보물을 수여하라" # 1075485639891490190
+  RICE_nubia_bestow_kanz_al_dawla_tooltip: "xxxxx" # 1951045980481827005
+  RICE_nubia_bestow_kanz_al_dawla_desc: "현재 [GetTrait('RICE_governor_of_aswan').GetName( GetNullCharacter )]는 저를 훌륭하게 섬겼습니다. 그에게 보답하고자, 이집트와 누비아 변경 지역과 [RICE_baqt_treaty|E] 관리에 있어 [GetTrait('RICE_the_danite_upgraded_serpent').GetName( GetNullCharacter )]로서 증가하는 역할을 기리고 충성스러운 봉사에 경의를 표하기 위해 그에게 [Glossary( 'Kanz al-Dawla', 'KANZ_AL_DAWLA_GLOSS' )] 작위를 수여하고자 합니다." # 12172889359417538519
+  RICE_nubia_bestow_kanz_al_dawla_desc_self: "제가 [ROOT.Char.GetLiege.GetTitledFirstName] 폐하를 위해 [GetTrait('RICE_governor_of_aswan').GetName( GetNullCharacter )]로서 충실히 봉사하지 않았습니까? 저는 국가의 안녕을 위해 이집트와 누비아의 변경 지대를 관리하고 [RICE_baqt_treaty|E]를 처리하며 점점 더 늘어나는 책임을 맡아온 사람입니다." # 12468284831717474099
+  RICE_nubia_bestow_kanz_al_dawla_effect_tooltip_1: "xxxxx" # 1951045980481827005
+  RICE_nubia_bestow_kanz_al_dawla_confirm: "우리의 변경지대를 수호하여 번성하게 하라!" # 16204043787035361018
+  RICE_nubia_bestow_kanz_al_dawla_context_tooltip: "#emphasis 역사적 배경:#! xxxxx" # 15679297959543210897
+  RICE_nubia_tebeldi_trees_decision: "테벨디 가계도를 유지하십시오" # 543383980293502434
+  RICE_nubia_tebeldi_trees_decision_tooltip: "[GetGeographicalRegion('RICE_greater_darfur').GetName]의 [Glossary( 'tebeldi trees', 'TEBELDI_TREES_GLOSS' )]가 잘 유지되도록 하십시오." # 13673421720037983021
+  RICE_nubia_tebeldi_trees_decision_desc: "제가 다스리는 [GetGeographicalRegion('RICE_greater_darfur').GetName] [region|E]에서 우물과 재배된 멜론과 더불어 [Glossary( 'tebeldi trees', 'TEBELDI_TREES_GLOSS' )]를 유지하는 것은 신성한 의무이니, 이는 신하들에게 믿을 만한 수원을 보장하기 위함입니다." # 14048163464239416065
+  RICE_nubia_tebeldi_trees_decision_effect_tooltip_1: "이 [decision|E]를 실행하는 데 필요한 [gold_i|E] [gold|E]와 [piety_i|E] [piety|E] 비용은 귀하가 [GetGeographicalRegion('RICE_greater_darfur').GetName] [region|E]에서 소유한 [counties|E]의 수에 따라 달라집니다." # 3439405562783766097
+  RICE_nubia_tebeldi_trees_decision_effect_tooltip_2: "귀하가 획득하는 [prestige_i|E] [prestige|E]와 [legitimacy_i|E] [legitimacy|E]의 양은 [GetGeographicalRegion('RICE_greater_darfur').GetName] [region|E] 내에서 소유한 [counties|E]의 수에 따라 달라집니다." # 10022971554979778409
+  RICE_nubia_tebeldi_trees_decision_confirm: "이 나무들이 살아있는 한, 우리 모두도 살아남을 것입니다." # 8663496044194843516
+  RICE_nubia_tebeldi_trees_decision_context_tooltip: "#emphasis 역사적 배경:#! $TEBELDI_TREES_GLOSS$" # 17224440829417357189
+  RICE_nubia_lake_oracle_decision: "산악 호수 신탁을 자문하라" # 18102506149239151172
+  RICE_nubia_lake_oracle_decision_tooltip: "산악 호수의 물은 우리에게 미래에 대해 많은 것을 말해줄 수 있습니다." # 870028855365633751
+  RICE_nubia_lake_oracle_decision_desc: "전통적으로 우리는 산악 호수를 영적인 힘과 예언의 힘을 지니고 있다 하여 지극히 경건하게 대했습니다. 나의 미래에 대해 묻기 위해 이 호수들 중 한 곳에 대표를 보내야겠습니다." # 5926125886278113936
+  RICE_nubia_lake_oracle_decision_effect_tooltip_1: "귀하는 #P 유익한#! 또는 #N 해로운#! [character_modifiers|E]을 얻어 [realm|E]의 잠재적인 미래에 대해 알게 될 수 있습니다." # 4667336064089117772
+  RICE_nubia_lake_oracle_decision_effect_tooltip_2: "좋거나 나쁜 [modifier|E]를 얻을 확률은 귀하의 [virtues|E], [sins|E], [piety_level|E], [prestige_level|E], 그리고 [legitimacy_level|E]에 따라 달라집니다." # 12948564353718348424
+  RICE_nubia_lake_oracle_decision_effect_tooltip_3: "훌륭한 [modifier|E]를 얻을 확률을 더욱 높이려면 [courtier|E], 특히 [clergy|E] 구성원을 보내는 것이 좋으나, 이 경우 추가적인 [prestige_i|E] [prestige|E]가 소모됩니다." # 4494975411440179828
+  RICE_nubia_lake_oracle_decision_confirm: "산악 호수로 누군가를 보낼 준비를 하시오!" # 3157884982200615355
+  RICE_nubia_lake_oracle_decision_context_tooltip: "#emphasis 역사적 배경:#! 다르푸르 일부 민족들 사이에서는 산정호수가 전통적으로 영적인 힘을 지닌 것으로 여겨집니다. 전통적으로 현지인들은 이 호수들에 대해 큰 경외심과 존경심을 느꼈으며 물에 닿는 것을 꺼렸고, 통치자들은 이 장소에서 점을 치기 위해 대표자들을 이 호수들로 보냈습니다. 다르푸르가 대규모로 이슬람화된 현대에 이르러서도, 강력한 정령들이 이 장소들에 깃들어 있다는 믿음이 여전히 강하게 남아 있습니다." # 17262596374482028066
+  RICE_nubia_lake_oracle_decision_recent_req: "현재 산악 호수 신탁 [modifier|E]을 보유하고 있습니다." # 11265474819867471620
+  RICE_nubia_sudanese_culture_decision: "수단 문화 형성" # 3064838833145804631
+  RICE_nubia_sudanese_culture_decision_tooltip: "나일강 유역의 땅에서 새로운 수단 민족이 일어날 것입니다." # 811857911170053225
+  RICE_nubia_sudanese_culture_decision_east_african_desc: "만약 점점 더 많은 $heritage_east_african_name$ 부족들이 [GetGeographicalRegion('ghw_region_egypt').GetName]의 비옥한 땅에 정착한다면, 우리는 새로운 #V 수단#! 정체성을 형성하여 그들의 입지를 공고히 해야 할 것입니다." # 2131052964287168413
+  RICE_nubia_sudanese_culture_decision_arabic_desc: "만약 더 많은 $heritage_arabic_name$ 부족들이 [GetGeographicalRegion('RICE_greater_nubia_region').GetName]의 비옥한 땅에 계속 정착한다면, 우리는 새로운 #V 수단#! 정체성을 형성하여 그들의 존재를 공고히 해야 할 것입니다." # 2624005730313260806
+  RICE_nubia_sudanese_culture_decision_neutral_desc: "시간이 지나면서 $heritage_arabic_name$ 부족과 $heritage_arabic_name$ 부족은 각각 [GetGeographicalRegion('ghw_region_egypt').GetName]의 비옥한 땅과 [GetGeographicalRegion('RICE_greater_nubia_region').GetName]으로 이주할 수 있습니다. 우리가 새로운 #V 수단#! 정체성을 형성함으로써 이들 집단의 발전에 영향을 미치는 역할을 할 수 있을까요?" # 9388851736220301110
+  RICE_nubia_sudanese_culture_decision_effect_tooltip_1_arabic: "$heritage_arabic_name$ [heritage|E]를 포함하여 [GetGeographicalRegion('RICE_greater_nubia_region').GetName] 내 다른 [rulers|E]들은 #V 수단#! [culture|E]로 개종할 수 있습니다." # 10286331622149249196
+  RICE_nubia_sudanese_culture_decision_effect_tooltip_1_east_african: "$heritage_east_african_name$ [heritage|E]를 포함하여 [GetGeographicalRegion('ghw_region_egypt').GetName] 내 다른 [rulers|E]들은 #V 수단#! [culture|E]로 개종할 수 있습니다." # 16611062790842528621
+  RICE_nubia_sudanese_culture_decision_confirm: "나일 강을 따라 새로운 민족이 일어나리라!" # 13647837304008524494
+  RICE_nubia_sudanese_culture_decision_context_tooltip: "#emphasis 역사적 배경:#! 누비아의 기독교 왕국들의 쇠퇴와 현대 수단 아랍 정체성의 부상은 다면적이고 복잡한 주제이지만, 아랍 부족들의 증가와 그에 따른 누비아 지역의 아랍화 및 이슬람화는 이러한 과정의 한 요인이 되었을 수 있습니다. 그렇긴 하지만, 수단 아랍인들이 수단 인구의 대다수를 차지하고 있지만, 수단뿐만 아니라 남부 이집트에도 상당수의 누비아인 소수 민족이 남아 있습니다." # 14958059584234540422
+  RICE_nile_empire_decision: "나일강 유역을 통합하라" # 12852103332360917452
+  RICE_nile_empire_decision_tooltip: "나일 강 유역을 다스릴 새로운 제국을 세우십시오." # 674027549533144863
+  RICE_nile_empire_decision_desc: "[GetGeographicalRegion('ghw_region_egypt').GetName]의 북부 삼각주 습지대부터 [GetGeographicalRegion('RICE_greater_nubia_region').GetName]의 가장 남쪽 초원과 언덕까지, [GetGeographicalRegion('RICE_nile_river_valley').GetName] 전체가 [GetPlayer.GetDynasty.GetName] [dynasty|E] 아래 [GetPlayer.GetFaith.GetAdjective] [GetPlayer.GetCulture.GetCollectiveNoun]에 의해 통합될 것입니다!" # 8863832964497206404
+  RICE_nile_empire_decision_effect_tooltip_1: "[GetTitleByKey('e_RICE_nile').GetName]의 이름을 여러 다른 이름 중 하나로 바꿀 수 있습니다." # 2733729134337499166
+  RICE_nile_empire_decision_effect_tooltip_2: "이집트나 누비아의 과거에 존재했던 여러 역사적 또는 전설적 인물 중 한 명의 후손임을 선포하기 위해 다양한 [legend_seeds|E] 중에서 귀하의 [dynasty|E]를 선택하게 될 것입니다." # 11131364589939826981
+  RICE_nile_empire_decision_confirm: "나일강과 우리의 제국은 영원할 것이다!" # 1982746540620734584
+  RICE_nile_empire_decision_context_tooltip: "#emphasis 역사적 배경:#! 이집트와 누비아는 역사 속 여러 시기에 하나의 제국 아래 통합된 적이 있습니다. 예를 들어, 고대 이집트 역사에서 이집트 파라오들은 여러 시기에 누비아를 지배했으며, 반대로 누비아의 왕들이 이집트를 정복하여 이집트 제25왕조를 세우기도 했습니다. 중세 후기에는 맘루크가 누비아의 일부를 정복하거나 봉신국으로 삼았습니다." # 471093562683939638
+  nubia.0000.t: "xxxxx" # 1951045980481827005
+  nubia.0000.desc: "xxxxx" # 1951045980481827005
+  nubia.0000.a: "xxxxx" # 1951045980481827005
+  nubia.0001.t: "영원한 나일 강" # 14541652168526530110
+  nubia.0001.desc.intro: "나일강은 이집트와 누비아의 심장이며, 그 땅은 육신이요 백성은 피와도 같습니다. 귀한 나일강의 맑은 물은 생명으로 가득 차 있으며, 어떤 해에는 백성에게 풍요를 축복하지만 다른 해에는 기근으로 저주를 내리기도 합니다. 이는 이집트의 [Glossary( 'Pharaohs', 'PHARAOH_GLOSS' )] 시대와 쿠시의 [Glossary( 'Qores', 'QORE_GLOSS' )] 및 [Glossary( 'Kandakes', 'KANDAKE_GLOSS' )] 시대 이래로 계속되어 온 일입니다." # 3562149130227754336
+  nubia.0001.desc.baqt: "수 세대 전, 막 이집트를 정복한 라시둔 칼리파국의 군대와 마쿠리아 누비아의 군대가 이 두 땅의 경계에서 격돌했습니다. 결국 양측은 협상을 통해 #emphasis [RICE_baqt|E]# 협정을 맺었습니다. 이 협정은 그 이후로 고대 나일강을 따라 정치와 무역을 규정해왔지만, 나일강만큼이나 오래 지속될 수 있을까요?" # 13177547984865552865
+  nubia.0001.desc.conclusion: "미래에 어떤 일이 닥치든, 여기에는 한 가지 부인할 수 없는 진실이 있습니다. 나일강이 흐르는 한, 그 백성들 또한 영원히 지속될 것입니다." # 17480090566341315168
+  nubia.0001.a: "우리는 나일강과 함께 살고 죽습니다." # 12629627748615223880
+  nubia.0002.t: "바크트: [my_subregion.GetCurrentPhase.GetName]" # 11306492725016293930
+  nubia.0002.desc: "최근 정치, 경제, 문화 지형의 여러 변화로 인해 [GetGeographicalRegion('ghw_region_egypt').GetName]와 [GetGeographicalRegion('RICE_greater_nubia_region').GetName]는 #V [my_subregion.GetCurrentPhase.GetName]# 시기에 접어들고 있습니다." # 4210819635366573513
+  nubia.0002.desc.baqt_accord: "양 지역의 지도자들은 이집트와 누비아의 통치자들이 오래전에 합의했던 [RICE_baqt_treaty|E]의 조항을 더 기꺼이 이행하며, 외교적 및 경제적 교류에 참여할 것입니다. 생명의 물인 나일강의 축복을 받은 이 땅들이 앞으로 많은 번영과 평화를 누리기를 희망합니다." # 7675097011525829014
+  nubia.0002.desc.baqt_discord: "이집트와 누비아의 통치자들이 오래전에 맺었던 [RICE_baqt_treaty|E]의 조항들을 양 지역의 지도자들이 지키려 하지 않고 있습니다. 분쟁과 불화가 더욱 빈번해질 가능성이 있으며, 생명을 주는 나일강의 물조차도 만약 고난이 닥친다면 이 땅과 백성들을 부양하기에 충분하지 않을까 우려됩니다." # 2502039479137389057
+  nubia.0002.desc.conclusion: "이러한 추세의 장기적인 영향은 아직 두고 봐야 할 것입니다. [RICE_baqt_treaty|E]는 지금까지 살아남았으며, 분명히 계속해서 견뎌낼 것입니다." # 5891304763073008886
+  nubia.0002.a: "나일강은 영원하지만, 그 백성들은 끊임없이 변모한다." # 4712524884094259814
+  nubia.0003.t: "xxxxx" # 1951045980481827005
+  nubia.0003.desc: "xxxxx" # 1951045980481827005
+  nubia.0003.a: "xxxxx" # 1951045980481827005
+  nubia.0004.t: "xxxxx" # 1951045980481827005
+  nubia.0004.desc: "xxxxx" # 1951045980481827005
+  nubia.0004.a: "xxxxx" # 1951045980481827005
+  nubia.0005.t: "xxxxx" # 1951045980481827005
+  nubia.0005.desc: "xxxxx" # 1951045980481827005
+  nubia.0005.a: "xxxxx" # 1951045980481827005
+  nubia.0006.t: "xxxxx" # 1951045980481827005
+  nubia.0006.desc: "xxxxx" # 1951045980481827005
+  nubia.0006.a: "xxxxx" # 1951045980481827005
+  nubia.0007.t: "xxxxx" # 1951045980481827005
+  nubia.0007.desc: "xxxxx" # 1951045980481827005
+  nubia.0007.a: "xxxxx" # 1951045980481827005
+  nubia.0008.t: "xxxxx" # 1951045980481827005
+  nubia.0008.desc: "xxxxx" # 1951045980481827005
+  nubia.0008.a: "xxxxx" # 1951045980481827005
+  nubia.0009.t: "xxxxx" # 1951045980481827005
+  nubia.0009.desc: "xxxxx" # 1951045980481827005
+  nubia.0009.a: "xxxxx" # 1951045980481827005
+  nubia.0010.t: "xxxxx" # 1951045980481827005
+  nubia.0010.desc: "xxxxx" # 1951045980481827005
+  nubia.0010.a: "xxxxx" # 1951045980481827005
+  nubia.0011.t: "xxxxx" # 1951045980481827005
+  nubia.0011.desc: "xxxxx" # 1951045980481827005
+  nubia.0011.a: "xxxxx" # 1951045980481827005
+  nubia.0012.t: "나일강의 죽음" # 17456379669585345355
+  nubia.0012.desc: "나일강을 따라 혼란이 확산되고 있습니다. 섭정으로서 이집트를 실질적으로 통치하던 [rasad.GetFirstName] 왕대비의 통제력이 약해지고 있습니다. 파티마 왕조 군대의 파벌들이 도시에서 공개적으로 서로 싸우고 있으며, 중앙 정부가 군대에 급료를 지급하지 못하자 약탈까지 벌이고 있어 이집트는 기근에 시달리고 있습니다.\n\n가장 강력한 두 파티마 군대 파벌이 나타났습니다. 투르크계 부대는 소수의 정예 기병대로 이루어져 있으며, 그들의 가장 강력한 지휘관인 무자비한 [nasir_al_dawla.GetNickname]은 이집트의 #italic 실질적인#! 군사 독재자가 되기 위해서라면 수단과 방법을 가리지 않을 것입니다. 한편, 아프리카 파벌은 주로 [nahid_al_dawla.GetNickname]이 이끄는 흑인 보병으로 구성되어 있습니다. 아프리카계인 [rasad.GetFirstNameNoTooltip]는 자국민들이 자신의 권력 유지를 도와줄 것이라는 희망을 품고 그들에게 가담했습니다.\n\n이 두 집단이 충돌하는 동안, 레반트에서 가장 유능한 파티마 지휘관인 [badr_al_jamali.GetFirstName]과 이집트와 누비아의 국경을 지키는 [banu_kanz.GetDynastyName] 가문의 군벌들은 상황을 관망하고 있습니다." # 17350985044151180421
+  nubia.0012.a: "이곳 이집트에는 큰 재앙의 시간이 닥쳤습니다...." # 9261749077227986946
+  nubia.0012.tooltip.intro: "#emphasis 역사적 배경:#! 1060년대와 1070년대 초는 파티마 왕조 이집스에서 큰 격변의 시기였으며, 이는 나중에 #italic 알-쉬다 알-우즈마#!, 즉\"대재\"으로 알려졌습니다. 다만 일부 최신 학계에서는 이 시기가 (종종 후대의) 사료에 의해 종말론적 규모로 과장되었다고 추측하기도 합니다.\n\n전통적인 기록에 따르면, 파티마 왕조 국가는 여러 군벌 세력, 가장 두드러지게는 흑인 부대와 투르크 부대 간의 내전으로 몸살을 앓았으며, 기근과 나일강의 수위 저하로 상황이 더욱 악화되었습니다. 결국, 아르메니아계 장군인 #bold 바드르 알-자말리#!가 라이벌들을 제거하면서 질서가 회복되었습니다. 파티마 칼리프인 #bold 알-무스타시르#!는 그를 재상으로 임명하고 평생 동안 실질적인 군사 독재자가 될 수 있는 권한을 부여했습니다." # 15611680444970275346
+  nubia.0012.tooltip.al_mustansir: "$nubia.0012.tooltip.intro$\n\n1036년 칼리프 알-무스타시르의 통치가 시작되었을 때, 초기에는 번영하고 안정적이었으나, 그가 가진 실권은 미미했습니다. 통치 초기에는 그의 어머니이자 아버지의 아프리카 출신 노예 첩이었던 라사드가 사실상의 섭정 역할을 했습니다. 그의 긴 재위 기간 동안, 그는 궁정과 군대 내의 여러 파벌 간의 다툼을 막을 힘이 없었으며, 파티마 왕조 내전 중에는 그의 재산이 약탈적인 군대에 의해 약탈당하여 자선 기부금으로 연명해야 했다고 전해집니다.\n\n1094년에 알-무스타시르가 사망하자, 파티마 왕조는 그의 두 아들인 니자르와 알-무스타알리 사이에서 후계자 다툼을 겪게 됩니다. 이때쯤 파티마 왕조는 이미 그 권력의 상당 부분을 잃은 상태였습니다." # 17785367234402576623

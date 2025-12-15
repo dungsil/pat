@@ -482,7 +482,7 @@
   activity_RICE_sicily_virgil_tomb_visit_predicted_cost: "이 [activity|E]의 비용은 주로 귀하의 [income|E]에 따라 결정됩니다." # 10498845032472754788
   activity_RICE_sicily_virgil_tomb_visit_conclusion_desc: "우리의 [GetActivityType( 'activity_RICE_sicily_virgil_tomb_visit' ).GetName]이 끝났습니다. 참으로 경이로운 장소로다!" # 16806653130638021478
   RICE_sicily_virgil_tomb_visit_visitation_phase: "바라보다" # 716106150504941729
-  RICE_sicily_virgil_tomb_visit_visitation_phase_desc: "\"#italic 포르산 엣 헤크 올림 메미니세 주바비트.#!\"\\\"언젠가 이 일도 즐거운 추억이 되리라\"\n- 베르길리우스" # 18333628935932212673
+  RICE_sicily_virgil_tomb_visit_visitation_phase_desc: "\"#italic 포르산 엣 헤크 올림 메미니세 주바비트.#\"\\\"언젠가 이 순간도 즐거운 추억으로 남을 것이다\"\n- 베르길리우스" # 18333628935932212673
   RICE_sicily_virgil_tomb_visit_miracle_intent_header: "기적:" # 13156215268681701142
   RICE_sicily_virgil_tomb_visit_miracle_intent: "기적:" # 17244072275443662832
   RICE_sicily_virgil_tomb_visit_miracle_intent_desc: "기적이나 축복을 얻고 싶으시군요. #V 100#! 만큼의 추가 #V [piety_i|E]# [piety|E]를 얻습니다. 그리고 [piety_level|E]에 따라 [GetModifier('RICE_sicily_virgil_miracles').GetNameWithTooltip] [modifier|E]를 얻을 확률이 #V [GetPlayer.MakeScope.ScriptValue('RICE_sicily_virgil_activity_piety_chance')|0]%#가 됩니다." # 3752154900378253333
@@ -505,7 +505,7 @@
   activity_RICE_sicily_palermo_tomb_visit_predicted_cost: "이 [activity|E]의 비용은 주로 귀하의 [income|E]에 따라 결정됩니다." # 10498845032472754788
   activity_RICE_sicily_palermo_tomb_visit_conclusion_desc: "우리의 [GetActivityType( 'activity_RICE_sicily_palermo_tomb_visit' ).GetName]이 끝났습니다. 참으로 경이로운 곳이로군요!" # 2144280849611608247
   RICE_sicily_palermo_tomb_visit_visitation_phase: "바라보다" # 716106150504941729
-  RICE_sicily_palermo_tomb_visit_visitation_phase_desc: "\"#italic 포르산 엣 헤크 올림 메미니세 주바비트.#!\"\\\"언젠가 이 일도 즐거운 추억이 되리라\"\n- 베르길리우스" # 18333628935932212673
+  RICE_sicily_palermo_tomb_visit_visitation_phase_desc: "\"#italic 포르산 엣 헤크 올림 메미니세 주바비트.#\"\\\"언젠가 이 순간도 즐거운 추억으로 남을 것이다\"\n- 베르길리우스" # 18333628935932212673
   RICE_sicily_palermo_tomb_visit_aristotle: "아리스토텔레스" # 10698766679196580728
   RICE_sicily_palermo_tomb_visit_aristotle_desc: "$EFFECT_LIST_BULLET$ [GetModifier('RICE_sicily_aristotle_tomb_visit').GetNameWithTooltip] [modifier|E] 획득\n$EFFECT_LIST_BULLET$ [piety_i|E] #V [GetPlayer.MakeScope.ScriptValue('minor_piety_gain')|0]#! [piety|E] 획득\n$EFFECT_LIST_BULLET$ [GetTrait('calm').GetName( GetNullCharacter )], [GetTrait('patient').GetName( GetNullCharacter )], [GetTrait('scholar').GetName( GetNullCharacter )] 또는 [GetTrait('theologian').GetName( GetNullCharacter )] [traits|E]를 보유한 경우 추가 [stress_loss_i|E][stress|E]를 잃음\n\n#weak 저명한 철학자 아리스토텔레스의 관은 [GetTitleByKey('c_palermo').GetNameNoTierNoTooltip]의 주요 예배당 나무 들보에 매달려 있었다고 전해집니다.#" # 3781444206235219542
   RICE_sicily_palermo_tomb_visit_galen: "갈렌" # 599418674499917328
@@ -799,3 +799,803 @@
   RICE_sicily_virgil_negative_modifier_25_desc: "$RICE_sicily_virgil_modifier_intro_desc$\n\n#italic 오, 팔리누루스여, 너무나도 잔잔한 하늘과 바다를 믿었구나. 너의 벌거벗은 시신은 낯선 해변에 누워 있으리라.\n\\\"그대는 너무나도 잔잔한 하늘과 바다를 믿었노라. 오, 팔리누루스여. 그대의 벌거벗은 시신은 낯선 모래사장 위에 누워 있으리라\"" # 5557293332769579677
   RICE_sicily_virgil_negative_modifier_26: "$RICE_sicily_virgil_modifier_intro$" # 6999102761057277332
   RICE_sicily_virgil_negative_modifier_26_desc: "$RICE_sicily_virgil_modifier_intro_desc$\n\n#italic 공포가 사방에 가득하고, 침묵마저도 영혼을 위협하는구나.\n\\\"모든 것이 공포와 두려움으로 가득 찼고, 심지어 밤의 고요함마저도 두려웠다\"" # 16875615448062167155
+  RICE_sicily_virgil_negative_modifier_27: "$RICE_sicily_virgil_modifier_intro$" # 6999102761057277332
+  RICE_sicily_virgil_negative_modifier_27_desc: "$RICE_sicily_virgil_modifier_intro_desc$\n\n#italic 우리 수고로 가득 차지 않은 땅이 세상에 어디 있으랴?\n\\\"세상의 어느 지역인들 우리의 재앙으로 가득하지 않겠는가\"" # 9965243906959948341
+  RICE_sicily_virgil_negative_modifier_28: "$RICE_sicily_virgil_modifier_intro$" # 6999102761057277332
+  RICE_sicily_virgil_negative_modifier_28_desc: "$RICE_sicily_virgil_modifier_intro_desc$\n\n#italic 거대한 물결이 우리를 하늘로 치솟게 했다가, 파도가 가라앉자마자 우리는 곧장 지옥의 심연으로 떨어진다.\n\\\"거대한 물결이 우리를 하늘로 치솟게 했다가, 파도가 가라앉자마자 우리는 곧장 지옥의 심연으로 떨어진다\"" # 2551654613139413053
+  RICE_sicily_virgil_negative_modifier_29: "$RICE_sicily_virgil_modifier_intro$" # 6999102761057277332
+  RICE_sicily_virgil_negative_modifier_29_desc: "$RICE_sicily_virgil_modifier_intro_desc$\n\n#italic Omnia tuta timens.\n\\\"모든 것이 안전함에도 불구하고, 그녀는 이제 모든 것을 두려워하는구나\"" # 18133907283338301999
+  RICE_sicily_virgil_negative_modifier_30: "$RICE_sicily_virgil_modifier_intro$" # 6999102761057277332
+  RICE_sicily_virgil_negative_modifier_30_desc: "$RICE_sicily_virgil_modifier_intro_desc$\n\n#italic 각자 자신의 뼈아픈 망령을 짊어져야 하는 법이지.\n\\\"우리 각자는 자신의 끈질긴 망령을 감내해야 한다\"" # 14695898586301893309
+  RICE_sicily_struggle_current_dominance: "#bold 예상되는 [sicily_dominance|E]:#! | @RICE_sicily_latin_icon! #V [GetGlobalVariable('RICE_sicily_latin_dominance').GetValue|0]#! | @RICE_sicily_greek_icon! #V [GetGlobalVariable('RICE_sicily_greek_dominance').GetValue|0]#! | @RICE_sicily_arabic_icon! #V [GetGlobalVariable('RICE_sicily_arabic_dominance').GetValue|0]#!" # 15517218197367214485
+  RICE_sicily_struggle_ending_dominion_decision: "영지" # 134640798382268692
+  RICE_sicily_struggle_ending_dominion_decision_tooltip: "[GetGeographicalRegion('custom_sicily').GetNameNoTooltip]은 강대하고 강력한 영토가 될 것입니다" # 4984882866754490761
+  RICE_sicily_struggle_ending_dominion_decision_desc: "[GetGeographicalRegion('custom_sicily').GetName]은 탐욕스러운 외부인들과 배신적인 현지인들의 사소한 변덕과 분쟁에 너무나 오랫동안 시달려 왔습니다. 만약 우리가 지중해의 풍요로움을 활용하고자 한다면, 이 변경 지역은 하나의 민족, 하나의 신앙, 하나의 통치자 아래 통합되어야 합니다." # 14920923050330682367
+  RICE_sicily_struggle_ending_dominion_decision_confirm: "시칠리아는 우리의 영지다!" # 4546544214629716513
+  RICE_SICILY_PICK_DOMINION_ENDING_TYPE: "지배령 선택" # 2602769925779630477
+  RICE_sicily_struggle_ending_dominion_latin_name: "라틴 도미니온" # 17831176204151341535
+  RICE_sicily_struggle_ending_dominion_latin_tooltip: "[GetGeographicalRegion('custom_sicily').GetName]은 [GetPlayer.GetFaith.HighGodName]의 은총으로 다시 한번 신실하고 의로운 땅으로 거듭나, 라틴 세력의 새로운 중심지이자 위상을 떨치게 될 것입니다!\n$struggle_persia_ending_foundation_decision_option_second_tooltip$" # 3631068683184182976
+  RICE_sicily_struggle_ending_dominion_greek_name: "그리스 도미니온" # 4656285292625956102
+  RICE_sicily_struggle_ending_dominion_greek_tooltip: "로마 제국의 첫 번째 속주였던 [GetGeographicalRegion('custom_sicily').GetName]의 상실과 쇠퇴는 제국에 큰 수치였습니다. 이 땅은 로마 제국의 진정한 속주로 되찾아질 것입니다.\n$struggle_persia_ending_foundation_decision_option_second_tooltip$" # 11503434466923419858
+  RICE_sicily_struggle_ending_dominion_arabic_name: "아랍-베르베르 도미니언" # 9556913263483849771
+  RICE_sicily_struggle_ending_dominion_arabic_tooltip: "수년 전 첫 아랍인과 베르베르인 정착민들이 [GetGeographicalRegion('custom_sicily').GetName]에 도착했습니다. 이제 이 땅의 잠재력을 최대한 끌어올릴 때입니다.\n$struggle_persia_ending_foundation_decision_option_second_tooltip$" # 12123303897073073959
+  RICE_sicily_struggle_ending_dominion_outsider_name: "뉴커머 도미니언" # 11498424684825470388
+  RICE_sicily_struggle_ending_dominion_outsider_tooltip: "라틴인, 그리스인, 아랍인들이 마치 아이들이 장난감을 두고 다투듯 [GetGeographicalRegion('custom_sicily').GetName]을 두고 싸웠습니다. 이제 외부에서 온 이 지역의 #italic 진정한#! 지배자들이 도착할 때입니다.\n$struggle_persia_ending_foundation_decision_option_second_tooltip$" # 7021573822952315834
+  RICE_sicily_struggle_ending_crossroads_decision: "교차로" # 5910689186392628725
+  RICE_sicily_struggle_ending_crossroads_decision_tooltip: "[GetGeographicalRegion('custom_sicily').GetNameNoTooltip]이 지중해를 하나로 모을 것입니다" # 12628807468994252571
+  RICE_sicily_struggle_ending_crossroads_decision_desc: "[GetGeographicalRegion('custom_sicily').GetName]은 탐욕스러운 외부인과 배신적인 현지인들의 사소한 변덕과 갈등에 너무 오랫동안 시달려 왔습니다. 너무나도 많은 민족, 신앙, 통치자들이 이 변경 지역에서 살아왔으며, 우리는 지중해의 풍요로움을 수확하기 위해 함께 협력하는 법을 배워야 합니다." # 5491417919058440938
+  RICE_sicily_struggle_ending_crossroads_decision_confirm: "시칠리아는 위대한 교차로가 될 것이다!" # 1567212779862341140
+  RICE_sicily_struggle_ending_crossroads_development_higher_tt: "[capital|E]의 [de_jure|E] [duchy|E] 내 모든 [county|E]는 최소 #V [EmptyScope.ScriptValue('RICE_sicily_crossroads_ending_development_level_higher')|0]#! [development_i|E] [development|E]를 보유하고 있습니다." # 16189489223665653080
+  RICE_sicily_struggle_ending_crossroads_development_lower_tt: "귀하의 [capital|E]의 [de_jure|E] [duchy|E] 내 모든 [county|E]는 최소 #V [EmptyScope.ScriptValue('RICE_sicily_crossroads_ending_development_level_lower')|0]#! [development_i|E] [development|E]를 보유하고 있습니다." # 11214121359787452204
+  RICE_sicily_struggle_periphery_ending_dominant_tt: "[GetGeographicalRegion('custom_sicily').GetNameNoTooltip] 내의 #V 지배적인 기질#!은 다음 사항에 의해 결정될 것입니다:\n$EFFECT_LIST_BULLET$ [GetGeographicalRegion('custom_sicily').GetNameNoTooltip] 내 특정 [culture|E] 및 [faiths|E]를 가진 [counties|E]와 [rulers|E]의 수\n$EFFECT_LIST_BULLET$ [GetTrait('RICE_sicilian_ruler').GetName( GetNullCharacter )] [trait|E]를 가진 [rulers|E]의 [trait_level_track_xp|E]" # 12175847713940733637
+  RICE_sicily_struggle_periphery_ending_county_modifier_tt: "[GetGeographicalRegion('custom_sicily').GetNameNoTooltip] 내 모든 [county|E]는 #V 지배적 기층#!을 나타내는 다음의 [county_modifiers|E]를 얻습니다:\n$EFFECT_LIST_BULLET$" # 4833032782856477466
+  RICE_sicily_struggle_periphery_ending_admin_frontier_tt: "$RICE_sicily_administer_frontier$ [decision|E]는 #V 지배 기질#과 관련된 [rulers|E]에게 더 저렴해질 것입니다." # 11166208958586181071
+  RICE_sicily_struggle_periphery_ending_restart_tt: "$RICE_sicily_struggle$ [struggle|E]은 다음 중 하나를 수행하여 [rulers|E]가 [decision|E]를 취함으로써 #V 재시작#!될 수 있습니다:\n$EFFECT_LIST_BULLET$#italic $RICE_sicily_occupy_sicilian_frontier$#! ([capital|E]가 [GetGeographicalRegion('custom_sicily').GetNameNoTooltip] 밖에 있을 경우)\n$EFFECT_LIST_BULLET$#italic $RICE_sicily_stabilize_sicilian_frontier$#! ([capital|E]가 [GetGeographicalRegion('custom_sicily').GetNameNoTooltip] 내에 있을 경우)" # 7428921322163722889
+  RICE_sicily_struggle_imperial_ending_dominant_tt: "[GetGeographicalRegion('custom_sicily').GetNameNoTooltip] 내의 #V 지배 계층#!은 다음을 통해 결정될 것입니다:\n$EFFECT_LIST_BULLET$ [GetGeographicalRegion('custom_sicily').GetNameNoTooltip] 내 특정 [culture|E] 및 [faiths|E]를 가진 [counties|E]와 [rulers|E]의 수\n$EFFECT_LIST_BULLET$ [GetTrait('RICE_sicilian_ruler').GetName( GetNullCharacter )] [trait|E]를 가진 [rulers|E]의 [trait_level_track_xp|E]" # 6552606857855556035
+  RICE_sicily_struggle_imperial_ending_county_modifier_tt: "[GetGeographicalRegion('custom_sicily').GetNameNoTooltip] 내 모든 [county|E]는 #V 지배 계급#!을 나타내는 다음의 [county_modifiers|E]를 받습니다:\n$EFFECT_LIST_BULLET$" # 665016036019857276
+  RICE_sicily_struggle_imperiality_ending_admin_frontier_tt: "$RICE_sicily_administer_frontier$ [decision|E]는 #V 지배 기질#과 관련된 [rulers|E]에게 추가 [prestige_i|E] [prestige|E]를 부여할 것입니다." # 16468543619104750340
+  RICE_sicily_struggle_imperial_ending_restart_tt: "$RICE_sicily_struggle$ [struggle|E]은 다음 중 하나의 [decision|E]을 내리는 [rulers|E]에 의해 #V 재시작#!될 수 있습니다:\n$EFFECT_LIST_BULLET$#italic $RICE_sicily_occupy_sicilian_frontier$#! (지배적인 통치 계층의 [culture|E]나 [faith|E]를 가지지 않음)\n$EFFECT_LIST_BULLET$#italic $RICE_sicily_stabilize_sicilian_frontier_imperial$#! ([capital|E]가 [GetGeographicalRegion('custom_sicily').GetNameNoTooltip] 내에 위치함) (지배적인 통치 계층의 [culture|E]나 [faith|E]를 가짐!)" # 14214129909320464695
+  RICE_sicily_administer_frontier: "시칠리아 변경 관리하기" # 1435807681432086719
+  RICE_sicily_administer_frontier_tooltip: "변경 지역이라도 제대로 관리해야 하오!" # 9419736451391275056
+  RICE_sicily_administer_frontier_desc: "[GetGeographicalRegion('custom_sicily').GetName]은 끊임없이 변화하고 역동적인 특성을 지닌 땅입니다. 이러한 환경에서 적절한 행정은 그저 있으면 좋은 것이 아니라, 이 변경 지대에서는 필수적이며 방치할 경우 위험을 초래합니다." # 11618543377398922388
+  RICE_sicily_administer_frontier_confirm: "이 변경지대는 우리가 다스릴 곳이다!" # 5392021203638640941
+  RICE_sicily_administer_frontier_effect_tooltip_1: "관련 [trait|E]의 [GetTrait('RICE_sicilian_ruler').GetName( GetNullCharacter )] [trait|E] 트랙에서 최대 #V [GetPlayer.MakeScope.ScriptValue('RICE_sicily_signore_trait_xp_gain_major')]#! [trait_level_track_xp|E]를 획득합니다." # 15830821823022775126
+  RICE_sicily_administer_frontier_context_tooltip: "#emphasis 역사적 배경:#! 남부 이탈리아는 역사 대부분 동안 여러 민족 간의 경계지였습니다. 고대 로마, 그리스, 포에니 세계의 경계였든, 혹은 후대의 중세 라틴, 비잔티움, 무슬림 세계의 경계였든, 이곳은 다양한 민족과 정치체가 만나 생산적인 교류와 격렬한 대립을 동시에 낳은 장소였습니다. 이 지역에 사는 통치자들은 정체성과 충성심이 매우 유연하고 모호할 수 있는 이 다양하고 때로는 불안정한 후방 지역을 유지하고 번영시키기 위해 다양한 정책에 의존해야 했습니다." # 13964321393972128673
+  RICE_sicily_administer_frontier_substrate_latin_effect: "이 [decision|E]의 [gold_i|E] [gold|E] 비용은 [RICE_sicily_struggle|E]에서 [struggle_phase_sicily_periphery|E]가 발생한 후 해당 지역이 [GetModifier('RICE_sicily_substrate_latin').GetNameWithTooltip]을 따르고 있어 [sicily_latin_dominance_i|E] [sicily_latin|E] [rulers|E]에게 감소합니다." # 5374566991251943479
+  RICE_sicily_administer_frontier_substrate_greek_effect: "[sicily_greek_dominance_i|E] [sicily_greek|E] [rulers|E]의 경우, [RICE_sicily_struggle|E]에서 [struggle_phase_sicily_periphery|E]를 겪은 후 해당 지역이 [GetModifier('RICE_sicily_substrate_greek').GetNameWithTooltip]을 가지게 되어 이 [decision|E]에 필요한 [gold_i|E] [gold|E] 비용이 감소합니다." # 14461899556813388587
+  RICE_sicily_administer_frontier_substrate_arabic_effect: "이 [decision|E]의 [gold_i|E] [gold|E] 비용은 [RICE_sicily_struggle|E]에서 [struggle_phase_sicily_periphery|E]가 발생한 후 해당 지역이 [GetModifier('RICE_sicily_substrate_arabic').GetNameWithTooltip]을 가지게 되어 [sicily_arabic_dominance_i|E] [sicily_arabic|E] [rulers|E]에게 감소합니다." # 13998213758138984513
+  RICE_sicily_administer_frontier_ruling_class_latin_effect: "[sicily_latin_dominance_i|E] [sicily_latin|E] [rulers|E]는 지역의 [RICE_sicily_struggle|E]에서 [struggle_phase_sicily_imperial|E]가 발생한 후 [GetModifier('RICE_sicily_ruling_class_latin').GetNameWithTooltip]로 인해 이 [decision|E]를 수행할 때 [prestige_i|E] [prestige|E] 보너스를 얻습니다." # 3110475838990993706
+  RICE_sicily_administer_frontier_ruling_class_greek_effect: "[sicily_greek_dominance_i|E] [sicily_greek|E] [rulers|E]는 [RICE_sicily_struggle|E]에서 [struggle_phase_sicily_imperial|E]가 발생한 후, 해당 지역의 [GetModifier('RICE_sicily_ruling_class_greek').GetNameWithTooltip] 덕분에 이 [decision|E]를 내릴 때 [prestige_i|E] [prestige|E] 보너스를 얻습니다." # 13136278012781715140
+  RICE_sicily_administer_frontier_ruling_class_arabic_effect: "[sicily_arabic_dominance_i|E] [sicily_arabic|E] [rulers|E]는 [RICE_sicily_struggle|E]에서 [struggle_phase_sicily_imperial|E]이 발생한 후, 해당 지역의 [GetModifier('RICE_sicily_ruling_class_arabic').GetNameWithTooltip]으로 인해 이 [decision|E]을 수행할 때 [prestige_i|E] [prestige|E] 보너스를 얻습니다" # 15023113941598346233
+  RICE_SICILY_PICK_AGENDA_TYPE: "의제를 결정하십시오!" # 9562786917172245906
+  RICE_sicily_frontier_agenda_government_practices_name: "정부 관행 개혁" # 2387747812547833090
+  RICE_sicily_frontier_agenda_government_practices_desc: "$RICE_sicily_frontier_agenda_government_practices_name$" # 16189818172520553034
+  RICE_sicily_frontier_agenda_government_practices_tooltip: "#weak 가까운 곳과 먼 곳의 아이디어가 행정력을 향상시킬 수 있습니다#!" # 17506942097408625085
+  RICE_sicily_agenda_government_practices_effect_1_tt: "귀하는 [sicily_latin|E], [sicily_greek|E] 또는 [sicily_arabic|E] 행정 관행 중 어느 것을 모방할지 결정해야 합니다." # 4260758420058001541
+  RICE_sicily_agenda_government_practices_effect_2_tt: "주변에 자격 있는 [rulers|E]가 있다면, 그들의 행정에서 영감을 얻어 그들의 당신에 대한 [opinion|E]을 높이거나 심지어 그들과 [friend|E]가 될 수도 있습니다." # 11316691335447773165
+  RICE_sicily_frontier_agenda_settlements_name: "전략적 거점 강화" # 10811519328083070468
+  RICE_sicily_frontier_agenda_settlements_desc: "$RICE_sicily_frontier_agenda_settlements_name$" # 10111122517238775403
+  RICE_sicily_frontier_agenda_settlements_tooltip: "#weak 우리의 [counties|E]는 잘 방어되어야 하오.#" # 2923278138980782029
+  RICE_sicily_fortify_settlement_effect_tt_1: "[sicily_stronghold_short|E]가 있는 소유 [counties|E]는 부정적인 사건이 발생할 확률이 감소합니다." # 5962944835168926989
+  RICE_sicily_fortify_settlement_effect_tt_2: "귀하의 [martial_i|E] [martial|E]와 [prestige_i|E] [prestige_level|E]에 따라 궁정에 [knight|E]가 생성될 확률이 #V [GetPlayer.MakeScope.ScriptValue('RICE_sicily_fortify_stronghold_knight_spawn_chance')|0]%#! 입니다." # 5002822640781043397
+  RICE_sicily_frontier_agenda_records_name: "관료 기록 갱신" # 3734175037933273746
+  RICE_sicily_frontier_agenda_records_desc: "$RICE_sicily_frontier_agenda_records_name$" # 5605647745752139796
+  RICE_sicily_frontier_agenda_records_tooltip: "#weak 이 불확실한 시기에는 상세한 기록이 필수적이다!#" # 15906366373531229520
+  RICE_sicily_frontier_agenda_records_effect_tt_1: "[GetGeographicalRegion('custom_sicily').GetNameNoTooltip] 내 귀하가 소유한 [counties|E]는 [control_i|E] [control|E]를 높이고 [gold_i|E] [tax|E] 수입을 높이는 [county_modifier|E]를 얻게 됩니다." # 13939787065549851904
+  RICE_sicily_frontier_agenda_records_effect_tt_2: "귀하는 [sicily_latin_dominance_i|E] [sicily_latin|E], [sicily_greek_dominance_i|E] [sicily_greek|E], 그리고 [sicily_arabic_dominance_i|E] [sicily_arabic|E] 문서를 신뢰할지 선택해야 합니다." # 13960778569353070659
+  RICE_sicily_frontier_agenda_records_effect_tt_3: "[county_modifier|E]가 활성화되어 있는 동안, 매년 [county|E] 소유주가 자신의 [skill|E]에 따라 [GetTrait('RICE_sicilian_ruler').GetName( GetNullCharacter )] [trait|E]의 [trait_level_track_xp|E]를 얻을 작은 확률이 있습니다." # 8460516464334016390
+  RICE_sicily_frontier_agenda_officials_name: "충성스러운 관료 승진" # 15705212056667405273
+  RICE_sicily_frontier_agenda_officials_desc: "$RICE_sicily_frontier_agenda_officials_name$" # 10944205468805477298
+  RICE_sicily_frontier_agenda_officials_tooltip: "#weak 영지를 섬길 훌륭한 [courtiers|E]를 찾아보시오!#" # 5056537480493641721
+  RICE_sicily_frontier_agenda_officials_effect_tt_1: "귀하는 두 명의 잠재적인 [courtiers|E] 중 한 명을 선택하여 자신의 궁정으로 맞이하게 되며, 그들의 [culture|E], [faith|E], 그리고 [education|E] [trait|E](항상 3등급 또는 4등급임)는 귀하의 선택에 따라 결정됩니다." # 12530759221031605826
+  RICE_sicily_frontier_agenda_officials_effect_tt_2: "기본적으로 귀하의 [sicily_world|E] 후보들은 항상 선택 가능합니다. [RICE_sicily_struggle|E]의 다른 [sicily_worlds|E]에서 온 후보들은 귀하가 [GetTrait('RICE_sicilian_ruler').GetName( GetNullCharacter )] [trait|E]의 관련 트랙에서 최소한 #V 50#! [trait_level_track_xp|E]를 보유하고 있을 경우 선택할 수 있습니다." # 15870735538600250192
+  RICE_sicily_frontier_agenda_arts_and_sciences_name: "예술과 학문 후원" # 15336227670776171341
+  RICE_sicily_frontier_agenda_arts_and_sciences_desc: "$RICE_sicily_frontier_agenda_arts_and_sciences_name$" # 8086684603447106580
+  RICE_sicily_frontier_agenda_arts_and_sciences_tooltip: "#weak 변경 지역의 교양 수준에 외부인들은 놀라게 될 것이다!#" # 1153909811005610050
+  RICE_sicily_frontier_agenda_arts_and_sciences_effect_tt_1: "귀하는 [sicily_latin_dominance_i|E] [sicily_latin|E], [sicily_greek_dominance_i|E] [sicily_greek|E], 그리고 [sicily_arabic_dominance_i|E] [sicily_arabic|E] [sicily_worlds|E] 내에서 예술과 과학 후원을 선택하게 될 것입니다." # 22122847686113706
+  RICE_sicily_frontier_agenda_arts_and_sciences_effect_tt_2: "#italic 이 아닌# 세계를 선택하는 것은 추가적인 [piety_i|E] [piety|E]를 소모하게 됩니다." # 5180308112203054110
+  RICE_sicily_frontier_agenda_arts_and_sciences_effect_tt_3: "[GetPlayer.MakeScope.ScriptValue('RICE_sicily_art_science_scholar_chance')|0]%#의 확률로, 1년 이내에 귀하의 [prestige_i|E] [prestige_level|E] 및 [learning_i|E] [learning|E]에 따라 해당 [sicily_world|E] 출신의 학술적인 [courtier|E]가 궁정에 나타날 것입니다." # 843396232495062374
+  RICE_sicily_frontier_agenda_immigrants_name: "이민자 유치" # 297700383919666255
+  RICE_sicily_frontier_agenda_immigrants_desc: "$RICE_sicily_frontier_agenda_immigrants_name$" # 10738131087653284713
+  RICE_sicily_frontier_agenda_immigrants_tooltip: "#weak 시칠리아는 국내외 정착민들이 필요한 식민 사회입니다!#" # 6777299762931165113
+  RICE_sicily_frontier_agenda_immigrants_effect_tt_1: "[GetGeographicalRegion('custom_sicily').GetNameNoTooltip]에서 소유한 [counties|E]는 [development_i|E] [development|E]를 증진시키고 [buildings|E] 건설 시 [gold_i|E] 비용을 감소시키는 [county_modifier|E]를 얻게 됩니다." # 12808535664653073519
+  RICE_sicily_frontier_agenda_immigrants_effect_tt_2: "귀하는 [sicily_worlds|E]에 속한 이민자들만 끌어들일 수 있습니다." # 10174443541519498343
+  RICE_sicily_frontier_agenda_ports_name: "카리카토리 포르츠" # 14139751491852800250
+  RICE_sicily_frontier_agenda_ports_desc: "$RICE_sicily_frontier_agenda_ports_name$" # 864066800721705520
+  RICE_sicily_frontier_agenda_ports_tooltip: "#weak 특별 항구인 카리카토리에서 곡물을 수출하는 것은 시칠리아 경제에 필수적입니다!#" # 5223011287484454528
+  RICE_sicily_agenda_port_effect_tt: "귀하는 곡물 수출을 외국의 [sicily_latin|E], [sicily_greek|E], 또는 [sicily_arabic|E] 항구에 집중할지 결정하여, 해당 지역의 [rulers|E]와 진행하는 [sicily_grain|E] [interactions|E]에서 얻는 보너스를 향상시키는 [modifier|E]를 얻게 됩니다." # 7246105065702126577
+  RICE_sicily_recruit_soldiers_decision: "[GetGeographicalRegion('custom_sicily').GetNameNoTooltip]에서 병사 징집" # 15941010988888047853
+  RICE_sicily_recruit_soldiers_decision_tooltip: "[RICE_sicily_struggle|E]는 적절한 대가를 지불한다면 우리를 위해 싸울 많은 병사들의 고향입니다." # 9665872214476361989
+  RICE_sicily_recruit_soldiers_decision_desc: "혼란스러운 [RICE_sicily_struggle|E]는 전투에 능한 이들이 많이 거주하는 곳입니다. 재물을 찾아 나선 모험가들부터 수많은 약탈자들로부터 고향을 지켜온 지역 베테랑들까지, 올바른 보상만 주어진다면 언제나 저와 같은 [rulers|E]를 위해 싸우고자 하는 이들이 있기 마련입니다." # 6520210895200133055
+  RICE_sicily_recruit_soldiers_decision_confirm: "잠재적 모집 대상을 찾아보시오!" # 4424830413234549747
+  RICE_sicily_recruit_soldiers_decision_effect_tooltip_1: "해당 시칠리아 공동체의 [sicily_stronghold|E]를 소유하면 비용이 감소하고 획득하는 [men_at_arms|E]의 수가 증가합니다." # 10925196563570257908
+  RICE_sicily_recruit_soldiers_decision_context_tooltip: "#emphasis 역사적 배경:#! 중세 시칠리아는 종종 여러 민족과 정치 세력 간의 격렬한 전장이었으며, 이들 중 다수는 지역 외부에서 세력 기반을 두고 있었습니다. 이 변경 지대가 매우 다양했기 때문에 정치적, 군사적 충성심은 매우 유연하여 개인의 민족적 또는 종교적 소속과 일치하지 않는 경우가 많았으며, 때로는 소수 민족 및 종교 집단이 고용주에 대한 가장 열렬한 지지자가 되기도 했는데, 이는 단지 그러한 지도자들이 다수 집단으로부터 그들을 보호해 줄 것이기 때문이었습니다. 예를 들어, 무슬림 병사들은 13세기에 루체라로 강제 추방된 후에도 성공적인 시칠리아 왕들을 충성스럽게 섬겼습니다. 또 다른 예로, 11세기에 노르만족이 시칠리아를 처음 침공했을 때, 현지 무슬림과 기독교 인구 모두에게서 노르만족의 지지자와 적을 찾아볼 수 있었습니다." # 1148120381682245048
+  RICE_sicily_latin_stronghold_appear_chance_desc: "#V [GetPlayer.MakeScope.ScriptValue('RICE_sicily_latin_stronghold_appearance_value')|0]%#! 확률로 귀하가 소유한 [GetGeographicalRegion('custom_sicily').GetName] 내 [county|E]에 #V 라틴계#! [sicily_stronghold|E]가 나타날 것입니다." # 2014555483840083520
+  RICE_sicily_greek_stronghold_appear_chance_desc: "#V [GetPlayer.MakeScope.ScriptValue('RICE_sicily_greek_stronghold_appearance_value')|0]%#! 확률로 귀하가 소유한 [GetGeographicalRegion('custom_sicily').GetName] 지역 내 [county|E]에 #V 그리스#! [sicily_stronghold|E]가 나타날 수 있습니다." # 7167917054132129440
+  RICE_sicily_arabic_stronghold_appear_chance_desc: "#V [GetPlayer.MakeScope.ScriptValue('RICE_sicily_arabic_stronghold_appearance_value')|0]%#! 확률로 귀하가 소유한 [GetGeographicalRegion('custom_sicily').GetName] 내 [county|E]에 #V 아랍-베르베르#! [sicily_stronghold|E]가 나타날 것입니다." # 16302375384126388699
+  RICE_sicily_spawn_latin_mercenaries_tt: "#V 200#!에서 #V 1000#! 사이의 [special_troops|E]를 획득하며, 여기에는 최소한 한 개의 [GetMaA('picchieri').GetName] [regiment|E] [men_at_arms|E]가 포함됩니다." # 1256355862315564236
+  RICE_sicily_spawn_early_latin_mercenaries_tt: "#V 200#!에서 #V 1000#! 사이의 [special_troops|E]를 획득하며, 이 중 최소 하나는 [GetMaA('RICE_arimanni').GetName] [regiment|E]의 [men_at_arms|E]입니다." # 5743407922471745902
+  RICE_sicily_spawn_greek_mercenaries_tt: "#V 200#!에서 #V 1000#! 사이의 [special_troops|E]를 획득하며, 여기에는 최소한 한 부대의 [GetMaA('cataphract').GetName] [regiment|E] [men_at_arms|E]가 포함됩니다." # 2656036278648466758
+  RICE_sicily_spawn_arabic_mercenaries_tt: "#V 200#!에서 #V 1000#! 사이의 [special_troops|E]를 획득하며, 여기에는 최소한 한 부대의 [GetMaA('RICE_sicily_bowmen').GetName] [regiment|E] [men_at_arms|E]가 포함됩니다." # 17202202593028358931
+  RICE_SICILY_PICK_SOLDIER_TYPE: "$RICE_sicily_recruit_soldiers_decision_confirm$" # 5500682530854066413
+  RICE_sicily_recruit_soldiers_choose_latin_name: "라틴스" # 12341221953911297631
+  RICE_sicily_recruit_soldiers_choose_latin_desc: "$RICE_sicily_recruit_soldiers_choose_latin_name$" # 9614994844829220367
+  RICE_sicily_recruit_soldiers_choose_latin_tooltip: "서유럽의 라틴인들은 적들에게 미개한 야만인으로 경멸받을지 모르나, 그들의 군사적 기량에 의문을 제기할 이는 거의 없을 것입니다. 그들은 종교를 위한다는 명분과 보다 세속적인 이유로 남부 이탈리아에서 오랫동안 싸워왔습니다." # 11377883873069725352
+  RICE_sicily_recruit_soldiers_choose_greek_name: "그리스인" # 2616149712574673224
+  RICE_sicily_recruit_soldiers_choose_greek_desc: "$RICE_sicily_recruit_soldiers_choose_greek_name$" # 13967528453269193597
+  RICE_sicily_recruit_soldiers_choose_greek_tooltip: "그들의 적들에게는 기만적인 반역자들로 폄하되지만, 그리스인들은 고향을 방어하는 데 매우 익숙합니다. 남부 이탈리아에 남아 있는 로마 통치의 잔재들은 제국의 위세, 혹은 과거의 위세를 모든 이들에게 상기시킵니다." # 981613250101408550
+  RICE_sicily_recruit_soldiers_choose_arabic_name: "아랍-베르베르" # 3893101198523469298
+  RICE_sicily_recruit_soldiers_choose_arabic_desc: "$RICE_sicily_recruit_soldiers_choose_greek_name$" # 13967528453269193597
+  RICE_sicily_recruit_soldiers_choose_arabic_tooltip: "적들은 그들을 무자비한 사라센 약탈자라 칭했지만, 아랍과 베르베르 부족들은 남부 이탈리아에 뿌리를 내렸습니다. 그들은 용맹과 용기로 자신들을 잘 대해주는 이들을 위해 싸울 것이며, 그들의 종교는 상관하지 않습니다." # 13920863812478348241
+  RICE_sicily_bargain_with_stronghold: "시칠리아 요새와 협상하기" # 10531325541275256023
+  RICE_sicily_bargain_with_stronghold_tooltip: "성가시긴 하지만, [sicily_strongholds|E]는 흥정의 대상이 될 수 있습니다." # 13358546354495029238
+  RICE_sicily_bargain_with_stronghold_desc: "광활한 변경 지대인 [RICE_sicily_struggle_short|E]에는 외국 군사 기지부터 옛 공동체의 잔존 요새에 이르기까지 다양한 [sicily_strongholds|E]가 흩어져 있습니다. 이들은 평민과 [rulers|E] 모두에게 가시와도 같지만, 그렇다고 해서 우리가 그들과 협상하여 상호 이익을 얻을 수 없다는 뜻은 아닙니다." # 6789302132372515107
+  RICE_sicily_bargain_with_stronghold_confirm: "그들이 거절할 수 없는 제안을 하시오!" # 862039526492883232
+  RICE_sicily_bargain_with_stronghold_context_tooltip: "#emphasis 역사적 배경:#! 수 세기에 걸친 분쟁, 이주, 동화 과정을 거치며 중세 시칠리아는 다층적인 지역이 되었습니다. 요새화가 잘 된 지역에 자리 잡은 일부 공동체들은 지역 통치자들에게 위협이 되기도 했지만, 상호 이익을 위한 기회가 되기도 했습니다. 예를 들어, 915년까지 지속된 가릴리아노(Garigliano)의 무슬림 거점은 끊임없는 약탈과 공격으로 로마를 포함한 인근 기독교 영토를 위협했지만, 때로는 공동의 적에 맞서 일부 기독교 영주들과 동맹을 맺기도 했습니다." # 14263690643798810843
+  RICE_SICILY_PICK_STRONGHOLD_TYPE: "$RICE_sicily_bargain_with_stronghold_confirm$" # 9938623776283918249
+  RICE_sicily_bargain_with_stronghold_choose_latin_name: "라틴스" # 12341221953911297631
+  RICE_sicily_bargain_with_stronghold_choose_latin_desc: "$RICE_sicily_bargain_with_stronghold_choose_latin_name$" # 2062791119757463801
+  RICE_sicily_bargain_with_stronghold_choose_latin_tooltip: "우리 영토 내에는 처리해야 할 [sicily_latin_dominance_i|E] [sicily_latin|E] [sicily_strongholds|E]가 있습니다." # 1080993711403482661
+  RICE_sicily_bargain_with_stronghold_choose_greek_name: "그리스인" # 2616149712574673224
+  RICE_sicily_bargain_with_stronghold_choose_greek_desc: "$RICE_sicily_bargain_with_stronghold_choose_greek_name$" # 12785376331594057142
+  RICE_sicily_bargain_with_stronghold_choose_greek_tooltip: "우리 영토 내에는 처리해야 할 [sicily_greek_dominance_i|E] [sicily_greek|E] [sicily_strongholds|E]가 있습니다." # 1320342355531951368
+  RICE_sicily_bargain_with_stronghold_choose_arabic_name: "아랍-베르베르" # 3893101198523469298
+  RICE_sicily_bargain_with_stronghold_choose_arabic_desc: "$RICE_sicily_bargain_with_stronghold_choose_arabic_name$" # 3825571460182121200
+  RICE_sicily_bargain_with_stronghold_choose_arabic_tooltip: "우리 영토 내에는 처리해야 할 [sicily_arabic_dominance_i|E] [sicily_arabic|E] [sicily_strongholds|E]가 있습니다." # 6116757226249020766
+  RICE_sicily_bargain_with_stronghold_latin_effect_tooltip_1: "[GetModifier('RICE_sicily_stronghold_latin_negotiations').GetNameWithTooltip] [county_modifier|E]를 [sicily_latin|E] [sicily_strongholds|E]에서 발생하는 #N 부정적인# 이벤트들을 막기 위해 [counties|E]에 #V 10#!년 동안 부여합니다. 이 보정치는 [GetModifier('RICE_sicily_stronghold_latin').GetNameWithTooltip]를 가지고 있을 때 적용됩니다." # 611740094576644226
+  RICE_sicily_bargain_with_stronghold_greek_effect_tooltip_1: "[GetModifier('RICE_sicily_stronghold_greek_negotiations').GetNameWithTooltip] [county_modifier|E]를 [counties|E]에 #V 10#!년 동안 부여하며, 이는 [sicily_greek|E] [sicily_strongholds|E]로부터 발생하는 #N 부정적인# 사건들을 막아줍니다. 이 효과는 [GetModifier('RICE_sicily_stronghold_greek').GetNameWithTooltip]이 적용된 곳에서만 나타납니다." # 231653741689233147
+  RICE_sicily_bargain_with_stronghold_arabic_effect_tooltip_1: "[counties|E]에 #V 10#!년 동안 [GetModifier('RICE_sicily_stronghold_arabic_negotiations').GetNameWithTooltip] [county_modifier|E]를 추가합니다. 이는 [sicily_arabic|E] [sicily_strongholds|E]로부터 발생하는 #N 부정적인#! 사건들을 방지합니다." # 1883419272205002267
+  RICE_sicily_bargain_with_stronghold_latin_effect_tooltip_2: "만약 귀하가 [GetTrait('RICE_sicilian_ruler').GetName( GetNullCharacter )] [trait|E]의 $trait_track_RICE_sicilian_ruler_latin$ 트랙에서 최소 2단계 이상이거나, [GetDynastyPerk('RICE_sicily_legacy_3').GetName] [dynasty_perk|E]를 보유하고 있다면, 추가적인 보너지를 협상할 수 있습니다." # 12868116065569021588
+  RICE_sicily_bargain_with_stronghold_greek_effect_tooltip_2: "만약 [GetTrait('RICE_sicilian_ruler').GetName( GetNullCharacter )] [trait|E]의 $trait_track_RICE_sicilian_ruler_greek$ 트랙에서 최소 2레벨을 달성했거나, [GetDynastyPerk('RICE_sicily_legacy_3').GetName] [dynasty_perk|E]를 가지고 있다면, 추가적인 보너스를 협상할 수 있습니다." # 3048158277184947236
+  RICE_sicily_bargain_with_stronghold_arabic_effect_tooltip_2: "만약 귀하가 [GetTrait('RICE_sicilian_ruler').GetName( GetNullCharacter )] [trait|E]의 $trait_track_RICE_sicilian_ruler_arabic$ 트랙에서 최소 2단계 이상이거나, [GetDynastyPerk('RICE_sicily_legacy_3').GetName] [dynasty_perk|E]를 보유하고 있다면, 추가적인 보너스를 흥정할 수 있습니다." # 16189393282545355953
+  RICE_sicily_bargain_with_stronghold_effect_tooltip_1: "[sicily_strongholds|E]가 요구하는 [gold|E]는 당신의 [traits|E], [skills|E], 그리고 [legitimacy_level|E]에 따라 [gold_i|E] #V [GetPlayer.MakeScope.ScriptValue('RICE_sicily_stronghold_bargain_min_bottom_value')|0]#!에서 [gold_i|E] #V [GetPlayer.MakeScope.ScriptValue('RICE_sicily_stronghold_bargain_max_top_value')|0]#! 사이에서 무작위로 결정됩니다." # 16791124193793054666
+  RICE_sicily_occupy_sicilian_frontier: "시칠리아 변경주 점령 시작" # 6007715215923012201
+  RICE_sicily_occupy_sicilian_frontier_tooltip: "[RICE_sicily_struggle|E]는 싸워볼 만한 가치가 있는 [region|E]입니다!" # 7881223858997284027
+  RICE_sicily_occupy_sicilian_frontier_desc: "[RICE_sicily_struggle|E]은 세계의 강대국들이 그곳을 오지라 여기며 방치하고 있습니다. 그럼에도 불구하고, [GetGeographicalRegion('custom_sicily').GetName] 밖에 있는 일부 야심 차고 선견지명이 있는 [rulers|E]들은 이 [region|E]가 다시 한번 지중해의 용광로, 싸워볼 가치가 있는 변경주가 될 수 있음을 알고 있습니다." # 10425849754884183345
+  RICE_sicily_occupy_sicilian_frontier_effect_tooltip_1: "[RICE_sicily_struggle|E] [struggle|E]을(를) [struggle_phase_sicily_colony|E] 단계에서 재개합니다." # 18292985007134421
+  RICE_sicily_occupy_sicilian_frontier_effect_tooltip_2: "[RICE_sicily_struggle|E]는 #V 지배#! 또는 #V 교차로#! [decisions|E]를 통해 종결될 때에만 영구적으로 끝낼 수 있습니다." # 268176972230288038
+  RICE_sicily_occupy_sicilian_frontier_effect_tooltip_3: "[GetGeographicalRegion('custom_sicily').GetName] 내의 #V 지배 기질#! 또는 #V 지배 계층#!을 나타내는 모든 [county_modifiers|E]가 제거됩니다." # 16660770318107382422
+  RICE_sicily_occupy_sicilian_frontier_confirm: "시칠리아 변경주는 우리의 것이 될 것이다!" # 1268070154808633429
+  RICE_sicily_occupy_sicilian_frontier_context_tooltip: "#emphasis 역사적 배경:#! 수 세기 동안 남부 이탈리아는 지중해의 중심부에 위치했음에도 불구하고 여러 문화의 경계에 걸쳐 있는 변경 지역이었습니다. 중세 시대에 이곳은 라틴 서방, 비잔티움, 그리고 이슬람이 만나는 장소였으며, 때로는 생산적인 #italic 공존#!의 정신으로, 때로는 끊임없는 충돌 속에서 그러했습니다. 하지만 갈등의 시기에도 이 변경 지역에 사는 사람들은 유연한 정체성과 충성심을 가지고 있었으며, 이는 존재하는 민족과 종교의 모자이크를 더욱 복잡하게 만들었습니다." # 6077213449087360188
+  RICE_sicily_stabilize_sicilian_frontier: "시칠리아 변경 재건" # 6633355814010512632
+  RICE_sicily_stabilize_sicilian_frontier_imperial: "시칠리아 변경 재건" # 6633355814010512632
+  RICE_sicily_stabilize_sicilian_frontier_tooltip: "[RICE_sicily_struggle|E]가 다시 한번 세력을 떨치고 있습니다!" # 10639679241293724751
+  RICE_sicily_stabilize_sicilian_frontier_desc: "[RICE_sicily_struggle|E]는 오랫동안 세계의 강대국들에게 외면당해 왔으며, 기껏해야 주변부 지역으로 치부되었습니다. 과연 [GetGeographicalRegion('custom_sicily').GetName]의 진정한 [GetPlayer.Custom('GetDaughterSon')]이 나타나 이 고대의 땅을 지중해의 용광로이자 싸워볼 가치가 있는 최전선이라는 본래의 자리로 되돌릴 수 있을까요?" # 897338857043501862
+  RICE_sicily_stabilize_sicilian_frontier_effect_tooltip_1: "[RICE_sicily_struggle|E] [struggle|E]을 [struggle_phase_sicily_borderland|E] 단계에서 재시작합니다." # 6599143110288327389
+  RICE_sicily_stabilize_sicilian_frontier_effect_tooltip_2: "$RICE_sicily_occupy_sicilian_frontier_effect_tooltip_2$" # 9935035220178329166
+  RICE_sicily_stabilize_sicilian_frontier_effect_tooltip_3: "$RICE_sicily_occupy_sicilian_frontier_effect_tooltip_3$" # 4765602447713264944
+  RICE_sicily_stabilize_sicilian_frontier_confirm: "$RICE_sicily_occupy_sicilian_frontier_confirm$" # 11682894078271547860
+  RICE_sicily_stabilize_sicilian_frontier_context_tooltip: "$RICE_sicily_occupy_sicilian_frontier_context_tooltip$" # 735374218432206944
+  RICE_sicily_admirals_bridge_decision: "제독의 다리 건설" # 14851769789355150885
+  RICE_sicily_admirals_bridge_decision_tooltip: "[GetTitleByKey('b_palermo').GetNameNoTier]를 가로지르는 거대한 다리는 이 정착지에 큰 이익을 가져다줄 것입니다!" # 11091123843612420888
+  RICE_sicily_admirals_bridge_decision_desc: "[GetTitleByKey('b_palermo').GetNameNoTier]은 [GetGeographicalRegion('custom_sicily').GetName]의 무역과 정치의 중심지입니다. 정착지 주변 강을 가로지르는 수많은 다리가 섬의 나머지 지역과 연결하고 있지만, 저희 기술자들이 이 지역에서 가장 인상적이고 전략적인 다리가 될 수 있는 건설 부지를 유망하게 찾아냈습니다." # 1294933305924069507
+  RICE_sicily_admirals_bridge_decision_confirm: "다리를 건설합시다!" # 13737939824629587550
+  RICE_sicily_admirals_bridge_decision_context_tooltip: "#emphasis 역사적 배경:#! 제독의 다리(Admiral's Bridge)는 시칠리아 팔레르모에 있는 중세 시대의 다리입니다. 그 인상적인 공학과, 예를 들어 주변의 여러 왕실 건축물들과 연결되었던 중요한 위치 덕분에 이 다리는 도시의 상징이 되었습니다. 심지어 이탈리아 통일 과정에서 주세페 가리발디의 군대와 양시칠리아 왕국 군대 사이에 전투가 벌어졌던 유명한 장소이기도 합니다. 전설에 따르면, 이 다리는 12세기 시칠리아 왕 로저 2세의 제독이었던 안티오키아의 조지(George of Antioch)가 건설했다고 전해지지만, 일부 최근 학자들은 실제로는 훨씬 더 오래되었을 수 있다고 주장합니다." # 1934010982551682694
+  RICE_sicily_support_salerno_medical_school: "$building_type_RICE_sicily_salerno_medical_school$ 지원" # 16909662811444649462
+  RICE_sicily_support_salerno_medical_school_tooltip: "$building_type_RICE_sicily_salerno_medical_school$에 재정 및 정치적 지원을 제공합니다." # 669379610456430461
+  RICE_sicily_support_salerno_medical_school_desc: "$building_type_RICE_sicily_salerno_medical_school$는 건립된 이래로 유럽 의학 연구의 중심지 역할을 해왔습니다. [GetTitleByKey('c_salerno').GetNameNoTier]를 다스리는 [ROOT.Char.GetTitleAsNameNoTooltip]으로서, 나는 이 학교를 재정적으로나 정치적으로 지원해야 마땅합니다." # 2497014668199873300
+  RICE_sicily_support_salerno_medical_school_confirm: "그들이 계속해서 훌륭한 일을 하기를!" # 17603632061748269582
+  RICE_sicily_support_salerno_medical_school_effect_tooltip_1: "귀하의 [traits|E]와 [skills|E]에 따라, 추가적인 #P 긍정적인# [modifiers|E], [artifacts|E], [GetCourtPositionType('court_physician_court_position').GetName()]의 능력치 향상, 또는 아직 [GetCourtPositionType('court_physician_court_position').GetName()]을 보유하고 있지 않다면 새로운 [GetCourtPositionType('court_phys_court_position').GetName()]을 얻을 #V [GetPlayer.MakeScope.ScriptValue('RICE_sicily_salerno_medical_extra_chance')|0]%#! 확률이 있습니다." # 4836969872868204596
+  RICE_sicily_support_salerno_medical_school_effect_tooltip_2: "만약 귀하께서 [GetTitleByKey('c_salerno').GetNameNoTier]를 소유하고 계시다면, 추가적인 보너스를 얻을 확률이 높아집니다." # 15869276949610461723
+  RICE_sicily_support_salerno_medical_school_context_tooltip: "#emphasis 역사적 배경:#! 중세 시대 살레르노는 저명한 의과대학의 본고장이었습니다. 전설에 따르면, 이 학교는 9세기에 그리스인 폰투스, 이탈리아인 살레르노, 아랍인 압델라, 유대인 헬리누스라는 네 명의 의사가 살레르노를 여행하던 중 하룻밤 묵을 곳을 찾다가 우연히 만나 함께 학교를 세우기로 결정하면서 설립되었다고 합니다. 이는 아마도 전설일 가능성이 높지만, 그리스, 라틴, 아랍, 유대 전통의 의학을 가르쳤으며 유럽과 지중해 전역의 수많은 교사와 학생들, 그리고 여러 여성들을 포용했던 이 학교의 다양한 환경을 반영합니다." # 6852277509409433779
+  RICE_sicily_sponsor_liber_pantegni: "리베르 판테그니 후원하기" # 9511541976925168497
+  RICE_sicily_sponsor_liber_pantegni_tooltip: "[GetTitleByKey('b_salerno').GetNameNoTier]의 의학 학자들에게 우리의 도움이 필요할지도 모르겠습니다." # 10137587311808846888
+  RICE_sicily_sponsor_liber_pantegni_desc: "[GetTitleByKey('b_salerno').GetNameNoTier]는 훌륭한 의학 학교의 본거지입니다. 이 학교와 연관된 학자들은 이슬람, 비잔티움, 라틴, 유대 전통의 영향을 깊이 받은 모든 것을 아우르는 의학 교과서 편찬을 후원할 수 있다고 제안합니다." # 6645653994157698584
+  RICE_sicily_sponsor_liber_pantegni_effect_tooltip_1: "#V 아프리카의 콘스탄티누스#!에게 #V 판테그니서#를 저술해 달라고 요청할 것입니다." # 5595363334447489691
+  RICE_sicily_sponsor_liber_pantegni_effect_tooltip_2: "[nasir_khusraw|E]에게 철학과 영성의 관계에 대한 질문에 답하는 글을 작성해 달라고 요청합니다." # 6081068198882125042
+  RICE_sicily_sponsor_liber_pantegni_effect_tooltip_3: "그 학자가 책을 완성하는 데 #V 5#!년이 걸릴 것입니다. 완성되면 [artifact|E] 유물과 [prestige_i|E] [prestige|E], [piety_i|E] [piety|E]를 받게 될 것입니다." # 14188622555116958380
+  RICE_sicily_sponsor_liber_pantegni_confirm: "학자들과 의사들을 소집하라!" # 15819147288241940312
+  RICE_sicily_sponsor_liber_pantegni_context_tooltip: "#emphasis 역사적 배경:#! $RICE_sicily_support_salerno_medical_school_context_tooltip$" # 8750003769329217188
+  RICE_sicily_virgil_divination_decision: "베르길리우스의 운명 점술을 수행하십시오" # 6755937602614898422
+  RICE_sicily_virgil_divination_decision_tooltip: "예언자이자 시인인 베르길리우스의 시에는 많은 지혜가 담겨 있소" # 35238498050437604
+  RICE_sicily_virgil_divination_decision_desc: "로마의 시인 베르길리우스는 시인, 마법사, 예언가로 전 세계에 명성이 높습니다. 그의 시, 특히 #italic 아이네이스#!를 사용하여 조언을 얻거나 미래를 예언하는 전통이 있습니다." # 16489723164553573250
+  RICE_sicily_virgil_divination_decision_confirm: "이제 서적 점술을 해볼 시간이다!" # 4473070123017494545
+  RICE_sicily_virgil_divination_decision_effect_tooltip_1: "점술 결과에 따라 #P 긍정적인#! 혹은 가끔은 #N 부정적인#! [modifiers|E]를 받을 수 있습니다." # 2898146846657797807
+  RICE_sicily_virgil_divination_decision_effect_tooltip_2: "좋거나 나쁜 [modifiers|E]를 얻을 확률은 귀하의 [traits|E], [piety_level|E], [diplomacy_i|E] [diplomacy], 그리고 [learning_i|E] [learning|E]에 따라 결정됩니다." # 13728759851210221601
+  RICE_sicily_virgil_divination_decision_effect_tooltip_3: "[GetActivityType( 'activity_RICE_sicily_virgil_tomb_visit' ).GetName] [activity|E]를 수행했다면 더 나은 결과를 얻을 확률도 높아집니다." # 14324667941708804033
+  RICE_sicily_virgil_divination_decision_context_tooltip: "#emphasis 역사적 배경:#! #italic 베르길리우스의 점술#! (혹은 버질의 점술)은 베르길리우스의 시, 특히 그의 《아이네이스》를 사용하여 미래를 예측하는 일종의 서적 점술이었습니다. 이러한 예언 방식은 베르길리우스 사후 불과 한 세기 만에 인기를 얻었으며 중세와 근세에 걸쳐 계속해서 유행했습니다. 예를 들어, 잉글랜드의 #bold 찰스 1세#는 잉글랜드 내전 중에 자신의 미래를 예측하기 위해 베르길리우스의 점술을 사용했다고 전해지는데, 그는 《아이네이스》에서 자신의 패배와 처형을 예언하는 듯한 불길한 구절을 뽑았다고 합니다." # 6987835357885366075
+  RICE_sicily_virgil_divination_decision_activity_req: "[GetActivityType( 'activity_RICE_sicily_virgil_tomb_visit' ).GetName] [activity|E]를 최소 한 번 이상 완료했습니다." # 6187542188205478883
+  RICE_sicily_second_pavia_decision: "파비아 제2차 전쟁을 일으키십시오" # 13624376458728368900
+  RICE_sicily_second_pavia_decision_tooltip: "롬바르드인의 유산이 새로운 중심지에서 이어질 것입니다." # 3971789460850292073
+  RICE_sicily_second_pavia_decision_desc: "롬바르드 왕국이 멸망하고 영광스러운 수도 파비아를 잃은 후, 롬바르드인들의 후예들은 남부 이탈리아를 떠돌며 생존해 왔습니다. [GetPlayer.GetCapitalLocation.GetTitle.GetNameNoTier]를\"제2의 파비\"로 삼는 것은 [GetPlayer.GetCulture.GetName] 민족의 운명을 되살리는 데 중요한 발걸음이 될 것입니다." # 5936965976386180081
+  RICE_sicily_second_pavia_decision_confirm: "우리의 잃어버린 영광을 되찾을 수 있을 것이다!" # 7182733014192035300
+  RICE_sicily_second_pavia_decision_context_tooltip: "#emphasis 역사적 배경:#! 파비아는 6세기부터 8세기까지 이탈리아를 지배했던 랑고바르드 왕국의 수도였으나, 카롤루스 왕조 프랑크족에게 패배했습니다. 랑고바르드 계승 국가들은 남부 이탈리아에서 등장했고, 그곳의 주요 랑고바르드 세력 중심지였던 베네벤토는 번영과 중요성 때문에 '제2의 파비아'로 알려지기도 했습니다. 아이러니하게도, 이 랑고바르드 국가들은 북쪽의 프랑크족에게 종종 지배당했습니다. 남부의 랑고바르드인들은 12세기와 13세기의 노르만 시칠리아 시대에 이르기까지 독자적인 정체성을 유지했습니다." # 17686584189901397712
+  RICE_sicily_second_pavia_decision_activity_req: "[GetActivityType( 'activity_RICE_sicily_virgil_tomb_visit' ).GetName] [activity|E]를 최소 한 번 이상 완료했습니다." # 6187542188205478883
+  RICE_sicily_byzantine_syracuse_decision: "$c_siracusa$의 영광을 되찾으라" # 10924246851832352296
+  RICE_sicily_byzantine_syracuse_decision_tooltip: "[GetTitleByKey('d_sicily').GetNameNoTier]의 수도였던 [GetTitleByKey('c_siracusa').GetNameNoTier]는 다시 한번 장엄한 도시가 될 수 있습니다!" # 1838184399269937606
+  RICE_sicily_byzantine_syracuse_decision_desc: "고대에 [GetTitleByKey('c_siracusa').GetNameNoTier]는 지중해의 위대한 보석이었으며, 수많은 제국들이 탐냈던 교역과 문화의 중심지였습니다. 최근 몇 년간 그곳은 과거의 영광에 미치지 못하고 있습니다. [GetTitleByKey('d_sicily').GetNameNoTier]에 로마의 통치가 회복되었으니, 섬의 수도를 다시 [GetTitleByKey('c_siracusa').GetNameNoTierNoTooltip]으로 옮겨서 문명의 빛나는 등불로 다시 태어나게 해야 할 것입니다!" # 5696311962195675198
+  RICE_sicily_byzantine_syracuse_decision_confirm: "시칠리아의 수도를 되돌립시다!" # 16550620926321164254
+  RICE_sicily_byzantine_syracuse_decision_effect_tooltip_1: "[decision|E]인 $RICE_sicily_administer_frontier$는 [gold_i|E] [gold|E] 비용이 더 적게 들고, [GetModifier('RICE_sicily_syracuse_restoration').GetNameWithTooltip] [county_modifier|E]가 활성화되어 있는 동안 [GetTitleByKey('c_siracusa').GetNameNoTier]의 [rulers|E]에게 약간의 [legitimacy_i|E] [legitimacy|E] 보너스를 제공합니다." # 14293712679062880948
+  RICE_sicily_byzantine_syracuse_decision_context_tooltip: "#emphasis 역사적 배경:#! 시라쿠사는 고대 지중해의 위대한 도시 중 하나였습니다. 예를 들어 키케로는 이곳을\"가장 위대한 그리스 도시이자 그중 가장 아름다운 도\"라고 묘사했습니다. 이곳은 비잔티움 제국 초기에도 그 중요성을 유지했는데, 특히 제국이 아프리카 영토를 상실한 이후 더욱 그러했습니다. 심지어 663년부터 669년까지 잠시 제국의 수도 역할을 하기도 했습니다. 시칠리아의 무슬림 정복과 함께 878년 시라쿠사가 함락되면서 섬의 중심지는 팔레르모로 옮겨갔고, 시라쿠사는 섬의 주요 도시로 남아 있었지만 이전과 같은 최고의 지위를 되찾지는 못했습니다." # 3887301186070205479
+  RICE_sicily_catania_elephant_decision: "[GetTitleByKey('b_catania').GetNameNoTierNoTooltip]의 상징으로 우 리오트루를 승인합니다" # 5664687290702616641
+  RICE_sicily_catania_elephant_decision_tooltip: "[GetTitleByKey('b_catania').GetNameNoTierNoTooltip]의 사랑받는 코끼리 조각상, #italic 우 리오트루#!에게 경의를 표해야 하오!" # 13634999372942315503
+  RICE_sicily_catania_elephant_decision_desc: "[GetTitleByKey('b_catania').GetNameNoTier] 도시가 더 많은 권리와 정치적 영향력을 얻으면서, 시민들은 자신들을 대표할 적절한 상징을 갈망하고 있습니다. 시민들 중 다수는 수세기 동안 도시에 자리했던 신비로운 코끼리 조각상인 #italic 울리오트루#!가 훌륭한 후보가 될 것이라고 믿고 있습니다." # 6913234932332432038
+  RICE_sicily_catania_elephant_decision_confirm: "모든 찬양은 코끼리에게!" # 6766026257565643454
+  RICE_sicily_catania_elephant_decision_context_tooltip: "#emphasis 역사적 배경:#! #italic 울리오트루#! 는 카타니아 시에 있는 유명한 코끼리 석상입니다. 이 이름은 8세기 전설적인 강령술사이자 마법사였던 헬리오도로스(Heliodorus)의 변형된 이름인데, 그는 이 석상을 되살리거나 자신이 석상으로 변신한 후 카타니아의 성 레오에게 패배했다고 전해집니다. 이 전설의 역사적 사실성은 의심스럽지만, 이 도시는 수세기 동안 이 석상과 연관되어 왔습니다. 아랍인들은 카타니아를\"코끼리의 도\"라고 불렀으며, 시칠리아의 왕 로저 2세 궁정에서 일했던 지리학자 알 이드리시는 이 석상이 카르타고인이나 로마인에 의해 만들어졌으며 카타니아인들은 이 석상이 마법을 부려 에트나 산의 분화로부터 자신들을 보호할 수 있다고 믿었다고 생각했습니다. 1239년에 이 석상은 도시의 상징으로 선택되었습니다. 지진 이후 1737년에 분수로 용도가 변경되었습니다." # 4746270729982130851
+  RICE_sicily_messina_development_req: "[GetTitleByKey('c_messina').GetNameNoTier]는 최소 [EmptyScope.ScriptValue('RICE_sicily_pavia_development_level')|0]의 [development|E]를 보유하고 있습니다." # 11235763464468597122
+  RICE_sicily_almadraba_decision: "[GetPlayer.Custom('RICE_almadraba')] 어업 재정 지원" # 5285013613829678450
+  RICE_sicily_almadraba_decision_tooltip: "참치잡이는 꽤나 돈이 될 수 있지!" # 8893130309267141471
+  RICE_sicily_almadraba_decision_desc: "매년 용감한 어부들은 [GetGeographicalRegion('RICE_west_mediterranean').GetName]의 바다로 나가 [GetPlayer.Custom('RICE_almadraba')] 기법을 사용하여 참치를 잡습니다. 이 매우 수익성 높은 무역을 지지하는 [rulers|E]는 큰 이익을 얻을 것입니다." # 10817974722576008036
+  RICE_sicily_almadraba_decision_effect_tooltip_1: "이 [decision|E]의 [gold_i|E] [gold|E] 비용은 [GetGeographicalRegion('RICE_west_mediterranean').GetName] 내에 소유한 #V 해안가#! [counties|E]의 수에 따라 결정됩니다." # 17737232805269412536
+  RICE_sicily_almadraba_decision_confirm: "바다에는 물고기가 많다네!" # 6199730884724731237
+  RICE_sicily_almadraba_decision_context_tooltip: "#emphasis 역사적 배경:#! 이베리아에서 #italic 알마드라바#!, 이탈리아에서 #italic 마탄차#!로 알려진 이 기술은 참치가 지중해에서 대서양으로 이동할 때 대량의 참치를 가두어 잡기 위해 정교한 그물망을 설치하는 오래된 어업 기술입니다. 역사적으로, 메디나시도니아 공작처럼 통치자들은 이러한 무역을 지원하고 독점하여 이익을 얻었습니다(15세기와 16세기). 이 관행은 서부 지중해의 이베리아, 북아프리카, 이탈리아의 여러 지역에서 널리 퍼져 있었으며 고대까지 거슬러 올라갈 수 있습니다." # 305321282132949246
+  RICE_every_coastal_western_mediterranean_county: "[GetGeographicalRegion('RICE_west_mediterranean').GetName]에 속한 귀하가 소유한 모든 해안 [county|E]" # 17482677974369402686
+  RICE_sicily_embed_into_sicily: "시칠리아 사회에 융화되기" # 7066596530833509439
+  RICE_sicily_embed_into_sicily_tooltip: "제가 이제 [RICE_sicily_struggle_adjective|E]의 중요한 이해관계자가 되었습니다!" # 15417971000821673416
+  RICE_sicily_embed_into_sicily_desc: "비록 제가 영지를 가진 [landed|E] [ruler|E]는 아니지만, [RICE_sicily_struggle|E]에서 충분한 시간을 보내며 [GetGeographicalRegion('custom_sicily').GetName]의 지역 정치와 사회에서 중요한 인물이 되었습니다. 이곳에 사는 사람들과 맺은 관계를 기반으로 삼아야겠습니다." # 11368033320383965944
+  RICE_sicily_embed_into_sicily_effect_tooltip_1: "선택에 따라 [GetTrait('RICE_sicilian_ruler').GetName( GetNullCharacter )] [trait|E]의 [sicily_latin_dominance_i|E] [sicily_latin|E], [sicily_greek_dominance_i|E] [sicily_greek|E], 또는 [sicily_arabic_dominance_i|E] [sicily_arabic|E] [trait_level_track|E]에서 #V [EmptyScope.ScriptValue('RICE_sicily_signore_trait_xp_gain_medium')]#! [trait_level_track_xp|E]를 획득합니다." # 911494496083191725
+  RICE_sicily_embed_into_sicily_confirm: "$RICE_sicily_occupy_sicilian_frontier_confirm$" # 11682894078271547860
+  RICE_sicily_embed_into_sicily_context_tooltip: "$RICE_sicily_occupy_sicilian_frontier_context_tooltip$" # 735374218432206944
+  sicily.0000.t: "xxxxx" # 1951045980481827005
+  sicily.0000.desc: "xxxxx" # 1951045980481827005
+  sicily.0000.a: "xxxxx" # 1951045980481827005
+  sicily.0001.t: "$RICE_sicily_struggle$" # 12866555338694195354
+  sicily.0001.desc: "\"시칠리아는 우리의 첫 번째 속주였으며, 시칠리아는 우리의 조상들에게 타민족을 다스리는 것이 얼마나 영광스러운 일인지를 처음으로 가르쳐 주었소\" 위대한 로마의 키케로가 서방 로마가 쇠퇴하기 훨씬 전에 이렇게 말했지요.\n\n지중해의 용광로인 시칠리아는 이제 이슬람, 비잔티움, 그리고 라틴 서방 세 세계가 만나는 험난한 변경 지대입니다. 많은 이들이 시칠리아와 그 풍요로움을 탐내지만, 정복자들과 정착민들은 이 낙원 뒤에 문화, 신앙, 충성심의 경계가 매우 모호한 경계의 땅이 있음을 종종 발견하게 됩니다." # 14780049295297862116
+  sicily.0001.desc.involved: "하지만 아무리 그래도 시칠리아는 여전히 우리가 사랑하는 아름다운 고향입니다." # 18377253116780789022
+  sicily.0001.desc.interloper: "어쩌면 시간이 지나면 아름다운 시칠리아가 우리의 새로운 고향이 될 수도 있겠지." # 7385820677598951345
+  sicily.0001.desc.uninvolved: "아름다운 시칠리아는 참으로 위험과 혼란으로 가득하구나." # 5014962983346736558
+  sicily.0001.a: "[ROOT.Char.GetHouse.GetNameNoTooltip] 가문이 시칠리아 변경을 길들일 것입니다!" # 11747196149458656086
+  sicily.0002.t: "xxxxx" # 1951045980481827005
+  sicily.0002.desc: "xxxxx" # 1951045980481827005
+  sicily.0002.a: "xxxxx" # 1951045980481827005
+  sicily.0003.t: "$RICE_sicily_struggle$: 주변부" # 217942582775225053
+  sicily.0003.desc: "[GetGeographicalRegion('custom_sicily').GetName]와 같은 변경 지역은 필연적으로 쇠퇴하기 전에 일정 수준 이상의 불안정만을 감당할 수 있습니다. 시간이 흐르면서, 경제 쇠퇴, 인구 감소와 이주, 그리고 내부 다툼과 외부 공격으로 인한 끊임없는 전쟁으로 인해 이 지역은 황폐해졌습니다. 경제는 쇠퇴했습니다.\n\n이러한 변화의 시기에, #V [GetPlayer.Custom('RICE_sicily_periphery_type')]#!가 이 폐허가 된 땅에서 가장 강력한 영향력으로 부상하며 일종의 사회적, 문화적 기반을 형성했습니다. 하지만 이러한 유대감조차도 [GetGeographicalRegion('custom_sicily').GetNameNoTooltip]의 현실을 극복하기에는 부족합니다. 지중해 중심부에 위치한 지역이 결국에는 그곳의 가난한 #V 변경 지역#!이 되었다는 아이러니 말입니다.\n\n언젠가 야심 찬 통치자들이 [GetGeographicalRegion('custom_sicily').GetNameNoTooltip]를 다시 번성하고 중요하게 만들지도 모릅니다. 그때까지는 이 지역은 무시당한 채로 머물러야 할 것입니다." # 17889664527689194975
+  sicily.0003.a: "[GetGeographicalRegion('custom_sicily').GetNameNoTooltip]의 역사는 굴곡이 많았는데...." # 17731579578247024047
+  sicily.0004.t: "$RICE_sicily_struggle$: 제국주의" # 14031119678275792330
+  sicily.0004.desc: "문명의 교차로에 자리한 [GetGeographicalRegion('custom_sicily').GetName]와 같은 변경 지대는 벌이 꿀에 이끌리듯 외부인의 이목을 끌어왔습니다. 수년 동안 지중해 건너편의 먼 왕국들은 이 경이롭고 아름다우며 수익성 높은 땅을 차지하기 위해 군사적, 정치적, 종교적, 경제적으로 경쟁했습니다.\n\n#V [GetPlayer.Custom('RICE_sicily_imperial_type')|U]#!가 [GetGeographicalRegion('custom_sicily').GetNameNoTooltip]에서 가장 강력한 세력으로 부상했으며, 지역 지배 계층(즉, 현지 엘리트)은 그 세계와 기원을 같이하거나 적어도 긴밀한 관계를 맺고 있습니다. 이 변경 지대는 현재로서는 그러한 #V 제국적 성격#! 아래 길들여졌다고 할 수 있을 것입니다.\n\n하지만 이는 공허한 지배일 뿐입니다. 이 지역은 자원과 활력을 모두 소진했으며, 이러한 안정의 겉모습 아래에는 변경 지대의 예측 불가능하고 변덕스러운 본성이 숨어 있습니다. 굶주린 외부인의 공격이나 내부의 다툼, 혹은 둘 다의 원인으로 인해 [GetGeographicalRegion('custom_sicily').GetName]의 변경 지대가 언젠가 지중해의 운명을 가르는 무대로 다시 떠오르는 것은 불가능한 일이 아닙니다." # 4830937790949056492
+  sicily.0004.a: "$sicily.0003.a$" # 6298671773854661797
+  sicily.0005.t: "$RICE_sicily_struggle$: 지배권" # 10943285642414664930
+  sicily.0005.desc.intro: "[GetGeographicalRegion('custom_sicily').GetName]가 지중해 중앙에 위치한다는 점은 축복인 동시에 저주였습니다. 때로는 번성했지만, 다른 민족과 왕국의 변덕과 탐욕에 좌우되기도 했죠. 최근에는 라틴 서방, 비잔티움, 이슬람이라는 세 세계가 만나는 최전선이었습니다. 결국 [GetGeographicalRegion('custom_sicily').GetName]는 스스로의 운명을 통제한 적이 없었죠... 하지만 지금은 다릅니다.\n\n[RICE_sicily_struggle_ender.GetTitledFirstName] 아래에서," # 13279679530922521324
+  sicily.0005.desc.latin: "남부 이탈리아에서 #V 라틴#! 세계가 최고로 군림했으며, [RICE_sicily_struggle_ender.GetSheHe]는 지역 통치자들에게는 전례 없는 수준의 권력을 지닌 #V 지배 영역#!을 다스리고 있습니다. [GetGeographicalRegion('custom_sicily').GetNameNoTooltip]은 더 이상 외세의 지배를 받지 않으며, 비록 라틴 서방 세계와 강한 유대 관계를 유지하고 있을지라도 그들의 의지를 따르지 않습니다.\n\n라틴" # 11492057284516869865
+  sicily.0005.desc.greek: "#V 그리스#! 세계가 남부 이탈리아에서 최강자로 군림했으며, [RICE_sicily_struggle_ender.GetSheHe]는 지역 통치자들에게는 전례 없는 수준의 힘을 지닌 #V 지배령#!을 다스리고 있습니다. [GetGeographicalRegion('custom_sicily').GetNameNoTooltip]은 더 이상 외세의 지배를 받지 않으며 비잔티움과 긴밀한 관계를 유지하고 있을지라도 그들의 의지를 따르지 않으려 합니다.\n\n그리스" # 12256004474554509185
+  sicily.0005.desc.arabic: "#V 아랍-베르베르#! 세계가 남부 이탈리아에서 최고로 우뚝 섰습니다. [RICE_sicily_struggle_ender.GetSheHe]가 지역 통치자들에게는 전례 없는 수준의 힘을 지닌 #V 지배령#!을 다스리고 있습니다. [GetGeographicalRegion('custom_sicily').GetNameNoTooltip]은 더 이상 외세의 지배를 받지 않으며, 비록 중동 및 이슬람 세계의 나머지 지역과 강한 유대를 유지하고 있을지라도 그들의 의지로부터 자유롭기를 갈망합니다.\n\n아랍-베르베르" # 11900139810527501323
+  sicily.0005.desc.outsider: "이 지역에서 이전에 지배적이었던 라틴, 그리스, 혹은 아랍-베르베르 세계와는 연관되지 않은 새로운 세력이 남부 이탈리아에서 최고 권력자로 부상했습니다. [RICE_sicily_struggle_ender.GetSheHe]께서 지역 통치자들에게는 전례 없는 수준의 권력을 지닌 #V 지배력#!을 다스리고 있습니다. [GetGeographicalRegion('custom_sicily').GetNameNoTooltip]은 더 이상 외세의 종속국이 아니며 독자적인 염원을 품고 있습니다.\n\n이 [RICE_sicily_struggle_ender.GetCulture.GetName]의 [RICE_sicily_struggle_ender.GetFaith.GetAdjective]" # 7496628862545021659
+  sicily.0005.desc.conclusion: "[GetGeographicalRegion('custom_sicily').GetNameNoTooltip]을 장악한 세력은 이제 그 자체로 독립적이고 강력한 영토가 되었으며, [RICE_sicily_struggle_ender.GetFirstNamePossessiveNoTooltip]의 후계자들이 앞으로도 오랫동안 이 땅을 다스릴 것이 분명합니다. 한때는 거칠었던 이 변경 지역은 이제 영구적으로 길들여졌다고 볼 수 있습니다." # 17559774128129367097
+  sicily.0005.a: "[GetGeographicalRegion('custom_sicily').GetNameNoTooltip]에 새로운 아침이 밝았습니다." # 14505297925788054152
+  sicily.0006.t: "$RICE_sicily_struggle$: 교차로" # 15774755330674244419
+  sicily.0006.desc: "$sicily.0005.desc.intro$ 지역은 지중해의 #V 교차로#로 변모했습니다. [GetGeographicalRegion('custom_sicily').GetNameNoTooltip]가 언제나 이 지역의 중심에 있었다는 것은 사실이지만, 그것은 외부 세력 간의 경쟁 무대로서의 역할이었습니다. 지중해 나머지 지역과 신중하게 관계를 맺고, 이 지역의 다양한 민족과 공동체를 지원함으로써, [RICE_sicily_struggle_ender.GetTitledFirstNameNoTooltip]께서는 [GetGeographicalRegion('custom_sicily').GetNameNoTooltip]가 나약하고 종속된 땅이라는 허울을 벗겨내셨습니다.\n\n상업과 사상의 교류가 활발한 떠오르는 세계적인 중심지로서, [GetGeographicalRegion('custom_sicily').GetNameNoTooltip]는 단순한 교차로가 아니라 지중해의 #italic 중심# 교차로가 되었습니다. [RICE_sicily_struggle_ender.GetFirstNamePossessiveNoTooltip]의 후계자들은 이곳에서 의심할 여지 없이 오랜 번영의 세월을 누릴 것입니다. 한때 거칠었던 이 변경 지역은 이제 영구적으로 길들여진 것으로 간주될 수 있습니다." # 18326683827994110668
+  sicily.0006.a: "$sicily.0005.a$" # 16110146573803982961
+  sicily.0007.t: "xxxxx" # 1951045980481827005
+  sicily.0007.desc: "xxxxx" # 1951045980481827005
+  sicily.0007.a: "xxxxx" # 1951045980481827005
+  sicily.0008.t: "xxxxx" # 1951045980481827005
+  sicily.0008.desc: "xxxxx" # 1951045980481827005
+  sicily.0008.a: "xxxxx" # 1951045980481827005
+  sicily.0009.t: "xxxxx" # 1951045980481827005
+  sicily.0009.desc: "xxxxx" # 1951045980481827005
+  sicily.0009.a: "xxxxx" # 1951045980481827005
+  sicily.0010.t: "[GetGeographicalRegion('custom_sicily').GetNameNoTooltip]의 점령" # 4581303765270449406
+  sicily.0010.desc.periphery: "수년 전, [GetGeographicalRegion('custom_sicily').GetName]의 변경 지역은 끊이지 않는 내분과 외부의 침략으로 인한 전쟁으로 황폐해졌습니다. 경제의 악화와 주민들의 대규모 이주는 이 지역의 쇠퇴에 더욱 일조했습니다." # 6258053905104555471
+  sicily.0010.desc.imperial: "수년 전, [GetGeographicalRegion('custom_sicily').GetName]의 변경 지역은 멀리 떨어진 강력한 제국 국가들의 영향권 아래 통합되었습니다. 그 이후로 이 지역은 자원이 고갈되고 현지 주민들이 더 번성한 땅으로 이주하려 하면서 활력을 잃고 침체되었습니다." # 16824817064490001803
+  sicily.0010.desc: "현재 상황이 [sicily_struggle_restarter.GetFirstName]의 부상으로 인해 변화하고 있습니다. 이방인인 [sicily_struggle_restarter.GetTitleAsNameNoTooltip]은 [sicily_struggle_restarter.GetPrimaryTitle.GetName]의 통치자로서 [GetGeographicalRegion('custom_sicily').GetNameNoTooltip] 전역에 걸쳐 [sicily_struggle_restarter.GetHerHis] 세력을 확장하고자 합니다. [sicily_struggle_restarter.GetSheHe|U]는 이미 이 지역에서 [sicily_struggle_restarter.GetHerHis] 군사적, 정치적, 경제적 영향력을 증대시키고 있으며, 지역의 군벌들과 귀족들은 [sicily_struggle_restarter.GetHerHis] 야심을 경계하고 있습니다." # 13877552912929619753
+  sicily.0010.desc.conclusion: "\n\n[GetGeographicalRegion('custom_sicily').GetNameNoTooltip]와 같은 변경 지역은 가장 안정적이거나 평화로운 곳이 아닙니다. 이 지역의 향방에 새로운 발전이 있었음에도 불구하고, 장기적으로 무언가 달라질지는 지켜봐야 할 일입니다." # 14221321592043019505
+  sicily.0010.a: "세상의 세 갈래 사이에 놓인 이 땅에서 상황이 다시 흥미로워졌습니다." # 8958313087512874733
+  sicily.0011.t: "[GetGeographicalRegion('custom_sicily').GetNameNoTooltip]" # 2123062893277746500
+  sicily.0011.t.periphery: "[GetGeographicalRegion('custom_sicily').GetNameNoTooltip]의 부흥" # 3151384220638400568
+  sicily.0011.t.imperial: "[GetGeographicalRegion('custom_sicily').GetNameNoTooltip]의 부흥" # 3151384220638400568
+  sicily.0011.desc: "현재 상황이 [GetGeographicalRegion('custom_sicily').GetNameNoTooltip]의 중요한 [sicily_struggle_restarter.GetTitleAsNameNoTooltip]인 [sicily_struggle_restarter.GetFirstName]의 부상으로 변화하고 있습니다." # 1126922265132366982
+  sicily.0011.desc.periphery: "[sicily_struggle_restarter.GetSheHe|U]께서는 [GetGeographicalRegion('custom_sicily').GetName]의 변경 지역을 안정화하여, 비록 그 지역 전체는 아닐지라도 [sicily_struggle_restarter.GetHerHis] 왕국에라도 과거 지중해에서 누렸던 부와 영향력을 되찾고자 합니다." # 16916728929853177404
+  sicily.0011.desc.imperial: "[sicily_struggle_restarter.GetSheHe|U]께서는 야심이 대단하시군요. [sicily_struggle_restarter.GetSheHe]께서는 [GetGeographicalRegion('custom_sicily').GetName]의 변경 지대를 부흥시킬 뿐만 아니라, 외부 세력으로부터 그 지역의 독립을 확보하고자 하십니다." # 14371875166722528714
+  sicily.0011.a: "$sicily.0010.a$" # 16379965069355746810
+  sicily.0012.t: "xxxxx" # 1951045980481827005
+  sicily.0012.desc: "xxxxx" # 1951045980481827005
+  sicily.0012.a: "xxxxx" # 1951045980481827005
+  sicily.0013.t: "xxxxx" # 1951045980481827005
+  sicily.0013.desc: "xxxxx" # 1951045980481827005
+  sicily.0013.a: "xxxxx" # 1951045980481827005
+  sicily.0014.t: "제2차 파비아 공방전" # 5523661433722838524
+  sicily.0014.desc: "[lombard.GetCollectiveNoun]가 카롤루스 왕조에게 패배하고 위대한 수도였던 [GetTitleByKey('c_pavia').GetNameNoTier]를 빼앗긴 이래로, 그들의 후손들은 한때 지배했던 [GetGeographicalRegion('world_europe_south_italy').GetName] 반도에서 끊임없는 고난을 겪어왔습니다. 잠시 동안 그들은 [GetGeographicalRegion('custom_sicily').GetName]의 강력한 공작들을 통해 희망을 품었으나, 이 공국들마저도 내부 분열과 혼란으로 무너지고 말았습니다.\n\n하지만 이제 고대 [lombard.GetCollectiveNounNoTooltip]의 자손들의 운명이 되살아나고 있을지도 모릅니다. [GetGeographicalRegion('custom_sicily').GetNameNoTooltip]에서 두각을 나타내는 통치자인 [second_pavia_founder.GetTitledFirstName] 덕분입니다. [second_pavia_founder.GetHerHis]의 지도 아래, [second_pavia_founder.GetHerHis]의 수도인 [second_pavia.GetName]는 이 지역의 경제적, 정치적, 문화적 중심지로 거듭났습니다.\n\n[second_pavia_founder.GetFirstNameNoTooltip]가 선포했듯이, [second_pavia.GetNameNoTier]는 진정한\"제2의 파비\"입니다. 이것이 옛 [lombard.GetCollectiveNounNoTooltip]의 후예들에게 새로운 시대의 여명이 될까요, 아니면 또 다른 헛된 희망에 그칠까요? 미래가 어떠하든 확실한 것은, [second_pavia.GetNameNoTier]가 오랫동안 지중해의 위대한 도시 중 하나가 될 것이라는 점입니다." # 9601936878876476859
+  sicily.0014.a: "[GetGeographicalRegion('custom_sicily').GetNameNoTooltip]에서 또 다른 흥미로운 사건이 발생했군...." # 1363843122100547995
+  sicily.0015.t: "xxxxx" # 1951045980481827005
+  sicily.0015.desc: "xxxxx" # 1951045980481827005
+  sicily.0015.a: "xxxxx" # 1951045980481827005
+  sicily.0015.message: "[sicily_stronghold|E]가 [county.GetNameNoTierNoTooltip]에서 약탈을 감행합니다." # 4361142878991835776
+  sicily.0016.t: "[siculo_arabic.GetNameNoTooltip]의 부상" # 15095325336624117747
+  sicily.0016.desc: "[GetGeographicalRegion('custom_sicily').GetName]에 최초의 아랍 및 베르베르 정착민들이 도착한 지 수년이 흘렀고, 또 다른 민족의 물결이 이미 다양한 이 지역에 추가적인 문화적, 종교적 영향을 가져왔습니다.\n\n시간이 흐르면서 [county_to_change.GetNameNoTier]에서 이 정착민들과 그 후손들은 상당한 공동체를 형성했을 뿐만 아니라, 현지인들과 섞이고 교류하며 서로에게 지대한 영향을 미쳤습니다.\n\n이러한 민족, 관습, 신념의 융합 결과, [county_to_change.GetNameNoTierNoTooltip]의 지배적인 정체성은 더 이상 [old_culture.GetName]이 아니라 [siculo_arabic.GetName]이 되었습니다." # 8105140712850111162
+  sicily.0016.a: "흥미롭군!" # 10192862565275920482
+  sicily.0017.t: "오레토 강을 가로지르는 다리" # 16205836277705519924
+  sicily.0017.desc: "[GetTitleByKey('b_palermo').GetNameNoTier]은 [GetGeographicalRegion('custom_sicily').GetName]의 도시들 중에서도 번영 면에서 비할 데가 없습니다. 하지만 그 번영은 더욱 커질 잠재력을 지니고 있습니다.\n\n이전에는 오레토 강이 도시 중심부와 일부 외곽 지역 간의 이동을 어렵게 만들어 성장에 큰 걸림돌이 되었습니다. 그리하여 저는 강 양쪽을 잇는 거대한 다리를 건설하도록 명했습니다.\n\n이 다리는 도시 내 여러 지역 간의 연결성을 개선할 뿐만 아니라, 징수하는 통행료를 통해 저희에게도 이익을 가져다줄 것입니다. 주민들은 벌써부터 이 다리를 “제독의 다리”라고 부르기 시작했습니다." # 705853338666670166
+  sicily.0017.a: "[GetTitleByKey('b_palermo').GetNameNoTierNoTooltip]에 대대로 이익이 있기를!" # 14124708688368049079
+  sicily.0018.t: "새로운 병사들" # 3193588906845652979
+  sicily.0018.desc.latin: "저는 제 영지 내부에 거주하는 라틴 공동체와 타국에 거주하는 라틴 공동체 모두에게 제 군대에 라틴 병사들을 징집하고 있다는 소식을 전했습니다. 외부인들은 그들 중 일부를 미개한 야만인으로 여길 수도 있겠지만, 사실 여부와는 별개로 그들의 무용을 부정할 수 있는 이는 거의 없을 것입니다." # 1951734119506527084
+  sicily.0018.desc.greek: "저는 제 영지 내부에 거주하는 그리스인 공동체와 해외에 거주하는 그리스인 공동체 모두에게 제 군대에 그리스 용병을 모집하고 있다는 소식을 보냈습니다. 그들의 적들은 그들을 기만적인 반역자라고 폄하하지만, 그들 스스로는 결국 위대한 로마인들의 후예라고 생각하고 있습니다." # 12979956460135933061
+  sicily.0018.desc.arabic: "저는 제 영지 내에 거주하는 아랍-베르베르 공동체와 타국에 거주하는 공동체 모두에게 제 군대에 아랍-베르베르 병사들을 모집하고 있다는 소식을 보냈습니다. 그들의 적들에게는 무자비한 약탈자로 낙인찍혔을지라도, 자신들을 잘 대해주는 이들을 위해 용맹과 용기로 싸울 것입니다." # 5409970015666449977
+  sicily.0018.desc.none: "저는 국내외 여러 공동체에 제가 기꺼이 군대에 합류할 병사들을 모집하고 있다는 소식을 전했습니다..." # 7354661663728421860
+  sicily.0018.desc: "신병이든 노련한 베테랑이든, 그들의 수와 재능은 분명 나의 군사력을 증강시켜 줄 것이다.\n\n[GetGeographicalRegion('custom_sicily').GetName]은 오랫동안 여러 세계의 경계 지역으로 존재해 왔기에, 세상 곳곳에서 온 병사들이 있다는 것이 결코 이상한 일은 아니다. 이런 지역에서는 언제나 새로운 도전과 새로운 문화를 받아들일 준비가 된 군사 모험가들에게 기회가 열려 있다." # 6493291858085363662
+  sicily.0018.a: "그들은 왕국에 큰 도움이 될 것입니다." # 1789308721026128336
+  sicily.0019.t: "xxxxx" # 1951045980481827005
+  sicily.0019.desc: "xxxxx" # 1951045980481827005
+  sicily.0019.a: "xxxxx" # 1951045980481827005
+  sicily.0019.latin: "개편된 @RICE_sicily_latin_icon! [sicily_latin|E] 기록들이 [county.GetNameNoTier]에서 [sicily_latin|E] 공동체와의 행정 경험치를 올려주었습니다." # 7281644070718614842
+  sicily.0019.greek: "개편된 @RICE_sicily_greek_icon! [sicily_greek|E] 기록이 [county.GetNameNoTier]에서 [sicily_greek|E] 공동체와의 행정 경험치를 올려주었습니다." # 13133537711814147296
+  sicily.0019.arabic: "개편된 @RICE_sicily_arabic_icon! [sicily_arabic|E] 기록이 [county.GetNameNoTier]에서 [sicily_arabic|E] 공동체와의 행정 경험치를 높여주었습니다." # 14645757315081458185
+  RICE_sicily_records_random_gain.latin.title: "개선된 [sicily_latin|E] 행정 관행" # 2284559472414066107
+  RICE_sicily_records_random_gain.greek.title: "개선된 [sicily_greek|E] 행정 관행" # 16396611750620359338
+  RICE_sicily_records_random_gain.arabic.title: "개선된 [sicily_arabic|E] 행정 관행" # 709270480209754974
+  sicily.0020.t: "xxxxx" # 1951045980481827005
+  sicily.0020.desc: "xxxxx" # 1951045980481827005
+  sicily.0020.a: "xxxxx" # 1951045980481827005
+  sicily.0021.t: "xxxxx" # 1951045980481827005
+  sicily.0021.desc: "xxxxx" # 1951045980481827005
+  sicily.0021.a: "xxxxx" # 1951045980481827005
+  sicily.0022.t: "xxxxx" # 1951045980481827005
+  sicily.0022.desc: "xxxxx" # 1951045980481827005
+  sicily.0022.a: "xxxxx" # 1951045980481827005
+  sicily.0023.t: "xxxxx" # 1951045980481827005
+  sicily.0023.desc: "xxxxx" # 1951045980481827005
+  sicily.0023.a: "xxxxx" # 1951045980481827005
+  sicily.0024.t: "xxxxx" # 1951045980481827005
+  sicily.0024.desc: "xxxxx" # 1951045980481827005
+  sicily.0024.a: "xxxxx" # 1951045980481827005
+  sicily.0025.t: "xxxxx" # 1951045980481827005
+  sicily.0025.desc: "xxxxx" # 1951045980481827005
+  sicily.0025.a: "xxxxx" # 1951045980481827005
+  sicily.0026.t: "xxxxx" # 1951045980481827005
+  sicily.0026.desc: "xxxxx" # 1951045980481827005
+  sicily.0026.a: "xxxxx" # 1951045980481827005
+  sicily.0027.t: "xxxxx" # 1951045980481827005
+  sicily.0027.desc: "xxxxx" # 1951045980481827005
+  sicily.0027.a: "xxxxx" # 1951045980481827005
+  sicily.0028.t: "xxxxx" # 1951045980481827005
+  sicily.0028.desc: "xxxxx" # 1951045980481827005
+  sicily.0028.a: "xxxxx" # 1951045980481827005
+  sicily.0029.t: "xxxxx" # 1951045980481827005
+  sicily.0029.desc: "xxxxx" # 1951045980481827005
+  sicily.0029.a: "xxxx\"" # 15308465615999842627
+  sicily.0030.t: "요새와 협상하기" # 10073062137184200365
+  sicily.0030.t.latin: "라틴 거점들과 협상하기" # 10457858311418945361
+  sicily.0030.t.greek: "그리스 요새들과의 협상" # 11784397541852790329
+  sicily.0030.t.arabic: "아랍-베르베르 거점과의 협상" # 4487376611304612212
+  sicily.0030.desc.intro: "제가 연락을 시도했던" # 12226968265462641476
+  sicily.0030.desc.latin: "라틴어" # 7847413055790870294
+  sicily.0030.desc.greek: "그리스" # 13710292161987742349
+  sicily.0030.desc.arabic: "아랍-베르베르" # 12409632492611411880
+  sicily.0030.desc: "내 영지의 요새들이 협상에 응하여 결실을 맺었습니다. 그들 중 저명한 지도자로서, [sicily_faith.GetAdjective] [sicily_culture.GetName]의 [representative.GetWomanMan]인 [representative.GetFirstName]가 대표로 파견되었습니다.\n\n초기 협상 라운드 후, [representative.GetFirstNameNoTooltip]는 그들의 백성들에게 [gold_i|E] #V [ROOT.Char.MakeScope.Var('bargain_amount').GetValue]#!의 금(또는 그에 상응하는 물품)을 지불할 것을 제안했습니다. 그 대가로 그들은 일정 기간 동안 자신들의 요새가 위치한 지역의 주민들을 약탈하거나 괴롭히지 않을 것이라고 합니다.\n\n잘못 받아들이면 이는 공물 납부와 매우 흡사하게 들리지만, 다른 한편으로는 장기적으로 양측 모두에게 이로울 수 있는 일이기도 합니다." # 5285462080986731380
+  sicily.0030.a: "아주 좋군, 이 거래에 동의하겠소." # 1488153885641966041
+  sicily.0030.b: "받아들이겠소, 하지만 더 많은 것을 내놓으시오." # 10755066608750717321
+  sicily.0030.b.failure: "추가 협상은 성공하지 못했으며, 원래의 거래를 받아들여야만 합니다." # 2770292175097901267
+  sicily.0030.b.success: "추가적인 협상이 성공하여, 당신은 더 많은 양보를 얻어냈습니다." # 9777587312612351187
+  sicily.0030.c: "터무니없군! 이 조건들을 거부한다." # 12107562173503157621
+  sicily.0031.desc: "[representative.GetFirstName]이 [representative.GetHerHis]의 첫 제안을 건넨 후, 우리 측은 그들의 입장을 위해 추가적인 양보안을 제시했습니다. 어차피 원래 합의는 다소 미흡한 것이었기에, 저는 [representative.GetFirstNameNoTooltip]에게 그들의 선의를 재확인하기 위해 더 많은 것을 원한다고 말했습니다." # 14114303088770723569
+  sicily.0031.desc.failure: "결국, 우리는 [representative.GetFirstNameNoTooltip]에게서 더 이상 아무것도 얻어낼 수 없었습니다.\n\n정말 까다로운 협상가로군! [representative.GetSheHe]는 우리가 무슨 수를 써서라도 [representative.GetHerHis]의 요새 영향력을 줄여야 한다는 절박함을 알고 있었던 것 같습니다." # 5840311467829967589
+  sicily.0031.desc.prestige: "[representative.GetFirstNameNoTooltip]께서는 숙고 끝에 요새의 지도자 일부가 제 궁정으로 와서 공식적으로 경의를 표하고 저희의 합의를 확증하는 데 동의하셨습니다.\n\n비록 더 실질적인 양보를 원했지만, 이 상징적인 제스처는 환영할 만하며, 이 지역의 모든 이들에게 이 요새들이 최소한 지금으로서는 저에게 복종하고 있음을 보여줄 것입니다." # 8859588634580063186
+  sicily.0031.desc.gold: "[representative.GetFirstNameNoTooltip]께서는 처음에는 주저하셨지만, 저희가 [representative.GetHerHis] 백성들에게 빚진 금의 액수를 줄이는 것에 동의하셨습니다.\n\n물론, 애초에 이 말썽꾼들에게 금을 보내야 하는 것은 마찬가지지만, 처음 제안을 덥석 수락하기보다는 협상을 계속하는 위험을 감수한 것이 다행이라고 생각합니다." # 17371252618530252269
+  sicily.0031.desc.troops: "[representative.GetFirstNameNoTooltip]께서는 그분의 거점들에서 병사들을 보내 저에게 충성을 맹세하고, 우리를 위협하는 모든 적에 맞서 제 깃발 아래 싸우게 하겠다고 약속했습니다.\n\n사실 저는 이 결과를 바라고 있었습니다. 그들의 파괴적인 충동을 저에게서 돌려 제 적들에게 향하게 할 수 있다면 좋을 것입니다. 결국 그들의 전사들은 제 부대에 맞설 때뿐만 아니라, 그들의 전투 기술로 칭송받고 있으니까요." # 7142995425384430307
+  sicily.0031.desc.county: "[representative.GetFirstNameNoTooltip]께서 심사숙고하신 끝에, 그분과 다른 요새 지도자들이 이 지역의 교역과 상업을 원활하게 할 방안을 논의할 수 있다고 말씀하셨습니다. 결국 그들은 거주 지역을 넘어선 네트워크를 가지고 있으며, 요새를 통과하는 교역로에 대한 보호를 제공할 수 있습니다.\n\n나쁘지 않은 생각입니다. 그들의 인맥은 유용할 수 있으며, 그들의 대외적 관계와 제 도로를 지켜보겠다는 의지는 상업이 번창하도록 할 것입니다." # 6694745227313101280
+  sicily.0031.a: "좋소, 그렇다면 협상이 끝났군." # 12718500038309431143
+  sicily.0032.t: "xxxxx" # 1951045980481827005
+  sicily.0032.desc: "xxxxx" # 1951045980481827005
+  sicily.0032.a: "xxxxx" # 1951045980481827005
+  sicily.0033.t: "xxxxx" # 1951045980481827005
+  sicily.0033.desc: "xxxxx" # 1951045980481827005
+  sicily.0033.a: "xxxxx" # 1951045980481827005
+  sicily.0034.t: "xxxxx" # 1951045980481827005
+  sicily.0034.desc: "xxxxx" # 1951045980481827005
+  sicily.0034.a: "xxxxx" # 1951045980481827005
+  sicily.0035.t: "xxxxx" # 1951045980481827005
+  sicily.0035.desc: "xxxxx" # 1951045980481827005
+  sicily.0035.a: "xxxxx" # 1951045980481827005
+  sicily.0036.t: "xxxxx" # 1951045980481827005
+  sicily.0036.desc: "xxxxx" # 1951045980481827005
+  sicily.0036.a: "xxxxx" # 1951045980481827005
+  sicily.0037.t: "xxxxx" # 1951045980481827005
+  sicily.0037.desc: "xxxxx" # 1951045980481827005
+  sicily.0037.a: "xxxxx" # 1951045980481827005
+  sicily.0038.t: "xxxxx" # 1951045980481827005
+  sicily.0038.desc: "xxxxx" # 1951045980481827005
+  sicily.0038.a: "xxxxx" # 1951045980481827005
+  sicily.0039.t: "xxxxx" # 1951045980481827005
+  sicily.0039.desc: "xxxxx" # 1951045980481827005
+  sicily.0039.a: "xxxxx" # 1951045980481827005
+  sicily.0040.t: "xxxxx" # 1951045980481827005
+  sicily.0040.desc: "xxxxx" # 1951045980481827005
+  sicily.0040.a: "xxxxx" # 1951045980481827005
+  sicily.0041.t: "xxxxx" # 1951045980481827005
+  sicily.0041.desc: "xxxxx" # 1951045980481827005
+  sicily.0041.a: "xxxxx" # 1951045980481827005
+  sicily.0042.t: "xxxxx" # 1951045980481827005
+  sicily.0042.desc: "xxxxx" # 1951045980481827005
+  sicily.0042.a: "xxxxx" # 1951045980481827005
+  sicily.0043.t: "xxxxx" # 1951045980481827005
+  sicily.0043.desc: "xxxxx" # 1951045980481827005
+  sicily.0043.a: "xxxxx" # 1951045980481827005
+  sicily.0044.t: "xxxxx" # 1951045980481827005
+  sicily.0044.desc: "xxxxx" # 1951045980481827005
+  sicily.0044.a: "xxxxx" # 1951045980481827005
+  sicily.0045.t: "xxxxx" # 1951045980481827005
+  sicily.0045.desc: "xxxxx" # 1951045980481827005
+  sicily.0045.a: "xxxxx" # 1951045980481827005
+  sicily.0046.t: "xxxxx" # 1951045980481827005
+  sicily.0046.desc: "xxxxx" # 1951045980481827005
+  sicily.0046.a: "xxxxx" # 1951045980481827005
+  sicily.0047.t: "xxxxx" # 1951045980481827005
+  sicily.0047.desc: "xxxxx" # 1951045980481827005
+  sicily.0047.a: "xxxxx" # 1951045980481827005
+  sicily.0048.t: "xxxxx" # 1951045980481827005
+  sicily.0048.desc: "xxxxx" # 1951045980481827005
+  sicily.0048.a: "xxxxx" # 1951045980481827005
+  sicily.0049.t: "xxxxx" # 1951045980481827005
+  sicily.0049.desc: "xxxxx" # 1951045980481827005
+  sicily.0049.a: "xxxxx" # 1951045980481827005
+  RICE_sicily_grain_reaction_bad: "시칠리아 곡물 거래에 대해 사람들이 못마땅해합니다" # 13708405323418578502
+  RICE_sicily_grain_reaction_good: "시칠리아 곡물 거래에 대해 사람들이 호의적으로 생각합니다." # 13222657352830464890
+  sicily.0050.t: "곡물 수송" # 17985884093812441987
+  sicily.0050.desc: "저는 [GetGeographicalRegion('custom_sicily').GetName] 영토에서 생산된 상당량의 곡물을 선의의 표시로 [recipient.GetTitledFirstName]에게 보내도록 명령했습니다. 결국 이 지역의 비옥한 산물은 외국인들이 자주 탐내는 것이니, [recipient.GetSheHe]께서 이 제스처를 고마워할 것이라 확신합니다.\n\n어쨌든, 곡물은 곧 그곳에 도착할 것입니다." # 10051793729777095096
+  sicily.0050.a: "[recipient.GetFirstNameNoTooltip]이 거절할 수 없는 제안입니다!" # 5543970701915305564
+  sicily.0051.opening: "[actor.Custom2('AppropriateGreeting', ROOT.Char)]" # 15316089254346760738
+  sicily.0051.desc: "[GetGeographicalRegion('custom_sicily').GetName] 영토에서 온 이 곡물 수송품을 받아주시길 바랍니다. 우리의 차이점에도 불구하고, 이 식량 선물이 귀하의 영지 내 많은 이들의 고통을 덜어주고 배를 채워주기를 바랍니다. 귀하께서 거절하지 않으실 것이라 확신하는 관대한 제안입니다." # 13827660241998463675
+  sicily.0051.a: "정말로, 거절할 수 없는 제안이었소!" # 1911443215974014684
+  sicily.0052.opening: "[recipient.Custom2('AppropriateGreeting', ROOT.Char)]" # 17355501581046964446
+  sicily.0052.desc: "[GetGeographicalRegion('custom_sicily').GetName] 영토에서 신민들에게 곡물 선적을 보내주시겠다는 제안은 감사드리지만, 지금으로서는 그 선물을 거절해야겠습니다. 귀하의 곡물에 너무 의존하고 싶지 않으며, 그 점은 충분히 이해해 주시리라 생각합니다." # 5214686451503702170
+  sicily.0052.a: "나는 [actor.GetSheHe]가 거절할 수 없는 제안을 했다고 생각했는데!" # 1333101040402850708
+  sicily.0053.opening: "[recipient.Custom2('AppropriateGreeting', ROOT.Char)]" # 17355501581046964446
+  sicily.0053.desc: "저는 [GetGeographicalRegion('custom_sicily').GetName] 영토에서 곡물 수송을 기꺼이 보내드리겠습니다. 금으로 지불해 주신 점 대단히 감사드리며, 곡물은 곧 도착할 것입니다." # 14138248963578416374
+  sicily.0053.a: "훌륭하군!" # 4941506436412555079
+  sicily.0054.opening: "[actor.Custom2('AppropriateGreeting', ROOT.Char)]" # 15316089254346760738
+  sicily.0054.desc: "$k_sicily$의 [GetGeographicalRegion('custom_sicily').GetName] 영지에서 곡물 선적을 보내주시기로 허락해 주셔서 진심으로 감사드립니다. 저의 백성들은 귀하의 관대함에 감사하고 있습니다." # 10869112494291348340
+  sicily.0054.a: "곡식이 무사히 도착했다니 다행이군." # 11311608335143782850
+  sicily.0055.opening: "[recipient.Custom2('AppropriateGreeting', ROOT.Char)]" # 17355501581046964446
+  sicily.0055.desc: "금화를 제안해 주신 점은 감사드리지만, [GetGeographicalRegion('custom_sicily').GetName] 영토에서 곡물을 실어 보내드릴 여유가 없습니다. 그 곡물은 다른 이들을 위해 따로 남겨두었으니, 부디 이해해 주시리라 믿습니다." # 17330044222113901450
+  sicily.0055.a: "내가 [recipient.GetSheHe]가 거절할 수 없는 제안을 했다고 생각했는데!" # 13569538061285691943
+  sicily.0056.t: "xxxxx" # 1951045980481827005
+  sicily.0056.desc: "xxxxx" # 1951045980481827005
+  sicily.0056.a: "xxxxx" # 1951045980481827005
+  sicily.0057.t: "xxxxx" # 1951045980481827005
+  sicily.0057.desc: "xxxxx" # 1951045980481827005
+  sicily.0057.a: "xxxxx" # 1951045980481827005
+  sicily.0058.t: "xxxxx" # 1951045980481827005
+  sicily.0058.desc: "xxxxx" # 1951045980481827005
+  sicily.0058.a: "xxxxx" # 1951045980481827005
+  sicily.0059.t: "xxxxx" # 1951045980481827005
+  sicily.0059.desc: "xxxxx" # 1951045980481827005
+  sicily.0059.a: "xxxxx" # 1951045980481827005
+  sicily.0060.t_alt_ME: "시칠리아의 운명" # 13135591435973163074
+  sicily.0060.desc.muslim_alt_ME: "이제 [norman.GetNameNoTooltip]의 모험가들은 그들이 남부 이탈리아의 [greek.GetName] 및 [lombard.GetName] 도시들에 했던 짓을 하려 하고 있습니다. [roger.GetFirstNameNoTooltip]가 [roger.GetHerselfHimself]를 위해 [GetGeographicalRegion('custom_sicily').GetName] 전체를 정복하기를 원하기 때문입니다. 쇠약해지는 [spotlight_muslim.GetDynasty.GetName] 국가가 패배에 점점 더 가까워지자, 싸움에 염증을 느낀 일부 [GetReligionByKey('islam_religion').GetAdjective] 현지인들은 이교도의 안정적인 통치가 혼돈보다 낫다고 여기며 성급하게 [roger.GetFirstNameNoTooltip]를 환영합니다.\n\n하지만 영향력이 약해졌음에도 불구하고, [spotlight_muslim.GetFirstNameNoTooltip]와 그의 아버지 [zirid_father.GetFirstNameNoTooltip]는 [roger.GetFirstNameNoTooltip]에 맞서 여전히 저항하고 있습니다. 이 섬의 운명이 어떻게 될지 궁금해질 따름입니다…." # 6776084952594360563
+  sicily.0060.desc.christian_alt_ME: "[al_thumna.GetFirstNamePossessiveNoTooltip]의 죽음과 함께, 이 섬의 끝없는 전쟁은 새로운 국면으로 접어들었습니다. [roger.GetFirstNameNoTooltip]에게 있어, 섬 전체가 [GetReligionByKey('christianity_religion').GetAdjective]의 통치하에 들어와야만 질서가 회복될 것이며, 이곳에는 챙길 수 있는 막대한 부가 많다는 것도 잊어서는 안 됩니다.\n\n수많은 이교도들이 [zirid_father.GetFirstNameNoTooltip]와 그의 아들 [spotlight_muslim.GetFirstNameNoTooltip]의 [spotlight_muslim.GetDynasty.GetName] 깃발 아래 저항을 이어가고 있습니다. 하지만, 다른 이들은 [roger.GetFirstNameNoTooltip]가 섬을 안정시킬 수 있다고 생각하거나, 혹은 [roger.GetHerHis] 죽은 동맹인 [al_thumna.GetFirstNameNoTooltip]의 충성스러운 추종자들이기에 [roger.GetFirstNamePossessiveNoTooltip]의 도착을 환영합니다. 이 섬의 운명이 어떻게 될지 궁금해질 따름입니다...." # 792319597990672261
+  sicily.0060.desc.fallback_alt_ME: "[al_thumna.GetFirstNamePossessiveNoTooltip]의 죽음으로, 이 용병 형제들은 죽은 친구에 대한 복수를 원하든, 이 상황을 기회 삼아 이용하려 하든, 혹은 둘 다이든 간에 이 섬 전체를 자신들의 통제하에 두려 합니다.\n\n많은 [GetReligionByKey('islam_religion').GetAdherentNamePlural]들은 약화된 [spotlight_muslim.GetDynasty.GetName] 왕조의 깃발 아래 이 침략에 계속 저항하고 있으며, 많은 이들이 이 무자비한 침략자들의 도래를 두려워합니다. 하지만 섬 주민들 중 일부—종교에 상관없이—는 이 [norman.GetCollectiveNounNoTier]들을 환영받는 평화와 안정의 전달자로 여기고 있습니다. 이 섬의 운명이 어찌 될지 궁금해질 따름입니다..." # 1110875193184617918
+  sicily.0060.t: "시칠리아의 타이파 왕국들" # 17526547009587610327
+  sicily.0060.desc: "[kalbid.GetFirstName]가 수년 전 사망하고, [kalbid.GetDynasty.GetName] 왕조가 [GetGeographicalRegion('custom_sicily').GetName]에 대한 통제권을 잃자, [GetReligionByKey('islam_religion').GetAdjective] 군벌들이 섬을 차지하기 위해 피비린내 나는 싸움을 벌였습니다.\n\n이 #italic 타히파#!들이 서로 끝없는 전쟁을 벌이는 동안, 한 군벌인 [al_thumna.GetFullName]은 두 형제인 [robert.GetFirstName]와 [roger.GetFirstName]가 이끄는 [norman.GetName] 용병들의 도움을 구했습니다." # 4187475994751315077
+  sicily.0060.desc.muslim: "이제 [norman.GetNameNoTooltip] 모험가들은 그들이 남부 이탈리아의 [greek.GetName] 및 [lombard.GetName] 도시들에게 했던 짓을 하려 하고 있습니다. [roger.GetFirstNameNoTooltip]가 [roger.GetHerselfHimself]를 위해 [GetGeographicalRegion('custom_sicily').GetName] 전체를 정복하기를 원하기 때문입니다. 싸움에 지친 일부 [GetReligionByKey('islam_religion').GetAdjective] 현지인들은 이교도의 안정적인 통치가 혼란보다 낫다고 믿으며, 섣불리 [roger.GetHerHim]를 환영합니다.\n\n하지만 [roger.GetFirstNameNoTooltip]에 용감하게 저항하는 이들도 있으니, 그중에는 강력한 [benavert.GetFirstNameNicknamed]가 있습니다. 이 섬의 운명이 어떻게 될지 궁금해집니다...." # 6817887855514552955
+  sicily.0060.desc.christian: "[al_thumna.GetFirstNamePossessiveNoTooltip]의 죽음과 함께, 이 섬의 끝없는 전쟁은 새로운 국면으로 접어들었습니다. [roger.GetFirstNameNoTooltip]에게 있어, 섬 전체가 #bold [GetReligionByKey('christianity_religion').GetAdjective]#의 통치하에 놓일 때에만 질서가 회복될 것이며, 이곳에 풍부한 재물이 있다는 것은 두말할 나위도 없습니다.\n\n일부 이교도들은 [norman.GetCollectiveNounNoTooltip]의 진격을 계속 거부하고 있으며, 그중에는 [benavert.GetFirstNameNicknamed]도 있습니다. 하지만 다른 이들은 [roger.GetFirstNamePossessiveNoTooltip]의 도착을 환영하는데, 그들이 [roger.GetFirstNameNoTooltip]가 섬을 안정시킬 수 있다고 생각하기 때문이거나, 혹은 [roger.GetHerHis] 죽은 동맹인 [al_thumna.GetFirstNameNoTooltip]의 충성스러운 추종자들이기 때문일 것입니다. 이 섬의 운명이 어찌 될지 궁금해질 따름입니다…." # 2267271905824851601
+  sicily.0060.desc.fallback: "[al_thumna.GetFirstNamePossessiveNoTooltip]의 죽음으로, 이 용병 형제들은 죽은 친구에 대한 복수를 원하든, 이 상황을 기회 삼아 이용하려 하든, 혹은 둘 다이든, 섬 전체를 자신들의 손아귀에 넣으려 합니다.\n\n수많은 [GetReligionByKey('islam_religion').GetAdjective] 통치자들은 이러한 침략에 계속 저항하고 있으며, 특히 [benavert.GetFirstNameNicknamed]는 이 무자비한 침략자들의 도래를 두려워합니다. 그러나 섬 주민들 중 일부—종교에 관계없이—는 이 [norman.GetCollectiveNounNoTier]들을 환영받는 평화와 안정의 전달자로 여깁니다. 이 섬의 운명이 어떻게 될지 궁금해질 따름입니다...." # 13772148828710937113
+  sicily.0060.a: "세 세계가 만나는 그 섬에서 다음에는 무슨 일이 일어날까요?" # 5510170979092627766
+  sicily.0060.tooltip: "#emphasis 역사적 배경:#! 수년간 쇠퇴하고 있었지만, 1040년에 칼비드 에미리트가 붕괴하면서 무슬림 시칠리아에 새로운 내전과 분열의 시대가 시작되었습니다. 일부 지역 #italic 타이파#!들이 강력하고 번성하는 지역 중심지로 변모할 수 있었던 이베리아와는 달리, 시칠리아의 #italic 타이파#!들은 상대적으로 약했고 권력을 공고히 할 수 없었기에, 경쟁자들에 맞서 외국 원조를 구해야 했습니다. 예를 들어, 북아프리카의 지리드 왕조는 수십 년 동안 섬의 정치에 끊임없이 개입했습니다.\n\n이러한 배경을 고려할 때, 시라쿠사의 통치자였던 이븐 알-투므나가 1061년에 노르만족의 군사적 지원을 요청한 것은 그리 비정상적인 일이 아닙니다. 그럼에도 불구하고, 1062년에 알-투므나가 사망하자 로저가 이끄는 노르만족은 섬 전체를 정복할 편리한 구실을 얻게 되었습니다. 흥미롭게도, 알-투므나의 추종자들은 동맹으로서 로저와 계속 함께 싸웠으며, 일부 지역 기독교인들은 노르만족에 저항한 이들 중 하나였습니다.\n\n시라쿠사의 후대 통치자였던 이븐 아바드(기독교 자료에서는 베나베르트로 알려짐)는 노르만족에 대한 마지막 저항을 이끌었습니다. 그가 1086년 전투에서 사망한 후, 노르만족의 시칠리아 정복은 1091년 노토가 함락되면서 마무리되었습니다." # 16394128927683489788
+  sicily.0061.t: "$RICE_historical_aspiration_fulfilled_title$" # 6312590152546762382
+  sicily.0061.desc: "[GetGeographicalRegion('custom_sicily').GetName]가 마침내 #italic 우리의 것#이 되었소.\n\n섬 정복이 완료됨에 따라, 라틴인부터 그리스인, 아랍인에 이르기까지, 기독교도, 이슬람교도, 유대교도 할 것 없이 이곳에 사는 모든 이들이 내게 복종하게 되었소. 더 이상의 다툼도, 혼란도 없소." # 17837362015920424969
+  sicily.0061.desc.benavert_converted: "심지어 한때 두려워했던 적수인 [benavert.GetFirstNameNicknamed]조차도 신의 빛을 보고 [christian.GetName]으로 개종했소. 섬의 다른 이교도들도 곧 뒤따를 것이라 확신하오." # 13498044280197434670
+  sicily.0061.desc.benavert_dead: "심지어 한때 두려워했던 숙적인 [benavert.GetFirstNameNicknamed]마저 사라졌습니다. 그[benavert.GetHerHis]의 죽음으로 저의 정복에 저항하던 자들의 사기가 증발해 버렸습니다." # 2728762743190370044
+  sicily.0061.desc.ending: "이제 수년간의 원정 끝에, 나는 이 고대 땅에 우리 가문의 분가를 위한 진정한 권력 기반을 건설할 수 있게 되었다. 우리는 앞으로도 오랫동안 지중해에서 막대한 권력과 영향력을 행사할 것이라 의심치 않는다." # 2254412542049437720
+  sicily.0061.a: "이 아름다운 섬은 이제 진정으로 우리의 고향처럼 느껴지는군." # 976179066440724833
+  sicily.0062.t: "$RICE_historical_aspiration_fulfilled_title$" # 6312590152546762382
+  sicily.0062.desc.intro: "마침내. 수년간의 끊임없는 라이벌 군벌 간의 투쟁과 잔혹한 [norman.GetName] 무리의 쉴 새 없는 파도에서 살아남은 끝에, [GetGeographicalRegion('custom_sicily').GetName] 섬은 이번에는 [uniter.GetFirstNameNicknamed]와 [uniter.GetDynasty.GetName] 가문의 깃발 아래 다시 한번 통일되었습니다." # 16082461840840652375
+  sicily.0062.desc.roger_converted: "놀랍게도, 한때 불신자였던 [norman.GetCollectiveNoun]의 지도자, [roger.GetTitledFirstName] 경께서는 [faith.HighGodName]을 받아들이고 [roger.GetFaith.GetName]으로 개종까지 하셨습니다!" # 14938541992713131226
+  sicily.0062.desc.roger_dead: "#weak [norman.GetNameNoTooltip]# 침략자들은 한때 크게 두려움의 대상이었으나, 그들의 강력한 지도자였던 [roger.GetTitledFirstName]의 죽음 이후 길을 잃은 듯합니다." # 15286491161135119114
+  sicily.0062.desc.ending: "아무튼, 섬에는 안정과 질서가 회복되고 있습니다. 언젠가 곧 예전처럼 번성하겠지요.\n\n하지만 우리의 일은 끝나지 않았으며, 쉴 틈이 없습니다. 이 섬은 여전히 지중해 다른 곳에서 오는 이교도들의 공격과 내부의 다툼으로 위협받고 있습니다. 재건 과정은 길고 험난하겠지만, 마침내 #italic 시작되고#! 있습니다." # 13349043250193620539
+  sicily.0062.a: "그리고 이 아름다운 섬의 역사는 계속됩니다...." # 1599745728081955637
+  sicily.0063.t: "[GetGeographicalRegion('custom_sicily').GetNameNoTooltip] 통합 (일단은)" # 10219154909576293700
+  sicily.0063.desc: "수년간의 혼란 끝에, [GetGeographicalRegion('custom_sicily').GetName] 섬이 [uniter.GetTitledFirstName]에 의해 통일되었습니다. 정치와 물론 군사력을 통해, [uniter.GetSheHe]는 오랜 세월 [kalbid.GetDynasty.GetName] 왕조가 멸망한 이래 처음으로 섬 전체를 한 통치자 아래 두는 데 성공했습니다.\n\n일부는 이것을 새로운 여명으로 여기며, 이제 [uniter.GetFaith.GetAdjective] [uniter.GetCulture.GetName]의 통치 아래 섬에 마침내 평화와 번영이 돌아올 것이라 믿습니다. 다른 이들은 이 사건을 더 부정적으로 보며, 이것이 부당하고 이교적인 폭정의 귀환이라고 여깁니다.\n\n많은 세계의 경계에 놓인 이 아름답고 탐나는 섬은 기회와 흥미가 끊이지 않을 것입니다. 전설적인 [GetGeographicalRegion('custom_sicily').GetName]에서 다음에 무슨 일이 일어날지는 시간이 말해줄 것입니다." # 17373714165950740415
+  sicily.0063.a: "[uniter.GetDynasty.GetName] 왕조의 통치가 그곳에서 얼마나 오래 지속될지 두고 보죠." # 7286094608195806673
+  sicily.0064.t: "#italic 다르 알 이슬람#!의 변경지대" # 1901783831432479087
+  sicily.0064.desc: "나는 #italic 다르 알 이슬람#!, 즉 유일신교의 영역의 가장자리에서 통치하고 있소.\n\n이슬람의 최전선인 [GetGeographicalRegion('world_europe_south_italy').GetName]에서 피와 땀, 눈물을 흘리며 [islam.GetName]을 지켜왔건만, [islam.GetAdjectiveNoTooltip] 세계는 여전히 우리를 무시하고 있소. [abbasid.GetHouse.GetName] 칼리프들이 나를 이 땅의 총독으로 인정하고 상징적인 지원을 해주는 데만도 몇 년이 걸렸지. 특히 지금 [christian.GetAdjective] 군대가 [louis.GetTitledFirstName]의 문 앞에 들이닥친 상황에서는 더욱이 우리를 실패한 사례로 치부하고 있소.\n\n하지만 최전선이라는 곳은 기회를 만들어내는 묘한 힘이 있소. 예를 들어, 우리를 위협하는 바로 그 불신자들도 협상이나 약간의 £gold£만 있다면 우리와 동맹을 맺도록 설득할 수 있소. 결국 우리는 그들 중 일부와 생산적인 교역과 외교를 해왔으니, 특히 공동의 적이 있다면 말이지.\n\n무슨 일이 일어나든, 이 반도에서 [islam.GetNameNoTooltip]의 운명은 나의 지도 아래 결정될 것임을 나는 알고 있소." # 13569320591871960723
+  sicily.0064.a: "[islam.GetAdjectiveNoTooltip] 세계는 언젠가 우리의 희생을 높이 평가할 것입니다." # 3524749451796131823
+  sicily.0064.tooltip: "#emphasis 역사적 배경:#! 바리 토후국은 847년(아랍 및 베르베르인 모험가들에 의해 건국됨)부터 871년 프랑크 황제 루이 2세의 군대에게 바리가 함락될 때까지 이탈리아 본토에 존재했던 저명한 이슬람 국가였습니다. 바리 토후국의 세 번째 통치자였던 사우단은 857년경에 권력을 잡았는데, 그의 출신에 대해서는 논란이 있으며 시칠리아, 아랍, 베르베르, 심지어 사하라 이남 아프리카 출신일 수도 있습니다.\n\n바리 토후국은 본질적으로 불안정한 변경 지대에 있었기 때문에 이슬람 세계로부터 큰 지지를 얻지 못했습니다. 예를 들어, 사우단이 아바스 왕조 정부로부터 총독으로 인정받기까지는 수년이 걸렸는데, 이는 그의 전임자인 무파라그가 이전에 요청했던 칭호였습니다.\n\n그럼에도 불구하고, 사우단에 대한 주요 기록들의 묘사는 서로 엇갈립니다. 기독교 기록들은 그를 무자비한 폭군이자 배신적인 뱀으로 묘사하는 반면, 무슬림 및 유대교 기록들은 그를 학식 있고 공정하며 생산적인 통치자로 묘사하며, 그가 유대인 학자인 아부 아론을 친구로 두었다고 전합니다.\n\n871년에 바리가 함락된 후, 사우단의 최종 운명은 불확실합니다. 그는 처형되었거나, 타란토로 도망쳤거나, 루이에게 투옥된 후 루이의 고문으로 복무했을 수 있습니다. 후자가 사실이라면, 그는 한동안 루이와 롬바르드인들을 서로 이간질했다고 전해집니다." # 8347401778502524539
+  sicily.0065.t: "$RICE_historical_aspiration_fulfilled_title$" # 6312590152546762382
+  sicily.0065.desc: "기적적으로, 나는 [islam.GetName]을 위해 [GetGeographicalRegion('RICE_mainland_southern_italy').GetName]에 [islam.GetAdjective]의 교두보를 마련했습니다. 강력한 [ROOT.Char.GetTitleAsNameNoTooltip]으로서, 나는 이교도와 신앙인 모두에게 존경을 받고 있습니다.\n\n한때 우리를 이교도들의 자비에 맡겨진 잃어버린 세력으로 치부했던 [islam.GetAdjectiveNoTooltip] 세계가 마침내 나와 나의 용감한 신하들이 마땅히 받아야 할 관심과 존중을 보이기 시작했습니다. 우리의 막대한 노력과 희생이 없었다면, 우리는 이 땅을 불신자들에게 빼앗겼을 것입니다.\n\n이제 이 반도에서 적들에 맞선 나의 입지를 확보했으니, 위대한 기회들이 우리를 기다리고 있습니다. 우리는 계속해서 북쪽으로 진격하여 [christian.GetName]의 심장부를 공격할 수 있으며, 교역망을 구축하고 도시를 발전시켜 이 전쟁으로 황폐해진 지역에 문명을 가져올 수 있습니다. 이 아름다운 땅은 우리에게 줄 것이 많으며, 미래는 많은 약속으로 가득 차 있습니다." # 4869150530298732785
+  sicily.0065.a: "남부 이탈리아가 마침내 완전히 #italic 다르 알 이슬람# 내에 들어왔습니다!" # 3872858264344088124
+  sicily.0065.a.tooltip: "$RICE_sicily_administer_frontier$ [decision|E]의 비용이 영구적으로 감소했습니다" # 14361592635948669833
+  sicily.0066.t: "바리 에미리국, 승리하다" # 746123346328384026
+  sicily.0066.desc: "수년 전, [islam.GetAdjective] 모험가들이 지중해 사방에서 모여 세운 [GetTitleByKey('c_bari').GetNameNoTier] 에미리트가 [GetGeographicalRegion('custom_sicily').GetName]에서 가장 강력한 국가 중 하나로 부상할 것이라고 예상한 이는 거의 없었습니다.\n\n현명하고 유능한 [sawdan.GetFirstName]의 통치 아래, [islam.GetNameNoTooltip]은 그들의 [christian.GetAdjective] 적들의 공격을 성공적으로 격퇴했을 뿐만 아니라(때로는 [christian.GetAdjectiveNoTooltip] 동맹이나 용병의 도움을 받았음도 언급해야 합니다), 번성하는 영토를 건설하고 학식 있는 궁정을 가꾸었습니다.\n\n이제 [islam.GetAdjectiveNoTooltip] 세계는 그의 업적을 더 이상 무시할 수 없으며, 그의 동족 중 다수가 그를 당대 최고의 통치자 중 한 명으로 칭송하고 있습니다. 한편, [sawdan.GetFirstNameNoTooltip]이 이탈리아와 그리스의 심장부에 가하는 위협 때문에 [christian.GetAdjectiveNoTooltip] 세계는 긴장하고 있습니다." # 15238177228291119943
+  sicily.0066.a: "이 척박한 변경에서는 다음에 무슨 일이 일어날까요?" # 10293255918374816812
+  sicily.0067.t: "소단(Sawdan)의 과거" # 1166800736292149133
+  sicily.0067.desc: "작고 #bold [GetReligionByKey('islam_religion').GetAdjective]#적인 공동체의 지도자가 되기까지 저의 여정은 길었습니다. 우리는 이 변경 지역에 전 세계에서 모여들었죠.\n\n우리 중 일부는 이미 [GetGeographicalRegion('RICE_insular_sicily').GetName]에 뿌리를 내리고 있습니다. 다른 곳에서 정착했거나 그들의 후손들이죠. 다른 이들은 멀리서 왔습니다. [GetGeographicalRegion('custom_andalusian').GetName], [GetGeographicalRegion('ghw_region_egypt_et_al').GetName], [GetGeographicalRegion('RICE_ifriqiya_region').GetName] 해안, $heritage_berber_name$ 내륙 지역, 혹은 심지어 아프리카 깊은 곳 등 여러 곳에서 말입니다. 저의 경우는…" # 5655709082310938056
+  sicily.0067.a: "[GetGeographicalRegion('custom_sicily').GetNameNoTooltip] #weak (기본값)#!" # 2447287087075868456
+  sicily.0067.b: "[GetGeographicalRegion('custom_andalusian').GetNameNoTooltip]" # 16871949604927529201
+  sicily.0067.c: "[GetGeographicalRegion('ghw_region_egypt_et_al').GetNameNoTooltip]" # 7680744121441247545
+  sicily.0067.d: "[GetGeographicalRegion('RICE_ifriqiya_region').GetNameNoTooltip]의 해안선" # 5965953140281266681
+  sicily.0067.e: "$heritage_berber_name$ 후방 지역" # 3750986678898392936
+  sicily.0067.f: "아프리카 깊은 곳에서부터" # 6272976010030836551
+  sicily.0068.t: "소우단의 야망" # 5057152495618603838
+  sicily.0068.desc: "어찌 되었든, 나는 이미 이 땅을 수년간 다스려 왔으며, 선조들의 노력을 이어가기 위해 열심히 노력해왔다. 하지만 [louis.GetTitledFirstName]의 군대가 우리의 존재를 위협하는 지금, 그 모든 노력이 물거품이 될 수도 있다. 설령 [louis.GetSheHe]를 물리친다 해도, 더 많은 자들이 뒤따를 것이다.\n\n우리는 [GetGeographicalRegion('world_europe_south_italy').GetName]의 미래를 위한 출발점이며, 마땅히 [ROOT.Char.GetFaith.HighGodName]의 올바른 신봉자들이 다스려야 할 곳이다. 하지만 우리가 이 새로운 보금자리를 지키고 이 변경 지역을 길들이기 위해 최선을 다하지 않는다면, 그 미래는 오지 않을 것이다. 우리는 다음 행보에 신중해야 한다." # 5682341384089144376
+  sicily.0068.a: "우리는 [GetReligionByKey('islam_religion').GetAdjective] 당국과 관계를 구축할 것입니다." # 285979769279914547
+  sicily.0068.b: "우리가 살아남으려면 우리 자신의 힘을 키우는 데 집중해야만 한다." # 10574833909356225306
+  sicily.0068.c: "우리는 교역과 약탈을 장려하여 국고를 채울 수 있습니다." # 9172326393935164391
+  sicily.0068.d: "우리는 공동의 적을 가진 이교도들을 찾아낼 것입니다." # 15252609012035184166
+  sicily.0069.t: "xxxxx" # 1951045980481827005
+  sicily.0069.desc: "xxxxx" # 1951045980481827005
+  sicily.0069.a: "xxxxx" # 1951045980481827005
+  sicily.0070.t: "xxxxx" # 1951045980481827005
+  sicily.0070.desc: "xxxxx" # 1951045980481827005
+  sicily.0070.a: "xxxxx" # 1951045980481827005
+  sicily.0071.t: "[abu_aaron.GetFirstNameNoTooltip] 님, 떠날 준비를 하십니다" # 16107304698645307494
+  sicily.0071.desc: "유대인 학자인 [abu_aaron.GetFirstName] 께서는 [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTier]에서 잠시 머무르셨는데, 이제 [GetGeographicalRegion('world_mesopotamia').GetName]에 있는 [abu_aaron.GetSheHe]의 고향으로 돌아가겠다고 선언하셨습니다.\n\n수년 전, 그곳 유대인의 #italic nasi#!, 즉 고위 관료인 아버지와 논쟁을 벌인 후 고향을 떠나 전 세계 최고의 학자들에게 배우기 위해 떠돌며 오랜 세월을 보냈습니다.\n\n이제 노년이 [abu_aaron.GetHerHim]에게 찾아오기 시작하면서, 너무 늙기 전에 돌아가고 싶은 향수병을 느끼고 있습니다. 제 영지 내 유대인과 비유대인 모두 [abu_aaron.GetHerHis]의 지혜와 신비로운 지식을 높이 평가하며 머물러 달라고 간청하고 있습니다. 일부는 우리 백성이 [abu_aaron.GetHerHis]의 가르침을 계속 받을 수 있도록 [abu_aaron.GetHerHim]을 강제로 억류해 달라고 요청하기까지 합니다." # 4274639517562980000
+  sicily.0071.desc.sawdan: "[abu_aaron.GetHerHis]의 친구로서, 제가 [abu_aaron.GetHerHim]을 자주 후원해왔기에 이 소식은 슬픕니다. 하지만 친구로서 저는 [abu_aaron.GetHerHis]의 뜻을 존중해야 마땅합니다." # 10428253859683545081
+  sicily.0071.a: "[abu_aaron.GetHerHim]이 고향으로 돌아가지 못하게 하는 것은 잔인한 처사로군. 잘 가시오!" # 7463331982110259735
+  sicily.0071.b: "저는 [abu_aaron.GetHerHim]을 여기에 머물게 할 수밖에 없습니다." # 12536405744139342694
+  sicily.0071.b.failure: "[abu_aaron.GetFirstNameNoTooltip]가 붙잡히는 것을 간신히 피했습니다." # 17708240140177249039
+  sicily.0071.b.success: "[abu_aaron.GetFirstNameNoTooltip]가 강제로 구금되었습니다." # 12375949283303283302
+  sicily.0072.t: "[abu_aaron.GetFirstNameNoTooltip] 귀가하다" # 16920938199193045740
+  sicily.0072.desc: "[abu_aaron.GetFirstName]라는 위대한 유대인 학자이자 신비주의자가 [GetGeographicalRegion('world_mesopotamia').GetName]에 있는 나의 영토로 돌아오고 있다는 소식을 들었습니다.\n\n수년 전, 그곳 유대인의 #italic 나시#!, 즉 고위 관료였던 [abu_aaron.GetHerHis] 아버지와 논쟁을 벌인 후, 그는 고향을 떠나 세계 최고의 학자들에게 배우기 위해 수년간 방랑하고 여행했습니다. 이제 노년이 [abu_aaron.GetHerHim]을 따라잡기 시작하자, [abu_aaron.GetSheHe]는 고향이 그리워져 너무 늙기 전에 돌아오고 싶어 합니다.\n\n[abu_aaron.GetFirstNameNoTooltip]은 [abu_aaron_original_liege.GetTitledFirstName]의 궁정을 떠났으며, 그곳에서 [abu_aaron.GetSheHe]가 마지막으로 머물렀던 곳인데, 이제 마침내 고향으로 돌아오고 있습니다." # 1520678416967594035
+  sicily.0072.a: "흥미로운 소식이로군...." # 3732344065103062123
+  sicily.0073.t: "xxxxx" # 1951045980481827005
+  sicily.0073.desc: "xxxxx" # 1951045980481827005
+  sicily.0073.a: "xxxxx" # 1951045980481827005
+  sicily.0074.t: "xxxxx" # 1951045980481827005
+  sicily.0074.desc: "xxxxx" # 1951045980481827005
+  sicily.0074.a: "xxxxx" # 1951045980481827005
+  sicily.0075.t: "xxxxx" # 1951045980481827005
+  sicily.0075.desc: "xxxxx" # 1951045980481827005
+  sicily.0075.a: "xxxxx" # 1951045980481827005
+  sicily.0076.t: "xxxxx" # 1951045980481827005
+  sicily.0076.desc: "xxxxx" # 1951045980481827005
+  sicily.0076.a: "xxxxx" # 1951045980481827005
+  sicily.0077.t: "xxxxx" # 1951045980481827005
+  sicily.0077.desc: "xxxxx" # 1951045980481827005
+  sicily.0077.a: "xxxxx" # 1951045980481827005
+  sicily.0078.t: "xxxxx" # 1951045980481827005
+  sicily.0078.desc: "xxxxx" # 1951045980481827005
+  sicily.0078.a: "xxxxx" # 1951045980481827005
+  sicily.0079.t: "xxxxx" # 1951045980481827005
+  sicily.0079.desc: "xxxxx" # 1951045980481827005
+  sicily.0079.a: "xxxxx" # 1951045980481827005
+  sicily.0080.t: "xxxxx" # 1951045980481827005
+  sicily.0080.desc: "xxxxx" # 1951045980481827005
+  sicily.0080.a: "xxxxx" # 1951045980481827005
+  sicily.0081.t: "xxxxx" # 1951045980481827005
+  sicily.0081.desc: "xxxxx" # 1951045980481827005
+  sicily.0081.a: "xxxxx" # 1951045980481827005
+  sicily.0082.t: "xxxxx" # 1951045980481827005
+  sicily.0082.desc: "xxxxx" # 1951045980481827005
+  sicily.0082.a: "xxxxx" # 1951045980481827005
+  sicily.0083.t: "xxxxx" # 1951045980481827005
+  sicily.0083.desc: "xxxxx" # 1951045980481827005
+  sicily.0083.a: "xxxxx" # 1951045980481827005
+  sicily.0084.t: "xxxxx" # 1951045980481827005
+  sicily.0084.desc: "xxxxx" # 1951045980481827005
+  sicily.0084.a: "xxxxx" # 1951045980481827005
+  sicily.0085.t: "xxxxx" # 1951045980481827005
+  sicily.0085.desc: "xxxxx" # 1951045980481827005
+  sicily.0085.a: "xxxxx" # 1951045980481827005
+  sicily.0086.t: "xxxxx" # 1951045980481827005
+  sicily.0086.desc: "xxxxx" # 1951045980481827005
+  sicily.0086.a: "xxxxx" # 1951045980481827005
+  sicily.0087.t: "xxxxx" # 1951045980481827005
+  sicily.0087.desc: "xxxxx" # 1951045980481827005
+  sicily.0087.a: "xxxxx" # 1951045980481827005
+  sicily.0088.t: "xxxxx" # 1951045980481827005
+  sicily.0088.desc: "xxxxx" # 1951045980481827005
+  sicily.0088.a: "xxxxx" # 1951045980481827005
+  sicily.0089.t: "xxxxx" # 1951045980481827005
+  sicily.0089.desc: "xxxxx" # 1951045980481827005
+  sicily.0089.a: "xxxxx" # 1951045980481827005
+  sicily.0090.t: "바이에!" # 18292637200208925114
+  sicily.0090.desc: "오래전부터 [GetTitleByKey('b_napoli').GetNameNoTier] 근처의 포에그라이 평야에 있는 바이아의 온천은 거대한 휴양지의 중심지였으니, 이제 짧은 휴가를 위해 그곳으로 떠날 때가 되었소!\n\n바이아의 온천은 약효로만 유명한 것이 아니라, 그 주변 휴양지는 일종의 유흥 도시로도 명성이 높소. 그곳에서 무엇이 나를 기다리든, 분명히 큰 즐거움을 누릴 수 있을 것이오." # 10158806333225880126
+  sicily.0090.desc.gender: "\n\n물론, [ROOT.Char.GetFaith.GetAdherentNamePlural] 중에는 [ROOT.Char.GetWomanMan]이 이 장소에서 [ROOT.Char.GetHerselfHimself]를 즐기는 것을 못마땅하게 여길 자들이 있을 것입니다. 이 장소는 소위 '나약한' 성별에게 죄악과 모든 종류의 감각적 방탕을 조장한다고 알려져 있죠. 하지만, 그 재미없는 자들의 말은 무시하겠습니다." # 15201374964098270085
+  sicily.0090.a: "자, 재미와 그 이상을 향해 가보자!" # 4796087587094605358
+  RICE_sicily_baia_modifier.travel.dominant: "$RICE_sicily_baia_modifier.dominant$\n\n그리하여 당신은 [GetActivityType( 'activity_RICE_hot_springs_visit' ).GetName] [activity|E]가 끝날 때 [GetModifier('RICE_sicily_visit_baia_normal').GetNameWithTooltip] [character_modifier|E]의 일반적인 버전을 얻게 될 것입니다." # 5473544320892748265
+  RICE_sicily_baia_modifier.travel.non_dominant: "$RICE_sicily_baia_modifier.non_dominant$\n\n그리하여 귀하는 [activity|E]인 [GetActivityType( 'activity_RICE_hot_springs_visit' ).GetName]이 끝날 때, [GetModifier('RICE_sicily_visit_baia_normal').GetNameWithTooltip] [character_modifier|E]의 변형을 얻게 되며, 이는 [opinion_i|E] [opinion|E]와 [piety_i|E] [piety|E]에 두 배의 #N 불이익#!을 받게 됩니다!" # 9382307952056765588
+  RICE_sicily_baia_modifier.travel.dont_care: "$RICE_sicily_baia_modifier.dont_care$\n\n그리하여 당신은 [GetActivityType( 'activity_RICE_hot_springs_visit' ).GetName] [activity|E]가 끝날 때, [opinion_i|E] [opinion|E]와 [piety_i|E] [piety|E]에 대한 불이익 대신 #P 보너스#를 가진 [GetModifier('RICE_sicily_visit_baia_hedonist').GetNameWithTooltip] [character_modifier|E] 버전을 얻게 될 것입니다." # 16746546466719847249
+  sicily.0091.t: "바이아에 도착함" # 13309867644689333754
+  sicily.0091.desc: "나는 유명한 목욕 휴양지인 바이아가 있는 플레그라이 평원에 도착했습니다. 오늘날에도 이곳이 이 지역 최고의 목욕 휴양지로 여겨지는 이유를 알 수 있겠군요.\n\n가장 인기 있는 명소인 목욕탕과 온천이 평원 곳곳에 넘쳐납니다. 물론 이것들은 고대 그리스와 로마 시대부터 보존되어 온 것들입니다.\n\n하지만 다른 즐길 거리도 있습니다. 근처 해안가에는 해변과 경치를 즐기는 사람들 무리가 흩어져 있고, 좀 더 지적이거나 영적인 기질을 가진 사람들은 근처의 고대 건물과 종교 유적지를 탐험할 수 있습니다." # 16717462426737345256
+  sicily.0091.a: "우선 목욕탕에서 휴식을 취하고 싶소." # 2265704412869687626
+  sicily.0091.b: "햇살 아래서 해변의 즐거움을 만끽해 봅시다!" # 1493539220569911022
+  sicily.0091.c: "구경하는 것이 흥미롭게 들리는군." # 9520759506172537016
+  RICE_sicily_baia_enjoy_yourself_tt: "바이야의 쾌락에 대해 눈살을 찌푸리는 이들도 있습니다." # 40082517312558921
+  RICE_sicily_baia_modifier.dominant: "[GetPlayer.GetFaith.GetName]의 [gender_doctrines|E] 때문에, 귀하와 같은 [GetPlayer.GetWomanMan]께서 바이야의 쾌락에 빠지더라도 사람들은 더 너그럽게 봐줄 것입니다." # 15683279611155684127
+  RICE_sicily_baia_modifier.non_dominant: "[GetPlayer.GetFaith.GetName]의 [gender_doctrines|E] 때문에, 귀하와 같은 [GetPlayer.GetWomanMan]이 바야의 쾌락에 빠지는 것에 대해 사람들이 더욱 비판적입니다." # 13211241330301138011
+  RICE_sicily_baia_modifier.dont_care: "하지만 [GetPlayer.GetFaith.GetName]의 신도들은 그러한 비판에 동의하지 않으며, 바야의 쾌락에 빠지는 것을 전혀 문제 삼지 않습니다." # 13644720640341037577
+  sicily.0092.t: "xxxxx" # 1951045980481827005
+  sicily.0092.desc: "xxxxx" # 1951045980481827005
+  sicily.0092.a: "xxxxx" # 1951045980481827005
+  sicily.0093.t: "xxxxx" # 1951045980481827005
+  sicily.0093.desc: "xxxxx" # 1951045980481827005
+  sicily.0093.a: "xxxxx" # 1951045980481827005
+  sicily.0094.t: "xxxxx" # 1951045980481827005
+  sicily.0094.desc: "xxxxx" # 1951045980481827005
+  sicily.0094.a: "xxxxx" # 1951045980481827005
+  sicily.0095.t: "xxxxx" # 1951045980481827005
+  sicily.0095.desc: "xxxxx" # 1951045980481827005
+  sicily.0095.a: "xxxxx" # 1951045980481827005
+  sicily.0096.t: "xxxxx" # 1951045980481827005
+  sicily.0096.desc: "xxxxx" # 1951045980481827005
+  sicily.0096.a: "xxxxx" # 1951045980481827005
+  sicily.0097.t: "xxxxx" # 1951045980481827005
+  sicily.0097.desc: "xxxxx" # 1951045980481827005
+  sicily.0097.a: "xxxxx" # 1951045980481827005
+  sicily.0098.t: "xxxxx" # 1951045980481827005
+  sicily.0098.desc: "xxxxx" # 1951045980481827005
+  sicily.0098.a: "xxxxx" # 1951045980481827005
+  sicily.0099.t: "xxxxx" # 1951045980481827005
+  sicily.0099.desc: "xxxxx" # 1951045980481827005
+  sicily.0099.a: "xxxxx" # 1951045980481827005
+  sicily.0100.t: "[GetGeographicalRegion('custom_sicily').GetNameNoTooltip]의 관료 승진" # 9308549547670437532
+  sicily.0100.desc: "나는 [GetGeographicalRegion('custom_sicily').GetName]의 [ROOT.Char.GetTitleAsNameNoTooltip]으로서, 그곳의 영토들을 다스리기 위해 많은 현지 관리들에게 의지하고 있습니다. 시간이 지나면서 그들의 가치를 증명하는 이들이 있으며, 그들을 승진시켜 내 궁정으로 데려와 나를 더 직접적으로 도울 수 있게 하는 것은 마땅한 보상입니다.\n\n내 관리들은 다양한 배경을 가진 잡다한 무리이며, 심지어 외국인도 있습니다. 그들을 승진시키는 것은 그들의 공동체와 좋은 관계를 유지하는 데에도 도움이 됩니다.\n\n자, 이번에는 어떤 종류의 관리들을 승진시키고자 하는가?" # 6540494283086305923
+  sicily.0100.a: "[sicily_latin_dominance_i|E] 라틴어" # 15686949975816581997
+  sicily.0100.b: "[sicily_greek_dominance_i|E] 그리스계" # 8967421543226304567
+  sicily.0100.c: "[sicily_arabic_dominance_i|E] 아랍-베르베르" # 8985183246458665463
+  sicily.0100.d: "[ROOT.Char.GetCulture.GetNameNoTooltip]" # 13461115622783972739
+  sicily.0101.t: "$sicily.0100.t$" # 1104046241178604169
+  sicily.0101.desc: "[GetGeographicalRegion('custom_sicily').GetName]의 관리를 승진시킬 때, 나는 그들의 전문 분야와 재능 또한 고려해야 합니다. 결국 이것은 그들의 경력에만 도움이 되는 것이 아니라, 이상적으로는 내가 행정상 부족한 부분을 도울 수 있도록 관리를 활용할 수 있기 때문입니다.\n\n어쨌든, 내가 찾아야 할 능력은 무엇인가요?" # 3683766005570549457
+  sicily.0101.a: "[diplomacy_i|E] 외교력" # 10057913442850671344
+  sicily.0101.b: "[martial_i|E] 무력" # 5458999513705659309
+  sicily.0101.c: "[stewardship_i|E] 관리력" # 18357095436558813890
+  sicily.0101.d: "[intrigue_i|E] 음모" # 6947198655772283433
+  sicily.0101.e: "[learning_i|E] 학문" # 8753163326755410575
+  sicily.0102.t: "$sicily.0100.t$" # 1104046241178604169
+  sicily.0102.desc: "내 궁정에서 내가 이전에 지정했던 요건을 충족하는 두 명의 [sicily_culture.GetName] 관리가 확인되었으며, 이들은 승진하기에 유망한 후보들이다. 그들의 이름은 [official_1.GetFullName]과 [official_2.GetFullName]이다.\n\n물론, 내가 여유 자원이 있다면 둘 다 승진시키는 것을 막을 것은 없다." # 12882172005154720796
+  sicily.0102.a: "[official_1.GetFirstNameNoTooltip]을 승진시키기" # 17611356266608207095
+  sicily.0102.b: "[official_2.GetFirstNameNoTooltip]을 승진시키기" # 8673275156022408106
+  sicily.0102.c: "두 후보 모두 승진시키십시오" # 17827976250064820179
+  sicily.0103.t: "[GetGeographicalRegion('custom_sicily').GetNameNoTooltip]의 관료 기록 갱신" # 12034703475529551596
+  sicily.0103.desc: "[GetGeographicalRegion('custom_sicily').GetName]의 혼란스러운 변경 지역에서는 훌륭한 행정 기록을 찾기가 어렵습니다. 기록이 분실되거나, 파괴되거나, 의심스러운 방식으로 변경될 수 있기 때문입니다.\n\n저의 관리자들이 [GetGeographicalRegion('custom_sicily').GetName] 내 영토의 관료 기록을 주기적으로 갱신하는 것은 중요합니다. 여기에는 유언장부터 재산 증서, 귀중품 구매 기록 등 모든 것이 포함됩니다.\n\n저의 [councillor.GetCouncilTitle], [councillor.GetFirstName] 께서는 이 노력에 동참하고 계시며, 효율성을 높이기 위해 이 지역의 라틴어, 그리스어, 또는 아랍-베르베르 기록을 활용할 것을 권장하고 있습니다." # 17390051208176163075
+  sicily.0103.a: "라틴 문서를 참고하십시오" # 110342892154269711
+  sicily.0103.b: "그리스 문서를 참고하시오" # 2272878548767252769
+  sicily.0103.c: "아랍-베르베르 문서를 참고하십시오" # 3150080490933667904
+  sicily.0104.t: "[GetGeographicalRegion('custom_sicily').GetNameNoTooltip]의 통치 체제 개혁" # 7538103886469287762
+  sicily.0104.desc: "[GetGeographicalRegion('custom_sicily').GetName]는 수 세기 동안 많은 민족의 고향이었습니다. 그곳의 신료들은 종종 우리 선대에게 물려받은 여러 행정 관습들을 뒤섞어 사용하고 있습니다.\n\n하지만 때로는 [GetGeographicalRegion('custom_sicily').GetNameNoTooltip]의 행정을 개혁해야 할 필요가 있습니다. 저의 [councillor.GetCouncilTitle]인 [councillor.GetFirstName]가 신중한 조사를 통해 정부 개혁을 위한 세 가지 잠재적 영감의 원천을 찾아냈습니다:" # 1490236945729562559
+  sicily.0104.desc.latin: "$EFFECT_LIST_BULLET$ [latin_ruler.GetFullName]의 라틴 행정 관행" # 14744800924736876561
+  sicily.0104.desc.no_latin: "$EFFECT_LIST_BULLET$ [GetGeographicalRegion('custom_sicily').GetNameNoTooltip] 내 라틴 공동체의 역사적 관습" # 6826348510917800933
+  sicily.0104.desc.greek: "$EFFECT_LIST_BULLET$ [greek_ruler.GetFullName]의 그리스 행정 관행" # 11360368768976365807
+  sicily.0104.desc.no_greek: "$EFFECT_LIST_BULLET$ [GetGeographicalRegion('custom_sicily').GetNameNoTooltip] 내 그리스 공동체의 역사적 관습" # 6227673728192292154
+  sicily.0104.desc.arabic: "$EFFECT_LIST_BULLET$ [arabic_ruler.GetFullName]의 아랍-베르베르 행정 관행" # 15897282401551834056
+  sicily.0104.desc.no_arabic: "$EFFECT_LIST_BULLET$ [GetGeographicalRegion('custom_sicily').GetNameNoTooltip] 내 아랍-베르베르 공동체의 역사적 관습" # 16275436202188605708
+  sicily.0104.a: "@RICE_sicily_latin_icon! 라틴식 모델에 기반하여 개혁을 단행하십시오" # 4326550570709166329
+  sicily.0104.b: "@RICE_sicily_greek_icon! 그리스식 모델에 기반하여 개혁을 단행하십시오" # 16652997747656882517
+  sicily.0104.c: "@RICE_sicily_arabic_icon! 아랍-베르베르 모델을 기반으로 개혁을 단행하십시오" # 5481968781920330130
+  sicily.0105.t: "[GetGeographicalRegion('custom_sicily').GetNameNoTooltip] 요새화" # 4536373296020884092
+  sicily.0105.desc: "[GetGeographicalRegion('custom_sicily').GetName]와 같은 지역은 불안정함이 가득하고 많은 세력들이 서로 차지하려 다투고 있습니다. 저의 영토들이 어떤 말썽꾼들의 공격과 약탈로부터 스스로를 방어할 수 있도록 하는 것이 중요합니다.\n\n저는 최근 제 관리들에게 [GetGeographicalRegion('custom_sicily').GetNameNoTooltip] 지역의 방어 태세를 강화하기 위해 지역 공동체와 협력하라는 지시를 내렸습니다. 그 결과, 그곳의 정착지들은 외부의 침입으로부터 더 잘 요새화되어 보호받게 될 것입니다." # 3265887095808496726
+  sicily.0105.desc.soldier: "더불어, 우리의 노력 덕분에 나에게도 좋은 소식이 생긴 것 같소. 내 관료들이 저명한 [sicily_culture.GetName] 출신 병사, [soldier.GetFullName]과 접촉했는데, 그가 왕국의 방어를 더욱 공고히 하기 위해 내 궁정에 봉사하며 군사 문제에 도움을 주겠다고 하더군." # 3117683713138732067
+  sicily.0105.a: "우리는 무엇으로부터든 우리 자신을 지켜낼 것이다!" # 15743703472531781624
+  sicily.0106.t: "[GetGeographicalRegion('custom_sicily').GetNameNoTooltip]의 예술과 학문" # 13380190884797984320
+  sicily.0106.desc: "[GetGeographicalRegion('custom_sicily').GetName]은 수 세기 동안 여러 문화와 전통이 만나는 장소였습니다. 이곳은 예술과 과학이 계속 성장할 수 있는 비옥한 토양이지요. 물론, 이 지역의 계몽된 통치자들이 그러한 노력을 후원할 때 말입니다.\n\n저는 스스로를 계몽된 [ROOT.Char.GetTitleAsNameNoTooltip]이라 생각하며, 따라서 학식 있고 교양 있는 인물들을 후원하고 제 궁정으로 초대하기 위해 국고의 더 많은 부분을 할당할 거창한 계획을 세웠습니다.\n\n하지만 학식 있고 교양 있는 인물들은 다양한 지역 출신입니다. 저는 [GetGeographicalRegion('custom_sicily').GetNameNoTooltip] 내의 기존 네트워크를 활용하여 특별한 예술가와 학자들을 유치해야겠군요…." # 17681377323090014897
+  sicily.0106.a: "@RICE_sicily_latin_icon! 라틴 예술가와 학자들을 초빙하십시오" # 13227806823343833198
+  sicily.0106.b: "@RICE_sicily_greek_icon! 그리스 예술가와 학자들을 초빙하십시오" # 4182643545128947415
+  sicily.0106.c: "@RICE_sicily_arabic_icon! 아랍-베르베르 예술가와 학자들을 초빙하십시오" # 11493004261350984037
+  sicily.0106.tooltip: "$RICE_sicily_frontier_agenda_arts_and_sciences_effect_tt_3$" # 11198673651694184242
+  sicily.0107.t: "[sicily_culture.GetNameNoTooltip]의 학자가 [GetGeographicalRegion('custom_sicily').GetNameNoTooltip]에서" # 15786825117729508667
+  sicily.0107.desc: "[GetGeographicalRegion('custom_sicily').GetName]의 학문과 문화를 개선하려는 나의 노력이 큰 결실을 맺었소. 심지어 특정 [scholar.GetFullName]의 관심까지 끌었소이다.\n\n이 박식한 [sicily_culture.GetName] 출신이며 [sicily_faith.GetAdjective]인 이 학자는 [county.GetNameNoTier] 지역 출신으로, 나의 정책에 대해 듣고 나의 궁정을 방문했으며, [scholar.GetSheHe]가 본 것에 감명받았소 (혹은, 최소한 [scholar.GetSheHe]는 감명받은 척을 훌륭하게 하고 있소이다).\n\n처음에는 어려움이 있었지만, 나는 [scholar.GetHerHim]을 설득하여 적어도 당분간 이곳에 정착하도록 하였소. [scholar.GetFirstNamePossessiveNoTooltip]의 지성은 우리에게 의심할 여지 없이 큰 자산이 될 것이오." # 18152592569888794642
+  sicily.0107.a: "새로운 보금자리에 오신 것을 환영합니다!" # 18338729821726186726
+  sicily.0108.t: "카리코리 항구" # 11761765558234450812
+  sicily.0108.desc: "고대로부터 곡물은 시칠리아 섬의 주요 수출품 중 하나였습니다. 수년에 걸쳐, 이 곡물을 국제 시장으로 분배하고 수출하는 것을 중앙 집중화하기 위해 #italic 카리카토리#!라고 불리는 특별 항구 시스템이 발전했습니다.\n\n시칠리아에 곡물 무역이 차지하는 중요성 때문에, 저와 같은 선견지명이 있는 통치자들에게는 제가 최근에 그랬던 것처럼, 이 항구들의 유지 및 개선에 지속적으로 투자하는 것이 당연한 일입니다.\n\n이는 또한 이 무역에 관련된 외국 상인들과 그들의 본국과의 관계를 돈독히 할 좋은 기회이기도 합니다." # 18124651804987951165
+  sicily.0108.a: "@RICE_sicily_latin_icon! 라틴 영토로 곡물 교역을 장려하십시오" # 15044394471242162761
+  sicily.0108.b: "@RICE_sicily_greek_icon! 그리스 영토로의 곡물 교역을 장려하십시오" # 6371119945876511588
+  sicily.0108.c: "@RICE_sicily_arabic_icon! 아랍 지역으로의 곡물 교역을 장려하십시오" # 16448018164399900607
+  sicily.0109.t: "[GetGeographicalRegion('custom_sicily').GetNameNoTooltip]로의 이주" # 8976831241617882090
+  sicily.0109.desc: "오랜 변경지대였던 [GetGeographicalRegion('custom_sicily').GetName]는 역동적인 땅입니다. 한편으로는 불안정할 때도 있지만, 다른 한편으로는 그곳에 정착하고자 하는 이들에게 기회로 가득 찬 곳입니다. 수 세기 동안 지중해 사방은 물론 그 너머에서 온 사람들이 이 해안으로 도착해 왔습니다.\n\n[GetGeographicalRegion('custom_sicily').GetNameNoTooltip]의 영토에서 저의 권위를 확장하고 경제적으로 발전시키기 위해, 저는 먼 땅에서 온 이민자들이 이 땅에 정착하도록 장려하는 정책을 시행하기로 결정했습니다.\n\n이 이민자들의 수는 비록 적고, 아마도 현지 주민들의 수에 결코 근접하지 못할 수도 있겠지만, 그들의 존재는 이 지역에 이로움을 가져다줄 것입니다." # 4221996776637207647
+  sicily.0109.a: "라틴 이민자들을 초대합니다" # 8424180400287901766
+  sicily.0109.b: "그리스 이민자를 초대하십시오" # 10998181622859991896
+  sicily.0109.c: "아랍-베르베르 이주민 초대하기" # 4780364655416281884
+  sicily.0109.d: "[ROOT.Char.GetCulture.GetNameNoTooltip] 이주민들을 초대합니다" # 6241897285822956973
+  sicily.0110.t: "xxxxx" # 1951045980481827005
+  sicily.0110.desc: "xxxxx" # 1951045980481827005
+  sicily.0110.a: "xxxxx" # 1951045980481827005
+  sicily.0111.t: "xxxxx" # 1951045980481827005
+  sicily.0111.desc: "xxxxx" # 1951045980481827005
+  sicily.0111.a: "xxxxx" # 1951045980481827005
+  sicily.0112.t: "xxxxx" # 1951045980481827005
+  sicily.0112.desc: "xxxxx" # 1951045980481827005
+  sicily.0112.a: "xxxxx" # 1951045980481827005
+  sicily.0113.t: "xxxxx" # 1951045980481827005
+  sicily.0113.desc: "xxxxx" # 1951045980481827005
+  sicily.0113.a: "xxxxx" # 1951045980481827005
+  sicily.0114.t: "xxxxx" # 1951045980481827005
+  sicily.0114.desc: "xxxxx" # 1951045980481827005
+  sicily.0114.a: "xxxxx" # 1951045980481827005
+  sicily.0115.t: "xxxxx" # 1951045980481827005
+  sicily.0115.desc: "xxxxx" # 1951045980481827005
+  sicily.0115.a: "xxxxx" # 1951045980481827005
+  sicily.0116.t: "xxxxx" # 1951045980481827005
+  sicily.0116.desc: "xxxxx" # 1951045980481827005
+  sicily.0116.a: "xxxxx" # 1951045980481827005
+  sicily.0117.t: "xxxxx" # 1951045980481827005
+  sicily.0117.desc: "xxxxx" # 1951045980481827005
+  sicily.0117.a: "xxxxx" # 1951045980481827005
+  sicily.0118.t: "xxxxx" # 1951045980481827005
+  sicily.0118.desc: "xxxxx" # 1951045980481827005
+  sicily.0118.a: "xxxxx" # 1951045980481827005
+  sicily.0119.t: "xxxxx" # 1951045980481827005
+  sicily.0119.desc: "xxxxx" # 1951045980481827005
+  sicily.0119.a: "xxxxx" # 1951045980481827005
+  sicily.0120.t: "네아폴리스 지하묘지로" # 4407724763299260599
+  sicily.0120.desc: "[GetTitleByKey('b_napoli').GetNameNoTier]에는 #italic 나폴리 지하 묘지#!라는 터널이 있습니다. 그곳 근처 어딘가에 위대한 [roman.GetName]의 시인이자 전설적인 마법사였던 #V 베르길리우스#!의 무덤이 있다고 전해집니다. 오늘날에도 많은 이들이 그의 업적과 그의 [roman.GetLanguage.GetName] 시를 숭배하고 있습니다.\n\n다른 많은 이들처럼, 저 또한 이 위대한 분께 경의를 표하기 위해 그곳을 방문하고 싶습니다. 그리하여 저는 그곳으로 여행할 준비를 마쳤습니다." # 6651276599623090167
+  sicily.0120.a: "[GetTitleByKey('b_napoli').GetNameNoTierNoTooltip]으로 가자!" # 10811724573181634427
+  sicily.0121.t: "도착" # 4877148824439775158
+  sicily.0121.desc: "저는 [GetTitleByKey('b_napoli').GetNameNoTier]에 있는 #italic 나폴리 지하 묘지#!에 도착했습니다. 이곳이 전설적인 위대한 [roman.GetName] 시인이자 마법사였던 #V 베르길리우스#!가 묻혀 있는 곳과 정말 가까운 곳일까요?\n\n터널은 어둡고 끝이 보이지 않을 정도로 깁니다. 베르길리우스가 마법의 숙련도를 이용해 이 모든 것을 홀로 팠다고 생각하니 놀랍습니다! 적어도 전설은 그렇게 말하고 있습니다. #italic 모두#!가 그 말을 믿는 것은 아니지만, 회의론자들조차도 베르길리우스의 작품, 특히 #italic 아이네이스#!의 웅변에는 의문을 제기할 수 없기에 그의 묘소를 찾아 경의를 표하러 몰려듭니다." # 2914327115486196534
+  sicily.0121.a: "나는 터널과 그 예배당으로 가야겠군." # 16807659589118653789
+  sicily.0122.t: "터널 안에서" # 3860614470763486197
+  sicily.0122.desc: "처음에는 동굴의 어둠을 헤쳐나가는 것이 힘들었지만, 마침내 나는 프레스코화로 장식된 바위를 깎아 만든 예배당에 도착했다. 이곳에서 몇몇 사람들이 기도하는 모습을 보았다.\n\n이 고요한 분위기 속에서, 나는 그의 #italic 아이네이스#!의 불멸의 구절들을 마음에 되새긴다. 그리고 나 역시 베르길리우스를 되돌아볼 시간을 갖는다. 위대한 시인이자, 위대한 마법사이며, 오늘날 우리에게까지 위대한 영감을 주는 존재다.\n\n시간이 좀 흐른 뒤, 나는 떠나기로 결정한다. 동굴에서 나와 문명 세계로 돌아오니, 마치 온갖 종류의 기적적이고 영적인 에너지로 가득 찬 장소를 뒤에 두고 온 듯한 묘한 기분이 든다." # 15603232657255960265
+  sicily.0122.a: "안녕히 가시오, 버질. 초대해 주셔서 감사합니다." # 12455447072971501975
+  sicily.virgil.miracle: "당신은 베르길리우스의 기적을 목격했습니다!" # 9457713500309354217
+  sicily.virgil.inspired: "당신은 베르길리우스에게 큰 영감을 받았군요!" # 13951991425349305693
+  sicily.0123.t: "베르길리우스의 신탁" # 7797439312574889253
+  sicily.0123.desc: "#italic 베르길리우스의 신탁#!으로 알려진 점술은 로마 시대까지 거슬러 올라가는 고대의 기술입니다. 수 세기 동안 우리는 시인 #V 베르길리우스#!의 현명한 말씀을 통해 미래를 이해해 왔습니다.\n\n오늘, 나 역시 유명한 시인의 시로 점을 쳐보기로 했습니다. 나는 베르길리우스의 걸작이자 가장 위대한 작품인 #italic 아이네이스#! 사본을 찾아 조심스럽게 임의의 페이지를 펼쳐봅니다." # 11414498959589348269
+  sicily.0123.desc.negative: "제가 고른 구절이… 꽤나 불길하군요. 이건 좋지 않습니다. 닥쳐올 어떤 곤경이든 그렇게 나쁘지 않기를 바랄 뿐입니다. 이것이 어떤 미래의 위험을 가리키는 걸까요?" # 8707467383502270159
+  sicily.0123.desc.positive: "다행히도 제가 고른 이 구절은 불길한 내용이 아닙니다. 이 구절을 제대로 해석할 수 있다면, 현재 저의 상황에 대해 전하고자 하는 조언을 파악할 수 있을 것입니다." # 16459022640784609739
+  sicily.0123.a: "단어들을 신중하게 살펴보겠소...." # 16958899977474975204
+  sicily.0124.t: "xxxxx" # 1951045980481827005
+  sicily.0124.desc: "xxxxx" # 1951045980481827005
+  sicily.0124.a: "xxxxx" # 1951045980481827005
+  sicily.0125.t: "xxxxx" # 1951045980481827005
+  sicily.0125.desc: "xxxxx" # 1951045980481827005
+  sicily.0125.a: "xxxxx" # 1951045980481827005
+  sicily.0126.t: "xxxxx" # 1951045980481827005
+  sicily.0126.desc: "xxxxx" # 1951045980481827005
+  sicily.0126.a: "xxxxx" # 1951045980481827005
+  sicily.0127.t: "xxxxx" # 1951045980481827005
+  sicily.0127.desc: "xxxxx" # 1951045980481827005
+  sicily.0127.a: "xxxxx" # 1951045980481827005
+  sicily.0128.t: "xxxxx" # 1951045980481827005
+  sicily.0128.desc: "xxxxx" # 1951045980481827005
+  sicily.0128.a: "xxxxx" # 1951045980481827005
+  sicily.0129.t: "xxxxx" # 1951045980481827005
+  sicily.0129.desc: "xxxxx" # 1951045980481827005
+  sicily.0129.a: "xxxx\"" # 15308465615999842627
+  sicily.0130.t: "[GetTitleByKey('b_palermo').GetNameNoTierNoTooltip]로 여정을 떠납니다" # 14634398810732329110
+  sicily.0130.desc.intro: "[GetGeographicalRegion('custom_sicily').GetName]은 유서 깊고 경이로운 과거를 지닌 고대의 땅이며, 수 세기 동안 수많은 저명한 인물들의 고향이었습니다. 그들 중 일부의 무덤은 아직도 이 아름다운 섬에 남아 있습니다.\n\n예를 들어," # 18080487394750537819
+  sicily.0130.desc.aristotle: "#bold 아리스토텔레스#!의 관은 고대 [greek.GetName] 철학자의 관으로, [palermo_faith.GetAdjective] [palermo_faith.HouseOfWorshipPlural] 중 하나인 [GetTitleByKey('b_palermo').GetNameNoTier] 시내의 나무 들보에 매달려 있습니다. 전해지기로는 수 세기 동안 그 자리에 있었다고 합니다." # 6290249459523496126
+  sicily.0130.desc.galen: "#bold 갈레노스#!, 고대 [greek.GetName]의 저명한 의사는 [GetTitleByKey('b_palermo').GetNameNoTier] 시 외곽에 묻혀 있다고 전해집니다. 그곳에서 그는 수 세기 동안 잠들어 있었다고들 합니다." # 7991840658335115064
+  sicily.0130.desc.muslim: "#bold 성전사#들이 많이 묻혀 있는 곳으로, 불의와 이교도에 맞서 싸웠던 이들의 무덤이 [GetTitleByKey('b_palermo').GetNameNoTier] 시 외곽에 있다고 전해집니다. 이 무덤들은 사방으로 특정한 #italic 바라카#!, 즉 축복의 기운을 내뿜는다고 합니다." # 4134618481651507453
+  sicily.0130.desc: "이제 나도 그곳으로 가서 예를 표해야겠군. 나 이전에 많은 이들이 그랬던 것처럼 말이야." # 10484739615163773838
+  sicily.0130.a: "$k_sicily$의 [GetTitleByKey('b_palermo').GetNameNoTierNoTooltip]으로 떠난다!" # 16601389611992766802
+  sicily.0131.t: "도착" # 4877148824439775158
+  sicily.0131.desc: "[GetTitleByKey('b_palermo').GetNameNoTier] 도시는 지중해 사방에서 온 여행자와 상인들, 그리고 지역 장인들과 농부들까지, 활기가 넘치고 분주합니다. 하지만 오늘, 저는 한 가지 목적을 가지고 이 도시에 왔습니다. 바로 경의를 표하기 위해서입니다." # 15870741495170234091
+  sicily.0131.desc.aristotle: "아리스토텔레스.\n\n아리스토텔레스의 가르침은 멀고 가까운 학자들에게 큰 영향을 미쳤기에 세상에 널리 퍼져 있습니다. 어쨌든, 그 철학자의 시신은 [GetTitleByKey('b_palermo').GetNameNoTierNoTooltip]에 있는 주요 [palermo_faith.GetAdjective] [palermo_faith.HouseOfWorshipPlural] 중 한 곳에 있는 나무 들보에 매달린 관 속에 안치되어 있다고 합니다. 저는 마땅히 군중의 인파를 헤치고 그 [palermo_faith.HouseOfWorship]으로 향합니다." # 11477822670475229612
+  sicily.0131.desc.galen: "갈레누스.\n\n갈레누스는 의학사에서 가장 위대한 인물 중 한 명이며, 오늘날에도 멀고 가까운 의사들이 그의 저술에 의지하고 있습니다. 어쨌든, 사람들은 그 의사가 [GetTitleByKey('b_palermo').GetNameNoTierNoTooltip]와 그 도시의 교외 중 하나인 미실메리 사이의 길에 묻혀 있다고 말합니다. 아무튼, 나는 곧 이 답답한 도시 환경을 벗어나 갈레누스의 무덤으로 향하는 길에 시골에 있게 될 것입니다." # 1834592268542144955
+  sicily.0131.desc.muslim: "[GetGeographicalRegion('custom_sicily').GetName]에서 스러져간 유명한 성전사들에 대한 이야기입니다.\n\n최초의 무슬림들이 이 섬에 도착했을 때, 이곳은 라이벌 무슬림 파벌들과 이교도 침략자들 간의 싸움으로 가득 찬 혼란스러운 변경 지대였습니다. 어쨌든, 사람들은 [GetTitleByKey('b_palermo').GetNameNoTierNoTooltip]에 이 최초의 독실한 병사들의 무덤이 셀 수 없이 많다고 말합니다. 저는 그중에서도 특히 유명한 한 성으로 향하고 있는데, 그곳에는 이 무덤들이 많이 안치되어 있어 우리가 #italic 카스르 사드#!라고 부르는 곳입니다." # 10559981911501489074
+  sicily.0131.a: "곧 도착할 것이다." # 5415369651839494055
+  sicily.0132.t: "아리스토텔레스" # 10698766679196580728
+  sicily.0132.desc: "마침내 나는 아리스토텔레스의 시신이 안치된 [palermo_faith.GetAdjective] [palermo_faith.HouseOfWorship]에 도착했다.\n\n물론 나 혼자 온 것은 아니다. 예를 들어 기도하기 위해 찾아온 경건한 [palermo_faith.GetAdherentNamePlural]들도 있고, 아리스토텔레스의 관을 구경하러 온 나와 같은 관광객들도 몇 명 있다. 그들은 그의 축복을 구하는 것일지도 모른다. [GetTitleByKey('b_palermo').GetNameNoTierNoTooltip]에는 그에게 기도하면 행운과 좋은 비가 내린다는 오래된 미신이 있기 때문이다.\n\n어떤 면에서는 감흥이 없는 광경이다. 위대한 사상의 주인의 시신이 분명히 놓여 있을 커다란 나무 관 하나가 전부다. 하지만 이 고대 인물의 존재를 느끼는 것, 그에 대해 너무나 많은 글이 쓰여졌다는 사실이 심오한 무언가를 느끼게 한다." # 11417930636131324793
+  sicily.0132.a: "저는 떠나기 전에 조용한 성찰의 시간을 가집니다." # 14282643753795416034
+  sicily.0133.t: "갈렌" # 599418674499917328
+  sicily.0133.desc: "마침내 갈레노스의 무덤에 도착했다. 그곳은 [GetTitleByKey('b_palermo').GetNameNoTier]와 미실메리 사이에 있으며, 미실메리에서 약간 동쪽에 있다.\n\n이 장소는 도시 외곽에 위치해 있어, [GetTitleByKey('b_palermo').GetNameNoTierNoTooltip] 중심부보다는 확실히 덜 붐빈다. 사람은 많지 않지만, 나처럼 갈레노스에게 경의를 표하러 온 몇몇 동행자들이 있는 듯하다.\n\n어떤 면에서는 기대에 미치지 못하는 광경이다. 위대한 의사의 시신이 안치된, 유명하지만 소박한 무덤일 뿐이다. 그럼에도 불구하고, 이 고대 인물 곁에 있다는 것, 그에 대해 너무나 많은 기록이 남아있는 이 인물 곁에 있다는 것에는 심오한 무언가가 있다." # 16961089860013392851
+  sicily.0133.a: "$sicily.0132.a$" # 2934355099950587050
+  sicily.0134.t: "[GetGeographicalRegion('custom_sicily').GetNameNoTooltip]의 성스러운 전사들" # 1112656290770809112
+  sicily.0134.desc: "마침내 나는 #italic 카스르 사드#! 성 앞에 섰다. 이 성은 [GetReligionByKey('islam_religion').GetAdjective] 신앙을 가진 이들 사이에서 가장 유명한 성 중 하나다. 이곳에는 [GetGeographicalRegion('custom_sicily').GetName]에서 전사한 고귀한 전사들의 무덤이 많을 뿐만 아니라, 사방으로 특정한 #italic 바라카#!, 즉 축복을 내뿜는다고 전해진다.\n\n나만 이곳에 온 것이 아니다. 나는 이 용감하고 헌신적인 영웅들에게 경의를 표한다. 또한 근처의, 미친 여인의 샘이라 불리는 #italic '아인 알-마즈누나#! 샘도 꼭 방문하는데, 이 샘 역시 상당히 성스럽다고 알려져 있기 때문이다.\n\n어떤 면에서는 감흥이 없는 광경이다. 성스러운 전사들의 무덤이 끝없이 이어져 있을 뿐이며, 그 배경은 소박하고 평범하다. 하지만 이 영감을 주는 영웅들의 존재를 느끼는 것에는 무언가 심오한 것이 있다." # 368985071622719626
+  sicily.0134.a: "$sicily.0132.a$" # 2934355099950587050
+  sicily.0135.t: "xxxxx" # 1951045980481827005
+  sicily.0135.desc: "xxxxx" # 1951045980481827005
+  sicily.0135.a: "xxxxx" # 1951045980481827005
+  sicily.0136.t: "xxxxx" # 1951045980481827005
+  sicily.0136.desc: "xxxxx" # 1951045980481827005
+  sicily.0136.a: "xxxxx" # 1951045980481827005
+  sicily.0137.t: "xxxxx" # 1951045980481827005
+  sicily.0137.desc: "xxxxx" # 1951045980481827005
+  sicily.0137.a: "xxxxx" # 1951045980481827005
+  sicily.0138.t: "xxxxx" # 1951045980481827005
+  sicily.0138.desc: "xxxxx" # 1951045980481827005
+  sicily.0138.a: "xxxxx" # 1951045980481827005
+  sicily.0139.t: "xxxxx" # 1951045980481827005
+  sicily.0139.desc: "xxxxx" # 1951045980481827005
+  sicily.0139.a: "xxxxx" # 1951045980481827005
+  sicily.0140.t: "[GetTitleByKey('b_salerno').GetNameNoTierNoTooltip]의 의과대학" # 14646346676540584028
+  sicily.0140.desc: "[GetTitleByKey('b_salerno').GetNameNoTier]의 의학부는 이 지역에서 의학을 가르치고 배우는 가장 유명한 기관 중 하나입니다.\n\n이 학파를 후원함으로써, 저는 의학 지식을 전파하고 숙련된 의사를 양성하려는 그들의 사명을 진전시킬 뿐만 아니라, 교육과 의학계의 후원자로서 저 자신의 명성 또한 높이고 있습니다." # 13299315569061468978
+  sicily.0140.desc.extras: "흥미롭게도, 최근 제가 학파에 베푼 후원이 저에게 유리한 추가적인 발전을 이끌어냈습니다." # 2540002414409466914
+  sicily.0140.a: "의술은 우리 사회에 있어 매우 중요한 학문이지요." # 12753518774372151082
+  sicily.0140.a.extras: "아? 또 다른 좋은 소식은 무엇이 있소?" # 15101555100014743953
+  sicily.0141.t: "$sicily.0140.t$" # 1554441126882192873
+  sicily.0141.desc: "소문이 사실이라면, [GetTitleByKey('b_salerno').GetNameNoTier]의 의학 학교를 후원함으로써 많은 이들이 나를 박식하고 사려 깊은 [ROOT.Char.GetTitleAsNameNoTooltip]으로 여기는 것 같습니다. 내 궁정에는 앞으로 몇 년 안에 유용하게 활용할 수 있는 학교와의 좋은 관계를 구축하고 있다고 말하는 이들이 많습니다." # 8487442821627037886
+  sicily.0141.a: "그럴싸하게 들리는군!" # 3819792994485876613
+  sicily.0142.t: "$sicily.0140.t$" # 1554441126882192873
+  sicily.0142.desc: "[GetTitleByKey('b_salerno').GetNameNoTier] 의학 학교에 대한 저의 후원이 수도인 [ROOT.Char.GetCapitalLocation.GetCounty.GetTitle.GetNameNoTier] 주변에 거주하는 의사들과 학자들이 학교 자체의 인물들과의 네트워크와 유대를 확장하는 데 도움이 된 것 같습니다. 이는 두 집단이 모든 종류의 방식으로 지식을 공유하고 서로 돕도록 장려하므로 긍정적인 효과를 가져올 수밖에 없습니다." # 4588853053112780735
+  sicily.0142.a: "협력은 의학의 대의를 더욱 발전시킬 뿐입니다." # 17945611564220723874
+  sicily.0143.t: "$sicily.0140.t$" # 1554441126882192873
+  sicily.0143.desc: "[GetTitleByKey('b_salerno').GetNameNoTier] 의과 대학을 후원해 주신 것에 대한 선물로, 그곳의 학자들과 의사들 중 일부가 이 대학에서 제작된 귀하고 매우 인기 있는 의학 서적 중 하나를 저에게 증정했습니다.\n\n이 서적들 중 일부는 다른 지역, 특히 동부 지중해와 중동의 의학 서적이나 고대 저작을 번역한 것이고, 다른 일부는 이전의 사상을 확장한 독창적인 저술이며, 상당수는 두 가지 모두에 해당합니다. 그것이 무엇이든 간에, 저와 저를 섬기는 모든 의사들에게 귀중한 자료가 될 것입니다." # 7062426284501160464
+  sicily.0143.a: "훌륭한 선물이로군!" # 820773985853193180
+  sicily.0144.t: "$sicily.0140.t$" # 1554441126882192873
+  sicily.0144.desc: "[GetTitleByKey('b_salerno').GetNameNoTier]의 의학 학교에 대한 나의 후원은 그들 중 다수가 나에게 직접 찾아와 감사를 표하도록 장려했습니다. 물론 나는 그들을 내 궁정에 기꺼이 맞이했습니다." # 6606517934777419599
+  sicily.0144.desc.old_physician: "그곳에 머무는 동안, 그들 중 일부는 나의 [GetCourtPositionType('court_physician_court_position').GetName()], [physician.GetTitledFirstName] 님을 만나 뵐 기회를 가졌습니다. [physician.GetSheHe|U]께서는 그것이 의학의 여러 측면에 대한 [physician.GetHerHis] 지식을 향상시킨 매우 깨우침을 주는 경험이었다고 말씀하셨습니다." # 12594954306972636049
+  sicily.0144.desc.new_physician: "그들의 일원 중 한 명인, [sicily_culture.GetName] 혈통의 의사 [physician.GetFirstName]는 깊은 감명을 받아, [physician.GetSheHe]가 나의 궁정에 머물며 나의 [GetCourtPositionType('court_physician_court_position').GetName()]으로 봉사하기를 원하고 있습니다." # 4671918248963263535
+  sicily.0144.a: "좋군!" # 15223637005262650462
+  sicily.0145.t: "xxxxx" # 1951045980481827005
+  sicily.0145.desc: "xxxxx" # 1951045980481827005
+  sicily.0145.a: "xxxxx" # 1951045980481827005
+  sicily.0146.t: "xxxxx" # 1951045980481827005
+  sicily.0146.desc: "xxxxx" # 1951045980481827005
+  sicily.0146.a: "xxxxx" # 1951045980481827005
+  sicily.0147.t: "xxxxx" # 1951045980481827005
+  sicily.0147.desc: "xxxxx" # 1951045980481827005
+  sicily.0147.a: "xxxxx" # 1951045980481827005
+  sicily.0148.t: "xxxxx" # 1951045980481827005
+  sicily.0148.desc: "xxxxx" # 1951045980481827005
+  sicily.0148.a: "xxxxx" # 1951045980481827005
+  sicily.0149.t: "xxxxx" # 1951045980481827005
+  sicily.0149.desc: "xxxxx" # 1951045980481827005
+  sicily.0149.a: "xxxxx" # 1951045980481827005
+  sicily.0150.t: "성 미카엘 성소로" # 10197600865038346818
+  sicily.0150.desc: "가르가노 산은 [GetTitleByKey('b_vieste').GetNameNoTooltip] 근처에 있으며 성 미카엘과 깊이 연관된 장소입니다. 수년 동안 #weak [christian.GetAdjective]# 순례자들이 대거 그곳을 찾아 대천사께 경의를 표해 왔습니다. 심지어 [GetTitleByKey('c_roma').GetNameNoTier]나 [GetTitleByKey('c_jerusalem').GetNameNoTier]와 같은 곳으로 순례를 떠나는 많은 이들도 종종 가르가노 산을 지나치곤 합니다.\n\n나 역시 헌신적인 #weak [faith.GetAdherentNamePlural]# 중 한 명으로서 다르지 않을 것입니다. 그곳 성 미카엘 성소로 순례를 떠날 준비를 마쳤기 때문입니다." # 6944465739241957966
+  sicily.0150.a: "성 미카엘의 영광을 위하여!" # 13318535904965595492
+  sicily.0151.t: "도착" # 4877148824439775158
+  sicily.0151.desc: "마침내 나는 몬테 가르가노 남쪽 경사면에 있는 몬테 산탄젤로 공동체에 도착했다. [GetTitleByKey('b_vieste').GetNameNoTooltip]에서 그리 멀지 않은 곳이다. 평범한 마을이어야 할 이곳에서 벌써부터 나는 온갖 여행자와 [christian.GetAdjective] 순례자들에게 둘러싸여 있다.\n\n일단은 숙소를 찾아 휴식을 취해야 한다. 하지만 곧 우리는 이곳 순례의 중심지인 유명한 동굴로 향하는 문인 성 미카엘 성소로 향할 것이다." # 943073847692176741
+  sicily.0151.a: "이제 저녁을 위해 휴식을 취할 시간입니다." # 17773204720131049594
+  sicily.0152.t: "동굴 속으로" # 15496769150884238737
+  sicily.0152.desc: "수년 전, 한 농부가 자신의 황소 한 마리를 잃어버렸다고 합니다. 몇 시간 동안 찾아 헤맨 끝에 그는 동굴 근처에서 황소를 발견했습니다. 하지만 그가 아무리 애를 써도, 심지어 화살을 쏘아도 황소는 꿈쩍도 하지 않았습니다.\n\n농부는 이상하게 여겨 지역 주교에게 도움을 청했습니다. 주교가 동굴 안으로 들어가자, 제단 옆에 #bold 성 미카엘#의 환영이 보였다고 합니다. 이로써 가르가노는 주요 순례지가 되었습니다.\n\n오늘, 저도 몬테 가르가노 산을 올라 이 성소까지 찾아왔습니다." # 899645002293852627
+  sicily.0152.a: "성 미카엘에게 기도하기 위해 동굴로 들어갈 시간이다." # 12538166877029990647
+  sicily.0153.t: "동굴" # 12865046271279501955
+  sicily.0153.desc: "이 동굴은 웅장한 장소로다. 우뚝 솟은 대성당이나 요새의 웅장함도 아니요, 끝없이 펼쳐진 대도시의 웅장함도 아니다. 아니다, 이곳은 하늘의 손길, 특히 성 미카엘의 손길이 닿아 신성한 기운이 스며드는, 조용하고 미묘한 웅장함이 있는 곳이다.\n\n그곳에는 오래전 주교가 성 미카엘의 환영을 발견했던 제단이 서 있다. 저기, 내 발아래에는 근처 성스러운 샘물로 축축하게 젖은 바닥이 있는데, 일부 순례자들은 축복을 받기 위해 필사적으로 그 물을 핥는다. 그리고 저기, 제단 곁에서 대천사의 축복을 간절히 기도하는 다른 순례자들이 있다.\n\n나는 제단으로 다가가 무릎을 꿇고 나 역시 기도를 시작한다." # 1075347502013492069
+  sicily.0153.a: "저의 정신과 육체의 건강을 위해 기도해 주십시오." # 13774662798305608567
+  sicily.0153.a.toast: "성 미카엘께서 당신을 축복하시기를" # 144868104424543545
+  sicily.0153.b: "이 힘든 시기에 힘을 내도록 기도하십시오" # 8923997987570974900
+  sicily.0153.b.toast: "$sicily.0153.a.toast$" # 6876233400428957997
+  sicily.0154.t: "동굴을 떠나며" # 14548452826141225970
+  sicily.0154.desc: "제단에 봉헌물을 바친 후, 저는 동굴을 나와 성 미카엘의 성역으로 다시 나왔습니다. 저는 마치 새로운 [ROOT.Char.GetWomanMan]이 된 것 같은 기분이고 모습입니다. 적어도 동료들은 그렇게 말해주고 있습니다.\n\n성 미카엘의 숭배가 세상 곳곳에서 강력하지만, 이곳 몬테 가르가노만큼 강력한 곳은 없을 것입니다. 이곳을 방문하고 나니 그렇게 느껴지는군요.\n\n이곳까지 순례할 수 있었던 것은 축복이며, 결코 잊지 못할 것입니다." # 12051691261729935100
+  sicily.0154.a: "잠시 여기서 쉬었다가 집으로 돌아가세." # 12832696544734195601
+  sicily.0155.t: "xxxxx" # 1951045980481827005
