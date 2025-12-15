@@ -285,4 +285,23 @@ describe('parseYaml과 stringifyYaml 통합', () => {
     
     expect(reparsed).toEqual(parsed)
   })
+
+  it('Paradox 형식의 인용문을 올바르게 이스케이프해야 함', () => {
+    // 파싱된 텍스트는 리터럴 따옴표를 포함함 (예: "The quote"\n\n-Source)
+    const data = {
+      'l_korean': {
+        'key1': ['"미합중국 시민의 투표권...아니 된다"\\n\\n- 수정헌법 제15조', '12345'] as [string, string | null]
+      }
+    }
+    
+    const result = stringifyYaml(data)
+    
+    // 출력 시 내부 따옴표는 이스케이프되어야 함
+    expect(result).toContain('\\"미합중국')
+    expect(result).toContain('아니 된다\\"\\n\\n')
+    
+    // YAML 구조의 따옴표는 이스케이프되지 않아야 함
+    expect(result).toContain('key1: "')
+    expect(result).toContain('" # 12345')
+  })
 })
