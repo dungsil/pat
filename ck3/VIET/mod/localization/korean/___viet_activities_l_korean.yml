@@ -86,7 +86,7 @@
   VIET_ghost_town_investigation_guard_saw_something_disbelief_completed_log_title: "유령 목격 (아마도 아닐 것임)" # 8821206692009977321
   VIET_ghost_town_investigation_guard_saw_something_disbelief_completed_log: "[CHARACTER.GetShortUINamePossessive|U]의 경비병 중 한 명이 [PROVINCE.GetBaronyNameExplicitly]의 유령 도시에 대한 [CHARACTER.GetHerHis] 조사 도중 유령을 목격했다고 하는데, [CHARACTER.GetShortUINameNoTooltip]은 그 말을 믿지 않았습니다." # 7796201821829812186
   VIET_ghost_town_investigation_resources_amount: "조사로 소모된 자원" # 12734617027354872435
-  VIET_decision_investigate_a_ghost_town_req: "[domain|E] 내 모든 [county|E]는 [GetModifier('VIET_spirit_towns').GetNameWithTooltip] [county_modifier|E]를 보유하고 있습니다." # 13598907138728098292
+  VIET_decision_investigate_a_ghost_town_req: "[domain|E] 내 모든 [county|E]는 [GetModifier('VIET_spirit_towns').GetNameWithTooltip] [county_modifier|E]를 보유하고 있습니다." # 17453323944005084839
   TRAVEL_NAME_FOR_activity_VIET_ghost_town_investigation: "[Character.GetFirstNamePossessiveNoTooltip] $activity_VIET_ghost_town_investigation$" # 4860028508142005901
   activity_VIET_giant_shade_tree_visit_host_an_a: "$host_activity_a$" # 13713790857143020716
   activity_VIET_giant_shade_tree_visit: "거대한 그늘나무 방문" # 13617361352211536964

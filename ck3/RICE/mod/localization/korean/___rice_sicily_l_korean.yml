@@ -482,7 +482,7 @@
   activity_RICE_sicily_virgil_tomb_visit_predicted_cost: "이 [activity|E]의 비용은 주로 귀하의 [income|E]에 따라 결정됩니다." # 10498845032472754788
   activity_RICE_sicily_virgil_tomb_visit_conclusion_desc: "우리의 [GetActivityType( 'activity_RICE_sicily_virgil_tomb_visit' ).GetName]이 끝났습니다. 참으로 경이로운 장소로다!" # 16806653130638021478
   RICE_sicily_virgil_tomb_visit_visitation_phase: "바라보다" # 716106150504941729
-  RICE_sicily_virgil_tomb_visit_visitation_phase_desc: "\"#italic 포르산 엣 헤크 올림 메미니세 주바비트.#\"\\\"언젠가 이 순간도 즐거운 추억으로 남을 것이다\"\n- 베르길리우스" # 18333628935932212673
+  RICE_sicily_virgil_tomb_visit_visitation_phase_desc: "\"#italic 포르산 엣 헤크 올림 메미니스세 주와비트.#\"\\\"언젠가 이 또한 즐거운 추억이 되리라\"\n- 베르길리우스" # 18333628935932212673
   RICE_sicily_virgil_tomb_visit_miracle_intent_header: "기적:" # 13156215268681701142
   RICE_sicily_virgil_tomb_visit_miracle_intent: "기적:" # 17244072275443662832
   RICE_sicily_virgil_tomb_visit_miracle_intent_desc: "기적이나 축복을 얻고 싶으시군요. #V 100#! 만큼의 추가 #V [piety_i|E]# [piety|E]를 얻습니다. 그리고 [piety_level|E]에 따라 [GetModifier('RICE_sicily_virgil_miracles').GetNameWithTooltip] [modifier|E]를 얻을 확률이 #V [GetPlayer.MakeScope.ScriptValue('RICE_sicily_virgil_activity_piety_chance')|0]%#가 됩니다." # 3752154900378253333
@@ -505,7 +505,7 @@
   activity_RICE_sicily_palermo_tomb_visit_predicted_cost: "이 [activity|E]의 비용은 주로 귀하의 [income|E]에 따라 결정됩니다." # 10498845032472754788
   activity_RICE_sicily_palermo_tomb_visit_conclusion_desc: "우리의 [GetActivityType( 'activity_RICE_sicily_palermo_tomb_visit' ).GetName]이 끝났습니다. 참으로 경이로운 곳이로군요!" # 2144280849611608247
   RICE_sicily_palermo_tomb_visit_visitation_phase: "바라보다" # 716106150504941729
-  RICE_sicily_palermo_tomb_visit_visitation_phase_desc: "\"#italic 포르산 엣 헤크 올림 메미니세 주바비트.#\"\\\"언젠가 이 순간도 즐거운 추억으로 남을 것이다\"\n- 베르길리우스" # 18333628935932212673
+  RICE_sicily_palermo_tomb_visit_visitation_phase_desc: "\"#italic 포르산 엣 헤크 올림 메미니스세 주와비트.#\"\\\"언젠가 이 또한 즐거운 추억이 되리라\"\n- 베르길리우스" # 18333628935932212673
   RICE_sicily_palermo_tomb_visit_aristotle: "아리스토텔레스" # 10698766679196580728
   RICE_sicily_palermo_tomb_visit_aristotle_desc: "$EFFECT_LIST_BULLET$ [GetModifier('RICE_sicily_aristotle_tomb_visit').GetNameWithTooltip] [modifier|E] 획득\n$EFFECT_LIST_BULLET$ [piety_i|E] #V [GetPlayer.MakeScope.ScriptValue('minor_piety_gain')|0]#! [piety|E] 획득\n$EFFECT_LIST_BULLET$ [GetTrait('calm').GetName( GetNullCharacter )], [GetTrait('patient').GetName( GetNullCharacter )], [GetTrait('scholar').GetName( GetNullCharacter )] 또는 [GetTrait('theologian').GetName( GetNullCharacter )] [traits|E]를 보유한 경우 추가 [stress_loss_i|E][stress|E]를 잃음\n\n#weak 저명한 철학자 아리스토텔레스의 관은 [GetTitleByKey('c_palermo').GetNameNoTierNoTooltip]의 주요 예배당 나무 들보에 매달려 있었다고 전해집니다.#" # 3781444206235219542
   RICE_sicily_palermo_tomb_visit_galen: "갈렌" # 599418674499917328
@@ -1599,3 +1599,474 @@
   sicily.0154.desc: "제단에 봉헌물을 바친 후, 저는 동굴을 나와 성 미카엘의 성역으로 다시 나왔습니다. 저는 마치 새로운 [ROOT.Char.GetWomanMan]이 된 것 같은 기분이고 모습입니다. 적어도 동료들은 그렇게 말해주고 있습니다.\n\n성 미카엘의 숭배가 세상 곳곳에서 강력하지만, 이곳 몬테 가르가노만큼 강력한 곳은 없을 것입니다. 이곳을 방문하고 나니 그렇게 느껴지는군요.\n\n이곳까지 순례할 수 있었던 것은 축복이며, 결코 잊지 못할 것입니다." # 12051691261729935100
   sicily.0154.a: "잠시 여기서 쉬었다가 집으로 돌아가세." # 12832696544734195601
   sicily.0155.t: "xxxxx" # 1951045980481827005
+  sicily.0155.desc: "xxxxx" # 1951045980481827005
+  sicily.0155.a: "xxxxx" # 1951045980481827005
+  sicily.0156.t: "xxxxx" # 1951045980481827005
+  sicily.0156.desc: "xxxxx" # 1951045980481827005
+  sicily.0156.a: "xxxxx" # 1951045980481827005
+  sicily.0157.t: "xxxxx" # 1951045980481827005
+  sicily.0157.desc: "xxxxx" # 1951045980481827005
+  sicily.0157.a: "xxxxx" # 1951045980481827005
+  sicily.0158.t: "xxxxx" # 1951045980481827005
+  sicily.0158.desc: "xxxxx" # 1951045980481827005
+  sicily.0158.a: "xxxxx" # 1951045980481827005
+  sicily.0159.t: "xxxxx" # 1951045980481827005
+  sicily.0159.desc: "xxxxx" # 1951045980481827005
+  sicily.0159.a: "xxxxx" # 1951045980481827005
+  sicily.0160.t: "xxxxx" # 1951045980481827005
+  sicily.0160.desc: "xxxxx" # 1951045980481827005
+  sicily.0160.a: "xxxxx" # 1951045980481827005
+  sicily.0161.t: "xxxxx" # 1951045980481827005
+  sicily.0161.desc: "xxxxx" # 1951045980481827005
+  sicily.0161.a: "xxxxx" # 1951045980481827005
+  sicily.0162.t: "xxxxx" # 1951045980481827005
+  sicily.0162.desc: "xxxxx" # 1951045980481827005
+  sicily.0162.a: "xxxxx" # 1951045980481827005
+  sicily.0163.t: "xxxxx" # 1951045980481827005
+  sicily.0163.desc: "xxxxx" # 1951045980481827005
+  sicily.0163.a: "xxxxx" # 1951045980481827005
+  sicily.0164.t: "xxxxx" # 1951045980481827005
+  sicily.0164.desc: "xxxxx" # 1951045980481827005
+  sicily.0164.a: "xxxxx" # 1951045980481827005
+  sicily.0165.t: "xxxxx" # 1951045980481827005
+  sicily.0165.desc: "xxxxx" # 1951045980481827005
+  sicily.0165.a: "xxxxx" # 1951045980481827005
+  sicily.0166.t: "xxxxx" # 1951045980481827005
+  sicily.0166.desc: "xxxxx" # 1951045980481827005
+  sicily.0166.a: "xxxxx" # 1951045980481827005
+  sicily.0167.t: "xxxxx" # 1951045980481827005
+  sicily.0167.desc: "xxxxx" # 1951045980481827005
+  sicily.0167.a: "xxxxx" # 1951045980481827005
+  sicily.0168.t: "xxxxx" # 1951045980481827005
+  sicily.0168.desc: "xxxxx" # 1951045980481827005
+  sicily.0168.a: "xxxxx" # 1951045980481827005
+  sicily.0169.t: "xxxxx" # 1951045980481827005
+  sicily.0169.desc: "xxxxx" # 1951045980481827005
+  sicily.0169.a: "xxxxx" # 1951045980481827005
+  sicily.0170.t: "xxxxx" # 1951045980481827005
+  sicily.0170.desc: "xxxxx" # 1951045980481827005
+  sicily.0170.a: "xxxxx" # 1951045980481827005
+  sicily.0171.t: "xxxxx" # 1951045980481827005
+  sicily.0171.desc: "xxxxx" # 1951045980481827005
+  sicily.0171.a: "xxxxx" # 1951045980481827005
+  sicily.0172.t: "xxxxx" # 1951045980481827005
+  sicily.0172.desc: "xxxxx" # 1951045980481827005
+  sicily.0172.a: "xxxxx" # 1951045980481827005
+  sicily.0173.t: "xxxxx" # 1951045980481827005
+  sicily.0173.desc: "xxxxx" # 1951045980481827005
+  sicily.0173.a: "xxxxx" # 1951045980481827005
+  sicily.0174.t: "xxxxx" # 1951045980481827005
+  sicily.0174.desc: "xxxxx" # 1951045980481827005
+  sicily.0174.a: "xxxxx" # 1951045980481827005
+  sicily.0175.t: "xxxxx" # 1951045980481827005
+  sicily.0175.desc: "xxxxx" # 1951045980481827005
+  sicily.0175.a: "xxxxx" # 1951045980481827005
+  sicily.0176.t: "xxxxx" # 1951045980481827005
+  sicily.0176.desc: "xxxxx" # 1951045980481827005
+  sicily.0176.a: "xxxxx" # 1951045980481827005
+  sicily.0177.t: "xxxxx" # 1951045980481827005
+  sicily.0177.desc: "xxxxx" # 1951045980481827005
+  sicily.0177.a: "xxxxx" # 1951045980481827005
+  sicily.0178.t: "xxxxx" # 1951045980481827005
+  sicily.0178.desc: "xxxxx" # 1951045980481827005
+  sicily.0178.a: "xxxxx" # 1951045980481827005
+  sicily.0179.t: "xxxxx" # 1951045980481827005
+  sicily.0179.desc: "xxxxx" # 1951045980481827005
+  sicily.0179.a: "xxxxx" # 1951045980481827005
+  sicily.0180.t: "xxxxx" # 1951045980481827005
+  sicily.0180.desc: "xxxxx" # 1951045980481827005
+  sicily.0180.a: "xxxxx" # 1951045980481827005
+  sicily.0181.t: "[ROOT.Char.Custom('RICE_sicily_ayo_visto_lo_mappamundi_song_name')]" # 15705841685984311192
+  sicily.0181.desc: "최근 [GetGeographicalRegion('custom_sicily').GetName] 전역에서 [ROOT.Char.Custom('RICE_sicily_ayo_visto_lo_mappamundi_song_name')]라는 민요가 인기를 얻고 있습니다. 이 노래의 가사는 [alfonso.GetTitledFirstName]의 통치 아래 있는 [GetGeographicalRegion('custom_sicily').GetName]의 비할 데 없는 아름다움을 찬양하고 있습니다.\n\n실로 이 노래는 제 궁정에서도 꽤나 유행하고 있습니다." # 17848408812613806869
+  sicily.0181.desc.copy: "제가 심지어 이 노래의 필사본을 입수할 행운까지 얻었습니다." # 13643456326935935036
+  sicily.0181.desc.lyrics: "\n\n노래의 첫 구절은 다음과 같습니다:\n\n#italic 나는 세계 지도를 보았고\n항해도를 보았지만,\n내게 시칠리아가\n이 세상에서 가장 아름답도다.#!" # 17218552471957284423
+  sicily.0181.a: "사랑스러운 땅을 위한 사랑스러운 노래로다." # 9533573152997987076
+  sicily.0181.info: "#emphasis 역사적 배경:#! #italic Ayo visto lo mappamundi#! 혹은 #italic Aggiu vistu lu mappamundu#!는\"나는 세계 지도를 보았\"로 번역되며, 아라곤이 남부 이탈리아의 상당 부분을 통치하던 시기 알폰소 5세의 궁정에서 유행했던 시칠리아 민요입니다.\n \n 이 노래는 피렌체 시인 페오 벨카리(Feo Belcari, 1410 - 1484)가 작곡한 도덕적 라우다(중세 및 르네상스 이탈리아의 속어로 된 종교 노래 장르)를 풍자한 곡으로, 같은 곡조로 불렸습니다. 이 노래의 가사는 화자가 시칠리아만큼 감명받지 못한 다른 아름다운 땅들을 언급하며, '치칠리아'(시칠리아의 역사적 표기)와 성녀 체칠리아 및 화자의 연인을 모두 지칭하는 '체칠리아' 사이의 말장난을 특징으로 합니다.\n \n 스페인 작곡가 후안 코르나고(Juan Cornago, c. 1400 – c. 1475)는 이 노래의 곡조를 바탕으로 미사곡을 작곡했으며, 이는 원곡 멜로디에 대한 유일한 자료입니다. 학자들은 최근에 원곡을 복원했습니다." # 400951872228807713
+  sicily.0182.t: "이븐 함디스" # 17511316632072345237
+  sicily.0182.desc: "#bold 이븐 함디스#!라는 저명한 시인이자 학자가 [GetGeographicalRegion('RICE_insular_sicily').GetName]에서 피신해 왔다는 소식을 들었습니다. 그가 저를 훌륭한 후원자가 되어줄 수 있는 인물이라고 생각하여 알현을 청했다고 하는데, 제가 예술과 학문을 존중하고 기리는 사람이라고 들었다고 합니다." # 13549285135989423565
+  sicily.0182.a: "나는 그와 같은 시인은 필요 없다." # 3044853511348395486
+  sicily.0182.b: "그러한 시인을 후원하게 되어 기쁘겠소!" # 7095005011750966414
+  sicily.0182.info: "#emphasis 역사적 배경:#! 이븐 함디스(서기 1050년대경 - 1130년대)는 시칠리아의 시라쿠사 출신 무슬림 시인으로, 당대 최고의 시인 중 한 명으로 여겨지며 아랍어에 능통했습니다. 그는 1072년 시라쿠사가 노르만에게 정복된 후 젊은 나이에 섬을 떠났습니다. 그는 평생 동안 북아프리카와 알안달루스 통치자들을 포함한 여러 통치자들의 후원을 받았습니다. 그의 시에서 흔히 나타나는 주제는 잃어버린 고향에 대한 향수입니다." # 6171958299128187023
+  sicily.0183.t: "이븐 함디스" # 17511316632072345237
+  sicily.0183.desc: "이븐 함디를 소개받으니 매우 감탄스럽습니다. 그는 시적 재능에 능하고, 비할 데 없는 웅변술을 지니고 있음이 분명합니다.\n\n이 시인은 수년 전 [GetGeographicalRegion('custom_sicily').GetName]에서 태어났으나, [norman.GetCollectiveNoun]이 도착한 후 도망쳐야 했습니다. 오늘 그를 만났을 때, 그는 자신이 잃어버린 땅에 대한 향수와 그리움을 노래하는 시 몇 편을 낭송했습니다. 그에게 그곳은 한때 [GetReligionByKey('islam_religion').GetName]의 낙원이었습니다.\n\n어쨌든, 이런 인물을 내 궁정에 두는 것은 세상의 통치자들 사이에서 나의 위상을 높여줄 것입니다." # 3689651352530081588
+  sicily.0183.a: "환영합니다! 환영합니다!" # 11093011334009386949
+  sicily.0184.t: "xxxxx" # 1951045980481827005
+  sicily.0184.desc: "xxxxx" # 1951045980481827005
+  sicily.0184.a: "xxxxx" # 1951045980481827005
+  sicily.0185.t: "xxxxx" # 1951045980481827005
+  sicily.0185.desc: "xxxxx" # 1951045980481827005
+  sicily.0185.a: "xxxxx" # 1951045980481827005
+  sicily.0186.t: "안드레아스, [GetTitleByKey('c_bari').GetNameNoTierNoTooltip]의 전 대주교" # 1898699290174693370
+  sicily.0186.desc: "나는 [GetReligionByKey('christianity_religion').GetAdjective] 대주교로서 [GetTitleByKey('c_bari').GetNameNoTier]에서 영광과 물질적 부를 누렸소. 하지만 당신, [ROOT.Char.GetFaith.HighGodNameAlternate]께서는 모세의 토라에 대한 사랑을 내 마음에 불어넣으셨고, 나는 [GetReligionByKey('judaism_religion').GetAdjective]가 되었소.\n\n그러나 나는 도망쳐야만 했소. 도망쳐야 했소. 다른 이들이 우리 민족을 향한 증오가 크고 두렵기 때문이오. 도망쳐야 했소. 내 이전의 소위 친구들이 나의 신념 때문에 나를 굴욕하고, 고문하고, 죽이는 것을 주저하지 않으리라는 것을 알았기 때문이오. 그리하여 나는 [GetTitleByKey('b_constantinople').GetNameNoTier]에 도착했소.\n\n여왕의 도시인 이곳에서 나는 할례를 받았지만, 곧 다시 도망쳐야만 하오. 너무나 많은 이들이 나의 출신을 알고 나를 배신자로 여기며, 주저 없이 나에게 해를 가할 것이오. 나의 본보기에 감명받고 나의 곤경을 가엾게 여긴 현지 [GetReligionByKey('judaism_religion').GetAdherentNamePluralNoTooltip]들은 우리 중 많은 이들이 비교적 평화롭게 살고 있는 [GetGeographicalRegion('world_middle_east').GetName]의 대도시들에 대해 이야기해 주었소. 그들은 그곳에서 피난처를 찾으면 더 안전할 것이라고 말하오.\n\n이 고통을 얼마나 더 견뎌야 한단 말이오?" # 11788182644462599693
+  sicily.0186.a: "다시 한번 짐을 꾸려 떠나야겠군." # 18351033725281864199
+  sicily.0186.info: "#emphasis 역사적 배경:#! 안드레아스는 1066년경 개종하기 전 바리의 대주교였으므로, 중세 유럽에서 유대교로 개종한 기독교인 중 가장 높은 직위에 있던 인물입니다. 이 시기에 유대교로의 개종이 일어나기는 했으나 드문 일이었고, 안드레아스와 같은 저명한 사례는 거의 알려지지 않았습니다.\n\n우리는 안드레아스에 대해 아는 바가 거의 없으며, 우리가 아는 것은 12세기에 유대교로 개종한 전직 이탈로-노르만 수도사였던 오바디아 프로셀라이트(Obadiah the Proselyte)의 기록에 근거하고 있습니다. 오바디아는 안드레아스를 매우 존경했으며, 안드레아스의 이야기가 자신의 개종에 영감을 주었다고 주장합니다.\n\n오바디아에 따르면, 안드레아스는 1066년경 콘스탄티노폴리스로 먼저 피신하여 할례를 받았다고 합니다. 그 후 몇 차례의 여정을 거쳐 안드레아스는 결국 파티마 왕조의 알-무스탄시르(al-Mustansir) 통치 기간에 이집트에 도착하여 남은 생을 그곳에서 보냈습니다. 전해지기로는, 그는 여행 중에 가는 길에 많은 사람들을 유대교로 개종시켰다고 합니다." # 3842617441250122115
+  sicily.0187.t: "$RICE_historical_aspiration_fulfilled_title$" # 6312590152546762382
+  sicily.0187.desc: "저는 이스라엘의 [ROOT.Char.GetFaith.HighGodName]시여, 제가 시련과 고난을 이겨낼 수 있도록 보호해 주시리라 기도했습니다. 주님께서 저를 사랑하셨기에, 저는 살아남았습니다.\n\n저는 [GetGeographicalRegion('world_middle_east').GetName]에 있는 [GetReligionByKey('judaism_religion').GetAdherentNamePlural]들의 안식처에 도착했습니다. 이곳은 우리가 많은 수로 모여 살며 훌륭한 공동체를 이루고 있는 곳입니다. 우리의 안전과 생명 자체가 지역 통치자들의 변덕에 달려 있기에 진정으로 안전한 고향이란 곳은 없지만, [GetTitleByKey('c_bari').GetNameNoTier]에 있을 때보다는 훨씬 낫습니다.\n\n이곳의 동족 [GetReligionByKey('judaism_religion').GetAdherentNamePluralNoTooltip] 중 일부는 제가 #italic 한때#! [GetReligionByKey('christianity_religion').GetAdjective] 대주교였다는 사실 때문에 제 개종의 진정성을 의심하지만, 훨씬 더 많은 이들이 저를 두 팔 벌려 환영해 주었습니다. 그들은 저에게서 자신들의 고난을 보았고, 제가 겪은 고초를 이야기할 때 함께 울었으며, 제가 주님, [ROOT.Char.GetFaith.HighGodNameAlternate]께서 저와 이 모든 이들을 향해 가지신 사랑에 대해 이야기할 때 환호했고, 저를 가족처럼 받아들여 주었습니다. 마침내 진정한 안식처를 찾았습니다." # 4871592914062028282
+  sicily.0187.a: "[ROOT.Char.GetFaith.HighGodName]이시여, 저를 이곳으로 인도해 주시니 감사합니다." # 10165717648718827650
+  sicily.0188.t: "xxxxx" # 1951045980481827005
+  sicily.0188.desc: "xxxxx" # 1951045980481827005
+  sicily.0188.a: "xxxxx" # 1951045980481827005
+  sicily.0189.t: "xxxxx" # 1951045980481827005
+  sicily.0189.desc: "xxxxx" # 1951045980481827005
+  sicily.0189.a: "xxxxx" # 1951045980481827005
+  sicily.0190.t: "xxxxx" # 1951045980481827005
+  sicily.0190.desc: "xxxxx" # 1951045980481827005
+  sicily.0190.a: "xxxxx" # 1951045980481827005
+  sicily.0191.t: "xxxxx" # 1951045980481827005
+  sicily.0191.desc: "xxxxx" # 1951045980481827005
+  sicily.0191.a: "xxxxx" # 1951045980481827005
+  sicily.0192.t: "xxxxx" # 1951045980481827005
+  sicily.0192.desc: "xxxxx" # 1951045980481827005
+  sicily.0192.a: "xxxxx" # 1951045980481827005
+  sicily.0193.t: "xxxxx" # 1951045980481827005
+  sicily.0193.desc: "xxxxx" # 1951045980481827005
+  sicily.0193.a: "xxxxx" # 1951045980481827005
+  sicily.0194.t: "xxxxx" # 1951045980481827005
+  sicily.0194.desc: "xxxxx" # 1951045980481827005
+  sicily.0194.a: "xxxxx" # 1951045980481827005
+  sicily.0195.t: "xxxxx" # 1951045980481827005
+  sicily.0195.desc: "xxxxx" # 1951045980481827005
+  sicily.0195.a: "xxxxx" # 1951045980481827005
+  sicily.0196.t: "xxxxx" # 1951045980481827005
+  sicily.0196.desc: "xxxxx" # 1951045980481827005
+  sicily.0196.a: "xxxxx" # 1951045980481827005
+  sicily.0197.t: "xxxxx" # 1951045980481827005
+  sicily.0197.desc: "xxxxx" # 1951045980481827005
+  sicily.0197.a: "xxxxx" # 1951045980481827005
+  sicily.0198.t: "xxxxx" # 1951045980481827005
+  sicily.0198.desc: "xxxxx" # 1951045980481827005
+  sicily.0198.a: "xxxxx" # 1951045980481827005
+  sicily.0199.t: "xxxxx" # 1951045980481827005
+  sicily.0199.desc: "xxxxx" # 1951045980481827005
+  sicily.0199.a: "xxxxx" # 1951045980481827005
+  sicily.0200.t: "법적 기회주의" # 12445903161202913369
+  sicily.0200.desc: "[culture.GetName]의 [county.GetNameNoTier]에 사는 평민들이 [culture.GetNameNoTooltip] 법을 따르는 궁정 대신 다른 곳에서 법적 문제를 해결하려는 최근의 경향에 대한 보고를 받았습니다.\n대신, 그들은 비-[culture.GetNameNoTooltip] 공동체에 봉사하는 궁정으로 향하는 경향이 있는데, 후자가 더 유리한 결과를 가져온다고 느끼기 때문입니다.\n\n이것이 새로운 일은 아니지만, 점점 더 흔해지고 있으며, 일부 [culture.GetNameNoTooltip] 관리들은 이것이 왕국의 법률 체계의 정당성을 해치고 있다고 불평합니다. 지역 성직자들 역시 종교적 정체성의 이러한 모호함과 기회주의가 해당 지역의 영적 쇠퇴로 이어질 것을 우려하고 있습니다." # 10642516286692301342
+  sicily.0200.a: "다른 궁정을 이용하기 어렵게 만드시오!" # 14210732326030498351
+  sicily.0200.b: "상관없다. 실용적이지. 그들을 탓할 수는 없지." # 2622627105464137993
+  sicily.0200.info: "#emphasis 역사적 배경:#! 중세 세계에서 다문화 지역은 법적 전통의 차이로 인해 다양한 민족 및 종교 공동체를 섬기는 각기 다른 궁정이 존재하는 경우가 많았습니다. 초기 중세 시칠리아에는 현지 주민들이 자신이 '속한' 집단인지에 상관없이 자신에게 가장 유리하다고 생각하는 궁정을 이용하는 경향이 있었습니다. 즉, 무슬림 아랍인이 법적 분쟁 해결을 위해 그리스도교 그리스인 궁정을 찾거나 그 반대의 경우도 있었습니다.\n\n이러한 사례의 빈도는 몇 가지를 시사합니다. 첫째, 사람들의 정체성은 비록 법적인 측면에서일지라도 의도적으로 유연하고 변동 가능했습니다. 둘째, 사람들은 서로 다른 종교 및 민족 집단 간의 차이점을 인지하고 있었습니다. 셋째, 이러한 각기 다른 집단의 법정은 그들 고유의 전통에 따라 법을 집행할 수 있는 충분한 권위를 가지고 있었습니다." # 8311377797722010034
+  sicily.0201.t: "성전 개종" # 366816602231162733
+  sicily.0201.desc: "[GetReligionByKey('islam_religion').GetAdjective] 학자가 [county.GetNameNoTier]에서 지역 내 비[GetReligionByKey('islam_religion').GetAdjectiveNoTooltip] 주민들뿐만 아니라 나의 통치에 대해서도 선동적인 발언을 했다는 비난을 받고 있습니다.\n\n심문을 위해 내 앞에 소환된 학자 [scholar.GetFirstName]는 이것이 모두 오해라고 말했습니다. 그[scholar.GetSheHe|U]는 단지 [GetGeographicalRegion('custom_sicily').GetName]가 #italic 타그 알 지하드#!, 즉 [GetReligionByKey('islam_religion').GetAdjectiveNoTooltip] 정치 이론에서 말하는 '성전의 항구'라고 언급했을 뿐이라고 주장합니다. 그[scholar.GetSheHe]는\"모두가 알다시피\" 이는 [GetReligionByKey('islam_religion').GetNameNoTooltip]와 다른 종교 간의 경계 지역을 의미하며, 모든 이들에게 특정한 법적 기대치가 적용되는 곳이라고 말합니다.\n\n내 궁정 신하 중 한 명인 [courtier.GetFirstName]는 [scholar.GetFirstNamePossessive]의 저작과 사상을 싫어하는 것으로 알려져 있는데, 그[courtier.GetFirstName]는 [scholar.GetFirstNameNoTooltip]가 자신의 말을 왜곡하고 있다고 주장합니다. 진실은 [scholar.GetSheHe]가\"법적 기대\"에 이단자들이나 이단자들을 숨겨주는 자들—다시 말해 나—에 대한 군사적 행동까지 포함한다고 해석한다는 것입니다.\n\n이 상황에서 누가 편견이 없는지 판단하기는 어렵습니다." # 13388005645702167204
+  sicily.0201.a: "[scholar.GetFirstNameNoTooltip]께서는 현명해 보이시니, 제 궁정에 머무르셔야 할 것 같습니다." # 12873262118270626356
+  sicily.0201.b: "[scholar.GetFirstNameNoTooltip]에게 벌금을 물리고 이 일은 끝내도록 하시오." # 15556768930837668439
+  sicily.0201.c: "선동가를 [county.GetNameNoTierNoTooltip]의 지하 감옥에 처넣어라!" # 9668782593722222705
+  sicily.0201.info: "#emphasis 역사적 배경:#! 중세 이슬람에서 시칠리아는 이슬람의 영역인 #italic 다르 알 이슬람#!과 불신자들이 거주하는 전쟁의 영역인 #italic 다르 알 하르브#! 사이의 경계 지대로 간주되었습니다. 때로는 #italic 지하드 국경#!, 즉 “성전의 항구”라는 용어가 그러한 지역을 묘사하는 데 사용되기도 했습니다.\n\n예를 들어, 시칠리아 출신의 아랍 시인 이븐 하미스(1056 - 1133 CE)는 자신의 시에서 이 용어를 사용했습니다. 그는 노르만족의 침공 여파로 젊은 시절 시칠리아에서 도피한 후, 그의 시는 종종 천국 같았던 고향에 대한 향수를 불러일으켰습니다.\n\n하지만 이러한 용어들의 신학적, 이념적 측면을 잠시 접어두고 본다면, 실제로 그러한 땅에서 어떻게 행동하고 살아가야 하는지에 대해서는 이슬람 세계의 반응이 다양했습니다." # 1806624308650555244
+  sicily.0202.t: "불확실한 충성심" # 3777245979985635595
+  sicily.0202.desc: "저는 일부 [ROOT.Char.GetFaith.GetReligion.GetAdjective] 모험가, 떠돌이 학자, 순례자들이 제 통치와 [GetGeographicalRegion('custom_sicily').GetName] 내 영토에 대해 퍼뜨린 비방에 대한 소문을 들었습니다.\n\n이들 중 일부는 저와 제 백성들이 진정한 신앙에 대한 지식이 부족하고, 이단자 및 불신자들과 너무 많이 어울리며, 솔직히 말해 전반적으로 무지하고 죄악적이라고 폄하한 것 같습니다.\n\n물론 그런 말들은 거짓입니다. [GetGeographicalRegion('custom_sicily').GetNameNoTooltip]와 같은 변경 지역에서는 다양한 민족과 영향력이 존재하기 때문에, 조화로운 사회를 증진하기 위해 다른 신앙을 가진 불신자들을 다룰 때 신중해야만 한다는 오해에서 비롯된 것이라고 저는 의심하지 않습니다." # 13617479681467856298
+  sicily.0202.a: "그것은 약함이 아니라, 그저 실용주의와 겸손일 뿐이오!" # 5774513362680178821
+  sicily.0202.b: "우리는 [ROOT.Char.GetFaith.GetName]의 진실되고 독실한 신도들이오!" # 296040262444910140
+  sicily.0202.info: "#emphasis 역사적 배경:#! 일부 중세 기독교 #italic 및#! 이슬람 문헌들은 시칠리아의 동족들을 종교적 관용이나 영적 확신 및 지식의 부족으로 인해 경멸적인 용어로 묘사했습니다.\n\n예를 들어, 10세기 이슬람 학자이자 여행가인 이븐 하우칼은 무슬림 시칠리아인들을 매우 불쾌한 방식으로 묘사했습니다. 그의 의견으로는 그들은 멍청하고, 탐욕스러우며, 기독교인들과 섞이고 결혼하려는 의지가 너무 강했습니다. 그는 또한 무슬림 시칠리아 학자들이 이슬람의 기본 원칙들을 잊어버렸다고 비난했습니다.\n\n나중에 13세기에, 시칠리아에서 성장하여 그곳에 권력 기반을 두었던 신성 로마 제국의 황제 프리드리히 2세는 “세례받은 술탄”이라고 불렸습니다. 일부 기독교인 #italic 및#! 무슬림들은 그가 이슬람 세계와의 연관성과 아랍어 및 이슬람에 대한 지식 때문에 비밀스러운 무슬림이라고 믿었습니다.\n\n시칠리아와 같은 거친 변경 지역에서는 생존을 위해 어느 정도의 관용이나 최소한 다른 “세계”와 교류하려는 의지가 필요했습니다. 그러나 이러한 복잡한 상황을 이해하지 못하는 외부인들은 종종 이러한 실용주의를 의심의 눈초리로 바라보았고, 심지어 도덕적 결함과 배교의 징후로 보기도 했습니다." # 9169059560323253134
+  sicily.0203.t: "새로운 관료 요구" # 1593995703276108655
+  sicily.0203.desc: "심상치 않은 소식이오! [county.GetNameNoTier] 일부 지역에 임명한 관료들이 쫓겨났소. 지역의 저명한 인사라는 [leader.GetTitledFirstName]이 이끄는 주민들이 나에게 지역 출신 인사를 임명하라고 요구하고 있소!\n\n이러한 무례함은 다른 곳이었다면 즉시 처벌받았을 것이오. 하지만 [GetGeographicalRegion('custom_sicily').GetName]에서는 이런 일이 드물지 않소. 이와 같은 변경 지역에서는 때때로 행정 질서를 유지하기가 어렵소.\n\n현명한 [ROOT.Char.GetTitleAsNameNoTooltip]께서는 현지 주민들을 격분시키지 않도록 조심해야 할 것이오. 그렇지 않으면 그들이 보복으로 작은 말썽이라도 일으킬 수 있소. 게다가 나중에 그들 자신의 후보자들에게 분노하여 그들을 쫓아낼 수도 있으며, 만약 그런 일이 일어난다면 그들은 나의 옛 관료들을 다시 불러달라고 요청할지도 모르오." # 10233341758646212493
+  sicily.0203.a: "좋소! 그들이 원하는 관료들을 얻게 될 것이오." # 398767864258440791
+  sicily.0203.b: "[leader.GetFirstNameNoTooltip]가 그렇게 원한다면 [county.GetNameNoTierNoTooltip]를 다스리게 하라!" # 10925032518404171008
+  sicily.0203.c: "요구는 거절하겠소. 내가 바로 [ROOT.Char.GetTitleAsNameNoTooltip]이오!" # 10188257591881687066
+  sicily.0203.info: "#emphasis 역사적 배경:#! 이 이벤트는 아글라브 왕조와 이후 파티마 왕조, 칼브 왕조가 시칠리아 전역에 걸쳐 통치를 강화하려 했던 시도에서 영감을 받았습니다. 이 섬은 때때로 혼란스러운 변경 지대였으며, 현지 시칠리아인들(무슬림 및 비무슬림)은 독자적이고 독립적인 정체성을 발전시키기 시작했고, 북아프리카 본토의 지도부와 갈등을 겪게 되었습니다. 이러한 현지 시칠리아인들은 때로는 자신들이 이전에 지지했던 총독들에게 등을 돌리기도 했습니다.\n\n이러한 흥미로운 사례 중 하나는 파티마 왕조가 북아프리카에서 처음 권력을 잡았을 때 발생했습니다. 현지 시칠리아 군대는 섬 통치를 위해 파견된 초기 파티마 왕조 총독들을 몰아냈습니다. 그들은 자신들 중 한 명인 이븐 쿠르후브(Ibn Qurhub)를 913년에 새로운 총독으로 선출했는데, 그는 9세기 시칠리아의 아랍 총독과 혈연 관계였을 수 있습니다.\n\n어쨌든 이븐 쿠르합은 시아파인 파티마 왕조의 경쟁자인 바그다드의 수니파 아바스 칼리프에게 충성을 맹세했습니다. 그러나 이븐 쿠르합이 파티마 왕조에게 패배한 후(아마도 비잔티움의 지원을 받았을 수도 있음), 여러 시칠리아 도시들이 파티마 왕조로 다시 이탈했고, 그는 알안달루스로 도주하려다 그를 지원했던 전 지지자들에게 붙잡혀 처형을 위해 파티마 왕조 당국에 넘겨졌습니다." # 1344284742821787888
+  sicily.0204.t: "[GetGeographicalRegion('custom_sicily').GetNameNoTooltip]에 이민자 유치하기" # 4514485888508194566
+  sicily.0204.desc: "나의 [councillor.GetCouncilTitle]인 [councillor.GetFirstName]가 [GetGeographicalRegion('custom_sicily').GetName] 지역에 새로운 정책을 제안했습니다. [councillor.GetSheHe|U]는 [GetGeographicalRegion('custom_sicily').GetNameNoTooltip]와 같은 변경 지역은 더 많은 정착민이 필요하다고 생각합니다.\n\\\"좋소, 그렇다면 이 정착민들을 어떻게 끌어들여야겠소\" [councillor.GetFirstName]가 우리 궁중의회 도중에 말합니다.\"간단하오. 멀리서 오는 이들에게는, 적어도 일정 기간 동안은 토지세를 면제해 주는 것이지. 음, 이 지역에 오랫동안 살아온 사람들은 그리 달가워하지 않을 수도 있겠지만, 나는 장기적인 안목으로 보고 있소\"" # 4984620004486086352
+  sicily.0204.a: "그대의 생각은 일리가 있군. 그 방침을 시행하도록 하지." # 12971060150758182858
+  sicily.0204.b: "기존 거주민들을 적대하고 싶지는 않소." # 16092457108988648051
+  sicily.0204.info: "#emphasis 역사적 배경:#! 중세 남부 이탈리아는 역동적이고 끊임없이 변화하는 변경 지대였으며, 지역 통치자들은 영토를 성장시키고 발전시키기 위해 새로운 정착민을 유치할 방법을 찾아야 했습니다. 예를 들어, 1035년에 시칠리아의 칼비드 토후국은\"이프리키야 사람\", 즉 북아프리카에서 최근에 온 사람들에게는 토지세 면제를 제안했는데, 이는 오랫동안 시칠리아에 거주해 온\"시칠리아 사람\"에게는 적용되지 않는 것이었습니다." # 2061476428865118125
+  sicily.0205.t: "[ROOT.Char.GetFaith.PantheonTerm]을 소환합니다" # 3479998388997316910
+  sicily.0205.desc: "오늘, 우리는 [ROOT.Char.GetCurrentLocation.GetName]에서 일상을 보내던 중 발밑에서 진동을 느꼈습니다. 그러한 일은 [GetGeographicalRegion('custom_sicily').GetName]에서는 드문 일이 아니지만, 이번에는 평소보다 강렬했고, 함께 있던 수많은 신하와 하인들이 대지진이 올 것이라 생각하며 크게 당황했습니다.\n\n하지만 [courtier.GetFirstNameNoTooltip]이 분명하면서도 차분한 목소리로\"각자 섬기는 신께 기도합시다. 믿음을 가진 이들은 위안을 얻을 것입니다\"라고 말하자 모두 안심했습니다.\n\n[courtier.GetHerHis|U]의 단호한 어조 덕분에 더 이상의 공황은 막을 수 있었고 진동도 사라졌습니다. 그렇긴 하지만, 사건 이후 일부 다른 신하들은 [courtier.GetFirstNameNoTooltip]이 간접적으로라도 [ROOT.Char.GetFaith.PantheonTerm] 외의 그 누구라도 언급하는 것은 부적절했다고 우려를 표했습니다. 결국 [ROOT.Char.GetFaith.GetName]이 저희 궁정의 공식 신앙이니까요. #italic 그렇습니다#!" # 1257438715974674155
+  sicily.0205.a: "[courtier.GetFirstNameNoTooltip]은 아무런 잘못도 하지 않았습니다." # 6790517316176657270
+  sicily.0205.b: "[courtier.GetFirstNameNoTooltip]에게 그의 언행을 좀 더 조심하도록 말하겠습니다." # 1992227063347407270
+  sicily.0205.info: "#emphasis 역사적 배경:#! 이 사건은 12세기 무슬림 여행가이자 학자인 이븐 주바이르가 기록한 일화에 기반합니다. 1180년대에 메시나 왕궁에서 지진의 진동이 느껴졌을 때, 젊은 왕 윌리엄 2세가 이 사건에 사용된 정확한 말을 궁정 직원들에게 했다고 전해집니다.\n\n이것이 사실이든 아니든, 이는 왕궁이 명목상 기독교 국가였음에도 불구하고 왕이 자신의 직원 중 상당수가 기독교인이 아니라는 사실을 매우 잘 인지하고 있었음을 반영합니다. 시칠리아의 왕들은 오랫동안 많은 직원들이 숨은 무슬림(crypto-Muslims)이라는 사실을 눈감아 왔는데, 이는 그 지역의 오랜 종교적 다양성의 역사를 보여주는 것입니다." # 2735769624900335085
+  sicily.0206.t: "에트나 산에서 곧바로" # 20102869216575127
+  sicily.0206.desc: "\"아, 정말 기대하고 있었습니다\" 시종들이 셔벗을 가져오자 나는 기쁘게 말했다. 에트나 산에서 가져온 눈과 얼음이야말로 최고의 후식이지. 물론, 적절한 과일, 과즙, 시럽과 섞여야만 말이야!\n\n나는 맛을 낸 셔벗 그릇을 간절히 받아 들고 먹기 시작하며, 달콤한 황홀함과 상쾌한 차가움이라는 두 가지 감각을 즐겼다." # 8453285910521917924
+  sicily.0206.a: "맛있군!" # 2028573091546184424
+  sicily.0206.info: "#emphasis 역사적 배경:#! 고대부터 인류 문화는 얼음과 눈을 이용하여 시원한 디저트를 만들어 왔습니다. 얼음 무역은 역사적으로 이슬람 세계에서 매우 중요했으며, 눈과 얼음을 채취하고 저장하는 기술은 아마도 이슬람의 정복과 섬 정착의 일환으로 중세 시칠리아에 전래되었을 것입니다. 에트나 산에서 깎아낸 얼음은 섬 전역으로 운송되어 셔벗의 전신을 만드는 데 사용되었습니다.\n\n시간이 지나면서 시칠리아에는 눈을 전문적으로 채취하는\"니바로리(nivaroli\"라는 직업이 생겨났습니다. 눈 무역은 매우 수익성이 높아, 종종 무역을 관리하거나 이익을 얻었던 지역 귀족 가문들은 1700년대까지도 이와 관련된 법적, 정치적 분쟁을 겪었습니다. 니바로리들은 20세기에 산업화된 얼음 무역에 밀려 쇠퇴했습니다." # 18154413647587790515
+  sicily.0207.t: "서기와 역법" # 15284731806377917418
+  sicily.0207.desc: "어느 날 신하들이 일하는 것을 감독하던 중, 한 고위 관리가 제 서기들이 여러 행정 문서의 날짜 표기에서 점점 더 잦은 실수를 저지르고 있다고 불평했습니다.\n\n그 관리는 “저의 [ROOT.Char.GetLadyLord]님, 아시다시피 [GetGeographicalRegion('custom_sicily').GetName]는 다양한 땅이며, 우리는 문서가 다양한 신념과 출신을 가진 이들에게 이해될 수 있도록 보장해야 합니다. 이는 서기들이 문서를 작성할 때 여러 달력 체계를 이해해야 함을 의미합니다.”라고 말합니다.\n\n그 관리는 이것이 우려스러운 추세이며, 일부 서기들이 [ROOT.Char.GetCulture.GetCollectiveNoun]에서 사용하지 않는 달력에 날짜를 기록하는 데 게을러지고 부주의해진 것을 반영한다고 말합니다. 불행하게도 그 관리는 이 문제에 대해 무엇을 해야 할지 확신하지 못하고 있습니다." # 13669220689850270955
+  sicily.0207.a: "흥. 다른 역법으로 계산하는 건 귀찮겠군." # 15470514108998692387
+  sicily.0207.b: "만약 그들이 제대로 해내지 못한다면, 해고하고 새로운 서기를 고용하십시오." # 8702378396635796199
+  sicily.0207.info: "#emphasis 역사적 배경:#! 중세 남부 이탈리아의 문화적 다양성으로 인해 시칠리아 이슬람 에미리트나 노르만 시칠리아 왕국과 같은 영지들은 행정 문서를 작성할 때 다양한 관습을 사용했습니다. 예를 들어, 그러한 문서에는 여러 날짜 또는 역법 체계의 조정, 다양한 언어로 된 공식적인 법률 용어의 사용 등이 포함될 수 있었습니다." # 1565580170127417492
+  sicily.0208.t: "[GetGeographicalRegion('custom_sicily').GetNameNoTooltip]의 언어들" # 15373968182691080460
+  sicily.0208.desc: "요즘 들어 [GetGeographicalRegion('custom_sicily').GetName]에서 일하는 제 [ROOT.Char.GetCulture.GetName] 관료들 중 일부가 [ROOT.Char.GetCulture.GetLanguage.GetName] 외의 언어에 대해 무능하다는 불만을 점점 더 많이 듣고 있습니다. 이 지역은 항상 다양한 공동체의 보금자리였으며, 이곳을 다스리는 이들에게는 이중 언어 구사 능력이 기대되는 바입니다.\n\n제 [councillor.GetCouncilTitle]이신 [councillor.GetFirstName] 님께서는 우리 관료들에 대해 더 엄격해져야 한다고 말씀하십니다. [councillor.GetSheHe|U]께서는 그들에게 [GetGeographicalRegion('custom_sicily').GetNameNoTooltip]에 존재하는 언어 중 적어도 하나를 더 잘 공부하도록 지시하거나, 해당 언어를 아는 새로운 직원을 고용하거나, 가급적 둘 다를 시행해야 한다고 제안하십니다." # 10787283729705343141
+  sicily.0208.a: "그들은 라틴족의 언어를 배우는 데 집중해야 합니다." # 12457150150954210611
+  sicily.0208.b: "그들은 그리스인의 언어를 배우는 데 집중해야 합니다." # 16867806349719672541
+  sicily.0208.c: "그들은 아랍-베르베르 언어를 배우는 데 집중해야 합니다." # 3568217835199340432
+  sicily.0208.d: "지금은 이것이 필요하지 않다고 생각합니다." # 1807805220488871762
+  sicily.0209.t: "전통적인 법률" # 9618868399932937417
+  sicily.0209.desc: "저의 [councillor.GetCouncilTitle]인 [councillor.GetFirstName]가 흥미로운 제안을 가지고 저를 찾아왔습니다.\n\n“[GetGeographicalRegion('custom_sicily').GetName]에 있는 저희 영토에는 다양한 집단이 살고 있지만, 그중에는 당신처럼 [ROOT.Char.GetCulture.GetName]인이거나 [ROOT.Char.GetFaith.GetAdjective] 신앙을 가진 이들이 아닌 이들도 있습니다. 그들은 자신들의 전통적인 법률이 폐지될까 걱정하고 있습니다.”라고 [councillor.GetSheHe]가 설명합니다. “물론 저희는 최소한 어느 정도는 그들의 법률을 존중해야 했지만, 만약 당신께서 그들의 전통적인 법 체계를 보호하겠다는 공식적인 선언을 하신다면, 이는 그러한 우려를 달래고 골치 아픈 부류들 사이의 반란 생각을 줄일 수 있을 것입니다.”" # 16325675040016552727
+  sicily.0209.a: "나쁘지 않은 생각이군. 그러한 선포를 하도록 하지." # 1893629913048389799
+  sicily.0209.b: "나는 저런 식으로 나를 나약하게 보이게 만들지 않을 것이다." # 6482552519589879571
+  sicily.0209.info: "#emphasis 역사적 배경:#! 중세 시칠리아의 다채로운 지역에서 통치자들은 자신들의 출신이 달랐더라도 피지배 민족의 전통적인 법률을 유지하는 것이 더 쉽다는 것을 종종 발견했습니다. 예를 들어, 시칠리아의 초대 왕이었던 로저 2세(1095 - 1154 CE)가 1140년대에 통치권을 중앙집권화하면서 흔히 아리아노 법전으로 잘못 불리는 법전을 반포했을 때, 그는 그 법전의 서문에서\"우리가 새로 공포한 법률들이 모든 이들에게 온전히 준수되기를 명한다. 우리의 통치하에 있는 다양한 민족들로 인해, 지금까지 그들 사이에 존재해 온 관습, 풍습 및 법률들은 우리의 칙령과 명백히 모순되는 경우를 제외하고는 폐지되지 않는\"고 선언했습니다." # 16151449618352537502
+  sicily.0210.t: "[GetGeographicalRegion('custom_sicily').GetNameNoTooltip]의 위험성" # 10938313804986967199
+  sicily.0210.desc: "오늘 외국인 여행객 한 명이 저희 궁정에 머물며 여러 땅에서의 모험담을 들려주고 있습니다.\n\n하지만 제 궁정 신하 몇몇은 이 여행객이 오기 전에 들은 바에 따르면, [GetGeographicalRegion('custom_sicily').GetName]가 그 아름다움에도 불구하고 위험한 땅이었다는 주장에 흥미를 보였습니다. 그가 아는 다른 여행자들은 두려움과 경외심 때문에 그곳을 어느 정도 존중하며 대해야 한다고 배웠다고 합니다.\n\n여행객이 말합니다. “결국, 저의 [ROOT.Char.GetLadyLord]님, 이곳은 화산 폭발, 지진, 폭풍, 난파선으로 가득한 땅입니다. 다른 여행자들의 보고를 바탕으로 저는 이곳을 여행하는 동안 죽을 수도 있겠다고 생각했습니다.”" # 6223937368432602056
+  sicily.0210.a: "하지만 그대는 죽지 않았으니, 이 땅 역시 다른 곳 못지않게 위험하오." # 10898202386746675239
+  sicily.0210.b: "우리가 여기에서 대단한 불굴의 의지와 힘을 가졌다고 말할 수 있겠지." # 11561216130783607733
+  sicily.0211.t: "바이야: 좋거나 나쁘거나?" # 17654238492576225963
+  sicily.0211.desc: "오늘, 나는 [lover.GetTitledFirstName]와 [hater.GetTitledFirstName]가 [GetTitleByKey('b_napoli').GetNameNoTier] 근처에 있는 바이아(Baia)의 목욕탕에 대한 오래된 논쟁을 벌이는 것을 듣고 있다.\n\n“[hater.GetFaith.HighGodName]께서는 분명 바이아에 가는 자들을 못마땅하게 여기실 것이오.” [hater.GetFirstNameNoTooltip]이 말한다. “이 죄악스러운 휴양지는 기혼자들에게는 간음을, 덕이 있는 자들에게는 악덕을, 그리고 사악한 자들에게는 해악을 저지르도록 부추기오. 고대인들조차도 그곳의 악덕에 대해 기록했소!”\n\n[lover.GetFirstNameNoTooltip]이 항변한다. “당신처럼 깐깐한 고대인들도 있었지만, 다른 이들은 바이아 온천과 목욕탕의 중요성을 알았소. 그곳은 사람들을 치유하는 곳이오! 그곳에서 저지르는 어떤 죄악도 바이아 때문이 아니라 죄인 자신 때문이오.”\n\n두 사람은 이 말다툼에서 내가 어느 편을 들기를 기대하며 나를 바라본다." # 13888924744414898399
+  sicily.0211.a: "저는 어느 쪽이든 상관없습니다." # 15723049020911313012
+  sicily.0211.b: "바이야는 휴식을 취하기에 좋은 곳이군!" # 9801935915839505929
+  sicily.0211.c: "바이어는 죄악을 조장하는 것이 사실이오." # 11466394243254280497
+  sicily.0211.info: "#emphasis 역사적 배경:#! 바이아는 고대와 중세 시대에 인기 있는 휴양지였고, 그 의학적 효능이 종교적 기록에서조차 찬양받았지만, 논란의 원인이기도 했습니다.\n\n\n고대 및 중세 기록 중 다수가 바이아를 부도덕의 장소로 비난했습니다. 예를 들어, 로마의 정치가이자 법률가였던 키케로는 변호사로서, 문란한 귀부인의 반대 증언을 그녀의 문란함과 바이아를 연결하여 폄하한 적이 있습니다.\n\n\n심지어 비판적이지 않은 자료들조차 이러한 평판을 언급했습니다. 예를 들어, 14세기 이탈리아 작가 조반니 보카치오(유명한 《데카메론》으로 가장 잘 알려진)는 자신의 소설 중 하나인 #italic 피아메타 부인의 애가#!에서 바이아를 배경으로 사용했습니다. 주인공은 간통한 연애를 잊기 위해 휴식을 취하러 바이아로 가지만, 바이아에서는 “가장 정숙한 여인들조차 여성으로서의 정숙함을 잊고 모든 기회에 더 많은 자유를 누리는 것처럼 보이기” 때문에 역효과가 난다는 것을 깨닫습니다.\n\n\n그럼에도 불구하고, 중세 사람들은 고대인들 사이에서 바이아의 좋든 나쁘든 평판을 매우 잘 알고 있었으며, 바이아에 관한 일부 중세 기록들은 베르길리우스와 같은 고대 자료들을 언급합니다." # 4248989762402476500
+  sicily.0212.t: "[county.GetNameNoTierNoTooltip]의 화산 생성물" # 766735354424122607
+  sicily.0212.desc: "#emphasis 역사적 배경:#! 고대부터 [county.GetNameNoTier] 주변의 화산 지대는 다양한 귀중한 광물과 암석의 중요한 공급처였으며, 이는 여러 교역에 유용하게 사용되었습니다. 최근 이 생산품에 대한 수요가 증가한 듯하며, 그로 인해 더 많은 이익을 얻을 수 있게 되어 지역 경제가 활성화되고 있습니다." # 7410137254529376960
+  sicily.0212.a: "기쁜 소식이군!" # 3467146827609954186
+  sicily.0213.t: "마약의 보물" # 17164705951333723116
+  sicily.0213.desc: "[GetTitleByKey('c_malta').GetNameNoTier] 섬에는 수많은 기적적인 약효를 지녔다고 알려진 특별한 균류가 있는데, 중동의 주민들은 그것을 심지어\"약물의 보\"이라고 부르기도 합니다. 전 세계 여러 곳에서 자란다고는 하지만, 유럽과 지중해 지역에서는 [GetTitleByKey('c_malta').GetNameNoTierNoTooltip] 해안 근처의 작은 섬에서만 대량으로 채취할 수 있을 만큼 자랍니다.\n\n오늘, 저희 궁정에 방문한 일부 여행자들이 이 소위 몰타 균류를 저에게 선물하고자 합니다. 이 균류는 상처 치료부터 피임, 이질과 구토로부터의 회복을 돕는 데 이르기까지 다양하고 놀라운 용도를 가지고 있습니다." # 2111680100665083898
+  sicily.0213.a: "가장 기쁜 선물이로다!" # 12205100476856026194
+  sicily.0213.info: "#emphasis 역사적 배경:#! #italic 시노모리움#!은 몰타 버섯 또는 몰타 균류로 잘못 불리는 속씨식물입니다. 역사적으로 이 식물은 많은 약용 효과, 특히 상처 치료에 효능이 있다고 알려져 있었습니다. 근세에 이르러 이 식물은 유럽과 지중해에서 희귀해졌기 때문에, 중세 후기에 몰타를 통치하게 된 구호기사단은 그 생산과 수출을 신중하게 관리했습니다." # 2737269836836912583
+  sicily.0214.t: "혀의 돌" # 6512121520764684983
+  sicily.0214.desc: "[GetTitleByKey('c_malta').GetNameNoTier]은 뱀 혀 모양의 기이한 돌인\"혀 돌(tongue stones\"의 주요 수출지입니다. 많은 이들이 이 돌이 유용한 약효가 있으며, 특히 독에 대한 방어책으로 유용하다고 믿고 있습니다.\n\n최근 [county.GetNameNoTier]의 저명한 상인들이 이 혀 돌을 채집하는 현지인들과 유리한 무역 협상을 성사시켰습니다. 이러한 유용한 물품을 고려하면, 저 역시 이 무역에 투자하고 싶을지도 모르겠습니다." # 17024274014203017971
+  sicily.0214.a: "[county.GetNameNoTierNoTooltip]의 상인들은 수완이 좋은 자들이다!" # 16466921737740232659
+  sicily.0214.info: "#emphasis 역사적 배경:#! 중세 몰타는 화석화된 상어 이빨의 주요 공급처였으며, 당시 이 이빨은 “혀 돌(tongue stones)” 또는 “뱀 혀(snake tongues)”로 알려져 있었습니다. 중세 시대에 혀 돌은 다른 의학적 용도 외에도 독에 대한 일반적인 치료제 또는 보호 수단으로 사용되었습니다. 당시에는 연회 동안 장식용 나무에 혀 돌을 매달아 두는 풍습이 있었는데, 손님들은 혀 돌을 자신의 포도주나 음료에 담가 독살당하지 않을 것이라 확신할 수 있었습니다." # 1455892601544224588
+  sicily.0215.t: "카놀리" # 14115384728062241862
+  sicily.0215.desc: "오늘 저녁 식사 후, 나는 #italic 카놀리#!가 가득 담긴 큰 쟁반을 받았다네. 이 맛있는 달콤하고 크리미한 페이스트리를 먹어본 지 꽤 되었지!\n\n [culture.GetName]의 전통 방식으로 준비된 정통 카놀이만 한 것이 없지. 누가 이토록 오래전에 [GetGeographicalRegion('custom_sicily').GetName]에서 이런 천재적인 발명을 해냈는지 궁금해지는군." # 10533960471221827960
+  sicily.0215.a: "음, 맛있군!" # 10524178026549797382
+  sicily.0215.info: "#emphasis 역사적 배경:#! 카놀리(Cannoli)는 시칠리아 전역에서 인기 있는, 달콤하고 크림 같은 리코타 치즈로 채워진 튜브 모양의 튀긴 과자로, 이 지역과 깊이 연관되어 있습니다. 많은 인기 있는 음식과 마찬가지로 카놀리의 기원은 불분명합니다. 카놀리가 시칠리아의 중세 무슬림 통치자들의 하렘이나 섬의 수도원에 살던 수녀들에게서 유래했을 수 있다는 다양한 전설이 있지만, 이러한 속설의 진실성을 확인하기는 어렵습니다." # 10698310359534394999
+  sicily.0216.t: "xxxxx" # 1951045980481827005
+  sicily.0216.desc: "xxxxx" # 1951045980481827005
+  sicily.0216.a: "xxxxx" # 1951045980481827005
+  sicily.0217.t: "xxxxx" # 1951045980481827005
+  sicily.0217.desc: "xxxxx" # 1951045980481827005
+  sicily.0217.a: "xxxxx" # 1951045980481827005
+  sicily.0218.t: "xxxxx" # 1951045980481827005
+  sicily.0218.desc: "xxxxx" # 1951045980481827005
+  sicily.0218.a: "xxxxx" # 1951045980481827005
+  sicily.0219.t: "xxxxx" # 1951045980481827005
+  sicily.0219.desc: "xxxxx" # 1951045980481827005
+  sicily.0219.a: "xxxxx" # 1951045980481827005
+  sicily.0220.t: "xxxxx" # 1951045980481827005
+  sicily.0220.desc: "xxxxx" # 1951045980481827005
+  sicily.0220.a: "xxxxx" # 1951045980481827005
+  sicily.0221.t: "xxxxx" # 1951045980481827005
+  sicily.0221.desc: "xxxxx" # 1951045980481827005
+  sicily.0221.a: "xxxxx" # 1951045980481827005
+  sicily.0222.t: "xxxxx" # 1951045980481827005
+  sicily.0222.desc: "xxxxx" # 1951045980481827005
+  sicily.0222.a: "xxxxx" # 1951045980481827005
+  sicily.0223.t: "xxxxx" # 1951045980481827005
+  sicily.0223.desc: "xxxxx" # 1951045980481827005
+  sicily.0223.a: "xxxxx" # 1951045980481827005
+  sicily.0224.t: "xxxxx" # 1951045980481827005
+  sicily.0224.desc: "xxxxx" # 1951045980481827005
+  sicily.0224.a: "xxxxx" # 1951045980481827005
+  sicily.0225.t: "xxxxx" # 1951045980481827005
+  sicily.0225.desc: "xxxxx" # 1951045980481827005
+  sicily.0225.a: "xxxxx" # 1951045980481827005
+  sicily.0226.t: "xxxxx" # 1951045980481827005
+  sicily.0226.desc: "xxxxx" # 1951045980481827005
+  sicily.0226.a: "xxxxx" # 1951045980481827005
+  sicily.0227.t: "xxxxx" # 1951045980481827005
+  sicily.0227.desc: "xxxxx" # 1951045980481827005
+  sicily.0227.a: "xxxxx" # 1951045980481827005
+  sicily.0228.t: "xxxxx" # 1951045980481827005
+  sicily.0228.desc: "xxxxx" # 1951045980481827005
+  sicily.0228.a: "xxxxx" # 1951045980481827005
+  sicily.0229.t: "xxxxx" # 1951045980481827005
+  sicily.0229.desc: "xxxxx" # 1951045980481827005
+  sicily.0229.a: "xxxx\"" # 15308465615999842627
+  sicily.0230.t: "[GetTitleByKey('b_syracusa').GetNameNoTierNoTooltip]의 부흥" # 17666184860824074556
+  sicily.0230.desc: "한때 [GetTitleByKey('b_syracusa').GetNameNoTier]는 [GetTitleByKey('b_roma').GetNameNoTier]와 [GetTitleByKey('b_athens').GetNameNoTier]와 어깨를 나란히 하는 지중해 최고의 도시 중 하나로 여겨졌습니다. 심지어 이교도와 라틴족의 침략에 맞서는 비잔티움의 보루 역할을 하기도 했지요.\n\n하지만 수년 동안 [GetTitleByKey('b_palermo').GetNameNoTier]가 그 중요성을 추월하면서, 이 도시는 옛 영광의 그림자 속에 시들어 있었습니다.\n\n그러나 [GetTitleByKey('d_sicily').GetNameNoTier] 섬 전체에 로마 통치가 복원되면서, 이 도시는 예전의 명성과 번영을 되찾고 있습니다. 부분적으로 [syracuse_restorer.GetTitledFirstName]의 노력 덕분에, [GetTitleByKey('b_syracusa').GetNameNoTierNoTooltip]는 다시 한번 이 섬의 수도가 되었습니다. 이 도시는 다른 비잔티움 영토로부터의 무역과 이민자들을 끌어들이고 있으며, 궁극적으로 스스로를 재건하고 있습니다.\n\n이제 [GetTitleByKey('b_syracusa').GetNameNoTierNoTooltip]는 지중해의 보석으로서 다시 한번 굳건히 설 수 있게 되었습니다." # 6425678274000095234
+  sicily.0230.a: "도시에게는 의심할 여지 없이 좋은 날이로군." # 15243483777773958829
+  sicily.0231.t: "[GetTitleByKey('b_catania').GetNameNoTierNoTooltip]의 코끼리" # 11188392014079230944
+  sicily.0231.desc: "[GetTitleByKey('b_catania').GetNameNoTier]는 언제나 중요한 도시였지만, 정치적 중요성이 점점 커지면서 시민들은 자랑스러워할 만한 상징을 요구하고 있습니다. 그들은 도시의 유명한 코끼리 조각상인 #italic 울리오트루#!를 도시의 공식 상징으로 선포해 달라는 요청을 했고, 저는 그 요청을 받아들였습니다.\n\n어찌 보면 이는 단순한 형식에 불과합니다. 이 도시는 수세기 동안 '코끼리의 도시'라는 별명으로 불려왔으며, 그 조각상에 대한 기발한 전설 또한 그만큼이나 오랫동안 퍼져왔습니다.\n\n예를 들어, 일부 사람들은 그 조각상이 전설적인 강령술사 헬리오도로스가 행한 어두운 마법의 결과물이라고 말합니다. 헬리오도로스가 그 조각상에 생명을 불어넣었거나, 혹은 자신이 그 조각상으로 변신한 후 [GetReligionByKey('christianity_religion').GetAdjective] 주교에게 패배했다는 것입니다. 그 후로 그 조각상은 도시를 해악으로부터 지켜왔으며, 이제는 도시의 상징으로서 그 역할을 하게 될 것입니다." # 9666984217247991684
+  sicily.0231.a: "그리고 그것은 도시를 계속해서 지켜줄 것입니다." # 13315954389217059511
+  sicily.0232.t: "[GetPlayer.Custom('RICE_almadraba')] 어업" # 1217623444042456827
+  sicily.0232.desc: "매년 봄과 여름이면 어부들은 항구에서 출발하여 [GetGeographicalRegion('RICE_west_mediterranean').GetName]의 바다로 나가, 고대부터 전해 내려오는 [GetPlayer.Custom('RICE_almadraba')] 기법으로 참치를 잡습니다. 이 기법은 정교한 그물 시스템을 배치하여 지중해에서 대서양으로 이동하는 참치를 포획하는 방식입니다.\n\n수세기 동안 저와 같은 진취적인 통치자들은 이러한 전문 어부들에게 장비, 보급품, 그리고 참치 떼의 도래를 알리는 감시 초소 등을 제공하여 그들의 활동을 지원해 왔습니다. 지금 제가 하고 있는 것처럼 이 어부들에게 투자함으로써 우리 모두 이 수익성 높은 산업에서 이익을 얻을 수 있습니다." # 189749573889130381
+  sicily.0232.a: "실로 수익성이 높은 산업이로군!" # 10161910304289727285
+  sicily.0233.t: "$RICE_sicily_struggle$" # 12866555338694195354
+  sicily.0233.desc: "제가 [GetGeographicalRegion('custom_sicily').GetName]을 오가며 이 아름다운 땅의 사람들과 공동체에 대해 많은 시간을 할애하며 알아왔습니다.\n\n이곳에 영구적인 거처를 마련할지는 모르겠지만, 제가 [GetGeographicalRegion('custom_sicily').GetNameNoTooltip]의 다양하고 역동적인 태피스트리에 깊숙이 스며들었다는 사실은 부인할 수 없습니다. 통치자든 평민이든 저의 이름을 점점 더 많이 듣고 있으며, 일부 사람들 사이에서 저의 평판이 좋든 나쁘든 간에 그들은 저를 이방인이 아닌 이 지역 정치와 지역 공동체의 일부로 보고 있습니다.\n\n저는 특히 이 지역의 문화적 영향과 사람들에게 깊은 유대감을 느끼는데..." # 11440611633237779134
+  sicily.0233.a: "라틴 세계" # 996165428204339028
+  sicily.0233.b: "그리스 세계" # 1257942304613485656
+  sicily.0233.c: "아랍-베르베르 세계" # 8287834018389551983
+  sicily.0234.t: "xxxxx" # 1951045980481827005
+  sicily.0234.desc: "xxxxx" # 1951045980481827005
+  sicily.0234.a: "xxxxx" # 1951045980481827005
+  sicily.0235.t: "xxxxx" # 1951045980481827005
+  sicily.0235.desc: "xxxxx" # 1951045980481827005
+  sicily.0235.a: "xxxxx" # 1951045980481827005
+  sicily.0236.t: "xxxxx" # 1951045980481827005
+  sicily.0236.desc: "xxxxx" # 1951045980481827005
+  sicily.0236.a: "xxxxx" # 1951045980481827005
+  sicily.0237.t: "xxxxx" # 1951045980481827005
+  sicily.0237.desc: "xxxxx" # 1951045980481827005
+  sicily.0237.a: "xxxxx" # 1951045980481827005
+  sicily.0238.t: "xxxxx" # 1951045980481827005
+  sicily.0238.desc: "xxxxx" # 1951045980481827005
+  sicily.0238.a: "xxxxx" # 1951045980481827005
+  sicily.0239.t: "xxxxx" # 1951045980481827005
+  sicily.0239.desc: "xxxxx" # 1951045980481827005
+  sicily.0239.a: "xxxxx" # 1951045980481827005
+  sicily.0240.t: "xxxxx" # 1951045980481827005
+  sicily.0240.desc: "xxxxx" # 1951045980481827005
+  sicily.0240.a: "xxxxx" # 1951045980481827005
+  sicily.0241.t: "xxxxx" # 1951045980481827005
+  sicily.0241.desc: "xxxxx" # 1951045980481827005
+  sicily.0241.a: "xxxxx" # 1951045980481827005
+  sicily.0242.t: "xxxxx" # 1951045980481827005
+  sicily.0242.desc: "xxxxx" # 1951045980481827005
+  sicily.0242.a: "xxxxx" # 1951045980481827005
+  sicily.0243.t: "xxxxx" # 1951045980481827005
+  sicily.0243.desc: "xxxxx" # 1951045980481827005
+  sicily.0243.a: "xxxxx" # 1951045980481827005
+  sicily.0244.t: "xxxxx" # 1951045980481827005
+  sicily.0244.desc: "xxxxx" # 1951045980481827005
+  sicily.0244.a: "xxxxx" # 1951045980481827005
+  sicily.0245.t: "xxxxx" # 1951045980481827005
+  sicily.0245.desc: "xxxxx" # 1951045980481827005
+  sicily.0245.a: "xxxxx" # 1951045980481827005
+  sicily.0246.t: "xxxxx" # 1951045980481827005
+  sicily.0246.desc: "xxxxx" # 1951045980481827005
+  sicily.0246.a: "xxxxx" # 1951045980481827005
+  sicily.0247.t: "xxxxx" # 1951045980481827005
+  sicily.0247.desc: "xxxxx" # 1951045980481827005
+  sicily.0247.a: "xxxxx" # 1951045980481827005
+  sicily.0248.t: "xxxxx" # 1951045980481827005
+  sicily.0248.desc: "xxxxx" # 1951045980481827005
+  sicily.0248.a: "xxxxx" # 1951045980481827005
+  sicily.0249.t: "xxxxx" # 1951045980481827005
+  sicily.0249.desc: "xxxxx" # 1951045980481827005
+  sicily.0249.a: "xxxxx" # 1951045980481827005
+  sicily.0250.t: "xxxxx" # 1951045980481827005
+  sicily.0250.desc: "xxxxx" # 1951045980481827005
+  sicily.0250.a: "xxxxx" # 1951045980481827005
+  sicily.0251.t: "xxxxx" # 1951045980481827005
+  sicily.0251.desc: "xxxxx" # 1951045980481827005
+  sicily.0251.a: "xxxxx" # 1951045980481827005
+  sicily.0252.t: "xxxxx" # 1951045980481827005
+  sicily.0252.desc: "xxxxx" # 1951045980481827005
+  sicily.0252.a: "xxxxx" # 1951045980481827005
+  sicily.0253.t: "xxxxx" # 1951045980481827005
+  sicily.0253.desc: "xxxxx" # 1951045980481827005
+  sicily.0253.a: "xxxxx" # 1951045980481827005
+  sicily.0254.t: "xxxxx" # 1951045980481827005
+  sicily.0254.desc: "xxxxx" # 1951045980481827005
+  sicily.0254.a: "xxxxx" # 1951045980481827005
+  sicily.0255.t: "xxxxx" # 1951045980481827005
+  sicily.0255.desc: "xxxxx" # 1951045980481827005
+  sicily.0255.a: "xxxxx" # 1951045980481827005
+  sicily.0256.t: "xxxxx" # 1951045980481827005
+  sicily.0256.desc: "xxxxx" # 1951045980481827005
+  sicily.0256.a: "xxxxx" # 1951045980481827005
+  sicily.0257.t: "xxxxx" # 1951045980481827005
+  sicily.0257.desc: "xxxxx" # 1951045980481827005
+  sicily.0257.a: "xxxxx" # 1951045980481827005
+  sicily.0258.t: "xxxxx" # 1951045980481827005
+  sicily.0258.desc: "xxxxx" # 1951045980481827005
+  sicily.0258.a: "xxxxx" # 1951045980481827005
+  sicily.0259.t: "xxxxx" # 1951045980481827005
+  sicily.0259.desc: "xxxxx" # 1951045980481827005
+  sicily.0259.a: "xxxxx" # 1951045980481827005
+  sicily.0260.t: "xxxxx" # 1951045980481827005
+  sicily.0260.desc: "xxxxx" # 1951045980481827005
+  sicily.0260.a: "xxxxx" # 1951045980481827005
+  sicily.0261.t: "xxxxx" # 1951045980481827005
+  sicily.0261.desc: "xxxxx" # 1951045980481827005
+  sicily.0261.a: "xxxxx" # 1951045980481827005
+  sicily.0262.t: "xxxxx" # 1951045980481827005
+  sicily.0262.desc: "xxxxx" # 1951045980481827005
+  sicily.0262.a: "xxxxx" # 1951045980481827005
+  sicily.0263.t: "xxxxx" # 1951045980481827005
+  sicily.0263.desc: "xxxxx" # 1951045980481827005
+  sicily.0263.a: "xxxxx" # 1951045980481827005
+  sicily.0264.t: "xxxxx" # 1951045980481827005
+  sicily.0264.desc: "xxxxx" # 1951045980481827005
+  sicily.0264.a: "xxxxx" # 1951045980481827005
+  sicily.0265.t: "xxxxx" # 1951045980481827005
+  sicily.0265.desc: "xxxxx" # 1951045980481827005
+  sicily.0265.a: "xxxxx" # 1951045980481827005
+  sicily.0266.t: "xxxxx" # 1951045980481827005
+  sicily.0266.desc: "xxxxx" # 1951045980481827005
+  sicily.0266.a: "xxxxx" # 1951045980481827005
+  sicily.0267.t: "xxxxx" # 1951045980481827005
+  sicily.0267.desc: "xxxxx" # 1951045980481827005
+  sicily.0267.a: "xxxxx" # 1951045980481827005
+  sicily.0268.t: "xxxxx" # 1951045980481827005
+  sicily.0268.desc: "xxxxx" # 1951045980481827005
+  sicily.0268.a: "xxxxx" # 1951045980481827005
+  sicily.0269.t: "xxxxx" # 1951045980481827005
+  sicily.0269.desc: "xxxxx" # 1951045980481827005
+  sicily.0269.a: "xxxxx" # 1951045980481827005
+  sicily.0270.t: "xxxxx" # 1951045980481827005
+  sicily.0270.desc: "xxxxx" # 1951045980481827005
+  sicily.0270.a: "xxxxx" # 1951045980481827005
+  sicily.0271.t: "xxxxx" # 1951045980481827005
+  sicily.0271.desc: "xxxxx" # 1951045980481827005
+  sicily.0271.a: "xxxxx" # 1951045980481827005
+  sicily.0272.t: "xxxxx" # 1951045980481827005
+  sicily.0272.desc: "xxxxx" # 1951045980481827005
+  sicily.0272.a: "xxxxx" # 1951045980481827005
+  sicily.0273.t: "xxxxx" # 1951045980481827005
+  sicily.0273.desc: "xxxxx" # 1951045980481827005
+  sicily.0273.a: "xxxxx" # 1951045980481827005
+  sicily.0274.t: "xxxxx" # 1951045980481827005
+  sicily.0274.desc: "xxxxx" # 1951045980481827005
+  sicily.0274.a: "xxxxx" # 1951045980481827005
+  sicily.0275.t: "xxxxx" # 1951045980481827005
+  sicily.0275.desc: "xxxxx" # 1951045980481827005
+  sicily.0275.a: "xxxxx" # 1951045980481827005
+  sicily.0276.t: "xxxxx" # 1951045980481827005
+  sicily.0276.desc: "xxxxx" # 1951045980481827005
+  sicily.0276.a: "xxxxx" # 1951045980481827005
+  sicily.0277.t: "xxxxx" # 1951045980481827005
+  sicily.0277.desc: "xxxxx" # 1951045980481827005
+  sicily.0277.a: "xxxxx" # 1951045980481827005
+  sicily.0278.t: "xxxxx" # 1951045980481827005
+  sicily.0278.desc: "xxxxx" # 1951045980481827005
+  sicily.0278.a: "xxxxx" # 1951045980481827005
+  sicily.0279.t: "xxxxx" # 1951045980481827005
+  sicily.0279.desc: "xxxxx" # 1951045980481827005
+  sicily.0279.a: "xxxxx" # 1951045980481827005
+  sicily.0280.t: "xxxxx" # 1951045980481827005
+  sicily.0280.desc: "xxxxx" # 1951045980481827005
+  sicily.0280.a: "xxxxx" # 1951045980481827005
+  sicily.0281.t: "xxxxx" # 1951045980481827005
+  sicily.0281.desc: "xxxxx" # 1951045980481827005
+  sicily.0281.a: "xxxxx" # 1951045980481827005
+  sicily.0282.t: "xxxxx" # 1951045980481827005
+  sicily.0282.desc: "xxxxx" # 1951045980481827005
+  sicily.0282.a: "xxxxx" # 1951045980481827005
+  sicily.0283.t: "xxxxx" # 1951045980481827005
+  sicily.0283.desc: "xxxxx" # 1951045980481827005
+  sicily.0283.a: "xxxxx" # 1951045980481827005
+  sicily.0284.t: "xxxxx" # 1951045980481827005
+  sicily.0284.desc: "xxxxx" # 1951045980481827005
+  sicily.0284.a: "xxxxx" # 1951045980481827005
+  sicily.0285.t: "xxxxx" # 1951045980481827005
+  sicily.0285.desc: "xxxxx" # 1951045980481827005
+  sicily.0285.a: "xxxxx" # 1951045980481827005
+  sicily.0286.t: "xxxxx" # 1951045980481827005
+  sicily.0286.desc: "xxxxx" # 1951045980481827005
+  sicily.0286.a: "xxxxx" # 1951045980481827005
+  sicily.0287.t: "xxxxx" # 1951045980481827005
+  sicily.0287.desc: "xxxxx" # 1951045980481827005
+  sicily.0287.a: "xxxxx" # 1951045980481827005
+  sicily.0288.t: "xxxxx" # 1951045980481827005
+  sicily.0288.desc: "xxxxx" # 1951045980481827005
+  sicily.0288.a: "xxxxx" # 1951045980481827005
+  sicily.0289.t: "xxxxx" # 1951045980481827005
+  sicily.0289.desc: "xxxxx" # 1951045980481827005
+  sicily.0289.a: "xxxxx" # 1951045980481827005
+  sicily.0290.t: "xxxxx" # 1951045980481827005
+  sicily.0290.desc: "xxxxx" # 1951045980481827005
+  sicily.0290.a: "xxxxx" # 1951045980481827005
+  sicily.0291.t: "xxxxx" # 1951045980481827005
+  sicily.0291.desc: "xxxxx" # 1951045980481827005
+  sicily.0291.a: "xxxxx" # 1951045980481827005
+  sicily.0292.t: "xxxxx" # 1951045980481827005
+  sicily.0292.desc: "xxxxx" # 1951045980481827005
+  sicily.0292.a: "xxxxx" # 1951045980481827005
+  sicily.0293.t: "xxxxx" # 1951045980481827005
+  sicily.0293.desc: "xxxxx" # 1951045980481827005
+  sicily.0293.a: "xxxxx" # 1951045980481827005
+  sicily.0294.t: "xxxxx" # 1951045980481827005
+  sicily.0294.desc: "xxxxx" # 1951045980481827005
+  sicily.0294.a: "xxxxx" # 1951045980481827005
+  sicily.0295.t: "xxxxx" # 1951045980481827005
+  sicily.0295.desc: "xxxxx" # 1951045980481827005
+  sicily.0295.a: "xxxxx" # 1951045980481827005
+  sicily.0296.t: "xxxxx" # 1951045980481827005
+  sicily.0296.desc: "xxxxx" # 1951045980481827005
+  sicily.0296.a: "xxxxx" # 1951045980481827005
+  sicily.0297.t: "xxxxx" # 1951045980481827005
+  sicily.0297.desc: "xxxxx" # 1951045980481827005
+  sicily.0297.a: "xxxxx" # 1951045980481827005
+  sicily.0298.t: "xxxxx" # 1951045980481827005
+  sicily.0298.desc: "xxxxx" # 1951045980481827005
+  sicily.0298.a: "xxxxx" # 1951045980481827005
+  sicily.0299.t: "xxxxx" # 1951045980481827005
+  sicily.0299.desc: "xxxxx" # 1951045980481827005
+  sicily.0299.a: "xxxxx" # 1951045980481827005

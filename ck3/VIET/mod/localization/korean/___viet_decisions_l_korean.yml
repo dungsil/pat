@@ -60,26 +60,26 @@
   VIET_decision_feed_the_crows_desc: "정원에 나가 친구들인 까마귀들에게 먹이를 주어야겠소. 그들이 분명 내 호의에 감사할 것이오." # 8486073801285890001
   VIET_decision_feed_the_crows_effect_tooltip: "일부 [stress|E]를 잃고 약간의 [dread|E]를 얻게 될 것입니다." # 9127011581093239585
   VIET_decision_feed_the_crows_confirm: "내 까마귀 먹이 자루는 어디 갔지?" # 9441942633747794286
-  VIET_decision_feed_the_crows_context_tooltip: "#emphasis 역사적 배경:#! 까마귀속(Corvus)에 속하는 새들은 흔히 까마귀나 큰까마귀로 알려져 있으며, 전 세계의 민속과 종교적 신념에서 흔히 찾아볼 수 있습니다. 많은 문화권에서 이들은 불길한 징조, 불운과 죽음의 상징으로 여겨지지만, 일부 지역이나 맥락에서는 속임수를 쓰는 자나 영혼 인도자로 다소 모호하게 해석되기도 합니다. 이들은 지능과 뛰어난 기억력으로 잘 알려져 있습니다. 까마귀와 큰까마귀의 구분은 다소 일관성이 없지만, 일반적으로 까마귀가 큰까마귀보다 작습니다." # 6267129815529829577
+  VIET_decision_feed_the_crows_context_tooltip: "#emphasis 역사적 배경:#! 까마귀속(#italic Corvus#)의 새들은 전 세계의 민속과 종교적 믿음에서 흔히 찾아볼 수 있습니다. 많은 문화권에서 이들은 불길한 징조와 불행, 죽음의 상징으로 여겨지지만, 일부 지역이나 상황에서는 교활한 존재나 영혼 인도자로 다소 모호하게 간주되기도 합니다. 이들은 지능과 뛰어난 기억력으로 알려져 있습니다. 까마귀와 큰까마귀의 구분은 다소 일관성이 없지만, 일반적으로 까마귀가 큰까마귀보다 작습니다." # 3582771648676269687
   VIET_decision_strange_trails: "이상한 길을 따르라" # 18178442534361525767
   VIET_decision_strange_trails_tooltip: "내 꿈들이 나를 어딘가로 이끌고 있어. 그럴 게 분명해." # 12956167915759574961
   VIET_decision_strange_trails_desc: "최근 들어 사랑에 빠진 바보에 대한 꿈들이 내 생각을 사로잡았소. 이제 그 꿈들이 근처의 한 장소에 대한 것이었음을 깨달았소. 나는 그곳이 어디인지 알고 있소. 예전에 가본 적이 있소. 다시 그곳을 방문해야겠소. 어쩌면 그곳에 가면 내 마음이 편안해지고 왜 그런 꿈을 꾸었는지 알 수 있을 것이오." # 5324713556934682970
   VIET_decision_strange_trails_effect_tooltip: "당신은 꿈에서 보았던 장소를 찾기 위해 기이한 흔적들을 따라갈 것입니다." # 6408720720516713101
-  VIET_decision_strange_trails_confirm: "나는 해답을 찾고 있지만, 정작 질문이 무엇인지조차 모르겠군." # 15270148844968500935
+  VIET_decision_strange_trails_confirm: "나는 해답을 찾고 있지만, 정작 질문이 무엇인지도 모르겠군\"" # 1024105492532235231
   VIET_decision_learn_shorthand_techniques: "속기 기법 배우기" # 9032063095507357346
   VIET_decision_learn_shorthand_techniques_tooltip: "근처에 속기법을 가르쳐 줄 수 있는 서기나 학자들이 있다고 들었습니다." # 782331599884661413
   VIET_decision_learn_shorthand_techniques_desc: "근처에 필경사나 학자들이 있어서 제가 더 빨리 글을 쓸 수 있도록 고급 속기 기술을 가르쳐 줄 수 있다고 들었습니다. 이 분야에 대한 흥미가 있을 때 더 배우기로 결심하는 것이 좋겠군요." # 14638464141335831881
   VIET_decision_learn_shorthand_techniques_effect_tooltip: "몇 달간의 학습 끝에, 당신의 [skills|E]를 일부 증가시키는 #P 긍정적인#! [character_modifier|E]를 얻게 될 것입니다." # 13338043647755229069
   VIET_decision_learn_shorthand_techniques_effect_tooltip_2: "[character_modifier|E]의 위력은 당신의 [skills|E], [traits|E] 및 기타 요인에 따라 달라집니다." # 5097677172424077082
   VIET_decision_learn_shorthand_techniques_confirm: "서기관 한 명이 가르쳐 줄 의향이 있는 것 같소." # 3356676745980709007
-  VIET_decision_learn_shorthand_techniques_context_tooltip: "#emphasis 역사적 배경:#! 속기란 빠르게 필기하기 위한 모든 약식 필기법을 말합니다. 이러한 방법들은 역사적으로 많은 문자 문명에서 개발되었습니다. 이 방법들은 정보를 신속하고 효율적으로 기록해야 하는 서기나 필경사와 같은 특정 직업군에 특히 유용했으며, 지금도 그러합니다." # 6184085304794917152
+  VIET_decision_learn_shorthand_techniques_context_tooltip: "#emphasis 역사적 배경:#! 속기란 빠르게 글을 쓰기 위해 고안된 모든 약식 필기법을 의미합니다. 이러한 방식은 역사적으로 많은 문자 해독 문화권에서 발전해 왔습니다. 정보가 신속하고 효율적으로 기록되어야 하는 서기나 필경사와 같은 특정 직업군에게는 과거에도, 지금도 특히 유용합니다." # 11848888932795716321
   VIET_decision_buy_valuable_medicinal_berries: "귀한 약용 베리 구매" # 8520887268248569811
   VIET_decision_buy_valuable_medicinal_berries_tooltip: "치유 효능이 있다고 알려진 열매들이 있습니다." # 13772902585446099380
   VIET_decision_buy_valuable_medicinal_berries_desc: "내 영지의 일부 지역에서는 그 열매가 다양한 약효를 지니고 있다고 하더군. 나도 좀 사야겠어!" # 6965568478112031542
   VIET_decision_buy_valuable_medicinal_berries_effect_tooltip: "구매할 베리의 양을 정하면 [GetModifier('VIET_berry_good_medicine').GetNameWithTooltip] [character_modifier|E]가 지속되는 기간이 결정됩니다 #weak (최소 비용: @gold_icon! 15)#!" # 1856336758353055181
   VIET_decision_buy_valuable_medicinal_berries_confirm: "아주 좋군." # 16308777647279336118
   VIET_decision_buy_valuable_medicinal_berries_req: "[domain|E] 내 모든 [county|E]는 [GetModifier('VIET_berry_good_medicine_county').GetNameWithTooltip] [county_modifier|E]를 보유하고 있습니다." # 7418310532855863330
-  VIET_decision_buy_valuable_medicinal_berries_context_tooltip: "#emphasis 역사적 배경:#! 베리류는 태초부터 많은 문화권에서 향유되어 왔으며, 식량, 약재, 염료의 원료 등으로 사용되어 왔습니다." # 8962705741850458700
+  VIET_decision_buy_valuable_medicinal_berries_context_tooltip: "#emphasis 역사적 배경:#! 베리류는 태초부터 수많은 문화권에서 중요한 부분을 차지해 왔으며, 식량, 약재, 염료의 원료 등으로 사용되어 왔습니다." # 10356161277028602093
   VIET_decision_employ_renowned_blacksmiths: "군대를 위해 저명한 대장장이를 고용하십시오" # 2385634373704664478
   VIET_decision_employ_renowned_blacksmiths_tooltip: "내 병사들은 언제나 더 나은 무기와 갑옷이 필요하지." # 17039987235520827265
   VIET_decision_employ_renowned_blacksmiths_desc: "내 영토 중 일부는 대장장이들로 유명하오. 그들 중 일부를 군대에 활용하여 병사들의 무기와 갑옷을 제작하고, 수리하며, 유지 보수하게 할 수 있을지도 모르겠소." # 6084246144217435156
@@ -89,84 +89,13 @@
   VIET_decision_employ_renowned_blacksmiths.weapons: "무기" # 3978172780826165793
   VIET_decision_employ_renowned_blacksmiths.supplies: "보급품" # 3507457972896956039
   VIET_decision_employ_renowned_blacksmiths_confirm: "그들을 만나보세." # 15374775774214575647
-  VIET_decision_employ_renowned_blacksmiths_context_tooltip: "#emphasis 역사적 배경:#! 철 제련술은 고대부터 구세계 여러 사회에서 중요한 기술이었습니다. 모든 마을과 군대는 유용한 도구(무기와 갑옷 포함)로 철을 단조하거나 해당 도구를 수리할 수 있는 사람을 필요로 했습니다." # 12692316041290860508
-  VIET_decision_visit_legendary_burial_mound_context_tooltip: "#emphasis 역사적 배경:#! 흙무덤 또는 둔덕무덤(단수 #italic 툰물루스#!)은 거의 전 세계 어디에서나 발견될 수 있으며, 일부는 수천 년 전으로 거슬러 올라갑니다. 따라서 이러한 장소들과 관련된 수많은 지역 전설과 신화가 존재하곤 합니다." # 15124320593771654969
-  VIET_decision_investigate_a_ghost_town_context_tooltip: "#emphasis 역사적 배경:#! 죽은 자들의 영혼은 태고적부터 전 세계 거의 모든 문화의 민속과 신화에 등장해 왔습니다. 마찬가지로, 모든 문화권에는 유령들이 모여 초자연적인 일을 처리하는 장소에 대한 전설이 있었습니다." # 11477360024757784149
+  VIET_decision_employ_renowned_blacksmiths_context_tooltip: "#emphasis 역사적 배경:#! 철 제련술은 고대부터 구세계 전역의 수많은 사회에서 중요한 기술이었습니다. 모든 마을과 군대는 유용한 도구(무기와 갑옷 포함)를 만들거나 해당 도구를 수리할 수 있는 대장장이가 필요했습니다." # 15679832556003555078
+  VIET_decision_visit_legendary_burial_mound_context_tooltip: "#emphasis 역사적 배경:#! 무덤 언덕, 즉 토분(단수 #italic 토분#!, tumulus)은 거의 전 세계 어디에서나 발견되며, 일부는 수천 년 전으로 거슬러 올라갑니다. 따라서 이러한 장소들과 관련된 지역 전설과 신화가 흔히 존재합니다." # 510704719663077518
+  VIET_decision_investigate_a_ghost_town_context_tooltip: "#emphasis 역사적 배경:#! 죽은 자들의 영혼은 태고적부터 전 세계 거의 모든 문화의 설화와 신화에 등장해 왔습니다. 마찬가지로, 모든 문화에는 유령들이 모여 초자연적인 활동을 처리하는 장소에 대한 전설이 있었습니다\"" # 9287685616667082326
   VIET_decision_venerate_a_mummified_hermit: "미라가 된 은둔자를 경배하기" # 8105195732823063838
   VIET_decision_venerate_a_mummified_hermit_tooltip: "경의를 표하고 싶습니다." # 4127935319605322533
   VIET_decision_venerate_a_mummified_hermit_desc: "얼마 전, 제가 다스리는 영지 중 한 곳에서 유명한 은둔자가 명상 중 세상을 떠났습니다. 기적적이게도 그의 시신은 여전히 똑바로 서 있으며 어떤 부패도 막아내고 있습니다. 아마도 이 남자의 영적인 힘의 징표일 것입니다. 그가 세상을 떠난 곳은 작은 종교적 성지가 되었기에, 저는 지역 성소에 약간의 제물을 바쳐야 합니다." # 1034015319710979488
   VIET_decision_venerate_a_mummified_hermit_req: "[domain|E] 내 모든 [county|E]는 [GetModifier('VIET_holy_hermit_passes_away').GetNameWithTooltip] [county_modifier|E]를 보유하고 있습니다." # 5158034674277901887
   VIET_decision_venerate_a_mummified_hermit_effect_tooltip: "막대한 양의 [piety_i|E] [piety|E]를 얻게 될 것입니다." # 6643371632343342502
   VIET_decision_venerate_a_mummified_hermit_confirm: "부디 이 헌납품들이 마음에 드시길 바라오!" # 10155973340420519242
-  VIET_decision_venerate_a_mummified_hermit_context_tooltip: "#emphasis 역사적 배경:#! 수 세기 동안 명상 도중 사망했으나, 그 시신이\"자연적으\" 미라화되어 부패에 저항했다고 전해지는 불교 승려와 비구니들에 대한 보고가 있었습니다. 이러한 장소들은 놀랍게도 불교 숭배와 경배의 장소였습니다(그리고 지금도 그렇습니다)." # 11800140104502219323
-  VIET_decision_relax_at_a_giant_shade_tree_context_tooltip: "#emphasis 역사적 배경:#! 그늘나무는 그 덮개와 수관 아래 그늘을 제공할 목적으로 심어졌거나, 혹은 근처에 사는 사람들에게 그런 존재가 되도록 우연히 자라난 큰 나무들입니다." # 1161571768114064579
-  VIET_decision_examine_ancient_stone_monument_req: "[domain|E] 내 모든 [county|E]는 [GetModifier('VIET_flat_stone_monument').GetNameWithTooltip] [county_modifier|E]를 보유하고 있습니다." # 957070697054131031
-  VIET_decision_examine_ancient_stone_monument_context_tooltip: "#emphasis 역사적 배경:#! 선사 시대의 석조 기념물은 전 세계 여러 곳에서 발견될 수 있습니다. 그 목적이 종종 불분명하거나 적어도 논쟁의 여지가 있는 이 거석들은 이후 그것들을 발견한 문화들에게 많은 전설과 신화를 불어넣었습니다." # 805174308095734487
-  VIET_decision_purchase_dependable_donkeys: "믿음직한 당나귀 구매" # 12779701744157007691
-  VIET_decision_purchase_dependable_donkeys_tooltip: "당나귀가 좀 더 필요하겠군...." # 6992980815800465218
-  VIET_decision_purchase_dependable_donkeys_desc: "당나귀는 우리 공동체에서 종종 저평가되는 존재입니다. 제 영지 중 일부 지역은 매우 믿음직하고 유능한 당나귀로 알려져 있습니다. 당나귀 몇 마리를 소유하는 것은 유용할 수 있습니다. 왜냐하면 제 군인들이나 집안의 하인들에게 다양한 용도로 쓰일 수 있기 때문입니다." # 12411005460869992824
-  VIET_decision_purchase_dependable_donkeys_req: "[domain|E] 내 모든 [county|E]는 [GetModifier('VIET_reliable_donkeys').GetNameWithTooltip] [county_modifier|E]를 보유하고 있습니다." # 1864634569289156119
-  VIET_decision_purchase_dependable_donkeys_effect_tooltip: "당신이 구매하고 싶은 당나귀의 수를 선택하십시오." # 10976121575145952338
-  VIET_decision_purchase_dependable_donkeys_effect_tooltip_small: "#weak 비용 @gold_icon! 30#!" # 13435790575173542653
-  VIET_decision_purchase_dependable_donkeys_effect_tooltip_medium: "#weak 비용 @gold_icon! 60#!" # 5359909977529960169
-  VIET_decision_purchase_dependable_donkeys_effect_tooltip_large: "#weak 비용 @gold_icon! 90#!" # 10538674109390950752
-  VIET_decision_purchase_dependable_donkeys_confirm: "이 당나귀들이 우리에게 큰 도움이 될 것이다." # 17238278293841085457
-  VIET_decision_purchase_dependable_donkeys_context_tooltip: "$VIETmisc.3030.info$" # 6415019579884916035
-  VIET_decision_add_more_dovecotes: "거주지에 비둘기집을 더 추가하십시오" # 15050173753784927902
-  VIET_decision_add_more_dovecotes_tooltip: "그것이 저의 위신을 더 높여줄 것입니다." # 4222041163974432736
-  VIET_decision_add_more_dovecotes_desc: "비록 제 거처에 이미 비둘기집이 몇 채 있지만, 최근에는 더 많은 비둘기를 수용하기 위해 더 짓는 것을 고려하고 있습니다. 이는 실용적이기도 하지만 저의 지위와 명성을 높여줄 것입니다." # 4259820515477572307
-  VIET_decision_add_more_dovecotes_effect_tooltip: "당신은 얼마나 많은 비둘기집을 지을지 선택하게 될 것입니다." # 2836492765232686320
-  VIET_decision_add_more_dovecotes_effect_tooltip_small: "#weak 비용 @gold_icon! 50#!" # 16441596657075962015
-  VIET_decision_add_more_dovecotes_effect_tooltip_medium: "#weak 비용 @gold_icon! 100#!" # 6279981946030492581
-  VIET_decision_add_more_dovecotes_effect_tooltip_large: "#weak 비용 @gold_icon! 150#!" # 13997480155383797748
-  VIET_decision_add_more_dovecotes_confirm: "시작해보지!" # 18439043425323687662
-  VIET_decision_add_more_dovecotes_context_tooltip: "$VIETmisc.2074.info$" # 9448689061618712072
-  VIET_decision_listen_to_wild_songbirds: "야생의 노래하는 새 소리를 들으시오" # 10791838939994247613
-  VIET_decision_listen_to_wild_songbirds_tooltip: "그들의 노래는 지고하다." # 12671857973516958629
-  VIET_decision_listen_to_wild_songbirds_desc: "근처 황무지에 사랑스러운 노래하는 야생 새들을 자주 만날 수 있는 장소가 있다고 들었습니다. 이 사랑스러운 생명체들의 노랫소리를 듣는 것을 즐기는 사람으로서, 저는 곧 그 장소를 방문해야겠습니다." # 16646389687604314494
-  VIET_decision_listen_to_wild_songbirds_effect_tooltip: "일부 [stress|E]를 잃게 될 것이며, 어쩌면 영감을 얻어 [character_modifier|E]를 얻을 수도 있습니다." # 5745578044218556993
-  VIET_decision_listen_to_wild_songbirds_confirm: "저는 휴가가 필요합니다." # 13262063409895761076
-  VIET_decision_listen_to_wild_songbirds_context_tooltip: "#emphasis 생물학적 배경:#! 횃대새목의 #italic 참새아목#!은 통속적으로 명금류라고 불립니다. 5,000종 이상으로 구성되어 있으며 전 세계에서 발견되며, 여러 시대와 문화권의 인간들에게 찬양받아 온 다양하고 정교한 새소리로 유명합니다." # 16030874470519042765
-  VIET_decision_oblivion_dream: "이상한 꿈을 되새겨 보십시오" # 10770449004656780616
-  VIET_decision_oblivion_dream_tooltip: "이 꿈에는 더 많은 것이 있어야 해!" # 11170063248080950581
-  VIET_decision_oblivion_dream_desc: "저는 [ROOT.Char.MakeScope.Var('VIET_oblivion_dream_counter').GetValue]번이나 다른 세계에 대한 이상한 꿈을 꾸었습니다. 그 꿈에는 황제와 거대한 위험에 대한 이야기가 담겨 있었죠. 꽤 흥미롭습니다! 만약 제가 더 노력한다면, 그 세계에 대한 꿈을 다시 꾸고 다음에 무슨 일이 일어나는지 알아낼 수 있을지도 모르겠습니다." # 123683196641392900
-  VIET_decision_oblivion_dream_req_tooltip: "이 사건 연쇄에서 최소 1번의 꿈을 꾸셨습니다." # 12097691532058317857
-  VIET_decision_oblivion_dream_current_req_tooltip: "현재는 이상한 꿈에 대해 생각하고 있지 않습니다." # 1966025540702100663
-  VIET_decision_oblivion_dream_effect_tooltip: "당신이 계속해서 꾸고 있는 꿈 이야기를 이어가겠습니다." # 15500193313357190831
-  VIET_decision_oblivion_dream_confirm: "졸리군...." # 370739937337946380
-  VIET_decision_snow_festival: "눈 축제를 준비하십시오" # 1791921615816776792
-  VIET_decision_snow_festival_tooltip: "사람들도 눈 속에서 즐거운 시간을 가져야지!" # 17824025990445746698
-  VIET_decision_snow_festival_desc: "혹독하고 추운 겨울 동안, 신민들은 많은 고통을 감내해야 합니다. 이를 조금이나마 덜어드리고자, 저는 신하들에게 지역 관습에 따라 [GetPlayer.GetCapitalLocation.GetCounty.GetTitle.GetNameNoTier]에서 눈 축제를 열어 사람들이 모여 아름다운 눈 조각품을 만들 수 있도록 준비시키고자 합니다." # 6143581789236873660
-  VIET_decision_snow_festival_req_tooltip: "이 사건 연쇄에서 최소 1번의 꿈을 꾸셨습니다." # 12097691532058317857
-  VIET_decision_snow_festival_effect_tooltip_1: "@warning_icon! #X 이 [decision|E]는 단 한 번만 취할 수 있습니다!#" # 7443489241284335621
-  VIET_decision_snow_festival_effect_tooltip_2: "#P 유익한#! [county|E]와 [character_modifiers|E]를 얻으며, 그 효과는 설날 축제가 추문으로 끝날지 아니면 존경받을 만하게 끝날지에 따라 달라집니다." # 18299669205499464047
-  VIET_decision_snow_festival_effect_tooltip_3: "막대한 양의 @piety_icon! [piety|E] 또는 눈 축제가 추문으로 끝날지 존경받을 만하게 끝날지에 따라 @prestige_icon! [prestige|E]를 얻습니다." # 585804191783306053
-  VIET_decision_snow_festival_context_tooltip: "#emphasis 역사적 배경:#! 이 미니 이벤트 연쇄는 후기 중세 및 르네상스 시대 유럽에서 역사적으로 증명된 유사한 사건들에 느슨하게 기반을 두고 있습니다. 가장 잘 알려진 사례는 1511년 브뤼셀 시에서 열린 눈 축제입니다. 비록 이 행사가 브뤼셀 시민들이 도시 엘리트들에 대항하여 포르노적이거나 풍자적인 조각품을 만들어 정치적 항의를 벌였다는 식으로 온라인에서 과장되었지만, 실제로는 도시 관리들이 행사를 지지하고 심지어 후원했으며, 정치적 및 사회적 불안을 해소하고, 시민적 정체성과 자부심을 고취하며, 외국 및 종교적 적들을 풍자하고, 단순히 즐거움을 나누는 방법이었습니다." # 6210724789186887966
-  VIET_decision_snow_festival_confirm: "겨울의 재미를 좀 즐겨보세!" # 13756337464774014736
-  VIET_winter_capital_req: "귀하의 [capital|E] [barony|E]가 [winter|E]로 인해 어려움을 겪고 있습니다 (즉, 겨울 [barony|E] [modifiers|E]가 적용 중입니다)" # 17152019415133795283
-  VIET_gift_baklava: "특별한 과자 선물하기" # 7592671782255085168
-  VIET_gift_baklava_desc: "저명한 제과 장인이 만든 다양한 페이스트리, 과자, 후식을 [recipient.GetShortUINameNoTooltip]에게 줄 선물로 구매하십시오." # 4947150406463498334
-  VIET_gift_baklava_effect_tooltip: "[recipient.GetShortUINameNoTooltip]께서는 귀하가 선택하신 디저트 선물을 받으실 것이며, 이는 [recipient.GetHerHim]에게 [character_modifier|E]를 부여할 것입니다." # 12292820056766794884
-  VIET_gift_spices: "특별한 향신료 혼합물 선물 증정" # 8925315284723894727
-  VIET_gift_spices_desc: "[recipient.GetShortUINameNoTooltip]에게 선물할 유명한 #V 오향 분말#을 구매하십시오." # 9610844324554383255
-  VIET_gift_spices_effect_tooltip: "[recipient.GetShortUINameNoTooltip]님은 #V 오미자 혼합물#!을 나타내는 특별한 [character_modifier|E]를 받게 됩니다." # 11290909770050699559
-  VIET_decision_xxxxx: "xxxxx" # 1951045980481827005
-  activity_VIET_crow_appeasement: "까마귀 달래기" # 2168798834499739071
-  activity_VIET_crow_appeasement_name: "[ACTIVITY.GetOwner.GetNamePossessiveOrMy|U] 까마귀 달래기" # 3712199799698601569
-  activity_VIET_crow_removal: "까마귀 제거" # 9270552879136281821
-  activity_VIET_crow_removal_name: "[ACTIVITY.GetOwner.GetNamePossessiveOrMy|U] 까마귀 제거" # 12515045453783613497
-  activity_VIET_visit_to_a_legendary_burial_mound: "#전설적인 무덤 방문#" # 7617403901699956949
-  activity_VIET_visit_to_a_legendary_burial_mound_name: "[ACTIVITY.GetOwner.GetNamePossessiveOrMy|U] 전설적인 무덤 방문" # 17933938960898013361
-  activity_VIET_investigation_of_a_ghost_town: "유령 도시 조사" # 15508674947638333753
-  activity_VIET_investigation_of_a_ghost_town_name: "[ACTIVITY.GetOwner.GetNamePossessiveOrMy|U] 유령 마을 조사" # 12363515493771812771
-  activity_VIET_veneration_of_a_mummified_hermit: "#bold 미라가 된 은둔자 공경#" # 505394550061058621
-  activity_VIET_veneration_of_a_mummified_hermit_name: "[ACTIVITY.GetOwner.GetNamePossessiveOrMy|U] 미라가 된 은둔자에 대한 숭배" # 17646650619082122788
-  activity_VIET_trip_giant_shade_tree: "거대한 그늘나무로의 여정" # 9461466864099951626
-  activity_VIET_trip_giant_shade_tree_name: "[ACTIVITY.GetOwner.GetNamePossessiveOrMy|U] 거대한 그늘나무 방문" # 13044140208182088086
-  activity_VIET_trip_examine_ancient_stone_monument: "고대 석조 기념물 탐방" # 14702856319440621609
-  activity_VIET_trip_examine_ancient_stone_monument_name: "[ACTIVITY.GetOwner.GetNamePossessiveOrMy|U] 고대 석조 기념물 조사 여행" # 12523959646127236664
-  activity_VIET_relaxation_with_songbirds: "#songbird_excursion# 노래하는 새를 들으러 떠나는 소풍" # 3243062791352732168
-  activity_VIET_relaxation_with_songbirds_desc: "[ACTIVITY.GetOwner.GetNamePossessiveOrMy|U]의 새소리 감상 나들이" # 6725871783969973674
-  activity_VIET_trip_flower_meadows: "꽃이 만발한 화원을 보러 가는 여행" # 17463200934085476513
-  activity_VIET_trip_flower_meadows_desc: "[ACTIVITY.GetOwner.GetNamePossessiveOrMy|U] 만개한 꽃밭 방문 여행" # 9536644077270564882
-  activity_VIET_xxxxx: "xxxxx" # 1951045980481827005
+  VIET_decision_venerate_a_mummified_hermit_context_tooltip: "#emphasis 역사적 배경:#! 수 세기 동안 명상 도중 사망했으나, 그 시신이\"자연적으\" 미라화되어 부패에 저항하는 힘을 가졌다는 승려와 비구니에 대한 보고가 있었습니다. 이러한 장소들은 놀랍게도 불교 신앙과 숭배의 중심지였습니다(그리고 지금도 그렇습니다)." # 9673419812431869296
