@@ -10,7 +10,7 @@
   unop_has_dog_first: "당신은 개를 한 마리 가지고 있습니다." # 14978469940381003905
   unop_has_dog_first_not: "당신은 개를 가지고 있지 않습니다." # 6519464144298654723
   unop_has_dog_third: "[CHARACTER.GetShortUIName|U]는 개를 한 마리 가지고 있습니다." # 13266568354054074926
-  unop_has_dog_third_not: "[CHARACTER.GetShortUIName|U]께는 개가 없습니다." # 1483265964881018251
+  unop_has_dog_third_not: "[CHARACTER.GetShortUIName|U]는 개를 키우지 않습니다." # 1514795908784148169
   unop_has_eagle_global: "독수리를 가지다" # 14069677697289065206
   unop_has_eagle_global_not: "독수리가 없다네" # 17053357943549547544
   unop_has_eagle_first: "당신은 독수리를 가지고 있습니다." # 13172357580845200159

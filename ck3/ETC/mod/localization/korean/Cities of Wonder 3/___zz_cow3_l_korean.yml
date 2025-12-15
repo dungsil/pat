@@ -1,15 +1,15 @@
 ﻿l_korean:
-  rule_allow_quick_build: "#P COW3#! 성채 건설 결정 허용" # 7219444044798514720
+  rule_allow_quick_build: "#P COW3#! 성채 건설 결정 허용" # 5531027948860562020
   setting_yes_quick_build: "네" # 3389992145996609386
   setting_yes_quick_build_desc: "건물을 건설하는 결정을 내릴 수 있습니다" # 7948248571362480138
   setting_no_quick_build: "아니" # 3846534607940335394
   setting_no_quick_build_desc: "부르그는 개발도 성장과 성 레벨을 통해 자연적으로 생성되어야 합니다." # 12739283097097958021
-  rule_burge_dev_requirement: "#P COW3#! 개발 요구사항" # 12090621682087742597
+  rule_burge_dev_requirement: "#P COW3#! 개발 요구 사\"" # 14809094032820010307
   setting_normal_dev_requirement: "일반 요구 사항" # 4467588916477949403
   setting_normal_dev_requirement_desc: "경이로운 도시 특수 건물은 개발도가 50, 75, 100에 도달하면 자동으로 업그레이드됩니다." # 6837069407730176237
   setting_easy_dev_requirement: "여기는 무법천지라네" # 15783435343446415914
   setting_easy_dev_requirement_desc: "경이로운 도시 업그레이드가 30, 50, 75 레벨에서 활성화되며, 이는 후반 게임에 엄청난 양의 금 생산량을 만들어냅니다." # 15673738336895833756
-  rule_hard_mode_limit: "#P COW3#! 경이로운 도시 한도" # 16106776134989087123
+  rule_hard_mode_limit: "#P COW3#! 경이로운 도시 한\"" # 8710593960305905198
   setting_5_burge_limit: "미쳐 날뛰어 보자" # 4367141241208235218
   setting_5_burge_limit_desc: "직접 소유한 영지 내에 다섯 개의 경이로운 도시를 건설할 수 있으며, 귀하의 영지 내에는 최대 아홉 개까지 건설할 수 있습니다." # 16421115631178427610
   setting_2_burge_limit: "금화가 흘러넘치게 하라" # 2900449540370701251
@@ -18,17 +18,17 @@
   setting_1_burge_limit_desc: "귀하가 소유한 영지 중 단 하나의 경이로운 도시만을 건설할 수 있으며, 귀하의 영지 내에는 총 두 개까지만 건설할 수 있습니다." # 4463224470506972657
   setting_no_burge_limit: "제한 없음" # 3388458324233608818
   setting_no_burge_limit_desc: "경이로운 도시들을 개인 소유 영지 및 영토 내에 무제한으로 건설할 수 있습니다." # 7384165097431345141
-  rule_cow3_allow_new_burge: "#P COW3#! 성벽 건설 결정" # 1178390473791837231
+  rule_cow3_allow_new_burge: "#P COW3#! 성채 건설 결정" # 16176412717092664975
   setting_yes_allow_new_burg: "켜짐" # 14367041983676599459
   setting_yes_allow_new_burg_desc: "성채를 건설하는 결정을 활성화합니다.\n이는 비용이 매우 많이 듭니다." # 12820088073241364196
   setting_no_allow_new_burg: "끄기" # 8927729592684634549
   setting_no_allow_new_burg_desc: "성벽 건설 결정을 비활성화합니다" # 16955709963017957554
-  rule_populate_burges: "#P COW3#! 역사적인 대도시들" # 1052770012602706985
+  rule_populate_burges: "#P COW3#! 역사적인 대도시들" # 9442156772846702248
   setting_do_populate: "켜짐" # 14367041983676599459
   setting_do_populate_desc: "28개가 넘는 역사적인 도시들이 부르가로 시작합니다." # 14354369951735744613
   setting_dont_populate: "끄기" # 8927729592684634549
   setting_dont_populate_desc: "성 및 도시는 기본 1단계 영지로 시작합니다." # 10385029387236130671
-  rule_use_burge_backgrounds: "#P COW3#! 그래픽 설정" # 8841086804753603589
+  rule_use_burge_backgrounds: "#P COW3#! 그래픽 설\"" # 9860840947845285884
   setting_use_backgrounds: "전체 기능" # 14199678722813764330
   setting_use_backgrounds_desc: "경이로운 도시들은 추가적인 보너스와 특성도 얻습니다." # 785231830153525545
   setting_dont_use_backgrounds: "그래픽 전용" # 15420512759259378319
@@ -39,7 +39,7 @@
   populate.0001.t: "경이로운 도시 3에 오신 것을 환영합니다" # 16669303818996217679
   populate.0001.a: "세상을 채워라!" # 4308567375393694703
   populate.0001.b: "그대로 두시오" # 1651238875194676400
-  populate.0001.a.tt: "세상에 20개가 넘는 경이로운 도시를 즉시 추가하십시오." # 8980089178748165086
+  populate.0001.a.tt: "\"세상에 두 개가 넘는 경이로운 도시들을 즉시 추가하십시\"" # 13657701958257689609
   populate.0001.b.tt: "모든 속주는 변경되지 않으며, 경이로운 도시를 자연적으로 건설해야 합니다." # 1394322582636976383
   populate.0001.desc: "Cities of Wonder 3를 플레이해 주셔서 감사합니다!\n\n원작자인 Kurthakon이 구상한 이 세계에서 계속 플레이해 주신다니 정말 기쁩니다.\n\n이 모드를 기존 저장 파일에 추가하는 것이므로, 역사적인 경이의 도시들을 세계에 추가하거나 현재 상태 그대로 둘 중 하나를 선택할 수 있습니다.\n\n어떤 것을 선택하시겠습니까?" # 16122920657382146676
   populate.0002.t: "[my_barony.GetBaronyNameExplicitlyNoTooltip]은 경이로운 도시입니다!" # 4169546801138516435
@@ -75,7 +75,7 @@
   populate.0001.n: "역사상 가장 위대한 등대" # 16444968486350998874
   populate.0001.tt.n: "귀하는 [GetBuilding('cow_great_lighthouse_01').GetName]을 건설했습니다." # 2292294091532034002
   populate.0001.o: "세상을 즐겁게 할 새로운 콜로세움" # 12880065973280216624
-  populate.0001.tt.o: "귀하는 [GetBuilding('cow_grand_amphitheatre_01').GetName]을 건설했습니다." # 8209610073030396719
+  populate.0001.tt.o: "[GetBuilding('cow_grand_amphitheatre_01').GetName]을 건설합니다." # 3942849528273699521
   found_local_kingdom_decision: "지역 왕국을 발견했습니다" # 17314310738140714415
   found_local_kingdom_decision_tooltip: "경이로운 도시의 후원 아래, 그대는 스스로를 [ROOT.Char.Custom('GetQueenKing')|U]로 즉위시킬 수 있을 것입니다." # 3359029711479858236
   found_local_kingdom_decision_confirm: "그들의 새로운 [ROOT.Char.Custom('GetQueenKing')|U]를 보게 하라!" # 3805369031612303549
