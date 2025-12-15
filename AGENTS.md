@@ -196,25 +196,29 @@ The `transliteration_files` option allows manual specification of files that sho
   - Example: `"duke" = "공작"` or `"high king" = "고왕"`
   - Comments use `#` (not `//`)
   - Keys with special characters or spaces must be quoted
-- **Dynamic loading**: Dictionaries are loaded from TOML files at runtime using `@iarna/toml` parser
+- **Dynamic loading**: `scripts/utils/dictionary.ts` loads dictionaries from TOML files at runtime using `@iarna/toml` parser
 - Manual translation dictionary for game-specific terms and proper nouns
 - Separate dictionaries for each game type (CK3, Stellaris, VIC3)
 - Two dictionary types: general glossary (for translation) and proper nouns (for transliteration)
-- `add-dict-from-commit.ts` script extracts dictionary entries from git commits and adds them to TOML dictionary files
+- `add-dict-from-commit.ts` script extracts Korean translations from git commits and adds them to TOML dictionary files
+  - Extracts entries from `*_l_korean.yml` files in the commit
+  - Matches English source text from upstream files automatically
   - Automatically writes to the appropriate TOML file based on game type
   - CK3 entries are added to `ck3-glossary.toml` (proper nouns can be manually moved to `ck3-proper-nouns.toml`)
   - Stellaris entries go to `stellaris.toml`, VIC3 entries to `vic3.toml`
 - Supports automatic duplicate detection when adding entries
-- Usage: `pnpm add-dict <commit-id>` to import dictionary changes from a specific commit
+- Usage: `pnpm add-dict <commit-id>` to import translations from a specific commit
 - **Editing**: Dictionary files can be edited directly without code changes, just restart the application
 
 ### Transliteration Mode
 
-The system automatically switches between **translation** (번역) and **transliteration** (음역) based on file naming patterns.
+The system automatically switches between **translation** (번역) and **transliteration** (음역) based on file naming patterns and key patterns.
 
 **When to use each mode**:
 - **Translation**: Semantic meaning conversion for general game content (events, modifiers, decisions, etc.)
 - **Transliteration**: Phonetic conversion for proper nouns (culture names, dynasty names, character names)
+
+#### File-level Transliteration
 
 **Automatic detection** (`shouldUseTransliteration(filename)`):
 Files are automatically processed in transliteration mode when the filename contains:
@@ -236,13 +240,52 @@ shouldUseTransliteration("events_l_english.yml")              // → false
 shouldUseTransliteration("modifiers_l_english.yml")           // → false
 ```
 
-**How it works**:
+#### Key-level Transliteration
+
+**Automatic detection** (`shouldUseTransliterationForKey(key)`):
+Even within regular translation files, specific key patterns are processed in transliteration mode:
+
+**Dynasty name patterns**:
+- `dynn_*` - Dynasty names (e.g., `dynn_Austmadur`, `dynn_RICE_leslie`)
+- `dynnp_*` - Dynasty prefixes (e.g., `dynnp_al-`, `dynnp_de`, `dynnp_banu`)
+
+**Proper noun suffix patterns**:
+- `*_adj` - Adjectival proper nouns (e.g., `dyn_c_pingnan_guo_adj`)
+- `*_name` - Names (e.g., `dynasty_name`, `culture_name`)
+
+**Exclusion rules**:
+- Keys ending with `*_desc`, `*_event`, `*_decision` use semantic translation
+- Context-based keys (descriptions, events, decisions) require semantic translation
+
+**Examples**:
+```typescript
+// Key-level transliteration (in regular translation files)
+shouldUseTransliterationForKey("dynn_Austmadur")        // → true (dynasty name)
+shouldUseTransliterationForKey("dynnp_al-")             // → true (dynasty prefix)
+shouldUseTransliterationForKey("culture_adj")           // → true (_adj suffix)
+shouldUseTransliterationForKey("dynasty_name")          // → true (_name suffix)
+shouldUseTransliterationForKey("heritage_desc")         // → false (_desc suffix)
+shouldUseTransliterationForKey("culture_event")         // → false (_event suffix)
+```
+
+**Result example**:
+```yaml
+# Within events_l_english.yml (regular translation file)
+dynn_Austmadur:0 "Austmadur"        → "아우스트마두르" (transliteration)
+culture_name:0 "Korean"              → "한국인" (transliteration)
+culture_adj:0 "Korean"               → "한국의" (transliteration)
+heritage_desc:0 "Korean heritage"    → "한국 유산" (semantic translation)
+```
+
+#### How it works
+
 1. File is detected during processing in `factory/translate.ts`
-2. `shouldUseTransliteration(filename)` determines the mode
-3. Appropriate prompt is selected: `CK3_TRANSLITERATION_PROMPT` vs `CK3_SYSTEM_PROMPT`
-4. Proper nouns dictionary is used instead of general glossary
-5. Cache key includes `transliteration:` prefix to separate from translations
-6. Both modes use the same YAML output format
+2. `shouldUseTransliteration(filename)` determines file-level mode
+3. For each key, `shouldUseTransliterationForKey(key)` may override to transliteration mode
+4. Appropriate prompt is selected: `CK3_TRANSLITERATION_PROMPT` vs `CK3_SYSTEM_PROMPT`
+5. Proper nouns dictionary is used instead of general glossary
+6. Cache key includes `transliteration:` prefix to separate from translations
+7. Both modes use the same YAML output format
 
 **Result differences**:
 ```
@@ -254,19 +297,24 @@ File: culture_name_lists_l_english.yml (transliteration mode)
 File: events_l_english.yml (translation mode)
 "the culture" → "문화" (semantic)
 "dynasty name" → "왕조 이름" (semantic)
+
+File: events_l_english.yml, Key: dynn_Leslie (key-level transliteration)
+"Leslie" → "레슬리" (phonetic, overrides file-level translation mode)
 ```
 
 **Benefits**:
 - Maintains consistency in proper noun transliteration
 - Prevents semantic translation errors for names (e.g., "Afar" as "멀리" meaning "far away")
 - Uses established proper nouns dictionary for historical accuracy
+- Supports both file-level and key-level detection
 - Completely automatic - no manual configuration needed
 - Separate caching ensures no conflicts between modes
 
 **Related files**:
-- `scripts/utils/prompts.ts` - Mode detection and prompt selection
+- `scripts/utils/prompts.ts` - Mode detection and prompt selection (`shouldUseTransliteration`, `shouldUseTransliterationForKey`)
 - `scripts/factory/translate.ts` - Mode integration in translation pipeline
-- `scripts/utils/dictionary.ts` - Separate proper nouns dictionary
+- `scripts/utils/dictionary.ts` - Dictionary loader (reads from TOML files)
+- `dictionaries/ck3-proper-nouns.toml` - Separate proper nouns dictionary for CK3
 - `scripts/utils/dictionary-invalidator.ts` - Handles transliteration files in update-dict
 - `scripts/utils/retranslation-invalidator.ts` - Handles transliteration files in retranslate and validates semantic translations
 
@@ -332,7 +380,7 @@ scripts/
 ├── factory/          # Translation processing
 ├── parser/           # File parsing (TOML, YAML)
 └── utils/            # AI, caching, logging utilities
-    ├── dictionary.ts      # Dictionary loader
+    ├── dictionary.ts      # Dictionary loader (reads TOML files)
     └── prompts.ts         # Prompt loader
 ```
 
@@ -414,7 +462,7 @@ pnpm ck3
 - Uses TypeScript with jiti for direct execution
 - Google Gemini AI integration requires `GOOGLE_GENERATIVE_AI_API_KEY` environment variable
 - File hashing system prevents unnecessary retranslation of unchanged content
-- Translation dictionary in `scripts/utils/dictionary.ts` provides manual overrides
+- Translation dictionaries in `dictionaries/*.toml` provide manual overrides (loaded by `scripts/utils/dictionary.ts`)
 - Logging system supports different verbosity levels via `scripts/utils/logger.ts`
 
 ### Translation Refusal Handling
@@ -489,15 +537,15 @@ The `update-dict` command now supports **filtering by Git commit history** to av
    Only invalidates translations for dictionary keys changed since a specific date. Accepts ISO 8601 format or Git date expressions.
 
 **How it works**:
-- The tool analyzes `git log -p` output for `scripts/utils/dictionary.ts`
-- Extracts keys from lines starting with `+` (additions) in relevant dictionary sections
+- The tool analyzes `git log -p` output for `dictionaries/*.toml` files
+- Extracts keys from lines starting with `+` (additions) in TOML dictionary files
 - Only invalidates translations containing those specific keys
 - Significantly reduces the number of translations to re-translate
 
 **Example workflow**:
 ```bash
-# After adding new dictionary entries
-git add scripts/utils/dictionary.ts
+# After adding new dictionary entries to TOML files
+git add dictionaries/ck3-glossary.toml
 git commit -m "Add new dictionary entries"
 
 # Only invalidate translations for the newly added keys in the current commit
@@ -512,11 +560,11 @@ pnpm ck3
 The project uses separate GitHub Actions workflows for different translation invalidation scenarios:
 
 **1. Dictionary Update Workflow** (`.github/workflows/invalidate-on-dictionary-update.yml`):
-- **Trigger**: Automatically runs when `scripts/utils/dictionary.ts` is modified and pushed to main
+- **Trigger**: Automatically runs when `dictionaries/**` or `scripts/utils/dictionary.ts` is modified and pushed to main
 - **Purpose**: Invalidates translations affected by dictionary changes
 - **Commands executed**: `pnpm {game}:update-dict -- --since-commit {sha}`
 - **Commit message**: "chore: 단어사전 업데이트에 따른 번역 무효화 [skip ci]"
-- **When to use**: When you add or modify translation dictionary entries
+- **When to use**: When you add or modify TOML dictionary files or the dictionary loader
 
 **2. Retranslation Workflow** (`.github/workflows/retranslate-invalid-translations.yml`):
 - **Trigger**: Runs on schedule (weekly, every Sunday at midnight) or manual dispatch
