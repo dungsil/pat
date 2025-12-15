@@ -40,7 +40,7 @@ function parseYamlValue (value: string): [string, string | null] {
   
   // 패턴 1: 해시 코멘트가 있는 경우
   // 첫 번째 "부터 # 앞의 마지막 "까지, 그리고 # 이후는 코멘트
-  const matchWithComment = /^"(.+?)"(?:\s+)?#(?:\s+)?(.+)$/.exec(value)
+  const matchWithComment = /^"(.+?)"(?:\s+)?#(?:\s+)?(.*)$/.exec(value)
   if (matchWithComment) {
     const [, rawText, comment] = matchWithComment
     const text = rawText.replace(/""/g, '"')
