@@ -28,16 +28,42 @@ export function parseYaml (content: string): Record<string, Record<string, [stri
 }
 
 function parseYamlValue (value: string): [string, string | null] {
-  const [, text, comment] = /^"(.+)"(?:\s+)?(?:#(?:\s+)?(.+))?$/.exec(value) || []
-
-  // console.log(`파싱된 값: ${text} | ${comment}`)
-
-  // 텍스트가 비어 있으면 빈 문자열 반환
-  if (!text) {
-    return ['', null]
+  // Paradox 게임의 커스텀 로케일 형식:
+  // - 첫 번째 "부터 마지막 "까지가 문자열 값의 핵심 부분
+  // - 내부의 ""는 리터럴 " 문자를 의미
+  // - 마지막 " 이후의 텍스트도 값의 일부로 포함됨 (해시 코멘트 제외)
+  //
+  // 예시:
+  // ""The text"\n\n-Source" -> 값: "The text"\n\n-Source (따옴표 밖 텍스트 포함)
+  // ""The text" # hash" -> 값: "The text, 코멘트: hash
+  // ""The text" # 123" -> 값: "The text, 코멘트: 123 (해시 코멘트 내 따옴표는 코멘트의 일부)
+  
+  // 패턴 1: 해시 코멘트가 있는 경우
+  // 첫 번째 "부터 # 앞의 마지막 "까지, 그리고 # 이후는 코멘트
+  const matchWithComment = /^"(.+?)"(?:\s+)?#(?:\s+)?(.+)$/.exec(value)
+  if (matchWithComment) {
+    const [, rawText, comment] = matchWithComment
+    const text = rawText.replace(/""/g, '"')
+    return [text, comment || null]
   }
-
-  return [text, comment || null]
+  
+  // 패턴 2: 해시 코멘트 없이 마지막 " 이후에 텍스트가 더 있는 경우
+  // 첫 번째 "부터 라인 끝까지 전부 값으로 취급 (마지막 "와 그 이후 텍스트 모두 포함)
+  const matchWithTrailing = /^"(.+)"(.*)$/.exec(value)
+  if (matchWithTrailing) {
+    const [, quotedPart, trailingPart] = matchWithTrailing
+    // quotedPart는 첫 " 다음부터 마지막 " 앞까지
+    // trailingPart는 마지막 " 이후의 텍스트
+    const processedQuotedPart = quotedPart.replace(/""/g, '"')
+    // 마지막 "도 값의 일부로 포함 (Paradox 게임 형식)
+    const text = trailingPart 
+      ? processedQuotedPart + '"' + trailingPart
+      : processedQuotedPart
+    return [text, null]
+  }
+  
+  // 매칭 실패 시 빈 문자열 반환
+  return ['', null]
 }
 
 export function stringifyYaml (data: Record<string, Record<string, [string, string | null]>>): string {
