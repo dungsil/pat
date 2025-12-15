@@ -108,6 +108,9 @@
   bpm_law_sway_assert_authority_cost: "@aut! #N -50#! 에 대해 [GetPlayer.MakeScope.ScriptValue('bpm_law_sway_authority_duration_years')] 년간" # 7488784770363420330
   bpm_law_sway_assert_authority_effect: "[GetPlayer.MakeScope.ScriptValue('bpm_law_sway_assert_authority_effect_value')|v0+=]" # 2156007390195188190
   bpm_law_sway_assert_authority_neg_effect: "[GetPlayer.MakeScope.ScriptValue('bpm_law_sway_assert_authority_neg_effect_value')|v0+=]" # 6645692205252689469
+  bpm_law_sway_negotiate: "#v 협상하라#!" # 4342868495435078042
+  bpm_law_sway_negotiate_effect: "#green;v 0#!" # 6179109142529013784
+  bpm_law_sway_negotiate_cost: "@warning! 법률의 효과가 부정적으로 변경될 수 있습니다." # 9887659083041542025
   bpm_law_sway_entrench_privileges: "#v 이해관계를 확고히 하라#!" # 11549415472361587745
   bpm_law_sway_entrench_privileges_used: "기득권 세력" # 1651447037456443394
   bpm_law_sway_entrench_privileges_mod: "기득권 세력" # 1651447037456443394
