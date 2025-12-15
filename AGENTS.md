@@ -196,16 +196,18 @@ The `transliteration_files` option allows manual specification of files that sho
   - Example: `"duke" = "공작"` or `"high king" = "고왕"`
   - Comments use `#` (not `//`)
   - Keys with special characters or spaces must be quoted
-- **Dynamic loading**: Dictionaries are loaded from TOML files at runtime using `@iarna/toml` parser
+- **Dynamic loading**: `scripts/utils/dictionary.ts` loads dictionaries from TOML files at runtime using `@iarna/toml` parser
 - Manual translation dictionary for game-specific terms and proper nouns
 - Separate dictionaries for each game type (CK3, Stellaris, VIC3)
 - Two dictionary types: general glossary (for translation) and proper nouns (for transliteration)
-- `add-dict-from-commit.ts` script extracts dictionary entries from git commits and adds them to TOML dictionary files
+- `add-dict-from-commit.ts` script extracts Korean translations from git commits and adds them to TOML dictionary files
+  - Extracts entries from `*_l_korean.yml` files in the commit
+  - Matches English source text from upstream files automatically
   - Automatically writes to the appropriate TOML file based on game type
   - CK3 entries are added to `ck3-glossary.toml` (proper nouns can be manually moved to `ck3-proper-nouns.toml`)
   - Stellaris entries go to `stellaris.toml`, VIC3 entries to `vic3.toml`
 - Supports automatic duplicate detection when adding entries
-- Usage: `pnpm add-dict <commit-id>` to import dictionary changes from a specific commit
+- Usage: `pnpm add-dict <commit-id>` to import translations from a specific commit
 - **Editing**: Dictionary files can be edited directly without code changes, just restart the application
 
 ### Transliteration Mode
@@ -311,7 +313,8 @@ File: events_l_english.yml, Key: dynn_Leslie (key-level transliteration)
 **Related files**:
 - `scripts/utils/prompts.ts` - Mode detection and prompt selection (`shouldUseTransliteration`, `shouldUseTransliterationForKey`)
 - `scripts/factory/translate.ts` - Mode integration in translation pipeline
-- `scripts/utils/dictionary.ts` - Separate proper nouns dictionary
+- `scripts/utils/dictionary.ts` - Dictionary loader (reads from TOML files)
+- `dictionaries/ck3-proper-nouns.toml` - Separate proper nouns dictionary for CK3
 - `scripts/utils/dictionary-invalidator.ts` - Handles transliteration files in update-dict
 - `scripts/utils/retranslation-invalidator.ts` - Handles transliteration files in retranslate and validates semantic translations
 
@@ -377,7 +380,7 @@ scripts/
 ├── factory/          # Translation processing
 ├── parser/           # File parsing (TOML, YAML)
 └── utils/            # AI, caching, logging utilities
-    ├── dictionary.ts      # Dictionary loader
+    ├── dictionary.ts      # Dictionary loader (reads TOML files)
     └── prompts.ts         # Prompt loader
 ```
 
@@ -459,7 +462,7 @@ pnpm ck3
 - Uses TypeScript with jiti for direct execution
 - Google Gemini AI integration requires `GOOGLE_GENERATIVE_AI_API_KEY` environment variable
 - File hashing system prevents unnecessary retranslation of unchanged content
-- Translation dictionary in `scripts/utils/dictionary.ts` provides manual overrides
+- Translation dictionaries in `dictionaries/*.toml` provide manual overrides (loaded by `scripts/utils/dictionary.ts`)
 - Logging system supports different verbosity levels via `scripts/utils/logger.ts`
 
 ### Translation Refusal Handling
@@ -534,15 +537,15 @@ The `update-dict` command now supports **filtering by Git commit history** to av
    Only invalidates translations for dictionary keys changed since a specific date. Accepts ISO 8601 format or Git date expressions.
 
 **How it works**:
-- The tool analyzes `git log -p` output for `scripts/utils/dictionary.ts`
-- Extracts keys from lines starting with `+` (additions) in relevant dictionary sections
+- The tool analyzes `git log -p` output for `dictionaries/*.toml` files
+- Extracts keys from lines starting with `+` (additions) in TOML dictionary files
 - Only invalidates translations containing those specific keys
 - Significantly reduces the number of translations to re-translate
 
 **Example workflow**:
 ```bash
-# After adding new dictionary entries
-git add scripts/utils/dictionary.ts
+# After adding new dictionary entries to TOML files
+git add dictionaries/ck3-glossary.toml
 git commit -m "Add new dictionary entries"
 
 # Only invalidate translations for the newly added keys in the current commit
@@ -557,11 +560,11 @@ pnpm ck3
 The project uses separate GitHub Actions workflows for different translation invalidation scenarios:
 
 **1. Dictionary Update Workflow** (`.github/workflows/invalidate-on-dictionary-update.yml`):
-- **Trigger**: Automatically runs when `scripts/utils/dictionary.ts` is modified and pushed to main
+- **Trigger**: Automatically runs when `dictionaries/**` or `scripts/utils/dictionary.ts` is modified and pushed to main
 - **Purpose**: Invalidates translations affected by dictionary changes
 - **Commands executed**: `pnpm {game}:update-dict -- --since-commit {sha}`
 - **Commit message**: "chore: 단어사전 업데이트에 따른 번역 무효화 [skip ci]"
-- **When to use**: When you add or modify translation dictionary entries
+- **When to use**: When you add or modify TOML dictionary files or the dictionary loader
 
 **2. Retranslation Workflow** (`.github/workflows/retranslate-invalid-translations.yml`):
 - **Trigger**: Runs on schedule (weekly, every Sunday at midnight) or manual dispatch

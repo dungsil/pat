@@ -44,7 +44,7 @@ pnpm test:coverage
 
 **테스트 커버리지:**
 - `scripts/utils/hashing.ts` - 해시 생성 함수
-- `scripts/utils/dictionary.ts` - 게임별 단어사전
+- `scripts/utils/dictionary.ts` - 단어사전 로더 (TOML 파일 읽기)
 - `scripts/parser/yaml.ts` - YAML 파서
 - `scripts/utils/translation-validator.ts` - 번역 검증 로직
 - `scripts/utils/delay.ts` - 지연 유틸리티
@@ -103,10 +103,10 @@ pnpm stellaris:retranslate
 
 ### 단어사전 관리
 
-Git 커밋에서 단어사전 변경사항을 추출하여 현재 단어사전에 추가할 수 있습니다:
+Git 커밋에서 한국어 번역 파일의 변경사항을 추출하여 TOML 단어사전에 추가할 수 있습니다:
 
 ```bash
-# 커밋 ID를 입력하면 해당 커밋의 dictionary.ts 변경사항을 추출하여 추가
+# 커밋 ID를 입력하면 해당 커밋의 *_l_korean.yml 변경사항을 추출하여 TOML 사전에 추가
 pnpm add-dict <commit-id>
 
 # 예시
@@ -114,15 +114,16 @@ pnpm add-dict abc123
 ```
 
 **기능:**
-- 커밋의 dictionary.ts 변경사항에서 추가된 항목만 추출
+- 커밋의 한국어 번역 파일(`*_l_korean.yml`)에서 추가된 항목만 추출
+- 영어 원문은 업스트림 파일에서 자동으로 매칭
 - CK3, Stellaris, VIC3 모든 게임 타입 지원
 - 자동 중복 검사로 기존 항목은 건너뜀
-- TypeScript 객체 표기법 자동 파싱
+- 해당 게임의 TOML 파일에 자동 저장 (예: `dictionaries/ck3-glossary.toml`)
 
 **사용 시나리오:**
-- 다른 브랜치나 과거 커밋에서 단어사전 항목을 가져올 때
-- 여러 커밋에 분산된 단어사전 변경사항을 통합할 때
-- 팀원이 작성한 단어사전 항목을 병합할 때
+- 다른 브랜치나 과거 커밋에서 검증된 번역을 단어사전으로 가져올 때
+- 여러 커밋에 분산된 번역을 단어사전으로 통합할 때
+- 팀원이 작성한 번역을 단어사전에 추가할 때
 
 ## 환경 변수 설정
 
@@ -147,7 +148,7 @@ GOOGLE_GENERATIVE_AI_API_KEY=your_api_key_here
 │   ├── factory/                 # 번역 처리 로직
 │   ├── parser/                  # 파일 파싱 유틸리티
 │   └── utils/
-│       ├── dictionary.ts        # 단어사전 로더
+│       ├── dictionary.ts        # 단어사전 로더 (TOML 파일 읽기)
 │       ├── prompts.ts           # 프롬프트 로더
 │       ├── ai.ts                # AI 통합
 │       ├── cache.ts             # 캐싱 시스템
