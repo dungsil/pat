@@ -9,7 +9,7 @@
   bpm_british_engagement_progress_bar_left: "참여: ([JournalEntry.GetCurrentBarValue(ScriptedProgressBar.Self)|1]/100)" # 16920040436011712300
   bpm_british_engagement_from_relations: "[ROOT.GetCountry.GetOverlord.GetName]와의 관계" # 1074916608797672163
   bpm_british_engagement_from_economic_dependence: "[ROOT.GetCountry.GetEconomicDependenceOn(ROOT.GetCountry.GetOverlord)] [concept_economic_dependence]" # 17392768576480069393
-  bpm_british_engagement_from_administrative_payments: "#variable [ROOT.GetCountry.MakeScope.ScriptValue('bpm_british_administrative_payments')|D+=]#의 행정 비용이 #variable [ROOT.GetCountry.MakeScope.ScriptValue('bpm_bnap_income')|D+=]#의 [ROOT.GetCountry.GetOverlord.GetAdjective] 수입과 비교됩니다!" # 3952473386886692557
+  bpm_british_engagement_from_administrative_payments: "#variable [ROOT.GetCountry.MakeScope.ScriptValue('bpm_british_administrative_payments')|D+=]#!의 행정 지출이 #variable [ROOT.GetCountry.MakeScope.ScriptValue('bpm_bnap_income')|D+=]#!의 [ROOT.GetCountry.GetOverlord.GetAdjective] 수입과 비교됩니다!" # 15559924292657032495
   bpm_british_engagement_from_not_being_a_subject: "영국의 속국이 아님" # 8871818504055817717
   bpm_british_engagement_from_durham_report: "더럼 보고서" # 15355213130619534855
   bpm_bnap_administrative_payments_canada: "영국 행정 비용" # 8613499644105798951

@@ -146,14 +146,14 @@
   law_syndicalism: "생디칼리슴" # 12632527784956638882
   law_syndicalism_desc: "노동조합은 사회의 사회적 조직 기반으로 사용되며, 국가의 통치 기구가 됩니다." # 8083448185046812366
   bpm_decorative_trade_unions_non_institutional: "[GetInterestGroupVariant('ig_trade_unions', GetPlayer).GetName]가 [Concept('concept_bpm_institutional_ig', '제도적 이익 집단')]로 취급되지 않음" # 11252649856221432282
-  bpm_decorative_trade_unions_non_institutional_desc: "[GetInterestGroupVariant('ig_trade_unions', GetPlayer).GetName]은 국가의 [Concept('concept_bpm_political_stability', '정치적 안정성')]에 의해 매력도가 조정되지 않습니다." # 3981515009235286350
+  bpm_decorative_trade_unions_non_institutional_desc: "[GetInterestGroupVariant('ig_trade_unions', GetPlayer).GetName]은 국가의 [Concept('concept_bpm_political_stability', '정치적 안정성')]에 의해 매력도 조정의 영향을 받지 않을 것입니다." # 3049514397189498404
   bpm_decorative_trade_unions_force_leader_moderate: "[GetInterestGroupVariant('ig_trade_unions', GetPlayer).GetName]에 대해 비좌익 성향 지도자 강제 지정" # 12570871991274019593
   bpm_decorative_trade_unions_force_leader_moderate_desc: "[GetInterestGroupVariant('ig_trade_unions', GetPlayer).GetName]의 지도자들은 좌익 이념을 획득할 수 없게 되며, [GetIdeology('ideology_corporatist_leader').GetName] 이념을 더 자주 획득하게 될 것입니다." # 13403634911096577057
   bpm_decorative_trade_unions_force_leader_non_socialist: "[GetInterestGroupVariant('ig_trade_unions', GetPlayer).GetName]에 대해 비사회주의 지도자 강제 지정" # 2572626315388592966
   bpm_decorative_trade_unions_force_leader_non_socialist_desc: "[GetInterestGroupVariant('ig_trade_unions', GetPlayer).GetName]의 지도자들은 사회주의 이념을 획득할 수 없을 것입니다." # 6275813308876310879
   bpm_decorative_trade_unions_force_leader_vanguardist: "[GetInterestGroupVariant('ig_trade_unions', GetPlayer).GetName]에 대해 진보주의 지도자를 강제합니다." # 13844044003602625474
   bpm_decorative_trade_unions_force_leader_vanguardist_desc: "[GetInterestGroupVariant('ig_trade_unions', GetPlayer).GetName] 지도자들은 [GetIdeology('ideology_vanguardist').GetName] 이념을 얻게 될 것입니다." # 1644461643047255264
-  interest_group_bpm_intelligentsia_force_leader_non_moderate: "[GetInterestGroupVariant('ig_intelligentsia', GetPlayer).GetName]을(를) 비온건 지도자로 강제 지정" # 8856309211881249712
+  interest_group_bpm_intelligentsia_force_leader_non_moderate: "[GetInterestGroupVariant('ig_intelligentsia', GetPlayer).GetName]에 대해 비온건 지도자 강제 지정" # 16979131123400616464
   interest_group_bpm_intelligentsia_force_leader_non_moderate_desc: "[GetInterestGroupVariant('ig_intelligentsia', GetPlayer).GetName] 지도자들은 결코 [GetIdeology('ideology_moderate').GetName] 이념을 얻지 못할 것입니다." # 13928726066271052398
   lawgroup_centralization: "중앙집권화" # 7755440233842438236
   lawgroup_centralization_desc: "중앙 정부와 지방 정부 간의 권력 균형을 규정하는 법률." # 5566173075213779934

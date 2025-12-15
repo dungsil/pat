@@ -96,7 +96,7 @@
   bpm_royalist_absolutist_movement_faction_default_name: "[InterestGroup.GetCountry.GetRuler.GetPrimaryRoleTitle]의 충성파들" # 487870975039578985
   bpm_royalist_absolutist_movement_faction_landies_name: "충성스러운 봉신들" # 10309558281018321253
   bpm_royalist_absolutist_movement_faction_landies_significant: "$bpm_movement_is_significant_tooltip$" # 4055622154971750414
-  bpm_radical_movement_faction_default_name: "급진파 세력" # 3600419281583147550
+  bpm_radical_movement_faction_default_name: "급진파" # 17266618427769207044
   bpm_radical_movement_faction_default_significant: "$bpm_movement_is_significant_tooltip$" # 4055622154971750414
   bpm_radical_movement_faction_france_name: "상퀼로트" # 2582240032783627911
   bpm_radical_movement_faction_france_significant: "$bpm_movement_is_significant_tooltip$" # 4055622154971750414
@@ -126,7 +126,7 @@
   bpm_pressure_above_threshold: "최소한 #variable 20%#! 압력." # 15528383876689146468
   bpm_support_activism_above: "적어도 #variable 30%#! @population!과 활동성 @activism!을 지지하시오." # 16571091407525244696
   movement_kaikoku_name: "개국파" # 11273802850571446303
-  movement_kaikoku: "$movement_kaikoku_name$" # 14742964736571601537
+  movement_kaikoku: "$movement_kaikoku_name$" # 14341509207034662121
   ideology_eco_kaikoku_ha: "$movement_kaikoku_name$" # 14742964736571601537
   ideology_eco_kaikoku_ha_desc: "이 운동은 국가를 대외 무역과 영향력에 개방해야 한다고 믿습니다." # 11583733684716342605
   movement_market_liberal_name: "자유방임주의 운동" # 16283334773014159472

@@ -64,30 +64,30 @@
   WCR_ig_opinion_prog_reason: "• 모든 $WCR_tt_progressives_tt$ [Concept('concept_interest_group', '$concept_interest_groups$')]은 #p 1#! [concept_approval]을 획득합니다." # 2154284036548792111
   WCR_ig_opinion_trad_reason: "• 모든 $WCR_tt_conservatives_tt$ [Concept('concept_interest_group', '$concept_interest_groups$')]은 #n 1#! [concept_approval]을 잃게 됩니다." # 18434757173680068680
   WCR_ig_opinion_done_reason: "#v 서구화# 완료 시, 획득하거나 잃은 총 [concept_approval]은 오랜 기간에 걸쳐 서서히 감소할 것입니다." # 2196091544402516288
-  WCR_je_westernization_reason_long: "$WCR_LONG_DELIMITER$\n\n$WCR_overview_reason$\n\n$WCR_breakdown_reason$\n\n$WCR_LONG_DELIMITER$\n\n$WCR_ig_clout_delta_reason$\n\n$WCR_overlord_reason$\n\n$WCR_date_reason$\n\n$WCR_westernized_relations_reason$\n\n$WCR_LONG_DELIMITER$\n\n$WCR_ig_opinion_reason_header$#indent_newline:1 \n$WCR_ig_opinion_prog_reason$\n$WCR_ig_opinion_trad_reason$#!\n\n$WCR_ig_opinion_done_reason$" # 17742779278741984204
+  WCR_je_westernization_reason_long: "$WCR_LONG_DELIMITER$\n\n$WCR_overview_reason$\n\n$WCR_breakdown_reason$\n\n$WCR_LONG_DELIMITER$\n\n$WCR_ig_clout_delta_reason$\n\n$WCR_overlord_reason$\n\n$WCR_date_reason$\n\n$WCR_westernized_relations_reason$\n\n$WCR_LONG_DELIMITER$\n\n$WCR_ig_opinion_reason_header$#indent_newline:1 \n$WCR_ig_opinion_prog_reason$\n$WCR_ig_opinion_trad_reason$#!\n\n$WCR_ig_opinion_done_reason$" # 16500377433741495150
   WCR_je_westernization_status_0: "[SCOPE.sCountry('this_country').GetCustom('WCR_cl_westernization_je_status_0')]" # 3801939394361466567
   WCR_je_westernization_status_0_king: "서구화가 막 시작되었으며, [GetPlayer.GetRuler.GetCustom('GetUniversalTitle')][GetPlayer.GetRuler.GetCustom('GetUniversalFullName')]께서 외국식 복장을 채택하셨습니다." # 2837822233023302465
   WCR_je_westernization_status_0_heir: "서구화가 막 시작되었으며, [GetPlayer.GetHeir.GetCustom('GetUniversalTitle')][GetPlayer.GetHeir.GetCustom('GetUniversalFullName')]께서 스스로 모범을 보이기로 작정하셨습니다." # 17564902645883810396
   WCR_je_westernization_status_0_king_heir: "서구화가 막 시작되었으며, [GetPlayer.GetRuler.GetCustom('GetUniversalTitle')][GetPlayer.GetRuler.GetCustom('GetUniversalFullName')]와 [GetPlayer.GetHeir.GetCustom('GetUniversalTitle')][GetPlayer.GetHeir.GetCustom('GetUniversalFullName')]께서 국가의 모범을 세우고 있습니다." # 13640736224748072108
   WCR_je_westernization_status_0_neither: "서구화가 저희 나라에서 막 시작되었습니다." # 13130694330814632931
   WCR_je_westernization_status_5: "[GetInterestGroupVariant('ig_armed_forces', SCOPE.sCountry('this_country')).GetLeader.GetCustom('GetUniversalFullName')], [Concept('concept_commander', '$concept_commanders$')], [GetPopType('officers').GetName], 그리고 [GetPopType('bureaucrats').GetName]에게 서구식 복장이 지급되었습니다." # 12675239226514717492
-  WCR_je_westernization_status_10: "[SCOPE.sCountry('this_country').GetCustom('WCR_cl_westernization_je_status_10')]" # 12998037490240350417
+  WCR_je_westernization_status_10: "[SCOPE.sCountry('this_country').GetCustom('WCR_cl_westernization_je_status_10')]" # 13033791030208592668
   WCR_je_westernization_status_10_both: "[GetPopType('soldiers').GetName]와 [GetPopType('clerks').GetName]에게 서구식 복장이 지급되었으며, [GetInterestGroupVariant('ig_industrialists', GetPlayer).GetLeader.GetCustom('GetUniversalFullName')]와 [GetInterestGroupVariant('ig_intelligentsia', GetPlayer).GetLeader.GetCustom('GetUniversalFullName')]는 동료들에게 모범을 보이기 시작했습니다." # 10671682623066631043
   WCR_je_westernization_status_10_indus: "[GetPopType('soldiers').GetName]와 [GetPopType('clerks').GetName]에게 서구식 복장이 지급되었으며, [GetInterestGroupVariant('ig_industrialists', GetPlayer).GetLeader.GetCustom('GetUniversalFullName')]는 [GetInterestGroupVariant('ig_industrialists', GetPlayer).GetLeader.GetHerHis] 동료들에게 모범을 보이기 시작했습니다." # 5724960635868150698
   WCR_je_westernization_status_10_intel: "[GetPopType('soldiers').GetName]와 [GetPopType('clerks').GetName]에게 서구식 복장이 지급되었으며, [GetInterestGroupVariant('ig_intelligentsia', GetPlayer).GetLeader.GetCustom('GetUniversalFullName')]는 [GetInterestGroupVariant('ig_intelligentsia', GetPlayer).GetLeader.GetHerHis] 동료들을 위한 모범을 보이기 시작했습니다." # 5025058346271895278
   WCR_je_westernization_status_10_neither: "[GetPopType('soldiers').GetName]와 [GetPopType('clerks').GetName]에게 서구식 복장이 지급되었습니다." # 11079288665329041901
   WCR_je_westernization_status_20: "남아있는 [GetPopType('capitalists').GetName]들이 경제적 파트너들에게 더 보기 좋게 보이기 위해 서구식 복장을 채택했습니다." # 8392042280297680778
-  WCR_je_westernization_status_30: "[SCOPE.sCountry('this_country').GetCustom('WCR_cl_westernization_je_status_30')]" # 9885167979788196347
+  WCR_je_westernization_status_30: "[SCOPE.sCountry('this_country').GetCustom('WCR_cl_westernization_je_status_30')]" # 4750880544609648415
   WCR_je_westernization_status_30_tu: "모든 [GetPopType('academics').GetName]와 [GetInterestGroupVariant('ig_trade_unions', GetPlayer).GetLeader.GetCustom('GetUniversalFullName')]가 새로운 유행에 동참했습니다. 서구화가 순조롭게 진행되고 있습니다." # 7075176618884141742
   WCR_je_westernization_status_30_none: "모든 [GetPopType('academics').GetName]가 새로운 유행에 동참했습니다. 서구화가 순조롭게 진행되고 있습니다." # 15164786729926373120
   WCR_je_westernization_status_40: "더 부유한 동료들의 영향을 받아, [GetPopType('engineers').GetName]들이 서양식 복장을 착용하기 시작했습니다." # 1200273100966158926
   WCR_je_westernization_status_50: "외국의 유행이 계속해서 스며들어 [GetPopType('machinists').GetName]들이 서양식 복장을 채택하고 있습니다." # 17593546927628147487
-  WCR_je_westernization_status_60: "[SCOPE.sCountry('this_country').GetCustom('WCR_cl_westernization_je_status_60')]" # 6923222011154582566
+  WCR_je_westernization_status_60: "[SCOPE.sCountry('this_country').GetCustom('WCR_cl_westernization_je_status_60')]" # 12576917320833031328
   WCR_je_westernization_status_60_land: "[GetInterestGroupVariant('ig_landowners', GetPlayer).GetLeader.GetCustom('GetUniversalFullName')]는 도시를 통해 [GetPopType('shopkeepers').GetName]으로 확산되는 유행에 마지못해 동참했습니다." # 4539600332175132525
   WCR_je_westernization_status_60_none: "서구의 유행이 도시들을 통해 [GetPopType('shopkeepers').GetName]에게까지 퍼져나갔습니다." # 5295034455833804703
   WCR_je_westernization_status_70: "새로운 양식이 더욱 저렴해짐에 따라, [GetPopType('laborers').GetName]들은 그들의 복장에 서구식 유행을 받아들였습니다." # 9568912650256683349
   WCR_je_westernization_status_80: "[GetPopType('aristocrats').GetName]이 마침내 전통에 매달리기를 포기하고, 나머지 상류층에 맞춰 새로운 현대 복장을 채택했습니다." # 1962675503699649636
-  WCR_je_westernization_status_90: "[SCOPE.sCountry('this_country').GetCustom('WCR_cl_westernization_je_status_90')]" # 13861359067602676687
+  WCR_je_westernization_status_90: "[SCOPE.sCountry('this_country').GetCustom('WCR_cl_westernization_je_status_90')]" # 13946318894583209559
   WCR_je_westernization_status_90_pb: "늘 고집스러운 [GetInterestGroupVariant('ig_petty_bourgeoisie', GetPlayer).GetLeader.GetCustom('GetUniversalFullName')]와 [GetPopType('farmers').GetName]가 마침내 서구식 복장을 새로운 규범으로 받아들입니다." # 976155322535466885
   WCR_je_westernization_status_90_none: "고집불통인 [GetPopType('farmers').GetName]들이 마침내 서구식 복장을 새로운 규범으로 받아들입니다." # 6300914282819365361
   WCR_je_westernization_status_100: "서구화가 완료되었습니다!" # 6584721370440509339

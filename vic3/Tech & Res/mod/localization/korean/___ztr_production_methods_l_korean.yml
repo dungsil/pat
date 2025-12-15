@@ -17,10 +17,10 @@
   pmg_base_building_spaceport: "우주항" # 1105842104412328333
   pm_orbital_launch_system: "궤도 발사" # 18075257614568584245
   pm_no_telephones: "전화 없음" # 3890605575379714200
-  pm_cathode_tube_televisions: "음극선관 TV" # 6153746925140632600
+  pm_cathode_tube_televisions: "음극선관 텔레비전" # 17803331413410118109
   pm_colored_cathode_tube_televisions: "컬러 음극선관 텔레비전" # 17361092973013421293
   pm_candlestick_telephones: "캔들스틱 전화기" # 13351277449905609951
-  pm_bakelite_telephones: "바켈라이트 전화기" # 17279323253035387582
+  pm_bakelite_telephones: "베이클라이트 전화기" # 12372989869814486467
   pmg_base_building_copperwires: "철사" # 10952934576897703271
   pm_basic_copperwires: "기본 철사" # 1030243070326686548
   pmg_base_building_batteries: "전지" # 272070928226063461
