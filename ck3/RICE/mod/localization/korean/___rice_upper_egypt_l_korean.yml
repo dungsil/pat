@@ -156,7 +156,7 @@
   RICE_nile_overflooding_flood: "[nile_flood|E]: 범람" # 9740771137257138289
   RICE_nile_overflooding_flood_desc: "나일강의 수위가 19큐빗 이상으로 솟아올랐습니다. 이는 농경지를 침수시키고 올해 이집트의 수확을 망칠 위험이 매우 높은 범람입니다.\n\n#italic #Bold $tradition_RICE_children_of_the_nile_name$#! [tradition|E]를 가진 [cultures|E]는 [GetActivityType('activity_RICE_upper_egypt_pray_good_nile_flood').GetName] [activity|E]를 해금합니다#!" # 15966687973736721843
   RICE_nile_low_flood: "[nile_flood|E]: 낮음" # 17390774437581150267
-  RICE_nile_low_flood_desc: "나일강의 수위가 14~15 큐빗으로, 평균보다 낮은 범람으로 인해 올해 이집트의 수확량은 보잘것없을 것입니다.\n\n#italic #Bold $tradition_RICE_children_of_the_nile_name$#! [tradition|E]를 가진 [cultures|E]는 [GetActivityType('activity_RICE_upper_egypt_pray_good_nile_flood').GetName] [activity|E]를 해금합니다#!" # 14355403939591393227
+  RICE_nile_low_flood_desc: "나일강의 수위가 14~15 큐빗으로, 평균보다 낮은 범람이 예상되어 올해 이집트의 수확량은 미미할 것입니다.\n\n#italic #Bold $tradition_RICE_children_of_the_nile_name$#! [tradition|E]를 가진 [cultures|E]는 [GetActivityType('activity_RICE_upper_egypt_pray_good_nile_flood').GetName] [activity|E]를 해금합니다#!" # 16519412881822977156
   RICE_nile_very_low_flood: "[nile_flood|E]: 매우 낮음" # 761519571520590873
   RICE_nile_very_low_flood_desc: "나일강의 수위가 14큐빗에도 미치지 못하여, 이는 이집트의 올해 수확이 끔찍하거나 아예 없을 것임을 의미하는 심각하게 낮은 범람입니다.\n\n#italic #Bold $tradition_RICE_children_of_the_nile_name$#! [tradition|E]를 가진 [cultures|E]는 [GetActivityType('activity_RICE_upper_egypt_pray_good_nile_flood').GetName] [activity|E]를 잠금 해제합니다." # 17810771348261059832
   RICE_nile_renovated_nilometers: "개조된 나일 측정기" # 2574136598588571131
@@ -284,7 +284,7 @@
   RICE_upper_egypt_temple_of_elephantine_context_tooltip: "#emphasis 역사적 배경:#! 엘레판티네 섬은 도예, 나일강의 신이자 나일강의 근원을 지키는 신인 크눔의 고향으로 여겨졌기 때문에 중요한 이집트 신앙 중심지였습니다. 엘레판티네에는 이른바 엘레판티네 삼신을 모시는 여러 신전이 있었는데, 이 삼신은 1) 크눔 자신, 2) 전쟁, 사냥, 나일강 범람의 여신인 그의 배우자 사테트, 그리고 3) 나일강 그 자체이자 크눔과 사테트의 딸이거나 사테트의 누이이거나 크눔의 젊은 배우자 중 하나인 색욕의 여신 아누케트로 구성되어 있었습니다. 엘레판티네는 로마 시대에 이르러 필레 신전의 중요성에 가려지면서 쇠퇴하고 있었습니다." # 17012622199509939405
   RICE_upper_egypt_temple_of_kalabsha_context_tooltip: "#emphasis 역사적 배경:#! 아스완에서 도보로 몇 시간 거리에 있지 않은 곶에 위치한 칼랍샤 신전은 로마 황제 아우구스투스 치세에 세워졌으며, 두 가지 측면을 가진 누비아 신 만둘리스를 숭배하는 중심지였습니다. 만둘리스는 태양적 측면인 '원로 만둘리스'와 달의 측면인 '어린 만둘리스'가 있었습니다. 신전에는 다른 여러 신들도 모셔졌습니다. 나중에 누비아가 기독교화되었을 때, 신전은 한동안 교회로 재사용되었습니다. 흥미롭게도 이 신전은 공식적으로 완공된 적이 없었습니다." # 11175020088349941702
   RICE_upper_egypt_close_temple_of_philae: "필레 신전을 공식적으로 폐쇄합니다." # 10958326879811515943
-  RICE_upper_egypt_close_temple_of_philae_tooltip: "#italic\"오, 강대한 자들이여, 나의 업적을 보고 절망하라\"#!" # 17725133133897706697
+  RICE_upper_egypt_close_temple_of_philae_tooltip: "#italic\"나의 업적을 보라, 오 강력한 자들이여, 그리고 절망하라\"" # 13685573489673489701
   RICE_upper_egypt_close_temple_of_philae_desc: "[temples_of_aswan_city|E]에 있는 필레 섬은 오랫동안 이교도 숭배의 중심지였으나, 이제 그곳의 신전은 더 이상 그 목적으로 거의 사용되지 않고 있습니다. 남아있는 신봉자들이 있든 없든, 이제 그 신전을 공식적으로 폐쇄하고 그들을 쫓아낼 때입니다." # 9272226630365475033
   RICE_upper_egypt_close_temple_of_philae_effect_tooltip: "이교도들이 [GetActivityType( 'activity_RICE_upper_egypt_visit_aswan_temples' ).GetName]을 수행할 경우, 필레는 더 이상 선택지로 제공되지 않습니다. 잠재적인 모든 사원 위치가 폐쇄되면 해당 [activity|E]는 더 이상 이용할 수 없게 됩니다." # 7128040339314298294
   RICE_upper_egypt_close_temple_of_philae_confirm: "이제 이걸 할 시간입니다." # 7443324977353751265
@@ -296,7 +296,7 @@
   RICE_upper_egypt_reopen_temple_of_philae_confirm: "시작해보지!" # 331371430259311057
   RICE_upper_egypt_reopen_temple_of_philae_context_tooltip: "$RICE_upper_egypt_temple_of_philae_context_tooltip$" # 10673924609953608817
   RICE_upper_egypt_close_temple_of_elephantine: "엘레판티네의 사원을 공식적으로 폐쇄하십시오" # 14468516624354395572
-  RICE_upper_egypt_close_temple_of_elephantine_tooltip: "#italic\"오, 강대한 자들이여, 나의 업적을 보고 절망하라\"#!" # 17725133133897706697
+  RICE_upper_egypt_close_temple_of_elephantine_tooltip: "#italic\"나의 업적을 보라, 오 강력한 자들이여, 그리고 절망하라\"" # 13685573489673489701
   RICE_upper_egypt_close_temple_of_elephantine_desc: "[temples_of_aswan_city|E]에 위치한 엘레판티네 섬은 오랫동안 이교도 숭배의 중심지였으나, 이제 그 사원들은 거의 그 목적으로 사용되지 않고 있습니다. 남아있는 신자들이 있다면 그들을 쫓아내고 사원을 공식적으로 폐쇄할 때입니다." # 15958537321537820567
   RICE_upper_egypt_close_temple_of_elephantine_effect_tooltip: "이교도들이 [GetActivityType( 'activity_RICE_upper_egypt_visit_aswan_temples' ).GetName] 활동을 수행할 경우, 엘레판티네는 더 이상 선택지로 제공되지 않습니다. 모든 잠재적인 사원 위치가 폐쇄되면 해당 [activity|E]는 더 이상 이용할 수 없습니다." # 1777885186129497095
   RICE_upper_egypt_close_temple_of_elephantine_confirm: "이제 이걸 할 시간입니다." # 7443324977353751265
@@ -308,7 +308,7 @@
   RICE_upper_egypt_reopen_temple_of_elephantine_confirm: "시작해보지!" # 331371430259311057
   RICE_upper_egypt_reopen_temple_of_elephantine_context_tooltip: "$RICE_upper_egypt_temple_of_elephantine_context_tooltip$" # 9498208666862621908
   RICE_upper_egypt_close_temple_of_kalabsha: "칼랍샤 사원 공식적으로 폐쇄" # 2516297633944998653
-  RICE_upper_egypt_close_temple_of_kalabsha_tooltip: "#italic\"오, 강대한 자들이여, 나의 업적을 보고 절망하라\"#!" # 17725133133897706697
+  RICE_upper_egypt_close_temple_of_kalabsha_tooltip: "#italic\"나의 업적을 보라, 오 강력한 자들이여, 그리고 절망하라\"" # 13685573489673489701
   RICE_upper_egypt_close_temple_of_kalabsha_desc: "[temples_of_aswan_city|E] 바로 남쪽에 위치한 칼랍샤는 오랫동안 이교도 숭배의 중심지였으나, 이제 그 사원은 더 이상 그 목적으로 거의 사용되지 않습니다. 남아있는 숭배자들이 소수라도 있다면 그들을 쫓아내고 사원을 공식적으로 폐쇄할 때입니다." # 2024429534976305336
   RICE_upper_egypt_close_temple_of_kalabsha_effect_tooltip: "이교도들이 [GetActivityType( 'activity_RICE_upper_egypt_visit_aswan_temples' ).GetName] 활동을 수행할 경우, 칼랍샤는 더 이상 선택지로 제공되지 않습니다. 모든 잠재적인 사원 방문지가 닫히면 해당 [activity|E]는 더 이상 이용할 수 없게 됩니다." # 18332643553748563265
   RICE_upper_egypt_close_temple_of_kalabsha_confirm: "이제 우리가 할 일입니다." # 7443324977353751265
@@ -484,7 +484,7 @@
   upper_egypt.0028.a: "xxxxx" # 1951045980481827005
   upper_egypt.0029.t: "xxxxx" # 1951045980481827005
   upper_egypt.0029.desc: "xxxxx" # 1951045980481827005
-  upper_egypt.0029.a: "xxxxx" # 1951045980481827005
+  upper_egypt.0029.a: "xxxx\"" # 15308465615999842627
   upper_egypt.0030.t: "xxxxx" # 1951045980481827005
   upper_egypt.0030.desc: "xxxxx" # 1951045980481827005
   upper_egypt.0030.a: "xxxxx" # 1951045980481827005

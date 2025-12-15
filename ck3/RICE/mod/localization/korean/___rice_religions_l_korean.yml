@@ -170,7 +170,7 @@
   semitic_night_god_name: "알마카" # 5057626430014913273
   semitic_night_god_name_possessive: "알마카의" # 2189665344994559650
   semitic_water_god_name: "아스타르" # 10262706705932770372
-  semitic_water_god_name_possessive: "아트타르의" # 14124518038333216143
+  semitic_water_god_name_possessive: "아타르의" # 10226857327759258018
   harranian_high_god_name: "그 하나" # 8840963599456984691
   harranian_high_god_name_possessive: "그들" # 6909733218530078954
   harranian_high_god_name_alternate: "최고존재" # 6011113758571216108
@@ -222,7 +222,7 @@
   harranian_night_god_name: "신" # 13654853250191073768
   harranian_night_god_name_possessive: "죄악의" # 5056603097960621637
   harranian_water_god_name: "엔키" # 293694487099598456
-  harranian_water_god_name_possessive: "엔키의" # 2065966742505686669
+  harranian_water_god_name_possessive: "엔키의" # 6218036493919255604
   nabataean_high_god_name: "두샤라" # 3747347372487035063
   nabataean_high_god_name_possessive: "두샤라의" # 7898645832916504688
   nabataean_health_god_name: "이시스" # 12849076151699966835
@@ -270,7 +270,7 @@
   arabic_pagan_night_god_name: "알라트" # 12072567085585276018
   arabic_pagan_night_god_name_possessive: "알라트의" # 6023809017461549340
   arabic_pagan_water_god_name: "후발" # 11592797298723988279
-  arabic_pagan_water_god_name_possessive: "후발의" # 16897229997454779116
+  arabic_pagan_water_god_name_possessive: "후발의" # 10971784960565552493
   aksumite_pagan_high_god_name: "마흐렘" # 12232204629746385210
   aksumite_pagan_high_god_name_possessive: "마흐렘의" # 7190107829967419126
   aksumite_pagan_creator_god_name: "아스타르" # 10262706705932770372
@@ -296,7 +296,7 @@
   aksumite_pagan_night_god_name: "일룸쿠흐" # 3470465452360127604
   aksumite_pagan_night_god_name_possessive: "일룸쿠흐의" # 12873490444505139189
   aksumite_pagan_water_god_name: "베헤르" # 5385117018942993357
-  aksumite_pagan_water_god_name_possessive: "베헤르의" # 5006765580238479911
+  aksumite_pagan_water_god_name_possessive: "베헤르의" # 13212145338877441435
   peristani_religion: "페르시아인" # 7696418122334294556
   peristani_religion_adj: "페르시아인" # 7696418122334294556
   peristani_religion_adherent: "페르시아인" # 7696418122334294556
@@ -361,17 +361,17 @@
   peristani_night_god_name: "인드라" # 17282212027934965067
   peristani_night_god_name_possessive: "인드라의" # 12377198297572659156
   peristani_water_god_name: "인드라" # 17282212027934965067
-  peristani_water_god_name_possessive: "인드라의" # 12377198297572659156
-  peristani_house_of_worship: "아몰" # 4143426214913387642
-  peristani_house_of_worship_plural: "아몰스" # 5987961141044999340
-  peristani_good_god_dezaw: "데자우" # 3585883981040837026
-  peristani_good_god_dezalik: "데잘릭" # 13090641772744750896
-  peristani_good_god_jestak: "예스탁" # 9006119835553372807
-  peristani_good_god_balumain: "발루마인" # 7693969862908752432
-  peristani_good_god_mahandeo: "마한데오" # 7957809992364611899
-  peristani_good_god_indra: "인드라" # 17282212027934965067
-  peristani_witchgodname: "발루마인" # 7693969862908752432
-  peristani_witchgodname_possessive: "발루메인의" # 13937141319188174622
+  peristani_water_god_name_possessive: "인드라의" # 12477253473033874021
+  peristani_house_of_worship: "아몰" # 6197197395015510678
+  peristani_house_of_worship_plural: "아몰\"" # 16961026792490032613
+  peristani_good_god_dezaw: "데자우" # 11649044884395950191
+  peristani_good_god_dezalik: "데잘릭" # 12516398773057812049
+  peristani_good_god_jestak: "예스타크" # 11788947124975042922
+  peristani_good_god_balumain: "발루마인" # 8687875875954416233
+  peristani_good_god_mahandeo: "마한데오" # 14492487914929647823
+  peristani_good_god_indra: "인드라" # 2781468262449517279
+  peristani_witchgodname: "발루마인" # 8687875875954416233
+  peristani_witchgodname_possessive: "발루메인\"" # 5878181102539614893
   malagasy_religion: "말라가시" # 8945867832590957843
   malagasy_religion_adj: "말라가시" # 8945867832590957843
   malagasy_religion_adherent: "말라가시" # 8945867832590957843
@@ -432,11 +432,11 @@
   malagasy_night_god_name: "자나하리" # 10559151290225913367
   malagasy_night_god_name_possessive: "자나하리의" # 5436482493814835535
   malagasy_water_god_name: "톰폰드라노" # 563500260854636655
-  malagasy_water_god_name_possessive: "톰폰드라노의" # 13372606789648913508
-  malagasy_house_of_worship: "성소" # 10631482914847637291
+  malagasy_water_god_name_possessive: "탐폰드라노의" # 18255849837579399217
+  malagasy_house_of_worship: "성\"" # 5544301396001823540
   malagasy_house_of_worship_plural: "성소들" # 7895485644411018553
-  malagasy_witchgodname: "라라키" # 15285426333092788505
-  malagasy_witchgodname_possessive: "라라키의" # 4540111405028709752
+  malagasy_witchgodname: "라라\"" # 6277839197558546631
+  malagasy_witchgodname_possessive: "라라키의" # 12345983594045082183
   shona_religion: "남부 반투" # 11773280578766531576
   shona_religion_adj: "남부 반투" # 11773280578766531576
   shona_religion_adherent: "남부 반투" # 11773280578766531576
@@ -497,11 +497,11 @@
   shona_night_god_name: "므와리" # 469762563186613066
   shona_night_god_name_possessive: "므와리의" # 17273362787662682929
   shona_water_god_name: "므와리" # 469762563186613066
-  shona_water_god_name_possessive: "므와리의" # 17273362787662682929
-  shona_house_of_worship: "성전" # 8256812606102106425
+  shona_water_god_name_possessive: "므와리\"" # 12467273677364957980
+  shona_house_of_worship: "성\"" # 16686531281260722217
   shona_house_of_worship_plural: "사원들" # 17558821383042594454
-  shona_witchgodname: "므와리" # 469762563186613066
-  shona_witchgodname_possessive: "므와리의" # 17273362787662682929
+  shona_witchgodname: "\"므와\"" # 10188084277285416819
+  shona_witchgodname_possessive: "므와리\"" # 12467273677364957980
   inuit_religion: "이누이트" # 40482525752082801
   inuit_religion_adj: "이누이트" # 40482525752082801
   inuit_religion_adherent: "이누이트" # 40482525752082801
@@ -528,7 +528,7 @@
   inuit_trickster_god_name: "아마구크" # 16532173985157710421
   inuit_trickster_god_name_possessive: "아마구크스" # 3999408947320069428
   inuit_water_god_name: "세드나" # 3360326339052587137
-  inuit_water_god_name_possessive: "세드나의" # 13173244901904131903
+  inuit_water_god_name_possessive: "세드나의" # 11019896245264018849
   algonquian_religion: "아니쉬나베그" # 16108979154880680011
   algonquian_religion_adj: "아니쉬나베그" # 16108979154880680011
   algonquian_religion_adherent: "아니쉬나베그" # 16108979154880680011
@@ -560,7 +560,7 @@
   iroquoian_pagan_old_adj: "오래된 우키-오트콘" # 7938473243518119884
   iroquoian_pagan_old_adherent: "오래된 우키-오트콘주의자" # 1596032525349897602
   iroquoian_pagan_old_adherent_plural: "#bold 옛 우키-오트콘주의자들#!" # 5995180098585812276
-  iroquoian_pagan_old_desc: "$iroquoian_religion_desc$" # 18427236794921120311
+  iroquoian_pagan_old_desc: "$iroquoian_religion_desc$" # 15629181334202805729
   iroquoian_high_god_name: "위대한 영혼이시여" # 916998128915088345
   iroquoian_high_god_name_possessive: "위대한 영혼의" # 8077795326842847322
   east_bantu_religion: "동부 반투" # 12192776203346968613
@@ -751,7 +751,7 @@
   south_mesopotamian_pagan_fate_god_name_possessive: "알-무슈타리의" # 11907653579397306749
   south_mesopotamian_pagan_knowledge_god_name: "우타리드" # 11761427139639260331
   south_mesopotamian_pagan_knowledge_god_name_possessive: "'우타리드'의" # 10473613652866170998
-  south_mesopotamian_pagan_war_god_name: "알-미리크" # 12155534309101198106
+  south_mesopotamian_pagan_war_god_name: "알-미리크" # 6714383634786538502
   south_mesopotamian_pagan_war_god_name_possessive: "알-미리크의" # 17527028438447872244
   south_mesopotamian_pagan_trickster_god_name: "사악한 정령들" # 4939774527220994977
   south_mesopotamian_pagan_trickster_god_name_possessive: "악령들의" # 1597267886528666068

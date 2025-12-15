@@ -4,13 +4,13 @@
   dinka_religion_adherent: "나일족의" # 5112929621083856458
   dinka_religion_adherent_plural: "나일족" # 12026776488880961145
   dinka_religion_desc: "상류 나일강에서 유래한 민족들은 다양한 종교적 신념을 가지고 있습니다. 하지만 조상신에 대한 믿음처럼 공통된 신념도 존재하는데, 이 조상신은 살아있는 후손들을 돕기 위해 소통할 수 있다고 믿어집니다." # 7105555774635720063
-  dinka_house_of_worship: "리악" # 15397165350726695800
+  dinka_house_of_worship: "리\"" # 13198562380813693263
   dinka_house_of_worship_plural: "리아크스" # 17145778298628784850
   dinka_religious_symbol: "비드" # 10906965647570501300
   dinka_religious_text: "신성한 노래" # 8955817660240305435
   dinka_religious_head_title: "와 딧" # 17338357209367524637
   dinka_religious_head_title_name: "고위 평의회" # 15038947742583190916
-  dinka_priest_male: "란 니알릭" # 6501025993020481
+  dinka_priest_male: "라안 니알릭" # 3187663037351416297
   dinka_priest_male_plural: "란 니알릭" # 6501025993020481
   dinka_priest_term_plural: "란 니알릭" # 6501025993020481
   dinka_priest_alternate: "이 와다" # 181900619350705247
@@ -21,13 +21,13 @@
   dinka_bishop_male_plural: "베니 비트" # 953692572221051547
   dinka_bishop_female: "베니 비트" # 953692572221051547
   dinka_bishop_female_plural: "베니 비트" # 953692572221051547
-  dinka_bishop_neuter: "베니 비트" # 953692572221051547
+  dinka_bishop_neuter: "베니 비트" # 9727650791771336046
   dinka_bishop_neuter_plural: "베니 비트" # 953692572221051547
   dinka_the_jok: "작" # 3634366866342995563
   dinka_divine_realm: "니알" # 14568358033981042898
   dinka_afterlife: "$dinka_divine_realm$" # 9657276155698587043
   dinka_high_god_name: "니알락" # 10411119783752970194
-  dinka_high_god_name_possessive: "냐일락의" # 14409097506069413034
+  dinka_high_god_name_possessive: "냐일락의" # 8930224376055948057
   dinka_high_god_name_alternate: "쿠오스" # 5832103471429912170
   dinka_high_god_name_alternate_possessive: "쿠오트의" # 11684834125564279465
   dinka_good_god_ayum: "아윰" # 16486357989877054732
@@ -53,7 +53,7 @@
   dinka_war_god_name_possessive: "$dinka_high_god_name_possessive$" # 11822946251435486183
   dinka_trickster_god_name: "작" # 3634366866342995563
   dinka_trickster_god_name_possessive: "자의" # 10687476703279476665
-  dinka_night_god_name: "$dinka_trickster_god_name$" # 4399338857982027459
+  dinka_night_god_name: "$dinka_trickster_god_name$" # 13534770407434088544
   dinka_night_god_name_possessive: "$dinka_trickster_god_name_possessive$" # 543711682205452682
   dinka_water_god_name: "$dinka_high_god_name$" # 14479888157788680071
   dinka_water_god_name_possessive: "$dinka_high_god_name_possessive$" # 11822946251435486183
@@ -81,9 +81,9 @@
   nuba_pagan_old_adherent: "고대 쿠주리스트" # 7338128106757639251
   nuba_pagan_old_adherent_plural: "오래된 쿠주르주의자들" # 4283594995651557875
   nuba_pagan_old_desc: "$nuba_pagan_desc$" # 11509169358823441239
-  nuba_priest_male: "쿠주르" # 9398481060230713279
+  nuba_priest_male: "쿠주르" # 3389694829857938254
   nuba_priest_male_plural: "쿠주르스" # 8898200630385665862
-  nuba_priest_female: "쿠주르" # 9398481060230713279
+  nuba_priest_female: "쿠주르" # 3389694829857938254
   nuba_priest_female_plural: "쿠주르스" # 8898200630385665862
   nuba_priest_term_plural: "쿠주르스" # 8898200630385665862
   nuba_priest_alternate: "쿠주르" # 9398481060230713279
@@ -94,7 +94,7 @@
   nuba_bishop_male_plural: "위대한 쿠주르" # 12371317279330646877
   nuba_bishop_female: "위대한 쿠주르" # 3919097948418737849
   nuba_bishop_female_plural: "위대한 쿠주르" # 12371317279330646877
-  nuba_bishop_neuter: "위대한 쿠주르" # 3919097948418737849
+  nuba_bishop_neuter: "위대한 쿠주르여" # 1144372105478793985
   nuba_bishop_neuter_plural: "위대한 쿠주르" # 12371317279330646877
   turkana_pagan: "아쿠지즘" # 16914578454122719190
   turkana_pagan_adj: "아쿠지스트" # 16411392469234803670
@@ -106,9 +106,9 @@
   turkana_pagan_old_adherent: "고대 아쿠지인" # 9256624513748524391
   turkana_pagan_old_adherent_plural: "고대 아쿠지파" # 7475297287512893638
   turkana_pagan_old_desc: "$turkana_pagan_desc$" # 12234936638387806987
-  turkana_priest_male: "응기무록" # 1722246011107106505
+  turkana_priest_male: "응기무\"" # 4284717172463718424
   turkana_priest_male_plural: "응기무록스" # 8042252007417524444
-  turkana_priest_female: "응가무록" # 12027132404242901556
+  turkana_priest_female: "응가무\"" # 6819254044033252483
   turkana_priest_female_plural: "응아무록스" # 11585048519176089952
   turkana_priest_term_plural: "응이무웍스" # 9397647452709722398
   turkana_priest_alternate: "응기무록" # 1722246011107106505
@@ -119,9 +119,9 @@
   turkana_bishop_male_plural: "위대한 응이무로크스" # 12890443916144219457
   turkana_bishop_female: "위대한 응가무록" # 5110474297578584442
   turkana_bishop_female_plural: "훌륭한 응가무록스" # 2464149318087464489
-  turkana_bishop_neuter: "훌륭하군 응이무록" # 8736247236693073677
+  turkana_bishop_neuter: "위대한 응이무록이여" # 17792070541560723642
   turkana_bishop_neuter_plural: "위대한 응이무로크스" # 12890443916144219457
   turkana_high_god_name: "아쿠주" # 11508802174589760053
-  turkana_high_god_name_possessive: "아쿠지의" # 13278149622781400619
+  turkana_high_god_name_possessive: "아쿠즈의" # 6594030276166897171
   turkana_high_god_name_alternate: "아쿠주" # 11508802174589760053
   turkana_high_god_name_alternate_possessive: "아쿠지의" # 13278149622781400619

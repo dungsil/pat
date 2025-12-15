@@ -276,22 +276,22 @@
   RICE_granada_transfer_seat_of_power_confirm: "우리가 고지를 점령할 것이다!" # 13765796459928953662
   RICE_granada_transfer_seat_of_power_effect_tooltip_1: "[granada_county.GetNameNoTier]에 비유대인 가문들이 대거 이주하면 장기적으로 기존 유대인들과의 긴장을 유발할 수 있습니다." # 7043792318833799529
   RICE_granada_transfer_seat_of_power_effect_tooltip_2: "저명한 유대인 [courtiers|E]는 [granada.GetNameNoTier]의 [ruler|E]의 [court|E]에 때때로 나타날 수 있습니다." # 2713226506121816814
-  RICE_granada_transfer_seat_of_power_context_tooltip: "#emphasis 역사적 배경:#! 안달루스의 초기 역사에서 그라나다는 근처 도시 일비라(혹은 엘비라)만큼 중요하지 않았습니다. 11세기 제1 타히파 시기, 베르베르족 지리드 왕조가 남부 안달루스에 독립 국가를 세웠을 때, 그들은 일비라가 낮은 평원에 위치하여 적의 공격에 취약할 것을 두려워했습니다. 지리드 왕조는 당시 남부 안달루스의 주요 유대인 정착지였던 그라나다로 통치 중심지를 옮기기로 결정했습니다." # 12528185889205752165
+  RICE_granada_transfer_seat_of_power_context_tooltip: "#emphasis 역사적 배경:#! 알안달루스 초기 역사에서 그라나다는 근처의 일비라(또는 엘비라)만큼 중요하지 않았습니다. 11세기의 제1 타이파 시기에 베르베르계 지리드 왕조가 안달루시아 남부에 독립 국가를 세웠을 때, 그들은 일비라가 낮은 평야 지대에 위치하여 적의 공격에 취약할 것을 두려워했습니다. 지리드 왕조는 당시 안달루시아 남부의 주요 유대인 정착지였던 그라나다로 통치 중심지를 이전하기로 결정했습니다." # 2379955652461105586
   RICE_granada_alhambra_comares_baths: "코마레스 목욕탕에서 휴식을 취하세요" # 1562475396575183639
   RICE_granada_alhambra_comares_baths_tooltip: "잠시 쉬어야겠군...." # 10214626502881564193
   RICE_granada_alhambra_comares_baths_desc: "[alhambra|E]의 코마레스 목욕탕은 의심할 여지 없이 이베리아 전역에서 가장 크고 훌륭합니다. 제가 이곳을 소유하고 있으니, 언젠가 이 시설을 이용해 봐야겠습니다." # 5859168011161896704
   RICE_granada_alhambra_comares_baths_effect_tooltip_1: "일부 [stress|E]를 잃고 [piety|E]를 얻게 될 것입니다." # 15646186216355589749
   RICE_granada_alhambra_comares_baths_effect_tooltip_2: "그대가 [granada.GetNameNoTier]를 다스리고 #bold 알함브라 [THIS.Char.GetFaith.HouseOfWorship|U]#!가 [alhambra|E]에 세워졌기에, 이 [activity|E]의 보너스가 증가합니다." # 13943823414579248764
   RICE_granada_alhambra_comares_baths_confirm: "목욕할 시간이다!" # 13183111678633519211
-  RICE_granada_alhambra_comares_baths_context_tooltip: "#emphasis 역사적 배경:#! 목욕탕은 알안달루스를 포함하여 이슬람 세계에서 사회적, 종교적 생활의 중요한 부분이었습니다. 알함브라의 코마레스 궁전 내 왕실 목욕탕은 나스르 왕조의 술탄 유수프 1세(재위 1333-1354)에 의해 건설되었으며, 이후 스페인의 가톨릭 통치자들에 의해 개조되어 사용되기도 했습니다. 이베리아반도에서 가장 큰 목욕탕 중 하나일 뿐만 아니라, 코마레스 목욕탕은 오늘날까지 거의 온전하게 보존된 이베리아반도의 이슬람 목욕탕의 몇 안 되는 사례 중 하나입니다." # 16175714782632035021
-  RICE_granada_alhambra_comares_palace_built_req: "#V 코마레스 궁전#! [alhambra_structure|E]이(가) [alhambra|E]에 건설되었습니다." # 8679382446422883121
+  RICE_granada_alhambra_comares_baths_context_tooltip: "#emphasis 역사적 배경:#! 목욕탕은 알안달루스를 포함하여 이슬람 세계에서 사회적, 종교적 생활의 두드러진 부분이었습니다. 알함브라 궁전의 코마레스 궁전 내 왕실 목욕탕은 나스르 왕조의 술탄 유수프 1세(재위 1333-1354년)에 의해 건설되었으며, 나중에 스페인의 가톨릭 통치자들에 의해 개조되어 사용되기도 했습니다. 이베리아 반도에서 가장 큰 목욕탕 중 하나일 뿐만 아니라, 코마레스 목욕탕은 오늘날까지 대부분 온전하게 보존된 이베리아 이슬람 목욕탕의 몇 안 되는 사례 중 하나입니다." # 11945306830566052038
+  RICE_granada_alhambra_comares_palace_built_req: "#V 코마레스 궁전#! [alhambra_structure|E]가 [alhambra|E]에 건설되었습니다." # 14326599296087625715
   RICE_granada_admire_alhambra_gardens: "알함브라 궁전의 정원을 감상하십시오" # 12735885086708475911
   RICE_granada_admire_alhambra_gardens_tooltip: "지상낙원이라, 그들이 말하는 바가 맞군!" # 7884930157380934035
   RICE_granada_admire_alhambra_gardens_desc: "[alhambra|E]의 정원에는 나무, 관목, 안뜰, 분수, 수로 등이 어우러져 마치 천국에 와 있는 듯한 느낌을 줍니다. 이 정원을 감상할 시간을 가진 지 꽤 되었군요." # 5169737760122109615
   RICE_granada_admire_alhambra_gardens_effect_tooltip_1: "일부 [stress|E]를 잃고 [prestige|E]를 얻게 됩니다." # 10915632333972854179
   RICE_granada_admire_alhambra_gardens_effect_tooltip_2: "당신께서 [granada.GetNameNoTier]를 다스리고 있으며, [alhambra|E]에 #bold 헤네랄리페#!가 건설되었기에 이 [activity|E]의 보너스가 증가합니다." # 10550776909882759039
   RICE_granada_admire_alhambra_gardens_confirm: "이곳에는 볼거리가 아주 많군요!" # 16819595688104192716
-  RICE_granada_admire_alhambra_gardens_context_tooltip: "#emphasis 역사적 배경:#! 정원은 많은 중세 엘리트들에게 중요한 지위의 상징이자 부와 권력을 과시하는 수단이었습니다. 이슬람 통치자들을 포함하여 전 세계의 많은 중세 귀족들에게 정원은 권력과 부를 과시하는 방법이었습니다. 알함브라는 이러한 이슬람식 정원 가꾸기 전통의 가장 훌륭한 사례 중 하나입니다. 그라나다는 좋은 수원이 많이 있는 곳에 위치하여 알함브라의 수많은 정원과 분수, 수로 같은 물 시설을 유지할 수 있었습니다." # 1822634560571241818
+  RICE_granada_admire_alhambra_gardens_context_tooltip: "#emphasis 역사적 배경:#! 정원은 많은 중세 엘리트들에게 중요한 지위의 상징이었으며, 무슬림 통치자들을 포함하여 그들의 권력과 부를 과시하는 수단이었습니다. 알함브라는 이러한 이슬람 정원 가꾸기 전통의 가장 좋은 예시 중 하나입니다. 그라나다는 좋은 수자원에 가까이 위치해 있었기에 알함브라의 수많은 정원과 분수 및 수로와 같은 물 시설을 유지할 수 있었습니다." # 12384393212602285939
   RICE_granada_alhambra_munya_estate: "문야에서 휴가 보내기" # 16061722139532071566
   RICE_granada_alhambra_munya_estate_tooltip: "대도시에서 정말 휴식이 필요하군." # 4564367614100815575
   RICE_granada_alhambra_munya_estate_desc: "알안달루스의 존경받는 [ROOT.Char.GetTitleAsNameNoTooltip]라면 누구나 그렇듯, 나 역시 수도 근교 시골에 여러 [munya|E] 영지를 소유하고 있다. 혼자서든 다른 이들과 함께든, 이 별장들 중 한 곳에서 시간을 보내며 휴식을 취해야겠다." # 9878889407360108712
@@ -299,18 +299,18 @@
   RICE_granada_alhambra_munya_estate_effect_tooltip_2: "귀하는 [stress|E]를 잃고 [lifestyle_experience|E] 또는 긍정적인 [character_modifiers|E]와 같은 다양한 보너스를 얻을 수 있습니다." # 15445923617643363977
   RICE_granada_alhambra_munya_estate_effect_tooltip_3: "$RICE_granada_admire_alhambra_gardens_effect_tooltip_2$" # 13805085776525853303
   RICE_granada_alhambra_munya_estate_confirm: "시골로 떠날 시간입니다!" # 10683057731898793261
-  RICE_granada_alhambra_munya_estate_context_tooltip: "#emphasis 역사적 배경:#! #italic 무냐(Munya)!#는 중세 알-안달루스에서 엘리트들이 건설했던 특정 유형의 시골 영지 또는 빌라를 지칭하는 용어였습니다(이후 스페인어 용어인 #italic 알무니아(almunia)!#의 기원이 되었습니다). 일반적으로 정원과 광대한 농지로 둘러싸인 대규모 거주지였으며, 여가와 실용적인 기능을 겸했습니다. 도시의 번잡함에서 벗어나 휴식과 지적 탐구를 위한 장소인 동시에 농업 및 식물학적 실험을 위한 장소로도 활용되었습니다." # 15745993768143283876
+  RICE_granada_alhambra_munya_estate_context_tooltip: "#emphasis 역사적 배경:#! #italic 무냐(Munya)!#는 중세 알안달루스에서 엘리트 계층이 건설했던 일종의 시골 영지 또는 별장을 지칭하는 용어였으며(이후 스페인어 #italic 알무니아(almunia)!#의 어원이 됨), 일반적으로 정원과 광대한 농지로 둘러싸인 대규모 거주지였습니다. 이들은 여가와 실용적인 기능을 겸했는데, 도시의 번잡함에서 벗어나 휴식과 지적 탐구를 위한 장소였을 뿐만 아니라 농업 및 식물학 실험을 위한 곳이기도 했습니다." # 1129109329464787042
   RICE_granada_develop_almeria_silk_industry: "알메리아의 성장하는 비단 산업에 보조금을 지급하십시오" # 9717467193969701442
   RICE_granada_develop_almeria_silk_industry_tooltip: "알메리아 항구는 사치품 수출지 그 이상이 될 수 있습니다... 직접 생산지 또한 될 수 있지요." # 14921453600171644641
   RICE_granada_develop_almeria_silk_industry_desc: "이베리아의 시기는 격동적이며, 코르도바의 오래된 비단 생산 중심지는 쇠퇴하고 있습니다. 상인들은 다른 이베리아 도시들의 비단 공방에 투자하여 이베리아의 비단 산업을 부흥시키고자 하며, 알메리아는 서부 지중해에서 가장 중요한 항구 도시 중 하나로 빠르게 성장하고 있기에 유망한 선택지입니다." # 18064717331951280621
   RICE_granada_develop_almeria_silk_industry_confirm: "비단이 흘러야 한다!" # 674912398755408798
-  RICE_granada_develop_almeria_silk_industry_context_tooltip: "#emphasis 역사적 배경:#! 코르도바는 이베리아의 수익성 높은 비단 산업의 초기 중심지였으나, 1000년대에 코르도바 칼리파국이 멸망했습니다. 이후 알메리아가 이베리아 최대의 비단 생산지로 코르도바를 대신했는데, 이는 알메리아가 해당 지역에서 가장 중요한 항구 중 하나였기 때문입니다. 알메리아산 비단은 그 명성이 높아 중세 유럽 문학에서 사치의 상징으로 언급될 정도였으며, 선물, 공물, 혹은 부와 지위를 과시하는 용도로 자주 사용되었습니다." # 10238784446937250887
+  RICE_granada_develop_almeria_silk_industry_context_tooltip: "#emphasis 역사적 배경:#! 코르도바는 이베리아의 수익성 높은 비단 산업의 초기 중심지였으나, 1000년대에 코르도바 칼리파국이 붕괴하면서 그 지위를 잃었습니다. 이후 알메리아가 이베리아 최대 비단 생산지로 부상했는데, 알메리아가 이 지역에서 가장 중요한 항구 중 하나였다는 사실이 큰 도움이 되었습니다. 알메리아산 비단은 그 명성이 자자하여 중세 유럽 문학에서 사치품의 상징으로 언급될 정도였으며, 종종 선물, 공물, 혹은 부와 지위를 과시하는 데 사용되었습니다." # 1005846643028918063
   RICE_granada_demolish_idol_cadiz: "카디스 우상 파괴" # 563954065971378096
   RICE_granada_demolish_idol_cadiz_tooltip: "그것은 단단한 금속으로 만들어졌으며, 우리는 [gold|E]를 사용할 수 있을 것입니다...." # 10497192673221711374
   RICE_granada_demolish_idol_cadiz_desc: "카디스 항구 근처, 우상들의 땅이라 알려진 곳에 고대의 탑이 하나 있습니다. 그 탑 꼭대기에는 귀금속으로 만들어진 웅장한 조각상이 세워져 있습니다. 현지인들은 그 조각상이 초자연적인 힘을 지니고 도시를 위험으로부터 보호한다고 주장하지만, 만약 내가 이 우상을 파괴하여 그 금속을 내 용도로 녹여버린다면 어떨까요?" # 9548599811456722705
   RICE_granada_demolish_idol_cadiz_effect_tooltip_1: "일부 현지인들은 카디스 우상을 파괴하면 당신과 도시에 초자연적인 #N 결과#를 초래할 것이라 믿고 있습니다. 하지만 그것은 그저 미신이겠죠... 그렇죠?" # 1962797666469490243
   RICE_granada_demolish_idol_cadiz_confirm: "저 우상을 부숴라!" # 1970038008685040193
-  RICE_granada_demolish_idol_cadiz_context_tooltip: "#emphasis 역사적 배경:#! 중세 무슬림 기록에는 카디스 근처에 신비롭고 거대한 탑과 조각상의 존재가 언급됩니다. 고전 기록에는 나타나지 않는 것으로 보아, 이는 후기 고대 시대로 거슬러 올라갈 수 있습니다. 이베리아 반도의 다른 그리스 및 로마 조각상들과 마찬가지로, 이른바 '카디스의 우상'은 중세 무슬림들에게 초자연적이고 보호적인 힘이 있다고 믿어졌습니다. 기념비, 무덤, 혹은 가장 가능성 높은 항해용 항로표지 중 무엇이었든 그 본래 목적은 불분명합니다. 12세기경에 파괴되었는데, 아마도 조각상을 녹여 돈을 얻기 위함이었을 것입니다." # 1402084763547165706
+  RICE_granada_demolish_idol_cadiz_context_tooltip: "#emphasis 역사적 배경:#! 중세 무슬림 기록에는 카디스 근처에 신비로운 거대한 탑과 조각상의 존재가 언급됩니다. 고전 기록에는 등장하지 않으므로, 후기 고대에 세워졌을 수 있습니다. 중세 무슬림들은 이베리아 반도의 다른 그리스-로마 조각상들과 마찬가지로, 소위 '카디스 우상'이 초자연적이고 보호적인 힘을 지니고 있다고 믿었습니다. 그것이 기념비였는지, 무덤이었는지, 혹은 가장 가능성 높은 항해용 표지였는지는 불분명한데, 12세기에 파괴되었기 때문이며, 아마도 조각상을 녹여 돈으로 만들었을 것입니다." # 10431347772071273589
   RICE_demolish_cadiz_idol_nothing: "아무 일도 일어나지 않습니다" # 6572300539204316174
   RICE_demolish_cadiz_idol_character_curse: "당신은 저주받은 것 같습니다" # 12557838975175531493
   RICE_demolish_cadiz_idol_county_curse: "카디스 주는 저주받았다고 전해집니다" # 11933037541353994731
@@ -469,7 +469,7 @@
   granada.0028.a: "xxxxx" # 1951045980481827005
   granada.0029.t: "xxxxx" # 1951045980481827005
   granada.0029.desc: "xxxxx" # 1951045980481827005
-  granada.0029.a: "xxxxx" # 1951045980481827005
+  granada.0029.a: "xxxx\"" # 15308465615999842627
   granada.0030.t: "[hafsa.GetFirstNamePossessiveNoTooltip] 비탄" # 4221678831310655059
   granada.0030.desc: "당신은 여전히 내 꿈에 나타나는군요, [abu_jafar.GetFirstName]. 오래전, 우리는 한가롭고 근심 없던 날들을 보내며 서로에게 시를 읊고 달빛 아래 포옹했었죠. 우리는 그때 행복한 삶을 살았습니다. 정원의 두 마리 새처럼, 세상에서 존경받고 이름난 두 시인처럼 말입니다.\n\n그 [uthman.Custom('InsultAdjective')] [uthman.Custom('InsultNoun')]인 [uthman.GetFirstName]이 우리의 행복을 끝냈습니다. [uthman.GetSheHe|U]는 짐승처럼 나를 탐냈지만, [uthman.GetSheHe]는 내 마음이 당신의 것이라는 걸 알았죠. 그때도 당신은 [uthman.GetHerHim]을 충실한 관료로서 섬겼습니다. 그러다 [uthman.GetHerHis]의 계략과 비행이 도를 넘자, 당신은 [uthman.GetHerHim]에게 반기를 들었죠. [uthman.GetSheHe|U]는 이 핑계를 대어 당신을 잔인하게 처형했습니다.\n\n지금도 나는 당신을 위해 눈물을 흘립니다. 지금도 나는 [uthman.GetFirstNameNoTooltip]을 저주합니다. 지금도 내 마음이 치유될 수 있을지, 내 인생이 어떤 방향으로 나아갈지 알 수 없습니다...." # 2735281981294179306
   granada.0030.a: "그리워요, 정말 많이..." # 14020772169387933418

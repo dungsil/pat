@@ -33,7 +33,7 @@
   bao_tradition_breizh_collective_lands_desc: "케베즈(현대 프랑스어로는 케베즈, 중세 형태로는 케메즈로 흔히 보임)는 농민들을 보호하기 위해 고안된(제한적인 방식이었지만) 지주 지휘 하의 토지 소유 시스템이었습니다. 이 시스템은 중세 온난기에 브르타뉴 지역의 토지 개간을 돕기 위해 시행되었습니다." # 9734861444978011375
   bao_tradition_free_range_name: "페우라주 리브르" # 7508876449230830294
   bao_tradition_free_range_desc: "브르타뉴 말은 중세 시대에 매우 유명했습니다. 이 말들은 페우라주 리브르, 즉 자유 목초지, 다시 말해 반쯤 길들여지거나 완전히 야생인 방목지에서 길러졌으며, 유명한 기사 베르트랑 뒤 글랭클랭 같은 서유럽 전역의 귀족들에게 높이 평가받았습니다. 15세기 말에 이르러 모든 목초지는 단일 가문에 의해 독점당했습니다." # 4264118897673158960
-  culture_parameter_bao_free_ranges: "통치자들은 [GetGeographicalRegion('RICE_brittany_horse_region').GetName]에 #high $building_type_bao_free_range_01$#! [building|E]을 건설할 수 있습니다." # 7157833794032364889
+  culture_parameter_bao_free_ranges: "통치자들은 #high $building_type_bao_free_range_01$#! [building|E]를 [GetGeographicalRegion('RICE_brittany_horse_region').GetName]에 건설할 수 있습니다." # 10104753688512062574
   culture_parameter_bao_horse_gift: "$bao_gift_breton_horses$ [interaction|E]를 해금합니다" # 3575714189776348332
   bao.0001.t: "소네리엔 두" # 11719380527731620589
   bao.0001.desc: "저의 병사들이 제 거처 밖에서 체포한 검은 옷을 입은 젊은이 두 명을 데려왔습니다.\n\\\"이 천한 무리들은 마른 도랑에서 잠자고 있는 것을 발견했습니다, 나의 [ROOT.Char.GetLadyLord]님\" 한 병사가 그들이 누구냐는 질문에 대답합니다.\"그들은 자신들이 교회 음악가라고 주장하지만, 수상하게 행동하고 있었으며, 허락 없이 폐하의 사유지를 이용하는 것은 명백히 노상 강도들입니다\"\n\n다른 병사가 끼어들며 말합니다.\"그들이 수상하게 행동하는 데에는 동의하지만, 성급하게 어떤 판단도 내릴 필요는 없다고 생각합니다\"\n\n첫 번째 병사는 다른 병사의 말을 무시하고 말합니다.\"그들은 좋든 싫든 노상 강도이니, 무단 침입에 대해 신속하고 본보기가 될 만한 처벌을 내리는 것을 제안합니다\"" # 753504623339968223

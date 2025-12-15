@@ -180,7 +180,7 @@
   game_concept_RICE_ten_scenes_of_west_lake_desc: "$game_concept_RICE_ten_scenes_of_west_lake$ 서호의 십경 xxxx [RICE_west_lake|E]" # 5523319889130173122
   RICE_hangzhou_legend_qian_liu_tidal_bore_name: "조수 해일 뚫기" # 15429571322153654585
   RICE_hangzhou_legend_qian_liu_tidal_bore_desc: "치안탕 강 주변에 사는 백성들을 보호하기 위해, [ruler.GetTitledFirstName]께서는 거대한 방파제 건설을 명하셨습니다. 소문에 따르면, 밀물 거인의 정령이 둑을 파괴하려 했을 때, [ruler.GetSheHe]께서는 [ruler.GetFirstNameNoTooltip]께서 궁수들에게 명하여 화살 세례를 퍼부어 밀물을 되돌려 보냈다고 합니다." # 9250593053006669558
-  RICE_hangzhou_legend_qian_liu_tidal_bore_chapter_opening_new_title: "xxxxx" # 1951045980481827005
+  RICE_hangzhou_legend_qian_liu_tidal_bore_chapter_opening_new_title: "xxxx\"" # 15308465615999842627
   RICE_hangzhou_legend_qian_liu_tidal_bore_chapter_motivation_new_title: "xxxxx" # 1951045980481827005
   RICE_hangzhou_legend_qian_liu_tidal_bore_chapter_famous_deed_new_title: "[ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip]께서는 밀려드는 파도의 기세에 굴복하지 않고 행동에 나서기로 결심하셨습니다. 음력 8월 18일, 조수간만의 차가 가장 심할 때, [ROOT.Legend.GetProtagonist.GetSheHe]께서는 쇠뇌로 무장한 만 명 이상의 궁수들을 모아 강을 포위했습니다. 파도가 거세게 밀려오자, [ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip]께서는 현지인들이 환호하는 가운데 궁수들에게 강물 속으로 맹렬한 화살 세례를 퍼부으라는 명령을 내리셨습니다. 이 의로운 힘을 과시하는 모습에 위축된 파도는 기적처럼 물러났고, 건설 중이던 둑은 무사했습니다." # 10575773814757780754
   RICE_hangzhou_legend_qian_liu_tidal_bore_chapter_extra_deed_new_title: "xxxxx" # 1951045980481827005
@@ -420,7 +420,7 @@
   RICE_hangzhou_dedicate_temple_to_yue_fei_desc: "위대한 영웅이자 장군이었던 악비(Yue Fei)가 복권되었으니, 이제 그의 묘소가 있는 [GetTitleByKey('c_hangzhou').GetNameNoTier]에 사원을 세우는 것이 마땅하오. 그리하여 후세들이 그를 기리고 그의 유산을 기억할 수 있을 것이오." # 12036700304029231086
   RICE_hangzhou_dedicate_temple_to_yue_fei_effect_tooltip_1: "xxxxx" # 1951045980481827005
   RICE_hangzhou_dedicate_temple_to_yue_fei_confirm: "웨이 페이의 용맹함이 우리에게 계속 영감을 주기를!" # 11189055014405423949
-  RICE_hangzhou_dedicate_temple_to_yue_fei_context_tooltip: "#emphasis 역사적 배경:#! 악비는 송나라의 장군으로, 북중국을 정복했던 여진족과의 전쟁에서 송나라를 이끌었습니다. 정치적 적들에 의해 반역죄로 몰려 처형당했으나, 수년 후 복권되어 오늘날 중국의 위대한 영웅 중 한 명으로 추앙받고 있습니다. 닝종 황제는 1221년 항저우에 악비를 위한 특별 사당을 봉헌했습니다." # 14770005133931590816
+  RICE_hangzhou_dedicate_temple_to_yue_fei_context_tooltip: "#emphasis 역사적 배경:#! 악비는 송나라의 장군으로, 북방 중국을 정복했던 여진족과의 전쟁에서 송나라를 이끌었습니다. 정치적 적들에게 반역죄로 몰려 처형되었으나, 악비는 수년 후 복권되어 현재는 중국의 위대한 영웅 중 한 명으로 추앙받고 있습니다. 닝종 황제는 1221년 항저우에 악비를 위한 특별 사당을 봉헌했습니다." # 17998950224332308291
   RICE_hangzhou_build_su_causeway: "서호에 대운하를 건설합니다" # 13584781585132875409
   RICE_hangzhou_build_su_causeway_tooltip: "웨스트 레이크에 또 다른 둑길이 필요합니다." # 2419607397687706059
   RICE_hangzhou_build_su_causeway_desc: "수년 전, 위대한 시인이자 당시 [GetTitleByKey('c_hangzhou').GetNameNoTier]의 태수였던 백거이(Bǎi Jūyì)는 호수의 미관과 수질 개선을 위해 [RICE_west_lake|E]를 가로지르는 둑길 건설을 명했습니다. 우리도 이제 비슷한 노력을 기울일 때입니다." # 6005325745660893236
@@ -523,7 +523,7 @@
   hangzhou.0028.a: "xxxxx" # 1951045980481827005
   hangzhou.0029.t: "xxxxx" # 1951045980481827005
   hangzhou.0029.desc: "xxxxx" # 1951045980481827005
-  hangzhou.0029.a: "xxxxx" # 1951045980481827005
+  hangzhou.0029.a: "xxxx\"" # 15308465615999842627
   hangzhou.0030.t: "서호로" # 5870165793402234459
   hangzhou.0030.desc: "[GetTitleByKey('c_hangzhou').GetNameNoTier]에서 가장 유명한 장소 중 하나는 서호입니다. 스스로를 교양 있고 세련되었다고 생각하는 모든 존경받는 관광객이라면, 한 번 이상은 아니더라도 최소한 한 번은 꼭 방문해야 할 곳이죠.\n\n이에 저는 서호로의 여행을 준비했습니다. 그곳에서 저와 제 동료들은 호수의 수많은 유명한 명소들 사이에서 비할 데 없는 평화롭고 고요한 분위기를 만끽할 것입니다." # 13658796287895758896
   hangzhou.0030.a: "[GetTitleByKey('c_hangzhou').GetNameNoTierNoTooltip]으로 가자!" # 15529930303357722978
@@ -868,7 +868,7 @@
   hangzhou.0128.a: "xxxxx" # 1951045980481827005
   hangzhou.0129.t: "xxxxx" # 1951045980481827005
   hangzhou.0129.desc: "xxxxx" # 1951045980481827005
-  hangzhou.0129.a: "xxxxx" # 1951045980481827005
+  hangzhou.0129.a: "xxxx\"" # 15308465615999842627
   hangzhou.0130.t: "xxxxx" # 1951045980481827005
   hangzhou.0130.desc: "xxxxx" # 1951045980481827005
   hangzhou.0130.a: "xxxxx" # 1951045980481827005

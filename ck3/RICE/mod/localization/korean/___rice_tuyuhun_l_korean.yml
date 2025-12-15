@@ -14,7 +14,7 @@
   unlock_rice_travel_option_qinghaicong_horses_name: "[Glossary('$tradition_RICE_xianbei_scions_name|q$', 'tradition_RICE_xianbei_scions_desc')]" # 14397499771513639434
   RICE_tuyuhun_legend_new_title_name: "투욕혼의 부흥" # 301214007716964546
   RICE_tuyuhun_legend_new_title_desc: "한때 흩어졌던 토욕혼은 위대한 지도자이신 [founder.GetTitledFirstName]의 후원 아래 재결합했습니다." # 11144592644202730763
-  RICE_tuyuhun_legend_chapter_opening_new_title: "[ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip]이 태어나기 훨씬 전, [ROOT.Legend.GetProperty( 'original_culture' ).Culture.GetNameNoTooltip]은 크게 두려움과 존경을 받았습니다. 하지만 그들은 당나라와 티베트 간의 싸움에서 꼭두각시 신세가 되었고, 결국 티베트의 침공 이후 멸망하고 말았습니다." # 11349872738077303019
+  RICE_tuyuhun_legend_chapter_opening_new_title: "[ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip]이 태어나기 훨씬 전, [ROOT.Legend.GetProperty( 'original_culture' ).Culture.GetNameNoTooltip]은 크게 두려움과 존경을 받았습니다. 하지만 그들은 당나라와 티베트 간의 싸움에서 꼭두각시 신세가 되었고, 결국 티베트의 침공 이후 붕괴하고 말았습니다." # 1561287901184904671
   RICE_tuyuhun_legend_chapter_motivation_new_title: "[ROOT.Legend.GetProtagonist.GetHerHis] [ROOT.Legend.GetProperty( 'original_culture' ).Culture.GetNameNoTooltip] 선조들의 전설을 들은 [ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip]는 어릴 때부터 옛 [ROOT.Legend.GetProperty( 'title' ).Title.GetNameNoTooltip]를 재건하는 것이 자신의 운명임을 알았습니다." # 10153877822031637216
   RICE_tuyuhun_legend_chapter_famous_deed_new_title: "수많은 전투와 전쟁, 그리고 수많은 교활함과 외교적 행보를 통해, [ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip] 님은 마침내 최초의 [ROOT.Legend.GetProperty( 'original_culture' ).Culture.GetCollectiveNounNoTooltip] 후예들을 다시 모았습니다." # 3366932405192530961
   RICE_tuyuhun_legend_chapter_extra_deed_new_title: "이 [ROOT.Legend.GetProperty( 'original_culture' ).Culture.GetCollectiveNounNoTooltip]의 모든 후예들은, 아무리 멀리 갈라져 나갔더라도, 마음속에 옛 왕국의 영광을 잘 기억하고 있었습니다. 그리하여 그들은 새로 태어난 왕국의 귀환을 진심으로 환영했습니다." # 9147996926500226855
@@ -191,11 +191,11 @@
   tuyuhun.0028.a: "결국, 식량이 없다면 우리는 어디에 있겠습니까?" # 17785612445857364378
   tuyuhun.0029.t: "삼국지 전기" # 13427356952743058208
   tuyuhun.0029.desc: "투욕혼은 한족은 아니지만 중국 이웃들에게서 일부 영향을 받았으며, 나둔 기간에는 중국 전설을 소재로 한 연극 공연이 흔합니다. 가장 인기 있는 이야기는 중국 역사의 삼국 시대 이야기인데, 이 내전 시대에는 거인 같은 영웅과 악당들이 힘, 지성, 카리스마로 세상을 뒤흔들기 위해 싸웠습니다. 이 극적인 이야기가 펼쳐지는 것을 지켜보면서, 저는 이 영웅들과 악당들 중 누가 가장 재미있다고 생각할까요?" # 12963517072468078278
-  tuyuhun.0029.a: "자비로운 유비와 그의 굳건한 촉나라" # 18034796700507504247
-  tuyuhun.0029.b: "야심 찬 조조와 그의 번성하는 위 왕국" # 15159616754176820619
-  tuyuhun.0029.c: "근면한 손권과 그의 용맹한 오나라" # 7721906749544493920
-  tuyuhun.0029.d: "교활한 사마의, 그의 승리한 후손들이 진(晉)을 세웠다" # 17826609931383827899
-  tuyuhun.0029.e: "무시무시한 공포의 무장, 맹렬한 여포" # 8324479678411646406
+  tuyuhun.0029.a: "자비로운 유비와 그의 굳건한 촉나라 왕국" # 6048287018062078335
+  tuyuhun.0029.b: "야심 찬 조조와 그의 번성하는 위 왕국" # 6556936086209195312
+  tuyuhun.0029.c: "근면한 손권과 그의 용맹한 오나라 왕국" # 4729553428997152812
+  tuyuhun.0029.d: "교활한 사마의, 그의 승리한 후손들이 진나라를 세웠지" # 9536571609926175520
+  tuyuhun.0029.e: "흉포한 여포, 필적할 자 없는 공포의 무\"" # 5469584498641010056
   tuyuhun.0030.t: "방문할 것인가 말 것인가" # 3086542287551592230
   tuyuhun.0030.desc: "나둔 시기는 사람들이 서로 방문하고 한 해 동안 얻은 지식과 경험을 나누기에 중요한 때입니다. 제가 머무는 마을에는 방문할 만한 지인들이 여럿 있는데, 그들의 교제를 즐길까요?" # 10441098727833723366
   tuyuhun.0030.a: "아니요, 축제를 그대로 즐기고 있습니다!" # 11260428784157135474

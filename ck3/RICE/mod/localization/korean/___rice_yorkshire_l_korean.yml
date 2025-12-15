@@ -145,9 +145,9 @@
   RICE_yorkshire_go_on_a_pilgrimage_to_beverley_confirm: "시작해보지!" # 1830976368998437983
   RICE_yorkshire_go_on_a_pilgrimage_to_beverley_effect_tooltip: "이 성지 순례를 완료하면 다른 요구 사항을 충족하는 한 #V 성 요한 드 비벌리 성기를 빌리는# [decision|E]를 사용할 수 있게 됩니다!" # 3932860220857067044
   RICE_yorkshire_go_on_a_pilgrimage_to_beverley_effect_2_tooltip: "이 성지 순례를 여러 번 다녀오면 #V 성 요한의 베벌리 기를 빌리는 결정#! [decision|E]을 내릴 때 얻는 이점이 증가할 것입니다." # 15916263669561542496
-  RICE_yorkshire_go_on_a_pilgrimage_to_beverley_context_tooltip: "$RICE_yorkshire_secure_canonization_of_john_of_beverley_context_tooltip$" # 10342925304109424783
-  RICE_yorkshire_beverley_pilgrimage_distance_req: "[realm_capital|E]는 #V 베벌리#!와 가깝습니다." # 4466604310159747334
-  RICE_yorkshire_beverley_pilgrimage_english_culture_req: "[realm_capital|E]는 브리튼 제도, 프랑스, 또는 저지대에 위치해 있습니다." # 18127381428216187984
+  RICE_yorkshire_go_on_a_pilgrimage_to_beverley_context_tooltip: "요크셔의 성 요한 시성 추진에 대한 역사적 배경:" # 8044808120617683835
+  RICE_yorkshire_beverley_pilgrimage_distance_req: "[realm_capital|E]가 #V 베벌리#!와 가깝습니다!" # 8040078346429225577
+  RICE_yorkshire_beverley_pilgrimage_english_culture_req: "[realm_capital|E]가 브리튼 제도, 프랑스, 또는 저지대에 위치합니\"" # 7418130391866654992
   RICE_yorkshire_borrow_banner_of_saint_john: "성 요한의 기치를 빌리다" # 5042189455276862806
   RICE_yorkshire_borrow_banner_of_saint_john_tooltip: "[saint_john_of_beverley_short|E]의 깃발은 그것을 지닌 이에게 강력한 유물입니다." # 11589881749485102237
   RICE_yorkshire_borrow_banner_of_saint_john_desc: "[saint_john_of_beverley|E]의 깃발은 그것을 휘두르는 자에게 위대한 군사적 힘을 부여한다고 전해집니다. 저는 그 힘을 휘두를 자격이 있다고 생각합니다. 물론 세속적인 권력을 탐하는 것이 아니라, 그저 [ROOT.Char.GetFaith.GetAdjective] 교회의 적들을 쳐부수기 위해서 말입니다." # 7790810622314236038
@@ -166,32 +166,32 @@
   RICE_decision_bull_run_month_requirement: "달은 8월에서 10월 사이여야 합니다." # 9074046564142542111
   RICE_decision_bull_run_distance_requirement: "[realm_capital|E]는 #V 스탬퍼드#!와 가깝습니다." # 11636235175553840144
   RICE_yorkshire_spectate_the_stamford_bull_run_confirm: "기대가 되는군!" # 15237425321543376298
-  RICE_yorkshire_spectate_the_stamford_bull_run_context_tooltip: "#emphasis 역사적 배경:#! 스탬퍼드 마을에서는 매년 11월 13일에 소 몰이 행사가 열렸습니다. 이에 대한 가장 이른 명시적 언급은 서기 1389년으로 거슬러 올라가지만, 그 이전부터 어느 정도 진행되었을 가능성이 높습니다. 아마도 꾸며낸 전설에 따르면, 이 전통은 13세기 초에 한 지역 노르만 영주가 암소를 두고 싸우는 두 마리의 황소를 떼어놓는 데 지역 도축업자들을 도우면서 시작되었다고 합니다. 그는 그 광경을 너무나 즐긴 나머지 매년 이 행사를 재현하자고 제안했습니다. 스탬퍼드만의 고유한 행사는 아니었지만, 이 떠들썩한 축제는 청교도 시대 이후에도 살아남아 1839년 이후에야 그로 인해 발생한 심각한 공공 질서 문란으로 인해 마침내 억압되었습니다." # 6909607963982415276
+  RICE_yorkshire_spectate_the_stamford_bull_run_context_tooltip: "#emphasis 역사적 배경:#! 스탬퍼드 마을에서는 매년 11월 13일에 소 몰이 행사가 열렸습니다. 이에 대한 가장 이른 명시적 언급은 서기 1389년으로 거슬러 올라가지만, 그 이전부터 아마도 꽤 오랫동안 이어져 왔을 것입니다. 사실일 가능성이 낮은 전설에 따르면, 이 전통은 13세기 초에 한 지역의 노르만 영주가 소 한 마리를 두고 싸우는 두 마리의 황소를 떼어놓는 것을 지역 도살업자들을 도우면서 시작되었다고 합니다. 그는 그 광경을 매우 즐긴 나머지 매년 그 행사를 재현하자고 제안했습니다. 스탬퍼드만의 고유한 행사는 아니었지만, 이 시끄러운 축제는 청교도 시대 이후에도 살아남아, 엄청난 공공 질서를 야기한 끝에 1839년 이후에야 진압되었습니다." # 9743571636094251952
   RICE_yorkshire_charter_fair_granted_recently_req: "귀하의 [realm|E] 내 그 누구도 최근에 주요 도시 특권 부여 [decision|E]를 내리지 않았습니다." # 11074511362902495794
   RICE_yorkshire_grant_stamford_charter_fair: "스탬퍼드에 시장 개설 특허를 부여합니다" # 6397488966031720277
   RICE_yorkshire_grant_stamford_charter_fair_tooltip: "스탬퍼드에 [charter_fair|E]를 개최할 권리를 부여해야 합니다." # 10631437420420257324
   RICE_yorkshire_grant_stamford_charter_fair_desc: "#V 스탬퍼드#!는 잉글랜드에서 점점 더 중요하고 영향력 있는 무역 중심지로 부상하고 있습니다. 지역 상인들과 유지들은 이 도시에게 주요 [charter_fair|E]를 개최할 특권을 부여해 달라고 요청하고 있습니다." # 13608235414462093020
   RICE_yorkshire_grant_stamford_charter_fair_effect_tooltip: "귀하는 [liege|E]께 이 정착지에 [charter_fair|E]를 가질 권리를 부여해 달라고 청원하겠지만, 기본 비용 외에 상당한 양의 [prestige|E]도 지불하게 될 것입니다." # 6821692057067727697
   RICE_yorkshire_grant_stamford_charter_fair_confirm: "그것을 실행하십시오." # 12789241033859963003
-  RICE_yorkshire_grant_stamford_charter_fair_context_tooltip: "#emphasis 역사적 배경:#! 헌장 박람회는 잉글랜드에서 왕실 헌장에 의해 설립된 연례 길거리 시장으로, 비록 더 이른 선례가 있었을지라도 많은 박람회가 중세 시대로 거슬러 올라갑니다. 특히 스탬퍼드, 보스턴, 윈체스터, 노샘프턴의 일부 헌장 박람회는 매우 유명하여 일련의 순서를 이루었으며, 그 사이에 더 작은 박람회들이 채워졌습니다. 샹파뉴 박람회만큼 규모가 크지는 않았지만, 잉글랜드의 헌장 박람회는 그럼에도 불구하고 유럽 전역에서 수많은 상인들을 끌어모았습니다." # 3040529984223632432
+  RICE_yorkshire_grant_stamford_charter_fair_context_tooltip: "#emphasis 역사적 배경:#! 헌장 박람회는 잉글랜드에서 왕실 헌장에 의해 설립된 연례 거리 시장으로, 더 이른 선례가 있었을 수 있지만 많은 박람회가 중세 시대로 거슬러 올라갑니다. 특히 스탬퍼드, 보스턴, 윈체스터, 노샘프턴의 일부 헌장 박람회는 매우 유명하여 일련의 순서를 이루었으며, 더 작은 박람회들이 그 사이를 채웠습니다. 샴페인 박람회만큼 규모가 크지는 않았지만, 잉글랜드의 헌장 박람회는 그럼에도 불구하고 유럽 전역에서 많은 상인들을 끌어모았습니다." # 559647561045748634
   RICE_yorkshire_grant_boston_charter_fair: "보스턴에 시장을 허가합니다." # 11386222028367407779
   RICE_yorkshire_grant_boston_charter_fair_tooltip: "보스턴에 [charter_fair|E]를 개최할 권리를 부여해야 합니다." # 15590267049950746914
   RICE_yorkshire_grant_boston_charter_fair_desc: "#V 보스턴#! 은 잉글랜드에서 점점 더 중요하고 영향력 있는 무역 중심지로 부상하고 있습니다. 지역 상인들과 유력자들이 이 정착지에 주요 [charter_fair|E]를 개최할 수 있는 특권을 부여해 달라고 요청하고 있습니다." # 2010825720789405916
   RICE_yorkshire_grant_boston_charter_fair_effect_tooltip: "$RICE_yorkshire_grant_stamford_charter_fair_effect_tooltip$" # 7945850151986979407
   RICE_yorkshire_grant_boston_charter_fair_confirm: "$RICE_yorkshire_grant_stamford_charter_fair_confirm$" # 438686852617434866
-  RICE_yorkshire_grant_boston_charter_fair_context_tooltip: "$RICE_yorkshire_grant_stamford_charter_fair_context_tooltip$" # 13833191276856374584
+  RICE_yorkshire_grant_boston_charter_fair_context_tooltip: "$RICE_yorkshire_grant_stamford_charter_fair_context_tooltip$" # 1524068564676596015
   RICE_yorkshire_grant_winchester_charter_fair: "윈체스터에 시장 개설권을 부여합니다." # 4799206750275213679
   RICE_yorkshire_grant_winchester_charter_fair_tooltip: "윈체스터에 [charter_fair|E]를 개최할 권리를 부여해야 합니다." # 12256145563525694199
   RICE_yorkshire_grant_winchester_charter_fair_desc: "#V 윈체스터#! 는 잉글랜드에서 점점 더 중요하고 영향력 있는 무역 중심지로 부상하고 있습니다. 지역 상인들과 유력자들이 이 정착지에 주요 [charter_fair|E]를 개최할 특권을 부여해 줄 것을 요청하고 있습니다." # 3530303737209555328
   RICE_yorkshire_grant_winchester_charter_fair_effect_tooltip: "$RICE_yorkshire_grant_stamford_charter_fair_effect_tooltip$" # 7945850151986979407
   RICE_yorkshire_grant_winchester_charter_fair_confirm: "$RICE_yorkshire_grant_stamford_charter_fair_confirm$" # 438686852617434866
-  RICE_yorkshire_grant_winchester_charter_fair_context_tooltip: "$RICE_yorkshire_grant_stamford_charter_fair_context_tooltip$" # 13833191276856374584
+  RICE_yorkshire_grant_winchester_charter_fair_context_tooltip: "$RICE_yorkshire_grant_stamford_charter_fair_context_tooltip$" # 1524068564676596015
   RICE_yorkshire_grant_northampton_charter_fair: "노샘프턴에 시장 개설 허가를 내주다" # 17533414152922699151
   RICE_yorkshire_grant_northampton_charter_fair_tooltip: "#V 노샘프턴#!에 [charter_fair|E]를 개최할 권리를 부여해야 합니다." # 10347776221158699100
   RICE_yorkshire_grant_northampton_charter_fair_desc: "노샘프턴은 잉글랜드에서 점점 더 중요하고 영향력 있는 무역 중심지로 부상하고 있습니다. 지역 상인들과 유력자들이 이 정착지에 주요 [charter_fair|E]를 개최할 특권을 부여해 달라고 요청하고 있습니다." # 6772455831801191147
   RICE_yorkshire_grant_northampton_charter_fair_effect_tooltip: "$RICE_yorkshire_grant_stamford_charter_fair_effect_tooltip$" # 7945850151986979407
   RICE_yorkshire_grant_northampton_charter_fair_confirm: "$RICE_yorkshire_grant_stamford_charter_fair_confirm$" # 438686852617434866
-  RICE_yorkshire_grant_northampton_charter_fair_context_tooltip: "$RICE_yorkshire_grant_stamford_charter_fair_context_tooltip$" # 13833191276856374584
+  RICE_yorkshire_grant_northampton_charter_fair_context_tooltip: "$RICE_yorkshire_grant_stamford_charter_fair_context_tooltip$" # 6107496836177092915
   RICE_yorkshire_grant_stourbridge_charter_fair: "스투어브리지에 케임브리지 장터 특허를 부여합니다." # 6579762900589487971
   RICE_yorkshire_grant_stourbridge_charter_fair_tooltip: "케임브리지에 스터브리지 공동에서 [charter_fair|E]를 개최할 권리를 부여해야 합니다." # 3249922997743934018
   RICE_yorkshire_grant_stourbridge_charter_fair_desc: "케임브리지 정착지는 꽤 오랫동안 스타우브리지 공동(Stourbridge Common)에서 자체적인 [charter_fair|E]를 개최할 권리를 요청해 왔습니다. 영국 내에는 많은 중요한 장터가 있지만, 스타우브리지의 장터는 유리한 위치 덕분에 매우 성공적일 것이라는 느낌이 듭니다." # 11403586284743598527
@@ -306,7 +306,7 @@
   yorkshire.0028.a: "xxxxx" # 1951045980481827005
   yorkshire.0029.t: "xxxxx" # 1951045980481827005
   yorkshire.0029.desc: "xxxxx" # 1951045980481827005
-  yorkshire.0029.a: "xxxxx" # 1951045980481827005
+  yorkshire.0029.a: "xxxx\"" # 15308465615999842627
   yorkshire.0030.t: "준비" # 666839747819429162
   yorkshire.0030.desc: "나는 [beverley_location.GetNameNoTier]에 있는 베벌리 마을로 가서 성 요한의 무덤을 참배하기로 결정했습니다. 그분은 전설적인 삶을 사신 지극히 성스러운 분이시며, 많은 지도자들에게 전쟁과 정치에서 행운을 내려주셨다고 전해집니다. 물론, 나의 진정한 목적은 영적인 필요를 위해서 그곳에 가는 것이어야만 합니다." # 17931722224136346529
   yorkshire.0030.a: "곧 그곳으로 여행할 준비를 하겠습니다!" # 4516512420640322928
@@ -628,7 +628,7 @@
   yorkshire.0128.a: "xxxxx" # 1951045980481827005
   yorkshire.0129.t: "xxxxx" # 1951045980481827005
   yorkshire.0129.desc: "xxxxx" # 1951045980481827005
-  yorkshire.0129.a: "xxxxx" # 1951045980481827005
+  yorkshire.0129.a: "xxxx\"" # 15308465615999842627
   yorkshire.0130.t: "xxxxx" # 1951045980481827005
   yorkshire.0130.desc: "xxxxx" # 1951045980481827005
   yorkshire.0130.a: "xxxxx" # 1951045980481827005

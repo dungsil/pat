@@ -4,7 +4,7 @@
   idoism_religion_adherent: "차드인" # 12469831030317188840
   idoism_religion_adherent_plural: "차드인" # 15206818056369650744
   idoism_religion_desc: "중앙 사하라와 사헬 지역의 주민들은 자연과 영적인 세계에 대한 존중을 포함하여 다양한 전통을 가지고 있습니다. 산은 종종 신성하게 여겨집니다." # 14532931641159124892
-  idoism_house_of_worship: "성소" # 10631482914847637291
+  idoism_house_of_worship: "성\"" # 5544301396001823540
   idoism_house_of_worship_plural: "성소들" # 7895485644411018553
   idoism_religious_symbol: "나하스" # 1305758836452008142
   idoism_religious_text: "신성한 노래들" # 8955817660240305435
@@ -50,7 +50,7 @@
   idoism_war_god_name_possessive: "마니의" # 17412772031475347354
   idoism_trickster_god_name: "보이" # 7282597925008143620
   idoism_trickster_god_name_possessive: "보이즈" # 15429454206238048035
-  idoism_night_god_name: "$idoism_trickster_god_name$" # 8984026100031971298
+  idoism_night_god_name: "$idoism_trickster_god_name$" # 12781090202711949381
   idoism_night_god_name_possessive: "$idoism_trickster_god_name_possessive$" # 17453800011278835534
   idoism_water_god_name: "물 정령들" # 9519750894473435075
   idoism_water_god_name_possessive: "물 정령의" # 12727479961446331014

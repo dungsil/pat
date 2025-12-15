@@ -82,7 +82,7 @@
   RICE_niger_delta_got_caught_eating_yams_memory: "[GetActivityType( 'activity_RICE_niger_delta_new_yam_festival' ).GetName] 기간에 얌을 먹다가 들켰습니다" # 10067908763981727110
   RICE_niger_delta_got_caught_eating_yams_memory_first_perspective: "[GetActivityType( 'activity_RICE_niger_delta_new_yam_festival' ).GetName]에서 얌(마)을 먹다가 들켰습니다." # 262430541548809935
   RICE_niger_delta_got_caught_eating_yams_memory_second_perspective: "#bold 당신은 [GetActivityType( 'activity_RICE_niger_delta_new_yam_festival' ).GetName] 중에 얌(마)을 먹다가 들켰습니다!#" # 1245920476089223419
-  RICE_niger_delta_got_caught_eating_yams_memory_third_perspective: "[owner.GetName]이(가) [GetActivityType( 'activity_RICE_niger_delta_new_yam_festival' ).GetName] 기간 중 얌(마)을 먹다가 발각되었습니다." # 13000017860784493080
+  RICE_niger_delta_got_caught_eating_yams_memory_third_perspective: "[owner.GetName] got caught eating yams during the [GetActivityType( 'activity_RICE_niger_delta_new_yam_festival' ).GetName]\" "
   RICE_niger_delta_olojo_festival_host_memory: "[GetActivityType( 'activity_RICE_niger_delta_olojo_festival' ).GetName]에 참여했습니다." # 2634245664672875435
   RICE_niger_delta_olojo_festival_host_memory_first_perspective: "저는 [GetTitleByKey('b_ile-ife').GetNameNoTier]에서 [GetActivityType( 'activity_RICE_niger_delta_olojo_festival' ).GetName]에 참여했습니다." # 17407297254688317831
   RICE_niger_delta_olojo_festival_host_memory_second_perspective: "당신은 [GetTitleByKey('b_ile-ife').GetNameNoTier]에서 열린 [GetActivityType( 'activity_RICE_niger_delta_olojo_festival' ).GetName]에 참여했습니다." # 1349283861361695150
@@ -511,7 +511,7 @@
   niger_delta.0028.a: "xxxxx" # 1951045980481827005
   niger_delta.0029.t: "xxxxx" # 1951045980481827005
   niger_delta.0029.desc: "xxxxx" # 1951045980481827005
-  niger_delta.0029.a: "xxxxx" # 1951045980481827005
+  niger_delta.0029.a: "xxxx\"" # 15308465615999842627
   niger_delta.0030.t: "날짜 선택" # 9724098820096967044
   niger_delta.0030.desc: "새로운 얌 축제가 곧 다가옵니다. 이때 우리는 [ROOT.Char.GetCulture.GetName] 사람들이 재배하는 가장 중요한 작물 중 하나인 얌의 첫 수확을 기념할 것입니다.\n축제 준비가 시작되기도 전에, 우리는 축제가 열릴 상서로운 날짜를 정해야 합니다. 그러한 결정은 가볍게 내릴 수 없습니다. 이제 질문은 이것입니다. 올해 축제 날짜를 정하기 위해 [ROOT.Char.GetFaith.PantheonTerm]과 상의할 책임을 누가 져야 할까요?" # 12006160701939178342
   niger_delta.0030.a: "[ROOT.Char.GetPrimaryTitle.GetNameNoTooltip]의 [ROOT.Char.GetTitleAsNameNoTooltip]으로서, 이는 나의 의무입니다." # 7872283485408623202
@@ -895,7 +895,7 @@
   niger_delta.0128.a: "xxxxx" # 1951045980481827005
   niger_delta.0129.t: "xxxxx" # 1951045980481827005
   niger_delta.0129.desc: "xxxxx" # 1951045980481827005
-  niger_delta.0129.a: "xxxxx" # 1951045980481827005
+  niger_delta.0129.a: "xxxx\"" # 15308465615999842627
   niger_delta.0130.t: "xxxxx" # 1951045980481827005
   niger_delta.0130.desc: "xxxxx" # 1951045980481827005
   niger_delta.0130.a: "xxxxx" # 1951045980481827005
