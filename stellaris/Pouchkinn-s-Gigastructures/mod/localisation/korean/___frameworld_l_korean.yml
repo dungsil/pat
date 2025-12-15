@@ -1,7 +1,7 @@
 ﻿l_korean:
   scope_debug: "이것: [This.GetName] 루트: [Root.GetName] 이전: [Prev.GetName] 출처: [From.GetName] 전역: [global_event_country.GetName]" # 8378610365594505185
-  mod_planet_technician_minerals_upkeep_add_planet: "£job_technician£ [owner.GetTechnicianPlural] 유지비: £minerals£ $minerals$" # 10165835869710427165
-  mod_planet_technician_energy_produces_add_planet: "£energy£ $energy$ £job_technician£ [owner.GetTechnicianPlural]에서" # 13726705562989641663
+  mod_planet_technician_minerals_upkeep_add_planet: "£minerals£ $minerals$ [owner.GetTechnicianPlural]의 £job_technician£ 유지 비용" # 13928311025342722935
+  mod_planet_technician_energy_produces_add_planet: "£energy£ $energy$는 £job_technician£ [owner.GetTechnicianPlural]로부터 얻습니다." # 12340334754526725443
   giga_biotrophy_scaling: "$job_bio_trophy$ 규모" # 385784671154790668
   giga_biotrophy_scaling_fluff: "일정 시점을 넘어서면, 유기체를 관리하는 것의 이점은 개체 수 증가에 따른 운영 부담으로 인해 상쇄됩니다." # 14690128593205267302
   giga_biotrophy_scaling_desc: "§T이 메가스트럭처는 일반 행성보다 훨씬 높은 밀도의 £job_bio_trophy£ §Y$job_bio_trophy_plural$§!을 허용합니다. 이 효과는 §Y$mod_planet_jobs_complex_drone_produces_mult$§!이 높은 수치에 도달했을 때 발생하는 극심한 중첩 효과를 상쇄합니다.\n\n추가적인 £job_bio_trophy£ §Y$job_bio_trophy_plural$§!은 항상 이롭지만, 새로운 팝이 증가함에 따라 효율성은 §Y50§! 팝을 초과하면 §Y20%§!로, §Y150§! 팝에서는 더 낮아집니다.\n\n$job_bio_trophy$ 팝: §Y[Root.giga_biotrophy_count]§!\n기본 보너스: §G+[Root.giga_biotrophy_count]%§!\n조정된 보너스: §G+[Root.giga_biotrophy_adjusted]%§!\n효율성: §Y[Root.giga_biotrophy_efficiency]%§!§!\n§T--------------§!\n$giga_biotrophy_scaling_fluff$" # 11993481704150043451
