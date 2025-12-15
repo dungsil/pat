@@ -532,4 +532,4 @@
   bpm_modernizers.9.a: "신흥 세력에 불과하다네" # 406621537650172914
   bpm_modernizers.9.b: "[SCOPE.sCountry('relevant_country').GetName]가 서구보다 더 나은 본보기입니다!" # 11339864010255547903
   is_russia_tt: "#variable 러시아#입니까!" # 6435518938092277452
-  je_bpm_orleg_not_influencial_tooltip: "[GetInterestGroupVariant('ig_conservatives,GetPlayer).GetName]과 [GetInterestGroupVariant('ig_reactionaries',GetPlayer).GetName]의 영향력은 8% 미만입니다 (현재 [GetPlayer.MakeScope.ScriptValue('bpm_orleg_clout')|%|])." # 8975044479091050063
+  je_bpm_orleg_not_influencial_tooltip: "[GetInterestGroupVariant('ig_conservatives',GetPlayer).GetName]과 [GetInterestGroupVariant('ig_reactionaries',GetPlayer).GetName]의 영향력은 8% 미만입니다 (현재 [GetPlayer.MakeScope.ScriptValue('bpm_orleg_clout')|%|])." # 15064397949463780238
