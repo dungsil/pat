@@ -210,11 +210,13 @@ The `transliteration_files` option allows manual specification of files that sho
 
 ### Transliteration Mode
 
-The system automatically switches between **translation** (번역) and **transliteration** (음역) based on file naming patterns.
+The system automatically switches between **translation** (번역) and **transliteration** (음역) based on file naming patterns and key patterns.
 
 **When to use each mode**:
 - **Translation**: Semantic meaning conversion for general game content (events, modifiers, decisions, etc.)
 - **Transliteration**: Phonetic conversion for proper nouns (culture names, dynasty names, character names)
+
+#### File-level Transliteration
 
 **Automatic detection** (`shouldUseTransliteration(filename)`):
 Files are automatically processed in transliteration mode when the filename contains:
@@ -236,13 +238,52 @@ shouldUseTransliteration("events_l_english.yml")              // → false
 shouldUseTransliteration("modifiers_l_english.yml")           // → false
 ```
 
-**How it works**:
+#### Key-level Transliteration
+
+**Automatic detection** (`shouldUseTransliterationForKey(key)`):
+Even within regular translation files, specific key patterns are processed in transliteration mode:
+
+**Dynasty name patterns**:
+- `dynn_*` - Dynasty names (e.g., `dynn_Austmadur`, `dynn_RICE_leslie`)
+- `dynnp_*` - Dynasty prefixes (e.g., `dynnp_al-`, `dynnp_de`, `dynnp_banu`)
+
+**Proper noun suffix patterns**:
+- `*_adj` - Adjectival proper nouns (e.g., `dyn_c_pingnan_guo_adj`)
+- `*_name` - Names (e.g., `dynasty_name`, `culture_name`)
+
+**Exclusion rules**:
+- Keys ending with `*_desc`, `*_event`, `*_decision` use semantic translation
+- Context-based keys (descriptions, events, decisions) require semantic translation
+
+**Examples**:
+```typescript
+// Key-level transliteration (in regular translation files)
+shouldUseTransliterationForKey("dynn_Austmadur")        // → true (dynasty name)
+shouldUseTransliterationForKey("dynnp_al-")             // → true (dynasty prefix)
+shouldUseTransliterationForKey("culture_adj")           // → true (_adj suffix)
+shouldUseTransliterationForKey("dynasty_name")          // → true (_name suffix)
+shouldUseTransliterationForKey("heritage_desc")         // → false (_desc suffix)
+shouldUseTransliterationForKey("culture_event")         // → false (_event suffix)
+```
+
+**Result example**:
+```yaml
+# Within events_l_english.yml (regular translation file)
+dynn_Austmadur:0 "Austmadur"        → "아우스트마두르" (transliteration)
+culture_name:0 "Korean"              → "한국인" (transliteration)
+culture_adj:0 "Korean"               → "한국의" (transliteration)
+heritage_desc:0 "Korean heritage"    → "한국 유산" (semantic translation)
+```
+
+#### How it works
+
 1. File is detected during processing in `factory/translate.ts`
-2. `shouldUseTransliteration(filename)` determines the mode
-3. Appropriate prompt is selected: `CK3_TRANSLITERATION_PROMPT` vs `CK3_SYSTEM_PROMPT`
-4. Proper nouns dictionary is used instead of general glossary
-5. Cache key includes `transliteration:` prefix to separate from translations
-6. Both modes use the same YAML output format
+2. `shouldUseTransliteration(filename)` determines file-level mode
+3. For each key, `shouldUseTransliterationForKey(key)` may override to transliteration mode
+4. Appropriate prompt is selected: `CK3_TRANSLITERATION_PROMPT` vs `CK3_SYSTEM_PROMPT`
+5. Proper nouns dictionary is used instead of general glossary
+6. Cache key includes `transliteration:` prefix to separate from translations
+7. Both modes use the same YAML output format
 
 **Result differences**:
 ```
@@ -254,17 +295,21 @@ File: culture_name_lists_l_english.yml (transliteration mode)
 File: events_l_english.yml (translation mode)
 "the culture" → "문화" (semantic)
 "dynasty name" → "왕조 이름" (semantic)
+
+File: events_l_english.yml, Key: dynn_Leslie (key-level transliteration)
+"Leslie" → "레슬리" (phonetic, overrides file-level translation mode)
 ```
 
 **Benefits**:
 - Maintains consistency in proper noun transliteration
 - Prevents semantic translation errors for names (e.g., "Afar" as "멀리" meaning "far away")
 - Uses established proper nouns dictionary for historical accuracy
+- Supports both file-level and key-level detection
 - Completely automatic - no manual configuration needed
 - Separate caching ensures no conflicts between modes
 
 **Related files**:
-- `scripts/utils/prompts.ts` - Mode detection and prompt selection
+- `scripts/utils/prompts.ts` - Mode detection and prompt selection (`shouldUseTransliteration`, `shouldUseTransliterationForKey`)
 - `scripts/factory/translate.ts` - Mode integration in translation pipeline
 - `scripts/utils/dictionary.ts` - Separate proper nouns dictionary
 - `scripts/utils/dictionary-invalidator.ts` - Handles transliteration files in update-dict

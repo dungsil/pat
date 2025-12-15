@@ -177,7 +177,11 @@ GOOGLE_GENERATIVE_AI_API_KEY=your_api_key_here
 
 ### 음역 모드 (Transliteration Mode)
 
-파일명에 특정 키워드가 포함된 경우, 의미 번역이 아닌 발음 기반 음역을 수행합니다.
+파일명 또는 키 이름에 특정 패턴이 포함된 경우, 의미 번역이 아닌 발음 기반 음역을 수행합니다.
+
+#### 파일 단위 음역 모드
+
+파일명에 특정 키워드가 포함된 경우 전체 파일을 음역 모드로 처리합니다.
 
 **자동 감지 키워드**:
 - `culture` / `cultures` - 문화 이름
@@ -202,11 +206,36 @@ vs.
 "Afar" → "멀리" (의미 번역)
 ```
 
+#### 키 단위 음역 모드
+
+일반 번역 파일 내에서도 특정 키 패턴은 음역 모드로 처리됩니다.
+
+**자동 감지 패턴**:
+- `dynn_*` - 왕조 이름 (예: `dynn_Austmadur`, `dynn_RICE_leslie`)
+- `dynnp_*` - 왕조 접두사 (예: `dynnp_al-`, `dynnp_de`, `dynnp_banu`)
+- `*_adj` - 형용사형 고유명사 (예: `dyn_c_pingnan_guo_adj`)
+- `*_name` - 이름 (예: `dynasty_name`, `culture_name`)
+
+**제외 규칙**:
+- `*_desc`, `*_event`, `*_decision` 등으로 끝나는 키는 일반 번역 사용
+- 설명, 이벤트, 결정 등의 컨텍스트는 의미 번역 필요
+
+**예시**:
+```yaml
+# 일반 번역 파일 내에서도 키 단위로 음역 적용
+# events_l_english.yml
+dynn_Austmadur:0 "Austmadur"        → "아우스트마두르" (음역)
+culture_name:0 "Korean"              → "한국인" (음역)
+culture_adj:0 "Korean"               → "한국의" (음역)
+heritage_desc:0 "Korean heritage"    → "한국 유산" (의미 번역, _desc로 끝남)
+```
+
 **특징**:
 - 고유명사 사전 활용 (ck3ProperNouns 등)
 - 별도 캐시 관리 (`transliteration:` prefix)
 - 기존 번역 캐시와 독립적으로 동작
 - 완전 자동, 수동 설정 불필요
+- 파일 단위와 키 단위 감지를 모두 지원
 
 ## 자동화 워크플로우
 
