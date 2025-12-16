@@ -1251,7 +1251,7 @@
   RICE_nubia_agriculture_decision_context_tooltip: "#emphasis 역사적 배경:#! 고대부터 누비아인들은 북쪽의 이집트 이웃들처럼 수단 지역의 나일강 범람을 최대한 활용하기 위해 다양한 방법을 사용해 왔습니다. 이러한 방법들 중 다수는 공동체 전체나 지역 엘리트들의 지원을 필요로 했습니다." # 15626925654416331448
   RICE_NUBIAN_AGRICULTURE_PICK_TYPE: "나일강은 영원하리라!" # 309023020133615628
   RICE_nubia_agriculture_decision_select_text: "[RICE_nile|E]를 따라 농업 생산성을 어떻게 개선해야 할까요?\n$select_one_of_the_available_option_step_one_top_text$" # 12919215693499595481
-  RICE_nubia_agriculture_expand_irrigation_name: "#Bold Expand Nile Irrigation Networks#!"
+  RICE_nubia_agriculture_expand_irrigation_name: "#**볼드** 나일 관개망 확장#!" # 2076942425870804977
   RICE_nubia_agriculture_expand_irrigation_desc: "$RICE_nubia_agriculture_expand_irrigation_name$" # 17922547575904932525
   RICE_nubia_agriculture_expand_irrigation_tooltip: "#italic 고대로부터 우리 조상들은 나일강 물길을 넓히고 이 땅의 비옥함을 극대화하기 위해 다양한 방법을 사용해 왔습니다!#" # 18038976574983372196
   RICE_nubia_agriculture_construct_hafirs_name: "#Bold Maintain Hafirs#!"
