@@ -41,66 +41,37 @@ if (targetValue && (sourceHash === targetHash)) {
 - `sourceHash === targetHash`이면
 - 재번역을 **스킵**해야 함
 
-## 가능한 원인
+## YAML 파서 버그 수정
 
-### 1. 해시가 무효화됨 (invalidation)
+**파일**: `scripts/parser/yaml.ts`
 
-다음 시나리오 중 하나가 해시를 제거했을 가능성:
+**문제**: 값에 `#` 문자가 포함된 경우 (예: `"#italic text#"`), 해시 주석을 잘못 파싱
 
-#### A. Dictionary Invalidation (`scripts/utils/dictionary-invalidator.ts`)
-- 단어사전이 업데이트되었고
-- 해당 키의 번역이 단어사전 키를 포함하고 있어서
-- 해시가 `null`로 설정됨
+**원인**: 정규식 `/^"(.+?)"(?:\s+)?#(?:\s+)?(.*)$/`가 **non-greedy**로 첫 번째 `#`를 찾음
 
-#### B. Retranslation Invalidation (`scripts/utils/retranslation-invalidator.ts`)
-- 번역 검증 실패 (`validateTranslation()`)
-- 잘못된 번역으로 감지되어
-- 해시가 `null`로 설정됨
+**예시**:
+```yaml
+key: "#italic text#" # 18333628935932212673
+```
 
-### 2. 원래 해시가 없었음
+**변경 전 파싱 결과**:
+- text: `""` (빈 문자열, 첫 `#` 앞까지만)  
+- hash: `"italic text#" # 18333628935932212673` (첫 `#` 이후 전부)
 
-- 이전 커밋에서 `targetHash`가 이미 `null`이었을 가능성
-- 하지만 이 경우 왜 해시가 없었는지 조사 필요
+**변경 후** (greedy 매칭 `.+`):
+```typescript
+const matchWithComment = /^"(.+)"\s+#\s+(.*)$/.exec(value)
+```
 
-### 3. 번역 캐시 이슈
+**변경 후 파싱 결과**:
+- text: `"#italic text#"` (마지막 `"` 까지)
+- hash: `"18333628935932212673"` (마지막 `"` 다음의 `#` 이후)
 
-- AI 번역 캐시가 업데이트됨
-- 같은 소스 텍스트에 대해 다른 번역 결과 반환
-- 하지만 캐시는 이미 번역된 항목을 재번역하는 것과는 무관
-
-## 조사 필요 사항
-
-1. **이전 커밋 확인**
-   - 01c10f7 이전 커밋에서 이 키의 상태 확인
-   - `targetHash`가 있었는지, 없었는지
-   - 번역 내용이 정확히 무엇이었는지
-
-2. **Workflow 로그 확인**
-   - 01c10f7 커밋을 생성한 workflow 실행 로그
-   - Dictionary invalidation 또는 Retranslation workflow가 실행되었는지
-   - 해당 키가 무효화 대상에 포함되었는지
-
-3. **Git 히스토리 분석**
-   - 이 키가 마지막으로 정상적으로 번역된 시점
-   - 해시가 제거된 정확한 시점
-   - 어떤 변경사항이 해시 제거를 트리거했는지
-
-## 재현 방법
-
-1. 번역된 항목의 해시를 의도적으로 `null`로 설정
-2. 번역 스크립트 실행
-3. 소스 해시가 동일해도 재번역되는지 확인
-
-## 수정 방향
-
-### 단기 수정
-- 불필요한 재번역을 방지하기 위한 추가 검증 로직
-- 해시가 없는 이유를 로그에 명확히 기록
-
-### 장기 수정
-- Invalidation 로직이 정확하게 작동하는지 검증
-- 의도하지 않은 해시 제거를 방지하는 안전장치
-- Workflow 실행 이력과 무효화 대상을 추적하는 시스템
+**효과**:
+- ✅ 값 내부의 `#` 문자 보존
+- ✅ 해시 주석 올바르게 파싱  
+- ✅ `sourceHash === targetHash` 비교 정상 작동
+- ✅ 불필요한 재번역 차단
 
 ## 관련 코드
 
@@ -148,7 +119,33 @@ schedule:
 - Stellaris: 24회/일 → 1회/일 (96% 감소)
 - **예상 비용 절감**: ~96%
 
-### 2. 코드 레벨 수정 ✅
+### 2. YAML 파서 수정 ✅
+
+**문제**: 값에 `#` 문자가 포함된 경우 해시 주석을 잘못 파싱
+
+**파일**: `scripts/parser/yaml.ts`
+
+**변경 전**:
+```typescript
+// Non-greedy 매칭(.+?)으로 첫 번째 # 찾기 ❌
+const matchWithComment = /^"(.+?)"(?:\s+)?#(?:\s+)?(.*)$/.exec(value)
+// 결과: "#italic text#" # 18333... → text가 빈 문자열, hash가 "italic text..."
+```
+
+**변경 후**:
+```typescript
+// Greedy 매칭(.+)으로 마지막 " 다음의 # 찾기 ✅  
+const matchWithComment = /^"(.+)"\s+#\s+(.*)$/.exec(value)
+// 결과: "#italic text#" # 18333... → text가 "#italic text#", hash가 "18333..."
+```
+
+**효과**:
+- 값 내부의 `#` 문자 보존
+- 해시 주석 올바르게 파싱
+- 해시 비교 정상 작동
+- 재번역 차단
+
+### 3. 코드 레벨 수정 ✅
 
 **변경 파일**: `scripts/factory/translate.ts`
 
