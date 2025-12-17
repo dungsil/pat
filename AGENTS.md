@@ -465,6 +465,55 @@ pnpm ck3
 - Translation dictionaries in `dictionaries/*.toml` provide manual overrides (loaded by `scripts/utils/dictionary.ts`)
 - Logging system supports different verbosity levels via `scripts/utils/logger.ts`
 
+### Tool Usage Guidelines for AI Assistants
+
+**Important**: When GitHub MCP (Model Context Protocol) server tools are available, **ALWAYS prioritize them over direct git commands**.
+
+**Why use GitHub MCP server tools:**
+- Provide structured, parsed output that's easier to work with
+- Built-in error handling and retry logic
+- Type-safe interfaces with clear parameters
+- Better integration with AI workflows
+- Avoid parsing raw command-line output
+
+**GitHub MCP server tools available:**
+- `github-mcp-server-get_commit` - Get commit details with diffs and stats
+- `github-mcp-server-list_commits` - List commits with filtering options
+- `github-mcp-server-get_file_contents` - Get file contents at specific refs
+- `github-mcp-server-search_code` - Search code across repositories
+- `github-mcp-server-list_branches` - List repository branches
+- `github-mcp-server-list_tags` - List repository tags
+- And many more (see tool descriptions for full list)
+
+**When to use each approach:**
+
+1. **GitHub repository operations** → Use GitHub MCP server tools
+   - Getting commit information: `github-mcp-server-get_commit` instead of `git show`
+   - Listing commits: `github-mcp-server-list_commits` instead of `git log`
+   - Viewing file contents: `github-mcp-server-get_file_contents` instead of `git show HEAD:path`
+   - Searching code: `github-mcp-server-search_code` instead of `git grep`
+   - Listing branches/tags: `github-mcp-server-list_branches/list_tags` instead of `git branch`/`git tag`
+
+2. **Local repository operations** → Use git commands
+   - Staging changes: `git add`
+   - Committing: `git commit`
+   - Checking local status: `git status`
+   - Local diffs: `git diff`
+
+**Example patterns:**
+
+```bash
+# ❌ Avoid: Using git commands for GitHub data
+git log --oneline -n 10
+git show abc123
+
+# ✅ Prefer: Using GitHub MCP server tools
+# Use github-mcp-server-list_commits
+# Use github-mcp-server-get_commit with sha="abc123"
+```
+
+**Note**: For operations that modify the repository (add, commit, push), continue using the `report_progress` tool as specified in the main guidelines, which handles git operations automatically.
+
 ### Translation Refusal Handling
 
 The system includes comprehensive handling for AI translation refusals (e.g., content policy violations, safety filters):
