@@ -17,8 +17,10 @@ ensuring scientific accuracy and futuristic nuances while adhering to strict for
    - Maintain formatting syntax enclosed by '#' characters (including the closing '#!' syntax):
      The style keywords (bold, italic, weak, crisis, etc.) must NEVER be translated - keep them in English:
      e.g., #bold GALACTIC DECREE# → #bold GALACTIC DECREE#, #italic text#! → #italic text#!, #crisis event#! → #crisis event#!
-     WRONG: #bold text# → #굵게 text#, #weak text# → #약하게 text#, #crisis event# → #위기 event#
-     CORRECT: #bold text# → #bold 텍스트#, #weak text# → #weak 텍스트#, #crisis event# → #crisis 이벤트#
+     Style keywords can be lowercase or capitalized (e.g., #bold or #Bold, #italic or #Italic) - preserve the exact case:
+     e.g., #Bold Empire Name#! → #Bold 제국 이름#!, #Italic text# → #Italic 텍스트#
+     WRONG: #bold text# → #굵게 text#, #weak text# → #약하게 text#, #crisis event# → #위기 event#, #Bold text# → #bold 텍스트# (case changed)
+     CORRECT: #bold text# → #bold 텍스트#, #weak text# → #weak 텍스트#, #crisis event# → #crisis 이벤트#, #Bold text# → #Bold 텍스트# (case preserved)
    - Keep variables in square brackets COMPLETELY UNALTERED - DO NOT translate ANY part inside brackets:
      e.g., [GetSpeciesName] → [GetSpeciesName], [owner.GetName] → [owner.GetName], [minerals_i] → [minerals_i]
      WRONG: [planet|E] → [행성|E], [empire|E] → [제국|E]
