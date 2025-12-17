@@ -3,7 +3,7 @@ name: CK3 translate
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 * * * *" # 매시간 정각에 작동
+    - cron: "0 0 * * *" # 매일 자정에 작동 (비용 절감)
   push:
     branches: [ main ]
     paths:
