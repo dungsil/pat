@@ -348,11 +348,26 @@ async function processLanguageFile (mode: string, sourceDir: string, targetBaseD
       continue
     }
 
-    if (targetValue && (sourceHash === targetHash)) {
+    // 번역이 존재하고 해시가 일치하면 스킵 (강화된 검증)
+    if (targetValue && targetHash && (sourceHash === targetHash)) {
       log.verbose(`[${mode}/${file}:${key}] 번역파일 문자열: ${targetHash} | "${targetValue}" (번역됨)`)
       newYaml.l_korean[key] = [targetValue, targetHash]
       processedCount++
       continue
+    }
+
+    // 번역이 존재하지만 해시가 없는 경우: 해시만 추가하고 스킵 (재번역 방지)
+    // 이렇게 하면 AI의 non-deterministic 동작으로 인한 불필요한 재번역을 방지
+    if (targetValue && !targetHash) {
+      log.warn(`[${mode}/${file}:${key}] 번역은 있지만 해시 없음 - 해시 추가 후 스킵 (재번역 방지)`)
+      newYaml.l_korean[key] = [targetValue, sourceHash]
+      processedCount++
+      continue
+    }
+
+    // 해시 불일치 시 로그 기록
+    if (targetValue && targetHash && sourceHash !== targetHash) {
+      log.info(`[${mode}/${file}:${key}] 소스 변경 감지 - 재번역 (${targetHash} → ${sourceHash})`)
     }
 
     log.verbose(`[${mode}/${file}:${key}] 번역파일 문자열: ${targetHash} | "${targetValue}"`)

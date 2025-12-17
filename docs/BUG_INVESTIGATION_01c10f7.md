@@ -148,11 +148,37 @@ schedule:
 - Stellaris: 24회/일 → 1회/일 (96% 감소)
 - **예상 비용 절감**: ~96%
 
-### 2. 향후 추가 개선 방안
+### 2. 코드 레벨 수정 ✅
 
-1. **해시 검증 강화**: `translate.ts`에서 해시가 동일하면 캐시 무시하고 강제 스킵
-2. **번역 결정성**: AI 프롬프트에 deterministic 출력 요청 추가
-3. **변경 감지**: 업스트림 파일이 실제로 변경된 경우에만 워크플로우 실행
+**변경 파일**: `scripts/factory/translate.ts`
+
+**문제**: 번역이 존재하지만 해시가 없는 경우, 매번 재번역 실행
+
+**수정**: 번역이 있고 해시만 없으면, 해시를 추가하고 재번역 스킵
+
+```typescript
+// 변경 전: 해시 없으면 재번역
+if (targetValue && targetHash && (sourceHash === targetHash)) {
+  continue // 스킵
+}
+// targetValue가 있지만 targetHash가 없으면 재번역 실행 ❌
+
+// 변경 후: 해시 없어도 번역 있으면 해시 추가 후 스킵
+if (targetValue && !targetHash) {
+  newYaml.l_korean[key] = [targetValue, sourceHash] // 해시 추가
+  continue // 재번역 방지 ✅
+}
+```
+
+**효과**:
+- AI non-deterministic 동작의 영향 제거
+- 해시가 없어도 기존 번역 보존
+- 불필요한 재번역 완전 차단
+
+### 3. 향후 추가 개선 방안
+
+1. **번역 결정성**: AI 프롬프트에 deterministic 출력 요청 추가
+2. **변경 감지**: 업스트림 파일이 실제로 변경된 경우에만 워크플로우 실행
 
 ## 현재 상태
 
