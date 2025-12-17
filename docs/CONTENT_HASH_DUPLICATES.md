@@ -4,29 +4,29 @@
 
 ### 답변: 이것은 정상적이고 올바른 동작입니다
 
-## 예시: CFP 모드의 Skull Cup 항목들
+## 예시: RICE 모드의 Activity Cost 항목들
 
 커밋 `01c10f742ff3d5f43f0c70738b888530543cc1d5`에서 발견된 사례:
 
 ```yaml
-# ck3/CFP/mod/localization/korean/___CFP_l_english_artifacts.yml
-artifact_cfp_krum_skull_cup_name: "@cfp_icon_artifact! [killed.GetTitledFirstNamePossessiveNoTooltip] 해골 잔" # 15465426826473243722
-artifact_cfp_kure_skull_cup_name: "@cfp_icon_artifact! [killed.GetTitledFirstNamePossessiveNoTooltip] 해골 잔" # 15465426826473243722
+# ck3/RICE/mod/localization/korean/___rice_sicily_l_korean.yml
+activity_RICE_sicily_virgil_tomb_visit_predicted_cost: "이 [activity|E]의 비용은 주로 귀하의 [income|E]에 따라 결정됩니다." # 10498845032472754788
+activity_RICE_sicily_palermo_tomb_visit_predicted_cost: "이 [activity|E]의 비용은 주로 귀하의 [income|E]에 따라 결정됩니다." # 10498845032472754788
 ```
 
-두 키가 **같은 해시 `15465426826473243722`**를 가지는 이유:
+두 키가 **같은 해시 `10498845032472754788`**를 가지는 이유:
 
 ### 1. 원본 파일에서 같은 소스 텍스트
 
 ```yaml
-# ck3/CFP/upstream/localization/english/CFP_l_english_artifacts.yml
-artifact_cfp_krum_skull_cup_name:0 "@cfp_icon_artifact! [killed.GetTitledFirstNamePossessiveNoTooltip] Skull Cup"
-artifact_cfp_kure_skull_cup_name:0 "@cfp_icon_artifact! [killed.GetTitledFirstNamePossessiveNoTooltip] Skull Cup"
+# ck3/RICE/upstream/localization/english/rice_sicily_l_english.yml (추정)
+activity_RICE_sicily_virgil_tomb_visit_predicted_cost:0 "The cost of this [activity|E] is based primarily on your [income|E]."
+activity_RICE_sicily_palermo_tomb_visit_predicted_cost:0 "The cost of this [activity|E] is based primarily on your [income|E]."
 ```
 
 - 두 키는 **동일한 영어 원문**을 가짐
 - 이것은 게임 모드 제작자가 의도한 설계
-- 역사적으로 다른 해골 잔(Khan Krum's vs Prince Kure's)이지만, 게임 내 표시 이름은 같음
+- 서로 다른 활동(Virgil's Tomb vs Palermo Tomb 방문)이지만, 비용 설명 텍스트는 같음
 
 ### 2. 해시는 소스 텍스트의 무결성 검증용
 
@@ -37,7 +37,7 @@ const sourceHash = hashing(sourceValue) // 소스 텍스트 → 해시 변환
 
 - 해시는 **소스 텍스트가 변경되었는지 감지**하는 용도
 - 같은 소스 텍스트 = 같은 해시 (정상 동작)
-- 해시 `15465426826473243722` = `hashing("@cfp_icon_artifact! [killed.GetTitledFirstNamePossessiveNoTooltip] Skull Cup")`
+- 해시 `10498845032472754788` = `hashing("The cost of this [activity|E] is based primarily on your [income|E].")`
 
 ### 3. 번역 캐시는 소스 텍스트 기반
 
@@ -48,20 +48,20 @@ const cacheKey = `${transliterationPrefix}${normalizedText}`
 
 **첫 번째 키 처리 과정:**
 ```
-1. artifact_cfp_krum_skull_cup_name 처리 시작
-2. hasCache("Skull Cup") → false (캐시 없음)
-3. translateAI("Skull Cup") → "해골 잔" (AI 번역)
-4. setCache("Skull Cup", "해골 잔") (캐시 저장)
-5. 출력: "해골 잔" # 15465426826473243722
+1. activity_RICE_sicily_virgil_tomb_visit_predicted_cost 처리 시작
+2. hasCache("The cost of this [activity|E]...") → false (캐시 없음)
+3. translateAI("The cost of this [activity|E]...") → "이 [activity|E]의 비용은..." (AI 번역)
+4. setCache("The cost of this [activity|E]...", "이 [activity|E]의 비용은...") (캐시 저장)
+5. 출력: "이 [activity|E]의 비용은..." # 10498845032472754788
 ```
 
 **두 번째 키 처리 과정:**
 ```
-1. artifact_cfp_kure_skull_cup_name 처리 시작
-2. hasCache("Skull Cup") → true (캐시 있음!)
-3. getCache("Skull Cup") → "해골 잔" (캐시에서 조회)
+1. activity_RICE_sicily_palermo_tomb_visit_predicted_cost 처리 시작
+2. hasCache("The cost of this [activity|E]...") → true (캐시 있음!)
+3. getCache("The cost of this [activity|E]...") → "이 [activity|E]의 비용은..." (캐시에서 조회)
 4. AI 호출 없음 ✓ (효율적!)
-5. 출력: "해골 잔" # 15465426826473243722
+5. 출력: "이 [activity|E]의 비용은..." # 10498845032472754788
 ```
 
 ### 4. 왜 두 키가 모두 출력 파일에 포함되나요?
@@ -69,16 +69,16 @@ const cacheKey = `${transliterationPrefix}${normalizedText}`
 **답변:** 두 키는 게임에서 서로 다른 목적으로 사용되기 때문입니다.
 
 ```yaml
-artifact_cfp_krum_skull_cup_name      # Khan Krum의 해골 잔 이름
-artifact_cfp_krum_skull_cup_description  # Khan Krum의 해골 잔 설명
+activity_RICE_sicily_virgil_tomb_visit_predicted_cost  # Virgil's Tomb 방문 비용 설명
+activity_RICE_sicily_virgil_tomb_visit_...            # 기타 Virgil's Tomb 관련 키들
 
-artifact_cfp_kure_skull_cup_name      # Prince Kure의 해골 잔 이름  
-artifact_cfp_kure_skull_cup_description  # Prince Kure의 해골 잔 설명
+activity_RICE_sicily_palermo_tomb_visit_predicted_cost # Palermo Tomb 방문 비용 설명
+activity_RICE_sicily_palermo_tomb_visit_...           # 기타 Palermo Tomb 관련 키들
 ```
 
-- 게임은 각 아티팩트를 별도로 추적함
+- 게임은 각 활동(activity)을 별도로 추적함
 - localization 키가 다르므로 각각 번역이 필요
-- 같은 번역을 공유하지만, 각각 출력 파일에 포함되어야 함
+- 비용 설명은 같지만, 각각 출력 파일에 포함되어야 함
 
 ## 시스템 동작 요약
 

@@ -15,15 +15,15 @@
 
 ### 발견된 중복 항목
 
-파일: `ck3/CFP/mod/localization/korean/___CFP_l_english_artifacts.yml`
+파일: `ck3/RICE/mod/localization/korean/___rice_sicily_l_korean.yml`
 
 ```yaml
 l_korean:
-  artifact_cfp_krum_skull_cup_name: "@cfp_icon_artifact! [killed.GetTitledFirstNamePossessiveNoTooltip] 해골 잔" # 15465426826473243722
-  artifact_cfp_kure_skull_cup_name: "@cfp_icon_artifact! [killed.GetTitledFirstNamePossessiveNoTooltip] 해골 잔" # 15465426826473243722
+  activity_RICE_sicily_virgil_tomb_visit_predicted_cost: "이 [activity|E]의 비용은 주로 귀하의 [income|E]에 따라 결정됩니다." # 10498845032472754788
+  activity_RICE_sicily_palermo_tomb_visit_predicted_cost: "이 [activity|E]의 비용은 주로 귀하의 [income|E]에 따라 결정됩니다." # 10498845032472754788
 ```
 
-두 키가 **같은 해시 `15465426826473243722`**를 가집니다.
+두 키가 **같은 해시 `10498845032472754788`**를 가집니다.
 
 ---
 
@@ -31,24 +31,22 @@ l_korean:
 
 ### 1. 원본 소스가 동일함
 
-업스트림 파일(`ck3/CFP/upstream/localization/english/CFP_l_english_artifacts.yml`):
+업스트림 파일(`ck3/RICE/upstream/localization/english/rice_sicily_l_english.yml` 추정):
 
 ```yaml
 l_english:
-  artifact_cfp_krum_skull_cup_name:0 "@cfp_icon_artifact! [killed.GetTitledFirstNamePossessiveNoTooltip] Skull Cup"
-  artifact_cfp_kure_skull_cup_name:0 "@cfp_icon_artifact! [killed.GetTitledFirstNamePossessiveNoTooltip] Skull Cup"
+  activity_RICE_sicily_virgil_tomb_visit_predicted_cost:0 "The cost of this [activity|E] is based primarily on your [income|E]."
+  activity_RICE_sicily_palermo_tomb_visit_predicted_cost:0 "The cost of this [activity|E] is based primarily on your [income|E]."
 ```
 
 **두 키가 완전히 동일한 영어 텍스트를 가지고 있습니다.**
 
 ### 2. 이것은 게임 모드의 의도적인 설계
 
-- `artifact_cfp_krum_skull_cup`: 불가리아 칸 Krum의 해골 잔
-- `artifact_cfp_kure_skull_cup`: 키예프 공 Kure의 해골 잔
-- 역사적으로 다른 유물이지만, **게임 내 표시 이름은 동일**하게 설정됨
-- 각 아티팩트는 다른 description을 가짐:
-  - `artifact_cfp_krum_skull_cup_description`: "After his death in battle near..."
-  - `artifact_cfp_kure_skull_cup_description`: "Once the head of..., a famous Kievan prince..."
+- `activity_RICE_sicily_virgil_tomb_visit`: Virgil's Tomb(베르길리우스 무덤) 방문 활동
+- `activity_RICE_sicily_palermo_tomb_visit`: Palermo Tomb(팔레르모 무덤) 방문 활동
+- 서로 다른 활동이지만, **비용 설명 텍스트는 동일**하게 설정됨
+- 각 활동은 다른 설명과 속성을 가짐
 
 ### 3. 해시는 소스 텍스트의 무결성 검증용
 
@@ -74,21 +72,21 @@ const cacheKey = `${transliterationPrefix}${normalizedText}`
 **처리 과정:**
 
 ```
-📝 파일 처리 시작: CFP_l_english_artifacts.yml
+📝 파일 처리 시작: rice_sicily_l_korean.yml
 
-1️⃣ artifact_cfp_krum_skull_cup_name 처리
-   ├─ 소스: "Skull Cup"
-   ├─ 캐시 확인: hasCache("Skull Cup") → ❌ 없음
-   ├─ AI 번역: translateAI("Skull Cup") → "해골 잔"
-   ├─ 캐시 저장: setCache("Skull Cup", "해골 잔")
-   └─ 출력: "해골 잔" # 15465426826473243722
+1️⃣ activity_RICE_sicily_virgil_tomb_visit_predicted_cost 처리
+   ├─ 소스: "The cost of this [activity|E] is based primarily on your [income|E]."
+   ├─ 캐시 확인: hasCache(...) → ❌ 없음
+   ├─ AI 번역: translateAI(...) → "이 [activity|E]의 비용은 주로 귀하의 [income|E]에 따라 결정됩니다."
+   ├─ 캐시 저장: setCache(...)
+   └─ 출력: "이 [activity|E]의 비용은..." # 10498845032472754788
 
-2️⃣ artifact_cfp_kure_skull_cup_name 처리
-   ├─ 소스: "Skull Cup" (동일!)
-   ├─ 캐시 확인: hasCache("Skull Cup") → ✅ 있음!
-   ├─ 캐시 조회: getCache("Skull Cup") → "해골 잔"
+2️⃣ activity_RICE_sicily_palermo_tomb_visit_predicted_cost 처리
+   ├─ 소스: "The cost of this [activity|E]..." (동일!)
+   ├─ 캐시 확인: hasCache(...) → ✅ 있음!
+   ├─ 캐시 조회: getCache(...) → "이 [activity|E]의 비용은..."
    ├─ AI 호출: ❌ 없음 (효율적!)
-   └─ 출력: "해골 잔" # 15465426826473243722
+   └─ 출력: "이 [activity|E]의 비용은..." # 10498845032472754788
 ```
 
 ### 순차 처리로 캐시 재사용 보장
