@@ -42,7 +42,7 @@ function parseYamlValue (value: string): [string, string | null] {
   // 패턴 1: 해시 코멘트가 있는 경우
   // 마지막 닫는 " 다음의 # 만 해시 주석으로 인식 (문자열 내부의 #은 무시)
   // 탐욕적 매칭(.+)으로 마지막 "까지 가져온 다음, 그 뒤의 # 찾기
-  const matchWithComment = /^"(.+)"\s+#\s+(.*)$/.exec(value)
+  const matchWithComment = /^"(.+)"(?:\s+)?#(?:\s+)?(.*)$/.exec(value)
   if (matchWithComment) {
     const [, rawText, comment] = matchWithComment
     const text = rawText.replace(/""/g, '"')
