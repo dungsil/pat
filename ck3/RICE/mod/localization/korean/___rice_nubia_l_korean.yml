@@ -1411,7 +1411,7 @@
   RICE_baqt_frontier_traffic_positive_name: "#Bold Encourage Cross-Border Traffic#!"
   RICE_baqt_frontier_traffic_positive_desc: "$RICE_baqt_frontier_traffic_positive_name$" # 9323386047303391970
   RICE_baqt_frontier_traffic_positive_tooltip: "#italic 평화와 번영의 시기에는, 우리 지역 경제를 활성화하고 공동체를 풍요롭게 할 국경 너머의 상인, 모험가, 이주민 등 모든 이들을 환영합니다#!" # 17830357726888557752
-  RICE_baqt_frontier_traffic_negative_name: "#Bold Discourage Cross-Border Traffic#!"
+  RICE_baqt_frontier_traffic_negative_name: "#Bold Discourage Cross-Border Traffic#!" # 13968293356530399687
   RICE_baqt_frontier_traffic_negative_desc: "$RICE_baqt_frontier_traffic_negative_name$" # 9089673326019374600
   RICE_baqt_frontier_traffic_negative_tooltip: "#italic 전쟁과 불확실성의 시기에는, 국경 너머에서 오는 우리 영토의 통행량을 줄여야만 합니다. 그들의 존재가 더 많은 불안과 갈등을 야기할 수 있기 때문입니다!#" # 14168566147734831132
   RICE_nubia_bestow_kanz_al_dawla: "국고의 보물을 수여하라" # 1075485639891490190
