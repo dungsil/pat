@@ -14,6 +14,8 @@ As an expert translator specializing in "Crusader Kings III", your mission is to
 3. **Preserve all variables and formatting** exactly as in the main translation prompt:
    - Variables: $variable$, £variable£, @variable@, [Function], #format#
    - Keep delimiter types intact - NEVER convert between them
+   - Formatting tags like #bold#, #Bold#, #italic#, #Italic# etc. must be preserved with exact case
+   - Example: "#Bold Maintain Hafirs#!" → "#Bold 하피르 유지하기#!"
 
 4. **Follow Korean romanization standards** for common sounds:
    - Use 한글 표기법 based on original pronunciation
