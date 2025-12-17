@@ -356,18 +356,13 @@ async function processLanguageFile (mode: string, sourceDir: string, targetBaseD
       continue
     }
 
-    // 번역이 존재하지만 해시가 없는 경우: 해시만 추가하고 스킵 (재번역 방지)
-    // 이렇게 하면 AI의 non-deterministic 동작으로 인한 불필요한 재번역을 방지
-    if (targetValue && !targetHash) {
-      log.warn(`[${mode}/${file}:${key}] 번역은 있지만 해시 없음 - 해시 추가 후 스킵 (재번역 방지)`)
-      newYaml.l_korean[key] = [targetValue, sourceHash]
-      processedCount++
-      continue
-    }
-
-    // 해시 불일치 시 로그 기록
+    // 디버깅: 해시 비교 실패 시 상세 정보 로깅
     if (targetValue && targetHash && sourceHash !== targetHash) {
-      log.info(`[${mode}/${file}:${key}] 소스 변경 감지 - 재번역 (${targetHash} → ${sourceHash})`)
+      log.debug(`[${mode}/${file}:${key}] 해시 불일치 감지:`)
+      log.debug(`  - sourceHash: "${sourceHash}" (type: ${typeof sourceHash}, length: ${sourceHash.length})`)
+      log.debug(`  - targetHash: "${targetHash}" (type: ${typeof targetHash}, length: ${targetHash.length})`)
+      log.debug(`  - 비교 결과: ${sourceHash === targetHash}`)
+      log.debug(`  - 엄격 비교: ${Object.is(sourceHash, targetHash)}`)
     }
 
     log.verbose(`[${mode}/${file}:${key}] 번역파일 문자열: ${targetHash} | "${targetValue}"`)
