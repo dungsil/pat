@@ -753,13 +753,13 @@ transliteration_files = ["custom_events_l_english.yml", "*_special_*"]
   })
 
   it('중복되는 항목을 제거하고 고유한 항목만 JSON 파일에 저장해야 함', async () => {
-    // 번역 거부 시나리오를 시뮬레이션하여 중복 항목 생성
-    // (실제로는 버그가 없으면 중복이 발생하지 않지만, 방어적 프로그래밍을 위한 테스트)
+    // 같은 모드 내에서 여러 localization 경로에 동일한 파일이 있는 경우를 시뮬레이션
+    // 이런 경우 같은 mod::file::key 조합이 중복될 수 있음
     const { translate, TranslationRefusedError } = await import('../utils/translate')
     
     // 특정 키에서 번역 거부 발생하도록 모킹
     vi.mocked(translate).mockImplementation(async (text: string) => {
-      if (text === 'Duplicate Item') {
+      if (text.startsWith('Test Item')) {
         throw new TranslationRefusedError(text, 'test refusal')
       }
       return `[KO]${text}`
@@ -770,23 +770,31 @@ transliteration_files = ["custom_events_l_english.yml", "*_special_*"]
     // ck3/ 하위 디렉토리 구조 모방
     const ck3Dir = join(testDir, 'ck3')
     const modDir = join(ck3Dir, 'dedup-test-mod')
-    const upstreamDir = join(modDir, 'upstream')
+    
+    // 두 개의 localization 경로 생성 - 같은 파일명을 가진 파일을 넣음
+    const upstreamPath1 = join(modDir, 'upstream', 'path1')
+    const upstreamPath2 = join(modDir, 'upstream', 'path2')
 
     const metaContent = `
 [upstream]
-localization = ["."]
+localization = ["path1", "path2"]
 language = "english"
 `
 
-    // 같은 키를 가진 항목이 있는 파일 생성
+    // 두 경로 모두 같은 파일명과 키를 가진 파일 생성
+    // 모든 항목이 번역 거부되도록 "Test Item"으로 시작하는 값 사용
     const sourceContent = `l_english:
-  dup_key: "Duplicate Item"
-  unique_key: "Unique Item"
+  dup_key_1: "Test Item 1"
+  dup_key_2: "Test Item 2"
 `
 
-    await mkdir(upstreamDir, { recursive: true })
+    await mkdir(upstreamPath1, { recursive: true })
+    await mkdir(upstreamPath2, { recursive: true })
     await writeFile(join(modDir, 'meta.toml'), metaContent, 'utf-8')
-    await writeFile(join(upstreamDir, 'test_l_english.yml'), sourceContent, 'utf-8')
+    
+    // 같은 파일명으로 두 경로에 파일 생성
+    await writeFile(join(upstreamPath1, 'shared_l_english.yml'), sourceContent, 'utf-8')
+    await writeFile(join(upstreamPath2, 'shared_l_english.yml'), sourceContent, 'utf-8')
 
     // 번역 실행 - rootDir은 ck3Dir
     await processModTranslations({
@@ -802,14 +810,21 @@ language = "english"
     
     const jsonContent = JSON.parse(readFileSync(jsonPath, 'utf-8'))
     
-    // 중복이 없어야 함 (같은 mod, file, key 조합)
+    // 중복 제거 로직이 작동하여 같은 mod, file, key 조합은 한 번만 나타나야 함
     const keys = jsonContent.items.map((item: any) => `${item.mod}::${item.file}::${item.key}`)
     const uniqueKeys = new Set(keys)
     expect(keys.length).toBe(uniqueKeys.size)
     
-    // dup_key 항목이 정확히 1개만 있어야 함
-    const dupItems = jsonContent.items.filter((item: any) => item.key === 'dup_key')
-    expect(dupItems.length).toBe(1)
+    // 각 키는 두 경로에서 발생했지만 중복 제거되어 각각 1개씩만 있어야 함
+    const key1Items = jsonContent.items.filter((item: any) => item.key === 'dup_key_1')
+    expect(key1Items.length).toBe(1)
+    
+    const key2Items = jsonContent.items.filter((item: any) => item.key === 'dup_key_2')
+    expect(key2Items.length).toBe(1)
+    
+    // 총 2개 항목만 있어야 함 (중복이 제거된 후)
+    // 원래는 4개 (2개 경로 × 2개 키)이지만 중복 제거로 2개만 남음
+    expect(jsonContent.items.length).toBe(2)
 
     // 정리
     await rm(testDir, { recursive: true, force: true })
