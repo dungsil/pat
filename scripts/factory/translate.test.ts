@@ -1,6 +1,6 @@
 import { describe, it, expect, vi, beforeEach, afterEach } from 'vitest'
 import { mkdir, readFile, writeFile, rm, access } from 'node:fs/promises'
-import { existsSync } from 'node:fs'
+import { existsSync, readFileSync } from 'node:fs'
 import { join } from 'pathe'
 import { tmpdir } from 'node:os'
 import { parseYaml } from '../parser/yaml'
@@ -355,7 +355,7 @@ language = "english"
     expect(jsonData.items.some((item: { key: string }) => item.key === 'test_key_7')).toBe(true)
   })
 
-  it('번역 실패 항목이 없으면 JSON 파일을 생성하지 않아야 함', async () => {
+  it('번역 실패 항목이 없으면 빈 배열을 포함한 JSON 파일을 생성해야 함', async () => {
     const entryCount = 5
     const sourceContent = createLargeYamlFile(entryCount, 'english')
 
@@ -392,9 +392,12 @@ language = "english"
     expect(result.untranslatedItems).toBeDefined()
     expect(result.untranslatedItems.length).toBe(0)
 
-    // JSON 파일이 생성되지 않았는지 확인 (projectRoot = testDir)
+    // JSON 파일이 생성되고 빈 배열을 포함해야 함 (close-translation-issues가 최신 상태를 확인할 수 있도록)
     const jsonPath = join(testDir, 'ck3-untranslated-items.json')
-    expect(existsSync(jsonPath)).toBe(false)
+    expect(existsSync(jsonPath)).toBe(true)
+    const jsonContent = JSON.parse(await readFile(jsonPath, 'utf-8'))
+    expect(jsonContent.items).toEqual([])
+    expect(jsonContent.gameType).toBe('ck3')
   })
 
   it('upstream 디렉토리가 없으면 명확한 오류 메시지를 표시해야 함', async () => {
@@ -744,6 +747,84 @@ transliteration_files = ["custom_events_l_english.yml", "*_special_*"]
 
     const regularOutput = join(modDir, 'mod', 'localization', 'korean', '___regular_l_korean.yml')
     await access(regularOutput)
+
+    // 정리
+    await rm(testDir, { recursive: true, force: true })
+  })
+
+  it('중복되는 항목을 제거하고 고유한 항목만 JSON 파일에 저장해야 함', async () => {
+    // 같은 모드 내에서 여러 localization 경로에 동일한 파일이 있는 경우를 시뮬레이션
+    // 이런 경우 같은 mod::file::key 조합이 중복될 수 있음
+    const { translate, TranslationRefusedError } = await import('../utils/translate')
+    
+    // 특정 키에서 번역 거부 발생하도록 모킹
+    vi.mocked(translate).mockImplementation(async (text: string) => {
+      if (text.startsWith('Test Item')) {
+        throw new TranslationRefusedError(text, 'test refusal')
+      }
+      return `[KO]${text}`
+    })
+
+    const { processModTranslations } = await import('./translate')
+
+    // ck3/ 하위 디렉토리 구조 모방
+    const ck3Dir = join(testDir, 'ck3')
+    const modDir = join(ck3Dir, 'dedup-test-mod')
+    
+    // 두 개의 localization 경로 생성 - 같은 파일명을 가진 파일을 넣음
+    const upstreamPath1 = join(modDir, 'upstream', 'path1')
+    const upstreamPath2 = join(modDir, 'upstream', 'path2')
+
+    const metaContent = `
+[upstream]
+localization = ["path1", "path2"]
+language = "english"
+`
+
+    // 두 경로 모두 같은 파일명과 키를 가진 파일 생성
+    // 모든 항목이 번역 거부되도록 "Test Item"으로 시작하는 값 사용
+    const sourceContent = `l_english:
+  dup_key_1: "Test Item 1"
+  dup_key_2: "Test Item 2"
+`
+
+    await mkdir(upstreamPath1, { recursive: true })
+    await mkdir(upstreamPath2, { recursive: true })
+    await writeFile(join(modDir, 'meta.toml'), metaContent, 'utf-8')
+    
+    // 같은 파일명으로 두 경로에 파일 생성
+    await writeFile(join(upstreamPath1, 'shared_l_english.yml'), sourceContent, 'utf-8')
+    await writeFile(join(upstreamPath2, 'shared_l_english.yml'), sourceContent, 'utf-8')
+
+    // 번역 실행 - rootDir은 ck3Dir
+    await processModTranslations({
+      rootDir: ck3Dir,
+      mods: ['dedup-test-mod'],
+      gameType: 'ck3',
+      onlyHash: false
+    })
+
+    // JSON 파일 확인 (projectRoot = testDir)
+    const jsonPath = join(testDir, 'ck3-untranslated-items.json')
+    expect(existsSync(jsonPath)).toBe(true)
+    
+    const jsonContent = JSON.parse(readFileSync(jsonPath, 'utf-8'))
+    
+    // 중복 제거 로직이 작동하여 같은 mod, file, key 조합은 한 번만 나타나야 함
+    const keys = jsonContent.items.map((item: any) => `${item.mod}::${item.file}::${item.key}`)
+    const uniqueKeys = new Set(keys)
+    expect(keys.length).toBe(uniqueKeys.size)
+    
+    // 각 키는 두 경로에서 발생했지만 중복 제거되어 각각 1개씩만 있어야 함
+    const key1Items = jsonContent.items.filter((item: any) => item.key === 'dup_key_1')
+    expect(key1Items.length).toBe(1)
+    
+    const key2Items = jsonContent.items.filter((item: any) => item.key === 'dup_key_2')
+    expect(key2Items.length).toBe(1)
+    
+    // 총 2개 항목만 있어야 함 (중복이 제거된 후)
+    // 원래는 4개 (2개 경로 × 2개 키)이지만 중복 제거로 2개만 남음
+    expect(jsonContent.items.length).toBe(2)
 
     // 정리
     await rm(testDir, { recursive: true, force: true })
