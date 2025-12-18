@@ -1,6 +1,6 @@
 import { describe, it, expect, vi, beforeEach, afterEach } from 'vitest'
 import { mkdir, readFile, writeFile, rm, access } from 'node:fs/promises'
-import { existsSync } from 'node:fs'
+import { existsSync, readFileSync } from 'node:fs'
 import { join } from 'pathe'
 import { tmpdir } from 'node:os'
 import { parseYaml } from '../parser/yaml'
@@ -355,7 +355,7 @@ language = "english"
     expect(jsonData.items.some((item: { key: string }) => item.key === 'test_key_7')).toBe(true)
   })
 
-  it('번역 실패 항목이 없으면 JSON 파일을 생성하지 않아야 함', async () => {
+  it('번역 실패 항목이 없으면 빈 배열을 포함한 JSON 파일을 생성해야 함', async () => {
     const entryCount = 5
     const sourceContent = createLargeYamlFile(entryCount, 'english')
 
@@ -392,9 +392,12 @@ language = "english"
     expect(result.untranslatedItems).toBeDefined()
     expect(result.untranslatedItems.length).toBe(0)
 
-    // JSON 파일이 생성되지 않았는지 확인 (projectRoot = testDir)
+    // JSON 파일이 생성되고 빈 배열을 포함해야 함 (close-translation-issues가 최신 상태를 확인할 수 있도록)
     const jsonPath = join(testDir, 'ck3-untranslated-items.json')
-    expect(existsSync(jsonPath)).toBe(false)
+    expect(existsSync(jsonPath)).toBe(true)
+    const jsonContent = JSON.parse(readFileSync(jsonPath, 'utf-8'))
+    expect(jsonContent.items).toEqual([])
+    expect(jsonContent.gameType).toBe('ck3')
   })
 
   it('upstream 디렉토리가 없으면 명확한 오류 메시지를 표시해야 함', async () => {

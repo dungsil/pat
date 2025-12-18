@@ -196,16 +196,19 @@ async function saveAndReturnResult(
 ): Promise<TranslationResult> {
   const result: TranslationResult = { untranslatedItems }
   
-  // 번역되지 않은 항목이 있는 경우에만 파일 저장
+  // 항상 JSON 파일 저장 (빈 배열도 저장하여 close-translation-issues가 최신 상태를 확인할 수 있도록 함)
+  const outputPath = join(projectRoot, `${gameType}-${UNTRANSLATED_ITEMS_FILE_SUFFIX}`)
+  const outputData = {
+    gameType,
+    timestamp: new Date().toISOString(),
+    items: untranslatedItems
+  }
+  await writeFile(outputPath, JSON.stringify(outputData, null, 2), 'utf-8')
+  
   if (untranslatedItems.length > 0) {
-    const outputPath = join(projectRoot, `${gameType}-${UNTRANSLATED_ITEMS_FILE_SUFFIX}`)
-    const outputData = {
-      gameType,
-      timestamp: new Date().toISOString(),
-      items: untranslatedItems
-    }
-    await writeFile(outputPath, JSON.stringify(outputData, null, 2), 'utf-8')
     log.info(`번역되지 않은 항목 ${untranslatedItems.length}개가 ${outputPath}에 저장되었습니다.`)
+  } else {
+    log.info(`모든 항목이 번역되었습니다. 결과가 ${outputPath}에 저장되었습니다.`)
   }
   
   return result
