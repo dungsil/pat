@@ -4,6 +4,7 @@
   RICE_trans_saharan_merchants_option_desc: "상인들로 이루어진 대규모 카라반과 동행하는 것은 여정을 더디게 만들 수 있지만, 뭉치면 안전합니다. 이 상인들은 아프리카의 다양한 지형을 횡단하는 데 숙련되어 있으며, 그들과 함께 여행하면 때때로 사업 기회를 얻을 수도 있을 것입니다!" # 10925123395181342807
   RICE_trans_saharan_geographical_req: "귀하는 [GetGeographicalRegion('RICE_trans_saharan_trade_region').GetName]에 위치한 [county|E]나 [domicile|E]를 소유하고 있습니다." # 2964531873972357513
   RICE_africa_geographical_req: "귀하는 [GetGeographicalRegion('world_africa').GetName] 내의 [county|E] 또는 [domicile|E]를 소유하고 있습니다." # 12276949699632909805
+  RICE_trans_saharan_merchant_random_trait_gain_tt: "#V 1#!에서 #V 5#! 사이의 [GetTrait('RICE_trans_saharan_merchant').GetName(GetNullCharacter)] [trait|E] [trait_level_track_xp|E]를 획득합니다." # 8523862020892356525
   RICE_sus_sijilmasa_legend_name: "사하라의 관문" # 11352592196200089881
   RICE_sus_sijilmasa_legend_desc: "[title.GetNameNoTier]는 [GetGeographicalRegion('world_africa_sahara').GetName]에서 가장 위대한 오아시스로, [ruler.GetDynastyName] 왕조 덕분입니다. 이 도시의 성공에 가장 큰 책임이 있는 통치자는 [ruler.GetTitledFirstName]이었습니다." # 2908165359009272488
   RICE_sus_sijilmasa_legend_chapter_opening_new_title: "[GetGeographicalRegion('world_africa_sahara').GetNameNoTooltip]에 흩어져 있는 오아시스들 중, [ROOT.Legend.GetProperty( 'title' ).Title.GetNameNoTierNoTooltip]에 필적할 만한 곳은 거의 없거나 아예 없을 것입니다. 하지만 항상 그런 것은 아니었습니다. 위대한 [ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip]의 치세에 이르러 그 통치자들의 노력 덕분에 비로소 이 도시는 진정한 잠재력을 발휘할 수 있었습니다\"" # 12690710659039873188

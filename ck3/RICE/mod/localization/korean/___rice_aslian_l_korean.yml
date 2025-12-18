@@ -23,7 +23,7 @@
   building_RICE_aslian_pahang_gold_mines_03_desc: "$building_rammelsberg_mines_03_desc$" # 16535131840662613047
   building_RICE_aslian_pahang_gold_mines_04: "파항 광산 단지" # 16955718476749301774
   building_RICE_aslian_pahang_gold_mines_04_desc: "$building_rammelsberg_mines_04_desc$" # 498090809535580329
-  building_type_RICE_aslian_gunung_mulu_caves: "구눙 말루 동굴" # 11164146482441853656
+  building_type_RICE_aslian_gunung_mulu_caves: "무루 산 동굴" # 10660305249863895062
   building_type_RICE_aslian_gunung_mulu_caves_desc: "이 지역의 험준한 산맥에는 세계에서 가장 큰 동굴 시스템 중 일부가 자리하고 있으며, 그곳에서는 길을 잃고 영원히 헤맬 수도 있습니다. 석회암 지형과 끝없이 펼쳐진 정글로 둘러싸인 이곳은 비할 데 없는 자연의 아름다움을 간직한 곳입니다." # 5606886938925851919
   building_RICE_aslian_gunung_mulu_caves: "$building_type_RICE_aslian_gunung_mulu_caves$" # 13773238168161023094
   building_RICE_aslian_gunung_mulu_caves_desc: "$building_type_RICE_aslian_gunung_mulu_caves_desc$" # 16456380709841671964
