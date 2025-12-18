@@ -35,19 +35,21 @@ function parseYamlValue (value: string): [string, string | null] {
   //
   // 예시:
   // ""The text"\n\n-Source" -> 값: "The text"\n\n-Source (따옴표 밖 텍스트 포함)
-  // ""The text" # hash" -> 값: "The text, 코멘트: hash
-  // ""The text" # 123" -> 값: "The text, 코멘트: 123 (해시 코멘트 내 따옴표는 코멘트의 일부)
+  // ""The text" # hash" -> 값: "The text, 주석: hash
+  // ""The text" # 123" -> 값: "The text, 주석: 123 (해시 주석 내 따옴표는 주석의 일부)
+  // ""#italic text#" # hash" -> 값: "#italic text#", 주석: hash (문자열 내부의 #은 보존)
   
-  // 패턴 1: 해시 코멘트가 있는 경우
-  // 첫 번째 "부터 # 앞의 마지막 "까지, 그리고 # 이후는 코멘트
-  const matchWithComment = /^"(.+?)"(?:\s+)?#(?:\s+)?(.*)$/.exec(value)
+  // 패턴 1: 해시 주석이 있는 경우
+  // 마지막 닫는 " 다음의 #만 해시 주석으로 인식 (문자열 내부의 #은 무시)
+  // 탐욕적 매칭(.+)으로 마지막 "까지 가져온 다음, 그 뒤의 # 찾기
+  const matchWithComment = /^"(.+)"(?:\s+)?#(?:\s+)?(.*)$/.exec(value)
   if (matchWithComment) {
     const [, rawText, comment] = matchWithComment
     const text = rawText.replace(/""/g, '"')
     return [text, comment || null]
   }
   
-  // 패턴 2: 해시 코멘트 없이 마지막 " 이후에 텍스트가 더 있는 경우
+  // 패턴 2: 해시 주석 없이 마지막 " 이후에 텍스트가 더 있는 경우
   // 첫 번째 "부터 라인 끝까지 전부 값으로 취급 (마지막 "와 그 이후 텍스트 모두 포함)
   const matchWithTrailing = /^"(.+)"(.*)$/.exec(value)
   if (matchWithTrailing) {

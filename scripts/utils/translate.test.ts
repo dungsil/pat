@@ -391,6 +391,61 @@ describe('음역 모드 (useTransliteration=true)', () => {
   })
 })
 
+describe('캐시 재사용 (동일 소스 텍스트)', () => {
+  beforeEach(() => {
+    vi.clearAllMocks()
+  })
+
+  it('동일한 소스 텍스트를 가진 두 번째 번역 요청은 캐시를 재사용해야 함', async () => {
+    const { translate } = await import('./translate')
+    const { translateAI } = await import('./ai')
+    const { hasCache, getCache, setCache } = await import('./cache')
+
+    // 첫 번째 번역 요청: 캐시 없음
+    vi.mocked(hasCache).mockResolvedValueOnce(false)
+    const result1 = await translate('Skull Cup', 'ck3')
+
+    // AI가 호출되고 결과가 캐시에 저장됨
+    expect(translateAI).toHaveBeenCalledTimes(1)
+    expect(translateAI).toHaveBeenCalledWith('Skull Cup', 'ck3', undefined, false)
+    expect(setCache).toHaveBeenCalledWith('Skull Cup', '[번역됨]Skull Cup', 'ck3')
+    expect(result1).toBe('[번역됨]Skull Cup')
+
+    // 모킹 초기화 (캐시 상태만 유지)
+    vi.mocked(translateAI).mockClear()
+    vi.mocked(setCache).mockClear()
+
+    // 두 번째 번역 요청: 캐시 있음
+    vi.mocked(hasCache).mockResolvedValueOnce(true)
+    vi.mocked(getCache).mockResolvedValueOnce('[번역됨]Skull Cup')
+    const result2 = await translate('Skull Cup', 'ck3')
+
+    // 캐시에서 조회되고 AI는 호출되지 않음
+    expect(hasCache).toHaveBeenCalledWith('Skull Cup', 'ck3')
+    expect(getCache).toHaveBeenCalledWith('Skull Cup', 'ck3')
+    expect(translateAI).not.toHaveBeenCalled() // ✓ AI 호출 없음
+    expect(result2).toBe('[번역됨]Skull Cup')
+  })
+
+  it('동일한 소스 텍스트의 음역 모드 캐시는 번역 모드 캐시와 분리되어야 함', async () => {
+    const { translate } = await import('./translate')
+    const { hasCache, getCache } = await import('./cache')
+
+    // 번역 모드로 첫 번째 번역
+    vi.mocked(hasCache).mockResolvedValueOnce(false)
+    await translate('Anglo-Saxon', 'ck3', 0, undefined, false)
+
+    // 음역 모드로 두 번째 번역
+    // 캐시 키가 다르므로 (transliteration: prefix) 캐시 미스
+    vi.mocked(hasCache).mockResolvedValueOnce(false)
+    await translate('Anglo-Saxon', 'ck3', 0, undefined, true)
+
+    // 각각 다른 캐시 키로 조회되었는지 확인
+    expect(hasCache).toHaveBeenNthCalledWith(1, 'Anglo-Saxon', 'ck3') // 번역 모드
+    expect(hasCache).toHaveBeenNthCalledWith(2, 'transliteration:Anglo-Saxon', 'ck3') // 음역 모드
+  })
+})
+
 describe('TranslationRefusedError 처리', () => {
   beforeEach(() => {
     vi.clearAllMocks()

@@ -348,11 +348,21 @@ async function processLanguageFile (mode: string, sourceDir: string, targetBaseD
       continue
     }
 
-    if (targetValue && (sourceHash === targetHash)) {
+    // 번역이 존재하고 해시가 일치하면 스킵 (강화된 검증)
+    if (targetValue && targetHash && (sourceHash === targetHash)) {
       log.verbose(`[${mode}/${file}:${key}] 번역파일 문자열: ${targetHash} | "${targetValue}" (번역됨)`)
       newYaml.l_korean[key] = [targetValue, targetHash]
       processedCount++
       continue
+    }
+
+    // 디버깅: 해시 비교 실패 시 상세 정보 로깅
+    if (targetValue && targetHash && sourceHash !== targetHash) {
+      log.debug(`[${mode}/${file}:${key}] 해시 불일치 감지:`)
+      log.debug(`  - sourceHash: "${sourceHash}" (type: ${typeof sourceHash}, length: ${sourceHash.length})`)
+      log.debug(`  - targetHash: "${targetHash}" (type: ${typeof targetHash}, length: ${targetHash.length})`)
+      log.debug(`  - 비교 결과: ${sourceHash === targetHash}`)
+      log.debug(`  - 엄격 비교: ${Object.is(sourceHash, targetHash)}`)
     }
 
     log.verbose(`[${mode}/${file}:${key}] 번역파일 문자열: ${targetHash} | "${targetValue}"`)
