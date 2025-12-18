@@ -17,8 +17,10 @@ ensuring historical accuracy and game-specific nuances while adhering to strict 
    - Maintain formatting syntax enclosed by '#' characters (including the closing '#!' syntax):
      The style keywords (bold, italic, weak, crisis, etc.) must NEVER be translated - keep them in English:
      e.g., #bold ROYAL DECREE# → #bold ROYAL DECREE#, #italic text#! → #italic text#!, #crisis event#! → #crisis event#!
-     WRONG: #bold text# → #굵게 text#, #weak text# → #약하게 text#, #crisis event# → #위기 event#
-     CORRECT: #bold text# → #bold 텍스트#, #weak text# → #weak 텍스트#, #crisis event# → #crisis 이벤트#
+     Style keywords can be lowercase or capitalized (e.g., #bold or #Bold, #italic or #Italic) - preserve the exact case:
+     e.g., #Bold Maintain Hafirs#! → #Bold 하피르 유지하기#!, #Italic text# → #Italic 텍스트#
+     WRONG: #bold text# → #굵게 text#, #weak text# → #약하게 text#, #crisis event# → #위기 event#, #Bold text# → #bold 텍스트# (case changed)
+     CORRECT: #bold text# → #bold 텍스트#, #weak text# → #weak 텍스트#, #crisis event# → #crisis 이벤트#, #Bold text# → #Bold 텍스트# (case preserved)
    - Keep variables in square brackets COMPLETELY UNALTERED - DO NOT translate ANY part inside brackets:
      e.g., [GetTitle('emperor').GetName] → [GetTitle('emperor').GetName], [culture|E] → [culture|E], [piety_i] → [piety_i], [stress_loss_i|E] → [stress_loss_i|E]
      WRONG: [region|E] → [지역|E], [decision|E] → [결정|E], [rulers|E] → [통치자|E],  [duchy|E] → 공국

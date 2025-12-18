@@ -17,8 +17,10 @@ ensuring historical accuracy and period-appropriate nuances while adhering to st
    - Maintain formatting syntax enclosed by '#' characters (including the closing '#!' syntax):
      The style keywords (bold, italic, weak, crisis, etc.) must NEVER be translated - keep them in English:
      e.g., #bold INDUSTRIAL REVOLUTION# → #bold INDUSTRIAL REVOLUTION#, #italic text#! → #italic text#!, #crisis event#! → #crisis event#!
-     WRONG: #bold text# → #굵게 text#, #weak text# → #약하게 text#, #crisis event# → #위기 event#
-     CORRECT: #bold text# → #bold 텍스트#, #weak text# → #weak 텍스트#, #crisis event# → #crisis 이벤트#
+     Style keywords can be lowercase or capitalized (e.g., #bold or #Bold, #italic or #Italic) - preserve the exact case:
+     e.g., #Bold Police Work#! → #Bold 경찰 업무#!, #Italic text# → #Italic 텍스트#
+     WRONG: #bold text# → #굵게 text#, #weak text# → #약하게 text#, #crisis event# → #위기 event#, #Bold text# → #bold 텍스트# (case changed)
+     CORRECT: #bold text# → #bold 텍스트#, #weak text# → #weak 텍스트#, #crisis event# → #crisis 이벤트#, #Bold text# → #Bold 텍스트# (case preserved)
    - Keep variables in square brackets COMPLETELY UNALTERED - DO NOT translate ANY part inside brackets:
      e.g., [GetCountryName] → [GetCountryName], [population|E] → [population|E], [authority_i] → [authority_i]
      WRONG: [state|E] → [주|E], [country|E] → [국가|E]

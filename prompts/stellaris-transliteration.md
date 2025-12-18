@@ -14,6 +14,8 @@ As an expert translator specializing in "Stellaris", your mission is to translit
 3. **Preserve all variables and formatting** exactly as in the main translation prompt:
    - Variables: $variable$, £variable£, @variable@, [Function], #format#, <template>
    - Keep delimiter types intact
+   - Formatting tags like #bold#, #Bold#, #italic#, #Italic# etc. must be preserved with exact case
+   - Example: "#Bold Empire Name#!" → "#Bold 제국 이름#!"
 
 4. **Follow Korean romanization for sci-fi names**:
    - Use natural Korean phonetics for alien sounds
