@@ -194,19 +194,33 @@ async function saveAndReturnResult(
   gameType: GameType,
   untranslatedItems: UntranslatedItem[]
 ): Promise<TranslationResult> {
-  const result: TranslationResult = { untranslatedItems }
+  // 중복 항목 제거 (mod + file + key 조합으로 고유성 판단)
+  const seen = new Map<string, UntranslatedItem>()
+  for (const item of untranslatedItems) {
+    const key = `${item.mod}::${item.file}::${item.key}`
+    if (!seen.has(key)) {
+      seen.set(key, item)
+    }
+  }
+  const deduplicatedItems = Array.from(seen.values())
+  
+  const result: TranslationResult = { untranslatedItems: deduplicatedItems }
   
   // 항상 JSON 파일 저장 (빈 배열도 저장하여 close-translation-issues가 최신 상태를 확인할 수 있도록 함)
   const outputPath = join(projectRoot, `${gameType}-${UNTRANSLATED_ITEMS_FILE_SUFFIX}`)
   const outputData = {
     gameType,
     timestamp: new Date().toISOString(),
-    items: untranslatedItems
+    items: deduplicatedItems
   }
   await writeFile(outputPath, JSON.stringify(outputData, null, 2), 'utf-8')
   
-  if (untranslatedItems.length > 0) {
-    log.info(`번역되지 않은 항목 ${untranslatedItems.length}개가 ${outputPath}에 저장되었습니다.`)
+  if (deduplicatedItems.length > 0) {
+    if (deduplicatedItems.length < untranslatedItems.length) {
+      log.info(`중복 제거 후 번역되지 않은 항목 ${deduplicatedItems.length}개가 ${outputPath}에 저장되었습니다. (${untranslatedItems.length - deduplicatedItems.length}개 중복 제거됨)`)
+    } else {
+      log.info(`번역되지 않은 항목 ${deduplicatedItems.length}개가 ${outputPath}에 저장되었습니다.`)
+    }
   } else {
     log.info(`모든 항목이 번역되었습니다. 결과가 ${outputPath}에 저장되었습니다.`)
   }

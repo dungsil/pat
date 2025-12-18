@@ -751,6 +751,69 @@ transliteration_files = ["custom_events_l_english.yml", "*_special_*"]
     // 정리
     await rm(testDir, { recursive: true, force: true })
   })
+
+  it('중복되는 항목을 제거하고 고유한 항목만 JSON 파일에 저장해야 함', async () => {
+    // 번역 거부 시나리오를 시뮬레이션하여 중복 항목 생성
+    // (실제로는 버그가 없으면 중복이 발생하지 않지만, 방어적 프로그래밍을 위한 테스트)
+    const { translate, TranslationRefusedError } = await import('../utils/translate')
+    
+    // 특정 키에서 번역 거부 발생하도록 모킹
+    vi.mocked(translate).mockImplementation(async (text: string) => {
+      if (text === 'Duplicate Item') {
+        throw new TranslationRefusedError(text, 'test refusal')
+      }
+      return `[KO]${text}`
+    })
+
+    const { processModTranslations } = await import('./translate')
+
+    // ck3/ 하위 디렉토리 구조 모방
+    const ck3Dir = join(testDir, 'ck3')
+    const modDir = join(ck3Dir, 'dedup-test-mod')
+    const upstreamDir = join(modDir, 'upstream')
+
+    const metaContent = `
+[upstream]
+localization = ["."]
+language = "english"
+`
+
+    // 같은 키를 가진 항목이 있는 파일 생성
+    const sourceContent = `l_english:
+  dup_key: "Duplicate Item"
+  unique_key: "Unique Item"
+`
+
+    await mkdir(upstreamDir, { recursive: true })
+    await writeFile(join(modDir, 'meta.toml'), metaContent, 'utf-8')
+    await writeFile(join(upstreamDir, 'test_l_english.yml'), sourceContent, 'utf-8')
+
+    // 번역 실행 - rootDir은 ck3Dir
+    await processModTranslations({
+      rootDir: ck3Dir,
+      mods: ['dedup-test-mod'],
+      gameType: 'ck3',
+      onlyHash: false
+    })
+
+    // JSON 파일 확인 (projectRoot = testDir)
+    const jsonPath = join(testDir, 'ck3-untranslated-items.json')
+    expect(existsSync(jsonPath)).toBe(true)
+    
+    const jsonContent = JSON.parse(readFileSync(jsonPath, 'utf-8'))
+    
+    // 중복이 없어야 함 (같은 mod, file, key 조합)
+    const keys = jsonContent.items.map((item: any) => `${item.mod}::${item.file}::${item.key}`)
+    const uniqueKeys = new Set(keys)
+    expect(keys.length).toBe(uniqueKeys.size)
+    
+    // dup_key 항목이 정확히 1개만 있어야 함
+    const dupItems = jsonContent.items.filter((item: any) => item.key === 'dup_key')
+    expect(dupItems.length).toBe(1)
+
+    // 정리
+    await rm(testDir, { recursive: true, force: true })
+  })
 })
 
 // 지정된 개수의 항목을 가진 YAML 파일을 생성하는 헬퍼 함수
