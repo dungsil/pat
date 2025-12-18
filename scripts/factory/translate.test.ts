@@ -395,7 +395,7 @@ language = "english"
     // JSON 파일이 생성되고 빈 배열을 포함해야 함 (close-translation-issues가 최신 상태를 확인할 수 있도록)
     const jsonPath = join(testDir, 'ck3-untranslated-items.json')
     expect(existsSync(jsonPath)).toBe(true)
-    const jsonContent = JSON.parse(readFileSync(jsonPath, 'utf-8'))
+    const jsonContent = JSON.parse(await readFile(jsonPath, 'utf-8'))
     expect(jsonContent.items).toEqual([])
     expect(jsonContent.gameType).toBe('ck3')
   })
