@@ -299,3 +299,203 @@
   je_bpm_multicultural_upgrade_reason: "[GetLawType('law_multicultural').GetName] [Concept('concept_law', '법')]이 통과됨에 따라 인종과 문화의 평등은 오직 서류상으로만 전제되었습니다. 그러나 국제주의적 대의를 지지하는 가장 급진적인 이들은 더욱 박차를 가하고 있으며, 우리가 그들의 뜻을 방임한다면 대신 [GetLawType('law_multicultural_upgraded').GetName]을 얻게 될 것입니다.\n\n[GetLawType('law_multicultural').GetName]의 지지자들이 [Concept('concept_powerful', '강력함')] 상태를 유지하거나 [Concept('concept_in_government', '여권')]에 머물도록 허용하면서 [GetLawType('law_repeatable_culture_affirmative_action').GetName]을 반복적으로 통과시키면 이 항목의 진행도가 증가합니다. 반대로, [GetLawType('law_multicultural').GetName]의 지지자들이 [Concept('concept_powerful', '강력함')] 상태를 유지하거나 [Concept('concept_in_government', '여권')]에 머물도록 허용하면 이 항목의 진행도가 감소합니다." # 3196172284060207986
   je_bpm_total_separation_upgrade: "진정한 세속주의" # 8392128675345480048
   je_bpm_total_separation_upgrade_reason: "[GetLawType('law_total_separation').GetName] [Concept('concept_law', '법안')]이 통과됨에 따라, 우리 국가는 표면적으로 세속 국가가 되었습니다. 대신 [GetLawType('law_total_separation_upgraded').GetName]의 채택을 추진한다면, 진정으로 세속적인 국가가 될 방법이 있을지도 모릅니다.\n\n[GetLawType('law_repeatable_religion_promote_secular_values').GetName]의 지지자들이 [Concept('concept_powerful', '강력함')] 상태를 유지하거나 [Concept('concept_in_government', '정부 내')]에 머물게 하고, [GetLawType('law_repeatable_religion_promote_secular_values').GetName]을 반복적으로 통과시키면 이 항목의 진행도가 증가합니다. 반대로, [GetLawType('law_repeatable_religion_promote_secular_values').GetName]의 지지자들이 [Concept('concept_powerful', '강력함')] 상태를 유지하거나 [Concept('concept_in_government', '정부 내')]에 머물게 하면 이 항목의 진행도가 감소합니다." # 6122736929402555779
+  je_bpm_multicultural_upgrade_progress_bar: "진보" # 15106327103744824811
+  je_bpm_multicultural_upgrade_progress_bar_desc: "법률 업그레이드 진행도: ([JournalEntry.GetCurrentBarValue(ScriptedProgressBar.Self)|1]/100)" # 15451576074137839677
+  je_bpm_women_rights_upgrade_progress_bar: "진보" # 15106327103744824811
+  je_bpm_women_rights_upgrade_progress_bar_desc: "법률 업그레이드 진행도: ([JournalEntry.GetCurrentBarValue(ScriptedProgressBar.Self)|1]/100)" # 15451576074137839677
+  je_bpm_total_separation_upgrade_progress_bar: "진보" # 15106327103744824811
+  je_bpm_total_separation_upgrade_progress_bar_desc: "법률 업그레이드 진행도: ([JournalEntry.GetCurrentBarValue(ScriptedProgressBar.Self)|1]/100)" # 15451576074137839677
+  bpm_total_separation_upgrade_from_anti_secularists: "종교적 반대 세력으로부터" # 953499322182197503
+  bpm_total_separation_upgrade_from_secularists: "세속주의적 지지로부터" # 9923476854008051743
+  bpm_multicultural_upgrade_from_anti_multiculturalists: "반국제주의적 반대 세력으로부터" # 4890606580492221857
+  bpm_multicultural_upgrade_from_multiculturalists: "국제주의적 지원으로부터" # 2061311146152740472
+  bpm_womens_rights_upgrade_from_sexists: "반여권주의자들로부터" # 10813912199996909492
+  bpm_womens_rights_upgrade_from_super_feminists: "급진적 여성주의자들로부터" # 13804816776455900528
+  bpm_je_multicultural_upgrade_advance_25: "#bold $je_bpm_multicultural_upgrade$#!의 진행 상황이 #variable [GetPlayer.MakeScope.ScriptValue('bpm_repeatable_law_affirmative_action_power_upgrade_progress')|G0]#!만큼 진전됩니다." # 8000497247185371972
+  bpm_je_women_rights_upgrade_advance_25: "#bold $je_bpm_women_rights_upgrade$#!의 진척도가 #variable [GetPlayer.MakeScope.ScriptValue('bpm_repeatable_law_promote_socialist_values_effect_power_upgrade_progress')|G0]#!만큼 상승합니다." # 3148102105692868775
+  bpm_je_total_separation_upgrade_advance_25: "#bold $je_bpm_total_separation_upgrade$#!의 진행도가 #variable [GetPlayer.MakeScope.ScriptValue('bpm_repeatable_law_promote_secular_values_upgrade_progress')|G0]#!만큼 증가합니다." # 16806800311838462516
+  bpm_red_scare_unlock_tt: "#variable 강대국#! 이상의 [concept_rank]를 가진 [concept_country]에서 #N 노동자 혁명#!이 발생했습니다." # 7307944106649180990
+  je_bpm_guilty_land: "이 죄 많은 땅" # 12529352383682396755
+  je_bpm_guilty_land_reason: "노예제의 죄악은 미국이라는 기획의 영혼에 흉터로 남았으며,\"모든 사람은 평등하게 태어났\"는 말은 제9지옥의 죄악과도 같습니다. 우리 국민은 이를 알고 있기에 선거와 타협이라는 위선에 맞서 투쟁합니다. 이러한 방식이 실패할 때, 음모론과 분리주의 정서가 싹트게 됩니다.\n\n#GBB 북부#!에서는 계속되는 노예제의 범죄가 노예 권력의 탓이라고 비난받습니다. 대부분은 이 문제에 대해 양가적인 태도를 보이지만, 다가올 몇 년 동안 긴장이 고조되면 대중적인 공감을 얻을 수 있습니다.\n\n#GB 남부#!에서는 사기꾼들이 자기기만에 빠진 대농장주들과 절박한 소농들에게 주의 권리에 관한 이야기를 늘어놓습니다. 최근 무효화 위기에서 벗어난 그들의 열정은 현재로서는 다소 완화된 상태입니다.\n\n#GBB 북부#!와 #GB 남부#!의 급진화는 각각 다음과 같은 경우에 증가합니다:\n#N +#! #GBB 노예제 찬성#!/#GB 노예제 반대#! 집단의 선거 승리,\n#N +#! #GBB 노예제 반대#!/#GB 노예제 찬성#! 대통령의 재임 중 사망,\n#N +#! 연방에 #GBB 노예#!/#GB 자유#! 주 추가.\n때때로 타협안이 제시되겠지만, 양측 모두를 만족시킬 수는 없을 것입니다.\n\n국가를 너무 빠르게 확장하지 않도록 주의하십시오. 새로운 영토가 생기면 그 땅을 누가 경작해야 하는지에 대한 논쟁이 뒤따르기 때문입니다. #BB 국가적 급진화#!가 비등점에 도달하면, 양측은 법률전과 준군사적 폭력 캠페인을 전개할 것입니다.\n\n#N 하퍼스 페리로의 행진은 멈출 수 없으며, 오직 지연될 뿐입니다.#!" # 10642410070710889143
+  bpm_je_john_brown: "존 브라운이 대담한 습격을 감행했으며, 한 시대의 마지막 선거가 시작되었습니다." # 8806272310478890813
+  bpm_je_eradicate_slavery: "노예제가 5년 동안 불법이었습니다." # 15946148639848501261
+  bpm_je_guilty_one_civil_war: "\"이 죄 많은 땅의 죄악은..\"" # 3660406043990345364
+  bpm_je_guilty_two_civil_war: "\"이 죄 많은 땅의 죄악은 결코 씻겨 나가지 않을 것이다..\"" # 7205529533022640267
+  bpm_je_guilty_three_civil_war: "\"이 죄 많은 땅의 죄악은 피가 아니고서는 결코 씻어낼 수 없을 것이다..\"" # 2250114762318166771
+  bpm_je_guilty_four_civil_war: "\"이 죄 많은 땅의 죄악은 오직 피로써만 씻겨 나갈 수 있을 것이다\" - 존 브라운" # 17339270093635199740
+  je_bpm_gag_rule: "침묵 규칙" # 5021511697035535416
+  je_bpm_gag_rule_reason: "1819년의 참혹한 공황 이래로, 우리 #GB 남부#!의 고결한 신사들은 중앙 정부로부터 끊임없는 학대를 받아왔습니다. 1820년의 미주리 타협은 우리의 소중한 특수한 제도를 구속하려 들었고, 뒤이은 관세 정책은 우리의 발전에 필수적인 기계류를 앗아가 우리를 굶주시게 했습니다. 이제 저 개리슨이라는 자는 노예제 폐지라는 대담한 목표를 내걸고 캠페인을 시작했습니다!\n\n우리는 분명한 선을 그어야 합니다. 참견하기 좋아하는 #GBB 북부인#!들이 우리의 숭고한 경제적 토대를 간섭하려는 시도를 더 이상 용납해서는 안 됩니다. 무효화 위기로 입은 상처를 치유할 준비가 된 정당이 나타나지 않는 한, 이 신성한 의사당 안에서 노예제 문제에 관한 어떠한 담론도 없을 것입니다!\n\n@information! #brightyellow 휘그당#!이 #GB 남부#!의 지지를 얻으려면, #GB 남부#!에 #yellow 항구#!와 #yellow 건설 부문#!을 건설하여 대대적인 내부 개선 사업을 시작해야 합니다.\n\n@information! #blue 민주당#!이 #GB 남부#!의 지지를 얻으려면, [GetLawType('law_free_trade').GetName]을 통과시키고 #yellow 목화 농장#!을 확장하여 목화 왕을 세계 시장에 풀어놓아야 합니다.\n\n@warning! 이 요구들은 터무니없습니다. 이를 이행하는 것은 전적으로 귀하의 책임입니다. 노예주들을 달래서 얻는 이익이 그로 인한 골칫거리보다 가치가 없을 수도 있기 때문입니다.\n\n만약 두 거대 정당 중 어느 쪽도 3년 이내에 무효화 위기로 인해 생긴 균열을 수습하지 못한다면, #GB 남부#!는 함구령을 확정 지어 가까운 미래에 노예제에 관한 논의를 종식시킬 것입니다.\n\n#lore\"우리는 세계 시장의 일반적인 공급을 위해 특정 주요 작물을 재배하며, 저들은 거의 독점적으로 국내 시장을 위해 제조합니다. 저들의 관세 목적은 국내 시장의 독점권을 얻기 위해 외국의 경쟁을 억제하는 것입니다\"\n\n—존 C. 칼훈, 1837#!" # 12803409655149450754
+  bpm_je_american_system: "루이지애나, 미시시피, 앨라배마, 조지아, 사우스캐롤라이나 각각에 #yellow 건설 부문 5개#!와 #yellow 항구 5개#! 보유" # 13098425445079062371
+  bpm_je_abomination_slayer: "[GetLawType('law_free_trade').GetName]을(를) 제정하고 루이지애나, 미시시피, 앨라배마, 조지아, 사우스캐롤라이나 각각에 #yellow 15개의 면화 플랜테이션#!을 보유하십시오." # 12726140938007562903
+  bpm_je_gag_failure: "3년이 흘렀으나, 무효화의 상처는 여전히 진물을 흘리고 있습니다." # 4064899861029244297
+  bpm_je_south_unites: "#GB 남부#! 엘리트들이 #brightyellow 휘그당#! 또는 #blue 민주당#! 중 한쪽을 중심으로 결집합니다." # 15391095174733388409
+  je_bpm_csa_crossroads_of_our_being: "우리 존재의 기로" # 9362966485079502265
+  je_bpm_csa_crossroads_of_our_being_reason: "분파 전쟁이 도래했으며, 이와 함께 독립 전쟁 이후 보지 못한 투쟁이 시작되었습니다. 자신들의 나태함에 도취된 파이어 이터들이 우리의 '언덕 위의 도시'에 내전을 불러왔습니다. 이 투쟁을 수행하고 갈림길에 선 국가를 이끄는 것은 군 통수권자로서 대통령의 책임입니다.\n\n전쟁이 길어짐에 따라, 이 갈등을 신속하게 종결짓기 위한 비상 입법을 제안하는 이들이 생겨날 것입니다. 이 입법은 내전 기간뿐만 아니라 국가의 재건 과정에서도 유익할 것입니다. 하지만 이러한 입법은 반전 정서 또한 자극할 것입니다. 이 정서가 너무 높아지면 다음 대선에서 패배할 것이며, 평화주의적인 후임자는 분명 남부 연합의 분리 독립을 허용할 것입니다. 따라서 우리는 국가가 이 위기 속에서 불사조처럼 솟아오를 수 있도록 군사적, 정치적 이해관계 사이에서 균형을 잡아야 합니다.\n\n#lore\"여러분 스스로가 침략자가 되지 않는 한 갈등은 일어날 수 없습니다. 여러분에게는 정부를 파괴하겠다고 하늘에 맹세한 바가 없으나, 나에게는 정부를 '보존하고 보호하며 수호하겠다'는 가장 엄숙한 서약이 있습니다. 나는 결별을 원치 않습니다. 우리는 적이 아니라 친구입니다\"\n\n-에이브러햄 링컨, 1861#!" # 6925593234776806625
+  je_bpm_fsa_crossroads_of_our_being: "우리 존재의 기로" # 9362966485079502265
+  je_bpm_fsa_crossroads_of_our_being_reason: "분파 전쟁이 도래했으며, 이와 함께 독립 전쟁 이후 보지 못했던 투쟁이 시작되었습니다. 자만심에 도취한 급진파 공화주의자들은 우리의 '언덕 위의 도시'에 내전을 불러왔습니다. 이 투쟁을 수행하고 기로에 선 국가를 이끄는 것은 군 통수권자로서 대통령의 책임입니다.\n\n전쟁이 장기화됨에 따라, 누군가는 이 갈등을 조속히 종결시키기 위한 비상 입법을 제안할 것입니다. 이 입법은 내전 기간뿐만 아니라, 태양 아래 우리의 자리를 되찾는 데에도 유익할 것입니다. 그러나 이러한 입법은 반전 정서 또한 자극할 것입니다. 만약 이 정서가 너무 높아진다면, 우리는 다음 대선에서 패배할 것이며 우리의 평화주의적 후임자는 분명 국가가 위대해질 기회를 놓치게 만들 것입니다. 그러므로 우리는 국가가 신이 부여한 계몽을 전 세계에 전파할 수 있도록 군사적, 정치적 이해관계 사이에서 균형을 잡아야 합니다.\n\n#lore\"우리의 새 정부는 정확히 그 반대의 이념 위에 세워졌습니다. 정부의 토대는 흑인이 백인과 평등하지 않다는 위대한 진리 위에 놓여 있으며, 그 주춧돌은 우월한 인종에 대한 노예적 종속이 흑인의 자연스럽고 정상적인 상태라는 진리 위에 놓여 있습니다\"\n\n-알렉산더 H. 스티븐, 1861#!" # 6527687171533794392
+  bpm_je_crossroads_zero: "온 국가가 승리한 대통령과 그의 정당을 중심으로 결집했습니다." # 7033889576215559739
+  bpm_je_crossroads_one: "평화주의 옹호자들의 목소리는 드높으나, 실효성은 없습니다." # 4105743457672159351
+  bpm_je_crossroads_two: "평화주의 정서가 급격히 확산되고 있으며, 전쟁 수행에 위협이 되고 있습니다." # 6776981443772590509
+  bpm_je_crossroads_three: "평화주의적 사보타주는 우리의 군사적 및 정치적 목표에 있어 지속적인 위협입니다." # 10162700773361084261
+  bpm_je_crossroads_four: "대통령의 자당 내에서조차 평화를 촉구하는 목소리가 만연해 있습니다." # 4158263166729104789
+  bpm_je_civil_war_success: "내전이 승리로 끝났으며, 우리는 의회와 투표함에서 벌어진 내부 정치적 투쟁에서도 승리를 거두었습니다." # 15981279992785760942
+  bpm_je_civil_war_fail: "내전이 군사적으로든 정치적으로든 패배로 끝났습니다." # 14412747754087076511
+  bpm_je_civil_divide: "전쟁에서는 패배했으나, 어쩌면 평화에서는 승리를 거둘 수 있을지도 모릅니다." # 2529848713982630589
+  je_bpm_second_revolution: "제2차 미국 혁명" # 5402083935361278354
+  je_bpm_second_revolution_reason: "위대한 해방자께서 서거하셨습니다. 우리는 그분의 유해가 우리 도시들을 지나는 것을 보았습니다. 우리는 그분의 비전을 목도했으며, 이제 그것은 우리의 영혼에 깊이 새겨졌습니다. 우리는 남부 연합이 승리하여 조국을 다시 죄악으로 되돌리도록 내버려 둘 수도, 내버려 두어서도 안 됩니다. 제1차 혁명의 꿈을 완수하기 위해, 우리는 제2차 혁명에 착수하여 우리 정원에서 증오와 억압을 뿌리 뽑아야 합니다. 우리는 다음을 통과시켜야 합니다:\n\n국가 경찰\n주 방위군\n민주적 가치 장려\n농업 투자\n권력 이양\n임명 관료\n노예제 폐지\n문화적 배척\n반부패 숙청\n\n우리 국민이 혁명에 너무 지쳐 자유민들을 저버리기 전에 말입니다. 우리의 혁명을 돕기 위해, 입법부는 국가의 행정력과 외교 역량에 막대한 비용을 지불하는 대신 개혁을 가속화할 수 있는 헌법적 허점을 검토하기 시작했습니다. 자유의 깃발이 영원히 휘날리게 하기 위해 우리는 무엇을 하겠습니까?" # 1178134100478011360
+  bpm_je_second_revolution_six: "\"늙은 존 브라운의 시신은 무덤 속에서 썩어가고 있지만..\"" # 10964416744573979268
+  bpm_je_second_revolution_five: "\"늙은 존 브라운의 육신은 무덤 속에서 썩어가고 있으나, 속박된 자들의 아들들은 눈물 흘리노라..\"" # 3578114127236867631
+  bpm_je_second_revolution_four: "\"늙은 존 브라운의 육신은 무덤 속에서 썩어가고 있으나, 그가 구원하려 모든 것을 걸었던 속박된 자들의 자식들은 눈물짓노라..\"" # 7128494900067369547
+  bpm_je_second_revolution_three: "늙은 존 브라운의 시신은 무덤 속에서 썩어가고, 그가 구하고자 모든 것을 걸었던 노예의 자식들은 눈물 짓네. 비록 그가 목숨을 잃었을지라도..." # 11104958372651405292
+  bpm_je_second_revolution_two: "\"늙은 존 브라운의 시신은 무덤 속에서 삭아가고, 그가 구원하기 위해 모든 것을 걸었던 속박의 아들들은 눈물 흘리네. 비록 그가 노예들을 위해 투쟁하다 목숨을 잃었을지라도..\"" # 10966463820710142565
+  bpm_je_second_revolution_one: "늙은 존 브라운의 육신은 무덤 속에서 썩어가고, 그가 구원하려 모든 것을 바쳤던 속박의 자식들은 슬피 우네. 비록 노예들을 위해 투쟁하다 목숨을 잃었을지라도, 그의 영혼은 행진하고 있노라." # 17973823221620486265
+  bpm_je_rec_success: "9개의 필수 개혁이 모두 통과됨에 따라, 우리는 인종적 평등을 유지할 국가를 성공적으로 건설하였습니다." # 8752898817290286733
+  bpm_je_rec_failure: "피로가 극에 달하면서, 온건 공화파조차 우리의 개혁 노력에 인내심의 한계를 드러냈습니다." # 8908908555886362670
+  je_bpm_to_the_victor: "승자에게 전리품을" # 14843888780519605592
+  je_bpm_to_the_victor_reason: "#v 진행도:#! #tooltippable;tooltip:[Country.GetTooltipTag],je_bpm_victor_rate_tooltip [Country.MakeScope.ScriptValue('bpm_je_victor_rate')|+]#!/월\n\n" # 13975255312918225937
+  je_bpm_victor_rate_tooltip: "[Country.MakeScope.GetScriptValueDesc('bpm_je_victor_rate')]" # 5121425982156243691
+  bpm_je_victor_one: "급진적 이상주의자들이 공화당을 장악했습니다" # 9777137853042533190
+  bpm_je_victor_two: "점진적 이상주의자들이 공화당을 주도합니다." # 6846853428339610204
+  bpm_je_victor_three: "점진주의자들이 공화당을 장악했습니다" # 6813961488661147296
+  bpm_je_victor_four: "점진적 실용주의자들이 공화당을 주도합니다." # 17077451654983593163
+  bpm_je_victor_five: "급진적 실용주의자들이 공화당을 장악했습니다" # 416095981344230071
+  bpm_je_victor_idealism: "이상주의 95 초과" # 12438080996838667611
+  bpm_je_victor_pragmatism: "실용주의 95 초과" # 689079292825948682
+  bpm_je_victor_incremental: "만족스러운 결론 없이 2년 이상의 시간이 흘렀으며, 현재 선거가 진행 중입니다." # 16933890659600517561
+  je_bpm_building_solidarity: "연대 구축" # 17510514571818962452
+  je_bpm_building_solidarity_reason: "임시 설명 - \n\n북부 농민 연맹 회원 수 [Country.MakeScope.Var('bpm_north_membership_var').GetValue|D-] @population!\n\n유색인 농민 연맹 회원 수 [Country.MakeScope.Var('bpm_colored_membership_var').GetValue|D-] @population!\n\n노동 기사단 회원 수 [Country.MakeScope.Var('bpm_knights_membership_var').GetValue|D-] @population!\n\n북부 연방 하원 의원 [Country.MakeScope.Var('bpm_solidarity_north_var').GetValue|-=]\n\n남부 연방 하원 의원 [Country.MakeScope.Var('bpm_solidarity_south_var').GetValue|-=]\n\n개척지 연방 상원 의원 [Country.MakeScope.Var('bpm_solidarity_west_var').GetValue|-=]\n\n타협 반대파 세력 [Country.MakeScope.Var('bpm_solidarity_unity_var').GetValue|-=]\n" # 17252846833658753804
+  bpm_je_solidarity_one: "인민주의 운동은 현재 체제에 충분한 위협이 되지 못하고 있습니다." # 12279830183319753734
+  bpm_je_solidarity_two: "타협파가 민중주의 운동의 모든 수준을 장악함" # 11841775155893545461
+  bpm_je_solidarity_three: "타협파가 포퓰리즘 운동의 지도부를 장악했습니다." # 6630582729296592438
+  bpm_je_solidarity_four: "양보론자들이 세력을 잃었으나, 포퓰리스트 운동은 아직 제3당을 창당할 만큼 충분한 자신감을 얻지 못했습니다." # 16407763082845196446
+  bpm_je_solidarity_five: "포퓰리즘 운동이 인민당으로 결집하였습니다. 이들은 민중의 요구를 대변하는 기수가 될 것입니다." # 8352636021856389038
+  bpm_je_solidarity_limits: "인민당이 분열된 채 새로운 선거 운동에 돌입합니다." # 8328591404072701407
+  je_bpm_new_imperialism: "신제국주의" # 7391518061378646812
+  je_bpm_new_imperialism_reason: "내전의 여파로부터 국가가 마침내 회복을 마치자, 영원한 전쟁의 북소리가 다시 한번 울려 퍼지기 시작했습니다. 새롭게 솟구치는 명백한 운명의 물결은 이제 시장과 산업의 언어로 스스로를 감쌌습니다. 상처가 흉터로 남은 지금, 컬럼비아는 다시 한번 개척지를 확장하는 길로 돌아가야만 합니다.\n\n확장을 향한 새로운 동력과 함께, 또 다른 국제 통화 회의를 소집하라는 요구도 뒤따르고 있습니다. 미국 내전의 여파 속에서 빈번하게 개최되었던 이 회의들은 국제 시장에서 복본위제의 안정성이 하락하는 것을 저지하려 시도했습니다. 하지만 대외 무역을 둘러싼 강대국 간의 경쟁으로 인해 합의는 결코 도출되지 못했습니다. 이제 우리 국가가 독보적인 안보 입지를 확보한 만큼, 우리는 마침내 국제 통화 정책의 고르디우스의 매듭을 풀 수 있는 새로운 국제 통화 회의를 조직할 수 있을지도 모릅니다.\n\n성공적인 국제 통화 회의를 조직하려면 다음 국가들의 승인이 필요합니다:\n\n영국\n프랑스 또는 독일\n프랑스 또는 스페인\n독일 또는 러시아\n오스트리아 또는 이탈리아\n오스트리아 또는 터키" # 12325928610953585170
+  bpm_mexican_destiny: "명백한 운명: 서부" # 16164899653794189429
+  bpm_mexican_destiny_desc: "우리 위대한 조국은 대륙 전역으로 뻗어 나갈 운명입니다. 태평양을 향해 진군합시다!" # 15920235232104417895
+  bpm_canadian_destiny: "명백한 운명: 북부" # 9439524923708963618
+  bpm_canadian_destiny_desc: "우리의 위대한 국가는 대륙 전역으로 뻗어 나갈 운명입니다. 영국의 폭정으로부터 이 땅을 해방합시다!" # 10229726896899011068
+  bpm_caribbean_destiny: "명백한 운명: 남부" # 11804015862417516350
+  bpm_caribbean_destiny_desc: "우리의 위대한 국가는 대륙 전체로 뻗어 나갈 운명입니다. 라틴 제국주의의 마지막 잔재를 종식시킵시다!" # 18018097489157105276
+  bpm_rec_institutional_one: "집행권 통제" # 6097651715606266147
+  bpm_rec_institutional_one_desc: "행정부가 아프리카계 미국인들을 보호하는 데 충분한 결단력을 발휘하지 못하고 있습니다. 행정부 관리들이 대통령의 해임 위협 없이 활동할 수 있도록 보장하기 위해, 우리는 공직임기법을 채택해야만 합니다." # 4515553703136130940
+  bpm_rec_institutional_two: "사법 관할권 제한" # 17122693915947194
+  bpm_rec_institutional_two_desc: "사법부가 우리가 재건 조치를 시행하는 권한에 의문을 제기하고 있습니다. 법원을 순응시키기 위해 남부 점령지에서의 인신보호영장 사건을 심리할 연방 대법원의 권한을 정지시켜야 합니다." # 14173265580169948004
+  bpm_rec_institutional_three: "행정부 우위 종식" # 3678623566023654541
+  bpm_rec_institutional_three_desc: "행정부가 아프리카계 미국인들을 보호하는 데 있어 충분한 결단력을 보여주지 못하고 있습니다. 우리는 탄핵권을 마치 승마용 채찍처럼 휘둘러, 대통령이 입법부의 의지에 순응하도록 보장해야 합니다." # 17505824494834351821
+  bpm_rec_institutional_four: "사법의 장벽을 불태우다" # 5597947910577607604
+  bpm_rec_institutional_four_desc: "사법부가 우리가 재건 조치를 시행하는 권위에 의문을 제기하고 있습니다. 우리는 제퍼슨의 실패를 바로잡고 연방 대법원을 민의에 철저히 복속시켜야 합니다. 필요하다면 그들 모두를 탄핵할 것입니다." # 16438219751118580975
+  bpm_western_monroe: "신제국주의: 태평양 패권" # 10154967100748220505
+  bpm_western_monroe_desc: "중국 시장에 대한 접근권과 우리 태평양 연안의 안보를 확보하기 위해, 우리 해군 기지를 확보할 북부 멕시코와 필리핀 제도를 해방해야 합니다!" # 17076544120490800872
+  bpm_northern_monroe: "신제국주의: 북서항로" # 8025624879033027346
+  bpm_northern_monroe_desc: "유럽의 침공으로부터 반구 방위를 확보하고 이론상의 북서 항로에 대한 영유권을 주장하려면, 해군 기지 건설을 위해 북극권을 정복해야만 합니다!" # 13944430042909220697
+  bpm_southern_monroe: "신제국주의: 테우안테펙 대양 간 회랑" # 2951575271712682092
+  bpm_southern_monroe_desc: "유럽의 식민 지배로부터 중앙아메리카를 보호하고 대서양과 태평양 사이의 더 빠른 항로를 개척하려면, 해군 기지 확보를 위해 테우안테펙 지협을 정복해야 합니다! 어쩌면 그곳에 운하를 건설할 수도 있을 것입니다!" # 16582742249387839807
+  bpm_western_remanifest: "재천명된 선언: 서부" # 7624702504706809255
+  bpm_western_remanifest_desc: "우리 위대한 조국은 대륙 전역으로 뻗어 나갈 운명입니다. 태평양을 향해 진군합시다!" # 15920235232104417895
+  bpm_northern_remanifest: "일신된 선언: 북부" # 9438357629743174658
+  bpm_northern_remanifest_desc: "우리의 위대한 국가는 대륙 전역으로 뻗어 나갈 운명입니다. 영국의 폭정으로부터 이 땅을 해방합시다!" # 10229726896899011068
+  bpm_southern_remanifest: "갱신된 선언: 남부" # 11785499035220238509
+  bpm_southern_remanifest_desc: "우리의 위대한 국가는 대륙 전체로 뻗어 나갈 운명입니다. 라틴 제국주의의 마지막 잔재를 종식시킵시다!" # 18018097489157105276
+  bpm_slave_power_progress_bar: "북부 급진화" # 14547467005805330072
+  bpm_slave_power_progress_bar_desc: "북부 급진화 진행도: ([JournalEntry.GetCurrentBarValue(ScriptedProgressBar.Self)|1]/40)" # 14324596314565852101
+  bpm_states_rights_progress_bar: "남부 급진화" # 8627137407522692940
+  bpm_states_rights_progress_bar_desc: "남부 급진화 진행도: ([JournalEntry.GetCurrentBarValue(ScriptedProgressBar.Self)|1]/40)" # 6405415567389729657
+  bpm_secession_tension_progress_bar: "국가적 급진화" # 4498134606390176589
+  bpm_secession_tension_progress_bar_desc: "국가적 급진화 진척도: ([JournalEntry.GetCurrentBarValue(ScriptedProgressBar.Self)|1]/40)" # 9307811762548392438
+  bpm_csa_crossroads_momentum_progress_bar: "국가 단결 강도" # 12529122652003682866
+  bpm_csa_crossroads_momentum_progress_bar_desc: "국가적 단결 강도 수준: ([JournalEntry.GetCurrentBarValue(ScriptedProgressBar.Self)|1]/15)" # 3789265602450222280
+  bpm_fsa_crossroads_momentum_progress_bar: "국가 융합 강도" # 10071263920285613270
+  bpm_fsa_crossroads_momentum_progress_bar_desc: "국가 융합 강도 수준: ([JournalEntry.GetCurrentBarValue(ScriptedProgressBar.Self)|1]/15)" # 1188808276714809576
+  bpm_reconstruction_exhaustion_progress_bar: "재건에 대한 피로" # 9871612932118350985
+  bpm_reconstruction_exhaustion_progress_bar_desc: "재건 피로도: ([JournalEntry.GetCurrentBarValue(ScriptedProgressBar.Self)|1]/120)" # 12812225385401056169
+  bpm_reconstruction_progress_progress_bar: "재건의 진척" # 17498135224520550368
+  bpm_reconstruction_progress_progress_bar_desc: "재건 진행 단계: ([JournalEntry.GetCurrentBarValue(ScriptedProgressBar.Self)|1]/9)" # 14460259680382377230
+  bpm_reconstruction_overreach_progress_bar: "재건을 위한 월권" # 4768004141700667168
+  bpm_reconstruction_overreach_progress_bar_desc: "재건 과잉 단계: ([JournalEntry.GetCurrentBarValue(ScriptedProgressBar.Self)|1]/4)" # 6302710456225832215
+  bpm_victor_progress_bar: "이상주의 대 실용주의" # 4947577817132784710
+  bpm_victor_progress_bar_desc: "이상주의 대 실용주의 수치: ([JournalEntry.GetCurrentBarValue(ScriptedProgressBar.Self)|1]/100)" # 10302762977579911086
+  je_bpm_1834_additional_act: "1834년 추가법" # 12625338455449159972
+  je_bpm_1834_additional_act_reason: "1831년에 발생한 황제 동 페드루 1세의 퇴위로부터 3년이 지났음에도, 1824년 브라질 헌법에 대한 어떠한 개혁도 아직 이루어지지 않았습니다. 국가는 통합을 위협하는 투쟁으로 분열되었습니다. 리우데자네이루, 마라냥, 파라에서 혁명적 봉기가 일어났으며, 가장 최근의 사건은 1833년 오우루프레투의 군사 반란이었습니다. 상원은 보수적이었으나, 신문 '오 세치 드 아브릴'이 명명한\"동 페드루 1세의 노\"와는 거리가 멀었습니다. 1833년 선거는 [SCOPE.gsInterestGroup('liberals_ig').GetName] 다수파를 하원으로 보냈으며, 1833년 10월 12일 법에 의해 의원들에게 제헌권이 부여되었습니다. 추가법은 지방의 더 큰 자치권을 옹호했던 이 다수파의 직접적인 결과였습니다. 1834년 8월 12일에 비준된 이 법은 연방주의 원칙을 군주제에 접목시켰습니다. 이는 통제권을 두고 중앙 정부와 지방 사이에 갈등을 야기했습니다. [SCOPE.gsInterestGroup('conservatives_ig').GetName] 측은 이 법이 국가를\"무정부 상\"로 만들었다고 비난하며 반드시 재검토되어야 한다고 주장합니다. 연방 군주제라는 자유주의적 꿈이 유지될 것입니까, 아니면 질서 확립을 위해\"보수주의적 복\"가 필요하게 될 것입니까?" # 10393145354525932022
+  bpm_brz_provinces_turmoil: "지역 혼란" # 17855735236775752627
+  je_bpm_arg_confed: "이름뿐인 연합" # 2767288642444870610
+  je_bpm_arg_confed_desc: "아르헨티나는 아직 기틀이 잡히지 않은 국가로, 스페인으로부터 독립한 지 불과 20년 만에 극심한 혼란에 빠진 연합체입니다. 아르헨티나의 구성 주들을 하나로 묶어줄 공식 헌법은 존재하지 않으며, 대신 정치적 이해관계와 때로는 무력에 의해 결속되어 있습니다. 현재는 실권자 #bold 후안 마누엘 데 로사스#!의 통치 아래 놓여 있습니다." # 1682023553172955716
+  je_peru_bolivia_goal: "볼리비아의 [SCOPE.sCulture('south_andean_culture').GetName] 및 [SCOPE.sCulture('quechua_culture').GetName] [Concept('concept_subject', '$concept_subjects$')]을(를) 유지하면서, [concept_liberty_desire]을(를) 10년 동안 #bold 60#! 미만으로 유지하십시오." # 4542727325551419290
+  je_bpm_greece_early_parties: "초기 그리스 정당" # 14787568841418604743
+  je_bpm_greece_early_parties_reason: "초기 그리스의 정당들은 다양한 이해관계와 배경을 바탕으로 조직되었으나, 이러한 여러 요인과 관계없이 각 정치 세력은 세 열강(영국, 프랑스, 러시아) 중 하나의 이름을 따서 명명되었습니다. 러시아파는 친정교회적이며 사회 보수주의적인 정당입니다. 이에 대항하여 성문 헌법을 요구하는 두 자유주의 정당인 영국파와 프랑스파가 동맹을 맺고 있습니다." # 9509746100502791308
+  bpm_gre_early_parties: "초기 그리스 정당" # 14787568841418604743
+  je_bpm_modernizers: "근대화 논쟁" # 16984037478996747771
+  je_bpm_modernizers_status: "$bpm_je_all_modernizers$와 그 반대파들의 논쟁을 주시하십시오." # 14542150759080468791
+  je_bpm_modernizers_status_no_dialectic: "#bold 변증법#!은 현재로서는 너무 미약합니다." # 5654858681129522974
+  je_bpm_modernizers_status_modernizer_prominence_overwhelming: "$bpm_je_all_modernizer$들이 지식인들 사이에서 #bold 압도적으로 우세#!합니다." # 18284821974001174231
+  je_bpm_modernizers_status_modernizer_prominence_strong: "$bpm_je_all_modernizer$들이 지식인 사이에서 지배적입니다." # 18181569166603838796
+  je_bpm_modernizers_status_modernizer_prominence_weak: "지식인들 사이에서 $bpm_je_all_modernizer$들이 자리를 잡고 있습니다." # 17390830504621900265
+  je_bpm_modernizers_status_conservative_prominence_overwhelming: "$bpm_je_all_antimodernizer$들이 지식인들 사이에서 #bold 압도적으로 우세#!합니다." # 6621997664797633034
+  je_bpm_modernizers_status_conservative_prominence_strong: "지식인들 사이에서 $bpm_je_all_antimodernizer$ 세력이 지배적입니다." # 14151665198630005352
+  je_bpm_modernizers_status_conservative_prominence_weak: "$bpm_je_all_antimodernizer$들이 지식인들 사이에서 득세하고 있습니다." # 9224967218067059222
+  je_bpm_modernizers_status_no_prominence: "$bpm_je_all_antimodernizer$들과 $bpm_je_all_modernizer$들이 지식인들 사이에서 대립하고 있습니다." # 7574852938094666500
+  je_bpm_modernizers_reason: "@information! #blue 활성화된 동안 [GetLawType('law_repeatable_culture_invite_foreign_experts').GetName] [Concept('concept_bpm_repeatable_law', '$concept_bpm_repeatable_law$')]을(를) 해제합니다#!\n\n$bpm_je_all_modernizers$의 변증법적 강도: #tooltippable;tooltip:[Country.GetTooltipTag],je_bpm_modernizers_modernizer_strength_tooltip [Country.MakeScope.ScriptValue('bpm_je_modernizers_ideology_rate_modernizers')|2]#!\n$bpm_je_all_antimodernizers$의 변증법적 강도: #tooltippable;tooltip:[Country.GetTooltipTag],je_bpm_modernizers_conservative_strength_tooltip [Country.MakeScope.ScriptValue('bpm_je_modernizers_ideology_rate_conservatives')|2]#! \n\n유럽과 아메리카의 국가들을 바라보건대, 우리의 제도들이 점차 구식화되고 위태로워졌음이 명백해졌습니다. 이러한 결핍을 가장 먼저 인식한 이들은 지식인들이었으며, 그들 사이에서 미래에 대한 상반된 비전을 제시하는 두 분파가 나타났습니다. 바로 $bpm_je_all_modernizers_tt$와 $bpm_je_all_anti_modernizers_tt$입니다.\n\n논쟁의 #v 사회적 영향력#!이 #v 25#!를 초과하면, 두 세력 중 더 영향력 있는 쪽에 따라 수정치를 얻게 됩니다.\n\n$bpm_je_all_modernizers$이 우세할 경우:\n  @arrow_up!사회 [concept_technology] 연구 속도 및 전파\n  @arrow_down!군사 [concept_technology] 연구 속도 및 전파\n  @arrow_down! [concept_bpm_political_stability] 목표\n  @information! @intelligentsia_bpm!가 높은 #v 사회적 영향력#!에서 급진적인 입장을 취함\n\n$bpm_je_all_antimodernizers$이 우세할 경우:\n  @arrow_down!사회 [concept_technology] 연구 속도 및 전파\n  @arrow_up!군사 [concept_technology] 연구 속도 및 전파\n  @arrow_up! [concept_bpm_political_stability] 목표\n\n양측 공통 제공:\n  @arrow_up!생산 [concept_technology] 전파\n  @arrow_up!주간 [concept_innovation]\n\n@warning! 우리의 더 전통주의적인 세력들은 외세의 영향력이 침투하는 것을 가볍게 여기지 않을 것이며, 상황이 지나치게 악화될 경우 조잡하고 폭력적인 #N 쿠데타#!를 일으킬 수도 있습니다.\n\n#lore\"러시아는 지난 300년 동안 서구와 융합하기를 갈망해 왔습니다. 지난 300년 동안 러시아는 스스로가 서구보다 열등함을 인정하고, 모든 사상과 가르침을... 서구로부터 가져왔습니다. 우리 군주들 중 가장 위대한 분께서는... 옛 러시아를 부정하셨습니다. 그분께서는 우리의 모든 고대 제도를 쓸어버리고 고대 전통을 내던지셨습니다... 그것은 영광스러운 일이었습니다. 우리가 앞으로 나아갈 길을 지시한 천재적인 인물의 창조물인 표트르 대제의 업적을 당신도 인정해야만 합니다\"\n\n—표트르 차다예프, 1837#!" # 9413551479001741767
+  bpm_je_modernizers_researched_all_techs_to_complete: "일지 항목이 시작된 이후 #variable 20#!개의 기술을 연구함" # 1613294593742153031
+  je_bpm_modernizers_modernizer_strength_tooltip: "[Country.MakeScope.GetScriptValueDesc('bpm_je_modernizers_ideology_rate_modernizers')]" # 15078645532806261571
+  je_bpm_modernizers_conservative_strength_tooltip: "[Country.MakeScope.GetScriptValueDesc('bpm_je_modernizers_ideology_rate_conservatives')]" # 3816989056106786966
+  bpm_je_modernizers_start: "$bpm_je_all_modernizers$와 $bpm_je_all_antimodernizers$ 사이의 논쟁이 시작되었습니다!" # 14317068358910163668
+  bpm_je_modernizers_end: "$bpm_je_all_modernizers$와 $bpm_je_all_antimodernizers$ 사이의 논쟁이 마무리되었습니다." # 3214870720712232097
+  bpm_je_modernizers_dialectic_bolstered: "#bold 변증법#!이 #bold 강화되었습니다#!!" # 16988166796836481956
+  bpm_je_modernizers_renamed_into_modernizers: "논쟁의 서구화파는 비서구권 승인국들 또한 지지할 것입니다." # 12150975642206387984
+  bpm_je_all_modernizers_tt: "@ig_liberals!@ig_radicals!@ig_socialists! #tooltippable;tooltip:[Country.GetTooltipTag],bpm_je_modernizers_desc_modernizers_tooltip [ROOT.GetCountry.GetCustom('bpm_je_modernizers_name_modernizers')]#!" # 6180532910978143832
+  bpm_je_all_anti_modernizers_tt: "@ig_conservatives!@ig_reactionaries! #tooltippable;tooltip:[Country.GetTooltipTag],bpm_je_modernizers_desc_anti_modernizers_tooltip [ROOT.GetCountry.GetCustom('bpm_je_modernizers_name_anti_modernizers')]#!" # 15192318486990474020
+  bpm_je_modernizers_desc_modernizers_tooltip: "$bpm_je_modernizers_desc_modernizer_effects$\n\n#lore [GetPlayer.GetCustom('bpm_je_modernizers_desc_modernizers')]#!" # 1265972278245472675
+  bpm_je_modernizers_desc_anti_modernizers_tooltip: "$bpm_je_modernizers_desc_anti_modernizer_effects$\n\n#lore [GetPlayer.GetCustom('bpm_je_modernizers_desc_anti_modernizers')]#!" # 5404869762369218811
+  bpm_je_all_modernizers: "@ig_liberals!@ig_radicals!@ig_socialists! #bold [GetPlayer.GetCustom('bpm_je_modernizers_name_modernizers')]#!" # 1281791146694758889
+  bpm_je_all_modernizer: "@ig_liberals!@ig_radicals!@ig_socialists! #bold [GetPlayer.GetCustom('bpm_je_modernizers_name_modernizer')]#!" # 7905846371928765708
+  bpm_je_all_antimodernizers: "@ig_conservatives!@ig_reactionaries! #bold [GetPlayer.GetCustom('bpm_je_modernizers_name_anti_modernizers')]#!" # 2851205325721173957
+  bpm_je_all_antimodernizer: "@ig_conservatives!@ig_reactionaries! #bold [GetPlayer.GetCustom('bpm_je_modernizers_name_anti_modernizer')]#!" # 16193749163358740231
+  bpm_je_modernizers_name_conservatives: "보수파" # 2886709379999934967
+  bpm_je_modernizers_name_conservative: "보수주의" # 13798856852811946831
+  bpm_je_modernizers_desc_conservative: "보수파는 [GetPlayer.GetCustom('bpm_je_modernizers_name_modernizers')]에 대항하는 세력으로, 외세의 영향이 가져다주는 이점보다 그 위험이 훨씬 크다고 믿습니다. 이들은 주로 산업 및 군사 분야에서 외국의 사상을 온건하게 수용하는 것에는 찬성하나, 최소한의 필수적인 조치를 제외한 모든 사회적 변화에는 완강히 반대합니다." # 10266919038803414207
+  bpm_je_modernizers_name_slavophiles: "슬라브주의자" # 6380842985221657236
+  bpm_je_modernizers_name_slavophile: "슬라브주의자" # 18106021315132019540
+  bpm_je_modernizers_desc_slavophiles: "슬라브주의자는 서구주의자에 대립하는 조류입니다. 이들은 러시아의 민족 정신이 이미 서구의 영향으로 인해 너무나 유린당했으며, 서구의 정신은 공동체적이고 기독교적이며 충성스러운 러시아의 정신에 부합하기에는 너무나 이기적이고 세속적이며 혁명적이라고 믿습니다. 이들은 주로 산업 및 군사 분야에서 외래 사상을 온건하게 수용하는 것에는 찬성하지만, 가장 필수적인 것 이외의 모든 사회적 변화에는 완강히 반대합니다." # 8159045799515495214
+  bpm_je_modernizers_name_zapadniks: "서구주의자" # 15401243419063931789
+  bpm_je_modernizers_name_zapadnik: "서구주의자" # 12946250732143672160
+  bpm_je_modernizers_desc_zapadniks: "서구주의자들은 러시아 인텔리겐차 내의 한 분파로, 서구를 모방하고 그들이 보기에 서구의 가장 뛰어난 혁신인 자유주의, 민주주의, 인권, 그리고 경제적 자유를 받아들여 러시아를 처해 있는 낙후된 상태에서 구원하고자 합니다. 이들은 자신들의 위대한 민족적 영웅인 표트르 대제의 발자취를 따르고 있습니다." # 2313308220847577139
+  bpm_je_modernizers_name_westernizers: "서구주의자" # 15491063039829829636
+  bpm_je_modernizers_name_westernizer: "서구주의자" # 8051805692972069659
+  bpm_je_modernizers_desc_westernizers: "서구파는 우리 지식인 집단 내의 한 조류로, 서구를 본받아 그들이 보기에 가장 뛰어난 혁신인 자유주의, 민주주의, 인권, 경제적 자유를 도입함으로써 국가를 현재의 낙후된 상태에서 구원하고자 합니다." # 10705166831408637235
+  bpm_je_modernizers_name_modernizers: "근대화론자" # 3550383860488826559
+  bpm_je_modernizers_name_modernizer: "근대화주의자" # 16542082622819425103
+  bpm_je_modernizers_desc_modernizers: "근대주의자들은 진보의 선두에 서 있다고 여겨지는 타국을 본보기로 삼아, 문화와 산업의 최신 혁신을 통해 우리 국가를 일신하고자 합니다. 최근 비서구 국가들이 기성 질서의 존경받는 일원으로서 정치 무대에 등장함에 따라, 서구화라는 관념은 더 광범위한 근대화의 개념으로 대체되었으며, 근대주의자들은 이제 기꺼이 더 독자적인 경로를 개척하려 합니다." # 15770278518452783078
+  bpm_je_modernizers_desc_modernizer_effects: "$bpm_je_all_modernizers$ 세력이 우세할 경우, #v 사회적 영향력#!에 비례하여 다음 수정치를 제공합니다:\n  @arrow_up!사회 [concept_technology] 연구 속도 및 전파\n  @arrow_down!군사 [concept_technology] 연구 속도 및 전파\n  @arrow_up!생산 [concept_technology] 전파\n  @arrow_up!주간 [concept_innovation]\n  @arrow_down! [concept_bpm_political_stability] 목표치\n  @information! 높은 #v 사회적 영향력#!에서 [GetInterestGroupVariant('ig_intelligentsia', GetPlayer).GetName]이(가) 급진적인 입장을 취함" # 6848190555561188434
+  bpm_je_modernizers_desc_anti_modernizer_effects: "$bpm_je_all_antimodernizers$ 세력이 우세할 경우, #v 사회적 영향력#!에 비례하여 다음 수정치를 제공합니다:\n  @arrow_down!사회 [concept_technology] 연구 속도 및 전파\n  @arrow_up!군사 [concept_technology] 연구 속도 및 전파\n  @arrow_up!생산 [concept_technology] 전파\n  @arrow_up!주간 [concept_innovation]\n  @arrow_up! [concept_bpm_political_stability] 목표치" # 13129717256347339380
+  je_bpm_modernizers_ideology_progress_bar: "이념적 성향" # 17951197453428070993
+  je_bpm_modernizers_ideology_progress_bar_left: "$bpm_je_all_modernizers$" # 7461624133409951572
+  je_bpm_modernizers_ideology_progress_bar_right: "$bpm_je_all_antimodernizers$" # 12152966590316362011
+  je_bpm_modernizers_dialectic_progress_bar: "변증법" # 7475889798008561862
+  je_bpm_modernizers_dialectic_progress_bar_desc: "사회적 영향력: #v [JournalEntry.GetCurrentBarProgress(ScriptedProgressBar.Self)|%]#!" # 17769991037226722617
+  bpm_je_modernizers_deafening_silence: "귀를 먹먹하게 하는 침묵" # 810548020581789659
+  bpm_je_modernizers_overwhelming_modernizers: "압도적인 근대화 세력의 영향력" # 16561681434265107795
+  bpm_je_modernizers_strong_modernizers: "강력한 근대화론자 영향력" # 15592835121726496006
+  bpm_je_modernizers_weak_modernizers: "약한 근대화론자 영향력" # 10931182233432435595
+  bpm_je_modernizers_overwhelming_conservatives: "압도적인 보수주의 영향력" # 8949906649395783295
+  bpm_je_modernizers_strong_conservatives: "강력한 보수주의 영향력" # 3211129543985725674
+  bpm_je_modernizers_weak_conservatives: "약한 보수주의 영향력" # 6325997447833525059
+  bpm_je_modernizers_winner: "근대화 논쟁의 승리자들" # 4632607362640487605
+  bpm_je_modernizers_winner_coup: "근대화 논쟁의 승리자들" # 4632607362640487605
+  westernizer_victory_tt: "서구주의자들이 승리를 거두었습니다" # 4861136161481998118
+  bpm_je_modernizers_copy_production_button: "산업 조사" # 8455140239767605222
+  bpm_je_modernizers_copy_production_button_desc: "산업은 근대 국가의 국력입니다. 우리는 이방인들의 방식을 연구하여 그들과 어깨를 나란히 하고, 나아가 그들을 능가해야 합니다." # 10331058222552757118
+  bpm_je_modernizers_copy_military_button: "육군 개편" # 9152935330506042199
+  bpm_je_modernizers_copy_military_button_desc: "해외의 신식 군대를 연구하는 데 역량을 집중한다면, 그 어떤 적수라도 능히 따라잡을 수 있을 것입니다!" # 17667619344014696269
+  bpm_je_modernizers_copy_society_button: "새로운 관습 장려" # 4913536852910348156
+  bpm_je_modernizers_copy_society_button_desc: "더 선진적인 사회에 부합하도록 우리의 관습을 고치는 것은 전통적인 세력의 경멸을 살 수도 있으나, 모든 방면에서 우리가 더 빠르게 진보하는 데 도움이 될 것임은 부정할 수 없습니다." # 5714011685961175710
+  bpm_je_modernizers_invite_production_button: "투자 유치" # 2957596502633651155
+  bpm_je_modernizers_invite_production_button_desc: "최근 진행된 산업 발전에 관한 조사를 통해 지식은 충분히 확보하였으나, 해당 지식을 활용하는 데 필요한 자원은 갖추지 못했습니다. 외국인 투자를 유치함으로써 이러한 산업들을 조속히 활성화할 수 있을 것입니다." # 16008928700756759924
+  bpm_je_modernizers_button_on_cooldown_tt: "이 행동은 #variable 1년#!의 재사용 대기시간 중이 아닙니다!" # 5311644446504629976
+  bpm_je_modernizers_button_stronger_with_dialectic_tt: "@information! #blue #bold 사회적 영향력#!은 이 활동의 효과를 개선합니다.#!" # 11729804711328240400
+  bpm_je_modernizers_button_stronger_with_conservative_dialectic_tt: "@information! #blue #bold 사회적 영향력#!은 이 행동의 효과를 개선하며, $bpm_je_all_antimodernizers$ 세력이 우세할 때 가장 강력한 개선 효과를 제공합니다.#!" # 7952827515672810527
+  bpm_je_modernizers_button_stronger_with_modernizer_dialectic_tt: "@information! #blue #bold 사회적 영향력#!은 이 행동의 효과를 개선하며, $bpm_je_all_modernizers$가 우세할 때 가장 강력한 개선 효과를 제공합니다.#!" # 17419798314649808352
+  bpm_modernizers.1.t: "근대화 논쟁" # 15488938887560384161
+  bpm_modernizers.1.d: "서구 사상의 물결이 [ROOT.GetCountry.GetName]에 본격적으로 유입되기 시작하면서, 산업화된 서구 국가들을 따라잡기 위해 우리가 가야 할 길이 아직 멀다는 사실이 점점 더 명확해졌습니다. 그 결과 지식인들 사이의 논쟁은 흥미로운 양상을 띠기 시작했습니다. 과연 우리의 근대화를 위해 서구를 어느 정도까지 본받아야 하는가에 대한 논의입니다." # 1319830377461309849
+  bpm_modernizers.1.f: "수정 예정" # 1423779475215292778
+  bpm_modernizers.1.a: "서구화 여부와 상관없이, [ROOT.GetCountry.GetName]은 근대화될 것입니다!" # 7648364402517059508
