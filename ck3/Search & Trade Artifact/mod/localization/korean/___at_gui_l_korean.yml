@@ -133,10 +133,6 @@
   at_fertility_growth: "$game_concept_fertility$ 성장" # 5333908584417603403
   at_herd_gain: "$game_concept_herd$ 획득" # 10598744301531588896
   at_herd_conversion: "$game_concept_herd$ 전환" # 1553152597378093743
-  at_merit: "$game_concept_merit$" # 1780237160150137539
-  at_poet_trait_xp: "$trait_lifestyle_poet$ 경험치" # 1537138740940432015
-  at_confucian_education_trait_xp: "$trait_confucian_education$ 경험" # 2802913560386214458
-  at_study_confucian_classics_power: "[GetScheme('study_confucian_classics').GetTypeName] $game_concept_scheme_speed$" # 6052965325399182019
   at_equipped: "장착됨" # 12561712344708779189
   at_not_equipped: "장착되지 않음" # 6903569152459519297
   at_owned: "소유함" # 16465690826850979970
