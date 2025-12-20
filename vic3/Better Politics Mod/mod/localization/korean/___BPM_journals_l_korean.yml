@@ -499,3 +499,38 @@
   bpm_modernizers.1.d: "서구 사상의 물결이 [ROOT.GetCountry.GetName]에 본격적으로 밀려들기 시작하면서, 산업화된 서구 열강을 따라잡기 위해 우리가 나아가야 할 길이 아직 멀다는 사실이 더욱 명확해졌습니다. 그 결과 지식인들 사이의 논쟁은 흥미로운 양상을 띠기 시작했습니다. 바로 우리의 근대화를 위해 서구의 방식을 어느 정도까지 받아들이고 본받아야 하는가에 대한 논의입니다." # 1319830377461309849
   bpm_modernizers.1.f: "추후 작성" # 1423779475215292778
   bpm_modernizers.1.a: "서구화되었든 아니든, [ROOT.GetCountry.GetName]은(는) 근대화할 것입니다!" # 7648364402517059508
+  bpm_modernizers.2.t: "근대를 향하여!" # 15059722599485047681
+  bpm_modernizers.2.d: "우리 국가의 근대화에 대한 논쟁이 마침내 종지부를 찍었습니다. 그 결과 $bpm_je_all_modernizers$ 세력이 명백한 이념적 승리를 거두었습니다. 국가의 나머지 구성원들이 그들의 비전을 공유하든 그렇지 않든 간에, 지식인층 전반은 $bpm_je_all_modernizers$의 대의를 굳게 믿고 있으며, 향후 수년간 그 마음을 바꾸지 않을 것입니다." # 13695974597900170449
+  bpm_modernizers.2.f: "할 일" # 1423779475215292778
+  bpm_modernizers.2.a: "그들의 구상이 현실이 될 수 있을지 지켜보도록 합시다." # 17582538271488297814
+  bpm_modernizers.3.t: "우리만의 길" # 6567484840561790879
+  bpm_modernizers.3.d: "근대화에 관한 논쟁이 막바지에 다다르면서, 우리 지식인층 내의 [ROOT.GetCountry.GetName] 중심 세력이 승리한 것으로 보입니다. 학계에서 반대파의 사상이 완전히 불신받게 됨에 따라, [ROOT.GetCountry.GetName]의 사회 구조는 가까운 미래에도 거의 변하지 않은 채 유지될 것으로 보입니다." # 17423329060250318907
+  bpm_modernizers.3.f: "할 일" # 1423779475215292778
+  bpm_modernizers.3.a: "우리는 분명 우리 자신에게 충실했겠지요?" # 14068087556747333082
+  bpm_modernizers.4.t: "텅 빈 보일러" # 13686608546240556337
+  bpm_modernizers.4.d: "근대화에 관한 격렬한 논쟁이 막을 내리면서, 포연이 걷힌 문필의 전장은 텅 빈 채로 남았습니다. 어느 쪽도 이념적 승리를 거두지 못했기에, 우리 나라의 지식인들 사이에서 그 어떤 단일한 비전도 승리자로 확립되지 못한 것으로 보입니다." # 488142647317032368
+  bpm_modernizers.4.f: "할 일" # 1423779475215292778
+  bpm_modernizers.4.a: "적어도 학자들의 소란은 줄어들겠군" # 12767650620425010719
+  bpm_modernizers.5.t: "쾅 하고 닫힌 문" # 18381198889168765198
+  bpm_modernizers.5.d: "한편으로는 외세의 영향력이, 다른 한편으로는 보수파의 반대가 거세지는 압박 속에서, [ROOT.GetCountry.GetRuler.GetPrimaryRoleTitle] [ROOT.GetCountry.GetRuler.GetFullName]은(는) 해외에서 유입되어 국가를 오염시키는 전복적인 사상으로부터 나라를 보호하고자 급진적인 고립주의 정책을 선포했습니다. 무역 관계의 급격한 축소, 대사관 폐쇄, 그리고 외국인 지식인 추방이 이어지면서, [ROOT.GetCountry.GetName]의 미래는 자발적인 고립의 길로 접어든 것으로 보입니다." # 2135372988734020155
+  bpm_modernizers.5.f: "할 일" # 1423779475215292778
+  bpm_modernizers.5.a: "오직 귀를 먹먹하게 하는 침묵만이 남았습니다." # 8674780006890498027
+  bpm_modernizers.6.t: "대침묵" # 16196075275135543447
+  bpm_modernizers.6.d: "정부의 자유주의적 성향과 노골적인 전통 경시에 불만을 품은 보수파 세력이 결집하여 [ROOT.GetCountry.GetRuler.GetPrimaryRoleTitle]을(를) 권좌에서 축출하려 합니다. 국내로 유입되는 새로운 사상들을 차단하려는 움직임 속에, 우리 국가의 미래는 자발적인 쇄국으로 치닫는 것으로 보입니다." # 16189552621599382419
+  bpm_modernizers.6.f: "할 일" # 1423779475215292778
+  bpm_modernizers.6.a: "오직 귀를 먹먹하게 하는 침묵만이 남았습니다." # 8674780006890498027
+  bpm_modernizers.7.t: "근대성의 표본" # 14077540909411567462
+  bpm_modernizers.7.d: "[SCOPE.sCountry('relevant_country').GetName]에서 이룩한 진보에 영감을 받은 [SCOPE.gsInterestGroup('relevant_ig').GetName]은(는) 근대화 논쟁에서 $bpm_je_all_modernizers$와 뜻을 같이하게 된 이후, 상호 관계 개선을 도모하고 있습니다." # 18270402404256367154
+  bpm_modernizers.7.f: "할 일" # 1423779475215292778
+  bpm_modernizers.7.a: "흥미롭군" # 18155792167446078423
+  bpm_modernizers.8.t: "쇠락의 일례" # 4401233680795166825
+  bpm_modernizers.8.d: "[SCOPE.gsInterestGroup('relevant_ig').GetName](은/는) 근대화 논쟁에서 $bpm_je_all_anti_modernizers_tt$와 연대한 이후, [SCOPE.sCountry('relevant_country').GetName]의 도덕적 타락에 분노하며 우리와의 관계가 긴밀해지는 것을 저지하려 합니다." # 1021651996529216687
+  bpm_modernizers.8.f: "할 일" # 1423779475215292778
+  bpm_modernizers.8.a: "흥미롭군" # 18155792167446078423
+  bpm_modernizers.9.t: "새로운 사례" # 2650681858741773610
+  bpm_modernizers.9.d: "[SCOPE.sCountry('relevant_country').GetName]이 국제 정치 무대에서 대등한 일원으로 부상함에 따라, 근대화 논쟁의 $bpm_je_all_modernizer$ 측 중 일부는 모방의 지평을 넓히고 서구화에만 치중하던 것에서 벗어나 비서구적인 근대화 방식까지 포함하고자 합니다." # 14589141576376950553
+  bpm_modernizers.9.f: "할 일" # 1423779475215292778
+  bpm_modernizers.9.a: "그저 벼락출세자들일 뿐입니다" # 406621537650172914
+  bpm_modernizers.9.b: "[SCOPE.sCountry('relevant_country').GetName]은 서구보다 더 나은 본보기입니다!" # 11339864010255547903
+  is_russia_tt: "#variable 러시아#!입니까?" # 6435518938092277452
+  je_bpm_orleg_not_influencial_tooltip: "[GetInterestGroupVariant('ig_conservatives',GetPlayer).GetName]와 [GetInterestGroupVariant('ig_reactionaries',GetPlayer).GetName]의 세력이 8% 미만입니다 (현재 [GetPlayer.MakeScope.ScriptValue('bpm_orleg_clout')|%|])." # 15064397949463780238
