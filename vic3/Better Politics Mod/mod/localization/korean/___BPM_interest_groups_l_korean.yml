@@ -299,3 +299,54 @@
   ig_variant_revolutionist_socialists: "[GetInterestGroupVariant('ig_revolutionist_socialists',GetPlayer).GetNameWithCountryVariant] ig_variant_socialists:0 [GetInterestGroupVariant('ig_socialists',GetPlayer).GetNameWithCountryVariant]" # 16913758764701659235
   interest_group_ig_agrarian_populists_approval_add: "$ig_variant_agrarian_populists$ [concept_approval]" # 4158466577143987807
   interest_group_ig_agrarian_populists_pop_attraction_mult: "$ig_variant_agrarian_populists$ 인구 매력" # 2574555898962352730
+  interest_group_ig_agrarian_populists_pop_attraction_mult_desc: "팝이 $ig_variant_agrarian_populists$ [concept_interest_group]에 얼마나 유인되는지에 대한 보너스 또는 페널티입니다." # 2317855769089854601
+  interest_group_ig_anarchists_pop_attraction_mult: "$ig_variant_anarchists$ 팝 유인" # 545105034126249682
+  interest_group_ig_anarchists_pop_attraction_mult_desc: "팝이 $ig_variant_anarchists$ [concept_interest_group]에 얼마나 유인되는지에 대한 보너스 또는 패널티" # 15489400760761811498
+  interest_group_ig_conservatives_pop_attraction_mult: "$ig_variant_conservatives$ 팝 유인" # 11109700337415483249
+  interest_group_ig_conservatives_pop_attraction_mult_desc: "팝이 $ig_variant_conservatives$ [concept_interest_group]에 얼마나 끌리는지에 대한 보너스 또는 패널티입니다." # 18219992479778785844
+  interest_group_ig_fascists_pop_attraction_mult: "$ig_variant_fascists$ 팝 유인" # 15399644368843955049
+  interest_group_ig_fascists_pop_attraction_mult_desc: "팝의 $ig_variant_fascists$ [concept_interest_group] 유인에 대한 보너스 또는 페널티입니다." # 17874463748811304776
+  interest_group_ig_liberals_pop_attraction_mult: "$ig_variant_liberals$ 팝 유인" # 6127768263373395403
+  interest_group_ig_liberals_pop_attraction_mult_desc: "팝이 $ig_variant_liberals$ [concept_interest_group]에 유인되는 정도에 대한 보너스 또는 페널티" # 11513558098951621409
+  interest_group_ig_market_liberals_pop_attraction_mult: "$ig_variant_market_liberals$ 팝 유인" # 14757145926790148375
+  interest_group_ig_market_liberals_pop_attraction_mult_desc: "팝의 $ig_variant_market_liberals$ [concept_interest_group] 유인에 대한 보너스 또는 패널티" # 10842340470000129645
+  interest_group_ig_national_liberals_pop_attraction_mult: "$ig_variant_national_liberals$ 팝 유인" # 5510065598912107200
+  interest_group_ig_national_liberals_pop_attraction_mult_desc: "팝이 $ig_variant_national_liberals$ [concept_interest_group]에 얼마나 유인되는지에 대한 보너스 또는 패널티입니다." # 9362387202957798979
+  interest_group_ig_radicals_pop_attraction_mult: "$ig_variant_radicals$ 팝 유인" # 2529825099564796319
+  interest_group_ig_radicals_pop_attraction_mult_desc: "$ig_variant_radicals$ [concept_interest_group]에 대한 팝의 유인력에 적용되는 보너스 또는 패널티입니다." # 9112123437927163072
+  interest_group_ig_reactionaries_pop_attraction_mult: "$ig_variant_reactionaries$ 팝 유인" # 14048518171463440960
+  interest_group_ig_reactionaries_pop_attraction_mult_desc: "팝이 $ig_variant_reactionaries$ [concept_interest_group]에 느끼는 유인력에 대한 보너스 또는 패널티" # 16150273832619554011
+  interest_group_ig_reformist_socialists_pop_attraction_mult: "$ig_variant_reformist_socialists$ 팝 유인" # 8328926022705797201
+  interest_group_ig_reformist_socialists_pop_attraction_mult_desc: "팝이 $ig_variant_reformist_socialists$ [concept_interest_group]에 유인되는 정도에 대한 보너스 또는 패널티" # 3151772143031964832
+  interest_group_ig_revolutionist_socialists_pop_attraction_mult: "$ig_variant_revolutionist_socialists$ 팝 유인" # 14014839079934824681
+  interest_group_ig_revolutionist_socialists_pop_attraction_mult_desc: "팝이 $ig_variant_revoluionist_socialists$ [concept_interest_group]에 유인되는 정도에 대한 보너스 또는 페널티입니다." # 721279615102709061
+  interest_group_ig_socialists_pop_attraction_mult: "$ig_variant_socialists$ 팝 유인" # 12182723424825359759
+  interest_group_ig_socialists_pop_attraction_mult_desc: "팝의 $ig_variant_socialists$ [concept_interest_group] 유인에 대한 보너스 또는 패널티입니다." # 13000709398604214481
+  interest_group_ig_agrarian_populists_pol_str_mult: "$ig_variant_agrarian_populists$ 정치적 힘" # 1501922795864156424
+  interest_group_ig_agrarian_populists_pol_str_mult_desc: "$ig_variant_agrarian_populists$ [concept_interest_group]의 정치적 힘에 대한 보너스 또는 패널티" # 2342693598426460698
+  interest_group_ig_anarchists_pol_str_mult: "$ig_variant_anarchists$ 정치적 힘" # 17698346122349445714
+  interest_group_ig_anarchists_pol_str_mult_desc: "$ig_variant_anarchists$ [concept_interest_group]의 정치적 힘에 대한 보너스 또는 페널티" # 14881694761422131274
+  interest_group_ig_conservatives_pol_str_mult: "$ig_variant_conservatives$ 정치적 힘" # 10876364023424303400
+  interest_group_ig_conservatives_pol_str_mult_desc: "$ig_variant_conservatives$ [concept_interest_group]의 정치력에 대한 보너스 또는 페널티" # 15342425101067307032
+  interest_group_ig_fascists_pol_str_mult: "$ig_variant_fascists$ 정치적 힘" # 15305973976525096694
+  interest_group_ig_fascists_pol_str_mult_desc: "$ig_variant_fascists$ [concept_interest_group]의 정치적 힘에 대한 보너스 또는 패널티" # 13985595300035683252
+  interest_group_ig_liberals_pol_str_mult: "$ig_variant_liberals$ 정치적 힘" # 18084982273699262003
+  interest_group_ig_liberals_pol_str_mult_desc: "$ig_variant_liberals$ [concept_interest_group]의 정치적 힘에 대한 보너스 또는 페널티" # 9568616210897568705
+  interest_group_ig_market_liberals_pol_str_mult: "$ig_variant_market_liberals$ 정치적 힘" # 9530950733679366021
+  interest_group_ig_market_liberals_pol_str_mult_desc: "$ig_variant_market_liberals$ [concept_interest_group]의 정치적 힘에 대한 보너스 또는 패널티" # 15825044988463899228
+  interest_group_ig_national_liberals_pol_str_mult: "$ig_variant_national_liberals$ 정치적 힘" # 519050984873582345
+  interest_group_ig_national_liberals_pol_str_mult_desc: "$ig_variant_national_liberals$ [concept_interest_group]의 정치적 힘에 부여되는 보너스 또는 페널티" # 17023241319970249786
+  interest_group_ig_radicals_pol_str_mult: "$ig_variant_radicals$ 정치적 힘" # 1999859418881629700
+  interest_group_ig_radicals_pol_str_mult_desc: "$ig_variant_radicals$ [concept_interest_group]의 정치적 힘에 대한 보너스 또는 페널티" # 10162554323564129160
+  interest_group_ig_reactionaries_pol_str_mult: "$ig_variant_reactionaries$ 정치적 힘" # 5388591731851356896
+  interest_group_ig_reactionaries_pol_str_mult_desc: "$ig_variant_reactionaries$ [concept_interest_group]의 정치적 힘에 대한 보너스 또는 패널티" # 3975191983460853593
+  interest_group_ig_reformist_socialists_pol_str_mult: "$ig_variant_reformist_socialists$ 정치적 힘" # 13962960695624316091
+  interest_group_ig_reformist_socialists_pol_str_mult_desc: "$ig_variant_reformist_socialists$ [concept_interest_group]의 정치적 힘에 대한 보너스 또는 페널티" # 4541431094881965919
+  interest_group_ig_revolutionist_socialists_pol_str_mult: "$ig_variant_revolutionist_socialists$ 정치적 힘" # 2073114673869655391
+  interest_group_ig_revolutionist_socialists_pol_str_mult_desc: "$ig_variant_revoluionist_socialists$ [concept_interest_group]의 정치적 힘에 대한 보너스 또는 패널티" # 9429947420491595106
+  interest_group_ig_socialists_pol_str_mult: "$ig_variant_socialists$ 정치적 힘" # 125857886712184556
+  interest_group_ig_socialists_pol_str_mult_desc: "$ig_variant_socialists$ [concept_interest_group]의 정치적 힘에 대한 보너스 또는 페널티" # 10427597102270114446
+  interest_group_ig_christian_democrats_pop_attraction_mult: "$ig_variant_christian_democrats$ 팝 유인력" # 5296078987485884004
+  interest_group_ig_christian_democrats_pop_attraction_mult_desc: "팝이 $ig_variant_christian_democrats$ [concept_interest_group]에 얼마나 유인되는지에 대한 보너스 또는 페널티입니다." # 5158964781371889614
+  ig_authoritarian_conservatives: "권위주의적 보수파" # 1448837508479162733
+  ig_authoritarian_conservatives_desc: "$ig_conservatives_desc$" # 14680492650289933804

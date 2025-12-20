@@ -199,3 +199,103 @@
   je_bpm_general_strike_ongoing_status_1: "파업 노동자들은 단호하다!" # 2515252767896367738
   je_bpm_general_strike_ongoing_status_2: "파업 참가자들이 동요하고 있습니다." # 14785193976802190834
   je_bpm_general_strike_ongoing_status_3: "파업 노동자들은 지치고 굶주렸습니다." # 10306337179168054757
+  bpm_je_general_strike_concessions_button: "이권 부여" # 17932049986728931520
+  bpm_je_general_strike_concessions_button_desc: "파업 중인 노동자들에게 상당한 양보를 제공하면 상황을 완화할 수 있습니다.\n@information! #v 연속해서 사용할수록 점점 더 관대한 양보를 제공하게 됩니다.#!" # 6630125639945941950
+  bpm_je_general_strike_minor_concessions_button: "균형 잡힌 접근 방식" # 4640641575596873463
+  bpm_je_general_strike_minor_concessions_button_desc: "사소하고도 쉽게 되돌릴 수 있는 양보와 선별적인 탄압을 병행한다면, 우리가 이 상황에 대처하는 데 도움이 될 것입니다." # 197610246775720851
+  bpm_je_general_strike_crackdown_button: "표적 단속" # 13772176291798884292
+  bpm_je_general_strike_crackdown_button_desc: "소요 분자들을 척결하는 것만이 이 난국을 타개할 유일한 길입니다." # 6417735010573307449
+  bpm_je_general_strike_white_terror_button: "몰아치는 공포" # 13297512586481802589
+  bpm_je_general_strike_white_terror_button_desc: "이 위협에 맞서 국가 전체를 동원할 것입니다.\n@warning! #v 연속해서 사용할 경우 점점 더 억압적인 법안이 추가될 것입니다.#!" # 15557194556910266570
+  bpm_je_general_strike_remove_strike_progress_small: "#pink 총파업#! 진행도를 #v [GetPlayer.MakeScope.ScriptValue('bpm_je_general_strike_button_result_small')]#!만큼 제거합니다 ([GetInstitutionType('institution_police').GetName] [Concept('concept_institution', 'Institution')] 투자에 비례)." # 4369434532670837767
+  bpm_je_general_strike_remove_strike_progress_normal: "#v [GetPlayer.MakeScope.ScriptValue('bpm_je_general_strike_button_result_normal')]#! #pink 총파업#! 진행도를 제거합니다 ([GetInstitutionType('institution_police').GetName] 단계에 비례)." # 3684382005997768137
+  bpm_je_general_strike_remove_strike_progress_large: "#pink 총파업#! 진행도를 #v [GetPlayer.MakeScope.ScriptValue('bpm_je_general_strike_button_result_large')]#! 제거합니다 ([GetInstitutionType('institution_police').GetName] 단계에 비례)." # 14479048710592667596
+  bpm_je_general_strike_add_strike_progress_small: "#v [GetPlayer.MakeScope.ScriptValue('bpm_je_general_strike_button_result_small')]#!의 #pink 총파업#! 진행도를 추가합니다 ([GetInstitutionType('institution_police').GetName] 단계에 비례)." # 8811388619594078539
+  bpm_je_general_strike_add_strike_progress_normal: "#pink 총파업#! 진척도를 #v [GetPlayer.MakeScope.ScriptValue('bpm_je_general_strike_button_result_normal')]#!만큼 추가합니다 ([GetInstitutionType('institution_police').GetName] 단계에 비례)." # 12165059027344639383
+  bpm_je_general_strike_add_strike_progress_large: "#pink 총파업#! 진행도를 #v [GetPlayer.MakeScope.ScriptValue('bpm_je_general_strike_button_result_large')]#!만큼 추가합니다 ([GetInstitutionType('institution_police').GetName] 단계에 비례)." # 228309944790749554
+  bpm_je_general_strike_add_strike_exhaustion_small: "#v [GetPlayer.MakeScope.ScriptValue('bpm_je_general_strike_button_result_small')]#! #blue 파업 피로도#!를 추가합니다 ([GetInstitutionType('institution_police').GetName] 단계에 비례)." # 12262409755307180104
+  bpm_je_general_strike_add_strike_exhaustion_normal: "#v [GetPlayer.MakeScope.ScriptValue('bpm_je_general_strike_button_result_normal')]#!의 #blue 파업 피로도#!를 추가합니다 ([GetInstitutionType('institution_police').GetName] 단계에 비례)." # 12677012672165470420
+  bpm_je_general_strike_add_strike_exhaustion_large: "#v [GetPlayer.MakeScope.ScriptValue('bpm_je_general_strike_button_result_large')]#!의 #blue 파업 피로도#!를 추가합니다 ([GetInstitutionType('institution_police').GetName] 단계에 비례)." # 17781270259832359114
+  bpm_general_strike.1.t: "승리와 양보" # 529388600207430942
+  bpm_general_strike.1.d: "파업이 이제 종료되었습니다. 노동조합은 중요한 양보를 이끌어내는 데 성공했다고 의기양양하게 선언했으며, 협상 결과에 따라 이제 노동자들은 일터로 복귀할 것입니다. 파업의 성과가 제법 괜찮아 보이기는 하지만, 많은 노동자들은 그토록 위협적인 위력 과시에 비해 얻어낸 것이 고작 이 정도뿐이라는 사실에 불안감을 느끼고 있습니다." # 1973604186894932766
+  bpm_general_strike.1.f: "할 일" # 1423779475215292778
+  bpm_general_strike.1.a: "하찮은 승리입니다." # 17003871657343988040
+  bpm_general_strike.2.t: "승리와 평화" # 7413613693962510595
+  bpm_general_strike.2.d: "[ROOT.GetCountry.GetRuler.GetPrimaryRoleTitle] [ROOT.GetCountry.GetRuler.GetFullName](을)를 위해 치러야 했던 무의미한 전쟁으로 인해 지치고 피를 흘려 기력을 소진한 노동 운동이 강제로 종식되면서, 파업은 이제 끝났습니다. 어렵게 쟁취한 평화를 축하하는 분위기는 누군가에게는 이러한 평화가 기쁨의 이유가 아니라 배신자들에 대한 전쟁 명분에 불과하다는 사실로 인해 빛이 바랬습니다." # 17855873279929512978
+  bpm_general_strike.2.f: "할 일" # 1423779475215292778
+  bpm_general_strike.2.a: "평화의 승리!" # 281999253769061148
+  bpm_general_strike.3.t: "노동의 승리" # 6604256977361578973
+  bpm_general_strike.3.d: "한 국가에서 시작된 파업은, 마침내 전혀 다른 국가가 된 곳에서 끝을 맺었습니다. 혁명적 생디칼리스트들을 둘러싼 정부가 붕괴함에 따라, 한때 계급 투쟁의 주역이었던 전투적 노동조합들은 이제 산산조각 난 국가를 수습하며 반동적이고 구시대적인 제도들을 연대와 조직된 노동의 힘으로 대체하느라 분주합니다. 이러한 실험이 살아남을지는 오직 시간만이 말해주겠지만, 오늘 역사가 새로 쓰였다는 사실을 부정하는 이는 오직 어리석은 자뿐일 것입니다." # 11773339618524946191
+  bpm_general_strike.3.f: "할 일" # 1423779475215292778
+  bpm_general_strike.3.a: "위대한 승리입니다!" # 1891987370441404657
+  je_bpm_general_strike_power_tooltip: "[Country.MakeScope.GetScriptValueDesc('bpm_je_general_strike_power')]" # 15888049972396123802
+  je_bpm_general_strike_exhaustion_tooltip: "[Country.MakeScope.GetScriptValueDesc('bpm_je_general_strike_exhaustion_rate')]" # 7929493129331104228
+  bpm_general_strike_exhaustion_above_50: "#bold 총파업#!의 #blue 피로도#!가 #variable 50#! 이상입니다" # 1381761698666708179
+  bpm_general_strike_syndicalist_failed: "이 국가의 #bold 생디칼리슴#!은 영구적인 후퇴를 겪을 것이며, 그 진척도가 약화될 것입니다." # 17693561043557648385
+  bpm_general_strike_will_start: "#bold 총파업#!이 시작됩니다!" # 1462529899885809671
+  notification_bpm_general_strike_start_name: "#bold 총파업#!이 시작되었습니다!" # 3283702439998387002
+  notification_bpm_general_strike_start_desc: "전국의 노동자들이 일손을 놓았습니다. 노동조합들은 일제히 분노의 목소리를 높이며 노동자들에게 조업 중단을 선동하고 있습니다. 이 사태를 반드시 해결해야 합니다. 그렇지 않으면 우리 경제가 큰 타격을 입게 될 것입니다!" # 16355415384277063772
+  notification_bpm_general_strike_start_big_tooltip: "#header $notification_bpm_general_strike_start_name$#!\n$TOOLTIP_DELIMITER$\n$notification_bpm_general_strike_start_desc$" # 3335923497340244322
+  bpm_general_strike_will_fail: "#bold 총파업#!이 중단될 것입니다!" # 8245594881669923960
+  notification_bpm_general_strike_fail_name: "#bold 총파업#!이 종료되었습니다!" # 5622835183982363547
+  notification_bpm_general_strike_fail_desc: "파업 노동자들이 일터로 복귀하였습니다. 성공적인 진압이나 노련한 협상, 혹은 기력이 다한 결과입니다." # 2680609524697380277
+  notification_bpm_general_strike_fail_big_tooltip: "#header $notification_bpm_general_strike_fail_name$#!\n$TOOLTIP_DELIMITER$\n$notification_bpm_general_strike_fail_desc$" # 14523701294068631327
+  bpm_gave_into_demands: "양보를 제공함" # 15778998992883260218
+  bpm_accepted_demands: "이권 획득" # 7160336512143411519
+  bpm_right_wing_igs_angered: "[Concept('concept_bpm_ig_is_right_wing','우파 이익 집단')]이 #N 분노했습니다!#!" # 9563144850013805776
+  bpm_upper_institutional_igs_angered: "[Concept('concept_bpm_ig_is_upper_institutional','상위 제도권 이익 집단')]이 #N 분노했습니다!#!" # 7878396285135575219
+  je_bpm_zapadniks_and_slavophiles: "서구주의자와 슬라브주의자" # 8017997454743502220
+  je_bpm_zapadniks_and_slavophiles_status: "이 두 철학 간의 논쟁을 주시하십시오." # 13000101434364130573
+  je_bpm_zapadniks_and_slavophiles_zapadnik_prominence: "$bpm_je_all_zapadnik$ 사상이 러시아 지식인들 사이에서 지배적입니다" # 907762098060543903
+  je_bpm_zapadniks_and_slavophiles_no_prominence: "$bpm_je_all_slavophile$와 $bpm_je_all_zapadnik$ 사상 모두 러시아 지식인들 사이에서 대등한 인기를 누리고 있습니다." # 12277094372736766862
+  je_bpm_zapadniks_and_slavophiles_slavophile_prominence: "$bpm_je_all_slavophile$ 사상이 러시아 지식인들 사이에서 지배적입니다." # 3287813562455146852
+  je_bpm_zapadniks_and_slavophiles_reason: "표트르 대제는 누구였습니까? 어떤 이들에게 그는 서구의 정수를 받아들여 러시아를 과거의 어둠과 쇠퇴에서 끌어내고, 미래의 도전에 맞서 현대화한 위대한 인물이자 놀라운 개혁가였습니다. 다른 이들에게 그는 외래 문명의 양립할 수 없는 가치를 러시아의 주권적 정신에 감히 이식하려 한 어리석은 자이자 국가적 비극의 근원이었습니다. 인정하건대, 향후 수십 년 동안 러시아 지식인 사회를 지배하게 될 두 철학적 흐름인 서구주의자와 슬라브주의자에게 있어 그의 인물됨만이 유일한 분열의 씨앗은 아니었습니다.\n\n$bpm_je_all_zapadniks$은 서구를 모방하고 그들이 생각하는 최선의 혁신, 즉 자유주의, 민주주의, 인권, 경제적 자유를 받아들여 러시아를 낙후된 상태에서 구원하고자 하는 러시아 지식인 내부의 흐름입니다. 이들은 위대한 국가적 영웅인 표트르 대제의 발자취를 따르고자 합니다.\n\n$bpm_je_all_slavophiles$은 서구주의자에 대항하는 흐름입니다. 이들은 러시아의 민족 정신이 이미 서구의 영향으로 인해 지나치게 짓밟혔으며, 서구의 가치는 너무나 이기적이고 세속적이며 혁명적이어서 공동체적이고 기독교적이며 충성스러운 러시아 정신과는 어울리지 않는다고 믿습니다.\n\n이 일지 항목은 러시아 학계 내에서 이 두 입장이 서로에게 미치는 영향력을 나타냅니다. 어느 한 쪽이 우세해지면 다양한 연구 분야에 비례적인 수정치를 얻게 됩니다. $bpm_je_all_slavophiles$의 세력이 강해지면 #bold Military#! 및 #bold Industrial#! 연구 속도가 빨라지며, $bpm_je_all_zapadniks$의 세력이 강해지면 #bold Technological Spread#! 및 #bold Social#! 연구에 집중하게 됩니다. $bpm_je_all_slavophiles$와 $bpm_je_all_zapadniks$에 속한 [Concept('concept_leader', '이익 집단 지도자')] 및 [Concept('concept_agitator', '선동가')]의 인기에 따라 각 진영의 영향력이 결정되며, 이들의 열의는 시간이 지남에 따라 필연적으로 감소합니다. 현재 상황에서 이 일지 항목은 매주 #tooltippable;tooltip:[Country.GetTooltipTag],je_bpm_zapadniks_and_slavophiles_rate_tooltip [Country.MakeScope.ScriptValue('bpm_je_zapadniks_and_slavophiles_rate')|+]#!의 속도로 진행될 것으로 예상됩니다.\n\n#lore\"러시아는 지난 300년 동안 서구와 융합하기를 갈망해 왔습니다. 지난 300년 동안 러시아는 스스로가 서구보다 열등함을 인정하고 모든 사상과 가르침을... 서구에서 가져왔습니다. 우리 왕들 중 가장 위대한 분께서는... 옛 러시아를 부정하셨습니다. 그는 우리의 모든 고대 제도들을 쓸어버리고 고대의 전통들을 버리셨습니다... 그것은 영광스러운 일이었습니다. 우리가 앞으로 나아갈 길을 지시한 천재적인 인물의 창조물인 표트르 대제의 업적을 당신도 인정해야만 합니다\"\n\n—표트르 차다예프, 1837#!" # 9475735319945671
+  bpm_je_all_zapadniks: "@ig_liberals! @ig_radicals! @ig_socialists! #bold 서구파#!" # 16340031327618114537
+  bpm_je_all_zapadnik: "@ig_liberals! @ig_radicals! @ig_socialists! #bold 서구주의자#!" # 12864903530582590940
+  bpm_je_all_slavophiles: "@ig_conservatives! @ig_reactionaries! #bold 슬라브주의자#!" # 2387989579345116850
+  bpm_je_all_slavophile: "@ig_conservatives! @ig_reactionaries! #bold 슬라브주의자#!" # 3445648382074807358
+  bpm_journal_zapadniks_and_slavophiles_stagnant: "이 일지 항목의 진행도는 #bold 50#!에 멈춰 있으며, 변화율은 #bold 0#!입니다." # 6772700750386762229
+  bpm_je_zapadniks_and_slavophiles_start: "$bpm_je_all_zapadniks$와 $bpm_je_all_slavophiles$ 사이의 논쟁이 시작되었습니다!" # 5637088260151275732
+  bpm_je_zapadniks_and_slavophiles_end: "$bpm_je_all_zapadniks$와 $bpm_je_all_slavophiles$ 사이의 논쟁이 종결되었습니다." # 15442340912764165582
+  bpm_zapadnik_buffs: "서구주의자 영향력" # 756843115539830525
+  bpm_zapadnik_win_buff: "서구주의자 영향력" # 756843115539830525
+  bpm_slavophile_buffs: "슬라브주의 영향력" # 11934023381500120220
+  je_bpm_zapadniks_and_slavophiles_rate_tooltip: "[Country.MakeScope.GetScriptValueDesc('bpm_je_zapadniks_and_slavophiles_rate')]" # 9740376923574805229
+  bpm_russia.1.t: "철학 서간" # 15640166886221865442
+  bpm_russia.1.d: "[SCOPE.sCharacter('bpm_russia_chaadayev').GetFullName]이 프랑스어에서 번역하여 출판한 서한집이 러시아의 지식인 계층을 뒤흔들었습니다. 서한에 적힌 문구들로 인해 [ROOT.GetCountry.GetRuler.GetPrimaryRoleTitle] [ROOT.GetCountry.GetRuler.GetFullName]은 그를 광인으로 선포했으며, 전국의 지식인들은 양극화된 논쟁을 통해 서한에 표현된 사상들을 피력하며 그를 비난하거나 지지하고 있습니다. 본의 아니게 [SCOPE.sCharacter('bpm_russia_chaadayev').GetFullName]은 향후 반세기 동안 러시아 철학에서 가장 심오한 분열인 서구주의자와 슬라브주의자 사이의 갈등을 촉발했습니다." # 8708000965669097237
+  bpm_russia.1.f: "일찍이 표트르 대제는 우리를 교육하고자 하였으며, 우리로 하여금 계몽을 갈구하게 하려 문명의 외피를 던져주었소. 우리는 그 외피를 집어 들었으나 정작 문명에는 손도 대지 못했소... 우리의 혈관 속에는 모든 진정한 진보를 거부하는 무언가가 흐르고 있소. 오늘날... 우리는 지적 영역의 공백만을 확인하고 있을 뿐이오.\n\n—표트르 차다예프, 1836#!" # 3081764500717010221
+  bpm_russia.1.a: "제발 저 광인을 당장 가택 연금시키게!" # 11388154372613354086
+  bpm_russia.1.b: "그의 신랄한 말에도 일리가 있는 구석이 있습니다..." # 16455099254709765317
+  bpm_russia.2.t: "부러진 창들" # 9260802401890422669
+  bpm_russia.2.d: "불과 몇 년 전만 해도 그토록 격렬하고 열정적이었던 러시아 인텔리겐차 내 서구주의자와 슬라브주의자 분파 사이의 논쟁이 마침내 막을 내렸습니다. 좋든 싫든, 러시아의 정치적 사상은 이제 다음 단계로 나아갔습니다." # 7044980586492949572
+  bpm_russia.2.f: "결국, 새로운 철학과 새로운 쟁점들이 지식인들의 관심을 사로잡았습니다. 논쟁은 압도적인 승리가 아니라, 귀를 먹먹하게 하는 침묵과 함께 막을 내렸습니다." # 13935965981120465401
+  bpm_russia.2.a: "그럼에도 러시아는 건재합니다." # 9734097204768292347
+  bpm_russia.3.t: "꿈꾸는 자들" # 13030777292442353959
+  bpm_russia.3.d: "러시아에서 서구주의자들의 꿈, 즉 자유로운 러시아 시민이라는 염원이 실현되었습니다. 러시아의 미래는 아직 쓰이지 않았으나, 이제 그 미래를 기록하는 것은 고루하고 노쇠한 귀족층과 전제적인 차르가 아니라 러시아 인민 스스로가 될 것입니다. 러시아는 가장 중요한 대목에서 서구를 따라잡았습니다. 이제 러시아가 그들을 넘어 더 멀리 나아갈 수 있을지 지켜볼 일입니다!" # 2603072550345305772
+  bpm_russia.3.f: "문명국들에 뒤처진 국가가 이토록 빠르게 그들을 따라잡는 일이 가능하리라고는 생각지 못했습니다. 하지만 꿈을 품었던 이들이 그 꿈을 현실로 바꾸어 놓았고, 이제 러시아의 미래는 조금 더 밝아 보입니다." # 10130480161930767306
+  bpm_russia.3.a: "전진!" # 8759586655781023716
+  je_bpm_split_fascists: "파시즘의 대두" # 10208471329152286896
+  je_bpm_split_fascists_status: "우익의 새로운 세력이 부상하는 것을 주시하십시오." # 9974470777464529984
+  je_bpm_split_fascists_reason: "대중 정치의 부상 속에서 전통적인 반동주의 이데올로기가 실패함에 따라, 혁명적 민족주의자들의 새로운 연합이 나타나고 있습니다. 참전 용사 단체와 우익 전문직 종사자들의 지지를 얻은 파시스트들은 계급 협력과 무기화된 국가 신화를 바탕으로 강력하고 중앙집권화된 국가를 건설하고자 합니다. \n\n#lore\"인간은 전쟁의 충격으로 인해 정치적 동물로서의 본분을 잊어버린 듯합니다. 이러한 의구심은 파시즘의 확산으로 확인되는데, 이는 정치적 사고의 필요성으로부터 환상으로 맹목적으로 도피하는 행위입니다. 전후 상황에 대해 이보다 더 분명한 사실은 없습니다. 그것은 참신하며, 아직 분석되지 않은 원인에서 비롯되었고, 이 분석이 완료되어 새로운 사회적 공식의 기초가 마련되기 전까지는 완화될 수 없습니다. 그럼에도 불구하고 파시즘을 지지하는 사람들은 마치 인간이 이미 우리의 모든 문제를 해결할 수 있는 원칙을 소유하고 있으며, 단지 그것을 적용할 독재자를 임명하기만 하면 되는 문제인 것처럼 행동합니다\"\n\n—레베카 웨스트, 1935#!" # 9350088447822607488
+  je_bpm_split_fascists_special_tooltip: "진행도는 다음 요소들에 의해 결정됩니다:\n#variable [Country.MakeScope.Var('bpm_je_split_fascists_progress_from_base').GetValue|+=]#! 기본값\n#variable [Country.MakeScope.Var('bpm_je_split_fascists_progress_from_conflicts').GetValue|+=]#! 전쟁, 외교전, 혁명에 참여 중이거나 국가 통일의 주도국인 경우\n#variable [Country.MakeScope.Var('bpm_je_split_fascists_progress_from_rightists_empowered').GetValue|+=]#! 정부 내 #bold 반동주의#! 및 #bold 보수주의#! [Concept('concept_interest_group', '이익 집단')] 또는 이들이 후원받는 경우\n#variable [Country.MakeScope.Var('bpm_je_split_fascists_progress_from_rightists_suppressed').GetValue|+=]#! 탄압받는 #bold 반동주의#! 및 #bold 보수주의#! [Concept('concept_interest_group', '이익 집단')]\n#variable [Country.MakeScope.Var('bpm_je_split_fascists_progress_from_rightists_marginal').GetValue|+=]#! 소외된 #bold 반동주의#! 및 #bold 보수주의#! [Concept('concept_interest_group', '이익 집단')]\n#variable [Country.MakeScope.Var('bpm_je_split_fascists_progress_from_radicals').GetValue|+=]#! 급진적인 중산층 팝; 이는 #bold 자유주의#! 및 #bold 보수주의#! [Concept('concept_interest_group', '이익 집단')]가 소외되지 않고 탄압받지 않는 경우에만 누적됩니다." # 9731278769433235682
+  je_bpm_fascism: "파시스트 침투" # 15207019381475341785
+  je_bpm_fascism_status: "파시스트들이 우리 기관 내에서 영향력을 확대하고 있습니다." # 15488943225829852466
+  je_bpm_fascism_reason: "우리 국가 내 파시스트 운동이 최고조에 달하고 있으며, 수많은 저명인사가 이에 가담하고 있습니다. 특히 장교단 내에서 이들의 영향력이 확대되고 있는 점이 가장 우려스럽습니다. 이러한 위험한 결탁은 파시스트 세력이 국가의 가장 핵심적인 기관들에 깊숙이 침투할 위협이 되고 있습니다." # 18236483973077486045
+  je_bpm_split_fascists_progress_bar: "파시즘의 대두" # 10208471329152286896
+  je_bpm_split_fascists_progress_bar_desc: "#v [JournalEntry.GetCurrentBarProgress(ScriptedProgressBar.Self)|%]#! ([JournalEntry.GetCurrentBarValue(ScriptedProgressBar.Self)|1]/100), 매주 #v [SCOPE.GetRootScope.GetCountry.MakeScope.ScriptValue('bpm_je_split_fascists_progress_rate')|+=]#!씩 변화합니다." # 11437308285806947123
+  bpm_je_split_fascists_progress_from_base_desc: "기본값" # 15522621036841696927
+  bpm_je_split_fascists_progress_from_socialist_revolutions_desc: "#bold 사회주의자#! [Concept('concept_revolution', '혁명')]의 위협으로부터" # 5610793846779795738
+  bpm_je_split_fascists_progress_from_socialist_countries_desc: "[concept_rank]이 #variable 강대국#! 이상인 기존의 #bold 평의회 공화국#!들로부터." # 13982493206069899922
+  bpm_je_split_fascists_progress_from_conflicts_desc: "전쟁, 외교전, 혁명에 참여 중이거나 국가 통일의 지도자인 상태" # 3502759286411784936
+  bpm_je_split_fascists_progress_from_rightists_empowered_desc: "정부 내 #bold Reactionary#! 및 #bold Conservative#! [Concept('concept_interest_group', '이익 집단')] 혹은 후원 중인 상태로부터" # 15597610822857359867
+  bpm_je_split_fascists_progress_from_rightists_suppressed_desc: "억압된 #bold 반동주의자#! 및 #bold 보수주의자#! [Concept('concept_interest_group', '이익 집단')]으로부터" # 11733899402743744579
+  bpm_je_split_fascists_progress_from_rightists_marginal_desc: "소외된 #bold 반동주의#! 및 #bold 보수주의#! [Concept('concept_interest_group', '이익 집단')]들로부터" # 14521908246717721601
+  bpm_je_split_fascists_progress_from_radicals_desc: "급진적인 중산층 팝으로부터 발생함. 이는 #bold 자유주의#! 및 #bold 보수주의#! [Concept('concept_interest_group', '이익 집단')]이 소외되지 않고 탄압받지 않을 때만 누적됩니다." # 12409890976714098897
+  je_bpm_status_quo_armed_neutrality: "동요 없는 요새" # 14053971920143058056
+  je_bpm_status_quo_armed_neutrality_reason: "[GetLawType('law_armed_neutrality').GetName] [Concept('concept_law', '법안')]이 통과됨에 따라, 우리 국가의 정치가 변화하기 시작했습니다. 이 법안이 #variable 10#!년 동안 유지된다면, 일부 [Concept('concept_interest_group', '이익 집단')]은 이러한 체제를 지지하기 위해 그들의 이념적 입장을 선회할 것입니다." # 1042113294290717907
+  je_bpm_women_rights_upgrade: "진정한 양성평등" # 16390254292793589797
+  je_bpm_women_rights_upgrade_reason: "[GetLawType('law_womens_suffrage').GetName] [Concept('concept_law', '법안')]이 통과되면서 여성의 권리가 서류상으로는 확보되었습니다. 우리가 [GetLawType('law_womens_suffrage_upgraded').GetName]을 달성하고자 한다면, 실질적인 평등을 증진하기 위해 노력을 기울여야 할 것입니다.\n\n[GetLawType('law_womens_suffrage_upgraded').GetName]의 지지자들이 [Concept('concept_powerful', '강력함')] 상태를 유지하거나 [Concept('concept_in_government', '정부 내')]에 있게 하면서 [GetLawType('law_repeatable_culture_promote_socialist_values').GetName]을 반복적으로 통과시키면 이 항목의 진행도가 증가합니다. 반대로, [Concept('concept_bpm_ig_is_sexist', '반여권론자')]들이 [Concept('concept_powerful', '강력함')] 상태를 유지하거나 [Concept('concept_in_government', '정부 내')]에 있게 되면 이 항목의 진행도가 감소할 것입니다." # 15616191688089746898
+  je_bpm_multicultural_upgrade: "민족들의 우호" # 12439479546596521737
+  je_bpm_multicultural_upgrade_reason: "[GetLawType('law_multicultural').GetName] [Concept('concept_law', 'Law')]이 통과되면서 인종과 문화의 평등은 서류상으로만 보장되었습니다. 하지만 국제적 대의를 지지하는 가장 급진적인 옹호자들은 그보다 더 나아가기를 원하고 있으며, 그들의 뜻대로 내버려 둔다면 대신 [GetLawType('law_multicultural_upgraded').GetName]을 얻게 될 것입니다.\n\n[GetLawType('law_multicultural').GetName]의 지지자들이 [Concept('concept_powerful', 'Powerful')] 상태를 유지하거나 [Concept('concept_in_government', 'In Government')]에 머물게 하면서 [GetLawType('law_repeatable_culture_affirmative_action').GetName]을 반복적으로 통과시키면 이 항목의 진행도가 증가합니다. 반대로, [GetLawType('law_multicultural').GetName]의 지지자들이 [Concept('concept_powerful', 'Powerful')] 상태를 유지하거나 [Concept('concept_in_government', 'In Government')]에 머물게 하면 이 항목의 진행도가 감소합니다." # 3196172284060207986
+  je_bpm_total_separation_upgrade: "진정한 세속주의" # 8392128675345480048
+  je_bpm_total_separation_upgrade_reason: "[GetLawType('law_total_separation').GetName] [Concept('concept_law', 'Law')]이 통과됨에 따라, 우리 국가는 표면적으로 세속 국가가 되었습니다. 대신 [GetLawType('law_total_separation_upgraded').GetName]의 채택을 추진한다면, 진정으로 세속적인 국가가 될 방법이 있을지도 모릅니다.\n\n[GetLawType('law_repeatable_religion_promote_secular_values').GetName]의 지지자들이 [Concept('concept_powerful', 'Powerful')]하거나 [Concept('concept_in_government', 'In Government')] 상태를 유지하도록 허용하면서 [GetLawType('law_repeatable_religion_promote_secular_values').GetName]을 반복적으로 통과시키면 이 항목의 진행도가 증가합니다. 반대로, [GetLawType('law_repeatable_religion_promote_secular_values').GetName]의 지지자들이 [Concept('concept_powerful', 'Powerful')]하거나 [Concept('concept_in_government', 'In Government')] 상태를 유지하도록 허용하면 이 항목의 진행도가 감소합니다." # 6122736929402555779
