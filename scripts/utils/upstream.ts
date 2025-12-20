@@ -269,11 +269,22 @@ export async function getLatestRefFromRemote(repoUrl: string, configPath: string
           return match ? match[1] : null
         })
         .filter((tag): tag is string => tag !== null && tag.length > 0)
+        // 불필요한 태그 필터링 (Releases, beta, alpha, rc 등 프리릴리즈 제외)
+        .filter(tag => {
+          if (tag === 'Releases') return false // Releases 태그 제외
+          
+          // 프리릴리즈 키워드가 포함된 경우 제외 (대소문자 무시)
+          const preReleaseKeywords = ['beta', 'alpha', 'rc', 'snapshot', 'test', 'dev']
+          const lowerTag = tag.toLowerCase()
+          return !preReleaseKeywords.some(keyword => lowerTag.includes(keyword))
+        })
+        // 숫자 인식 정렬 (Natural Sort)
+        .sort(new Intl.Collator(undefined, { numeric: true, sensitivity: 'base' }).compare)
       
       if (tags.length > 0) {
-        // 마지막 태그 반환 (정렬 순서가 보장되지 않으므로 최신이 아닐 수 있음)
+        // 마지막 태그 반환 (정렬된 목록의 마지막이 최신 버전)
         const latestTag = tags[tags.length - 1]
-        log.warn(`[${configPath}] git ls-remote 폴백 사용: 태그 정렬이 보장되지 않으므로 최신이 아닐 수 있음`)
+        log.warn(`[${configPath}] git ls-remote 폴백 사용: 태그 정렬을 통해 최신 버전 선택됨`)
         log.info(`[${configPath}] 태그 발견 (git ls-remote 폴백): ${latestTag}`)
         return { type: 'tag', name: latestTag }
       }
