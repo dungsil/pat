@@ -4,6 +4,52 @@
 
 ## 2025년 12월
 
+### 버전 전략 기능 추가
+**날짜:** 2025-12-21
+
+**추가:**
+- meta.toml 파일에서 `version_strategy` 필드 지원
+- 세 가지 버전 선택 전략 구현:
+  - `semantic`: GitHub API + semver 정렬 (v1.2.3 형식)
+  - `natural`: git ls-remote + 자연 정렬 (1.10.0 > 1.2.0)
+  - `default`: 기존 방식 (기본 브랜치 사용)
+- VersionStrategyError 클래스 및 GitHub Issues 자동 보고 기능
+- @octokit/rest, semver, natsort 의존성 추가
+
+**기능:**
+- 모드별 버전 선택 방식 제어
+- 잘못된 설정 시 자동 GitHub Issues 생성
+- dungsil에게 자동 할당 및 configuration-error 레이블
+
+**설정 예:**
+```toml
+[upstream]
+url = "https://github.com/modder/Mod.git"
+localization = ["Mod/localization/english"]
+language = "english"
+version_strategy = "semantic"  # 새 필드
+```
+
+**적용된 모드:**
+- CK3: semantic (RICE, VIET, CFP, ETC)
+- VIC3: natural (Better Politics, Community Mod Framework, Tech & Res 등)
+- Stellaris: semantic (Pouchkinn's Gigastructures)
+
+**관련 파일:**
+- `scripts/utils/upstream.ts` - 핵심 로직 재구현
+- `scripts/utils/version-strategy-reporter.ts` - 오류 보고 (신규)
+- `package.json` - 의존성 추가
+- 모든 `meta.toml` 파일 - version_strategy 필드 추가
+- `docs/configuration.md` - 설정 설명
+- `docs/architecture.md` - 아키텍처 설명
+- `docs/usage.md` - 사용법 설명
+- `docs/requirements.md` - 요구사항 추가
+
+**테스트:**
+- version-strategy.test.ts 추가 (2개 테스트 케이스)
+
+---
+
 ### 번역 캐시 시스템 개선
 **날짜:** 2025-12-08
 
