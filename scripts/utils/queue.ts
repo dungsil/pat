@@ -2,7 +2,7 @@ import { TranslationRefusedError } from './ai'
 import { delay } from './delay'
 import { log } from './logger'
 
-type QueueTask = { key: string, queue: () => Promise<void>, resolve: () => void, reject: (reason?: any) => void }
+export type QueueTask = { key: string, queue: () => Promise<void>, resolve: () => void, reject: (reason?: any) => void }
 const translationQueue: QueueTask[] = []
 
 /**
@@ -42,6 +42,8 @@ export function addQueue (key: string, newQueue: () => Promise<void>) {
     void processQueue()
   })
 }
+
+export { executeTaskWithRetry }
 
 async function processQueue (): Promise<void> {
   if (isProcessing) {

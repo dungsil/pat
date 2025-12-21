@@ -99,6 +99,72 @@ pnpm stellaris:retranslate
 pnpm upstream
 ```
 
+### 버전 전략 설정
+
+`meta.toml` 파일에서 `version_strategy` 필드를 사용하여 각 모드의 버전 선택 방식을 제어할 수 있습니다.
+
+#### 사용 가능한 버전 전략
+
+**1. semantic (시멘틱 버전)**
+- GitHub API를 사용하여 시멘틱 버전 태그를 정렬
+- `v1.2.3`, `v2.0.0` 같은 버전 형식에 적합
+- CK3 모드에 권장
+
+**2. natural (자연 정렬)**
+- Git ls-remote를 사용하여 자연 정렬로 브랜치/태그 정렬
+- `1.10.0 > 1.2.0`처럼 숫자 크기에 따라 정렬
+- VIC3 모드에 권장
+
+**3. default (기본)**
+- 기존 방식대로 기본 브랜치 사용
+- 가장 간단하고 안정적인 방식
+
+#### 설정 예제
+
+```toml
+[upstream]
+url = "https://github.com/modder/NewMod.git"
+localization = ["NewMod/localization/english"]
+language = "english"
+version_strategy = "semantic"  # 버전 전략 지정
+```
+
+#### 권장 설정
+
+| 게임 | 권장 버전 전략 | 이유 |
+|------|----------------|------|
+| CK3 | `semantic` | 대부분의 모드가 시멘틱 버전 태그 사용 |
+| VIC3 | `natural` | 복잡한 버전 번호 체계에 더 유연하게 대응 |
+| Stellaris | `semantic` | 주요 모드들이 표준 버전 태그 사용 |
+
+#### 버전 전략별 특징
+
+**semantic:**
+- ✅ 정확한 버전 순서 보장
+- ✅ GitHub API 사용으로 안정적
+- ❌ GitHub 저장소만 지원
+- ❌ API 레이트 리밋 가능성
+
+**natural:**
+- ✅ 모든 Git 저장소 지원
+- ✅ 복잡한 버전 번호 처리
+- ❌ ls-remote 신뢰성 문제 가능성
+- ❌ 정렬 방식에 따라 다른 결과
+
+**default:**
+- ✅ 가장 간단하고 신뢰성 높음
+- ✅ 모든 저장소 타입 지원
+- ❌ 항상 최신 버전을 선택하지는 않음
+
+#### 오류 처리
+
+잘못된 `version_strategy` 값이 설정된 경우:
+- GitHub Issues에 자동으로 오류 보고
+- `dungsil`에게 할당
+- `configuration-error` 레이블 추가
+
+오류 수정 후 다음 실행 시 정상 작동합니다.
+
 ## 자동화 워크플로우
 
 ### 단어사전 자동 무효화
@@ -246,6 +312,7 @@ cat > ck3/NewMod/meta.toml << EOF
 url = "https://github.com/modder/NewMod.git"
 localization = ["NewMod/localization/english"]
 language = "english"
+version_strategy = "semantic"
 EOF
 
 # 3. 번역 실행
