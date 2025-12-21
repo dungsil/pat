@@ -2,4 +2,4 @@
 url = "https://github.com/mattia2110/tech-and-res.git"
 localization = ["localization/english"]
 language = "english"
-version_strategy = "natural"
+version_strategy = "default"
