@@ -46,7 +46,7 @@ version_strategy = "semantic"  # 새 필드
 - `docs/requirements.md` - 요구사항 추가
 
 **테스트:**
-- version-strategy.test.ts 추가 (2개 테스트 케이스)
+- version-strategy.test.ts 추가 (여러 테스트 케이스)
 
 ---
 
