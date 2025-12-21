@@ -2,4 +2,4 @@
 url = "https://github.com/ElTyranos/CommunityFlavorPack.git"
 localization = ["localization/english"]
 language = "english"
-version_strategy = "semantic"
+version_strategy = "default"
