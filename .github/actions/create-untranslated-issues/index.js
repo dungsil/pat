@@ -2,6 +2,7 @@ const core = require('@actions/core');
 const github = require('@actions/github');
 const fs = require('fs');
 const path = require('path');
+const { githubApiRetry } = require('./github-retry.cjs');
 
 // 테이블에서 키를 추출하기 위한 정규식: | 파일 | `키` | 원문 | 형식
 const TABLE_KEY_REGEX = /\|\s*[^|]+\s*\|\s*`([^`]+)`\s*\|/g;
@@ -78,12 +79,12 @@ async function run() {
     const timestamp = data.timestamp || '알 수 없음';
 
     // 기존 이슈 검색 (동일한 제목의 열린 이슈가 있는지 확인)
-    const existingIssues = await octokit.rest.issues.listForRepo({
+    const existingIssues = await githubApiRetry(() => octokit.rest.issues.listForRepo({
       owner: context.repo.owner,
       repo: context.repo.repo,
       state: 'open',
       labels: `translation-refused,${game}`
-    });
+    }), '이슈 목록 조회');
 
     // 모드별로 항목 그룹화 (prototype pollution 방지)
     const itemsByMod = Object.create(null);
@@ -190,12 +191,12 @@ async function run() {
         updatedBody += `이 이슈는 자동으로 생성되었습니다. 수동 번역이 필요한 항목입니다.\n`;
 
         // 이슈 본문 업데이트
-        await octokit.rest.issues.update({
+        await githubApiRetry(() => octokit.rest.issues.update({
           owner: context.repo.owner,
           repo: context.repo.repo,
           issue_number: existingIssue.number,
           body: updatedBody
-        });
+        }), '이슈 업데이트');
         core.info(`기존 이슈 #${existingIssue.number}의 본문을 업데이트했습니다. (새 항목 ${newItems.length}개 추가)`);
       } else {
         // 새 이슈 생성
@@ -214,13 +215,13 @@ async function run() {
         body += `\n---\n`;
         body += `이 이슈는 자동으로 생성되었습니다. 수동 번역이 필요한 항목입니다.\n`;
 
-        const newIssue = await octokit.rest.issues.create({
+        const newIssue = await githubApiRetry(() => octokit.rest.issues.create({
           owner: context.repo.owner,
           repo: context.repo.repo,
           title: title,
           body: body,
           labels: ['translation-refused', game]
-        });
+        }), '이슈 생성');
         core.info(`새 이슈 #${newIssue.data.number}를 생성했습니다.`);
       }
     }

@@ -2,6 +2,7 @@ const core = require('@actions/core');
 const github = require('@actions/github');
 const fs = require('fs');
 const path = require('path');
+const { githubApiRetry } = require('./github-retry.cjs');
 
 function hasUntranslatedItems(filePath) {
   if (!fs.existsSync(filePath)) {
@@ -44,12 +45,12 @@ async function run() {
 
       try {
         // 기존 열린 이슈가 있으면 업데이트
-        const existingIssues = await octokit.rest.issues.listForRepo({
+        const existingIssues = await githubApiRetry(() => octokit.rest.issues.listForRepo({
           owner: context.repo.owner,
           repo: context.repo.repo,
           state: 'open',
           labels: `translation-refused,${gameType}`
-        });
+        }), '이슈 목록 조회');
 
         if (existingIssues.data.length > 0) {
           const timestamp = new Date().toISOString();
@@ -68,13 +69,13 @@ async function run() {
             updatedBody += `---\n`;
             updatedBody += `이 이슈는 자동으로 생성 및 관리되었습니다.\n`;
 
-            await octokit.rest.issues.update({
+            await githubApiRetry(() => octokit.rest.issues.update({
               owner: context.repo.owner,
               repo: context.repo.repo,
               issue_number: issue.number,
               body: updatedBody,
               state: 'closed'
-            });
+            }), '이슈 업데이트 및 닫기');
 
             core.info(`이슈 #${issue.number}를 업데이트하고 닫았습니다.`);
           }
