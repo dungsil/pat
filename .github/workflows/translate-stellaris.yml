@@ -55,18 +55,3 @@ jobs:
           commit_user_name: 'github-actions[bot]'
           commit_user_email: '41898282+github-actions[bot]@users.noreply.github.com'
           commit_author: 'dungsil <39783731+dungsil@users.noreply.github.com>'
-      - name: Close translation-refused issues if all items translated
-        if: always()
-        uses: ./.github/actions/close-translation-issues
-        with:
-          game: 'stellaris'
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-      - name: Create issue for untranslated items
-        if: always()
-        uses: ./.github/actions/create-untranslated-issues
-        with:
-          game: 'stellaris'
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-      - name: Check translation result
-        if: steps.translate.outcome == 'failure'
-        run: exit 1
