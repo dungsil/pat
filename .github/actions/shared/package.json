@@ -1,0 +1,9 @@
+{
+  "name": "@pat-actions/shared",
+  "version": "1.0.0",
+  "description": "Shared utilities for GitHub Actions",
+  "main": "index.js",
+  "dependencies": {
+    "@actions/core": "^1.10.0"
+  }
+}
