@@ -2,7 +2,7 @@ const core = require('@actions/core');
 const github = require('@actions/github');
 const fs = require('fs');
 const path = require('path');
-const { githubApiRetry } = require('../github-retry.cjs');
+const { githubApiRetry } = require('./github-retry.cjs');
 
 function hasUntranslatedItems(filePath) {
   if (!fs.existsSync(filePath)) {
