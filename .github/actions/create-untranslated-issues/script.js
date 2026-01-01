@@ -63,8 +63,8 @@ module.exports = async ({ github, context, core, inputs }) => {
       // 긴 메시지는 잘라서 표시하고, 전체 메시지는 접을 수 있는 섹션으로 표시
       if (rawMessage.length > 100 || rawMessage.includes('\n')) {
         displayMessage = escapedMessage.slice(0, 100) + '...';
-        // 삼중 백틱을 먼저 이스케이프하여 코드 블록이 깨지지 않도록 함
-        const detailsMessage = rawMessage.replace(/```/g, '\\`\\`\\`').replace(/\|/g, '\\|').replace(/`/g, '\\`');
+        // 코드 블록이 깨지지 않도록 파이프와 백틱을 이스케이프함
+        const detailsMessage = rawMessage.replace(/\|/g, '\\|').replace(/`/g, '\\`');
         detailsSection = `<details><summary>전체 메시지 보기</summary>\n\n\`\`\`\n${detailsMessage}\n\`\`\`\n\n</details>\n`;
       }
       body += `| ${item.file} | \`${item.key}\` | ${displayMessage} |\n`;
