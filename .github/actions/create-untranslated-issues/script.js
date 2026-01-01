@@ -63,7 +63,8 @@ module.exports = async ({ github, context, core, inputs }) => {
       // 긴 메시지는 잘라서 표시하고, 전체 메시지는 접을 수 있는 섹션으로 표시
       if (rawMessage.length > 100 || rawMessage.includes('\n')) {
         displayMessage = escapedMessage.slice(0, 100) + '...';
-        const detailsMessage = rawMessage.replace(/\|/g, '\\|').replace(/`/g, '\\`');
+        // 삼중 백틱을 먼저 이스케이프하여 코드 블록이 깨지지 않도록 함
+        const detailsMessage = rawMessage.replace(/```/g, '\\`\\`\\`').replace(/\|/g, '\\|').replace(/`/g, '\\`');
         detailsSection = `<details><summary>전체 메시지 보기</summary>\n\n\`\`\`\n${detailsMessage}\n\`\`\`\n\n</details>\n`;
       }
       body += `| ${item.file} | \`${item.key}\` | ${displayMessage} |\n`;
@@ -77,23 +78,33 @@ module.exports = async ({ github, context, core, inputs }) => {
 
     if (existingIssue) {
       // 기존 이슈에 코멘트 추가
-      await github.rest.issues.createComment({
-        owner: context.repo.owner,
-        repo: context.repo.repo,
-        issue_number: existingIssue.number,
-        body: `## 추가 번역 거부 항목 발견\n\n${body}`
-      });
-      console.log(`기존 이슈 #${existingIssue.number}에 코멘트를 추가했습니다.`);
+      try {
+        await github.rest.issues.createComment({
+          owner: context.repo.owner,
+          repo: context.repo.repo,
+          issue_number: existingIssue.number,
+          body: `## 추가 번역 거부 항목 발견\n\n${body}`
+        });
+        console.log(`기존 이슈 #${existingIssue.number}에 코멘트를 추가했습니다.`);
+      } catch (error) {
+        core.error(`이슈 #${existingIssue.number}에 코멘트 추가 실패 (${context.repo.owner}/${context.repo.repo}): ${error.message}`);
+        // 다른 모드의 이슈 처리를 계속하기 위해 예외를 다시 던지지 않음
+      }
     } else {
       // 새 이슈 생성
-      const newIssue = await github.rest.issues.create({
-        owner: context.repo.owner,
-        repo: context.repo.repo,
-        title: title,
-        body: body,
-        labels: ['translation-refused', game]
-      });
-      console.log(`새 이슈 #${newIssue.data.number}를 생성했습니다.`);
+      try {
+        const newIssue = await github.rest.issues.create({
+          owner: context.repo.owner,
+          repo: context.repo.repo,
+          title: title,
+          body: body,
+          labels: ['translation-refused', game]
+        });
+        console.log(`새 이슈 #${newIssue.data.number}를 생성했습니다.`);
+      } catch (error) {
+        core.error(`이슈 생성 실패 (${context.repo.owner}/${context.repo.repo}, 제목: "${title}"): ${error.message}`);
+        // 다른 모드의 이슈 처리를 계속하기 위해 예외를 다시 던지지 않음
+      }
     }
   }
 };
