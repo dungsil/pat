@@ -3,7 +3,7 @@
   RICE_erect_homer_monument_context_tooltip: "#emphasis 역사적 배경:#! 고대 시인 호메로스가 실제로 존재했는지에 대해서는 의문이 있지만, 키오스는 역사적으로 그의 출생지로 추정되었습니다." # 12472870010615889194
   RICE_attend_mostra_of_thymiana_context_tooltip: "#emphasis 역사적 배경:#! 티미아나에서 해적들과의 전설적인 전투가 일어났는지, 일어났다면 언제인지는 알려져 있지 않으나, 만약 일어났다면 중세 후기나 르네상스 초기에 일어났을 것입니다. 어쨌든, 실제 티미아나의 모스트라는 그 이후로 수 세기 동안 이어져 왔습니다." # 10634799541412144069
   RICE_chios_mastic_groves: "마스티크 숲" # 4948636039953345783
-  RICE_chios_mastic_groves_desc: "수 세기 동안 키오스 섬은 세계의 주요 마스티크 공급처였습니다. 마스티크는 마스티크 나무에서 나오는 특별한 수지입니다. 마스티크는 고대부터 키오스 경제에 매우 중요했기 때문에 마스티크 자체를 종종\"키오스의 눈\"이라고 불렀습니다." # 13526406699406228675
+  RICE_chios_mastic_groves_desc: "수 세기 동안 키오스 섬은 세계의 주요 마스티크 공급처였습니다. 마스티크는 마스티크 나무에서 나오는 특별한 수지입니다. 마스티크는 고대부터 키오스 경제에 너무나 중요했기에, 마스티크 그 자체가 종종\"키오스의 눈\"이라고 불리기도 했습니다." # 15801255711176511187
   RICE_homer_monument_built: "호메로스 기념비" # 1612524109571675761
   RICE_homer_monument_built_desc: "키오스 섬의 동쪽에는 소위 '다스칼로페트라', 즉 스승의 바위 근처에 작고 소박한 기념물 단지가 있는데, 이곳은 전설적인 시인 호메로스가 한때 가르치고 시를 읊었던 곳입니다. 소수의 순례자와 여행자들이 이따금씩 들러 지역 경제와 문화에 기여하고 있습니다." # 5200666437220157468
   RICE_reveres_homer: "호머를 숭배하는" # 14995137221031583414
@@ -70,7 +70,7 @@
   building_RICE_mastic_industry_05: "마스티크 농장" # 13639767741813767335
   building_RICE_mastic_industry_05_desc: "키오스 섬 전역에 거대한 마스티크 농장이 생겨나 섬에 많은 이익을 가져다주고 있습니다." # 14034506655551330843
   activity_attend_mostra_of_thymiana: "티미아나의 모스트라를 기념하는 여행" # 8121014029611667574
-  activity_attend_mostra_of_thymiana_name: "[ACTIVITY.GetOwner.GetNamePossessiveOrMy|U] 티미아나 축제 기념 여정" # 13442303814068589824
+  activity_attend_mostra_of_thymiana_name: "[ACTIVITY.GetOwner.GetNamePossessiveOrMy|U] 티미아나 박람회 기념 여\"" # 12696861808684023767
   RICE_chios_mostra_of_thymiana_host_memory: "[GetTitleByKey ('c_chios').GetNameNoTier]에서 [GetActivityType( 'activity_RICE_chios_mostra_of_thymiana' ).GetName]에 참석했습니다" # 8143589552108410745
   RICE_chios_mostra_of_thymiana_host_memory_first_perspective: "저는 [GetTitleByKey('c_chios').GetNameNoTier]에서 열린 [GetActivityType( 'activity_RICE_chios_mostra_of_thymiana' ).GetName]에 참석했습니다." # 15395315757912903357
   RICE_chios_mostra_of_thymiana_host_memory_second_perspective: "당신은 [GetTitleByKey('c_chios').GetNameNoTier]에서 열린 [GetActivityType( 'activity_RICE_chios_mostra_of_thymiana' ).GetName]에 참석했습니다." # 14347930277076663789
@@ -136,13 +136,13 @@
   RICE_chios_repopulate_patmos_with_monastics_desc: "파트모스 섬에는 요한이 요한계시록을 기록했던 동굴이 있지만, 현재 그곳에는 예배당이나 수도원이 없습니다. 이 지역의 일부 수도사들은 이 상황을 바로잡기를 원하며, 저와 같은 관리들에게 이 노력을 돕기 위한 자원을 요청하고 있습니다." # 2129185539014420650
   RICE_chios_repopulate_patmos_with_monastics_effect_tooltip: "[GetPlayer.GetFaith.GetReligion.GetAdjective] [rulers|E]가 [GetTitleByKey('c_chios').GetNameNoTier] 근처에서 [patmos_pilgrimage|E]를 떠날 수 있게 될 것입니다." # 18021413228552441465
   RICE_chios_repopulate_patmos_with_monastics_confirm: "시작해보지!" # 331371430259311057
-  RICE_chios_repopulate_patmos_with_monastics_context_tooltip: "#emphasis 역사적 배경:#! 사모스 섬 바로 남쪽에 위치한 파트모스 섬은 수세기 동안 요한계시록을 집필한 파트모스의 요한(종종 복음사가 요한 및 사도 요한과 동일시됨)의 장소로 알려져 있었습니다. 그러나 수도원이 이 섬에 세워진 것은 1088년으로, 로마 황제 알렉시오스 1세의 도움으로 성 크리스토둘로스 라트리노스(Saint Christodoulos Latrinos)의 주도하에 설립되었습니다. 그 이후로 파트모스는 지역 순례지가 되었습니다." # 6808199322105860332
+  RICE_chios_repopulate_patmos_with_monastics_context_tooltip: "#emphasis 역사적 배경:#! 사모스 섬 바로 남쪽에 위치한 파트모스 섬은 수세기 동안 요한계시록을 저술한 파트모스의 요한(종종 복음사가 요한, 사도 요한과 동일시됨)의 장소로 알려져 왔습니다. 하지만 이 섬에 수도원이 세워진 것은 서기 1088년, 로마 황제 알렉시오스 1세의 도움으로 성 크리스토둘로스 라트리노스(Saint Christodoulos Latrinos)의 주도 하에 이루어졌습니다. 그 이후로 파트모스는 지역 순례지가 되었습니다." # 5773547124577335950
   RICE_chios_go_on_a_pilgrimage_to_patmos: "파트모스로 성지 순례를 떠나십시오" # 12628415449770213848
   RICE_chios_go_on_a_pilgrimage_to_patmos_tooltip: "종말의 동굴이 나를 기다리는군!" # 519809867781973628
   RICE_chios_go_on_a_pilgrimage_to_patmos_desc: "저는 [patmos_pilgrimage]를 떠나고 싶습니다. 그곳 섬에서 저는 요한이 묵시록을 기록한 동굴을 방문할 것입니다." # 12243607823367396437
   RICE_chios_go_on_a_pilgrimage_to_patmos_effect_tooltip: "그대는 방문 중에 종말에 대한 #italic 계시#를 받을 #V 수도#! 있습니다." # 9367758020195948857
   RICE_chios_go_on_a_pilgrimage_to_patmos_confirm: "시작하고 싶군요!" # 8894882888817539911
-  RICE_chios_go_on_a_pilgrimage_to_patmos_context_tooltip: "#emphasis 역사적 배경:#! 사모스 섬 바로 남쪽에 위치한 파트모스 섬은 수세기 동안 요한계시록을 집필한 파트모스의 요한(종종 복음사가 요한 및 사도 요한과 동일시됨)의 장소로 알려져 있었습니다. 그러나 수도원이 이 섬에 세워진 것은 1088년으로, 로마 황제 알렉시오스 1세의 도움으로 성 크리스토둘로스 라트리노스(Saint Christodoulos Latrinos)의 주도하에 설립되었습니다. 그 이후로 파트모스는 지역 순례지가 되었습니다." # 6808199322105860332
+  RICE_chios_go_on_a_pilgrimage_to_patmos_context_tooltip: "#emphasis 역사적 배경:#! 사모스 섬 바로 남쪽에 위치한 파트모스 섬은 수세기 동안 요한계시록을 저술한 파트모스의 요한(종종 복음사가 요한, 사도 요한과 동일시됨)의 장소로 알려져 왔습니다. 하지만 이 섬에 수도원이 세워진 것은 서기 1088년, 로마 황제 알렉시오스 1세의 도움으로 성 크리스토둘로스 라트리노스(Saint Christodoulos Latrinos)의 주도 하에 이루어졌습니다. 그 이후로 파트모스는 지역 순례지가 되었습니다." # 5773547124577335950
   RICE_chios_near_chios_req: "귀하의 [capital|E]가 [GetTitleByKey('c_chios').GetNameNoTier]와 가깝습니다." # 1314025557639276348
   RICE_chios_in_samos_req: "귀하의 [camp|E]는 [GetTitleByKey('b_samos').GetNameNoTier]에 있습니다." # 9804986669153944579
   RICE_chios_in_chios_req: "귀하의 [camp|E]는 [GetTitleByKey('b_chios').GetNameNoTier]에 있습니다." # 12371727142513242110
@@ -268,7 +268,7 @@
   chios.0028.a: "xxxxx" # 1951045980481827005
   chios.0029.t: "xxxxx" # 1951045980481827005
   chios.0029.desc: "xxxxx" # 1951045980481827005
-  chios.0029.a: "xxxxx" # 1951045980481827005
+  chios.0029.a: "xxxx\"" # 15308465615999842627
   chios.0030.t: "치안 치즈" # 2420572191936458396
   chios.0030.desc: "“아! 이곳에서 뵙게 되어 반갑소이다, 나의 [ROOT.Char.GetLadyLord]님.” 늙은 농부가 내가 테이블에 다가가자 말합니다. “키오스 최고의 염소 치즈를 좀 드시겠소이까?”\n\n나는 천천히 치즈를 씹으며 짭짤하고 우유 맛이 나는 풍미를 음미합니다. 꽤나 맛있군요!\n\n내 좋은 반응을 보았는지 그 여인이 묻습니다. “집으로 좀 가져가시겠소이까? 당신에게는 무료로 드리리다.”" # 12959174889818932594
   chios.0030.a: "물론입니다! 저도 그렇게 생각합니다." # 3956532259544878176
@@ -599,7 +599,7 @@
   chios.0128.a: "xxxxx" # 1951045980481827005
   chios.0129.t: "xxxxx" # 1951045980481827005
   chios.0129.desc: "xxxxx" # 1951045980481827005
-  chios.0129.a: "xxxxx" # 1951045980481827005
+  chios.0129.a: "xxxx\"" # 15308465615999842627
   chios.0130.t: "xxxxx" # 1951045980481827005
   chios.0130.desc: "xxxxx" # 1951045980481827005
   chios.0130.a: "xxxxx" # 1951045980481827005

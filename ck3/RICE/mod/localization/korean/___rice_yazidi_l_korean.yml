@@ -93,7 +93,7 @@
   activity_RICE_yazidi_bull_sacrifice_desc: "미트라, 혹은 메흐르가 황소를 최초로 희생함으로써 우주가 창조되었습니다. 이제 황소의 제물 의식을 통해 이 우주적 사건을 재현해 봅시다." # 14055412509058127484
   activity_RICE_yazidi_bull_sacrifice_selection_tooltip: "미트라에게 황소를 제물로 바칩니다.\n\n$activity_RICE_yazidi_bull_sacrifice_context_tooltip$" # 12277073924540057398
   activity_RICE_yazidi_bull_sacrifice_context_tooltip: "#emphasis 역사적 배경:#! 북서 이란의 고대 서부 이란어 사용자들이, 쿠르드족의 조상을 포함하여, 조로아스터교와 관련은 있으나 구별되는 종교를 따랐으며, 이는 이 지역의 야지디교, 야르산교 및 기타 종파들의 종교적 기층을 형성했다는 이론이 있습니다. 사안을 더욱 복잡하게 만드는 것은, 정통 조로아스터교와 더 오래된 북서 이란 신앙이 공존했을 가능성입니다. 어쨌든, 이 종교가 정통 조로아스터교와 가졌던 핵심적인 차이점은, 황소의 태초 희생이 악의 존재 아흐리만(Ahriman)에 의한 사악한 행위가 아니라, 신 미트라(Mithra)에 의한 긍정적인 창조 행위였다는 점입니다. 이러한 사상은 로마의 미트라스 숭배에 영향을 미쳤을 수 있으며, 야지디교의 중요한 축제인 집회 축제의 중심이 되는 황소 희생의 선구자였을 수 있습니다. 따라서, 이 활동은 다소 허구적이지만, 고대 및 초기 중세 시기 쿠르드족과 같은 북서 이란인들 사이의 가능한 경향과 신념에 기반을 두고 있습니다." # 14472072453569021254
-  activity_RICE_yazidi_bull_sacrifice_host_desc: "$BULLET_WITH_TAB$무작위 [prestige|E] 획득: [prestige_i|E] #V 25#!에서 [prestige_i|E] #V 200#! 사이\n$BULLET_WITH_TAB$무작위 [piety|E] 획득: [piety_i|E] #V 25#!에서 [piety_i|E] #V 200#! 사이\n$BULLET_WITH_TAB$귀하의 [piety_level|E]에 따라 [GetPlayer.MakeScope.ScriptValue('RICE_yazidi_bull_sacrifice_chance')]%의 확률로 #P 긍정적인#! [character_modifier|E]를 받아 귀하의 [skills|E] 중 하나가 강화됩니다." # 18124202485604610573
+  activity_RICE_yazidi_bull_sacrifice_host_desc: "$BULLET_WITH_TAB$ [prestige|E]를 무작위로 [prestige_i|E] #V 25#!에서 [prestige_i|E] #V 200#! 사이만큼 획득합니다!\n$BULLET_WITH_TAB$ [piety|E]를 무작위로 [piety_i|E] #V 25#!에서 [piety_i|E] #V 200#! 사이만큼 획득합니다!\n$BULLET_WITH_TAB$귀하의 [piety_level|E]에 따라 #V [GetPlayer.MakeScope.ScriptValue('RICE_yazidi_bull_sacrifice_chance')]%#! 확률로 #P 긍정적인#! [character_modifier|E]를 받아 [skills|E] 중 하나가 강화됩니다." # 9077526079671755524
   activity_RICE_yazidi_bull_sacrifice_guest_desc: "$activity_RICE_yazidi_bull_sacrifice_host_desc$" # 14942810904141299018
   activity_RICE_yazidi_bull_sacrifice_destination_selection: "$activity_RICE_yazidi_bull_sacrifice_province_desc$" # 7643857962260241976
   activity_RICE_yazidi_bull_sacrifice_guest_help_text: "$activity_RICE_yazidi_bull_sacrifice$" # 10562992605494310062
@@ -112,7 +112,7 @@
   activity_RICE_yazidi_yarsani_jam_desc: "잠 의식은 우리 종교 공동체의 구성원들이 #italic 탄부르#! 악기로 연주되는 성스러운 음악과 기도, 춤, 음식을 나누며 신성한 본질에 더 가까이 다가갈 수 있는 기회입니다." # 17263264226878851516
   activity_RICE_yazidi_yarsani_jam_selection_tooltip: "지역 [GetPlayer.GetFaith.GetAdherentNamePlural]과 함께 얌(Jam) 의식에 참여하십시오.\n\n$activity_RICE_yazidi_yarsani_jam_context_tooltip$" # 11071698229933960970
   activity_RICE_yazidi_yarsani_jam_context_tooltip: "#emphasis 역사적 배경:#! 잠 의식은 이라크와 이란의 야르산파라는 민족 종교 집단과 터키의 이슬람 비정통파인 알레비파가 행하는 일종의 종교 의식입니다. 이는 매우 구조화된 의식으로 중요한 영적 및 사회적 기능을 수행합니다." # 3665044655654805601
-  activity_RICE_yazidi_yarsani_jam_host_desc: "$BULLET_WITH_TAB$ [piety_i] [piety|E] 획득\n$BULLET_WITH_TAB$ [prestige_i|E][prestige|E] 획득\n$BULLET_WITH_TAB$ [stress_loss_i|E][stress|E] 감소\n$BULLET_WITH_TAB$ [courtiers|E], [guests|E], [vassals|E], 그리고 [liege|E]가 당신에게 가지는 [opinion_i|E] [opinion|E]를 개선하는 [character_modifier|E] 획득" # 9418692541620041924
+  activity_RICE_yazidi_yarsani_jam_host_desc: "$BULLET_WITH_TAB$ [piety_i] [piety|E] 획득\n$BULLET_WITH_TAB$ [prestige_i|E][prestige|E] 획득\n$BULLET_WITH_TAB$ [stress_loss_i|E][stress|E] 상실\n$BULLET_WITH_TAB$ [courtiers|E], [guests|E], [vassals|E], 그리고 [liege|E]가 귀하에게 갖는 [opinion_i|E] [opinion|E]를 향상시키는 [character_modifier|E] 획득" # 14899044262748708439
   activity_RICE_yazidi_yarsani_jam_guest_desc: "$activity_RICE_yazidi_yarsani_jam_host_desc$" # 16458635832788835101
   activity_RICE_yazidi_yarsani_jam_destination_selection: "$activity_RICE_yazidi_yarsani_jam_province_desc$" # 11772220489184409325
   activity_RICE_yazidi_yarsani_jam_guest_help_text: "$activity_RICE_yazidi_yarsani_jam$" # 15652160583102870262
@@ -144,7 +144,7 @@
   activity_RICE_yazidi_tiwaf_desc: "우리 [faith|E]의 마을에는 종종 여러 성스러운 존재에게 봉헌된 신사가 있습니다. 이 신사들에서 정기적으로 열리는 #italic 티와프#! 축제는 단순한 종교적 행사가 아니라, 우리 공동체를 하나로 묶고 사회적 유대를 강화하는 중요한 역할을 합니다." # 7580552224565009773
   activity_RICE_yazidi_tiwaf_selection_tooltip: "지역 [GetPlayer.GetFaith.GetAdjective] 마을에서 티와프 축제에 참여합니다.\n\n$activity_RICE_yazidi_tiwaf_context_tooltip$" # 521575129552225061
   activity_RICE_yazidi_tiwaf_context_tooltip: "#emphasis 역사적 배경:#! 모든 야지디 마을에는 신성한 존재에게 봉헌된 성소가 있으며, 매년 이 성소에서 그들을 기리는 티와프 축제가 열립니다. 이 축제는 종교적 기능 외에도 마을들이 자신들의 정체성을 재확인하고 사회적 유대를 강화하는 중요한 계기가 되며, 다른 마을에서 손님들이 찾아오는 것이 흔합니다. 야지디인들이 강제적이든 자발적이든 다른 땅에 정착하더라도, 그들은 조상의 전통을 이어가기 위해 종종 원래 마을의 티와프를 계속해서 개최합니다." # 12452226782993298340
-  activity_RICE_yazidi_tiwaf_host_desc: "$BULLET_WITH_TAB$ [piety_i] [piety|E] 획득\n$BULLET_WITH_TAB$ [prestige_i|E][prestige|E] 획득\n$BULLET_WITH_TAB$ [stress_loss_i|E][stress|E] 상실\n$BULLET_WITH_TAB$ 이 [activity|E]가 열리는 [county|E]는 당신의 [intent|E]에 따라 [GetModifier('RICE_yazidi_tiwaf_religious_modifier').GetNameWithTooltip] 또는 [GetModifier('RICE_yazidi_tiwaf_community_modifier').GetNameWithTooltip] [county_modifier|E]를 얻습니다" # 8974251237598622049
+  activity_RICE_yazidi_tiwaf_host_desc: "$BULLET_WITH_TAB$ [piety_i] 만큼의 [piety|E] 획득\n$BULLET_WITH_TAB|[prestige_i|E][prestige|E] 획득\n$BULLET_WITH_TAB|[stress_loss_i|E][stress|E] 감소\n$BULLET_WITH_TAB$이 [activity|E]가 진행되는 [county|E]는 귀하의 [intent|E]에 따라 [GetModifier('RICE_yazidi_tiwaf_religious_modifier').GetNameWithTooltip] 또는 [GetModifier('RICE_yazidi_tiwaf_community_modifier').GetNameWithTooltip] [county_modifier|E]를 얻게 됩니다." # 6655428477650775466
   activity_RICE_yazidi_tiwaf_guest_desc: "$activity_RICE_yazidi_tiwaf_host_desc$" # 12069561625265537756
   activity_RICE_yazidi_tiwaf_destination_selection: "$activity_RICE_yazidi_tiwaf_province_desc$" # 9766462479372970254
   activity_RICE_yazidi_tiwaf_guest_help_text: "$activity_RICE_yazidi_tiwaf$" # 9152342328694039477
@@ -180,7 +180,7 @@
   activity_RICE_yazidi_tawus_geran_desc: "내가 다스리는 [counties|E]의 여러 마을에 타우스를 위한 공작 깃발을 가져가서 그곳 주민들에게 우리의 [faith|E]에 대해 고취하고 깨우쳐야 합니다." # 11628549103136043296
   activity_RICE_yazidi_tawus_geran_selection_tooltip: "귀하가 소유한 [county|E]로 공작 깃발을 가져와 [control|E]를 높이십시오.\n\n$activity_RICE_yazidi_tawus_geran_context_tooltip$" # 15289177731270063560
   activity_RICE_yazidi_tawus_geran_context_tooltip: "#emphasis 역사적 배경:#! 타우스 게란, 즉\"타우스의 순\"는 야지디교 의식으로, 말렉 타우스(공작 천사)의 성물인 #italic 산자크#!를 행렬로 나르는 것을 포함합니다. 야지디교의 종교 찬송가를 대대로 전승하는 #italic 퀘왈#!들은 평화로운 시기이며 길이 안전하다고 확신하는 한, 이 #italic 산자크#!를 가지고 여러 야지디 마을을 순회할 것입니다. 이는 야지디인들이 자신들의 종교적 신념에 대해 배우고 종교적 헌신을 보일 기회입니다. 여기에 묘사된 내용은 주로 19세기 영국 선교사이자 오리엔탈리즘 학자인 조지 퍼시 배저(George Percy Badger)의 목격담에 기반을 두고 있습니다." # 7694996470139412224
-  activity_RICE_yazidi_tawus_geran_host_desc: "$BULLET_WITH_TAB$ [piety_i] [piety|E] 획득\n$BULLET_WITH_TAB$ [prestige_i|E][prestige|E] 획득\n$BULLET_WITH_TAB$ 이 [activity|E]가 일어나는 [county|E]의 [control_i|E] [control|E] 증가\n$BULLET_WITH_TAB$ 당신의 [lifestyle|E]에서 최소 #V [EmptyScope.ScriptValue('medium_lifestyle_xp')]#! [experience|E] 획득" # 10582155480001227020
+  activity_RICE_yazidi_tawus_geran_host_desc: "$BULLET_WITH_TAB$ [piety_i] [piety|E] 획득\n$BULLET_WITH_TAB$ [prestige_i|E][prestige|E] 획득\n$BULLET_WITH_TAB$ 이 [activity|E]가 열리는 [county|E]의 [control_i|E] [control|E] 증가\n$BULLET_WITH_TAB$ 자신의 [lifestyle|E]에서 최소 #V [EmptyScope.ScriptValue('medium_lifestyle_xp')]#! [experience|E] 획득" # 1537709127637452879
   activity_RICE_yazidi_tawus_geran_guest_desc: "$activity_RICE_yazidi_tawus_geran_host_desc$" # 11164488058001167938
   activity_RICE_yazidi_tawus_geran_destination_selection: "$activity_RICE_yazidi_tawus_geran_province_desc$" # 9045691623249213888
   activity_RICE_yazidi_tawus_geran_guest_help_text: "$activity_RICE_yazidi_tawus_geran$" # 6703817266468075065
@@ -317,7 +317,7 @@
   yazidi.0028.a: "xxxxx" # 1951045980481827005
   yazidi.0029.t: "xxxxx" # 1951045980481827005
   yazidi.0029.desc: "xxxxx" # 1951045980481827005
-  yazidi.0029.a: "xxxxx" # 1951045980481827005
+  yazidi.0029.a: "xxxx\"" # 15308465615999842627
   yazidi.0030.t: "도착" # 4877148824439775158
   yazidi.0030.desc: "모든 [faith.GetAdjective] 마을에는 [faith.GetNameNoTooltip]의 수많은 성스러운 인물 중 한 명에게 헌정된 신사가 있으며, 이 마을들은 차례로 이 신사들에서 매년 #italic tiwaf#! 축제를 개최합니다. 이 종교적 행사는 사교와 인맥 형성에도 완벽한 시기이기에, 저는 이곳 [location.GetNameNoTier] 마을에서 #italic tiwaf#!가 열린다는 소식을 듣고 참석하기로 결정했습니다.\n\n어쨌든, 저는 마을에 도착했고, 정착지는 활동으로 북적이고 있습니다. 현지인들은 마지막 준비에 분주하며, 저처럼 사방에서 온 외부인들은 축제가 진행되는 동안 캠프를 설치할 좋은 장소를 찾고 있습니다. 축제가 시작될 때까지 기다리는 동안 무언가 해야 할지도 모르겠습니다." # 8247787060212410205
   yazidi.0030.a: "여정 후 휴식을 취해야겠군." # 11419567227587623108

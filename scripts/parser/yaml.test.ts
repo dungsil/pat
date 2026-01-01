@@ -109,6 +109,44 @@ describe('parseYaml 파싱', () => {
     expect(result['l_english']['key1']).toEqual(['Value with \\"quoted\\" text', null])
   })
 
+  it('Paradox 형식의 이스케이프된 따옴표 (큰따옴표 두 개)를 처리할 수 있어야 함', () => {
+    const content = `l_english:
+  key1: ""Quoted text at start"
+  key2: """Multiple quotes"""
+  key3: "Normal text"`
+    
+    const result = parseYaml(content)
+    
+    // ""는 리터럴 "로 변환되어야 함
+    expect(result['l_english']['key1']).toEqual(['"Quoted text at start', null])
+    expect(result['l_english']['key2']).toEqual(['"Multiple quotes"', null])
+    expect(result['l_english']['key3']).toEqual(['Normal text', null])
+  })
+
+  it('따옴표 뒤에 추가 텍스트가 있는 경우를 처리할 수 있어야 함', () => {
+    const content = `l_english:
+  key1: ""Quoted speech"\\n\\n-Author Name"
+  key2: "Simple text" extra content`
+    
+    const result = parseYaml(content)
+    
+    // 마지막 따옴표와 그 이후의 텍스트 모두 포함되어야 함
+    expect(result['l_english']['key1']).toEqual(['"Quoted speech"\\n\\n-Author Name', null])
+    expect(result['l_english']['key2']).toEqual(['Simple text" extra content', null])
+  })
+
+  it('실제 Paradox 게임 케이스: 긴 인용문과 출처를 처리할 수 있어야 함', () => {
+    // 실제 VIC3 BPM_acw_events_l_english.yml 파일의 문제 케이스
+    const content = `l_english:
+  bpm_acw_events.314.f:0 ""The right of citizens of the United States to vote shall not be denied or abridged by the United States or by any State on account of race, color, or previous condition of servitude."\\n\\n-15th Amendment, 1870`
+    
+    const result = parseYaml(content)
+    
+    // 예상되는 파싱 결과: 선행 따옴표 + 본문 + 닫는 따옴표 + 개행 + 출처
+    const expected = '"The right of citizens of the United States to vote shall not be denied or abridged by the United States or by any State on account of race, color, or previous condition of servitude."\\n\\n-15th Amendment, 1870'
+    expect(result['l_english']['bpm_acw_events.314.f']).toEqual([expected, null])
+  })
+
   it('여러 섹션을 처리할 수 있어야 함', () => {
     // 별도 파일 또는 적절한 분리로
     const content1 = `l_english:
@@ -246,5 +284,24 @@ describe('parseYaml과 stringifyYaml 통합', () => {
     const reparsed = parseYaml(stringified)
     
     expect(reparsed).toEqual(parsed)
+  })
+
+  it('Paradox 형식의 인용문을 올바르게 이스케이프해야 함', () => {
+    // 파싱된 텍스트는 리터럴 따옴표를 포함함 (예: "The quote"\n\n-Source)
+    const data = {
+      'l_korean': {
+        'key1': ['"미합중국 시민의 투표권...아니 된다"\\n\\n- 수정헌법 제15조', '12345'] as [string, string | null]
+      }
+    }
+    
+    const result = stringifyYaml(data)
+    
+    // 출력 시 내부 따옴표는 이스케이프되어야 함
+    expect(result).toContain('\\"미합중국')
+    expect(result).toContain('아니 된다\\"\\n\\n')
+    
+    // YAML 구조의 따옴표는 이스케이프되지 않아야 함
+    expect(result).toContain('key1: "')
+    expect(result).toContain('" # 12345')
   })
 })

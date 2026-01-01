@@ -197,6 +197,14 @@ ck3/LocalMod/
 
 ## 고급 설정
 
+### `upstream.version_strategy` (선택사항)
+
+**타입:** String  
+**값:** `"semantic"` | `"natural"` | `"default"`  
+**기본값:** `"default"`  
+
+**설명:** 버전 선택 전략을 지정합니다.
+
 ### Replace 폴더 처리
 
 일부 모드는 `replace` 폴더를 사용하여 바닐라 게임의 텍스트를 덮어씁니다.

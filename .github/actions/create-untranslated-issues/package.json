@@ -1,0 +1,10 @@
+{
+  "name": "create-untranslated-issues",
+  "version": "1.0.0",
+  "description": "Automatically create or update GitHub issues for untranslated items",
+  "main": "index.js",
+  "dependencies": {
+    "@actions/core": "^1.10.0",
+    "@actions/github": "^6.0.0"
+  }
+}

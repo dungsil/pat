@@ -198,7 +198,7 @@
   ep3_story_cycle_harrying.1005.c.tt2: "[Glossary( 'Great North Road', 'GNR_GLOSS' )]에 있는 모든 노르만 영지의 [counties|E]" # 14312266366674576384
   prelude_events.0180.desc.guest: "마침내 다른 손님들을 따돌리고 [ROOT.Char.GetCurrentLocation.GetCounty.GetFaith.HouseOfWorship]으로 들어가 조용한 순간을 찾았습니다." # 6194257582832802000
   coronation_events.0312.desc.low_magnificence: "변변찮은 대관식이 끝났습니다. [host.GetName]께서는 보잘것없는 주최자일지 모르나, 그럼에도 불구하고 [host.GetTitleAsNameNoTooltip]이십니다." # 1571182615658732234
-  coronation_events.0110.desc.fallback: "#emp \"나의 통치는 후세에 [activity.GetHost.GetPrimaryTitle.GetNameNoTier]의 황금 시대의 시작으로 기억될 것이다.\"!" # 12848589512354558060
+  coronation_events.0110.desc.fallback: "#emp\"나의 통치는 후세에 [activity.GetHost.GetPrimaryTitle.GetNameNoTier]의 황금기를 연 시대로 기억될 것이다\"" # 1118651112463619820
   endured_greek_fire_memory_desc: "[attacker.GetNamePossessive] 함대의 끔찍한 그리스 화염 공격으로 선원들이 산 채로 불타는 것을 보았소." # 9608371000487741055
   endured_greek_fire_memory_desc_second_perspective: "[attacker.GetNamePossessive] 함대의 끔찍한 그리스 화염 공격으로 선원들이 산 채로 불타는 모습을 목격했습니다." # 3271955085339852799
   endured_greek_fire_memory_desc_third_perspective: "[owner.GetFirstName]는 [attacker.GetNamePossessive] 함대가 벌인 끔찍한 그리스 화염 공격 동안 선원들이 산 채로 불타는 것을 지켜보았습니다." # 16328111617143277454

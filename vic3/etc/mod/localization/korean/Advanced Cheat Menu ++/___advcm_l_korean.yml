@@ -659,39 +659,39 @@
   Resupply_commanderButton_text: "보급품 징발 전문가" # 11834861321837788731
   Resupply_commanderButton_tooltip: "공급 소요 전문가 특성을 추가하려면 왼쪽 클릭하고, 공급 소요 전문가 특성을 제거하려면 오른쪽 클릭하십시오." # 17218855956993787037
   PillagerButton_text: "약탈자" # 14913525675114335449
-  PillagerButton_tooltip: "좌클릭하여 약탈자 특성을 추가하고 우클릭하여 약탈자 특성을 제거하십시오." # 9075065427572491072
+  PillagerButton_tooltip: "왼쪽 클릭 시 약탈자 특성을 추가하고 오른쪽 클릭 시 약탈자 특성을 제거합니다." # 16547557527974519416
   SurveyorButton_text: "측량사" # 12543326871592055126
-  SurveyorButton_tooltip: "왼쪽 클릭으로 측량가 특성을 추가하고 오른쪽 클릭으로 측량가 특성을 제거하십시오." # 3846877213887128731
+  SurveyorButton_tooltip: "왼쪽 클릭으로 측량가 특성을 추가하고 오른쪽 클릭으로 측량가 특성을 제거하십시오." # 8660731836042952232
   Forest_commanderButton_text: "삼림 전투 전문가" # 9713006055179522913
-  Forest_commanderButton_tooltip: "좌클릭하여 산림 전투 전문가 특성을 추가하고 우클릭하여 산림 전투 전문가 특성을 제거하십시오." # 14429732264714821319
+  Forest_commanderButton_tooltip: "좌클릭 시 #bold Woodland Combat Expert# 특성을 추가하고 우클릭 시 #bold Woodland Combat Expert# 특성을 제거합니다." # 17755282757783705214
   Plains_commanderButton_text: "개방 지형 사령관" # 12059340936176717712
-  Plains_commanderButton_tooltip: "좌클릭하여 개방 지형 지휘관 특성을 추가하고 우클릭하여 개방 지형 지휘관 특성을 제거하십시오." # 11618851511649214098
+  Plains_commanderButton_tooltip: "좌클릭하여 개방 지형 사령관 특성을 추가하고 우클릭하여 개방 지형 사령관 특성을 제거하십시오." # 13352657613444961681
   Mountain_commanderButton_text: "산악전 전문가" # 13504053649755101395
-  Mountain_commanderButton_tooltip: "왼쪽 클릭으로 산악 전투 전문가 특성을 추가하고 오른쪽 클릭으로 산악 전투 전문가 특성을 제거하십시오." # 11569173419306972170
+  Mountain_commanderButton_tooltip: "왼쪽 클릭 시 산악전 전문가 특성을 추가하고, 오른쪽 클릭 시 산악전 전문가 특성을 제거합니다." # 11741963321932864652
   Basic_artillery_commanderButton_text: "기본 포병 지휘관" # 18148067349718652262
-  Basic_artillery_commanderButton_tooltip: "기본 포병 지휘관 특성을 추가하려면 왼쪽 클릭하고, 기본 포병 지휘관 특성을 제거하려면 오른쪽 클릭하십시오." # 18256709307130671664
+  Basic_artillery_commanderButton_tooltip: "기본 포병 지휘관 특성을 추가하려면 왼쪽 클릭하고, 기본 포병 지휘관 특성을 제거하려면 오른쪽 클릭하십시오." # 13091773712642266249
   Experienced_artillery_commanderButton_text: "숙련된 포병 지휘관" # 7660598260491128160
-  Experienced_artillery_commanderButton_tooltip: "경험 많은 포병 지휘관 특성을 추가하려면 왼쪽 클릭을, 경험 많은 포병 지휘관 특성을 제거하려면 오른쪽 클릭을 하십시오." # 8061462086841129696
+  Experienced_artillery_commanderButton_tooltip: "좌클릭하여 숙련된 포병 지휘관 특성을 추가하고 우클릭하여 숙련된 포병 지휘관 특성을 제거하십시오." # 7519540339624230198
   Expert_artillery_commanderButton_text: "전문 포병 사령관" # 2262112405059036062
-  Expert_artillery_commanderButton_tooltip: "전문 포병 지휘관 특성을 추가하려면 좌클릭하고, 제거하려면 우클릭하십시오." # 11650345753463353830
+  Expert_artillery_commanderButton_tooltip: "좌클릭하여 #bold 전문가 포병 지휘관# 특성을 추가하고 우클릭하여 #bold 전문가 포병 지휘관# 특성을 제거하십시오." # 305736950233103771
   Stalwart_defenderButton_text: "굳건한 수호자" # 9810658064285980098
-  Stalwart_defenderButton_tooltip: "좌클릭하여 #bold 굳건한 수호자# 특성을 추가하고 우클릭하여 #bold 굳건한 수호자# 특성을 제거하십시오." # 12469114971756354304
+  Stalwart_defenderButton_tooltip: "좌클릭하여 #bold Stalwart Defender# 특성을 추가하고 우클릭하여 #bold Stalwart Defender# 특성을 제거하십시오." # 4054407093805117442
   Trench_ratButton_text: "참호 쥐" # 6193586872867981573
-  Trench_ratButton_tooltip: "좌클릭하여 참호병 특성을 추가하고 우클릭하여 참호병 특성을 제거하십시오." # 10817156048887584955
+  Trench_ratButton_tooltip: "좌클릭하여 참호 쥐 특성을 추가하고 우클릭하여 참호 쥐 특성을 제거하십시오." # 2101538029703413530
   Defense_in_depth_specialistButton_text: "심층 방어 전문가" # 3864704578342238690
-  Defense_in_depth_specialistButton_tooltip: "방어 심화 전문가 특성을 추가하려면 좌클릭하고, 방어 심화 전문가 특성을 제거하려면 우클릭하십시오." # 8331760004022870708
+  Defense_in_depth_specialistButton_tooltip: "방어 심층 전문가 특성을 추가하려면 좌클릭하고, 방어 심층 전문가 특성을 제거하려면 우클릭하십시오." # 8319960437320658257
   Basic_offensive_plannerButton_text: "공세 계획관" # 8921052577089540042
-  Basic_offensive_plannerButton_tooltip: "공격 계획가 특성을 추가하려면 왼쪽 클릭을, 공격 계획가 특성을 제거하려면 오른쪽 클릭을 하십시오." # 322704305846916674
+  Basic_offensive_plannerButton_tooltip: "좌클릭하여 #bold 공격 계획가# 특성을 추가하고 우클릭하여 #bold 공격 계획가# 특성을 제거하십시오." # 10811217097125798820
   Experienced_offensive_plannerButton_text: "숙련된 공격 계획관" # 3334777734392480645
-  Experienced_offensive_plannerButton_tooltip: "좌클릭하여 #bold 숙련된 공세 계획가# 특성을 추가하고 우클릭하여 #bold 숙련된 공세 계획가# 특성을 제거하십시오." # 10489938084077412013
+  Experienced_offensive_plannerButton_tooltip: "왼쪽 클릭으로 #bold 숙련된 공격 계획가# 특성을 추가하고 오른쪽 클릭으로 #bold 숙련된 공격 계획가# 특성을 제거하십시오." # 10952265349922685578
   Expert_offensive_plannerButton_text: "전문 공격 계획가" # 13302900423633629201
-  Expert_offensive_plannerButton_tooltip: "전문 공격 계획가 특성을 추가하려면 좌클릭하고, 전문 공격 계획가 특성을 제거하려면 우클릭하십시오." # 10559481172390492227
+  Expert_offensive_plannerButton_tooltip: "전문 공격 계획가 특성을 추가하려면 좌클릭하고, 제거하려면 우클릭하십시오." # 7296648524436294040
   Basic_defensive_strategistButton_text: "방어 전략가" # 14388664054212759786
-  Basic_defensive_strategistButton_tooltip: "좌클릭하여 방어 전략가 특성을 추가하고 우클릭하여 방어 전략가 특성을 제거하십시오." # 10846218143963074960
+  Basic_defensive_strategistButton_tooltip: "좌클릭하여 #bold 방어 전략가# 특성을 추가하고 우클릭하여 #bold 방어 전략가# 특성을 제거하십시오." # 1856973328628189426
   Experienced_defensive_strategistButton_text: "노련한 방어 전략가" # 15753379963949267099
-  Experienced_defensive_strategistButton_tooltip: "경험 많은 방어 전략가 특성을 추가하려면 왼쪽 클릭하고, 경험 많은 방어 전략가 특성을 제거하려면 오른쪽 클릭하십시오." # 13688258828732691214
+  Experienced_defensive_strategistButton_tooltip: "경험 많은 방어 전략가 특성을 추가하려면 왼쪽 클릭, 경험 많은 방어 전략가 특성을 제거하려면 오른쪽 클릭하십시오." # 5061738023091877319
   Expert_defensive_strategistButton_text: "전문 방어 전략가" # 13319742893543996543
-  Expert_defensive_strategistButton_tooltip: "좌클릭하여 #bold 전문가적 방어 전략가# 특성을 추가하고 우클릭하여 #bold 전문가적 방어 전략가# 특성을 제거하십시오." # 531917340108630814
+  Expert_defensive_strategistButton_tooltip: "좌클릭하여 #bold 전문가적 방어 전략가# 특성을 추가하고 우클릭하여 #bold 전문가적 방어 전략가# 특성을 제거하십시오." # 10494160791157451239
   TRACOS_ALMIRANTES: "제독 특성" # 6033721524071226402
   Basic_naval_commanderButton_text: "해군 제독" # 17472327198055117608
   Basic_naval_commanderButton_tooltip: "좌클릭하여 해군 지휘관 특성을 추가하고 우클릭하여 해군 지휘관 특성을 제거하십시오." # 1971310953855877639

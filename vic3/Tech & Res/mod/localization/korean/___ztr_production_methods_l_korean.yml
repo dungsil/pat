@@ -17,10 +17,10 @@
   pmg_base_building_spaceport: "우주항" # 1105842104412328333
   pm_orbital_launch_system: "궤도 발사" # 18075257614568584245
   pm_no_telephones: "전화 없음" # 3890605575379714200
-  pm_cathode_tube_televisions: "음극선관 TV" # 6153746925140632600
+  pm_cathode_tube_televisions: "음극선관 텔레비전" # 17803331413410118109
   pm_colored_cathode_tube_televisions: "컬러 음극선관 텔레비전" # 17361092973013421293
   pm_candlestick_telephones: "캔들스틱 전화기" # 13351277449905609951
-  pm_bakelite_telephones: "바켈라이트 전화기" # 17279323253035387582
+  pm_bakelite_telephones: "베이클라이트 전화기" # 12372989869814486467
   pmg_base_building_copperwires: "철사" # 10952934576897703271
   pm_basic_copperwires: "기본 철사" # 1030243070326686548
   pmg_base_building_batteries: "전지" # 272070928226063461
@@ -309,13 +309,13 @@
   pm_multiway_transport_plantation: "다용도 운송" # 11460452246540390855
   pmg_train_automation_building_hydroponic: "운송" # 10054269578660534071
   pm_robotic_building_commonalloys_plant: "로봇 조립 라인" # 3664357297072673262
-  pm_robotic_building_steel_mills: "로봇 조립 라인" # 3664357297072673262
+  pm_robotic_building_steel_mill: "로봇 조립 라인" # 3664357297072673262
   pm_robotic_building_motor_industry: "로봇 조립 라인" # 3664357297072673262
   pm_advanced_assembly_lines_building_commonalloys_plant: "고급 조립 라인" # 9416223957800701698
-  pm_advanced_assembly_lines_building_steel_mills: "고급 조립 라인" # 9416223957800701698
+  pm_advanced_assembly_lines_building_steel_mill: "#bold 진보된 조립 라인#" # 9416223957800701698
   pm_advanced_assembly_lines_building_motor_industry: "고급 조립 라인" # 9416223957800701698
   pm_advanced_automatic_bottle_blowers: "로봇 병 블로워" # 6104626499351729526
-  pm_advanced_assembly_lines_building_tooling_workshops: "고급 조립 라인" # 9416223957800701698
+  pm_advanced_assembly_lines_building_tooling_workshop: "#bold 진보된 조립 라인#" # 9416223957800701698
   pmg_transport_automation_building_robotics_industry: "운송" # 10054269578660534071
   pmg_automation_building_chip_foundry: "자동화" # 18411738171978629847
   pm_photomask_projection: "포토마스크 투영" # 9554831990386783195
@@ -352,10 +352,10 @@
   pmg_helicopters: "헬리콥터" # 5826673679717711275
   pm_no_helicopter_production: "헬리콥터 없음" # 1147285616650916313
   pm_helicopter_production: "헬리콥터" # 5826673679717711275
-  pmg_missiles_building_munition_plants: "미사일" # 4292618955463830602
-  pm_no_missiles_building_munition_plants: "미사일 없음" # 16950407182740865709
-  pm_rocket_building_munition_plants: "로켓" # 12193992866038969155
-  pm_guided_missiles_building_munition_plants: "유도 미사일" # 12515029906192459592
+  pmg_missiles_building_munition_plant: "미사일" # 4292618955463830602
+  pm_no_missiles_building_munition_plant: "미사일 없음" # 16950407182740865709
+  pm_rocket_building_munition_plant: "로켓" # 12193992866038969155
+  pm_guided_missiles_building_munition_plant: "유도 미사일" # 12515029906192459592
   pm_supersonic_warplanes_production: "초음속 제트 전투기" # 8676750033840624843
   pmg_base_building_space_assets: "우주 자산" # 13317951215547489933
   pm_rocket_probes: "탐사" # 10550528541663236424
@@ -474,9 +474,9 @@
   pm_internet_data_reporting_light_industry_university: "인터넷 데이터 보고" # 12301346942221092580
   pm_internet_data_optimization_light_industry_university: "클라우드 데이터 최적화" # 3163034493859488736
   pm_trade_center_trade_quantity_ultra: "글로벌 생산망 무역" # 8443701027378198617
-  pmg_automation_building_synthetics_plants: "자동화" # 18411738171978629847
-  pm_basic_electric_control_building_synthetics_plants: "기본 전기 제어" # 14094882549028163190
-  pm_advanced_electric_control_building_synthetics_plants: "선진 전기 제어" # 4934158965090356378
+  pmg_automation_building_synthetics_plant: "자동화" # 18411738171978629847
+  pm_basic_electric_control_building_synthetics_plant: "기본 전기 제어" # 14094882549028163190
+  pm_advanced_electric_control_building_synthetics_plant: "고급 전기 제어" # 4934158965090356378
   pm_no_dye_production: "염료 생산 없음" # 15972497330647271985
   pmg_cosmetics: "화장품" # 17477334926629178903
   pm_traditional_perfumes_cosmetics: "전통 화장품" # 14822857893073296019
@@ -496,15 +496,15 @@
   pm_cobots: "코봇" # 15568624749185986673
   pm_smart_city_infrastructure: "스마트 도시 서비스" # 12105138133547648763
   pmg_automation_building_electrics_industry: "자동화" # 18411738171978629847
-  pm_robotic_building_furniture_manufacturies: "로봇 조립 라인" # 3664357297072673262
+  pm_robotic_building_furniture_manufactory: "로봇 조립 라인" # 3664357297072673262
   pm_no_homeappliances: "전통 가구 우선" # 4591569876253612258
   pm_prefabricated_concrete_buildings: "조립식 콘크리트 건물" # 6628142140421386311
   pmg_data_optimization_light_industry_university: "최적화" # 8147114492625738509
   pmg_breeding_livestock_ranch: "번식" # 16705046561968128489
   pm_fuel_trawlers: "연료 트롤선" # 16240709375052774788
   pm_fuel_whaling_ships: "연료 동력 포경선" # 1498272796853824746
-  pm_advanced_assembly_lines_building_paper_mills: "고급 조립 라인" # 9416223957800701698
-  pm_robotic_building_paper_mills: "로봇 조립 라인" # 3664357297072673262
+  pm_advanced_assembly_lines_building_paper_mill: "#bold 진보된 조립 라인#" # 9416223957800701698
+  pm_robotic_building_paper_mill: "로봇 조립 라인" # 3664357297072673262
   pm_modular_shipbuilding: "모듈형 연료 함선" # 618217387611267499
   pm_modular_military_shipbuilding: "모듈형 군함" # 880023586366758182
   pm_selective_automatic_rifles: "선택적 자동 소총" # 11584024585629760590
@@ -512,7 +512,7 @@
   pm_advanced_assembly_lines_building_arms_industry: "고급 조립 라인" # 9416223957800701698
   pm_precised_shells: "정밀 포탄" # 15595816930526294645
   pm_launched_guided_projectiles: "유도 발사체" # 8093834861494001148
-  pm_advanced_assembly_lines_building_munition_plants: "고급 조립 라인" # 9416223957800701698
+  pm_advanced_assembly_lines_building_munition_plant: "#bold 진보된 조립 라인#" # 9416223957800701698
   pmg_recycling_center: "재활용 센터" # 304346226200153388
   pm_no_recycling: "재활용 없음" # 2676182763313599620
   pm_steel_recycling: "강철 재활용" # 5714745398598605454
@@ -594,8 +594,8 @@
   drone_assisted_agriculture_building_banana_plantation: "드론 지원 영농" # 3271402303643951708
   advanced_plantation_methods_building_silk_plantation: "고급 플랜테이션 수확" # 10620205622219276350
   drone_assisted_agriculture_building_silk_plantation: "드론 지원 영농" # 3271402303643951708
-  advanced_plantation_methods_building_vineyard_plantation: "고급 플랜테이션 수확" # 10620205622219276350
-  drone_assisted_agriculture_building_vineyard_plantation: "드론 지원 영농" # 3271402303643951708
+  advanced_plantation_methods_building_vineyard: "고급 플랜테이션 수확" # 10620205622219276350
+  drone_assisted_agriculture_building_vineyard: "드론 보조 농업" # 3271402303643951708
   pmg_transport_infrastructure_building_railway: "도로 인프라" # 5249506188789503101
   pm_basic_roads_building_railway: "기본 도로" # 7436866312108739844
   pm_highways_building_railway: "간선도로" # 3969334153630841660
@@ -641,7 +641,7 @@
   pm_iot_building_ecommerce_logistics: "사물 인터넷 조립 라인" # 7152189685164104908
   pm_iot_building_robotics_industry: "사물 인터넷 조립 라인" # 7152189685164104908
   pm_iot_building_battery_plant: "사물 인터넷 조립 라인" # 7152189685164104908
-  pm_iot_building_steel_mills: "사물 인터넷 조립 라인" # 7152189685164104908
+  pm_iot_building_steel_mill: "사물 인터넷 조립 라인" # 7152189685164104908
   pm_iot_building_electrics_industry: "사물 인터넷 조립 라인" # 7152189685164104908
   pm_iot_building_motor_industry: "사물 인터넷 조립 라인" # 7152189685164104908
   pm_iot_building_automotive_industry: "사물 인터넷 조립 라인" # 7152189685164104908
@@ -712,3 +712,7 @@
   pm_advanced_electric_control_building_general: "고급 전기 제어" # 4934158965090356378
   pm_shopping_centers: "쇼핑 센터" # 14017416346927474988
   pm_digital_retail: "디지털 소매업" # 9579126370050971668
+  pm_automated_cigarette_makers: "자동화된 압연기" # 16769866905147412432
+  pm_continuous_diffusion_sugar_cane_refining: "지속적인 사탕수수 보급" # 8654796673096410108
+  pm_continuous_diffusion_sugar_beet_refining: "연속적인 사탕무 확산" # 18369159704869804622
+  pm_vertical_silo_drying: "수직 사일로 건조" # 10760966337138316744

@@ -2,7 +2,7 @@
   Palapala: "팔라팔라" # 3028470802984770778
   RICE_magadha_pithipati_legend_name: "다이아몬드 왕좌의 수호자들" # 6804458005494874648
   RICE_magadha_pithipati_legend_desc: "[title.GetNameNoTier]는 붓다께서 깨달음을 얻으신 곳으로, 금강좌(Diamond Throne)로 알려져 있습니다. 그 지역에서 [religion.GetName]의 쇠퇴를 염려한 [guardian.GetName]께서는 [religion.GetAdjectiveNoTooltip] 공동체를 위하여 바로 그 왕좌를 수호하고자 #italic Pithipati#!, 즉 금강좌의 군주라는 칭호를 맡으셨습니다." # 12003676977230897924
-  RICE_magadha_pithipati_legend_chapter_opening_new_title: "현명하고 신실한 자들은 싯다르타 붓다의 생애를 알고 있습니다. 그가 샤캬 족의 왕자로 태어났던 일, 늙음, 병듦, 죽음, 그리고 수행자라는 네 가지 광경을 보고 사치스러운 삶을 버리고 영적인 여정을 시작하게 된 일, 그리고 보리수 아래에서 깨달음을 얻은 일을 말입니다. 수 세기 동안, [ROOT.Legend.GetProperty( 'religion' ).Religion.GetAdjectiveNoTooltip] 순례자들이 이 나무가 있는 곳으로 여행하여 붓다를 경배해 왔습니다." # 8019970279084269469
+  RICE_magadha_pithipati_legend_chapter_opening_new_title: "지혜롭고 신실한 자들은 싯다르타 왕자의 삶을 알고 있습니다. 그가 샥야족의 왕자로 태어났으며, 늙음, 질병, 죽음, 그리고 수행자라는 네 가지 광경을 목격하고 사치스러운 삶을 버리고 영적인 여정을 시작하게 된 사연, 그리고 보리수 아래에서 깨달음을 얻은 이야기를 알고 있습니다. 수 세기 동안, [ROOT.Legend.GetProperty( 'religion' ).Religion.GetAdjectiveNoTooltip] 순례자들이 이 나무가 있는 곳으로 찾아와 붓다를 경배해 왔습니다." # 13926001692793947585
   RICE_magadha_pithipati_legend_chapter_motivation_new_title: "[ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip]께서는 모든 불교 신자들과 마찬가지로 이 나무의 중요성을 이해하셨습니다. 하지만 [ROOT.Legend.GetProtagonist.GetSheHe]께서는 현재의 시대가 큰 고통과 타락의 시기임을 알기에 마음속에 큰 슬픔을 느끼셨습니다. 부처님, 다르마, 상가라는 삼보가 위협받는 상황에서, [ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip]께서는 일생 동안 [ROOT.Legend.GetProperty( 'religion' ).Religion.GetNameNoTooltip]의 위대한 수호자가 되는 것이 [ROOT.Legend.GetProtagonist.GetHerHis] 업보임을 곧 깨닫게 될 것이며, 이는 금강좌의 주인이자 #italic 피티파티#!가 됨으로써 이루어질 것입니다." # 11388878171487375871
   RICE_magadha_pithipati_legend_chapter_famous_deed_new_title: "하지만 작위는 작위에 불과합니다. 선하고 성스러운 일을 하겠다고 열망하는 것과 실제로 그것을 행하는 것은 별개의 일입니다. 그리하여 #italic Pithipati#!로서의 새로운 책임을 맡은 [ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip]은 그 책임을 진지하게 받아들였습니다. 그분은 보리수 주변의 종교 시설을 보존하기 위해 예술가와 노동자들에게 후원했으며, 순례자들이 이곳을 방문하도록 독려하는 데 많은 노력을 기울였습니다. 물론 [ROOT.Legend.GetProtagonist.GetSheHe]는 피에 굶주린 이방인들의 공격부터, 어두운 마법과 현혹하는 말로 사람들을 [ROOT.Legend.GetProperty( 'religion' ).Religion.GetNameNoTooltip]의 이상에서 벗어나게 하고 스스로 많은 부정적인 카르마를 쌓도록 유혹하려는 사악한 악마에 이르기까지, 모든 종류의 위협으로부터 그 장소를 지켜냈습니다." # 4075073423139431873
   RICE_magadha_pithipati_legend_chapter_extra_deed_new_title: "멀고 가까운 정의로운 통치자들은 [ROOT.Legend.GetProtagonist.GetFirstNamePossessiveNoTooltip]께서 삼보에 헌신하신 것을 듣고, 그분의 고귀한 대업을 돕기 위해 수많은 진귀한 선물을 보냈습니다. #italic 피티파티#!, 즉 다이아몬드 왕좌의 주인이신 [ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip]께서는 부처님의 가르침을 보존하기 위해 다른 이들이 더욱 위대한 업적을 이루도록 고무했습니다." # 9622893850338448673
@@ -408,7 +408,7 @@
   magadha.0028.a: "xxxxx" # 1951045980481827005
   magadha.0029.t: "xxxxx" # 1951045980481827005
   magadha.0029.desc: "xxxxx" # 1951045980481827005
-  magadha.0029.a: "xxxxx" # 1951045980481827005
+  magadha.0029.a: "xxxx\"" # 15308465615999842627
   magadha.0030.t: "보리수 방문 준비" # 4680347435029984753
   magadha.0030.desc: "매년, 세상 모든 종파의 #bold [ROOT.Char.GetFaith.GetReligion.GetAdjective]# 신도들이 깨달음을 얻으셨을 때 붓다께서 명상하셨던 성스러운 보리수가 있는 [gaya_county.GetNameNoTier]에 모여듭니다. 사람들은 일 년 내내 흔히 그렇듯 나무를 보기 위해서뿐만 아니라, 숭배의 행위로 물과 우유를 부어 목욕시키기 위해 이 나무를 찾습니다. 올해, 저도 이 의식에 참여할 계획을 세웠습니다." # 9818789287061281238
   magadha.0030.a: "곧 [gaya_county.GetNameNoTier]를 떠날 준비를 하겠소!" # 7384801845340680483
@@ -672,7 +672,7 @@
   magadha.0098.a: "xxxxx" # 1951045980481827005
   magadha.0099.t: "xxxxx" # 1951045980481827005
   magadha.0099.desc: "xxxxx" # 1951045980481827005
-  magadha.0099.a: "xxxxx" # 1951045980481827005
+  magadha.0099.a: "xxxx\"" # 15308465615999842627
   magadha.0100.t: "마가다의 고대 전설" # 7790684915955045084
   magadha.0100.desc: "부처님과 자이나교의 창시자인 마하비라께서 고대에 [magadha_duchy.GetNameNoTier]에서 자주 머무르셨으며, 그분들과 관련된 많은 전설이 있다고 합니다. 오늘날 한 학자가 제가 다스리는 영토 내 여러 지역에서 이 두 인물과 관련된 몇 가지 전설, 즉 그분들이 방문했던 장소, 그들의 종교 교리를 설파했던 곳, 만났던 인물, 그리고 그곳에서 행했던 일들에 대해 이야기해주고 있습니다." # 13404298355171185568
   magadha.0100.a: "[magadha_duchy.GetNameNoTier]에 이토록 역사가 깊다니!" # 11198516119261423534
@@ -769,7 +769,7 @@
   magadha.0128.a: "xxxxx" # 1951045980481827005
   magadha.0129.t: "xxxxx" # 1951045980481827005
   magadha.0129.desc: "xxxxx" # 1951045980481827005
-  magadha.0129.a: "xxxxx" # 1951045980481827005
+  magadha.0129.a: "xxxx\"" # 15308465615999842627
   magadha.0130.t: "xxxxx" # 1951045980481827005
   magadha.0130.desc: "xxxxx" # 1951045980481827005
   magadha.0130.a: "xxxxx" # 1951045980481827005

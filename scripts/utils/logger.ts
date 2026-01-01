@@ -1,3 +1,4 @@
+import { env } from 'node:process' 
 import { createConsola, LogLevels } from 'consola'
 
 export const log = createConsola({
@@ -5,6 +6,5 @@ export const log = createConsola({
   formatOptions: {
     colors: true,
   },
-  level: LogLevels.debug,
-  
+  level: env.LOG_LEVEL ?? LogLevels.info,
 })

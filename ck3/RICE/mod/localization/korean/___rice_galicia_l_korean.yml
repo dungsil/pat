@@ -14,7 +14,7 @@
   RICE_galicia_santiago_holy_site_building_level_2_req: "[GetBuilding('holy_site_basilica_santiago_01').GetName]이 건설되었습니다." # 10931231070910893161
   RICE_galicia_csm_legend_name: "성모 마리아의 노래" # 6214455793004565309
   RICE_galicia_csm_legend_desc: "[compiler.GetTitledFirstName]의 학식과 웅변술은 전설적입니다. 갈리시아-포르투갈어 시의 위대한 모음집인 #italic 칸티가스 데 산타 마리아#!의 편찬은 [compiler.GetHerHis]의 노력 덕분입니다." # 2830681814438261112
-  RICE_galicia_csm_legend_chapter_opening_new_title: "모두가 [ROOT.Legend.GetProtagonist.GetTitledFirstNameNoTooltip]의 학식과 웅변술을 알고 있을 것입니다. 지금도 그분의 시는 많은 이들에게 귀감이 되고 있습니다." # 3753791227633355900
+  RICE_galicia_csm_legend_chapter_opening_new_title: "모든 이들이 [ROOT.Legend.GetProtagonist.GetTitledFirstNameNoTooltip]의 박식함과 웅변술을 알고 있을 것입니다. 지금도 그분의 시 작품들은 많은 이들에게 찬사를 받고 있습니다\"" # 15700253320238823732
   RICE_galicia_csm_legend_chapter_motivation_new_title: "[ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip]는 일류 시인이었으며, 다른 많은 교양 있는 [ROOT.Legend.GetProperty( 'culture' ).Culture.GetCollectiveNounNoTooltip]처럼 수많은 칸티가(cantiga)를 작곡했지만, [ROOT.Legend.GetProtagonist.GetSheHe]는 가슴 깊은 곳에서 더 위대한 무언가를 갈망했습니다. 세속적인 일에 대한 시는 한 가지였지만, 성스럽고, 신성하며, 거룩한 것에 대한 시는 어떠했을까요? 그리하여 [ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip]는 #italic 성모 마리아#!, 즉 수많은 경이롭고 놀라운 기적과 업적을 이루신 하느님의 어머니에 대한 시를 작곡하고 편찬하기로 결심했습니다." # 5566082023707988721
   RICE_galicia_csm_legend_chapter_famous_deed_new_title: "땅을 여행하며, [ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip]는 자신의 동료 시인, 가수, 음유시인 중 가장 위대한 이들을 찾아 성스러운 대의 아래 그들을 하나로 모았습니다. 이는 말과 노래로 싸우는 성전이지, 말과 칼로 싸우는 성전이 아니었습니다. [ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip]가 보기에 그들의 목표는 위대한 아름다움과 헌신이 담긴 영감 넘치는 칸티가들을 통해 성모 마리아를 기리는 것이었으며, 이 노래들은 #italic 산타 마리아의 칸티가#!로 엮일 예정이었습니다." # 8806386847128305530
   RICE_galicia_csm_legend_chapter_extra_deed_new_title: "밤낮으로, [ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip]와 [ROOT.Legend.GetProtagonist.GetHerHis] 시인들은 성모 마리아에 대한 [ROOT.Legend.GetProperty( 'culture' ).Culture.GetNameNoTooltip]의 칸티가를 작곡하고 연주하기 위해 열심히 노력했습니다. 이 노래들에는 성모 마리아의 기적과 업적에 대한 진실되고 영광스러운 이야기들이 담겨 있었습니다." # 2563387905477856610
@@ -121,7 +121,7 @@
   RICE_galicia_wrote_excellent_cantiga_music_2: "$RICE_galicia_wrote_excellent_cantiga_music_1$" # 8259775890060051365
   RICE_galicia_wrote_excellent_cantiga_music_2_desc: "$RICE_galicia_wrote_cantiga_music_1_desc$" # 17474320853693622548
   RICE_galicia_wrote_excellent_cantiga_music_3: "$RICE_galicia_wrote_excellent_cantiga_music_1$" # 8259775890060051365
-  RICE_galicia_wrote_excellent_cantiga_music_3_desc: "\"갈리시아가 훌륭한 칸티가 음악을 작곡했다\"\"갈리시아가 여성용 칸티가를 작곡했다\"" # 7625603211091303554
+  RICE_galicia_wrote_excellent_cantiga_music_3_desc: "$RICE_galicia_wrote_excellent_cantiga_music_1_desc$$RICE_galicia_wrote_cantiga_female_dialogue_1_desc$" # 12657232552470106341
   RICE_galicia_wrote_cantiga_female_dialogue_1: "여성 대화가 담긴 칸티가를 작곡했습니다." # 17900203723012773163
   RICE_galicia_wrote_cantiga_female_dialogue_1_desc: "이 인물은 최근 여성 친구들이 서로 지지하거나 연애에 대해 놀리는 내용과 같은 서사적 요소를 통합한 좋은 [cantiga_quality|E]의 [cantiga|E]를 작곡했습니다." # 14380527583145642675
   RICE_galicia_wrote_cantiga_female_dialogue_2: "$RICE_galicia_wrote_cantiga_female_dialogue_1$" # 13011777865030605461
@@ -511,19 +511,19 @@
   RICE_galicia_saint_james_routes_decision_effect_tooltip_1: "귀하가 얻는 [piety|E]와 이 [decision|E]의 비용은 [GetGeographicalRegion('world_europe_west_iberia').GetName]와 [GetGeographicalRegion('custom_occitan').GetName]에서 소유한 [counties|E]의 수와 해당 [counties|E]의 [control|E] 수준에 따라 달라집니다." # 2680263788215862863
   RICE_galicia_saint_james_routes_decision_effect_tooltip_2: "귀하가 얻는 [prestige|E]와 이 [decision|E]의 비용은 [GetGeographicalRegion('world_europe_west_iberia').GetName]와 [GetGeographicalRegion('custom_occitan').GetName]에서 소유한 [counties|E]의 수와 해당 [counties|E]의 [control|E] 수준에 따라 달라집니다." # 12592548321585232625
   RICE_galicia_saint_james_routes_decision_confirm: "순례자들을 위해 우리가 무엇을 할 수 있는지 봅시다." # 16755361025251667878
-  RICE_galicia_saint_james_routes_decision_context_tooltip: "#emphasis 역사적 배경:#! 산티아고 데 콤포스텔라는 중세 서유럽에서 예루살렘과 로마 다음으로 중요한 순례지였습니다. 여행은 질병, 강도, 심지어 죽음까지 순례자들에게 끊임없는 위협이 되는 등 매우 위험했기 때문에, 성 야고보의 길로 알려진 산티아고로 향하는 다양한 경로들은 이베리아 반도를 가로지르는 순례자들에게 절실히 필요한 안전과 편안함을 제공하기 위해 도로, 숙소 등으로 이루어진 네트워크의 지원을 받았습니다." # 17312984245204405437
-  RICE_galicia_saint_james_routes_decision_tt: "[GetGeographicalRegion('world_europe_west_iberia').GetName]와 [GetGeographicalRegion('custom_occitan').GetName]에 소유하고 있는 [counties|E]" # 7662817142673633918
-  RICE_galicia_saint_james_routes_decision_non_christian_tt: "[GetGeographicalRegion('world_europe_west_iberia').GetName]와 [GetGeographicalRegion('custom_occitan').GetName]에 소유한 기독교 [counties|E]" # 385840461758238630
-  RICE_galicia_saint_james_routes_decision_counties.close: "산티아고 데 콤포스텔라와 가깝거나 그곳을 포함하는" # 624722931881664448
-  RICE_galicia_saint_james_routes_decision_counties.close.tooltip: "#V 10#년 동안 [GetModifier('RICE_galicia_saint_james_infrastructure_close').GetNameWithTooltip] 획득" # 6159881690412532986
-  RICE_galicia_saint_james_routes_decision_counties.midrange.high: "산티아고에서 적당한 거리에 있으며 [control|E]가 높은 곳들입니다." # 9305799223587867959
-  RICE_galicia_saint_james_routes_decision_counties.midrange.high.tooltip: "#V 10#!년 동안 [GetModifier('RICE_galicia_saint_james_infrastructure_midrange_high').GetNameWithTooltip]을 획득합니다." # 3792052504113287091
+  RICE_galicia_saint_james_routes_decision_context_tooltip: "#emphasis 역사적 배경:#! 산티아고 데 콤포스텔라는 중세 서유럽에서 예루살렘과 로마 다음으로 중요한 순례지였습니다. 질병, 강도, 심지어 죽음까지 순례자들에게 끊임없는 위협이 되는 등 여정이 상당히 위험했기 때문에, 성 야고보의 길(Way of Saint James)로 알려진 산티아고로 향하는 다양한 길들은 순례자들이 이베리아 반도를 횡단하는 동안 절실히 필요한 안전과 편안함을 제공하기 위해 도로, 숙소 등의 네트워크 지원을 받았습니다." # 8961629028856720258
+  RICE_galicia_saint_james_routes_decision_tt: "귀하가 소유한 [GetGeographicalRegion('world_europe_west_iberia').GetName] 및 [GetGeographicalRegion('custom_occitan').GetName] 내의 [counties|E]" # 15190855908942861050
+  RICE_galicia_saint_james_routes_decision_non_christian_tt: "귀하가 소유한 [GetGeographicalRegion('world_europe_west_iberia').GetName] 및 [GetGeographicalRegion('custom_occitan').GetName] 내의 기독교 [counties|E]" # 1696856639652692079
+  RICE_galicia_saint_james_routes_decision_counties.close: "산티아고 데 콤포스텔라와 가깝거나 그곳을 포함하는" # 343989902803630406
+  RICE_galicia_saint_james_routes_decision_counties.close.tooltip: "#V 10#!년 동안 [GetModifier('RICE_galicia_saint_james_infrastructure_close').GetNameWithTooltip]을 획득합니\"" # 2173679500575148751
+  RICE_galicia_saint_james_routes_decision_counties.midrange.high: "[control|E] 수치가 높은 산티아고에서 적당한 거리에 떨어져 있습니다." # 17040732918598584533
+  RICE_galicia_saint_james_routes_decision_counties.midrange.high.tooltip: "#V 10#!년 동안 [GetModifier('RICE_galicia_saint_james_infrastructure_midrange_high').GetNameWithTooltip]을 획득합니\"" # 5590579164183175990
   RICE_galicia_saint_james_routes_decision_counties.midrange.low: "산티아고에서 적당한 거리에 있으며 [control|E]가 낮은 곳들입니다." # 4494748274426200781
-  RICE_galicia_saint_james_routes_decision_counties.midrange.low.tooltip: "#V 10#년 동안 [GetModifier('RICE_galicia_saint_james_infrastructure_distant_high').GetNameWithTooltip]을 획득합니다!" # 7835749051071597628
-  RICE_galicia_saint_james_routes_decision_counties.distant.high: "그곳은 산티아고에서 멀리 떨어져 있으며 높은 [control|E]를 가지고 있습니다." # 17174941412456112611
-  RICE_galicia_saint_james_routes_decision_counties.distant.high.tooltip: "#V 10#년 동안 [GetModifier('RICE_galicia_saint_james_infrastructure_midrange_low').GetNameWithTooltip] 획득" # 4929964695870677725
+  RICE_galicia_saint_james_routes_decision_counties.midrange.low.tooltip: "#V 10#!년 동안 [GetModifier('RICE_galicia_saint_james_infrastructure_distant_high').GetNameWithTooltip] 획\"" # 896018800634121947
+  RICE_galicia_saint_james_routes_decision_counties.distant.high: "산티아고에서 멀리 떨어진 곳에 있으며 [control|E] 수치가 높은 곳이로군\"" # 13544456751424416571
+  RICE_galicia_saint_james_routes_decision_counties.distant.high.tooltip: "#V 10#년 동안 [GetModifier('RICE_galicia_saint_james_infrastructure_midrange_low').GetNameWithTooltip] 획득" # 18066837456074878083
   RICE_galicia_saint_james_routes_decision_counties.distant.low: "산티아고에서 멀리 떨어져 있으며 [control|E]가 낮은 곳입니다." # 18018427286087424025
-  RICE_galicia_saint_james_routes_decision_counties.distant.low.tooltip: "#V 10#년 동안 [GetModifier('RICE_galicia_saint_james_infrastructure_distant_low').GetNameWithTooltip] 획득" # 8932694973666070873
+  RICE_galicia_saint_james_routes_decision_counties.distant.low.tooltip: "#V 10#!년 동안 [GetModifier('RICE_galicia_saint_james_infrastructure_distant_low').GetNameWithTooltip] 효과를 얻습니\"" # 1822204300547803925
   RICE_galicia_saint_james_levy_extra_tolls: "산티아고 순례자들에게 추가 통행료 징수" # 1740612431118358307
   RICE_galicia_saint_james_levy_extra_tolls_tooltip: "순례자들이 이렇게 많다니... 벌어들일 돈이 산더미로구나!" # 5639123533482112326
   RICE_galicia_saint_james_levy_extra_tolls_desc: "산티아고의 성 야고보 순례길이 내 영토를 통과하는군. 이는 수많은 순례자들이 산티아고로 가는 길에 내 영토를 지나간다는 뜻이지. [ROOT.Char.GetFaith.GetReligion.GetAdjective] 권위자들이 이 순례자들에게 추가 통행료를 징수하는 것에 대해 불만을 표할 수도 있겠지만, 나는 그저 순례자들에게 나를 도와 그들을 보호할 자금을 '기부'해 달라고 요청하는 것뿐이다." # 8979083251855506502
@@ -535,16 +535,16 @@
   RICE_galicia_saint_james_levy_extra_tolls_effect_tooltip_4: "[iberian_struggle|E]가 현재 [struggle_phase_iberia_conciliation|E] 단계에 있거나, #bold $struggle_iberia_ending_conciliation_decision$#! [decision|E]을 통해 종료되었기 때문에, [christian.GetAdjective] 신앙이 아닌 [ruler|E]인 귀하가 이 [decision|E]을 사용할 경우 더 많은 [prestige|E]가 소모됩니다." # 17281423936555483766
   RICE_galicia_saint_james_levy_extra_tolls_confirm: "순례자들이 이해할 것이라 확신합니다." # 13670764176393200987
   RICE_galicia_saint_james_levy_extra_tolls_context_tooltip: "#emphasis 역사적 배경:#! 중세 시대에 현지인들은 평민과 귀족을 막론하고 성 야고보의 길을 따라 여행하는 수많은 순례자들을 잠재적인 수입원으로 여겼습니다. 예를 들어, 성 야고보의 길 순례자들을 위한 일종의 여행 안내서였던 12세기 #italic 칼릭스투스 전례서#!는 아라곤 왕과 같이 통행료를 부과하는 통치자들을 비판합니다." # 11210346654579234498
-  RICE_galicia_saint_james_levy_extra_tolls_tt: "[GetGeographicalRegion('world_europe_west_iberia').GetName]와 [GetGeographicalRegion('custom_occitan').GetName]에 소유하고 있는 [counties|E]" # 7662817142673633918
-  RICE_galicia_saint_james_levy_extra_tolls_non_christian_tt: "[GetGeographicalRegion('world_europe_west_iberia').GetName]와 [GetGeographicalRegion('custom_occitan').GetName]에 소유한 기독교 [counties|E]" # 385840461758238630
-  RICE_galicia_saint_james_levy_extra_tolls_counties.close: "산티아고 데 콤포스텔라와 가깝거나 그곳을 포함하는" # 624722931881664448
-  RICE_galicia_saint_james_levy_extra_tolls_counties.close.tooltip: "#V 10#!년 동안 [GetModifier('RICE_galicia_saint_james_tolls_close').GetNameWithTooltip] 획득" # 11311062360013531114
-  RICE_galicia_saint_james_levy_extra_tolls_counties.midrange.high: "산티아고에서 적당한 거리에 있으며 [control|E]가 높은 곳들입니다." # 9305799223587867959
-  RICE_galicia_saint_james_levy_extra_tolls_counties.midrange.high.tooltip: "#V 10#! 년 동안 [GetModifier('RICE_galicia_saint_james_tolls_midrange_high').GetNameWithTooltip] 획득" # 17330097966783394692
+  RICE_galicia_saint_james_levy_extra_tolls_tt: "귀하가 소유한 [GetGeographicalRegion('world_europe_west_iberia').GetName] 및 [GetGeographicalRegion('custom_occitan').GetName] 내의 [counties|E]" # 15190855908942861050
+  RICE_galicia_saint_james_levy_extra_tolls_non_christian_tt: "귀하가 소유한 [GetGeographicalRegion('world_europe_west_iberia').GetName] 및 [GetGeographicalRegion('custom_occitan').GetName] 내의 기독교 [counties|E]" # 1696856639652692079
+  RICE_galicia_saint_james_levy_extra_tolls_counties.close: "산티아고 데 콤포스텔라와 가깝거나 그곳을 포함하는" # 343989902803630406
+  RICE_galicia_saint_james_levy_extra_tolls_counties.close.tooltip: "#V 10#!년 동안 [GetModifier('RICE_galicia_saint_james_tolls_close').GetNameWithTooltip]을(를) 획득합니\"" # 13231669220641861300
+  RICE_galicia_saint_james_levy_extra_tolls_counties.midrange.high: "[control|E] 수치가 높은 산티아고에서 적당한 거리에 떨어져 있습니다." # 17040732918598584533
+  RICE_galicia_saint_james_levy_extra_tolls_counties.midrange.high.tooltip: "#V 10#!년 동안 [GetModifier('RICE_galicia_saint_james_tolls_midrange_high').GetNameWithTooltip] 획득" # 3674610776372375017
   RICE_galicia_saint_james_levy_extra_tolls_counties.midrange.low: "산티아고에서 적당한 거리에 있으며 [control|E]가 낮은 곳들입니다." # 4494748274426200781
-  RICE_galicia_saint_james_levy_extra_tolls_counties.midrange.low.tooltip: "#V 10#!년 동안 [GetModifier('RICE_galicia_saint_james_tolls_distant_high').GetNameWithTooltip] 획득" # 9319317264200091078
-  RICE_galicia_saint_james_levy_extra_tolls_counties.distant.high: "그곳은 산티아고에서 멀리 떨어져 있으며 높은 [control|E]를 가지고 있습니다." # 17174941412456112611
-  RICE_galicia_saint_james_levy_extra_tolls_counties.distant.high.tooltip: "#V 10#!년 동안 [GetModifier('RICE_galicia_saint_james_tolls_midrange_low').GetNameWithTooltip] 획득" # 17022593118478083588
+  RICE_galicia_saint_james_levy_extra_tolls_counties.midrange.low.tooltip: "#V 10#!년 동안 [GetModifier('RICE_galicia_saint_james_tolls_distant_high').GetNameWithTooltip] 획득" # 12403634423339679523
+  RICE_galicia_saint_james_levy_extra_tolls_counties.distant.high: "산티아고에서 멀리 떨어진 곳에 있으며 [control|E] 수치가 높은 곳이로군\"" # 13544456751424416571
+  RICE_galicia_saint_james_levy_extra_tolls_counties.distant.high.tooltip: "#V 10#!년 동안 [GetModifier('RICE_galicia_saint_james_tolls_midrange_low').GetNameWithTooltip] 획\"" # 5219330973951993151
   RICE_galicia_saint_james_levy_extra_tolls_counties.distant.low: "산티아고에서 멀리 떨어져 있으며 [control|E]가 낮은 곳입니다." # 18018427286087424025
   RICE_galicia_saint_james_levy_extra_tolls_counties.distant.low.tooltip: "#V 10#!년 동안 [GetModifier('RICE_galicia_saint_james_tolls_distant_low').GetNameWithTooltip] 획득" # 3029067991456457681
   RICE_galicia_alter_saint_james_tomb: "산티아고 성소를 변경" # 8788759451037189772
@@ -554,15 +554,15 @@
   RICE_galicia_alter_saint_james_tomb_effect_tooltip_2: "$RICE_galicia_saint_james_routes_decision$ 및 $RICE_galicia_saint_james_levy_extra_tolls$ [decisions|E]는 더 나은 보상을 제공하고 재사용 대기시간이 더 짧을 것입니다." # 3474441800458311617
   RICE_galicia_alter_saint_james_tomb_effect_tooltip_3: "대다수의 지역 주민들과 하급 성직자들은 제안된 변경 사항에 불만을 품겠지만, 분명 시간이 지나면 마음을 바꿀 것입니다." # 5916092622226812799
   RICE_galicia_alter_saint_james_tomb_confirm: "산티아고 제단이 훨씬 더 좋아질 것입니다!" # 18085367801482347752
-  RICE_galicia_alter_saint_james_tomb_context_tooltip: "#emphasis 역사적 배경:#! 산티아고는 12세기 첫 대주교였던 디에고 젤미레스(Diego Gelmírez, c. 1069-1140) 덕분에 성지로 그 중요성이 커졌습니다. 그는 다른 업적들 중에서도 교회 권위를 중앙집권화하고, 산티아고 순례를 장려했으며, 가장 논란이 많았던 것은 성 야고보의 무덤 주변 공간을 변경한 것입니다. 그는 성 야고보의 제자들이 세웠다고 전해지던 옛 성소를 파괴하고, 지역 주민들의 선호와 전통을 희생시키면서까지 외국인 순례자들의 필요와 욕구에 맞춘 더 웅장한 설계로 교체했습니다." # 11947953683540810730
+  RICE_galicia_alter_saint_james_tomb_context_tooltip: "#emphasis 역사적 배경:#! 산티아고는 12세기 들어 초대 대주교 디에고 헬미레스(Diego Gelmírez, c. 1069-1140) 덕분에 성지로 그 중요성이 커졌습니다. 그는 다른 여러 업적 중에서도 교회 권위를 중앙집권화하고, 산티아고 순례를 장려했으며, 가장 논란이 되었던 것은 성 야고보의 무덤이 있던 공간을 개조한 것입니다. 그는 사도들이 세웠다고 전해지던 옛 성소를 파괴하고, 현지 주민들의 선호와 전통을 희생시키면서 외국 순례자들의 필요와 욕구에 맞춘 더 웅장한 설계로 대체했습니다." # 10957894970537885438
   RICE_galicia_unearth_saint_james_tomb: "성 야고보의 무덤을 발굴하십시오" # 5553956799771715691
   RICE_galicia_unearth_saint_james_tomb_tooltip: "성 야고보가 이곳에 묻혔다는 소문이 있소... 하지만 사실일까?" # 11491969265184885599
   RICE_galicia_unearth_saint_james_tomb_desc: "[GetGeographicalRegion('world_europe_west_iberia').GetName]의 현지 전설에 따르면, 성 야고보 사도가 수 세기 전에 복음을 전파하기 위해 그곳으로 여행했다고 합니다. 소문에 따르면 그가 순교한 후, 그곳 반도의 북서쪽, 즉 내가 다스리는 영토에 묻혔다고 합니다... 만약 사실이라면, 그의 무덤을 찾아보는 것이 내 의무일 것입니다." # 15974896560078883718
   RICE_galicia_unearth_saint_james_tomb_effect_tooltip_1: "[GetGeographicalRegion('RICE_galicia_region').GetName] 내의 모든 [THIS.Char.GetFaith.GetReligion.GetAdjective] [rulers|E]가 다른 요구 사항을 충족하는 경우, 해당 [rulers|E]에게 $RICE_galicia_pray_to_santiago$ [decision|E]를 해금합니다." # 2708185860034266822
   RICE_galicia_unearth_saint_james_tomb_effect_tooltip_2: "$RICE_galicia_saint_james_routes_decision$ 및 $RICE_galicia_saint_james_levy_extra_tolls$ [decisions|E]가 [GetGeographicalRegion('world_europe_west_iberia').GetName]와 [GetGeographicalRegion('custom_occitan').GetName] 내 모든 [rulers|E]에게 해금됩니다." # 8970257389523126096
   RICE_galicia_unearth_saint_james_tomb_confirm: "이 이야기들이 사실인지 조사해야 합니다." # 6545624600334498714
-  RICE_galicia_unearth_saint_james_tomb_context_tooltip: "#emphasis 역사적 배경:#! 산티아고에 있는 성 야고보의 무덤이라고 알려진 곳은 820년대 또는 830년대에 펠라요(Pelayo)라는 은둔자 또는 수도승에 의해 발견되었습니다. 언덕 위에서 여러 기적적인 빛을 목격한 그는 이 사실을 지역 주교인 테오도미르(Theodomir)에게 알렸습니다. 이후 조사가 진행되었고, 그 장소가 성 야고보가 묻힌 곳이라는 사실이 밝혀졌습니다. 아스투리아스의 알폰소 2세 왕은 그 자리에 예배당을 세웠고, 유명한 산티아고 순례길이 탄생하게 되었습니다." # 3447161534048853802
-  RICE_galicia_unearth_saint_james_tomb_date_req: "서기는 500년 이후입니다." # 3117834173210784948
+  RICE_galicia_unearth_saint_james_tomb_context_tooltip: "#emphasis 역사적 배경:#! 산티아고에 있는 성 야고보의 무덤으로 알려진 곳은 820년대 또는 830년대에 펠라요(Pelayo)라는 은둔자 또는 수도사가 발견했습니다. 언덕에서 여러 기적적인 빛을 목격한 그는 이 사실을 지역 주교인 테오도미르에게 알렸습니다. 이후 조사에서 그 장소가 성 야고보가 묻힌 곳이라는 것이 밝혀졌습니다. 이후 아스투리아스의 알폰소 2세 국왕이 그 자리에 예배당을 세웠고, 유명한 산티아고 순례길이 탄생하게 되었습니다." # 3110431522605038026
+  RICE_galicia_unearth_saint_james_tomb_date_req: "서기는 500년 이후입니다" # 14149561616127189837
   RICE_galicia_pray_to_santiago: "산티아고의 중재를 기원하십시오" # 7982548790356061982
   RICE_galicia_pray_to_santiago_tooltip: "#bold 성 야고보 대왕#께서 이 곤경의 시기에 우리를 인도하시기를." # 878760458477440324
   RICE_galicia_pray_to_santiago_desc: "예수 그리스도의 사도이자 [GetGeographicalRegion('world_europe_west_iberia').GetName]의 수호성인이신 성 야고보 대(大)께서 이 곤경 속에서 우리를 인도하시기를 기원합니다. 그분의 중보를 간절히 기도하여 나의 영토와 가문, 그리고 [GetGeographicalRegion('world_europe_west_iberia').GetName]의 [ROOT.Char.GetFaith.GetReligion.GetAdjective] 공동체가 어떤 위협도 이겨내고 번성할 수 있도록 해야겠습니다." # 9114887164848876244
@@ -580,8 +580,8 @@
   RICE_galicia_promote_cantiga_effect_tooltip_4: "귀하는 [cantiga|E] 장르에 따라 [piety|E]와 [prestige|E]를 얻게 될 것이며, [THIS.Char.GetCulture.GetName] [culture|E]가 $tradition_RICE_galician_portuguese_poetry_name$ [tradition|E]를 가지고 있으므로 일반적인 경우보다 더 많이 얻게 될 것입니다." # 6411829333405681682
   RICE_galicia_promote_cantiga_confirm: "시작해보지!" # 15133219792306298060
   RICE_galicia_promote_cantiga_context_tooltip: "#emphasis 역사적 배경:#! $RICE_galicia_cantiga_decision_context_tooltip$" # 6308033953059305483
-  RICE_galicia_recently_composed_excellent_cantiga_req: "최근 귀하는 #V 훌륭하군#! [cantiga_quality|E]의 [cantiga|E]를 작곡했습니다." # 2919450283706823449
-  RICE_galicia_not_recently_composed_excellent_cantiga_req: "최근에 [cantiga|E]를 작곡하지 않았습니다." # 14229305567910483896
+  RICE_galicia_recently_composed_excellent_cantiga_req: "귀하는 최근 #V 훌륭하군#! [cantiga_quality|E]의 [cantiga|E]를 작곡했습니다." # 2283614171531921211
+  RICE_galicia_not_recently_composed_excellent_cantiga_req: "최근에 [cantiga|E]를 작곡하지 않으셨습니다." # 9740920762223212700
   RICE_galicia_compile_CSM_decision: "산타 마리아의 칸티가 모음집을 편찬하라" # 2030953823404950811
   RICE_galicia_compile_CSM_decision_tooltip: "성모 마리아께 영광을!" # 14578758393954878725
   RICE_galicia_compile_CSM_decision_desc: "저는 [ROOT.Char.MakeScope.Var('RICE_num_of_cantigas_written').GetValue]개의 주목할 만한 [cantigas|E]를 작곡했지만, 하찮고 세속적인 일에 대한 노래만 작곡하는 것 이상을 열망합니다. #V Cantigas de Santa Maria#!라고 불리는, 성모 마리아에 관한 방대한 서정시 모음집을 편찬하기 위해 제 영지의 시인들을 모아야 할 것입니다. 저는 [ROOT.Char.GetFaith.GetReligion.GetAdjective] [ROOT.Char.GetTitleAsNameNoTooltip]로서 말입니다." # 17830140460049167418
@@ -724,7 +724,7 @@
   galicia.0028.a: "xxxxx" # 1951045980481827005
   galicia.0029.t: "xxxxx" # 1951045980481827005
   galicia.0029.desc: "xxxxx" # 1951045980481827005
-  galicia.0029.a: "xxxxx" # 1951045980481827005
+  galicia.0029.a: "xxxx\"" # 15308465615999842627
   galicia.0030.t: "칸티가 작곡하기" # 6201013936159852205
   galicia.0030.desc.intro: "저는 창의적인 기분이 들어, 갈리시아-포르투갈어 계열 이베리아 로망스어로 된 음악과 서정시가 혼합된 흥미진진한 #italic 칸티가#를 작곡할 시간을 따로 마련했습니다! 결국 이는 저와 같은 교양 있는 귀족들의 소일거리이니까요." # 6352023215520472772
   galicia.0030.desc.courtly_love: "\n\n저는 #italic 사랑의 칸티가# 장르의 칸티가를 쓰고 싶습니다. 그리하여 궁정 연애의 경이로움, 기쁨, 슬픔에 집중하고자 합니다. 순수한 사랑과 욕망으로 영웅적이고 덕망 있는 이들이 위대한 업적을 이루도록 고무하는 이 형식보다 더 고귀한 것이 있겠습니까?" # 3070462673750620655

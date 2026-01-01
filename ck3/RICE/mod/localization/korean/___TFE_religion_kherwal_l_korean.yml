@@ -33,7 +33,7 @@
   sarnaism_religious_text_3: "$sarnaism_religious_symbol$" # 13118165804145494950
   sarnaism_priest_male: "파간" # 9007978800556840004
   sarnaism_priest_male_plural: "파간스" # 6835861425382825168
-  sarnaism_priest_female: "응가무록" # 12027132404242901556
+  sarnaism_priest_female: "응가무\"" # 6819254044033252483
   sarnaism_priest_female_plural: "응가무록스" # 11585048519176089952
   sarnaism_priest_term_plural: "응이무오르크스" # 9397647452709722398
   sarnaism_priest_alternate: "파간" # 9007978800556840004
@@ -44,5 +44,5 @@
   sarnaism_bishop_male_plural: "위대한 파간들" # 8237246564106628315
   sarnaism_bishop_female: "위대한 응가무록이여" # 5110474297578584442
   sarnaism_bishop_female_plural: "위대한 응가무로크스여" # 2464149318087464489
-  sarnaism_bishop_neuter: "위대한 파간" # 5941109582910897459
+  sarnaism_bishop_neuter: "위대한 파\"" # 1949910632503648714
   sarnaism_bishop_neuter_plural: "위대한 파간들" # 8237246564106628315

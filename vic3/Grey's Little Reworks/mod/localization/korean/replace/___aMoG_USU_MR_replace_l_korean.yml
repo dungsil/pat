@@ -1,0 +1,15 @@
+﻿l_korean:
+  mr_airport_can_construct_tt: "한 주가 수용할 수 있는 [Concept('concept_curtiss_airport','$concept_curtiss_airports$')]의 최대 단계는 1에 [GetBuildingType('building_urban_center').GetName] #G 10단계#!마다 1을 더한 값과 같습니다." # 329801687730443117
+  pmg_tourism_airport: "수입 및 관광" # 5249987141720938415
+  pmg_mendelejew_automation_oil: "자동화" # 18411738171978629847
+  pmg_mendelejew_automation_rubber: "자동화" # 18411738171978629847
+  pm_luxury_requisitions: "사치품 징발" # 8301029408239943095
+  pm_travel_agencies: "여행사" # 10647556820771392491
+  pm_mendelejew_automation_disabled: "수동 작업" # 11780777237721171121
+  pm_pneumatic_transfer_system: "기압식 전송 시스템" # 1569837934615774035
+  pm_continuous_process_systems_hydrogenation: "연속 수소화#결과물 끝#" # 6135044482962608546
+  pm_continuous_process_systems_polymerisation: "연속 중합" # 14060451159533587892
+  building_mendelejew_hydrogenation_plants_throughput_add: "$building_mendelejew_hydrogenation_plants$ 건물 [concept_throughput]" # 3184945903931298346
+  building_mendelejew_hydrogenation_plants_throughput_add_desc: "$building_mendelejew_hydrogenation_plants$의 투입물 및 산출물 모두에 대한 보너스 또는 패널티" # 5425896054374952733
+  building_mendelejew_synthetic_rubber_factory_throughput_add: "$building_mendelejew_synthetic_rubber_factory$ 건물 [concept_throughput]" # 6710941170098460058
+  building_mendelejew_synthetic_rubber_factory_throughput_add_desc: "$building_mendelejew_synthetic_rubber_factory$의 투입물과 산출물 모두에 적용되는 보너스 또는 패널티입니다." # 13201224793040407666

@@ -25,7 +25,7 @@
   namkha_pel: "남카 펠" # 14053586131082905713
   RICE_mani_stones_option: "마니석" # 11907637984357386716
   RICE_mani_stones_option_desc: "여행하는 동안, 당신은 도로, 강, 성벽, 돌무더기 및 기타 신성한 장소 옆에 [Glossary( 'mani stones', 'MANI_STONE_GLOSS' )]를 세울 수 있도록 최선을 다해야 합니다." # 14880403729684082188
-  dpal_dus_sgra: "드빨 두스 스그라" # 14185744153582252125
+  dpal_dus_sgra: "달파 두스 그라" # 18112432298681177743
   RICE_dynn_hrugs_wer: "흐루그스" # 17852809078297172361
   RICE_dynn_mang_wer: "망" # 681553021534334856
   chakchang_lhadok: "착창 라독" # 446487706629185643
@@ -253,7 +253,7 @@
   activity_RICE_glacier_marriage_desc: "'남성 빙하'와 '여성 빙하'의 조각들을 의례적인 행사, 즉 일종의 결혼식을 통해 결합함으로써 산에 새로운 빙하를 접목시켜 아래 계곡과 언덕에 추가적인 관개원을 만들 수 있습니다." # 12172478194699058645
   activity_RICE_glacier_marriage_selection_tooltip: "지역 주민들의 빙하 결혼식을 돕습니다.\n\n$activity_RICE_glacier_marriage_context_tooltip$" # 6781618440341595628
   activity_RICE_glacier_marriage_context_tooltip: "#emphasis 역사적 배경:#! 힌두쿠시와 서부 히말라야 산맥에는 빙하를 관개 목적으로 '성장'시키는 전통이 있는데, 이는 회색빛이거나 흙먼지로 인해 갈색을 띠는 수컷 빙하와 순수한 색을 가진 암컷 빙하 사이의 소위 '빙하 결혼식'이라는 의례화된 과정을 통해 이루어집니다. 전설에 따르면, 성직자들이 중세 시대에 몽골인, 티베트인, 혹은 카슈가르 통치자라고 일컬어지는 침략자들로부터 지역 주민들을 보호하기 위한 자연 방벽을 만들기 위해 이 방법을 현지인들에게 가르쳤다고 합니다." # 8669462437439229245
-  activity_RICE_glacier_marriage_host_desc: "$BULLET_WITH_TAB$ [prestige_i|E][prestige|E]\n$BULLET_WITH_TAB$ [piety_i|E][piety|E]\n$BULLET_WITH_TAB$ [county|E]에서 열리는 [activity|E]는 #P 이로운#! [county_modifier|E|E]를 얻어 [development_i|E] [development|E]와 [gold_i|E] [taxes|E]가 증가합니다." # 15738424840432029997
+  activity_RICE_glacier_marriage_host_desc: "$BULLET_WITH_TAB$ [prestige_i|E][prestige|E]\n$BULLET_WITH_TAB$ [piety_i|E][piety|E]\n$BULLET_WITH_TAB$ [county|E]에서 진행되는 [activity|E]는 #P 유익한#! [county_modifier|E|E]를 얻어 [development_i|E] [development|E]와 [gold_i|E] [taxes|E]가 증가합니다." # 6546588556359251339
   activity_RICE_glacier_marriage_guest_desc: "$activity_RICE_glacier_marriage_host_desc$" # 6398353649918391545
   activity_RICE_glacier_marriage_destination_selection: "$activity_RICE_glacier_marriage_province_desc$" # 1787673961539814725
   activity_RICE_glacier_marriage_guest_help_text: "$activity_RICE_glacier_marriage$" # 12609155805049353067
@@ -280,7 +280,7 @@
   activity_RICE_zhangzhung_kinnaur_flower_festival_desc: "가을이 오면서 꽃의 축제인 풀라이치(Fulaich)가 시작될 징조가 보입니다. 사람들은 만개한 가장 아름다운 야생화를 채집하기 위해 고지대로 가서 지역 신들에게 바치며, 최근에 세상을 떠난 이들을 기리고 신탁에게 미래를 점쳐달라고 기원합니다." # 5879350083614053189
   activity_RICE_zhangzhung_kinnaur_flower_festival_selection_tooltip: "지역 풀라이치 축제에 참가합니다.\n\n$activity_RICE_zhangzhung_kinnaur_flower_festival_context_tooltip$" # 15728243262298937212
   activity_RICE_zhangzhung_kinnaur_flower_festival_context_tooltip: "#emphasis 역사적 배경:#! #italic 풀라이치#! 축제 또는 꽃 축제는 현재 인도 히마찰프라데시 주에 위치한 [GetTitleByKey('d_kinnaur').GetNameNoTier] 계곡의 전통적인 축제입니다. 이 축제는 산의 꽃들을 모아 이 지역의 계곡, 산, 숲에 거주하는 지역 신들에게 바치는 것을 중심으로 이루어집니다. 또한 세상을 떠난 가족 구성원에게 경의를 표하고 지역 신탁가들에게 미래에 대한 예언을 구하는 기회이기도 합니다." # 5916743164051425117
-  activity_RICE_zhangzhung_kinnaur_flower_festival_host_desc: "$BULLET_WITH_TAB$ [prestige_i|E][prestige|E]\n$BULLET_WITH_TAB$ [piety_i|E][piety|E]\n$BULLET_WITH_TAB$스트레스 [stress_loss_i|E][stress|E] 감소\n$BULLET_WITH_TAB$점괘 결과에 따라 본인에게 #P 이로운# [character_modifiers|E] 또는 [activity|E]가 열리는 [county|E]에 [county_modifiers|E]를 얻을 확률\n$BULLET_WITH_TAB$지정된 가문 구성원은 #bold 꽃 수집가#!가 되어 추가 보너스를 얻을 수 있습니다." # 843132060803960133
+  activity_RICE_zhangzhung_kinnaur_flower_festival_host_desc: "$BULLET_WITH_TAB$ [prestige_i|E][prestige|E]\n$BULLET_WITH_TAB$ [piety_i|E][piety|E]\n$BULLET_WITH_TAB$ [stress_loss_i|E][stress|E] 상실\n$BULLET_WITH_TAB$점괘 결과에 따라 자신에게 #P 이로운#! [character_modifiers|E] 또는 [activity|E]가 열리는 [county|E]에 [county_modifiers|E]를 얻을 확률\n$BULLET_WITH_TAB$ #bold 꽃 수집가#!로 지정된 가문 구성원이 추가적인 보너스를 얻을 수 있\"" # 6889542187852431856
   activity_RICE_zhangzhung_kinnaur_flower_festival_guest_desc: "$activity_RICE_zhangzhung_kinnaur_flower_festival_host_desc$" # 14733203611542512989
   activity_RICE_zhangzhung_kinnaur_flower_festival_province_mountains_desc: "#P ++ 이곳의 산들은 아름다운 초원을 품고 있소.#!\n\n#italic 이 [activity|E]가 끝나면 [prestige_i|E] [prestige|E]와 [piety_i|E] [piety|E]가 증가할 것이오.!#" # 4398256133566090641
   activity_RICE_zhangzhung_kinnaur_flower_festival_destination_selection: "$activity_RICE_zhangzhung_kinnaur_flower_festival_province_desc$" # 7083534061307028415
@@ -740,7 +740,7 @@
   zhangzhung.0028.a: "xxxxx" # 1951045980481827005
   zhangzhung.0029.t: "xxxxx" # 1951045980481827005
   zhangzhung.0029.desc: "xxxxx" # 1951045980481827005
-  zhangzhung.0029.a: "xxxxx" # 1951045980481827005
+  zhangzhung.0029.a: "xxxx\"" # 15308465615999842627
   zhangzhung.0030.t: "xxxxx" # 1951045980481827005
   zhangzhung.0030.desc: "xxxxx" # 1951045980481827005
   zhangzhung.0030.a: "xxxxx" # 1951045980481827005
@@ -1096,7 +1096,7 @@
   zhangzhung.0128.a: "xxxxx" # 1951045980481827005
   zhangzhung.0129.t: "xxxxx" # 1951045980481827005
   zhangzhung.0129.desc: "xxxxx" # 1951045980481827005
-  zhangzhung.0129.a: "xxxxx" # 1951045980481827005
+  zhangzhung.0129.a: "xxxx\"" # 15308465615999842627
   zhangzhung.0130.t: "[rinchen_zangpo.GetDynasty.GetNameNoTooltip] 일족" # 966234489030159454
   zhangzhung.0130.desc: "[rinchen_zangpo.GetDynasty.GetName] 가문은 자랑할 것이 많습니다. 우리는 이 고원 지대에서 [GetTitleByKey('k_guge').GetNameNoTier] 전역에 걸쳐 광범위한 [GetReligionByKey('buddhism_religion').GetName] 후원 덕분에 저명합니다.\n\n실제로 [rinchen_zangpo.GetDynasty.GetNameNoTooltip] 가문의 일부인 [rinchen_zangpo.GetHouse.GetName] 가문의 일원은 바로 [rinchen_zangpo.GetFirstNameNicknamed]이며, 많은 이들이 그를 최근 시대 가장 위대한 [rinchen_zangpo.GetCulture.GetHeritage.GetName] [GetReligionByKey('buddhism_religion').GetAdjective] 사상가 중 한 명으로 여기고 있습니다. [rinchen_zangpo.GetHerHis|U] 명성은 [GetGeographicalRegion('world_tibet').GetName]에 [GetReligionByKey('buddhism_religion').GetAdjective] 가르침을 전파하고 수도원을 건설한 공로로 온 땅에 퍼져나갔습니다.\n\n이리하여 우리는 이 지역에 세속적이면서도 영적인 이해관계를 걸고 있습니다. 우리가 이 땅에 대한 정치적, 종교적 영향력을 계속 행사할 것이라는 점은 의심의 여지가 없습니다." # 6173161876485261869
   zhangzhung.0130.a: "여기서 다르마—그리고 우리 가문—가 번성할 것입니다!" # 13572691578704221717

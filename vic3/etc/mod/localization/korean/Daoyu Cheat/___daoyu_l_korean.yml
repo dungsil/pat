@@ -12,7 +12,7 @@
   ddaoyu_diplomatic_actions_missing_desc: "#N \"$concept_diplomatic_actions$\" 이벤트 그룹이 정상적으로 사용 중일 때에는 클릭하지 마십시오.\n$daoyu_cheat$를 완전히 종료하고 다시 클릭하십시오.#" # 5696903797931328041
   daoyu_solve_lag: "저사양 컴퓨터를 위한 지연 시간 감소 방안" # 1614673870130838686
   daoyu_solve_lag_flavor: "#N 신중하게 주어라! 신중하게 주어라! 신중하게 주어라! 신중하게 주어라!#!" # 2892905187033313863
-  daoyu_culture_flavor: "대상 국가 선택 방식: \\\"정치 렌\" →\"법\" →\"대상 국\" 원하는\"국\"를 표시하십시오.\\\"'하나의 지구, 하나의 국가, 하나의 종교'는 문화와 종교를 선택할 수 있습니다\"" # 16540463501244723844
+  daoyu_culture_flavor: "대상 국가 선택 방식:\\\"정치 렌\" →\"칙\" →\"대상 국\" 에서 원하는 국가를 표시하십시오.\\\"하나의 지구, 하나의 국가, 하나의 종\"는 문화와 종교를 선택할 수 있습니다." # 9199494518397979624
   daoyu_all: "전체" # 9249909536216587996
   daoyu_remove_all: "$REMOVE_FROM_GOVERNMENT_SHORT$ $daoyu_all$" # 12726644160693058037
   daoyu_too_low_age: "나이가 너무 적음" # 17867698870488120232
@@ -227,7 +227,7 @@
   daoyu_each_culture_of_state: "각 주의 문화" # 14364987578208464514
   daoyu_create_primary_culture: "주요 문화 팝 생성" # 6747557633636114918
   daoyu_set_create_pops_parameters: "\"신규 인구 생\"으로 매개변수를 설정하십시오." # 16916109833762970345
-  daoyu_set_create_pops_parameters_flavor_1: "#N\"새로운 인구 생\"의 매개변수#!\n인구 규모:0" # 9758065354449747099
+  daoyu_set_create_pops_parameters_flavor_1: "#N\"새로운 인구 생\"의 매개변수" # 17637300371685091414
   daoyu_set_create_pops_parameters_flavor_2: "인구 문맹률:0" # 1993873899267350536
   daoyu_pops_type: "계층 유형" # 8691585467944663957
   daoyu_reselect: "다시 선택" # 21736069562013262
@@ -410,6 +410,7 @@
   daoyu_modify_target_country: "$daoyu_target_country_get_name$를 수정하시오" # 8858129730384119444
   daoyu_modify_our_country: "$daoyu_root_get_name$을 수정하십시오" # 15397031403087907328
   daoyu_laws_desc: "#R $daoyu_target_country_get_name$ 법률 수정#!\n$daoyu_laws_flavor$" # 4263369556140885203
+  daoyu_laws_flavor: "원하시는 법률을 찾지 못하셨다면, 관련 기술이 필요하거나 이미 시행 중인 법률과 충돌하는지 확인해 보십시오.\n$daoyu_target_country_desc$\n$daoyu_compatible_with_other_mod$" # 9764240173295462279
   daoyu_technology_desc: "#R $daoyu_target_country_get_name$#!\n$acquired_technology_notification_group$\n$daoyu_compatible_with_other_mod$" # 18297863527106096822
   daoyu_compatible_with_other_mod: "만약 귀하가 기술 및 법률을 수정하는 모드 제작자이며, 다오위 치트(Daoyu Cheat)와의 호환성을 원하신다면, 다오위 치트 폴더 내의 daoyu_tec_and_law를 검색하시고 그곳의 지침을 확인하십시오." # 3012637886438884221
   daoyu_create_character_flavor: "게임 업데이트 이후 캐릭터 생성 시 사령부를 선택할 수 없게 되면서, 장군 및 제독 생성 옵션이 일시적으로 차단되었습니다." # 14275383508760094408
@@ -455,7 +456,7 @@
   daoyu_fast_construction_off: "$REMOVE_FROM_GOVERNMENT_SHORT$ 신속한 건설" # 9402535860057187374
   daoyu_stop_construction_off: "$REMOVE_FROM_GOVERNMENT_SHORT$ 건설 중단" # 8958341432579736899
   daoyu_fast_construction_reason: "#R $country_max_weekly_construction_progress_add$#! 을 일요일까지 지속되도록 하십시오." # 15841728072827896463
-  daoyu_create_building_explanation: "사용 시 #N GAME PAUSED#!\n선택지 9개까지 지원합니다. 레벨 199까지 지원합니다.\n사용 시 건물 재건축이 삭제되므로, \"$pmg_automation$\"에서 \"#N $concept_unemployed$#\"를 활성화하지 마십시오." # 7626107502685116711
+  daoyu_create_building_explanation: "사용 시 #N GAME PAUSED#!\n최대 9개의 선택지를 지원합니다. 최대 레벨 199까지 지원합니다.\n사용 시 건물 재건축이 삭제되니, 활성화하지 마십시오." # 12206896490028213916
   daoyu_construction_queue_government_buildings: "$concept_construction_queue$ 내의 $concept_government_buildings$에만 적용됩니다.\n" # 4438702648423021542
   daoyu_expand_nationally_owned_building_under_construction: "$buildings_expand$ 100% $concept_nationally_owned$ 건설 중인 $concept_buildings$" # 8518382327001867306
   daoyu_expand_nationally_owned_building_under_construction_flavor: "\"지역 노동\" 소유지는\"국가 소\"로 간주될 것이며, 추가 레벨은\"지역 노동\" 레벨 + 1이 될 것입니다." # 10871494234911171391

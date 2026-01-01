@@ -44,7 +44,7 @@ pnpm test:coverage
 
 **테스트 커버리지:**
 - `scripts/utils/hashing.ts` - 해시 생성 함수
-- `scripts/utils/dictionary.ts` - 게임별 단어사전
+- `scripts/utils/dictionary.ts` - 단어사전 로더 (TOML 파일 읽기)
 - `scripts/parser/yaml.ts` - YAML 파서
 - `scripts/utils/translation-validator.ts` - 번역 검증 로직
 - `scripts/utils/delay.ts` - 지연 유틸리티
@@ -103,10 +103,10 @@ pnpm stellaris:retranslate
 
 ### 단어사전 관리
 
-Git 커밋에서 단어사전 변경사항을 추출하여 현재 단어사전에 추가할 수 있습니다:
+Git 커밋에서 한국어 번역 파일의 변경사항을 추출하여 TOML 단어사전에 추가할 수 있습니다:
 
 ```bash
-# 커밋 ID를 입력하면 해당 커밋의 dictionary.ts 변경사항을 추출하여 추가
+# 커밋 ID를 입력하면 해당 커밋의 *_l_korean.yml 변경사항을 추출하여 TOML 사전에 추가
 pnpm add-dict <commit-id>
 
 # 예시
@@ -114,15 +114,16 @@ pnpm add-dict abc123
 ```
 
 **기능:**
-- 커밋의 dictionary.ts 변경사항에서 추가된 항목만 추출
+- 커밋의 한국어 번역 파일(`*_l_korean.yml`)에서 추가된 항목만 추출
+- 영어 원문은 업스트림 파일에서 자동으로 매칭
 - CK3, Stellaris, VIC3 모든 게임 타입 지원
 - 자동 중복 검사로 기존 항목은 건너뜀
-- TypeScript 객체 표기법 자동 파싱
+- 해당 게임의 TOML 파일에 자동 저장 (예: `dictionaries/ck3-glossary.toml`)
 
 **사용 시나리오:**
-- 다른 브랜치나 과거 커밋에서 단어사전 항목을 가져올 때
-- 여러 커밋에 분산된 단어사전 변경사항을 통합할 때
-- 팀원이 작성한 단어사전 항목을 병합할 때
+- 다른 브랜치나 과거 커밋에서 검증된 번역을 단어사전으로 가져올 때
+- 여러 커밋에 분산된 번역을 단어사전으로 통합할 때
+- 팀원이 작성한 번역을 단어사전에 추가할 때
 
 ## 환경 변수 설정
 
@@ -147,10 +148,20 @@ GOOGLE_GENERATIVE_AI_API_KEY=your_api_key_here
 │   ├── factory/                 # 번역 처리 로직
 │   ├── parser/                  # 파일 파싱 유틸리티
 │   └── utils/
-│       ├── dictionary.ts        # 단어사전
+│       ├── dictionary.ts        # 단어사전 로더 (TOML 파일 읽기)
+│       ├── prompts.ts           # 프롬프트 로더
 │       ├── ai.ts                # AI 통합
 │       ├── cache.ts             # 캐싱 시스템
 │       └── logger.ts            # 로깅 유틸리티
+├── dictionaries/                # 단어사전 파일 (TOML 형식)
+│   ├── ck3-glossary.toml       # CK3 일반 용어
+│   ├── ck3-proper-nouns.toml   # CK3 고유명사
+│   ├── stellaris.toml          # Stellaris 사전
+│   └── vic3.toml               # VIC3 사전
+├── prompts/                     # AI 프롬프트 파일 (Markdown 형식)
+│   ├── ck3-translation.md      # CK3 번역 프롬프트
+│   ├── ck3-transliteration.md  # CK3 음역 프롬프트
+│   └── ...                     # 기타 게임 프롬프트
 └── package.json
 ```
 
@@ -167,7 +178,11 @@ GOOGLE_GENERATIVE_AI_API_KEY=your_api_key_here
 
 ### 음역 모드 (Transliteration Mode)
 
-파일명에 특정 키워드가 포함된 경우, 의미 번역이 아닌 발음 기반 음역을 수행합니다.
+파일명 또는 키 이름에 특정 패턴이 포함된 경우, 의미 번역이 아닌 발음 기반 음역을 수행합니다.
+
+#### 파일 단위 음역 모드
+
+파일명에 특정 키워드가 포함된 경우 전체 파일을 음역 모드로 처리합니다.
 
 **자동 감지 키워드**:
 - `culture` / `cultures` - 문화 이름
@@ -192,19 +207,44 @@ vs.
 "Afar" → "멀리" (의미 번역)
 ```
 
+#### 키 단위 음역 모드
+
+일반 번역 파일 내에서도 특정 키 패턴은 음역 모드로 처리됩니다.
+
+**자동 감지 패턴**:
+- `dynn_*` - 왕조 이름 (예: `dynn_Austmadur`, `dynn_RICE_leslie`)
+- `dynnp_*` - 왕조 접두사 (예: `dynnp_al-`, `dynnp_de`, `dynnp_banu`)
+- `*_adj` - 형용사형 고유명사 (예: `dyn_c_pingnan_guo_adj`)
+- `*_name` - 이름 (예: `dynasty_name`, `culture_name`)
+
+**제외 규칙**:
+- `*_desc`, `*_event`, `*_decision` 등으로 끝나는 키는 일반 번역 사용
+- 설명, 이벤트, 결정 등의 컨텍스트는 의미 번역 필요
+
+**예시**:
+```yaml
+# 일반 번역 파일 내에서도 키 단위로 음역 적용
+# events_l_english.yml
+dynn_Austmadur:0 "Austmadur"        → "아우스트마두르" (음역)
+culture_name:0 "Korean"              → "한국인" (음역)
+culture_adj:0 "Korean"               → "한국의" (음역)
+heritage_desc:0 "Korean heritage"    → "한국 유산" (의미 번역, _desc로 끝남)
+```
+
 **특징**:
 - 고유명사 사전 활용 (ck3ProperNouns 등)
 - 별도 캐시 관리 (`transliteration:` prefix)
 - 기존 번역 캐시와 독립적으로 동작
 - 완전 자동, 수동 설정 불필요
+- 파일 단위와 키 단위 감지를 모두 지원
 
 ## 자동화 워크플로우
 
 ### 단어사전 자동 무효화
 
-`scripts/utils/dictionary.ts` 파일이 업데이트되면 자동으로 다음 작업을 수행합니다:
+단어사전 파일(`dictionaries/*.toml`)이 업데이트되면 자동으로 다음 작업을 수행합니다:
 
-1. **자동 트리거**: `main` 브랜치에 `dictionary.ts` 파일이 변경되면 GitHub Actions 워크플로우가 자동 실행
+1. **자동 트리거**: `main` 브랜치에 `dictionaries/` 디렉토리의 파일이 변경되면 GitHub Actions 워크플로우가 자동 실행
 2. **캐시 무효화**: 각 게임(CK3, Stellaris, VIC3)에 대해 단어사전 기반 번역 무효화 (`update-dict`)
 3. **재번역**: 잘못 번역된 항목 재번역 (`retranslate`)
 4. **자동 커밋**: 변경사항 자동 커밋 및 푸시

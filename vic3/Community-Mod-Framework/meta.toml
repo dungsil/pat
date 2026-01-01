@@ -2,3 +2,4 @@
 url = "https://github.com/Victoria-3-Modding-Co-op/Community-Mod-Framework.git"
 localization = ["localization/english"]
 language = "english"
+version_strategy = "semantic"

@@ -1,0 +1,5 @@
+﻿l_korean:
+  concept_com_international_organization: "국제 기구" # 856629468960562459
+  concept_com_international_organization_desc: "어떤 종류의 초국가적 실체로 묶인 [Concept('concept_country','$concept_countries$')] 집단." # 15001752026942333282
+  concept_com_international_organizations: "국제 기구" # 11864495601490587329
+  je_group_international_organizations: "[Concept('concept_com_international_organization','$concept_com_international_organizations$')]" # 7498544584182737135
