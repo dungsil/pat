@@ -4,6 +4,88 @@
 
 ## 2025년 12월
 
+### GitHub Actions 재시도 로직 추가
+**날짜:** 2025-12-21
+
+**추가:**
+- GitHub API 호출 실패 시 자동 재시도 로직 구현
+- 403 (Forbidden), 429 (Rate Limit), 5xx 서버 오류 자동 재시도
+- 점진적 백오프 전략: [1초, 2초, 8초, 10초, 60초]
+- `Retry-After` 헤더 존중
+
+**적용 범위:**
+- `create-untranslated-issues` 액션의 3개 API 호출
+- `close-translation-issues` 액션의 2개 API 호출
+
+**효과:**
+- GitHub API rate limit 시 워크플로우 실패 방지
+- 번역 거부 이슈 등록 안정성 향상
+- 임시 네트워크 오류 자동 복구
+
+**관련 파일:**
+- `.github/actions/github-retry.cjs` (신규)
+- `.github/actions/create-untranslated-issues/index.js`
+- `.github/actions/close-translation-issues/index.js`
+
+---
+
+### YAML 파서 최적화 및 버그 수정
+**날짜:** 2025-12-18
+
+**수정:**
+- 불필요한 재번역을 유발하는 YAML 파서 버그 수정
+- Paradox 형식 후행 텍스트(trailing text) 처리 개선
+- 대문자 포맷팅 태그(`#!`) 지원 추가
+
+**영향:**
+- 변경되지 않은 항목의 재번역 방지
+- 번역 속도 향상
+- 게임 형식 지원 강화
+
+**관련 파일:**
+- `scripts/parser/yaml.ts`
+- `prompts/ck3-translation.md`
+- `prompts/vic3-translation.md`
+- `prompts/stellaris-translation.md`
+
+---
+
+### 번역 거부 처리 개선
+**날짜:** 2025-12-18
+
+**개선:**
+- Stale `untranslated-items.json` 파일로 인한 이슈 닫기 실패 방지
+- 번역 거부 항목 중복 제거 로직 추가
+- 이슈 자동 닫기 정확도 향상
+
+**효과:**
+- 번역이 완료된 항목의 이슈가 정확히 닫힘
+- 중복 이슈 생성 방지
+- 이슈 관리 효율성 향상
+
+**관련 파일:**
+- `scripts/factory/translate.ts`
+- `scripts/factory/translate.test.ts`
+
+---
+
+### GitHub MCP 서버 도구 우선순위 가이드라인 추가
+**날짜:** 2025-12-17
+
+**추가:**
+- AGENTS.md에 GitHub MCP 서버 도구 사용 가이드라인 추가
+- Git 명령어 대신 GitHub MCP 서버 도구 우선 사용 지침
+- 도구 사용 예제 및 패턴 추가
+
+**배경:**
+- AI 에이전트가 GitHub 작업 시 MCP 서버 도구를 우선 사용하도록 유도
+- 구조화된 출력과 에러 처리를 통한 안정성 향상
+
+**관련 파일:**
+- `AGENTS.md`
+
+---
+
 ### 버전 전략 기능 추가
 **날짜:** 2025-12-21
 
