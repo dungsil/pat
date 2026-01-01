@@ -119,7 +119,7 @@ async function githubApiRetry(operation, operationName, options = {}) {
   const config = { ...defaultOptions, ...options };
   const { maxRetries, baseDelays } = config;
 
-  // MAX_RETRIES와 RETRY_DELAYS.length가 동기화되도록 보장
+  // maxRetries와 baseDelays.length가 동기화되도록 보장
   if (maxRetries !== baseDelays.length) {
     throw new Error(`maxRetries (${maxRetries})와 baseDelays.length (${baseDelays.length})는 동일해야 합니다.`);
   }
