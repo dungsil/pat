@@ -1,25 +1,27 @@
-name: 'Create Untranslated Issues'
-description: 'Creates or updates GitHub issues for translation refusals'
+name: 'Create Untranslated Items Issues'
+description: 'Automatically create or update GitHub issues for untranslated items'
 inputs:
   game:
-    description: 'Game name (ck3, vic3, stellaris)'
+    description: 'Game identifier (ck3, vic3, stellaris)'
     required: true
-  file-path:
-    description: 'Path to the untranslated items JSON file'
+  github-token:
+    description: 'GitHub token for API access'
     required: true
 runs:
-  using: "composite"
+  using: 'composite'
   steps:
-    - uses: actions/github-script@v7
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
       with:
-        script: |
-          const script = require('${{ github.action_path }}/script.js');
-          await script({
-            github,
-            context,
-            core,
-            inputs: {
-              game: '${{ inputs.game }}',
-              filePath: '${{ inputs.file-path }}'
-            }
-          });
+        node-version: '20'
+    - name: Install dependencies
+      shell: bash
+      run: |
+        cd ${{ github.action_path }}
+        npm ci --production
+    - name: Run action
+      shell: bash
+      env:
+        INPUT_GAME: ${{ inputs.game }}
+        INPUT_GITHUB_TOKEN: ${{ inputs.github-token }}
+      run: node ${{ github.action_path }}/index.js

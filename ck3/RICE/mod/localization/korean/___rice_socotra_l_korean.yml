@@ -19,7 +19,7 @@
   RICE_indian_ocean_region_coastal_req: "[GetGeographicalRegion('RICE_indian_ocean_region').GetName] [region|E]에 해안을 접한 [county|E]를 하나 이상 소유하십시오." # 7626193399806318715
   RICE_socotra_legend_new_title_name: "새로운 소코트라" # 3036728752079679637
   RICE_socotra_legend_new_title_desc: "작고 보잘것없는 섬이지만, [GetTitleByKey('k_socotra').GetNameNoTier]는 수세기 동안 전설의 대상이었으며, 이를 위대한 왕국으로 만든 것은 그에 못지않은 전설적인 통치자, 바로 [founder.GetName]였습니다." # 8147189565203604458
-  RICE_socotra_legend_chapter_opening_new_title: "[ROOT.Legend.GetProperty( 'title' ).Title.GetBaseNameNoTooltip] 섬은 전설과 신화, 이국적인 사치품, 고대 민족, 숨 막히는 풍경으로 가득한 땅입니다. 하지만 한때 이곳은 흉포한 야수들과 심지어 두려운 바와리지 같은 더욱 사나운 해적들이 살던 곳이었습니다. 오직 [ROOT.Legend.GetProtagonist.GetNameNoTooltip]와 같은 영광스러운 지도자만이 이 섬을 길들일 수 있었을 것입니다." # 17139032531152139318
+  RICE_socotra_legend_chapter_opening_new_title: "[ROOT.Legend.GetProperty( 'title' ).Title.GetBaseNameNoTooltip] 섬은 전설과 신화, 이국적인 사치품, 고대 민족, 그리고 숨 막히는 풍경으로 가득한 땅입니다. 하지만 옛날에는 이곳이 흉포한 짐승들과 두려움을 떨치던 바와리지(Bawarij) 같은 더욱 사나운 해적들이 들끓던 땅이었습니다. 오직 [ROOT.Legend.GetProtagonist.GetNameNoTooltip]와 같은 영광스러운 지도자만이 이 섬을 길들일 수 있었을 것입니다." # 2809456420797604552
   RICE_socotra_legend_chapter_motivation_new_title: "[ROOT.Legend.GetProperty( 'title' ).Title.GetBaseNameNoTooltip]가 속했던 인도양은 거대한 경제적 기회의 세계였지만, 왕, 귀족, 해적 군주 등이 정치 게임에서 서로 맞서는 격렬한 갈등의 장이기도 했습니다. [ROOT.Legend.GetProperty( 'title' ).Title.GetBaseNameNoTooltip]는 이 게임 속에서 한낱 장기말에 불과했지만, [ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip]는 이 섬에 더 위대한 운명이 있음을 알고 있었습니다. 단지 올바른 방향으로 이끌어 줄 선견지명이 있는 통치자만 있으면 될 뿐이었습니다." # 12139666540145560675
   RICE_socotra_legend_chapter_famous_deed_new_title: "[ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip]께서는 섬의 다양한 주민들의 지지를 모으기 위해 먼저 노력하셨습니다. 그들의 출신이 아프리카, 인도, 아랍과 페르시아의 땅, 그리고 그 너머 어디에서 왔든, 섬 주민들은 하나로 통합되어야만 했습니다." # 12997349543194741040
   RICE_socotra_legend_chapter_extra_deed_new_title: "교활함과 무력으로, [ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip]께서는 탐욕스럽고 무자비했던 해적들을 물리치셨습니다. 그들은 [ROOT.Legend.GetProtagonist.GetHerHis] 비전을 공유하지 않았습니다. 그 후로 그들의 무기와 배는 [ROOT.Legend.GetProperty( 'title' ).Title.GetBaseNameNoTooltip]의 적들을 향하게 되었습니다. 친절과 지혜로, [ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip]께서는 위대한 지도자를 갈망하던 평민들에게 평화와 번영을 가져다주셨습니다. 그 후로 가장 천한 노예부터 가장 높은 귀족에 이르기까지 이 지역 사람들은 [ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip]와 [ROOT.Legend.GetProperty( 'title' ).Title.GetBaseNameNoTooltip]을 찬양하는 시와 노래를 불렀습니다. 기도와 헌신으로, [ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip]께서는 고귀한 야망을 이루기 위해 [ROOT.Legend.GetProtagonist.GetFaith.HighGodName]의 도움을 구하셨습니다. 그 후로 [ROOT.Legend.GetProtagonist.GetFaith.HighGodName]께서 이 섬에 더욱 큰 번영과 부를 축복해주셨다고 전해집니다." # 2751698425020440620
@@ -67,7 +67,7 @@
   RICE_socotra_host_poetry_contest_courtier_won_log: "[CHARACTER.GetShortUIName|U]가 시 짓기 대회에서 우승했습니다." # 16321773251949888244
   RICE_socotra_host_poetry_contest_courtier_won_log_title: "$RICE_socotra_host_poetry_contest_courtier_won_log$" # 11874914849968883780
   TRAVEL_NAME_FOR_activity_RICE_socotra_host_poetry_contest: "[Character.GetFirstNamePossessiveNoTooltip] $activity_RICE_socotra_poetry_contest$" # 7442228800895265804
-  RICE_socotra_host_poetry_contest_judge_intent_req: "[GetTrait('poet').GetName( GetNullCharacter )] [trait|E]를 보유하고 있거나, 적어도 [diplomacy|E] 또는 [learning|E]에서 #bold [EmptyScope.ScriptValue('decent_skill_rating')|0]# 이상이어야 합니다. 또한 [diplomacy|E]와 [learning|E] 모두에서 #bold [EmptyScope.ScriptValue('mediocre_skill_rating')|0]# 미만일 수는 없습니다." # 8569149225777620453
+  RICE_socotra_host_poetry_contest_judge_intent_req: "당신은 [GetTrait('lifestyle_poet').GetName( GetNullCharacter )] [trait|E]를 가지고 있거나, 적어도 [diplomacy|E] 또는 [learning|E]에서 #bold [EmptyScope.ScriptValue('decent_skill_rating')|0]#! 이상이어야 합니다. 또한 [diplomacy|E]와 [learning|E] 중 어느 하나라도 #bold [EmptyScope.ScriptValue('mediocre_skill_rating')|0]#! 미만일 수 없습니다." # 14553735657471800641
   NOT_RICE_socotra_host_poetry_contest_judge_intent_req: "$RICE_socotra_host_poetry_contest_judge_intent_req$" # 10233573507335821821
   game_concept_indian_ocean_pirate: "인도양 해적" # 18364884450763701091
   game_concept_indian_ocean_pirates: "인도양 해적들" # 528378064322841476
@@ -446,7 +446,7 @@
   socotra.0028.a: "xxxxx" # 1951045980481827005
   socotra.0029.t: "xxxxx" # 1951045980481827005
   socotra.0029.desc: "xxxxx" # 1951045980481827005
-  socotra.0029.a: "xxxxx" # 1951045980481827005
+  socotra.0029.a: "xxxx\"" # 15308465615999842627
   socotra.0030.t: "긴장 고조" # 6561702509016991085
   socotra.0030.desc: "소코트라 섬의 무슬림들은 소코트라의 일부 법률이 그들의 공동체를 부당하게 겨냥하고 있으며, 일부 내 관료들이 그들을 더욱 억압하기 위해 이를 악용했다고 주장합니다. 그들 사이에서 재치 있고 카리스마 넘치는 한 여성이 부패한 관료들과 그들이 부당하다고 여기는 법률에 반대하는 운동의 지도자로 부상하고 있다는 소문이 있습니다. 공개적인 반란이 일어날 조짐은 없지만, 이러한 상황은 우려스럽습니다." # 6789511785714898197
   socotra.0030.a: "틀림없이, 이 일에서 심각한 일은 일어나지 않을 겁니다." # 4699612283421148187

@@ -174,7 +174,7 @@
   RICE_sri_lanka_struggle_correct_involvement_tt: "귀하는 [RICE_sri_lanka_struggle|E]에 [struggle_involved|E]되어 있습니다." # 11173448047878037446
   RICE_sri_lanka_ender_name: "$k_lanka$의 상가 재건" # 14861020988795957484
   RICE_sri_lanka_ender_desc: "$k_lanka$의 [GetReligionByKey('buddhism_religion').GetAdjective] 승가(僧伽)는 서로 다투는 수도원들로 분열되어 있었으나, [struggle_ender.GetFirstName]의 등장으로 통합되었습니다. [struggle_ender.GetHerHis]의 지도 아래 수도원들은 개혁되었고, 이제 섬의 [GetReligionByKey('buddhism_religion').GetAdjectiveNoTooltip] 신도들을 다시 제대로 이끌 수 있게 되었습니다." # 7562820293974606312
-  RICE_sri_lanka_legend_chapter_opening_struggle: "수년 동안, $k_lanka$의 [GetReligionByKey('buddhism_religion').GetAdjectiveNoTooltip] 공동체, 즉 [ROOT.Legend.GetProperty( 'struggle' ).GetFlagName]은 진정한 부처님의 가르침을 따른다고 주장하는 각기 다른 수도원들에 의해 지배되어 왔습니다. 섬이 분열되자 그 백성들은 길을 잃었고 땅은 쇠락의 길을 걸었습니다. 이는 [ROOT.Legend.GetProtagonist.GetNameNoTooltip]께서 등장하시기 전까지의 상황이었습니다." # 16120771226916697651
+  RICE_sri_lanka_legend_chapter_opening_struggle: "수년 동안, [ROOT.Legend.GetProperty( 'struggle' ).GetFlagName]이라 불리는 투쟁, 즉 $k_lanka$의 [GetReligionByKey('buddhism_religion').GetAdjectiveNoTooltip] 공동체는 각자 부처님의 참된 가르침을 따른다고 주장하는 여러 수도원들에 의해 지배당해 왔습니다. 섬이 분열되자 그곳의 백성들은 길을 잃었고 땅은 쇠락의 길을 걸었습니다. 이는 [ROOT.Legend.GetProtagonist.GetNameNoTooltip]께서 등장하시기 전까지의 상황이었습니다." # 7613394220243976877
   RICE_sri_lanka_legend_chapter_motivation_struggle: "[ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip]께서는 $k_lanka$ 내 [GetReligionByKey('buddhism_religion').GetAdjectiveNoTooltip] 승려들이 제대로 된 교육은커녕 도덕성마저 갖추지 못하여 섬의 백성들뿐만 아니라, 평소 $k_lanka$ 승려들의 지혜를 구하던 먼 땅의 [GetReligionByKey('buddhism_religion').GetNameNoTooltip] 신자들까지 이끌지 못하는 현실을 한탄하셨습니다." # 5936791058093064719
   RICE_sri_lanka_legend_chapter_famous_deed_generic: "[ROOT.Legend.GetProtagonist.GetSheHe]께서는 [GetReligionByKey('buddhism_religion').GetAdjectiveNoTooltip] 교리에 대해 가장 박식한 분은 아니었을지 모르나, [ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip]께서는 이 상황이 지속될 수 없음을 알고 계셨습니다." # 15150906665375887409
   RICE_sri_lanka_legend_chapter_extra_deed_struggle: "[ROOT.Legend.GetProtagonist.GetHerHis]의 권위와 도덕적 정당성, 외교적 기량을 바탕으로 [ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip]께서는 단지 $k_lanka$뿐만 아니라 다른 지역의 [GetReligionByKey('buddhism_religion').GetAdjectiveNoTooltip] 승려 공동체를 규합하여 [ROOT.Legend.GetProperty( 'struggle' ).GetFlagName]을 개혁하고자 하셨습니다. 이단적이고 해로운 사상은 비난받고 부적격한 승려들은 파문되었으며, 올바른 사상이 장려되고 덕망 있는 승려들은 보상을 받고 새로운 세대의 종교 지도자들을 이끌도록 교육받았습니다." # 4310967162053334387
@@ -496,7 +496,7 @@
   activity_RICE_sri_lanka_sri_pada_pilgrimage_desc: "[GetPlayer.Custom('RICE_sri_pada')]은 [GetGeographicalRegion('RICE_sri_lanka_alt_region').GetName]에서 가장 신성한 봉우리 중 하나로, 여러 신앙을 가진 이들이 숭배하는 곳입니다. 이 봉우리는 정상에 있는 발자국 모양의 흔적으로 가장 유명한데, 그 발자국을 남긴 종교적 인물이 누구인지는 누구에게 묻느냐에 따라 [faith|E]에 따라 달라집니다." # 8258681315941870254
   activity_RICE_sri_lanka_sri_pada_pilgrimage_selection_tooltip: "[GetTitleByKey('c_kandy').GetNameNoTier]에 있는 [GetPlayer.Custom('RICE_sri_pada')] 산으로 [local_pilgrimage|E]를 떠납니다.\n\n$activity_RICE_sri_lanka_sri_pada_pilgrimage_context_tooltip$" # 13990854743215638360
   activity_RICE_sri_lanka_sri_pada_pilgrimage_context_tooltip: "#emphasis 역사적 배경:#! 스리 파다(불교도와 힌두교도에게) 또는 아담의 봉우리(기독교도와 무슬림에게)는 스리랑카 중부에 위치한 저명한 성산으로, 정상에 있는 발자국 모양의 흔적으로 가장 잘 알려져 있습니다. 불교도들은 그것이 붓다께서 만드신 것이며, 그분께서 한때 이곳에서 설법하셨다고 말합니다. 힌두교도들은 그 발자국이 시바 신께서 만드신 것이라고 믿으며, 기독교도와 무슬림들은 아담께서 만드신 것이라고 믿습니다. 그럼에도 불구하고 이 산은 수세기 동안 순례지였으며, 파현, 마르코 폴로, 그리고 이븐 바투타와 같은 유명한 여행가들에 의해 언급되었는데, 후자는 이 산을 등반하기도 했습니다." # 572477505059169893
-  activity_RICE_sri_lanka_sri_pada_pilgrimage_host_desc: "$activity_RICE_local_pilgrimage_host_desc$\n$BULLET_WITH_TAB$ [modifier|E]은 귀하의 [religion|E] 또는 [religious_family|E]에 따라 다음과 같습니다:\n$TAB$$BULLET_WITH_TAB$ 아브라함 계통: [GetModifier('RICE_sri_lanka_sri_pada_abrahamic_modifier').GetNameWithTooltip]\n$TAB$$BULLET_WITH_TAB$ 불교: [GetModifier('RICE_sri_lanka_sri_pada_buddhist_modifier').GetNameWithTooltip]\n$TAB$$BULLET_WITH_TAB$ 힌두교: [GetModifier('RICE_sri_lanka_sri_pada_hindu_modifier').GetNameWithTooltip]\n$TAB$$BULLET_WITH_TAB$ 기타 동방 종교: [GetModifier('RICE_sri_lanka_sri_pada_other_eastern_modifier').GetNameWithTooltip]\n$TAB$$BULLET_WITH_TAB$ 기타 비동방 종교: [GetModifier('RICE_sri_lanka_sri_pada_pagan_modifier').GetNameWithTooltip]" # 5334223746187598817
+  activity_RICE_sri_lanka_sri_pada_pilgrimage_host_desc: "$activity_RICE_local_pilgrimage_host_desc$\n$BULLET_WITH_TAB$ [modifier|E]로, 귀하의 [religion|E] 또는 [religious_family|E]에 따라 다음과 같이 적용됩니다:\n$TAB$$BULLET_WITH_TAB$ 아브라함 계통: [GetModifier('RICE_sri_lanka_sri_pada_abrahamic_modifier').GetNameWithTooltip]\n$TAB$$BULLET_WITH_TAB$ 불교: [GetModifier('RICE_sri_lanka_sri_pada_buddhist_modifier').GetNameWithTooltip]\n$TAB$$BULLET_WITH_TAB$ 힌두교: [GetModifier('RICE_sri_lanka_sri_pada_hindu_modifier').GetNameWithTooltip]\n$TAB$$BULLET_WITH_TAB$ 기타 동방 계통: [GetModifier('RICE_sri_lanka_sri_pada_other_eastern_modifier').GetNameWithTooltip]\n$TAB$$BULLET_WITH_TAB$ 기타 비동방 계통: [GetModifier('RICE_sri_lanka_sri_pada_pagan_modifier').GetNameWithTooltip]" # 4165147471782888553
   activity_RICE_sri_lanka_sri_pada_pilgrimage_guest_desc: "$activity_RICE_sri_lanka_sri_pada_pilgrimage_host_desc$" # 343961195625757013
   activity_RICE_sri_lanka_sri_pada_pilgrimage_province_desc: "[GetPlayer.Custom('RICE_sri_pada')]는 중앙 인도에 있습니다." # 17449018836865453193
   activity_RICE_sri_lanka_sri_pada_pilgrimage_destination_selection: "$activity_RICE_sri_lanka_sri_pada_pilgrimage_province_desc$" # 17966399041606518216
@@ -520,6 +520,7 @@
   TRAVEL_NAME_FOR_activity_RICE_sri_lanka_sri_pada_pilgrimage: "[Character.GetFirstNamePossessiveNoTooltip] $activity_RICE_sri_lanka_sri_pada_pilgrimage$" # 12829218353739876769
   activity_RICE_sri_lanka_sri_pada_pilgrimage_owner: "순례자" # 384073485693042227
   RICE_sri_pada_guest_modifier_tooltip: "이 [local_pilgrimage|E]의 모든 참가자는 #V 10#년 동안 유익한 [modifier|E]를 받으며, 그 효과는 그들의 [faith|E]와 [religion|E]에 따라 달라집니다." # 15096175167093332436
+  activity_RICE_sri_lanka_ramasetu_pilgrimage_host_an_a: "$host_activity_a$" # 13713790857143020716
   activity_RICE_sri_lanka_ramasetu_pilgrimage: "라마세투 성지 순례" # 7698078386498384204
   activity_RICE_sri_lanka_ramasetu_pilgrimage_desc: "라마세투, 혹은 아담의 다리는 [GetGeographicalRegion('RICE_sri_lanka_alt_region').GetName]과 인도 본토를 잇는 얇은 육지입니다. 이곳은 일부 힌두교 종파 신도들의 순례지이며, 위대한 산스크리트 서사시인 #italic 라마야나#!와 관련이 있습니다." # 6605153770374816816
   activity_RICE_sri_lanka_ramasetu_pilgrimage_selection_tooltip: "[GetTitleByKey('c_madurai').GetNameNoTier]에 있는 라마세투, 즉 아담의 다리로 [local_pilgrimage|E]를 떠나십시오.\n\n$activity_RICE_sri_lanka_ramasetu_pilgrimage_context_tooltip$" # 4590484796991542016
@@ -719,7 +720,7 @@
   RICE_sri_lanka_precious_gems: "아프가니스탄의 귀한 보석들" # 10701890415371681394
   RICE_sri_lanka_glazed_ceramics: "중국산 유약 도자기" # 18015626693230656482
   RICE_sri_lanka_generous_to_villagers: "영민들에게 관대함" # 16636428496841259512
-  RICE_sri_lanka_aspiration_rule_sri_lanka: "[aspiration|E]: 폴론나루와 왕국 수립" # 11954932296503821590
+  RICE_sri_lanka_aspiration_rule_sri_lanka: "[RICE_aspiration|E]: 폴론나루와 왕국을 세우다" # 15406207270970439407
   RICE_sri_lanka_aspiration_rule_sri_lanka_desc: "#italic 비자야바후는 수십 년간 싱할라 군벌들과 촐라 군대에 의해 쟁탈당했던 $k_lanka$ 섬에 질서를 회복하고 평화를 되찾아 새로운 왕국을 세우고자 합니다.#!$RICE_sri_lanka_aspiration_vijayabahu_desc$\n\n" # 273396893644636087
   RICE_sri_lanka_bappa_beary: "바파나드의 건설자" # 9315503287099368322
   RICE_sri_lanka_bappa_beary_desc: "비록 무슬림 출신이지만, 이 상인은 힌두 여신 두르가에게 바파나드라는 사원을 세운 것으로 남인도에서 유명합니다. 그가 난파를 겪었을 때 두르가에게 감사하는 마음으로 이 사원을 세웠으며, 두르가 여신이 그를 파멸에서 구하기 위해 나타났다고 전해집니다." # 2523473014977327201
@@ -958,7 +959,7 @@
   sri_lanka.0001.desc.non_buddhist: "우리 비불교도들은 종종 불교의 #italic 상가#와 협력하거나 심지어 후원하기도 합니다. 우리는 그들이 단결하여 [ROOT.Char.GetHouse.GetNameNoTooltip] 가문을 더 잘 섬기도록 도울까요, 아니면 이 성가신 수도승들을 제거해 버릴까요?" # 8190757070068012930
   sri_lanka.0001.a: "#italic 업보#!가 너무나도 많이, 이제 뒤얽혔으니...." # 406276023136074763
   sri_lanka.0001.b: "이 섬의 운명은 어떻게 될 것인가?" # 8179640961811514878
-  sri_lanka.0001.vijayabahu.tooltip: "#bold 비자야바후의 [aspiration|E]: 폴론나루와 왕국 건립#!$RICE_sri_lanka_aspiration_vijayabahu_desc$\n" # 14507745647741170893
+  sri_lanka.0001.vijayabahu.tooltip: "#bold 비자야바후의 [RICE_aspiration|E]: 폴론나루와 왕국 건국#!$RICE_sri_lanka_aspiration_vijayabahu_desc$" # 16165609175370110505
   sri_lanka.0002.t: "xxxxx" # 1951045980481827005
   sri_lanka.0002.desc: "xxxxx" # 1951045980481827005
   sri_lanka.0002.a: "xxxxx" # 1951045980481827005
@@ -1082,7 +1083,7 @@
   sri_lanka.0028.a: "xxxxx" # 1951045980481827005
   sri_lanka.0029.t: "xxxxx" # 1951045980481827005
   sri_lanka.0029.desc: "xxxxx" # 1951045980481827005
-  sri_lanka.0029.a: "xxxxx" # 1951045980481827005
+  sri_lanka.0029.a: "xxxx\"" # 15308465615999842627
   sri_lanka.0030.t: "[GetPlayer.Custom('RICE_sri_lanka_patronized_monastery')] 후원하기" # 6775803235575660648
   sri_lanka.0030.desc.buddhist: "저는 [GetPlayer.Custom('RICE_sri_lanka_patronized_monastery')] 사원의 후원자로서, 그들과 협력하여 [buddhism.GetName]의 대의를 [GetPlayer.Custom('RICE_sri_lanka_sangha_location')]에서 진흥시키고 이 땅의 상가(Sangha)를 드높여야 합니다." # 9322983333608184024
   sri_lanka.0030.desc.non_buddhist: "저는 [buddhism.GetName]을 따르지는 않지만, 여전히 [GetPlayer.Custom('RICE_sri_lanka_patronized_monastery')] 사원의 후원자입니다. [GetPlayer.Custom('RICE_sri_lanka_sangha_location')]에 있는 제 영지를 발전시키기 위해 그들과 협력하는 것이 중요합니다." # 11954890128609014697
@@ -1337,7 +1338,7 @@
   sri_lanka.0098.a: "xxxxx" # 1951045980481827005
   sri_lanka.0099.t: "xxxxx" # 1951045980481827005
   sri_lanka.0099.desc: "xxxxx" # 1951045980481827005
-  sri_lanka.0099.a: "xxxxx" # 1951045980481827005
+  sri_lanka.0099.a: "xxxx\"" # 15308465615999842627
   sri_lanka.0100.t: "$RICEmisc.0011.t$" # 4416038440741163422
   sri_lanka.0100.desc: "저는 이제 신성한 [ROOT.Char.GetTravelPlan.GetData.GetNextDestination.GetProvince.GetName]으로 성지 순례를 떠납니다." # 11494185447935444983
   sri_lanka.0100.desc.bodhi: "#bold 보리수#!." # 7951985649192138637
@@ -1446,7 +1447,7 @@
   sri_lanka.0128.a: "xxxxx" # 1951045980481827005
   sri_lanka.0129.t: "xxxxx" # 1951045980481827005
   sri_lanka.0129.desc: "xxxxx" # 1951045980481827005
-  sri_lanka.0129.a: "xxxxx" # 1951045980481827005
+  sri_lanka.0129.a: "xxxx\"" # 15308465615999842627
   sri_lanka.0130.t: "xxxxx" # 1951045980481827005
   sri_lanka.0130.desc: "xxxxx" # 1951045980481827005
   sri_lanka.0130.a: "xxxxx" # 1951045980481827005

@@ -41,7 +41,7 @@
   activity_RICE_roman_kalends_desc: "고대 로마인들은 1월의 도래를 새해의 시작으로 기념했습니다. 이 기념 행사는 지중해와 중동의 많은 공동체들 사이에서 계속되고 있습니다." # 11262433936081333891
   activity_RICE_roman_kalends_selection_tooltip: "칼렌드를 축하하십시오.\n\n$activity_RICE_roman_kalends_context_tooltip$" # 7301157995037606379
   activity_RICE_roman_kalends_context_tooltip: "#emphasis 역사적 배경:#! 1월 칼렌드는 고대 로마의 전통적인 새해 축제였습니다. 연초가 다른 날짜로 이동한 후에도 이 축제는 비잔티움의 영향을 받은 지중해 및 중동 지역에서 계속 기념되었습니다. 당시 이 축일은 단순히 칼렌드(Kalends) 또는 중세 그리스어로 칼란다이(Kalandai)로 알려졌는데, 다른 달의 시작을 의미했던 다른 로마의 칼렌드들은 더 이상 기념되지 않았기 때문입니다. 비잔티움 교회 당국은 칼렌드를 이단적인 이교도 관습으로 비난했지만, 이는 무슬림 지역의 정교회 신자들에게는 종교적 기독교 정체성의 상징이 되었습니다. 어찌 되었든, 비잔티움 및 무슬림 자료들을 통해 볼 때, 칼렌드는 13세기나 14세기에 이르러 인기가 쇠퇴하고 사라진 것으로 보입니다." # 13995787136259892772
-  activity_RICE_roman_kalends_host_desc: "$BULLET_WITH_TAB$#P 획득#! [prestige_i|E][prestige|E]\n$BULLET_WITH_TAB$ [stress_loss_i|E][stress|E] 상실\n$BULLET_WITH_TAB$ 초대받은 이들의 주최자에 대한 [opinions|E] 개선\n$BULLET_WITH_TAB$ [capital|E] [county|E]는 #V 5#!년 동안 [GetModifier('RICE_kalends_celebrated_modifier').GetNameWithTooltip] [county_modifier|E]를 획득합니다\n$BULLET_WITH_TAB$#N 상실#! [piety_i|E][piety|E], 단 $RICE_roman_kalends_devotion_intent$ [intent|E]를 선택하거나 [GetReligionByKey('hellenism_religion').GetAdjective] [faith|E]를 따르는 경우는 제외" # 9732657607226468499
+  activity_RICE_roman_kalends_host_desc: "$BULLET_WITH_TAB$#P 획득#! [prestige_i|E][prestige|E]\n$BULLET_WITH_TAB$스트레스 [stress_loss_i|E][stress|E] 상실\n$BULLET_WITH_TAB$초대받은 이들은 주최자에 대한 [opinions|E]가 개선됨\n$BULLET_WITH_TAB$ [capital|E] [county|E]는 #V 5#!년 동안 [GetModifier('RICE_kalends_celebrated_modifier').GetNameWithTooltip] [county_modifier|E]를 얻음\n$BULLET_WITH_TAB$#N 상실#! [piety_i|E][piety|E] (단, $RICE_roman_kalends_devotion_intent$ [intent|E]를 선택하거나 [GetReligionByKey('hellenism_religion').GetAdjective] [faith|E]를 따를 경우는 제외됨)" # 1088133354218481986
   activity_RICE_roman_kalends_guest_desc: "$activity_RICE_roman_kalends_host_desc$" # 18221561438110267656
   activity_RICE_roman_kalends_destination_selection: "$activity_RICE_roman_kalends_province_desc$" # 12045870191072460000
   activity_RICE_roman_kalends_guest_help_text: "$activity_RICE_roman_kalends$" # 13039371817461952191
@@ -256,9 +256,9 @@
   lesbos.0028.c: "우리는 이곳에서 가장무도회를 지켜볼 수 있겠군." # 3935778212607443205
   lesbos.0029.t: "아이들의 성가" # 14678170959022457008
   lesbos.0029.desc: "밖에서 캐럴을 부르는 아이들의 목소리는 거부할 수 없는 울림을 줍니다. 그들은 마치 매혹적인 주문처럼 “칼렌드! 칼렌드!”라고 노래합니다.\n\n이런 아이들이 찾아올 때마다, #italic 칼렌드# 기간 동안의 오랜 관습이므로, 우리는 그들에게 사탕이나 약간의 금을 주는 것이 중요합니다.\n\n나의 하인들이 문을 열자, 어린아이들의 감미로운 목소리가 귓가를 가득 채웁니다. 노래가 끝나자, 하인들은 아이들에게 사탕과 돈을 주어도 되는지 내 허락을 구하며 나를 바라봅니다." # 2550818073098632504
-  lesbos.0029.a: "어린이들에게 사탕을 나눠 주시오." # 16663947616115851336
-  lesbos.0029.b: "이 사랑스러운 아이들에게는 큰 선물이 필요합니다!" # 10631662289578584684
-  lesbos.0029.c: "우리는 자선 단체가 아니오. 얘들아, 잘 가시오!" # 15716091465328162105
+  lesbos.0029.a: "어린이들에게 사탕을 나눠 주어라\"" # 669678178571167474
+  lesbos.0029.b: "이 사랑스러운 아이들에게는 큰 선물이 필요하겠지!" # 6299909665839747984
+  lesbos.0029.c: "\"여기는 자선단체가 아니오. 잘 가시오, 얘들아\"" # 10202813049762509976
   lesbos.0030.t: "지나치게 하는 것" # 17841068724951530422
   lesbos.0030.desc: "#italic 칼렌드# 기간 동안 사람들이 평소보다 조금 더 많이 먹는 것은 놀랄 일이 아닙니다.\n\n불행히도, [eater.GetTitledFirstName]가 이 문제의 희생양이 되었습니다. 축제 연회 동안 [eater.GetSheHe]는 너무 많이 먹고 마셨습니다.\n\n하지만, [eater.GetFirstNameNoTooltip]는 나머지 축제를 놓치고 싶지 않습니다!" # 6099956153377777538
   lesbos.0030.a: "[eater.GetFirstNameNoTooltip] 님, 휴식을 취하시는 것이 좋겠습니다." # 5431784208476570135

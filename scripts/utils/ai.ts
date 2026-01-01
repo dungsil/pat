@@ -42,10 +42,10 @@ export interface RetranslationContext {
 export async function translateAI (text: string, gameType: GameType = 'ck3', retranslationContext?: RetranslationContext, useTransliteration: boolean = false) {
   return new Promise<string>((resolve, reject) => {
     try {
-      return translateAIByModel(resolve, reject, gemini('gemini-flash-lite-latest', gameType, useTransliteration), text, retranslationContext)
+      return translateAIByModel(resolve, reject, gemini('gemini-3-flash-preview', gameType, useTransliteration), text, retranslationContext)
     } catch (e) {
       try {
-        return translateAIByModel(resolve, reject, gemini('gemini-flash-latest', gameType, useTransliteration), text, retranslationContext)
+        return translateAIByModel(resolve, reject, gemini('gemini-flash-lite-latest', gameType, useTransliteration), text, retranslationContext)
       } catch (ee) {
         reject(ee)
       }
@@ -120,9 +120,9 @@ Please provide a corrected translation that addresses the issue mentioned above.
         resolve(translated)
       } catch (error) {
         // TranslationRefusedError나 다른 에러를 promise의 reject로 전달
+        // reject를 호출하면 외부 Promise가 거부되고, 에러는 호출자에게 전파됨
+        // throw하지 않음으로써 큐 작업은 정상 완료되고 unhandled promise rejection 방지
         reject(error)
-        // 큐 처리를 중단하기 위해 에러를 다시 throw
-        throw error
       }
     },
   )

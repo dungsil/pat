@@ -284,7 +284,7 @@
   mordvin.0028.a: "xxxxx" # 1951045980481827005
   mordvin.0029.t: "xxxxx" # 1951045980481827005
   mordvin.0029.desc: "xxxxx" # 1951045980481827005
-  mordvin.0029.a: "xxxxx" # 1951045980481827005
+  mordvin.0029.a: "xxxx\"" # 15308465615999842627
   mordvin.0030.t: "오즈크를 준비하며" # 16273652031053114771
   mordvin.0030.desc: "우리 [ROOT.Char.GetFaith.GetAdherentNamePlural]에게 공개적인 기도, 즉 #italic 오즈크#!는 일상생활의 흔한 부분입니다. 하지만 중요한 날에는 공동체가 모여 [ROOT.Char.GetFaith.PantheonTerm]와 조상들을 기리는 화려한 의식을 갖추고, 사람들이 서로 교류하고 휴식을 취할 수 있는 많은 기회가 있는 성대한 행사를 주최할 수 있습니다.\n\n나는 [capital_province.GetName]의 모든 이들에게 이러한 #italic 이네 오즈크#!, 즉 대(大) 기도회를 준비하라는 명령을 내렸습니다. 벌써 [ROOT.Char.Custom('DefaultPriestTitlePlural')]와 공동체 구성원들이 이 행사를 준비하고 있습니다." # 6528554113378935592
   mordvin.0030.a: "이것은 위대하고 중대한 순간이 될 것입니다!" # 2866765407812426531

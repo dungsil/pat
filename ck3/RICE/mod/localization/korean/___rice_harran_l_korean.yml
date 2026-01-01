@@ -79,11 +79,11 @@
   building_type_RICE_harran_temple_of_the_moon: "죄악의 성전" # 7452971664769457591
   building_type_RICE_harran_temple_of_the_moon_desc: "하란에 있는 달의 신 '신'의 신전은 바빌로니아인, 페르시아인, 그리스인, 로마인 등 수많은 세력이 흥망성쇠를 거듭하는 것을 수 세기 동안 지켜보며 존속해 왔습니다. 신은 고대 메소포타미아 왕들의 시대부터 이 지역에서 숭배되어 왔습니다." # 14954338236068396830
   building_RICE_harran_temple_of_the_moon: "$building_type_RICE_harran_temple_of_the_moon$" # 11892380637745068917
-  building_RICE_harran_temple_of_the_moon_desc: "$building_type_RICE_harran_temple_of_the_moon_desc$" # 18010280490951480347
+  building_RICE_harran_temple_of_the_moon_desc: "달의 신전 건축물은 고대 메소포타미아의 종교적 중심지였으며, 특히 달의 신을 숭배하던 곳입니다. 이 신전은 천문학적 지식과 신비로운 의식이 행해지던 곳으로 알려져 있습니다." # 16315710687631767854
   building_type_RICE_harran_baalbek_temple: "주피터 헬리오폴리타누스 신전" # 15523675927003262273
   building_type_RICE_harran_baalbek_temple_desc: "바알베크의 유피테르 신전은 고대 로마 세계에서 가장 거대한 신전 중 하나였습니다. 바알베크에서 유피테르는 셈족 신인 바알 하다드와 동일시되었습니다. 고대 자료에 따르면, 신전의 지배적인 우상은 수염 없는 황금 신이 전차병의 자세로 서 있으며, 오른손에는 채찍을 들고 왼손에는 번개와 곡물 이삭을 쥔 모습이었다고 합니다." # 14232095485345402633
   building_RICE_harran_baalbek_temple: "$building_type_RICE_harran_baalbek_temple$" # 6129789142058333320
-  building_RICE_harran_baalbek_temple_desc: "$building_type_RICE_harran_baalbek_temple_desc$" # 15080278044043153911
+  building_RICE_harran_baalbek_temple_desc: "$building_type_RICE_harran_baalbek_temple_desc$" # 6665303204889396121
   building_type_RICE_harran_neoplatonic_academy: "신플라톤주의 학술원" # 8842685316927121837
   building_type_RICE_harran_neoplatonic_academy_desc: "수 세기 동안, 하란의 학술원은 플라톤의 가르침을 신비롭게 해석한 신플라톤주의라는 고대 철학의 마지막 흔적으로 남아있습니다. 이 학술원은 지역 학습의 중심지이며, 중동의 지적 문화에 참여한 많은 학자들을 배출했습니다." # 10791529904049015283
   building_RICE_harran_neoplatonic_academy: "$building_type_RICE_harran_neoplatonic_academy$" # 15823075891614189823
@@ -257,7 +257,7 @@
   RICE_nabataean_ibn_wahshiyya_decision_confirm: "이 지혜는 후세에 보존되어야 하오!" # 3613198159682958189
   RICE_nabataean_ibn_wahshiyya_decision_context_tooltip: "#emphasis 역사적 배경:#! 이븐 와흐시야(사망 시기 약 930년)는 이슬람 학자이자 농업가로, 그의 대작인 #italic 나바테아 농경술#!은 남부 메소포타미아의 아람어 사용 이교도 집단이었던 나바테아인들에 대한 주요 자료입니다 (페트라를 건설한 레반트의 유명한 나바테아 아랍인들과 혼동해서는 안 됩니다). 나바테아인 출신인 그는 심지어 이 시기 아람 민담에서 사랑받았던 아시리아 왕 센나케리브의 후손이라고 주장하기도 했습니다. 농업에 중점을 두었지만, #italic 나바테아 농경술#!은 마법, 천문학, 종교 등 다양한 주제를 다루었으며, 마이모니데스, 이븐 할둔, 토마스 아퀴나스와 같은 후대 학자들에게 매우 높이 평가받고 인용되었습니다." # 14966910865144475521
   RICE_harran_treatise_astronomy_name: "하란의 천문표 주석서" # 9392745759024171714
-  RICE_harran_treatise_astronomy_desc: "하란 학자 [harranian_scholar.GetFullName]이 저술한 천문학 관련 논서." # 1830124323588222940
+  RICE_harran_treatise_astronomy_desc: "하란 학자 [harranian_scholar.GetFullName]이 저술한 천문학 관련 논문." # 12260315767791830949
   RICE_harran_treatise_geometry_name: "하라니의 측정 및 수치에 관한 논문" # 4906531849049028435
   RICE_harran_treatise_geometry_desc: "하란 학자 [harranian_scholar.GetFullName]가 저술한 기하학에 관한 논문으로, 비율과 측정 등의 주제를 다루고 있습니다." # 14518973888304343740
   RICE_harran_treatise_algebra_name: "하란의 수학 문제 해결론" # 14514040567671556564
@@ -395,7 +395,7 @@
   harran.0028.tooltip: "[harran_neoplatonic_academy|E]가 새로운 보금자리를 찾았으며, 중동과 소아시아의 [rulers|E]들은 이제 #Bold 이교도 아카데미 후원하기#! [decision|E]를 내릴 수 있습니다. 게다가, 이 지역에서 때때로 [harranian_courtiers|E]가 나타날 것입니다." # 13428483031815134506
   harran.0029.t: "네오플라톤주의자들이 하란에 정착하다" # 12048240979637895773
   harran.0029.desc: "신플라톤주의 학회는 한때 아테네에서 명망 높은 이교도 학자들이 가득했던 존경받는 교육 기관이었습니다. 하지만 종교적 견해가 달랐던 지역 당국은 결국 학회의 자금 지원을 중단했고, 이들은 더 관대한 통치자를 찾아 망명길에 올랐습니다. 마침내 그들은 후원자를 찾았습니다.\n\n[neoplatonic_academy_lover.GetTitledFirstName]께서는 오랫동안 방황했던 이 학자들을 가엾게 여겨, 그들이 [harran_county.GetNameNoTier]에 정착할 수 있도록 협정을 맺으셨습니다. 도시의 이교도 공동체는 이 존경받는 학자들을 새 보금자리로 맞이하게 되어 기뻐하고 있습니다. 이는 신플라톤주의 전통 역사에 있어 분명 멋진 새 장의 시작일 것입니다." # 15250656346138092720
-  harran.0029.a: "그들이 이번에는 얼마나 오래 버틸 수 있을지 누가 알겠는가?" # 14900069047187042793
+  harran.0029.a: "그들이 이번에는 얼마나 오래 버틸 수 있을지 누가 알겠는가\"" # 17768540495051676504
   harran.0029.tooltip: "$harran.0026.tooltip$" # 6413040299296404819
   harran.0030.t: "하란 학자" # 395180589877186469
   harran.0030.desc: "[harran_county.GetNameNoTier]의 백성들은 수 세기 동안 고대 이교 신앙의 마지막 보루 중 하나였습니다. 그들 중 많은 이들은 지식과 지혜로 지역 전체에 명성이 자자합니다.\n\n오늘, [spawned_harranian_courtier.GetFullName]이라는 이름의 그런 인물 중 한 명이 저의 후원을 구하며 제 궁정에 도착했습니다. 제가 그와 그의 가문을 지원한다면, 그는 답례로 학자이자 사상가로서 그의 봉사를 제공할 것입니다. 하란인들은 신비롭고, 영적이며, 물질적인 모든 분야에서 엄청난 지식으로 지역 전체에 명성이 높으니, 그를 제 궁정에 두는 것은 큰 축복이 될 것입니다." # 8249869772803658174

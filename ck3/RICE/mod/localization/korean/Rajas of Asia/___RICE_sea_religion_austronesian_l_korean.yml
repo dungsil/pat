@@ -132,13 +132,13 @@
   batak_afterlife: "지하 세계" # 8303066665719263468
   batak_bishop: "족장 시바소" # 3071377203333747188
   batak_bishop_plural: "족장 시바소" # 3071377203333747188
-  malayic: "신앙" # 8392844424192252766
-  malayic_adj: "신앙" # 8392844424192252766
+  malayic: "케푸양안" # 10403399845281117747
+  malayic_adj: "케푸양안" # 10403399845281117747
   malayic_adherent: "페메르차야" # 18322202300205452752
   malayic_adherent_plural: "페메르카야스" # 5032326923912588074
   malayic_desc: "자연에 대한 숭배, 조상 숭배, 그리고 정령에 대한 믿음으로 흔히 정의되는 많은 토착 신앙들은 다양한 형태의 이교로 간주됩니다." # 18292129404656755894
-  malayic_old: "오래된 신념" # 7890711631253645792
-  malayic_old_adj: "오래된 신념" # 7890711631253645792
+  malayic_old: "옛 케푸양안" # 14029341375352989412
+  malayic_old_adj: "옛 케푸양안" # 14029341375352989412
   malayic_old_adherent: "오래된 페메르차야" # 6670449298867545033
   malayic_old_adherent_plural: "오래된 페메르카야스" # 16840944937410930719
   malayic_old_desc: "자연에 대한 숭배, 조상 숭배, 그리고 정령에 대한 믿음으로 흔히 정의되는 많은 토착 신앙들은 다양한 형태의 이교로 간주됩니다." # 18292129404656755894
@@ -220,8 +220,8 @@
   mentawai_animism_evil_god_decay: "피톡" # 11877135339225247285
   mentawai_animism_evil_god_decay_possessive: "피톡의" # 13033246572093691201
   mentawai_animism_evil_god_drought: "가뭄" # 15786026485696089182
-  mentawai_animism_death_deity_name: "죽음" # 6839449773115691256
-  mentawai_animism_death_deity_name_possessive: "죽음의" # 4370432923129616423
+  mentawai_animism_death_name: "데스" # 6839449773115691256
+  mentawai_animism_death_name_possessive: "죽음의" # 4370432923129616423
   mentawai_animism_death_deity_herhis: "그것은" # 12383260098665029106
   mentawai_animism_creator_god_name: "$mentawai_animism_health_god_name$" # 14604669044357122191
   mentawai_animism_creator_god_name_possessive: "$mentawai_animism_health_god_name_possessive$" # 868612583644270767
@@ -245,6 +245,8 @@
   mentawai_animism_night_god_name_possessive: "$mentawai_animism_trickster_god_name_possessive$" # 11405385396508448087
   mentawai_animism_water_god_name: "타이 레우바갓" # 7876501160103740478
   mentawai_animism_water_god_name_possessive: "타이 레우바갓의" # 15881346015227780733
+  mentawai_animism_witch_god_name: "$mentawai_animism_high_god_name_alternate$" # 11837139316147957853
+  mentawai_animism_witch_god_name_possessive: "$mentawai_animism_high_god_name_alternate_possessive$" # 12116181778790237116
   mentawai_animism_house_of_worship: "성소" # 2303695743383420811
   mentawai_animism_house_of_worship_plural: "성소들" # 17142390693193914587
   mentawai_animism_religious_symbol: "사불룽안" # 572275127211128532

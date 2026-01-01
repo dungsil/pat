@@ -215,7 +215,7 @@
   orbital_atmosphere_shredder_4_mod_tooltip: "발견된 매장지 규모를 §Y6§!으로 개선합니다! £physics_research£ $NEW_LINE$§E$SYSTEM_MODIFIER$§!: $TABBED_NEW_LINE$$mod_station_researchers_physics_research_produces_mult$: §G+$@kilo_prod_bonus_4_mod_value|%0$§!$TABBED_NEW_LINE$$mod_station_researchers_produces_mult$: §G+$@kilo_prod_bonus_4_mod_value|%0$§!" # 2919001359635766050
   orbital_atmosphere_shredder_restored_mod_tooltip: "성계 내 모든 적합한 행성, 위성, 소행성에서 규모 §Y6§! £physics_research£ 매장지를 발견합니다.$NEW_LINE$§E$SYSTEM_MODIFIER$§!: $TABBED_NEW_LINE$$mod_station_researchers_physics_research_produces_mult$: §G+$@kilo_prod_bonus_4_mod_value|%0$§!$TABBED_NEW_LINE$$mod_station_researchers_produces_mult$: §G+$@kilo_prod_bonus_4_mod_value|%0$§!" # 17589751882706357857
   orbital_eco_arcology_1_mod_tooltip: "해당 성계 내 모든 자격 있는 행성, 위성, 소행성에 크기 §Y2§! £society_research£ 매장량을 발견합니다." # 15175657397488618034
-  orbital_eco_arcology_2_mod_tooltip: "발견된 자원 매장지를 규모 §Y4§로 개선합니다! £society_research£" # 15700853540373241234
+  orbital_eco_arcology_2_mod_tooltip: "발견된 광상을 크기 §Y4§! £society_research£로 개선합니다." # 8623767812277858561
   orbital_eco_arcology_3_mod: "$orbital_artificial_eco_2$" # 11466621227678413707
   orbital_eco_arcology_3_mod_desc: "$orbital_artificial_eco_3_DESC$" # 6228484138105968876
   orbital_eco_arcology_3_mod_tooltip: "미발견 매장량의 규모를 §Y5§!로 개선합니다! £society_research£\n§E$SYSTEM_MODIFIER$§!:\n	$TABBED_NEW_LINE$$mod_station_researchers_society_research_produces_mult$: §G+$@kilo_prod_bonus_4_mod_value|%0$§!" # 3788722512241506989

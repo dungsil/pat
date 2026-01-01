@@ -65,7 +65,7 @@
   je_army_reform_china_special_tooltip_advance: "다음 조건들은 #bold 진척도 막대#!를 #bold 진전#!시킬 것입니다:\n• #bold 태평 천국 운동#!을 겪는 중 #Green 15%#!\n• #bold 의화단 운동#!을 겪는 중 #Green 15%#!\n• #bold 법 집행#!을 연구 중 #Green 10%#!\n• 다음 중 하나를 연구할 때마다 #Green 20%#!:\n  • #bold 예비군#!\n  • #bold 병참#!\n  • #bold 징집소#!\n  • #bold 군사 통계#!\n  • #bold 전쟁 게임#!\n\n[GetLawType('law_peasant_levies').GetName] 이외의 모든 군대 모델을 사용하는 경우 매년 #green 1%#!의 속도로 군대를 개혁합니다." # 13021544110884642994
   interest_moratorium_edict_continue_tt: "만약 법령이 시행된다면, $interest_moratorium_edict$는 전쟁 종료 후 10년간 계속될 것입니다." # 2631165933008740908
   xinhai_revolution_events.1.t: "반만(反滿) 정서" # 12878755026930333064
-  xinhai_revolution_events.1.d: "[ROOT.GetCountry.GetName] 내에서 계속되는 공적인 차별에 분노한 한족([SCOPE.sCulture('han_culture').GetName]) 신민들은 만주족([SCOPE.sCulture('manchu_culture').GetName])의 [GetLawType('law_monarchy').GetName]을 종식시키고 [GetLawType('law_republic').GetName]을 수립하고자 반체제 공화주의 운동으로 조직되고 있습니다. 이제 많은 궁정 신료들은 [ROOT.GetCountry.GetRuler.GetPrimaryRoleTitle] [ROOT.GetCountry.GetRuler.GetFullName]에게 이 차별에 대처하고 공화주의적 위협을 억제할 것을 촉구하고 있습니다." # 16248099007783427646
+  xinhai_revolution_events.1.d: "[ROOT.GetCountry.GetName] 내에서 계속되는 공적인 차별에 분노한 한[SCOPE.sCulture('han_culture').GetName] 신민들이 반체제 공화주의 운동으로 조직되고 있으며, 만주[SCOPE.sCulture('manchu_culture').GetName]의 [GetLawType('law_monarchy').GetName]을 종식시키고 [GetLawType('law_republic').GetName]을 수립하려는 결의를 다지고 있습니다. 이제 많은 궁정 신료들이 [ROOT.GetCountry.GetRuler.GetPrimaryRoleTitle] [ROOT.GetCountry.GetRuler.GetFullName]에게 이 차별 문제를 해결하고 공화주의의 위협을 억제할 것을 촉구하고 있습니다." # 15030547896043949182
   xinhai_revolution_events.1.f: "심사숙고와 철저한 준비 끝에, 저는 혁명의 계획과 세 단계로 이루어진 혁명 절차를 결정하였습니다. 첫 번째 단계는 군정(軍政) 기간입니다. 두 번째 단계는 정치적 후견(後見) 기간입니다. 그리고 세 번째 단계는 헌정(憲政) 정부의 실행입니다." # 185765589776763170
   xinhai_revolution_events.1.a: "제국 왕조는 반드시 보존되어야 합니다." # 7751023848396007329
   xinhai_revolution_events.2.t: "우창 봉기" # 10919524888692083896
@@ -117,7 +117,7 @@
   modifier_green_standard_army: "그린 표준군" # 7898949494347691085
   modifier_failure_to_ban: "반박의 여지가 없는 아편 중독" # 4478168312572111721
   taiping_organisation_progress_bar: "반란" # 15927943869549377532
-  taiping_organisation_progress_bar_desc: "신앙 사회 조직" # 13649965619301891338
+  taiping_organisation_progress_bar_desc: "신앙 숭배 결사체" # 1683572585274369852
   1_state_tt: "1개 선동적인 주" # 1420093863113141749
   2_state_tt: "1개 선동적인 주" # 11943891557422298121
   3_state_tt: "3개의 선동적인 주" # 11227445749041511855
@@ -168,7 +168,7 @@
   100_days_reform_failure_bar: "쿠데타" # 4383885491119784972
   100_days_reform_failure_bar_desc: "무술정변 조직하기" # 10345453495828192163
   100_days_con_mon: "군주 권력 제한" # 16453674927186161697
-  100_days_con_mon_desc: "우리의 지지 기반을 넓히기 위해 #bold [GetPlayer.GetRuler.GetPrimaryRoleTitle]#로부터의 권력을 자문 위원회로 이양해야 합니다." # 16074145182916941707
+  100_days_con_mon_desc: "우리의 지지 기반을 넓히기 위해 우리는 [GetPlayer.GetRuler.GetPrimaryRoleTitle]로부터 권력을 자문 위원회로 이양해야 합니다\"" # 4196273568943704097
   100_days_peking_uni: "베이징 대학을 설립하다" # 11136636577407996675
   100_days_peking_uni_desc: "우리는 과학, 인문학, 그리고 중국 고전이 모두 연구될 수 있는 장소를 마련해야만 합니다." # 13052378193516602473
   100_days_modern_edu: "농업 및 상업 학교 설립" # 14249179060080064024
@@ -194,7 +194,7 @@
   100_days_capitalism_issued: "경제 개혁 칙령 발표됨" # 4724460670214216111
   100_days_mil_reforms_issued: "군사 현대화 칙령 발표" # 15712494303169232445
   100_days_rail_mines_issued: "철도광산국 칙령 발표" # 7527380390615680427
-  near_collapse: "높은 취약성" # 1100856527096811
+  near_collapse: "극도로 취약함" # 11108647453453943419
   boxers_happened: "복서 반란이 일어났습니다" # 17508995602547622846
   manchu_homelands_lost: "만주 본토 상실" # 16003397224897704211
   han_homelands_lost: "한족의 고향 상실" # 5352166113018896864

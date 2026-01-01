@@ -88,7 +88,7 @@
   nuclear_ultimatum_white_peace_action_notification_name: "[INITIATOR_COUNTRY.GetAdjective] 핵무기에 피격당함" # 6487685909475061064
   nuclear_ultimatum_white_peace_action_notification_desc: "[INITIATOR_COUNTRY.GetName]이 핵무기로 [TARGET_COUNTRY.GetName]을 공격했습니다. [TARGET_COUNTRY.GetName]이 그 주(province)들에 입은 피해는 각 주 지역이 보유한 민방위 수준과 탄도 미사일 방어 체계에 따라 달라졌습니다." # 15354088987592781742
   nuclear_ultimatum_white_peace_proposal_notification_name: "핵 최후통첩 (백지 평화)" # 7814125559003480041
-  nuclear_ultimatum_white_peace_proposal_notification_desc: "[INITIATOR_COUNTRY.GetName]은 [TARGET_COUNTRY.GetName]에게 무조건적인 평화(즉, 현상 유지)에 동의하거나 핵무기로 공격받을 것을 요구합니다." # 3094241817137865063
+  nuclear_ultimatum_white_peace_proposal_notification_desc: "[INITIATOR_COUNTRY.GetName]은 [TARGET_COUNTRY.GetName]에게 현상 유지를 의미하는 백지 평화에 동의하거나, 핵무기로 공격받을 것을 요구합니다\"" # 16147370636162638042
   nuclear_ultimatum_white_peace_proposal_notification_effects_desc: "[TARGET_COUNTRY.GetName]은 [INITIATOR_COUNTRY.GetName]이 핵무기를 보유하고 있을 경우 보복 공격을 개시할 것입니다." # 13471732168406590064
   nuclear_ultimatum_white_peace_proposal_accepted_name: "[INITIATOR_COUNTRY.GetAdjective]의 핵 최후통첩을 [TARGET_COUNTRY.GetName]이 수락했습니다" # 10867728686329507549
   nuclear_ultimatum_white_peace_proposal_accepted_desc: "[TARGET_COUNTRY.GetName]이 [INITIATOR_COUNTRY.GetName]의 무조건 평화 제안을 수락했습니다." # 8318928519376868581
@@ -116,8 +116,8 @@
   station_nuclear_weapons_action_notification_name: "[INITIATOR_COUNTRY.GetAdjective]을 [TARGET_COUNTRY.GetNameNoFlag]에 핵무기를 배치하시겠습니까?" # 6432489358343972487
   station_nuclear_weapons_action_notification_desc: "[INITIATOR_COUNTRY.GetName]이 핵무기를 [TARGET_COUNTRY.GetName]에 배치하여 [TARGET_COUNTRY.GetName]과 인접한 모든 국가를 더욱 효과적으로 타격할 수 있게 되었습니다." # 16909436287672076340
   station_nuclear_weapons_proposal_notification_name: "[INITIATOR_COUNTRY.GetAdjective]을 [TARGET_COUNTRY.GetNameNoFlag]에 핵무기를 배치하시겠습니까?" # 6432489358343972487
-  station_nuclear_weapons_proposal_notification_desc: "[INITIATOR_COUNTRY.GetName]은 [TARGET_COUNTRY.GetName]에 자국의 핵무기를 주둔시켜 [TARGET_COUNTRY.GetName]과 접경한 모든 국가를 보다 효과적으로 타격할 수 있도록 허용할 것을 제안합니다." # 16738517789638798850
-  station_nuclear_weapons_proposal_notification_effects_desc: "[INITIATOR_COUNTRY.GetName]은 [TARGET_COUNTRY.GetName]과 인접한 모든 국가를 핵무기로 공격할 때, 주(state) 소유 개수로 인해 국가가 얻는 방어 점수를 [INITIATOR_COUNTRY.GetAdjective] 무기를 주둔시킨 국가당 25%씩 감소시켜 더욱 효과적으로 공격할 수 있게 됩니다." # 586040249097966673
+  station_nuclear_weapons_proposal_notification_desc: "[INITIATOR_COUNTRY.GetName]은 [TARGET_COUNTRY.GetName]에 자국의 핵무기를 주둔시켜, [TARGET_COUNTRY.GetName]과 국경을 맞댄 모든 국가를 더욱 효과적으로 타격할 수 있도록 할 것을 제안합니다\"" # 18255107543032143343
+  station_nuclear_weapons_proposal_notification_effects_desc: "[INITIATOR_COUNTRY.GetName]은 [TARGET_COUNTRY.GetName]과 국경을 맞댄 모든 국가를 핵무기로 공격할 때, 주(state) 보유 수로 인해 국가가 얻는 방어 점수를 [INITIATOR_COUNTRY.GetAdjective] 무기를 주둔시킨 국가 수당 25%씩 감소시켜 더욱 효과적으로 공격할 수 있게 될 것입니다\"" # 3938530259247810659
   station_nuclear_weapons_action_notification_break_name: "[INITIATOR_COUNTRY.GetAdjectiveNoFlag] 핵무기 제거됨" # 9757005546814174296
   station_nuclear_weapons_action_notification_break_desc: "[INITIATOR_COUNTRY.GetName]이(가) [INITIATOR_COUNTRY.GetName]에서 [TARGET_COUNTRY.GetAdjective] 핵무기를 제거했습니다." # 3046627778900101591
   station_nuclear_weapons_trigger_desc_global: "우리나라에 배치된 핵무기가 있습니까" # 470551261247507679
@@ -132,7 +132,7 @@
   pause_nuclear_weapons_development_action_notification_name: "[TARGET_COUNTRY.GetName]이 핵무기 프로그램을 중단합니다" # 5952968512487675386
   pause_nuclear_weapons_development_action_notification_desc: "[TARGET_COUNTRY.GetName]은 핵무기 프로그램을 중단하는 데 동의하는 대신 [INITIATOR_COUNTRY.GetName]이 [TARGET_COUNTRY.GetName]에게 매주 수입을 지급합니다." # 6180591190408919131
   pause_nuclear_weapons_development_proposal_notification_name: "[TARGET_COUNTRY.GetName]이 핵무기 프로그램을 중단합니다" # 5952968512487675386
-  pause_nuclear_weapons_development_proposal_notification_desc: "[INITIATOR_COUNTRY.GetName]이 [TARGET_COUNTRY.GetName]에게 제안합니다: [TARGET_COUNTRY.GetAdjective] 핵무기 프로그램을 중단하면 [INITIATOR_COUNTRY.GetName]이 [TARGET_COUNTRY.GetName]에게 주간 수입을 지급할 것입니다." # 11240077586258328056
+  pause_nuclear_weapons_development_proposal_notification_desc: "[INITIATOR_COUNTRY.GetName]이 [TARGET_COUNTRY.GetName]에게 제안합니다: [TARGET_COUNTRY.GetAdjective] 핵무기 프로그램을 중단하면 [INITIATOR_COUNTRY.GetName]이 [TARGET_COUNTRY.GetName]에게 매주 수입을 지급할 것입니다." # 12913854183105464837
   pause_nuclear_weapons_development_proposal_notification_effects_desc: "수락될 경우, [TARGET_COUNTRY.GetName]은 [INITIATOR_COUNTRY.GetName]이 [TARGET_COUNTRY.GetName]에게 매주 수입을 지급하는 대가로 핵무기 개발 프로그램을 중단할 것입니다." # 5458156634888959026
   pause_nuclear_weapons_development_proposal_declined_name: "핵무기 프로그램 일시 중단 조약 거부됨" # 12954792258843158441
   pause_nuclear_weapons_development_proposal_declined_desc: "[TARGET_COUNTRY.GetName]은 [INITIATOR_COUNTRY.GetName]이 주간 수입을 [TARGET_COUNTRY.GetName]에 지불하는 대가로 핵무기 프로그램을 중단하자는 [INITIATOR_COUNTRY.GetName]의 제안을 거부했습니다. [TARGET_COUNTRY.GetAdjective] 핵 프로그램은 계속됩니다." # 3073752000781575576
@@ -147,7 +147,7 @@
   nuclear_de_escalation_treaty_proposal_accepted_name: "[INITIATOR_COUNTRY.GetAdjectiveNoFlag]-[TARGET_COUNTRY.GetAdjectiveNoFlag] 핵 비확산 조약" # 491210706056924913
   nuclear_de_escalation_treaty_proposal_accepted_desc: "[INITIATOR_COUNTRY.GetName]와 [TARGET_COUNTRY.GetName]는 서로 국경을 맞대고 있는 국가에 핵무기를 배치하지 않고, 핵 공격 능력을 50% 감축하며, 탄도탄 요격 미사일 체계를 배치하지 않기로 합의하여 핵무기 태세를 완화하기로 약속했습니다." # 15962597214457054859
   nuclear_de_escalation_treaty_proposal_notification_name: "[INITIATOR_COUNTRY.GetAdjectiveNoFlag]-[TARGET_COUNTRY.GetAdjectiveNoFlag] 핵 비확산 조약" # 3217891584769893697
-  nuclear_de_escalation_treaty_proposal_notification_desc: "[INITIATOR_COUNTRY.GetName]와 [TARGET_COUNTRY.GetName]가 서로 국경을 맞댄 국가에 핵무기를 배치하지 않고, 핵 공격 능력을 50% 감축하며, 탄도탄 요격 미사일 체계를 배치하지 않는 것에 합의하여 핵무기 태세를 완화할 것을 제안합니다." # 12646288719688923929
+  nuclear_de_escalation_treaty_proposal_notification_desc: "[INITIATOR_COUNTRY.GetName]와 [TARGET_COUNTRY.GetName]는 서로 국경을 맞대고 있는 국가들에 핵무기를 배치하지 않고, 핵 공격 능력을 50% 감축하며, 탄도탄 요격 체계를 배치하지 않기로 합의함으로써 핵무기 태세를 완화할 것을 제안합니다." # 651573451503101091
   nuclear_de_escalation_treaty_proposal_notification_effects_desc: "만약 수락된다면, 양국은 서로 국경을 맞댄 국가에 핵무기를 주둔시키지 않으며, 핵 공격 능력을 50% 감축하고, 어떠한 탄도탄 요격 미사일 체계도 배치하지 않을 것입니다." # 6134108920490382814
   nuclear_de_escalation_treaty_proposal_declined_name: "핵 비확산 조약 거부됨" # 8020693968836177928
   nuclear_de_escalation_treaty_proposal_declined_desc: "[TARGET_COUNTRY.GetName]은 국경을 맞대고 있는 국가들에 핵무기를 배치하지 않고, 핵 공격 능력을 50% 감축하며, 탄도탄 요격 미사일 시스템을 배치하지 않기로 합의하여 [INITIATOR_COUNTRY.GetName]의 핵무기 태세 완화 제안을 거부했습니다." # 6175561280360991227
@@ -167,7 +167,7 @@
   demand_nuclear_weapons_removal_action_propose_name: "핵 군축을 요구하다" # 8917993145553236810
   demand_nuclear_weapons_removal_desc: "이 외교 행동은 시전자에게 수신국에게 자국 영토에서 핵무기를 제거할 것을 요구하거나, 그렇지 않을 경우 시국에 복종하도록 강요할 수 있는 권한을 부여합니다." # 13671347177174466914
   demand_nuclear_weapons_removal_proposal_notification_name: "[TARGET_COUNTRY.GetName]의 핵무장 해제" # 7338927291655484051
-  demand_nuclear_weapons_removal_proposal_notification_desc: "[INITIATOR_COUNTRY.GetName]은 [TARGET_COUNTRY.GetName]에게 향후 최소 10년 동안 영토 내 모든 핵무기를 제거할 것을 요구하며, 그렇지 않을 경우 [TARGET_COUNTRY.GetName]을 속국화하기 위한 [concept_diplomatic_play]를 시작할 것이라고 경고합니다." # 17621697768821495010
+  demand_nuclear_weapons_removal_proposal_notification_desc: "[INITIATOR_COUNTRY.GetName]은 [TARGET_COUNTRY.GetName]에게 향후 최소 10년간 모든 핵무기를 영토에서 제거할 것을 요구하며, 그렇지 않을 경우 [TARGET_COUNTRY.GetName]을 속국으로 만들기 위한 [concept_diplomatic_play]를 시작할 것이라고 천명합니다." # 17741793628396431292
   demand_nuclear_weapons_removal_proposal_notification_effects_desc: "[TARGET_COUNTRY.GetName]은 보유 중인 모든 핵무기 프로그램을 중단하고 향후 10년간 [TARGET_COUNTRY.GetAdjective] 영토에 핵무기를 배치하지 않을 것을 약속할 것입니다." # 11614240265857483601
   demand_nuclear_weapons_removal_proposal_accepted_name: "[TARGET_COUNTRY.GetAdjective] 핵 군축" # 207555493436722454
   demand_nuclear_weapons_removal_proposal_accepted_desc: "[TARGET_COUNTRY.GetName]은 모든 핵무기를 해제하는 데 동의했으며 향후 10년간 [TARGET_COUNTRY.GetAdjective] 영토에 핵무기를 배치하지 않겠다고 약속했습니다." # 14580314904397424690

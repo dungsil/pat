@@ -35,7 +35,7 @@
   k_hephthalite_restored_adj: "헤프탈" # 9811075274211343200
   RICE_hephthalite_legend_new_title_name: "헤프탈인의 귀환" # 2607721397807211983
   RICE_hephthalite_legend_new_title_desc: "수 세대 전, [original_culture.GetCollectiveNoun]은 백흉노로서 이란과 인도 세계에 공포를 심어주었습니다. [founder.GetTitledFirstName]의 대에 이르러, 그들은 이전보다 더 강하고, 부유하며, 위협적인 모습으로 돌아왔습니다." # 8850822289250393124
-  RICE_hephthalite_legend_chapter_opening_new_title: "파미르 산맥에서 [ROOT.Legend.GetProperty( 'original_culture' ).Culture.GetCollectiveNounNoTooltip]이 이란과 인도 세계의 비옥한 농경지와 호화로운 도시들로 휩쓸고 들어왔습니다. 백훈족과 같은 여러 이름으로 알려진 그들은 실크로드를 따라 사는 다른 유목 부족들조차 모든 민족에게 두려움의 대상이었습니다. 하지만 모든 것에는 끝이 있기 마련이었고, 옛 [ROOT.Legend.GetProperty( 'title' ).Title.GetBaseNameNoTooltip]은 패배를 겪고 적들에게 의해 산산조각 났습니다." # 8093166716580810971
+  RICE_hephthalite_legend_chapter_opening_new_title: "파미르 산맥으로부터, [ROOT.Legend.GetProperty( 'original_culture' ).Culture.GetCollectiveNounNoTooltip]은 비옥한 농경지와 이란 및 인도 세계의 호화로운 도시들로 휩쓸고 들어왔습니다. 백훈족과 같은 여러 이름으로 알려진 그들은 실크로드를 따라 사는 다른 유목 부족들조차도 모든 민족에게 두려움의 대상이었습니다. 하지만 모든 것에는 끝이 있기 마련이었고, 옛 [ROOT.Legend.GetProperty( 'title' ).Title.GetBaseNameNoTooltip]은 패배를 겪고 적들에게 의해 산산조각 났습니다." # 3687328756207773388
   RICE_hephthalite_legend_chapter_motivation_new_title: "[ROOT.Legend.GetProperty( 'original_culture' ).Culture.GetCollectiveNounNoTooltip]의 흩어진 후예들은 실크로드의 먼 농경지와 도시, 산악 지대를 따라 작은 잔존 국가들로 살아남았습니다. 그들 중에는 선견지명이 있는 [ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip]이 이끄는 [ROOT.Legend.GetProperty( 'culture' ).Culture.GetCollectiveNounNoTooltip] 부족도 있었습니다. [ROOT.Legend.GetProtagonist.GetSheHe|U]는 자신의 백성들을 옛 영광으로 되돌리고, [ROOT.Legend.GetProperty( 'original_culture' ).Culture.GetCollectiveNounNoTooltip]의 새로운 제국을 세우고자 했습니다." # 12396107854914127596
   RICE_hephthalite_legend_chapter_famous_deed_new_title: "고대 [ROOT.Legend.GetProperty( 'original_culture' ).Culture.GetCollectiveNounNoTooltip]인들은 전사였지만, 상인이자 도시 건설자, 장인이기도 했습니다. 따라서 [ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip]는 다재다능한 통치자로서 [ROOT.Legend.GetProtagonist.GetHerHis] 빛나는 선조들을 본받아야 했습니다. [ROOT.Legend.GetProtagonist.GetSheHe|U]는 교역을 장려하고, 새로운 정착지를 건설하며, 예술을 후원하고, [ROOT.Legend.GetProtagonist.GetFaith.GetAdjectiveNoTooltip] [ROOT.Legend.GetProtagonist.GetFaith.HouseOfWorshipPlural]와 [ROOT.Legend.GetProtagonist.GetFaith.HighGodName]을 위한 위대한 기념비를 많이 세웠습니다." # 18357199587584345462
   RICE_hephthalite_legend_chapter_extra_deed_new_title: "하지만 물론, [ROOT.Legend.GetProperty( 'original_culture' ).Culture.GetCollectiveNounNoTooltip]의 진정한 자손으로서, [ROOT.Legend.GetProtagonist.GetHerHis] 가장 위대한 업적은 군사적인 것이었습니다. 셀 수 없이 많은 부족들과 도시들, 그리고 수많은 소위 왕들이 [ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip] 앞에 무릎을 꿇었습니다. 어떤 이들은 저항하는 것이 어리석다는 것을 알고 현명하게 항복했으며, 또 다른 이들은 [ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip]와 그/그녀의 두려운 전사들에게 패배한 후에 굴복했습니다." # 16840289525164150557
@@ -446,7 +446,7 @@
   RICE_pamir_hephthalite_focus_south: "남부 헤프탈 영토" # 5522876403616531270
   RICE_pamir_hephthalite_focus_south_desc: "파미르 고원에 헵탈 왕국을 재건한 이 인물은 이제 제국적 야망의 다음 단계를 위해 남쪽을 바라보고 있습니다. 많은 이들이 그들을 백훈이라 부르며 두려운 약탈자이자 전사로 여기지만, 헵탈인들은 또한 건축가이자 장인이며 상인이기도 합니다. 이 인물은 자신의 운명이 수 세대에 걸쳐 통치해 온 수많은 민족들의 가장 훌륭한 자질을 본받는 데 있다고 믿습니다." # 11983887270622003341
   RICE_pamir_successful_chinir_festival: "성공적인 치니르 축제" # 5509604047821393430
-  RICE_pamir_aspiration_assert_zunbil_independence: "[aspiration|E]: 준빌 독립 주장" # 6630401692926886481
+  RICE_pamir_aspiration_assert_zunbil_independence: "[RICE_aspiration|E]: 준빌 독립 쟁취" # 983642425209988441
   RICE_pamir_aspiration_assert_zunbil_independence_desc: "#italic 피루즈는 정의의 신 주운의 진정한 챔피언으로 나서서, 즈운빌과 그들의 민족의 옛 생활 방식을 역경 속에서 영원히 지켜내야 합니다!#$RICE_pamir_aspiration_zunbil_desc$\n\n" # 15936612919387608811
   RICE_pamir_visit_bibi_fatima: "비비 파티마 온천을 방문하십시오" # 12284798727996748473
   RICE_pamir_visit_bibi_fatima_tooltip: "당신은 와칸의 비비 파트미나 온천을 방문하게 될 것입니다." # 14333763926238842373
@@ -454,7 +454,7 @@
   RICE_pamir_visit_bibi_fatima_effect_2_tooltip: "[ROOT.Char.GetFaith.GetAdjective] 신앙을 가진 신자로서, 당신은 [piety|E]를 얻을 수도 있습니다." # 8196077516144351945
   RICE_pamir_visit_bibi_fatima_desc: "비록 많은 이들이 이 온천을 방문하기 위해 멀리서 오지만, 나는 가까이 살고 있으니 이 기회를 이용해 휴식을 취해야겠군." # 617177243679455471
   RICE_pamir_visit_bibi_fatima_confirm: "시작해보지!" # 1830976368998437983
-  RICE_pamir_visit_bibi_fatima_context_tooltip: "#emphasis 역사적 배경:#! 현재 타지키스탄에 위치한 와칸 계곡의 비비 파티마 온천은 예언자 무함마드의 딸의 이름을 따서 명명되었습니다. 이 온천은 여성의 생식 능력을 향상시킨다고 전해집니다." # 4095316959711827558
+  RICE_pamir_visit_bibi_fatima_context_tooltip: "#emphasis 역사적 배경:#! 현재 타지키스탄에 위치한 와칸 계곡의 비비 파티마 온천은 예언자 무함마드의 딸의 이름을 따서 명명되었습니다. 이 온천은 여성의 생식력을 향상시킨다고 전해집니다." # 17006482531128580931
   RICE_pamir_attend_chinir_festival: "치니르 축제에 참석하기" # 10540866227466221453
   RICE_pamir_attend_chinir_festival_tooltip: "지역 치니르 축제에 참석할 것입니다." # 5009895354542994928
   RICE_pamir_attend_chinir_festival_effect_tooltip: "치니르 축제에 참석합니다" # 10863862231098346548
@@ -677,7 +677,7 @@
   pamir.0017.desc: "이백 년 넘게 사파르 왕조의 침공에 맞서 자불리스탄의 준빌 왕조는 독립을 유지해 왔습니다. 이들은 한때 다투던 헵탈인부터 투르크인, 이란인 등 여러 부족을 통합하여 굳건히 저항했으나... 최근 그들의 상대가 될 만한 강력한 군벌인 [saffarid.GetTitledFirstName]을 만났습니다.\n\n패배 후, [RICE_zunbil_cousin.GetFirstName]과 같은 일부 준빌인들은 [saffarid.GetFirstName]에게 복종하기로 동의했습니다. 반면, 마지막 준빌 통치자의 아들인 [RICE_last_zunbil.GetFirstName]과 같은 이들은 여전히 옛 [RICE_last_zunbil.GetFaith.GetAdjective]의 방식을 믿으며 사파르 왕조의 권위에 저항하다 투옥되었습니다.\n\n소문에 따르면 [RICE_last_zunbil.GetFirstName]이 감옥에서 탈출하여 준빌의 고향에 대규모 병력을 모아 명목상의 독립을 유지하려 한다고 합니다. 또한 [RICE_zunbil_cousin.GetFirstName]이 사파르 왕조가 타히르 왕조와 충돌하는 틈을 타 반란을 준비하며 때를 기다리고 있다는 소문도 있습니다. 이 땅에 다시 전쟁이 일어날 것은 분명합니다.\n\n결국, 누가 더 큰 실수를 저질렀는지 의문일 뿐입니다. 준빌을 정복하려는 자들에게 가담한 [RICE_zunbil_cousin.GetFirstName]일까요, 아니면 피할 수 없는 운명에 헛되이 저항한 [RICE_last_zunbil.GetFirstName]일까요? 이것이 위대한 준빌 왕조, 옛 백훈족의 마지막 잔재의 마지막 장이 될 수 있을까요?" # 13680329216411614221
   pamir.0017.a: "저는 제 편을 골랐습니다. 준빌 가문의 운명은 곧 결정될 것입니다!" # 2285488841381042822
   pamir.0017.info: "#emphasis 역사적 배경:#! 9세기 중반, 사파르 왕조가 준빌 왕조의 지배를 받았던 영토들을 진정시키기 위해 시도했던 여러 노력들은 거센 저항에 부딪혔습니다. 예를 들어, 사파르 왕조 치하에서 알-루카즈(칸다하르)의 총독이 되었던 준빌 가문의 후계자가 867년에 반란을 일으켰습니다. 몇 년 후인 869년, 아랍 기록에 피루즈 이븐 카브크(Firuz ibn Kabk)라고 기록된 마지막 준빌 왕이 사파르 왕조의 포로 신세에서 벗어나 무슬림과 싸울 추종자들을 규합했습니다.\n\n준빌 왕조는 870년에 피루즈가 사파르 왕조 군대에게 패배하면서 막을 내렸습니다." # 8025583083914735342
-  pamir.0017.firuz.tooltip: "#bold 피루즈의 [aspiration|E]: 준빌 독립 선언#!$RICE_pamir_aspiration_zunbil_desc$\n" # 5160934860183438994
+  pamir.0017.firuz.tooltip: "#bold 피루즈의 [RICE_aspiration|E]: 준빌 독립 주장#!$RICE_pamir_aspiration_zunbil_desc$\n" # 2151300324565755769
   pamir.0018.t: "$RICE_historical_aspiration_fulfilled_title$" # 6312590152546762382
   pamir.0018.desc: "인정합니다. 여기까지 오리라 생각지 못했습니다. 사파르 왕조에 맞선 저항을 시작했을 때, 저의 주된 목표는 그들의 무시무시한 군대와 우리를 파멸시키려는 다른 자들의 군대에 맞서 우리의 입지를 확보하는 것뿐이었습니다.\n\n하지만 보십시오. 준빌 왕국이 복원되었습니다. 우리의 적들은 굴복했습니다. 준이 승리했습니다.\n\n앞으로의 여정은 험난할 것입니다. 우리는 고대의 문화와 오래전에 사라진 왕조의 유산이 깃든, 다양한 기원과 배경을 가진 땅입니다. 하지만 우리는 성공적으로 영역을 재건했으며 번영할 미래의 토대를 마련했습니다. 이 험준한 산맥과 비옥한 계곡에서 우리는 다시 한번 위대한 문명을 건설할 것입니다." # 15832995015834000393
   pamir.0018.a: "태양, 정의의 수여자시여, 찬양받으소서!" # 8396697900060687019
@@ -719,7 +719,7 @@
   pamir.0028.a: "xxxxx" # 1951045980481827005
   pamir.0029.t: "xxxxx" # 1951045980481827005
   pamir.0029.desc: "xxxxx" # 1951045980481827005
-  pamir.0029.a: "xxxxx" # 1951045980481827005
+  pamir.0029.a: "xxxx\"" # 15308465615999842627
   pamir.0030.t: "온천 여행" # 5209785985484885203
   pamir.0030.desc: "파미르 산맥에는 많은 온천이 있지만, 소위 비비 파티마 온천은 이 지역에서 가장 잘 알려진 곳 중 하나입니다.\n\n와칸 계곡에 위치한 비비 파티마는 이슬람 예언자 무함마드의 딸의 이름을 따서 명명되었는데, 이곳 일부 무슬림들 사이에는 그녀와 이 온천을 연관 짓는 전설이 있어 심지어 비무슬림들까지도 이 이름으로 알고 있을 정도입니다. 이 온천들은 치유 능력이 있을 뿐만 아니라, 생식력을 향상시키는 것으로도 믿어집니다.\n\n저는 이 온천을 방문하여 휴식을 취하기로 결정했습니다." # 3815936811621251807
   pamir.0030.a: "샘물로 가야겠군!" # 11606847550233686217
@@ -771,7 +771,7 @@
   pamir.0040.t: "주운의 우상이 복원되다" # 18048108023661725435
   pamir.0040.desc: "수 세기 전, [zamindawar_county.GetNameNoTier]에는 준의 우상이 숭배자들의 헌신과 신앙심의 상징으로 자랑스럽게 서 있었습니다. 이제 바다흐샨의 루비 눈으로 장식된 거대한 황금 조각상이 [zun_idol_restorer.GetTitledFirstName]의 노력 덕분에 부활했습니다. 이는 분명 [zun_idol_restorer.GetFaith.GetAdjective] 운명의 부흥을 알리는 징조일 것입니다!" # 9671180225271833627
   pamir.0040.a: "훌륭하군!" # 5815683167456707443
-  pamir.0041.t: "주눈을 위해 아루나 산을 되찾다" # 10666376125736626032
+  pamir.0041.t: "#bold 주운 신을 위한 아루나 산 탈환#!" # 1262639903004877053
   pamir.0041.desc: "아주 오래전, [kabul_county.GetNameNoTier] 근처에 있는 아루나 산은 위대한 신 주운, 즉 정의를 베푸는 신의 거처였다고 전해집니다. 슬프게도 그의 추종자들은 수리야를 섬기는 브라흐만교도들에게 산에서 쫓겨났습니다. 하지만 [zun_mount_aruna_relcaimer.GetTitledFirstName]의 노력 덕분에 아루나 산은 이제 다시 [zun_mount_aruna_relcaimer.GetFaith.GetAdjective]의 통제 아래 확고히 놓였으며, 그곳에 주운의 새로운 우상이 세워졌습니다." # 15433205539441220250
   pamir.0041.a: "훌륭하군!" # 16848862372218168470
   pamir.0042.t: "\"이교도\"에게 보내는 간청" # 425084376940008292
@@ -812,7 +812,7 @@
   pamir.0049.t: "슈리 바다트의 유산" # 16277705820152049780
   pamir.0049.desc: "처음에는 나 역시 그 거짓말을 믿었다. 하지만 깊이 생각할수록, 나는 [shri_badat.GetFirstName]가 오해받은 인물이라는 것을 깨달았다. 그는 이 세상에서 중요한 것은 #X #bold 권력#!#!과 #X #bold 공포#!#!뿐이며, 힘이 곧 정의라는 것을 알고 있었다. 그를 죽인다고 해서 그 현실이 바뀌는 것은 아니었다.\n\n그의 영혼이 아직도 이 근처에 떠돈다는 소문이 있다. 어떤 날 밤에는 그가 내 귓가에 속삭이는 꿈을 꾸는데, [ROOT.Char.GetTitleAsNameNoTooltip]로서 어떻게 성공할 수 있는지 알려준다. 나는 그의 모범을 본받아 내 마음속 어둠을 받아들여야 한다고 말이다.\n\n그 점을 염두에 두고, 나는 기적적으로 아직 서 있는 그의 옛 궁전 개조를 명령했다. 나는 힘이 없는 하찮은 자들의 심장에 공포를 심어줄 것이며, 그들은 내 앞에서 떨게 될 것이다. 오직 힘과 공포만이 이 땅을 위대하게 재건할 수 있다." # 18202877925261453591
   pamir.0049.a: "나를 두려워하라!" # 4692641922406023385
-  pamir.0049.tooltip: "#weak 그렇지만... 내가 어둠을 받아들이자, 희미한 목소리가 들려온다....\"[THIS.Char.GetFirstNameNoTooltip], [THIS.Char.GetFirstNameNoTooltip], 안 돼\"#!" # 8343728575047034931
+  pamir.0049.tooltip: "#weak 그럼에도 불구하고... 어둠을 받아들이자 희미한 목소리가 들려온다....\"[THIS.Char.GetFirstNameNoTooltip], [THIS.Char.GetFirstNameNoTooltip], 안 돼!" # 16901460443869343385
   pamir.0050.t: "준비" # 666839747819429162
   pamir.0050.desc: "치니르 축제는 파미르 산악 지대에 거주하는 많은 민족들이 수확철의 시작을 환영하기 위해 전통적으로 기념하는 축제입니다. 이 축제는 사회적 교류와 음식 및 즐거움을 나누는 것이 장려되는 행사입니다. 축제 날이 곧 다가오고 있으며, 저는 평민들을 만나 올해 축제에 기여하기로 결정했습니다!" # 18357049390164739347
   pamir.0050.a: "수확철이 다가오고 있습니다!" # 11432652898661464893
@@ -985,7 +985,7 @@
   pamir.0098.a: "xxxxx" # 1951045980481827005
   pamir.0099.t: "xxxxx" # 1951045980481827005
   pamir.0099.desc: "xxxxx" # 1951045980481827005
-  pamir.0099.a: "xxxxx" # 1951045980481827005
+  pamir.0099.a: "xxxx\"" # 15308465615999842627
   pamir.0100.t: "xxxxx" # 1951045980481827005
   pamir.0100.desc: "xxxxx" # 1951045980481827005
   pamir.0100.a: "xxxxx" # 1951045980481827005
@@ -1085,7 +1085,7 @@
   pamir.0128.a: "xxxxx" # 1951045980481827005
   pamir.0129.t: "xxxxx" # 1951045980481827005
   pamir.0129.desc: "xxxxx" # 1951045980481827005
-  pamir.0129.a: "xxxxx" # 1951045980481827005
+  pamir.0129.a: "xxxx\"" # 15308465615999842627
   pamir.0130.t: "준비" # 666839747819429162
   pamir.0130.desc: "저는 [badakhshan_county.GetNameNoTier]의 작은 마을 얌간으로 짧고 소박한 순례를 떠날 계획을 세웠습니다. 사실 저는 얌간 자체가 아니라 그 근처에 있는 성지로 향하는 중입니다. 그곳은 저명한 [nasir_khusraw.GetFullName] 대시인이자 학자이며 성인의 묘소가 있는 곳입니다. 바다흐샨과 파미르 주변의 많은 지역에서, 그가 생전에 이스마일파의 전도사였음에도 불구하고, 이곳의 시아파와 수니파 무슬림 모두에게 여전히 존경받고 있습니다. 많은 이들이 그의 성소를 방문할 기회를 잡으며, 저 또한 그리 할 작정입니다.\n\n이 위대한 인물의 성소를 방문하고 그의 모범을 따름으로써, 제 신앙을 강화하고 알라께 더 가까이 다가갈 수 있기를 바랍니다." # 11956095707340228793
   pamir.0130.a: "저에게는 좋은 영적인 기회가 될 것입니다." # 12355497462976441188
@@ -1445,8 +1445,8 @@
   pamir.0228.b: "사실이겠지, 그저 허황된 상상일 뿐이겠지." # 1758384146149429604
   pamir.0229.t: "헤프탈라이트의 유산" # 1799452205512003872
   pamir.0229.desc: "저는 지역 장로들이 위대하고 강력했던 #bold 에프탈# 족에 대한 이야기를 들려주는 것을 듣고 있습니다. 에프탈 부족은 한때 파미르와 힌두 쿠시 산맥을 고향이라 불렀지만, 이제는 그들의 수가 줄어들어 주변의 다른 문화에 흡수되어 사라진 민족이 되었습니다." # 7565988069440593638
-  pamir.0229.a: "그들은 적수가 거의 없는 두려운 전사들이었습니다." # 9955165410110250063
-  pamir.0229.b: "그들은 또한 상인이자 탐험가이기도 했습니다." # 3879146524012867126
+  pamir.0229.a: "그들은 적수가 거의 없는 두려운 전사들이었다." # 7223405616204955767
+  pamir.0229.b: "그들은 또한 상인이자 탐험가이기도 했습니다\"" # 938260553980505263
   pamir.0230.t: "마을의 후크" # 17751262403672511305
   pamir.0230.desc: "\"모든 땅에는 저마다의 #italic 훅#!이 있소, [ROOT.Char.GetTitleAsNameNoTooltip]\" 마을 원로가 내 팔을 툭툭 치며 설명한다.\n\n나는 공식적인 임무를 수행하기 위해 파미르와 힌두쿠시 산맥 고지대의 한 마을에 와 있다. 지금은 잠시 휴식을 취하며 현지 원로와 잡담을 나누는 중이다.\n\n그는 말을 잇는다.\"우리 말로 땅의 정령을 의미하지. #italic 훅#!은 물에서 올 수도 있고, 흙에서 올 수도 있소. 마을의 모든 사람, 남자와 여자, 늙은이와 젊은이는 그들의 #italic 훅#!을 공유하오. #italic 훅#!의 차이가 우리 마을 사람들은 온화하고, 지혜롭고, 예의 바른 반면, 아래쪽에 있는 마을 사람들은 무례하고, 성급하며, 화를 잘 내는 이유를 설명해 주지\"" # 14144811551913743171
   pamir.0230.a: "#italic 훅#에 대한 현명한 통찰이십니다, 존경하는 어르신." # 11421628625338917586

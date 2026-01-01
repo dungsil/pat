@@ -9,3 +9,4 @@ localization = [
   "Urban Synergy Unleashed/localization/english"
 ]
 language = "english"
+version_strategy = "natural"
