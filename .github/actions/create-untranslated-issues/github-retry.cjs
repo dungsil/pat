@@ -154,7 +154,7 @@ async function githubApiRetry(operation, operationName, options = {}) {
         }
       }
       
-      core.info(`[${operationName}] 재시도 ${attempt + 1}/${maxRetries + 1}: ${message}`);
+      core.info(`[${operationName}] 시도 ${attempt + 1}/${maxRetries + 1}: ${message}`);
       await delay(retryDelay);
     }
   }
