@@ -54,7 +54,7 @@ jobs:
         uses: ./.github/actions/create-untranslated-issues
         with:
           game: ck3
-          file-path: ck3-untranslated-items.json
+          github-token: ${{ secrets.GITHUB_TOKEN }}
       - name: Check translation result
         if: steps.translate.outcome == 'failure'
         run: exit 1
