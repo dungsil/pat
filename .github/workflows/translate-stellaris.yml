@@ -58,6 +58,7 @@ jobs:
         uses: ./.github/actions/create-untranslated-issues
         with:
           game: stellaris
+          github-token: ${{ secrets.GITHUB_TOKEN }}
       - name: Check translation result
         if: steps.translate.outcome == 'failure'
         run: exit 1
