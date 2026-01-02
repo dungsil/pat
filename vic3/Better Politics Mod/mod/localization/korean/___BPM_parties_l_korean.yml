@@ -153,8 +153,8 @@
   party_fra_order: "질서당" # 1841784538103628430
   party_fra_national_union: "국민 연합" # 18403918183498423304
   party_fra_bonapartist: "보나파르트당" # 16252949614215833084
-  party_fra_liberal_republican_union: "자유공화당 연합" # 1805358776943539595
-  party_fra_republican_federation: "공화국 연방" # 13879547150723432985
+  party_fra_liberal_republican_union: "자유공화연합" # 1805358776943539595
+  party_fra_republican_federation: "공화 연방" # 13879547150723432985
   party_agrarian_fra: "[SCOPE.GetRootScope.GetCountry.GetCustom('fra_agrarian_party_name')]" # 18297210555190896056
   party_peasants: "농민 조합" # 492666689357716474
   party_independent_rad: "독립 급진파" # 15164175698785420033
@@ -267,7 +267,7 @@
   party_rus_sr: "사회혁명당" # 11600863829317938990
   party_rus_peasants: "노동 농민 연합" # 4005179712878490826
   party_conservative_ast: "[SCOPE.GetRootScope.GetCountry.GetCustom('ast_conservative_party_name')]" # 3056292269099629949
-  party_protectionist: "보호주의 정당" # 13540932856098159472
+  party_protectionist: "보호무역당" # 13540932856098159472
   party_national_ast: "국민당" # 17428428496366749239
   party_liberal_ast: "[SCOPE.GetRootScope.GetCountry.GetCustom('ast_liberal_party_name')]" # 400747376220263564
   party_bpm_free_trade: "자유무역당" # 10750574050724127448
@@ -478,7 +478,7 @@
   party_cub_authentic_left: "진성당 (좌익)" # 3254940061128773932
   party_cub_communist: "쿠바 공산당" # 8545570980159940223
   party_anarchist_cub: "쿠바 노동자 의회" # 11653906517398720668
-  party_gre_russian: "러시아 정당" # 12163274218958021826
+  party_gre_russian: "러시아 정당" # 17394276694490662289
   party_gre_english: "영국 정당" # 7703592824983533966
   party_gre_french: "프랑스 정당" # 10629307214329740237
   party_gre_french_republican: "프랑스 정당 (공화주의자)" # 6022526176908980254

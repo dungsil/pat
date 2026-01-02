@@ -6,7 +6,7 @@
   e_air_adj: "아이르" # 6162580993069564745
   RICE_tuareg_legend_new_title_name: "위대한 사하라 제국" # 13799786069141440348
   RICE_tuareg_legend_new_title_desc: "[founder.GetTitledFirstName]의 영웅적인 업적을 통해, [GetTitleByKey('e_air').GetName] 아래 사하라의 대부분이 정복되었습니다." # 5145331962878577026
-  RICE_tuareg_legend_chapter_opening_new_title: "[ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip]께서는 분명 저명한 혈통에서 나오셨을 것입니다. 그렇지 않고서야 어찌 [ROOT.Legend.GetProtagonist.GetSheHe]께서 사하라의 수많은 소규모 부족들을 [ROOT.Legend.GetProtagonist.GetHerHis]의 통치 아래 통합할 수 있었겠습니까?" # 2603937932728886830
+  RICE_tuareg_legend_chapter_opening_new_title: "[ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip]께서는 분명 명망 높은 혈통에서 나오셨을 것이오. 그렇지 않고서야 어찌 사하라의 수많은 소규모 부족들을 [ROOT.Legend.GetProtagonist.GetHerHis]의 통치 아래 통합할 수 있었겠소\"" # 3639569727121503007
   RICE_tuareg_legend_chapter_motivation_new_title: "광활한 사하라 사막에는 수많은 부족과 민족들이 있었으며, 그중 [ROOT.Legend.GetProperty( 'culture' ).Culture.GetCollectiveNounNoTooltip]도 그 일부에 불과했습니다. 그들 중 한 명인 [ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip]은 이러한 상황에 만족하지 않았습니다. [ROOT.Legend.GetProtagonist.GetSheHe]는 현명하게도 자신의 백성들에게 물었습니다. 그들이 언제든 교역과 전투에서 자신들을 능가할 수 있는 적들의 자비에 그저 만족해야만 하는가?" # 13096111355673101601
   RICE_tuareg_legend_chapter_famous_deed_new_title: "새로운 활력과 함께, [ROOT.Legend.GetProtagonist.GetHerHis]의 지도 아래, [ROOT.Legend.GetProtagonist.GetFirstNamePossessiveNoTooltip]의 백성들은 그들의 영토를 발전시키고, 교역에 종사하며, 증오하는 적들을 상대로 전쟁을 벌이고 약탈을 감행하는 위대한 업적에 전념했습니다." # 5179855074000614971
   RICE_tuareg_legend_chapter_extra_deed_new_title: "얼마 지나지 않아 [ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip]은 [ROOT.Legend.GetProperty( 'title' ).Title.GetNameNoTooltip]이라 불리는 강력한 신생 국가를 [ROOT.Legend.GetProtagonist.GetHerHis]의 통치 아래 통합할 수 있었습니다. 이 국가는 지중해에서 아프리카 깊숙한 곳까지 뻗어 있었으며, 수많은 교역로를 장악하고 여러 부족들을 다스렸습니다." # 4552059593397093774
@@ -339,7 +339,7 @@
   tuareg.0028.a: "xxxxx" # 1951045980481827005
   tuareg.0029.t: "xxxxx" # 1951045980481827005
   tuareg.0029.desc: "xxxxx" # 1951045980481827005
-  tuareg.0029.a: "xxxxx" # 1951045980481827005
+  tuareg.0029.a: "xxxx\"" # 15308465615999842627
   tuareg.0030.t: "xxxxx" # 1951045980481827005
   tuareg.0030.desc: "xxxxx" # 1951045980481827005
   tuareg.0030.a: "xxxxx" # 1951045980481827005

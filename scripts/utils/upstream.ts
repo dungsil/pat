@@ -11,15 +11,34 @@ import { exec } from 'node:child_process'
 import { promisify } from 'node:util'
 import { access, mkdir, readFile, writeFile, readdir } from 'node:fs/promises'
 import { join, dirname } from 'pathe'
+import * as semver from 'semver'
+import natsort from 'natsort'
 import { log } from './logger'
+import { delay } from './delay'
 import { parseToml } from '../parser/toml'
+import { reportVersionStrategyError } from './version-strategy-reporter'
 
 const execAsync = promisify(exec)
+
+export type VersionStrategy = 'semantic' | 'natural' | 'default'
+
+export class VersionStrategyError extends Error {
+  constructor(
+    message: string,
+    public configPath: string,
+    public invalidStrategy?: string,
+    public gameType?: string
+  ) {
+    super(message)
+    this.name = 'VersionStrategyError'
+  }
+}
 
 interface UpstreamConfig {
   url: string
   path: string
   localizationPaths: string[]
+  versionStrategy?: VersionStrategy
 }
 
 interface MetaTomlConfig {
@@ -27,6 +46,7 @@ interface MetaTomlConfig {
     url?: string
     localization: string[]
     language: string
+    version_strategy?: VersionStrategy
   }
 }
 
@@ -94,14 +114,37 @@ async function findMetaTomlConfigs(rootPath: string, targetGameType?: string, ta
 
 /**
  * 개별 meta.toml 파일을 파싱하여 upstream 설정을 생성합니다
+ * @internal 테스트 목적으로 export됨
  */
-async function parseMetaTomlConfig(metaPath: string, gameDir: string, modName: string): Promise<UpstreamConfig | null> {
+export async function parseMetaTomlConfig(metaPath: string, gameDir: string, modName: string): Promise<UpstreamConfig | null> {
   try {
     const content = await readFile(metaPath, 'utf-8')
     const config = parseToml(content) as MetaTomlConfig
     
     if (!config.upstream?.localization || !Array.isArray(config.upstream.localization)) {
       return null
+    }
+    
+    // version_strategy 유효성 검사
+    if (config.upstream?.version_strategy) {
+      const validStrategies: VersionStrategy[] = ['semantic', 'natural', 'default']
+      if (!validStrategies.includes(config.upstream.version_strategy)) {
+        const error = new VersionStrategyError(
+          `유효하지 않은 version_strategy: ${config.upstream.version_strategy}`,
+          `${gameDir}/${modName}/meta.toml`,
+          config.upstream.version_strategy,
+          gameDir
+        )
+        
+        // GitHub Issues에 보고 (비동기, 에러로 인해 다른 작업 중단 방지)
+        reportVersionStrategyError(error).catch((err) => {
+          log.warn(`GitHub Issues 보고 실패:`, err)
+        })
+        
+        // 해당 모드는 패스
+        log.error(`[${gameDir}/${modName}] ${error.message}`)
+        return null
+      }
     }
     
     const upstreamPath = `${gameDir}/${modName}/upstream`
@@ -112,14 +155,16 @@ async function parseMetaTomlConfig(metaPath: string, gameDir: string, modName: s
       return {
         url: '', // 빈 URL로 일반 파일 기반임을 표시
         path: upstreamPath,
-        localizationPaths: config.upstream.localization
+        localizationPaths: config.upstream.localization,
+        versionStrategy: config.upstream.version_strategy
       }
     }
     
     return {
       url: config.upstream.url,
       path: upstreamPath,
-      localizationPaths: config.upstream.localization
+      localizationPaths: config.upstream.localization,
+      versionStrategy: config.upstream.version_strategy
     }
   } catch (error) {
     log.warn(`Failed to parse meta.toml: ${metaPath}`, error)
@@ -230,73 +275,163 @@ export async function getLatestReleaseFromGitHub(owner: string, repo: string, co
 }
 
 /**
- * 원격 리포지토리에서 최신 참조(태그 또는 브랜치)를 가져옵니다
+ * 버전 전략에 따라 원격 리포지토리의 최신 참조를 가져옵니다.
  * 
- * GitHub 리포지토리인 경우 Releases API를 우선 사용합니다 (가장 정확한 방법).
- * Releases API 실패 시 git ls-remote로 폴백합니다.
- * 
- * 주의: git ls-remote의 태그 정렬 순서는 보장되지 않습니다.
- * GitHub가 아닌 리포지토리의 경우, 마지막 태그가 최신이 아닐 수 있습니다.
- * 가능하면 GitHub Releases를 사용하는 것을 권장합니다.
- * 
+ * @param repoUrl Git 저장소 URL
+ * @param configPath 로깅을 위한 경로
+ * @param versionStrategy 버전 전략 (semantic, natural, default)
+ * @returns 최신 참조 정보
  * @internal 테스트 목적으로 export됨
  */
-export async function getLatestRefFromRemote(repoUrl: string, configPath: string): Promise<{ type: 'tag' | 'branch', name: string }> {
-  try {
-    log.info(`[${configPath}] 원격 태그 확인 중...`)
-    
-    // GitHub URL인 경우 Releases API 사용 (가장 신뢰성 높음)
-    const githubInfo = parseGitHubUrl(repoUrl)
-    if (githubInfo) {
-      const latestRelease = await getLatestReleaseFromGitHub(githubInfo.owner, githubInfo.repo, configPath)
-      if (latestRelease) {
-        return { type: 'tag', name: latestRelease }
+export async function getLatestRefFromRemote(
+  repoUrl: string, 
+  configPath: string,
+  versionStrategy: VersionStrategy = 'default'
+): Promise<{ type: 'tag' | 'branch', name: string }> {
+  
+  log.info(`[${configPath}] 버전 전략(${versionStrategy})으로 최신 버전 확인 중...`)
+  
+  switch (versionStrategy) {
+    case 'semantic':
+      return await getSemanticVersion(repoUrl, configPath)
+    case 'natural':
+      return await getNaturalVersion(repoUrl, configPath)
+    case 'default':
+      return await getDefaultBranch(repoUrl, configPath)
+  }
+}
+
+/**
+ * 업스트림 전용 재시도 함수
+ */
+async function upstreamRetry<T>(
+  operation: () => Promise<T>,
+  operationName: string
+): Promise<T> {
+  const MAX_RETRIES = 3
+  const RETRY_DELAYS = [1_000, 2_000, 4_000] // 밀리초 단위
+  
+  for (let attempt = 1; attempt <= MAX_RETRIES; attempt++) {
+    try {
+      return await operation()
+    } catch (error) {
+      const message = (error as Error).message
+      
+      // 429, 5xx 오류만 재시도
+      if (!message.includes('429 Too Many Requests') && 
+          !message.match(/5[0-9][0-9]/)) {
+        throw error
       }
-      log.info(`[${configPath}] GitHub Releases에서 릴리즈를 찾지 못함, git ls-remote로 폴백...`)
+      
+      if (attempt === MAX_RETRIES) {
+        throw new Error(`${operationName} 실패 (최대 재시도 초과): ${message}`)
+      }
+      
+      log.info(`[${operationName}] 재시도 ${attempt}/${MAX_RETRIES}: ${message}`)
+      await delay(RETRY_DELAYS[attempt - 1])
     }
-    
-    // GitHub가 아니거나 Releases API 실패 시 git ls-remote 사용
-    // 주의: git ls-remote의 정렬 순서는 보장되지 않음
-    const { stdout: tagsOutput } = await execAsync(`git ls-remote --tags --refs "${repoUrl}"`, {
-      timeout: 30000 // 30초 타임아웃
-    })
-    
-    if (tagsOutput.trim()) {
-      // 태그 이름만 추출 (refs/tags/ 접두사 제거)
+  }
+  
+  throw new Error(`${operationName} 실패: 예외 상황`)
+}
+
+/**
+ * GitHub Releases API를 통한 시멘틱 버전 전략
+ */
+async function getSemanticVersion(repoUrl: string, configPath: string): Promise<{ type: 'tag', name: string }> {
+  const githubInfo = parseGitHubUrl(repoUrl)
+  if (!githubInfo) {
+    throw new VersionStrategyError(`Semantic 전략은 GitHub 저장소만 지원합니다: ${repoUrl}`, configPath)
+  }
+  
+  return await upstreamRetry(
+    async () => {
+      const apiUrl = `https://api.github.com/repos/${githubInfo.owner}/${githubInfo.repo}/releases`
+      const response = await fetch(apiUrl, getGitHubApiHeaders())
+      
+      if (!response.ok) {
+        throw new Error(`GitHub API 실패: ${response.status} ${response.statusText}`)
+      }
+      
+      const releases = await response.json() as Array<{ tag_name: string }>
+      
+      // semver 유효한 태그만 필터링
+      const validSemvers = releases
+        .map(r => r.tag_name.replace(/^v/, ''))
+        .filter(tag => semver.valid(tag))
+      
+      if (validSemvers.length === 0) {
+        throw new Error(`유효한 시멘틱 버전 태그를 찾을 수 없음`)
+      }
+      
+      // semver 정렬
+      const sorted = validSemvers.sort(semver.compare)
+      return { type: 'tag', name: `v${sorted[sorted.length - 1]}` }
+    },
+    `${configPath}-semantic`
+  )
+}
+
+/**
+ * git ls-remote를 통한 자연 정렬 버전 전략
+ */
+async function getNaturalVersion(repoUrl: string, configPath: string): Promise<{ type: 'tag', name: string }> {
+  return await upstreamRetry(
+    async () => {
+      const { stdout: tagsOutput } = await execAsync(`git ls-remote --tags --refs "${repoUrl}"`, {
+        timeout: 30000
+      })
+      
+      if (!tagsOutput.trim()) {
+        throw new Error(`태그를 찾을 수 없음`)
+      }
+      
+      // 태그 필터링 및 자연 정렬
       const tags = tagsOutput.trim().split('\n')
         .map(line => {
           const match = line.match(/refs\/tags\/(.+)$/)
           return match ? match[1] : null
         })
         .filter((tag): tag is string => tag !== null && tag.length > 0)
+        .filter(tag => {
+          // 프리릴리즈 제외
+          const preReleaseKeywords = ['beta', 'alpha', 'rc', 'snapshot', 'test', 'dev']
+          const lowerTag = tag.toLowerCase()
+          return !preReleaseKeywords.some(keyword => lowerTag.includes(keyword))
+        })
       
-      if (tags.length > 0) {
-        // 마지막 태그 반환 (정렬 순서가 보장되지 않으므로 최신이 아닐 수 있음)
-        const latestTag = tags[tags.length - 1]
-        log.warn(`[${configPath}] git ls-remote 폴백 사용: 태그 정렬이 보장되지 않으므로 최신이 아닐 수 있음`)
-        log.info(`[${configPath}] 태그 발견 (git ls-remote 폴백): ${latestTag}`)
-        return { type: 'tag', name: latestTag }
+      if (tags.length === 0) {
+        throw new Error(`유효한 태그를 찾을 수 없음`)
       }
-    }
-    
-    // 태그가 없는 경우, 기본 브랜치를 확인
-    log.info(`[${configPath}] 태그 없음, 기본 브랜치 확인 중...`)
-    const { stdout: headOutput } = await execAsync(`git ls-remote --symref "${repoUrl}" HEAD`, {
-      timeout: 10000 // 10초 타임아웃
-    })
-    
-    // 출력 형식: ref: refs/heads/<branch-name>\tHEAD
-    const match = headOutput.match(/ref: refs\/heads\/([^\s]+)/)
-    const branchName = match?.[1] || 'main'
-    
-    log.info(`[${configPath}] 기본 브랜치: ${branchName}`)
-    return { type: 'branch', name: branchName }
-    
-  } catch (error) {
-    // 오류 발생 시 기본값으로 main 브랜치 반환
-    log.warn(`[${configPath}] 원격 참조 확인 실패, 기본 브랜치(main) 사용:`, error)
-    return { type: 'branch', name: 'main' }
-  }
+      
+      // 자연 정렬 (내림차순)
+      const naturalSorter = natsort({ desc: true })
+      const sorted = tags.sort(naturalSorter)
+      
+      return { type: 'tag', name: sorted[0] }
+    },
+    `${configPath}-natural`
+  )
+}
+
+/**
+ * 기본 브랜치 전략
+ */
+async function getDefaultBranch(repoUrl: string, configPath: string): Promise<{ type: 'branch', name: string }> {
+  return await upstreamRetry(
+    async () => {
+      const { stdout: headOutput } = await execAsync(`git ls-remote --symref "${repoUrl}" HEAD`, {
+        timeout: 10000
+      })
+      
+      // 출력 형식: ref: refs/heads/<branch-name>\tHEAD
+      const match = headOutput.match(/ref: refs\/heads\/([^\s]+)/)
+      const branchName = match?.[1] || 'main'
+      
+      return { type: 'branch', name: branchName }
+    },
+    `${configPath}-default`
+  )
 }
 
 /**
@@ -311,7 +446,7 @@ async function cloneOptimizedRepository(targetPath: string, config: UpstreamConf
   try {
     // 1. 먼저 태그 정보만 가져와서 최신 태그를 확인
     log.start(`[${config.path}] 리포지토리 정보 확인 중...`)
-    const latestRef = await getLatestRefFromRemote(config.url, config.path)
+    const latestRef = await getLatestRefFromRemote(config.url, config.path, config.versionStrategy)
     
     // 2. Partial clone (blob 없이 메타데이터만) + shallow clone으로 디스크 공간 최소화
     // 최신 태그나 기본 브랜치를 명시적으로 지정하여 클론
@@ -378,7 +513,7 @@ async function updateExistingRepository(repositoryPath: string, config: Upstream
     
     // 원격 최신 참조 확인
     log.start(`[${config.path}] 원격 최신 버전 확인 중...`)
-    const latestRef = await getLatestRefFromRemote(config.url, config.path)
+    const latestRef = await getLatestRefFromRemote(config.url, config.path, config.versionStrategy)
     
     // 현재 체크아웃된 참조 확인
     let current: string

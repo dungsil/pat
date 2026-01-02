@@ -2,7 +2,7 @@
   com_situation_vs: "대" # 7084827725170907512
   com_situation_leader: "지도자" # 4199691443646333306
   com_situation_interactions: "상호작용" # 6248459751353562088
-  com_victory_conditions: "승리 조건" # 16197004891948210039
+  com_situation_victory_conditions: "승리 조건" # 16197004891948210039
   com_situation_header_leader_for: "[Scope.Var('com_leader').GetCountry.GetName]은 #header [Scope.Var('com_name').GetFlagName]#! 진영의 [concept_com_situation_leader]입니다!" # 14488596415619867890
   com_situation_completion_conditions: "완료 조건" # 17316128977070624512
   com_situation_failure_conditions: "실패 조건" # 2796303187098457867
@@ -68,4 +68,3 @@
   trigger_any_com_situation_countries_COUNT: "$PARAMETERS$ $FILTER$ [concept_country] 이(가) [concept_com_situation]에 있음" # 14214104237580754836
   trigger_any_com_situation_countries_COUNT_FIRST: "$PARAMETERS$ $FILTER$ [concept_country] 이(가) [concept_com_situation]에 있음" # 14214104237580754836
   trigger_any_com_situation_countries_COUNT_THIRD: "$PARAMETERS$ $FILTER$ [concept_country] 이(가) [concept_com_situation]에 있음" # 14214104237580754836
-  je_group_com_situations: "국제 [Concept('concept_com_situation','$concept_com_situations$')]" # 5820793470359279342

@@ -15,7 +15,7 @@
   activity_RICE_bamian_buddhas_non_buddhist_visit_desc: "이슬람 학자들과 시인들은 $c_bamian$의 석상들을 세상의 경이로움, 즉 #italic 'aja'ib#!으로 분류합니다. 나는 [GetPlayer.GetFaith.CreatorNamePossessive]의 창조물을 더 잘 이해하기 위해 이 석상들과 그들이 있는 아름다운 계곡을 유람해야겠습니다." # 12502093691182628061
   activity_RICE_bamian_buddhas_non_buddhist_visit_selection_tooltip: "$c_bamian$의 유명한 우상 조각상들을 방문하십시오.\n\n$activity_RICE_bamian_buddhas_non_buddhist_visit_context_tooltip$" # 6195405183096251125
   activity_RICE_bamian_buddhas_non_buddhist_visit_context_tooltip: "#emphasis 역사적 배경:#! 아프가니스탄이 이슬람화된 이후에도 바미안의 부처상에 대한 무슬림들의 태도는 탈레반 정부가 2001년에 이 상들을 파괴한 것과는 대조적으로, 시간과 장소에 따라 다양했습니다. 예를 들어, 지역 전설에서는 두 상을 비운의 연인들이 돌로 변한 것이라고 믿었습니다. 이러한 이야기는 수 세기 동안 바미안에 거주했던 하자라족 사이에서 큰 영향을 미쳤으며, 일부 학자들은 탈레반이 하자라족에 대한 지속적인 억압의 일환으로 이 상들을 파괴했다고 추측할 정도로 그 영향력이 컸습니다. 중세 이슬람 학자들과 시인들은 이 상들과 그 아름다움을 경탄할 만한 경이로움, 즉 #italic '아자이브'#!로 분류하고 심지어 칭송하기도 했습니다. 예를 들어, 무굴 제국의 창시자인 바부르의 형제였던 자한기르 미르자는 1506년에 군사 원정 중 바미안에 들러 이 상들을 구경하기도 했습니다." # 16647197999467889233
-  activity_RICE_bamian_buddhas_non_buddhist_visit_host_desc: "$BULLET_WITH_TAB$ [stress_loss_i|E][stress|E] 상실\n$BULLET_WITH_TAB$ [intent|E]에 따라 [prestige_i|E][prestige|E] 및/또는 [piety_i|E][piety|E] 획득\n$BULLET_WITH_TAB$ [intent|E]에 따라 #P 긍정적인#! [character_modifier|E] 획득\n$BULLET_WITH_TAB$ [lifestyle|E]에서 [experience|E] 획득" # 8116751845229493159
+  activity_RICE_bamian_buddhas_non_buddhist_visit_host_desc: "$BULLET_WITH_TAB$ [stress_loss_i|E][stress|E] 상실\n$BULLET_WITH_TAB$ [intent|E]에 따라 [prestige_i|E][prestige|E] 및/또는 [piety_i|E][piety|E] 획득\n$BULLET_WITH_TAB$ [intent|E]에 따라 #P 긍정적#!인 [character_modifier|E] 획득\n$BULLET_WITH_TAB$ [lifestyle|E]에서 [experience|E] 획득" # 18144079836331145692
   activity_RICE_bamian_buddhas_non_buddhist_visit_guest_desc: "$activity_RICE_bamian_buddhas_non_buddhist_visit_host_desc$" # 3504984405575677479
   activity_RICE_bamian_buddhas_non_buddhist_visit_destination_selection: "$activity_RICE_bamian_buddhas_non_buddhist_visit_province_desc$" # 15920609691846501713
   activity_RICE_bamian_buddhas_non_buddhist_visit_guest_help_text: "$activity_RICE_bamian_buddhas_non_buddhist_visit$" # 1285617316210566297
@@ -48,7 +48,7 @@
   activity_RICE_bamian_pilgrimage_desc: "$c_bamian$은 여러 세대에 걸쳐 불교 신자들의 예배 장소였습니다. 산비탈에 새겨진 강력한 $building_type_buddhas_of_bamian_01$은 크게 숭배받고 있으며, 역사적인 고타마 붓다와 태초의 첫 번째 붓다인 비로자나불을 묘사하고 있습니다." # 10966822816274289887
   activity_RICE_bamian_pilgrimage_selection_tooltip: "[GetTitleByKey('c_bamian').GetNameNoTier]로 [local_pilgrimage|E]를 떠나십시오.\n\n$activity_RICE_bamian_pilgrimage_context_tooltip$" # 3411557367296068771
   activity_RICE_bamian_pilgrimage_context_tooltip: "#emphasis 역사적 배경:#! 고대 후기와 초기 중세 시대에 바미안은 마하야나 사상과 연계된 대중부(Mahasamghika) 불교 종파의 종교적 중심지였습니다. 유명한 바미안 석불상은 600년경 투르크족 지배 하의 힐라탈 귀족들이 세웠을 가능성이 높으며, 이란 및 인도 양식과 모티프를 통합하여 간다라 예술 양식의 후기 발전을 보여줍니다. 예를 들어, 작은 석불상의 예술 작품에는 이란의 미트라일 가능성이 있는 태양신이 묘사되어 있습니다. 어쨌든, 7세기 중국 순례자 현장(Xuanzang), 8세기 한국 순례자 혜초(Hyecho), 10세기 이슬람 학자 이븐 알나딤(Ibn al-Nadim)과 같은 다양한 1차 사료들은 이 장소가 많은 순례자들을 끌어모았으며 그와 관련된 다양한 종교 의식이 행해졌음을 언급합니다." # 3631903127523016885
-  activity_RICE_bamian_pilgrimage_host_desc: "$activity_RICE_local_pilgrimage_host_desc$\n$BULLET_WITH_TAB$ 봉헌하는 불상에 따라 #P 유익한#! [character_modifier|E]을(를) 얻게 됩니다." # 4544009118275671158
+  activity_RICE_bamian_pilgrimage_host_desc: "$activity_RICE_local_pilgrimage_host_desc$\n$BULLET_WITH_TAB$ 공양을 올리는 불상에 따라 #P 유익한#! [character_modifier|E]를 얻습니다." # 16722625451795264221
   activity_RICE_bamian_pilgrimage_guest_desc: "$activity_RICE_bamian_pilgrimage_host_desc$" # 9486438427001619458
   activity_RICE_bamian_pilgrimage_province_desc: "[GetTitleByKey('c_bamian').GetNameNoTier]은 [GetReligionByKey('buddhism_religion').GetName] 신봉자들에게 중요한 성지입니다." # 3002618609312443943
   activity_RICE_bamian_pilgrimage_destination_selection: "$activity_RICE_bamian_pilgrimage_province_desc$" # 850162914186429929
@@ -202,7 +202,7 @@
   bamian.0028.a: "xxxxx" # 1951045980481827005
   bamian.0029.t: "xxxxx" # 1951045980481827005
   bamian.0029.desc: "xxxxx" # 1951045980481827005
-  bamian.0029.a: "xxxxx" # 1951045980481827005
+  bamian.0029.a: "xxxx\"" # 15308465615999842627
   bamian.0030.t: "$RICEmisc.0011.t$" # 4416038440741163422
   bamian.0030.desc: "많은 #bold [buddhist.GetAdjective]# 신봉자들은 [GetTitleByKey('c_bamian').GetNameNoTier]의 장엄한 계곡에 대해 알고 있습니다. 그곳은 절벽 면에 조각된 기념비적인 두 개의 웅장하고 빛나는 석상이 자리한 곳으로, 현세의 역사적 부처이신 고타마 붓다와 태초의 부처이신 바이로차나를 형상화하고 있습니다.\n\n수 세대 동안 사람들은 이 석상들을 순례하며 찾아왔으며, 저 또한 그리 할 작정입니다. 저는 이 순례를 위한 준비를 마쳤으며, 곧 그 석상들을 향해 떠날 것입니다." # 9452904652411499518
   bamian.0030.a: "부처님께서 이 여정에서 우리를 지켜주시기를!" # 4318119871945901521

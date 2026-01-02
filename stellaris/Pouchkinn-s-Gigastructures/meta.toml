@@ -2,3 +2,4 @@
 url = "https://github.com/Pouchkinn-s-Gigastructures/Gigastructures.git"
 localization = ["localisation/english", "localisation/replace/english"]
 language = "english"
+version_strategy = "default"

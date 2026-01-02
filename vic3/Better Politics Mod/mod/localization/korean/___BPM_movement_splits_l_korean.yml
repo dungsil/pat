@@ -54,8 +54,8 @@
   bpm_movement_splits.9.b: "그들은 위협입니다!" # 6759521722311292455
   bpm_movement_splits_anarchists_tt: "@information! #blue 무정부주의자들은 별개의 [Concept('concept_interest_group', '이해집단')]으로 존재할 것입니다!#" # 11587974936303681018
   bpm_movement_splits.10.t: "적군" # 16235915948629004924
-  bpm_movement_splits.10.d: "광범위한 논쟁 끝에 노동자들과 지식인들은 더욱 혁명적인 흐름에 이끌리게 되었습니다. 개혁을 노동자 해방의 수단으로 일축하는 혁명적 사회주의 사상가들이 이제 조직을 갖추고 프롤레타리아의 혁명적 국제 독재를 주장하며 선동을 시작했습니다." # 17975700284212772648
-  bpm_movement_splits.10.f: "“공산주의자들은 자신들의 견해와 목적을 숨기는 것을 경멸한다. 그들은 자신들의 목표가 기존의 모든 사회 조건을 무력으로 전복함으로써만 달성될 수 있음을 공개적으로 선언한다. 지배 계급들은 공산주의 혁명 앞에서 떨게 하라. 프롤레타리아들은 잃을 것이라고는 쇠사슬밖에 없으며, 얻을 것은 전 세계가 있다.”\n—카를 마르크스, 1848년" # 8537981305182337322
+  bpm_movement_splits.10.d: "광범위한 논쟁의 여파로 노동자와 지식인 모두 더욱 혁명적인 조류에 이끌리게 되었습니다. 노동자 해방의 수단으로서 개혁을 거부하는 입장을 옹호하는 혁명적 사회주의 사상가들은 이제 조직을 결성하고, 혁명적인 국제 프롤레타리아 독재를 위해 선동하기 시작했습니다." # 17975700284212772648
+  bpm_movement_splits.10.f: "“공산주의자들은 자신의 견해와 의도를 숨기는 것을 경멸한다. 그들은 자신들의 목적이 기존의 모든 사회적 조건을 폭력적으로 타도함으로써만 달성될 수 있다는 것을 공개적으로 선언한다. 지배 계급으로 하여금 공산주의 혁명 앞에 떨게 하라. 프롤레타리아트가 이 혁명에서 잃을 것이라고는 쇠사슬뿐이요, 얻을 것은 전 세계이다.”\n—카를 마르크스, 1848년" # 8537981305182337322
   bpm_movement_splits.10.a: "그들은 유용할 수 있소!" # 11233541400948392364
   bpm_movement_splits.10.b: "그들은 위협입니다!" # 6759521722311292455
   bpm_movement_splits_revsocs_tt: "@information! #blue 혁명 사회주의자들은 별도의 [Concept('concept_interest_group', '이해집단')]으로 존재할 것입니다.!#" # 6370816902941833176
@@ -96,7 +96,7 @@
   bpm_royalist_absolutist_movement_faction_default_name: "[InterestGroup.GetCountry.GetRuler.GetPrimaryRoleTitle]의 충성파들" # 487870975039578985
   bpm_royalist_absolutist_movement_faction_landies_name: "충성스러운 봉신들" # 10309558281018321253
   bpm_royalist_absolutist_movement_faction_landies_significant: "$bpm_movement_is_significant_tooltip$" # 4055622154971750414
-  bpm_radical_movement_faction_default_name: "급진파 세력" # 3600419281583147550
+  bpm_radical_movement_faction_default_name: "급진파" # 17266618427769207044
   bpm_radical_movement_faction_default_significant: "$bpm_movement_is_significant_tooltip$" # 4055622154971750414
   bpm_radical_movement_faction_france_name: "상퀼로트" # 2582240032783627911
   bpm_radical_movement_faction_france_significant: "$bpm_movement_is_significant_tooltip$" # 4055622154971750414
@@ -126,7 +126,7 @@
   bpm_pressure_above_threshold: "최소한 #variable 20%#! 압력." # 15528383876689146468
   bpm_support_activism_above: "적어도 #variable 30%#! @population!과 활동성 @activism!을 지지하시오." # 16571091407525244696
   movement_kaikoku_name: "개국파" # 11273802850571446303
-  movement_kaikoku: "$movement_kaikoku_name$" # 14742964736571601537
+  movement_kaikoku: "$movement_kaikoku_name$" # 14341509207034662121
   ideology_eco_kaikoku_ha: "$movement_kaikoku_name$" # 14742964736571601537
   ideology_eco_kaikoku_ha_desc: "이 운동은 국가를 대외 무역과 영향력에 개방해야 한다고 믿습니다." # 11583733684716342605
   movement_market_liberal_name: "자유방임주의 운동" # 16283334773014159472

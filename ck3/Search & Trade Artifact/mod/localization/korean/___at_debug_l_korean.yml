@@ -1,24 +1,24 @@
 ﻿l_korean:
-  at_debug_prefix: "[GetCurrentDate.GetStringShort]: [THIS.Char.GetFullNameNoTooltip] ([THIS.Char.GetID])"
-  at_debug_msg_artifact_bought: "$at_debug_prefix$: 유물 구매 완료, 유물: $at_artifact$, 판매자: $at_seller$, 가격: $at_artifact_price$, 출처: $at_source$"
-  at_debug_msg_artifact_sold: "$at_debug_prefix$: 유물 판매됨, 유물: $at_artifact$, 구매자: $at_buyer$, 가격: $at_artifact_price$, 출처: $at_source$"
-  at_debug_msg_artifact_destroyed: "$at_debug_prefix$: 유물 파괴됨, 유물: $at_artifact$, 우상 파괴자: $at_aniconist$"
-  at_debug_msg_artifact_trade_loaded: "[GetCurrentDate.GetStringShort]: 검색 및 유물 거래 모드가 로드되었습니다."
-  at_debug_msg_visiting_holding_to_trade_artifacts: "$at_debug_prefix$: 유물 교환을 위해 영지를 방문합니다, 위치: $at_location$, 영지 유형: $at_holding_type$"
-  at_debug_msg_attempting_artifact_haggle: "$at_debug_prefix$: 유물 흥정 시도 중"
-  at_debug_msg_selling_artifact_via_outraged_partner: "$at_debug_prefix$: 격분한 배우자를 통해 유물 판매"
-  at_debug_msg_selling_eagle: "$at_debug_prefix$: 독수리 판매"
-  at_debug_msg_creating_artifact: "$at_debug_prefix$: 유물 생성 중"
-  at_debug_msg_destroying_artifact: "$at_debug_prefix$: 유물 파괴 중"
-  at_artifact: "[THIS.Var('artifact').Artifact.GetNameNoTooltip] ([THIS.Var('artifact').Artifact.GetID]$at_artifact_type$)"
-  at_buyer: "[THIS.Var('buyer').Char.GetFullNameNoTooltip] ([THIS.Var('buyer').Char.GetID]$at_buyer_merchant_type$)"
-  at_seller: "[THIS.Var('seller').Char.GetFullNameNoTooltip] ([THIS.Var('seller').Char.GetID]$at_seller_merchant_type$)"
-  at_artifact_price: "[THIS.Var('artifact_price').GetValue]"
-  at_source: "[THIS.Var('source').GetFlagName]"
-  at_destroyer: "[THIS.Var('destroyer').Char.GetFullNameNoTooltip] ([THIS.Var('destroyer').Char.GetID])"
-  at_aniconist: "[Select_CString(THIS.Var('aniconist').IsSet, '예', '아니요')]"
-  at_artifact_type: "[Select_CString(THIS.Var('artifact').Var('at_artifact_type').IsSet, Concatenate(', ', THIS.Var('artifact').Var('at_artifact_type').GetFlagName), '')]"
-  at_buyer_merchant_type: "[Select_CString(THIS.Var('buyer').Var('at_merchant_type').IsSet, Concatenate(', ', THIS.Var('buyer').Var('at_merchant_type').GetFlagName), '')]"
-  at_seller_merchant_type: "[Select_CString(THIS.Var('seller').Var('at_merchant_type').IsSet, Concatenate(', ', THIS.Var('seller').Var('at_merchant_type').GetFlagName), '')]"
-  at_location: "[THIS.Char.GetCurrentLocation.GetNameNoTooltip]"
-  at_holding_type: "[THIS.Char.Custom('LocalHoldingType')]"
+  at_debug_prefix: "[GetCurrentDate.GetStringShort]: [THIS.Char.GetFullNameNoTooltip] ([THIS.Char.GetID])" # 5524939588049464844
+  at_debug_msg_artifact_bought: "$at_debug_prefix$: 유물 구매 완료, 유물: $at_artifact$, 판매자: $at_seller$, 가격: $at_artifact_price$, 출처: $at_source$" # 18298832479881253956
+  at_debug_msg_artifact_sold: "$at_debug_prefix$: 유물 판매됨, 유물: $at_artifact$, 구매자: $at_buyer$, 가격: $at_artifact_price$, 출처: $at_source$" # 5723704403109143148
+  at_debug_msg_artifact_destroyed: "$at_debug_prefix$: 유물 파괴됨, 유물: $at_artifact$, 우상 파괴자: $at_aniconist$" # 18295893190818503462
+  at_debug_msg_artifact_trade_loaded: "[GetCurrentDate.GetStringShort]: 유물 탐색 및 거래 모드가 로드되었습니다" # 1337992716624723124
+  at_debug_msg_visiting_holding_to_trade_artifacts: "$at_debug_prefix$: 유물 교환을 위해 거점을 방문합니다, 장소: $at_location$, 거점 유형: $at_holding_type$" # 6432356695450041667
+  at_debug_msg_attempting_artifact_haggle: "$at_debug_prefix$: 유물 흥정 시도 중" # 17861482413538261825
+  at_debug_msg_selling_artifact_via_outraged_partner: "$at_debug_prefix$: 격분한 배우자를 통한 유물 판매" # 15195135416636219761
+  at_debug_msg_selling_eagle: "$at_debug_prefix$: 독수리 판매" # 6606889439029161339
+  at_debug_msg_creating_artifact: "$at_debug_prefix$: 유물 생성 중" # 7971399513573813168
+  at_debug_msg_destroying_artifact: "$at_debug_prefix$: 유물 파기 중" # 7788332762293305443
+  at_artifact: "[THIS.Var('artifact').Artifact.GetNameNoTooltip] ([THIS.Var('artifact').Artifact.GetID]$at_artifact_type$)" # 10595677862876761650
+  at_buyer: "[THIS.Var('buyer').Char.GetFullNameNoTooltip] ([THIS.Var('buyer').Char.GetID]$at_buyer_merchant_type$)" # 17765787087585544827
+  at_seller: "[THIS.Var('seller').Char.GetFullNameNoTooltip] ([THIS.Var('seller').Char.GetID]$at_seller_merchant_type$)" # 3224375284111641290
+  at_artifact_price: "[THIS.Var('artifact_price').GetValue]" # 7055246142416749089
+  at_source: "[THIS.Var('source').GetFlagName]" # 2646440895590407983
+  at_destroyer: "[THIS.Var('destroyer').Char.GetFullNameNoTooltip] ([THIS.Var('destroyer').Char.GetID])" # 13320931258945017010
+  at_aniconist: "[Select_CString(THIS.Var('aniconist').IsSet, 'yes', 'no')]" # 1445008146676452863
+  at_artifact_type: "[Select_CString(THIS.Var('artifact').Var('at_artifact_type').IsSet, Concatenate(', ', THIS.Var('artifact').Var('at_artifact_type').GetFlagName), '')]" # 7297073708804870360
+  at_buyer_merchant_type: "[Select_CString(THIS.Var('buyer').Var('at_merchant_type').IsSet, Concatenate(', ', THIS.Var('buyer').Var('at_merchant_type').GetFlagName), '')]" # 11541996443566450966
+  at_seller_merchant_type: "[Select_CString(THIS.Var('seller').Var('at_merchant_type').IsSet, Concatenate(', ', THIS.Var('seller').Var('at_merchant_type').GetFlagName), '')]" # 1138214026965083411
+  at_location: "[THIS.Char.GetCurrentLocation.GetNameNoTooltip]" # 1746641464602509273
+  at_holding_type: "[THIS.Char.Custom('LocalHoldingType')]" # 94497573672390749

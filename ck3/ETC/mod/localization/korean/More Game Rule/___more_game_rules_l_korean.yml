@@ -23,9 +23,9 @@
   setting_less_seduction_desc: "AI는 배우자 의견, 교리, 특성 등을 고려해 유혹을 결정합니다. 부부는 일반적으로 서로에게 충실합니다." # 11991396170766210090
   setting_restricted_seduction: "#high 제한됨 #!" # 2569167108183091893
   setting_restricted_seduction_desc: "AI는 유혹 초점을 선택했거나, 음탕한, 한량, 바람둥이, 요부 특성을 가져야만 유혹하거나 받을 수 있습니다. AI의 유혹 모략은 성공률이 감소합니다." # 1622879563155064534
-  setting_no_seduction: "#high 플레이어 전용 #!" # 7476836117333199226
+  setting_no_seduction: "#high 플레이어 전용 #!" # 18329973818129184754
   setting_no_seduction_desc: "AI는 유혹 모략을 실행하거나 유혹 초점을 선택하지 않습니다." # 638735088500921517
-  setting_more_seduction: "#high 증가#" # 7638284263728441995
+  setting_more_seduction: "#high 증가됨 #!" # 4989395546444549828
   setting_more_seduction_desc: "AI는 유혹하고 유혹당할 가능성이 더 높습니다." # 15545181912535636322
   rule_ai_intrigue: "#G MGR: #! #Y AI - #!살해" # 15374649334225527584
   setting_default_intrigue: "기본" # 8341519292606584866
@@ -34,12 +34,12 @@
   setting_less_intrigue_desc: "AI는 계책 교육을 받았거나 탐욕스러운, 기만적인, 편집증적인, 가학적인, 냉담한, 앙심깊은 특성을 가져야만 살해 모략과 협박, 속임수 초점을 선택할 수 있습니다." # 16581018686131473752
   setting_restricted_intrigue: "#high 제한됨 #!" # 2569167108183091893
   setting_restricted_intrigue_desc: "AI는 기만적인, 가학적인, 냉담한, 앙심깊은 특성을 가져야만 살해 모략과 협박, 속임수 초점을 선택할 수 있습니다. 탐욕스러운, 편집증적인 특성을 가진 인물은 모략가, 고문가, 미치광이 특성을 가져야만 가능합니다." # 3595186562389824106
-  setting_no_intrigue: "#high 플레이어 전용 #!" # 7476836117333199226
+  setting_no_intrigue: "#high 플레이어 전용 #!" # 18329973818129184754
   setting_no_intrigue_desc: "AI는 살해 모략과 협박, 속임수 초점을 선택할 수 없습니다." # 17762807598384398683
   rule_pagan_reformation: "#G MGR: #! 토속 신앙 개혁" # 9482497912631300000
   setting_default_pagan_reformation: "허용" # 3143171053493632158
   setting_default_pagan_reformation_desc: "토속 신앙은 개혁될 수 있습니다." # 16038336889462821986
-  setting_no_pagan_reformation: "#high 금지 #!" # 15753144346269639639
+  setting_no_pagan_reformation: "#high 비활성화됨#!" # 3296122775991213772
   setting_no_pagan_reformation_desc: "토속 신앙 개혁이 금지됩니다. #N 토속 신앙으로의 플레이가 어려워집니다!#!" # 3575475941465735316
   rule_pagan_reformation_hs: "#G MGR: #! 토속 신앙 개혁 - 성지" # 4069667281065434451
   setting_pagan_reformation_hs_3: "3" # 2744517546871237796
@@ -57,38 +57,38 @@
   rule_heresy_creation: "#G MGR: #! 커스텀 신앙" # 12212391462520535659
   setting_default_heresy_creation: "허용" # 3143171053493632158
   setting_default_heresy_creation_desc: "플레이어가 새로운 신앙을 창설할 수 있습니다." # 17152632418025981394
-  setting_no_heresy_creation: "#high 금지 #!" # 15753144346269639639
+  setting_no_heresy_creation: "#high 비활성화됨#!" # 3296122775991213772
   setting_no_heresy_creation_desc: "플레이어가 새로운 신앙을 창설할 수 없습니다." # 5284069845948813027
   rule_holy_war_cbs: "#G MGR: #! 성전 - 휴식기" # 4973094306919929215
   setting_holy_war_cb_default: "기본" # 8341519292606584866
   setting_holy_war_cb_default_desc: "성전 사이에 휴식기가 필요하지 않습니다." # 8714867373951107726
-  setting_holy_war_cb_3: "#high 3년 #!" # 6034436630612527396
+  setting_holy_war_cb_3: "#high 3년#\"" # 3058620584006595891
   setting_holy_war_cb_3_desc: "성전 사이에 3년의 휴식기가 필요합니다." # 8119948411756289880
-  setting_holy_war_cb_5: "#high 5년 #!" # 1410705154452688134
+  setting_holy_war_cb_5: "#high 5년#\"" # 459501751879834855
   setting_holy_war_cb_5_desc: "성전 사이에 5년의 휴식기가 필요합니다." # 11976391243719850638
-  setting_holy_war_cb_10: "#high 10년 #!" # 8451889659805413326
+  setting_holy_war_cb_10: "#high 10년#!" # 17436021162436893140
   setting_holy_war_cb_10_desc: "성전 사이에 10년의 휴식기가 필요합니다." # 14232462730896644885
-  setting_holy_war_cb_20: "#high 20년 #!" # 1658345774166839615
+  setting_holy_war_cb_20: "#high 20년#!" # 11803438872722310092
   setting_holy_war_cb_20_desc: "성전 사이에 20년의 휴식기가 필요합니다." # 17590962407954092471
   rule_conquest_war_cbs: "#G MGR: #! 정복 전쟁 - 휴식기" # 12620005916242907021
   setting_conquest_war_cb_default: "기본" # 8341519292606584866
   setting_conquest_war_cb_default_desc: "정복 전쟁 사이에 휴식기가 필요하지 않습니다." # 15321743496670309726
-  setting_conquest_war_cb_3: "#high 3년 #!" # 6034436630612527396
+  setting_conquest_war_cb_3: "#high 3년#\"" # 3058620584006595891
   setting_conquest_war_cb_3_desc: "정복 전쟁 사이에 3년의 휴식기가 필요합니다." # 10554981023461918770
-  setting_conquest_war_cb_5: "#high 5년 #!" # 1410705154452688134
+  setting_conquest_war_cb_5: "#high 5년#\"" # 459501751879834855
   setting_conquest_war_cb_5_desc: "정복 전쟁 사이에 5년의 휴식기가 필요합니다." # 246696500426235103
-  setting_conquest_war_cb_10: "#high 10년 #!" # 8451889659805413326
+  setting_conquest_war_cb_10: "#high 10년#!" # 17436021162436893140
   setting_conquest_war_cb_10_desc: "정복 전쟁 사이에 10년의 휴식기가 필요합니다." # 8966356162494114245
-  setting_conquest_war_cb_20: "#high 20년 #!" # 1658345774166839615
+  setting_conquest_war_cb_20: "#high 20년#!" # 11803438872722310092
   setting_conquest_war_cb_20_desc: "정복 전쟁 사이에 20년의 휴식기가 필요합니다." # 14518274755641408518
   rule_holy_war_cbs_os: "#G MGR: #! 성전 - 해외" # 13131252554059167113
   setting_holy_war_cb_os_default: "기본" # 8341519292606584866
   setting_holy_war_cb_os_default_desc: "바다 너머로 성전을 선포하는데 제한이 없습니다." # 3388217133062306965
-  setting_holy_war_cb_os_cost: "#high 신앙도 2배 #!" # 364610000694536487
+  setting_holy_war_cb_os_cost: "#high 두 배의 신앙심#!" # 1090023159101169237
   setting_holy_war_cb_os_cost_desc: "바다 너머로 성전을 선포하려면 2배의 신앙도가 소모됩니다." # 1894220427952282246
-  setting_holy_war_cb_os_limited: "#high 제한됨 #!" # 15632007146982500094
+  setting_holy_war_cb_os_limited: "#high 제한적 #!" # 1124158138336054597
   setting_holy_war_cb_os_limited_desc: "바다 너머로 성전을 선포하려면 해당 규범 권역의 작위를 가져야 합니다. 대성전에는 적용되지 않습니다." # 16050755858072629486
-  setting_holy_war_cb_os_limitedcost: "#high 제한됨 + 신앙도 2배 #!" # 16144940157565947756
+  setting_holy_war_cb_os_limitedcost: "#high 한정 + 두 배의 신앙심#!" # 6911563003785465743
   setting_holy_war_cb_os_limitedcost_desc: "바다 너머로 성전을 선포하려면 해당 규범 권역의 작위를 가져야 하며 2배의 신앙도가 소모됩니다. 대성전에는 적용되지 않습니다." # 10266142990273045055
   rule_mgr_alt_world: "#G MGR: #! #Y 새로운 세계 #!" # 533286251991865331
   setting_mgr_alt_world_disabled: "비활성화" # 1399321916878098753
@@ -100,26 +100,26 @@
   setting_mgr_aw_yes_random_rulers_desc: "역사적 인물들이 무작위 인물로 대체됩니다. 문화와 신앙은 지역에 기반해 설정됩니다. 다른 AW 설정과 병용하는 것을 권장합니다." # 6399561155848703230
   setting_mgr_aw_no_random_rulers: "비활성화" # 1399321916878098753
   setting_mgr_aw_no_random_rulers_desc: "역사적 인물들은 대체되지 않습니다. 다른 AW 설정과 병용하는 것을 권장하지 않습니다." # 4454408582513092947
-  rule_mgr_aw_cultures: "#G MGR: #! #Y AW - 문화#!" # 5051072393321129449
+  rule_mgr_aw_cultures: "#G MGR: #! #Y AW - 문화#\"" # 14678498488151912593
   setting_mgr_aw_cultures_historical: "비활성화" # 8341519292606584866
   setting_mgr_aw_cultures_historical_desc: "각 지역은 기존의 문화로 시작합니다." # 9829041667251844459
   setting_mgr_aw_cultures_new: "대체" # 4851272104616449095
   setting_mgr_aw_cultures_new_desc: "역사적 문화로부터 분화하거나 혼합된 새로운 문화가 기존의 문화를 대체합니다. 유사한 전통을 가진 문화가 군집됩니다." # 13887367499423135054
   setting_mgr_aw_cultures_random_historical: "무작위 군집" # 12133992881020152522
-  setting_mgr_aw_cultures_random_historical_desc: "모든 지역은 무작위의 역사적 문화로 변경됩니다. 유사한 전통을 가진 문화가 군집됩니다." # 11033382675576585707
+  setting_mgr_aw_cultures_random_historical_desc: "지도상의 문화는 역사적 문화를 바탕으로 무작위로 생성됩니다. 유사한 혈통을 가진 문화들은 서로 뭉치는 경향이 있습니다." # 1054518899946054673
   setting_mgr_aw_cultures_chaotic_historical: "완전한 혼돈" # 4339963686070442587
-  setting_mgr_aw_cultures_chaotic_historical_desc: "모든 지역은 무작위의 역사적 문화로 변경됩니다." # 6649797828390501333
-  rule_mgr_aw_faiths: "#G MGR: #! #Y AW - 신앙#!" # 11435770081439417901
+  setting_mgr_aw_cultures_chaotic_historical_desc: "모든 속주는 완전히 무작위의 역사적 문화를 가지고 시작합니다." # 13431672739484430201
+  rule_mgr_aw_faiths: "#G MGR: #! #Y AW - 신앙#\"" # 12337180550940742062
   setting_mgr_aw_faiths_historical: "비활성화" # 8341519292606584866
   setting_mgr_aw_faiths_historical_desc: "각 지역은 기존의 신앙으로 시작합니다." # 12353745417757326410
   setting_mgr_aw_faiths_random_historical: "무작위 군집" # 12133992881020152522
-  setting_mgr_aw_faiths_random_historical_desc: "신앙이 무작위로 변경됩니다. 같은 종교 계통의 신앙이 군집됩니다. " # 16362338500299356804
+  setting_mgr_aw_faiths_random_historical_desc: "지도상의 신앙은 무작위로 지정됩니다. 같은 종교에 속한 신앙들은 서로 뭉쳐 나타날 것입니다." # 7197968024384247752
   setting_mgr_aw_faiths_chaotic_historical: "완전한 혼돈" # 4339963686070442587
-  setting_mgr_aw_faiths_chaotic_historical_desc: "신앙이 무작위로 변경됩니다." # 5351056620948725765
+  setting_mgr_aw_faiths_chaotic_historical_desc: "모든 속주는 완전히 무작위적인 신앙으로 시작합니다." # 15121490666714919462
   rule_randomized_faiths: "무작위 신앙(기존)" # 11266461452295144698
   setting_randomized_faiths_off: "비활성화(기존)" # 1399321916878098753
   setting_randomized_faiths_off_desc: "#N 이 설정은 호환성을 위해 보존되었으며 아무런 효과가 없습니다.#!" # 18341302502576289764
-  rule_mgr_aw_dejure: "#G MGR: #! #Y AW - 작위#!" # 4379852463889969906
+  rule_mgr_aw_dejure: "#G MGR: #! #Y AW - 영지 작위#!" # 16752656104701747633
   setting_mgr_aw_dejure_default: "기본" # 8341519292606584866
   setting_mgr_aw_dejure_default_desc: "모든 작위의 규범 권역이 유지됩니다." # 15994418204715402915
   setting_mgr_aw_dejure_random_duchy: "#high 무작위#!" # 18312244495134366845
@@ -127,17 +127,17 @@
   setting_mgr_aw_dejure_random_kingdom: "#high 무작위 왕국#!" # 7097737434017097676
   setting_mgr_aw_dejure_random_kingdom_desc: "규범 권역 왕국과 제국은 무작위 영역을 갖는 새로운 작위로 변경됩니다." # 18354762395626934506
   setting_mgr_aw_dejure_random_empire: "#high 무작위 제국#!" # 17221705037736006124
-  setting_mgr_aw_dejure_random_empire_desc: "규범 권역 제국은 무작위 영역을 갖는 새로운 작위로 변경됩니다." # 16680902955073577102
+  setting_mgr_aw_dejure_random_empire_desc: "#N 실험 중 - 시도 시 위험 부담! #! 영토권 제국은 국경이 무작위로 정해진 새로운 작위로 대체됩니다!" # 2371492022755968383
   MGR_NEW_TITLE_NAME: "[scoped_title.GetBaseNameNoTierNoTooltip]" # 8509337905192705833
-  rule_mgr_aw_development: "#G MGR: #! #Y AW - 개발도 #!" # 1609437167842093313
+  rule_mgr_aw_development: "#G MGR: #! #Y AW - 개발 #\"" # 58164455761758394
   setting_mgr_aw_development_default: "기본" # 8341519292606584866
   setting_mgr_aw_development_default_desc: "모든 지역은 역사적인 개발도가 유지됩니다." # 12029056115395592058
   setting_mgr_aw_development_random_25: "무작위 (0-25)" # 4878605530268767159
-  setting_mgr_aw_development_random_25_desc: "모든 지역은 0에서 25 사이의 무작위 개발도로 시작합니다." # 14223940448430543453
+  setting_mgr_aw_development_random_25_desc: "모든 속주들은 0에서 25 사이의 무작위 개발도 수준으로 시작합니다." # 6335489679459341447
   setting_mgr_aw_development_random_50: "무작위 (0-50)" # 9376175088758005393
-  setting_mgr_aw_development_random_50_desc: "모든 지역은 0에서 50 사이의 무작위 개발도로 시작합니다." # 13314893754506371278
+  setting_mgr_aw_development_random_50_desc: "모든 속주는 0에서 50 사이의 무작위 개발도 수준으로 시작합니다." # 5966411784084196227
   setting_mgr_aw_development_random_100: "무작위 (0-100)" # 6530911943838507101
-  setting_mgr_aw_development_random_100_desc: "모든 지역은 0에서 100 사이의 무작위 개발도로 시작합니다." # 13109034888866833725
+  setting_mgr_aw_development_random_100_desc: "모든 속주는 0에서 100 사이의 무작위 개발도 수준으로 시작합니다." # 5986168953401299682
   setting_mgr_aw_development_0: "#high 고정 (0)#!" # 7794374486414531367
   setting_mgr_aw_development_0_desc: "모든 지역의 개발도가 0에서 시작합니다." # 16723167316419096757
   setting_mgr_aw_development_25: "#high 고정 (25)#!" # 4029957231136220805
@@ -149,9 +149,9 @@
   rule_mgr_aw_shattered_realms: "#G MGR: #! #Y AW - 부서진 세계 #!" # 7251673223001009322
   setting_mgr_aw_no_shattered_realms: "비활성화" # 1399321916878098753
   setting_mgr_aw_no_shattered_realms_desc: "Realms are not shattered at the start of the game." # 10566361048198346840
-  setting_mgr_aw_duke_shattered_realms: "#high 공작령 #!" # 8335010304414163269
+  setting_mgr_aw_duke_shattered_realms: "#high Duchies #!" # 10423834199069867716
   setting_mgr_aw_duke_shattered_realms_desc: "모든 영역은 독립 공작령으로 대체됩니다. 공작은 무작위로 설정되며, 역사적 인물이 우선됩니다. #N 참고: 커스텀 인물을 사용하려면 본 설정을 선택한 이후에 생성하십시오! #!" # 9911698878196767780
-  setting_mgr_aw_count_shattered_realms: "#high 백작령 #!" # 1182592814392099796
+  setting_mgr_aw_count_shattered_realms: "#high 백작령#!" # 1474020422249375744
   setting_mgr_aw_count_shattered_realms_desc: "모든 영역이 독립 백작령으로 대체됩니다. #N 참고: 커스텀 인물을 사용하려면 본 설정을 선택한 이후에 생성하십시오! #!" # 16007865254836198497
   setting_mgr_aw_king_shattered_realms: "#high 왕국 #!" # 3838129588073122893
   setting_mgr_aw_king_shattered_realms_desc: "모든 영역이 규범 권역 왕국으로 대체됩니다. 왕은 무작위로 설정되며, 역사적 인물이 우선됩니다. #N 참고: 커스텀 인물을 사용하려면 본 설정을 선택한 이후에 생성하십시오! #!" # 14020837912880431849
@@ -160,7 +160,7 @@
   rule_mgr_aw_shattered_realms_landless: "#G MGR: #! #Y AW - 부서진 비지주 작위 #!" # 6184956160688046726
   setting_mgr_aw_disabled_shattered_realms_landless: "비활성화" # 1399321916878098753
   setting_mgr_aw_disabled_shattered_realms_landless_desc: "비지주 작위(교황령 등)는 게임 시작 시 파괴되지 않습니다." # 8097734706291434160
-  setting_mgr_aw_enabled_shattered_realms_landless: "#high 활성화 #!" # 12995050077483659977
+  setting_mgr_aw_enabled_shattered_realms_landless: "#high 활성화됨 #!" # 6220831787333681658
   setting_mgr_aw_enabled_shattered_realms_landless_desc: "비지주 작위는 게임 시작 시 파괴됩니다. 부서진 세계가 비활성화된 경우 이 설정은 적용되지 않습니다." # 1145768404181496160
   rule_mgr_aw_baronies: "#G MGR: #! #Y AW - 남작령 #!" # 11338989665297333234
   setting_mgr_aw_baronies_default: "기본" # 8341519292606584866
@@ -191,9 +191,9 @@
   rule_confed_partition: "#G MGR: #! 연합 분할" # 112662465551450376
   setting_default_confed_partition: "기본" # 8341519292606584866
   setting_default_confed_partition_desc: "연합 분할 상속제에서 통치자가 사망했을 때, 제국 작위는 파괴되지 않으며 규범 권역 이외의 봉신 계약은 유지됩니다." # 8428255821566997682
-  setting_confed_partition_shatter: "#high 제국 파괴 #!" # 3622595039521692554
+  setting_confed_partition_shatter: "#high 제국 파괴 #!" # 10423292035015545223
   setting_confed_partition_shatter_desc: "부족정 혹은 미개혁 신앙이며 연합 분할 상속제에서 통치자가 사망했을 때, 제국 작위는 파괴됩니다." # 12279533998695966973
-  setting_confed_partition_release: "#high 봉신 해방 #!" # 17289758724500148781
+  setting_confed_partition_release: "#high 봉신 해방#!" # 14885644584864318750
   setting_confed_partition_release_desc: "연합 분할 상속제에서 통치자가 사망했을 때, 규범 권역 이외의 봉신은 계약이 종료됩니다." # 12958211343829069859
   setting_confed_partition_combo: "#high 복합 #!" # 1552107327593367990
   setting_confed_partition_combo_desc: "연합 분할 상속제에서 통치자가 사망했을 때, 규범 권역 이외의 봉신은 계약이 종료됩니다. 부족정 혹은 미개혁 신앙이면 제국 작위는 파괴됩니다." # 6702845749652944376
@@ -202,13 +202,13 @@
   setting_default_ai_aggressiveness_desc: "AI는 전쟁 선포 사이에 기본적인 휴식기를 둡니다." # 520744665256755949
   setting_vlow_ai_aggressiveness: "#high 매우 낮음 #!" # 16690816385035123487
   setting_vlow_ai_aggressiveness_desc: "AI는 전쟁을 매우 기피하며, 전쟁 사이의 휴식기가 매우 길어집니다." # 14825642702092959616
-  setting_low_ai_aggressiveness: "#high 낮음 #!" # 17953249497473378212
+  setting_low_ai_aggressiveness: "#high Low #\"" # 2906425318569544827
   setting_low_ai_aggressiveness_desc: "AI는 전쟁을 기피하며, 전쟁 사이의 휴식기가 길어집니다." # 10517886112191910581
-  setting_high_ai_aggressiveness: "#high 높음 #!" # 4309887001513643109
+  setting_high_ai_aggressiveness: "#high 고위 #!" # 10691380663780543031
   setting_high_ai_aggressiveness_desc: "AI는 전쟁을 선호하며, 전쟁 사이의 휴식기가 짧아집니다." # 7944012314848232144
-  setting_vhigh_ai_aggressiveness: "#high 매우 높음 #!" # 8646182223811738007
+  setting_vhigh_ai_aggressiveness: "#high 매우 높음 #!" # 5120777496552153377
   setting_vhigh_ai_aggressiveness_desc: "AI는 전쟁을 매우 선호하며, 전쟁 사이의 휴식기가 매우 짧아집니다." # 15479125793966759025
-  setting_extreme_ai_aggressiveness: "#high 호전광 #!" # 1159226926802761835
+  setting_extreme_ai_aggressiveness: "#high 극단적#!" # 8765168193209492324
   setting_extreme_ai_aggressiveness_desc: "AI는 전쟁에 미쳐 있으며, 쉴 틈 없이 전쟁을 선포합니다." # 5969671029355923441
   rule_gamerule_domain_limit: "#G MGR: #! 직할령 한계" # 3653268871403611178
   setting_default_domain_limit: "기본" # 8341519292606584866
@@ -217,117 +217,117 @@
   setting_one_domain_limit_desc: "모든 인물의 직할령 한계가 1이 됩니다. #N 난이도가 크게 상승할 수 있습니다! #!" # 9436963703249033076
   setting_vlow_domain_limit: "#high 매우 낮음 #!" # 16690816385035123487
   setting_vlow_domain_limit_desc: "직할령 한계가 4 감소합니다. #N 난이도가 크게 상승할 수 있습니다! #!" # 13724134463498343614
-  setting_low_domain_limit: "#high 낮음 #!" # 17953249497473378212
+  setting_low_domain_limit: "#high Low #\"" # 2906425318569544827
   setting_low_domain_limit_desc: "직할령 한계가 2 감소합니다." # 177033876379490288
-  setting_high_domain_limit: "#high 높음 #!" # 4309887001513643109
+  setting_high_domain_limit: "#high 고위 #!" # 10691380663780543031
   setting_high_domain_limit_desc: "직할령 한계가 2 증가합니다." # 7897341165971125030
-  setting_vhigh_domain_limit: "#high 매우 높음 #!" # 8646182223811738007
+  setting_vhigh_domain_limit: "#high 매우 높음 #!" # 5120777496552153377
   setting_vhigh_domain_limit_desc: "직할령 한계가 4 증가합니다." # 11593197472529724053
-  setting_extreme_domain_limit: "#high 무제한 #!" # 1159226926802761835
+  setting_extreme_domain_limit: "#high 극단적#!" # 8765168193209492324
   setting_extreme_domain_limit_desc: "직할령 한계가 10000 증가합니다." # 17247047516018503762
   setting_one_domain_limit_pl: "#high 단일 백작령 (플레이어 전용)#!" # 1069584841826424653
   setting_one_domain_limit_pl_desc: "모든 인물의 직할령 한계가 1이 됩니다. AI에게는 적용되지 않습니다. #N 난이도가 크게 상승할 수 있습니다! #!" # 4009957700575692135
   setting_vlow_domain_limit_pl: "#high 매우 낮음 (플레이어 전용) #!" # 14428952061807376902
   setting_vlow_domain_limit_pl_desc: "직할령 한계가 4 감소합니다. AI에게는 적용되지 않습니다. #N 난이도가 크게 상승할 수 있습니다! #!" # 4858125119780995327
-  setting_low_domain_limit_pl: "#high 낮음 (플레이어 전용) #!" # 8721266271688242643
+  setting_low_domain_limit_pl: "#high Low (플레이어 전용) #!" # 16633894725457043595
   setting_low_domain_limit_pl_desc: "직할령 한계가 2 감소합니다. AI에게는 적용되지 않습니다." # 1805046715321612710
-  setting_high_domain_limit_pl: "#high 높음 (플레이어 전용) #!" # 9141207410071263122
+  setting_high_domain_limit_pl: "#high 플레이어 전용 높음 #!" # 8012396688314957264
   setting_high_domain_limit_pl_desc: "직할령 한계가 2 증가합니다. AI에게는 적용되지 않습니다." # 8650618677600026463
-  setting_vhigh_domain_limit_pl: "#high 매우 높음 (플레이어 전용) #!" # 11199766870697103277
+  setting_vhigh_domain_limit_pl: "#high 매우 높음 (플레이어 전용) #!" # 15490544996164875160
   setting_vhigh_domain_limit_pl_desc: "직할령 한계가 4 증가합니다. AI에게는 적용되지 않습니다." # 7439219410771272799
-  setting_extreme_domain_limit_pl: "#high 무제한 (플레이어 전용) #!" # 4155248933792591634
+  setting_extreme_domain_limit_pl: "#high 극단적 (플레이어 전용) #!" # 12119651136187967679
   setting_extreme_domain_limit_pl_desc: "직할령 한계가 10000 증가합니다. AI에게는 적용되지 않습니다." # 3109277561814358330
   rule_gamerule_vassal_limit: "#G MGR: #! 봉신 한계" # 3974447382250854628
   setting_default_vassal_limit: "기본" # 8341519292606584866
   setting_default_vassal_limit_desc: "봉신 한계는 변하지 않습니다." # 11852486447888502778
   setting_vlow_vassal_limit: "#high 매우 낮음 #!" # 16690816385035123487
   setting_vlow_vassal_limit_desc: "봉신 한계가 10 감소합니다." # 1624902409789073470
-  setting_low_vassal_limit: "#high 낮음 #!" # 17953249497473378212
+  setting_low_vassal_limit: "#high Low #\"" # 2906425318569544827
   setting_low_vassal_limit_desc: "봉신 한계가 5 감소합니다." # 8879763965663989544
-  setting_high_vassal_limit: "#high 높음 #!" # 4309887001513643109
+  setting_high_vassal_limit: "#high 고위 #!" # 10691380663780543031
   setting_high_vassal_limit_desc: "봉신 한계가 10 증가합니다." # 7998939650025929920
-  setting_vhigh_vassal_limit: "#high 매우 높음 #!" # 8646182223811738007
+  setting_vhigh_vassal_limit: "#high 매우 높음 #!" # 5120777496552153377
   setting_vhigh_vassal_limit_desc: "봉신 한계가 20 증가합니다." # 5709218340969757968
-  setting_extreme_vassal_limit: "#high 무제한 #!" # 1159226926802761835
+  setting_extreme_vassal_limit: "#high 극단적#!" # 8765168193209492324
   setting_extreme_vassal_limit_desc: "봉신 한계가 1000 증가합니다." # 8901336980818734379
   setting_vlow_vassal_limit_pl: "#high 매우 낮음(플레이어 전용) #!" # 14428952061807376902
   setting_vlow_vassal_limit_pl_desc: "봉신 한계가 10 감소합니다. AI에게는 적용되지 않습니다." # 4561872307924085376
-  setting_low_vassal_limit_pl: "#high 낮음(플레이어 전용) #!" # 8721266271688242643
+  setting_low_vassal_limit_pl: "#high Low (플레이어 전용) #!" # 16633894725457043595
   setting_low_vassal_limit_pl_desc: "봉신 한계가 5 감소합니다. AI에게는 적용되지 않습니다." # 9549945803183352761
-  setting_high_vassal_limit_pl: "#high 높음(플레이어 전용) #!" # 9141207410071263122
+  setting_high_vassal_limit_pl: "#high 플레이어 전용 높음 #!" # 8012396688314957264
   setting_high_vassal_limit_pl_desc: "봉신 한계가 10 증가합니다. AI에게는 적용되지 않습니다." # 16402674460896184627
-  setting_vhigh_vassal_limit_pl: "#high 매우 높음(플레이어 전용) #!" # 11199766870697103277
+  setting_vhigh_vassal_limit_pl: "#high 매우 높음 (플레이어 전용) #!" # 15490544996164875160
   setting_vhigh_vassal_limit_pl_desc: "봉신 한계가 20 증가합니다. AI에게는 적용되지 않습니다." # 12709352075461336072
-  setting_extreme_vassal_limit_pl: "#high 무제한(플레이어 전용) #!" # 4155248933792591634
+  setting_extreme_vassal_limit_pl: "#high 극단적 (플레이어 전용) #!" # 12119651136187967679
   setting_extreme_vassal_limit_pl_desc: "봉신 한계가 1000 증가합니다. AI에게는 적용되지 않습니다." # 17602560518871309001
   rule_gamerule_knight_limit: "#G MGR: #! 기사 한도" # 15144442156775390928
   setting_default_knight_limit: "기본" # 8341519292606584866
   setting_default_knight_limit_desc: "기사 한도는 변하지 않습니다." # 3233867081788738170
   setting_vlow_knight_limit: "#high 매우 낮음 #!" # 16690816385035123487
   setting_vlow_knight_limit_desc: "기사 한도가 3 감소합니다." # 14798082225391920923
-  setting_low_knight_limit: "#high 낮음 #!" # 17953249497473378212
+  setting_low_knight_limit: "#high Low #\"" # 2906425318569544827
   setting_low_knight_limit_desc: "기사 한도가 2 감소합니다." # 13526570800269389860
-  setting_high_knight_limit: "#high 높음 #!" # 4309887001513643109
+  setting_high_knight_limit: "#high 고위 #!" # 10691380663780543031
   setting_high_knight_limit_desc: "기사 한도가 2 증가합니다." # 3779317130827816677
-  setting_vhigh_knight_limit: "#high 매우 높음 #!" # 8646182223811738007
+  setting_vhigh_knight_limit: "#high 매우 높음 #!" # 5120777496552153377
   setting_vhigh_knight_limit_desc: "기사 한도가 5 증가합니다." # 16091530978518812149
-  setting_extreme_knight_limit: "#high 무제한 #!" # 1159226926802761835
+  setting_extreme_knight_limit: "#high 극단적#!" # 8765168193209492324
   setting_extreme_knight_limit_desc: "기사 한도가 100 증가합니다." # 10101433991002337336
   setting_vlow_knight_limit_pl: "#high 매우 낮음(플레이어 전용) #!" # 14428952061807376902
   setting_vlow_knight_limit_pl_desc: "기사 한도가 3 감소합니다. AI에게는 적용되지 않습니다." # 14605648151123474241
-  setting_low_knight_limit_pl: "#high 낮음(플레이어 전용) #!" # 8721266271688242643
+  setting_low_knight_limit_pl: "#high Low (플레이어 전용) #!" # 16633894725457043595
   setting_low_knight_limit_pl_desc: "기사 한도가 2 감소합니다. AI에게는 적용되지 않습니다." # 6052854505028558421
-  setting_high_knight_limit_pl: "#high 높음(플레이어 전용) #!" # 9141207410071263122
+  setting_high_knight_limit_pl: "#high 플레이어 전용 높음 #!" # 8012396688314957264
   setting_high_knight_limit_pl_desc: "기사 한도가 2 증가합니다. AI에게는 적용되지 않습니다." # 1691426318389372492
-  setting_vhigh_knight_limit_pl: "#high 매우 높음(플레이어 전용) #!" # 11199766870697103277
+  setting_vhigh_knight_limit_pl: "#high 매우 높음 (플레이어 전용) #!" # 15490544996164875160
   setting_vhigh_knight_limit_pl_desc: "기사 한도가 5 증가합니다. AI에게는 적용되지 않습니다." # 14516172254782961100
-  setting_extreme_knight_limit_pl: "#high 무제한(플레이어 전용) #!" # 4155248933792591634
+  setting_extreme_knight_limit_pl: "#high 극단적 (플레이어 전용) #!" # 12119651136187967679
   setting_extreme_knight_limit_pl_desc: "기사 한도가 100 증가합니다. AI에게는 적용되지 않습니다." # 8681765879358096699
   rule_gamerule_maa_limit: "#G MGR: #! 무장병 규모" # 3417858062480762153
   setting_default_maa_limit: "기본" # 8341519292606584866
   setting_default_maa_limit_desc: "무장병 연대 규모는 변하지 않습니다." # 13237568123059551580
   setting_vlow_maa_limit: "#high 매우 낮음 #!" # 16690816385035123487
   setting_vlow_maa_limit_desc: "무장병 연대 규모가 2 감소합니다." # 14963725723748991217
-  setting_low_maa_limit: "#high 낮음 #!" # 17953249497473378212
+  setting_low_maa_limit: "#high Low #\"" # 2906425318569544827
   setting_low_maa_limit_desc: "무장병 연대 규모가 1 감소합니다." # 6465750499189994883
-  setting_high_maa_limit: "#high 높음 #!" # 4309887001513643109
+  setting_high_maa_limit: "#high 고위 #!" # 10691380663780543031
   setting_high_maa_limit_desc: "무장병 연대 규모가 2 증가합니다." # 1718698254154518334
-  setting_vhigh_maa_limit: "#high 매우 높음 #!" # 8646182223811738007
+  setting_vhigh_maa_limit: "#high 매우 높음 #!" # 5120777496552153377
   setting_vhigh_maa_limit_desc: "무장병 연대 규모가 4 증가합니다." # 1968460466818752526
-  setting_extreme_maa_limit: "#high 무제한 #!" # 1159226926802761835
-  setting_extreme_maa_limit_desc: "무장병 연대 규모가 100 증가합니다." # 10135161597880652212
+  setting_extreme_maa_limit: "#high 극단적#!" # 8765168193209492324
+  setting_extreme_maa_limit_desc: "병력 한계가 100 증가합니다." # 17560270241971737044
   setting_vlow_maa_limit_pl: "#high 매우 낮음(플레이어 전용) #!" # 14428952061807376902
   setting_vlow_maa_limit_pl_desc: "무장병 연대 규모가 2 감소합니다. AI에게는 적용되지 않습니다." # 4351530865714824444
-  setting_low_maa_limit_pl: "#high 낮음(플레이어 전용) #!" # 8721266271688242643
+  setting_low_maa_limit_pl: "#high Low (플레이어 전용) #!" # 16633894725457043595
   setting_low_maa_limit_pl_desc: "무장병 연대 규모가 1 감소합니다. AI에게는 적용되지 않습니다." # 6598640544922465906
-  setting_high_maa_limit_pl: "#high 높음(플레이어 전용) #!" # 9141207410071263122
+  setting_high_maa_limit_pl: "#high 플레이어 전용 높음 #!" # 8012396688314957264
   setting_high_maa_limit_pl_desc: "무장병 연대 규모가 2 증가합니다. AI에게는 적용되지 않습니다." # 16445111968544256720
-  setting_vhigh_maa_limit_pl: "#high 매우 높음(플레이어 전용) #!" # 11199766870697103277
+  setting_vhigh_maa_limit_pl: "#high 매우 높음 (플레이어 전용) #!" # 15490544996164875160
   setting_vhigh_maa_limit_pl_desc: "무장병 연대 규모가 4 증가합니다. AI에게는 적용되지 않습니다." # 1182958347379014372
-  setting_extreme_maa_limit_pl: "#high 무제한(플레이어 전용) #!" # 4155248933792591634
+  setting_extreme_maa_limit_pl: "#high 극단적 (플레이어 전용) #!" # 12119651136187967679
   setting_extreme_maa_limit_pl_desc: "무장병 연대 규모가 100 증가합니다. AI에게는 적용되지 않습니다." # 16074002277663228436
   rule_gamerule_maa_cap: "#G MGR: #! 무장병 최대 수" # 6792453289669360700
   setting_default_maa_cap: "기본" # 8341519292606584866
   setting_default_maa_cap_desc: "무장병 연대 최대 수는 변하지 않습니다." # 12629087521215930674
   setting_vlow_maa_cap: "#high 매우 낮음 #!" # 16690816385035123487
   setting_vlow_maa_cap_desc: "무장병 연대 최대 수가 2 감소합니다." # 17282999202898423315
-  setting_low_maa_cap: "#high 낮음 #!" # 17953249497473378212
+  setting_low_maa_cap: "#high Low #\"" # 2906425318569544827
   setting_low_maa_cap_desc: "무장병 연대 최대 수가 1 감소합니다." # 4525571226533312156
-  setting_high_maa_cap: "#high 높음 #!" # 4309887001513643109
+  setting_high_maa_cap: "#high 고위 #!" # 10691380663780543031
   setting_high_maa_cap_desc: "무장병 연대 최대 수가 1 증가합니다." # 16971095701692236356
-  setting_vhigh_maa_cap: "#high 매우 높음 #!" # 8646182223811738007
+  setting_vhigh_maa_cap: "#high 매우 높음 #!" # 5120777496552153377
   setting_vhigh_maa_cap_desc: "무장병 연대 최대 수가 3 증가합니다." # 8816904332202995160
-  setting_extreme_maa_cap: "#high 무제한 #!" # 1159226926802761835
-  setting_extreme_maa_cap_desc: "무장병 연대 최대 수가 100 증가합니다." # 6120894282871577190
+  setting_extreme_maa_cap: "#high 극단적#!" # 8765168193209492324
+  setting_extreme_maa_cap_desc: "병력 한도(Man-At-Arms cap)가 100만큼 증가합니다." # 15447040035633934715
   setting_vlow_maa_cap_pl: "#high 매우 낮음(플레이어 전용) #!" # 14428952061807376902
   setting_vlow_maa_cap_pl_desc: "무장병 연대 최대 수가 2 감소합니다. AI에게는 적용되지 않습니다." # 2114205392712981751
-  setting_low_maa_cap_pl: "#high 낮음(플레이어 전용) #!" # 8721266271688242643
+  setting_low_maa_cap_pl: "#high Low (플레이어 전용) #!" # 16633894725457043595
   setting_low_maa_cap_pl_desc: "무장병 연대 최대 수가 1 감소합니다. AI에게는 적용되지 않습니다." # 7906803094091955190
-  setting_high_maa_cap_pl: "#high 높음(플레이어 전용) #!" # 9141207410071263122
+  setting_high_maa_cap_pl: "#high 플레이어 전용 높음 #!" # 8012396688314957264
   setting_high_maa_cap_pl_desc: "무장병 연대 최대 수가 1 증가합니다. AI에게는 적용되지 않습니다." # 6334936484014488515
-  setting_vhigh_maa_cap_pl: "#high 매우 높음(플레이어 전용) #!" # 11199766870697103277
+  setting_vhigh_maa_cap_pl: "#high 매우 높음 (플레이어 전용) #!" # 15490544996164875160
   setting_vhigh_maa_cap_pl_desc: "무장병 연대 최대 수가 3 증가합니다. AI에게는 적용되지 않습니다." # 13731740111487850438
-  setting_extreme_maa_cap_pl: "#high 무제한(플레이어 전용) #!" # 4155248933792591634
+  setting_extreme_maa_cap_pl: "#high 극단적 (플레이어 전용) #!" # 12119651136187967679
   setting_extreme_maa_cap_pl_desc: "무장병 연대 최대 수가 100 증가합니다. AI에게는 적용되지 않습니다." # 1211358820136682565
   GAME_RULE_MATRILINEAL_REASON: "모계 결혼" # 15394303595817447517
   GAME_RULE_MATRI_MARRIAGE_ALLOWED: "신앙이 모계 결혼을 허용함" # 8009326454152206394
@@ -423,19 +423,19 @@
   setting_allow_unplayable_courtiers: "#high 플레이 가능한 비지주 궁정 신하 #!" # 11178719684509158894
   setting_allow_unplayable_courtiers_desc: "모든 정부 체제가 플레이 가능합니다. 행정 또는 모험가 영지가 아닌 곳의 비지주 궁정 신하가 되는 것도 허용됩니다. #! #N 실험적 - 본인의 책임 하에 시도해 보세요! #!" # 6682534481439930702
   rule_faith_head_holy_site: "#G MGR: #! 교계 지도자 - 성지" # 4768049679939664047
-  setting_head_holy_site_0: "#high 0 #!" # 15105945016430639208
+  setting_head_holy_site_0: "#high 0 #\"" # 7420552622810113118
   setting_head_holy_site_0_desc: "교계 지도자 작위 생성에 성지를 보유할 필요가 없습니다." # 1807596668635866226
-  setting_head_holy_site_1: "#high 1 #!" # 479328971358391703
+  setting_head_holy_site_1: "#high 1 #!" # 8803792688807701449
   setting_head_holy_site_1_desc: "교계 지도자 작위 생성에 1개의 성지를 필요로 합니다." # 11645198973675050604
-  setting_head_holy_site_default: "기본" # 8341519292606584866
+  setting_head_holy_site_default: "기본" # 12656442045985339197
   setting_head_holy_site_default_desc: "영적 교계 지도자 작위 생성에 1개의 성지가 필요합니다. 속세 교계 지도자는 2개의 성지가 필요합니다." # 18146405018482857645
-  setting_head_holy_site_2: "#high 2 #!" # 15998624066400339331
+  setting_head_holy_site_2: "#high 2 #\"" # 15147799829704355418
   setting_head_holy_site_2_desc: "교계 지도자 작위 생성에 2개의 성지를 필요로 합니다." # 9368149955356995247
-  setting_head_holy_site_3: "#high 3 #!" # 1493240101450918000
+  setting_head_holy_site_3: "#high 3 #\"" # 6514942228786186429
   setting_head_holy_site_3_desc: "교계 지도자 작위 생성에 3개의 성지를 필요로 합니다." # 16899562950920009597
-  setting_head_holy_site_4: "#high 4 #!" # 4936237604239899251
+  setting_head_holy_site_4: "#high 4 #\"" # 13251716029453138329
   setting_head_holy_site_4_desc: "교계 지도자 작위 생성에 4개의 성지를 필요로 합니다." # 6128214367534372820
-  setting_head_holy_site_5: "#high 5 #!" # 1558219707125940980
+  setting_head_holy_site_5: "#high 5 #\"" # 1516156430178022881
   setting_head_holy_site_5_desc: "교계 지도자 작위 생성에 5개의 성지를 필요로 합니다." # 13078612854448413944
   setting_no_ai_aggressiveness: "#high 없음 #!" # 15616138515344205332
   setting_no_ai_aggressiveness_desc: "AI는 절대 전쟁을 선포하지 않습니다. 내전은 가능합니다." # 191446020455866131
@@ -501,10 +501,10 @@
   setting_mgr_lang_speed_fast_desc: "새로운 언어를 더 빨리 배웁니다." # 16980215272996579617
   setting_mgr_lang_speed_vfast: "#high 매우 빠름" # 12927872019805591232
   setting_mgr_lang_speed_vfast_desc: "새로운 언어를 매우 빨리 배웁니다." # 13312060458616871026
-  mgr_lang_vslow: "Game rules" # 4733436798709909957
-  mgr_lang_slow: "Game rules" # 4733436798709909957
-  mgr_lang_fast: "Game rules" # 4733436798709909957
-  mgr_lang_vfast: "Game rules" # 4733436798709909957
+  mgr_lang_vslow: "게임 규칙" # 1371730438830206160
+  mgr_lang_slow: "게임 규칙" # 1371730438830206160
+  mgr_lang_fast: "게임 규칙" # 1371730438830206160
+  mgr_lang_vfast: "게임 규칙" # 1371730438830206160
   unreformed_organized_faith_doctrine_name: "Unreformed" # 14177021754040286506
   mgr_reform_organized_faith_decision: "Reform [ROOT.Char.GetFaith.GetNameNoTooltip]" # 2292144915305128989
   mgr_reform_organized_faith_decision_desc: "The [ROOT.Char.GetFaith.GetAdjective] faith is fairly organized and our tenets fairly understood among the clergy, but there are key disagreements between local sects. It's time to unify the faith." # 17942394350800932571
@@ -563,7 +563,7 @@
   found_hegemony_decision_desc: "나는 제국의 제국, 역사의 끝까지 메아리칠 패권을 창조할 것이다." # 6883886346371977728
   found_hegemony_decision_confirm: "영지를 소집하라" # 880636378040250621
   found_hegemony_decision_tooltip: "새로운 종주 작위를 발견했습니다" # 16116139914599879173
-  create_new_hegemony: "새로운 종주권을 생성합니다" # 15829201558473503826
+  create_new_hegemony: "새로운 #bold 패권국#을 창설합니다." # 4124189760156573124
   create_title_every_held_empire: "귀하께서 [hold|E]하거나 [completely_control|E]하는 모든 제국 작위는" # 12888224527742495820
   create_custom_hegemony_de_jure_changes: "새로운 패권국의 [de_jure|E] [empires|E]가 됩니다" # 14654118751442531822
   found_hegemony_decision_three_empires_held: "[empires|E] 세 개 이상을 통치해야 합니다" # 16952491690813219410

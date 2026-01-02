@@ -4,7 +4,7 @@
   RICE_breton_aspiration_constance_desc: "#bold [historical_aspiration_main_objectives|E]#!\n$EFFECT_LIST_BULLET$ [ruler|E]가 되어 [GetTitleByKey('d_brittany').GetNameNoTier]를 [completely_control|E]하십시오\n$EFFECT_LIST_BULLET$ [adult|E] 연령의 [child|E]를 두고, 그가 당신의 [house|E]의 [primary_heir|E]가 되게 하십시오\n$EFFECT_LIST_BULLET$ [king|E] 또는 [emperor|E] [rank|E]의 [ruler|E]와 최소 하나의 [alliance|E]를 맺으십시오\n\n#bold 보상#!\n$EFFECT_LIST_BULLET$@prestige_icon! #V [EmptyScope.ScriptValue('RICE_aspiration_medium_resource_bonus')]#! [prestige|E] 획득\n$EFFECT_LIST_BULLET$@dynasty_prestige_icon! #V [EmptyScope.ScriptValue('RICE_aspiration_large_resource_bonus')]#! [dynasty_prestige|E] 획득\n$EFFECT_LIST_BULLET$@legitimacy_icon! #V [EmptyScope.ScriptValue('medium_legitimacy_gain')]#! [legitimacy|E] 획득\n\n#bold [historical_aspiration_bonus_objectives|E]#!\n$EFFECT_LIST_BULLET$ [independent|E] [ruler|E]가 되십시오 (보상: @dynasty_prestige_icon! #V [EmptyScope.ScriptValue('RICE_aspiration_large_resource_bonus')]#! [dynasty_prestige|E] 획득)\n$EFFECT_LIST_BULLET$ [king|E] 또는 [emperor|E] [rank|E]의 [rulers|E]와 최소 두 개의 [alliances|E]를 맺으십시오 (보상: [diplomacy_lifestyle|E] [perk|E] 획득)\n$EFFECT_LIST_BULLET$최소 #V 10#! [counties|E]를 통치하십시오 (보상: [special_troops|E] #V 500#! 획득, 여기에는 일부 [men_at_arms|E] 포함)" # 1489974702777600551
   RICE_breton_historical_aspiration_action_constance: "#italic [GetTitleByKey('d_brittany').GetNameNoTier]#은 더 큰 세력들에게 둘러싸여 있으며, 그들은 여성이 통치하는—바로 당신을—이용하여 지배하려 하기에 위태로운 상황에 처해 있습니다. 당신은 가문과 자녀들의 유산을 지키고, [GetTitleByKey('d_brittany').GetNameNoTier]의 독립, 혹은 적어도 자치권을 유지하기 위해 할 수 있는 모든 것을 해야 합니다!# $RICE_breton_aspiration_constance_desc$" # 18253816313991647358
   RICE_breton_historical_aspiration_modifier_desc_constance: "[GetModifier('RICE_breton_aspiration_secure_rule_over_brittany').GetNameWithTooltip]" # 16598881085446994762
-  RICE_breton_aspiration_secure_rule_over_brittany: "[aspiration|E]: 브르타뉴에 가문의 통치를 확립하라" # 10352799722609145979
+  RICE_breton_aspiration_secure_rule_over_brittany: "[RICE_aspiration|E]: 브르타뉴에 대한 가문의 통치권 확보" # 7193350852373767430
   RICE_breton_aspiration_secure_rule_over_brittany_desc: "#italic [GetTitleByKey('d_brittany').GetNameNoTier]#는 더 큰 세력들에게 둘러싸여 그들의 통제하에 놓이거나, 여성이 통치한다는 사실을 이용당할 위기에 처해 있습니다. 그녀는 자신의 가문과 자식들의 상속 재산을 지키고, [GetTitleByKey('d_brittany').GetNameNoTier]의 독립 혹은 최소한의 자치권을 유지하기 위해 할 수 있는 모든 것을 해야 합니다!#$RICE_breton_aspiration_constance_desc$\n\n" # 2128026246545472979
   RICE_breton_tro_breizh_host_memory: "[GetActivityType( 'activity_RICE_breton_tro_breizh' ).GetName]에 참가했습니다." # 12081803980993174498
   RICE_breton_tro_breizh_host_memory_first_perspective: "저는 [GetActivityType( 'activity_RICE_breton_tro_breizh' ).GetName]에 참여했습니다." # 1424760714202298532
@@ -171,7 +171,7 @@
   breton.0028.a: "나의 여정은 거의 끝났다." # 16182833815595676998
   breton.0029.t: "트로 브레 이즈 종료" # 12567458971814264554
   breton.0029.desc: "나의 옛 거처가 지평선 너머로 우뚝 솟아 있구나. 브르타뉴의 모든 독실한 기독교도들이 의심할 여지 없이 따라야 할 일곱 성지를 순례하며 여행을 마친 나는 고향에 돌아왔다. 이 순례를 통해 많은 것을 성찰했고, 우리 땅의 영적인 경이로움과 종교적 유산을 목도했다." # 9016635152327288919
-  breton.0029.a: "제가 살아있는 동안 겪었던 일들을 모두 기억할 수 있기를 바랍니다." # 5354343386442529202
+  breton.0029.a: "제가 살아있는 동안 겪었던 일을 기억할 수 있기를 바랍니다." # 7819875155498104209
   breton.0030.t: "xxxxx" # 1951045980481827005
   breton.0030.desc: "xxxxx" # 1951045980481827005
   breton.0030.a: "xxxxx" # 1951045980481827005

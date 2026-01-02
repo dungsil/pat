@@ -4,6 +4,134 @@
 
 ## 2025년 12월
 
+### GitHub Actions 재시도 로직 추가
+**날짜:** 2025-12-21
+
+**추가:**
+- GitHub API 호출 실패 시 자동 재시도 로직 구현
+- 403 (Forbidden), 429 (Rate Limit), 5xx 서버 오류 자동 재시도
+- 점진적 백오프 전략: [1초, 2초, 8초, 10초, 60초]
+- `Retry-After` 헤더 존중
+
+**적용 범위:**
+- `create-untranslated-issues` 액션의 3개 API 호출
+- `close-translation-issues` 액션의 2개 API 호출
+
+**효과:**
+- GitHub API rate limit 시 워크플로우 실패 방지
+- 번역 거부 이슈 등록 안정성 향상
+- 임시 네트워크 오류 자동 복구
+
+**관련 파일:**
+- `.github/actions/github-retry.cjs` (신규)
+- `.github/actions/create-untranslated-issues/index.js`
+- `.github/actions/close-translation-issues/index.js`
+
+---
+
+### YAML 파서 최적화 및 버그 수정
+**날짜:** 2025-12-18
+
+**수정:**
+- 불필요한 재번역을 유발하는 YAML 파서 버그 수정
+- Paradox 형식 후행 텍스트(trailing text) 처리 개선
+- 대문자 포맷팅 태그(`#!`) 지원 추가
+
+**영향:**
+- 변경되지 않은 항목의 재번역 방지
+- 번역 속도 향상
+- 게임 형식 지원 강화
+
+**관련 파일:**
+- `scripts/parser/yaml.ts`
+- `prompts/ck3-translation.md`
+- `prompts/vic3-translation.md`
+- `prompts/stellaris-translation.md`
+
+---
+
+### 번역 거부 처리 개선
+**날짜:** 2025-12-18
+
+**개선:**
+- Stale `untranslated-items.json` 파일로 인한 이슈 닫기 실패 방지
+- 번역 거부 항목 중복 제거 로직 추가
+- 이슈 자동 닫기 정확도 향상
+
+**효과:**
+- 번역이 완료된 항목의 이슈가 정확히 닫힘
+- 중복 이슈 생성 방지
+- 이슈 관리 효율성 향상
+
+**관련 파일:**
+- `scripts/factory/translate.ts`
+- `scripts/factory/translate.test.ts`
+
+---
+
+### GitHub MCP 서버 도구 우선순위 가이드라인 추가
+**날짜:** 2025-12-17
+
+**추가:**
+- AGENTS.md에 GitHub MCP 서버 도구 사용 가이드라인 추가
+- Git 명령어 대신 GitHub MCP 서버 도구 우선 사용 지침
+- 도구 사용 예제 및 패턴 추가
+
+**배경:**
+- AI 에이전트가 GitHub 작업 시 MCP 서버 도구를 우선 사용하도록 유도
+- 구조화된 출력과 에러 처리를 통한 안정성 향상
+
+**관련 파일:**
+- `AGENTS.md`
+
+---
+
+### 버전 전략 기능 추가
+**날짜:** 2025-12-21
+
+**추가:**
+- meta.toml 파일에서 `version_strategy` 필드 지원
+- 세 가지 버전 선택 전략 구현:
+  - `semantic`: GitHub API + semver 정렬 (v1.2.3 형식)
+  - `natural`: git ls-remote + 자연 정렬 (1.10.0 > 1.2.0)
+  - `default`: 기존 방식 (기본 브랜치 사용)
+- VersionStrategyError 클래스 및 GitHub Issues 자동 보고 기능
+- @octokit/rest, semver, natsort 의존성 추가
+
+**기능:**
+- 모드별 버전 선택 방식 제어
+- 잘못된 설정 시 자동 GitHub Issues 생성
+- dungsil에게 자동 할당 및 configuration-error 레이블
+
+**설정 예:**
+```toml
+[upstream]
+url = "https://github.com/modder/Mod.git"
+localization = ["Mod/localization/english"]
+language = "english"
+version_strategy = "semantic"  # 새 필드
+```
+
+**적용된 모드:**
+- CK3: semantic (RICE, VIET, CFP, ETC)
+- VIC3: natural (Better Politics, Community Mod Framework, Tech & Res 등)
+- Stellaris: semantic (Pouchkinn's Gigastructures)
+
+**관련 파일:**
+- `scripts/utils/upstream.ts` - 핵심 로직 재구현
+- `scripts/utils/version-strategy-reporter.ts` - 오류 보고 (신규)
+- `package.json` - 의존성 추가
+- 모든 `meta.toml` 파일 - version_strategy 필드 추가
+- `docs/configuration.md` - 설정 설명
+- `docs/architecture.md` - 아키텍처 설명
+- `docs/usage.md` - 사용법 설명
+- `docs/requirements.md` - 요구사항 추가
+
+**테스트:**
+- version-strategy.test.ts 추가 (여러 테스트 케이스)
+
+---
+
 ### 번역 캐시 시스템 개선
 **날짜:** 2025-12-08
 
