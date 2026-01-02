@@ -56,7 +56,6 @@ jobs:
         uses: ./.github/actions/create-untranslated-issues
         with:
           game: vic3
-          file-path: vic3-untranslated-items.json
       - name: Check translation result
         if: steps.translate.outcome == 'failure'
         run: exit 1
