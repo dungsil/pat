@@ -93,8 +93,6 @@ async function processQueue (): Promise<void> {
   if (translationQueue.length > 0) {
     void processQueue()
   }
-
-  isProcessing = false
 }
 
 async function executeTaskWithRetry (task: QueueTask, retryCount = 0): Promise<void> {
