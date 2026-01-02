@@ -2,7 +2,7 @@ const core = require('@actions/core');
 const github = require('@actions/github');
 const fs = require('fs');
 const path = require('path');
-const { githubApiRetry } = require('../github-retry.cjs');
+const { githubApiRetry } = require('@pat-actions/shared');
 
 // 테이블에서 키를 추출하기 위한 정규식: | 파일 | `키` | 원문 | 형식
 const TABLE_KEY_REGEX = /\|\s*[^|]+\s*\|\s*`([^`]+)`\s*\|/g;
