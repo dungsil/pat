@@ -638,6 +638,47 @@ The project uses separate GitHub Actions workflows for different translation inv
 
 **Concurrency control**: All workflows use the same `translation` concurrency group to prevent simultaneous execution, ensuring commits remain clear and separate.
 
+### GitHub Actions Shared Package
+
+The project includes a shared package (`@pat-actions/shared`) that provides common utilities for GitHub Actions:
+
+**Location**: `.github/actions/shared/`
+
+**Purpose**: 
+- Eliminates code duplication across multiple composite actions
+- Provides GitHub API retry logic with exponential backoff
+- Handles rate limits (403, 429) and server errors (5xx)
+
+**Contents**:
+- `github-retry.cjs`: Retry wrapper for GitHub API calls with automatic exponential backoff
+- Backoff intervals: [1s, 2s, 8s, 10s, 60s]
+- Respects `Retry-After` headers
+
+**Usage in composite actions**:
+```json
+{
+  "dependencies": {
+    "@pat-actions/shared": "file:../shared"
+  }
+}
+```
+
+```javascript
+const { githubApiRetry } = require('@pat-actions/shared');
+
+// Wrap GitHub API calls with automatic retry
+const result = await githubApiRetry(() => github.rest.issues.create({...}));
+```
+
+**Actions using the shared package**:
+- `create-untranslated-issues`: Creates GitHub issues for translation refusals
+- `close-translation-issues`: Closes resolved translation refusal issues
+
+**Maintenance**: 
+- This is a local npm package using the `file:` protocol
+- Changes are automatically picked up when actions run `npm ci`
+- See `.github/actions/shared/README.md` for details
+
 ### Code Style Guidelines
 
 **Important**: All code comments and test names should be written in Korean.

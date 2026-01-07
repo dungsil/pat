@@ -2,6 +2,45 @@
 
 프로젝트의 주요 변경 사항 및 개선 사항을 기록합니다.
 
+## 2026년 1월
+
+### GitHub Actions 공유 패키지 생성
+**날짜:** 2026-01-02
+
+**추가:**
+- `@pat-actions/shared` npm 패키지 생성으로 GitHub Actions 코드 중복 제거
+- 로컬 npm 패키지로 구현 (`file:` 프로토콜 사용)
+- 공유 패키지 구조:
+  - `github-retry.cjs`: GitHub API 재시도 로직 (기존 코드 통합)
+  - `index.js`: 패키지 엔트리 포인트
+  - `package.json`: 패키지 메타데이터
+  - `README.md`: 사용 문서
+
+**개선:**
+- Node.js 모듈 해석 문제 해결
+- GitHub Actions에서 안정적인 모듈 import
+- 코드 유지보수성 향상
+- 재사용 가능한 유틸리티 구조
+
+**영향:**
+- `create-untranslated-issues` 액션: 공유 패키지 사용으로 전환
+- `close-translation-issues` 액션: 공유 패키지 사용으로 전환
+
+**관련 파일:**
+- `.github/actions/shared/` (신규 디렉토리)
+- `.github/actions/shared/github-retry.cjs` (이동)
+- `.github/actions/shared/package.json` (신규)
+- `.github/actions/shared/README.md` (신규)
+- `.github/actions/create-untranslated-issues/package.json` (수정)
+- `.github/actions/close-translation-issues/package.json` (수정)
+
+**기술적 세부사항:**
+- 로컬 npm 패키지는 `npm ci` 실행 시 자동으로 설치됨
+- 공유 패키지 변경 시 모든 의존 액션에 자동 반영
+- 버전 관리 불필요 (로컬 파일 참조)
+
+---
+
 ## 2025년 12월
 
 ### GitHub Actions 재시도 로직 추가
