@@ -48,7 +48,13 @@ jobs:
         with:
           commit_options: '--signoff'
           commit_message: "chore(ck3): 번역 파일 업데이트 [skip ci]"
-          commit_user_name: 'github-actions[bot]'
-          commit_user_email: '41898282+github-actions[bot]@users.noreply.github.com'
-          commit_author: 'dungsil <39783731+dungsil@users.noreply.github.com>'
-    
+          pull_options: '--rebase --autostash'
+      - name: Create issue for untranslated items
+        if: always()
+        uses: ./.github/actions/create-untranslated-issues
+        with:
+          game: ck3
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Check translation result
+        if: steps.translate.outcome == 'failure'
+        run: exit 1
