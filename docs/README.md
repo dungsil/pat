@@ -4,9 +4,10 @@ Paradox Interactive 게임 모드 자동 번역 도구에 대한 종합 문서�
 
 이 문서는 프로젝트의 모든 측면을 다루며, 초보자부터 고급 개발자까지 모두를 위한 정보를 제공합니다.
 
-## 🆕 최근 업데이트 (2025-12)
+## 🆕 최근 업데이트 (2026-01)
 
 **주요 개선 사항:**
+- **GitHub Actions 공유 패키지** (2026-01-02): `@pat-actions/shared` 패키지 생성으로 코드 중복 제거, Node.js 모듈 해석 문제 해결
 - **버전 전략 기능** (2025-12-21): `meta.toml`에서 `version_strategy` 필드 지원 (semantic/natural/default), 모드별 버전 선택 방식 제어
 - **GitHub Actions 재시도 로직** (2025-12-21): 403/429 에러 자동 재시도, API rate limit 대응 강화
 - **YAML 파서 최적화** (2025-12-18): 불필요한 재번역 방지, Paradox 형식 후행 텍스트 지원
@@ -274,6 +275,8 @@ translation-pipeline.md → caching.md → validation.md
 ## ⚠️ 중요 공지
 
 ### 최신 업데이트
+- **2026-01-05**: 주간 문서 현행화 (GitHub Actions 공유 패키지 반영)
+- **2026-01-02**: GitHub Actions 공유 패키지 생성, Node.js 모듈 해석 개선
 - **2025-12-22**: 주간 문서 현행화 (버전 전략, GitHub Actions 재시도, YAML 파서 최적화 등 반영)
 - **2025-12-21**: 버전 전략 기능 추가 (semantic/natural/default), GitHub Actions 재시도 로직
 - **2025-12-18**: YAML 파서 최적화, 번역 거부 처리 개선, 대문자 포맷팅 태그 지원
@@ -300,4 +303,4 @@ translation-pipeline.md → caching.md → validation.md
 
 ---
 
-**최종 업데이트:** 2025-12-22 | **문서 버전:** 1.3.0
+**최종 업데이트:** 2026-01-05 | **문서 버전:** 1.4.0
