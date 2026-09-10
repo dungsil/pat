@@ -1,5 +1,4 @@
 ﻿l_korean:
-# PAT verified upstream: abff49a
   dlc_tech_res: "기술 및 연구" # 1062450317642946545
   dlc_tech_res_desc: "테크 & 레스는 1836년부터 1990년대, 그 이후까지 새로운 시대, 생산 기술 및 산업 역학을 포함한 심오하고 몰입감 있는 기술 발전 시스템을 추가하는 모드입니다." # 8384328505110313641
   dubois_state_trait_volcano: "화산" # 6792708077593121795
@@ -278,9 +277,7 @@
   ship_type_modern_battleship: "현대식 전함" # 2447851262823356905
   ship_type_modern_battleship_desc: "후기 전함 개조 철학을 극한으로 끌어올린 함선으로, 두꺼운 장갑, 대구경 함포, 유도 무기, 현대적 지휘 체계를 갖추고 있습니다." # 3610255583372770132
   ship_type_nuclear_carrier: "현대식 항공모함" # 6115740107773526426
-  ship_type_nuclear_carrier_desc: "장기간의 파병을 위해 대양 전역에 항공 전력을 투사할 수 있는 현대식 항공모함입니다. 항속 거리를 늘리기 위해 #i 원자력 추진#! 방식을 채택할 수도 있습니다." # 7505838519474130615
   ship_type_nuclear_submarine: "현대식 잠수함" # 17073630598133626773
-  ship_type_nuclear_submarine_desc: "긴 작전 지속 능력, 낮은 피탐지성, 전략 유도 미사일 운용 능력을 갖춘 현대식 잠수함입니다. 항속 거리를 늘리기 위해 #i 원자력 추진#! 방식을 채택할 수도 있습니다." # 9673238374713532094
   ship_type_modern_troop_ship: "현대식 병력 수송선" # 15313071341504822401
   ship_type_modern_troop_ship_desc: "병력의 신속한 전개, 상륙 작전, 원양 군사 물류를 위해 설계된 개량형 현대식 원양 수송선입니다." # 11558279471461991840
   ship_mod_slot_electronics: "전자 장비" # 8906035645440450140
@@ -375,3 +372,22 @@
   ship_battle_against_ship_type_modern_battleship_hull_damage_mult: "$ship_type_modern_battleship$ $ship_hull_damage_mult$" # 6770527056498783858
   ship_battle_against_ship_type_nuclear_carrier_hull_damage_mult: "$ship_type_nuclear_carrier$ $ship_hull_damage_mult$" # 5135717934562003711
   ship_battle_against_ship_type_nuclear_submarine_hull_damage_mult: "$ship_type_nuclear_submarine$ $ship_hull_damage_mult$" # 9742212741387262396
+  ztr_research_center_progress_modifier: "Research Center Programmes"
+  ship_mod_slot_electronics_button_0: "Basic"
+  ship_mod_slot_electronics_button_1: "Advanced"
+  ship_mod_slot_electronics_button_2: "Integrated"
+  ship_mod_slot_missiles_button_0: "Light"
+  ship_mod_slot_missiles_button_1: "Medium"
+  ship_mod_slot_missiles_button_2: "Heavy"
+  ship_battle_against_ship_type_modern_destroyer_accuracy_mult_desc: "$ship_accuracy_add_desc$"
+  ship_battle_against_ship_type_modern_cruiser_accuracy_mult_desc: "$ship_accuracy_add_desc$"
+  ship_battle_against_ship_type_modern_battleship_accuracy_mult_desc: "$ship_accuracy_add_desc$"
+  ship_battle_against_ship_type_nuclear_carrier_accuracy_mult_desc: "$ship_accuracy_add_desc$"
+  ship_battle_against_ship_type_nuclear_submarine_accuracy_mult_desc: "$ship_accuracy_add_desc$"
+  ship_battle_against_ship_type_modern_destroyer_hull_damage_mult_desc: "$ship_hull_damage_add_desc$"
+  ship_battle_against_ship_type_modern_cruiser_hull_damage_mult_desc: "$ship_hull_damage_add_desc$"
+  ship_battle_against_ship_type_modern_battleship_hull_damage_mult_desc: "$ship_hull_damage_add_desc$"
+  ship_battle_against_ship_type_nuclear_carrier_hull_damage_mult_desc: "$ship_hull_damage_add_desc$"
+  ship_battle_against_ship_type_nuclear_submarine_hull_damage_mult_desc: "$ship_hull_damage_add_desc$"
+  ship_type_nuclear_carrier_desc: "A modern carrier able to project air power across oceans for extended deployments. It can also be #i Nuclear-Powered#! for extended range."
+  ship_type_nuclear_submarine_desc: "A modern submarine with long endurance, low visibility, and strategic guided missile capability. It can also be #i Nuclear-Powered#! for extended range."
